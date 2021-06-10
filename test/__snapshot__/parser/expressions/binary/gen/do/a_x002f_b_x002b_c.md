@@ -94,7 +94,7 @@ do a / b + c while (x);
                 "start": 2,
                 "end": 12
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 23
         }

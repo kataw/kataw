@@ -129,7 +129,7 @@ for ({[a]: ""[b] = c} of d) {}
                 "start": 27,
                 "end": 30
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 30
         }

@@ -80,9 +80,9 @@ async x => (return) = 1
                 "start": 18,
                 "end": 18
             },
-            "flags": 16,
-            "start": 0,
-            "end": 12
+            "flags": 80,
+            "start": 12,
+            "end": 18
         },
         {
             "kind": 120,

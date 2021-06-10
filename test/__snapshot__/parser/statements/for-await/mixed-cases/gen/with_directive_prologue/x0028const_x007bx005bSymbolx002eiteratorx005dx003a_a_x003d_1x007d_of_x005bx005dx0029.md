@@ -225,7 +225,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                 "start": 92,
                                 "end": 94
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 41,
                             "end": 94
                         }

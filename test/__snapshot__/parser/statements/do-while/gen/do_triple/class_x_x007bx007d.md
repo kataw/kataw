@@ -118,15 +118,15 @@ do do do class x {} while while while
                         "start": 8,
                         "end": 19
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 5,
                     "end": 25
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 37
         }

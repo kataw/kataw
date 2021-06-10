@@ -1668,7 +1668,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2270,
                 "end": 2271
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1983,
             "end": 2271
         },
@@ -1723,7 +1723,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2285,
                 "end": 2286
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2271,
             "end": 2286
         },
@@ -1794,7 +1794,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2303,
                 "end": 2304
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2286,
             "end": 2304
         },
@@ -1850,7 +1850,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2318,
                 "end": 2319
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2304,
             "end": 2319
         },
@@ -1890,7 +1890,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2425,
                 "end": 2426
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2319,
             "end": 2426
         },
@@ -1931,7 +1931,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2438,
                 "end": 2439
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2426,
             "end": 2439
         },
@@ -2007,7 +2007,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2780,
                 "end": 2781
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2439,
             "end": 2781
         },
@@ -2068,7 +2068,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2797,
                 "end": 2798
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2781,
             "end": 2798
         },
@@ -2145,7 +2145,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2817,
                 "end": 2818
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2798,
             "end": 2818
         },
@@ -2207,7 +2207,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2834,
                 "end": 2835
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2818,
             "end": 2835
         },
@@ -2253,7 +2253,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2849,
                 "end": 2850
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2835,
             "end": 2850
         },
@@ -2300,7 +2300,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 2864,
                 "end": 2865
             },
-            "flags": 16,
+            "flags": 81,
             "start": 2850,
             "end": 2865
         },
@@ -2675,7 +2675,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             },
                                                                             "elseKeyword": null,
                                                                             "alternate": null,
-                                                                            "flags": 16,
+                                                                            "flags": 80,
                                                                             "start": 3196,
                                                                             "end": 3217
                                                                         }
@@ -2952,7 +2952,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 32,
                 "end": 3297
             },
-            "flags": 16,
+            "flags": 17,
             "start": 3226,
             "end": 3297
         },
@@ -3181,7 +3181,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 32,
                 "end": 3369
             },
-            "flags": 16,
+            "flags": 17,
             "start": 3297,
             "end": 3369
         },
@@ -3410,7 +3410,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 32,
                 "end": 3444
             },
-            "flags": 16,
+            "flags": 17,
             "start": 3369,
             "end": 3444
         },
@@ -3648,7 +3648,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 32,
                 "end": 3520
             },
-            "flags": 16,
+            "flags": 17,
             "start": 3444,
             "end": 3520
         },
@@ -4133,7 +4133,7 @@ try {} catch(e) { for(var e of 0); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 4348,
             "end": 4500
         },
@@ -4242,7 +4242,7 @@ try {} catch(e) { for(var e of 0); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 4500,
             "end": 4537
         },
@@ -4341,7 +4341,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4570,
                 "end": 4572
             },
-            "flags": 16,
+            "flags": 81,
             "start": 4537,
             "end": 4572
         },
@@ -4440,7 +4440,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4585,
                 "end": 4607
             },
-            "flags": 16,
+            "flags": 81,
             "start": 4572,
             "end": 4607
         },
@@ -5552,7 +5552,7 @@ try {} catch(e) { for(var e of 0); };
                     "start": 5253,
                     "end": 5264
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 5244,
                 "end": 5264
             },
@@ -5666,7 +5666,7 @@ try {} catch(e) { for(var e of 0); };
                     "start": 5281,
                     "end": 5300
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 5272,
                 "end": 5300
             },
@@ -5778,7 +5778,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 5615,
                                     "end": 5616
                                 },
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 5599,
                                 "end": 5616
                             }
@@ -5791,7 +5791,7 @@ try {} catch(e) { for(var e of 0); };
                     "start": 5597,
                     "end": 5618
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 5588,
                 "end": 5618
             },

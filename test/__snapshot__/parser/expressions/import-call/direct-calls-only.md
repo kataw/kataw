@@ -77,9 +77,9 @@ function failsParse() {
                                 "start": 39,
                                 "end": 40
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 23
+                            "flags": 81,
+                            "start": 23,
+                            "end": 40
                         },
                         {
                             "kind": 120,

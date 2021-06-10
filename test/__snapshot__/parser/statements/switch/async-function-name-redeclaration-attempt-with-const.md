@@ -171,7 +171,7 @@ switch (0) { case 1: async function f() {} default: const f = 0 }
                 "start": 10,
                 "end": 65
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 65
         }

@@ -70,9 +70,9 @@ return async (await) => {};
                 "start": 6,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
-            "end": 0
+            "end": 27
         }
     ],
     "isModule": false,

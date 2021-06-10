@@ -142,7 +142,7 @@ function *f(){   for (yield x in y in z);   }
                                 "start": 40,
                                 "end": 41
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 14,
                             "end": 41
                         }

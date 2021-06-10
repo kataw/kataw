@@ -97,7 +97,7 @@ async x => catch = 1
                     "start": 16,
                     "end": 16
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 10,
                 "end": 16
             },

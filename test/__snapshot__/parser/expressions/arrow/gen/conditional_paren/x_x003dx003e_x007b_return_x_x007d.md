@@ -93,9 +93,9 @@ bar ? baz : ( x => { return x; } );
                                             "start": 27,
                                             "end": 29
                                         },
-                                        "flags": 16,
-                                        "start": 0,
-                                        "end": 20
+                                        "flags": 80,
+                                        "start": 20,
+                                        "end": 30
                                     }
                                 ],
                                 "flags": 32,

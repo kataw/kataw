@@ -150,7 +150,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "start": 39,
                 "end": 42
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 42
         },
@@ -287,7 +287,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "start": 83,
                 "end": 86
             },
-            "flags": 16,
+            "flags": 80,
             "start": 43,
             "end": 86
         },

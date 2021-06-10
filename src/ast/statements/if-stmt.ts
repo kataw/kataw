@@ -20,6 +20,7 @@ export function createIfStatement(
   consequent: StatementNode,
   elseKeyword: SyntaxToken<TokenSyntaxKind> | null,
   alternate: StatementNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): IfStatement {
@@ -30,7 +31,7 @@ export function createIfStatement(
     consequent,
     elseKeyword,
     alternate,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

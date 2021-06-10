@@ -54,7 +54,7 @@ do[ catch { try
                 "start": 2,
                 "end": 3
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 3
         },
@@ -137,7 +137,7 @@ do[ catch { try
                     "start": 9,
                     "end": 15
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 3,
                 "end": 15
             },

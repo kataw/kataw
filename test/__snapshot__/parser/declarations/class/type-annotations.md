@@ -210,7 +210,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 48
             },
-            "flags": 16,
+            "flags": 17,
             "start": 16,
             "end": 48
         },
@@ -313,7 +313,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 84
             },
-            "flags": 16,
+            "flags": 17,
             "start": 48,
             "end": 84
         },
@@ -437,7 +437,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 131
             },
-            "flags": 16,
+            "flags": 17,
             "start": 84,
             "end": 131
         },
@@ -572,7 +572,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 184
             },
-            "flags": 16,
+            "flags": 17,
             "start": 131,
             "end": 184
         },
@@ -677,7 +677,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 226
             },
-            "flags": 16,
+            "flags": 17,
             "start": 184,
             "end": 226
         },
@@ -789,7 +789,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 257
             },
-            "flags": 16,
+            "flags": 17,
             "start": 226,
             "end": 257
         },
@@ -908,7 +908,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 314
             },
-            "flags": 16,
+            "flags": 17,
             "start": 257,
             "end": 314
         },
@@ -1022,7 +1022,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 365
             },
-            "flags": 16,
+            "flags": 17,
             "start": 314,
             "end": 365
         },
@@ -1161,7 +1161,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 415
             },
-            "flags": 16,
+            "flags": 17,
             "start": 365,
             "end": 415
         }

@@ -104,9 +104,9 @@
                                                         "end": 35
                                                     },
                                                     "expression": null,
-                                                    "flags": 16,
-                                                    "start": 0,
-                                                    "end": 28
+                                                    "flags": 80,
+                                                    "start": 28,
+                                                    "end": 35
                                                 }
                                             ],
                                             "flags": 32,

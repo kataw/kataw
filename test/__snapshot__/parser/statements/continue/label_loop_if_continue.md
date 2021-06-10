@@ -85,11 +85,11 @@ foo: while(z) if (x) continue foo
                     },
                     "elseKeyword": null,
                     "alternate": null,
-                    "flags": 16,
+                    "flags": 80,
                     "start": 13,
                     "end": 33
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 33
             },

@@ -265,9 +265,9 @@ function *infer_stmt() {
                                 "start": 150,
                                 "end": 152
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 141
+                            "flags": 81,
+                            "start": 141,
+                            "end": 153
                         }
                     ],
                     "flags": 33,
@@ -401,9 +401,9 @@ function *infer_stmt() {
                                 "start": 226,
                                 "end": 229
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 217
+                            "flags": 81,
+                            "start": 217,
+                            "end": 230
                         }
                     ],
                     "flags": 33,
@@ -607,9 +607,9 @@ function *infer_stmt() {
                                 "start": 295,
                                 "end": 298
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 286
+                            "flags": 81,
+                            "start": 286,
+                            "end": 299
                         }
                     ],
                     "flags": 33,

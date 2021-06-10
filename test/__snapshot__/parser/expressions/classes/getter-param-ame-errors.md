@@ -136,7 +136,7 @@ class C { get name(private) {} }
                 "start": 32,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 35
         },
@@ -239,7 +239,7 @@ class C { get name(private) {} }
                 "start": 32,
                 "end": 68
             },
-            "flags": 16,
+            "flags": 17,
             "start": 35,
             "end": 68
         },
@@ -342,7 +342,7 @@ class C { get name(private) {} }
                 "start": 32,
                 "end": 102
             },
-            "flags": 16,
+            "flags": 17,
             "start": 68,
             "end": 102
         },

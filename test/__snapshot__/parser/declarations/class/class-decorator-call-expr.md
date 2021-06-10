@@ -61,7 +61,7 @@ class Foo {}
                             "start": 1,
                             "end": 11
                         },
-                        "flags": 1,
+                        "flags": 0,
                         "start": 1,
                         "end": 11
                     }
@@ -99,7 +99,7 @@ class Foo {}
                 "start": 32,
                 "end": 24
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 24
         }

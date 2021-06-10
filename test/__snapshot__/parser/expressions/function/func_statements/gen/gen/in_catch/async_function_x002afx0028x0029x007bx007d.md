@@ -129,7 +129,7 @@ try {
                     "start": 17,
                     "end": 45
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 7,
                 "end": 45
             },

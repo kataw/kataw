@@ -84,7 +84,7 @@ if (a) let [x] = y
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 18
         }

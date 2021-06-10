@@ -95,9 +95,9 @@ function *f() {  return typeof yield foo;  }
                                 "start": 23,
                                 "end": 40
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 15
+                            "flags": 80,
+                            "start": 15,
+                            "end": 41
                         }
                     ],
                     "flags": 32,

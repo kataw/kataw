@@ -149,7 +149,7 @@ class Bar {
                             "start": 1,
                             "end": 35
                         },
-                        "flags": 1,
+                        "flags": 0,
                         "start": 1,
                         "end": 35
                     }
@@ -187,7 +187,7 @@ class Bar {
                 "start": 32,
                 "end": 50
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 50
         }

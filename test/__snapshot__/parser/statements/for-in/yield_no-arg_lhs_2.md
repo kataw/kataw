@@ -115,7 +115,7 @@ function *f(){   for (yield in y);   }
                                 "start": 33,
                                 "end": 34
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 14,
                             "end": 34
                         }

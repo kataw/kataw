@@ -163,7 +163,7 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                 "start": 9,
                 "end": 75
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 75
         }

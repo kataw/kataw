@@ -103,7 +103,7 @@ class x extends do {}
                 "start": 18,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 80,
             "start": 15,
             "end": 21
         }

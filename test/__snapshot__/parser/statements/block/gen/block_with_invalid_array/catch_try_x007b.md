@@ -81,7 +81,7 @@
                                 "start": 8,
                                 "end": 8
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 3,
                             "end": 8
                         },
@@ -138,7 +138,7 @@
                     "start": 15,
                     "end": 15
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 9,
                 "end": 15
             },

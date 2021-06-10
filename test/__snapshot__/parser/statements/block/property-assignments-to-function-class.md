@@ -62,7 +62,7 @@ FooBar.bar = 1;
                             "start": 32,
                             "end": 14
                         },
-                        "flags": 16,
+                        "flags": 17,
                         "start": 1,
                         "end": 14
                     },

@@ -120,9 +120,9 @@ function test1() {
                                                 "start": 54,
                                                 "end": 57
                                             },
-                                            "flags": 16,
-                                            "start": 1,
-                                            "end": 43
+                                            "flags": 81,
+                                            "start": 43,
+                                            "end": 58
                                         }
                                     ],
                                     "flags": 33,

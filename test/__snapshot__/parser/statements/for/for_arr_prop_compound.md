@@ -106,7 +106,7 @@ for ([].w ^= s;;) x;
                 "start": 17,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 20
         }

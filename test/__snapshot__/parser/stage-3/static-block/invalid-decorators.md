@@ -129,7 +129,7 @@ class C {
                                             "start": 31,
                                             "end": 34
                                         },
-                                        "flags": 1,
+                                        "flags": 0,
                                         "start": 31,
                                         "end": 34
                                     }

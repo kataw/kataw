@@ -139,7 +139,7 @@ async function f() { for await ([a] = 1 of []) ; }
                                 "start": 46,
                                 "end": 48
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 20,
                             "end": 48
                         }

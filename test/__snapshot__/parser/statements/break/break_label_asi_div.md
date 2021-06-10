@@ -63,7 +63,7 @@ x: for(;;) break x
                     "start": 10,
                     "end": 18
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 18
             },

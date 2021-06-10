@@ -75,7 +75,7 @@ for (let a, ...b = 1;;);
                 "start": 11,
                 "end": 11
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 11
         },

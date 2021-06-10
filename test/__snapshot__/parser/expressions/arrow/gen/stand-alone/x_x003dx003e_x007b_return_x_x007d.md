@@ -61,9 +61,9 @@ x => { return x; } ;
                                     "start": 13,
                                     "end": 15
                                 },
-                                "flags": 16,
-                                "start": 0,
-                                "end": 6
+                                "flags": 80,
+                                "start": 6,
+                                "end": 16
                             }
                         ],
                         "flags": 32,

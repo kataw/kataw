@@ -715,7 +715,7 @@ var stringArr:Array<string> = ['a','b'];
                 "start": 32,
                 "end": 264
             },
-            "flags": 16,
+            "flags": 17,
             "start": 147,
             "end": 264
         },
@@ -913,7 +913,7 @@ var stringArr:Array<string> = ['a','b'];
                 "start": 32,
                 "end": 349
             },
-            "flags": 16,
+            "flags": 17,
             "start": 264,
             "end": 349
         },
@@ -1185,9 +1185,9 @@ var stringArr:Array<string> = ['a','b'];
                                                     "start": 470,
                                                     "end": 483
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 455
+                                                "flags": 81,
+                                                "start": 455,
+                                                "end": 484
                                             }
                                         ],
                                         "flags": 33,
@@ -1215,7 +1215,7 @@ var stringArr:Array<string> = ['a','b'];
                 "start": 32,
                 "end": 492
             },
-            "flags": 16,
+            "flags": 17,
             "start": 349,
             "end": 492
         },

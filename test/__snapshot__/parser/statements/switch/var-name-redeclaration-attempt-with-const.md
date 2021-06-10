@@ -157,7 +157,7 @@ switch (0) { case 1: var f; default: const f = 0 }
                 "start": 10,
                 "end": 50
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 50
         }

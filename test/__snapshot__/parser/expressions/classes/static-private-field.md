@@ -162,7 +162,7 @@ class A {
                 "start": 32,
                 "end": 68
             },
-            "flags": 16,
+            "flags": 17,
             "start": 30,
             "end": 68
         }

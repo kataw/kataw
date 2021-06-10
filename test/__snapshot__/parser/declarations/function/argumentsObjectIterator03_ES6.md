@@ -332,9 +332,9 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                             "start": 130,
                             "end": 140
                         },
-                        "flags": 16,
-                        "start": 1,
-                        "end": 118
+                        "flags": 81,
+                        "start": 118,
+                        "end": 141
                     }
                 ],
                 "flags": 17,

@@ -110,7 +110,7 @@ switch([x = y]) { case y: foo }
                 "start": 15,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 31
         }

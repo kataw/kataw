@@ -117,7 +117,7 @@ function *f(){ for (yield of obj); }
                                 "start": 33,
                                 "end": 34
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 14,
                             "end": 34
                         }

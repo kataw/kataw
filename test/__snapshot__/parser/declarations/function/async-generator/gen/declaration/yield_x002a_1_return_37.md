@@ -111,9 +111,9 @@ async function * gen() {yield * 1; return 37}
                                 "start": 41,
                                 "end": 44
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 34
+                            "flags": 80,
+                            "start": 34,
+                            "end": 44
                         }
                     ],
                     "flags": 32,

@@ -140,7 +140,7 @@ async (x = delete ((while) = f)) => {}
                 "start": 26,
                 "end": 30
             },
-            "flags": 16,
+            "flags": 80,
             "start": 20,
             "end": 30
         },

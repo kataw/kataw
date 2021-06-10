@@ -115,7 +115,7 @@ try {
                     "start": 17,
                     "end": 36
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 7,
                 "end": 36
             },

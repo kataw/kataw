@@ -226,13 +226,13 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "start": 73,
                                     "end": 75
                                 },
-                                "flags": 16,
-                                "start": 1,
-                                "end": 66
+                                "flags": 80,
+                                "start": 66,
+                                "end": 76
                             },
                             "elseKeyword": null,
                             "alternate": null,
-                            "flags": 16,
+                            "flags": 81,
                             "start": 51,
                             "end": 76
                         },
@@ -288,13 +288,13 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "start": 98,
                                     "end": 100
                                 },
-                                "flags": 16,
-                                "start": 1,
-                                "end": 91
+                                "flags": 80,
+                                "start": 91,
+                                "end": 101
                             },
                             "elseKeyword": null,
                             "alternate": null,
-                            "flags": 16,
+                            "flags": 81,
                             "start": 76,
                             "end": 101
                         },
@@ -314,9 +314,9 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "start": 110,
                                 "end": 112
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 101
+                            "flags": 81,
+                            "start": 101,
+                            "end": 113
                         }
                     ],
                     "flags": 33,
@@ -481,7 +481,8 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
 function f(y, z, w) {
   if (n === 0) return  y;
   if (n === 1) return  z;
-  return  w;
+  return  w; // nope
+
 }
 ```
 

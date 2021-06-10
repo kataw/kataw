@@ -76,9 +76,9 @@ function f(){ return --a; }
                                 "start": 20,
                                 "end": 24
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 13
+                            "flags": 80,
+                            "start": 13,
+                            "end": 25
                         }
                     ],
                     "flags": 32,

@@ -113,7 +113,7 @@ for ([a, my_var, b] in {}) { my_var; }
                 "start": 26,
                 "end": 38
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 38
         }

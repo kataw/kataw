@@ -148,7 +148,7 @@ function *f(x = delete ((do) = f)) {}
                 "start": 27,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 80,
             "start": 25,
             "end": 28
         },

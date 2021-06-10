@@ -57,7 +57,7 @@ do let
                 "start": 2,
                 "end": 6
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 9
         },
@@ -83,7 +83,7 @@ do let
                 "start": 19,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 80,
             "start": 9,
             "end": 20
         }

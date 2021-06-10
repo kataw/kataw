@@ -216,7 +216,7 @@ class C { [super.bbb] = 0 };
                 "start": 32,
                 "end": 63
             },
-            "flags": 16,
+            "flags": 17,
             "start": 28,
             "end": 63
         },
@@ -338,7 +338,7 @@ class C { [super.bbb] = 0 };
                 "start": 32,
                 "end": 105
             },
-            "flags": 16,
+            "flags": 17,
             "start": 64,
             "end": 105
         },
@@ -434,7 +434,7 @@ class C { [super.bbb] = 0 };
                 "start": 32,
                 "end": 135
             },
-            "flags": 16,
+            "flags": 17,
             "start": 106,
             "end": 135
         },

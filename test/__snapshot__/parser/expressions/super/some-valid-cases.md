@@ -208,7 +208,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 50
             },
-            "flags": 16,
+            "flags": 17,
             "start": 21,
             "end": 50
         },
@@ -350,7 +350,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 100
             },
-            "flags": 16,
+            "flags": 17,
             "start": 50,
             "end": 100
         },
@@ -472,7 +472,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 140
             },
-            "flags": 16,
+            "flags": 17,
             "start": 100,
             "end": 140
         },
@@ -594,7 +594,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 172
             },
-            "flags": 16,
+            "flags": 17,
             "start": 140,
             "end": 172
         },
@@ -727,7 +727,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 204
             },
-            "flags": 16,
+            "flags": 17,
             "start": 172,
             "end": 204
         },
@@ -982,7 +982,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 273
             },
-            "flags": 16,
+            "flags": 17,
             "start": 232,
             "end": 273
         },
@@ -1104,7 +1104,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 306
             },
-            "flags": 16,
+            "flags": 17,
             "start": 273,
             "end": 306
         },
@@ -1237,7 +1237,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 339
             },
-            "flags": 16,
+            "flags": 17,
             "start": 306,
             "end": 339
         },
@@ -1652,9 +1652,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "start": 438,
                                                     "end": 455
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 431
+                                                "flags": 80,
+                                                "start": 431,
+                                                "end": 456
                                             }
                                         ],
                                         "flags": 32,
@@ -1682,7 +1682,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 459
             },
-            "flags": 16,
+            "flags": 17,
             "start": 395,
             "end": 459
         },
@@ -1816,9 +1816,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "start": 502,
                                                     "end": 519
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 495
+                                                "flags": 80,
+                                                "start": 495,
+                                                "end": 520
                                             }
                                         ],
                                         "flags": 32,
@@ -1846,7 +1846,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 523
             },
-            "flags": 16,
+            "flags": 17,
             "start": 459,
             "end": 523
         },
@@ -1960,9 +1960,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "start": 547,
                                                     "end": 563
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 540
+                                                "flags": 80,
+                                                "start": 540,
+                                                "end": 564
                                             }
                                         ],
                                         "flags": 32,
@@ -1990,7 +1990,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 567
             },
-            "flags": 16,
+            "flags": 17,
             "start": 523,
             "end": 567
         },
@@ -2130,9 +2130,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "start": 593,
                                                     "end": 612
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 586
+                                                "flags": 80,
+                                                "start": 586,
+                                                "end": 613
                                             }
                                         ],
                                         "flags": 32,
@@ -2160,7 +2160,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "start": 32,
                 "end": 616
             },
-            "flags": 16,
+            "flags": 17,
             "start": 567,
             "end": 616
         }

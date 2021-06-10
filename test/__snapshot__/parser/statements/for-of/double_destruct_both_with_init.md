@@ -126,7 +126,7 @@ for (let {x = y, z = a} of obj);
                 "start": 31,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 32
         }

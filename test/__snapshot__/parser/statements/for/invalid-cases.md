@@ -73,7 +73,7 @@ for ({x = y} ;;) {}
                 "start": 13,
                 "end": 14
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 14
         },
@@ -151,7 +151,7 @@ for ({x = y} ;;) {}
                 "start": 35,
                 "end": 38
             },
-            "flags": 16,
+            "flags": 81,
             "start": 14,
             "end": 38
         },
@@ -215,7 +215,7 @@ for ({x = y} ;;) {}
                 "start": 56,
                 "end": 59
             },
-            "flags": 16,
+            "flags": 81,
             "start": 38,
             "end": 59
         }

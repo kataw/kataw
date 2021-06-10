@@ -80,7 +80,7 @@ try {} catch([e]=x){}
                     "start": 16,
                     "end": 16
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 16
             },

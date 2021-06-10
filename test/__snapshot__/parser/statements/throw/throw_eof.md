@@ -31,7 +31,7 @@ throw foo
                 "start": 5,
                 "end": 9
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 9
         }

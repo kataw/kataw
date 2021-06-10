@@ -71,7 +71,7 @@ try {} catch(#private){}
                     "start": 22,
                     "end": 24
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 24
             },

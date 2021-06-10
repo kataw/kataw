@@ -140,7 +140,7 @@ async function f(){
                                                     },
                                                     "elseKeyword": null,
                                                     "alternate": null,
-                                                    "flags": 16,
+                                                    "flags": 80,
                                                     "start": 44,
                                                     "end": 57
                                                 }
@@ -191,7 +191,7 @@ async function f(){
                                 "start": 70,
                                 "end": 71
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 19,
                             "end": 71
                         }

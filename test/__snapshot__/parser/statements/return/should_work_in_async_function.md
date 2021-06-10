@@ -62,9 +62,9 @@ async function f(){ return; }
                                 "end": 26
                             },
                             "expression": null,
-                            "flags": 16,
-                            "start": 0,
-                            "end": 19
+                            "flags": 80,
+                            "start": 19,
+                            "end": 27
                         }
                     ],
                     "flags": 32,

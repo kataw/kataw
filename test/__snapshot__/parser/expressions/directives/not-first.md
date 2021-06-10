@@ -97,7 +97,7 @@ var x; "use strict"; with (x) y;
                 "start": 29,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 80,
             "start": 20,
             "end": 32
         }

@@ -64,7 +64,7 @@ for (let a;;);
                 "start": 13,
                 "end": 14
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 14
         }

@@ -119,7 +119,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                 "start": 42,
                 "end": 46
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 46
         },

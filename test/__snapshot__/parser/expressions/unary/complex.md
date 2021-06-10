@@ -142,9 +142,9 @@ function x8(a: false & false): false {
                                 "start": 41,
                                 "end": 44
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 32
+                            "flags": 81,
+                            "start": 32,
+                            "end": 45
                         }
                     ],
                     "flags": 33,
@@ -263,9 +263,9 @@ function x8(a: false & false): false {
                                 "start": 126,
                                 "end": 129
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 117
+                            "flags": 81,
+                            "start": 117,
+                            "end": 130
                         }
                     ],
                     "flags": 33,
@@ -384,9 +384,9 @@ function x8(a: false & false): false {
                                 "start": 206,
                                 "end": 209
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 197
+                            "flags": 81,
+                            "start": 197,
+                            "end": 210
                         }
                     ],
                     "flags": 33,
@@ -494,9 +494,9 @@ function x8(a: false & false): false {
                                 "start": 296,
                                 "end": 299
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 287
+                            "flags": 81,
+                            "start": 287,
+                            "end": 300
                         }
                     ],
                     "flags": 33,
@@ -644,9 +644,9 @@ function x8(a: false & false): false {
                                 "start": 372,
                                 "end": 375
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 363
+                            "flags": 81,
+                            "start": 363,
+                            "end": 376
                         }
                     ],
                     "flags": 33,
@@ -801,9 +801,9 @@ function x8(a: false & false): false {
                                 "start": 429,
                                 "end": 432
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 420
+                            "flags": 81,
+                            "start": 420,
+                            "end": 433
                         }
                     ],
                     "flags": 33,
@@ -945,9 +945,9 @@ function x8(a: false & false): false {
                                 "start": 508,
                                 "end": 511
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 499
+                            "flags": 81,
+                            "start": 499,
+                            "end": 512
                         }
                     ],
                     "flags": 33,
@@ -1089,9 +1089,9 @@ function x8(a: false & false): false {
                                 "start": 570,
                                 "end": 573
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 561
+                            "flags": 81,
+                            "start": 561,
+                            "end": 574
                         }
                     ],
                     "flags": 33,
@@ -1141,28 +1141,36 @@ function x8(a: false & false): false {
 ```javascript
 
 function x0(y) {
-  return  +y;
+  return  +y; // ok, + exists solely for coercion
+
 }
 function x1(y) {
-  return  -y;
+  return  -y; // error, we don't allow coercion here
+
 }
 function x3(y) {
-  return  ~y;
+  return  ~y; // error, we don't allow coercion here
+
 }
 function x4(y) {
-  return  !y;
+  return  !y; // ok, coercion is allowed
+
 }
 function x5(a) {
-  return  !a;
+  return  !a; // ok
+
 }
 function x6(a) {
-  return  !a;
+  return  !a; // error, true ~> false
+
 }
 function x7(a) {
-  return  !a;
+  return  !a; // ok
+
 }
 function x8(a) {
-  return  !a;
+  return  !a; // error, true ~> false
+
 }
 
 ```

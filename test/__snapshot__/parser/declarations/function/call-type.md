@@ -112,9 +112,9 @@ function bar(x: X): B { return x; }
                                 "start": 30,
                                 "end": 32
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 23
+                            "flags": 80,
+                            "start": 23,
+                            "end": 33
                         }
                     ],
                     "flags": 32,
@@ -239,9 +239,9 @@ function bar(x: X): B { return x; }
                                 "start": 66,
                                 "end": 68
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 59
+                            "flags": 80,
+                            "start": 59,
+                            "end": 69
                         }
                     ],
                     "flags": 32,

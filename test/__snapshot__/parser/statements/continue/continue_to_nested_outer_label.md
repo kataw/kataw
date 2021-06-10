@@ -81,7 +81,7 @@ foo: bar: while (true) continue foo;
                         "start": 22,
                         "end": 36
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 9,
                     "end": 36
                 },

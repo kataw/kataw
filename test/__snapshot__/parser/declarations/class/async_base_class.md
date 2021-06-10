@@ -420,7 +420,7 @@ async function foo() {
                                 "start": 32,
                                 "end": 156
                             },
-                            "flags": 16,
+                            "flags": 17,
                             "start": 122,
                             "end": 156
                         },
@@ -440,9 +440,9 @@ async function foo() {
                                 "start": 165,
                                 "end": 169
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 156
+                            "flags": 81,
+                            "start": 156,
+                            "end": 170
                         }
                     ],
                     "flags": 33,

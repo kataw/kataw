@@ -71,7 +71,7 @@ foo: do continue foo; while(true)
                     "start": 7,
                     "end": 21
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 33
             },

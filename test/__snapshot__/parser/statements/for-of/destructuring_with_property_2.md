@@ -137,7 +137,7 @@ for ({a: b.c}.foo of d) e
                 "start": 23,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 25
         }

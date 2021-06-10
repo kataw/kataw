@@ -64,7 +64,7 @@ for (new.target in x) ;
                 "start": 21,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 23
         }

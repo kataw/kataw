@@ -145,9 +145,9 @@ class x extends y { fo(){ return () => super[bar]; }}
                                                     "start": 32,
                                                     "end": 49
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 25
+                                                "flags": 80,
+                                                "start": 25,
+                                                "end": 50
                                             }
                                         ],
                                         "flags": 32,

@@ -113,9 +113,9 @@ class Bar {
                                                     "start": 34,
                                                     "end": 40
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 27
+                                                "flags": 80,
+                                                "start": 27,
+                                                "end": 41
                                             }
                                         ],
                                         "flags": 32,

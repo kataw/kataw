@@ -44,7 +44,7 @@ export async
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 12
         }

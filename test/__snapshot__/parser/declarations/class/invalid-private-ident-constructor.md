@@ -175,7 +175,7 @@ class w { static #\u0063onstructor }
                 "start": 32,
                 "end": 55
             },
-            "flags": 16,
+            "flags": 17,
             "start": 24,
             "end": 55
         },
@@ -239,7 +239,7 @@ class w { static #\u0063onstructor }
                 "start": 32,
                 "end": 88
             },
-            "flags": 16,
+            "flags": 17,
             "start": 55,
             "end": 88
         },
@@ -333,7 +333,7 @@ class w { static #\u0063onstructor }
                 "start": 32,
                 "end": 126
             },
-            "flags": 16,
+            "flags": 17,
             "start": 88,
             "end": 126
         },
@@ -418,7 +418,7 @@ class w { static #\u0063onstructor }
                 "start": 32,
                 "end": 164
             },
-            "flags": 16,
+            "flags": 17,
             "start": 126,
             "end": 164
         }

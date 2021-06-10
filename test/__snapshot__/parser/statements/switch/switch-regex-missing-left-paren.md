@@ -41,7 +41,7 @@ switch (/a/i {}
                 "start": 12,
                 "end": 15
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 15
         },
@@ -67,7 +67,7 @@ switch (/a/i {}
                 "start": 28,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 81,
             "start": 15,
             "end": 31
         },
@@ -93,7 +93,7 @@ switch (/a/i {}
                 "start": 45,
                 "end": 48
             },
-            "flags": 16,
+            "flags": 81,
             "start": 31,
             "end": 48
         }

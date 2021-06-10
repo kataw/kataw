@@ -168,7 +168,7 @@ var x, y, z; for (x of { super } = {});
                 "start": 38,
                 "end": 39
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 39
         }

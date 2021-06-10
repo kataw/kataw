@@ -152,9 +152,9 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 57,
                                 "end": 64
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 48
+                            "flags": 81,
+                            "start": 48,
+                            "end": 65
                         }
                     ],
                     "flags": 33,
@@ -388,9 +388,9 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 126,
                                 "end": 139
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 117
+                            "flags": 81,
+                            "start": 117,
+                            "end": 140
                         }
                     ],
                     "flags": 33,
@@ -612,9 +612,9 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 237,
                                 "end": 248
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 228
+                            "flags": 81,
+                            "start": 228,
+                            "end": 249
                         }
                     ],
                     "flags": 33,
@@ -848,9 +848,9 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 313,
                                 "end": 326
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 304
+                            "flags": 81,
+                            "start": 304,
+                            "end": 327
                         }
                     ],
                     "flags": 33,
@@ -954,13 +954,16 @@ function a(x) {
   return  [...x];
 }
 function b(x) {
-  return  [...x, ...x];
+  return  [...x, ...x]; // nope, because X could be a tuple
+
 }
 function c(x) {
-  return  [42, ...x];
+  return  [42, ...x]; // error
+
 }
 function d(x) {
-  return  [...x, ...x];
+  return  [...x, ...x]; // error
+
 }
 ```
 

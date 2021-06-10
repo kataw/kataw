@@ -140,9 +140,9 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                                 "start": 37,
                                 "end": 56
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 30
+                            "flags": 80,
+                            "start": 30,
+                            "end": 57
                         }
                     ],
                     "flags": 32,

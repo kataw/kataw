@@ -132,7 +132,7 @@ class D extends C<O> {
                 "start": 32,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 21
         },
@@ -296,7 +296,7 @@ class D extends C<O> {
                 "start": 32,
                 "end": 67
             },
-            "flags": 16,
+            "flags": 17,
             "start": 21,
             "end": 67
         }

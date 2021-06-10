@@ -88,7 +88,7 @@ switch (true) { default: let x; }
                 "start": 13,
                 "end": 33
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 33
         }

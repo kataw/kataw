@@ -191,9 +191,9 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                     "start": 41,
                                                     "end": 73
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 34
+                                                "flags": 80,
+                                                "start": 34,
+                                                "end": 74
                                             }
                                         ],
                                         "flags": 32,

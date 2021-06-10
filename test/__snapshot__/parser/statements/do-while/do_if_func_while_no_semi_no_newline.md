@@ -102,11 +102,11 @@ do if(8)function s(){}while(y)
                 },
                 "elseKeyword": null,
                 "alternate": null,
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 30
         }

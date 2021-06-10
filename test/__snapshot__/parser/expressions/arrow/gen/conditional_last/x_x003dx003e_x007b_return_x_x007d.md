@@ -72,9 +72,9 @@ bar, x => { return x; };
                                             "start": 18,
                                             "end": 20
                                         },
-                                        "flags": 16,
-                                        "start": 0,
-                                        "end": 11
+                                        "flags": 80,
+                                        "start": 11,
+                                        "end": 21
                                     }
                                 ],
                                 "flags": 32,

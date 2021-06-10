@@ -59,7 +59,7 @@ for (let in in x);
                 "start": 14,
                 "end": 15
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 15
         },
@@ -118,7 +118,7 @@ for (let in in x);
                 "start": 34,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 81,
             "start": 15,
             "end": 35
         }

@@ -80,7 +80,7 @@ if (x) { "use strict"; with (x) y; }
                                 "start": 31,
                                 "end": 34
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 22,
                             "end": 34
                         }
@@ -95,7 +95,7 @@ if (x) { "use strict"; with (x) y; }
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 36
         }

@@ -195,7 +195,7 @@ class B extends A {
                 "start": 32,
                 "end": 67
             },
-            "flags": 16,
+            "flags": 17,
             "start": 10,
             "end": 67
         }

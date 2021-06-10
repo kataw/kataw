@@ -25,9 +25,9 @@ return
                 "end": 6
             },
             "expression": null,
-            "flags": 16,
-            "start": 1,
-            "end": 0
+            "flags": 80,
+            "start": 0,
+            "end": 6
         },
         {
             "kind": 120,

@@ -93,7 +93,7 @@ switch (a) { default: let x }
                 "start": 10,
                 "end": 29
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 29
         }

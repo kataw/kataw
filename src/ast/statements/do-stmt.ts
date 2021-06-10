@@ -18,6 +18,7 @@ export function createDoWhileStatement(
   expression: ExpressionNode,
   whileKeyword: SyntaxToken<TokenSyntaxKind>,
   statement: StatementNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): DoWhileStatement {
@@ -27,7 +28,7 @@ export function createDoWhileStatement(
     expression,
     whileKeyword,
     statement,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

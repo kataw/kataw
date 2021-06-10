@@ -32,7 +32,7 @@ throw /**/\n x;
                 "start": 5,
                 "end": 5
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 5
         },
@@ -51,7 +51,7 @@ throw /**/\n x;
                 "start": 20,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 81,
             "start": 5,
             "end": 20
         },

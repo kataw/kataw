@@ -155,9 +155,9 @@ class x { fo(){ return function() { super.foo; } }}
                                                     "start": 22,
                                                     "end": 48
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 15
+                                                "flags": 80,
+                                                "start": 15,
+                                                "end": 48
                                             }
                                         ],
                                         "flags": 32,

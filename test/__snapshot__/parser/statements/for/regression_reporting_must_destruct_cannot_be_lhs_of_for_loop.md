@@ -95,7 +95,7 @@ for ({x = y} = z;;) {}
                 "start": 19,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 22
         }

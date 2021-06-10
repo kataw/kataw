@@ -67,7 +67,7 @@ if (this \u0069nstanceof Array) {}
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 34
         }

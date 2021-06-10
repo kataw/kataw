@@ -63,7 +63,7 @@ while (a) let
                 "start": 9,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 17
         }

@@ -137,7 +137,7 @@ for(delete((1)?y:x in y) in z)x
                 "start": 30,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 31
         }

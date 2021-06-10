@@ -82,7 +82,7 @@ for await (a of b) let [x]
                 "start": 18,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 26
         }

@@ -138,7 +138,7 @@ export var { x = await foo } = {};
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 16,
+            "flags": 81,
             "start": 12,
             "end": 43
         },
@@ -249,7 +249,7 @@ export var { x = await foo } = {};
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 16,
+            "flags": 81,
             "start": 43,
             "end": 78
         }

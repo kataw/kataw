@@ -96,7 +96,7 @@ for (() => { x in y };;);
                 "start": 24,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 25
         }

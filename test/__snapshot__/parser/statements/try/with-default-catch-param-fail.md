@@ -80,7 +80,7 @@ try { } catch ([a] = []) { }
                     "start": 18,
                     "end": 18
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 7,
                 "end": 18
             },

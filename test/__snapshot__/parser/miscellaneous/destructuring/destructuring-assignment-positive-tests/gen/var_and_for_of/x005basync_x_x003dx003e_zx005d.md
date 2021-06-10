@@ -236,7 +236,7 @@ var x, y, z; for (x of x = [async x => z] = z = {});
                 "start": 51,
                 "end": 52
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 52
         }

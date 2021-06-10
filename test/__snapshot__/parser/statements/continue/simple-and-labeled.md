@@ -236,7 +236,7 @@ label: for (let x = 0; x < 10;) {
                     "start": 46,
                     "end": 86
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 21,
                 "end": 86
             },

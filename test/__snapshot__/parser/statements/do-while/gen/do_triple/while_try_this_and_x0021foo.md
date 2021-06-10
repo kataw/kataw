@@ -134,19 +134,19 @@ do do do while try this and !foo while while while
                             "start": 14,
                             "end": 18
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 8,
                         "end": 18
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 5,
                     "end": 23
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 32
         },
@@ -208,15 +208,15 @@ do do do while try this and !foo while while while
                         "start": 50,
                         "end": 50
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 44,
                     "end": 50
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 38,
                 "end": 50
             },
-            "flags": 16,
+            "flags": 80,
             "start": 32,
             "end": 50
         }

@@ -120,7 +120,7 @@ for ([a.b]++ of c) d
                 "start": 18,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 20
         }

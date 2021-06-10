@@ -71,7 +71,7 @@ try { } catch ({}) {}
                     "start": 18,
                     "end": 21
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 7,
                 "end": 21
             },

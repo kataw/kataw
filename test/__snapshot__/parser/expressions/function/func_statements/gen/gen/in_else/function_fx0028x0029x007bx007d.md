@@ -102,7 +102,7 @@ else function f(){}
                 "start": 14,
                 "end": 29
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 29
         }

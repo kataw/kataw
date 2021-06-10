@@ -94,7 +94,7 @@ switch (true) { case true: let x; }
                 "start": 13,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 35
         }

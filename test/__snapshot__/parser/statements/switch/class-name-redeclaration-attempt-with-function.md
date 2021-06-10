@@ -159,7 +159,7 @@ switch (0) { case 1: class f {} default: function f() {} }
                 "start": 10,
                 "end": 58
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 58
         }

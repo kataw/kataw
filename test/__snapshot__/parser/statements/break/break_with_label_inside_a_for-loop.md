@@ -62,7 +62,7 @@ foo: for (;;) break foo
                     "start": 13,
                     "end": 23
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 23
             },

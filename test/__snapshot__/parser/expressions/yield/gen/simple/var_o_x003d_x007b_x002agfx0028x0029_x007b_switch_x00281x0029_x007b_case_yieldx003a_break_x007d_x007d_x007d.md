@@ -150,7 +150,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                 "start": 28,
                                                                 "end": 51
                                                             },
-                                                            "flags": 16,
+                                                            "flags": 80,
                                                             "start": 17,
                                                             "end": 51
                                                         }

@@ -170,7 +170,7 @@ switch (0) { case 1: async function* f() {} default: var f }
                 "start": 10,
                 "end": 60
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 60
         }

@@ -290,7 +290,7 @@ async ([a]:string)=>c;
                     "start": 58,
                     "end": 58
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 53,
                 "end": 58
             },
@@ -358,7 +358,7 @@ async ([a]:string)=>c;
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 71,
             "end": 74
         },

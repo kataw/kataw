@@ -69,7 +69,7 @@ for (let let of x) ;
                 "start": 18,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 20
         }

@@ -114,7 +114,7 @@ function *f(x = (export) = f) {}
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 16,
+            "flags": 80,
             "start": 17,
             "end": 23
         },

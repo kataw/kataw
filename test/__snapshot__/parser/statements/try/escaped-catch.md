@@ -65,7 +65,7 @@ try {} c\u0061tch  (x) {}sss
                     "start": 22,
                     "end": 25
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 25
             },

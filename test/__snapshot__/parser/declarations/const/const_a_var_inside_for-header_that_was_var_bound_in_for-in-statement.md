@@ -140,7 +140,7 @@ for (const x in obj) { var x = 13 }
                 "start": 20,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 35
         }

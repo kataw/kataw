@@ -106,7 +106,7 @@ for (let of x) y
                 "start": 14,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 16
         }

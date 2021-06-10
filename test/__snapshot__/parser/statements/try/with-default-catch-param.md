@@ -105,7 +105,7 @@ try { } catch ([a = 0]) { }
                     "start": 23,
                     "end": 27
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 7,
                 "end": 27
             },

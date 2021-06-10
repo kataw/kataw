@@ -56,7 +56,7 @@ async () => {
                 "start": 16,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 17
         },
@@ -120,7 +120,7 @@ async () => {
                                 "start": 51,
                                 "end": 52
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 32,
                             "end": 52
                         }

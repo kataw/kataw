@@ -107,7 +107,7 @@ foo = {
                                                         "fromClause": null,
                                                         "moduleSpecifier": null,
                                                         "importClause": null,
-                                                        "flags": 16,
+                                                        "flags": 81,
                                                         "start": 36,
                                                         "end": 47
                                                     }

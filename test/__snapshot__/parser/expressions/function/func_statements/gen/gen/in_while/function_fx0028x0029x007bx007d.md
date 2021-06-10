@@ -81,7 +81,7 @@ while (x) function f(){}
                 "start": 9,
                 "end": 24
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 24
         }

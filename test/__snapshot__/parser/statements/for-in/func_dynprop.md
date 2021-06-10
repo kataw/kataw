@@ -115,7 +115,7 @@ for (function(){ }[foo] in x);
                 "start": 29,
                 "end": 30
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 30
         }

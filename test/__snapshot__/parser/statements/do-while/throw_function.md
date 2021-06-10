@@ -86,11 +86,11 @@ for(;;)x
                     "start": 8,
                     "end": 21
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 30
         },
@@ -119,7 +119,7 @@ for(;;)x
                 "start": 38,
                 "end": 39
             },
-            "flags": 16,
+            "flags": 81,
             "start": 30,
             "end": 39
         }

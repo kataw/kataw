@@ -101,7 +101,7 @@ for (var a;;) { let a; }
                 "start": 13,
                 "end": 24
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 24
         }

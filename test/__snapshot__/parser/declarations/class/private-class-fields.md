@@ -180,7 +180,7 @@ class C { #aaa
                 "start": 32,
                 "end": 46
             },
-            "flags": 16,
+            "flags": 17,
             "start": 22,
             "end": 46
         }

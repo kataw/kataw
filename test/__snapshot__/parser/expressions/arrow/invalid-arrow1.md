@@ -1033,7 +1033,7 @@ y = (x => {}(0));
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 232,
             "end": 235
         },
@@ -1114,7 +1114,7 @@ y = (x => {}(0));
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 247,
             "end": 251
         },

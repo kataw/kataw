@@ -94,7 +94,7 @@ do while [catch] catch
                             "start": 15,
                             "end": 15
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 10,
                         "end": 15
                     },
@@ -104,11 +104,11 @@ do while [catch] catch
                     "start": 10,
                     "end": 15
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 15
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 15
         },
@@ -150,7 +150,7 @@ do while [catch] catch
                     "start": 22,
                     "end": 22
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 16,
                 "end": 22
             },

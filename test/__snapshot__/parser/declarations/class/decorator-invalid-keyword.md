@@ -179,7 +179,7 @@ class C2 {
                 "start": 32,
                 "end": 33
             },
-            "flags": 16,
+            "flags": 17,
             "start": 6,
             "end": 33
         }

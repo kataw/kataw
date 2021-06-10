@@ -108,7 +108,7 @@ for (let {a, [x]: y} = a;;);
                 "start": 27,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 28
         }

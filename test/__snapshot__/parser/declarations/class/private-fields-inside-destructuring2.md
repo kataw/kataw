@@ -1313,9 +1313,9 @@ this.#f,
                                                     "start": 312,
                                                     "end": 391
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 300
+                                                "flags": 81,
+                                                "start": 300,
+                                                "end": 391
                                             }
                                         ],
                                         "flags": 33,

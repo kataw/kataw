@@ -113,7 +113,7 @@ for (function(){ if (a in b); }.prop in x);
                                     },
                                     "elseKeyword": null,
                                     "alternate": null,
-                                    "flags": 16,
+                                    "flags": 80,
                                     "start": 16,
                                     "end": 29
                                 }
@@ -164,7 +164,7 @@ for (function(){ if (a in b); }.prop in x);
                 "start": 42,
                 "end": 43
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 43
         }

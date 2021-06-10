@@ -50,7 +50,7 @@ while (a);
                 "start": 2,
                 "end": 6
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 8
         },
@@ -76,7 +76,7 @@ while (a);
                 "start": 18,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 81,
             "start": 8,
             "end": 19
         }

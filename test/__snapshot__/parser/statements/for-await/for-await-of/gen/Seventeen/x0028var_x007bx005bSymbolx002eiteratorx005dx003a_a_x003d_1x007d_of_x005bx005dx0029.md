@@ -196,7 +196,7 @@ async function f() { 'use strict'; for await
                                 "start": 83,
                                 "end": 88
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 34,
                             "end": 88
                         }

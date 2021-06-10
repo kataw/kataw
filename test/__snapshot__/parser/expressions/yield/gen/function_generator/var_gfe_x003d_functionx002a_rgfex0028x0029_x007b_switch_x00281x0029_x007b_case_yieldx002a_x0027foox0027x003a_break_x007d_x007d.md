@@ -228,7 +228,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                 "start": 79,
                                                                                 "end": 109
                                                                             },
-                                                                            "flags": 16,
+                                                                            "flags": 80,
                                                                             "start": 68,
                                                                             "end": 109
                                                                         }

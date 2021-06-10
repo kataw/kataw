@@ -42,7 +42,7 @@ class Foo {
                             "start": 1,
                             "end": 10
                         },
-                        "flags": 1,
+                        "flags": 0,
                         "start": 1,
                         "end": 10
                     }
@@ -123,9 +123,9 @@ class Foo {
                                                     "start": 46,
                                                     "end": 53
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 35
+                                                "flags": 81,
+                                                "start": 35,
+                                                "end": 54
                                             }
                                         ],
                                         "flags": 33,
@@ -153,7 +153,7 @@ class Foo {
                 "start": 32,
                 "end": 60
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 60
         }

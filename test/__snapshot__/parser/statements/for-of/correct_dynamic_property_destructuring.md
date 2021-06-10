@@ -106,7 +106,7 @@ for (let {[x]: y} of obj);
                 "start": 25,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 26
         }

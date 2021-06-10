@@ -232,7 +232,7 @@ if (await await await await await await await await await await await await awai
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 105
         }

@@ -60,7 +60,7 @@
                             "start": 13,
                             "end": 13
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 3,
                         "end": 13
                     },
@@ -174,7 +174,7 @@
                             "start": 52,
                             "end": 56
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 44,
                         "end": 56
                     },
@@ -222,7 +222,7 @@
                             "start": 67,
                             "end": 67
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 56,
                         "end": 67
                     }

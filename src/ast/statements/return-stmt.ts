@@ -13,6 +13,7 @@ export interface ReturnStatement extends SyntaxNode {
 export function createReturnStatement(
   returnKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ReturnStatement {
@@ -20,7 +21,7 @@ export function createReturnStatement(
     kind: SyntaxKind.ReturnStatement,
     returnKeyword,
     expression,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

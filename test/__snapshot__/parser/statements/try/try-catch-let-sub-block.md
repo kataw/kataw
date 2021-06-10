@@ -119,7 +119,7 @@ try {} catch (x) { { var x } }
                     "start": 16,
                     "end": 30
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 30
             },
@@ -232,7 +232,7 @@ try {} catch (x) { { var x } }
                     "start": 48,
                     "end": 62
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 38,
                 "end": 62
             },

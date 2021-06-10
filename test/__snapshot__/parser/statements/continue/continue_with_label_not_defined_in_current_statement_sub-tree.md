@@ -83,7 +83,7 @@ x: foo; while (true) continue x;
                 "start": 20,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 80,
             "start": 7,
             "end": 32
         }

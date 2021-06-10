@@ -46,7 +46,7 @@ with: x
                 "start": 4,
                 "end": 4
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 4
         },

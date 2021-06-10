@@ -82,7 +82,7 @@ while (i-- > 0) {}
                 "start": 15,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 18
         }

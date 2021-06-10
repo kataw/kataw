@@ -82,7 +82,7 @@ foo: for (x of y) continue foo
                     "start": 17,
                     "end": 30
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 30
             },

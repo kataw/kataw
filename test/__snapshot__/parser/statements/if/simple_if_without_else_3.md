@@ -47,7 +47,7 @@ if (foo) a; if (bar) b; else c;
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 11
         },
@@ -101,7 +101,7 @@ if (foo) a; if (bar) b; else c;
                 "start": 28,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 80,
             "start": 11,
             "end": 31
         }

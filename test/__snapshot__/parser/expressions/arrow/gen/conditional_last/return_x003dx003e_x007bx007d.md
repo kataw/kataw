@@ -62,9 +62,9 @@ bar, return => {};
                 "start": 11,
                 "end": 11
             },
-            "flags": 16,
-            "start": 0,
-            "end": 4
+            "flags": 80,
+            "start": 4,
+            "end": 11
         },
         {
             "kind": 124,

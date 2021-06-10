@@ -117,7 +117,7 @@ for (function(){ }[x in y] of x);
                 "start": 32,
                 "end": 33
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 33
         }

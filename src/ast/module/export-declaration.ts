@@ -35,6 +35,7 @@ export function createExportDeclaration(
   fromClause: FromClause,
   exportFromClause: ExportFromClause | null,
   exportKind: ExportKind,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ExportDeclaration {
@@ -46,7 +47,7 @@ export function createExportDeclaration(
     exportFromClause,
     fromClause,
     exportKind,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

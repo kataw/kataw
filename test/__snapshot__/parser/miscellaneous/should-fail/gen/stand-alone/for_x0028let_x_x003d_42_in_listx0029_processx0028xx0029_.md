@@ -109,7 +109,7 @@ for (let x = 42 in list) process(x);
                 "start": 24,
                 "end": 36
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 36
         }

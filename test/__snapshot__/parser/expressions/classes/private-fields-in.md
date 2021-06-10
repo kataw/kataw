@@ -352,9 +352,9 @@ class C {
                                                     "start": 87,
                                                     "end": 137
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 76
+                                                "flags": 81,
+                                                "start": 76,
+                                                "end": 138
                                             }
                                         ],
                                         "flags": 33,

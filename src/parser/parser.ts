@@ -486,6 +486,7 @@ function parseSwitchStatement(
       labels,
       ownLabels
     ),
+    (switchToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
     pos,
     parser.curPos
   );
@@ -678,6 +679,7 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
     catchToken,
     catchParameter,
     parseBlockStatement(parser, context, scope, labels, null),
+    (catchToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
     pos,
     parser.curPos
   );
@@ -817,6 +819,7 @@ function parseIfStatement(parser: ParserState, context: Context, scope: ScopeSta
     consequent,
     elseKeyword,
     elseKeyword ? parseConsequentOrAlternative(parser, context, scope, labels) : null,
+    (ifKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
     pos,
     parser.curPos
   );
@@ -985,6 +988,7 @@ function parseWhileStatement(
       labels,
       ownLabels
     ),
+    (whileToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
     pos,
     parser.curPos
   );
@@ -1031,7 +1035,15 @@ function parseDoWhileStatement(
       : DiagnosticCode.Declaration_or_statement_expected
   );
   consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
-  return createDoWhileStatement(doKeyword, expression, whileKeyword, statement, pos, parser.curPos);
+  return createDoWhileStatement(
+    doKeyword,
+    expression,
+    whileKeyword,
+    statement,
+    (doKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    pos,
+    parser.curPos
+  );
 }
 
 // WithStatement :
@@ -1087,6 +1099,7 @@ function parseWithStatement(
       labels,
       ownLabels
     ),
+    (withKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
     pos,
     parser.curPos
   );
@@ -1114,7 +1127,7 @@ function parseThrowStatement(parser: ParserState, context: Context): ThrowStatem
   }
   const expression = parseExpressionCoverGrammar(parser, context);
   parseSemicolon(parser, context);
-  return createThrowStatement(throwKeyword, expression, pos, parser.curPos);
+  return createThrowStatement(throwKeyword, expression, throwKeyword.flags, pos, parser.curPos);
 }
 
 // ReturnStatement :
@@ -1140,7 +1153,7 @@ function parseReturnStatement(parser: ParserState, context: Context): ReturnStat
   );
   const expression = canParseSemicolon(parser) ? null : parseExpressionCoverGrammar(parser, context);
   parseSemicolon(parser, context);
-  return createReturnStatement(returnToken, expression, parser.nodeFlags, pos);
+  return createReturnStatement(returnToken, expression, returnToken.flags, pos, parser.curPos);
 }
 
 export function parseLabelledStatement(
@@ -1460,6 +1473,7 @@ function parseForStatement(
         /* ownLabels */ null
       ),
       awaitKeyword,
+      (forKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
       pos,
       parser.curPos
     );
@@ -1509,6 +1523,7 @@ function parseForStatement(
         labels,
         /* ownLabels */ null
       ),
+      (forKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
       pos,
       parser.curPos
     );
@@ -1567,6 +1582,7 @@ function parseForStatement(
       labels,
       /* ownLabels */ null
     ),
+    (forKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
     pos,
     parser.curPos
   );
@@ -4287,7 +4303,7 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
         node.end
       );
     case SyntaxKind.ObjectLiteral:
-      return createObjectBindingPattern(convertArrowParameter(parser, node.propertyList), node.start, node.end);
+      return createObjectBindingPattern(convertArrowParameter(parser, node.propertyList), node.flags, node.start, node.end);
     case SyntaxKind.PropertyDefinitionList:
       const bindingProperty = [];
       const properties = node.properties;
@@ -5384,10 +5400,11 @@ function parseObjectBindingPattern(
   type: BindingType
 ): ObjectBindingPattern {
   const pos = parser.curPos;
+  const nodeFlags = parser.nodeFlags;
   consume(parser, context, SyntaxKind.LeftBrace);
   const bindingPropertyList = parseBindingPropertyList(parser, context, scope, type);
   consume(parser, context, SyntaxKind.RightBrace, DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here);
-  return createObjectBindingPattern(bindingPropertyList, pos, parser.curPos);
+  return createObjectBindingPattern(bindingPropertyList, nodeFlags | NodeFlags.ExpressionNode, pos, parser.curPos);
 }
 
 function parseBindingPropertyList(
@@ -6483,6 +6500,7 @@ function parseImportDeclaration(
       /* fromClause */ null,
       moduleSpecifier,
       /* importClause */ null,
+      (importToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
       pos,
       parser.curPos
     );
@@ -6629,6 +6647,7 @@ function parseImportDeclaration(
     fromClause,
     /* moduleSpecifier */ null,
     importClause,
+    (importToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
     pos,
     parser.curPos
   );
@@ -6909,6 +6928,7 @@ function parseExportDeclaration(
     fromClause as any,
     exportFromClause,
     exportKind,
+    (exportToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
     pos,
     parser.curPos
   );
@@ -8677,9 +8697,10 @@ function parseClassDeclaration(
   scope: any,
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
   isDefaultModifier: boolean
-): ClassDeclaration {
+): any {
   const pos = parser.curPos;
   const decorator = parseDecorators(parser, context);
+  const flags = parser.nodeFlags | NodeFlags.IsStatement;
   const classToken = consumeKeywordAndCheckForEscapeSequence(
     parser,
     context | Context.AllowRegExp,
@@ -8735,9 +8756,11 @@ function parseClassDeclaration(
     name as any,
     typeParameters,
     classTail,
+    (flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
     pos,
     parser.curPos
   );
+
 }
 
 // #sec-class-definitions
@@ -8746,6 +8769,7 @@ function parseClassDeclaration(
 function parseClassExpression(parser: ParserState, context: Context): ClassExpression {
   const pos = parser.curPos;
   const decorator = parseDecorators(parser, context);
+  const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const classToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ClassKeyword);
 
   let name = null;
@@ -8772,7 +8796,9 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
 
   parser.assignable = false;
 
-  return createClassExpression(decorator, classToken, name as any, typeParameters, classTail, pos, parser.curPos);
+  return createClassExpression(decorator, classToken, name as any, typeParameters, classTail,
+    (flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    pos, parser.curPos);
 }
 
 // ClassTail : ClassHeritage? `{` ClassBody? `}`
@@ -9448,6 +9474,7 @@ function parseDecorators(parser: ParserState, context: Context): DecoratorList |
 function parseDecoratorExpression(parser: ParserState, context: Context): Decorator {
   const decoratorToken = consumeOptToken(parser, context, SyntaxKind.Decorator);
   const pos = parser.curPos;
+  const nodeFlags = parser.nodeFlags;
   return createDecorator(
     decoratorToken,
     parseMemberExpression(
@@ -9462,7 +9489,7 @@ function parseDecoratorExpression(parser: ParserState, context: Context): Decora
       SyntaxKind.IsPropertyOrCall,
       pos
     ),
-    parser.nodeFlags,
+    nodeFlags,
     pos,
     parser.curPos
   );

@@ -157,7 +157,7 @@ function *f(x = delete ((catch) = f)) {}
                     "start": 30,
                     "end": 30
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 25,
                 "end": 30
             },

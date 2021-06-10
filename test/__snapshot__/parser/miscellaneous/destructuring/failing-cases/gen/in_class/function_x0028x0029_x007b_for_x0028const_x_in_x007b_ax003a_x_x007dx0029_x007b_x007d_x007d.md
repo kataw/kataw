@@ -168,7 +168,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                                     "start": 49,
                                                     "end": 53
                                                 },
-                                                "flags": 16,
+                                                "flags": 80,
                                                 "start": 23,
                                                 "end": 53
                                             }

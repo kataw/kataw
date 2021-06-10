@@ -269,9 +269,9 @@ class A {
                                 "start": 41,
                                 "end": 112
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 32
+                            "flags": 81,
+                            "start": 32,
+                            "end": 113
                         }
                     ],
                     "flags": 33,
@@ -335,7 +335,7 @@ class A {
                                             "start": 130,
                                             "end": 139
                                         },
-                                        "flags": 1,
+                                        "flags": 0,
                                         "start": 130,
                                         "end": 139
                                     }
@@ -400,7 +400,7 @@ class A {
                 "start": 32,
                 "end": 152
             },
-            "flags": 16,
+            "flags": 17,
             "start": 115,
             "end": 152
         }

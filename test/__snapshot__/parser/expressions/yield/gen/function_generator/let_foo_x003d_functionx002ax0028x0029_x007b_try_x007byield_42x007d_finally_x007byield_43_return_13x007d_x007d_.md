@@ -248,9 +248,9 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                 "start": 104,
                                                                                                 "end": 107
                                                                                             },
-                                                                                            "flags": 16,
-                                                                                            "start": 0,
-                                                                                            "end": 97
+                                                                                            "flags": 80,
+                                                                                            "start": 97,
+                                                                                            "end": 107
                                                                                         }
                                                                                     ],
                                                                                     "flags": 16,

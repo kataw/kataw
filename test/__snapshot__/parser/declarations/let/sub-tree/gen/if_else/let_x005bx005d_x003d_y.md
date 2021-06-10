@@ -104,7 +104,7 @@ else let
                 "start": 14,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 26
         }

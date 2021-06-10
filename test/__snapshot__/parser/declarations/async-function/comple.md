@@ -90,7 +90,7 @@ await 0 }
                             },
                             "elseKeyword": null,
                             "alternate": null,
-                            "flags": 16,
+                            "flags": 80,
                             "start": 17,
                             "end": 28
                         },
@@ -207,7 +207,7 @@ await 0 }
                             },
                             "elseKeyword": null,
                             "alternate": null,
-                            "flags": 16,
+                            "flags": 80,
                             "start": 63,
                             "end": 74
                         },

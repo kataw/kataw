@@ -110,9 +110,9 @@ async function f(x = await 1) { return x; }
                                 "start": 38,
                                 "end": 40
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 31
+                            "flags": 80,
+                            "start": 31,
+                            "end": 41
                         }
                     ],
                     "flags": 32,

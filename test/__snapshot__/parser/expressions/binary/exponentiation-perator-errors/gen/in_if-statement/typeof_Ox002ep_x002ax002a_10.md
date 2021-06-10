@@ -229,7 +229,7 @@ var O = { p: 1 }, x = 10; ; if (typeof O.p ** 10) { foo(); }
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 27,
             "end": 60
         }

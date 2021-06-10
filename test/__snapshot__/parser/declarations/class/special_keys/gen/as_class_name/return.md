@@ -76,9 +76,9 @@ class return {}
                 "start": 12,
                 "end": 15
             },
-            "flags": 16,
-            "start": 0,
-            "end": 5
+            "flags": 80,
+            "start": 5,
+            "end": 15
         }
     ],
     "isModule": false,

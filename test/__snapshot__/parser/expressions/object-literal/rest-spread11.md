@@ -84,7 +84,7 @@ for ({...a,} in []);
                 "start": 19,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 20
         }

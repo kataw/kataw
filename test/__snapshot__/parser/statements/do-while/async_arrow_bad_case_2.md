@@ -61,7 +61,7 @@ do async ()
                 "start": 2,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 18
         },
@@ -94,7 +94,7 @@ do async ()
                 "start": 27,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 80,
             "start": 18,
             "end": 27
         }

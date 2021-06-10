@@ -94,9 +94,9 @@ async x => return = 1
                 "start": 17,
                 "end": 21
             },
-            "flags": 16,
-            "start": 0,
-            "end": 10
+            "flags": 80,
+            "start": 10,
+            "end": 21
         }
     ],
     "isModule": false,

@@ -101,7 +101,7 @@ switch (a) { case b: let x }
                 "start": 10,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 28
         }

@@ -46,7 +46,7 @@ if (x) {}}dsadsa
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 9
         },

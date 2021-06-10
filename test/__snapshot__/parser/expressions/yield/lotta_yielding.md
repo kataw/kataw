@@ -317,9 +317,9 @@ var gen = async function *g() {
                                                                                                 "start": 153,
                                                                                                 "end": 164
                                                                                             },
-                                                                                            "flags": 16,
-                                                                                            "start": 1,
-                                                                                            "end": 136
+                                                                                            "flags": 81,
+                                                                                            "start": 136,
+                                                                                            "end": 165
                                                                                         }
                                                                                     ],
                                                                                     "flags": 33,

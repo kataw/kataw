@@ -97,7 +97,7 @@ function f() { for await (x of y) {} }
                                 "start": 33,
                                 "end": 36
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 14,
                             "end": 36
                         }

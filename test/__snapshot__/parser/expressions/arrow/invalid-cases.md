@@ -305,9 +305,9 @@ a++ => {};
                 "start": 59,
                 "end": 59
             },
-            "flags": 16,
-            "start": 0,
-            "end": 52
+            "flags": 81,
+            "start": 52,
+            "end": 59
         },
         {
             "kind": 124,
@@ -8790,7 +8790,7 @@ a++ => {};
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 2892,
             "end": 2895
         },
@@ -8862,7 +8862,7 @@ a++ => {};
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 2904,
             "end": 2907
         },
@@ -8943,7 +8943,7 @@ a++ => {};
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 2918,
             "end": 2922
         },

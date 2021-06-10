@@ -94,7 +94,7 @@ do while [catch] =! class function try while with foo!
                             "start": 15,
                             "end": 15
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 10,
                         "end": 15
                     },
@@ -104,11 +104,11 @@ do while [catch] =! class function try while with foo!
                     "start": 10,
                     "end": 15
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 15
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 15
         },
@@ -295,11 +295,11 @@ do while [catch] =! class function try while with foo!
                     "start": 53,
                     "end": 54
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 44,
                 "end": 54
             },
-            "flags": 16,
+            "flags": 80,
             "start": 38,
             "end": 54
         }

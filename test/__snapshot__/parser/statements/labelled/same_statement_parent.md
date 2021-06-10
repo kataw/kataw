@@ -102,7 +102,7 @@ while(x) {
                 "start": 8,
                 "end": 39
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 39
         }

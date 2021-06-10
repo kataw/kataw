@@ -301,7 +301,7 @@ function baz(x: boolean) {
                                             },
                                             "elseKeyword": null,
                                             "alternate": null,
-                                            "flags": 16,
+                                            "flags": 81,
                                             "start": 79,
                                             "end": 114
                                         },
@@ -314,9 +314,9 @@ function baz(x: boolean) {
                                                 "end": 125
                                             },
                                             "expression": null,
-                                            "flags": 16,
-                                            "start": 1,
-                                            "end": 114
+                                            "flags": 81,
+                                            "start": 114,
+                                            "end": 126
                                         }
                                     ],
                                     "flags": 17,
@@ -327,7 +327,7 @@ function baz(x: boolean) {
                                 "start": 77,
                                 "end": 130
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 53,
                             "end": 130
                         }
@@ -476,9 +476,9 @@ function baz(x: boolean) {
                                                 "end": 196
                                             },
                                             "expression": null,
-                                            "flags": 16,
-                                            "start": 1,
-                                            "end": 185
+                                            "flags": 81,
+                                            "start": 185,
+                                            "end": 197
                                         }
                                     ],
                                     "flags": 17,
@@ -489,7 +489,7 @@ function baz(x: boolean) {
                                 "start": 183,
                                 "end": 201
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 160,
                             "end": 201
                         }
@@ -651,7 +651,7 @@ function baz(x: boolean) {
                                 "start": 254,
                                 "end": 274
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 231,
                             "end": 274
                         }

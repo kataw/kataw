@@ -98,7 +98,7 @@ for (let {,x} = obj;;);
                 "start": 12,
                 "end": 12
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 12
         },

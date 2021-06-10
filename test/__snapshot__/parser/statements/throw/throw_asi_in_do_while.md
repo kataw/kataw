@@ -88,11 +88,11 @@ function f() {
                                     "start": 25,
                                     "end": 30
                                 },
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 19,
                                 "end": 30
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 14,
                             "end": 40
                         }

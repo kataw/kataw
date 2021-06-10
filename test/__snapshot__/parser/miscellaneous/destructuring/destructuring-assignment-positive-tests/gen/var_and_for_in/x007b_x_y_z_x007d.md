@@ -203,7 +203,7 @@ var x, y, z; for (x in { x, y, z } = z = {});
                 "start": 44,
                 "end": 45
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 45
         }

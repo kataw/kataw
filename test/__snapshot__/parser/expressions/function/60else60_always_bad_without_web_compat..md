@@ -96,7 +96,7 @@ if (x) ; else function f(){}
                 "start": 13,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 28
         }

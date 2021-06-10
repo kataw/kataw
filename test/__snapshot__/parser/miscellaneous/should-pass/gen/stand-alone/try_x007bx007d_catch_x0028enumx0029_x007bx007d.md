@@ -68,7 +68,7 @@ try {} catch (enum) {}
                     "start": 19,
                     "end": 22
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 22
             },

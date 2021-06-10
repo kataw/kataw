@@ -248,7 +248,7 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 110,
                                     "end": 114
                                 },
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 96,
                                 "end": 114
                             },

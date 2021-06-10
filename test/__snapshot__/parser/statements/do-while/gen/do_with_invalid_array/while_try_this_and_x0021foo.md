@@ -94,7 +94,7 @@ do while [catch] while try this and !foo
                             "start": 15,
                             "end": 15
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 10,
                         "end": 15
                     },
@@ -104,11 +104,11 @@ do while [catch] while try this and !foo
                     "start": 10,
                     "end": 15
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 15
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 15
         },
@@ -167,7 +167,7 @@ do while [catch] while try this and !foo
                 "start": 22,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 80,
             "start": 16,
             "end": 26
         },

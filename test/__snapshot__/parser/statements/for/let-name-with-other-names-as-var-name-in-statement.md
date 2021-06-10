@@ -278,7 +278,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                 "start": 22,
                 "end": 64
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 64
         }

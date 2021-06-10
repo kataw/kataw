@@ -109,7 +109,7 @@ for (let {x: y = let};;) {}
                 "start": 24,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 27
         }

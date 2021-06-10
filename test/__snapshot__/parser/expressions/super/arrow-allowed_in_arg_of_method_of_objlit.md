@@ -146,9 +146,9 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                         "start": 18,
                                                         "end": 38
                                                     },
-                                                    "flags": 16,
-                                                    "start": 0,
-                                                    "end": 11
+                                                    "flags": 80,
+                                                    "start": 11,
+                                                    "end": 39
                                                 }
                                             ],
                                             "flags": 32,

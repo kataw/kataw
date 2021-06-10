@@ -83,7 +83,7 @@ do if (a) with (b) continue; else debugger; while (false)
                         "start": 18,
                         "end": 28
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 9,
                     "end": 28
                 },
@@ -105,11 +105,11 @@ do if (a) with (b) continue; else debugger; while (false)
                     "start": 33,
                     "end": 43
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 43
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 57
         }

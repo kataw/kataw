@@ -53,7 +53,7 @@ do {} while (x) { while try this and !foo
                 "start": 2,
                 "end": 5
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 15
         },
@@ -117,7 +117,7 @@ do {} while (x) { while try this and !foo
                             "start": 23,
                             "end": 27
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 17,
                         "end": 27
                     },

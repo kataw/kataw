@@ -92,9 +92,9 @@ async function foo() { return {await} };
                                 "start": 29,
                                 "end": 37
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 22
+                            "flags": 80,
+                            "start": 22,
+                            "end": 37
                         }
                     ],
                     "flags": 32,

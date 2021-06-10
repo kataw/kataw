@@ -107,7 +107,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                                     "start": 45,
                                                     "end": 47
                                                 },
-                                                "flags": 16,
+                                                "flags": 80,
                                                 "start": 26,
                                                 "end": 47
                                             }

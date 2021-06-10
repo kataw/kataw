@@ -107,7 +107,7 @@ try {} catch([a:string]: number) {}
                     "start": 23,
                     "end": 23
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 23
             },

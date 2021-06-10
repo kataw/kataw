@@ -218,7 +218,7 @@ var x, y, z; for (x in { x: async function() {} } = {});
                 "start": 55,
                 "end": 56
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 56
         }

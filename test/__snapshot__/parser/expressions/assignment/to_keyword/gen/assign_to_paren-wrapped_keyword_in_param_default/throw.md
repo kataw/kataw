@@ -89,7 +89,7 @@ async (x = (throw) = f) => {}
                 "start": 17,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 17
         },

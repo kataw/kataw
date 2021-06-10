@@ -123,7 +123,7 @@ function f() {
                                 "start": 43,
                                 "end": 44
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 34,
                             "end": 44
                         }

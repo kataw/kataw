@@ -215,7 +215,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 27,
             "end": 58
         }

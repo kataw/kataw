@@ -109,7 +109,7 @@ if (x) x;
                 "start": 18,
                 "end": 40
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 40
         }

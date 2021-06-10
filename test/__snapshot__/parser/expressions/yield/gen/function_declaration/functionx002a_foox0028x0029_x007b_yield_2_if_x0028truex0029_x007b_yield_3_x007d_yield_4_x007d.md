@@ -175,7 +175,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                             },
                                             "elseKeyword": null,
                                             "alternate": null,
-                                            "flags": 16,
+                                            "flags": 80,
                                             "start": 47,
                                             "end": 69
                                         },

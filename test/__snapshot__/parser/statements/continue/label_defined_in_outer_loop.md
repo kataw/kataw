@@ -86,7 +86,7 @@ while (true) {
                                     "start": 32,
                                     "end": 44
                                 },
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 19,
                                 "end": 44
                             },
@@ -103,7 +103,7 @@ while (true) {
                 "start": 12,
                 "end": 46
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 46
         }

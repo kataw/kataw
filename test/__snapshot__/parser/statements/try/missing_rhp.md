@@ -65,7 +65,7 @@ try {} catch (x
                     "start": 15,
                     "end": 15
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 15
             },

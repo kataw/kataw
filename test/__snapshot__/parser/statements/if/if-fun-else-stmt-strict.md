@@ -94,7 +94,7 @@ if (true) function f() {} else ;
                 "start": 30,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 32
         }

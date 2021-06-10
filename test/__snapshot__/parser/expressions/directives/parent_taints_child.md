@@ -134,7 +134,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                                 "start": 56,
                                                 "end": 59
                                             },
-                                            "flags": 16,
+                                            "flags": 80,
                                             "start": 47,
                                             "end": 59
                                         }

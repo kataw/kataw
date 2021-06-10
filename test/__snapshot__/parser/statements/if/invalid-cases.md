@@ -100,7 +100,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "start": 12,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 16
         },
@@ -218,7 +218,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "start": 37,
                 "end": 55
             },
-            "flags": 16,
+            "flags": 81,
             "start": 23,
             "end": 55
         },
@@ -283,7 +283,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 56,
             "end": 75
         },
@@ -346,7 +346,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "start": 86,
                         "end": 86
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 80,
                     "end": 86
                 },
@@ -368,7 +368,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "start": 91,
                 "end": 92
             },
-            "flags": 16,
+            "flags": 81,
             "start": 76,
             "end": 92
         },
@@ -403,7 +403,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 92,
             "end": 107
         },
@@ -449,13 +449,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 123,
                     "end": 129
                 },
-                "flags": 16,
-                "start": 0,
-                "end": 116
+                "flags": 80,
+                "start": 116,
+                "end": 130
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 107,
             "end": 130
         },
@@ -535,7 +535,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 131,
             "end": 160
         },
@@ -615,7 +615,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 161,
             "end": 185
         },
@@ -648,13 +648,13 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "end": 204
                 },
                 "expression": null,
-                "flags": 16,
-                "start": 1,
-                "end": 197
+                "flags": 80,
+                "start": 197,
+                "end": 204
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 186,
             "end": 204
         },
@@ -744,7 +744,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 215,
             "end": 237
         },
@@ -783,7 +783,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 238,
             "end": 249
         },
@@ -959,7 +959,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "start": 306,
                 "end": 329
             },
-            "flags": 16,
+            "flags": 81,
             "start": 266,
             "end": 329
         },
@@ -1009,7 +1009,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "start": 349,
                 "end": 353
             },
-            "flags": 16,
+            "flags": 81,
             "start": 330,
             "end": 353
         },
@@ -1097,7 +1097,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 357,
             "end": 386
         },
@@ -1211,7 +1211,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 386,
             "end": 419
         },
@@ -1351,7 +1351,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 420,
             "end": 457
         },
@@ -1486,7 +1486,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 458,
             "end": 494
         },
@@ -1577,7 +1577,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 495,
             "end": 513
         },
@@ -1787,7 +1787,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 539,
             "end": 572
         },
@@ -1927,7 +1927,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 573,
             "end": 610
         },
@@ -2062,7 +2062,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 81,
             "start": 611,
             "end": 647
         },

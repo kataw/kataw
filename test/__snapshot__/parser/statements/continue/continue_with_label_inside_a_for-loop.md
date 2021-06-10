@@ -62,7 +62,7 @@ foo: for (;;) continue foo
                     "start": 13,
                     "end": 26
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 26
             },

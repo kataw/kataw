@@ -139,9 +139,9 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                 "start": 57,
                                                 "end": 60
                                             },
-                                            "flags": 16,
-                                            "start": 0,
-                                            "end": 50
+                                            "flags": 80,
+                                            "start": 50,
+                                            "end": 61
                                         },
                                         {
                                             "kind": 120,

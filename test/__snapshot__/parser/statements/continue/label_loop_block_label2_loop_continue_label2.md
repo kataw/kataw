@@ -116,7 +116,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                         "start": 17,
                                         "end": 31
                                     },
-                                    "flags": 16,
+                                    "flags": 80,
                                     "start": 14,
                                     "end": 39
                                 },
@@ -133,7 +133,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                     "start": 7,
                     "end": 41
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 50
             },

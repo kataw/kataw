@@ -104,7 +104,7 @@ import {default as foo} from "foo";
                 "start": 0,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 35
         }

@@ -66,9 +66,9 @@ function a() {
                                 "start": 23,
                                 "end": 29
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 14
+                            "flags": 81,
+                            "start": 14,
+                            "end": 29
                         },
                         {
                             "kind": 120,

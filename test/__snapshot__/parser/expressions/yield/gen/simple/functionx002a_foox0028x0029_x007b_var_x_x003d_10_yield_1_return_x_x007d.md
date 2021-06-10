@@ -145,9 +145,9 @@ function* foo() { var x = 10; yield 1; return x; }
                                 "start": 45,
                                 "end": 47
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 38
+                            "flags": 80,
+                            "start": 38,
+                            "end": 48
                         }
                     ],
                     "flags": 32,

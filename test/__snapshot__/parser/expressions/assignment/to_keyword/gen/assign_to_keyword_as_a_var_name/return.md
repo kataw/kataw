@@ -53,9 +53,9 @@ return = x
                 "start": 6,
                 "end": 10
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
-            "end": 0
+            "end": 10
         }
     ],
     "isModule": false,

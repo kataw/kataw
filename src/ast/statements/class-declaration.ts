@@ -24,6 +24,7 @@ export function createClassDeclaration(
   name: Identifier | null,
   typeParameters: TypeParameterDeclaration | null,
   tail: ClassTail,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ClassDeclaration {
@@ -35,7 +36,7 @@ export function createClassDeclaration(
     name,
     typeParameters,
     tail,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

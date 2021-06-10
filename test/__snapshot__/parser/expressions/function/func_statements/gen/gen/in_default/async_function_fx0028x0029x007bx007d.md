@@ -111,7 +111,7 @@ switch (x) {
                 "start": 10,
                 "end": 50
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 50
         }

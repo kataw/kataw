@@ -60,7 +60,7 @@ for: x
                 "start": 3,
                 "end": 3
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 3
         },

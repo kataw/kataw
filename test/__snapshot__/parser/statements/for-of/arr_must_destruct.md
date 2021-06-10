@@ -124,7 +124,7 @@ for ([{x=y}]=x of x) ;
                 "start": 20,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 22
         }

@@ -95,7 +95,7 @@ class Example {
                                             "start": 29,
                                             "end": 41
                                         },
-                                        "flags": 1,
+                                        "flags": 0,
                                         "start": 29,
                                         "end": 41
                                     }
@@ -162,9 +162,9 @@ class Example {
                                                     "start": 71,
                                                     "end": 82
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 60
+                                                "flags": 81,
+                                                "start": 60,
+                                                "end": 83
                                             }
                                         ],
                                         "flags": 33,

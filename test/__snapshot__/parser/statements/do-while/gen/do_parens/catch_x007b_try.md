@@ -53,7 +53,7 @@ do( catch { try while
                 "start": 2,
                 "end": 3
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 3
         },
@@ -155,7 +155,7 @@ do( catch { try while
                                     "start": 21,
                                     "end": 21
                                 },
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 15,
                                 "end": 21
                             }
@@ -168,7 +168,7 @@ do( catch { try while
                     "start": 9,
                     "end": 21
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 3,
                 "end": 21
             },

@@ -181,7 +181,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                                 "start": 50,
                                 "end": 54
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 24,
                             "end": 54
                         }

@@ -119,7 +119,7 @@ async function f() { for await (var x of y) {} }
                                 "start": 43,
                                 "end": 46
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 20,
                             "end": 46
                         }

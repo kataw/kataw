@@ -69,7 +69,7 @@ while (true) x: continue x;
                 "start": 12,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 27
         }

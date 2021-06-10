@@ -99,7 +99,7 @@ for (var a=1, b;;);
                 "start": 18,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 19
         }

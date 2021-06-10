@@ -83,11 +83,11 @@ while (true) while (true) x: continue x;
                     "start": 25,
                     "end": 40
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 12,
                 "end": 40
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 40
         }

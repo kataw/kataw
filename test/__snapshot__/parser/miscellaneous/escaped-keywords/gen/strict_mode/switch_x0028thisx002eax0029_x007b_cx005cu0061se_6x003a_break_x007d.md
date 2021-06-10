@@ -89,7 +89,7 @@ switch (this.a) { c\u0061se 6: break; }
                 "start": 15,
                 "end": 39
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 39
         }

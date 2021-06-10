@@ -107,7 +107,7 @@ export let [...x] = y
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 21
         }

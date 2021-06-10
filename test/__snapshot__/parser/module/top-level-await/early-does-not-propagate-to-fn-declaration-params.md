@@ -110,9 +110,9 @@ function fn(x = await 1) {
                                 "start": 35,
                                 "end": 37
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 26
+                            "flags": 81,
+                            "start": 26,
+                            "end": 38
                         }
                     ],
                     "flags": 33,

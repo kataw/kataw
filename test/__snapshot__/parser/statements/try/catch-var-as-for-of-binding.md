@@ -124,7 +124,7 @@ try {} catch (e) { for (var e of y) {} }
                                     "start": 35,
                                     "end": 38
                                 },
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 18,
                                 "end": 38
                             }
@@ -137,7 +137,7 @@ try {} catch (e) { for (var e of y) {} }
                     "start": 16,
                     "end": 40
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 40
             },

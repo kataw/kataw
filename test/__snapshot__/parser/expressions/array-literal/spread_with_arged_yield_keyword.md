@@ -129,9 +129,9 @@ function *f(){ return [...yield x]; }
                                 "start": 21,
                                 "end": 34
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 14
+                            "flags": 80,
+                            "start": 14,
+                            "end": 35
                         }
                     ],
                     "flags": 32,

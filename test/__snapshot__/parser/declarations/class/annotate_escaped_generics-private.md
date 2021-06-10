@@ -225,9 +225,9 @@ class I<X> {
                                                     "start": 48,
                                                     "end": 50
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 37
+                                                "flags": 81,
+                                                "start": 37,
+                                                "end": 51
                                             }
                                         ],
                                         "flags": 33,

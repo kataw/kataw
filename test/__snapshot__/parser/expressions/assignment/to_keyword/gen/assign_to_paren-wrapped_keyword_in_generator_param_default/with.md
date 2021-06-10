@@ -149,7 +149,7 @@ function *f(x = (with) = f) {}
                 "start": 22,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 80,
             "start": 17,
             "end": 26
         },

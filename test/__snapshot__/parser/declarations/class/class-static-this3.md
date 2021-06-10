@@ -108,9 +108,9 @@ class Foo { static x = function() { return this } }
                                                     "start": 42,
                                                     "end": 47
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 35
+                                                "flags": 80,
+                                                "start": 35,
+                                                "end": 47
                                             }
                                         ],
                                         "flags": 32,

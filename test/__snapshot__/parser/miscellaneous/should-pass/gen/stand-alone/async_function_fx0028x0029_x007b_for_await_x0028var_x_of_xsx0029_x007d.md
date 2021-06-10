@@ -115,7 +115,7 @@ async function f() { for await (var x of xs); }
                                 "start": 44,
                                 "end": 45
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 20,
                             "end": 45
                         }

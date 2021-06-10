@@ -139,13 +139,13 @@
                                             "start": 29,
                                             "end": 29
                                         },
-                                        "flags": 16,
+                                        "flags": 80,
                                         "start": 22,
                                         "end": 29
                                     },
                                     "elseKeyword": null,
                                     "alternate": null,
-                                    "flags": 16,
+                                    "flags": 80,
                                     "start": 17,
                                     "end": 29
                                 },
@@ -179,7 +179,7 @@
                                         "start": 37,
                                         "end": 43
                                     },
-                                    "flags": 16,
+                                    "flags": 80,
                                     "start": 29,
                                     "end": 43
                                 }

@@ -45,7 +45,7 @@ if (true) let x; else ;
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 13
         },

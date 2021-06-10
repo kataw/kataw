@@ -88,9 +88,9 @@ function *f() {  return void yield;  }
                                 "start": 23,
                                 "end": 34
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 15
+                            "flags": 80,
+                            "start": 15,
+                            "end": 35
                         }
                     ],
                     "flags": 32,

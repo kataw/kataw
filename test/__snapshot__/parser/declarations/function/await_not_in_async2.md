@@ -83,9 +83,9 @@ f(await 1);
                                 "start": 22,
                                 "end": 24
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 15
+                            "flags": 80,
+                            "start": 15,
+                            "end": 25
                         }
                     ],
                     "flags": 32,

@@ -179,7 +179,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                 "start": 10,
                 "end": 70
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 70
         }

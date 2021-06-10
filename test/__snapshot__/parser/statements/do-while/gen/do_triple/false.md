@@ -93,15 +93,15 @@ do do do false while while while
                         "start": 8,
                         "end": 14
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 5,
                     "end": 20
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 32
         }

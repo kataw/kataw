@@ -207,7 +207,7 @@ async function foo() {
                                 "start": 32,
                                 "end": 93
                             },
-                            "flags": 16,
+                            "flags": 17,
                             "start": 22,
                             "end": 93
                         }

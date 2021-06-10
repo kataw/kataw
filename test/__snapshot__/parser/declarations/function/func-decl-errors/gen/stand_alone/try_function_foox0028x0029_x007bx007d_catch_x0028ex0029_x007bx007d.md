@@ -150,7 +150,7 @@ try function foo() {} catch (e) {}
                     "start": 31,
                     "end": 34
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 21,
                 "end": 34
             },

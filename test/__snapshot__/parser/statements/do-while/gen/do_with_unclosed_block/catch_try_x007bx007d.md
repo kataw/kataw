@@ -53,7 +53,7 @@ do {} while (x) { catch try {}
                 "start": 2,
                 "end": 5
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 15
         },
@@ -100,7 +100,7 @@ do {} while (x) { catch try {}
                                 "start": 23,
                                 "end": 23
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 17,
                             "end": 23
                         },

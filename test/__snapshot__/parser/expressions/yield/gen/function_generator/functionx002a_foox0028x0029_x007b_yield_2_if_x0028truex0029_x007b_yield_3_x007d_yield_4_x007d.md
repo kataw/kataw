@@ -213,7 +213,7 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                             },
                                                             "elseKeyword": null,
                                                             "alternate": null,
-                                                            "flags": 16,
+                                                            "flags": 80,
                                                             "start": 66,
                                                             "end": 88
                                                         },

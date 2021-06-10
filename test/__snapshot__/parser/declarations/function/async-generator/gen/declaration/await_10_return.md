@@ -97,9 +97,9 @@ async function * gen() {await 10; return}
                                 "end": 40
                             },
                             "expression": null,
-                            "flags": 16,
-                            "start": 0,
-                            "end": 33
+                            "flags": 80,
+                            "start": 33,
+                            "end": 40
                         }
                     ],
                     "flags": 32,

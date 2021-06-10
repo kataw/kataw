@@ -79,9 +79,9 @@ function foo() { return {arguments} }
                                 "start": 23,
                                 "end": 35
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 16
+                            "flags": 80,
+                            "start": 16,
+                            "end": 35
                         }
                     ],
                     "flags": 32,

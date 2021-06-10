@@ -88,7 +88,7 @@ function f(){ do        break y   ; while(true);}
                                 "start": 16,
                                 "end": 35
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 13,
                             "end": 48
                         }

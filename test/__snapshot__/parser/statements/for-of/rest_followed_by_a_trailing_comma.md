@@ -99,7 +99,7 @@ for (let [...foo,] of obj);
                 "start": 26,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 27
         }

@@ -167,7 +167,7 @@ function *f(x = delete ((while) = f)) {}
                 "start": 31,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 80,
             "start": 25,
             "end": 35
         },

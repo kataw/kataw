@@ -252,7 +252,7 @@ class B<X> {
                                                 },
                                                 "elseKeyword": null,
                                                 "alternate": null,
-                                                "flags": 16,
+                                                "flags": 81,
                                                 "start": 28,
                                                 "end": 70
                                             },

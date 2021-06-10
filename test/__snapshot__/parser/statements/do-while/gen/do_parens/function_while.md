@@ -90,7 +90,7 @@ do( function while while
                 "start": 2,
                 "end": 12
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 18
         },
@@ -122,7 +122,7 @@ do( function while while
                 "start": 24,
                 "end": 24
             },
-            "flags": 16,
+            "flags": 80,
             "start": 18,
             "end": 24
         }

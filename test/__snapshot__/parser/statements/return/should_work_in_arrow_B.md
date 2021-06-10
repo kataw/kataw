@@ -51,9 +51,9 @@ x => {return}
                                     "end": 12
                                 },
                                 "expression": null,
-                                "flags": 16,
-                                "start": 0,
-                                "end": 6
+                                "flags": 80,
+                                "start": 6,
+                                "end": 12
                             }
                         ],
                         "flags": 32,

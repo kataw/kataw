@@ -53,7 +53,7 @@ do {} while (x) { function while
                 "start": 2,
                 "end": 5
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 15
         },
@@ -130,7 +130,7 @@ do {} while (x) { function while
                             "start": 32,
                             "end": 32
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 26,
                         "end": 32
                     }

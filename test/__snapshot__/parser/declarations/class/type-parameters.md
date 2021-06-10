@@ -176,7 +176,7 @@ class A9<S = number, T: ?string = string> {}
                 "start": 32,
                 "end": 56
             },
-            "flags": 16,
+            "flags": 17,
             "start": 23,
             "end": 56
         },
@@ -280,7 +280,7 @@ class A9<S = number, T: ?string = string> {}
                 "start": 32,
                 "end": 92
             },
-            "flags": 16,
+            "flags": 17,
             "start": 56,
             "end": 92
         },
@@ -389,7 +389,7 @@ class A9<S = number, T: ?string = string> {}
                 "start": 32,
                 "end": 137
             },
-            "flags": 16,
+            "flags": 17,
             "start": 92,
             "end": 137
         },

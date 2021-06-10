@@ -212,7 +212,7 @@ var x, y, z; for (x in { x: new.target = 1 } = {});
                 "start": 50,
                 "end": 51
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 51
         }

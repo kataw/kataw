@@ -80,7 +80,7 @@ while(true) let[a] = 0
                 "start": 11,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 22
         }

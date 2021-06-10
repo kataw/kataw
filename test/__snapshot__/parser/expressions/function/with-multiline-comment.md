@@ -63,9 +63,9 @@ x; })
                                         "start": 19,
                                         "end": 44
                                     },
-                                    "flags": 16,
-                                    "start": 0,
-                                    "end": 12
+                                    "flags": 80,
+                                    "start": 12,
+                                    "end": 45
                                 }
                             ],
                             "flags": 32,
@@ -128,9 +128,9 @@ x; })
                                         "end": 70
                                     },
                                     "expression": null,
-                                    "flags": 16,
-                                    "start": 1,
-                                    "end": 63
+                                    "flags": 80,
+                                    "start": 63,
+                                    "end": 70
                                 },
                                 {
                                     "kind": 120,
@@ -187,8 +187,8 @@ x; })
     return /* Multiline\nComment */  x;
   });
 (function () {
-    return // Comment
-    ;
+    return ; // Comment
+
     x;
   });
 ```

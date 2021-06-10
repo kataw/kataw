@@ -114,15 +114,15 @@ do do do /false//a while while while
                         "start": 8,
                         "end": 18
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 5,
                     "end": 24
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 30
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 36
         }

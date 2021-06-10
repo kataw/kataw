@@ -175,7 +175,7 @@ function *f(x = delete ((for) = f)) {}
                 "start": 29,
                 "end": 33
             },
-            "flags": 16,
+            "flags": 80,
             "start": 25,
             "end": 33
         },

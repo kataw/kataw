@@ -134,9 +134,9 @@ function *f(x = delete ((return) = f)) {}
                 "start": 31,
                 "end": 31
             },
-            "flags": 16,
-            "start": 0,
-            "end": 25
+            "flags": 80,
+            "start": 25,
+            "end": 31
         },
         {
             "kind": 120,

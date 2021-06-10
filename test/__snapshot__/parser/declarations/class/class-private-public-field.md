@@ -260,7 +260,7 @@ class C { f(){ this.#a } #a; }
                 "start": 32,
                 "end": 58
             },
-            "flags": 16,
+            "flags": 17,
             "start": 28,
             "end": 58
         },
@@ -369,7 +369,7 @@ class C { f(){ this.#a } #a; }
                 "start": 32,
                 "end": 86
             },
-            "flags": 16,
+            "flags": 17,
             "start": 58,
             "end": 86
         },
@@ -478,7 +478,7 @@ class C { f(){ this.#a } #a; }
                 "start": 32,
                 "end": 114
             },
-            "flags": 16,
+            "flags": 17,
             "start": 86,
             "end": 114
         },
@@ -620,7 +620,7 @@ class C { f(){ this.#a } #a; }
                 "start": 32,
                 "end": 146
             },
-            "flags": 16,
+            "flags": 17,
             "start": 114,
             "end": 146
         },
@@ -762,7 +762,7 @@ class C { f(){ this.#a } #a; }
                 "start": 32,
                 "end": 178
             },
-            "flags": 16,
+            "flags": 17,
             "start": 146,
             "end": 178
         }

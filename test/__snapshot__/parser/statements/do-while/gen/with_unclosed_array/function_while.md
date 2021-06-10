@@ -99,7 +99,7 @@ do[ function while
                 "start": 2,
                 "end": 12
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 18
         }

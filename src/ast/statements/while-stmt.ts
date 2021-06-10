@@ -17,6 +17,7 @@ export function createWhileStatement(
   whileKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode,
   statement: StatementNode | BlockStatement,
+  flags: NodeFlags,
   start: number,
   end: number
 ): WhileStatement {
@@ -25,7 +26,7 @@ export function createWhileStatement(
     whileKeyword,
     expression,
     statement,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

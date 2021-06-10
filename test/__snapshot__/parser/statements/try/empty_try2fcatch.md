@@ -65,7 +65,7 @@ try {} catch(e) {}
                     "start": 15,
                     "end": 18
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 18
             },

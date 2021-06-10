@@ -102,15 +102,15 @@ do do do async funcion switch!! while while while
                         "start": 8,
                         "end": 22
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 5,
                     "end": 22
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 22
         },
@@ -160,7 +160,7 @@ do do do async funcion switch!! while while while
                 "start": 31,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 80,
             "start": 22,
             "end": 31
         },
@@ -222,15 +222,15 @@ do do do async funcion switch!! while while while
                         "start": 49,
                         "end": 49
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 43,
                     "end": 49
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 37,
                 "end": 49
             },
-            "flags": 16,
+            "flags": 80,
             "start": 31,
             "end": 49
         }

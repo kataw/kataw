@@ -81,7 +81,7 @@ catch ([v] = b) {}
                     "start": 17,
                     "end": 17
                 },
-                "flags": 16,
+                "flags": 81,
                 "start": 6,
                 "end": 17
             },

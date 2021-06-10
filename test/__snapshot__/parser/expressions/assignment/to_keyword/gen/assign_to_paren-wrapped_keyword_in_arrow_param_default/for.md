@@ -93,7 +93,7 @@
                 "start": 10,
                 "end": 14
             },
-            "flags": 16,
+            "flags": 80,
             "start": 6,
             "end": 14
         },

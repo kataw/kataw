@@ -126,7 +126,7 @@ for ({a: b.c}() of d) e
                 "start": 21,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 23
         }

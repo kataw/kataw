@@ -133,7 +133,7 @@ class Foo { prototype = 1 }
                 "start": 32,
                 "end": 50
             },
-            "flags": 16,
+            "flags": 17,
             "start": 23,
             "end": 50
         },
@@ -199,7 +199,7 @@ class Foo { prototype = 1 }
                 "start": 32,
                 "end": 79
             },
-            "flags": 16,
+            "flags": 17,
             "start": 50,
             "end": 79
         }

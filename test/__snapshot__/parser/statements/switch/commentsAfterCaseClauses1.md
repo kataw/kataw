@@ -164,9 +164,9 @@ function getSecurity(level) {
                                                     "start": 137,
                                                     "end": 142
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 111
+                                                "flags": 81,
+                                                "start": 111,
+                                                "end": 143
                                             }
                                         ],
                                         "flags": 16,
@@ -227,9 +227,9 @@ function getSecurity(level) {
                                                     "start": 214,
                                                     "end": 222
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 187
+                                                "flags": 81,
+                                                "start": 187,
+                                                "end": 223
                                             }
                                         ],
                                         "flags": 16,
@@ -282,9 +282,9 @@ function getSecurity(level) {
                                                     "start": 295,
                                                     "end": 303
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 264
+                                                "flags": 81,
+                                                "start": 264,
+                                                "end": 304
                                             }
                                         ],
                                         "flags": 16,
@@ -296,7 +296,7 @@ function getSecurity(level) {
                                 "start": 47,
                                 "end": 310
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 29,
                             "end": 310
                         }
@@ -340,22 +340,19 @@ function getSecurity(level) {
 
     // one
     case 2:
-      return  "\"Hi\""; // two
-
+      return  "\"Hi\"";
     case 3:
        // three
 
     // three
     case 4:
-      return  "\"hello\""; // four
-
+      return  "\"hello\"";
     case 5:
        // five
 
     // five
     default
-      return  "\"world\""; // default
-
+      return  "\"world\"";
   }
 }
 ```

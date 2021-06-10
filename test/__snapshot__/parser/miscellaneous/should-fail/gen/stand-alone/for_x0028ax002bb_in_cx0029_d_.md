@@ -96,7 +96,7 @@ for (a+b in c) d;
                 "start": 14,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 17
         }

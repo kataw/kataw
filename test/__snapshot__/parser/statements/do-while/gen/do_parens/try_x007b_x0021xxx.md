@@ -53,7 +53,7 @@ do( try { !xxx while
                 "start": 2,
                 "end": 3
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 3
         },
@@ -124,7 +124,7 @@ do( try { !xxx while
                                 "start": 20,
                                 "end": 20
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 14,
                             "end": 20
                         }

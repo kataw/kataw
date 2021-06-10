@@ -84,9 +84,9 @@ class x {foo(){ return }}
                                                     "end": 22
                                                 },
                                                 "expression": null,
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 15
+                                                "flags": 80,
+                                                "start": 15,
+                                                "end": 22
                                             }
                                         ],
                                         "flags": 32,

@@ -89,7 +89,7 @@ switch (x) { case x: if (foo) continue foo; }
                                 },
                                 "elseKeyword": null,
                                 "alternate": null,
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 20,
                                 "end": 43
                             }
@@ -103,7 +103,7 @@ switch (x) { case x: if (foo) continue foo; }
                 "start": 10,
                 "end": 45
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 45
         }

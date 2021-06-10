@@ -97,7 +97,7 @@ for (a of b) let [x] = y
                 "start": 12,
                 "end": 24
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 24
         }

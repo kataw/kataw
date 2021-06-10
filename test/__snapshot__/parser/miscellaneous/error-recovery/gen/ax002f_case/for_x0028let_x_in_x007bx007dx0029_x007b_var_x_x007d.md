@@ -123,7 +123,7 @@ for (let x in {}) { var x; }
                 "start": 17,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 28
         }

@@ -1299,7 +1299,7 @@ let tests = [
                                                         },
                                                         "elseKeyword": null,
                                                         "alternate": null,
-                                                        "flags": 16,
+                                                        "flags": 81,
                                                         "start": 736,
                                                         "end": 761
                                                     },
@@ -1372,7 +1372,7 @@ let tests = [
                                                         },
                                                         "elseKeyword": null,
                                                         "alternate": null,
-                                                        "flags": 16,
+                                                        "flags": 81,
                                                         "start": 761,
                                                         "end": 795
                                                     },
@@ -1451,7 +1451,7 @@ let tests = [
                                                         },
                                                         "elseKeyword": null,
                                                         "alternate": null,
-                                                        "flags": 16,
+                                                        "flags": 81,
                                                         "start": 795,
                                                         "end": 852
                                                     }

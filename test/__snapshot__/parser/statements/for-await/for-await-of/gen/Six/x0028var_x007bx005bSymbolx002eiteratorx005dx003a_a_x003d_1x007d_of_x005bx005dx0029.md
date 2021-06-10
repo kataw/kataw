@@ -200,7 +200,7 @@ async function * f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} o
                                 "start": 85,
                                 "end": 90
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 36,
                             "end": 90
                         }

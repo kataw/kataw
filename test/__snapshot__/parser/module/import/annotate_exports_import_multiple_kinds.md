@@ -98,7 +98,7 @@ module.exports = [
                 "start": 0,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 31
         },
@@ -173,7 +173,7 @@ module.exports = [
                 "start": 31,
                 "end": 47
             },
-            "flags": 16,
+            "flags": 81,
             "start": 31,
             "end": 62
         },

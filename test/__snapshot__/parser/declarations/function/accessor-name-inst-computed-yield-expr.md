@@ -227,9 +227,9 @@ function* g() {
                                                                     "start": 78,
                                                                     "end": 90
                                                                 },
-                                                                "flags": 16,
-                                                                "start": 0,
-                                                                "end": 71
+                                                                "flags": 80,
+                                                                "start": 71,
+                                                                "end": 91
                                                             }
                                                         ],
                                                         "flags": 32,
@@ -370,7 +370,7 @@ function* g() {
                                 "start": 32,
                                 "end": 142
                             },
-                            "flags": 16,
+                            "flags": 17,
                             "start": 38,
                             "end": 142
                         },

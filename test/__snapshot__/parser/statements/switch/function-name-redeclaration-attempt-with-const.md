@@ -166,7 +166,7 @@ switch (0) { case 1: function f() {} default: const f = 0 }
                 "start": 10,
                 "end": 59
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 59
         }

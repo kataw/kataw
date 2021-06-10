@@ -92,11 +92,11 @@ while(y)
                 },
                 "elseKeyword": null,
                 "alternate": null,
-                "flags": 16,
+                "flags": 81,
                 "start": 2,
                 "end": 15
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 24
         }

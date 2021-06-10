@@ -244,7 +244,7 @@ while (await await await await await await await await await await await await a
                 "start": 105,
                 "end": 116
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 116
         }

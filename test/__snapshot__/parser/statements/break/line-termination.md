@@ -215,7 +215,7 @@ FOR2 : for(var i=1;i<2;i++){
                                         "start": 42,
                                         "end": 64
                                     },
-                                    "flags": 16,
+                                    "flags": 80,
                                     "start": 39,
                                     "end": 74
                                 },
@@ -232,7 +232,7 @@ FOR2 : for(var i=1;i<2;i++){
                     "start": 27,
                     "end": 76
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 76
             },
@@ -415,7 +415,7 @@ FOR2 : for(var i=1;i<2;i++){
                                         "start": 120,
                                         "end": 141
                                     },
-                                    "flags": 16,
+                                    "flags": 80,
                                     "start": 117,
                                     "end": 151
                                 },
@@ -432,7 +432,7 @@ FOR2 : for(var i=1;i<2;i++){
                     "start": 105,
                     "end": 153
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 84,
                 "end": 153
             },

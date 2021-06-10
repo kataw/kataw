@@ -125,7 +125,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 0,
             "end": 7
         },
@@ -198,7 +198,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 30,
             "end": 38
         },
@@ -304,7 +304,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 77,
             "end": 85
         },
@@ -356,7 +356,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 91,
             "end": 99
         },
@@ -832,7 +832,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 233,
             "end": 241
         },
@@ -869,7 +869,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 243,
             "end": 251
         },
@@ -906,7 +906,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 254,
             "end": 262
         },
@@ -929,7 +929,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 264,
             "end": 272
         },
@@ -1008,7 +1008,7 @@ new import(x);
                 "start": 276,
                 "end": 285
             },
-            "flags": 16,
+            "flags": 81,
             "start": 276,
             "end": 286
         },
@@ -1077,7 +1077,7 @@ new import(x);
                 "start": 286,
                 "end": 296
             },
-            "flags": 16,
+            "flags": 81,
             "start": 286,
             "end": 297
         },
@@ -1146,7 +1146,7 @@ new import(x);
                 "start": 297,
                 "end": 308
             },
-            "flags": 16,
+            "flags": 81,
             "start": 297,
             "end": 309
         },
@@ -1496,7 +1496,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 411,
             "end": 419
         },
@@ -1538,7 +1538,7 @@ new import(x);
             "fromClause": null,
             "moduleSpecifier": null,
             "importClause": null,
-            "flags": 16,
+            "flags": 81,
             "start": 421,
             "end": 429
         },

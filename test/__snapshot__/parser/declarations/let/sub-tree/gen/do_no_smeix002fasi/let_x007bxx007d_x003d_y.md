@@ -84,7 +84,7 @@ do let {x} = y while (a);
                 "start": 2,
                 "end": 6
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 14
         },
@@ -110,7 +110,7 @@ do let {x} = y while (a);
                 "start": 24,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 80,
             "start": 14,
             "end": 25
         }

@@ -47,9 +47,9 @@ async () => {return}
                                 "end": 19
                             },
                             "expression": null,
-                            "flags": 16,
-                            "start": 0,
-                            "end": 13
+                            "flags": 80,
+                            "start": 13,
+                            "end": 19
                         }
                     ],
                     "flags": 32,

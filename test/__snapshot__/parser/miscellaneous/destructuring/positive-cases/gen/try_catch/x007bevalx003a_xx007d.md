@@ -99,7 +99,7 @@ try {} catch({eval: x}) {}
                     "start": 23,
                     "end": 26
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 26
             },

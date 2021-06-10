@@ -182,9 +182,9 @@ function e(x: { (): string; (x: number): string }): () => number {
                                 "start": 129,
                                 "end": 131
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 120
+                            "flags": 81,
+                            "start": 120,
+                            "end": 132
                         }
                     ],
                     "flags": 33,
@@ -384,9 +384,9 @@ function e(x: { (): string; (x: number): string }): () => number {
                                 "start": 243,
                                 "end": 245
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 234
+                            "flags": 81,
+                            "start": 234,
+                            "end": 246
                         }
                     ],
                     "flags": 33,

@@ -142,7 +142,7 @@ async (x = delete ((if) = f)) => {}
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 20,
             "end": 27
         },

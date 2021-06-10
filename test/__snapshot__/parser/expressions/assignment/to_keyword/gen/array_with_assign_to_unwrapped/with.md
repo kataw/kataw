@@ -107,7 +107,7 @@ async x => with = 1
                 "start": 19,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 80,
             "start": 10,
             "end": 19
         }

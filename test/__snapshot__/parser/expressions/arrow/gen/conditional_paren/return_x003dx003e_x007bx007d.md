@@ -86,9 +86,9 @@ bar ? baz : ( return => {} );
                 "start": 20,
                 "end": 20
             },
-            "flags": 16,
-            "start": 0,
-            "end": 13
+            "flags": 80,
+            "start": 13,
+            "end": 20
         },
         {
             "kind": 124,

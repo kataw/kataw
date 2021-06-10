@@ -61,9 +61,9 @@
                                     "end": 17
                                 },
                                 "expression": null,
-                                "flags": 16,
-                                "start": 0,
-                                "end": 11
+                                "flags": 80,
+                                "start": 11,
+                                "end": 17
                             }
                         ],
                         "flags": 32,

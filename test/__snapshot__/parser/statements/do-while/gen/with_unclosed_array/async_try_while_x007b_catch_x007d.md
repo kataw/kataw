@@ -63,7 +63,7 @@ do[ async try while { catch }
                 "start": 2,
                 "end": 9
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 9
         },
@@ -151,7 +151,7 @@ do[ async try while { catch }
                 "start": 29,
                 "end": 29
             },
-            "flags": 16,
+            "flags": 80,
             "start": 13,
             "end": 29
         }

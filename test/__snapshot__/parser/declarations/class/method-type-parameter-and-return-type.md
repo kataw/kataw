@@ -159,9 +159,9 @@ class Foo7<T> {
                                                     "start": 42,
                                                     "end": 45
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 35
+                                                "flags": 80,
+                                                "start": 35,
+                                                "end": 46
                                             }
                                         ],
                                         "flags": 32,

@@ -116,9 +116,9 @@ function *f(x = (return) = f) {}
                 "start": 23,
                 "end": 23
             },
-            "flags": 16,
-            "start": 0,
-            "end": 17
+            "flags": 80,
+            "start": 17,
+            "end": 23
         },
         {
             "kind": 120,

@@ -165,7 +165,7 @@ for (var {name: n, family: {father: f}} of people) {}
                 "start": 50,
                 "end": 53
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 53
         }

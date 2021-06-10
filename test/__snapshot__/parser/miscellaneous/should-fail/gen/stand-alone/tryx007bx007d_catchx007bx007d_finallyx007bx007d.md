@@ -102,7 +102,7 @@ try{};catch{};finally{}
                     "start": 11,
                     "end": 13
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 13
             },

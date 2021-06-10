@@ -53,7 +53,7 @@ do {} while (x) { /false//a
                 "start": 2,
                 "end": 5
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 15
         },

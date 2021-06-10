@@ -73,7 +73,7 @@ switch (x) { default: continue foo; }
                 "start": 10,
                 "end": 37
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 37
         }

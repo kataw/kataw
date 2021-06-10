@@ -103,7 +103,7 @@ async (x = (do) = f) => {}
                 "start": 14,
                 "end": 14
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 15
         },

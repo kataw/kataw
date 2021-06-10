@@ -17,6 +17,7 @@ export function createWithStatement(
   withKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode,
   statement: StatementNode | BlockStatement,
+  flags: NodeFlags,
   start: number,
   end: number
 ): WithStatement {
@@ -25,7 +26,7 @@ export function createWithStatement(
     withKeyword,
     expression,
     statement,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

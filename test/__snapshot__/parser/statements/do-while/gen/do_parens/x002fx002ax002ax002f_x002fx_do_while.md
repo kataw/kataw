@@ -53,7 +53,7 @@ do( /**/ /x do while while
                 "start": 2,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 26
         }

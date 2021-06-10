@@ -104,7 +104,7 @@ import { a as arguments } from 'm.js';
                 "start": 0,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 38
         }

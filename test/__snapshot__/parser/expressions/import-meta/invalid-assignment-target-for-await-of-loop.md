@@ -122,7 +122,7 @@ async function* f() {
                                 "start": 57,
                                 "end": 59
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 21,
                             "end": 59
                         }

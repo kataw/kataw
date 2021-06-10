@@ -101,7 +101,7 @@ switch (true) { default: function g() {} }
                 "start": 13,
                 "end": 42
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 42
         }

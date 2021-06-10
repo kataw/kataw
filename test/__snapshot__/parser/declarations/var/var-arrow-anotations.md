@@ -2264,7 +2264,7 @@ class Array { concat(items:number | string) {}; }
                 "start": 32,
                 "end": 783
             },
-            "flags": 16,
+            "flags": 17,
             "start": 732,
             "end": 783
         }

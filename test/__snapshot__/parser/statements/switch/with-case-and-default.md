@@ -87,9 +87,9 @@ switch (x) { case y: break; default: return; }
                                     "end": 43
                                 },
                                 "expression": null,
-                                "flags": 16,
-                                "start": 0,
-                                "end": 36
+                                "flags": 80,
+                                "start": 36,
+                                "end": 44
                             }
                         ],
                         "flags": 16,
@@ -101,7 +101,7 @@ switch (x) { case y: break; default: return; }
                 "start": 10,
                 "end": 46
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 46
         }

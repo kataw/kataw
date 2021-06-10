@@ -96,7 +96,7 @@ try {} catch ([a,b,c]) { }
                     "start": 22,
                     "end": 26
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 26
             },

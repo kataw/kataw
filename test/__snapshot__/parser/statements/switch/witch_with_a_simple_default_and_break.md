@@ -80,7 +80,7 @@ switch (A) {default: B; break;}
                 "start": 10,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 31
         }

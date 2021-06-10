@@ -132,7 +132,7 @@ label: while(false) {
                                     "start": 32,
                                     "end": 69
                                 },
-                                "flags": 16,
+                                "flags": 17,
                                 "start": 21,
                                 "end": 69
                             }
@@ -145,7 +145,7 @@ label: while(false) {
                     "start": 19,
                     "end": 71
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 71
             },

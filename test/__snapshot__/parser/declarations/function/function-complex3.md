@@ -271,7 +271,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "start": 44,
                                 "end": 140
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 31,
                             "end": 140
                         },
@@ -398,7 +398,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                             },
                                             "elseKeyword": null,
                                             "alternate": null,
-                                            "flags": 16,
+                                            "flags": 81,
                                             "start": 175,
                                             "end": 195
                                         }
@@ -644,7 +644,7 @@ function b1<A: 'a', B: A>(b: B): void {
                             },
                             "elseKeyword": null,
                             "alternate": null,
-                            "flags": 16,
+                            "flags": 81,
                             "start": 241,
                             "end": 261
                         }

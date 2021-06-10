@@ -151,7 +151,7 @@ function *f(x = (if) = f) {}
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 17,
             "end": 24
         },

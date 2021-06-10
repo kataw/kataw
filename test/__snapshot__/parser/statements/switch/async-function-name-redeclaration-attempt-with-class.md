@@ -164,7 +164,7 @@ switch (0) { case 1: async function f() {} default: class f {} }
                 "start": 10,
                 "end": 64
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 64
         }

@@ -120,7 +120,7 @@ for ({ eval = 0 } in [{}]) ;
                 "start": 26,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 28
         }

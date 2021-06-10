@@ -79,7 +79,7 @@ class export {}
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 16,
+            "flags": 80,
             "start": 5,
             "end": 15
         }

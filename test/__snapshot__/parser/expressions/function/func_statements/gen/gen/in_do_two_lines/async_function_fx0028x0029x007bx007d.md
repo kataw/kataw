@@ -93,7 +93,7 @@ while (x);
                 "start": 2,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 34
         }

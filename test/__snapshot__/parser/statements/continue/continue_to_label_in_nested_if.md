@@ -83,11 +83,11 @@ foo: while (true) if (x) continue foo;
                     },
                     "elseKeyword": null,
                     "alternate": null,
-                    "flags": 16,
+                    "flags": 80,
                     "start": 17,
                     "end": 38
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 38
             },

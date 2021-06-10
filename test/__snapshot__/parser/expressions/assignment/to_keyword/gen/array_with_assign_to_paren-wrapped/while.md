@@ -113,7 +113,7 @@ async x => (while) = 1
                 "start": 18,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 22
         }

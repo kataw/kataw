@@ -65,7 +65,7 @@ for(x of 3)break/
                 "start": 11,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 16
         },

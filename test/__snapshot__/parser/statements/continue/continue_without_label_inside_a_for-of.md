@@ -59,7 +59,7 @@ for (x of y) continue
                 "start": 12,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 21
         }

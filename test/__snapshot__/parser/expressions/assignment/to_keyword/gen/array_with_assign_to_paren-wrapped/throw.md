@@ -80,7 +80,7 @@ async x => (throw) = 1
                 "start": 17,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 17
         },

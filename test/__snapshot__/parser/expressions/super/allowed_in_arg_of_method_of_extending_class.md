@@ -171,9 +171,9 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                     "start": 34,
                                                     "end": 54
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 27
+                                                "flags": 80,
+                                                "start": 27,
+                                                "end": 55
                                             }
                                         ],
                                         "flags": 32,

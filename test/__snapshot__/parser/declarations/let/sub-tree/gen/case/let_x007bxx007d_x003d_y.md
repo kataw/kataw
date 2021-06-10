@@ -123,7 +123,7 @@ switch (a) { case b: let {x} = y }
                 "start": 10,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 34
         }

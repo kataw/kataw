@@ -81,7 +81,7 @@ foo: for (x in y) continue foo;
                     "start": 17,
                     "end": 31
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 31
             },

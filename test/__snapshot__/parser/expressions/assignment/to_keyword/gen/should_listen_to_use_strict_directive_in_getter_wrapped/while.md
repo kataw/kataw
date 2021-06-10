@@ -152,7 +152,7 @@ foo = {
                                                         "start": 52,
                                                         "end": 53
                                                     },
-                                                    "flags": 16,
+                                                    "flags": 80,
                                                     "start": 42,
                                                     "end": 53
                                                 }

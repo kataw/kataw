@@ -64,7 +64,7 @@ do let {x}; while (a);
                 "start": 2,
                 "end": 6
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 11
         },
@@ -90,7 +90,7 @@ do let {x}; while (a);
                 "start": 21,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 80,
             "start": 11,
             "end": 22
         }

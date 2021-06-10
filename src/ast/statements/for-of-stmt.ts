@@ -25,6 +25,7 @@ export function createForOfStatement(
   expression: ExpressionNode,
   statement: StatementNode,
   awaitKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ForOfStatement {
@@ -36,7 +37,7 @@ export function createForOfStatement(
     ofKeyword,
     expression,
     statement,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

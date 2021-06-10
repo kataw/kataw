@@ -229,7 +229,7 @@ class x { static async *prototype(){} }
                 "start": 32,
                 "end": 77
             },
-            "flags": 16,
+            "flags": 17,
             "start": 36,
             "end": 77
         },
@@ -328,7 +328,7 @@ class x { static async *prototype(){} }
                 "start": 32,
                 "end": 115
             },
-            "flags": 16,
+            "flags": 17,
             "start": 77,
             "end": 115
         },
@@ -432,7 +432,7 @@ class x { static async *prototype(){} }
                 "start": 32,
                 "end": 156
             },
-            "flags": 16,
+            "flags": 17,
             "start": 115,
             "end": 156
         }

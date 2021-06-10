@@ -127,9 +127,9 @@ async function f() { return {await = 0} = {}; }
                                 "start": 27,
                                 "end": 44
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 20
+                            "flags": 80,
+                            "start": 20,
+                            "end": 45
                         }
                     ],
                     "flags": 32,

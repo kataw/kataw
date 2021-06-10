@@ -40,7 +40,7 @@ class Foo {
                             "start": 1,
                             "end": 4
                         },
-                        "flags": 1,
+                        "flags": 0,
                         "start": 1,
                         "end": 4
                     }
@@ -78,7 +78,7 @@ class Foo {
                 "start": 32,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 19
         }

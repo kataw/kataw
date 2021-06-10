@@ -44,9 +44,9 @@
                                     "end": 13
                                 },
                                 "expression": null,
-                                "flags": 16,
-                                "start": 0,
-                                "end": 7
+                                "flags": 80,
+                                "start": 7,
+                                "end": 13
                             }
                         ],
                         "flags": 32,

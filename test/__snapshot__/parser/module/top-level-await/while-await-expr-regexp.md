@@ -75,7 +75,7 @@ while (await /1/) { break; }
                 "start": 17,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 28
         }

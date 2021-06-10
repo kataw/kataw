@@ -124,7 +124,7 @@ switch (x) {
                 "start": 10,
                 "end": 52
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 52
         }

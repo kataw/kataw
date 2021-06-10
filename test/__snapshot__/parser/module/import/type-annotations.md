@@ -124,7 +124,7 @@ import { type Foo12 } from "bar";
                 "start": 0,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 39
         },
@@ -175,7 +175,7 @@ import { type Foo12 } from "bar";
                 "start": 39,
                 "end": 51
             },
-            "flags": 16,
+            "flags": 81,
             "start": 39,
             "end": 63
         },
@@ -257,7 +257,7 @@ import { type Foo12 } from "bar";
                 "start": 63,
                 "end": 87
             },
-            "flags": 16,
+            "flags": 81,
             "start": 63,
             "end": 99
         },
@@ -313,7 +313,7 @@ import { type Foo12 } from "bar";
                 "start": 99,
                 "end": 117
             },
-            "flags": 16,
+            "flags": 81,
             "start": 99,
             "end": 129
         },
@@ -418,7 +418,7 @@ import { type Foo12 } from "bar";
                 "start": 129,
                 "end": 157
             },
-            "flags": 16,
+            "flags": 81,
             "start": 129,
             "end": 169
         },
@@ -481,7 +481,7 @@ import { type Foo12 } from "bar";
                 "start": 169,
                 "end": 183
             },
-            "flags": 16,
+            "flags": 81,
             "start": 169,
             "end": 188
         },
@@ -603,7 +603,7 @@ import { type Foo12 } from "bar";
                 "start": 210,
                 "end": 232
             },
-            "flags": 16,
+            "flags": 81,
             "start": 210,
             "end": 244
         }

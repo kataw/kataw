@@ -232,7 +232,7 @@ var x, y, z; for (x in { x: new.target = 1 } = z = {});
                 "start": 54,
                 "end": 55
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 55
         }

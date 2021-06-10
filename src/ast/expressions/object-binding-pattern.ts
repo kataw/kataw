@@ -10,13 +10,14 @@ export interface ObjectBindingPattern extends SyntaxNode {
 
 export function createObjectBindingPattern(
   propertyList: BindingPropertyList,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ObjectBindingPattern {
   return {
     kind: SyntaxKind.ObjectBindingPattern,
     propertyList,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

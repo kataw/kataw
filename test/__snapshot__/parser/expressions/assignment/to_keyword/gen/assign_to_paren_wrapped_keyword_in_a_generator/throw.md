@@ -92,7 +92,7 @@ function *f(){
                                 "start": 23,
                                 "end": 23
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 18,
                             "end": 23
                         }

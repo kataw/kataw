@@ -280,9 +280,9 @@ function f1() {
                                 "start": 77,
                                 "end": 86
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 66
+                            "flags": 81,
+                            "start": 66,
+                            "end": 87
                         }
                     ],
                     "flags": 33,

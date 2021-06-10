@@ -150,7 +150,7 @@ for (function(){ a in b; }.prop in x);
                 "start": 37,
                 "end": 38
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 38
         }

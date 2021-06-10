@@ -72,7 +72,7 @@ foo: { while(z) continue foo }
                                 "start": 15,
                                 "end": 28
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 6,
                             "end": 28
                         }

@@ -648,9 +648,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 136,
                                 "end": 147
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 125
+                            "flags": 81,
+                            "start": 125,
+                            "end": 148
                         }
                     ],
                     "flags": 33,
@@ -790,9 +790,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 263,
                                 "end": 274
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 252
+                            "flags": 81,
+                            "start": 252,
+                            "end": 275
                         }
                     ],
                     "flags": 33,
@@ -887,9 +887,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 388,
                                 "end": 403
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 353
+                            "flags": 81,
+                            "start": 353,
+                            "end": 404
                         }
                     ],
                     "flags": 33,
@@ -986,9 +986,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 493,
                                 "end": 504
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 482
+                            "flags": 81,
+                            "start": 482,
+                            "end": 505
                         }
                     ],
                     "flags": 33,
@@ -1085,9 +1085,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 594,
                                 "end": 604
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 583
+                            "flags": 81,
+                            "start": 583,
+                            "end": 605
                         }
                     ],
                     "flags": 33,
@@ -1157,9 +1157,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 694
                             },
                             "expression": null,
-                            "flags": 16,
-                            "start": 0,
-                            "end": 683
+                            "flags": 81,
+                            "start": 683,
+                            "end": 694
                         },
                         {
                             "kind": 120,
@@ -1288,9 +1288,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 798,
                                 "end": 811
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 787
+                            "flags": 81,
+                            "start": 787,
+                            "end": 812
                         }
                     ],
                     "flags": 33,
@@ -1387,9 +1387,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 901,
                                 "end": 914
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 890
+                            "flags": 81,
+                            "start": 890,
+                            "end": 915
                         }
                     ],
                     "flags": 33,
@@ -1517,9 +1517,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 1004,
                                 "end": 1021
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 993
+                            "flags": 81,
+                            "start": 993,
+                            "end": 1022
                         }
                     ],
                     "flags": 33,
@@ -1673,9 +1673,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 1125,
                                 "end": 1136
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 1114
+                            "flags": 81,
+                            "start": 1114,
+                            "end": 1137
                         }
                     ],
                     "flags": 33,
@@ -1811,9 +1811,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 1235,
                                 "end": 1246
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 1224
+                            "flags": 81,
+                            "start": 1224,
+                            "end": 1247
                         }
                     ],
                     "flags": 33,
@@ -1984,9 +1984,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 1360,
                                 "end": 1371
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 1349
+                            "flags": 81,
+                            "start": 1349,
+                            "end": 1372
                         }
                     ],
                     "flags": 33,
@@ -2122,9 +2122,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 1472,
                                 "end": 1483
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 1461
+                            "flags": 81,
+                            "start": 1461,
+                            "end": 1484
                         }
                     ],
                     "flags": 33,
@@ -2325,9 +2325,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 1628,
                                 "end": 1648
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 1617
+                            "flags": 81,
+                            "start": 1617,
+                            "end": 1649
                         }
                     ],
                     "flags": 33,
@@ -2508,9 +2508,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 1802,
                                 "end": 1817
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 1791
+                            "flags": 81,
+                            "start": 1791,
+                            "end": 1818
                         }
                     ],
                     "flags": 33,
@@ -2693,9 +2693,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 1973,
                                 "end": 1993
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 1962
+                            "flags": 81,
+                            "start": 1962,
+                            "end": 1994
                         }
                     ],
                     "flags": 33,
@@ -2834,9 +2834,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 2124,
                                 "end": 2135
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 2080
+                            "flags": 81,
+                            "start": 2080,
+                            "end": 2136
                         }
                     ],
                     "flags": 33,
@@ -2976,9 +2976,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 2251,
                                 "end": 2258
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 2240
+                            "flags": 81,
+                            "start": 2240,
+                            "end": 2259
                         }
                     ],
                     "flags": 33,
@@ -3141,9 +3141,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 2382,
                                 "end": 2389
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 2371
+                            "flags": 81,
+                            "start": 2371,
+                            "end": 2390
                         }
                     ],
                     "flags": 33,
@@ -3283,9 +3283,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 2529,
                                 "end": 2536
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 2518
+                            "flags": 81,
+                            "start": 2518,
+                            "end": 2537
                         }
                     ],
                     "flags": 33,
@@ -3380,9 +3380,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 2626,
                                 "end": 2641
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 2615
+                            "flags": 81,
+                            "start": 2615,
+                            "end": 2642
                         }
                     ],
                     "flags": 33,
@@ -3479,9 +3479,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 2731,
                                 "end": 2742
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 2720
+                            "flags": 81,
+                            "start": 2720,
+                            "end": 2743
                         }
                     ],
                     "flags": 33,
@@ -3578,9 +3578,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 2832,
                                 "end": 2842
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 2821
+                            "flags": 81,
+                            "start": 2821,
+                            "end": 2843
                         }
                     ],
                     "flags": 33,
@@ -3650,9 +3650,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 2956
                             },
                             "expression": null,
-                            "flags": 16,
-                            "start": 0,
-                            "end": 2921
+                            "flags": 81,
+                            "start": 2921,
+                            "end": 2956
                         },
                         {
                             "kind": 120,
@@ -3781,9 +3781,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 3060,
                                 "end": 3073
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 3049
+                            "flags": 81,
+                            "start": 3049,
+                            "end": 3074
                         }
                     ],
                     "flags": 33,
@@ -3880,9 +3880,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 3163,
                                 "end": 3176
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 3152
+                            "flags": 81,
+                            "start": 3152,
+                            "end": 3177
                         }
                     ],
                     "flags": 33,
@@ -4083,9 +4083,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 3282,
                                 "end": 3302
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 3271
+                            "flags": 81,
+                            "start": 3271,
+                            "end": 3303
                         }
                     ],
                     "flags": 33,
@@ -4261,9 +4261,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 3434,
                                 "end": 3446
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 3423
+                            "flags": 81,
+                            "start": 3423,
+                            "end": 3447
                         }
                     ],
                     "flags": 33,
@@ -4410,9 +4410,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 3534,
                                 "end": 3546
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 3523
+                            "flags": 81,
+                            "start": 3523,
+                            "end": 3547
                         }
                     ],
                     "flags": 33,
@@ -4559,9 +4559,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 3634,
                                 "end": 3654
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 3623
+                            "flags": 81,
+                            "start": 3623,
+                            "end": 3655
                         }
                     ],
                     "flags": 33,
@@ -4706,9 +4706,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 3742,
                                 "end": 3762
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 3731
+                            "flags": 81,
+                            "start": 3731,
+                            "end": 3763
                         }
                     ],
                     "flags": 33,
@@ -4874,9 +4874,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 4006,
                                 "end": 4024
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 3995
+                            "flags": 81,
+                            "start": 3995,
+                            "end": 4025
                         }
                     ],
                     "flags": 33,
@@ -5042,9 +5042,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 4195,
                                 "end": 4213
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 4184
+                            "flags": 81,
+                            "start": 4184,
+                            "end": 4214
                         }
                     ],
                     "flags": 33,
@@ -5210,9 +5210,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 4363,
                                 "end": 4381
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 4352
+                            "flags": 81,
+                            "start": 4352,
+                            "end": 4382
                         }
                     ],
                     "flags": 33,
@@ -5378,9 +5378,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 4479,
                                 "end": 4497
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 4468
+                            "flags": 81,
+                            "start": 4468,
+                            "end": 4498
                         }
                     ],
                     "flags": 33,
@@ -5546,9 +5546,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 4595,
                                 "end": 4613
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 4584
+                            "flags": 81,
+                            "start": 4584,
+                            "end": 4614
                         }
                     ],
                     "flags": 33,
@@ -5714,9 +5714,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 4734,
                                 "end": 4752
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 4723
+                            "flags": 81,
+                            "start": 4723,
+                            "end": 4753
                         }
                     ],
                     "flags": 33,
@@ -5890,9 +5890,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 4912,
                                 "end": 4928
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 4859
+                            "flags": 81,
+                            "start": 4859,
+                            "end": 4929
                         }
                     ],
                     "flags": 33,
@@ -6080,9 +6080,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 5036,
                                 "end": 5052
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 5025
+                            "flags": 81,
+                            "start": 5025,
+                            "end": 5053
                         }
                     ],
                     "flags": 33,
@@ -6272,9 +6272,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 5152,
                                 "end": 5166
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 5141
+                            "flags": 81,
+                            "start": 5141,
+                            "end": 5167
                         }
                     ],
                     "flags": 33,
@@ -6448,9 +6448,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 5327,
                                 "end": 5343
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 5274
+                            "flags": 81,
+                            "start": 5274,
+                            "end": 5344
                         }
                     ],
                     "flags": 33,
@@ -6638,9 +6638,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 5471,
                                 "end": 5487
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 5436
+                            "flags": 81,
+                            "start": 5436,
+                            "end": 5488
                         }
                     ],
                     "flags": 33,
@@ -6842,9 +6842,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 5622,
                                 "end": 5638
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 5580
+                            "flags": 81,
+                            "start": 5580,
+                            "end": 5639
                         }
                     ],
                     "flags": 33,
@@ -7132,7 +7132,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 5745,
                                 "end": 5776
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 5713,
                             "end": 5776
                         },
@@ -7152,9 +7152,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 5787,
                                 "end": 5789
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 5776
+                            "flags": 81,
+                            "start": 5776,
+                            "end": 5790
                         }
                     ],
                     "flags": 33,
@@ -7399,7 +7399,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 5890,
                                 "end": 5942
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 5858,
                             "end": 5942
                         },
@@ -7419,9 +7419,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 5953,
                                 "end": 5955
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 5942
+                            "flags": 81,
+                            "start": 5942,
+                            "end": 5956
                         }
                     ],
                     "flags": 33,
@@ -7758,7 +7758,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 6080,
                                 "end": 6127
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 6048,
                             "end": 6127
                         },
@@ -7778,9 +7778,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 6138,
                                 "end": 6140
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 6127
+                            "flags": 81,
+                            "start": 6127,
+                            "end": 6141
                         }
                     ],
                     "flags": 33,
@@ -8025,7 +8025,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 6241,
                                 "end": 6293
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 6209,
                             "end": 6293
                         },
@@ -8045,9 +8045,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 6304,
                                 "end": 6306
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 6293
+                            "flags": 81,
+                            "start": 6293,
+                            "end": 6307
                         }
                     ],
                     "flags": 33,
@@ -8615,9 +8615,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 6395,
                                 "end": 6625
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 6384
+                            "flags": 81,
+                            "start": 6384,
+                            "end": 6626
                         }
                     ],
                     "flags": 33,
@@ -9240,9 +9240,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 6714,
                                 "end": 6944
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 6703
+                            "flags": 81,
+                            "start": 6703,
+                            "end": 6945
                         }
                     ],
                     "flags": 33,
@@ -9450,9 +9450,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7029,
                                 "end": 7042
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7018
+                            "flags": 81,
+                            "start": 7018,
+                            "end": 7043
                         }
                     ],
                     "flags": 33,
@@ -9605,9 +9605,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7127,
                                 "end": 7140
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7116
+                            "flags": 81,
+                            "start": 7116,
+                            "end": 7141
                         }
                     ],
                     "flags": 33,
@@ -9760,9 +9760,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7225,
                                 "end": 7238
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7214
+                            "flags": 81,
+                            "start": 7214,
+                            "end": 7239
                         }
                     ],
                     "flags": 33,
@@ -9915,9 +9915,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7323,
                                 "end": 7336
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7312
+                            "flags": 81,
+                            "start": 7312,
+                            "end": 7337
                         }
                     ],
                     "flags": 33,
@@ -10070,9 +10070,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7423,
                                 "end": 7436
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7412
+                            "flags": 81,
+                            "start": 7412,
+                            "end": 7437
                         }
                     ],
                     "flags": 33,
@@ -10225,9 +10225,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7523,
                                 "end": 7536
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7512
+                            "flags": 81,
+                            "start": 7512,
+                            "end": 7537
                         }
                     ],
                     "flags": 33,
@@ -10380,9 +10380,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7623,
                                 "end": 7636
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7612
+                            "flags": 81,
+                            "start": 7612,
+                            "end": 7637
                         }
                     ],
                     "flags": 33,
@@ -10535,9 +10535,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7723,
                                 "end": 7736
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7712
+                            "flags": 81,
+                            "start": 7712,
+                            "end": 7737
                         }
                     ],
                     "flags": 33,
@@ -10690,9 +10690,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7822,
                                 "end": 7836
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7811
+                            "flags": 81,
+                            "start": 7811,
+                            "end": 7837
                         }
                     ],
                     "flags": 33,
@@ -10845,9 +10845,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 7922,
                                 "end": 7936
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 7911
+                            "flags": 81,
+                            "start": 7911,
+                            "end": 7937
                         }
                     ],
                     "flags": 33,
@@ -11000,9 +11000,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 8022,
                                 "end": 8036
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 8011
+                            "flags": 81,
+                            "start": 8011,
+                            "end": 8037
                         }
                     ],
                     "flags": 33,
@@ -11155,9 +11155,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 8122,
                                 "end": 8136
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 8111
+                            "flags": 81,
+                            "start": 8111,
+                            "end": 8137
                         }
                     ],
                     "flags": 33,
@@ -11353,9 +11353,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 8265,
                                 "end": 8280
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 8254
+                            "flags": 81,
+                            "start": 8254,
+                            "end": 8281
                         }
                     ],
                     "flags": 33,
@@ -11633,9 +11633,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 8409,
                                 "end": 8428
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 8398
+                            "flags": 81,
+                            "start": 8398,
+                            "end": 8429
                         }
                     ],
                     "flags": 33,
@@ -11845,9 +11845,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 8556,
                                 "end": 8569
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 8547
+                            "flags": 81,
+                            "start": 8547,
+                            "end": 8570
                         }
                     ],
                     "flags": 33,
@@ -12057,9 +12057,9 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "start": 8668,
                                 "end": 8681
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 8659
+                            "flags": 81,
+                            "start": 8659,
+                            "end": 8682
                         }
                     ],
                     "flags": 33,
@@ -12119,8 +12119,7 @@ function logical1b() {
  * A literal on the left side of &&
  */
 function logical2a() {
-  return  false && "'123'"; // expected `: boolean`
-
+  return  false && "'123'";
 }
 /**
  * A literal on the left side of &&
@@ -12138,9 +12137,6 @@ function logical2c() {
  * A literal on the left side of &&
  */
 function logical2d() {
-  /**
- * A falsy variable on the left side of &&
- */
   return ;
   true && "'123'";
 }
@@ -12211,8 +12207,7 @@ function logical3c() {
  * Maybe truthy returns both types
  */
 function logical4(x) {
-  return  x && "'123'"; // expected `: boolean | string`
-
+  return  x && "'123'";
 }
 /**
  * A falsy variable on the left side of ||
@@ -12257,11 +12252,7 @@ function logical6c() {
  * A literal on the left side of ||
  */
 function logical6d() {
-  /**
- * A falsy variable on the left side of &&
- */
-  return ; // expected `: boolean`
-
+  return ;
   true || "'123'";
 }
 /**
@@ -12360,8 +12351,7 @@ function logical8f() {
  * A composite || and ||
  */
 function logical9a(x, y) {
-  return  x || y || false; // expected `: number | string | boolean`
-
+  return  x || y || false;
 }
 /**
  * A composite || and ||
@@ -12379,22 +12369,19 @@ function logical9c(x, y) {
  * A composite && and &&
  */
 function logical10a(x, y) {
-  return  x && y && false; // expected `: number | string | boolean`
-
+  return  x && y && false;
 }
 /**
  * A composite && and &&
  */
 function logical10b(x, y) {
-  return  false && x && y; // expected `: boolean`
-
+  return  false && x && y;
 }
 /**
  * A composite && and &&
  */
 function logical10c(x, y) {
-  return  x && false && y; // expected `number | boolean`
-
+  return  x && false && y;
 }
 /**
  * || in a loop
@@ -12549,10 +12536,12 @@ function logical18b(x, y) {
  * Layer of indirection in the LHS (get prop)
  */
 function logical19a(x) {
-  return  (x.y && x.z);
+  return  (x.y && x.z); // error: x.y is a string
+
 }
 function logical19b(x) {
-  return  (x.y || x.z);
+  return  (x.y || x.z); // error: x.y is a string
+
 }
 ```
 

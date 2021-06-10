@@ -178,9 +178,9 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                         "start": 61,
                                                                         "end": 77
                                                                     },
-                                                                    "flags": 16,
-                                                                    "start": 0,
-                                                                    "end": 54
+                                                                    "flags": 80,
+                                                                    "start": 54,
+                                                                    "end": 78
                                                                 }
                                                             ],
                                                             "flags": 32,
@@ -197,9 +197,9 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                     "start": 41,
                                                     "end": 80
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 34
+                                                "flags": 80,
+                                                "start": 34,
+                                                "end": 80
                                             }
                                         ],
                                         "flags": 32,

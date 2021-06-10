@@ -64,9 +64,9 @@ function f(){   return 15;    }
                                 "start": 22,
                                 "end": 25
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 13
+                            "flags": 80,
+                            "start": 13,
+                            "end": 26
                         }
                     ],
                     "flags": 32,

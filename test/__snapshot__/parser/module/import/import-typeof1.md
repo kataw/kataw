@@ -116,7 +116,7 @@ import typeof { foo25, bar1 } from "baz";
                 "start": 0,
                 "end": 29
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 41
         }

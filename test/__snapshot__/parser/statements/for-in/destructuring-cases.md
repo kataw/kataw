@@ -93,7 +93,7 @@ for (let {...a.b} in c);
                 "start": 19,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 21
         },
@@ -201,7 +201,7 @@ for (let {...a.b} in c);
                 "start": 38,
                 "end": 38
             },
-            "flags": 16,
+            "flags": 81,
             "start": 21,
             "end": 38
         },

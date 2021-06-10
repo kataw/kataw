@@ -83,7 +83,7 @@ async () => {  sw\u0069tch = x  }
                                 "start": 30,
                                 "end": 33
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 13,
                             "end": 33
                         }

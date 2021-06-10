@@ -102,7 +102,7 @@ for await (a of b) let [x] = y
                 "start": 18,
                 "end": 30
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 30
         }

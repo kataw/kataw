@@ -316,7 +316,7 @@ for (let x = 0; x < 10;) {
                                 "start": 74,
                                 "end": 116
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 48,
                             "end": 116
                         }
@@ -329,7 +329,7 @@ for (let x = 0; x < 10;) {
                 "start": 39,
                 "end": 118
             },
-            "flags": 16,
+            "flags": 81,
             "start": 14,
             "end": 118
         }

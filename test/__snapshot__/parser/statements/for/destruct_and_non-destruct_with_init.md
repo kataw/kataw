@@ -108,7 +108,7 @@ for (let [foo] = arr, bar = arr2);
                 "start": 33,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 34
         }

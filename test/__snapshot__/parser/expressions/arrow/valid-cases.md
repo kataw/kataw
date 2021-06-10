@@ -152,9 +152,9 @@ foo ? bar : baz => {};
                                     "start": 24,
                                     "end": 27
                                 },
-                                "flags": 16,
-                                "start": 0,
-                                "end": 17
+                                "flags": 80,
+                                "start": 17,
+                                "end": 27
                             }
                         ],
                         "flags": 32,
@@ -278,9 +278,9 @@ foo ? bar : baz => {};
                                     "start": 60,
                                     "end": 62
                                 },
-                                "flags": 16,
-                                "start": 0,
-                                "end": 53
+                                "flags": 80,
+                                "start": 53,
+                                "end": 63
                             }
                         ],
                         "flags": 32,
@@ -344,9 +344,9 @@ foo ? bar : baz => {};
                                     "start": 82,
                                     "end": 84
                                 },
-                                "flags": 16,
-                                "start": 0,
-                                "end": 75
+                                "flags": 80,
+                                "start": 75,
+                                "end": 85
                             }
                         ],
                         "flags": 32,
@@ -438,9 +438,9 @@ foo ? bar : baz => {};
                                     "start": 107,
                                     "end": 113
                                 },
-                                "flags": 16,
-                                "start": 0,
-                                "end": 100
+                                "flags": 80,
+                                "start": 100,
+                                "end": 114
                             }
                         ],
                         "flags": 32,
@@ -560,9 +560,9 @@ foo ? bar : baz => {};
                                     "start": 139,
                                     "end": 149
                                 },
-                                "flags": 16,
-                                "start": 0,
-                                "end": 132
+                                "flags": 80,
+                                "start": 132,
+                                "end": 150
                             }
                         ],
                         "flags": 32,

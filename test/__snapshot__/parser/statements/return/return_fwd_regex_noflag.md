@@ -60,9 +60,9 @@ function f(){
                                 "end": 22
                             },
                             "expression": null,
-                            "flags": 16,
-                            "start": 1,
-                            "end": 13
+                            "flags": 81,
+                            "start": 13,
+                            "end": 22
                         },
                         {
                             "kind": 120,

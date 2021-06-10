@@ -108,7 +108,7 @@ async x => do = 1
                 "start": 13,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 80,
             "start": 10,
             "end": 17
         }

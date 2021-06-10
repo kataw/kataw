@@ -216,9 +216,9 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                                 "start": 85,
                                                                 "end": 87
                                                             },
-                                                            "flags": 16,
-                                                            "start": 0,
-                                                            "end": 78
+                                                            "flags": 80,
+                                                            "start": 78,
+                                                            "end": 88
                                                         }
                                                     ],
                                                     "flags": 32,

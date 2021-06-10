@@ -67,7 +67,7 @@ for (new x in x) ;
                 "start": 16,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 18
         }

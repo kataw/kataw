@@ -462,9 +462,9 @@ function for_scope_var() {
                                                 "start": 274,
                                                 "end": 276
                                             },
-                                            "flags": 16,
-                                            "start": 1,
-                                            "end": 263
+                                            "flags": 81,
+                                            "start": 263,
+                                            "end": 277
                                         }
                                     ],
                                     "flags": 33,
@@ -733,9 +733,9 @@ function for_scope_var() {
                                                 "start": 441,
                                                 "end": 445
                                             },
-                                            "flags": 16,
-                                            "start": 1,
-                                            "end": 430
+                                            "flags": 81,
+                                            "start": 430,
+                                            "end": 446
                                         }
                                     ],
                                     "flags": 33,
@@ -882,9 +882,9 @@ function for_scope_var() {
                                                 "start": 564,
                                                 "end": 566
                                             },
-                                            "flags": 16,
-                                            "start": 1,
-                                            "end": 553
+                                            "flags": 81,
+                                            "start": 553,
+                                            "end": 567
                                         }
                                     ],
                                     "flags": 33,
@@ -1070,7 +1070,7 @@ function for_scope_var() {
                                 "start": 667,
                                 "end": 670
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 622,
                             "end": 670
                         }
@@ -1233,7 +1233,7 @@ function for_scope_var() {
                                 "start": 772,
                                 "end": 775
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 721,
                             "end": 775
                         }
@@ -1286,7 +1286,8 @@ function default_param_2() {
   let a = "\"\"";
   function f0(x = () =>  a) {
     let a = 0;
-    return  x();
+    return  x(); // error: string ~> number
+
   }
   function f1(x = b /* error: cannot resolve b */) {
     let b = 0;

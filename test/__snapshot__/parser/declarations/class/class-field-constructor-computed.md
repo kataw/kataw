@@ -154,7 +154,7 @@ class Foo { static ['constructor'] = 1 }
                 "start": 32,
                 "end": 64
             },
-            "flags": 16,
+            "flags": 17,
             "start": 29,
             "end": 64
         },
@@ -224,7 +224,7 @@ class Foo { static ['constructor'] = 1 }
                 "start": 32,
                 "end": 102
             },
-            "flags": 16,
+            "flags": 17,
             "start": 64,
             "end": 102
         },
@@ -301,7 +301,7 @@ class Foo { static ['constructor'] = 1 }
                 "start": 32,
                 "end": 144
             },
-            "flags": 16,
+            "flags": 17,
             "start": 102,
             "end": 144
         }

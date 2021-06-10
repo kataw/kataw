@@ -114,7 +114,7 @@ try {} catch([a,b,...rest]) {}
                     "start": 27,
                     "end": 30
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 30
             },

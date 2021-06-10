@@ -38,7 +38,7 @@ class x {}
                             "start": 1,
                             "end": 2
                         },
-                        "flags": 1,
+                        "flags": 0,
                         "start": 1,
                         "end": 2
                     }
@@ -76,7 +76,7 @@ class x {}
                 "start": 32,
                 "end": 13
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 13
         }

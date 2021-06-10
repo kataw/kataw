@@ -133,7 +133,7 @@ for (const x in [1, 2, 3]) { x++ }
                 "start": 26,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 34
         }

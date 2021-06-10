@@ -67,7 +67,7 @@ foo:for(;;)continue foo
                     "start": 11,
                     "end": 23
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 23
             },

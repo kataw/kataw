@@ -48,7 +48,7 @@ class C2 {
                             "start": 1,
                             "end": 6
                         },
-                        "flags": 1,
+                        "flags": 0,
                         "start": 1,
                         "end": 6
                     }
@@ -138,7 +138,7 @@ class C2 {
                 "start": 32,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 34
         }

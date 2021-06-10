@@ -123,7 +123,7 @@ import type { foo25, bar1 } from "baz";
                 "start": 0,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 39
         }

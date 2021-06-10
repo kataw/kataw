@@ -21,6 +21,7 @@ export function createImportDeclaration(
   fromClause: FromClause | null,
   moduleSpecifier: ExpressionNode | null,
   importClause: ImportClause | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ImportDeclaration {
@@ -32,7 +33,7 @@ export function createImportDeclaration(
     fromClause,
     moduleSpecifier,
     importClause,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

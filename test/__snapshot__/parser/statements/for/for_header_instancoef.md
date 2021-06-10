@@ -83,7 +83,7 @@ for ((2935) instanceof ((2e308));;) debugger
                 "start": 35,
                 "end": 44
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 44
         }

@@ -13,6 +13,7 @@ export interface ThrowStatement extends SyntaxNode {
 export function createThrowStatement(
   throwKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ThrowStatement {
@@ -20,7 +21,7 @@ export function createThrowStatement(
     kind: SyntaxKind.ThrowStatement,
     throwKeyword,
     expression,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

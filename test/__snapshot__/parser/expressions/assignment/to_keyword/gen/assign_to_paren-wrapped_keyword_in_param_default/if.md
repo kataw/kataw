@@ -124,7 +124,7 @@ async (x = (if) = f) => {}
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 19
         },

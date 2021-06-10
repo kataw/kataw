@@ -53,9 +53,9 @@
                 "start": 11,
                 "end": 15
             },
-            "flags": 16,
+            "flags": 16464,
             "start": 0,
-            "end": 0
+            "end": 16
         }
     ],
     "isModule": false,

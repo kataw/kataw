@@ -114,7 +114,7 @@ for (new a in b in c in d) break
                 "start": 26,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 32
         }

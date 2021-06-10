@@ -124,9 +124,9 @@ async function * gen() {await (yield 10); return 20; yield 'dead'}
                                 "start": 48,
                                 "end": 51
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 41
+                            "flags": 80,
+                            "start": 41,
+                            "end": 52
                         },
                         {
                             "kind": 120,

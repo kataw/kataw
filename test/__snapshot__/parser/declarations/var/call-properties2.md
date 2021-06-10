@@ -212,9 +212,9 @@ var c: { (): string; (x: number): string } =
                                                 "start": 141,
                                                 "end": 146
                                             },
-                                            "flags": 16,
-                                            "start": 0,
-                                            "end": 134
+                                            "flags": 80,
+                                            "start": 134,
+                                            "end": 147
                                         }
                                     ],
                                     "flags": 32,
@@ -433,9 +433,9 @@ var c: { (): string; (x: number): string } =
                                                 "start": 301,
                                                 "end": 306
                                             },
-                                            "flags": 16,
-                                            "start": 0,
-                                            "end": 294
+                                            "flags": 80,
+                                            "start": 294,
+                                            "end": 307
                                         }
                                     ],
                                     "flags": 32,
@@ -492,12 +492,10 @@ var c: { (): string; (x: number): string } =
 // It should be fine when a function satisfies them all
 
 var b = function (x?) {
-  // It should be fine when a function satisfies them all
   return  "\"hi\"";
 };
 // ...but should notice when a function doesn't satisfy them all
 var c = function (x) {
-  // It should be fine when a function satisfies them all
   return  "\"hi\"";
 };
 ```

@@ -190,7 +190,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 64
             },
-            "flags": 16,
+            "flags": 17,
             "start": 31,
             "end": 64
         },
@@ -290,7 +290,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 100
             },
-            "flags": 16,
+            "flags": 17,
             "start": 64,
             "end": 100
         },
@@ -390,7 +390,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 138
             },
-            "flags": 16,
+            "flags": 17,
             "start": 100,
             "end": 138
         },
@@ -499,7 +499,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 177
             },
-            "flags": 16,
+            "flags": 17,
             "start": 138,
             "end": 177
         },
@@ -599,7 +599,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 216
             },
-            "flags": 16,
+            "flags": 17,
             "start": 177,
             "end": 216
         },
@@ -676,7 +676,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 258
             },
-            "flags": 16,
+            "flags": 17,
             "start": 216,
             "end": 258
         },
@@ -776,7 +776,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 300
             },
-            "flags": 16,
+            "flags": 17,
             "start": 258,
             "end": 300
         },
@@ -881,7 +881,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 342
             },
-            "flags": 16,
+            "flags": 17,
             "start": 300,
             "end": 342
         },
@@ -986,7 +986,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 386
             },
-            "flags": 16,
+            "flags": 17,
             "start": 342,
             "end": 386
         },
@@ -1100,7 +1100,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 434
             },
-            "flags": 16,
+            "flags": 17,
             "start": 386,
             "end": 434
         },
@@ -1205,7 +1205,7 @@ class Twelve { static async ['prototype']() {} }
                 "start": 32,
                 "end": 483
             },
-            "flags": 16,
+            "flags": 17,
             "start": 434,
             "end": 483
         }

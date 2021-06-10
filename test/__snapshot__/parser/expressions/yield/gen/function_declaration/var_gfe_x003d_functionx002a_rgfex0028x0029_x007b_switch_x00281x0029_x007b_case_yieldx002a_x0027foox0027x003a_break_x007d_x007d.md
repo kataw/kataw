@@ -190,7 +190,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                 "start": 60,
                                                                 "end": 90
                                                             },
-                                                            "flags": 16,
+                                                            "flags": 80,
                                                             "start": 49,
                                                             "end": 90
                                                         }

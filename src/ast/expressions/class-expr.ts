@@ -23,6 +23,7 @@ export function createClassExpression(
   name: Identifier | null,
   typeParameters: TypeParameterDeclaration | null,
   tail: ClassTail,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ClassExpression {
@@ -33,7 +34,7 @@ export function createClassExpression(
     name,
     typeParameters,
     tail,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

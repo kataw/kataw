@@ -111,7 +111,7 @@ switch (A) {case B: C; case D: E;}
                 "start": 10,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 34
         }

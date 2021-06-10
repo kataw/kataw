@@ -106,11 +106,11 @@ function f(){ do        if (x) break y   ; while(true);}
                                 },
                                 "elseKeyword": null,
                                 "alternate": null,
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 16,
                                 "end": 42
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 13,
                             "end": 55
                         }

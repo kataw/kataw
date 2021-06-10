@@ -142,7 +142,7 @@ try { var e } catch (e) {}
                                     "start": 32,
                                     "end": 48
                                 },
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 18,
                                 "end": 48
                             }
@@ -155,7 +155,7 @@ try { var e } catch (e) {}
                     "start": 16,
                     "end": 50
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 50
             },
@@ -272,7 +272,7 @@ try { var e } catch (e) {}
                                 },
                                 "elseKeyword": null,
                                 "alternate": null,
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 70,
                                 "end": 93
                             }
@@ -285,7 +285,7 @@ try { var e } catch (e) {}
                     "start": 68,
                     "end": 95
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 58,
                 "end": 95
             },
@@ -402,7 +402,7 @@ try { var e } catch (e) {}
                                 },
                                 "elseKeyword": null,
                                 "alternate": null,
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 115,
                                 "end": 138
                             }
@@ -415,7 +415,7 @@ try { var e } catch (e) {}
                     "start": 113,
                     "end": 140
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 103,
                 "end": 140
             },
@@ -537,7 +537,7 @@ try { var e } catch (e) {}
                     "start": 158,
                     "end": 182
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 148,
                 "end": 182
             },
@@ -659,7 +659,7 @@ try { var e } catch (e) {}
                     "start": 200,
                     "end": 224
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 190,
                 "end": 224
             },
@@ -758,7 +758,7 @@ try { var e } catch (e) {}
                     "start": 249,
                     "end": 252
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 239,
                 "end": 252
             },

@@ -88,7 +88,7 @@ try {} catch ([a,a]) { }
                     "start": 20,
                     "end": 24
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 24
             },

@@ -52,7 +52,7 @@ for (a o\u0066 b);
                 "start": 17,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 18
         }

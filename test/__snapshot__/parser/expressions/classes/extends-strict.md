@@ -151,7 +151,7 @@ class C extends (function B() {
                                                     "start": 51,
                                                     "end": 52
                                                 },
-                                                "flags": 16,
+                                                "flags": 81,
                                                 "start": 39,
                                                 "end": 52
                                             },
@@ -171,9 +171,9 @@ class C extends (function B() {
                                                     "start": 61,
                                                     "end": 63
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 52
+                                                "flags": 81,
+                                                "start": 52,
+                                                "end": 64
                                             }
                                         ],
                                         "flags": 33,
@@ -222,7 +222,7 @@ class C extends (function B() {
                 "start": 32,
                 "end": 72
             },
-            "flags": 16,
+            "flags": 17,
             "start": 6,
             "end": 72
         }

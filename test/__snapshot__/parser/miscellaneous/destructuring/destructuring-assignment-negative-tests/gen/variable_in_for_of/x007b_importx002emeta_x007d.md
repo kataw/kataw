@@ -163,7 +163,7 @@ var x, y, z; for (x of { import.meta } = {});
                 "start": 36,
                 "end": 36
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 36
         },

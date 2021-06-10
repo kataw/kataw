@@ -78,7 +78,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                                 "start": 42,
                                 "end": 46
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 14,
                             "end": 46
                         },

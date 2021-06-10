@@ -117,9 +117,9 @@ function loadImport(file) {
                                 "start": 43,
                                 "end": 63
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 27
+                            "flags": 81,
+                            "start": 27,
+                            "end": 63
                         }
                     ],
                     "flags": 33,

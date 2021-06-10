@@ -73,7 +73,7 @@ import {} from "foo";
                 "start": 0,
                 "end": 9
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 21
         }

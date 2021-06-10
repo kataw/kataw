@@ -107,9 +107,9 @@ async (x = delete ((return) = f)) => {}
                 "start": 26,
                 "end": 26
             },
-            "flags": 16,
-            "start": 0,
-            "end": 20
+            "flags": 80,
+            "start": 20,
+            "end": 26
         },
         {
             "kind": 120,

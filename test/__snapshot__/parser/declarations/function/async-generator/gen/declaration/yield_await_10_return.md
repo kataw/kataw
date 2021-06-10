@@ -111,9 +111,9 @@ async function * gen() {yield await 10; return}
                                 "end": 46
                             },
                             "expression": null,
-                            "flags": 16,
-                            "start": 0,
-                            "end": 39
+                            "flags": 80,
+                            "start": 39,
+                            "end": 46
                         }
                     ],
                     "flags": 32,

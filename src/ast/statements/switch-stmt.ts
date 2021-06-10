@@ -16,6 +16,7 @@ export function createSwitchStatement(
   switchKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode,
   caseBlock: CaseBlock,
+  flags: NodeFlags,
   start: number,
   end: number
 ): SwitchStatement {
@@ -24,7 +25,7 @@ export function createSwitchStatement(
     switchKeyword,
     expression,
     caseBlock,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

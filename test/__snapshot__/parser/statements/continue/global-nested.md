@@ -66,11 +66,11 @@ do     if (x) continue   ; while(true);
                 },
                 "elseKeyword": null,
                 "alternate": null,
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 39
         }

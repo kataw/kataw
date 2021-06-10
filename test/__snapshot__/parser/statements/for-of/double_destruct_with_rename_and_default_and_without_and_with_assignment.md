@@ -162,7 +162,7 @@ for (let {x:y=z}, {a:b=c} of obj);
                 "start": 33,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 34
         }

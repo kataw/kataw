@@ -220,9 +220,9 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 "start": 84,
                                 "end": 91
                             },
-                            "flags": 16,
-                            "start": 1,
-                            "end": 75
+                            "flags": 81,
+                            "start": 75,
+                            "end": 92
                         }
                     ],
                     "flags": 33,

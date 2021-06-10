@@ -83,7 +83,7 @@ function x(){
                             },
                             "elseKeyword": null,
                             "alternate": null,
-                            "flags": 16,
+                            "flags": 81,
                             "start": 13,
                             "end": 35
                         },

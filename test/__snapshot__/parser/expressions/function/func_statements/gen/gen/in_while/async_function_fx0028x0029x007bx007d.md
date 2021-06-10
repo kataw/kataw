@@ -86,7 +86,7 @@ while (x) async function f(){}
                 "start": 9,
                 "end": 30
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 30
         }

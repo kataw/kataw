@@ -927,9 +927,9 @@ for (;;) {}});
                                         "end": 304
                                     },
                                     "expression": null,
-                                    "flags": 16,
-                                    "start": 0,
-                                    "end": 297
+                                    "flags": 80,
+                                    "start": 297,
+                                    "end": 304
                                 }
                             ],
                             "flags": 32,
@@ -1039,9 +1039,9 @@ for (;;) {}});
                                         "start": 342,
                                         "end": 345
                                     },
-                                    "flags": 16,
-                                    "start": 0,
-                                    "end": 335
+                                    "flags": 80,
+                                    "start": 335,
+                                    "end": 345
                                 }
                             ],
                             "flags": 32,
@@ -1156,9 +1156,9 @@ for (;;) {}});
                                         "start": 385,
                                         "end": 388
                                     },
-                                    "flags": 16,
-                                    "start": 0,
-                                    "end": 378
+                                    "flags": 80,
+                                    "start": 378,
+                                    "end": 388
                                 }
                             ],
                             "flags": 32,
@@ -1268,9 +1268,9 @@ for (;;) {}});
                                         "start": 426,
                                         "end": 429
                                     },
-                                    "flags": 16,
-                                    "start": 0,
-                                    "end": 419
+                                    "flags": 80,
+                                    "start": 419,
+                                    "end": 430
                                 },
                                 {
                                     "kind": 120,
@@ -1413,9 +1413,9 @@ for (;;) {}});
                                         "start": 484,
                                         "end": 487
                                     },
-                                    "flags": 16,
-                                    "start": 0,
-                                    "end": 477
+                                    "flags": 80,
+                                    "start": 477,
+                                    "end": 488
                                 },
                                 {
                                     "kind": 120,
@@ -2596,7 +2596,7 @@ for (;;) {}});
                                         "start": 958,
                                         "end": 961
                                     },
-                                    "flags": 16,
+                                    "flags": 81,
                                     "start": 949,
                                     "end": 961
                                 }

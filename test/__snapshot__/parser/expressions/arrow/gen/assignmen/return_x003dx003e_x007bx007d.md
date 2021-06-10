@@ -66,9 +66,9 @@ x = return => {} ;
                 "start": 10,
                 "end": 10
             },
-            "flags": 16,
-            "start": 0,
-            "end": 3
+            "flags": 80,
+            "start": 3,
+            "end": 10
         },
         {
             "kind": 124,

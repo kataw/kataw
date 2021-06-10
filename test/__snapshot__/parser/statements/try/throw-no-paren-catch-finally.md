@@ -46,7 +46,7 @@ throw {x} catch finally
                 "start": 5,
                 "end": 9
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 9
         },
@@ -88,7 +88,7 @@ throw {x} catch finally
                     "start": 15,
                     "end": 15
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 9,
                 "end": 15
             },

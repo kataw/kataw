@@ -166,9 +166,9 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                         "start": 17,
                                                         "end": 49
                                                     },
-                                                    "flags": 16,
-                                                    "start": 0,
-                                                    "end": 10
+                                                    "flags": 80,
+                                                    "start": 10,
+                                                    "end": 49
                                                 }
                                             ],
                                             "flags": 32,

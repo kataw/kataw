@@ -81,13 +81,13 @@
                                 "start": 14,
                                 "end": 14
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 7,
                             "end": 14
                         },
                         "elseKeyword": null,
                         "alternate": null,
-                        "flags": 16,
+                        "flags": 80,
                         "start": 2,
                         "end": 14
                     },
@@ -121,7 +121,7 @@
                             "start": 22,
                             "end": 28
                         },
-                        "flags": 16,
+                        "flags": 80,
                         "start": 14,
                         "end": 28
                     }

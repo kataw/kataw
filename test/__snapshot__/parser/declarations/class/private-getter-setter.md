@@ -142,9 +142,9 @@ class Foo {
                                                     "start": 32,
                                                     "end": 41
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 25
+                                                "flags": 80,
+                                                "start": 25,
+                                                "end": 41
                                             }
                                         ],
                                         "flags": 32,
@@ -341,9 +341,9 @@ class Foo {
                                                     "start": 99,
                                                     "end": 109
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 92
+                                                "flags": 80,
+                                                "start": 92,
+                                                "end": 109
                                             }
                                         ],
                                         "flags": 32,

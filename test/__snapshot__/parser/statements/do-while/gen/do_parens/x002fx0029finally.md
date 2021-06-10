@@ -53,7 +53,7 @@ do( /)finally while
                 "start": 2,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 19
         }

@@ -191,7 +191,7 @@ class Foo extends async x => {} {}
                 "start": 32,
                 "end": 59
             },
-            "flags": 16,
+            "flags": 17,
             "start": 28,
             "end": 59
         },
@@ -282,7 +282,7 @@ class Foo extends async x => {} {}
                 "start": 32,
                 "end": 95
             },
-            "flags": 16,
+            "flags": 17,
             "start": 59,
             "end": 95
         },

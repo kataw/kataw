@@ -349,9 +349,9 @@ class C2<X, Y> {
                                                                     "start": 92,
                                                                     "end": 107
                                                                 },
-                                                                "flags": 16,
-                                                                "start": 1,
-                                                                "end": 79
+                                                                "flags": 81,
+                                                                "start": 79,
+                                                                "end": 108
                                                             }
                                                         ],
                                                         "flags": 17,
@@ -364,7 +364,7 @@ class C2<X, Y> {
                                                 },
                                                 "elseKeyword": null,
                                                 "alternate": null,
-                                                "flags": 16,
+                                                "flags": 81,
                                                 "start": 66,
                                                 "end": 114
                                             },
@@ -410,9 +410,9 @@ class C2<X, Y> {
                                                     "start": 125,
                                                     "end": 136
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 114
+                                                "flags": 81,
+                                                "start": 114,
+                                                "end": 137
                                             }
                                         ],
                                         "flags": 33,
@@ -714,9 +714,9 @@ class C2<X, Y> {
                                                     "start": 205,
                                                     "end": 212
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 194
+                                                "flags": 81,
+                                                "start": 194,
+                                                "end": 213
                                             }
                                         ],
                                         "flags": 33,
@@ -744,7 +744,7 @@ class C2<X, Y> {
                 "start": 32,
                 "end": 219
             },
-            "flags": 16,
+            "flags": 17,
             "start": 143,
             "end": 219
         }

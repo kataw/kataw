@@ -230,7 +230,7 @@ class A extends B {
                                                     "start": 32,
                                                     "end": 80
                                                 },
-                                                "flags": 16,
+                                                "flags": 17,
                                                 "start": 27,
                                                 "end": 80
                                             }

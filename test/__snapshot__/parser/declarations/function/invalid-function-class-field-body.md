@@ -152,7 +152,7 @@ function* foo() {
                                 "start": 32,
                                 "end": 98
                             },
-                            "flags": 16,
+                            "flags": 17,
                             "start": 17,
                             "end": 98
                         }

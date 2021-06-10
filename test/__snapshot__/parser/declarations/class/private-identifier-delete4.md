@@ -168,7 +168,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                 "start": 32,
                 "end": 47
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 47
         },
@@ -341,7 +341,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                 "start": 32,
                 "end": 96
             },
-            "flags": 16,
+            "flags": 17,
             "start": 47,
             "end": 96
         }

@@ -186,7 +186,7 @@ async function * f() { for await ({[Symbol.iterator]: a = 1} of []) { } }
                                 "start": 67,
                                 "end": 71
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 22,
                             "end": 71
                         }

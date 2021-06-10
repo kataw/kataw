@@ -88,11 +88,11 @@ do while try this and !foo while
                     "start": 8,
                     "end": 12
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 12
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 17
         },
@@ -164,7 +164,7 @@ do while try this and !foo while
                 "start": 32,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 80,
             "start": 26,
             "end": 32
         }

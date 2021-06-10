@@ -97,7 +97,7 @@ for (async function f(){} in x) ;
                 "start": 31,
                 "end": 33
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 33
         }

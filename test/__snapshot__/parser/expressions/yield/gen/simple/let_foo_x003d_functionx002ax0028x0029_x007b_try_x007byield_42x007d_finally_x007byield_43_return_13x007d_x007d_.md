@@ -177,9 +177,9 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "start": 64,
                                                                 "end": 67
                                                             },
-                                                            "flags": 16,
-                                                            "start": 0,
-                                                            "end": 57
+                                                            "flags": 80,
+                                                            "start": 57,
+                                                            "end": 67
                                                         }
                                                     ],
                                                     "flags": 16,

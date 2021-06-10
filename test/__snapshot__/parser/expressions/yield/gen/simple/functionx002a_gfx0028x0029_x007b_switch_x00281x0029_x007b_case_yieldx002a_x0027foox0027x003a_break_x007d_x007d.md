@@ -134,7 +134,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "start": 27,
                                 "end": 57
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 16,
                             "end": 57
                         }

@@ -98,7 +98,7 @@ if (false) ; else async function* f() {  }
                 "start": 17,
                 "end": 42
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 42
         }

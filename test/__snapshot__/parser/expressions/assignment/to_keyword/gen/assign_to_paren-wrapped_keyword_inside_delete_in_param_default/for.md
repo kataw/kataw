@@ -148,7 +148,7 @@ async (x = delete ((for) = f)) => {}
                 "start": 24,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 80,
             "start": 20,
             "end": 28
         },

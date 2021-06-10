@@ -183,7 +183,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                 "start": 49,
                                                                                 "end": 72
                                                                             },
-                                                                            "flags": 16,
+                                                                            "flags": 80,
                                                                             "start": 38,
                                                                             "end": 72
                                                                         }

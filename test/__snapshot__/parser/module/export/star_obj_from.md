@@ -61,7 +61,7 @@ export *, {bar} from 'bar';
                 "end": 8
             },
             "exportKind": 0,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 8
         },

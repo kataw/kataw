@@ -89,7 +89,7 @@
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 15,
             "end": 23
         }

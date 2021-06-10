@@ -245,7 +245,7 @@ var x, y, z; for (x of x = [super = 1] = z = {});
                 "start": 48,
                 "end": 49
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 49
         }

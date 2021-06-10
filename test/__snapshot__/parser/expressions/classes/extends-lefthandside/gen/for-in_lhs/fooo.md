@@ -54,7 +54,7 @@ for (fooo in x) ;
                 "start": 15,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 17
         }

@@ -80,7 +80,7 @@ for = x
                 "start": 7,
                 "end": 7
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 7
         }

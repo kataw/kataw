@@ -68,7 +68,7 @@ do let [x] while (a);
                 "start": 2,
                 "end": 10
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 21
         }

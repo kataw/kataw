@@ -104,9 +104,9 @@ function f() {
                                                                 "end": 52
                                                             },
                                                             "expression": null,
-                                                            "flags": 16,
-                                                            "start": 1,
-                                                            "end": 39
+                                                            "flags": 81,
+                                                            "start": 39,
+                                                            "end": 53
                                                         }
                                                     ],
                                                     "flags": 17,
@@ -130,7 +130,7 @@ function f() {
                                 "start": 32,
                                 "end": 63
                             },
-                            "flags": 16,
+                            "flags": 17,
                             "start": 14,
                             "end": 63
                         }

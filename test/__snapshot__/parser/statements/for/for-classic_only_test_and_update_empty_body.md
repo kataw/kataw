@@ -65,7 +65,7 @@ for (;b;c);
                 "start": 10,
                 "end": 11
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 11
         }

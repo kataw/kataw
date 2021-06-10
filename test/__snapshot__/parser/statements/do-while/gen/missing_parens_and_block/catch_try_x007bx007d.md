@@ -72,7 +72,7 @@ do catch try {} while
                         "start": 8,
                         "end": 8
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 2,
                     "end": 8
                 },
@@ -82,7 +82,7 @@ do catch try {} while
                 "start": 2,
                 "end": 8
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 8
         },
@@ -154,7 +154,7 @@ do catch try {} while
                 "start": 21,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 80,
             "start": 15,
             "end": 21
         }

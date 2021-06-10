@@ -19,6 +19,7 @@ export function createCatch(
   catchKeyword: SyntaxToken<TokenSyntaxKind>,
   catchParameter: ArrayBindingPattern | ObjectBindingPattern | Identifier | DummyIdentifier | null,
   block: BlockStatement,
+  flags: NodeFlags,
   start: number,
   end: number
 ): CatchClause {
@@ -27,7 +28,7 @@ export function createCatch(
     catchKeyword,
     catchParameter,
     block,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

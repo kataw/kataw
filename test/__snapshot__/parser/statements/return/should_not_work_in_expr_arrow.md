@@ -53,9 +53,9 @@
                 "end": 12
             },
             "expression": null,
-            "flags": 16,
-            "start": 0,
-            "end": 5
+            "flags": 80,
+            "start": 5,
+            "end": 12
         }
     ],
     "isModule": false,

@@ -68,9 +68,9 @@ yield * 1; return 37; yield * 'dead';
                 "start": 17,
                 "end": 20
             },
-            "flags": 16,
-            "start": 0,
-            "end": 10
+            "flags": 80,
+            "start": 10,
+            "end": 21
         },
         {
             "kind": 120,

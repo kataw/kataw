@@ -263,9 +263,9 @@ class C { foo() { this.#a = 1; }}
                                                                     "start": 69,
                                                                     "end": 77
                                                                 },
-                                                                "flags": 16,
-                                                                "start": 0,
-                                                                "end": 62
+                                                                "flags": 80,
+                                                                "start": 62,
+                                                                "end": 78
                                                             }
                                                         ],
                                                         "flags": 32,
@@ -418,9 +418,9 @@ class C { foo() { this.#a = 1; }}
                                                     "start": 120,
                                                     "end": 128
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 113
+                                                "flags": 80,
+                                                "start": 113,
+                                                "end": 129
                                             }
                                         ],
                                         "flags": 32,
@@ -448,7 +448,7 @@ class C { foo() { this.#a = 1; }}
                 "start": 32,
                 "end": 132
             },
-            "flags": 16,
+            "flags": 17,
             "start": 82,
             "end": 132
         },
@@ -583,7 +583,7 @@ class C { foo() { this.#a = 1; }}
                 "start": 32,
                 "end": 167
             },
-            "flags": 16,
+            "flags": 17,
             "start": 132,
             "end": 167
         }

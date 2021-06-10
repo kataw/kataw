@@ -98,7 +98,7 @@ for ({}[b] in c) d;
                 "start": 16,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 19
         }

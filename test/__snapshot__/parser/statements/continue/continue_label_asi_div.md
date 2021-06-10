@@ -63,7 +63,7 @@ x: for(;;) continue x
                     "start": 10,
                     "end": 21
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 2,
                 "end": 21
             },

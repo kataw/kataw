@@ -116,7 +116,7 @@ function *f(x = (throw) = f) {}
                 "start": 22,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 80,
             "start": 17,
             "end": 22
         },

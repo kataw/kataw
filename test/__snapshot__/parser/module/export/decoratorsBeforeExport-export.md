@@ -44,7 +44,7 @@ export class Foo {}
                             "start": 1,
                             "end": 10
                         },
-                        "flags": 1,
+                        "flags": 0,
                         "start": 1,
                         "end": 10
                     }
@@ -76,7 +76,7 @@ export class Foo {}
                 "start": 32,
                 "end": 10
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 10
         },
@@ -129,7 +129,7 @@ export class Foo {}
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 16,
+            "flags": 81,
             "start": 10,
             "end": 30
         }

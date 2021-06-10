@@ -130,7 +130,7 @@ async (x = (for) = f) => {}
                 "start": 16,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 20
         },

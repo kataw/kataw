@@ -88,7 +88,7 @@ import type a * from "b";
                 "start": 0,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 25
         }

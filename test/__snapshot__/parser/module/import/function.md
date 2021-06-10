@@ -125,7 +125,7 @@ function f(){import {x} from "y";}
                                 "start": 13,
                                 "end": 23
                             },
-                            "flags": 16,
+                            "flags": 80,
                             "start": 13,
                             "end": 33
                         }

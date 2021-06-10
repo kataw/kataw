@@ -187,7 +187,7 @@ var x, y, z; for (x in { super } = z = {});
                 "start": 42,
                 "end": 43
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 43
         }

@@ -87,7 +87,7 @@ do function foo() {} while (0);
                 "start": 2,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 31
         }

@@ -66,7 +66,7 @@ catch (v = b) {}
                     "start": 15,
                     "end": 15
                 },
-                "flags": 16,
+                "flags": 81,
                 "start": 6,
                 "end": 15
             },

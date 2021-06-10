@@ -453,7 +453,7 @@ class o {f([b, a], ...b) {}}
                 "start": 32,
                 "end": 92
             },
-            "flags": 16,
+            "flags": 17,
             "start": 65,
             "end": 92
         },
@@ -597,7 +597,7 @@ class o {f([b, a], ...b) {}}
                 "start": 32,
                 "end": 121
             },
-            "flags": 16,
+            "flags": 17,
             "start": 92,
             "end": 121
         },
@@ -741,7 +741,7 @@ class o {f([b, a], ...b) {}}
                 "start": 32,
                 "end": 151
             },
-            "flags": 16,
+            "flags": 17,
             "start": 121,
             "end": 151
         }

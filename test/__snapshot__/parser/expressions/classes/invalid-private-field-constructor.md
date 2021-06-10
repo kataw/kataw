@@ -136,7 +136,7 @@ class C { static #constructor }
                 "start": 32,
                 "end": 57
             },
-            "flags": 16,
+            "flags": 17,
             "start": 24,
             "end": 57
         }

@@ -83,7 +83,7 @@ foo() in x);
                 "start": 20,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 21
         }

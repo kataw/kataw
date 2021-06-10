@@ -46,7 +46,7 @@ throw {x} catch (x = y) {}
                 "start": 5,
                 "end": 9
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 9
         },
@@ -95,7 +95,7 @@ throw {x} catch (x = y) {}
                     "start": 18,
                     "end": 18
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 9,
                 "end": 18
             },

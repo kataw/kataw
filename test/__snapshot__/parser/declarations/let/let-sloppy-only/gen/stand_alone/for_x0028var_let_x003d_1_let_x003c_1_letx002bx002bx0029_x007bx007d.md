@@ -119,7 +119,7 @@ for (var let = 1; let < 1; let++) {}
                 "start": 33,
                 "end": 36
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 36
         }

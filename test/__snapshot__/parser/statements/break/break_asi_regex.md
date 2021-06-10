@@ -60,7 +60,7 @@ for (x of 3) break
                 "start": 12,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 18
         },

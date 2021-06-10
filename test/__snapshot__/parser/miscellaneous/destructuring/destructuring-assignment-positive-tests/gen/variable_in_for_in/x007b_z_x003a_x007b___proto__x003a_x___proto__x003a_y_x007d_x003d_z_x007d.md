@@ -255,7 +255,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = {});
                 "start": 71,
                 "end": 72
             },
-            "flags": 16,
+            "flags": 80,
             "start": 12,
             "end": 72
         }

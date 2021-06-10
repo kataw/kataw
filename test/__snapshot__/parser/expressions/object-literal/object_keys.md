@@ -244,9 +244,9 @@ Object.keys(y).map(k => { return {[k]: k} });
                                                 "start": 52,
                                                 "end": 61
                                             },
-                                            "flags": 16,
-                                            "start": 0,
-                                            "end": 45
+                                            "flags": 80,
+                                            "start": 45,
+                                            "end": 61
                                         }
                                     ],
                                     "flags": 32,
@@ -515,9 +515,9 @@ Object.keys(y).map(k => { return {[k]: k} });
                                                 "start": 127,
                                                 "end": 136
                                             },
-                                            "flags": 16,
-                                            "start": 0,
-                                            "end": 120
+                                            "flags": 80,
+                                            "start": 120,
+                                            "end": 136
                                         }
                                     ],
                                     "flags": 32,

@@ -105,7 +105,7 @@ async (x = delete ((export) = f)) => {}
             "exportFromClause": null,
             "fromClause": null,
             "exportKind": 0,
-            "flags": 16,
+            "flags": 80,
             "start": 20,
             "end": 26
         },

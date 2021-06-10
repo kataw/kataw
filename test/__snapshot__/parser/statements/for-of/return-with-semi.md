@@ -43,9 +43,9 @@ return;
                 "end": 6
             },
             "expression": null,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
-            "end": 0
+            "end": 7
         }
     ],
     "isModule": false,

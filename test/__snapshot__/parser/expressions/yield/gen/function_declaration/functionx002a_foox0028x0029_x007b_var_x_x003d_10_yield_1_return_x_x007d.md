@@ -178,9 +178,9 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                 "start": 66,
                                                 "end": 68
                                             },
-                                            "flags": 16,
-                                            "start": 0,
-                                            "end": 59
+                                            "flags": 80,
+                                            "start": 59,
+                                            "end": 69
                                         }
                                     ],
                                     "flags": 32,

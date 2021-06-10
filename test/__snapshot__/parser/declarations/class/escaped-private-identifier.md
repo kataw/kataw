@@ -229,7 +229,7 @@ class z { #\u0020oo }
                 "start": 32,
                 "end": 61
             },
-            "flags": 16,
+            "flags": 17,
             "start": 38,
             "end": 61
         },
@@ -309,7 +309,7 @@ class z { #\u0020oo }
                 "start": 32,
                 "end": 84
             },
-            "flags": 16,
+            "flags": 17,
             "start": 61,
             "end": 84
         }

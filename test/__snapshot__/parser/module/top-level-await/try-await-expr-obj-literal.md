@@ -241,7 +241,7 @@ try {
                     "start": 43,
                     "end": 74
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 34,
                 "end": 74
             },

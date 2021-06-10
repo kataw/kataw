@@ -274,7 +274,7 @@ for (let x = 0; x < 10;) {
                 "start": 39,
                 "end": 104
             },
-            "flags": 16,
+            "flags": 81,
             "start": 14,
             "end": 104
         }

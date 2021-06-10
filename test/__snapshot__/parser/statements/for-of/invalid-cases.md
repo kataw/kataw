@@ -236,7 +236,7 @@ for ({a: b.c}-- of d) e;
                 "start": 22,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 25
         },
@@ -355,7 +355,7 @@ for ({a: b.c}-- of d) e;
                 "start": 54,
                 "end": 57
             },
-            "flags": 16,
+            "flags": 81,
             "start": 26,
             "end": 57
         },
@@ -434,7 +434,7 @@ for ({a: b.c}-- of d) e;
                 "start": 83,
                 "end": 86
             },
-            "flags": 16,
+            "flags": 81,
             "start": 58,
             "end": 86
         },
@@ -514,7 +514,7 @@ for ({a: b.c}-- of d) e;
                 "start": 106,
                 "end": 108
             },
-            "flags": 16,
+            "flags": 81,
             "start": 87,
             "end": 108
         },
@@ -601,7 +601,7 @@ for ({a: b.c}-- of d) e;
                 "start": 137,
                 "end": 138
             },
-            "flags": 16,
+            "flags": 81,
             "start": 109,
             "end": 138
         },
@@ -694,7 +694,7 @@ for ({a: b.c}-- of d) e;
                 "start": 163,
                 "end": 166
             },
-            "flags": 16,
+            "flags": 81,
             "start": 138,
             "end": 166
         },
@@ -754,7 +754,7 @@ for ({a: b.c}-- of d) e;
                 "start": 179,
                 "end": 180
             },
-            "flags": 16,
+            "flags": 81,
             "start": 167,
             "end": 180
         },
@@ -808,7 +808,7 @@ for ({a: b.c}-- of d) e;
                 "start": 192,
                 "end": 193
             },
-            "flags": 16,
+            "flags": 81,
             "start": 180,
             "end": 193
         },
@@ -883,7 +883,7 @@ for ({a: b.c}-- of d) e;
                 "start": 220,
                 "end": 221
             },
-            "flags": 16,
+            "flags": 81,
             "start": 193,
             "end": 221
         },
@@ -941,7 +941,7 @@ for ({a: b.c}-- of d) e;
                 "start": 238,
                 "end": 239
             },
-            "flags": 16,
+            "flags": 81,
             "start": 221,
             "end": 239
         },
@@ -1046,7 +1046,7 @@ for ({a: b.c}-- of d) e;
                 "start": 258,
                 "end": 274
             },
-            "flags": 16,
+            "flags": 81,
             "start": 239,
             "end": 274
         },
@@ -1162,7 +1162,7 @@ for ({a: b.c}-- of d) e;
                 "start": 294,
                 "end": 311
             },
-            "flags": 16,
+            "flags": 81,
             "start": 275,
             "end": 311
         },
@@ -1240,7 +1240,7 @@ for ({a: b.c}-- of d) e;
                 "start": 331,
                 "end": 335
             },
-            "flags": 16,
+            "flags": 81,
             "start": 312,
             "end": 335
         },
@@ -1353,7 +1353,7 @@ for ({a: b.c}-- of d) e;
                 "start": 357,
                 "end": 361
             },
-            "flags": 16,
+            "flags": 81,
             "start": 339,
             "end": 361
         },
@@ -1486,7 +1486,7 @@ for ({a: b.c}-- of d) e;
                 "start": 387,
                 "end": 391
             },
-            "flags": 16,
+            "flags": 80,
             "start": 374,
             "end": 391
         },
@@ -1570,7 +1570,7 @@ for ({a: b.c}-- of d) e;
                 "start": 424,
                 "end": 425
             },
-            "flags": 16,
+            "flags": 81,
             "start": 396,
             "end": 425
         },
@@ -1674,7 +1674,7 @@ for ({a: b.c}-- of d) e;
                 "start": 450,
                 "end": 453
             },
-            "flags": 16,
+            "flags": 81,
             "start": 425,
             "end": 453
         },
@@ -1778,7 +1778,7 @@ for ({a: b.c}-- of d) e;
                 "start": 478,
                 "end": 481
             },
-            "flags": 16,
+            "flags": 81,
             "start": 453,
             "end": 481
         },
@@ -1854,7 +1854,7 @@ for ({a: b.c}-- of d) e;
                 "start": 501,
                 "end": 502
             },
-            "flags": 16,
+            "flags": 81,
             "start": 481,
             "end": 502
         },
@@ -1912,7 +1912,7 @@ for ({a: b.c}-- of d) e;
                 "start": 519,
                 "end": 520
             },
-            "flags": 16,
+            "flags": 81,
             "start": 502,
             "end": 520
         },
@@ -1980,7 +1980,7 @@ for ({a: b.c}-- of d) e;
                 "start": 539,
                 "end": 542
             },
-            "flags": 16,
+            "flags": 81,
             "start": 520,
             "end": 542
         },
@@ -2041,7 +2041,7 @@ for ({a: b.c}-- of d) e;
                 "start": 561,
                 "end": 562
             },
-            "flags": 16,
+            "flags": 81,
             "start": 543,
             "end": 562
         },
@@ -2117,7 +2117,7 @@ for ({a: b.c}-- of d) e;
                 "start": 582,
                 "end": 583
             },
-            "flags": 16,
+            "flags": 81,
             "start": 562,
             "end": 583
         },
@@ -2172,7 +2172,7 @@ for ({a: b.c}-- of d) e;
                 "start": 601,
                 "end": 602
             },
-            "flags": 16,
+            "flags": 81,
             "start": 583,
             "end": 602
         },
@@ -2245,7 +2245,7 @@ for ({a: b.c}-- of d) e;
                 "start": 620,
                 "end": 621
             },
-            "flags": 16,
+            "flags": 81,
             "start": 602,
             "end": 621
         },
@@ -2309,7 +2309,7 @@ for ({a: b.c}-- of d) e;
                 "start": 634,
                 "end": 636
             },
-            "flags": 16,
+            "flags": 81,
             "start": 621,
             "end": 636
         },
@@ -2395,7 +2395,7 @@ for ({a: b.c}-- of d) e;
                 "start": 657,
                 "end": 660
             },
-            "flags": 16,
+            "flags": 81,
             "start": 641,
             "end": 660
         },
@@ -2463,7 +2463,7 @@ for ({a: b.c}-- of d) e;
                 "start": 678,
                 "end": 679
             },
-            "flags": 16,
+            "flags": 81,
             "start": 661,
             "end": 679
         },
@@ -2540,7 +2540,7 @@ for ({a: b.c}-- of d) e;
                 "start": 699,
                 "end": 700
             },
-            "flags": 16,
+            "flags": 81,
             "start": 679,
             "end": 700
         },
@@ -2581,7 +2581,7 @@ for ({a: b.c}-- of d) e;
                 "start": 713,
                 "end": 714
             },
-            "flags": 16,
+            "flags": 81,
             "start": 700,
             "end": 714
         },
@@ -2660,7 +2660,7 @@ for ({a: b.c}-- of d) e;
                 "start": 729,
                 "end": 729
             },
-            "flags": 16,
+            "flags": 81,
             "start": 714,
             "end": 729
         },
@@ -2809,7 +2809,7 @@ for ({a: b.c}-- of d) e;
                 "start": 774,
                 "end": 777
             },
-            "flags": 16,
+            "flags": 81,
             "start": 739,
             "end": 777
         },
@@ -2950,7 +2950,7 @@ for ({a: b.c}-- of d) e;
                 "start": 805,
                 "end": 805
             },
-            "flags": 16,
+            "flags": 81,
             "start": 778,
             "end": 805
         },
@@ -3104,7 +3104,7 @@ for ({a: b.c}-- of d) e;
                 "start": 843,
                 "end": 846
             },
-            "flags": 16,
+            "flags": 81,
             "start": 820,
             "end": 846
         },
@@ -3196,7 +3196,7 @@ for ({a: b.c}-- of d) e;
                 "start": 869,
                 "end": 872
             },
-            "flags": 16,
+            "flags": 81,
             "start": 846,
             "end": 872
         },
@@ -3303,7 +3303,7 @@ for ({a: b.c}-- of d) e;
                 "start": 895,
                 "end": 898
             },
-            "flags": 16,
+            "flags": 81,
             "start": 872,
             "end": 898
         },
@@ -3410,7 +3410,7 @@ for ({a: b.c}-- of d) e;
                 "start": 922,
                 "end": 925
             },
-            "flags": 16,
+            "flags": 81,
             "start": 898,
             "end": 925
         },
@@ -3507,7 +3507,7 @@ for ({a: b.c}-- of d) e;
                 "start": 954,
                 "end": 955
             },
-            "flags": 16,
+            "flags": 81,
             "start": 925,
             "end": 955
         },
@@ -3604,7 +3604,7 @@ for ({a: b.c}-- of d) e;
                 "start": 987,
                 "end": 988
             },
-            "flags": 16,
+            "flags": 81,
             "start": 955,
             "end": 988
         },
@@ -3717,7 +3717,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1017,
                 "end": 1020
             },
-            "flags": 16,
+            "flags": 81,
             "start": 988,
             "end": 1020
         },
@@ -3818,7 +3818,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1047,
                 "end": 1050
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1021,
             "end": 1050
         },
@@ -3956,7 +3956,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1089,
                 "end": 1092
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1051,
             "end": 1092
         },
@@ -4050,7 +4050,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1115,
                 "end": 1118
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1093,
             "end": 1118
         },
@@ -4169,7 +4169,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1148,
                 "end": 1151
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1119,
             "end": 1151
         },
@@ -4270,7 +4270,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1178,
                 "end": 1181
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1152,
             "end": 1181
         },
@@ -4373,7 +4373,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1202,
                 "end": 1203
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1182,
             "end": 1203
         },
@@ -4583,11 +4583,11 @@ for ({a: b.c}-- of d) e;
                     "start": 1267,
                     "end": 1270
                 },
-                "flags": 16,
+                "flags": 81,
                 "start": 1229,
                 "end": 1270
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1203,
             "end": 1270
         },
@@ -4681,7 +4681,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1295,
                 "end": 1298
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1271,
             "end": 1298
         },
@@ -4800,7 +4800,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1330,
                 "end": 1333
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1299,
             "end": 1333
         },
@@ -4901,7 +4901,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1362,
                 "end": 1365
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1334,
             "end": 1365
         },
@@ -5039,7 +5039,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1406,
                 "end": 1409
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1366,
             "end": 1409
         },
@@ -5119,7 +5119,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1440,
                 "end": 1441
             },
-            "flags": 16,
+            "flags": 80,
             "start": 1425,
             "end": 1441
         },
@@ -5161,7 +5161,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1468,
                 "end": 1469
             },
-            "flags": 16,
+            "flags": 80,
             "start": 1456,
             "end": 1469
         },
@@ -5229,7 +5229,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1501,
                 "end": 1502
             },
-            "flags": 16,
+            "flags": 80,
             "start": 1484,
             "end": 1502
         },
@@ -5334,7 +5334,7 @@ for ({a: b.c}-- of d) e;
                 "start": 1525,
                 "end": 1528
             },
-            "flags": 16,
+            "flags": 81,
             "start": 1502,
             "end": 1528
         }

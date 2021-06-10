@@ -95,7 +95,7 @@ export {𐀀 as x} from 'path'
                 "end": 28
             },
             "exportKind": 0,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 28
         }

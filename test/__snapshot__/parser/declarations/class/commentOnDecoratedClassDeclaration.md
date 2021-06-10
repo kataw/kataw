@@ -82,7 +82,7 @@ class AnotherRomote {
                             "start": 28,
                             "end": 46
                         },
-                        "flags": 1,
+                        "flags": 0,
                         "start": 28,
                         "end": 46
                     }
@@ -120,7 +120,7 @@ class AnotherRomote {
                 "start": 32,
                 "end": 63
             },
-            "flags": 16,
+            "flags": 17,
             "start": 0,
             "end": 63
         },
@@ -169,7 +169,7 @@ class AnotherRomote {
                             "start": 95,
                             "end": 110
                         },
-                        "flags": 1,
+                        "flags": 0,
                         "start": 95,
                         "end": 110
                     }
@@ -259,7 +259,7 @@ class AnotherRomote {
                 "start": 32,
                 "end": 155
             },
-            "flags": 16,
+            "flags": 17,
             "start": 63,
             "end": 155
         }

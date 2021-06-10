@@ -150,7 +150,7 @@ switch (0) { case 1: let f; default: var f }
                 "start": 10,
                 "end": 44
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 44
         }

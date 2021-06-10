@@ -117,7 +117,7 @@ import a { b, c } from 'm.js'
                 "start": 0,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 29
         }

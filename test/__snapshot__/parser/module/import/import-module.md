@@ -41,7 +41,7 @@ import "foo";
                 "end": 12
             },
             "importClause": null,
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 13
         }

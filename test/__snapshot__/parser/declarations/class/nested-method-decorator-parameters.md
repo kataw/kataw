@@ -83,7 +83,7 @@ class Bar{
                                             "start": 14,
                                             "end": 20
                                         },
-                                        "flags": 1,
+                                        "flags": 0,
                                         "start": 14,
                                         "end": 20
                                     },
@@ -170,7 +170,7 @@ class Bar{
                                         "start": 50,
                                         "end": 55
                                     },
-                                    "flags": 1,
+                                    "flags": 0,
                                     "start": 50,
                                     "end": 55
                                 }
@@ -203,7 +203,7 @@ class Bar{
                             "start": 32,
                             "end": 73
                         },
-                        "flags": 16,
+                        "flags": 17,
                         "start": 42,
                         "end": 73
                     },

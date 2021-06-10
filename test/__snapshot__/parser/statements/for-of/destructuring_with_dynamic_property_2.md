@@ -137,7 +137,7 @@ for ({a: b.c}[x] of d) e
                 "start": 22,
                 "end": 24
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 24
         }

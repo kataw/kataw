@@ -72,7 +72,7 @@ for ((async) of x);
                 "start": 19,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 81,
             "start": 0,
             "end": 20
         },
@@ -134,7 +134,7 @@ for ((async) of x);
                 "start": 44,
                 "end": 45
             },
-            "flags": 16,
+            "flags": 81,
             "start": 20,
             "end": 45
         },
@@ -181,7 +181,7 @@ for ((async) of x);
                 "start": 65,
                 "end": 66
             },
-            "flags": 16,
+            "flags": 81,
             "start": 45,
             "end": 66
         }

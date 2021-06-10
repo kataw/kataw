@@ -104,9 +104,9 @@ new Foo();
                                                     "start": 33,
                                                     "end": 38
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 22
+                                                "flags": 81,
+                                                "start": 22,
+                                                "end": 39
                                             }
                                         ],
                                         "flags": 33,

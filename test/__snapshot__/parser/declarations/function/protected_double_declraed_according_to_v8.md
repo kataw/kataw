@@ -103,11 +103,11 @@ const protected = x, function arguments(){}
                                     "start": 45,
                                     "end": 67
                                 },
-                                "flags": 16,
+                                "flags": 81,
                                 "start": 31,
                                 "end": 67
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 21,
                             "end": 67
                         }

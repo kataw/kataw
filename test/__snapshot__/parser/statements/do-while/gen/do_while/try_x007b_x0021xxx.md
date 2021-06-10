@@ -101,7 +101,7 @@ do try { !xxx while
                                     "start": 19,
                                     "end": 19
                                 },
-                                "flags": 16,
+                                "flags": 80,
                                 "start": 13,
                                 "end": 19
                             }
@@ -133,7 +133,7 @@ do try { !xxx while
                 "start": 2,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 19
         }

@@ -227,9 +227,9 @@ class Test {
                                                     "start": 65,
                                                     "end": 73
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 58
+                                                "flags": 80,
+                                                "start": 58,
+                                                "end": 74
                                             }
                                         ],
                                         "flags": 32,
@@ -315,9 +315,9 @@ class Test {
                                                     "start": 96,
                                                     "end": 104
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 89
+                                                "flags": 80,
+                                                "start": 89,
+                                                "end": 105
                                             }
                                         ],
                                         "flags": 32,
@@ -441,9 +441,9 @@ class Test {
                                                     "start": 133,
                                                     "end": 145
                                                 },
-                                                "flags": 16,
-                                                "start": 1,
-                                                "end": 120
+                                                "flags": 81,
+                                                "start": 120,
+                                                "end": 146
                                             }
                                         ],
                                         "flags": 33,

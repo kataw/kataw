@@ -89,7 +89,7 @@ foo: switch (x) { default: break foo; }
                     "start": 15,
                     "end": 39
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 39
             },

@@ -73,7 +73,7 @@ foo: do break foo; while(foo);
                     "start": 7,
                     "end": 18
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 30
             },

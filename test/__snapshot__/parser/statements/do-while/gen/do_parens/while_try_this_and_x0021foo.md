@@ -58,7 +58,7 @@ do( while try this and !foo while
                 "start": 2,
                 "end": 3
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 9
         },
@@ -182,7 +182,7 @@ do( while try this and !foo while
                 "start": 33,
                 "end": 33
             },
-            "flags": 16,
+            "flags": 80,
             "start": 27,
             "end": 33
         }

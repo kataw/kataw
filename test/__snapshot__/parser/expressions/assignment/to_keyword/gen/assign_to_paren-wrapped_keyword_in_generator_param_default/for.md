@@ -157,7 +157,7 @@ function *f(x = (for) = f) {}
                 "start": 21,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 80,
             "start": 17,
             "end": 25
         },

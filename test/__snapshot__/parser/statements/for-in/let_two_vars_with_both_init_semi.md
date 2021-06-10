@@ -99,7 +99,7 @@ for (let foo = bar, zoo = boo in x);
                 "start": 35,
                 "end": 36
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 36
         }

@@ -110,7 +110,7 @@ for (true ? 0 : 0 in {}; false; ) ;
                 "start": 33,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 35
         }

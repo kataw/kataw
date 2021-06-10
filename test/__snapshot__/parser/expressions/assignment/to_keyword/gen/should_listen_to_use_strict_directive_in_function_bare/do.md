@@ -112,7 +112,7 @@ function f() {
                                 "start": 35,
                                 "end": 39
                             },
-                            "flags": 16,
+                            "flags": 81,
                             "start": 30,
                             "end": 39
                         }

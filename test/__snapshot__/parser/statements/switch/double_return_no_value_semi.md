@@ -57,9 +57,9 @@ function f(){   return;return    };
                                 "end": 22
                             },
                             "expression": null,
-                            "flags": 16,
-                            "start": 0,
-                            "end": 13
+                            "flags": 80,
+                            "start": 13,
+                            "end": 23
                         },
                         {
                             "kind": 161,
@@ -70,9 +70,9 @@ function f(){   return;return    };
                                 "end": 29
                             },
                             "expression": null,
-                            "flags": 16,
-                            "start": 0,
-                            "end": 23
+                            "flags": 80,
+                            "start": 23,
+                            "end": 29
                         }
                     ],
                     "flags": 32,

@@ -103,7 +103,7 @@ try { } catch (x) { let x; }
                     "start": 17,
                     "end": 28
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 7,
                 "end": 28
             },

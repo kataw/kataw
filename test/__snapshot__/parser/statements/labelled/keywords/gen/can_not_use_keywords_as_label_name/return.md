@@ -33,9 +33,9 @@ return: x
                 "start": 6,
                 "end": 6
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
-            "end": 0
+            "end": 6
         },
         {
             "kind": 120,

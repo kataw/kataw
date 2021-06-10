@@ -140,9 +140,9 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                         "start": 19,
                                                         "end": 37
                                                     },
-                                                    "flags": 16,
-                                                    "start": 0,
-                                                    "end": 12
+                                                    "flags": 80,
+                                                    "start": 12,
+                                                    "end": 38
                                                 }
                                             ],
                                             "flags": 32,

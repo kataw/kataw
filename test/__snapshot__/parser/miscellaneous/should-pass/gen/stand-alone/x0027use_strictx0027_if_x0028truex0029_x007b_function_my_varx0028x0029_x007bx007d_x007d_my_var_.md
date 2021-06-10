@@ -104,7 +104,7 @@
             },
             "elseKeyword": null,
             "alternate": null,
-            "flags": 16,
+            "flags": 80,
             "start": 13,
             "end": 48
         },

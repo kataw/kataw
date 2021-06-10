@@ -63,7 +63,7 @@ while (true) { continue /* Multiline\nComment */there; }
                 "start": 12,
                 "end": 56
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 56
         }

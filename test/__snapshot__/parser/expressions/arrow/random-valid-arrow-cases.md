@@ -2134,9 +2134,9 @@ foo((x, y) => {});
                                                     "start": 521,
                                                     "end": 527
                                                 },
-                                                "flags": 16,
-                                                "start": 0,
-                                                "end": 514
+                                                "flags": 80,
+                                                "start": 514,
+                                                "end": 528
                                             }
                                         ],
                                         "flags": 32,

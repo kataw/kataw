@@ -122,7 +122,7 @@ switch(0) { default: function f(){ break; } }
                 "start": 9,
                 "end": 45
             },
-            "flags": 16,
+            "flags": 80,
             "start": 0,
             "end": 45
         }

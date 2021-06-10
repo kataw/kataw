@@ -116,7 +116,7 @@ try {} catch (e) { const e = x; }
                     "start": 16,
                     "end": 33
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 33
             },

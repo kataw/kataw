@@ -122,7 +122,7 @@ try {} catch({arguments: x, ...z}) {}
                     "start": 34,
                     "end": 37
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 6,
                 "end": 37
             },

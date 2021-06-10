@@ -146,9 +146,9 @@ ar O = { async method(x = await 1) { return x; } };
                                                         "start": 43,
                                                         "end": 45
                                                     },
-                                                    "flags": 16,
-                                                    "start": 0,
-                                                    "end": 36
+                                                    "flags": 80,
+                                                    "start": 36,
+                                                    "end": 46
                                                 }
                                             ],
                                             "flags": 32,

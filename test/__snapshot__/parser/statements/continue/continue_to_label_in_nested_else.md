@@ -93,11 +93,11 @@ foo: while (true) if (x); else continue foo;
                         "start": 30,
                         "end": 44
                     },
-                    "flags": 16,
+                    "flags": 80,
                     "start": 17,
                     "end": 44
                 },
-                "flags": 16,
+                "flags": 80,
                 "start": 4,
                 "end": 44
             },

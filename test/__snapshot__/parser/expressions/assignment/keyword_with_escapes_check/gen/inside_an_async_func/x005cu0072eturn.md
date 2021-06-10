@@ -76,9 +76,9 @@ async () => {  \u0072eturn = x  }
                                 "start": 26,
                                 "end": 30
                             },
-                            "flags": 16,
-                            "start": 0,
-                            "end": 13
+                            "flags": 16464,
+                            "start": 13,
+                            "end": 30
                         }
                     ],
                     "flags": 16416,
