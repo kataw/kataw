@@ -1,7 +1,7 @@
 import { printSourceFile } from '../../src/printer';
 import { parseScript, parseModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
-import { visit } from './walker';
+import { visit } from './visit';
 
 // testing object
 export interface Tob {
