@@ -20,7 +20,7 @@ export function visit(cst: any, filename: any): void{
   }
 
   function assertType(value, type) {
-    assert.equal(typeof value, type, `snap: ${filename}: expected number, passed ${value}.`)
+    assert.equal(typeof value, type, `snap: ${filename}: expected ${type}, passed ${value}.`)
   }
 }
 
