@@ -127,7 +127,7 @@ declare class X {
                             "optionalToken": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 96,
+                                "flags": 65,
                                 "start": 30,
                                 "end": 39
                             },

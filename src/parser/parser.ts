@@ -7995,72 +7995,20 @@ function parseLexicalBinding(
 
 function parseTypeMember(parser: ParserState, context: Context, objectTypeFlag: ObjectTypeFlag): any {
   const pos = parser.curPos;
-  let protoStart: number | null = null;
   let staticKeyword = null;
 
   if (objectTypeFlag & ObjectTypeFlag.AllowStatic && parser.token === SyntaxKind.StaticKeyword) {
-    let key = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
-    if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-      return createObjectTypeProperty(
-        /* key  */ key,
-        /* value */ parseFunctionType(parser, context),
-        /* optionalToken */ null,
-        /* staticKeyword */ null,
-        pos,
-        parser.curPos
-      );
-    }
-    if (consumeOpt(parser, context, SyntaxKind.Colon)) {
-      return createObjectTypeProperty(
-        /* key  */ key,
-        /* value */ parseType(parser, context),
-        /* optionalToken */ null,
-        /* staticKeyword */ null,
-        pos,
-        parser.curPos
-      );
-    }
-
-    staticKeyword = createToken(SyntaxKind.StaticKeyword, key.flags, key.start, key.end);
-
-    if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-      if (protoStart != null) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Type_expected],
-          pos,
-          parser.pos
-        );
-      }
-      return parseObjectTypeIndexer(parser, context, /* isStatic */ staticKeyword, pos);
-    }
+    staticKeyword = consumeToken(parser, context, SyntaxKind.StaticKeyword);
   }
-  if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-    if (protoStart != null) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Type_expected],
-        pos,
-        parser.pos
-      );
-    }
 
+  if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
     if (parser.token === SyntaxKind.LeftBracket) {
       return parseObjectTypeInternalSlot(parser, context, staticKeyword, pos);
     }
     return parseObjectTypeIndexer(parser, context, staticKeyword, pos);
-  } else if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-    if (protoStart != null) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Type_expected],
-        pos,
-        parser.pos
-      );
-    }
+  }
+
+  if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     return parseObjectTypeCallProperty(parser, context, staticKeyword, pos);
   }
 

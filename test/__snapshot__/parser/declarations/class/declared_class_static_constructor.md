@@ -83,7 +83,7 @@ declare class A {
                             "optionalToken": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 96,
+                                "flags": 65,
                                 "start": 17,
                                 "end": 26
                             },

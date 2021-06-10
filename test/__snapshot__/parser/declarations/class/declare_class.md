@@ -80,7 +80,7 @@ declare class D extends C { }
                             "optionalToken": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 96,
+                                "flags": 65,
                                 "start": 17,
                                 "end": 28
                             },
@@ -174,7 +174,7 @@ declare class D extends C { }
                             "optionalToken": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 96,
+                                "flags": 65,
                                 "start": 39,
                                 "end": 50
                             },

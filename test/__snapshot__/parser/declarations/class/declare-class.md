@@ -87,7 +87,7 @@ declare class A { static foo(): number; static x : string }
                             "optionalToken": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 96,
+                                "flags": 64,
                                 "start": 17,
                                 "end": 24
                             },
@@ -143,7 +143,7 @@ declare class A { static foo(): number; static x : string }
                             "optionalToken": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 96,
+                                "flags": 64,
                                 "start": 39,
                                 "end": 46
                             },

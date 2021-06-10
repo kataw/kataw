@@ -55,38 +55,28 @@ declare class B { () : number }
                     "kind": 134234353,
                     "properties": [
                         {
-                            "kind": 193,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "static",
-                                "rawText": "static",
-                                "flags": 96,
+                            "kind": 196,
+                            "typeParameter": null,
+                            "value": {
+                                "kind": 208,
+                                "functionTypeParameterList": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 26,
+                                "end": 26
+                            },
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 64,
                                 "start": 17,
                                 "end": 24
                             },
-                            "value": {
-                                "kind": 148,
-                                "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 26,
-                                    "end": 26
-                                },
-                                "returnType": {
-                                    "kind": 134234345,
-                                    "flags": 64,
-                                    "start": 29,
-                                    "end": 36
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 24,
+                            "returnType": {
+                                "kind": 134234345,
+                                "flags": 64,
+                                "start": 29,
                                 "end": 36
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 17,
                             "end": 36
