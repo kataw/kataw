@@ -7,7 +7,7 @@ export interface ObjectTypeCallProperty extends SyntaxNode {
   readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly typeParameter: TypeParameterDeclaration | null;
   readonly kind: SyntaxKind.ObjectTypeCallProperty;
-  readonly value: any;
+  readonly value: TypeNode;
   readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly returnType: TypeNode;
 }
@@ -15,7 +15,7 @@ export interface ObjectTypeCallProperty extends SyntaxNode {
 export function createObjectTypeCallProperty(
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   typeParameter: TypeParameterDeclaration | null,
-  value: any,
+  value: TypeNode,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
   returnType: TypeNode,
   start: number,
