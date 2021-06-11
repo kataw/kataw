@@ -7601,8 +7601,13 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     return createParenthesizedType(type, pos, parser.curPos);
   }
 
-  const type = parseType(parser, context);
+ const type = parseType(parser, context);
 
+  // - `type a = (bj[c])[d];`
+  // - `type a = (bj[c]) => T;`
+  // - `type a = (a[-1]) => T;`
+  // - `type a = ([-1]) => T;`
+  // - `type a = (["string"]) => T;`
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     if (context & Context.ArrowOrigin || parser.token !== SyntaxKind.Arrow) {
       return createParenthesizedType(type, pos, parser.curPos);
@@ -7619,6 +7624,11 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
+  // - `type a = (bj[c])[d];`
+  // - `type a = (bj[c])`
+  // - `type a = (a[-1]);`
+  // - `type a = ([-1])`
+  // - `type a = (["string"]);`
   return createParenthesizedType(type, pos, parser.curPos);
 }
 
