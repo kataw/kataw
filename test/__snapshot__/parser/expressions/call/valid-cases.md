@@ -324,7 +324,7 @@ x(class {} ?? 1);
                             "left": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 100915,
+                                    "kind": 134318643,
                                     "flags": 64,
                                     "start": 67,
                                     "end": 68
@@ -632,7 +632,7 @@ x(class {} ?? 1);
                                         "end": 137
                                     },
                                     "operatorToken": {
-                                        "kind": 100915,
+                                        "kind": 134318643,
                                         "flags": 64,
                                         "start": 137,
                                         "end": 139

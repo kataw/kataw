@@ -302,7 +302,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                 {
                                     "kind": 126,
                                     "operandToken": {
-                                        "kind": 100915,
+                                        "kind": 134318643,
                                         "flags": 64,
                                         "start": 47,
                                         "end": 48

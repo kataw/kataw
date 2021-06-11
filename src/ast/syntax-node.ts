@@ -313,7 +313,7 @@ export enum SyntaxKind {
   StringKeyword = 134234347,
   StringLiteral = 201392131,
   StringType = 134217967,
-  Subtract = 100915,
+  Subtract = 134318643,
   SubtractAssign = 4131,
   Super = 225,
   SuperKeyword = 4259935,

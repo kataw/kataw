@@ -109,7 +109,7 @@ class A {
                                                         "end": 28
                                                     },
                                                     "operatorToken": {
-                                                        "kind": 100915,
+                                                        "kind": 134318643,
                                                         "flags": 64,
                                                         "start": 28,
                                                         "end": 30

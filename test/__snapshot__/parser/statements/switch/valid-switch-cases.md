@@ -1698,7 +1698,7 @@ switch (answer) { case 0: let a; };
                                             "end": 587
                                         },
                                         "operatorToken": {
-                                            "kind": 100915,
+                                            "kind": 134318643,
                                             "flags": 64,
                                             "start": 587,
                                             "end": 603

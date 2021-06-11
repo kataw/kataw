@@ -1213,7 +1213,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "alternate": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 100915,
+                                    "kind": 134318643,
                                     "flags": 64,
                                     "start": 273,
                                     "end": 275
@@ -1365,7 +1365,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "consequent": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 100915,
+                                    "kind": 134318643,
                                     "flags": 64,
                                     "start": 299,
                                     "end": 301
@@ -1483,7 +1483,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                 "consequent": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 100915,
+                        "kind": 134318643,
                         "flags": 64,
                         "start": 325,
                         "end": 327
@@ -1509,7 +1509,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                 "alternate": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 100915,
+                        "kind": 134318643,
                         "flags": 64,
                         "start": 330,
                         "end": 332
@@ -2403,7 +2403,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                 "consequent": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 100915,
+                        "kind": 134318643,
                         "flags": 64,
                         "start": 499,
                         "end": 501

@@ -36,7 +36,7 @@ typeof x;
                                 "end": 2
                             },
                             "operatorToken": {
-                                "kind": 100915,
+                                "kind": 134318643,
                                 "flags": 64,
                                 "start": 2,
                                 "end": 4

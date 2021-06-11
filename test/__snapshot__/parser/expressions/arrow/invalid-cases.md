@@ -5664,7 +5664,7 @@ a++ => {};
                                                         "end": 1272
                                                     },
                                                     "operatorToken": {
-                                                        "kind": 100915,
+                                                        "kind": 134318643,
                                                         "flags": 64,
                                                         "start": 1272,
                                                         "end": 1273
@@ -5819,7 +5819,7 @@ a++ => {};
                                                             "end": 1305
                                                         },
                                                         "operatorToken": {
-                                                            "kind": 100915,
+                                                            "kind": 134318643,
                                                             "flags": 64,
                                                             "start": 1305,
                                                             "end": 1306
@@ -6238,7 +6238,7 @@ a++ => {};
                                                                                     "end": 1405
                                                                                 },
                                                                                 "operatorToken": {
-                                                                                    "kind": 100915,
+                                                                                    "kind": 134318643,
                                                                                     "flags": 64,
                                                                                     "start": 1405,
                                                                                     "end": 1406
@@ -9187,7 +9187,7 @@ a++ => {};
                                 "end": 2981
                             },
                             "operatorToken": {
-                                "kind": 100915,
+                                "kind": 134318643,
                                 "flags": 64,
                                 "start": 2981,
                                 "end": 2983
@@ -9383,7 +9383,7 @@ a++ => {};
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 100915,
+                    "kind": 134318643,
                     "flags": 65,
                     "start": 3048,
                     "end": 3050
@@ -9440,7 +9440,7 @@ a++ => {};
                 "expression": {
                     "kind": 126,
                     "operandToken": {
-                        "kind": 100915,
+                        "kind": 134318643,
                         "flags": 64,
                         "start": 3060,
                         "end": 3061
@@ -9494,7 +9494,7 @@ a++ => {};
                         {
                             "kind": 126,
                             "operandToken": {
-                                "kind": 100915,
+                                "kind": 134318643,
                                 "flags": 64,
                                 "start": 3072,
                                 "end": 3073
@@ -9569,7 +9569,7 @@ a++ => {};
                         {
                             "kind": 126,
                             "operandToken": {
-                                "kind": 100915,
+                                "kind": 134318643,
                                 "flags": 64,
                                 "start": 3089,
                                 "end": 3091
@@ -10517,7 +10517,7 @@ a++ => {};
                     "end": 3354
                 },
                 "operatorToken": {
-                    "kind": 100915,
+                    "kind": 134318643,
                     "flags": 64,
                     "start": 3354,
                     "end": 3356
@@ -10593,7 +10593,7 @@ a++ => {};
                         {
                             "kind": 126,
                             "operandToken": {
-                                "kind": 100915,
+                                "kind": 134318643,
                                 "flags": 64,
                                 "start": 3374,
                                 "end": 3376

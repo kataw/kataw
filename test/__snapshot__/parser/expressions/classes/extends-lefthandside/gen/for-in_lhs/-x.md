@@ -29,7 +29,7 @@ for (-x in x) ;
             "initializer": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 100915,
+                    "kind": 134318643,
                     "flags": 64,
                     "start": 5,
                     "end": 6

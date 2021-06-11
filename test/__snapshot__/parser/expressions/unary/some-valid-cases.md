@@ -313,7 +313,7 @@ typeof (0 ? 1 : x);
                             {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 100915,
+                                    "kind": 134318643,
                                     "flags": 64,
                                     "start": 106,
                                     "end": 108
@@ -373,7 +373,7 @@ typeof (0 ? 1 : x);
                             {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 100915,
+                                    "kind": 134318643,
                                     "flags": 64,
                                     "start": 130,
                                     "end": 132
@@ -714,7 +714,7 @@ typeof (0 ? 1 : x);
             "expression": {
                 "kind": 126,
                 "operandToken": {
-                    "kind": 100915,
+                    "kind": 134318643,
                     "flags": 65,
                     "start": 237,
                     "end": 240

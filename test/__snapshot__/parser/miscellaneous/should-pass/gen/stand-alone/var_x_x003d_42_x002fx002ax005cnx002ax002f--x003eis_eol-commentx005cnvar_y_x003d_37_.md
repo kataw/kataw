@@ -121,7 +121,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "end": 26
                 },
                 "operatorToken": {
-                    "kind": 100915,
+                    "kind": 134318643,
                     "flags": 64,
                     "start": 26,
                     "end": 27

@@ -246,7 +246,7 @@ function x8(a: false & false): false {
                             "expression": {
                                 "kind": 126,
                                 "operandToken": {
-                                    "kind": 100915,
+                                    "kind": 134318643,
                                     "flags": 64,
                                     "start": 126,
                                     "end": 128
