@@ -5,7 +5,7 @@ module.exports = {
     {
       files: ['**/*.js'],
       extends: ['eslint:recommended', 'plugin:node/recommended'],
-      parserOptions: { ecmaVersion: 10 }
+      parserOptions: { ecmaVersion: 10, sourceType: "module" }
     },
     {
       files: ['**/*.ts'],
@@ -28,10 +28,10 @@ module.exports = {
       }
     },
     {
-      files: ['scripts/*.js'],
+      files: ['scripts/*.js', "test/**/*.{js,ts}"],
       rules:
         {
-          "node/no-unsupported-features/es-syntax": ["error", {"version": "10.0", "ignores": []}]
+          "node/no-unsupported-features/es-syntax": 0
         }
     }
   ]

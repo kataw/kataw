@@ -28,8 +28,8 @@ let didError = false;
 
 const files = glob.sync('**/*.{ts,js}', { gitignore: true }).filter((f) => !onlyChanged || changedFiles.has(f));
 
-if (!files.length) {
-  return;
+if (files.length === 0) {
+  process.exit(0);
 }
 
 files.forEach((file) => {

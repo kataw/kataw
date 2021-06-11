@@ -7908,7 +7908,7 @@ function parseVariableDeclaration(
   const binding = parseIdentifierOrPattern(parser, context, scope, type, DiagnosticCode.Variable_declaration_expected);
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   const typeAnnotation = parseTypeAnnotation(parser, context);
-  let initializer = parseInitializer(parser, context, false);
+  const initializer = parseInitializer(parser, context, false);
   if (initializer) {
     if (
       inForStatement &&
@@ -8337,8 +8337,8 @@ function parseObjectTypeProperty(
   pos: number
 ): ObjectTypeProperty {
   let key;
-  let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
-  let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
+  const getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
+  const setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
 
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const token = parser.token;
