@@ -11298,7 +11298,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 8267
                                     },
                                     "operatorToken": {
-                                        "kind": 100915,
+                                        "kind": 134318643,
                                         "flags": 64,
                                         "start": 8267,
                                         "end": 8269
@@ -11332,7 +11332,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 8276
                                     },
                                     "operatorToken": {
-                                        "kind": 100915,
+                                        "kind": 134318643,
                                         "flags": 64,
                                         "start": 8276,
                                         "end": 8278
@@ -11564,7 +11564,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 8413
                                     },
                                     "operatorToken": {
-                                        "kind": 100915,
+                                        "kind": 134318643,
                                         "flags": 64,
                                         "start": 8413,
                                         "end": 8415
@@ -11612,7 +11612,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 8424
                                     },
                                     "operatorToken": {
-                                        "kind": 100915,
+                                        "kind": 134318643,
                                         "flags": 64,
                                         "start": 8424,
                                         "end": 8426

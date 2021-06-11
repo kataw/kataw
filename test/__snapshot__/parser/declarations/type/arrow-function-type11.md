@@ -49,15 +49,22 @@ type a = ("string") => T;
                     "start": 19,
                     "end": 22
                 },
-                "parameters": [
-                    {
-                        "kind": 134217967,
-                        "value": "string",
-                        "flags": 0,
-                        "start": 10,
-                        "end": 18
-                    }
-                ],
+                "parameters": {
+                    "kind": 279,
+                    "parameters": [
+                        {
+                            "kind": 134217967,
+                            "value": "string",
+                            "flags": 0,
+                            "start": 10,
+                            "end": 18
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 8,
+                    "end": 22
+                },
                 "returnType": {
                     "kind": 144,
                     "id": {

@@ -323,7 +323,7 @@ var y: Array<string> = ['3', ...x];
                                     "end": 68
                                 },
                                 "operatorToken": {
-                                    "kind": 100915,
+                                    "kind": 134318643,
                                     "flags": 64,
                                     "start": 68,
                                     "end": 70
@@ -427,7 +427,7 @@ var y: Array<string> = ['3', ...x];
                                     "end": 93
                                 },
                                 "operatorToken": {
-                                    "kind": 100915,
+                                    "kind": 134318643,
                                     "flags": 64,
                                     "start": 93,
                                     "end": 95

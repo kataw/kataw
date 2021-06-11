@@ -79,14 +79,23 @@ var f = (x): ((number) => 123) => 123;
                                             "start": 22,
                                             "end": 25
                                         },
-                                        "parameters": [
-                                            {
-                                                "kind": 134234345,
-                                                "flags": 64,
-                                                "start": 15,
-                                                "end": 21
-                                            }
-                                        ],
+                                        "parameters": {
+                                            "kind": 279,
+                                            "parameters": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "number",
+                                                    "rawText": "number",
+                                                    "flags": 96,
+                                                    "start": 15,
+                                                    "end": 21
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 12,
+                                            "end": 25
+                                        },
                                         "returnType": {
                                             "kind": 134217968,
                                             "value": 123,

@@ -51,7 +51,7 @@ var a: -0x7B
                             "type": {
                                 "kind": 271,
                                 "subtractionToken": {
-                                    "kind": 100915,
+                                    "kind": 134318643,
                                     "flags": 64,
                                     "start": 6,
                                     "end": 8

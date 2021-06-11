@@ -126,7 +126,16 @@ var a: (?number)[];
                                             "start": 28,
                                             "end": 31
                                         },
-                                        "parameters": [],
+                                        "parameters": {
+                                            "kind": 279,
+                                            "parameters": [
+                                                []
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 24,
+                                            "end": 31
+                                        },
                                         "returnType": {
                                             "kind": 134234345,
                                             "flags": 64,

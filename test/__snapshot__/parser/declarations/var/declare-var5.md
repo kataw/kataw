@@ -71,7 +71,16 @@ declare var x3: ?(() => (() => number));
                                             "start": 20,
                                             "end": 23
                                         },
-                                        "parameters": [],
+                                        "parameters": {
+                                            "kind": 279,
+                                            "parameters": [
+                                                []
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 17,
+                                            "end": 23
+                                        },
                                         "returnType": {
                                             "kind": 260,
                                             "type": {
@@ -82,7 +91,16 @@ declare var x3: ?(() => (() => number));
                                                     "start": 27,
                                                     "end": 30
                                                 },
-                                                "parameters": [],
+                                                "parameters": {
+                                                    "kind": 279,
+                                                    "parameters": [
+                                                        []
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 23,
+                                                    "end": 30
+                                                },
                                                 "returnType": {
                                                     "kind": 134234345,
                                                     "flags": 64,

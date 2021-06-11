@@ -238,7 +238,8 @@ export const enum DiagnosticCode {
   _MethodDefinition_expected = 243,
   A_class_field_cannot_have_a_field_named_constructor = 244,
   Class_fields_may_not_have_a_static_property_named_prototype = 245,
-  Cannot_use_the_yield_keyword_on_the_left_hand_side_of_conditional_expression_in_a_generator_context = 246
+  Cannot_use_the_yield_keyword_on_the_left_hand_side_of_conditional_expression_in_a_generator_context = 246,
+  An_optional_parameter_cannot_be_used_without_an_in_an_arrow_function_type_parameter_list = 247
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -481,5 +482,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [243]: '`MethodDefinition` expected',
   [244]: "A class field cannot have a field named 'constructor'",
   [245]: "Class fields may not have a static property named 'prototype'",
-  [246]: "Cannot use the 'yield' keyword on the left-hand side of conditional expression in a generator context"
+  [246]: "Cannot use the 'yield' keyword on the left-hand side of conditional expression in a generator context",
+  [247]: "An optional parameter cannot be used without an ':' in an arrow function type parameter list"
 };

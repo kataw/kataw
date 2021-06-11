@@ -53,67 +53,107 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                     "end": 18
                 },
                 "returnType": {
-                    "kind": 260,
-                    "type": {
-                        "kind": 261,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 21,
-                            "end": 24
-                        },
-                        "parameters": [],
-                        "returnType": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "Pr",
-                                "rawText": "Pr",
-                                "flags": 96,
-                                "start": 24,
-                                "end": 27
-                            },
-                            "typeParameters": {
-                                "kind": 266,
-                                "parameters": [
-                                    {
-                                        "kind": 267,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "Return",
-                                                "rawText": "Return",
-                                                "flags": 96,
+                    "kind": 261,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 36,
+                        "end": 39
+                    },
+                    "parameters": {
+                        "kind": 279,
+                        "parameters": [
+                            {
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 21,
+                                    "end": 24
+                                },
+                                "parameters": {
+                                    "kind": 279,
+                                    "parameters": [
+                                        []
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 18,
+                                    "end": 24
+                                },
+                                "returnType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "Pr",
+                                        "rawText": "Pr",
+                                        "flags": 96,
+                                        "start": 24,
+                                        "end": 27
+                                    },
+                                    "typeParameters": {
+                                        "kind": 266,
+                                        "parameters": [
+                                            {
+                                                "kind": 267,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "Return",
+                                                        "rawText": "Return",
+                                                        "flags": 96,
+                                                        "start": 28,
+                                                        "end": 34
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
+                                                    "start": 28,
+                                                    "end": 34
+                                                },
+                                                "flags": 0,
                                                 "start": 28,
                                                 "end": 34
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 28,
-                                            "end": 34
-                                        },
+                                            }
+                                        ],
                                         "flags": 0,
-                                        "start": 28,
-                                        "end": 34
-                                    }
-                                ],
+                                        "start": 27,
+                                        "end": 35
+                                    },
+                                    "flags": 0,
+                                    "start": 24,
+                                    "end": 35
+                                },
+                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 27,
+                                "start": 18,
                                 "end": 35
-                            },
-                            "flags": 0,
-                            "start": 24,
-                            "end": 35
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 18,
+                        "end": 39
+                    },
+                    "returnType": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Return",
+                            "rawText": "Return",
+                            "flags": 96,
+                            "start": 39,
+                            "end": 46
                         },
                         "typeParameters": null,
                         "flags": 0,
-                        "start": 18,
-                        "end": 35
+                        "start": 39,
+                        "end": 46
                     },
+                    "typeParameters": null,
                     "flags": 0,
                     "start": 18,
-                    "end": 36
+                    "end": 46
                 },
                 "typeParameters": {
                     "kind": 265,
@@ -141,24 +181,10 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                 },
                 "flags": 0,
                 "start": 9,
-                "end": 36
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 36
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Return",
-                "rawText": "Return",
-                "flags": 96,
-                "start": 39,
                 "end": 46
             },
             "flags": 16,
-            "start": 39,
+            "start": 0,
             "end": 47
         }
     ],
@@ -175,12 +201,12 @@ type Tr = <Return>(() => Pr<Return>) => Return;
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 36, end: 39
-
+✔ No errors
 ```
 

@@ -234,7 +234,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "end": 63
                                                     },
                                                     "operatorToken": {
-                                                        "kind": 100915,
+                                                        "kind": 134318643,
                                                         "flags": 64,
                                                         "start": 63,
                                                         "end": 64
