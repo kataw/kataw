@@ -46,10 +46,10 @@ type D = (Obj['bar'])['baz'];
                 "objectType": {
                     "kind": 260,
                     "type": {
-                        "kind": 268,
-                        "objectType": {
-                            "kind": 144,
-                            "id": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 268,
+                            "objectType": {
                                 "kind": 134299649,
                                 "text": "Obj",
                                 "rawText": "Obj",
@@ -57,21 +57,21 @@ type D = (Obj['bar'])['baz'];
                                 "start": 10,
                                 "end": 13
                             },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 10,
-                            "end": 13
-                        },
-                        "indexType": {
-                            "kind": 134217967,
-                            "value": "bar",
+                            "indexType": {
+                                "kind": 134217967,
+                                "value": "bar",
+                                "flags": 0,
+                                "start": 14,
+                                "end": 19
+                            },
                             "flags": 0,
                             "start": 14,
-                            "end": 19
+                            "end": 21
                         },
+                        "typeParameters": null,
                         "flags": 0,
-                        "start": 14,
-                        "end": 21
+                        "start": 8,
+                        "end": 20
                     },
                     "flags": 0,
                     "start": 8,

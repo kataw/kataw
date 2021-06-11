@@ -4,16 +4,18 @@ import { TypeParameterDeclaration } from './type-parameter-declaration';
 import { TypeNode } from './';
 
 export interface ObjectTypeCallProperty extends SyntaxNode {
+  readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly typeParameter: TypeParameterDeclaration | null;
   readonly kind: SyntaxKind.ObjectTypeCallProperty;
-  readonly value: any;
+  readonly value: TypeNode;
   readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly returnType: TypeNode;
 }
 
 export function createObjectTypeCallProperty(
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   typeParameter: TypeParameterDeclaration | null,
-  value: any,
+  value: TypeNode,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
   returnType: TypeNode,
   start: number,
@@ -21,6 +23,7 @@ export function createObjectTypeCallProperty(
 ): ObjectTypeCallProperty {
   return {
     kind: SyntaxKind.ObjectTypeCallProperty,
+    protoKeyword,
     typeParameter,
     value,
     staticToken,

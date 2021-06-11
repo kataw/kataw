@@ -50,14 +50,24 @@ type C = (<T>(T) => $Foo<T>)[];
                         "kind": 260,
                         "type": {
                             "kind": 261,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 19
+                            "arrowToken": null,
+                            "parameters": {
+                                "kind": 208,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 13,
+                                "end": 13
                             },
-                            "parameters": [
-                                {
+                            "returnType": {
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 16,
+                                    "end": 19
+                                },
+                                "parameters": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -69,51 +79,55 @@ type C = (<T>(T) => $Foo<T>)[];
                                     },
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "start": 14,
+                                    "start": 13,
                                     "end": 15
-                                }
-                            ],
-                            "returnType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "$Foo",
-                                    "rawText": "$Foo",
-                                    "flags": 96,
-                                    "start": 19,
-                                    "end": 24
                                 },
-                                "typeParameters": {
-                                    "kind": 266,
-                                    "parameters": [
-                                        {
-                                            "kind": 267,
-                                            "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                "returnType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "$Foo",
+                                        "rawText": "$Foo",
+                                        "flags": 96,
+                                        "start": 19,
+                                        "end": 24
+                                    },
+                                    "typeParameters": {
+                                        "kind": 266,
+                                        "parameters": [
+                                            {
+                                                "kind": 267,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 25,
+                                                        "end": 26
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
                                                     "start": 25,
                                                     "end": 26
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 0,
                                                 "start": 25,
                                                 "end": 26
-                                            },
-                                            "flags": 0,
-                                            "start": 25,
-                                            "end": 26
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "start": 24,
+                                        "end": 27
+                                    },
                                     "flags": 0,
-                                    "start": 24,
+                                    "start": 19,
                                     "end": 27
                                 },
+                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 19,
+                                "start": 13,
                                 "end": 27
                             },
                             "typeParameters": {
@@ -152,14 +166,24 @@ type C = (<T>(T) => $Foo<T>)[];
                         "kind": 260,
                         "type": {
                             "kind": 261,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 38,
-                                "end": 41
+                            "arrowToken": null,
+                            "parameters": {
+                                "kind": 208,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 35,
+                                "end": 35
                             },
-                            "parameters": [
-                                {
+                            "returnType": {
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 38,
+                                    "end": 41
+                                },
+                                "parameters": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -171,51 +195,55 @@ type C = (<T>(T) => $Foo<T>)[];
                                     },
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "start": 36,
+                                    "start": 35,
                                     "end": 37
-                                }
-                            ],
-                            "returnType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "$Foo",
-                                    "rawText": "$Foo",
-                                    "flags": 96,
-                                    "start": 41,
-                                    "end": 46
                                 },
-                                "typeParameters": {
-                                    "kind": 266,
-                                    "parameters": [
-                                        {
-                                            "kind": 267,
-                                            "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                "returnType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "$Foo",
+                                        "rawText": "$Foo",
+                                        "flags": 96,
+                                        "start": 41,
+                                        "end": 46
+                                    },
+                                    "typeParameters": {
+                                        "kind": 266,
+                                        "parameters": [
+                                            {
+                                                "kind": 267,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 47,
+                                                        "end": 48
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
                                                     "start": 47,
                                                     "end": 48
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 0,
                                                 "start": 47,
                                                 "end": 48
-                                            },
-                                            "flags": 0,
-                                            "start": 47,
-                                            "end": 48
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "start": 46,
+                                        "end": 49
+                                    },
                                     "flags": 0,
-                                    "start": 46,
+                                    "start": 41,
                                     "end": 49
                                 },
+                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 41,
+                                "start": 35,
                                 "end": 49
                             },
                             "typeParameters": {
@@ -284,14 +312,24 @@ type C = (<T>(T) => $Foo<T>)[];
                         "kind": 260,
                         "type": {
                             "kind": 261,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 68,
-                                "end": 71
+                            "arrowToken": null,
+                            "parameters": {
+                                "kind": 208,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 65,
+                                "end": 65
                             },
-                            "parameters": [
-                                {
+                            "returnType": {
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 68,
+                                    "end": 71
+                                },
+                                "parameters": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -303,51 +341,55 @@ type C = (<T>(T) => $Foo<T>)[];
                                     },
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "start": 66,
+                                    "start": 65,
                                     "end": 67
-                                }
-                            ],
-                            "returnType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "$Foo",
-                                    "rawText": "$Foo",
-                                    "flags": 96,
-                                    "start": 71,
-                                    "end": 76
                                 },
-                                "typeParameters": {
-                                    "kind": 266,
-                                    "parameters": [
-                                        {
-                                            "kind": 267,
-                                            "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                "returnType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "$Foo",
+                                        "rawText": "$Foo",
+                                        "flags": 96,
+                                        "start": 71,
+                                        "end": 76
+                                    },
+                                    "typeParameters": {
+                                        "kind": 266,
+                                        "parameters": [
+                                            {
+                                                "kind": 267,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 77,
+                                                        "end": 78
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
                                                     "start": 77,
                                                     "end": 78
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 0,
                                                 "start": 77,
                                                 "end": 78
-                                            },
-                                            "flags": 0,
-                                            "start": 77,
-                                            "end": 78
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "start": 76,
+                                        "end": 79
+                                    },
                                     "flags": 0,
-                                    "start": 76,
+                                    "start": 71,
                                     "end": 79
                                 },
+                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 71,
+                                "start": 65,
                                 "end": 79
                             },
                             "typeParameters": {
@@ -386,14 +428,24 @@ type C = (<T>(T) => $Foo<T>)[];
                         "kind": 260,
                         "type": {
                             "kind": 261,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 90,
-                                "end": 93
+                            "arrowToken": null,
+                            "parameters": {
+                                "kind": 208,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 87,
+                                "end": 87
                             },
-                            "parameters": [
-                                {
+                            "returnType": {
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 90,
+                                    "end": 93
+                                },
+                                "parameters": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -405,51 +457,55 @@ type C = (<T>(T) => $Foo<T>)[];
                                     },
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "start": 88,
+                                    "start": 87,
                                     "end": 89
-                                }
-                            ],
-                            "returnType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "$Foo",
-                                    "rawText": "$Foo",
-                                    "flags": 96,
-                                    "start": 93,
-                                    "end": 98
                                 },
-                                "typeParameters": {
-                                    "kind": 266,
-                                    "parameters": [
-                                        {
-                                            "kind": 267,
-                                            "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                "returnType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "$Foo",
+                                        "rawText": "$Foo",
+                                        "flags": 96,
+                                        "start": 93,
+                                        "end": 98
+                                    },
+                                    "typeParameters": {
+                                        "kind": 266,
+                                        "parameters": [
+                                            {
+                                                "kind": 267,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 99,
+                                                        "end": 100
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
                                                     "start": 99,
                                                     "end": 100
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 0,
                                                 "start": 99,
                                                 "end": 100
-                                            },
-                                            "flags": 0,
-                                            "start": 99,
-                                            "end": 100
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "start": 98,
+                                        "end": 101
+                                    },
                                     "flags": 0,
-                                    "start": 98,
+                                    "start": 93,
                                     "end": 101
                                 },
+                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 93,
+                                "start": 87,
                                 "end": 101
                             },
                             "typeParameters": {
@@ -517,14 +573,24 @@ type C = (<T>(T) => $Foo<T>)[];
                     "kind": 260,
                     "type": {
                         "kind": 261,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 120,
-                            "end": 123
+                        "arrowToken": null,
+                        "parameters": {
+                            "kind": 208,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 117,
+                            "end": 117
                         },
-                        "parameters": [
-                            {
+                        "returnType": {
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 120,
+                                "end": 123
+                            },
+                            "parameters": {
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
@@ -536,51 +602,55 @@ type C = (<T>(T) => $Foo<T>)[];
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 118,
+                                "start": 117,
                                 "end": 119
-                            }
-                        ],
-                        "returnType": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "$Foo",
-                                "rawText": "$Foo",
-                                "flags": 96,
-                                "start": 123,
-                                "end": 128
                             },
-                            "typeParameters": {
-                                "kind": 266,
-                                "parameters": [
-                                    {
-                                        "kind": 267,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
+                            "returnType": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "$Foo",
+                                    "rawText": "$Foo",
+                                    "flags": 96,
+                                    "start": 123,
+                                    "end": 128
+                                },
+                                "typeParameters": {
+                                    "kind": 266,
+                                    "parameters": [
+                                        {
+                                            "kind": 267,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 129,
+                                                    "end": 130
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
                                                 "start": 129,
                                                 "end": 130
                                             },
-                                            "typeParameters": null,
                                             "flags": 0,
                                             "start": 129,
                                             "end": 130
-                                        },
-                                        "flags": 0,
-                                        "start": 129,
-                                        "end": 130
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 0,
+                                    "start": 128,
+                                    "end": 131
+                                },
                                 "flags": 0,
-                                "start": 128,
+                                "start": 123,
                                 "end": 131
                             },
+                            "typeParameters": null,
                             "flags": 0,
-                            "start": 123,
+                            "start": 117,
                             "end": 131
                         },
                         "typeParameters": {

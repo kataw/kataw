@@ -53,6 +53,8 @@ var a: {param1?: number; param2: string; param3: string;}
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -63,25 +65,26 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 8,
                                             "end": 14
                                         },
-                                        "value": {
-                                            "kind": 134234345,
-                                            "flags": 64,
-                                            "start": 16,
-                                            "end": 23
-                                        },
                                         "optionalToken": {
                                             "kind": 134217750,
                                             "flags": 64,
                                             "start": 14,
                                             "end": 15
                                         },
-                                        "staticToken": null,
+                                        "value": {
+                                            "kind": 134234345,
+                                            "flags": 64,
+                                            "start": 16,
+                                            "end": 23
+                                        },
                                         "flags": 0,
                                         "start": 8,
                                         "end": 24
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -92,20 +95,21 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 24,
                                             "end": 31
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 32,
                                             "end": 39
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 24,
                                         "end": 40
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -116,14 +120,13 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 40,
                                             "end": 47
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 48,
                                             "end": 55
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 40,
                                         "end": 56

@@ -111,6 +111,8 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -121,6 +123,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 32,
                             "end": 36
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -136,14 +139,14 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 37,
                             "end": 39
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 32,
                         "end": 40
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -154,6 +157,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 40,
                             "end": 44
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -169,8 +173,6 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 45,
                             "end": 47
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 40,
                         "end": 47
@@ -185,6 +187,8 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -195,6 +199,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 53,
                             "end": 59
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -210,14 +215,14 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 60,
                             "end": 62
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 53,
                         "end": 63
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -228,6 +233,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 63,
                             "end": 69
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -243,14 +249,14 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 70,
                             "end": 72
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 63,
                         "end": 73
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -261,6 +267,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 73,
                             "end": 79
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -276,8 +283,6 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                             "start": 80,
                             "end": 82
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 73,
                         "end": 83

@@ -73,8 +73,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "end": 26
                     },
                     "parameters": {
-                        "kind": 208,
-                        "functionTypeParameterList": [
+                        "kind": 279,
+                        "parameters": [
                             {
                                 "kind": 149,
                                 "ellipsisToken": null,
@@ -87,7 +87,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 17
                                 },
                                 "optionalToken": null,
-                                "typeAnnotation": {
+                                "types": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -103,13 +103,13 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 22
                                 },
                                 "flags": 0,
-                                "start": 16,
+                                "start": 15,
                                 "end": 22
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 16,
+                        "start": 15,
                         "end": 22
                     },
                     "returnType": {
@@ -203,8 +203,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "end": 83
                     },
                     "parameters": {
-                        "kind": 208,
-                        "functionTypeParameterList": [
+                        "kind": 279,
+                        "parameters": [
                             {
                                 "kind": 149,
                                 "ellipsisToken": null,
@@ -217,7 +217,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 63
                                 },
                                 "optionalToken": null,
-                                "typeAnnotation": {
+                                "types": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -233,7 +233,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 68
                                 },
                                 "flags": 0,
-                                "start": 61,
+                                "start": 59,
                                 "end": 68
                             },
                             {
@@ -248,7 +248,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 72
                                 },
                                 "optionalToken": null,
-                                "typeAnnotation": {
+                                "types": {
                                     "kind": 134234347,
                                     "flags": 64,
                                     "start": 73,
@@ -261,7 +261,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         ],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 61,
+                        "start": 59,
                         "end": 79
                     },
                     "returnType": {
@@ -368,8 +368,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "end": 152
                     },
                     "parameters": {
-                        "kind": 208,
-                        "functionTypeParameterList": [
+                        "kind": 279,
+                        "parameters": [
                             {
                                 "kind": 149,
                                 "ellipsisToken": null,
@@ -382,7 +382,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 121
                                 },
                                 "optionalToken": null,
-                                "typeAnnotation": {
+                                "types": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -398,7 +398,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 126
                                 },
                                 "flags": 0,
-                                "start": 119,
+                                "start": 117,
                                 "end": 126
                             },
                             {
@@ -418,7 +418,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 134
                                 },
                                 "optionalToken": null,
-                                "typeAnnotation": {
+                                "types": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -459,7 +459,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         ],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 119,
+                        "start": 117,
                         "end": 148
                     },
                     "returnType": {

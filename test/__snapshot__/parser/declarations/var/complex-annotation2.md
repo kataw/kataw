@@ -366,15 +366,24 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                 "type": {
                                     "kind": 260,
                                     "type": {
-                                        "kind": 136,
-                                        "type": {
-                                            "kind": 134234345,
-                                            "flags": 64,
-                                            "start": 203,
-                                            "end": 209
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 136,
+                                            "type": {
+                                                "kind": 134299649,
+                                                "text": "number",
+                                                "rawText": "number",
+                                                "flags": 96,
+                                                "start": 203,
+                                                "end": 209
+                                            },
+                                            "flags": 0,
+                                            "start": 210,
+                                            "end": 211
                                         },
+                                        "typeParameters": null,
                                         "flags": 0,
-                                        "start": 210,
+                                        "start": 202,
                                         "end": 211
                                     },
                                     "flags": 0,

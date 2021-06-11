@@ -200,41 +200,73 @@ class Array { concat(items:number | string) {}; }
                                                     ],
                                                     "flags": 0,
                                                     "start": 42,
-                                                    "end": 50
+                                                    "end": 49
                                                 },
                                                 "flags": 0,
                                                 "start": 36,
-                                                "end": 50
+                                                "end": 49
                                             },
                                             "flags": 0,
                                             "start": 36,
-                                            "end": 50
+                                            "end": 49
                                         }
                                     ],
                                     "flags": 0,
                                     "start": 28,
-                                    "end": 51
+                                    "end": 49
                                 },
                                 "flags": 0,
                                 "start": 24,
-                                "end": 51
+                                "end": 49
                             },
                             "flags": 0,
                             "start": 23,
-                            "end": 51
+                            "end": 49
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 21,
-                        "end": 51
+                        "end": 49
                     }
                 ],
                 "flags": 16,
                 "start": 21,
-                "end": 51
+                "end": 49
             },
             "flags": 16,
             "start": 16,
+            "end": 49
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 49,
+                    "end": 49
+                },
+                "operatorToken": {
+                    "kind": 35141,
+                    "flags": 64,
+                    "start": 49,
+                    "end": 51
+                },
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 51,
+                    "end": 51
+                },
+                "flags": 32,
+                "start": 49,
+                "end": 51
+            },
+            "flags": 16,
+            "start": 49,
             "end": 52
         },
         {
@@ -466,7 +498,7 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [],
+                                    "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 122,
@@ -491,7 +523,7 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             "parameters": {
                                                 "kind": 208,
-                                                "functionTypeParameterList": [],
+                                                "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 137,
@@ -694,6 +726,8 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -704,14 +738,13 @@ class Array { concat(items:number | string) {}; }
                                             "start": 209,
                                             "end": 215
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 216,
                                             "end": 223
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 209,
                                         "end": 224
@@ -1403,6 +1436,8 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1413,20 +1448,21 @@ class Array { concat(items:number | string) {}; }
                                             "start": 485,
                                             "end": 491
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 492,
                                             "end": 499
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 485,
                                         "end": 500
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1437,19 +1473,18 @@ class Array { concat(items:number | string) {}; }
                                             "start": 500,
                                             "end": 507
                                         },
-                                        "value": {
-                                            "kind": 134234347,
-                                            "flags": 64,
-                                            "start": 509,
-                                            "end": 516
-                                        },
                                         "optionalToken": {
                                             "kind": 134217750,
                                             "flags": 64,
                                             "start": 507,
                                             "end": 508
                                         },
-                                        "staticToken": null,
+                                        "value": {
+                                            "kind": 134234347,
+                                            "flags": 64,
+                                            "start": 509,
+                                            "end": 516
+                                        },
                                         "flags": 0,
                                         "start": 500,
                                         "end": 516
@@ -1636,6 +1671,8 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1646,14 +1683,13 @@ class Array { concat(items:number | string) {}; }
                                             "start": 568,
                                             "end": 569
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 570,
                                             "end": 577
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 568,
                                         "end": 577
@@ -1763,6 +1799,8 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1773,14 +1811,13 @@ class Array { concat(items:number | string) {}; }
                                             "start": 609,
                                             "end": 610
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 611,
                                             "end": 618
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 609,
                                         "end": 619
@@ -1883,6 +1920,8 @@ class Array { concat(items:number | string) {}; }
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -1893,14 +1932,13 @@ class Array { concat(items:number | string) {}; }
                                                 "start": 650,
                                                 "end": 656
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 134234345,
                                                 "flags": 64,
                                                 "start": 657,
                                                 "end": 664
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 650,
                                             "end": 664
@@ -2053,6 +2091,8 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -2063,11 +2103,14 @@ class Array { concat(items:number | string) {}; }
                                             "start": 707,
                                             "end": 713
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234353,
                                             "properties": [
                                                 {
                                                     "kind": 193,
+                                                    "protoKeyword": null,
+                                                    "staticToken": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "key": {
@@ -2078,14 +2121,13 @@ class Array { concat(items:number | string) {}; }
                                                         "start": 716,
                                                         "end": 722
                                                     },
+                                                    "optionalToken": null,
                                                     "value": {
                                                         "kind": 134234347,
                                                         "flags": 64,
                                                         "start": 723,
                                                         "end": 730
                                                     },
-                                                    "optionalToken": null,
-                                                    "staticToken": null,
                                                     "flags": 0,
                                                     "start": 716,
                                                     "end": 730
@@ -2095,8 +2137,6 @@ class Array { concat(items:number | string) {}; }
                                             "start": 714,
                                             "end": 731
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 707,
                                         "end": 731
@@ -2277,40 +2317,14 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-var a;
-var a;
-var a;
-var x = Y;
-var x = fn;
-var foo = bar ? (foo) =>  {} : baz;
-var a;
-var foo = bar ? (foo) : number;
-var foo = ((bar) =>  bar);
-var foo = (() =>  bar);
-var foo = async (bar) =>  bar;
-var foo = async () =>  bar;
-var foo = async (foo, bar) =>  {};
-var foo = () =>  bar;
-var a;
-var [x] = ["\"hello\""];
-var {
-  x
-} = { x: "\"hello\"" };
-var {
-  x
-} = { x: "\"hello\"" };
-var a;
-var x = Y;
-var a;
-class Array {
-  concat(items) {}
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected to find a '>' to match the '<' token here. - start: 49, end: 51
+✖ ',' expected - start: 49, end: 51
+✖ Identifier expected - start: 51, end: 52
+
 ```
 

@@ -59,6 +59,8 @@ declare class X {
                     "properties": [
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -69,20 +71,26 @@ declare class X {
                                 "start": 17,
                                 "end": 20
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 21,
                                 "end": 28
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 17,
                             "end": 29
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": {
+                                "kind": 8388716,
+                                "flags": 65,
+                                "start": 29,
+                                "end": 37
+                            },
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -93,18 +101,12 @@ declare class X {
                                 "start": 37,
                                 "end": 39
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 40,
                                 "end": 47
-                            },
-                            "optionalToken": null,
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 65,
-                                "start": 29,
-                                "end": 37
                             },
                             "flags": 0,
                             "start": 29,
@@ -112,6 +114,8 @@ declare class X {
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -122,14 +126,13 @@ declare class X {
                                 "start": 48,
                                 "end": 51
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 52,
                                 "end": 59
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 48,
                             "end": 60

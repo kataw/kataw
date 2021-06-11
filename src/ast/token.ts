@@ -21,6 +21,7 @@ export type TokenSyntaxKind =
   | SyntaxKind.UnknownToken
   | SyntaxKind.Increment
   | SyntaxKind.DeleteKeyword
+  | SyntaxKind.ProtoKeyword
   | SyntaxKind.Negate
   | SyntaxKind.Complement
   | SyntaxKind.PrivateIdentifier

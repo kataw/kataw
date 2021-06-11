@@ -78,8 +78,8 @@ var f = (x): (x: number) => 123 => 123;
                                         "end": 27
                                     },
                                     "parameters": {
-                                        "kind": 208,
-                                        "functionTypeParameterList": [
+                                        "kind": 279,
+                                        "parameters": [
                                             {
                                                 "kind": 149,
                                                 "ellipsisToken": null,
@@ -92,20 +92,20 @@ var f = (x): (x: number) => 123 => 123;
                                                     "end": 15
                                                 },
                                                 "optionalToken": null,
-                                                "typeAnnotation": {
+                                                "types": {
                                                     "kind": 134234345,
                                                     "flags": 64,
                                                     "start": 16,
                                                     "end": 23
                                                 },
                                                 "flags": 0,
-                                                "start": 14,
+                                                "start": 12,
                                                 "end": 23
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 14,
+                                        "start": 12,
                                         "end": 23
                                     },
                                     "returnType": {

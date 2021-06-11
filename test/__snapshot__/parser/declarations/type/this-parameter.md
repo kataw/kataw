@@ -59,8 +59,8 @@ type ten = {
                     "end": 28
                 },
                 "parameters": {
-                    "kind": 208,
-                    "functionTypeParameterList": [
+                    "kind": 279,
+                    "parameters": [
                         {
                             "kind": 149,
                             "ellipsisToken": null,
@@ -73,20 +73,20 @@ type ten = {
                                 "end": 16
                             },
                             "optionalToken": null,
-                            "typeAnnotation": {
+                            "types": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 17,
                                 "end": 24
                             },
                             "flags": 0,
-                            "start": 12,
+                            "start": 10,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 12,
+                    "start": 10,
                     "end": 24
                 },
                 "returnType": {
@@ -131,8 +131,8 @@ type ten = {
                     "end": 76
                 },
                 "parameters": {
-                    "kind": 208,
-                    "functionTypeParameterList": [
+                    "kind": 279,
+                    "parameters": [
                         {
                             "kind": 149,
                             "ellipsisToken": null,
@@ -145,14 +145,14 @@ type ten = {
                                 "end": 53
                             },
                             "optionalToken": null,
-                            "typeAnnotation": {
+                            "types": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 54,
                                 "end": 61
                             },
                             "flags": 0,
-                            "start": 49,
+                            "start": 47,
                             "end": 61
                         },
                         {
@@ -167,7 +167,7 @@ type ten = {
                                 "end": 64
                             },
                             "optionalToken": null,
-                            "typeAnnotation": {
+                            "types": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 65,
@@ -180,7 +180,7 @@ type ten = {
                     ],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 49,
+                    "start": 47,
                     "end": 72
                 },
                 "returnType": {
@@ -225,8 +225,8 @@ type ten = {
                     "end": 124
                 },
                 "parameters": {
-                    "kind": 208,
-                    "functionTypeParameterList": [
+                    "kind": 279,
+                    "parameters": [
                         {
                             "kind": 149,
                             "ellipsisToken": null,
@@ -239,14 +239,14 @@ type ten = {
                                 "end": 101
                             },
                             "optionalToken": null,
-                            "typeAnnotation": {
+                            "types": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 102,
                                 "end": 109
                             },
                             "flags": 0,
-                            "start": 97,
+                            "start": 95,
                             "end": 109
                         },
                         {
@@ -266,7 +266,7 @@ type ten = {
                                 "end": 115
                             },
                             "optionalToken": null,
-                            "typeAnnotation": {
+                            "types": {
                                 "kind": 134234252,
                                 "flags": 64,
                                 "start": 116,
@@ -279,7 +279,7 @@ type ten = {
                     ],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 97,
+                    "start": 95,
                     "end": 120
                 },
                 "returnType": {
@@ -317,56 +317,72 @@ type ten = {
             "typeParameters": null,
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 155,
-                    "end": 158
-                },
+                "arrowToken": null,
                 "parameters": {
                     "kind": 208,
-                    "functionTypeParameterList": [
-                        {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "this",
-                                "rawText": "this",
-                                "flags": 96,
-                                "start": 147,
-                                "end": 151
-                            },
-                            "optionalToken": null,
-                            "typeAnnotation": {
-                                "kind": 144,
-                                "id": {
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 146,
+                    "end": 146
+                },
+                "returnType": {
+                    "kind": 261,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 155,
+                        "end": 158
+                    },
+                    "parameters": {
+                        "kind": 279,
+                        "parameters": [
+                            {
+                                "kind": 149,
+                                "ellipsisToken": null,
+                                "name": {
                                     "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
+                                    "text": "this",
+                                    "rawText": "this",
                                     "flags": 96,
+                                    "start": 147,
+                                    "end": 151
+                                },
+                                "optionalToken": null,
+                                "types": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 152,
+                                        "end": 154
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
                                     "start": 152,
                                     "end": 154
                                 },
-                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 152,
+                                "start": 146,
                                 "end": 154
-                            },
-                            "flags": 0,
-                            "start": 147,
-                            "end": 154
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 147,
-                    "end": 154
-                },
-                "returnType": {
-                    "kind": 138477615,
-                    "flags": 64,
-                    "start": 158,
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 146,
+                        "end": 154
+                    },
+                    "returnType": {
+                        "kind": 138477615,
+                        "flags": 64,
+                        "start": 158,
+                        "end": 163
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 146,
                     "end": 163
                 },
                 "typeParameters": {
@@ -424,6 +440,8 @@ type ten = {
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -434,11 +452,12 @@ type ten = {
                             "start": 177,
                             "end": 182
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [
+                                "parameters": [
                                     {
                                         "kind": 149,
                                         "ellipsisToken": null,
@@ -451,7 +470,7 @@ type ten = {
                                             "end": 187
                                         },
                                         "optionalToken": null,
-                                        "typeAnnotation": {
+                                        "types": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 188,
@@ -478,14 +497,14 @@ type ten = {
                             "start": 182,
                             "end": 202
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 177,
                         "end": 202
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -495,6 +514,7 @@ type ten = {
                             "start": 202,
                             "end": 202
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -509,14 +529,14 @@ type ten = {
                             "start": 202,
                             "end": 202
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 202,
                         "end": 203
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -527,11 +547,12 @@ type ten = {
                             "start": 203,
                             "end": 208
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [
+                                "parameters": [
                                     {
                                         "kind": 149,
                                         "ellipsisToken": null,
@@ -544,7 +565,7 @@ type ten = {
                                             "end": 213
                                         },
                                         "optionalToken": null,
-                                        "typeAnnotation": {
+                                        "types": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 214,
@@ -566,7 +587,7 @@ type ten = {
                                             "end": 224
                                         },
                                         "optionalToken": null,
-                                        "typeAnnotation": {
+                                        "types": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 225,
@@ -593,14 +614,14 @@ type ten = {
                             "start": 208,
                             "end": 239
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 203,
                         "end": 239
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -610,6 +631,7 @@ type ten = {
                             "start": 239,
                             "end": 239
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -624,14 +646,14 @@ type ten = {
                             "start": 239,
                             "end": 239
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 239,
                         "end": 240
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -642,11 +664,12 @@ type ten = {
                             "start": 240,
                             "end": 245
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [
+                                "parameters": [
                                     {
                                         "kind": 149,
                                         "ellipsisToken": null,
@@ -659,7 +682,7 @@ type ten = {
                                             "end": 250
                                         },
                                         "optionalToken": null,
-                                        "typeAnnotation": {
+                                        "types": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 251,
@@ -686,7 +709,7 @@ type ten = {
                                             "end": 264
                                         },
                                         "optionalToken": null,
-                                        "typeAnnotation": {
+                                        "types": {
                                             "kind": 134234252,
                                             "flags": 64,
                                             "start": 265,
@@ -713,14 +736,14 @@ type ten = {
                             "start": 245,
                             "end": 276
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 240,
                         "end": 276
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -730,6 +753,7 @@ type ten = {
                             "start": 276,
                             "end": 276
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -744,14 +768,14 @@ type ten = {
                             "start": 276,
                             "end": 276
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 276,
                         "end": 277
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -762,11 +786,12 @@ type ten = {
                             "start": 277,
                             "end": 282
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [
+                                "parameters": [
                                     {
                                         "kind": 149,
                                         "ellipsisToken": null,
@@ -779,7 +804,7 @@ type ten = {
                                             "end": 290
                                         },
                                         "optionalToken": null,
-                                        "typeAnnotation": {
+                                        "types": {
                                             "kind": 144,
                                             "id": {
                                                 "kind": 134299649,
@@ -838,14 +863,14 @@ type ten = {
                             "start": 282,
                             "end": 300
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 277,
                         "end": 300
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -855,6 +880,7 @@ type ten = {
                             "start": 300,
                             "end": 300
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -869,8 +895,6 @@ type ten = {
                             "start": 300,
                             "end": 300
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 300,
                         "end": 301

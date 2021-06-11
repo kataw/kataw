@@ -58,10 +58,11 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 11,
@@ -131,6 +132,7 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": {
                                             "kind": 265,
                                             "typeParameters": [
@@ -157,7 +159,7 @@ var a: { <T>(x: T): number; };
                                         },
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -170,7 +172,7 @@ var a: { <T>(x: T): number; };
                                                         "end": 39
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 144,
                                                         "id": {
                                                             "kind": 134299649,
@@ -259,10 +261,11 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 65,
@@ -332,10 +335,11 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 88,
@@ -405,10 +409,11 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 112,
@@ -427,6 +432,8 @@ var a: { <T>(x: T): number; };
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -437,24 +444,24 @@ var a: { <T>(x: T): number; };
                                             "start": 122,
                                             "end": 124
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 125,
                                             "end": 132
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 122,
                                         "end": 133
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -467,7 +474,7 @@ var a: { <T>(x: T): number; };
                                                         "end": 136
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234347,
                                                         "flags": 64,
                                                         "start": 137,
@@ -547,6 +554,7 @@ var a: { <T>(x: T): number; };
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": {
                                             "kind": 265,
                                             "typeParameters": [
@@ -573,7 +581,7 @@ var a: { <T>(x: T): number; };
                                         },
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -586,7 +594,7 @@ var a: { <T>(x: T): number; };
                                                         "end": 171
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 144,
                                                         "id": {
                                                             "kind": 134299649,

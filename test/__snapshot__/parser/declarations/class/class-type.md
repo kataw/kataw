@@ -675,6 +675,7 @@ type T = { [string]: Class<null> }
                 "properties": [
                     {
                         "kind": 195,
+                        "protoKeyword": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,

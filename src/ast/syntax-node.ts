@@ -371,7 +371,9 @@ export enum SyntaxKind {
   OpaqueType = 269,
   Hyphen = 16654,
   SubtractionType = 271,
-  BigIntLiteral = 201392400
+  BigIntLiteral = 201392400,
+  ProtoKeyword = 16873,
+  ArrowTypeParameterList = 279
 }
 
 export function tokenToString(node: any): string {

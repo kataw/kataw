@@ -59,10 +59,11 @@ var c: { (): string; (x: number): string } =
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 66,
@@ -81,10 +82,11 @@ var c: { (): string; (x: number): string } =
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -97,7 +99,7 @@ var c: { (): string; (x: number): string } =
                                                         "end": 79
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234345,
                                                         "flags": 64,
                                                         "start": 80,
@@ -282,10 +284,11 @@ var c: { (): string; (x: number): string } =
                                 "properties": [
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 227,
@@ -304,10 +307,11 @@ var c: { (): string; (x: number): string } =
                                     },
                                     {
                                         "kind": 196,
+                                        "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -320,7 +324,7 @@ var c: { (): string; (x: number): string } =
                                                         "end": 240
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234345,
                                                         "flags": 64,
                                                         "start": 241,

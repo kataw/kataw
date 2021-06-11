@@ -3,14 +3,16 @@
 ## Input
 
 `````js
-type T1 = { [[foo]]: X }
-type T2 = { [[foo]](): X }
-type T3 = { [[foo]]?: X }
+type x = { [[foo]]: X }
+
+type y = { [[foo]](): X }
+
+type z = { [[foo]]?: X }
+
+type q = { [[foo]]: X }
 `````
 
 ## Options
-
-### Parser Options
 
 `````js
 { allowTypes : true }
@@ -32,15 +34,15 @@ type T3 = { [[foo]]?: X }
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 6
             },
             "name": {
                 "kind": 134299649,
-                "text": "T1",
-                "rawText": "T1",
+                "text": "x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 4,
-                "end": 7
+                "end": 6
             },
             "typeParameters": null,
             "type": {
@@ -48,13 +50,14 @@ type T3 = { [[foo]]?: X }
                 "properties": [
                     {
                         "kind": 248,
+                        "protoKeyword": null,
                         "name": {
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
-                            "start": 14,
-                            "end": 17
+                            "start": 13,
+                            "end": 16
                         },
                         "value": {
                             "kind": 144,
@@ -63,28 +66,28 @@ type T3 = { [[foo]]?: X }
                                 "text": "X",
                                 "rawText": "X",
                                 "flags": 96,
-                                "start": 20,
-                                "end": 22
+                                "start": 19,
+                                "end": 21
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 20,
-                            "end": 22
+                            "start": 19,
+                            "end": 21
                         },
                         "optionalToken": null,
                         "staticToken": null,
                         "flags": 0,
-                        "start": 11,
-                        "end": 22
+                        "start": 10,
+                        "end": 21
                     }
                 ],
                 "flags": 0,
-                "start": 9,
-                "end": 24
+                "start": 8,
+                "end": 23
             },
             "flags": 16,
             "start": 0,
-            "end": 24
+            "end": 23
         },
         {
             "kind": 200,
@@ -92,16 +95,16 @@ type T3 = { [[foo]]?: X }
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
-                "start": 24,
-                "end": 32
+                "start": 23,
+                "end": 31
             },
             "name": {
                 "kind": 134299649,
-                "text": "T2",
-                "rawText": "T2",
+                "text": "y",
+                "rawText": "y",
                 "flags": 96,
                 "start": 29,
-                "end": 32
+                "end": 31
             },
             "typeParameters": null,
             "type": {
@@ -109,23 +112,24 @@ type T3 = { [[foo]]?: X }
                 "properties": [
                     {
                         "kind": 248,
+                        "protoKeyword": null,
                         "name": {
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
-                            "start": 39,
-                            "end": 42
+                            "start": 38,
+                            "end": 41
                         },
                         "value": {
                             "kind": 148,
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [],
+                                "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 45,
-                                "end": 45
+                                "start": 44,
+                                "end": 44
                             },
                             "returnType": {
                                 "kind": 144,
@@ -134,33 +138,33 @@ type T3 = { [[foo]]?: X }
                                     "text": "X",
                                     "rawText": "X",
                                     "flags": 96,
-                                    "start": 47,
-                                    "end": 49
+                                    "start": 46,
+                                    "end": 48
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 47,
-                                "end": 49
+                                "start": 46,
+                                "end": 48
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 36,
-                            "end": 49
+                            "start": 35,
+                            "end": 48
                         },
                         "optionalToken": null,
                         "staticToken": null,
                         "flags": 0,
-                        "start": 36,
-                        "end": 49
+                        "start": 35,
+                        "end": 48
                     }
                 ],
                 "flags": 0,
-                "start": 34,
-                "end": 51
+                "start": 33,
+                "end": 50
             },
             "flags": 17,
-            "start": 24,
-            "end": 51
+            "start": 23,
+            "end": 50
         },
         {
             "kind": 200,
@@ -168,16 +172,16 @@ type T3 = { [[foo]]?: X }
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
-                "start": 51,
-                "end": 59
+                "start": 50,
+                "end": 58
             },
             "name": {
                 "kind": 134299649,
-                "text": "T3",
-                "rawText": "T3",
+                "text": "z",
+                "rawText": "z",
                 "flags": 96,
                 "start": 56,
-                "end": 59
+                "end": 58
             },
             "typeParameters": null,
             "type": {
@@ -185,13 +189,14 @@ type T3 = { [[foo]]?: X }
                 "properties": [
                     {
                         "kind": 248,
+                        "protoKeyword": null,
                         "name": {
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
-                            "start": 66,
-                            "end": 69
+                            "start": 65,
+                            "end": 68
                         },
                         "value": {
                             "kind": 144,
@@ -200,47 +205,110 @@ type T3 = { [[foo]]?: X }
                                 "text": "X",
                                 "rawText": "X",
                                 "flags": 96,
-                                "start": 73,
-                                "end": 75
+                                "start": 72,
+                                "end": 74
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 73,
-                            "end": 75
+                            "start": 72,
+                            "end": 74
                         },
                         "optionalToken": {
                             "kind": 134217750,
                             "flags": 64,
-                            "start": 71,
-                            "end": 72
+                            "start": 70,
+                            "end": 71
                         },
                         "staticToken": null,
                         "flags": 0,
-                        "start": 63,
-                        "end": 75
+                        "start": 62,
+                        "end": 74
                     }
                 ],
                 "flags": 0,
-                "start": 61,
-                "end": 77
+                "start": 60,
+                "end": 76
             },
             "flags": 17,
-            "start": 51,
-            "end": 77
+            "start": 50,
+            "end": 76
+        },
+        {
+            "kind": 200,
+            "declareToken": null,
+            "typeToken": {
+                "kind": 24775,
+                "flags": 64,
+                "start": 76,
+                "end": 84
+            },
+            "name": {
+                "kind": 134299649,
+                "text": "q",
+                "rawText": "q",
+                "flags": 96,
+                "start": 82,
+                "end": 84
+            },
+            "typeParameters": null,
+            "type": {
+                "kind": 134234353,
+                "properties": [
+                    {
+                        "kind": 248,
+                        "protoKeyword": null,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 91,
+                            "end": 94
+                        },
+                        "value": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "X",
+                                "rawText": "X",
+                                "flags": 96,
+                                "start": 97,
+                                "end": 99
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 97,
+                            "end": 99
+                        },
+                        "optionalToken": null,
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 88,
+                        "end": 99
+                    }
+                ],
+                "flags": 0,
+                "start": 86,
+                "end": 101
+            },
+            "flags": 17,
+            "start": 76,
+            "end": 101
         }
     ],
     "isModule": false,
-    "source": "type T1 = { [[foo]]: X }\ntype T2 = { [[foo]](): X }\ntype T3 = { [[foo]]?: X }",
+    "source": "type x = { [[foo]]: X }\n\ntype y = { [[foo]](): X }\n\ntype z = { [[foo]]?: X }\n\ntype q = { [[foo]]: X }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 77
+    "end": 101
 }
 ```
 
 ### Printed
 
 ```javascript
+
 
 
 

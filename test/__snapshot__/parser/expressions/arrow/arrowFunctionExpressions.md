@@ -735,8 +735,8 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 213
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -749,20 +749,20 @@ var p10 = ([{ value, done }]) => { };
                                                 "end": 204
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234252,
                                                 "flags": 64,
                                                 "start": 205,
                                                 "end": 209
                                             },
                                             "flags": 0,
-                                            "start": 203,
+                                            "start": 201,
                                             "end": 209
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 203,
+                                    "start": 201,
                                     "end": 209
                                 },
                                 "returnType": {

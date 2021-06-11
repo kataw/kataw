@@ -84,6 +84,8 @@ async function foo({x}: { x: string; }) {}
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -94,14 +96,13 @@ async function foo({x}: { x: string; }) {}
                                             "start": 25,
                                             "end": 27
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 28,
                                             "end": 35
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 25,
                                         "end": 36

@@ -117,43 +117,68 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "start": 55,
                                     "end": 58
                                 },
-                                "parameters": [
-                                    {
-                                        "kind": 134234345,
-                                        "flags": 64,
-                                        "start": 42,
-                                        "end": 48
-                                    },
-                                    {
-                                        "kind": 149,
-                                        "ellipsisToken": {
-                                            "kind": 524302,
-                                            "flags": 64,
-                                            "start": 49,
-                                            "end": 53
+                                "parameters": {
+                                    "kind": 279,
+                                    "parameters": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "number",
+                                                    "rawText": "number",
+                                                    "flags": 96,
+                                                    "start": 42,
+                                                    "end": 48
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 40,
+                                                "end": 48
+                                            },
+                                            "optionalToken": null,
+                                            "types": null,
+                                            "flags": 0,
+                                            "start": 40,
+                                            "end": 48
                                         },
-                                        "name": null,
-                                        "optionalToken": null,
-                                        "typeAnnotation": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "A",
-                                                "rawText": "A",
-                                                "flags": 96,
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": {
+                                                "kind": 524302,
+                                                "flags": 64,
+                                                "start": 49,
+                                                "end": 53
+                                            },
+                                            "name": null,
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "A",
+                                                    "rawText": "A",
+                                                    "flags": 96,
+                                                    "start": 53,
+                                                    "end": 54
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
                                                 "start": 53,
                                                 "end": 54
                                             },
-                                            "typeParameters": null,
                                             "flags": 0,
-                                            "start": 53,
+                                            "start": 49,
                                             "end": 54
-                                        },
-                                        "flags": 0,
-                                        "start": 49,
-                                        "end": 54
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 40,
+                                    "end": 54
+                                },
                                 "returnType": {
                                     "kind": 138477615,
                                     "flags": 64,
@@ -507,453 +532,25 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
             },
             "formalParameters": {
                 "kind": 214,
-                "formalParameterList": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 187,
-                            "end": 188
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "A",
-                                    "rawText": "A",
-                                    "flags": 96,
-                                    "start": 189,
-                                    "end": 191
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 189,
-                                "end": 191
-                            },
-                            "flags": 0,
-                            "start": 188,
-                            "end": 191
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 187,
-                        "end": 191
-                    },
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "f",
-                            "rawText": "f",
-                            "flags": 96,
-                            "start": 192,
-                            "end": 194
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 210,
-                                    "end": 213
-                                },
-                                "parameters": [
-                                    {
-                                        "kind": 134234345,
-                                        "flags": 64,
-                                        "start": 197,
-                                        "end": 203
-                                    },
-                                    {
-                                        "kind": 149,
-                                        "ellipsisToken": {
-                                            "kind": 524302,
-                                            "flags": 64,
-                                            "start": 204,
-                                            "end": 208
-                                        },
-                                        "name": null,
-                                        "optionalToken": null,
-                                        "typeAnnotation": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "A",
-                                                "rawText": "A",
-                                                "flags": 96,
-                                                "start": 208,
-                                                "end": 209
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 208,
-                                            "end": 209
-                                        },
-                                        "flags": 0,
-                                        "start": 204,
-                                        "end": 209
-                                    }
-                                ],
-                                "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 64,
-                                    "start": 213,
-                                    "end": 218
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 195,
-                                "end": 218
-                            },
-                            "flags": 0,
-                            "start": 194,
-                            "end": 218
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 192,
-                        "end": 218
-                    }
-                ],
+                "formalParameterList": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 186,
-                "end": 219
+                "start": 184,
+                "end": 184
             },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
                     "kind": 217,
                     "directives": [],
-                    "statements": [
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 131,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "f",
-                                    "rawText": "f",
-                                    "flags": 96,
-                                    "start": 221,
-                                    "end": 225
-                                },
-                                "argumentList": {
-                                    "kind": 256,
-                                    "elements": [
-                                        {
-                                            "kind": 223,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 226,
-                                                "end": 229
-                                            },
-                                            "argument": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 229,
-                                                "end": 230
-                                            },
-                                            "flags": 32,
-                                            "start": 226,
-                                            "end": 230
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 226,
-                                    "end": 230
-                                },
-                                "flags": 268435488,
-                                "start": 221,
-                                "end": 231
-                            },
-                            "flags": 16,
-                            "start": 221,
-                            "end": 232
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 131,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "f",
-                                    "rawText": "f",
-                                    "flags": 96,
-                                    "start": 232,
-                                    "end": 236
-                                },
-                                "argumentList": {
-                                    "kind": 256,
-                                    "elements": [
-                                        {
-                                            "kind": 201392130,
-                                            "text": 42,
-                                            "rawText": "42",
-                                            "flags": 96,
-                                            "start": 237,
-                                            "end": 239
-                                        },
-                                        {
-                                            "kind": 201392130,
-                                            "text": 42,
-                                            "rawText": "42",
-                                            "flags": 96,
-                                            "start": 240,
-                                            "end": 243
-                                        },
-                                        {
-                                            "kind": 201392130,
-                                            "text": 42,
-                                            "rawText": "42",
-                                            "flags": 96,
-                                            "start": 244,
-                                            "end": 247
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 237,
-                                    "end": 247
-                                },
-                                "flags": 268435488,
-                                "start": 232,
-                                "end": 248
-                            },
-                            "flags": 16,
-                            "start": 232,
-                            "end": 249
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 131,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "f",
-                                    "rawText": "f",
-                                    "flags": 96,
-                                    "start": 249,
-                                    "end": 261
-                                },
-                                "argumentList": {
-                                    "kind": 256,
-                                    "elements": [
-                                        {
-                                            "kind": 201392130,
-                                            "text": 42,
-                                            "rawText": "42",
-                                            "flags": 96,
-                                            "start": 262,
-                                            "end": 264
-                                        },
-                                        {
-                                            "kind": 201392130,
-                                            "text": 42,
-                                            "rawText": "42",
-                                            "flags": 96,
-                                            "start": 265,
-                                            "end": 268
-                                        },
-                                        {
-                                            "kind": 201392130,
-                                            "text": 42,
-                                            "rawText": "42",
-                                            "flags": 96,
-                                            "start": 269,
-                                            "end": 272
-                                        },
-                                        {
-                                            "kind": 223,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 273,
-                                                "end": 277
-                                            },
-                                            "argument": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 277,
-                                                "end": 278
-                                            },
-                                            "flags": 32,
-                                            "start": 273,
-                                            "end": 278
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 262,
-                                    "end": 278
-                                },
-                                "flags": 268435488,
-                                "start": 249,
-                                "end": 279
-                            },
-                            "flags": 16,
-                            "start": 249,
-                            "end": 280
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 131,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "f",
-                                    "rawText": "f",
-                                    "flags": 96,
-                                    "start": 280,
-                                    "end": 302
-                                },
-                                "argumentList": {
-                                    "kind": 256,
-                                    "elements": [
-                                        {
-                                            "kind": 201392130,
-                                            "text": 42,
-                                            "rawText": "42",
-                                            "flags": 96,
-                                            "start": 303,
-                                            "end": 305
-                                        },
-                                        {
-                                            "kind": 223,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 306,
-                                                "end": 310
-                                            },
-                                            "argument": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 310,
-                                                "end": 311
-                                            },
-                                            "flags": 32,
-                                            "start": 306,
-                                            "end": 311
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 303,
-                                    "end": 311
-                                },
-                                "flags": 268435488,
-                                "start": 280,
-                                "end": 312
-                            },
-                            "flags": 16,
-                            "start": 280,
-                            "end": 313
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 131,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "f",
-                                    "rawText": "f",
-                                    "flags": 96,
-                                    "start": 313,
-                                    "end": 317
-                                },
-                                "argumentList": {
-                                    "kind": 256,
-                                    "elements": [
-                                        {
-                                            "kind": 201392130,
-                                            "text": 42,
-                                            "rawText": "42",
-                                            "flags": 96,
-                                            "start": 318,
-                                            "end": 320
-                                        },
-                                        {
-                                            "kind": 223,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 321,
-                                                "end": 325
-                                            },
-                                            "argument": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 325,
-                                                "end": 326
-                                            },
-                                            "flags": 32,
-                                            "start": 321,
-                                            "end": 326
-                                        },
-                                        {
-                                            "kind": 223,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 327,
-                                                "end": 331
-                                            },
-                                            "argument": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 331,
-                                                "end": 332
-                                            },
-                                            "flags": 32,
-                                            "start": 327,
-                                            "end": 332
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 318,
-                                    "end": 332
-                                },
-                                "flags": 268435488,
-                                "start": 313,
-                                "end": 333
-                            },
-                            "flags": 16,
-                            "start": 313,
-                            "end": 334
-                        }
-                    ],
-                    "flags": 33,
-                    "start": 221,
-                    "end": 334
+                    "statements": [],
+                    "flags": 32,
+                    "start": 184,
+                    "end": 184
                 },
                 "flags": 32,
-                "start": 219,
-                "end": 336
+                "start": 184,
+                "end": 184
             },
             "typeParameters": {
                 "kind": 265,
@@ -998,29 +595,533 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     ],
                                     "flags": 0,
                                     "start": 177,
-                                    "end": 185
+                                    "end": 184
                                 },
                                 "flags": 0,
                                 "start": 171,
-                                "end": 185
+                                "end": 184
                             },
                             "flags": 0,
                             "start": 170,
-                            "end": 185
+                            "end": 184
                         },
                         "defaultType": null,
                         "flags": 0,
                         "start": 169,
-                        "end": 185
+                        "end": 184
                     }
                 ],
                 "flags": 0,
                 "start": 168,
-                "end": 186
+                "end": 184
             },
             "returnType": null,
             "flags": 16,
             "start": 156,
+            "end": 184
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 184,
+                    "end": 184
+                },
+                "operatorToken": {
+                    "kind": 35141,
+                    "flags": 64,
+                    "start": 184,
+                    "end": 186
+                },
+                "right": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 132,
+                        "expressions": [
+                            {
+                                "kind": 281,
+                                "ellipsisToken": null,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 187,
+                                    "end": 188
+                                },
+                                "optionalToken": null,
+                                "type": {
+                                    "kind": 139,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "A",
+                                            "rawText": "A",
+                                            "flags": 96,
+                                            "start": 189,
+                                            "end": 191
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 189,
+                                        "end": 191
+                                    },
+                                    "flags": 0,
+                                    "start": 188,
+                                    "end": 191
+                                },
+                                "right": null,
+                                "flags": 32,
+                                "start": 186,
+                                "end": 191
+                            },
+                            {
+                                "kind": 281,
+                                "ellipsisToken": null,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 192,
+                                    "end": 194
+                                },
+                                "optionalToken": null,
+                                "type": {
+                                    "kind": 139,
+                                    "type": {
+                                        "kind": 261,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 210,
+                                            "end": 213
+                                        },
+                                        "parameters": {
+                                            "kind": 279,
+                                            "parameters": [
+                                                {
+                                                    "kind": 149,
+                                                    "ellipsisToken": null,
+                                                    "name": {
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "number",
+                                                            "rawText": "number",
+                                                            "flags": 96,
+                                                            "start": 197,
+                                                            "end": 203
+                                                        },
+                                                        "typeParameters": null,
+                                                        "flags": 0,
+                                                        "start": 195,
+                                                        "end": 203
+                                                    },
+                                                    "optionalToken": null,
+                                                    "types": null,
+                                                    "flags": 0,
+                                                    "start": 195,
+                                                    "end": 203
+                                                },
+                                                {
+                                                    "kind": 149,
+                                                    "ellipsisToken": {
+                                                        "kind": 524302,
+                                                        "flags": 64,
+                                                        "start": 204,
+                                                        "end": 208
+                                                    },
+                                                    "name": null,
+                                                    "optionalToken": null,
+                                                    "types": {
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "A",
+                                                            "rawText": "A",
+                                                            "flags": 96,
+                                                            "start": 208,
+                                                            "end": 209
+                                                        },
+                                                        "typeParameters": null,
+                                                        "flags": 0,
+                                                        "start": 208,
+                                                        "end": 209
+                                                    },
+                                                    "flags": 0,
+                                                    "start": 204,
+                                                    "end": 209
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 195,
+                                            "end": 209
+                                        },
+                                        "returnType": {
+                                            "kind": 138477615,
+                                            "flags": 64,
+                                            "start": 213,
+                                            "end": 218
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 195,
+                                        "end": 218
+                                    },
+                                    "flags": 0,
+                                    "start": 194,
+                                    "end": 218
+                                },
+                                "right": null,
+                                "flags": 32,
+                                "start": 186,
+                                "end": 218
+                            }
+                        ],
+                        "flags": 32,
+                        "start": 186,
+                        "end": 219
+                    },
+                    "flags": 32,
+                    "start": 186,
+                    "end": 219
+                },
+                "flags": 32,
+                "start": 184,
+                "end": 219
+            },
+            "flags": 16,
+            "start": 184,
+            "end": 219
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 96,
+                                "start": 221,
+                                "end": 225
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 223,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 226,
+                                            "end": 229
+                                        },
+                                        "argument": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 229,
+                                            "end": 230
+                                        },
+                                        "flags": 32,
+                                        "start": 226,
+                                        "end": 230
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 226,
+                                "end": 230
+                            },
+                            "flags": 268435488,
+                            "start": 221,
+                            "end": 231
+                        },
+                        "flags": 16,
+                        "start": 221,
+                        "end": 232
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 96,
+                                "start": 232,
+                                "end": 236
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 201392130,
+                                        "text": 42,
+                                        "rawText": "42",
+                                        "flags": 96,
+                                        "start": 237,
+                                        "end": 239
+                                    },
+                                    {
+                                        "kind": 201392130,
+                                        "text": 42,
+                                        "rawText": "42",
+                                        "flags": 96,
+                                        "start": 240,
+                                        "end": 243
+                                    },
+                                    {
+                                        "kind": 201392130,
+                                        "text": 42,
+                                        "rawText": "42",
+                                        "flags": 96,
+                                        "start": 244,
+                                        "end": 247
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 237,
+                                "end": 247
+                            },
+                            "flags": 268435488,
+                            "start": 232,
+                            "end": 248
+                        },
+                        "flags": 16,
+                        "start": 232,
+                        "end": 249
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 96,
+                                "start": 249,
+                                "end": 261
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 201392130,
+                                        "text": 42,
+                                        "rawText": "42",
+                                        "flags": 96,
+                                        "start": 262,
+                                        "end": 264
+                                    },
+                                    {
+                                        "kind": 201392130,
+                                        "text": 42,
+                                        "rawText": "42",
+                                        "flags": 96,
+                                        "start": 265,
+                                        "end": 268
+                                    },
+                                    {
+                                        "kind": 201392130,
+                                        "text": 42,
+                                        "rawText": "42",
+                                        "flags": 96,
+                                        "start": 269,
+                                        "end": 272
+                                    },
+                                    {
+                                        "kind": 223,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 273,
+                                            "end": 277
+                                        },
+                                        "argument": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 277,
+                                            "end": 278
+                                        },
+                                        "flags": 32,
+                                        "start": 273,
+                                        "end": 278
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 262,
+                                "end": 278
+                            },
+                            "flags": 268435488,
+                            "start": 249,
+                            "end": 279
+                        },
+                        "flags": 16,
+                        "start": 249,
+                        "end": 280
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 96,
+                                "start": 280,
+                                "end": 302
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 201392130,
+                                        "text": 42,
+                                        "rawText": "42",
+                                        "flags": 96,
+                                        "start": 303,
+                                        "end": 305
+                                    },
+                                    {
+                                        "kind": 223,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 306,
+                                            "end": 310
+                                        },
+                                        "argument": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 310,
+                                            "end": 311
+                                        },
+                                        "flags": 32,
+                                        "start": 306,
+                                        "end": 311
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 303,
+                                "end": 311
+                            },
+                            "flags": 268435488,
+                            "start": 280,
+                            "end": 312
+                        },
+                        "flags": 16,
+                        "start": 280,
+                        "end": 313
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 131,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 96,
+                                "start": 313,
+                                "end": 317
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 201392130,
+                                        "text": 42,
+                                        "rawText": "42",
+                                        "flags": 96,
+                                        "start": 318,
+                                        "end": 320
+                                    },
+                                    {
+                                        "kind": 223,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 321,
+                                            "end": 325
+                                        },
+                                        "argument": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 325,
+                                            "end": 326
+                                        },
+                                        "flags": 32,
+                                        "start": 321,
+                                        "end": 326
+                                    },
+                                    {
+                                        "kind": 223,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 327,
+                                            "end": 331
+                                        },
+                                        "argument": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 331,
+                                            "end": 332
+                                        },
+                                        "flags": 32,
+                                        "start": 327,
+                                        "end": 332
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 318,
+                                "end": 332
+                            },
+                            "flags": 268435488,
+                            "start": 313,
+                            "end": 333
+                        },
+                        "flags": 16,
+                        "start": 313,
+                        "end": 334
+                    }
+                ],
+                "flags": 17,
+                "start": 221,
+                "end": 334
+            },
+            "flags": 16,
+            "start": 219,
             "end": 336
         }
     ],
@@ -1037,29 +1138,13 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
 
 ```javascript
 
-function w(x, f) {
-  f(...x); // nope
-
-  f(42, 42, 42); // nope
-
-  f(42, ...x);
-  f(42, ...x, ...x); // nope
-
-}
-function w2(x, f) {
-  f(...x);
-  f(42, 42, 42); // nope
-
-  f(42, 42, 42, ...x); // should be nope
-
-  f(42, ...x);
-  f(42, ...x, ...x);
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected to find a '>' to match the '<' token here. - start: 184, end: 186
+✖ Expected a `;` - start: 219, end: 221
+
 ```
 

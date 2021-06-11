@@ -44,23 +44,32 @@ type Foo = (string | number)
             "type": {
                 "kind": 260,
                 "type": {
-                    "kind": 137,
-                    "types": [
-                        {
-                            "kind": 134234347,
-                            "flags": 64,
-                            "start": 12,
-                            "end": 18
-                        },
-                        {
-                            "kind": 134234345,
-                            "flags": 64,
-                            "start": 20,
-                            "end": 27
-                        }
-                    ],
+                    "kind": 144,
+                    "id": {
+                        "kind": 137,
+                        "types": [
+                            {
+                                "kind": 134299649,
+                                "text": "string",
+                                "rawText": "string",
+                                "flags": 96,
+                                "start": 12,
+                                "end": 18
+                            },
+                            {
+                                "kind": 134234345,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 27
+                            }
+                        ],
+                        "flags": 0,
+                        "start": 18,
+                        "end": 27
+                    },
+                    "typeParameters": null,
                     "flags": 0,
-                    "start": 18,
+                    "start": 10,
                     "end": 27
                 },
                 "flags": 0,

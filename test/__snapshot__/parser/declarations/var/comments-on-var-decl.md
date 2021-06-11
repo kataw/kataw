@@ -632,8 +632,8 @@ n4 = z2;
                                     "end": 1025
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -646,20 +646,20 @@ n4 = z2;
                                                 "end": 1013
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234345,
                                                 "flags": 64,
                                                 "start": 1014,
                                                 "end": 1021
                                             },
                                             "flags": 0,
-                                            "start": 1012,
+                                            "start": 991,
                                             "end": 1021
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1012,
+                                    "start": 991,
                                     "end": 1021
                                 },
                                 "returnType": {
@@ -770,8 +770,8 @@ n4 = z2;
                                     "end": 1071
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -784,20 +784,20 @@ n4 = z2;
                                                 "end": 1059
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234345,
                                                 "flags": 64,
                                                 "start": 1060,
                                                 "end": 1067
                                             },
                                             "flags": 0,
-                                            "start": 1058,
+                                            "start": 1056,
                                             "end": 1067
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1058,
+                                    "start": 1056,
                                     "end": 1067
                                 },
                                 "returnType": {

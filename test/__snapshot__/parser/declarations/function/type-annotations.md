@@ -609,7 +609,7 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [],
+                                    "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 266,
@@ -707,7 +707,7 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [],
+                                    "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 305,
@@ -804,8 +804,8 @@ function foo28(numVal?: number = 2) {}
                                     "end": 357
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -818,7 +818,7 @@ function foo28(numVal?: number = 2) {}
                                                 "end": 347
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -834,13 +834,13 @@ function foo28(numVal?: number = 2) {}
                                                 "end": 353
                                             },
                                             "flags": 0,
-                                            "start": 346,
+                                            "start": 344,
                                             "end": 353
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 346,
+                                    "start": 344,
                                     "end": 353
                                 },
                                 "returnType": {
@@ -934,8 +934,8 @@ function foo28(numVal?: number = 2) {}
                                     "end": 419
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -948,7 +948,7 @@ function foo28(numVal?: number = 2) {}
                                                 "end": 397
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -964,7 +964,7 @@ function foo28(numVal?: number = 2) {}
                                                 "end": 403
                                             },
                                             "flags": 0,
-                                            "start": 395,
+                                            "start": 393,
                                             "end": 403
                                         },
                                         {
@@ -979,7 +979,7 @@ function foo28(numVal?: number = 2) {}
                                                 "end": 407
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 408,
@@ -992,7 +992,7 @@ function foo28(numVal?: number = 2) {}
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 395,
+                                    "start": 393,
                                     "end": 415
                                 },
                                 "returnType": {
@@ -1086,8 +1086,8 @@ function foo28(numVal?: number = 2) {}
                                     "end": 492
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -1100,7 +1100,7 @@ function foo28(numVal?: number = 2) {}
                                                 "end": 459
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -1116,7 +1116,7 @@ function foo28(numVal?: number = 2) {}
                                                 "end": 465
                                             },
                                             "flags": 0,
-                                            "start": 457,
+                                            "start": 455,
                                             "end": 465
                                         },
                                         {
@@ -1136,7 +1136,7 @@ function foo28(numVal?: number = 2) {}
                                                 "end": 473
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -1177,7 +1177,7 @@ function foo28(numVal?: number = 2) {}
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 457,
+                                    "start": 455,
                                     "end": 488
                                 },
                                 "returnType": {
@@ -1338,7 +1338,7 @@ function foo28(numVal?: number = 2) {}
                     },
                     "parameters": {
                         "kind": 208,
-                        "functionTypeParameterList": [],
+                        "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 549,
@@ -1416,8 +1416,8 @@ function foo28(numVal?: number = 2) {}
                         "end": 590
                     },
                     "parameters": {
-                        "kind": 208,
-                        "functionTypeParameterList": [
+                        "kind": 279,
+                        "parameters": [
                             {
                                 "kind": 149,
                                 "ellipsisToken": null,
@@ -1430,7 +1430,7 @@ function foo28(numVal?: number = 2) {}
                                     "end": 581
                                 },
                                 "optionalToken": null,
-                                "typeAnnotation": {
+                                "types": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -1446,13 +1446,13 @@ function foo28(numVal?: number = 2) {}
                                     "end": 586
                                 },
                                 "flags": 0,
-                                "start": 580,
+                                "start": 579,
                                 "end": 586
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 580,
+                        "start": 579,
                         "end": 586
                     },
                     "returnType": {
@@ -1527,8 +1527,8 @@ function foo28(numVal?: number = 2) {}
                         "end": 629
                     },
                     "parameters": {
-                        "kind": 208,
-                        "functionTypeParameterList": [
+                        "kind": 279,
+                        "parameters": [
                             {
                                 "kind": 149,
                                 "ellipsisToken": null,
@@ -1546,7 +1546,7 @@ function foo28(numVal?: number = 2) {}
                                     "start": 619,
                                     "end": 620
                                 },
-                                "typeAnnotation": {
+                                "types": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -1562,13 +1562,13 @@ function foo28(numVal?: number = 2) {}
                                     "end": 625
                                 },
                                 "flags": 0,
-                                "start": 618,
+                                "start": 617,
                                 "end": 625
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 618,
+                        "start": 617,
                         "end": 625
                     },
                     "returnType": {
@@ -1775,6 +1775,8 @@ function foo28(numVal?: number = 2) {}
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1785,14 +1787,13 @@ function foo28(numVal?: number = 2) {}
                                             "start": 707,
                                             "end": 709
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 710,
                                             "end": 717
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 707,
                                         "end": 718

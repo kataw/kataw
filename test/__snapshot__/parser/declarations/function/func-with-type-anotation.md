@@ -68,8 +68,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 57
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -82,7 +82,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                 "end": 26
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -98,7 +98,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                 "end": 31
                                             },
                                             "flags": 0,
-                                            "start": 24,
+                                            "start": 22,
                                             "end": 31
                                         },
                                         {
@@ -118,7 +118,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                 "end": 39
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -159,7 +159,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 24,
+                                    "start": 22,
                                     "end": 53
                                 },
                                 "returnType": {

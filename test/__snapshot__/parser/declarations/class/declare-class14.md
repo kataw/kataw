@@ -56,10 +56,11 @@ declare class B { () : number }
                     "properties": [
                         {
                             "kind": 196,
+                            "protoKeyword": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 208,
-                                "functionTypeParameterList": [],
+                                "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 26,
@@ -126,10 +127,11 @@ declare class B { () : number }
                     "properties": [
                         {
                             "kind": 196,
+                            "protoKeyword": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 208,
-                                "functionTypeParameterList": [],
+                                "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 58,

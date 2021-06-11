@@ -79,8 +79,8 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                     "end": 46
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -93,7 +93,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                 "end": 26
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -109,7 +109,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                 "end": 31
                                             },
                                             "flags": 0,
-                                            "start": 24,
+                                            "start": 22,
                                             "end": 31
                                         },
                                         {
@@ -124,7 +124,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                 "end": 35
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 36,
@@ -137,7 +137,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 24,
+                                    "start": 22,
                                     "end": 42
                                 },
                                 "returnType": {

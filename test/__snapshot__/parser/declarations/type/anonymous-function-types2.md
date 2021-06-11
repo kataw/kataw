@@ -49,14 +49,21 @@ type A = (string) => void
                     "start": 17,
                     "end": 20
                 },
-                "parameters": [
-                    {
-                        "kind": 134234347,
-                        "flags": 64,
+                "parameters": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "string",
+                        "rawText": "string",
+                        "flags": 96,
                         "start": 10,
                         "end": 16
-                    }
-                ],
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 8,
+                    "end": 16
+                },
                 "returnType": {
                     "kind": 138477615,
                     "flags": 64,

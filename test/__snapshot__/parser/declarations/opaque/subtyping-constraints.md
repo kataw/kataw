@@ -51,6 +51,8 @@ opaque type Good: {x: string} = {x: string, y: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -61,14 +63,13 @@ opaque type Good: {x: string} = {x: string, y: number};
                             "start": 19,
                             "end": 20
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234347,
                             "flags": 64,
                             "start": 21,
                             "end": 28
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 19,
                         "end": 28
@@ -83,6 +84,8 @@ opaque type Good: {x: string} = {x: string, y: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -93,20 +96,21 @@ opaque type Good: {x: string} = {x: string, y: number};
                             "start": 33,
                             "end": 34
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234347,
                             "flags": 64,
                             "start": 35,
                             "end": 42
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 33,
                         "end": 43
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -117,14 +121,13 @@ opaque type Good: {x: string} = {x: string, y: number};
                             "start": 43,
                             "end": 45
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 46,
                             "end": 53
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 43,
                         "end": 53

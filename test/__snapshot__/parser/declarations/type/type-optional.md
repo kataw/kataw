@@ -53,37 +53,54 @@ type a = ??string;
             },
             "typeParameters": null,
             "type": {
-                "kind": 134217970,
-                "nullableToken": {
-                    "kind": 134217750,
+                "kind": 144,
+                "id": {
+                    "kind": 16637,
+                    "text": "",
                     "flags": 64,
                     "start": 8,
-                    "end": 10
+                    "end": 8
                 },
-                "type": {
-                    "kind": 134217970,
-                    "nullableToken": {
-                        "kind": 134217750,
-                        "flags": 64,
-                        "start": 10,
-                        "end": 11
-                    },
-                    "type": {
-                        "kind": 134234347,
-                        "flags": 64,
-                        "start": 11,
-                        "end": 17
-                    },
-                    "flags": 0,
-                    "start": 10,
+                "typeParameters": null,
+                "flags": 0,
+                "start": 8,
+                "end": 8
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 8,
+                    "end": 8
+                },
+                "operatorToken": {
+                    "kind": 33047,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 11
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "string",
+                    "rawText": "string",
+                    "flags": 96,
+                    "start": 11,
                     "end": 17
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 17
             },
             "flags": 16,
-            "start": 0,
+            "start": 8,
             "end": 18
         }
     ],
@@ -100,12 +117,12 @@ type a = ??string;
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Type expected - start: 8, end: 11
+
 ```
 

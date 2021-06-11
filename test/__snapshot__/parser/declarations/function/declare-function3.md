@@ -82,7 +82,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 },
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": {
@@ -100,7 +100,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                 "end": 100
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -196,6 +196,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                 "properties": [
                                                     {
                                                         "kind": 193,
+                                                        "protoKeyword": null,
+                                                        "staticToken": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "key": {
@@ -206,6 +208,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                             "start": 49,
                                                             "end": 52
                                                         },
+                                                        "optionalToken": null,
                                                         "value": {
                                                             "kind": 134217967,
                                                             "value": "a",
@@ -213,8 +216,6 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                             "start": 53,
                                                             "end": 57
                                                         },
-                                                        "optionalToken": null,
-                                                        "staticToken": null,
                                                         "flags": 0,
                                                         "start": 49,
                                                         "end": 57
@@ -279,7 +280,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                     },
                     "parameters": {
                         "kind": 208,
-                        "functionTypeParameterList": [
+                        "parameters": [
                             {
                                 "kind": 149,
                                 "ellipsisToken": {
@@ -297,7 +298,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                     "end": 139
                                 },
                                 "optionalToken": null,
-                                "typeAnnotation": {
+                                "types": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,

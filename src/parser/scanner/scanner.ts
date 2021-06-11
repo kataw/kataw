@@ -258,7 +258,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
       // `?`, `?.`, `??`, `??=`,
       case SyntaxKind.QuestionMark:
         cp = source.charCodeAt(++parser.pos);
-        if (context & Context.InTypes) return SyntaxKind.QuestionMark;
+
         if (cp === Char.Period) {
           cp = source.charCodeAt(++parser.pos);
           if (cp >= Char.Zero && cp <= Char.Nine) {
@@ -468,8 +468,6 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
       // `>`, `>=`, `>>`, `>>>`, `>>=`, `>>>=`
       case SyntaxKind.GreaterThan:
         cp = source.charCodeAt(++parser.pos);
-
-        if (context & Context.InTypes) return SyntaxKind.GreaterThan;
 
         if (cp === Char.EqualSign) {
           parser.pos++;

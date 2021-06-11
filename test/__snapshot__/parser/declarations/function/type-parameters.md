@@ -422,14 +422,24 @@ type T = <
             "typeParameters": null,
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 213,
-                    "end": 216
+                "arrowToken": null,
+                "parameters": {
+                    "kind": 208,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 208,
+                    "end": 208
                 },
-                "parameters": [
-                    {
+                "returnType": {
+                    "kind": 261,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 213,
+                        "end": 216
+                    },
+                    "parameters": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
@@ -441,14 +451,18 @@ type T = <
                         },
                         "typeParameters": null,
                         "flags": 0,
-                        "start": 209,
+                        "start": 208,
                         "end": 212
-                    }
-                ],
-                "returnType": {
-                    "kind": 134234252,
-                    "flags": 64,
-                    "start": 216,
+                    },
+                    "returnType": {
+                        "kind": 134234252,
+                        "flags": 64,
+                        "start": 216,
+                        "end": 220
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 208,
                     "end": 220
                 },
                 "typeParameters": {
@@ -823,14 +837,24 @@ type T = <
             "typeParameters": null,
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 455,
-                    "end": 458
+                "arrowToken": null,
+                "parameters": {
+                    "kind": 208,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 450,
+                    "end": 450
                 },
-                "parameters": [
-                    {
+                "returnType": {
+                    "kind": 261,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 455,
+                        "end": 458
+                    },
+                    "parameters": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
@@ -842,14 +866,18 @@ type T = <
                         },
                         "typeParameters": null,
                         "flags": 0,
-                        "start": 451,
+                        "start": 450,
                         "end": 454
-                    }
-                ],
-                "returnType": {
-                    "kind": 134234252,
-                    "flags": 64,
-                    "start": 458,
+                    },
+                    "returnType": {
+                        "kind": 134234252,
+                        "flags": 64,
+                        "start": 458,
+                        "end": 462
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 450,
                     "end": 462
                 },
                 "typeParameters": {

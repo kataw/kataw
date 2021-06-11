@@ -56,6 +56,7 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 195,
+                        "protoKeyword": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -106,6 +107,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -116,20 +119,20 @@ type D32 = {p?: number};
                             "start": 39,
                             "end": 42
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 43,
                             "end": 49
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 39,
                         "end": 50
                     },
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -188,6 +191,7 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -216,6 +220,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -225,6 +231,7 @@ type D32 = {p?: number};
                             "start": 74,
                             "end": 74
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -239,14 +246,13 @@ type D32 = {p?: number};
                             "start": 74,
                             "end": 74
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 74,
                         "end": 75
                     },
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -305,6 +311,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -315,14 +323,13 @@ type D32 = {p?: number};
                             "start": 95,
                             "end": 96
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 134234347,
                             "flags": 64,
                             "start": 97,
                             "end": 104
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 95,
                         "end": 104
@@ -359,6 +366,7 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -387,6 +395,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -396,6 +406,7 @@ type D32 = {p?: number};
                             "start": 123,
                             "end": 123
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -410,14 +421,13 @@ type D32 = {p?: number};
                             "start": 123,
                             "end": 123
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 123,
                         "end": 124
                     },
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -476,6 +486,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -485,6 +497,12 @@ type D32 = {p?: number};
                             "flags": 96,
                             "start": 144,
                             "end": 145
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 145,
+                            "end": 146
                         },
                         "value": {
                             "kind": 137,
@@ -506,13 +524,6 @@ type D32 = {p?: number};
                             "start": 154,
                             "end": 163
                         },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 145,
-                            "end": 146
-                        },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 144,
                         "end": 163
@@ -549,6 +560,7 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -577,6 +589,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -586,6 +600,7 @@ type D32 = {p?: number};
                             "start": 184,
                             "end": 184
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -600,14 +615,13 @@ type D32 = {p?: number};
                             "start": 184,
                             "end": 184
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 184,
                         "end": 185
                     },
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -666,6 +680,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -676,19 +692,18 @@ type D32 = {p?: number};
                             "start": 207,
                             "end": 208
                         },
-                        "value": {
-                            "kind": 134234345,
-                            "flags": 64,
-                            "start": 210,
-                            "end": 217
-                        },
                         "optionalToken": {
                             "kind": 134217750,
                             "flags": 64,
                             "start": 208,
                             "end": 209
                         },
-                        "staticToken": null,
+                        "value": {
+                            "kind": 134234345,
+                            "flags": 64,
+                            "start": 210,
+                            "end": 217
+                        },
                         "flags": 0,
                         "start": 207,
                         "end": 217
@@ -725,6 +740,7 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 195,
+                        "protoKeyword": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -745,6 +761,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -754,6 +772,12 @@ type D32 = {p?: number};
                             "flags": 96,
                             "start": 249,
                             "end": 251
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 251,
+                            "end": 252
                         },
                         "value": {
                             "kind": 137,
@@ -775,13 +799,6 @@ type D32 = {p?: number};
                             "start": 260,
                             "end": 269
                         },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 251,
-                            "end": 252
-                        },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 249,
                         "end": 269
@@ -818,6 +835,7 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 195,
+                        "protoKeyword": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -838,6 +856,8 @@ type D32 = {p?: number};
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -847,6 +867,12 @@ type D32 = {p?: number};
                             "flags": 96,
                             "start": 301,
                             "end": 303
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 303,
+                            "end": 304
                         },
                         "value": {
                             "kind": 137,
@@ -868,13 +894,6 @@ type D32 = {p?: number};
                             "start": 312,
                             "end": 321
                         },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 303,
-                            "end": 304
-                        },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 301,
                         "end": 321
@@ -911,6 +930,8 @@ type D32 = {p?: number};
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -921,19 +942,18 @@ type D32 = {p?: number};
                             "start": 336,
                             "end": 337
                         },
-                        "value": {
-                            "kind": 134234345,
-                            "flags": 64,
-                            "start": 339,
-                            "end": 346
-                        },
                         "optionalToken": {
                             "kind": 134217750,
                             "flags": 64,
                             "start": 337,
                             "end": 338
                         },
-                        "staticToken": null,
+                        "value": {
+                            "kind": 134234345,
+                            "flags": 64,
+                            "start": 339,
+                            "end": 346
+                        },
                         "flags": 0,
                         "start": 336,
                         "end": 346

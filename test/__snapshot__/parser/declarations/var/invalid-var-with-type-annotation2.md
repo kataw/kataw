@@ -54,6 +54,8 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -64,20 +66,21 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "start": 9,
                                             "end": 11
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
                                             "flags": 64,
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 9,
                                         "end": 19
                                     },
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -87,11 +90,14 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "start": 19,
                                             "end": 19
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234353,
                                             "properties": [
                                                 {
                                                     "kind": 193,
+                                                    "protoKeyword": null,
+                                                    "staticToken": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "key": {
@@ -102,14 +108,13 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                         "start": 20,
                                                         "end": 22
                                                     },
+                                                    "optionalToken": null,
                                                     "value": {
                                                         "kind": 134234347,
                                                         "flags": 64,
                                                         "start": 23,
                                                         "end": 30
                                                     },
-                                                    "optionalToken": null,
-                                                    "staticToken": null,
                                                     "flags": 0,
                                                     "start": 20,
                                                     "end": 30
@@ -119,8 +124,6 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "start": 19,
                                             "end": 32
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 19,
                                         "end": 32

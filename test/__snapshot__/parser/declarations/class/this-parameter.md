@@ -74,6 +74,8 @@ class two {
                     "properties": [
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -84,11 +86,12 @@ class two {
                                 "start": 19,
                                 "end": 24
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -101,7 +104,7 @@ class two {
                                                 "end": 29
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 30,
@@ -128,14 +131,14 @@ class two {
                                 "start": 24,
                                 "end": 44
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 19,
                             "end": 44
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -145,6 +148,7 @@ class two {
                                 "start": 44,
                                 "end": 44
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 144,
                                 "id": {
@@ -159,14 +163,14 @@ class two {
                                 "start": 44,
                                 "end": 44
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 44,
                             "end": 45
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -177,11 +181,12 @@ class two {
                                 "start": 45,
                                 "end": 50
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -194,7 +199,7 @@ class two {
                                                 "end": 55
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 56,
@@ -216,7 +221,7 @@ class two {
                                                 "end": 66
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234345,
                                                 "flags": 64,
                                                 "start": 67,
@@ -243,14 +248,14 @@ class two {
                                 "start": 50,
                                 "end": 81
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 45,
                             "end": 81
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -260,6 +265,7 @@ class two {
                                 "start": 81,
                                 "end": 81
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 144,
                                 "id": {
@@ -274,14 +280,14 @@ class two {
                                 "start": 81,
                                 "end": 81
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 81,
                             "end": 82
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -292,11 +298,12 @@ class two {
                                 "start": 82,
                                 "end": 87
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -309,7 +316,7 @@ class two {
                                                 "end": 92
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 93,
@@ -336,7 +343,7 @@ class two {
                                                 "end": 106
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234252,
                                                 "flags": 64,
                                                 "start": 107,
@@ -363,14 +370,14 @@ class two {
                                 "start": 87,
                                 "end": 118
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 82,
                             "end": 118
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -380,6 +387,7 @@ class two {
                                 "start": 118,
                                 "end": 118
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 144,
                                 "id": {
@@ -394,14 +402,14 @@ class two {
                                 "start": 118,
                                 "end": 118
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 118,
                             "end": 119
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -412,11 +420,12 @@ class two {
                                 "start": 119,
                                 "end": 124
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -429,7 +438,7 @@ class two {
                                                 "end": 132
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -488,14 +497,14 @@ class two {
                                 "start": 124,
                                 "end": 142
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 119,
                             "end": 142
                         },
                         {
                             "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -505,6 +514,7 @@ class two {
                                 "start": 142,
                                 "end": 142
                             },
+                            "optionalToken": null,
                             "value": {
                                 "kind": 144,
                                 "id": {
@@ -519,8 +529,6 @@ class two {
                                 "start": 142,
                                 "end": 142
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 0,
                             "start": 142,
                             "end": 143

@@ -7,14 +7,14 @@ export interface FunctionTypeParameter extends SyntaxNode {
   readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly name: Identifier;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly typeAnnotation: TypeNode;
+  readonly types: TypeNode | null;
 }
 
 export function createFunctionTypeParameters(
   ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
   name: Identifier,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
-  typeAnnotation: TypeNode,
+  types: TypeNode | null,
   start: number,
   end: number
 ): FunctionTypeParameter {
@@ -23,7 +23,7 @@ export function createFunctionTypeParameters(
     ellipsisToken,
     name,
     optionalToken,
-    typeAnnotation,
+    types,
     flags: NodeFlags.None,
     start,
     end

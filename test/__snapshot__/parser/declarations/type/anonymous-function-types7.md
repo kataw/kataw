@@ -51,7 +51,7 @@ type A = (...Array<string>) => void
                 },
                 "parameters": {
                     "kind": 208,
-                    "functionTypeParameterList": [
+                    "parameters": [
                         {
                             "kind": 149,
                             "ellipsisToken": {
@@ -62,7 +62,7 @@ type A = (...Array<string>) => void
                             },
                             "name": null,
                             "optionalToken": null,
-                            "typeAnnotation": {
+                            "types": {
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,

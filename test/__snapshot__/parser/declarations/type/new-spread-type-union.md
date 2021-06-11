@@ -48,6 +48,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -62,6 +63,8 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -72,6 +75,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                 "start": 15,
                                                 "end": 16
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 144,
                                                 "id": {
@@ -87,8 +91,6 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                 "start": 17,
                                                 "end": 18
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 15,
                                             "end": 18
@@ -103,6 +105,8 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -113,6 +117,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                 "start": 21,
                                                 "end": 22
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 144,
                                                 "id": {
@@ -128,8 +133,6 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                 "start": 23,
                                                 "end": 24
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 21,
                                             "end": 24

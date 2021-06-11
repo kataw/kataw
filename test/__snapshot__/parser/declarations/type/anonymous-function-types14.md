@@ -57,65 +57,54 @@ type T = Array<(string) => number>
                         {
                             "kind": 267,
                             "type": {
-                                "kind": 260,
-                                "type": {
-                                    "kind": 134234347,
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
                                     "flags": 64,
-                                    "start": 16,
+                                    "start": 23,
+                                    "end": 26
+                                },
+                                "parameters": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "string",
+                                        "rawText": "string",
+                                        "flags": 96,
+                                        "start": 16,
+                                        "end": 22
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 15,
                                     "end": 22
                                 },
+                                "returnType": {
+                                    "kind": 134234345,
+                                    "flags": 64,
+                                    "start": 26,
+                                    "end": 33
+                                },
+                                "typeParameters": null,
                                 "flags": 0,
                                 "start": 15,
-                                "end": 23
+                                "end": 33
                             },
                             "flags": 0,
                             "start": 15,
-                            "end": 23
+                            "end": 33
                         }
                     ],
                     "flags": 0,
                     "start": 14,
-                    "end": 23
+                    "end": 34
                 },
                 "flags": 0,
                 "start": 8,
-                "end": 23
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 23
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 134299649,
-                    "text": "number",
-                    "rawText": "number",
-                    "flags": 96,
-                    "start": 26,
-                    "end": 33
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 33,
-                    "end": 34
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 34,
-                    "end": 34
-                },
-                "flags": 32,
-                "start": 26,
                 "end": 34
             },
             "flags": 16,
-            "start": 26,
+            "start": 0,
             "end": 34
         }
     ],
@@ -132,13 +121,12 @@ type T = Array<(string) => number>
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 23, end: 26
-✖ Identifier expected - start: 34, end: 34
-
+✔ No errors
 ```
 

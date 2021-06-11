@@ -115,6 +115,8 @@ class C<T> {
                                                     "properties": [
                                                         {
                                                             "kind": 193,
+                                                            "protoKeyword": null,
+                                                            "staticToken": null,
                                                             "getKeyword": null,
                                                             "setKeyword": null,
                                                             "key": {
@@ -125,6 +127,7 @@ class C<T> {
                                                                 "start": 27,
                                                                 "end": 32
                                                             },
+                                                            "optionalToken": null,
                                                             "value": {
                                                                 "kind": 144,
                                                                 "id": {
@@ -140,8 +143,6 @@ class C<T> {
                                                                 "start": 33,
                                                                 "end": 35
                                                             },
-                                                            "optionalToken": null,
-                                                            "staticToken": null,
                                                             "flags": 0,
                                                             "start": 27,
                                                             "end": 35
@@ -283,6 +284,8 @@ class C<T> {
                                                                     "properties": [
                                                                         {
                                                                             "kind": 193,
+                                                                            "protoKeyword": null,
+                                                                            "staticToken": null,
                                                                             "getKeyword": null,
                                                                             "setKeyword": null,
                                                                             "key": {
@@ -293,6 +296,7 @@ class C<T> {
                                                                                 "start": 74,
                                                                                 "end": 79
                                                                             },
+                                                                            "optionalToken": null,
                                                                             "value": {
                                                                                 "kind": 144,
                                                                                 "id": {
@@ -308,8 +312,6 @@ class C<T> {
                                                                                 "start": 80,
                                                                                 "end": 82
                                                                             },
-                                                                            "optionalToken": null,
-                                                                            "staticToken": null,
                                                                             "flags": 0,
                                                                             "start": 74,
                                                                             "end": 82

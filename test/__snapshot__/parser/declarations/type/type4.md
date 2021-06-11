@@ -88,7 +88,7 @@ type T27 = ArgumentType<never>;  // any
                                 },
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [],
+                                    "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 23,
@@ -164,8 +164,8 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 84
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -178,20 +178,20 @@ type T27 = ArgumentType<never>;  // any
                                                 "end": 72
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 73,
                                                 "end": 80
                                             },
                                             "flags": 0,
-                                            "start": 71,
+                                            "start": 70,
                                             "end": 80
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 71,
+                                    "start": 70,
                                     "end": 80
                                 },
                                 "returnType": {
@@ -259,33 +259,49 @@ type T27 = ArgumentType<never>;  // any
                                 "kind": 260,
                                 "type": {
                                     "kind": 261,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 129,
-                                        "end": 132
-                                    },
+                                    "arrowToken": null,
                                     "parameters": {
                                         "kind": 208,
-                                        "functionTypeParameterList": [],
+                                        "parameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 128,
-                                        "end": 128
+                                        "start": 127,
+                                        "end": 127
                                     },
                                     "returnType": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
+                                        "kind": 261,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 129,
+                                            "end": 132
+                                        },
+                                        "parameters": {
+                                            "kind": 208,
+                                            "parameters": [],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 128,
+                                            "end": 128
+                                        },
+                                        "returnType": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
+                                                "start": 132,
+                                                "end": 134
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
                                             "start": 132,
                                             "end": 134
                                         },
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "start": 132,
+                                        "start": 127,
                                         "end": 134
                                     },
                                     "typeParameters": {
@@ -767,7 +783,7 @@ type T27 = ArgumentType<never>;  // any
                                 },
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [],
+                                    "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 432,
@@ -843,8 +859,8 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 492
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -857,20 +873,20 @@ type T27 = ArgumentType<never>;  // any
                                                 "end": 480
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 481,
                                                 "end": 488
                                             },
                                             "flags": 0,
-                                            "start": 479,
+                                            "start": 478,
                                             "end": 488
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 479,
+                                    "start": 478,
                                     "end": 488
                                 },
                                 "returnType": {
@@ -943,8 +959,8 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 552
                                 },
                                 "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "kind": 279,
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -962,20 +978,20 @@ type T27 = ArgumentType<never>;  // any
                                                 "start": 539,
                                                 "end": 540
                                             },
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 541,
                                                 "end": 548
                                             },
                                             "flags": 0,
-                                            "start": 538,
+                                            "start": 537,
                                             "end": 548
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 538,
+                                    "start": 537,
                                     "end": 548
                                 },
                                 "returnType": {
@@ -1049,7 +1065,7 @@ type T27 = ArgumentType<never>;  // any
                                 },
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": {
@@ -1067,7 +1083,7 @@ type T27 = ArgumentType<never>;  // any
                                                 "end": 617
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 136,
                                                 "type": {
                                                     "kind": 134234347,

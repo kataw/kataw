@@ -50,8 +50,8 @@ type A = (x: string, number) => void
                     "end": 31
                 },
                 "parameters": {
-                    "kind": 208,
-                    "functionTypeParameterList": [
+                    "kind": 279,
+                    "parameters": [
                         {
                             "kind": 149,
                             "ellipsisToken": null,
@@ -64,14 +64,14 @@ type A = (x: string, number) => void
                                 "end": 11
                             },
                             "optionalToken": null,
-                            "typeAnnotation": {
+                            "types": {
                                 "kind": 134234347,
                                 "flags": 64,
                                 "start": 12,
                                 "end": 19
                             },
                             "flags": 0,
-                            "start": 10,
+                            "start": 8,
                             "end": 19
                         },
                         {
@@ -79,7 +79,7 @@ type A = (x: string, number) => void
                             "ellipsisToken": null,
                             "name": null,
                             "optionalToken": null,
-                            "typeAnnotation": {
+                            "types": {
                                 "kind": 134234345,
                                 "flags": 64,
                                 "start": 20,
@@ -92,7 +92,7 @@ type A = (x: string, number) => void
                     ],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 10,
+                    "start": 8,
                     "end": 27
                 },
                 "returnType": {

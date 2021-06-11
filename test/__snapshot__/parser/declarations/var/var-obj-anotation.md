@@ -68,6 +68,8 @@ var {x}: {x: string; } = { x: "hello" };
                                 "properties": [
                                     {
                                         "kind": 193,
+                                        "protoKeyword": null,
+                                        "staticToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -78,14 +80,13 @@ var {x}: {x: string; } = { x: "hello" };
                                             "start": 10,
                                             "end": 11
                                         },
+                                        "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "optionalToken": null,
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 10,
                                         "end": 20

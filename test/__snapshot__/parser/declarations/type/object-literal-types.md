@@ -118,6 +118,7 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -146,6 +147,8 @@ type T9 = { [param: string]: U };
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -155,6 +158,7 @@ type T9 = { [param: string]: U };
                             "start": 42,
                             "end": 42
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -169,8 +173,6 @@ type T9 = { [param: string]: U };
                             "start": 42,
                             "end": 42
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 42,
                         "end": 43
@@ -207,6 +209,7 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -235,6 +238,8 @@ type T9 = { [param: string]: U };
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -244,6 +249,7 @@ type T9 = { [param: string]: U };
                             "start": 63,
                             "end": 63
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -258,14 +264,13 @@ type T9 = { [param: string]: U };
                             "start": 63,
                             "end": 63
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 63,
                         "end": 64
                     },
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -324,6 +329,8 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -334,6 +341,7 @@ type T9 = { [param: string]: U };
                             "start": 84,
                             "end": 86
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -349,14 +357,13 @@ type T9 = { [param: string]: U };
                             "start": 87,
                             "end": 89
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 84,
                         "end": 90
                     },
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -415,6 +422,7 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -443,6 +451,8 @@ type T9 = { [param: string]: U };
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -452,6 +462,7 @@ type T9 = { [param: string]: U };
                             "start": 115,
                             "end": 115
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -466,14 +477,14 @@ type T9 = { [param: string]: U };
                             "start": 115,
                             "end": 115
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 115,
                         "end": 116
                     },
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -484,6 +495,7 @@ type T9 = { [param: string]: U };
                             "start": 116,
                             "end": 118
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 144,
                             "id": {
@@ -499,8 +511,6 @@ type T9 = { [param: string]: U };
                             "start": 119,
                             "end": 121
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 116,
                         "end": 122
@@ -537,6 +547,7 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 247,
+                        "protoKeyword": null,
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
@@ -558,6 +569,8 @@ type T9 = { [param: string]: U };
                                     "properties": [
                                         {
                                             "kind": 193,
+                                            "protoKeyword": null,
+                                            "staticToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -568,6 +581,7 @@ type T9 = { [param: string]: U };
                                                 "start": 145,
                                                 "end": 147
                                             },
+                                            "optionalToken": null,
                                             "value": {
                                                 "kind": 144,
                                                 "id": {
@@ -583,8 +597,6 @@ type T9 = { [param: string]: U };
                                                 "start": 148,
                                                 "end": 150
                                             },
-                                            "optionalToken": null,
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 145,
                                             "end": 151
@@ -636,6 +648,8 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -646,11 +660,12 @@ type T9 = { [param: string]: U };
                             "start": 167,
                             "end": 171
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 148,
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [],
+                                "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 172,
@@ -667,8 +682,6 @@ type T9 = { [param: string]: U };
                             "start": 171,
                             "end": 181
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 167,
                         "end": 181
@@ -705,6 +718,8 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 193,
+                        "protoKeyword": null,
+                        "staticToken": null,
                         "getKeyword": null,
                         "setKeyword": null,
                         "key": {
@@ -715,6 +730,7 @@ type T9 = { [param: string]: U };
                             "start": 195,
                             "end": 199
                         },
+                        "optionalToken": null,
                         "value": {
                             "kind": 261,
                             "arrowToken": {
@@ -725,7 +741,7 @@ type T9 = { [param: string]: U };
                             },
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [],
+                                "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 202,
@@ -742,8 +758,6 @@ type T9 = { [param: string]: U };
                             "start": 200,
                             "end": 213
                         },
-                        "optionalToken": null,
-                        "staticToken": null,
                         "flags": 0,
                         "start": 195,
                         "end": 213
@@ -780,6 +794,7 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 195,
+                        "protoKeyword": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -839,6 +854,7 @@ type T9 = { [param: string]: U };
                 "properties": [
                     {
                         "kind": 195,
+                        "protoKeyword": null,
                         "name": {
                             "kind": 134299649,
                             "text": "param",
