@@ -7424,7 +7424,25 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       );
     }
 
+    // - ` type a = (bj[c])[d];`
+    // - ` type a = (bj[c]) => T;`
+    if (parser.token === SyntaxKind.LeftBracket) {
+      while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
+        const pos = parser.curPos;
+        if (parser.token & 0b00011000100000000100000000000000) {
+          const indexType = parseType(parser, context);
+          consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+          arg = createIndexedAccessType(arg, indexType, parser.nodeFlags, pos, parser.pos);
+        } else {
+          consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+          arg = createArrayType(arg, pos, parser.curPos);
+        }
+      }
+    }
+
+    // - `type X = (x & y);`
     // - `type X = (x & y) => T;`
+    // - `type a = (bj[c] & a | b) => T;`
     if (parser.token === SyntaxKind.BitwiseAnd) {
       const pos = parser.curPos;
       const types = [arg];
@@ -7435,6 +7453,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       arg = createIntersectionType(types, pos, parser.curPos);
     }
 
+    // - `type X = (x | y);`
     // - `type X = (x | y) => T;`
     if (parser.token === SyntaxKind.BitwiseOr) {
       const pos = parser.curPos;

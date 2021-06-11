@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-declare function foo(x: number, string): void;
+type a = (?bj[c] & a | b) => T;
 `````
 
 ## Options
@@ -24,106 +24,158 @@ declare function foo(x: number, string): void;
     "directives": [],
     "statements": [
         {
-            "kind": 176,
-            "declareKeyword": {
-                "kind": 82165,
+            "kind": 200,
+            "declareToken": null,
+            "typeToken": {
+                "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 6
             },
-            "asyncKeyword": null,
-            "functionKeyword": {
-                "kind": 37822554,
-                "flags": 64,
-                "start": 7,
-                "end": 16
-            },
-            "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
+                "text": "a",
+                "rawText": "a",
                 "flags": 96,
-                "start": 16,
-                "end": 20
+                "start": 4,
+                "end": 6
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [
+            "typeParameters": null,
+            "type": {
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 25,
+                    "end": 28
+                },
+                "parameters": [
                     {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 21,
-                            "end": 22
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234345,
-                                "flags": 64,
-                                "start": 23,
-                                "end": 30
+                        "kind": 137,
+                        "types": [
+                            {
+                                "kind": 138,
+                                "types": [
+                                    {
+                                        "kind": 134217970,
+                                        "nullableToken": {
+                                            "kind": 134217750,
+                                            "flags": 64,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        "type": {
+                                            "kind": 268,
+                                            "objectType": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "bj",
+                                                    "rawText": "bj",
+                                                    "flags": 96,
+                                                    "start": 11,
+                                                    "end": 13
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 11,
+                                                "end": 13
+                                            },
+                                            "indexType": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "c",
+                                                    "rawText": "c",
+                                                    "flags": 96,
+                                                    "start": 14,
+                                                    "end": 15
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 14,
+                                                "end": 15
+                                            },
+                                            "flags": 0,
+                                            "start": 14,
+                                            "end": 18
+                                        },
+                                        "flags": 0,
+                                        "start": 10,
+                                        "end": 16
+                                    },
+                                    {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 18,
+                                            "end": 20
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 18,
+                                        "end": 20
+                                    }
+                                ],
+                                "flags": 0,
+                                "start": 16,
+                                "end": 20
                             },
-                            "flags": 0,
-                            "start": 22,
-                            "end": 30
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 21,
-                        "end": 30
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "string",
-                        "rawText": "string",
-                        "flags": 96,
-                        "start": 31,
-                        "end": 38
+                            {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 22,
+                                    "end": 24
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 22,
+                                "end": 24
+                            }
+                        ],
+                        "flags": 0,
+                        "start": 20,
+                        "end": 24
                     }
                 ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 20,
-                "end": 39
-            },
-            "contents": null,
-            "typeParameters": null,
-            "returnType": {
-                "kind": 139,
-                "type": {
-                    "kind": 138477615,
-                    "flags": 64,
-                    "start": 40,
-                    "end": 45
+                "returnType": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 28,
+                        "end": 30
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 28,
+                    "end": 30
                 },
+                "typeParameters": null,
                 "flags": 0,
-                "start": 7,
-                "end": 45
+                "start": 8,
+                "end": 30
             },
-            "flags": 4112,
-            "start": 7,
-            "end": 45
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 45,
-            "end": 46
+            "start": 0,
+            "end": 31
         }
     ],
     "isModule": false,
-    "source": "declare function foo(x: number, string): void;",
+    "source": "type a = (?bj[c] & a | b) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 46
+    "end": 31
 }
 ```
 
@@ -131,7 +183,6 @@ declare function foo(x: number, string): void;
 
 ```javascript
 
-function foo(x, string);
 
 ```
 

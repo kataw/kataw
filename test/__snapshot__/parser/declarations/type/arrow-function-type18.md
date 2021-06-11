@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-declare function foo(x: number, string): void;
+type a = (bj[c]) => T;
 `````
 
 ## Options
@@ -24,106 +24,98 @@ declare function foo(x: number, string): void;
     "directives": [],
     "statements": [
         {
-            "kind": 176,
-            "declareKeyword": {
-                "kind": 82165,
+            "kind": 200,
+            "declareToken": null,
+            "typeToken": {
+                "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 6
             },
-            "asyncKeyword": null,
-            "functionKeyword": {
-                "kind": 37822554,
-                "flags": 64,
-                "start": 7,
-                "end": 16
-            },
-            "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
+                "text": "a",
+                "rawText": "a",
                 "flags": 96,
-                "start": 16,
-                "end": 20
+                "start": 4,
+                "end": 6
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 21,
-                            "end": 22
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234345,
-                                "flags": 64,
-                                "start": 23,
-                                "end": 30
-                            },
-                            "flags": 0,
-                            "start": 22,
-                            "end": 30
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 21,
-                        "end": 30
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "string",
-                        "rawText": "string",
-                        "flags": 96,
-                        "start": 31,
-                        "end": 38
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 20,
-                "end": 39
-            },
-            "contents": null,
             "typeParameters": null,
-            "returnType": {
-                "kind": 139,
-                "type": {
-                    "kind": 138477615,
+            "type": {
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
                     "flags": 64,
-                    "start": 40,
-                    "end": 45
+                    "start": 16,
+                    "end": 19
                 },
+                "parameters": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 268,
+                        "objectType": {
+                            "kind": 134299649,
+                            "text": "bj",
+                            "rawText": "bj",
+                            "flags": 96,
+                            "start": 10,
+                            "end": 12
+                        },
+                        "indexType": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "c",
+                                "rawText": "c",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 14
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 13,
+                            "end": 14
+                        },
+                        "flags": 0,
+                        "start": 13,
+                        "end": 16
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 8,
+                    "end": 15
+                },
+                "returnType": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 19,
+                        "end": 21
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 19,
+                    "end": 21
+                },
+                "typeParameters": null,
                 "flags": 0,
-                "start": 7,
-                "end": 45
+                "start": 8,
+                "end": 21
             },
-            "flags": 4112,
-            "start": 7,
-            "end": 45
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 45,
-            "end": 46
+            "start": 0,
+            "end": 22
         }
     ],
     "isModule": false,
-    "source": "declare function foo(x: number, string): void;",
+    "source": "type a = (bj[c]) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 46
+    "end": 22
 }
 ```
 
@@ -131,7 +123,6 @@ declare function foo(x: number, string): void;
 
 ```javascript
 
-function foo(x, string);
 
 ```
 
