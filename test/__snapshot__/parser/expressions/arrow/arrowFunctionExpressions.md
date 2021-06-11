@@ -734,30 +734,37 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 210,
                                     "end": 213
                                 },
-                                "parameters": [
-                                    {
-                                        "kind": 149,
-                                        "ellipsisToken": null,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "n",
-                                            "rawText": "n",
-                                            "flags": 96,
-                                            "start": 203,
-                                            "end": 204
-                                        },
-                                        "optionalToken": null,
-                                        "types": {
-                                            "kind": 134234252,
-                                            "flags": 64,
-                                            "start": 205,
+                                "parameters": {
+                                    "kind": 279,
+                                    "parameters": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "n",
+                                                "rawText": "n",
+                                                "flags": 96,
+                                                "start": 203,
+                                                "end": 204
+                                            },
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 134234252,
+                                                "flags": 64,
+                                                "start": 205,
+                                                "end": 209
+                                            },
+                                            "flags": 0,
+                                            "start": 201,
                                             "end": 209
-                                        },
-                                        "flags": 0,
-                                        "start": 201,
-                                        "end": 209
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 201,
+                                    "end": 209
+                                },
                                 "returnType": {
                                     "kind": 134234252,
                                     "flags": 64,

@@ -57,7 +57,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,

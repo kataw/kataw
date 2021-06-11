@@ -84,7 +84,7 @@ declare class B {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [],
+                                    "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 34,

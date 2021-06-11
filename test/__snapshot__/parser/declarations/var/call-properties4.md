@@ -57,7 +57,7 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,

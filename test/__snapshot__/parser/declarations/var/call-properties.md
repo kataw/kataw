@@ -62,7 +62,7 @@ var a: { <T>(x: T): number; };
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 11,
@@ -159,7 +159,7 @@ var a: { <T>(x: T): number; };
                                         },
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -265,7 +265,7 @@ var a: { <T>(x: T): number; };
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 65,
@@ -339,7 +339,7 @@ var a: { <T>(x: T): number; };
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 88,
@@ -413,7 +413,7 @@ var a: { <T>(x: T): number; };
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 112,
@@ -461,7 +461,7 @@ var a: { <T>(x: T): number; };
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -581,7 +581,7 @@ var a: { <T>(x: T): number; };
                                         },
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,

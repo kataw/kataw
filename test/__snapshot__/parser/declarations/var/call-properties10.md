@@ -57,7 +57,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,

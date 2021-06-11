@@ -665,7 +665,7 @@ type T9 = { [param: string]: U };
                             "kind": 148,
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [],
+                                "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 172,
@@ -741,7 +741,7 @@ type T9 = { [param: string]: U };
                             },
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [],
+                                "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 202,

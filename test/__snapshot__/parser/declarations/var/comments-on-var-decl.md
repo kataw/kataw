@@ -631,30 +631,37 @@ n4 = z2;
                                     "start": 1022,
                                     "end": 1025
                                 },
-                                "parameters": [
-                                    {
-                                        "kind": 149,
-                                        "ellipsisToken": null,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 1012,
-                                            "end": 1013
-                                        },
-                                        "optionalToken": null,
-                                        "types": {
-                                            "kind": 134234345,
-                                            "flags": 64,
-                                            "start": 1014,
+                                "parameters": {
+                                    "kind": 279,
+                                    "parameters": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 1012,
+                                                "end": 1013
+                                            },
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 134234345,
+                                                "flags": 64,
+                                                "start": 1014,
+                                                "end": 1021
+                                            },
+                                            "flags": 0,
+                                            "start": 991,
                                             "end": 1021
-                                        },
-                                        "flags": 0,
-                                        "start": 991,
-                                        "end": 1021
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 991,
+                                    "end": 1021
+                                },
                                 "returnType": {
                                     "kind": 134234347,
                                     "flags": 64,
@@ -762,30 +769,37 @@ n4 = z2;
                                     "start": 1068,
                                     "end": 1071
                                 },
-                                "parameters": [
-                                    {
-                                        "kind": 149,
-                                        "ellipsisToken": null,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 1058,
-                                            "end": 1059
-                                        },
-                                        "optionalToken": null,
-                                        "types": {
-                                            "kind": 134234345,
-                                            "flags": 64,
-                                            "start": 1060,
+                                "parameters": {
+                                    "kind": 279,
+                                    "parameters": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 1058,
+                                                "end": 1059
+                                            },
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 134234345,
+                                                "flags": 64,
+                                                "start": 1060,
+                                                "end": 1067
+                                            },
+                                            "flags": 0,
+                                            "start": 1056,
                                             "end": 1067
-                                        },
-                                        "flags": 0,
-                                        "start": 1056,
-                                        "end": 1067
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 1056,
+                                    "end": 1067
+                                },
                                 "returnType": {
                                     "kind": 134234347,
                                     "flags": 64,

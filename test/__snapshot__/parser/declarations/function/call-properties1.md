@@ -70,7 +70,7 @@ function a(f: { (): string; (x: number): string }): string {
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 17,
@@ -93,7 +93,7 @@ function a(f: { (): string; (x: number): string }): string {
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,

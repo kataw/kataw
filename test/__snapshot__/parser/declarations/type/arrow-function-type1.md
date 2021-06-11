@@ -49,44 +49,51 @@ type X = (x?: y) => T;
                     "start": 16,
                     "end": 19
                 },
-                "parameters": [
-                    {
-                        "kind": 149,
-                        "ellipsisToken": null,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 11
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 11,
-                            "end": 12
-                        },
-                        "types": {
-                            "kind": 144,
-                            "id": {
+                "parameters": {
+                    "kind": 279,
+                    "parameters": [
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": {
                                 "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 96,
+                                "start": 10,
+                                "end": 11
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 11,
+                                "end": 12
+                            },
+                            "types": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 13,
+                                    "end": 15
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 13,
                                 "end": 15
                             },
-                            "typeParameters": null,
                             "flags": 0,
-                            "start": 13,
+                            "start": 8,
                             "end": 15
-                        },
-                        "flags": 0,
-                        "start": 8,
-                        "end": 15
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 8,
+                    "end": 15
+                },
                 "returnType": {
                     "kind": 144,
                     "id": {

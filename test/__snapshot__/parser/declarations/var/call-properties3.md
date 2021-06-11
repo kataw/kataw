@@ -530,7 +530,7 @@ var z : Object = (x) => "hi"
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -687,7 +687,7 @@ var z : Object = (x) => "hi"
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -816,7 +816,7 @@ var z : Object = (x) => "hi"
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -973,7 +973,7 @@ var z : Object = (x) => "hi"
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 632,
@@ -1079,7 +1079,7 @@ var z : Object = (x) => "hi"
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -1205,7 +1205,7 @@ var z : Object = (x) => "hi"
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 754,
@@ -1311,7 +1311,7 @@ var z : Object = (x) => "hi"
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,

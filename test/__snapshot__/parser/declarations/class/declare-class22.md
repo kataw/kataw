@@ -112,7 +112,7 @@ declare class C {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -207,7 +207,7 @@ declare class C {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,

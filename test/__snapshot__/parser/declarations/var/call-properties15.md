@@ -57,7 +57,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,

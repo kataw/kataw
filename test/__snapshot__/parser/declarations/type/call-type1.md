@@ -46,7 +46,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                 "arrowToken": null,
                 "parameters": {
                     "kind": 208,
-                    "functionTypeParameterList": [],
+                    "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 17,
@@ -60,56 +60,63 @@ type Fn2 = <A, B>(A, B) => A | B;
                         "start": 23,
                         "end": 26
                     },
-                    "parameters": [
-                        {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "A",
-                                    "rawText": "A",
-                                    "flags": 96,
-                                    "start": 18,
+                    "parameters": {
+                        "kind": 279,
+                        "parameters": [
+                            {
+                                "kind": 149,
+                                "ellipsisToken": null,
+                                "name": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "A",
+                                        "rawText": "A",
+                                        "flags": 96,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 17,
                                     "end": 19
                                 },
-                                "typeParameters": null,
+                                "optionalToken": null,
+                                "types": null,
                                 "flags": 0,
                                 "start": 17,
                                 "end": 19
                             },
-                            "optionalToken": null,
-                            "types": null,
-                            "flags": 0,
-                            "start": 17,
-                            "end": 19
-                        },
-                        {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": null,
-                            "optionalToken": null,
-                            "types": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "B",
-                                    "rawText": "B",
-                                    "flags": 96,
+                            {
+                                "kind": 149,
+                                "ellipsisToken": null,
+                                "name": null,
+                                "optionalToken": null,
+                                "types": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "B",
+                                        "rawText": "B",
+                                        "flags": 96,
+                                        "start": 20,
+                                        "end": 22
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
-                                "typeParameters": null,
                                 "flags": 0,
                                 "start": 20,
                                 "end": 22
-                            },
-                            "flags": 0,
-                            "start": 20,
-                            "end": 22
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 17,
+                        "end": 22
+                    },
                     "returnType": {
                         "kind": 137,
                         "types": [

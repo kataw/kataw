@@ -91,7 +91,7 @@ class two {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -186,7 +186,7 @@ class two {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -303,7 +303,7 @@ class two {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -425,7 +425,7 @@ class two {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,

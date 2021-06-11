@@ -49,74 +49,81 @@ type A = (Array<string>,) => void
                     "start": 25,
                     "end": 28
                 },
-                "parameters": [
-                    {
-                        "kind": 149,
-                        "ellipsisToken": null,
-                        "name": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "Array",
-                                "rawText": "Array",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 15
-                            },
-                            "typeParameters": {
-                                "kind": 266,
-                                "parameters": [
-                                    {
-                                        "kind": 267,
-                                        "type": {
-                                            "kind": 134234347,
-                                            "flags": 64,
+                "parameters": {
+                    "kind": 279,
+                    "parameters": [
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "Array",
+                                    "rawText": "Array",
+                                    "flags": 96,
+                                    "start": 10,
+                                    "end": 15
+                                },
+                                "typeParameters": {
+                                    "kind": 266,
+                                    "parameters": [
+                                        {
+                                            "kind": 267,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 64,
+                                                "start": 16,
+                                                "end": 22
+                                            },
+                                            "flags": 0,
                                             "start": 16,
                                             "end": 22
-                                        },
-                                        "flags": 0,
-                                        "start": 16,
-                                        "end": 22
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 0,
+                                    "start": 15,
+                                    "end": 23
+                                },
                                 "flags": 0,
-                                "start": 15,
+                                "start": 8,
                                 "end": 23
                             },
+                            "optionalToken": null,
+                            "types": null,
                             "flags": 0,
                             "start": 8,
                             "end": 23
                         },
-                        "optionalToken": null,
-                        "types": null,
-                        "flags": 0,
-                        "start": 8,
-                        "end": 23
-                    },
-                    {
-                        "kind": 149,
-                        "ellipsisToken": null,
-                        "name": null,
-                        "optionalToken": null,
-                        "types": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": null,
+                            "optionalToken": null,
+                            "types": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 24,
+                                    "end": 24
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 24,
                                 "end": 24
                             },
-                            "typeParameters": null,
                             "flags": 0,
                             "start": 24,
                             "end": 24
-                        },
-                        "flags": 0,
-                        "start": 24,
-                        "end": 24
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 8,
+                    "end": 24
+                },
                 "returnType": {
                     "kind": 138477615,
                     "flags": 64,

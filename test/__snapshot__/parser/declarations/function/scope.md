@@ -401,7 +401,7 @@ function for_scope_var() {
                                                 },
                                                 "parameters": {
                                                     "kind": 208,
-                                                    "functionTypeParameterList": [],
+                                                    "parameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 207,

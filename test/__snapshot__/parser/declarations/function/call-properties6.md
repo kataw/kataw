@@ -70,7 +70,7 @@ function d(x: { (z: number): string }): () => string {
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -178,7 +178,7 @@ function d(x: { (z: number): string }): () => string {
                     },
                     "parameters": {
                         "kind": 208,
-                        "functionTypeParameterList": [],
+                        "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 41,

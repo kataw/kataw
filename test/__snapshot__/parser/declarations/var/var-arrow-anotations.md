@@ -498,7 +498,7 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [],
+                                    "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 122,
@@ -523,7 +523,7 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             "parameters": {
                                                 "kind": 208,
-                                                "functionTypeParameterList": [],
+                                                "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 137,

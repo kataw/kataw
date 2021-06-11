@@ -59,7 +59,7 @@ declare class A { static () : number }
                             "typeParameter": null,
                             "value": {
                                 "kind": 208,
-                                "functionTypeParameterList": [],
+                                "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 26,

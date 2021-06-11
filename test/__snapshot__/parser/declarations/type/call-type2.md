@@ -63,7 +63,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                     "arrowToken": null,
                                     "parameters": {
                                         "kind": 208,
-                                        "functionTypeParameterList": [],
+                                        "parameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 19,

@@ -70,7 +70,7 @@ var a: { id<T>(x: T): T; }
                                             "kind": 148,
                                             "parameters": {
                                                 "kind": 208,
-                                                "functionTypeParameterList": [
+                                                "parameters": [
                                                     {
                                                         "kind": 149,
                                                         "ellipsisToken": null,

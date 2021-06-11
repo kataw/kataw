@@ -63,7 +63,7 @@ var c: { (): string; (x: number): string } =
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 66,
@@ -86,7 +86,7 @@ var c: { (): string; (x: number): string } =
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -288,7 +288,7 @@ var c: { (): string; (x: number): string } =
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 227,
@@ -311,7 +311,7 @@ var c: { (): string; (x: number): string } =
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,

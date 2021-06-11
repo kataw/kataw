@@ -155,7 +155,7 @@ type MyObject<A, B, C> = {
                             "kind": 148,
                             "parameters": {
                                 "kind": 208,
-                                "functionTypeParameterList": [
+                                "parameters": [
                                     {
                                         "kind": 149,
                                         "ellipsisToken": null,

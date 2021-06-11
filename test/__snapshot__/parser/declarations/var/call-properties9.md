@@ -57,7 +57,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 10,

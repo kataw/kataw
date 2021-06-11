@@ -77,30 +77,37 @@ var f = (x): (x: number) => 123 => 123;
                                         "start": 24,
                                         "end": 27
                                     },
-                                    "parameters": [
-                                        {
-                                            "kind": 149,
-                                            "ellipsisToken": null,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 14,
-                                                "end": 15
-                                            },
-                                            "optionalToken": null,
-                                            "types": {
-                                                "kind": 134234345,
-                                                "flags": 64,
-                                                "start": 16,
+                                    "parameters": {
+                                        "kind": 279,
+                                        "parameters": [
+                                            {
+                                                "kind": 149,
+                                                "ellipsisToken": null,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 14,
+                                                    "end": 15
+                                                },
+                                                "optionalToken": null,
+                                                "types": {
+                                                    "kind": 134234345,
+                                                    "flags": 64,
+                                                    "start": 16,
+                                                    "end": 23
+                                                },
+                                                "flags": 0,
+                                                "start": 12,
                                                 "end": 23
-                                            },
-                                            "flags": 0,
-                                            "start": 12,
-                                            "end": 23
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 12,
+                                        "end": 23
+                                    },
                                     "returnType": {
                                         "kind": 134217968,
                                         "value": 123,

@@ -131,6 +131,7 @@ import { createArrowFunctionType, ArrowFunctionType } from '../ast/types/arrow-f
 import { createParenthesizedType } from '../ast/types/parenthesized-type';
 import { createFunctionType, FunctionType } from '../ast/types/function-type';
 import { createFunctionTypeParameterList, FunctionTypeParameterList } from '../ast/types/function-type-parameter-list';
+import { createArrowTypeParameterList, ArrowTypeParameterList } from '../ast/types/arrow-type-parameter-list';
 import { createFunctionTypeParameters, FunctionTypeParameter } from '../ast/types/function-type-parameter';
 import { createTypeParameterDeclaration, TypeParameterDeclaration } from '../ast/types/type-parameter-declaration';
 import { createBindingList, BindingList } from '../ast/statements/binding-list';
@@ -7352,7 +7353,7 @@ function parseArrowFunctionType(parser: ParserState, context: Context): ArrowFun
   );
 }
 
-function parseArrowFunctionTypeParameters(parser: ParserState, context: Context, param: any): any {
+function parseArrowFunctionTypeParameters(parser: ParserState, context: Context, param: any, pos: number): any {
   const params: any = [param];
   let trailingComma = false;
   if (consumeOpt(parser, context, SyntaxKind.Comma)) {
@@ -7366,8 +7367,7 @@ function parseArrowFunctionTypeParameters(parser: ParserState, context: Context,
       }
     } while (parser.token === SyntaxKind.Comma);
   }
-
-  return params;
+   return createArrowTypeParameterList(params, trailingComma, pos, parser.curPos);
 }
 
 function parseParenthesizedType(parser: ParserState, context: Context): any {
@@ -7402,7 +7402,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       const params = parseArrowFunctionTypeParameters(
         parser,
         context,
-        createFunctionTypeParameters(/* ellipsisToken */ null, arg, optionalToken, type, pos, parser.curPos)
+        createFunctionTypeParameters(/* ellipsisToken */ null, arg, optionalToken, type, pos, parser.curPos),
+        pos
       );
       consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
@@ -7444,7 +7445,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           /* type */ null,
           pos,
           parser.curPos
-        )
+        ),
+        pos
       );
 
       consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);

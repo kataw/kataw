@@ -425,7 +425,7 @@ type T = <
                 "arrowToken": null,
                 "parameters": {
                     "kind": 208,
-                    "functionTypeParameterList": [],
+                    "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 208,
@@ -841,7 +841,7 @@ type T = <
                 "arrowToken": null,
                 "parameters": {
                     "kind": 208,
-                    "functionTypeParameterList": [],
+                    "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 450,

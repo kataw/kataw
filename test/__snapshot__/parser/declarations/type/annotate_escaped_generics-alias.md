@@ -46,7 +46,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                 "arrowToken": null,
                 "parameters": {
                     "kind": 208,
-                    "functionTypeParameterList": [],
+                    "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 18,

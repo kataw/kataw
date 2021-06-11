@@ -57,7 +57,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 10,

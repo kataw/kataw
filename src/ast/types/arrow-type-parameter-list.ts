@@ -1,19 +1,19 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { FunctionTypeParameter } from './function-type-parameter';
 
-export interface FunctionTypeParameterList extends SyntaxNode {
+export interface ArrowTypeParameterList extends SyntaxNode {
   readonly parameters: readonly FunctionTypeParameter[];
   readonly trailingComma: boolean;
 }
 
-export function createFunctionTypeParameterList(
+export function createArrowTypeParameterList(
   parameters: readonly FunctionTypeParameter[],
   trailingComma: boolean,
   start: number,
   end: number
-): FunctionTypeParameterList {
+): ArrowTypeParameterList {
   return {
-    kind: SyntaxKind.FunctionTypeParameterList,
+    kind: SyntaxKind.ArrowTypeParameterList,
     parameters,
     trailingComma,
     flags: NodeFlags.ExpressionNode,

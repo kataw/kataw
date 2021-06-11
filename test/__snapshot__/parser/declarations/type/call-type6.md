@@ -49,7 +49,7 @@ type Fn0 = () => number;
                 },
                 "parameters": {
                     "kind": 208,
-                    "functionTypeParameterList": [],
+                    "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 12,

@@ -82,7 +82,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 },
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": {
@@ -280,7 +280,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                     },
                     "parameters": {
                         "kind": 208,
-                        "functionTypeParameterList": [
+                        "parameters": [
                             {
                                 "kind": 149,
                                 "ellipsisToken": {

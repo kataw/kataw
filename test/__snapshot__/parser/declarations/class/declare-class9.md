@@ -72,7 +72,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,

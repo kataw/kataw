@@ -68,7 +68,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -174,30 +174,37 @@ function b(x: { (z: number): string }): (z: number) => number {
                         "start": 51,
                         "end": 54
                     },
-                    "parameters": [
-                        {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "z",
-                                "rawText": "z",
-                                "flags": 96,
-                                "start": 41,
-                                "end": 42
-                            },
-                            "optionalToken": null,
-                            "types": {
-                                "kind": 134234345,
-                                "flags": 64,
-                                "start": 43,
+                    "parameters": {
+                        "kind": 279,
+                        "parameters": [
+                            {
+                                "kind": 149,
+                                "ellipsisToken": null,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "z",
+                                    "rawText": "z",
+                                    "flags": 96,
+                                    "start": 41,
+                                    "end": 42
+                                },
+                                "optionalToken": null,
+                                "types": {
+                                    "kind": 134234345,
+                                    "flags": 64,
+                                    "start": 43,
+                                    "end": 50
+                                },
+                                "flags": 0,
+                                "start": 39,
                                 "end": 50
-                            },
-                            "flags": 0,
-                            "start": 39,
-                            "end": 50
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 39,
+                        "end": 50
+                    },
                     "returnType": {
                         "kind": 134234345,
                         "flags": 64,

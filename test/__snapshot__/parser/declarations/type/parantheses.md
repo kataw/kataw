@@ -50,7 +50,7 @@ type C = (<T>(T) => $Foo<T>)[];
                     "arrowToken": null,
                     "parameters": {
                         "kind": 208,
-                        "functionTypeParameterList": [],
+                        "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 13,
@@ -317,7 +317,7 @@ type C = (<T>(T) => $Foo<T>)[];
                     "arrowToken": null,
                     "parameters": {
                         "kind": 208,
-                        "functionTypeParameterList": [],
+                        "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 65,
@@ -584,7 +584,7 @@ type C = (<T>(T) => $Foo<T>)[];
                     "arrowToken": null,
                     "parameters": {
                         "kind": 208,
-                        "functionTypeParameterList": [],
+                        "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 117,

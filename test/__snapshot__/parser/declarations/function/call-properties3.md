@@ -70,7 +70,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [],
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 17,
@@ -93,7 +93,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 208,
-                                            "functionTypeParameterList": [
+                                            "parameters": [
                                                 {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
@@ -201,7 +201,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                     },
                     "parameters": {
                         "kind": 208,
-                        "functionTypeParameterList": [],
+                        "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 53,
