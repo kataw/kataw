@@ -26,9 +26,7 @@ const changedFiles = onlyChanged ? listChangedFiles() : null;
 let didWarn = false;
 let didError = false;
 
-const files = glob
-  .sync('**/*.{ts,js}', { gitignore: true })
-  .filter((f) => !onlyChanged || changedFiles.has(f));
+const files = glob.sync('**/*.{ts,js}', { gitignore: true }).filter((f) => !onlyChanged || changedFiles.has(f));
 
 if (!files.length) {
   return;

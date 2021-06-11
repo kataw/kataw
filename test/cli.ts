@@ -4,7 +4,7 @@
 // exitcode: 3 => unknown error(bug)
 
 import * as ProgressBar from 'progress';
-import { report, snapshotsFolderName, loadSnaps, ColorCodes } from './runner/utils';
+import { snapshotsFolderName, loadSnaps, ColorCodes } from './runner/utils';
 import { resolve } from 'path';
 import { autogen } from './runner/autogenerate';
 import { file2Tob, updateTob } from './runner/tob';
@@ -16,7 +16,7 @@ runCli();
 export async function runCli() {
   const opts = cliOpts();
   const bar = new ProgressBar('Testing snapshots [:bar] :percent, :elapseds elapsed, eta :etas,', {
-    clear: true,
+    clear: false,
     total: opts.files.length
   });
 

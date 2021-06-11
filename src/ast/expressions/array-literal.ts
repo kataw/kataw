@@ -5,7 +5,12 @@ export interface ArrayLiteral extends SyntaxNode {
   readonly elementList: ElementList;
 }
 
-export function createArrayLiteral(elementList: ElementList, flags: NodeFlags, start: number, end: number): ArrayLiteral {
+export function createArrayLiteral(
+  elementList: ElementList,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): ArrayLiteral {
   return {
     kind: SyntaxKind.ArrayLiteral,
     elementList,

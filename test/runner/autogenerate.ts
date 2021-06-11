@@ -16,7 +16,7 @@ export async function autogen(files: string[], conservative: boolean) {
       ColorCodes.GREEN +
       ' files. \n\nRun ' +
       ColorCodes.yellow +
-      'npm run test:update' +
+      'npm run test:update-all' +
       ColorCodes.GREEN +
       ' for auto update' +
       ColorCodes.RESET
