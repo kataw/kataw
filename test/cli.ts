@@ -3,7 +3,7 @@
 // exitcode: 2 => bad argv
 // exitcode: 3 => unknown error(bug)
 
-import * as ProgressBar from 'progress';
+import ProgressBar = require('progress');
 import { snapshotsFolderName, loadSnaps, ColorCodes } from './runner/utils';
 import { resolve } from 'path';
 import { autogen } from './runner/autogenerate';
