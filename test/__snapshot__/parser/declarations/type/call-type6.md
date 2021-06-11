@@ -63,7 +63,7 @@ type Fn0 = () => number;
                 },
                 "typeParameters": null,
                 "flags": 0,
-                "start": 12,
+                "start": 10,
                 "end": 23
             },
             "flags": 16,

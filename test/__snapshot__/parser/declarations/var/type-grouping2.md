@@ -101,7 +101,7 @@ var a: (() => number) | () => string
                                         },
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "start": 25,
+                                        "start": 23,
                                         "end": 36
                                     }
                                 ],

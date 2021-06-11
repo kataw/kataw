@@ -192,7 +192,7 @@ function d(x: { (z: number): string }): () => string {
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 41,
+                    "start": 39,
                     "end": 52
                 },
                 "flags": 0,

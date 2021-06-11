@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-declare function foo(x: number, string): void;
+type X = (x | y, z: string) => T;
 `````
 
 ## Options
@@ -24,106 +24,140 @@ declare function foo(x: number, string): void;
     "directives": [],
     "statements": [
         {
-            "kind": 176,
-            "declareKeyword": {
-                "kind": 82165,
+            "kind": 200,
+            "declareToken": null,
+            "typeToken": {
+                "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 6
             },
-            "asyncKeyword": null,
-            "functionKeyword": {
-                "kind": 37822554,
-                "flags": 64,
-                "start": 7,
-                "end": 16
-            },
-            "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
+                "text": "X",
+                "rawText": "X",
                 "flags": 96,
-                "start": 16,
-                "end": 20
+                "start": 4,
+                "end": 6
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 21,
-                            "end": 22
+            "typeParameters": null,
+            "type": {
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 27,
+                    "end": 30
+                },
+                "parameters": {
+                    "kind": 279,
+                    "parameters": [
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 137,
+                                    "types": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 13,
+                                                "end": 15
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 13,
+                                            "end": 15
+                                        }
+                                    ],
+                                    "flags": 0,
+                                    "start": 11,
+                                    "end": 15
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 8,
+                                "end": 15
+                            },
+                            "optionalToken": null,
+                            "types": null,
+                            "flags": 0,
+                            "start": 8,
+                            "end": 15
                         },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234345,
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "z",
+                                "rawText": "z",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 18
+                            },
+                            "optionalToken": null,
+                            "types": {
+                                "kind": 134234347,
                                 "flags": 64,
-                                "start": 23,
-                                "end": 30
+                                "start": 19,
+                                "end": 26
                             },
                             "flags": 0,
-                            "start": 22,
-                            "end": 30
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 21,
-                        "end": 30
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "string",
-                        "rawText": "string",
-                        "flags": 96,
-                        "start": 31,
-                        "end": 38
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 20,
-                "end": 39
-            },
-            "contents": null,
-            "typeParameters": null,
-            "returnType": {
-                "kind": 139,
-                "type": {
-                    "kind": 138477615,
-                    "flags": 64,
-                    "start": 40,
-                    "end": 45
+                            "start": 16,
+                            "end": 26
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 8,
+                    "end": 26
                 },
+                "returnType": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 30,
+                        "end": 32
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 30,
+                    "end": 32
+                },
+                "typeParameters": null,
                 "flags": 0,
-                "start": 7,
-                "end": 45
+                "start": 8,
+                "end": 32
             },
-            "flags": 4112,
-            "start": 7,
-            "end": 45
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 45,
-            "end": 46
+            "start": 0,
+            "end": 33
         }
     ],
     "isModule": false,
-    "source": "declare function foo(x: number, string): void;",
+    "source": "type X = (x | y, z: string) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 46
+    "end": 33
 }
 ```
 
@@ -131,7 +165,6 @@ declare function foo(x: number, string): void;
 
 ```javascript
 
-function foo(x, string);
 
 ```
 

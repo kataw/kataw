@@ -763,7 +763,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             },
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "start": 182,
+                                            "start": 180,
                                             "end": 193
                                         }
                                     ],
@@ -773,7 +773,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 167,
+                                "start": 165,
                                 "end": 193
                             },
                             "flags": 0,
@@ -1111,13 +1111,23 @@ var {x5}: {x5: string; } = { x5: "hello" };
 
 ```javascript
 
+var a21;
+var identity1;
+var identity2;
+var a17;
+var a18;
+var a19;
+var x2 = fn;
+var x3 = Y;
+var x4 = Y;
+var {
+  x5
+} = { x5: "\"hello\"" };
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 44, end: 45
-✖ Expected a ')' to match the '(' token here - start: 74, end: 75
-
+✔ No errors
 ```
 

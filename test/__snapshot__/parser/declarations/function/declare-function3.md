@@ -142,7 +142,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 93,
+                                "start": 91,
                                 "end": 124
                             },
                             "flags": 0,
@@ -340,7 +340,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 132,
+                    "start": 130,
                     "end": 163
                 },
                 "flags": 0,

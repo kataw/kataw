@@ -537,7 +537,7 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "start": 137,
+                                            "start": 135,
                                             "end": 148
                                         }
                                     ],
@@ -547,7 +547,7 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 122,
+                                "start": 120,
                                 "end": 148
                             },
                             "flags": 0,

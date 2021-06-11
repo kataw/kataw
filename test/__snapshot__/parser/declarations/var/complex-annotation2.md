@@ -445,6 +445,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 209, end: 210
 ✖ ',' expected - start: 211, end: 212
 ✖ Expected a `;` - start: 211, end: 212
 ✖ Declaration or statement expected - start: 212, end: 214

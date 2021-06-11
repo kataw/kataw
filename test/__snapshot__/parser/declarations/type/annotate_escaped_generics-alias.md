@@ -180,7 +180,6 @@ type Tr = <Return>(() => Pr<Return>) => Return;
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 18, end: 19
 ✖ Expected a `;` - start: 36, end: 39
 
 ```

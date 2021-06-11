@@ -53,8 +53,14 @@ type Fn1 = <T>(T) => T;
                     "end": 14
                 },
                 "returnType": {
-                    "kind": 260,
-                    "type": {
+                    "kind": 261,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 17,
+                        "end": 20
+                    },
+                    "parameters": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
@@ -69,9 +75,25 @@ type Fn1 = <T>(T) => T;
                         "start": 14,
                         "end": 16
                     },
+                    "returnType": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "T",
+                            "rawText": "T",
+                            "flags": 96,
+                            "start": 20,
+                            "end": 22
+                        },
+                        "typeParameters": null,
+                        "flags": 0,
+                        "start": 20,
+                        "end": 22
+                    },
+                    "typeParameters": null,
                     "flags": 0,
                     "start": 14,
-                    "end": 17
+                    "end": 22
                 },
                 "typeParameters": {
                     "kind": 265,
@@ -99,24 +121,10 @@ type Fn1 = <T>(T) => T;
                 },
                 "flags": 0,
                 "start": 10,
-                "end": 17
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 17
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 96,
-                "start": 20,
                 "end": 22
             },
             "flags": 16,
-            "start": 20,
+            "start": 0,
             "end": 23
         }
     ],
@@ -133,13 +141,12 @@ type Fn1 = <T>(T) => T;
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 14, end: 15
-✖ Expected a `;` - start: 17, end: 20
-
+✔ No errors
 ```
 

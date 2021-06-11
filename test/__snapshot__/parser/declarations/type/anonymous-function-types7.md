@@ -114,7 +114,7 @@ type A = (...Array<string>) => void
                 },
                 "typeParameters": null,
                 "flags": 0,
-                "start": 10,
+                "start": 8,
                 "end": 35
             },
             "flags": 16,

@@ -222,12 +222,12 @@ type Fn2 = <A, B>(A, B) => A | B;
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 17, end: 18
-
+✔ No errors
 ```
 

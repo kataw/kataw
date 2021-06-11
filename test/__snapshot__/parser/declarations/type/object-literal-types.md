@@ -755,7 +755,7 @@ type T9 = { [param: string]: U };
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 202,
+                            "start": 200,
                             "end": 213
                         },
                         "flags": 0,

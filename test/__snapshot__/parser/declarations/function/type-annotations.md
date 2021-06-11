@@ -623,7 +623,7 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 266,
+                                "start": 264,
                                 "end": 275
                             },
                             "flags": 0,
@@ -721,7 +721,7 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 305,
+                                "start": 303,
                                 "end": 316
                             },
                             "flags": 0,
@@ -1352,7 +1352,7 @@ function foo28(numVal?: number = 2) {}
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 549,
+                    "start": 548,
                     "end": 558
                 },
                 "flags": 0,

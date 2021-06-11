@@ -42,8 +42,14 @@ type A = (Array<string>) => void
             },
             "typeParameters": null,
             "type": {
-                "kind": 260,
-                "type": {
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 24,
+                    "end": 27
+                },
+                "parameters": {
                     "kind": 144,
                     "id": {
                         "kind": 134299649,
@@ -77,37 +83,19 @@ type A = (Array<string>) => void
                     "start": 8,
                     "end": 23
                 },
-                "flags": 0,
-                "start": 8,
-                "end": 24
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 24
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
+                "returnType": {
                     "kind": 138477615,
                     "flags": 64,
                     "start": 27,
                     "end": 32
                 },
-                "operand": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 32,
-                    "end": 32
-                },
-                "flags": 32,
-                "start": 27,
+                "typeParameters": null,
+                "flags": 0,
+                "start": 8,
                 "end": 32
             },
             "flags": 16,
-            "start": 27,
+            "start": 0,
             "end": 32
         }
     ],
@@ -124,13 +112,12 @@ type A = (Array<string>) => void
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 24, end: 27
-✖ Identifier expected - start: 32, end: 32
-
+✔ No errors
 ```
 

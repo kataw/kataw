@@ -42,8 +42,14 @@ type X = (x) => T;
             },
             "typeParameters": null,
             "type": {
-                "kind": 260,
-                "type": {
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 12,
+                    "end": 15
+                },
+                "parameters": {
                     "kind": 144,
                     "id": {
                         "kind": 134299649,
@@ -58,26 +64,28 @@ type X = (x) => T;
                     "start": 8,
                     "end": 11
                 },
+                "returnType": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 15,
+                    "end": 17
+                },
+                "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 12
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 12
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 96,
-                "start": 15,
                 "end": 17
             },
             "flags": 16,
-            "start": 15,
+            "start": 0,
             "end": 18
         }
     ],
@@ -94,12 +102,12 @@ type X = (x) => T;
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 12, end: 15
-
+✔ No errors
 ```
 

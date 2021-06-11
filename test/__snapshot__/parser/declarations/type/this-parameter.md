@@ -927,7 +927,6 @@ type ten = {
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 146, end: 147
 ✖ Identifier expected - start: 202, end: 203
 ✖ Identifier expected - start: 239, end: 240
 ✖ Identifier expected - start: 276, end: 277

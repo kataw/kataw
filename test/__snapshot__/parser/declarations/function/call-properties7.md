@@ -146,7 +146,7 @@ function e(x: {}): () => string {
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 20,
+                    "start": 18,
                     "end": 31
                 },
                 "flags": 0,

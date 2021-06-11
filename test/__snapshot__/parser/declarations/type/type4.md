@@ -102,7 +102,7 @@ type T27 = ArgumentType<never>;  // any
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 23,
+                                "start": 22,
                                 "end": 34
                             },
                             "flags": 0,
@@ -301,7 +301,7 @@ type T27 = ArgumentType<never>;  // any
                                         },
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "start": 128,
+                                        "start": 127,
                                         "end": 134
                                     },
                                     "typeParameters": {
@@ -797,7 +797,7 @@ type T27 = ArgumentType<never>;  // any
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 432,
+                                "start": 431,
                                 "end": 441
                             },
                             "flags": 0,
@@ -1113,7 +1113,7 @@ type T27 = ArgumentType<never>;  // any
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 610,
+                                "start": 609,
                                 "end": 638
                             },
                             "flags": 0,
@@ -1324,12 +1324,43 @@ type T27 = ArgumentType<never>;  // any
 
 ```javascript
 
+ // string
+
+ // void
+
+ // {}
+
+ // { a: number, b: string }
+
+ // C
+
+ // any
+
+ // any
+
+ // Error
+
+ // any
+
+ // never
+
+ // string
+
+ // string | undefined
+
+ // string
+
+ // Error
+
+ // any
+
+ // any
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 127, end: 128
-
+✔ No errors
 ```
 

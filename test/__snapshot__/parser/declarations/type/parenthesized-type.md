@@ -42,13 +42,13 @@ type Foo = (string | number)
             },
             "typeParameters": null,
             "type": {
-                "kind": 137,
-                "types": [
-                    {
-                        "kind": 260,
-                        "type": {
-                            "kind": 144,
-                            "id": {
+                "kind": 260,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 137,
+                        "types": [
+                            {
                                 "kind": 134299649,
                                 "text": "string",
                                 "rawText": "string",
@@ -56,29 +56,29 @@ type Foo = (string | number)
                                 "start": 12,
                                 "end": 18
                             },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 10,
-                            "end": 18
-                        },
+                            {
+                                "kind": 134234345,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 27
+                            }
+                        ],
                         "flags": 0,
-                        "start": 10,
-                        "end": 18
-                    },
-                    {
-                        "kind": 134234345,
-                        "flags": 64,
-                        "start": 20,
+                        "start": 18,
                         "end": 27
-                    }
-                ],
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 10,
+                    "end": 27
+                },
                 "flags": 0,
-                "start": 18,
-                "end": 27
+                "start": 10,
+                "end": 28
             },
             "flags": 16,
             "start": 0,
-            "end": 27
+            "end": 28
         }
     ],
     "isModule": false,
@@ -94,12 +94,12 @@ type Foo = (string | number)
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 27, end: 28
-
+✔ No errors
 ```
 

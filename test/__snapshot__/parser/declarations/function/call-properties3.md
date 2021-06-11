@@ -215,7 +215,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 53,
+                    "start": 51,
                     "end": 64
                 },
                 "flags": 0,

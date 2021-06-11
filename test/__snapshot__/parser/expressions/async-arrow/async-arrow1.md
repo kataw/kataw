@@ -104,7 +104,7 @@ async <T>(fn: () => T) => fn;
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 15,
+                            "start": 13,
                             "end": 21
                         },
                         "flags": 0,

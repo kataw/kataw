@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-declare function foo(x: number, string): void;
+type X = (x | y & z, q: string) => T;
 `````
 
 ## Options
@@ -24,106 +24,163 @@ declare function foo(x: number, string): void;
     "directives": [],
     "statements": [
         {
-            "kind": 176,
-            "declareKeyword": {
-                "kind": 82165,
+            "kind": 200,
+            "declareToken": null,
+            "typeToken": {
+                "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 6
             },
-            "asyncKeyword": null,
-            "functionKeyword": {
-                "kind": 37822554,
-                "flags": 64,
-                "start": 7,
-                "end": 16
-            },
-            "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
+                "text": "X",
+                "rawText": "X",
                 "flags": 96,
-                "start": 16,
-                "end": 20
+                "start": 4,
+                "end": 6
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 21,
-                            "end": 22
+            "typeParameters": null,
+            "type": {
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 31,
+                    "end": 34
+                },
+                "parameters": {
+                    "kind": 279,
+                    "parameters": [
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 137,
+                                    "types": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        {
+                                            "kind": 138,
+                                            "types": [
+                                                {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "y",
+                                                        "rawText": "y",
+                                                        "flags": 96,
+                                                        "start": 13,
+                                                        "end": 15
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
+                                                    "start": 13,
+                                                    "end": 15
+                                                },
+                                                {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "z",
+                                                        "rawText": "z",
+                                                        "flags": 96,
+                                                        "start": 17,
+                                                        "end": 19
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
+                                                    "start": 17,
+                                                    "end": 19
+                                                }
+                                            ],
+                                            "flags": 0,
+                                            "start": 15,
+                                            "end": 19
+                                        }
+                                    ],
+                                    "flags": 0,
+                                    "start": 11,
+                                    "end": 19
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 8,
+                                "end": 19
+                            },
+                            "optionalToken": null,
+                            "types": null,
+                            "flags": 0,
+                            "start": 8,
+                            "end": 19
                         },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 134234345,
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "q",
+                                "rawText": "q",
+                                "flags": 96,
+                                "start": 20,
+                                "end": 22
+                            },
+                            "optionalToken": null,
+                            "types": {
+                                "kind": 134234347,
                                 "flags": 64,
                                 "start": 23,
                                 "end": 30
                             },
                             "flags": 0,
-                            "start": 22,
+                            "start": 20,
                             "end": 30
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 21,
-                        "end": 30
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "string",
-                        "rawText": "string",
-                        "flags": 96,
-                        "start": 31,
-                        "end": 38
-                    }
-                ],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 20,
-                "end": 39
-            },
-            "contents": null,
-            "typeParameters": null,
-            "returnType": {
-                "kind": 139,
-                "type": {
-                    "kind": 138477615,
-                    "flags": 64,
-                    "start": 40,
-                    "end": 45
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 8,
+                    "end": 30
                 },
+                "returnType": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 34,
+                        "end": 36
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 34,
+                    "end": 36
+                },
+                "typeParameters": null,
                 "flags": 0,
-                "start": 7,
-                "end": 45
+                "start": 8,
+                "end": 36
             },
-            "flags": 4112,
-            "start": 7,
-            "end": 45
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 45,
-            "end": 46
+            "start": 0,
+            "end": 37
         }
     ],
     "isModule": false,
-    "source": "declare function foo(x: number, string): void;",
+    "source": "type X = (x | y & z, q: string) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 46
+    "end": 37
 }
 ```
 
@@ -131,7 +188,6 @@ declare function foo(x: number, string): void;
 
 ```javascript
 
-function foo(x, string);
 
 ```
 

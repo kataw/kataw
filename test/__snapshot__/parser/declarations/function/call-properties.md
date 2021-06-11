@@ -221,7 +221,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 107,
+                    "start": 105,
                     "end": 118
                 },
                 "flags": 0,
@@ -422,7 +422,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 221,
+                    "start": 219,
                     "end": 232
                 },
                 "flags": 0,

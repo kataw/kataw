@@ -79,12 +79,7 @@ a ? b ? (c) : (d) : (e) => f : g;
                     },
                     "alternate": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 23,
-                            "end": 26
-                        },
+                        "arrowToken": null,
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -100,8 +95,14 @@ a ? b ? (c) : (d) : (e) => f : g;
                         "returnType": {
                             "kind": 139,
                             "type": {
-                                "kind": 260,
-                                "type": {
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 23,
+                                    "end": 26
+                                },
+                                "parameters": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -116,20 +117,35 @@ a ? b ? (c) : (d) : (e) => f : g;
                                     "start": 19,
                                     "end": 22
                                 },
+                                "returnType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "f",
+                                        "rawText": "f",
+                                        "flags": 96,
+                                        "start": 26,
+                                        "end": 28
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 26,
+                                    "end": 28
+                                },
+                                "typeParameters": null,
                                 "flags": 0,
                                 "start": 19,
-                                "end": 23
+                                "end": 28
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 23
+                            "end": 28
                         },
                         "contents": {
-                            "kind": 134299649,
-                            "text": "f",
-                            "rawText": "f",
-                            "flags": 96,
-                            "start": 26,
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 28,
                             "end": 28
                         },
                         "flags": 32,
@@ -176,12 +192,12 @@ a ? b ? (c) : (d) : (e) => f : g;
 
 ```javascript
 
-a ? b ? (c) : (d) =>  f : g;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 28, end: 30
+
 ```
 

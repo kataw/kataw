@@ -42,8 +42,14 @@ type A = (string) => void
             },
             "typeParameters": null,
             "type": {
-                "kind": 260,
-                "type": {
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 17,
+                    "end": 20
+                },
+                "parameters": {
                     "kind": 144,
                     "id": {
                         "kind": 134299649,
@@ -58,37 +64,19 @@ type A = (string) => void
                     "start": 8,
                     "end": 16
                 },
-                "flags": 0,
-                "start": 8,
-                "end": 17
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 17
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
+                "returnType": {
                     "kind": 138477615,
                     "flags": 64,
                     "start": 20,
                     "end": 25
                 },
-                "operand": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 25,
-                    "end": 25
-                },
-                "flags": 32,
-                "start": 20,
+                "typeParameters": null,
+                "flags": 0,
+                "start": 8,
                 "end": 25
             },
             "flags": 16,
-            "start": 20,
+            "start": 0,
             "end": 25
         }
     ],
@@ -105,13 +93,12 @@ type A = (string) => void
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 17, end: 20
-✖ Identifier expected - start: 25, end: 25
-
+✔ No errors
 ```
 

@@ -42,8 +42,14 @@ type X = (x.y<>) => T
             },
             "typeParameters": null,
             "type": {
-                "kind": 260,
-                "type": {
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 16,
+                    "end": 19
+                },
+                "parameters": {
                     "kind": 144,
                     "id": {
                         "kind": 145,
@@ -78,26 +84,28 @@ type X = (x.y<>) => T
                     "start": 8,
                     "end": 15
                 },
+                "returnType": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 19,
+                        "end": 21
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 19,
+                    "end": 21
+                },
+                "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 16
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 16
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 96,
-                "start": 19,
                 "end": 21
             },
             "flags": 16,
-            "start": 19,
+            "start": 0,
             "end": 21
         }
     ],
@@ -114,12 +122,12 @@ type X = (x.y<>) => T
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 16, end: 19
-
+✔ No errors
 ```
 

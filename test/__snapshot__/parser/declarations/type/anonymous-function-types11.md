@@ -49,12 +49,7 @@ var f = (): string | (number) => 123;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 29,
-                                "end": 32
-                            },
+                            "arrowToken": null,
                             "typeParameters": null,
                             "parameters": [],
                             "asyncKeyword": null,
@@ -70,8 +65,14 @@ var f = (): string | (number) => 123;
                                             "end": 18
                                         },
                                         {
-                                            "kind": 260,
-                                            "type": {
+                                            "kind": 261,
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 29,
+                                                "end": 32
+                                            },
+                                            "parameters": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -86,25 +87,32 @@ var f = (): string | (number) => 123;
                                                 "start": 20,
                                                 "end": 28
                                             },
+                                            "returnType": {
+                                                "kind": 134217968,
+                                                "value": 123,
+                                                "flags": 0,
+                                                "start": 32,
+                                                "end": 36
+                                            },
+                                            "typeParameters": null,
                                             "flags": 0,
                                             "start": 20,
-                                            "end": 29
+                                            "end": 36
                                         }
                                     ],
                                     "flags": 0,
                                     "start": 18,
-                                    "end": 29
+                                    "end": 36
                                 },
                                 "flags": 0,
                                 "start": 10,
-                                "end": 29
+                                "end": 36
                             },
                             "contents": {
-                                "kind": 201392130,
-                                "text": 123,
-                                "rawText": "123",
-                                "flags": 96,
-                                "start": 32,
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 36,
                                 "end": 36
                             },
                             "flags": 32,
@@ -138,12 +146,12 @@ var f = (): string | (number) => 123;
 
 ```javascript
 
-var f = () =>  123;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 36, end: 37
+
 ```
 

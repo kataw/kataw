@@ -48,9 +48,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
-                                "arrowToken": null,
-                                "parameters": {
+                                "kind": 260,
+                                "type": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -107,33 +106,34 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                     "start": 9,
                                     "end": 26
                                 },
-                                "returnType": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "Object",
-                                        "rawText": "Object",
-                                        "flags": 96,
-                                        "start": 26,
-                                        "end": 33
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 0,
-                                    "start": 26,
-                                    "end": 33
-                                },
-                                "typeParameters": null,
                                 "flags": 0,
                                 "start": 9,
-                                "end": 33
+                                "end": 26
                             },
                             "flags": 0,
                             "start": 8,
-                            "end": 33
+                            "end": 26
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 5,
+                        "end": 26
+                    },
+                    {
+                        "kind": 190,
+                        "binding": {
+                            "kind": 134299649,
+                            "text": "Object",
+                            "rawText": "Object",
+                            "flags": 96,
+                            "start": 26,
+                            "end": 33
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 16,
+                        "start": 26,
                         "end": 33
                     }
                 ],
@@ -242,6 +242,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
 ### Diagnostics
 
 ```javascript
+✖ ',' expected - start: 26, end: 33
+✖ Missing initializer in const declaration - start: 26, end: 33
 ✖ ',' expected - start: 26, end: 33
 ✖ Missing initializer in const declaration - start: 33, end: 35
 ✖ ',' expected - start: 33, end: 35

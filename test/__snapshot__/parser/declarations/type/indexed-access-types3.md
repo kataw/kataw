@@ -127,6 +127,7 @@ type D = (Obj['bar'])['baz'];
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 13, end: 14
 ✖ Expected a `;` - start: 20, end: 21
 
 ```
