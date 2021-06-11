@@ -7,7 +7,7 @@
 ## Options
 
 `````js
-{}
+{"module":true}
 `````
 ## Input
 
@@ -85,7 +85,7 @@ export async function() {}
             "end": 26
         }
     ],
-    "isModule": false,
+    "isModule": true,
     "source": "export async function() {}",
     "fileName": "__root__",
     "flags": 0,
@@ -103,7 +103,6 @@ export async function() {}
 ### Diagnostics
 
 ```javascript
-✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
 ✖ Binding identifier expected - start: 21, end: 22
 
 ```

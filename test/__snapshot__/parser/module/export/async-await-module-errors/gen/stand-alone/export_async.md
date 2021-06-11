@@ -7,7 +7,7 @@
 ## Options
 
 `````js
-{}
+{"module":true}
 `````
 ## Input
 
@@ -54,7 +54,7 @@ export async
             "end": 12
         }
     ],
-    "isModule": false,
+    "isModule": true,
     "source": "export async",
     "fileName": "__root__",
     "flags": 0,
@@ -72,7 +72,6 @@ export async
 ### Diagnostics
 
 ```javascript
-✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
 ✖ Declaration or statement expected - start: 6, end: 12
 
 ```

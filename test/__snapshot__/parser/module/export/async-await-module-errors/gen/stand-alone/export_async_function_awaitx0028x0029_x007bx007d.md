@@ -7,7 +7,7 @@
 ## Options
 
 `````js
-{}
+{"module":true}
 `````
 ## Input
 
@@ -92,7 +92,7 @@ export async function await() {}
             "end": 32
         }
     ],
-    "isModule": false,
+    "isModule": true,
     "source": "export async function await() {}",
     "fileName": "__root__",
     "flags": 0,
@@ -110,7 +110,7 @@ export async function await() {}
 ### Diagnostics
 
 ```javascript
-✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
+✖ Cannot use 'await' as a name on a async function declaration - start: 21, end: 27
 
 ```
 
