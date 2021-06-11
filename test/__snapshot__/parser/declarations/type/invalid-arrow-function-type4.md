@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-type X = (x?: y) => T;
+type X = (x?) => T;
 `````
 
 ## Options
@@ -46,8 +46,8 @@ type X = (x?: y) => T;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 16,
-                    "end": 19
+                    "start": 13,
+                    "end": 16
                 },
                 "parameters": {
                     "kind": 279,
@@ -69,30 +69,16 @@ type X = (x?: y) => T;
                                 "start": 11,
                                 "end": 12
                             },
-                            "types": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 13,
-                                    "end": 15
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 13,
-                                "end": 15
-                            },
+                            "types": null,
                             "flags": 0,
                             "start": 8,
-                            "end": 15
+                            "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 8,
-                    "end": 15
+                    "end": 12
                 },
                 "returnType": {
                     "kind": 144,
@@ -101,30 +87,30 @@ type X = (x?: y) => T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
-                        "start": 19,
-                        "end": 21
+                        "start": 16,
+                        "end": 18
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 19,
-                    "end": 21
+                    "start": 16,
+                    "end": 18
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 21
+                "end": 18
             },
             "flags": 16,
             "start": 0,
-            "end": 22
+            "end": 19
         }
     ],
     "isModule": false,
-    "source": "type X = (x?: y) => T;",
+    "source": "type X = (x?) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 22
+    "end": 19
 }
 ```
 
@@ -132,12 +118,12 @@ type X = (x?: y) => T;
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ An optional parameter cannot be used without an ':' in an arrow function type parameter list - start: 12, end: 13
+
 ```
 

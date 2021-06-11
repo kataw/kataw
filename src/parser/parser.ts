@@ -7398,7 +7398,9 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Type_expected],
+          diagnosticMap[
+            DiagnosticCode.An_optional_parameter_cannot_be_used_without_an_in_an_arrow_function_type_parameter_list
+          ],
           parser.curPos,
           parser.pos
         );
@@ -7529,9 +7531,9 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       );
     } else {
       type = parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Type_expected);
-      // - `(x?) => T;`
-      // - `(x?: y) => T;`
-      // - `(x: y) => T;`
+      // - `((x?) => T);`
+      // - `((x?: y) => T);`
+      // - `((x: y) => T);`
       if (
         (parser.token as SyntaxKind) === SyntaxKind.QuestionMark ||
         (parser.token as SyntaxKind) === SyntaxKind.Colon
@@ -7542,7 +7544,9 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.Type_expected],
+            diagnosticMap[
+              DiagnosticCode.An_optional_parameter_cannot_be_used_without_an_in_an_arrow_function_type_parameter_list
+            ],
             parser.curPos,
             parser.pos
           );
