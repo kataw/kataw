@@ -49,52 +49,45 @@ type A = (x: string, number) => void
                     "start": 28,
                     "end": 31
                 },
-                "parameters": {
-                    "kind": 208,
-                    "functionTypeParameterList": [
-                        {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 11
-                            },
-                            "optionalToken": null,
-                            "typeAnnotation": {
-                                "kind": 134234347,
-                                "flags": 64,
-                                "start": 12,
-                                "end": 19
-                            },
-                            "flags": 0,
+                "parameters": [
+                    {
+                        "kind": 149,
+                        "ellipsisToken": null,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
                             "start": 10,
+                            "end": 11
+                        },
+                        "optionalToken": null,
+                        "types": {
+                            "kind": 134234347,
+                            "flags": 64,
+                            "start": 12,
                             "end": 19
                         },
-                        {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": null,
-                            "optionalToken": null,
-                            "typeAnnotation": {
-                                "kind": 134234345,
-                                "flags": 64,
-                                "start": 20,
-                                "end": 27
-                            },
-                            "flags": 0,
+                        "flags": 0,
+                        "start": 8,
+                        "end": 19
+                    },
+                    {
+                        "kind": 149,
+                        "ellipsisToken": null,
+                        "name": null,
+                        "optionalToken": null,
+                        "types": {
+                            "kind": 134234345,
+                            "flags": 64,
                             "start": 20,
                             "end": 27
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 10,
-                    "end": 27
-                },
+                        },
+                        "flags": 0,
+                        "start": 20,
+                        "end": 27
+                    }
+                ],
                 "returnType": {
                     "kind": 138477615,
                     "flags": 64,

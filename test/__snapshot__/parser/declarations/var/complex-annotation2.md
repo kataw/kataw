@@ -364,50 +364,66 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                     "end": 202
                                 },
                                 "type": {
-                                    "kind": 260,
+                                    "kind": 136,
                                     "type": {
-                                        "kind": 136,
+                                        "kind": 260,
                                         "type": {
-                                            "kind": 134234345,
-                                            "flags": 64,
-                                            "start": 203,
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "number",
+                                                "rawText": "number",
+                                                "flags": 96,
+                                                "start": 203,
+                                                "end": 209
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 202,
                                             "end": 209
                                         },
                                         "flags": 0,
-                                        "start": 210,
-                                        "end": 211
+                                        "start": 202,
+                                        "end": 209
                                     },
                                     "flags": 0,
-                                    "start": 202,
-                                    "end": 212
+                                    "start": 210,
+                                    "end": 211
                                 },
                                 "flags": 0,
                                 "start": 200,
-                                "end": 212
+                                "end": 211
                             },
                             "flags": 0,
                             "start": 199,
-                            "end": 212
+                            "end": 211
                         },
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "nullable_array",
-                            "rawText": "nullable_array",
-                            "flags": 96,
-                            "start": 214,
-                            "end": 229
-                        },
+                        "initializer": null,
                         "flags": 16,
                         "start": 177,
-                        "end": 229
+                        "end": 211
                     }
                 ],
                 "flags": 16,
                 "start": 177,
-                "end": 229
+                "end": 211
             },
             "flags": 16,
             "start": 172,
+            "end": 211
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "nullable_array",
+                "rawText": "nullable_array",
+                "flags": 96,
+                "start": 214,
+                "end": 229
+            },
+            "flags": 16,
+            "start": 214,
             "end": 230
         }
     ],
@@ -424,15 +440,14 @@ var nullable_array_parens: ?(number[]) = nullable_array;
 
 ```javascript
 
-var array_of_tuple = [[0, "\"foo\""], [1, "\"bar\""]];
-var array_of_tuple_parens = array_of_tuple;
-var nullable_array = null;
-var nullable_array_parens = nullable_array;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 211, end: 212
+✖ Expected a `;` - start: 211, end: 212
+✖ Declaration or statement expected - start: 212, end: 214
+
 ```
 

@@ -59,21 +59,60 @@
                             "type": {
                                 "kind": 260,
                                 "type": {
-                                    "kind": 260,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
-                                            "start": 22,
+                                    "kind": 261,
+                                    "arrowToken": null,
+                                    "parameters": {
+                                        "kind": 208,
+                                        "functionTypeParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 21,
+                                        "end": 21
+                                    },
+                                    "returnType": {
+                                        "kind": 260,
+                                        "type": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
+                                                "start": 22,
+                                                "end": 23
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
+                                            "start": 21,
                                             "end": 23
                                         },
-                                        "typeParameters": null,
                                         "flags": 0,
-                                        "start": 22,
-                                        "end": 23
+                                        "start": 21,
+                                        "end": 24
+                                    },
+                                    "typeParameters": {
+                                        "kind": 265,
+                                        "typeParameters": [
+                                            {
+                                                "kind": 146,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 19,
+                                                    "end": 20
+                                                },
+                                                "type": null,
+                                                "defaultType": null,
+                                                "flags": 0,
+                                                "start": 19,
+                                                "end": 20
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "start": 18,
+                                        "end": 21
                                     },
                                     "flags": 0,
                                     "start": 18,
@@ -275,6 +314,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 21, end: 22
 ✖ Expected a ')' to match the '(' token here - start: 24, end: 27
 ✖ Expected a `;` - start: 29, end: 30
 ✖ Identifier expected - start: 30, end: 32

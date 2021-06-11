@@ -100,7 +100,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                 "end": 100
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -142,7 +142,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 91,
+                                "start": 93,
                                 "end": 124
                             },
                             "flags": 0,
@@ -298,7 +298,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                     "end": 139
                                 },
                                 "optionalToken": null,
-                                "typeAnnotation": {
+                                "types": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -340,7 +340,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 130,
+                    "start": 132,
                     "end": 163
                 },
                 "flags": 0,

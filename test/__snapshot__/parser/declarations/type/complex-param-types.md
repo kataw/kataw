@@ -69,7 +69,7 @@ type o = { m(|int|bool): void }
                                         "ellipsisToken": null,
                                         "name": null,
                                         "optionalToken": null,
-                                        "typeAnnotation": {
+                                        "types": {
                                             "kind": 137,
                                             "types": [
                                                 {

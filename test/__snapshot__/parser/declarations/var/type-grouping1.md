@@ -51,9 +51,18 @@ var a: (number)
                             "type": {
                                 "kind": 260,
                                 "type": {
-                                    "kind": 134234345,
-                                    "flags": 64,
-                                    "start": 8,
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "number",
+                                        "rawText": "number",
+                                        "flags": 96,
+                                        "start": 8,
+                                        "end": 14
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 6,
                                     "end": 14
                                 },
                                 "flags": 0,

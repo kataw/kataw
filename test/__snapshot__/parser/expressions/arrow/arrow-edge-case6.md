@@ -113,7 +113,7 @@ a ? b ? (c) : (d) : (e) => f : g;
                                     },
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "start": 21,
+                                    "start": 19,
                                     "end": 22
                                 },
                                 "flags": 0,

@@ -82,7 +82,7 @@ var foo2: {
                                                         "end": 20
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234347,
                                                         "flags": 64,
                                                         "start": 21,
@@ -128,7 +128,7 @@ var foo2: {
                                                         "end": 48
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134217967,
                                                         "value": "order",
                                                         "flags": 0,
@@ -175,7 +175,7 @@ var foo2: {
                                                         "end": 77
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134217967,
                                                         "value": "content",
                                                         "flags": 0,
@@ -222,7 +222,7 @@ var foo2: {
                                                         "end": 108
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134217967,
                                                         "value": "done",
                                                         "flags": 0,
@@ -320,7 +320,7 @@ var foo2: {
                                                         "end": 151
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234347,
                                                         "flags": 64,
                                                         "start": 152,
@@ -366,7 +366,7 @@ var foo2: {
                                                         "end": 179
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134217967,
                                                         "value": "order",
                                                         "flags": 0,
@@ -413,7 +413,7 @@ var foo2: {
                                                         "end": 208
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134217967,
                                                         "value": "order",
                                                         "flags": 0,
@@ -460,7 +460,7 @@ var foo2: {
                                                         "end": 237
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134217967,
                                                         "value": "done",
                                                         "flags": 0,

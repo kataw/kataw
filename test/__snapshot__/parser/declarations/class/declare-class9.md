@@ -85,7 +85,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                 "end": 44
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -116,7 +116,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                 "end": 57
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 58,

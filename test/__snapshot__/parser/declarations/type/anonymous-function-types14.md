@@ -59,9 +59,18 @@ type T = Array<(string) => number>
                             "type": {
                                 "kind": 260,
                                 "type": {
-                                    "kind": 134234347,
-                                    "flags": 64,
-                                    "start": 16,
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "string",
+                                        "rawText": "string",
+                                        "flags": 96,
+                                        "start": 16,
+                                        "end": 22
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 15,
                                     "end": 22
                                 },
                                 "flags": 0,

@@ -415,7 +415,7 @@ function for_scope_var() {
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 0,
-                                                "start": 205,
+                                                "start": 207,
                                                 "end": 218
                                             },
                                             "flags": 0,

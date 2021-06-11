@@ -255,7 +255,7 @@ function g(x: () => any) {
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 61,
+                                "start": 63,
                                 "end": 71
                             },
                             "flags": 0,

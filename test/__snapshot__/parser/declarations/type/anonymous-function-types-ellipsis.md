@@ -51,37 +51,46 @@ type A = (Array<string>, ...Array<string>) => void
                 },
                 "parameters": [
                     {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Array",
-                            "rawText": "Array",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 15
-                        },
-                        "typeParameters": {
-                            "kind": 266,
-                            "parameters": [
-                                {
-                                    "kind": 267,
-                                    "type": {
-                                        "kind": 134234347,
-                                        "flags": 64,
+                        "kind": 149,
+                        "ellipsisToken": null,
+                        "name": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "Array",
+                                "rawText": "Array",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 15
+                            },
+                            "typeParameters": {
+                                "kind": 266,
+                                "parameters": [
+                                    {
+                                        "kind": 267,
+                                        "type": {
+                                            "kind": 134234347,
+                                            "flags": 64,
+                                            "start": 16,
+                                            "end": 22
+                                        },
+                                        "flags": 0,
                                         "start": 16,
                                         "end": 22
-                                    },
-                                    "flags": 0,
-                                    "start": 16,
-                                    "end": 22
-                                }
-                            ],
+                                    }
+                                ],
+                                "flags": 0,
+                                "start": 15,
+                                "end": 23
+                            },
                             "flags": 0,
-                            "start": 15,
+                            "start": 8,
                             "end": 23
                         },
+                        "optionalToken": null,
+                        "types": null,
                         "flags": 0,
-                        "start": 10,
+                        "start": 8,
                         "end": 23
                     },
                     {
@@ -94,7 +103,7 @@ type A = (Array<string>, ...Array<string>) => void
                         },
                         "name": null,
                         "optionalToken": null,
-                        "typeAnnotation": {
+                        "types": {
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,

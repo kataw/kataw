@@ -49,71 +49,80 @@ var a: number & (string | bool)
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 138,
+                                "kind": 137,
                                 "types": [
                                     {
-                                        "kind": 134234345,
-                                        "flags": 64,
-                                        "start": 6,
-                                        "end": 13
-                                    },
-                                    {
-                                        "kind": 260,
-                                        "type": {
-                                            "kind": 137,
-                                            "types": [
-                                                {
-                                                    "kind": 134234347,
-                                                    "flags": 64,
-                                                    "start": 17,
-                                                    "end": 23
-                                                },
-                                                {
+                                        "kind": 138,
+                                        "types": [
+                                            {
+                                                "kind": 134234345,
+                                                "flags": 64,
+                                                "start": 6,
+                                                "end": 13
+                                            },
+                                            {
+                                                "kind": 260,
+                                                "type": {
                                                     "kind": 144,
                                                     "id": {
                                                         "kind": 134299649,
-                                                        "text": "bool",
-                                                        "rawText": "bool",
+                                                        "text": "string",
+                                                        "rawText": "string",
                                                         "flags": 96,
-                                                        "start": 25,
-                                                        "end": 30
+                                                        "start": 17,
+                                                        "end": 23
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 0,
-                                                    "start": 25,
-                                                    "end": 30
-                                                }
-                                            ],
-                                            "flags": 0,
-                                            "start": 23,
+                                                    "start": 15,
+                                                    "end": 23
+                                                },
+                                                "flags": 0,
+                                                "start": 15,
+                                                "end": 23
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "start": 13,
+                                        "end": 23
+                                    },
+                                    {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "bool",
+                                            "rawText": "bool",
+                                            "flags": 96,
+                                            "start": 25,
                                             "end": 30
                                         },
+                                        "typeParameters": null,
                                         "flags": 0,
-                                        "start": 15,
-                                        "end": 31
+                                        "start": 25,
+                                        "end": 30
                                     }
                                 ],
                                 "flags": 0,
-                                "start": 13,
-                                "end": 31
+                                "start": 23,
+                                "end": 30
                             },
                             "flags": 0,
                             "start": 5,
-                            "end": 31
+                            "end": 30
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 31
+                        "end": 30
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 31
+                "end": 30
             },
             "flags": 16,
             "start": 0,
-            "end": 31
+            "end": 30
         }
     ],
     "isModule": false,
@@ -129,12 +138,13 @@ var a: number & (string | bool)
 
 ```javascript
 
-var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 30, end: 31
+✖ Expected a `;` - start: 30, end: 31
+
 ```
 

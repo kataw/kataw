@@ -77,9 +77,18 @@ let x = (): Array<(string) => number> => []
                                                 "type": {
                                                     "kind": 260,
                                                     "type": {
-                                                        "kind": 134234347,
-                                                        "flags": 64,
-                                                        "start": 19,
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "string",
+                                                            "rawText": "string",
+                                                            "flags": 96,
+                                                            "start": 19,
+                                                            "end": 25
+                                                        },
+                                                        "typeParameters": null,
+                                                        "flags": 0,
+                                                        "start": 18,
                                                         "end": 25
                                                     },
                                                     "flags": 0,

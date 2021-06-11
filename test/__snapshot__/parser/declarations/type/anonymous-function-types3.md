@@ -51,10 +51,51 @@ type A = (string,) => void
                 },
                 "parameters": [
                     {
-                        "kind": 134234347,
-                        "flags": 64,
-                        "start": 10,
+                        "kind": 149,
+                        "ellipsisToken": null,
+                        "name": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "string",
+                                "rawText": "string",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 16
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 8,
+                            "end": 16
+                        },
+                        "optionalToken": null,
+                        "types": null,
+                        "flags": 0,
+                        "start": 8,
                         "end": 16
+                    },
+                    {
+                        "kind": 149,
+                        "ellipsisToken": null,
+                        "name": null,
+                        "optionalToken": null,
+                        "types": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 17,
+                                "end": 17
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 17,
+                            "end": 17
+                        },
+                        "flags": 0,
+                        "start": 17,
+                        "end": 17
                     }
                 ],
                 "returnType": {
@@ -86,12 +127,12 @@ type A = (string,) => void
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Type expected - start: 17, end: 18
+
 ```
 

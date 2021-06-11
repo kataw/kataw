@@ -543,7 +543,7 @@ var z : Object = (x) => "hi"
                                                         "end": 356
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234345,
                                                         "flags": 64,
                                                         "start": 357,
@@ -700,7 +700,7 @@ var z : Object = (x) => "hi"
                                                         "end": 467
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234345,
                                                         "flags": 64,
                                                         "start": 468,
@@ -829,7 +829,7 @@ var z : Object = (x) => "hi"
                                                         "end": 549
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234347,
                                                         "flags": 64,
                                                         "start": 550,
@@ -1092,7 +1092,7 @@ var z : Object = (x) => "hi"
                                                         "end": 708
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234252,
                                                         "flags": 64,
                                                         "start": 709,
@@ -1324,7 +1324,7 @@ var z : Object = (x) => "hi"
                                                         "end": 804
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 144,
                                                         "id": {
                                                             "kind": 134299649,

@@ -128,7 +128,7 @@ declare class D extends C { }
                                                 "end": 56
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234345,
                                                 "flags": 64,
                                                 "start": 57,
@@ -223,7 +223,7 @@ declare class D extends C { }
                                                 "end": 91
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 92,

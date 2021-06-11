@@ -160,15 +160,24 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 50,
-                                    "end": 53
-                                },
+                                "arrowToken": null,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "functionTypeParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 44,
+                                    "end": 44
+                                },
+                                "returnType": {
+                                    "kind": 261,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 50,
+                                        "end": 53
+                                    },
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -181,7 +190,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                 "end": 46
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -197,28 +206,28 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                 "end": 49
                                             },
                                             "flags": 0,
-                                            "start": 45,
+                                            "start": 44,
                                             "end": 49
                                         }
                                     ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 45,
-                                    "end": 49
-                                },
-                                "returnType": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
+                                    "returnType": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 53,
+                                            "end": 55
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
                                         "start": 53,
                                         "end": 55
                                     },
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "start": 53,
+                                    "start": 44,
                                     "end": 55
                                 },
                                 "typeParameters": {
@@ -294,15 +303,24 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 90,
-                                    "end": 93
-                                },
+                                "arrowToken": null,
                                 "parameters": {
                                     "kind": 208,
-                                    "functionTypeParameterList": [
+                                    "functionTypeParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 74,
+                                    "end": 74
+                                },
+                                "returnType": {
+                                    "kind": 261,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 90,
+                                        "end": 93
+                                    },
+                                    "parameters": [
                                         {
                                             "kind": 149,
                                             "ellipsisToken": null,
@@ -315,7 +333,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                 "end": 76
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
@@ -331,7 +349,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                 "end": 79
                                             },
                                             "flags": 0,
-                                            "start": 75,
+                                            "start": 74,
                                             "end": 79
                                         },
                                         {
@@ -351,7 +369,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                 "end": 85
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 136,
                                                 "type": {
                                                     "kind": 144,
@@ -377,24 +395,24 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "end": 89
                                         }
                                     ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 75,
-                                    "end": 89
-                                },
-                                "returnType": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
+                                    "returnType": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 93,
+                                            "end": 95
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
                                         "start": 93,
                                         "end": 95
                                     },
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "start": 93,
+                                    "start": 74,
                                     "end": 95
                                 },
                                 "typeParameters": {
@@ -731,7 +749,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             },
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "start": 180,
+                                            "start": 182,
                                             "end": 193
                                         }
                                     ],
@@ -741,7 +759,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 165,
+                                "start": 167,
                                 "end": 193
                             },
                             "flags": 0,
@@ -1079,23 +1097,13 @@ var {x5}: {x5: string; } = { x5: "hello" };
 
 ```javascript
 
-var a21;
-var identity1;
-var identity2;
-var a17;
-var a18;
-var a19;
-var x2 = fn;
-var x3 = Y;
-var x4 = Y;
-var {
-  x5
-} = { x5: "\"hello\"" };
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 44, end: 45
+✖ Expected a ')' to match the '(' token here - start: 74, end: 75
+
 ```
 

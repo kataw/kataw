@@ -1885,37 +1885,30 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "start": 1328,
                                     "end": 1331
                                 },
-                                "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
-                                        {
-                                            "kind": 149,
-                                            "ellipsisToken": null,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 96,
-                                                "start": 1318,
-                                                "end": 1319
-                                            },
-                                            "optionalToken": null,
-                                            "typeAnnotation": {
-                                                "kind": 134234345,
-                                                "flags": 64,
-                                                "start": 1320,
-                                                "end": 1327
-                                            },
-                                            "flags": 0,
+                                "parameters": [
+                                    {
+                                        "kind": 149,
+                                        "ellipsisToken": null,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
                                             "start": 1318,
+                                            "end": 1319
+                                        },
+                                        "optionalToken": null,
+                                        "types": {
+                                            "kind": 134234345,
+                                            "flags": 64,
+                                            "start": 1320,
                                             "end": 1327
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 1318,
-                                    "end": 1327
-                                },
+                                        },
+                                        "flags": 0,
+                                        "start": 1316,
+                                        "end": 1327
+                                    }
+                                ],
                                 "returnType": {
                                     "kind": 134234345,
                                     "flags": 64,

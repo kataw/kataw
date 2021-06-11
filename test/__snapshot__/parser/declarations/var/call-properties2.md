@@ -99,7 +99,7 @@ var c: { (): string; (x: number): string } =
                                                         "end": 79
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234345,
                                                         "flags": 64,
                                                         "start": 80,
@@ -324,7 +324,7 @@ var c: { (): string; (x: number): string } =
                                                         "end": 240
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234345,
                                                         "flags": 64,
                                                         "start": 241,

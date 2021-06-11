@@ -168,7 +168,7 @@ type MyObject<A, B, C> = {
                                             "end": 54
                                         },
                                         "optionalToken": null,
-                                        "typeAnnotation": {
+                                        "types": {
                                             "kind": 144,
                                             "id": {
                                                 "kind": 134299649,

@@ -104,7 +104,7 @@ class two {
                                                 "end": 29
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 30,
@@ -199,7 +199,7 @@ class two {
                                                 "end": 55
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 56,
@@ -221,7 +221,7 @@ class two {
                                                 "end": 66
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234345,
                                                 "flags": 64,
                                                 "start": 67,
@@ -316,7 +316,7 @@ class two {
                                                 "end": 92
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 93,
@@ -343,7 +343,7 @@ class two {
                                                 "end": 106
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 134234252,
                                                 "flags": 64,
                                                 "start": 107,
@@ -438,7 +438,7 @@ class two {
                                                 "end": 132
                                             },
                                             "optionalToken": null,
-                                            "typeAnnotation": {
+                                            "types": {
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,

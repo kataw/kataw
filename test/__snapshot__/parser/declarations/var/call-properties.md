@@ -172,7 +172,7 @@ var a: { <T>(x: T): number; };
                                                         "end": 39
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 144,
                                                         "id": {
                                                             "kind": 134299649,
@@ -474,7 +474,7 @@ var a: { <T>(x: T): number; };
                                                         "end": 136
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234347,
                                                         "flags": 64,
                                                         "start": 137,
@@ -594,7 +594,7 @@ var a: { <T>(x: T): number; };
                                                         "end": 171
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 144,
                                                         "id": {
                                                             "kind": 134299649,

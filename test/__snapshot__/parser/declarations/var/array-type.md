@@ -219,7 +219,7 @@ var a: (?number)[];
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 50,
+                                "start": 52,
                                 "end": 65
                             },
                             "flags": 0,

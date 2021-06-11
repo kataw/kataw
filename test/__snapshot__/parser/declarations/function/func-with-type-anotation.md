@@ -67,101 +67,94 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "start": 54,
                                     "end": 57
                                 },
-                                "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
-                                        {
-                                            "kind": 149,
-                                            "ellipsisToken": null,
-                                            "name": {
+                                "parameters": [
+                                    {
+                                        "kind": 149,
+                                        "ellipsisToken": null,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "_1",
+                                            "rawText": "_1",
+                                            "flags": 96,
+                                            "start": 24,
+                                            "end": 26
+                                        },
+                                        "optionalToken": null,
+                                        "types": {
+                                            "kind": 144,
+                                            "id": {
                                                 "kind": 134299649,
-                                                "text": "_1",
-                                                "rawText": "_1",
+                                                "text": "bool",
+                                                "rawText": "bool",
                                                 "flags": 96,
-                                                "start": 24,
-                                                "end": 26
-                                            },
-                                            "optionalToken": null,
-                                            "typeAnnotation": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "bool",
-                                                    "rawText": "bool",
-                                                    "flags": 96,
-                                                    "start": 27,
-                                                    "end": 31
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 0,
                                                 "start": 27,
                                                 "end": 31
                                             },
+                                            "typeParameters": null,
                                             "flags": 0,
-                                            "start": 24,
+                                            "start": 27,
                                             "end": 31
                                         },
-                                        {
-                                            "kind": 149,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 32,
-                                                "end": 36
-                                            },
-                                            "name": {
+                                        "flags": 0,
+                                        "start": 22,
+                                        "end": 31
+                                    },
+                                    {
+                                        "kind": 149,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 32,
+                                            "end": 36
+                                        },
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 36,
+                                            "end": 39
+                                        },
+                                        "optionalToken": null,
+                                        "types": {
+                                            "kind": 144,
+                                            "id": {
                                                 "kind": 134299649,
-                                                "text": "foo",
-                                                "rawText": "foo",
+                                                "text": "Array",
+                                                "rawText": "Array",
                                                 "flags": 96,
-                                                "start": 36,
-                                                "end": 39
+                                                "start": 40,
+                                                "end": 45
                                             },
-                                            "optionalToken": null,
-                                            "typeAnnotation": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "Array",
-                                                    "rawText": "Array",
-                                                    "flags": 96,
-                                                    "start": 40,
-                                                    "end": 45
-                                                },
-                                                "typeParameters": {
-                                                    "kind": 266,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 267,
-                                                            "type": {
-                                                                "kind": 134234345,
-                                                                "flags": 64,
-                                                                "start": 46,
-                                                                "end": 52
-                                                            },
-                                                            "flags": 0,
+                                            "typeParameters": {
+                                                "kind": 266,
+                                                "parameters": [
+                                                    {
+                                                        "kind": 267,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 64,
                                                             "start": 46,
                                                             "end": 52
-                                                        }
-                                                    ],
-                                                    "flags": 0,
-                                                    "start": 45,
-                                                    "end": 53
-                                                },
+                                                        },
+                                                        "flags": 0,
+                                                        "start": 46,
+                                                        "end": 52
+                                                    }
+                                                ],
                                                 "flags": 0,
-                                                "start": 40,
+                                                "start": 45,
                                                 "end": 53
                                             },
                                             "flags": 0,
-                                            "start": 32,
+                                            "start": 40,
                                             "end": 53
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 24,
-                                    "end": 53
-                                },
+                                        },
+                                        "flags": 0,
+                                        "start": 32,
+                                        "end": 53
+                                    }
+                                ],
                                 "returnType": {
                                     "kind": 134234345,
                                     "flags": 64,

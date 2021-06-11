@@ -42,62 +42,72 @@ type A = (Array<string>) => void
             },
             "typeParameters": null,
             "type": {
-                "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 24,
-                    "end": 27
-                },
-                "parameters": [
-                    {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Array",
-                            "rawText": "Array",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 15
-                        },
-                        "typeParameters": {
-                            "kind": 266,
-                            "parameters": [
-                                {
-                                    "kind": 267,
-                                    "type": {
-                                        "kind": 134234347,
-                                        "flags": 64,
-                                        "start": 16,
-                                        "end": 22
-                                    },
-                                    "flags": 0,
+                "kind": 260,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "Array",
+                        "rawText": "Array",
+                        "flags": 96,
+                        "start": 10,
+                        "end": 15
+                    },
+                    "typeParameters": {
+                        "kind": 266,
+                        "parameters": [
+                            {
+                                "kind": 267,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 64,
                                     "start": 16,
                                     "end": 22
-                                }
-                            ],
-                            "flags": 0,
-                            "start": 15,
-                            "end": 23
-                        },
+                                },
+                                "flags": 0,
+                                "start": 16,
+                                "end": 22
+                            }
+                        ],
                         "flags": 0,
-                        "start": 10,
+                        "start": 15,
                         "end": 23
-                    }
-                ],
-                "returnType": {
+                    },
+                    "flags": 0,
+                    "start": 8,
+                    "end": 23
+                },
+                "flags": 0,
+                "start": 8,
+                "end": 24
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 24
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
                     "kind": 138477615,
                     "flags": 64,
                     "start": 27,
                     "end": 32
                 },
-                "typeParameters": null,
-                "flags": 0,
-                "start": 8,
+                "operand": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 32,
+                    "end": 32
+                },
+                "flags": 32,
+                "start": 27,
                 "end": 32
             },
             "flags": 16,
-            "start": 0,
+            "start": 27,
             "end": 32
         }
     ],
@@ -114,12 +124,13 @@ type A = (Array<string>) => void
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 24, end: 27
+✖ Identifier expected - start: 32, end: 32
+
 ```
 

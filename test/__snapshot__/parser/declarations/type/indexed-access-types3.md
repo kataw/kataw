@@ -46,50 +46,66 @@ type D = (Obj['bar'])['baz'];
                 "objectType": {
                     "kind": 260,
                     "type": {
-                        "kind": 268,
-                        "objectType": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "Obj",
-                                "rawText": "Obj",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 13
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Obj",
+                            "rawText": "Obj",
+                            "flags": 96,
                             "start": 10,
                             "end": 13
                         },
-                        "indexType": {
-                            "kind": 134217967,
-                            "value": "bar",
-                            "flags": 0,
-                            "start": 14,
-                            "end": 19
-                        },
+                        "typeParameters": null,
                         "flags": 0,
-                        "start": 14,
-                        "end": 21
+                        "start": 8,
+                        "end": 13
                     },
                     "flags": 0,
                     "start": 8,
-                    "end": 21
+                    "end": 13
                 },
                 "indexType": {
                     "kind": 134217967,
-                    "value": "baz",
+                    "value": "bar",
                     "flags": 0,
-                    "start": 22,
-                    "end": 27
+                    "start": 14,
+                    "end": 19
                 },
                 "flags": 0,
-                "start": 22,
-                "end": 29
+                "start": 14,
+                "end": 21
             },
             "flags": 16,
             "start": 0,
+            "end": 20
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 119,
+                "elementList": {
+                    "kind": 270,
+                    "elements": [
+                        {
+                            "kind": 201392131,
+                            "text": "baz",
+                            "rawText": "'baz'",
+                            "flags": 4194400,
+                            "start": 22,
+                            "end": 27
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 4194336,
+                    "start": 22,
+                    "end": 27
+                },
+                "flags": 32,
+                "start": 21,
+                "end": 28
+            },
+            "flags": 16,
+            "start": 21,
             "end": 29
         }
     ],
@@ -106,12 +122,12 @@ type D = (Obj['bar'])['baz'];
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 20, end: 21
+
 ```
 

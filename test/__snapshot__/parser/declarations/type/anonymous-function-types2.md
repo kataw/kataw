@@ -42,34 +42,53 @@ type A = (string) => void
             },
             "typeParameters": null,
             "type": {
-                "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 17,
-                    "end": 20
-                },
-                "parameters": [
-                    {
-                        "kind": 134234347,
-                        "flags": 64,
+                "kind": 260,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "string",
+                        "rawText": "string",
+                        "flags": 96,
                         "start": 10,
                         "end": 16
-                    }
-                ],
-                "returnType": {
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 8,
+                    "end": 16
+                },
+                "flags": 0,
+                "start": 8,
+                "end": 17
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 17
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
                     "kind": 138477615,
                     "flags": 64,
                     "start": 20,
                     "end": 25
                 },
-                "typeParameters": null,
-                "flags": 0,
-                "start": 8,
+                "operand": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 25,
+                    "end": 25
+                },
+                "flags": 32,
+                "start": 20,
                 "end": 25
             },
             "flags": 16,
-            "start": 0,
+            "start": 20,
             "end": 25
         }
     ],
@@ -86,12 +105,13 @@ type A = (string) => void
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 17, end: 20
+✖ Identifier expected - start: 25, end: 25
+
 ```
 

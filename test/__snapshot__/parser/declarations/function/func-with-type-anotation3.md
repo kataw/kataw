@@ -78,68 +78,61 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                     "start": 43,
                                     "end": 46
                                 },
-                                "parameters": {
-                                    "kind": 208,
-                                    "functionTypeParameterList": [
-                                        {
-                                            "kind": 149,
-                                            "ellipsisToken": null,
-                                            "name": {
+                                "parameters": [
+                                    {
+                                        "kind": 149,
+                                        "ellipsisToken": null,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "_1",
+                                            "rawText": "_1",
+                                            "flags": 96,
+                                            "start": 24,
+                                            "end": 26
+                                        },
+                                        "optionalToken": null,
+                                        "types": {
+                                            "kind": 144,
+                                            "id": {
                                                 "kind": 134299649,
-                                                "text": "_1",
-                                                "rawText": "_1",
+                                                "text": "bool",
+                                                "rawText": "bool",
                                                 "flags": 96,
-                                                "start": 24,
-                                                "end": 26
-                                            },
-                                            "optionalToken": null,
-                                            "typeAnnotation": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "bool",
-                                                    "rawText": "bool",
-                                                    "flags": 96,
-                                                    "start": 27,
-                                                    "end": 31
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 0,
                                                 "start": 27,
                                                 "end": 31
                                             },
+                                            "typeParameters": null,
                                             "flags": 0,
-                                            "start": 24,
+                                            "start": 27,
                                             "end": 31
                                         },
-                                        {
-                                            "kind": 149,
-                                            "ellipsisToken": null,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "_2",
-                                                "rawText": "_2",
-                                                "flags": 96,
-                                                "start": 32,
-                                                "end": 35
-                                            },
-                                            "optionalToken": null,
-                                            "typeAnnotation": {
-                                                "kind": 134234347,
-                                                "flags": 64,
-                                                "start": 36,
-                                                "end": 42
-                                            },
-                                            "flags": 0,
+                                        "flags": 0,
+                                        "start": 22,
+                                        "end": 31
+                                    },
+                                    {
+                                        "kind": 149,
+                                        "ellipsisToken": null,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "_2",
+                                            "rawText": "_2",
+                                            "flags": 96,
                                             "start": 32,
+                                            "end": 35
+                                        },
+                                        "optionalToken": null,
+                                        "types": {
+                                            "kind": 134234347,
+                                            "flags": 64,
+                                            "start": 36,
                                             "end": 42
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 24,
-                                    "end": 42
-                                },
+                                        },
+                                        "flags": 0,
+                                        "start": 32,
+                                        "end": 42
+                                    }
+                                ],
                                 "returnType": {
                                     "kind": 134234345,
                                     "flags": 64,

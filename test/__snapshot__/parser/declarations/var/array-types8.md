@@ -277,7 +277,7 @@ var a: typeof A[];
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 61,
+                                "start": 63,
                                 "end": 76
                             },
                             "flags": 0,

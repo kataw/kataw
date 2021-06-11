@@ -83,7 +83,7 @@ var a: { id<T>(x: T): T; }
                                                             "end": 16
                                                         },
                                                         "optionalToken": null,
-                                                        "typeAnnotation": {
+                                                        "types": {
                                                             "kind": 144,
                                                             "id": {
                                                                 "kind": 134299649,

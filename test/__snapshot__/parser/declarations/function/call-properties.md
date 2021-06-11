@@ -112,7 +112,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                         "end": 84
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234345,
                                                         "flags": 64,
                                                         "start": 85,
@@ -221,7 +221,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 105,
+                    "start": 107,
                     "end": 118
                 },
                 "flags": 0,
@@ -313,7 +313,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                         "end": 198
                                                     },
                                                     "optionalToken": null,
-                                                    "typeAnnotation": {
+                                                    "types": {
                                                         "kind": 134234345,
                                                         "flags": 64,
                                                         "start": 199,
@@ -422,7 +422,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 219,
+                    "start": 221,
                     "end": 232
                 },
                 "flags": 0,

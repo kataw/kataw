@@ -422,14 +422,18 @@ type T = <
             "typeParameters": null,
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 213,
-                    "end": 216
+                "arrowToken": null,
+                "parameters": {
+                    "kind": 208,
+                    "functionTypeParameterList": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 208,
+                    "end": 208
                 },
-                "parameters": [
-                    {
+                "returnType": {
+                    "kind": 260,
+                    "type": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
@@ -441,15 +445,12 @@ type T = <
                         },
                         "typeParameters": null,
                         "flags": 0,
-                        "start": 209,
+                        "start": 208,
                         "end": 212
-                    }
-                ],
-                "returnType": {
-                    "kind": 134234252,
-                    "flags": 64,
-                    "start": 216,
-                    "end": 220
+                    },
+                    "flags": 0,
+                    "start": 208,
+                    "end": 213
                 },
                 "typeParameters": {
                     "kind": 265,
@@ -460,10 +461,24 @@ type T = <
                 },
                 "flags": 0,
                 "start": 192,
-                "end": 220
+                "end": 213
             },
             "flags": 17,
             "start": 182,
+            "end": 213
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "any",
+                "rawText": "any",
+                "flags": 96,
+                "start": 216,
+                "end": 220
+            },
+            "flags": 16,
+            "start": 216,
             "end": 221
         },
         {
@@ -823,14 +838,18 @@ type T = <
             "typeParameters": null,
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 455,
-                    "end": 458
+                "arrowToken": null,
+                "parameters": {
+                    "kind": 208,
+                    "functionTypeParameterList": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 450,
+                    "end": 450
                 },
-                "parameters": [
-                    {
+                "returnType": {
+                    "kind": 260,
+                    "type": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
@@ -842,15 +861,12 @@ type T = <
                         },
                         "typeParameters": null,
                         "flags": 0,
-                        "start": 451,
+                        "start": 450,
                         "end": 454
-                    }
-                ],
-                "returnType": {
-                    "kind": 134234252,
-                    "flags": 64,
-                    "start": 458,
-                    "end": 462
+                    },
+                    "flags": 0,
+                    "start": 450,
+                    "end": 455
                 },
                 "typeParameters": {
                     "kind": 265,
@@ -861,10 +877,24 @@ type T = <
                 },
                 "flags": 0,
                 "start": 431,
-                "end": 462
+                "end": 455
             },
             "flags": 17,
             "start": 421,
+            "end": 455
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "any",
+                "rawText": "any",
+                "flags": 96,
+                "start": 458,
+                "end": 462
+            },
+            "flags": 16,
+            "start": 458,
             "end": 463
         }
     ],
@@ -894,6 +924,8 @@ type T = <
 ✖ Expected a `;` - start: 144, end: 148
 ✖ Expected a `;` - start: 148, end: 150
 ✖ Identifier expected - start: 178, end: 179
+✖ Expected a ')' to match the '(' token here - start: 208, end: 209
+✖ Expected a `;` - start: 213, end: 216
 ✖ Expected a `;` - start: 259, end: 260
 ✖ Expression expected - start: 259, end: 260
 ✖ Duplicate identifier - start: 267, end: 269
@@ -903,6 +935,8 @@ type T = <
 ✖ Expected a `;` - start: 378, end: 382
 ✖ Expected a `;` - start: 382, end: 384
 ✖ Identifier expected - start: 417, end: 418
+✖ Expected a ')' to match the '(' token here - start: 450, end: 451
+✖ Expected a `;` - start: 455, end: 458
 
 ```
 
