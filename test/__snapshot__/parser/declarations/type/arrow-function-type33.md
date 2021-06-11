@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-type a = (a[a & b][][][][][]) => T;
+type a = (a[a & b][c | d][][][][]) => T;
 `````
 
 ## Options
@@ -46,8 +46,8 @@ type a = (a[a & b][][][][][]) => T;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 29,
-                    "end": 32
+                    "start": 34,
+                    "end": 37
                 },
                 "parameters": {
                     "kind": 144,
@@ -60,8 +60,8 @@ type a = (a[a & b][][][][][]) => T;
                                 "type": {
                                     "kind": 136,
                                     "type": {
-                                        "kind": 136,
-                                        "type": {
+                                        "kind": 268,
+                                        "objectType": {
                                             "kind": 268,
                                             "objectType": {
                                                 "kind": 134299649,
@@ -113,30 +113,68 @@ type a = (a[a & b][][][][][]) => T;
                                             "start": 12,
                                             "end": 19
                                         },
+                                        "indexType": {
+                                            "kind": 137,
+                                            "types": [
+                                                {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "c",
+                                                        "rawText": "c",
+                                                        "flags": 96,
+                                                        "start": 19,
+                                                        "end": 20
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
+                                                    "start": 19,
+                                                    "end": 20
+                                                },
+                                                {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "d",
+                                                        "rawText": "d",
+                                                        "flags": 96,
+                                                        "start": 22,
+                                                        "end": 24
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
+                                                    "start": 22,
+                                                    "end": 24
+                                                }
+                                            ],
+                                            "flags": 0,
+                                            "start": 20,
+                                            "end": 24
+                                        },
                                         "flags": 0,
                                         "start": 19,
-                                        "end": 20
+                                        "end": 26
                                     },
                                     "flags": 0,
-                                    "start": 21,
-                                    "end": 22
+                                    "start": 26,
+                                    "end": 27
                                 },
                                 "flags": 0,
-                                "start": 23,
-                                "end": 24
+                                "start": 28,
+                                "end": 29
                             },
                             "flags": 0,
-                            "start": 25,
-                            "end": 26
+                            "start": 30,
+                            "end": 31
                         },
                         "flags": 0,
-                        "start": 27,
-                        "end": 28
+                        "start": 32,
+                        "end": 33
                     },
                     "typeParameters": null,
                     "flags": 0,
                     "start": 8,
-                    "end": 28
+                    "end": 33
                 },
                 "returnType": {
                     "kind": 144,
@@ -145,30 +183,30 @@ type a = (a[a & b][][][][][]) => T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
-                        "start": 32,
-                        "end": 34
+                        "start": 37,
+                        "end": 39
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 32,
-                    "end": 34
+                    "start": 37,
+                    "end": 39
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 34
+                "end": 39
             },
             "flags": 16,
             "start": 0,
-            "end": 35
+            "end": 40
         }
     ],
     "isModule": false,
-    "source": "type a = (a[a & b][][][][][]) => T;",
+    "source": "type a = (a[a & b][c | d][][][][]) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 35
+    "end": 40
 }
 ```
 

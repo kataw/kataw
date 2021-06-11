@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-type a = (1) => T;
+type a = (...x: string) => T;
 `````
 
 ## Options
@@ -46,24 +46,44 @@ type a = (1) => T;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 12,
-                    "end": 15
+                    "start": 23,
+                    "end": 26
                 },
                 "parameters": {
-                    "kind": 279,
+                    "kind": 208,
                     "parameters": [
                         {
-                            "kind": 134217968,
-                            "value": 1,
+                            "kind": 149,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 10,
+                                "end": 13
+                            },
+                            "name": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 14
+                            },
+                            "optionalToken": null,
+                            "types": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 22
+                            },
                             "flags": 0,
                             "start": 10,
-                            "end": 11
+                            "end": 22
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 8,
-                    "end": 15
+                    "start": 10,
+                    "end": 22
                 },
                 "returnType": {
                     "kind": 144,
@@ -72,30 +92,30 @@ type a = (1) => T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
-                        "start": 15,
-                        "end": 17
+                        "start": 26,
+                        "end": 28
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 15,
-                    "end": 17
+                    "start": 26,
+                    "end": 28
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 17
+                "end": 28
             },
             "flags": 16,
             "start": 0,
-            "end": 18
+            "end": 29
         }
     ],
     "isModule": false,
-    "source": "type a = (1) => T;",
+    "source": "type a = (...x: string) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 18
+    "end": 29
 }
 ```
 

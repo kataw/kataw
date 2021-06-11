@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-type a = (1) => T;
+type a = (1[]) => T;
 `````
 
 ## Options
@@ -46,24 +46,30 @@ type a = (1) => T;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 12,
-                    "end": 15
+                    "start": 14,
+                    "end": 17
                 },
                 "parameters": {
                     "kind": 279,
                     "parameters": [
                         {
-                            "kind": 134217968,
-                            "value": 1,
+                            "kind": 136,
+                            "type": {
+                                "kind": 134217968,
+                                "value": 1,
+                                "flags": 0,
+                                "start": 10,
+                                "end": 11
+                            },
                             "flags": 0,
-                            "start": 10,
-                            "end": 11
+                            "start": 12,
+                            "end": 13
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 8,
-                    "end": 15
+                    "end": 17
                 },
                 "returnType": {
                     "kind": 144,
@@ -72,30 +78,30 @@ type a = (1) => T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
-                        "start": 15,
-                        "end": 17
+                        "start": 17,
+                        "end": 19
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 15,
-                    "end": 17
+                    "start": 17,
+                    "end": 19
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 17
+                "end": 19
             },
             "flags": 16,
             "start": 0,
-            "end": 18
+            "end": 20
         }
     ],
     "isModule": false,
-    "source": "type a = (1) => T;",
+    "source": "type a = (1[]) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 18
+    "end": 20
 }
 ```
 
