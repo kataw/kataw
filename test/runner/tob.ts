@@ -48,7 +48,7 @@ export async function file2Tob(filename: string): Promise<Tob> {
   const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions, cb);
 
   // assert the cst is valid
-  tob.parserOptions.allowTypes || visit(cst, tob.filename);
+  visit(cst, tob.filename);
 
   tob.$cst = JSON.stringify(cst, null, 4);
   tob.$printed = diagnostics.length === 0 ? printSourceFile(cst, tob.printerOptions) : '';

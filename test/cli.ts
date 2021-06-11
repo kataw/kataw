@@ -9,7 +9,7 @@ import { resolve } from 'path';
 import { autogen } from './runner/autogenerate';
 import { file2Tob, updateTob } from './runner/tob';
 
-const fn = ['parser', 'printer'];
+const APIs = ['parser', 'printer'];
 
 runCli();
 
@@ -72,7 +72,7 @@ export function cliOpts(): any {
 
   const opts = {
     gen,
-    updateItems: update === 'all' ? fn : update === false ? [] : [update],
+    updateItems: update === 'all' ? APIs : update === false ? [] : [update],
     conservative: process.argv.includes('-G'), // skip existing
     // defaults to all tests(if not specified)
     files: loadSnaps(
