@@ -72,14 +72,12 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                     "end": 24
                                 },
                                 "parameters": {
-                                    "kind": 279,
-                                    "parameters": [
-                                        []
-                                    ],
+                                    "kind": 208,
+                                    "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 18,
-                                    "end": 24
+                                    "start": 20,
+                                    "end": 20
                                 },
                                 "returnType": {
                                     "kind": 144,
@@ -126,7 +124,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 18,
+                                "start": 19,
                                 "end": 35
                             }
                         ],

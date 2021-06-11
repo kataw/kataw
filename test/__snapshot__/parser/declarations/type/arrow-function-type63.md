@@ -124,7 +124,7 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 11,
+                                                        "start": 12,
                                                         "end": 24
                                                     },
                                                     "returnType": {
@@ -144,7 +144,7 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 0,
-                                                    "start": 11,
+                                                    "start": 12,
                                                     "end": 26
                                                 }
                                             ],
@@ -176,7 +176,7 @@ type a = ((((() => T) => T) => T) => T) => T;
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 8,
+                                "start": 10,
                                 "end": 36
                             },
                             "returnType": {
@@ -196,7 +196,7 @@ type a = ((((() => T) => T) => T) => T) => T;
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 8,
+                            "start": 10,
                             "end": 38
                         }
                     ],

@@ -44,11 +44,17 @@ type X = ((1))
             "type": {
                 "kind": 260,
                 "type": {
-                    "kind": 134217968,
-                    "value": 1,
+                    "kind": 260,
+                    "type": {
+                        "kind": 134217968,
+                        "value": 1,
+                        "flags": 0,
+                        "start": 11,
+                        "end": 12
+                    },
                     "flags": 0,
-                    "start": 11,
-                    "end": 12
+                    "start": 10,
+                    "end": 13
                 },
                 "flags": 0,
                 "start": 8,

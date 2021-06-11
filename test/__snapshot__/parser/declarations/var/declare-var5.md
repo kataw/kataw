@@ -72,14 +72,12 @@ declare var x3: ?(() => (() => number));
                                             "end": 23
                                         },
                                         "parameters": {
-                                            "kind": 279,
-                                            "parameters": [
-                                                []
-                                            ],
+                                            "kind": 208,
+                                            "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 17,
-                                            "end": 23
+                                            "start": 19,
+                                            "end": 19
                                         },
                                         "returnType": {
                                             "kind": 260,
@@ -92,14 +90,12 @@ declare var x3: ?(() => (() => number));
                                                     "end": 30
                                                 },
                                                 "parameters": {
-                                                    "kind": 279,
-                                                    "parameters": [
-                                                        []
-                                                    ],
+                                                    "kind": 208,
+                                                    "parameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 23,
-                                                    "end": 30
+                                                    "start": 26,
+                                                    "end": 26
                                                 },
                                                 "returnType": {
                                                     "kind": 134234345,
@@ -109,7 +105,7 @@ declare var x3: ?(() => (() => number));
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 0,
-                                                "start": 23,
+                                                "start": 25,
                                                 "end": 37
                                             },
                                             "flags": 0,
@@ -118,7 +114,7 @@ declare var x3: ?(() => (() => number));
                                         },
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "start": 17,
+                                        "start": 18,
                                         "end": 38
                                     },
                                     "flags": 0,

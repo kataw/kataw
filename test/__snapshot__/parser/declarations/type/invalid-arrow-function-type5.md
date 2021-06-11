@@ -73,13 +73,13 @@ type X = ((x?) => T);
                                 },
                                 "types": null,
                                 "flags": 0,
-                                "start": 8,
+                                "start": 10,
                                 "end": 13
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 8,
+                        "start": 10,
                         "end": 13
                     },
                     "returnType": {
@@ -99,7 +99,7 @@ type X = ((x?) => T);
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 8,
+                    "start": 10,
                     "end": 19
                 },
                 "flags": 0,
@@ -129,7 +129,7 @@ type X = ((x?) => T);
 ### Diagnostics
 
 ```javascript
-✖ An optional parameter cannot be used without an ':' in an arrow function type parameter list - start: 13, end: 14
+✖ An optional parameter cannot be used without an ':' in an arrow function type parameter list - start: 10, end: 14
 
 ```
 

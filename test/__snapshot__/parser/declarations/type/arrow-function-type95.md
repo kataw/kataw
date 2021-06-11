@@ -53,34 +53,40 @@ type a = ((1 | y)) => T;
                     "kind": 279,
                     "parameters": [
                         {
-                            "kind": 137,
-                            "types": [
-                                {
-                                    "kind": 134217968,
-                                    "value": 1,
-                                    "flags": 0,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
+                            "kind": 260,
+                            "type": {
+                                "kind": 137,
+                                "types": [
+                                    {
+                                        "kind": 134217968,
+                                        "value": 1,
+                                        "flags": 0,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 14,
+                                            "end": 16
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
                                         "start": 14,
                                         "end": 16
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 0,
-                                    "start": 14,
-                                    "end": 16
-                                }
-                            ],
+                                    }
+                                ],
+                                "flags": 0,
+                                "start": 12,
+                                "end": 16
+                            },
                             "flags": 0,
-                            "start": 12,
-                            "end": 16
+                            "start": 10,
+                            "end": 17
                         }
                     ],
                     "trailingComma": false,

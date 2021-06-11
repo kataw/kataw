@@ -53,32 +53,38 @@ type a = ((1 |-1)) => T;
                     "kind": 279,
                     "parameters": [
                         {
-                            "kind": 137,
-                            "types": [
-                                {
-                                    "kind": 134217968,
-                                    "value": 1,
-                                    "flags": 0,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                {
-                                    "kind": 271,
-                                    "subtractionToken": {
-                                        "kind": 134318643,
+                            "kind": 260,
+                            "type": {
+                                "kind": 137,
+                                "types": [
+                                    {
+                                        "kind": 134217968,
+                                        "value": 1,
+                                        "flags": 0,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    {
+                                        "kind": 271,
+                                        "subtractionToken": {
+                                            "kind": 134318643,
+                                            "flags": 64,
+                                            "start": 14,
+                                            "end": 15
+                                        },
+                                        "value": 1,
                                         "flags": 64,
                                         "start": 14,
-                                        "end": 15
-                                    },
-                                    "value": 1,
-                                    "flags": 64,
-                                    "start": 14,
-                                    "end": 16
-                                }
-                            ],
+                                        "end": 16
+                                    }
+                                ],
+                                "flags": 0,
+                                "start": 12,
+                                "end": 16
+                            },
                             "flags": 0,
-                            "start": 12,
-                            "end": 16
+                            "start": 10,
+                            "end": 17
                         }
                     ],
                     "trailingComma": false,
