@@ -7401,7 +7401,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           diagnosticMap[
             DiagnosticCode.An_optional_parameter_cannot_be_used_without_an_in_an_arrow_function_type_parameter_list
           ],
-          parser.curPos,
+          pos,
           parser.pos
         );
       }
@@ -7530,47 +7530,97 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
         parser.curPos
       );
     } else {
-      type = parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Type_expected);
-      // - `((x?) => T);`
-      // - `((x?: y) => T);`
-      // - `((x: y) => T);`
-      if (
-        (parser.token as SyntaxKind) === SyntaxKind.QuestionMark ||
-        (parser.token as SyntaxKind) === SyntaxKind.Colon
-      ) {
-        const optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
-        let type1 = null;
-        if (optionalToken && (parser.token as SyntaxKind) !== SyntaxKind.Colon) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[
-              DiagnosticCode.An_optional_parameter_cannot_be_used_without_an_in_an_arrow_function_type_parameter_list
-            ],
-            parser.curPos,
-            parser.pos
+      if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+        type = parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Type_expected);
+        // - `type X = ((x?) => T);`
+        // - `type X = ((x?: y) => T);`
+        // - `type X = ((x: y) => T);`
+        if (
+          (parser.token as SyntaxKind) === SyntaxKind.QuestionMark ||
+          (parser.token as SyntaxKind) === SyntaxKind.Colon
+        ) {
+          const optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+          let type1 = null;
+          if (optionalToken && (parser.token as SyntaxKind) !== SyntaxKind.Colon) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[
+                DiagnosticCode.An_optional_parameter_cannot_be_used_without_an_in_an_arrow_function_type_parameter_list
+              ],
+              parser.curPos,
+              parser.pos
+            );
+          }
+
+          if (consumeOpt(parser, context, SyntaxKind.Colon)) {
+            type1 = parseType(parser, context);
+          }
+          const params = parseArrowFunctionTypeParameters(
+            parser,
+            context,
+            createFunctionTypeParameters(/* ellipsisToken */ null, type, optionalToken, type1, pos, parser.curPos),
+            pos
+          );
+          consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+
+          type = createArrowFunctionType(
+            consumeOptToken(parser, context, SyntaxKind.Arrow),
+            params,
+            parseType(parser, context),
+            /* typeParameters */ null,
+            pos,
+            parser.curPos
           );
         }
-        if (consumeOpt(parser, context, SyntaxKind.Colon)) {
-          type1 = parseType(parser, context);
-        }
-        const params = parseArrowFunctionTypeParameters(
-          parser,
-          context,
-          createFunctionTypeParameters(/* ellipsisToken */ null, type, optionalToken, type1, pos, parser.curPos),
-          pos
-        );
-        consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
-        type = createArrowFunctionType(
-          consumeOptToken(parser, context, SyntaxKind.Arrow),
-          params,
-          parseType(parser, context),
-          /* typeParameters */ null,
-          pos,
-          parser.curPos
-        );
+        // - ` type a = ((bj[c])[d]);`
+        // - ` type a = ((bj[c]) => T);`
+        if ((parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
+          while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
+            const pos = parser.curPos;
+            if (parser.token & 0b00011000100000000100000000000000) {
+              const indexType = parseType(parser, context);
+              consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+              type = createIndexedAccessType(type, indexType, parser.nodeFlags, pos, parser.pos);
+            } else {
+              consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+              type = createArrayType(type, pos, parser.curPos);
+            }
+          }
+        }
+
+        // - `type X = ((x & y));`
+        // - `type X = ((x & y) => T);`
+        // - `type a = ((bj[c] & a | b) => T);`
+        if ((parser.token as SyntaxKind) === SyntaxKind.BitwiseAnd) {
+          const pos = parser.curPos;
+          const types = [type];
+          type = createUnionType(types, pos, parser.curPos);
+          while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
+            types.push(parsePostfixType(parser, context));
+          }
+          type = createIntersectionType(types, pos, parser.curPos);
+        }
+
+        // - `type X = ((x | y));`
+        // - `type X = ((x | y) => T);`
+        if ((parser.token as SyntaxKind) === SyntaxKind.BitwiseOr) {
+          const pos = parser.curPos;
+          const types = [type];
+          while (consumeOpt(parser, context, SyntaxKind.BitwiseOr)) {
+            types.push(parseIntersectionType(parser, context));
+          }
+          type = createUnionType(types, pos, parser.curPos);
+        }
+
+        // - `type X = ((1));`
+        // - `type X = ((1) => T);`
+        // - `type X = (([1]) => T);`
+      } else {
+        type = parseType(parser, context);
       }
+
       consume(parser, context, SyntaxKind.RightParen);
       const arrowToken = consumeOptToken(parser, context, SyntaxKind.Arrow);
       if (arrowToken) {
@@ -7601,7 +7651,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     return createParenthesizedType(type, pos, parser.curPos);
   }
 
- const type = parseType(parser, context);
+  const type = parseType(parser, context);
 
   // - `type a = (bj[c])[d];`
   // - `type a = (bj[c]) => T;`

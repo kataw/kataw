@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T;
+type a = (([-1] | x | q & (x)) => T) => T
 `````
 
 ## Options
@@ -46,8 +46,8 @@ type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 50,
-                    "end": 53
+                    "start": 36,
+                    "end": 39
                 },
                 "parameters": {
                     "kind": 279,
@@ -159,97 +159,30 @@ type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T;
                                 "end": 33
                             },
                             "returnType": {
-                                "kind": 137,
-                                "types": [
-                                    {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
-                                            "start": 33,
-                                            "end": 35
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
-                                        "start": 33,
-                                        "end": 35
-                                    },
-                                    {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 37,
-                                            "end": 39
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
-                                        "start": 37,
-                                        "end": 39
-                                    },
-                                    {
-                                        "kind": 138,
-                                        "types": [
-                                            {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "q",
-                                                    "rawText": "q",
-                                                    "flags": 96,
-                                                    "start": 41,
-                                                    "end": 43
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 0,
-                                                "start": 41,
-                                                "end": 43
-                                            },
-                                            {
-                                                "kind": 260,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "x",
-                                                        "rawText": "x",
-                                                        "flags": 96,
-                                                        "start": 47,
-                                                        "end": 48
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 0,
-                                                    "start": 45,
-                                                    "end": 48
-                                                },
-                                                "flags": 0,
-                                                "start": 45,
-                                                "end": 49
-                                            }
-                                        ],
-                                        "flags": 0,
-                                        "start": 43,
-                                        "end": 49
-                                    }
-                                ],
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "start": 33,
+                                    "end": 35
+                                },
+                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 35,
-                                "end": 49
+                                "start": 33,
+                                "end": 35
                             },
                             "typeParameters": null,
                             "flags": 0,
                             "start": 8,
-                            "end": 49
+                            "end": 35
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 8,
-                    "end": 53
+                    "end": 39
                 },
                 "returnType": {
                     "kind": 144,
@@ -258,30 +191,30 @@ type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
-                        "start": 53,
-                        "end": 55
+                        "start": 39,
+                        "end": 41
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 53,
-                    "end": 55
+                    "start": 39,
+                    "end": 41
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 55
+                "end": 41
             },
             "flags": 16,
             "start": 0,
-            "end": 56
+            "end": 41
         }
     ],
     "isModule": false,
-    "source": "type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T;",
+    "source": "type a = (([-1] | x | q & (x)) => T) => T",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 56
+    "end": 41
 }
 ```
 

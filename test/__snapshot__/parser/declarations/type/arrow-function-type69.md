@@ -44,37 +44,113 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
             "type": {
                 "kind": 260,
                 "type": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
+                    "kind": 260,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 136,
+                            "type": {
+                                "kind": 268,
+                                "objectType": {
+                                    "kind": 134299649,
+                                    "text": "symbol",
+                                    "rawText": "symbol",
+                                    "flags": 96,
+                                    "start": 12,
+                                    "end": 18
+                                },
+                                "indexType": {
+                                    "kind": 134234353,
+                                    "properties": [
+                                        {
+                                            "kind": 195,
+                                            "protoKeyword": null,
+                                            "name": null,
+                                            "key": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 21,
+                                                    "end": 22
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 21,
+                                                "end": 22
+                                            },
+                                            "value": {
+                                                "kind": 134234347,
+                                                "flags": 64,
+                                                "start": 24,
+                                                "end": 30
+                                            },
+                                            "staticToken": null,
+                                            "flags": 0,
+                                            "start": 20,
+                                            "end": 30
+                                        }
+                                    ],
+                                    "flags": 0,
+                                    "start": 19,
+                                    "end": 31
+                                },
+                                "flags": 0,
+                                "start": 19,
+                                "end": 33
+                            },
+                            "flags": 0,
+                            "start": 33,
+                            "end": 33
+                        },
+                        "typeParameters": null,
+                        "flags": 0,
+                        "start": 11,
+                        "end": 33
+                    },
+                    "flags": 0,
                     "start": 11,
-                    "end": 11
+                    "end": 33
                 },
                 "flags": 0,
                 "start": 8,
-                "end": 11
+                "end": 33
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 33
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 132,
-                    "expressions": [],
+                    "kind": 121,
+                    "expression": {
+                        "kind": 121,
+                        "expression": {
+                            "kind": 132,
+                            "expressions": [],
+                            "flags": 32,
+                            "start": 35,
+                            "end": 84
+                        },
+                        "flags": 32,
+                        "start": 35,
+                        "end": 84
+                    },
                     "flags": 32,
-                    "start": 11,
+                    "start": 34,
                     "end": 84
                 },
                 "flags": 32,
-                "start": 11,
+                "start": 33,
                 "end": 84
             },
             "flags": 16,
-            "start": 11,
+            "start": 33,
             "end": 84
         },
         {
@@ -367,7 +443,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
 ### Diagnostics
 
 ```javascript
-✖ Type expected - start: 11, end: 12
+✖ Type expected - start: 33, end: 34
 ✖ An member access expression should take an argument. - start: 35, end: 58
 ✖ Identifier expected - start: 57, end: 58
 ✖ An member access expression should take an argument. - start: 35, end: 60

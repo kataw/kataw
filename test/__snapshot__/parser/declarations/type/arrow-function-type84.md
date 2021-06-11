@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-type X = (x?) => T;
+type a = (() => T) => T
 `````
 
 ## Options
@@ -34,8 +34,8 @@ type X = (x?) => T;
             },
             "name": {
                 "kind": 134299649,
-                "text": "X",
-                "rawText": "X",
+                "text": "a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 4,
                 "end": 6
@@ -46,39 +46,55 @@ type X = (x?) => T;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 13,
-                    "end": 16
+                    "start": 18,
+                    "end": 21
                 },
                 "parameters": {
                     "kind": 279,
                     "parameters": [
                         {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 11
-                            },
-                            "optionalToken": {
-                                "kind": 134217750,
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
                                 "flags": 64,
-                                "start": 11,
-                                "end": 12
+                                "start": 12,
+                                "end": 15
                             },
-                            "types": null,
+                            "parameters": {
+                                "kind": 279,
+                                "parameters": [
+                                    []
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 8,
+                                "end": 15
+                            },
+                            "returnType": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "start": 15,
+                                    "end": 17
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 15,
+                                "end": 17
+                            },
+                            "typeParameters": null,
                             "flags": 0,
                             "start": 8,
-                            "end": 12
+                            "end": 17
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 8,
-                    "end": 12
+                    "end": 21
                 },
                 "returnType": {
                     "kind": 144,
@@ -87,30 +103,30 @@ type X = (x?) => T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
-                        "start": 16,
-                        "end": 18
+                        "start": 21,
+                        "end": 23
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 16,
-                    "end": 18
+                    "start": 21,
+                    "end": 23
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 18
+                "end": 23
             },
             "flags": 16,
             "start": 0,
-            "end": 19
+            "end": 23
         }
     ],
     "isModule": false,
-    "source": "type X = (x?) => T;",
+    "source": "type a = (() => T) => T",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 19
+    "end": 23
 }
 ```
 
@@ -118,12 +134,12 @@ type X = (x?) => T;
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ An optional parameter cannot be used without an ':' in an arrow function type parameter list - start: 8, end: 13
-
+✔ No errors
 ```
 
