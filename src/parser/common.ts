@@ -56,7 +56,7 @@ export const enum Context {
   Module = 1 << 20, // If node was parsed in module goal context
   InClassBody = 1 << 21, // If node was parsed in a class body. Used with 'PrivateIdentifiers'
   InConditionalExpr = 1 << 22, // If node was parsed as part of 'ConditionalExpression'
-  InTypes = 1 << 23, // If node was parsed in the type system context
+  ArrowOrigin = 1 << 24, // If node origin was not part of the types.
   AllowImportMeta = 1 << 25, // Allows parsing 'Import meta'. *Only* allowed for module goal
   LexicalContext = 1 << 26, // If node was parsed in a lexical context,
   DecoratorContext = 1 << 27

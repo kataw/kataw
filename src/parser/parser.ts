@@ -4451,7 +4451,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           context,
           scope,
           /*typeParameters */ typeParameters,
-          /* returnType */ isType ? parseTypeAnnotation(parser, context | Context.InTypes) : null,
+          /* returnType */ isType ? parseTypeAnnotation(parser, context | Context.ArrowOrigin) : null,
           /* params */ [],
           /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.ExpressionNode,
@@ -4831,7 +4831,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           context,
           scope,
           typeParameters,
-          parseTypeAnnotation(parser, context | Context.InTypes),
+          parseTypeAnnotation(parser, context | Context.ArrowOrigin),
           [expression],
           null,
           /* nodeFlags */ flags,
@@ -7499,7 +7499,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     }
     consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
-    if (parser.token === SyntaxKind.Arrow) {
+    if ((context & Context.ArrowOrigin) === 0 && parser.token === SyntaxKind.Arrow) {
       return createArrowFunctionType(
         consumeToken(parser, context, SyntaxKind.Arrow),
         arg,
@@ -7550,7 +7550,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
   const type = parseType(parser, context);
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
-    if (context & Context.InTypes || parser.token !== SyntaxKind.Arrow) {
+    if (context & Context.ArrowOrigin || parser.token !== SyntaxKind.Arrow) {
       return createParenthesizedType(type, pos, parser.curPos);
     }
     return createArrowFunctionType(
@@ -7598,7 +7598,7 @@ function parseTypeReference(parser: ParserState, context: Context): TypeReferenc
       0b00000000110000000100000000000000,
       pos
     ),
-    parseTypeParameterInstantiationList(parser, context),
+    parseTypeParameterInstantiationList(parser, (context | context & Context.ArrowOrigin) ^ context & Context.ArrowOrigin),
     pos,
     parser.curPos
   );
@@ -7682,7 +7682,7 @@ function parseTypeParameter(parser: ParserState, context: Context, requireInitia
   const name = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
   const type = parseTypeAnnotation(parser, context);
   const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
-    ? parseType(parser, context | Context.InTypes)
+    ? parseType(parser, context | Context.ArrowOrigin)
     : null;
   if (requireInitializer && !defaultType && parser.previousErrorPos !== parser.pos) {
     parser.previousErrorPos = parser.pos;

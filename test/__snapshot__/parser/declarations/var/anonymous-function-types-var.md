@@ -148,21 +148,20 @@ var f = (): (number) => 123;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 48,
+                                "end": 51
+                            },
                             "typeParameters": null,
                             "parameters": [],
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "type": {
-                                    "kind": 261,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 48,
-                                        "end": 51
-                                    },
-                                    "parameters": {
+                                    "kind": 260,
+                                    "type": {
                                         "kind": 144,
                                         "id": {
                                             "kind": 134299649,
@@ -177,27 +176,20 @@ var f = (): (number) => 123;
                                         "start": 39,
                                         "end": 47
                                     },
-                                    "returnType": {
-                                        "kind": 134217968,
-                                        "value": 123,
-                                        "flags": 0,
-                                        "start": 51,
-                                        "end": 55
-                                    },
-                                    "typeParameters": null,
                                     "flags": 0,
                                     "start": 39,
-                                    "end": 55
+                                    "end": 48
                                 },
                                 "flags": 0,
                                 "start": 38,
-                                "end": 55
+                                "end": 48
                             },
                             "contents": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 55,
+                                "kind": 201392130,
+                                "text": 123,
+                                "rawText": "123",
+                                "flags": 96,
+                                "start": 51,
                                 "end": 55
                             },
                             "flags": 32,
@@ -231,12 +223,13 @@ var f = (): (number) => 123;
 
 ```javascript
 
+var f = (x) =>  1;
+var f = () =>  123;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 55, end: 56
-
+✔ No errors
 ```
 
