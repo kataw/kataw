@@ -129,7 +129,6 @@ export async function autogen(files: string[], conservative: boolean) {
 > :: case: ${c.split('\n').join('\n>          ')}
 ## Options
 
-###
 \`\`\`\`\`js
 ${JSON.stringify(options.parserOptions)}
 \`\`\`\`\`
