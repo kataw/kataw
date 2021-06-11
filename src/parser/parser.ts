@@ -8337,8 +8337,8 @@ function parseObjectTypeProperty(
   pos: number
 ): ObjectTypeProperty {
   let key;
-  const getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
-  const setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
+  let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
+  let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
 
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const token = parser.token;
