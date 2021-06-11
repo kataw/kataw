@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/super/super-no-errors/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\super\super-no-errors\gen\class-method
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/gen/class-method
 > :: test: class-method
 > :: case: new super()
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

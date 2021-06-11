@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\binary\gen\in_array
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/in_array
 > :: test: in array
 > :: case: a > b instanceof c
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

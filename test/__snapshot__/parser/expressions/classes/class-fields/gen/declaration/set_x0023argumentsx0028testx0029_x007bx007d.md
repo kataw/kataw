@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\classes\class-fields\gen\declaration
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/declaration
 > :: test: declaration
 > :: case: set #arguments(test) {}
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

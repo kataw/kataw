@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/binary/exponentiation-perator-errors/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\binary\exponentiation-perator-errors\gen\in_if-statement
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/binary/exponentiation-perator-errors/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/binary/exponentiation-perator-errors/gen/in_if-statement
 > :: test: in if-statement
 > :: case: void ** 1
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/call/trailing_comma/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\call\trailing_comma\gen\not_just_commas
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/call/trailing_comma/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/call/trailing_comma/gen/not_just_commas
 > :: test: not just commas
 > :: case: Infinity
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

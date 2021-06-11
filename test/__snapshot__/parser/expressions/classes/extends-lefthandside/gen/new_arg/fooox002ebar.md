@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\classes\extends-lefthandside\gen\new_arg
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/new_arg
 > :: test: new arg
 > :: case: fooo.bar
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

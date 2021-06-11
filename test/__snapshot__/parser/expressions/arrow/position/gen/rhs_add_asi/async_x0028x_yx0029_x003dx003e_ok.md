@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\arrow\position\gen\rhs_add_asi
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/rhs_add_asi
 > :: test: rhs add asi
 > :: case: async (x, y) => ok
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

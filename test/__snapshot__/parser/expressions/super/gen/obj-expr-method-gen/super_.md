@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/super/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\super\gen\obj-expr-method-gen
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/super/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/super/gen/obj-expr-method-gen
 > :: test: obj-expr-method-gen
 > :: case: super;
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw8/test\__snapshot__\parser\miscellaneous\should-pass\gen\stand-alone
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /* f */ { /* g */ ; /* h */ ; /* i */ }/* after */;
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

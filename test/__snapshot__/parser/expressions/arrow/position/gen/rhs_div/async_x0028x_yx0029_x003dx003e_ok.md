@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\arrow\position\gen\rhs_div
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/rhs_div
 > :: test: rhs div
 > :: case: async (x, y) => ok
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

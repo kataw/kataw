@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/await/async-await-errors/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\await\async-await-errors\gen\stand_alone
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/gen/stand_alone
 > :: test: stand alone
 > :: case: var asyncFn = async () => var await = 'test';
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

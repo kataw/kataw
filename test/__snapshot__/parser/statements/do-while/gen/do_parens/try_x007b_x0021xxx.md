@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw8/test\__snapshot__\parser\statements\do-while\gen\do_parens
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
+- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/do_parens
 > :: test: do parens
 > :: case: try { !xxx
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

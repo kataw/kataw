@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\await\gen\simple
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
 > :: test: simple
 > :: case: let x = function f(foo = await bar){
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/classes/method-name/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\classes\method-name\gen\method-gen
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/classes/method-name/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/classes/method-name/gen/method-gen
 > :: test: method-gen
 > :: case: protected
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

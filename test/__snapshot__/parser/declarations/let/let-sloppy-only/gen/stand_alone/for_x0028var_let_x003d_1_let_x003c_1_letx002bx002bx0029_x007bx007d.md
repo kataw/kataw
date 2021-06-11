@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/declarations/let/let-sloppy-only/autogen.md
-- Path: kataw8/test\__snapshot__\parser\declarations\let\let-sloppy-only\gen\stand_alone
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/declarations/let/let-sloppy-only/autogen.md
+- Path: kataw/test/__snapshot__/parser/declarations/let/let-sloppy-only/gen/stand_alone
 > :: test: stand alone
 > :: case: for (var let = 1; let < 1; let++) {}
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js
