@@ -1,4 +1,4 @@
-# Printer
+# Type checking
 
 **WIP!**
 
