@@ -47,6 +47,7 @@ type A = { [string]: number };
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -54,13 +55,12 @@ type A = { [string]: number };
                             "start": 12,
                             "end": 18
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 20,
                             "end": 27
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 27

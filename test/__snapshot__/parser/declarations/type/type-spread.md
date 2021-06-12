@@ -57,6 +57,7 @@ type D32 = {p?: number};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -64,13 +65,12 @@ type D32 = {p?: number};
                             "start": 11,
                             "end": 17
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 19,
                             "end": 26
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 26
@@ -653,6 +653,7 @@ type D32 = {p?: number};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -660,13 +661,12 @@ type D32 = {p?: number};
                             "start": 233,
                             "end": 239
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 241,
                             "end": 248
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 232,
                         "end": 249
@@ -749,6 +749,7 @@ type D32 = {p?: number};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -756,13 +757,12 @@ type D32 = {p?: number};
                             "start": 285,
                             "end": 291
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 293,
                             "end": 300
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 284,
                         "end": 301

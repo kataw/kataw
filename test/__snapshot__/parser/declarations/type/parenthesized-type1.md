@@ -44,11 +44,11 @@ type X = (x & y);
             "type": {
                 "kind": 260,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 138,
-                        "types": [
-                            {
+                    "kind": 138,
+                    "types": [
+                        {
+                            "kind": 144,
+                            "id": {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
@@ -56,29 +56,29 @@ type X = (x & y);
                                 "start": 10,
                                 "end": 11
                             },
-                            {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 13,
-                                    "end": 15
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 8,
+                            "end": 11
+                        },
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
                                 "start": 13,
                                 "end": 15
-                            }
-                        ],
-                        "flags": 0,
-                        "start": 11,
-                        "end": 15
-                    },
-                    "typeParameters": null,
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 13,
+                            "end": 15
+                        }
+                    ],
                     "flags": 0,
-                    "start": 8,
+                    "start": 11,
                     "end": 15
                 },
                 "flags": 0,

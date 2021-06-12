@@ -60,6 +60,7 @@ type a = ({} | { [x]?:string}) => T;
                                 {
                                     "kind": 195,
                                     "protoKeyword": null,
+                                    "staticToken": null,
                                     "name": null,
                                     "key": {
                                         "kind": 144,
@@ -76,7 +77,7 @@ type a = ({} | { [x]?:string}) => T;
                                         "start": 16,
                                         "end": 19
                                     },
-                                    "value": {
+                                    "type": {
                                         "kind": 134217970,
                                         "nullableToken": {
                                             "kind": 134217750,
@@ -102,7 +103,6 @@ type a = ({} | { [x]?:string}) => T;
                                         "start": 20,
                                         "end": 21
                                     },
-                                    "staticToken": null,
                                     "flags": 0,
                                     "start": 16,
                                     "end": 21

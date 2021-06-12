@@ -47,6 +47,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 260,
@@ -67,6 +68,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                 {
                                                     "kind": 195,
                                                     "protoKeyword": null,
+                                                    "staticToken": null,
                                                     "name": null,
                                                     "key": {
                                                         "kind": 260,
@@ -156,13 +158,12 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                         "start": 16,
                                                         "end": 33
                                                     },
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 134234347,
                                                         "flags": 64,
                                                         "start": 35,
                                                         "end": 41
                                                     },
-                                                    "staticToken": null,
                                                     "flags": 0,
                                                     "start": 15,
                                                     "end": 41
@@ -235,13 +236,12 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                             "start": 11,
                             "end": 54
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234347,
                             "flags": 64,
                             "start": 56,
                             "end": 62
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 62

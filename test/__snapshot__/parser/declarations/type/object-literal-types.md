@@ -710,6 +710,7 @@ type T9 = { [param: string]: U };
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -717,7 +718,7 @@ type T9 = { [param: string]: U };
                             "start": 229,
                             "end": 235
                         },
-                        "value": {
+                        "type": {
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
@@ -732,7 +733,6 @@ type T9 = { [param: string]: U };
                             "start": 237,
                             "end": 239
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 227,
                         "end": 239
@@ -771,6 +771,7 @@ type T9 = { [param: string]: U };
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "param",
@@ -785,7 +786,7 @@ type T9 = { [param: string]: U };
                             "start": 262,
                             "end": 269
                         },
-                        "value": {
+                        "type": {
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
@@ -800,7 +801,6 @@ type T9 = { [param: string]: U };
                             "start": 271,
                             "end": 273
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 254,
                         "end": 273

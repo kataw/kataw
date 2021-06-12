@@ -11,26 +11,26 @@ export interface ObjectTypeIndexer extends SyntaxNode {
   readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null;
   readonly key: TypeNode;
-  readonly value: TypeNode;
+  readonly type: TypeNode;
   readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
 }
 
 export function createObjectTypeIndexer(
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
+  staticToken: SyntaxToken<TokenSyntaxKind> | null,
   name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null,
   key: TypeNode,
-  value: TypeNode,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  type: TypeNode,
   start: number,
   end: number
 ): ObjectTypeIndexer {
   return {
     kind: SyntaxKind.ObjectTypeIndexer,
     protoKeyword,
+    staticToken,
     name,
     key,
-    value,
-    staticToken,
+    type,
     flags: NodeFlags.None,
     start,
     end

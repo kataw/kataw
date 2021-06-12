@@ -44,10 +44,10 @@ type a = (bj[c])
             "type": {
                 "kind": 260,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 268,
-                        "objectType": {
+                    "kind": 268,
+                    "objectType": {
+                        "kind": 144,
+                        "id": {
                             "kind": 134299649,
                             "text": "bj",
                             "rawText": "bj",
@@ -55,29 +55,29 @@ type a = (bj[c])
                             "start": 10,
                             "end": 12
                         },
-                        "indexType": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "c",
-                                "rawText": "c",
-                                "flags": 96,
-                                "start": 13,
-                                "end": 14
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
+                        "typeParameters": null,
+                        "flags": 0,
+                        "start": 8,
+                        "end": 12
+                    },
+                    "indexType": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "c",
+                            "rawText": "c",
+                            "flags": 96,
                             "start": 13,
                             "end": 14
                         },
+                        "typeParameters": null,
                         "flags": 0,
                         "start": 13,
-                        "end": 16
+                        "end": 14
                     },
-                    "typeParameters": null,
                     "flags": 0,
-                    "start": 8,
-                    "end": 15
+                    "start": 13,
+                    "end": 16
                 },
                 "flags": 0,
                 "start": 8,

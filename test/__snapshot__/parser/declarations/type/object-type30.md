@@ -47,6 +47,7 @@ type a = {[(((-1) => [c|d]))]:string};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 260,
@@ -136,13 +137,12 @@ type a = {[(((-1) => [c|d]))]:string};
                             "start": 11,
                             "end": 28
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234347,
                             "flags": 64,
                             "start": 30,
                             "end": 36
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 36

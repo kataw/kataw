@@ -50,10 +50,10 @@ type a = (b[()=> c]) => c;
                     "end": 23
                 },
                 "parameters": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 268,
-                        "objectType": {
+                    "kind": 268,
+                    "objectType": {
+                        "kind": 144,
+                        "id": {
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",
@@ -61,50 +61,50 @@ type a = (b[()=> c]) => c;
                             "start": 10,
                             "end": 11
                         },
-                        "indexType": {
-                            "kind": 261,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 14,
-                                "end": 16
-                            },
-                            "parameters": {
-                                "kind": 208,
-                                "parameters": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 13,
-                                "end": 13
-                            },
-                            "returnType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 96,
-                                    "start": 16,
-                                    "end": 18
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
+                        "typeParameters": null,
+                        "flags": 0,
+                        "start": 8,
+                        "end": 11
+                    },
+                    "indexType": {
+                        "kind": 261,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 14,
+                            "end": 16
+                        },
+                        "parameters": {
+                            "kind": 208,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 13,
+                            "end": 13
+                        },
+                        "returnType": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "c",
+                                "rawText": "c",
+                                "flags": 96,
                                 "start": 16,
                                 "end": 18
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 12,
+                            "start": 16,
                             "end": 18
                         },
+                        "typeParameters": null,
                         "flags": 0,
                         "start": 12,
-                        "end": 20
+                        "end": 18
                     },
-                    "typeParameters": null,
                     "flags": 0,
-                    "start": 8,
-                    "end": 19
+                    "start": 12,
+                    "end": 20
                 },
                 "returnType": {
                     "kind": 144,

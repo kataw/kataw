@@ -7433,44 +7433,11 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
     // - ` type a = (bj[c])[d];`
     // - ` type a = (bj[c]) => T;`
-    if (parser.token === SyntaxKind.LeftBracket) {
-      while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-        const pos = parser.curPos;
-        if (parser.token & 0b00111000100000000100000000000000) {
-          const indexType = parseType(parser, context);
-          consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-          arg = createIndexedAccessType(arg, indexType, parser.nodeFlags, pos, parser.pos);
-        } else {
-          consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-          arg = createArrayType(arg, pos, parser.curPos);
-        }
-      }
-    }
-
     // - `type X = (x & y);`
     // - `type X = (x & y) => T;`
     // - `type a = (bj[c] & a | b) => T;`
-    if (parser.token === SyntaxKind.BitwiseAnd) {
-      const pos = parser.curPos;
-      const types = [arg];
-      arg = createUnionType(types, pos, parser.curPos);
-      while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
-        types.push(parsePostfixType(parser, context));
-      }
-      arg = createIntersectionType(types, pos, parser.curPos);
-    }
-
     // - `type X = (x | y);`
     // - `type X = (x | y) => T;`
-    if (parser.token === SyntaxKind.BitwiseOr) {
-      const pos = parser.curPos;
-      const types = [arg];
-      while (consumeOpt(parser, context, SyntaxKind.BitwiseOr)) {
-        types.push(parseIntersectionType(parser, context));
-      }
-      arg = createUnionType(types, pos, parser.curPos);
-    }
-
     // - `type X = (x) => T;`
     // - `type X = (x.y) => T;`
     // - `type X = (x.y<>) => T;`
@@ -7479,7 +7446,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     // - `type X = (x.y);`
     // - `type X = (x.y<>);`
     // - `type X = (x.y<z>);`
-    arg = convertToPrimaryType(parser, context, token, arg, pos);
+    arg = parsePrimaryTypeRest(parser, context, token, arg, pos);
 
     // A comma delimited list is only alowed if this is an arrow, but we don't know this yet.
     // That's okay because we allow a comma delimited list in a 'ParenthesizedType' for error
@@ -7577,45 +7544,12 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
         // - ` type a = ((bj[c])[d]);`
         // - ` type a = ((bj[c]) => T);`
-        if ((parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
-          while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-            const pos = parser.curPos;
-            if (parser.token & 0b00111000100000000100000000000000) {
-              const indexType = parseType(parser, context);
-              consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-              type = createIndexedAccessType(type, indexType, parser.nodeFlags, pos, parser.pos);
-            } else {
-              consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-              type = createArrayType(type, pos, parser.curPos);
-            }
-          }
-        }
-
         // - `type X = ((x & y));`
         // - `type X = ((x & y) => T);`
         // - `type a = ((bj[c] & a | b) => T);`
-        if ((parser.token as SyntaxKind) === SyntaxKind.BitwiseAnd) {
-          const pos = parser.curPos;
-          const types = [type];
-          type = createUnionType(types, pos, parser.curPos);
-          while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
-            types.push(parsePostfixType(parser, context));
-          }
-          type = createIntersectionType(types, pos, parser.curPos);
-        }
-
         // - `type X = ((x | y));`
         // - `type X = ((x | y) => T);`
-        if ((parser.token as SyntaxKind) === SyntaxKind.BitwiseOr) {
-          const pos = parser.curPos;
-          const types = [type];
-          while (consumeOpt(parser, context, SyntaxKind.BitwiseOr)) {
-            types.push(parseIntersectionType(parser, context));
-          }
-          type = createUnionType(types, pos, parser.curPos);
-        }
-
-        type = convertToPrimaryType(parser, context, token, type, pos);
+        type = parsePrimaryTypeRest(parser, context, token, type, pos);
 
         // A comma delimited list is only alowed if this is an arrow, but we don't know this yet.
         // That's okay because we allow a comma delimited list in a 'ParenthesizedType' for error
@@ -8635,52 +8569,64 @@ function parseObjectTypeIndexer(
       consume(parser, context, SyntaxKind.Colon);
       key = parseType(parser, context);
     } else {
-      key = convertToPrimaryType(parser, context, token, key, pos);
-      if (parser.token === SyntaxKind.LeftBracket) {
-        while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-          const pos = parser.curPos;
-          if (parser.token & 0b00111000100000000100000000000000) {
-            const indexType = parseType(parser, context);
-            consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-            key = createIndexedAccessType(key, indexType, parser.nodeFlags, pos, parser.pos);
-          } else {
-            consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-            key = createArrayType(key, pos, parser.curPos);
-          }
-        }
-      }
-
-      // - `type X = {[x & y]: string};`
-      // - `type X = {[bj[c] & a | b]: string};`
-      if (parser.token === SyntaxKind.BitwiseAnd) {
-        const pos = parser.curPos;
-        const types = [key];
-        key = createUnionType(types, pos, parser.curPos);
-        while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
-          types.push(parsePostfixType(parser, context));
-        }
-        key = createIntersectionType(types, pos, parser.curPos);
-      }
-
-      // - `type X = {[x | y]: string};`
-      if (parser.token === SyntaxKind.BitwiseOr) {
-        const pos = parser.curPos;
-        const types = [key];
-        while (consumeOpt(parser, context, SyntaxKind.BitwiseOr)) {
-          types.push(parseIntersectionType(parser, context));
-        }
-        key = createUnionType(types, pos, parser.curPos);
-      }
+      key = parsePrimaryTypeRest(parser, context, token, key, pos);
     }
   } else {
     key = parseType(parser, context);
   }
 
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
-  consume(parser, context, SyntaxKind.Colon);
-  const value = parseType(parser, context);
+  const type = parseReturnType(parser, context);
   parseTypeMemberSemicolon(parser, context);
-  return createObjectTypeIndexer(protoKeyword, name, key, value, staticKeyword, pos, parser.curPos);
+  return createObjectTypeIndexer(protoKeyword, staticKeyword, name, key, type, pos, parser.curPos);
+}
+
+function parsePrimaryTypeRest(
+  parser: ParserState,
+  context: Context,
+  token: SyntaxKind,
+  type: any,
+  pos: number
+): TypeNode {
+  type = convertToPrimaryType(parser, context, token, type, pos);
+  if (parser.token === SyntaxKind.LeftBracket) {
+    while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
+      const pos = parser.curPos;
+      if (parser.token & 0b00111000100000000100000000000000) {
+        const indexType = parseType(parser, context);
+        consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+        type = createIndexedAccessType(type, indexType, parser.nodeFlags, pos, parser.pos);
+      } else {
+        consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+        type = createArrayType(type, pos, parser.curPos);
+      }
+    }
+  }
+
+  if (parser.token === SyntaxKind.BitwiseAnd) {
+    const pos = parser.curPos;
+    const types = [type];
+    type = createUnionType(types, pos, parser.curPos);
+    while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
+      types.push(parsePostfixType(parser, context));
+    }
+    type = createIntersectionType(types, pos, parser.curPos);
+  }
+
+  if (parser.token === SyntaxKind.BitwiseOr) {
+    const pos = parser.curPos;
+    const types = [type];
+    while (consumeOpt(parser, context, SyntaxKind.BitwiseOr)) {
+      types.push(parseIntersectionType(parser, context));
+    }
+    type = createUnionType(types, pos, parser.curPos);
+  }
+  return type;
+}
+
+function parseReturnType(parser: ParserState, context: Context): TypeNode {
+  consume(parser, context, SyntaxKind.Colon);
+  return parseType(parser, context);
 }
 
 function parseComputedPropertyName(parser: ParserState, context: Context): ComputedPropertyName {

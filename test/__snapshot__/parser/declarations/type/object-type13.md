@@ -47,6 +47,7 @@ type a = {[{x:y}]:string};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 134234353,
@@ -91,13 +92,12 @@ type a = {[{x:y}]:string};
                             "start": 11,
                             "end": 16
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234347,
                             "flags": 64,
                             "start": 18,
                             "end": 24
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 24

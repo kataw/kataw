@@ -56,10 +56,10 @@ type a = ((bj[c])[d]);
                         "kind": 279,
                         "parameters": [
                             {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 268,
-                                    "objectType": {
+                                "kind": 268,
+                                "objectType": {
+                                    "kind": 144,
+                                    "id": {
                                         "kind": 134299649,
                                         "text": "bj",
                                         "rawText": "bj",
@@ -67,29 +67,29 @@ type a = ((bj[c])[d]);
                                         "start": 11,
                                         "end": 13
                                     },
-                                    "indexType": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "c",
-                                            "rawText": "c",
-                                            "flags": 96,
-                                            "start": 14,
-                                            "end": 15
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 8,
+                                    "end": 13
+                                },
+                                "indexType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "c",
+                                        "rawText": "c",
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 15
                                     },
+                                    "typeParameters": null,
                                     "flags": 0,
                                     "start": 14,
-                                    "end": 17
+                                    "end": 15
                                 },
-                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 8,
-                                "end": 16
+                                "start": 14,
+                                "end": 17
                             }
                         ],
                         "trailingComma": false,
@@ -148,10 +148,10 @@ type a = ((bj[c])[d]);
                 "objectType": {
                     "kind": 260,
                     "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 268,
-                            "objectType": {
+                        "kind": 268,
+                        "objectType": {
+                            "kind": 144,
+                            "id": {
                                 "kind": 134299649,
                                 "text": "bj",
                                 "rawText": "bj",
@@ -159,29 +159,29 @@ type a = ((bj[c])[d]);
                                 "start": 37,
                                 "end": 39
                             },
-                            "indexType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 96,
-                                    "start": 40,
-                                    "end": 41
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 34,
+                            "end": 39
+                        },
+                        "indexType": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "c",
+                                "rawText": "c",
+                                "flags": 96,
                                 "start": 40,
                                 "end": 41
                             },
+                            "typeParameters": null,
                             "flags": 0,
                             "start": 40,
-                            "end": 43
+                            "end": 41
                         },
-                        "typeParameters": null,
                         "flags": 0,
-                        "start": 34,
-                        "end": 42
+                        "start": 40,
+                        "end": 43
                     },
                     "flags": 0,
                     "start": 34,

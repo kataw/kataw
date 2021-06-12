@@ -50,8 +50,8 @@ type a = (a[][][][][][]) => T;
                     "end": 27
                 },
                 "parameters": {
-                    "kind": 144,
-                    "id": {
+                    "kind": 136,
+                    "type": {
                         "kind": 136,
                         "type": {
                             "kind": 136,
@@ -62,8 +62,8 @@ type a = (a[][][][][][]) => T;
                                     "type": {
                                         "kind": 136,
                                         "type": {
-                                            "kind": 136,
-                                            "type": {
+                                            "kind": 144,
+                                            "id": {
                                                 "kind": 134299649,
                                                 "text": "a",
                                                 "rawText": "a",
@@ -71,33 +71,33 @@ type a = (a[][][][][][]) => T;
                                                 "start": 10,
                                                 "end": 11
                                             },
+                                            "typeParameters": null,
                                             "flags": 0,
-                                            "start": 12,
-                                            "end": 13
+                                            "start": 8,
+                                            "end": 11
                                         },
                                         "flags": 0,
-                                        "start": 14,
-                                        "end": 15
+                                        "start": 12,
+                                        "end": 13
                                     },
                                     "flags": 0,
-                                    "start": 16,
-                                    "end": 17
+                                    "start": 14,
+                                    "end": 15
                                 },
                                 "flags": 0,
-                                "start": 18,
-                                "end": 19
+                                "start": 16,
+                                "end": 17
                             },
                             "flags": 0,
-                            "start": 20,
-                            "end": 21
+                            "start": 18,
+                            "end": 19
                         },
                         "flags": 0,
-                        "start": 22,
-                        "end": 23
+                        "start": 20,
+                        "end": 21
                     },
-                    "typeParameters": null,
                     "flags": 0,
-                    "start": 8,
+                    "start": 22,
                     "end": 23
                 },
                 "returnType": {
