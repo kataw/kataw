@@ -57,7 +57,14 @@ type D32 = {p?: number};
                     {
                         "kind": 195,
                         "protoKeyword": null,
-                        "name": null,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 96,
+                            "start": 11,
+                            "end": 17
+                        },
                         "key": {
                             "kind": 134234347,
                             "flags": 64,
@@ -653,7 +660,14 @@ type D32 = {p?: number};
                     {
                         "kind": 195,
                         "protoKeyword": null,
-                        "name": null,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 96,
+                            "start": 233,
+                            "end": 239
+                        },
                         "key": {
                             "kind": 134234347,
                             "flags": 64,
@@ -749,7 +763,14 @@ type D32 = {p?: number};
                     {
                         "kind": 195,
                         "protoKeyword": null,
-                        "name": null,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 96,
+                            "start": 285,
+                            "end": 291
+                        },
                         "key": {
                             "kind": 134234347,
                             "flags": 64,

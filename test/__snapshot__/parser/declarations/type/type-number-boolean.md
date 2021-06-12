@@ -47,7 +47,14 @@ type A = { [string | boolean]: number };
                     {
                         "kind": 195,
                         "protoKeyword": null,
-                        "name": null,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 96,
+                            "start": 12,
+                            "end": 18
+                        },
                         "key": {
                             "kind": 137,
                             "types": [

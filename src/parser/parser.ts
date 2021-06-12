@@ -7376,6 +7376,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
   const pos = parser.curPos;
 
   nextToken(parser, context);
+  let token = parser.token;
 
   if (parser.token === SyntaxKind.RightParen || parser.token === SyntaxKind.Ellipsis) {
     const params = parseFunctionTypeParameters(parser, context);
@@ -7478,12 +7479,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     // - `type X = (x.y);`
     // - `type X = (x.y<>);`
     // - `type X = (x.y<z>);`
-    arg = createTypeReference(
-      parseEntityName(parser, context, arg, 0b00000000110000000100000000000000, pos),
-      parseTypeParameterInstantiationList(parser, context),
-      pos,
-      parser.curPos
-    );
+    arg = convertToPrimaryType(parser, context, token, arg, pos);
 
     // A comma delimited list is only alowed if this is an arrow, but we don't know this yet.
     // That's okay because we allow a comma delimited list in a 'ParenthesizedType' for error
@@ -7523,6 +7519,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
   // '('
   if (parser.token === SyntaxKind.LeftParen) {
     nextToken(parser, context);
+     token = parser.token;
     let type: any;
     if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
       type = createArrowFunctionType(
@@ -7618,12 +7615,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           type = createUnionType(types, pos, parser.curPos);
         }
 
-        type = createTypeReference(
-          parseEntityName(parser, context, type, 0b00000000110000000100000000000000, pos),
-          parseTypeParameterInstantiationList(parser, context),
-          pos,
-          parser.curPos
-        );
+        type = convertToPrimaryType(parser, context, token, type, pos);
 
         // A comma delimited list is only alowed if this is an arrow, but we don't know this yet.
         // That's okay because we allow a comma delimited list in a 'ParenthesizedType' for error
@@ -8352,6 +8344,23 @@ function parseObjectTypeSpreadProperty(
   );
 }
 
+function parseObjectTypeParameter(parser: ParserState, context: Context): any {
+  const openingParensExists = consume(
+    parser,
+    context,
+    SyntaxKind.LeftParen,
+    DiagnosticCode.Missing_an_opening_parentheses
+  );
+  const params = parseFunctionTypeParameters(parser, context);
+  consume(
+    parser,
+    context,
+    SyntaxKind.RightParen,
+    openingParensExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Unexpected_token
+  );
+  return params;
+}
+
 function parseObjectTypeProperty(
   parser: ParserState,
   context: Context,
@@ -8487,19 +8496,7 @@ function parseObjectTypeCallProperty(
     );
   }
   const typeParameters = parseTypeParameterDeclaration(parser, context);
-  const openingParensExists = consume(
-    parser,
-    context,
-    SyntaxKind.LeftParen,
-    DiagnosticCode.Missing_an_opening_parentheses
-  );
-  const params = parseFunctionTypeParameters(parser, context);
-  consume(
-    parser,
-    context,
-    SyntaxKind.RightParen,
-    openingParensExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Unexpected_token
-  );
+  const params = parseObjectTypeParameter(parser, context);
   consume(parser, context, SyntaxKind.Colon);
   const returnType = parseType(parser, context);
   consumeOpt(parser, context, SyntaxKind.Semicolon);
@@ -8539,19 +8536,7 @@ function parseObjectTypeInternalSlot(
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     const typeParameters = parseTypeParameterDeclaration(parser, context);
-    const openingParensExists = consume(
-      parser,
-      context,
-      SyntaxKind.LeftParen,
-      DiagnosticCode.Missing_an_opening_parentheses
-    );
-    const params = parseFunctionTypeParameters(parser, context);
-    consume(
-      parser,
-      context,
-      SyntaxKind.RightParen,
-      openingParensExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Unexpected_token
-    );
+    const params = parseObjectTypeParameter(parser, context);
     consume(parser, context, SyntaxKind.Colon);
     const returnType = parseType(parser, context);
     const value = createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
@@ -8581,6 +8566,37 @@ function nextTokenIsNotColonOrQuestionMark(parser: ParserState, context: Context
   nextToken(parser, context);
   return parser.token !== SyntaxKind.QuestionMark && parser.token !== SyntaxKind.Colon;
 }
+
+function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKind, key: any, pos: number) {
+  switch(t) {
+    case SyntaxKind.StringLiteral:
+    case SyntaxKind.AnyKeyword:
+    case SyntaxKind.NullKeyword:
+    case SyntaxKind.UnknownKeyword:
+    case SyntaxKind.UndefinedKeyword:
+    case SyntaxKind.ObjectKeyword:
+    case SyntaxKind.NeverKeyword:
+    case SyntaxKind.VoidKeyword:
+    case SyntaxKind.SymbolKeyword:
+    case SyntaxKind.MixedKeyword:
+    case SyntaxKind.NumberKeyword:
+    case SyntaxKind.StringKeyword:
+    case SyntaxKind.BooleanKeyword:
+    case SyntaxKind.EmptyKeyword:
+      return createToken(t, NodeFlags.ChildLess, key.start, key.end);
+    default:
+      return createTypeReference(
+        parseEntityName(parser, context, key, 0b00000000110000000100000000000000, pos),
+        parseTypeParameterInstantiationList(
+          parser,
+          (context | (context & Context.ArrowOrigin)) ^ (context & Context.ArrowOrigin)
+        ),
+        pos,
+        parser.curPos
+      );
+  }
+}
+
 function parseObjectTypeIndexer(
   parser: ParserState,
   context: Context,
@@ -8600,13 +8616,70 @@ function parseObjectTypeIndexer(
     );
   }
 
-  if (speculate(parser, context, nextTokenIsColon, /* rollback */ true)) {
-    name = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
-    consume(parser, context, SyntaxKind.Colon);
-    key = parseType(parser, context);
+  if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+    const token = parser.token;
+    name = parseIdentifier(parser, context, SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved);
+    if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) {
+      let optionalToken = null;
+      optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+
+      if (optionalToken) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error | DiagnosticKind.EarlyError,
+          diagnosticMap[DiagnosticCode.An_index_signature_parameter_cannot_have_a_question_mark],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      consume(parser, context, SyntaxKind.Colon);
+      key = parseType(parser, context);
+    } else {
+
+      key = convertToPrimaryType(parser, context, token, name, pos);
+
+      if (parser.token === SyntaxKind.LeftBracket) {
+        while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
+          const pos = parser.curPos;
+          if (parser.token & 0b00111000100000000100000000000000) {
+            const indexType = parseType(parser, context);
+            consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+            key = createIndexedAccessType(key, indexType, parser.nodeFlags, pos, parser.pos);
+          } else {
+            consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+            key = createArrayType(key, pos, parser.curPos);
+          }
+        }
+      }
+
+      // - `type X = (x & y);`
+      // - `type X = (x & y) => T;`
+      // - `type a = (bj[c] & a | b) => T;`
+      if (parser.token === SyntaxKind.BitwiseAnd) {
+        const pos = parser.curPos;
+        const types = [key];
+        key = createUnionType(types, pos, parser.curPos);
+        while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
+          types.push(parsePostfixType(parser, context));
+        }
+        key = createIntersectionType(types, pos, parser.curPos);
+      }
+
+      // - `type X = (x | y);`
+      // - `type X = (x | y) => T;`
+      if (parser.token === SyntaxKind.BitwiseOr) {
+        const pos = parser.curPos;
+        const types = [key];
+        while (consumeOpt(parser, context, SyntaxKind.BitwiseOr)) {
+          types.push(parseIntersectionType(parser, context));
+        }
+        key = createUnionType(types, pos, parser.curPos);
+      }
+    }
   } else {
     key = parseType(parser, context);
   }
+
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
   consume(parser, context, SyntaxKind.Colon);
   const value = parseType(parser, context);

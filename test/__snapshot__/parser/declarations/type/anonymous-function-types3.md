@@ -56,18 +56,9 @@ type A = (string,) => void
                             "kind": 149,
                             "ellipsisToken": null,
                             "name": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "string",
-                                    "rawText": "string",
-                                    "flags": 96,
-                                    "start": 10,
-                                    "end": 16
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 8,
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 10,
                                 "end": 16
                             },
                             "optionalToken": null,

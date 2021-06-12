@@ -236,5 +236,6 @@
   "A class field cannot have a field named 'constructor'": 244,
   "Class fields may not have a static property named 'prototype'": 245,
   "Cannot use the 'yield' keyword on the left-hand side of conditional expression in a generator context": 246,
-  "An optional parameter cannot be used without an ':' in an arrow function type parameter list": 247
+  "An optional parameter cannot be used without an ':' in an arrow function type parameter list": 247,
+  "An index signature parameter cannot have a question mark.": 248
 }

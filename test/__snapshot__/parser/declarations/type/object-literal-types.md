@@ -710,7 +710,14 @@ type T9 = { [param: string]: U };
                     {
                         "kind": 195,
                         "protoKeyword": null,
-                        "name": null,
+                        "name": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 96,
+                            "start": 229,
+                            "end": 235
+                        },
                         "key": {
                             "kind": 134234347,
                             "flags": 64,

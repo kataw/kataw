@@ -124,18 +124,9 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "kind": 149,
                                             "ellipsisToken": null,
                                             "name": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "number",
-                                                    "rawText": "number",
-                                                    "flags": 96,
-                                                    "start": 42,
-                                                    "end": 48
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 0,
-                                                "start": 40,
+                                                "kind": 134234345,
+                                                "flags": 64,
+                                                "start": 42,
                                                 "end": 48
                                             },
                                             "optionalToken": null,
@@ -709,18 +700,9 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                     "kind": 149,
                                                     "ellipsisToken": null,
                                                     "name": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "number",
-                                                            "rawText": "number",
-                                                            "flags": 96,
-                                                            "start": 197,
-                                                            "end": 203
-                                                        },
-                                                        "typeParameters": null,
-                                                        "flags": 0,
-                                                        "start": 195,
+                                                        "kind": 134234345,
+                                                        "flags": 64,
+                                                        "start": 197,
                                                         "end": 203
                                                     },
                                                     "optionalToken": null,

@@ -65,18 +65,9 @@ type T = Array<(string) => number>
                                     "end": 26
                                 },
                                 "parameters": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "string",
-                                        "rawText": "string",
-                                        "flags": 96,
-                                        "start": 16,
-                                        "end": 22
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 0,
-                                    "start": 15,
+                                    "kind": 134234347,
+                                    "flags": 64,
+                                    "start": 16,
                                     "end": 22
                                 },
                                 "returnType": {
