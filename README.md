@@ -122,13 +122,20 @@ while (true) {}
 
 You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
 
+## ESNext
+
+`Stage 3` proposals can be parsed if the `next` options are enabled.
+
+`Stage 1` and `stage 2` proposals are not supported because the specs drafts are changing all the time.
+
 
 ## Type annotations
 
 Kataw has it's own type system that is an improvement over `Typescript` and `Flow`, and it
 conform to the `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
-As everything else - it's developed for high performance.
+As everything else - it's developed for high performance and it consumes less memory than
+`Typescript` and `Flow`.
 
 It allows you to parse syntax like `function x(y: string, z: number): string | number {}` and other
 similiar syntax.
