@@ -7134,7 +7134,7 @@ function parsePostfixType(parser: ParserState, context: Context): TypeNode {
   let type = parsePrimaryType(parser, context);
   while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
     const pos = parser.curPos;
-    if (parser.token & 0b00011000100000000100000000000000) {
+    if (parser.token & 0b00111000100000000100000000000000) {
       const indexType = parseType(parser, context);
       consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
       type = createIndexedAccessType(type, indexType, parser.nodeFlags, pos, parser.pos);
@@ -7435,7 +7435,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     if (parser.token === SyntaxKind.LeftBracket) {
       while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
         const pos = parser.curPos;
-        if (parser.token & 0b00011000100000000100000000000000) {
+        if (parser.token & 0b00111000100000000100000000000000) {
           const indexType = parseType(parser, context);
           consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
           arg = createIndexedAccessType(arg, indexType, parser.nodeFlags, pos, parser.pos);
@@ -7583,7 +7583,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
         if ((parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
           while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
             const pos = parser.curPos;
-            if (parser.token & 0b00011000100000000100000000000000) {
+            if (parser.token & 0b00111000100000000100000000000000) {
               const indexType = parseType(parser, context);
               consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
               type = createIndexedAccessType(type, indexType, parser.nodeFlags, pos, parser.pos);
@@ -7643,7 +7643,10 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
             pos
           );
         }
-
+        // - `type X = (...(1) => T);`
+        // - `type X = (...([1]) => T);`
+      } else if ((parser.token as SyntaxKind) === SyntaxKind.Ellipsis) {
+        type = parseFunctionTypeParameter(parser, context);
         // - `type X = ((1));`
         // - `type X = ((1) => T);`
         // - `type X = (([1]) => T);`

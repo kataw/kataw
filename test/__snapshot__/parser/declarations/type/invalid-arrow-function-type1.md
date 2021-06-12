@@ -42,12 +42,18 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
             },
             "typeParameters": null,
             "type": {
-                "kind": 260,
-                "type": {
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 88,
+                    "end": 91
+                },
+                "parameters": {
                     "kind": 144,
                     "id": {
-                        "kind": 136,
-                        "type": {
+                        "kind": 268,
+                        "objectType": {
                             "kind": 136,
                             "type": {
                                 "kind": 136,
@@ -209,256 +215,240 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                             "start": 42,
                             "end": 43
                         },
+                        "indexType": {
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 81,
+                                "end": 84
+                            },
+                            "parameters": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 136,
+                                    "type": {
+                                        "kind": 136,
+                                        "type": {
+                                            "kind": 136,
+                                            "type": {
+                                                "kind": 268,
+                                                "objectType": {
+                                                    "kind": 268,
+                                                    "objectType": {
+                                                        "kind": 268,
+                                                        "objectType": {
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
+                                                            "start": 45,
+                                                            "end": 46
+                                                        },
+                                                        "indexType": {
+                                                            "kind": 138,
+                                                            "types": [
+                                                                {
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "a",
+                                                                        "rawText": "a",
+                                                                        "flags": 96,
+                                                                        "start": 47,
+                                                                        "end": 48
+                                                                    },
+                                                                    "typeParameters": null,
+                                                                    "flags": 0,
+                                                                    "start": 47,
+                                                                    "end": 48
+                                                                },
+                                                                {
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "b",
+                                                                        "rawText": "b",
+                                                                        "flags": 96,
+                                                                        "start": 50,
+                                                                        "end": 52
+                                                                    },
+                                                                    "typeParameters": null,
+                                                                    "flags": 0,
+                                                                    "start": 50,
+                                                                    "end": 52
+                                                                }
+                                                            ],
+                                                            "flags": 0,
+                                                            "start": 48,
+                                                            "end": 52
+                                                        },
+                                                        "flags": 0,
+                                                        "start": 47,
+                                                        "end": 54
+                                                    },
+                                                    "indexType": {
+                                                        "kind": 137,
+                                                        "types": [
+                                                            {
+                                                                "kind": 144,
+                                                                "id": {
+                                                                    "kind": 134299649,
+                                                                    "text": "c",
+                                                                    "rawText": "c",
+                                                                    "flags": 96,
+                                                                    "start": 54,
+                                                                    "end": 55
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 0,
+                                                                "start": 54,
+                                                                "end": 55
+                                                            },
+                                                            {
+                                                                "kind": 144,
+                                                                "id": {
+                                                                    "kind": 134299649,
+                                                                    "text": "d",
+                                                                    "rawText": "d",
+                                                                    "flags": 96,
+                                                                    "start": 57,
+                                                                    "end": 59
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 0,
+                                                                "start": 57,
+                                                                "end": 59
+                                                            }
+                                                        ],
+                                                        "flags": 0,
+                                                        "start": 55,
+                                                        "end": 59
+                                                    },
+                                                    "flags": 0,
+                                                    "start": 54,
+                                                    "end": 61
+                                                },
+                                                "indexType": {
+                                                    "kind": 134234353,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 193,
+                                                            "protoKeyword": null,
+                                                            "staticToken": null,
+                                                            "getKeyword": null,
+                                                            "setKeyword": null,
+                                                            "key": {
+                                                                "kind": 134299649,
+                                                                "text": "a",
+                                                                "rawText": "a",
+                                                                "flags": 96,
+                                                                "start": 62,
+                                                                "end": 63
+                                                            },
+                                                            "optionalToken": null,
+                                                            "value": {
+                                                                "kind": 148,
+                                                                "parameters": {
+                                                                    "kind": 208,
+                                                                    "parameters": [],
+                                                                    "trailingComma": false,
+                                                                    "flags": 32,
+                                                                    "start": 64,
+                                                                    "end": 64
+                                                                },
+                                                                "returnType": {
+                                                                    "kind": 134234347,
+                                                                    "flags": 64,
+                                                                    "start": 66,
+                                                                    "end": 72
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 0,
+                                                                "start": 63,
+                                                                "end": 72
+                                                            },
+                                                            "flags": 0,
+                                                            "start": 62,
+                                                            "end": 72
+                                                        }
+                                                    ],
+                                                    "flags": 0,
+                                                    "start": 61,
+                                                    "end": 73
+                                                },
+                                                "flags": 0,
+                                                "start": 61,
+                                                "end": 75
+                                            },
+                                            "flags": 0,
+                                            "start": 75,
+                                            "end": 76
+                                        },
+                                        "flags": 0,
+                                        "start": 77,
+                                        "end": 78
+                                    },
+                                    "flags": 0,
+                                    "start": 79,
+                                    "end": 80
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 44,
+                                "end": 80
+                            },
+                            "returnType": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "start": 84,
+                                    "end": 86
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 84,
+                                "end": 86
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 44,
+                            "end": 86
+                        },
                         "flags": 0,
                         "start": 44,
-                        "end": 44
+                        "end": 88
                     },
                     "typeParameters": null,
                     "flags": 0,
                     "start": 8,
-                    "end": 44
+                    "end": 87
                 },
+                "returnType": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 91,
+                        "end": 93
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 91,
+                    "end": 93
+                },
+                "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 44
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 44
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 536871042,
-                    "member": {
-                        "kind": 536871042,
-                        "member": {
-                            "kind": 536871042,
-                            "member": {
-                                "kind": 536871042,
-                                "member": {
-                                    "kind": 536871042,
-                                    "member": {
-                                        "kind": 536871042,
-                                        "member": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 45,
-                                            "end": 46
-                                        },
-                                        "expression": {
-                                            "kind": 198,
-                                            "left": {
-                                                "kind": 134299649,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 96,
-                                                "start": 47,
-                                                "end": 48
-                                            },
-                                            "operatorToken": {
-                                                "kind": 134252103,
-                                                "flags": 64,
-                                                "start": 48,
-                                                "end": 50
-                                            },
-                                            "right": {
-                                                "kind": 134299649,
-                                                "text": "b",
-                                                "rawText": "b",
-                                                "flags": 96,
-                                                "start": 50,
-                                                "end": 52
-                                            },
-                                            "flags": 32,
-                                            "start": 47,
-                                            "end": 52
-                                        },
-                                        "flags": 32,
-                                        "start": 44,
-                                        "end": 53
-                                    },
-                                    "expression": {
-                                        "kind": 198,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "c",
-                                            "rawText": "c",
-                                            "flags": 96,
-                                            "start": 54,
-                                            "end": 55
-                                        },
-                                        "operatorToken": {
-                                            "kind": 134251592,
-                                            "flags": 64,
-                                            "start": 55,
-                                            "end": 57
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "d",
-                                            "rawText": "d",
-                                            "flags": 96,
-                                            "start": 57,
-                                            "end": 59
-                                        },
-                                        "flags": 32,
-                                        "start": 54,
-                                        "end": 59
-                                    },
-                                    "flags": 32,
-                                    "start": 44,
-                                    "end": 60
-                                },
-                                "expression": {
-                                    "kind": 220,
-                                    "propertyList": {
-                                        "kind": 218,
-                                        "properties": [
-                                            {
-                                                "kind": 257,
-                                                "asyncKeyword": null,
-                                                "generatorToken": null,
-                                                "getKeyword": null,
-                                                "setKeyword": null,
-                                                "method": {
-                                                    "kind": 209,
-                                                    "name": {
-                                                        "kind": 134299649,
-                                                        "text": "a",
-                                                        "rawText": "a",
-                                                        "flags": 96,
-                                                        "start": 62,
-                                                        "end": 63
-                                                    },
-                                                    "typeParameters": null,
-                                                    "formalParameters": {
-                                                        "kind": 214,
-                                                        "formalParameterList": [],
-                                                        "trailingComma": false,
-                                                        "flags": 32,
-                                                        "start": 64,
-                                                        "end": 65
-                                                    },
-                                                    "returnType": {
-                                                        "kind": 139,
-                                                        "type": {
-                                                            "kind": 134234347,
-                                                            "flags": 64,
-                                                            "start": 66,
-                                                            "end": 72
-                                                        },
-                                                        "flags": 0,
-                                                        "start": 65,
-                                                        "end": 72
-                                                    },
-                                                    "contents": {
-                                                        "kind": 216,
-                                                        "functionStatementList": {
-                                                            "kind": 217,
-                                                            "directives": [],
-                                                            "statements": [],
-                                                            "flags": 32,
-                                                            "start": 72,
-                                                            "end": 72
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 72,
-                                                        "end": 72
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 63,
-                                                    "end": 72
-                                                },
-                                                "flags": 32,
-                                                "start": 62,
-                                                "end": 72
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 16,
-                                        "start": 62,
-                                        "end": 72
-                                    },
-                                    "flags": 48,
-                                    "start": 61,
-                                    "end": 73
-                                },
-                                "flags": 32,
-                                "start": 44,
-                                "end": 74
-                            },
-                            "expression": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 75,
-                                "end": 75
-                            },
-                            "flags": 32,
-                            "start": 44,
-                            "end": 76
-                        },
-                        "expression": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 77,
-                            "end": 77
-                        },
-                        "flags": 32,
-                        "start": 44,
-                        "end": 78
-                    },
-                    "expression": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 64,
-                        "start": 79,
-                        "end": 79
-                    },
-                    "flags": 32,
-                    "start": 44,
-                    "end": 80
-                },
-                "flags": 32,
-                "start": 44,
-                "end": 81
-            },
-            "flags": 16,
-            "start": 44,
-            "end": 81
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 96,
-                "start": 84,
-                "end": 86
-            },
-            "flags": 16,
-            "start": 84,
-            "end": 86
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 96,
-                "start": 91,
                 "end": 93
             },
             "flags": 16,
-            "start": 91,
+            "start": 0,
             "end": 94
         }
     ],
@@ -475,23 +465,12 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Type expected - start: 44, end: 45
-✖ Missing an opening brace - '{ - start: 72, end: 73
-✖ An member access expression should take an argument. - start: 44, end: 76
-✖ Identifier expected - start: 75, end: 76
-✖ An member access expression should take an argument. - start: 44, end: 78
-✖ Identifier expected - start: 77, end: 78
-✖ An member access expression should take an argument. - start: 44, end: 80
-✖ Identifier expected - start: 79, end: 80
-✖ Expected a `;` - start: 81, end: 84
-✖ Expected a `;` - start: 86, end: 87
-✖ Declaration or statement expected - start: 87, end: 88
-✖ Declaration or statement expected - start: 88, end: 91
-
+✔ No errors
 ```
 
