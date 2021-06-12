@@ -98,6 +98,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         "end": 28
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 30

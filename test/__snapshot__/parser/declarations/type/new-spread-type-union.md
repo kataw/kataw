@@ -96,6 +96,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                             "end": 18
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 14,
                                     "end": 19
@@ -138,6 +139,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                             "end": 24
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 20,
                                     "end": 25
@@ -153,6 +155,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                         "end": 25
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 9,
                 "end": 26

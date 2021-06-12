@@ -406,6 +406,7 @@ class two {
                             "end": 143
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 17,
                     "end": 145

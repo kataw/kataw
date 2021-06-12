@@ -65,6 +65,7 @@ function e(x: {}): () => string {
                             "type": {
                                 "kind": 134234353,
                                 "properties": [],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 13,
                                 "end": 16

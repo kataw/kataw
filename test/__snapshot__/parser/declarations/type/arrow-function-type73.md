@@ -119,6 +119,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                                 "end": 29
                                                                             }
                                                                         ],
+                                                                        "trailingComma": false,
                                                                         "flags": 0,
                                                                         "start": 19,
                                                                         "end": 30

@@ -79,6 +79,7 @@ type a = {x:y};
                         "end": 13
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 14

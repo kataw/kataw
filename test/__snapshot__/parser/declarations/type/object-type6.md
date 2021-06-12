@@ -93,6 +93,7 @@ type a = {"string":y.z};
                         "end": 22
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 23

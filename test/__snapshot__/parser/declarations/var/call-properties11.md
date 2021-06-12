@@ -51,6 +51,7 @@ var y : {} = function (x: number): string { return "hi"; };
                             "type": {
                                 "kind": 134234353,
                                 "properties": [],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 7,
                                 "end": 10

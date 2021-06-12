@@ -166,6 +166,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                         "end": 84
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 40,
                                 "end": 86

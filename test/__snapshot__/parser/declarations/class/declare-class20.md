@@ -88,6 +88,7 @@ declare class B {
                                 "returnType": {
                                     "kind": 134234353,
                                     "properties": [],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 36,
                                     "end": 39
@@ -102,6 +103,7 @@ declare class B {
                             "end": 40
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 42

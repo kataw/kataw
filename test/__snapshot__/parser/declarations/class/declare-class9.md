@@ -148,6 +148,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                             "end": 72
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 26,
                     "end": 74

@@ -107,6 +107,7 @@ type a = {x?: {x?:y}};
                                     "end": 19
                                 }
                             ],
+                            "trailingComma": false,
                             "flags": 0,
                             "start": 13,
                             "end": 20
@@ -116,6 +117,7 @@ type a = {x?: {x?:y}};
                         "end": 20
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 21

@@ -750,6 +750,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 224
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 207,
                                 "end": 225
@@ -1490,6 +1491,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 516
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 483,
                                 "end": 517
@@ -1695,6 +1697,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 577
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 566,
                                 "end": 579
@@ -1823,6 +1826,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 619
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 607,
                                 "end": 621
@@ -1944,6 +1948,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 664
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 649,
                                     "end": 665
@@ -2133,6 +2138,7 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 730
                                                 }
                                             ],
+                                            "trailingComma": false,
                                             "flags": 0,
                                             "start": 714,
                                             "end": 731
@@ -2142,6 +2148,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 731
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 705,
                                 "end": 732

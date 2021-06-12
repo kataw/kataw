@@ -2,13 +2,21 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
 export interface ObjectType extends SyntaxNode {
   readonly properties: any[];
+  readonly trailingComma: boolean;
 }
 
-export function createObjectType(properties: any[], start: number, end: number): ObjectType {
+export function createObjectType(
+  properties: any[],
+  trailingComma: boolean,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): ObjectType {
   return {
     kind: SyntaxKind.ObjectType,
     properties,
-    flags: NodeFlags.None,
+    trailingComma,
+    flags,
     start,
     end
   };

@@ -723,6 +723,7 @@ type T = { [string]: Class<null> }
                         "end": 228
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 204,
                 "end": 230

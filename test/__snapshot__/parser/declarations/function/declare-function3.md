@@ -221,6 +221,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                         "end": 57
                                                     }
                                                 ],
+                                                "trailingComma": false,
                                                 "flags": 0,
                                                 "start": 48,
                                                 "end": 58

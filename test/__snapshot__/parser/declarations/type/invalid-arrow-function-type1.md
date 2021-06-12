@@ -199,6 +199,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                 "end": 37
                                             }
                                         ],
+                                        "trailingComma": false,
                                         "flags": 0,
                                         "start": 26,
                                         "end": 38
@@ -373,6 +374,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                             "end": 72
                                                         }
                                                     ],
+                                                    "trailingComma": false,
                                                     "flags": 0,
                                                     "start": 61,
                                                     "end": 73

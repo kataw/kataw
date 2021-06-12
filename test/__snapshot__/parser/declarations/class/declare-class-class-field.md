@@ -138,6 +138,7 @@ declare class X {
                             "end": 63
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 65

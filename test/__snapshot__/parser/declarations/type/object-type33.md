@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-type a = ({} | {}) => T;
+type X = (await:string) => T;
 `````
 
 ## Options
@@ -34,8 +34,8 @@ type a = ({} | {}) => T;
             },
             "name": {
                 "kind": 134299649,
-                "text": "a",
-                "rawText": "a",
+                "text": "X",
+                "rawText": "X",
                 "flags": 96,
                 "start": 4,
                 "end": 6
@@ -46,41 +46,39 @@ type a = ({} | {}) => T;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 18,
-                    "end": 21
+                    "start": 23,
+                    "end": 26
                 },
                 "parameters": {
                     "kind": 279,
                     "parameters": [
                         {
-                            "kind": 137,
-                            "types": [
-                                {
-                                    "kind": 134234353,
-                                    "properties": [],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "start": 10,
-                                    "end": 12
-                                },
-                                {
-                                    "kind": 134234353,
-                                    "properties": [],
-                                    "trailingComma": false,
-                                    "flags": 0,
-                                    "start": 14,
-                                    "end": 17
-                                }
-                            ],
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "await",
+                                "rawText": "await",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 15
+                            },
+                            "optionalToken": null,
+                            "types": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 16,
+                                "end": 22
+                            },
                             "flags": 0,
-                            "start": 12,
-                            "end": 17
+                            "start": 8,
+                            "end": 22
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 8,
-                    "end": 21
+                    "end": 22
                 },
                 "returnType": {
                     "kind": 144,
@@ -89,30 +87,30 @@ type a = ({} | {}) => T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
-                        "start": 21,
-                        "end": 23
+                        "start": 26,
+                        "end": 28
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 21,
-                    "end": 23
+                    "start": 26,
+                    "end": 28
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 23
+                "end": 28
             },
             "flags": 16,
             "start": 0,
-            "end": 24
+            "end": 29
         }
     ],
     "isModule": false,
-    "source": "type a = ({} | {}) => T;",
+    "source": "type X = (await:string) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 24
+    "end": 29
 }
 ```
 

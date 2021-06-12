@@ -99,6 +99,7 @@ type a = {1:y.z[]};
                         "end": 17
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 18

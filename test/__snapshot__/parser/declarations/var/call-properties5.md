@@ -98,6 +98,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                         "end": 28
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 30

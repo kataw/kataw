@@ -109,6 +109,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                         "end": 35
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 13,
                                 "end": 37

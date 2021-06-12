@@ -49,6 +49,7 @@ type a = ({} | {proto [x]:string}) => T;
                         {
                             "kind": 134234353,
                             "properties": [],
+                            "trailingComma": false,
                             "flags": 0,
                             "start": 10,
                             "end": 12
@@ -100,6 +101,7 @@ type a = ({} | {proto [x]:string}) => T;
                                     "end": 25
                                 }
                             ],
+                            "trailingComma": false,
                             "flags": 0,
                             "start": 14,
                             "end": 25

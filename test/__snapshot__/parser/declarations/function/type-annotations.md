@@ -1637,6 +1637,7 @@ function foo28(numVal?: number = 2) {}
                 "type": {
                     "kind": 134234353,
                     "properties": [],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 656,
                     "end": 659
@@ -1799,6 +1800,7 @@ function foo28(numVal?: number = 2) {}
                                         "end": 718
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 705,
                                 "end": 720

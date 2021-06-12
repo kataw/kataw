@@ -8265,12 +8265,19 @@ function parseTypeMember(parser: ParserState, context: Context, objectTypeFlag: 
   let staticKeyword = null;
   let protoKeyword = null;
 
+  // - `type x = { (): string }`
+  if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+    return parseObjectTypeCallProperty(parser, context, protoKeyword, staticKeyword, pos);
+  }
+
+  // - `declare class x { proto x: string }`
   if (objectTypeFlag & ObjectTypeFlag.AllowProto && parser.token === SyntaxKind.ProtoKeyword) {
     if (speculate(parser, context, nextTokenIsNotColonOrQuestionMark, /* rollback */ true)) {
       protoKeyword = consumeToken(parser, context, SyntaxKind.ProtoKeyword);
     }
   }
 
+  // - `declare class x { static x (): string }`
   if (objectTypeFlag & ObjectTypeFlag.AllowStatic && parser.token === SyntaxKind.StaticKeyword) {
     if (speculate(parser, context, nextTokenIsNotColonOrQuestionMark, /* rollback */ true)) {
       staticKeyword = consumeToken(parser, context, SyntaxKind.StaticKeyword);
@@ -8278,31 +8285,13 @@ function parseTypeMember(parser: ParserState, context: Context, objectTypeFlag: 
   }
 
   if (consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-    if (protoKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
-        pos,
-        parser.pos
-      );
-    }
-    if (parser.token === SyntaxKind.LeftBracket) {
-      return parseObjectTypeInternalSlot(parser, context, staticKeyword, protoKeyword, pos);
-    }
-    return parseObjectTypeIndexer(parser, context, protoKeyword, staticKeyword, pos);
+    return parser.token === SyntaxKind.LeftBracket
+      ? parseObjectTypeInternalSlot(parser, context, staticKeyword, protoKeyword, pos)
+      : parseObjectTypeIndexer(parser, context, protoKeyword, staticKeyword, pos);
   }
 
+  // - `declare class x { static x (): string }`
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-    if (protoKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
-        pos,
-        parser.pos
-      );
-    }
     return parseObjectTypeCallProperty(parser, context, protoKeyword, staticKeyword, pos);
   }
 
@@ -8322,18 +8311,18 @@ function parseTypeMemberSemicolon(parser: ParserState, context: Context): void {
 function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: ObjectTypeFlag): ObjectType {
   const pos = parser.curPos;
   const properties = [];
+  const nodeFlags = parser.nodeFlags;
+  let trailingComma = false;
   if (consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace)) {
-    while (
-      parser.token &
-      (SyntaxKind.IsIdentifier |
-        SyntaxKind.IsKeyword |
-        SyntaxKind.IsFutureReserved |
-        SyntaxKind.IsEllipsis |
-        SyntaxKind.IsStartOfType |
-        SyntaxKind.IsLessThanOrLeftParen |
-        SyntaxKind.IsPatternStart)
-    ) {
+    while (parser.token & 0b00111000110010000100000000000000) {
       properties.push(parseTypeMember(parser, context, objectTypeFlag));
+      if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) break;
+      if (consumeOpt(parser, context, SyntaxKind.Comma)) {
+        if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+          trailingComma = true;
+          break;
+        }
+      }
     }
     consume(
       parser,
@@ -8343,7 +8332,7 @@ function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: 
     );
   }
 
-  return createObjectType(properties, pos, parser.curPos);
+  return createObjectType(properties, trailingComma, nodeFlags, pos, parser.curPos);
 }
 
 function parseObjectTypeSpreadProperty(
@@ -8378,7 +8367,7 @@ function parseObjectTypeProperty(
     const token = parser.token;
     const isIdentifier = parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier);
     key = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
-    if (isIdentifier) {
+    if (isIdentifier && (parser.token & SyntaxKind.IsLessThanOrLeftParen) === 0) {
       if (token === SyntaxKind.GetKeyword) {
         const key = parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000);
         const value = parseFunctionType(parser, context);
@@ -8396,7 +8385,6 @@ function parseObjectTypeProperty(
         );
       }
       if (token === SyntaxKind.SetKeyword) {
-
         const key = parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000);
         const value = parseFunctionType(parser, context);
         parseTypeMemberSemicolon(parser, context);
@@ -8489,6 +8477,15 @@ function parseObjectTypeCallProperty(
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeCallProperty {
+  if (protoKeyword) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
+      pos,
+      parser.pos
+    );
+  }
   const typeParameters = parseTypeParameterDeclaration(parser, context);
   const openingParensExists = consume(
     parser,
@@ -8524,6 +8521,16 @@ function parseObjectTypeInternalSlot(
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   pos: number
 ): ObjectTypeInternalSlot {
+  if (protoKeyword) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
+      pos,
+      parser.pos
+    );
+  }
+
   consume(parser, context, SyntaxKind.LeftBracket);
   const name = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
@@ -8583,6 +8590,15 @@ function parseObjectTypeIndexer(
 ): ObjectTypeIndexer {
   let key: any;
   let name = null;
+  if (protoKeyword) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
+      pos,
+      parser.pos
+    );
+  }
 
   if (speculate(parser, context, nextTokenIsColon, /* rollback */ true)) {
     name = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);

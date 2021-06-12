@@ -57,6 +57,7 @@ type a = ({}[x]) => T;
                             "objectType": {
                                 "kind": 134234353,
                                 "properties": [],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 10,
                                 "end": 12

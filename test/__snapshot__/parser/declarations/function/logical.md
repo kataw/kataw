@@ -1612,6 +1612,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 1102
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 1091,
                                 "end": 1103
@@ -8675,6 +8676,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 6380
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 6370,
                                     "end": 6381
@@ -9300,6 +9302,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 6699
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 6689,
                                     "end": 6700
@@ -11448,6 +11451,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 8370
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 8359,
                                 "end": 8371
@@ -11504,6 +11508,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 8386
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 8375,
                                 "end": 8387
@@ -11753,6 +11758,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 8533
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 8509,
                                 "end": 8535
@@ -11968,6 +11974,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "end": 8645
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 8621,
                                 "end": 8647

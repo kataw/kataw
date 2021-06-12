@@ -223,6 +223,7 @@ declare class D extends C { }
                             "end": 107
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 109
@@ -285,6 +286,7 @@ declare class D extends C { }
                 "body": {
                     "kind": 134234353,
                     "properties": [],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 136,
                     "end": 140

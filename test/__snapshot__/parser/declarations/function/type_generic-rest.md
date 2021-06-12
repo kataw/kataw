@@ -352,6 +352,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                     "end": 44
                                                 }
                                             ],
+                                            "trailingComma": false,
                                             "flags": 0,
                                             "start": 38,
                                             "end": 45

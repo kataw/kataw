@@ -140,6 +140,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "end": 101
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 67,
                                 "end": 103
@@ -341,6 +342,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "end": 215
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 181,
                                 "end": 217

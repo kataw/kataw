@@ -167,6 +167,7 @@ type a = {function((((-1) => [c|d]))):string};
                         "end": 36
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 36

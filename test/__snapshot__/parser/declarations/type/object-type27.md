@@ -120,6 +120,7 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                                             "end": 22
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 14,
                                     "end": 22
@@ -153,6 +154,7 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                         "end": 27
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 28

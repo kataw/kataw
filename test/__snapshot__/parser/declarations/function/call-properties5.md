@@ -122,6 +122,7 @@ var c: { (): string; (x: number): string } =
                                         "end": 40
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 42

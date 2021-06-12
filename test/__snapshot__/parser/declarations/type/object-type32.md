@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-type a = {function():string};
+type x = {get x (): string }
 `````
 
 ## Options
@@ -34,8 +34,8 @@ type a = {function():string};
             },
             "name": {
                 "kind": 134299649,
-                "text": "a",
-                "rawText": "a",
+                "text": "x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 4,
                 "end": 6
@@ -48,15 +48,20 @@ type a = {function():string};
                         "kind": 193,
                         "protoKeyword": null,
                         "staticToken": null,
-                        "getKeyword": null,
+                        "getKeyword": {
+                            "kind": 16498,
+                            "flags": 96,
+                            "start": 10,
+                            "end": 15
+                        },
                         "setKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "text": "function",
-                            "rawText": "function",
+                            "text": "x",
+                            "rawText": "x",
                             "flags": 96,
-                            "start": 10,
-                            "end": 18
+                            "start": 13,
+                            "end": 15
                         },
                         "optionalToken": null,
                         "value": {
@@ -66,23 +71,23 @@ type a = {function():string};
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 19,
-                                "end": 19
+                                "start": 17,
+                                "end": 17
                             },
                             "returnType": {
                                 "kind": 134234347,
                                 "flags": 64,
-                                "start": 21,
-                                "end": 27
+                                "start": 19,
+                                "end": 26
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 18,
-                            "end": 27
+                            "start": 15,
+                            "end": 26
                         },
                         "flags": 0,
                         "start": 10,
-                        "end": 27
+                        "end": 26
                     }
                 ],
                 "trailingComma": false,
@@ -92,15 +97,15 @@ type a = {function():string};
             },
             "flags": 16,
             "start": 0,
-            "end": 29
+            "end": 28
         }
     ],
     "isModule": false,
-    "source": "type a = {function():string};",
+    "source": "type x = {get x (): string }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 29
+    "end": 28
 }
 ```
 

@@ -126,6 +126,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                 "end": 30
                                                                             }
                                                                         ],
+                                                                        "trailingComma": false,
                                                                         "flags": 0,
                                                                         "start": 19,
                                                                         "end": 31
@@ -219,6 +220,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                     "end": 54
                                                                                                                                 }
                                                                                                                             ],
+                                                                                                                            "trailingComma": false,
                                                                                                                             "flags": 0,
                                                                                                                             "start": 43,
                                                                                                                             "end": 55

@@ -563,6 +563,7 @@ class C2<X, Y> {
                                             "end": 172
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 166,
                                     "end": 173

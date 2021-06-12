@@ -133,6 +133,7 @@ type o = { m(|int|bool): void }
                         "end": 29
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 31

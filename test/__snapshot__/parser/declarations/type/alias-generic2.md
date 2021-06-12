@@ -206,6 +206,7 @@ type MyObject<A, B, C> = {
                         "end": 56
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 24,
                 "end": 58

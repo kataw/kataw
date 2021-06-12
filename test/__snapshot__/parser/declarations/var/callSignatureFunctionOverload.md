@@ -251,6 +251,7 @@ var foo2: {
                                         "end": 126
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 8,
                                 "end": 128
@@ -489,6 +490,7 @@ var foo2: {
                                         "end": 255
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 139,
                                 "end": 257

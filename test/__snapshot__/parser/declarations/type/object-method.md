@@ -92,6 +92,7 @@ type T = { [[foo]](): X }
                         "end": 23
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 25
