@@ -42,63 +42,138 @@ type a = ((q, x)=> T) => T;
             },
             "typeParameters": null,
             "type": {
-                "kind": 260,
-                "type": {
-                    "kind": 134299649,
-                    "text": "q",
-                    "rawText": "q",
-                    "flags": 96,
-                    "start": 11,
-                    "end": 12
+                "kind": 261,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 21,
+                    "end": 24
                 },
+                "parameters": {
+                    "kind": 279,
+                    "parameters": [
+                        {
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 16,
+                                "end": 18
+                            },
+                            "parameters": {
+                                "kind": 279,
+                                "parameters": [
+                                    {
+                                        "kind": 279,
+                                        "parameters": [
+                                            {
+                                                "kind": 149,
+                                                "ellipsisToken": null,
+                                                "name": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "q",
+                                                        "rawText": "q",
+                                                        "flags": 96,
+                                                        "start": 11,
+                                                        "end": 12
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
+                                                    "start": 8,
+                                                    "end": 12
+                                                },
+                                                "optionalToken": null,
+                                                "types": null,
+                                                "flags": 0,
+                                                "start": 8,
+                                                "end": 12
+                                            },
+                                            {
+                                                "kind": 149,
+                                                "ellipsisToken": null,
+                                                "name": null,
+                                                "optionalToken": null,
+                                                "types": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 13,
+                                                        "end": 15
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 0,
+                                                    "start": 13,
+                                                    "end": 15
+                                                },
+                                                "flags": 0,
+                                                "start": 13,
+                                                "end": 15
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 8,
+                                        "end": 15
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 8,
+                                "end": 18
+                            },
+                            "returnType": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "start": 18,
+                                    "end": 20
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 18,
+                                "end": 20
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 8,
+                            "end": 20
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 8,
+                    "end": 24
+                },
+                "returnType": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 24,
+                        "end": 26
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 24,
+                    "end": 26
+                },
+                "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 12
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 12
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 13,
-                "end": 15
-            },
-            "flags": 16,
-            "start": 13,
-            "end": 15
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 96,
-                "start": 18,
-                "end": 20
-            },
-            "flags": 16,
-            "start": 18,
-            "end": 20
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 96,
-                "start": 24,
                 "end": 26
             },
             "flags": 16,
-            "start": 24,
+            "start": 0,
             "end": 27
         }
     ],
@@ -115,16 +190,12 @@ type a = ((q, x)=> T) => T;
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 12, end: 13
-✖ Expected a `;` - start: 15, end: 16
-✖ Declaration or statement expected - start: 16, end: 18
-✖ Expected a `;` - start: 20, end: 21
-✖ Declaration or statement expected - start: 21, end: 24
-
+✔ No errors
 ```
 

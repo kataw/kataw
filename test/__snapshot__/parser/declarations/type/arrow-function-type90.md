@@ -99,11 +99,18 @@ type a = (((x | (y & [((x) => T)])))) => T;
                                                                             "kind": 279,
                                                                             "parameters": [
                                                                                 {
-                                                                                    "kind": 134299649,
-                                                                                    "text": "x",
-                                                                                    "rawText": "x",
-                                                                                    "flags": 96,
-                                                                                    "start": 24,
+                                                                                    "kind": 144,
+                                                                                    "id": {
+                                                                                        "kind": 134299649,
+                                                                                        "text": "x",
+                                                                                        "rawText": "x",
+                                                                                        "flags": 96,
+                                                                                        "start": 24,
+                                                                                        "end": 25
+                                                                                    },
+                                                                                    "typeParameters": null,
+                                                                                    "flags": 0,
+                                                                                    "start": 22,
                                                                                     "end": 25
                                                                                 }
                                                                             ],

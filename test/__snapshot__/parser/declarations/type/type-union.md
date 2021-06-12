@@ -176,48 +176,55 @@ type overloads2 = {
                     {
                         "kind": 260,
                         "type": {
-                            "kind": 261,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 79,
-                                "end": 82
-                            },
-                            "parameters": {
-                                "kind": 279,
-                                "parameters": [
-                                    {
-                                        "kind": 149,
-                                        "ellipsisToken": null,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 69,
-                                            "end": 70
-                                        },
-                                        "optionalToken": null,
-                                        "types": {
-                                            "kind": 134234347,
-                                            "flags": 64,
-                                            "start": 71,
+                            "kind": 144,
+                            "id": {
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 79,
+                                    "end": 82
+                                },
+                                "parameters": {
+                                    "kind": 279,
+                                    "parameters": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 69,
+                                                "end": 70
+                                            },
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 134234347,
+                                                "flags": 64,
+                                                "start": 71,
+                                                "end": 78
+                                            },
+                                            "flags": 0,
+                                            "start": 66,
                                             "end": 78
-                                        },
-                                        "flags": 0,
-                                        "start": 66,
-                                        "end": 78
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 66,
+                                    "end": 78
+                                },
+                                "returnType": {
+                                    "kind": 134234345,
+                                    "flags": 64,
+                                    "start": 82,
+                                    "end": 89
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 66,
-                                "end": 78
-                            },
-                            "returnType": {
-                                "kind": 134234345,
-                                "flags": 64,
-                                "start": 82,
                                 "end": 89
                             },
                             "typeParameters": null,
@@ -232,48 +239,55 @@ type overloads2 = {
                     {
                         "kind": 260,
                         "type": {
-                            "kind": 261,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 107,
-                                "end": 110
-                            },
-                            "parameters": {
-                                "kind": 279,
-                                "parameters": [
-                                    {
-                                        "kind": 149,
-                                        "ellipsisToken": null,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 97,
-                                            "end": 98
-                                        },
-                                        "optionalToken": null,
-                                        "types": {
-                                            "kind": 134234345,
-                                            "flags": 64,
-                                            "start": 99,
+                            "kind": 144,
+                            "id": {
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 107,
+                                    "end": 110
+                                },
+                                "parameters": {
+                                    "kind": 279,
+                                    "parameters": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 97,
+                                                "end": 98
+                                            },
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 134234345,
+                                                "flags": 64,
+                                                "start": 99,
+                                                "end": 106
+                                            },
+                                            "flags": 0,
+                                            "start": 94,
                                             "end": 106
-                                        },
-                                        "flags": 0,
-                                        "start": 94,
-                                        "end": 106
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 94,
+                                    "end": 106
+                                },
+                                "returnType": {
+                                    "kind": 134234347,
+                                    "flags": 64,
+                                    "start": 110,
+                                    "end": 117
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
                                 "start": 94,
-                                "end": 106
-                            },
-                            "returnType": {
-                                "kind": 134234347,
-                                "flags": 64,
-                                "start": 110,
                                 "end": 117
                             },
                             "typeParameters": null,

@@ -107,34 +107,41 @@ type a = (((x | ((y & z) => T) => T) => T) => T) => T;
                                                                         "kind": 279,
                                                                         "parameters": [
                                                                             {
-                                                                                "kind": 138,
-                                                                                "types": [
-                                                                                    {
-                                                                                        "kind": 134299649,
-                                                                                        "text": "y",
-                                                                                        "rawText": "y",
-                                                                                        "flags": 96,
-                                                                                        "start": 18,
-                                                                                        "end": 19
-                                                                                    },
-                                                                                    {
-                                                                                        "kind": 144,
-                                                                                        "id": {
+                                                                                "kind": 144,
+                                                                                "id": {
+                                                                                    "kind": 138,
+                                                                                    "types": [
+                                                                                        {
                                                                                             "kind": 134299649,
-                                                                                            "text": "z",
-                                                                                            "rawText": "z",
+                                                                                            "text": "y",
+                                                                                            "rawText": "y",
                                                                                             "flags": 96,
+                                                                                            "start": 18,
+                                                                                            "end": 19
+                                                                                        },
+                                                                                        {
+                                                                                            "kind": 144,
+                                                                                            "id": {
+                                                                                                "kind": 134299649,
+                                                                                                "text": "z",
+                                                                                                "rawText": "z",
+                                                                                                "flags": 96,
+                                                                                                "start": 21,
+                                                                                                "end": 23
+                                                                                            },
+                                                                                            "typeParameters": null,
+                                                                                            "flags": 0,
                                                                                             "start": 21,
                                                                                             "end": 23
-                                                                                        },
-                                                                                        "typeParameters": null,
-                                                                                        "flags": 0,
-                                                                                        "start": 21,
-                                                                                        "end": 23
-                                                                                    }
-                                                                                ],
+                                                                                        }
+                                                                                    ],
+                                                                                    "flags": 0,
+                                                                                    "start": 19,
+                                                                                    "end": 23
+                                                                                },
+                                                                                "typeParameters": null,
                                                                                 "flags": 0,
-                                                                                "start": 19,
+                                                                                "start": 15,
                                                                                 "end": 23
                                                                             }
                                                                         ],

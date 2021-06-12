@@ -44,57 +44,64 @@ type X = ((x?) => T);
             "type": {
                 "kind": 260,
                 "type": {
-                    "kind": 261,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 14,
-                        "end": 17
-                    },
-                    "parameters": {
-                        "kind": 279,
-                        "parameters": [
-                            {
-                                "kind": 149,
-                                "ellipsisToken": null,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                "optionalToken": {
-                                    "kind": 134217750,
-                                    "flags": 64,
-                                    "start": 12,
+                    "kind": 144,
+                    "id": {
+                        "kind": 261,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 14,
+                            "end": 17
+                        },
+                        "parameters": {
+                            "kind": 279,
+                            "parameters": [
+                                {
+                                    "kind": 149,
+                                    "ellipsisToken": null,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    "optionalToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 12,
+                                        "end": 13
+                                    },
+                                    "types": null,
+                                    "flags": 0,
+                                    "start": 8,
                                     "end": 13
-                                },
-                                "types": null,
-                                "flags": 0,
-                                "start": 8,
-                                "end": 13
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 8,
-                        "end": 13
-                    },
-                    "returnType": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 8,
+                            "end": 13
+                        },
+                        "returnType": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 17,
+                                "end": 19
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
                             "start": 17,
                             "end": 19
                         },
                         "typeParameters": null,
                         "flags": 0,
-                        "start": 17,
+                        "start": 8,
                         "end": 19
                     },
                     "typeParameters": null,

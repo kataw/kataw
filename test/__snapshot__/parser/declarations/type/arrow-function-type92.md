@@ -53,11 +53,18 @@ type a = ((x)) => T;
                     "kind": 279,
                     "parameters": [
                         {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 11,
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 12
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 8,
                             "end": 12
                         }
                     ],
