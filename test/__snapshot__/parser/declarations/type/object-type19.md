@@ -52,7 +52,7 @@ type a = {get foo():string};
                             "kind": 16498,
                             "flags": 96,
                             "start": 10,
-                            "end": 17
+                            "end": 13
                         },
                         "setKeyword": null,
                         "key": {

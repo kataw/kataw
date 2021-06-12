@@ -4,7 +4,7 @@
 
 `````js
 declare class B {
-  static set "string" (): {};
+  static set "string" (x): {};
 }
 `````
 
@@ -64,7 +64,7 @@ declare class B {
                                 "kind": 16499,
                                 "flags": 96,
                                 "start": 17,
-                                "end": 39
+                                "end": 30
                             },
                             "key": {
                                 "kind": 201392131,
@@ -79,50 +79,75 @@ declare class B {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "parameters": [],
+                                    "parameters": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": null,
+                                            "name": null,
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 41,
+                                                    "end": 42
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 41,
+                                                "end": 42
+                                            },
+                                            "flags": 0,
+                                            "start": 41,
+                                            "end": 42
+                                        }
+                                    ],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 41,
-                                    "end": 41
+                                    "end": 42
                                 },
                                 "returnType": {
                                     "kind": 134234353,
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "start": 43,
-                                    "end": 46
+                                    "start": 44,
+                                    "end": 47
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
                                 "start": 39,
-                                "end": 46
+                                "end": 47
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 47
+                            "end": 48
                         }
                     ],
                     "trailingComma": false,
                     "flags": 0,
                     "start": 15,
-                    "end": 49
+                    "end": 50
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 49
+                "end": 50
             },
             "flags": 16,
             "start": 0,
-            "end": 49
+            "end": 50
         }
     ],
     "isModule": false,
-    "source": "declare class B {\n  static set \"string\" (): {};\n}",
+    "source": "declare class B {\n  static set \"string\" (x): {};\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 49
+    "end": 50
 }
 ```
 

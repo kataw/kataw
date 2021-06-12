@@ -4,7 +4,7 @@
 
 `````js
 declare class B {
-  static get 1 (): {};
+  static set "string" (): {};
 }
 `````
 
@@ -59,20 +59,20 @@ declare class B {
                             "kind": 193,
                             "protoKeyword": null,
                             "staticToken": null,
-                            "getKeyword": {
-                                "kind": 16498,
+                            "getKeyword": null,
+                            "setKeyword": {
+                                "kind": 16499,
                                 "flags": 96,
                                 "start": 17,
                                 "end": 30
                             },
-                            "setKeyword": null,
                             "key": {
-                                "kind": 201392130,
-                                "text": 1,
-                                "rawText": "1",
+                                "kind": 201392131,
+                                "text": "string",
+                                "rawText": "\"string\"",
                                 "flags": 96,
                                 "start": 30,
-                                "end": 32
+                                "end": 39
                             },
                             "optionalToken": null,
                             "value": {
@@ -82,47 +82,47 @@ declare class B {
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 34,
-                                    "end": 34
+                                    "start": 41,
+                                    "end": 41
                                 },
                                 "returnType": {
                                     "kind": 134234353,
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "start": 36,
-                                    "end": 39
+                                    "start": 43,
+                                    "end": 46
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 32,
-                                "end": 39
+                                "start": 39,
+                                "end": 46
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 40
+                            "end": 47
                         }
                     ],
                     "trailingComma": false,
                     "flags": 0,
                     "start": 15,
-                    "end": 42
+                    "end": 49
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 42
+                "end": 49
             },
             "flags": 16,
             "start": 0,
-            "end": 42
+            "end": 49
         }
     ],
     "isModule": false,
-    "source": "declare class B {\n  static get 1 (): {};\n}",
+    "source": "declare class B {\n  static set \"string\" (): {};\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 42
+    "end": 49
 }
 ```
 
@@ -130,12 +130,12 @@ declare class B {
 
 ```javascript
 
-declare class B TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'set' accessor must have exactly one parameter. - start: 41, end: 42
+
 ```
 

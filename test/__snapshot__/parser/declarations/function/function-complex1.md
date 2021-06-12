@@ -157,7 +157,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 0,
-                                                "start": 53,
+                                                "start": 49,
                                                 "end": 54
                                             },
                                             "flags": 0,
@@ -733,7 +733,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 0,
-                                                        "start": 208,
+                                                        "start": 204,
                                                         "end": 209
                                                     },
                                                     "flags": 0,

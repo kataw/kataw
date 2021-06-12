@@ -136,7 +136,7 @@ type A = (Array<string>, ...Array<string>) => void
                                     "end": 41
                                 },
                                 "flags": 0,
-                                "start": 28,
+                                "start": 24,
                                 "end": 41
                             },
                             "flags": 0,

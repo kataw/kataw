@@ -4,7 +4,7 @@
 
 `````js
 declare class B {
-  static get 1 (): {};
+  static set "string" (...a): {};
 }
 `````
 
@@ -59,70 +59,100 @@ declare class B {
                             "kind": 193,
                             "protoKeyword": null,
                             "staticToken": null,
-                            "getKeyword": {
-                                "kind": 16498,
+                            "getKeyword": null,
+                            "setKeyword": {
+                                "kind": 16499,
                                 "flags": 96,
                                 "start": 17,
                                 "end": 30
                             },
-                            "setKeyword": null,
                             "key": {
-                                "kind": 201392130,
-                                "text": 1,
-                                "rawText": "1",
+                                "kind": 201392131,
+                                "text": "string",
+                                "rawText": "\"string\"",
                                 "flags": 96,
                                 "start": 30,
-                                "end": 32
+                                "end": 39
                             },
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
                                 "parameters": {
                                     "kind": 208,
-                                    "parameters": [],
+                                    "parameters": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": {
+                                                "kind": 524302,
+                                                "flags": 64,
+                                                "start": 41,
+                                                "end": 44
+                                            },
+                                            "name": null,
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "a",
+                                                    "rawText": "a",
+                                                    "flags": 96,
+                                                    "start": 44,
+                                                    "end": 45
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 41,
+                                                "end": 45
+                                            },
+                                            "flags": 0,
+                                            "start": 41,
+                                            "end": 45
+                                        }
+                                    ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 34,
-                                    "end": 34
+                                    "start": 41,
+                                    "end": 45
                                 },
                                 "returnType": {
                                     "kind": 134234353,
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 0,
-                                    "start": 36,
-                                    "end": 39
+                                    "start": 47,
+                                    "end": 50
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
-                                "start": 32,
-                                "end": 39
+                                "start": 39,
+                                "end": 50
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 40
+                            "end": 51
                         }
                     ],
                     "trailingComma": false,
                     "flags": 0,
                     "start": 15,
-                    "end": 42
+                    "end": 53
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 42
+                "end": 53
             },
             "flags": 16,
             "start": 0,
-            "end": 42
+            "end": 53
         }
     ],
     "isModule": false,
-    "source": "declare class B {\n  static get 1 (): {};\n}",
+    "source": "declare class B {\n  static set \"string\" (...a): {};\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 42
+    "end": 53
 }
 ```
 
@@ -130,12 +160,12 @@ declare class B {
 
 ```javascript
 
-declare class B TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'set' accessor cannot have rest parameter. - start: 41, end: 44
+
 ```
 

@@ -17,6 +17,12 @@ export const enum ParseFunctionFlag {
   DisallowGenerator = 1 << 2 // Disallow generators in 'IfStatement' and 'LabelledStatement'
 }
 
+export const enum FunctionTypeFlags {
+  None = 0,
+  Getter = 1 << 0,
+  Setter = 1 << 1
+}
+
 export const enum LeftHandSide {
   None = 0,
   NotAssignable = 1 << 0, // The left hand side is not assignable

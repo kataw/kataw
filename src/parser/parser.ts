@@ -187,6 +187,7 @@ import {
   ScopeFlags,
   lookupBreakTarget,
   lookupContinueTarget,
+  FunctionTypeFlags,
   consumeKeywordAndCheckForEscapeSequence
 } from './common';
 
@@ -3225,7 +3226,7 @@ function parsMethodParameters(
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Method_definition_expected)) {
     if (parser.token === SyntaxKind.RightParen) {
-      if (nodeFlags & NodeFlags.Setter && parser.token === SyntaxKind.RightParen) {
+      if (nodeFlags & NodeFlags.Setter) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -7266,75 +7267,108 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   return createTupleType(elements, trailingComma, flags, pos, parser.curPos);
 }
 
-function parseFunctionType(parser: ParserState, context: Context): FunctionType {
+function parseFunctionType(parser: ParserState, context: Context, functionTypeFlags: FunctionTypeFlags): FunctionType {
   const pos = parser.curPos;
   const typeParameters = parseTypeParameterDeclaration(parser, context);
-  const openingParensExists = consume(
-    parser,
-    context,
-    SyntaxKind.LeftParen,
-    DiagnosticCode.Missing_an_opening_parentheses
-  );
-  const params = parseFunctionTypeParameters(parser, context);
-  consume(
-    parser,
-    context,
-    SyntaxKind.RightParen,
-    openingParensExists ? DiagnosticCode.Expected_a_to_match_the_token_here : DiagnosticCode.Type_expected
-  );
+  const params = parseObjectTypeParameter(parser, context, functionTypeFlags);
   consume(parser, context, SyntaxKind.Colon);
   const returnType = parseType(parser, context);
   return createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
 }
 
-function parseFunctionTypeParameters(parser: ParserState, context: Context): FunctionTypeParameterList {
+function parseFunctionTypeParameters(
+  parser: ParserState,
+  context: Context,
+  functionTypeFlags: FunctionTypeFlags
+): FunctionTypeParameterList {
   const pos = parser.curPos;
   const functionTypeParameterList: FunctionTypeParameter[] = [];
   let trailingComma = false;
+  if (parser.token === SyntaxKind.RightParen) {
+    if (functionTypeFlags & FunctionTypeFlags.Setter) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[DiagnosticCode.A_set_accessor_must_have_exactly_one_parameter],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  } else if (functionTypeFlags & FunctionTypeFlags.Getter) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error | DiagnosticKind.EarlyError,
+      diagnosticMap[
+        parser.token === SyntaxKind.ThisKeyword
+          ? DiagnosticCode.A_get_accessor_cannot_have_a_this_parameter
+          : DiagnosticCode.A_get_accessor_cannot_have_parameters
+      ],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   while (
     parser.token &
     (SyntaxKind.IsEllipsis | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType)
   ) {
+    if (functionTypeFlags & FunctionTypeFlags.Setter && parser.token === SyntaxKind.Ellipsis) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.A_set_accessor_cannot_have_rest_parameter],
+        pos,
+        parser.pos
+      );
+    }
     functionTypeParameterList.push(parseFunctionTypeParameter(parser, context));
+
     if (parser.token === SyntaxKind.RightParen) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
       if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
         trailingComma = true;
         break;
       }
+      if (functionTypeFlags & FunctionTypeFlags.Setter && parser.token === SyntaxKind.Ellipsis) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.A_set_accessor_must_have_exactly_one_parameter],
+          pos,
+          parser.pos
+        );
+      }
       continue;
     }
   }
+
   return createFunctionTypeParameterList(functionTypeParameterList, trailingComma, pos, parser.curPos);
 }
 
 function parseFunctionTypeParameter(parser: ParserState, context: Context): FunctionTypeParameter {
   const pos = parser.curPos;
-  if (
-    speculate(
-      parser,
-      context,
-      function () {
-        if (parser.token === SyntaxKind.Ellipsis) {
-          nextToken(parser, context);
-        }
-        nextToken(parser, context);
-
-        if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) return true;
-        return null;
-      },
-      /* rollback */ true
-    )
-  ) {
-    const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-    const name = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Type_expected);
-    const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
-    consume(parser, context, SyntaxKind.Colon, DiagnosticCode.Type_expected);
-    const type = parseType(parser, context);
-    return createFunctionTypeParameters(ellipsisToken, name as Identifier, optionalToken, type, pos, parser.curPos);
-  }
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-  const type = parseType(parser, context);
+  let type: any = null;
+  if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+    let token = parser.token;
+    type = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Type_expected);
+    if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) {
+      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      consume(parser, context, SyntaxKind.Colon, DiagnosticCode.Type_expected);
+      return createFunctionTypeParameters(
+        ellipsisToken,
+        type,
+        optionalToken,
+        parseType(parser, context),
+        pos,
+        parser.curPos
+      );
+    }
+
+    type = parsePrimaryTypeRest(parser, context, token, type, pos);
+  } else {
+    type = parseType(parser, context);
+  }
   return createFunctionTypeParameters(ellipsisToken, null as any, /* optionalToken */ null, type, pos, parser.curPos);
 }
 
@@ -7343,7 +7377,7 @@ function parseArrowFunctionType(parser: ParserState, context: Context): ArrowFun
   const typeParameters = parseTypeParameterDeclaration(parser, context);
   return createArrowFunctionType(
     consumeOptToken(parser, context, SyntaxKind.Arrow),
-    parseFunctionTypeParameters(parser, context),
+    parseFunctionTypeParameters(parser, context, FunctionTypeFlags.None),
     parseType(parser, context),
     typeParameters,
     pos,
@@ -7379,7 +7413,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
   let token = parser.token;
 
   if (parser.token === SyntaxKind.RightParen || parser.token === SyntaxKind.Ellipsis) {
-    const params = parseFunctionTypeParameters(parser, context);
+    const params = parseFunctionTypeParameters(parser, context, FunctionTypeFlags.None);
     consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
     return createArrowFunctionType(
       consumeOptToken(parser, context, SyntaxKind.Arrow),
@@ -7542,8 +7576,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           );
         }
 
-        // - ` type a = ((bj[c])[d]);`
-        // - ` type a = ((bj[c]) => T);`
+        // - `type a = ((bj[c])[d]);`
+        // - `type a = ((bj[c]) => T);`
         // - `type X = ((x & y));`
         // - `type X = ((x & y) => T);`
         // - `type a = ((bj[c] & a | b) => T);`
@@ -8278,14 +8312,14 @@ function parseObjectTypeSpreadProperty(
   );
 }
 
-function parseObjectTypeParameter(parser: ParserState, context: Context): any {
+function parseObjectTypeParameter(parser: ParserState, context: Context, functionTypeFlags: FunctionTypeFlags): any {
   const openingParensExists = consume(
     parser,
     context,
     SyntaxKind.LeftParen,
     DiagnosticCode.Missing_an_opening_parentheses
   );
-  const params = parseFunctionTypeParameters(parser, context);
+  const params = parseFunctionTypeParameters(parser, context, functionTypeFlags);
   consume(
     parser,
     context,
@@ -8308,45 +8342,37 @@ function parseObjectTypeProperty(
 
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const token = parser.token;
-    const isIdentifier = parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier);
     key = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
-    if (isIdentifier && (parser.token & SyntaxKind.IsLessThanOrLeftParen) === 0) {
+    if (
+      (parser.token & SyntaxKind.IsLessThanOrLeftParen) === 0 &&
+      (token === SyntaxKind.GetKeyword || token === SyntaxKind.SetKeyword)
+    ) {
       if (token === SyntaxKind.GetKeyword) {
-        const key = parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000);
-        const value = parseFunctionType(parser, context);
-        parseTypeMemberSemicolon(parser, context);
-        return createObjectTypeProperty(
-          createToken(SyntaxKind.GetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end),
-          setKeyword,
-          key,
-          value,
-          /* optionalToken */ null,
-          /* staticKeyword */ null,
-          protoKeyword,
-          pos,
-          parser.curPos
-        );
+        getKeyword = createToken(SyntaxKind.GetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end);
+      } else {
+        setKeyword = createToken(SyntaxKind.SetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end);
       }
-      if (token === SyntaxKind.SetKeyword) {
-        const key = parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000);
-        const value = parseFunctionType(parser, context);
-        parseTypeMemberSemicolon(parser, context);
-
-        return createObjectTypeProperty(
-          getKeyword,
-          createToken(SyntaxKind.SetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end),
-          key,
-          value,
-          /* optionalToken */ null,
-          /* staticKeyword */ null,
-          protoKeyword,
-          pos,
-          parser.curPos
-        );
-      }
+      key = parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000);
+      const value = parseFunctionType(
+        parser,
+        context,
+        token === SyntaxKind.GetKeyword ? FunctionTypeFlags.Getter : FunctionTypeFlags.Setter
+      );
+      parseTypeMemberSemicolon(parser, context);
+      return createObjectTypeProperty(
+        getKeyword,
+        setKeyword,
+        key,
+        value,
+        /* optionalToken */ null,
+        /* staticKeyword */ null,
+        protoKeyword,
+        pos,
+        parser.curPos
+      );
     }
     if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-      const value = parseFunctionType(parser, context);
+      const value = parseFunctionType(parser, context, FunctionTypeFlags.None);
       parseTypeMemberSemicolon(parser, context);
       // This is a method property
       return createObjectTypeProperty(
@@ -8382,7 +8408,7 @@ function parseObjectTypeProperty(
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     // This is a method property
-    const value = parseFunctionType(parser, context);
+    const value = parseFunctionType(parser, context, FunctionTypeFlags.None);
     parseTypeMemberSemicolon(parser, context);
     return createObjectTypeProperty(
       getKeyword,
@@ -8430,7 +8456,7 @@ function parseObjectTypeCallProperty(
     );
   }
   const typeParameters = parseTypeParameterDeclaration(parser, context);
-  const params = parseObjectTypeParameter(parser, context);
+  const params = parseObjectTypeParameter(parser, context, FunctionTypeFlags.None);
   consume(parser, context, SyntaxKind.Colon);
   const returnType = parseType(parser, context);
   consumeOpt(parser, context, SyntaxKind.Semicolon);
@@ -8470,7 +8496,7 @@ function parseObjectTypeInternalSlot(
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     const typeParameters = parseTypeParameterDeclaration(parser, context);
-    const params = parseObjectTypeParameter(parser, context);
+    const params = parseObjectTypeParameter(parser, context, FunctionTypeFlags.None);
     consume(parser, context, SyntaxKind.Colon);
     const returnType = parseType(parser, context);
     const value = createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
@@ -8501,7 +8527,7 @@ function nextTokenIsNotColonOrQuestionMark(parser: ParserState, context: Context
   return parser.token !== SyntaxKind.QuestionMark && parser.token !== SyntaxKind.Colon;
 }
 
-function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKind, key: any, pos: number) {
+function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKind, key: any, pos: number): TypeNode {
   switch (t) {
     case SyntaxKind.StringLiteral:
     case SyntaxKind.AnyKeyword:

@@ -78,7 +78,7 @@ type a = (...b[([x])=> c] | d) => c;
                                             },
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "start": 13,
+                                            "start": 10,
                                             "end": 14
                                         },
                                         "indexType": {

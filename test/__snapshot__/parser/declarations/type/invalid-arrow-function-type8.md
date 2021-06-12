@@ -63,7 +63,7 @@ type a = ({get y(y): string}) => T;
                                         "kind": 16498,
                                         "flags": 96,
                                         "start": 11,
-                                        "end": 16
+                                        "end": 14
                                     },
                                     "setKeyword": null,
                                     "key": {
@@ -175,12 +175,12 @@ type a = ({get y(y): string}) => T;
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'get' accessor cannot have parameters. - start: 17, end: 18
+
 ```
 

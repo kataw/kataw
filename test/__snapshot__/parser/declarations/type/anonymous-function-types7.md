@@ -93,7 +93,7 @@ type A = (...Array<string>) => void
                                     "end": 26
                                 },
                                 "flags": 0,
-                                "start": 13,
+                                "start": 10,
                                 "end": 26
                             },
                             "flags": 0,

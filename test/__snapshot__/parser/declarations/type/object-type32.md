@@ -52,7 +52,7 @@ type x = {get x (): string }
                             "kind": 16498,
                             "flags": 96,
                             "start": 10,
-                            "end": 15
+                            "end": 13
                         },
                         "setKeyword": null,
                         "key": {
