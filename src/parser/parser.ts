@@ -8252,11 +8252,12 @@ function parseLexicalBinding(
 
 function parseObjectTypePropertyKey(
   parser: ParserState,
-  context: Context
+  context: Context,
+  check: number
 ): StringLiteral | NumericLiteral | Identifier | DummyIdentifier {
   if (parser.token === SyntaxKind.StringLiteral) return parseStringLiteral(parser, context);
   if (parser.token === SyntaxKind.NumericLiteral) return parseNumericLiteral(parser, context);
-  return parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
+  return parseIdentifier(parser, context, check, DiagnosticCode.Identifier_expected);
 }
 
 function parseTypeMember(parser: ParserState, context: Context, objectTypeFlag: ObjectTypeFlag): any {
@@ -8325,6 +8326,7 @@ function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: 
     while (
       parser.token &
       (SyntaxKind.IsIdentifier |
+        SyntaxKind.IsKeyword |
         SyntaxKind.IsFutureReserved |
         SyntaxKind.IsEllipsis |
         SyntaxKind.IsStartOfType |
@@ -8375,13 +8377,13 @@ function parseObjectTypeProperty(
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const token = parser.token;
     const isIdentifier = parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier);
-    key = parseObjectTypePropertyKey(parser, context);
+    key = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
     if (isIdentifier) {
       if (token === SyntaxKind.GetKeyword) {
         return createObjectTypeProperty(
           createToken(SyntaxKind.GetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end),
           setKeyword,
-          parseObjectTypePropertyKey(parser, context),
+          parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000),
           parseFunctionType(parser, context),
           /* optionalToken */ null,
           /* staticKeyword */ null,
@@ -8394,7 +8396,7 @@ function parseObjectTypeProperty(
         return createObjectTypeProperty(
           getKeyword,
           createToken(SyntaxKind.SetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end),
-          parseObjectTypePropertyKey(parser, context),
+          parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000),
           parseFunctionType(parser, context),
           /* optionalToken */ null,
           /* staticKeyword */ null,
@@ -8434,7 +8436,7 @@ function parseObjectTypeProperty(
       parser.curPos
     );
   }
-  key = parseObjectTypePropertyKey(parser, context);
+  key = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     // This is a method property
@@ -8510,7 +8512,7 @@ function parseObjectTypeInternalSlot(
   pos: number
 ): ObjectTypeInternalSlot {
   consume(parser, context, SyntaxKind.LeftBracket);
-  const name = parseObjectTypePropertyKey(parser, context);
+  const name = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
 
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
@@ -8570,7 +8572,7 @@ function parseObjectTypeIndexer(
   let name = null;
 
   if (speculate(parser, context, nextTokenIsColon, /* rollback */ true)) {
-    name = parseObjectTypePropertyKey(parser, context);
+    name = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
     consume(parser, context, SyntaxKind.Colon);
     key = parseType(parser, context);
   } else {
