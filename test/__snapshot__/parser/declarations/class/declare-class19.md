@@ -100,51 +100,25 @@ declare class x {
                             "flags": 0,
                             "start": 17,
                             "end": 42
-                        },
-                        {
-                            "kind": 193,
-                            "protoKeyword": null,
-                            "staticToken": null,
-                            "getKeyword": null,
-                            "setKeyword": null,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 42,
-                                "end": 42
-                            },
-                            "optionalToken": null,
-                            "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 42,
-                                    "end": 42
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 42,
-                                "end": 42
-                            },
-                            "flags": 0,
-                            "start": 42,
-                            "end": 43
                         }
                     ],
                     "flags": 0,
                     "start": 15,
-                    "end": 45
+                    "end": 42
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 45
+                "end": 42
             },
             "flags": 16,
             "start": 0,
-            "end": 45
+            "end": 42
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 42,
+            "end": 43
         }
     ],
     "isModule": false,
@@ -165,7 +139,8 @@ declare class x {
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 42, end: 43
+✖ The parser expected to find a '}' to match the '{' token here - start: 42, end: 43
+✖ Declaration or statement expected - start: 43, end: 45
 
 ```
 

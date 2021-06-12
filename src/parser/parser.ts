@@ -8322,7 +8322,15 @@ function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: 
   const pos = parser.curPos;
   const properties = [];
   if (consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace)) {
-    while ((parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
+    while (
+      parser.token &
+      (SyntaxKind.IsIdentifier |
+        SyntaxKind.IsFutureReserved |
+        SyntaxKind.IsEllipsis |
+        SyntaxKind.IsStartOfType |
+        SyntaxKind.IsLessThanOrLeftParen |
+        SyntaxKind.IsPatternStart)
+    ) {
       properties.push(parseTypeMember(parser, context, objectTypeFlag));
     }
     consume(

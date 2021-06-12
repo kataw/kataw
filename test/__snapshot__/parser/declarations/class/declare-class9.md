@@ -146,51 +146,25 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                             "flags": 0,
                             "start": 28,
                             "end": 71
-                        },
-                        {
-                            "kind": 193,
-                            "protoKeyword": null,
-                            "staticToken": null,
-                            "getKeyword": null,
-                            "setKeyword": null,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 71,
-                                "end": 71
-                            },
-                            "optionalToken": null,
-                            "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 71,
-                                    "end": 71
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 71,
-                                "end": 71
-                            },
-                            "flags": 0,
-                            "start": 71,
-                            "end": 72
                         }
                     ],
                     "flags": 0,
                     "start": 26,
-                    "end": 74
+                    "end": 71
                 },
                 "flags": 4128,
                 "start": 26,
-                "end": 74
+                "end": 71
             },
             "flags": 16,
             "start": 0,
-            "end": 74
+            "end": 71
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 71,
+            "end": 72
         }
     ],
     "isModule": false,
@@ -211,7 +185,8 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 71, end: 72
+✖ The parser expected to find a '}' to match the '{' token here - start: 71, end: 72
+✖ Declaration or statement expected - start: 72, end: 74
 
 ```
 

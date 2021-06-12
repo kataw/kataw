@@ -154,61 +154,29 @@ var a: { id<T>(x: T): T; }
                                         "flags": 0,
                                         "start": 8,
                                         "end": 23
-                                    },
-                                    {
-                                        "kind": 193,
-                                        "protoKeyword": null,
-                                        "staticToken": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
-                                        "key": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 64,
-                                            "start": 23,
-                                            "end": 23
-                                        },
-                                        "optionalToken": null,
-                                        "value": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 23,
-                                                "end": 23
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 23,
-                                            "end": 23
-                                        },
-                                        "flags": 0,
-                                        "start": 23,
-                                        "end": 24
                                     }
                                 ],
                                 "flags": 0,
                                 "start": 6,
-                                "end": 26
+                                "end": 23
                             },
                             "flags": 0,
                             "start": 5,
-                            "end": 26
+                            "end": 23
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 26
+                        "end": 23
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 26
+                "end": 23
             },
             "flags": 16,
             "start": 0,
-            "end": 26
+            "end": 24
         }
     ],
     "isModule": false,
@@ -229,7 +197,8 @@ var a: { id<T>(x: T): T; }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 23, end: 24
+✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 24
+✖ Declaration or statement expected - start: 24, end: 26
 
 ```
 

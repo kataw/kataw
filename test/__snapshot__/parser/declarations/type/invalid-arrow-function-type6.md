@@ -42,134 +42,107 @@ type a = ({} | {static [x]:string}) => T;
             },
             "typeParameters": null,
             "type": {
-                "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 35,
-                    "end": 38
-                },
-                "parameters": {
-                    "kind": 279,
-                    "parameters": [
+                "kind": 260,
+                "type": {
+                    "kind": 137,
+                    "types": [
                         {
-                            "kind": 137,
-                            "types": [
+                            "kind": 134234353,
+                            "properties": [],
+                            "flags": 0,
+                            "start": 10,
+                            "end": 12
+                        },
+                        {
+                            "kind": 134234353,
+                            "properties": [
                                 {
-                                    "kind": 134234353,
-                                    "properties": [],
-                                    "flags": 0,
-                                    "start": 10,
-                                    "end": 12
-                                },
-                                {
-                                    "kind": 134234353,
-                                    "properties": [
-                                        {
-                                            "kind": 193,
-                                            "protoKeyword": null,
-                                            "staticToken": null,
-                                            "getKeyword": null,
-                                            "setKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "static",
-                                                "rawText": "static",
-                                                "flags": 96,
-                                                "start": 16,
-                                                "end": 22
-                                            },
-                                            "optionalToken": null,
-                                            "value": {
-                                                "kind": 147,
-                                                "elementTypes": [
-                                                    {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "x",
-                                                            "rawText": "x",
-                                                            "flags": 96,
-                                                            "start": 24,
-                                                            "end": 25
-                                                        },
-                                                        "typeParameters": null,
-                                                        "flags": 0,
-                                                        "start": 24,
-                                                        "end": 25
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                    "kind": 193,
+                                    "protoKeyword": null,
+                                    "staticToken": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "static",
+                                        "rawText": "static",
+                                        "flags": 96,
+                                        "start": 16,
+                                        "end": 22
+                                    },
+                                    "optionalToken": null,
+                                    "value": {
+                                        "kind": 147,
+                                        "elementTypes": [
+                                            {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 24,
+                                                    "end": 25
+                                                },
+                                                "typeParameters": null,
                                                 "flags": 0,
-                                                "start": 22,
-                                                "end": 26
-                                            },
-                                            "flags": 0,
-                                            "start": 16,
-                                            "end": 26
-                                        },
-                                        {
-                                            "kind": 193,
-                                            "protoKeyword": null,
-                                            "staticToken": null,
-                                            "getKeyword": null,
-                                            "setKeyword": null,
-                                            "key": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "flags": 64,
-                                                "start": 26,
-                                                "end": 26
-                                            },
-                                            "optionalToken": null,
-                                            "value": {
-                                                "kind": 134234347,
-                                                "flags": 64,
-                                                "start": 27,
-                                                "end": 33
-                                            },
-                                            "flags": 0,
-                                            "start": 26,
-                                            "end": 33
-                                        }
-                                    ],
+                                                "start": 24,
+                                                "end": 25
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 22,
+                                        "end": 26
+                                    },
                                     "flags": 0,
-                                    "start": 14,
-                                    "end": 34
+                                    "start": 16,
+                                    "end": 26
                                 }
                             ],
                             "flags": 0,
-                            "start": 12,
-                            "end": 34
+                            "start": 14,
+                            "end": 26
                         }
                     ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 8,
-                    "end": 38
-                },
-                "returnType": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "T",
-                        "rawText": "T",
-                        "flags": 96,
-                        "start": 38,
-                        "end": 40
-                    },
-                    "typeParameters": null,
                     "flags": 0,
-                    "start": 38,
-                    "end": 40
+                    "start": 12,
+                    "end": 26
                 },
-                "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 40
+                "end": 26
             },
             "flags": 16,
             "start": 0,
+            "end": 26
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "string",
+                "rawText": "string",
+                "flags": 96,
+                "start": 27,
+                "end": 33
+            },
+            "flags": 16,
+            "start": 27,
+            "end": 33
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "T",
+                "rawText": "T",
+                "flags": 96,
+                "start": 38,
+                "end": 40
+            },
+            "flags": 16,
+            "start": 38,
             "end": 41
         }
     ],
@@ -192,6 +165,9 @@ type a = ({} | {static [x]:string}) => T;
 
 ```javascript
 ✖ Expected a `;` - start: 26, end: 27
+✖ Declaration or statement expected - start: 33, end: 34
+✖ Declaration or statement expected - start: 34, end: 35
+✖ Declaration or statement expected - start: 35, end: 38
 
 ```
 

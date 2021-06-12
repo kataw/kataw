@@ -105,51 +105,25 @@ declare class B {
                             "flags": 0,
                             "start": 17,
                             "end": 46
-                        },
-                        {
-                            "kind": 193,
-                            "protoKeyword": null,
-                            "staticToken": null,
-                            "getKeyword": null,
-                            "setKeyword": null,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 46,
-                                "end": 46
-                            },
-                            "optionalToken": null,
-                            "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 46,
-                                    "end": 46
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 46,
-                                "end": 46
-                            },
-                            "flags": 0,
-                            "start": 46,
-                            "end": 47
                         }
                     ],
                     "flags": 0,
                     "start": 15,
-                    "end": 49
+                    "end": 46
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 49
+                "end": 46
             },
             "flags": 16,
             "start": 0,
-            "end": 49
+            "end": 46
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 46,
+            "end": 47
         }
     ],
     "isModule": false,
@@ -170,7 +144,8 @@ declare class B {
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 46, end: 47
+✖ The parser expected to find a '}' to match the '{' token here - start: 46, end: 47
+✖ Declaration or statement expected - start: 47, end: 49
 
 ```
 

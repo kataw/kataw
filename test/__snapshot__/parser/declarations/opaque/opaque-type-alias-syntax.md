@@ -162,47 +162,15 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         "flags": 0,
                         "start": 81,
                         "end": 100
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 100,
-                            "end": 100
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 100,
-                                "end": 100
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 100,
-                            "end": 100
-                        },
-                        "flags": 0,
-                        "start": 100,
-                        "end": 101
                     }
                 ],
                 "flags": 0,
                 "start": 59,
-                "end": 103
+                "end": 100
             },
             "flags": 0,
             "start": 33,
-            "end": 103
+            "end": 100
         },
         {
             "kind": 168,
@@ -421,7 +389,8 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 100, end: 101
+✖ The parser expected to find a '}' to match the '{' token here - start: 100, end: 101
+✖ Declaration or statement expected - start: 101, end: 103
 
 ```
 

@@ -217,75 +217,34 @@ type D32 = {p?: number};
                         "flags": 0,
                         "start": 69,
                         "end": 74
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 74,
-                            "end": 74
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 74,
-                                "end": 74
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 74,
-                            "end": 74
-                        },
-                        "flags": 0,
-                        "start": 74,
-                        "end": 75
-                    },
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 75,
-                            "end": 79
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "B2",
-                                "rawText": "B2",
-                                "flags": 96,
-                                "start": 79,
-                                "end": 81
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 79,
-                            "end": 81
-                        },
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 75,
-                        "end": 81
                     }
                 ],
                 "flags": 0,
                 "start": 67,
-                "end": 82
+                "end": 74
             },
             "flags": 17,
             "start": 57,
+            "end": 74
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "B2",
+                "rawText": "B2",
+                "flags": 96,
+                "start": 79,
+                "end": 81
+            },
+            "flags": 16,
+            "start": 79,
+            "end": 81
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 82,
             "end": 83
         },
         {
@@ -392,75 +351,34 @@ type D32 = {p?: number};
                         "flags": 0,
                         "start": 118,
                         "end": 123
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 123,
-                            "end": 123
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 123,
-                                "end": 123
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 123,
-                            "end": 123
-                        },
-                        "flags": 0,
-                        "start": 123,
-                        "end": 124
-                    },
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 124,
-                            "end": 128
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "B9",
-                                "rawText": "B9",
-                                "flags": 96,
-                                "start": 128,
-                                "end": 130
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 128,
-                            "end": 130
-                        },
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 124,
-                        "end": 130
                     }
                 ],
                 "flags": 0,
                 "start": 116,
-                "end": 131
+                "end": 123
             },
             "flags": 17,
             "start": 106,
+            "end": 123
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "B9",
+                "rawText": "B9",
+                "flags": 96,
+                "start": 128,
+                "end": 130
+            },
+            "flags": 16,
+            "start": 128,
+            "end": 130
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 131,
             "end": 132
         },
         {
@@ -586,75 +504,34 @@ type D32 = {p?: number};
                         "flags": 0,
                         "start": 178,
                         "end": 184
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 184,
-                            "end": 184
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 184,
-                                "end": 184
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 184,
-                            "end": 184
-                        },
-                        "flags": 0,
-                        "start": 184,
-                        "end": 185
-                    },
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 185,
-                            "end": 189
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "B11",
-                                "rawText": "B11",
-                                "flags": 96,
-                                "start": 189,
-                                "end": 192
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 189,
-                            "end": 192
-                        },
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 185,
-                        "end": 192
                     }
                 ],
                 "flags": 0,
                 "start": 176,
-                "end": 193
+                "end": 184
             },
             "flags": 17,
             "start": 165,
+            "end": 184
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "B11",
+                "rawText": "B11",
+                "flags": 96,
+                "start": 189,
+                "end": 192
+            },
+            "flags": 16,
+            "start": 189,
+            "end": 192
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 193,
             "end": 194
         },
         {
@@ -986,9 +863,15 @@ type D32 = {p?: number};
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 74, end: 75
-✖ Identifier expected - start: 123, end: 124
-✖ Identifier expected - start: 184, end: 185
+✖ The parser expected to find a '}' to match the '{' token here - start: 74, end: 75
+✖ Declaration or statement expected - start: 75, end: 79
+✖ Declaration or statement expected - start: 81, end: 82
+✖ The parser expected to find a '}' to match the '{' token here - start: 123, end: 124
+✖ Declaration or statement expected - start: 124, end: 128
+✖ Declaration or statement expected - start: 130, end: 131
+✖ The parser expected to find a '}' to match the '{' token here - start: 184, end: 185
+✖ Declaration or statement expected - start: 185, end: 189
+✖ Declaration or statement expected - start: 192, end: 193
 
 ```
 

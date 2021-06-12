@@ -77,39 +77,29 @@ type T = { proto p: string }
                         "flags": 0,
                         "start": 10,
                         "end": 18
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 18,
-                            "end": 18
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 134234347,
-                            "flags": 64,
-                            "start": 19,
-                            "end": 26
-                        },
-                        "flags": 0,
-                        "start": 18,
-                        "end": 26
                     }
                 ],
                 "flags": 0,
                 "start": 8,
-                "end": 28
+                "end": 18
             },
             "flags": 16,
             "start": 0,
-            "end": 28
+            "end": 18
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "string",
+                "rawText": "string",
+                "flags": 96,
+                "start": 19,
+                "end": 26
+            },
+            "flags": 16,
+            "start": 19,
+            "end": 26
         }
     ],
     "isModule": false,
@@ -131,6 +121,7 @@ type T = { proto p: string }
 
 ```javascript
 ✖ Expected a `;` - start: 18, end: 19
+✖ Declaration or statement expected - start: 26, end: 28
 
 ```
 

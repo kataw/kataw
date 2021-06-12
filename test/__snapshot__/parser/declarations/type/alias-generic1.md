@@ -216,46 +216,20 @@ type MyObject<A, B, C> = {
                         "flags": 0,
                         "start": 41,
                         "end": 61
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 61,
-                            "end": 61
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 61,
-                                "end": 61
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 61,
-                            "end": 61
-                        },
-                        "flags": 0,
-                        "start": 61,
-                        "end": 62
                     }
                 ],
                 "flags": 0,
                 "start": 24,
-                "end": 64
+                "end": 61
             },
             "flags": 16,
             "start": 0,
+            "end": 61
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 64,
             "end": 65
         }
     ],
@@ -277,7 +251,8 @@ type MyObject<A, B, C> = {
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 61, end: 62
+✖ The parser expected to find a '}' to match the '{' token here - start: 61, end: 62
+✖ Declaration or statement expected - start: 62, end: 64
 
 ```
 

@@ -144,46 +144,20 @@ type T9 = { [param: string]: U };
                         "flags": 0,
                         "start": 37,
                         "end": 42
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 42,
-                            "end": 42
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 42,
-                                "end": 42
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 42,
-                            "end": 42
-                        },
-                        "flags": 0,
-                        "start": 42,
-                        "end": 43
                     }
                 ],
                 "flags": 0,
                 "start": 35,
-                "end": 45
+                "end": 42
             },
             "flags": 17,
             "start": 25,
+            "end": 42
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 45,
             "end": 46
         },
         {
@@ -235,75 +209,34 @@ type T9 = { [param: string]: U };
                         "flags": 0,
                         "start": 58,
                         "end": 63
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 63,
-                            "end": 63
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 63,
-                                "end": 63
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 63,
-                            "end": 63
-                        },
-                        "flags": 0,
-                        "start": 63,
-                        "end": 64
-                    },
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 64,
-                            "end": 68
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "V",
-                                "rawText": "V",
-                                "flags": 96,
-                                "start": 68,
-                                "end": 69
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 68,
-                            "end": 69
-                        },
-                        "staticToken": null,
-                        "flags": 0,
-                        "start": 64,
-                        "end": 69
                     }
                 ],
                 "flags": 0,
                 "start": 56,
-                "end": 71
+                "end": 63
             },
             "flags": 17,
             "start": 46,
+            "end": 63
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "V",
+                "rawText": "V",
+                "flags": 96,
+                "start": 68,
+                "end": 69
+            },
+            "flags": 16,
+            "start": 68,
+            "end": 69
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 71,
             "end": 72
         },
         {
@@ -448,80 +381,69 @@ type T9 = { [param: string]: U };
                         "flags": 0,
                         "start": 110,
                         "end": 115
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 115,
-                            "end": 115
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 115,
-                                "end": 115
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 115,
-                            "end": 115
-                        },
-                        "flags": 0,
-                        "start": 115,
-                        "end": 116
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "p",
-                            "rawText": "p",
-                            "flags": 96,
-                            "start": 116,
-                            "end": 118
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "V",
-                                "rawText": "V",
-                                "flags": 96,
-                                "start": 119,
-                                "end": 121
-                            },
-                            "typeParameters": null,
-                            "flags": 0,
-                            "start": 119,
-                            "end": 121
-                        },
-                        "flags": 0,
-                        "start": 116,
-                        "end": 122
                     }
                 ],
                 "flags": 0,
                 "start": 108,
-                "end": 124
+                "end": 115
             },
             "flags": 17,
             "start": 98,
+            "end": 115
+        },
+        {
+            "kind": 163,
+            "label": {
+                "kind": 134299649,
+                "text": "p",
+                "rawText": "p",
+                "flags": 96,
+                "start": 116,
+                "end": 118
+            },
+            "colonToken": {
+                "kind": 21,
+                "flags": 64,
+                "start": 118,
+                "end": 119
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
+                        {
+                            "kind": 134299649,
+                            "text": "V",
+                            "rawText": "V",
+                            "flags": 96,
+                            "start": 119,
+                            "end": 121
+                        },
+                        {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 122,
+                            "end": 122
+                        }
+                    ],
+                    "flags": 32,
+                    "start": 119,
+                    "end": 122
+                },
+                "flags": 16,
+                "start": 119,
+                "end": 122
+            },
+            "flags": 16,
+            "start": 116,
+            "end": 122
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 124,
             "end": 125
         },
         {
@@ -917,9 +839,13 @@ type T9 = { [param: string]: U };
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 42, end: 43
-✖ Identifier expected - start: 63, end: 64
-✖ Identifier expected - start: 115, end: 116
+✖ The parser expected to find a '}' to match the '{' token here - start: 42, end: 43
+✖ Declaration or statement expected - start: 43, end: 45
+✖ The parser expected to find a '}' to match the '{' token here - start: 63, end: 64
+✖ Declaration or statement expected - start: 64, end: 68
+✖ Declaration or statement expected - start: 69, end: 71
+✖ The parser expected to find a '}' to match the '{' token here - start: 115, end: 116
+✖ Identifier expected - start: 122, end: 124
 
 ```
 

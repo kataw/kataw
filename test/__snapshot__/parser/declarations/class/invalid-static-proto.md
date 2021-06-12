@@ -93,52 +93,33 @@ declare class C {
                             "flags": 0,
                             "start": 17,
                             "end": 34
-                        },
-                        {
-                            "kind": 193,
-                            "protoKeyword": null,
-                            "staticToken": null,
-                            "getKeyword": null,
-                            "setKeyword": null,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 34,
-                                "end": 34
-                            },
-                            "optionalToken": null,
-                            "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
-                                    "start": 35,
-                                    "end": 37
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 35,
-                                "end": 37
-                            },
-                            "flags": 0,
-                            "start": 34,
-                            "end": 38
                         }
                     ],
                     "flags": 0,
                     "start": 15,
-                    "end": 40
+                    "end": 34
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 40
+                "end": 34
             },
             "flags": 16,
             "start": 0,
-            "end": 40
+            "end": 34
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "T",
+                "rawText": "T",
+                "flags": 96,
+                "start": 35,
+                "end": 37
+            },
+            "flags": 16,
+            "start": 35,
+            "end": 38
         }
     ],
     "isModule": false,
@@ -160,6 +141,7 @@ declare class C {
 
 ```javascript
 ✖ Expected a `;` - start: 34, end: 35
+✖ Declaration or statement expected - start: 38, end: 40
 
 ```
 

@@ -97,81 +97,73 @@ declare class A { static foo(): number; static x : string }
                             "flags": 0,
                             "start": 17,
                             "end": 38
-                        },
-                        {
-                            "kind": 193,
-                            "protoKeyword": null,
-                            "staticToken": null,
-                            "getKeyword": null,
-                            "setKeyword": null,
-                            "key": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 64,
-                                "start": 38,
-                                "end": 38
-                            },
-                            "optionalToken": null,
-                            "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 38,
-                                    "end": 38
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 38,
-                                "end": 38
-                            },
-                            "flags": 0,
-                            "start": 38,
-                            "end": 39
-                        },
-                        {
-                            "kind": 193,
-                            "protoKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 39,
-                                "end": 46
-                            },
-                            "staticToken": null,
-                            "getKeyword": null,
-                            "setKeyword": null,
-                            "key": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 46,
-                                "end": 48
-                            },
-                            "optionalToken": null,
-                            "value": {
-                                "kind": 134234347,
-                                "flags": 64,
-                                "start": 50,
-                                "end": 57
-                            },
-                            "flags": 0,
-                            "start": 39,
-                            "end": 57
                         }
                     ],
                     "flags": 0,
                     "start": 15,
-                    "end": 59
+                    "end": 38
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 59
+                "end": 38
             },
             "flags": 16,
             "start": 0,
-            "end": 59
+            "end": 38
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 38,
+            "end": 39
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "static",
+                "rawText": "static",
+                "flags": 96,
+                "start": 39,
+                "end": 46
+            },
+            "flags": 16,
+            "start": 39,
+            "end": 46
+        },
+        {
+            "kind": 163,
+            "label": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 46,
+                "end": 48
+            },
+            "colonToken": {
+                "kind": 21,
+                "flags": 64,
+                "start": 48,
+                "end": 50
+            },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "string",
+                    "rawText": "string",
+                    "flags": 96,
+                    "start": 50,
+                    "end": 57
+                },
+                "flags": 16,
+                "start": 50,
+                "end": 57
+            },
+            "flags": 16,
+            "start": 46,
+            "end": 57
         }
     ],
     "isModule": false,
@@ -192,7 +184,9 @@ declare class A { static foo(): number; static x : string }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 38, end: 39
+✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 39
+✖ Expected a `;` - start: 46, end: 48
+✖ Declaration or statement expected - start: 57, end: 59
 
 ```
 
