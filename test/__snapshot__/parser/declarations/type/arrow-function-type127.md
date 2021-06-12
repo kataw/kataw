@@ -1,19 +1,19 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
-- From: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/gen/stand_alone
-> :: test: stand alone
-> :: case: (&1,) => T
-## Options
+# Kataw parser test case
 
-`````js
-{"allowTypes":true}
-`````
 ## Input
 
 `````js
-type a = (&1,) => T;
+type a = (&1,|2&3, ) => T;
 `````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### CST
@@ -46,8 +46,8 @@ type a = (&1,) => T;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 14,
-                    "end": 17
+                    "start": 20,
+                    "end": 23
                 },
                 "parameters": {
                     "kind": 279,
@@ -67,12 +67,43 @@ type a = (&1,) => T;
                             "flags": 0,
                             "start": 8,
                             "end": 12
+                        },
+                        {
+                            "kind": 149,
+                            "ellipsisToken": null,
+                            "name": null,
+                            "optionalToken": null,
+                            "types": {
+                                "kind": 138,
+                                "types": [
+                                    {
+                                        "kind": 134217968,
+                                        "value": 2,
+                                        "flags": 0,
+                                        "start": 14,
+                                        "end": 15
+                                    },
+                                    {
+                                        "kind": 134217968,
+                                        "value": 3,
+                                        "flags": 0,
+                                        "start": 16,
+                                        "end": 17
+                                    }
+                                ],
+                                "flags": 0,
+                                "start": 15,
+                                "end": 17
+                            },
+                            "flags": 0,
+                            "start": 13,
+                            "end": 17
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
                     "start": 8,
-                    "end": 13
+                    "end": 18
                 },
                 "returnType": {
                     "kind": 144,
@@ -81,30 +112,30 @@ type a = (&1,) => T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
-                        "start": 17,
-                        "end": 19
+                        "start": 23,
+                        "end": 25
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 17,
-                    "end": 19
+                    "start": 23,
+                    "end": 25
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 19
+                "end": 25
             },
             "flags": 16,
             "start": 0,
-            "end": 20
+            "end": 26
         }
     ],
     "isModule": false,
-    "source": "type a = (&1,) => T;",
+    "source": "type a = (&1,|2&3, ) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 20
+    "end": 26
 }
 ```
 

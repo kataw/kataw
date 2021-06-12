@@ -1,19 +1,19 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
-- From: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/gen/in_paren
-> :: test: in paren
-> :: case: ((| q, | x )=> T) => T
-## Options
+# Kataw parser test case
 
-`````js
-{"allowTypes":true}
-`````
 ## Input
 
 `````js
-type a = (((| q, | x )=> T) => T);
+type a = (((| x, )=> T) => T);
 `````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### CST
@@ -48,8 +48,8 @@ type a = (((| q, | x )=> T) => T);
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
-                        "start": 27,
-                        "end": 30
+                        "start": 23,
+                        "end": 26
                     },
                     "parameters": {
                         "kind": 279,
@@ -59,8 +59,8 @@ type a = (((| q, | x )=> T) => T);
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
-                                    "start": 22,
-                                    "end": 24
+                                    "start": 18,
+                                    "end": 20
                                 },
                                 "parameters": {
                                     "kind": 279,
@@ -72,8 +72,8 @@ type a = (((| q, | x )=> T) => T);
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
-                                                    "text": "q",
-                                                    "rawText": "q",
+                                                    "text": "x",
+                                                    "rawText": "x",
                                                     "flags": 96,
                                                     "start": 13,
                                                     "end": 15
@@ -88,36 +88,12 @@ type a = (((| q, | x )=> T) => T);
                                             "flags": 0,
                                             "start": 11,
                                             "end": 15
-                                        },
-                                        {
-                                            "kind": 149,
-                                            "ellipsisToken": null,
-                                            "name": null,
-                                            "optionalToken": null,
-                                            "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 18,
-                                                    "end": 20
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 0,
-                                                "start": 18,
-                                                "end": 20
-                                            },
-                                            "flags": 0,
-                                            "start": 16,
-                                            "end": 20
                                         }
                                     ],
-                                    "trailingComma": false,
+                                    "trailingComma": true,
                                     "flags": 32,
                                     "start": 11,
-                                    "end": 20
+                                    "end": 16
                                 },
                                 "returnType": {
                                     "kind": 144,
@@ -126,24 +102,24 @@ type a = (((| q, | x )=> T) => T);
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
-                                        "start": 24,
-                                        "end": 26
+                                        "start": 20,
+                                        "end": 22
                                     },
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "start": 24,
-                                    "end": 26
+                                    "start": 20,
+                                    "end": 22
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
                                 "start": 11,
-                                "end": 26
+                                "end": 22
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 8,
-                        "end": 30
+                        "end": 26
                     },
                     "returnType": {
                         "kind": 144,
@@ -152,34 +128,34 @@ type a = (((| q, | x )=> T) => T);
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
-                            "start": 30,
-                            "end": 32
+                            "start": 26,
+                            "end": 28
                         },
                         "typeParameters": null,
                         "flags": 0,
-                        "start": 30,
-                        "end": 32
+                        "start": 26,
+                        "end": 28
                     },
                     "typeParameters": null,
                     "flags": 0,
                     "start": 8,
-                    "end": 32
+                    "end": 28
                 },
                 "flags": 0,
                 "start": 8,
-                "end": 33
+                "end": 29
             },
             "flags": 16,
             "start": 0,
-            "end": 34
+            "end": 30
         }
     ],
     "isModule": false,
-    "source": "type a = (((| q, | x )=> T) => T);",
+    "source": "type a = (((| x, )=> T) => T);",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 34
+    "end": 30
 }
 ```
 

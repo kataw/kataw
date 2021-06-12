@@ -1,19 +1,19 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
-- From: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/gen/stand_alone
-> :: test: stand alone
-> :: case: (&x,|a) => T
-## Options
+# Kataw parser test case
 
-`````js
-{"allowTypes":true}
-`````
 ## Input
 
 `````js
-type a = (&x,|a) => T;
+type a = (|2&3,symbol['string']) => T;
 `````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### CST
@@ -46,8 +46,8 @@ type a = (&x,|a) => T;
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 16,
-                    "end": 19
+                    "start": 32,
+                    "end": 35
                 },
                 "parameters": {
                     "kind": 279,
@@ -56,25 +56,32 @@ type a = (&x,|a) => T;
                             "kind": 149,
                             "ellipsisToken": null,
                             "name": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                "typeParameters": null,
+                                "kind": 138,
+                                "types": [
+                                    {
+                                        "kind": 134217968,
+                                        "value": 2,
+                                        "flags": 0,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    {
+                                        "kind": 134217968,
+                                        "value": 3,
+                                        "flags": 0,
+                                        "start": 13,
+                                        "end": 14
+                                    }
+                                ],
                                 "flags": 0,
-                                "start": 11,
-                                "end": 12
+                                "start": 12,
+                                "end": 14
                             },
                             "optionalToken": null,
                             "types": null,
                             "flags": 0,
                             "start": 8,
-                            "end": 12
+                            "end": 14
                         },
                         {
                             "kind": 149,
@@ -82,29 +89,33 @@ type a = (&x,|a) => T;
                             "name": null,
                             "optionalToken": null,
                             "types": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 14,
-                                    "end": 15
+                                "kind": 268,
+                                "objectType": {
+                                    "kind": 134234343,
+                                    "flags": 64,
+                                    "start": 15,
+                                    "end": 21
                                 },
-                                "typeParameters": null,
+                                "indexType": {
+                                    "kind": 134217967,
+                                    "value": "string",
+                                    "flags": 0,
+                                    "start": 22,
+                                    "end": 30
+                                },
                                 "flags": 0,
-                                "start": 14,
-                                "end": 15
+                                "start": 22,
+                                "end": 32
                             },
                             "flags": 0,
-                            "start": 13,
-                            "end": 15
+                            "start": 15,
+                            "end": 31
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 8,
-                    "end": 15
+                    "end": 31
                 },
                 "returnType": {
                     "kind": 144,
@@ -113,30 +124,30 @@ type a = (&x,|a) => T;
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
-                        "start": 19,
-                        "end": 21
+                        "start": 35,
+                        "end": 37
                     },
                     "typeParameters": null,
                     "flags": 0,
-                    "start": 19,
-                    "end": 21
+                    "start": 35,
+                    "end": 37
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 21
+                "end": 37
             },
             "flags": 16,
             "start": 0,
-            "end": 22
+            "end": 38
         }
     ],
     "isModule": false,
-    "source": "type a = (&x,|a) => T;",
+    "source": "type a = (|2&3,symbol['string']) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 22
+    "end": 38
 }
 ```
 

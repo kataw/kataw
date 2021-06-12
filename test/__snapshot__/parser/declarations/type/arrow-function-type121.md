@@ -1,19 +1,18 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
-- From: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/gen/tuple
-> :: test: tuple
-> :: case: (&x,) => T
-## Options
+# Kataw parser test case
 
-`````js
-{"allowTypes":true}
-`````
 ## Input
 
 `````js
-type a = [(&x,) => T];
+type a = [(&x,|a) => T];
 `````
+
+## Options
+
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### CST
@@ -49,8 +48,8 @@ type a = [(&x,) => T];
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
-                            "start": 15,
-                            "end": 18
+                            "start": 17,
+                            "end": 20
                         },
                         "parameters": {
                             "kind": 279,
@@ -78,12 +77,36 @@ type a = [(&x,) => T];
                                     "flags": 0,
                                     "start": 10,
                                     "end": 13
+                                },
+                                {
+                                    "kind": 149,
+                                    "ellipsisToken": null,
+                                    "name": null,
+                                    "optionalToken": null,
+                                    "types": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 15,
+                                            "end": 16
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 15,
+                                        "end": 16
+                                    },
+                                    "flags": 0,
+                                    "start": 14,
+                                    "end": 16
                                 }
                             ],
-                            "trailingComma": true,
+                            "trailingComma": false,
                             "flags": 32,
                             "start": 10,
-                            "end": 14
+                            "end": 16
                         },
                         "returnType": {
                             "kind": 144,
@@ -92,36 +115,36 @@ type a = [(&x,) => T];
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
-                                "start": 18,
-                                "end": 20
+                                "start": 20,
+                                "end": 22
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 18,
-                            "end": 20
+                            "start": 20,
+                            "end": 22
                         },
                         "typeParameters": null,
                         "flags": 0,
                         "start": 10,
-                        "end": 20
+                        "end": 22
                     }
                 ],
                 "trailingComma": false,
                 "flags": 0,
                 "start": 8,
-                "end": 21
+                "end": 23
             },
             "flags": 16,
             "start": 0,
-            "end": 22
+            "end": 24
         }
     ],
     "isModule": false,
-    "source": "type a = [(&x,) => T];",
+    "source": "type a = [(&x,|a) => T];",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 22
+    "end": 24
 }
 ```
 

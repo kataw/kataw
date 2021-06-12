@@ -1,19 +1,19 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
-- From: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/type/arrow-function-type/gen/stand_alone
-> :: test: stand alone
-> :: case: (&x,|a&c) => T
-## Options
+# Kataw parser test case
 
-`````js
-{"allowTypes":true}
-`````
 ## Input
 
 `````js
-type a = (&x,|a&c) => T;
+type a = (&1,|2&3, ['string']) => T;
 `````
+
+## Options
+
+### Parser Options
+
+`````js
+{ allowTypes : true }
+`````
+
 ## Output
 
 ### CST
@@ -43,12 +43,7 @@ type a = (&x,|a&c) => T;
             "typeParameters": null,
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 18,
-                    "end": 21
-                },
+                "arrowToken": null,
                 "parameters": {
                     "kind": 279,
                     "parameters": [
@@ -56,16 +51,8 @@ type a = (&x,|a&c) => T;
                             "kind": 149,
                             "ellipsisToken": null,
                             "name": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                "typeParameters": null,
+                                "kind": 134217968,
+                                "value": 1,
                                 "flags": 0,
                                 "start": 11,
                                 "end": 12
@@ -85,31 +72,15 @@ type a = (&x,|a&c) => T;
                                 "kind": 138,
                                 "types": [
                                     {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 14,
-                                            "end": 15
-                                        },
-                                        "typeParameters": null,
+                                        "kind": 134217968,
+                                        "value": 2,
                                         "flags": 0,
                                         "start": 14,
                                         "end": 15
                                     },
                                     {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "c",
-                                            "rawText": "c",
-                                            "flags": 96,
-                                            "start": 16,
-                                            "end": 17
-                                        },
-                                        "typeParameters": null,
+                                        "kind": 134217968,
+                                        "value": 3,
                                         "flags": 0,
                                         "start": 16,
                                         "end": 17
@@ -127,39 +98,54 @@ type a = (&x,|a&c) => T;
                     "trailingComma": false,
                     "flags": 32,
                     "start": 8,
-                    "end": 17
+                    "end": 18
                 },
                 "returnType": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "T",
-                        "rawText": "T",
-                        "flags": 96,
-                        "start": 21,
-                        "end": 23
-                    },
-                    "typeParameters": null,
-                    "flags": 0,
-                    "start": 21,
-                    "end": 23
+                    "kind": 147,
+                    "elementTypes": [
+                        {
+                            "kind": 134217967,
+                            "value": "string",
+                            "flags": 0,
+                            "start": 20,
+                            "end": 28
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 4194304,
+                    "start": 18,
+                    "end": 29
                 },
                 "typeParameters": null,
                 "flags": 0,
                 "start": 8,
-                "end": 23
+                "end": 29
             },
             "flags": 16,
             "start": 0,
-            "end": 24
+            "end": 29
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "T",
+                "rawText": "T",
+                "flags": 96,
+                "start": 33,
+                "end": 35
+            },
+            "flags": 16,
+            "start": 33,
+            "end": 36
         }
     ],
     "isModule": false,
-    "source": "type a = (&x,|a&c) => T;",
+    "source": "type a = (&1,|2&3, ['string']) => T;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 24
+    "end": 36
 }
 ```
 
@@ -167,12 +153,14 @@ type a = (&x,|a&c) => T;
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected '=>' - start: 18, end: 20
+✖ Expected a `;` - start: 29, end: 30
+✖ Declaration or statement expected - start: 30, end: 33
+
 ```
 

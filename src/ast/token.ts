@@ -16,6 +16,8 @@ export type TokenSyntaxKind =
   | SyntaxKind.LeftBracket
   | SyntaxKind.RightBracket
   | SyntaxKind.LeftParen
+  | SyntaxKind.LogicalOr
+  | SyntaxKind.LogicalAnd
   | SyntaxKind.RightParen
   | SyntaxKind.Decrement
   | SyntaxKind.UnknownToken
