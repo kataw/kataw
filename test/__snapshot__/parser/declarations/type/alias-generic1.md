@@ -215,21 +215,15 @@ type MyObject<A, B, C> = {
                         },
                         "flags": 0,
                         "start": 41,
-                        "end": 61
+                        "end": 62
                     }
                 ],
                 "flags": 0,
                 "start": 24,
-                "end": 61
+                "end": 64
             },
             "flags": 16,
             "start": 0,
-            "end": 61
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 64,
             "end": 65
         }
     ],
@@ -246,13 +240,12 @@ type MyObject<A, B, C> = {
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 61, end: 62
-✖ Declaration or statement expected - start: 62, end: 64
-
+✔ No errors
 ```
 

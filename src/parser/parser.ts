@@ -8310,7 +8310,7 @@ function parseTypeMember(parser: ParserState, context: Context, objectTypeFlag: 
     return parseObjectTypeSpreadProperty(parser, context, protoKeyword, staticKeyword, pos);
   }
 
-  return parseObjectTypeProperty(parser, context, staticKeyword, protoKeyword, pos);
+  return parseObjectTypeProperty(parser, context, protoKeyword, staticKeyword, pos);
 }
 
 function parseTypeMemberSemicolon(parser: ParserState, context: Context): void {
@@ -8380,11 +8380,14 @@ function parseObjectTypeProperty(
     key = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
     if (isIdentifier) {
       if (token === SyntaxKind.GetKeyword) {
+        const key = parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000);
+        const value = parseFunctionType(parser, context);
+        parseTypeMemberSemicolon(parser, context);
         return createObjectTypeProperty(
           createToken(SyntaxKind.GetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end),
           setKeyword,
-          parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000),
-          parseFunctionType(parser, context),
+          key,
+          value,
           /* optionalToken */ null,
           /* staticKeyword */ null,
           protoKeyword,
@@ -8393,11 +8396,16 @@ function parseObjectTypeProperty(
         );
       }
       if (token === SyntaxKind.SetKeyword) {
+
+        const key = parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000);
+        const value = parseFunctionType(parser, context);
+        parseTypeMemberSemicolon(parser, context);
+
         return createObjectTypeProperty(
           getKeyword,
           createToken(SyntaxKind.SetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end),
-          parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000),
-          parseFunctionType(parser, context),
+          key,
+          value,
           /* optionalToken */ null,
           /* staticKeyword */ null,
           protoKeyword,
@@ -8407,12 +8415,14 @@ function parseObjectTypeProperty(
       }
     }
     if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
+      const value = parseFunctionType(parser, context);
+      parseTypeMemberSemicolon(parser, context);
       // This is a method property
       return createObjectTypeProperty(
         getKeyword,
         setKeyword,
         key,
-        parseFunctionType(parser, context),
+        value,
         /* optionalToken */ null,
         staticKeyword,
         protoKeyword,
@@ -8435,16 +8445,19 @@ function parseObjectTypeProperty(
       pos,
       parser.curPos
     );
+  } else {
+    key = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
   }
-  key = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     // This is a method property
+    const value = parseFunctionType(parser, context);
+    parseTypeMemberSemicolon(parser, context);
     return createObjectTypeProperty(
       getKeyword,
       setKeyword,
       key,
-      parseFunctionType(parser, context),
+      value,
       /* optionalToken */ null,
       staticKeyword,
       protoKeyword,

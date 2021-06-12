@@ -64,7 +64,7 @@ type a = ({set y(y): string}) => T;
                                         "kind": 16499,
                                         "flags": 96,
                                         "start": 11,
-                                        "end": 14
+                                        "end": 16
                                     },
                                     "key": {
                                         "kind": 134299649,

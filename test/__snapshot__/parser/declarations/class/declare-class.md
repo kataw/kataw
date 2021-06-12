@@ -55,13 +55,13 @@ declare class A { static foo(): number; static x : string }
                     "properties": [
                         {
                             "kind": 193,
-                            "protoKeyword": {
+                            "protoKeyword": null,
+                            "staticToken": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 17,
                                 "end": 24
                             },
-                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -96,74 +96,50 @@ declare class A { static foo(): number; static x : string }
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 38
+                            "end": 39
+                        },
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 39,
+                                "end": 46
+                            },
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 46,
+                                "end": 48
+                            },
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 50,
+                                "end": 57
+                            },
+                            "flags": 0,
+                            "start": 39,
+                            "end": 57
                         }
                     ],
                     "flags": 0,
                     "start": 15,
-                    "end": 38
+                    "end": 59
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 38
+                "end": 59
             },
             "flags": 16,
             "start": 0,
-            "end": 38
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 38,
-            "end": 39
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "static",
-                "rawText": "static",
-                "flags": 96,
-                "start": 39,
-                "end": 46
-            },
-            "flags": 16,
-            "start": 39,
-            "end": 46
-        },
-        {
-            "kind": 163,
-            "label": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 46,
-                "end": 48
-            },
-            "colonToken": {
-                "kind": 21,
-                "flags": 64,
-                "start": 48,
-                "end": 50
-            },
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "string",
-                    "rawText": "string",
-                    "flags": 96,
-                    "start": 50,
-                    "end": 57
-                },
-                "flags": 16,
-                "start": 50,
-                "end": 57
-            },
-            "flags": 16,
-            "start": 46,
-            "end": 57
+            "end": 59
         }
     ],
     "isModule": false,
@@ -179,14 +155,12 @@ declare class A { static foo(): number; static x : string }
 
 ```javascript
 
+declare class A TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 39
-✖ Expected a `;` - start: 46, end: 48
-✖ Declaration or statement expected - start: 57, end: 59
-
+✔ No errors
 ```
 

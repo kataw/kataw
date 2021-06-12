@@ -63,7 +63,7 @@ type a = ({get y(y): string}) => T;
                                         "kind": 16498,
                                         "flags": 96,
                                         "start": 11,
-                                        "end": 14
+                                        "end": 16
                                     },
                                     "setKeyword": null,
                                     "key": {

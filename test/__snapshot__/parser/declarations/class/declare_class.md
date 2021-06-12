@@ -63,13 +63,13 @@ declare class D extends C { }
                     "properties": [
                         {
                             "kind": 193,
-                            "protoKeyword": {
+                            "protoKeyword": null,
+                            "staticToken": {
                                 "kind": 8388716,
                                 "flags": 65,
                                 "start": 17,
                                 "end": 28
                             },
-                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -93,13 +93,13 @@ declare class D extends C { }
                         },
                         {
                             "kind": 193,
-                            "protoKeyword": {
+                            "protoKeyword": null,
+                            "staticToken": {
                                 "kind": 8388716,
                                 "flags": 65,
                                 "start": 39,
                                 "end": 50
                             },
-                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -157,102 +157,83 @@ declare class D extends C { }
                             },
                             "flags": 0,
                             "start": 39,
-                            "end": 71
+                            "end": 72
+                        },
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "constructor",
+                                "rawText": "constructor",
+                                "flags": 96,
+                                "start": 72,
+                                "end": 89
+                            },
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 148,
+                                "parameters": {
+                                    "kind": 208,
+                                    "parameters": [
+                                        {
+                                            "kind": 149,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 90,
+                                                "end": 91
+                                            },
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 134234347,
+                                                "flags": 64,
+                                                "start": 92,
+                                                "end": 99
+                                            },
+                                            "flags": 0,
+                                            "start": 90,
+                                            "end": 99
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 90,
+                                    "end": 99
+                                },
+                                "returnType": {
+                                    "kind": 138477615,
+                                    "flags": 64,
+                                    "start": 101,
+                                    "end": 106
+                                },
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 89,
+                                "end": 106
+                            },
+                            "flags": 0,
+                            "start": 72,
+                            "end": 107
                         }
                     ],
                     "flags": 0,
                     "start": 15,
-                    "end": 71
+                    "end": 109
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 71
+                "end": 109
             },
             "flags": 16,
             "start": 0,
-            "end": 71
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 71,
-            "end": 72
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "constructor",
-                    "rawText": "constructor",
-                    "flags": 96,
-                    "start": 72,
-                    "end": 89
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 90,
-                            "end": 91
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 90,
-                    "end": 91
-                },
-                "flags": 268435488,
-                "start": 72,
-                "end": 91
-            },
-            "flags": 16,
-            "start": 72,
-            "end": 91
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "string",
-                "rawText": "string",
-                "flags": 96,
-                "start": 92,
-                "end": 99
-            },
-            "flags": 16,
-            "start": 92,
-            "end": 99
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 138477615,
-                    "flags": 64,
-                    "start": 101,
-                    "end": 106
-                },
-                "operand": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 106,
-                    "end": 106
-                },
-                "flags": 32,
-                "start": 101,
-                "end": 106
-            },
-            "flags": 16,
-            "start": 101,
-            "end": 107
+            "end": 109
         },
         {
             "kind": 178,
@@ -330,17 +311,13 @@ declare class D extends C { }
 
 ```javascript
 
+declare class C TODO!
+declare class D  TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 71, end: 72
-✖ ',' expected - start: 91, end: 92
-✖ Expected a `;` - start: 99, end: 100
-✖ Declaration or statement expected - start: 100, end: 101
-✖ Identifier expected - start: 106, end: 107
-✖ Declaration or statement expected - start: 107, end: 109
-
+✔ No errors
 ```
 

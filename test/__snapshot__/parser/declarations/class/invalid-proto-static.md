@@ -58,16 +58,16 @@ declare class C {
                         {
                             "kind": 193,
                             "protoKeyword": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 25,
-                                "end": 32
-                            },
-                            "staticToken": {
                                 "kind": 16873,
                                 "flags": 65,
                                 "start": 17,
                                 "end": 25
+                            },
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 25,
+                                "end": 32
                             },
                             "getKeyword": null,
                             "setKeyword": null,

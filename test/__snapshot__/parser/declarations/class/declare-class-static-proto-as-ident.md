@@ -57,13 +57,13 @@ declare class B {
                     "properties": [
                         {
                             "kind": 193,
-                            "protoKeyword": {
+                            "protoKeyword": null,
+                            "staticToken": {
                                 "kind": 8388716,
                                 "flags": 65,
                                 "start": 17,
                                 "end": 26
                             },
-                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -98,26 +98,20 @@ declare class B {
                             },
                             "flags": 0,
                             "start": 17,
-                            "end": 43
+                            "end": 44
                         }
                     ],
                     "flags": 0,
                     "start": 15,
-                    "end": 43
+                    "end": 46
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 43
+                "end": 46
             },
             "flags": 16,
             "start": 0,
-            "end": 43
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 43,
-            "end": 44
+            "end": 46
         }
     ],
     "isModule": false,
@@ -133,13 +127,12 @@ declare class B {
 
 ```javascript
 
+declare class B TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 44
-✖ Declaration or statement expected - start: 44, end: 46
-
+✔ No errors
 ```
 

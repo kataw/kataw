@@ -57,13 +57,13 @@ declare class A {
                     "properties": [
                         {
                             "kind": 193,
-                            "protoKeyword": {
+                            "protoKeyword": null,
+                            "staticToken": {
                                 "kind": 8388716,
                                 "flags": 65,
                                 "start": 17,
                                 "end": 26
                             },
-                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {

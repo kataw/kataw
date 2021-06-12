@@ -84,13 +84,13 @@ declare class X {
                         },
                         {
                             "kind": 193,
-                            "protoKeyword": {
+                            "protoKeyword": null,
+                            "staticToken": {
                                 "kind": 8388716,
                                 "flags": 65,
                                 "start": 29,
                                 "end": 37
                             },
-                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {

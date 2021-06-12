@@ -250,7 +250,7 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 18
-✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 23
+✖ Expected a `;` - start: 22, end: 23
 ✖ Did you forgot a ']' to match the `[` token? - start: 23, end: 24
 ✖ Expected a `;` - start: 28, end: 29
 ✖ Declaration or statement expected - start: 29, end: 32

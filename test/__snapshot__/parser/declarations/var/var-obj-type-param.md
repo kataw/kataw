@@ -153,30 +153,30 @@ var a: { id<T>(x: T): T; }
                                         },
                                         "flags": 0,
                                         "start": 8,
-                                        "end": 23
+                                        "end": 24
                                     }
                                 ],
                                 "flags": 0,
                                 "start": 6,
-                                "end": 23
+                                "end": 26
                             },
                             "flags": 0,
                             "start": 5,
-                            "end": 23
+                            "end": 26
                         },
                         "initializer": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 23
+                        "end": 26
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 23
+                "end": 26
             },
             "flags": 16,
             "start": 0,
-            "end": 24
+            "end": 26
         }
     ],
     "isModule": false,
@@ -192,13 +192,12 @@ var a: { id<T>(x: T): T; }
 
 ```javascript
 
+var a;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 24
-✖ Declaration or statement expected - start: 24, end: 26
-
+✔ No errors
 ```
 
