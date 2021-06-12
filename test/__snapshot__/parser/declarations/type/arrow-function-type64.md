@@ -104,12 +104,14 @@ type a = (((x | (() => T) => T) => T) => T) => T;
                                                                         "end": 22
                                                                     },
                                                                     "parameters": {
-                                                                        "kind": 208,
-                                                                        "parameters": [],
+                                                                        "kind": 279,
+                                                                        "parameters": [
+                                                                            []
+                                                                        ],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
-                                                                        "start": 18,
-                                                                        "end": 18
+                                                                        "start": 15,
+                                                                        "end": 22
                                                                     },
                                                                     "returnType": {
                                                                         "kind": 144,
@@ -128,7 +130,7 @@ type a = (((x | (() => T) => T) => T) => T) => T;
                                                                     },
                                                                     "typeParameters": null,
                                                                     "flags": 0,
-                                                                    "start": 17,
+                                                                    "start": 15,
                                                                     "end": 24
                                                                 }
                                                             ],
@@ -190,7 +192,7 @@ type a = (((x | (() => T) => T) => T) => T) => T;
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 10,
+                                "start": 8,
                                 "end": 40
                             },
                             "returnType": {
@@ -210,7 +212,7 @@ type a = (((x | (() => T) => T) => T) => T) => T;
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 10,
+                            "start": 8,
                             "end": 42
                         }
                     ],

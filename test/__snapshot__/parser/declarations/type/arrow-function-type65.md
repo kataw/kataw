@@ -104,42 +104,44 @@ type a = (((x | ((y & z) => T) => T) => T) => T) => T;
                                                                         "end": 27
                                                                     },
                                                                     "parameters": {
-                                                                        "kind": 144,
-                                                                        "id": {
-                                                                            "kind": 138,
-                                                                            "types": [
-                                                                                {
-                                                                                    "kind": 134299649,
-                                                                                    "text": "y",
-                                                                                    "rawText": "y",
-                                                                                    "flags": 96,
-                                                                                    "start": 18,
-                                                                                    "end": 19
-                                                                                },
-                                                                                {
-                                                                                    "kind": 144,
-                                                                                    "id": {
+                                                                        "kind": 279,
+                                                                        "parameters": [
+                                                                            {
+                                                                                "kind": 138,
+                                                                                "types": [
+                                                                                    {
                                                                                         "kind": 134299649,
-                                                                                        "text": "z",
-                                                                                        "rawText": "z",
+                                                                                        "text": "y",
+                                                                                        "rawText": "y",
                                                                                         "flags": 96,
+                                                                                        "start": 18,
+                                                                                        "end": 19
+                                                                                    },
+                                                                                    {
+                                                                                        "kind": 144,
+                                                                                        "id": {
+                                                                                            "kind": 134299649,
+                                                                                            "text": "z",
+                                                                                            "rawText": "z",
+                                                                                            "flags": 96,
+                                                                                            "start": 21,
+                                                                                            "end": 23
+                                                                                        },
+                                                                                        "typeParameters": null,
+                                                                                        "flags": 0,
                                                                                         "start": 21,
                                                                                         "end": 23
-                                                                                    },
-                                                                                    "typeParameters": null,
-                                                                                    "flags": 0,
-                                                                                    "start": 21,
-                                                                                    "end": 23
-                                                                                }
-                                                                            ],
-                                                                            "flags": 0,
-                                                                            "start": 19,
-                                                                            "end": 23
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 0,
-                                                                        "start": 17,
-                                                                        "end": 23
+                                                                                    }
+                                                                                ],
+                                                                                "flags": 0,
+                                                                                "start": 19,
+                                                                                "end": 23
+                                                                            }
+                                                                        ],
+                                                                        "trailingComma": false,
+                                                                        "flags": 32,
+                                                                        "start": 15,
+                                                                        "end": 27
                                                                     },
                                                                     "returnType": {
                                                                         "kind": 144,
@@ -158,7 +160,7 @@ type a = (((x | ((y & z) => T) => T) => T) => T) => T;
                                                                     },
                                                                     "typeParameters": null,
                                                                     "flags": 0,
-                                                                    "start": 17,
+                                                                    "start": 15,
                                                                     "end": 29
                                                                 }
                                                             ],
@@ -220,7 +222,7 @@ type a = (((x | ((y & z) => T) => T) => T) => T) => T;
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 10,
+                                "start": 8,
                                 "end": 45
                             },
                             "returnType": {
@@ -240,7 +242,7 @@ type a = (((x | ((y & z) => T) => T) => T) => T) => T;
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 10,
+                            "start": 8,
                             "end": 47
                         }
                     ],

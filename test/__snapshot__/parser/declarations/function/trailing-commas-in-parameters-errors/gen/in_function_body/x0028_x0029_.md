@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-06
+- Regenerated: 2021-06-12
 - From: kataw8/test\__snapshot__/parser/declarations/function/trailing-commas-in-parameters-errors/autogen.md
 - Path: kataw8/test\__snapshot__\parser\declarations\function\trailing-commas-in-parameters-errors\gen\in_function_body
 > :: test: in function body

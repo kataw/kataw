@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-06
+- Regenerated: 2021-06-12
 - From: kataw8/test\__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
 - Path: kataw8/test\__snapshot__\parser\miscellaneous\destructuring\positive-cases\gen\function_formal_param_list
 > :: test: function formal param list

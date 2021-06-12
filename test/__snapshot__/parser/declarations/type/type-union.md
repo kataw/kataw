@@ -205,13 +205,13 @@ type overloads2 = {
                                             "end": 78
                                         },
                                         "flags": 0,
-                                        "start": 68,
+                                        "start": 66,
                                         "end": 78
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 68,
+                                "start": 66,
                                 "end": 78
                             },
                             "returnType": {
@@ -222,7 +222,7 @@ type overloads2 = {
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 68,
+                            "start": 66,
                             "end": 89
                         },
                         "flags": 0,
@@ -261,13 +261,13 @@ type overloads2 = {
                                             "end": 106
                                         },
                                         "flags": 0,
-                                        "start": 96,
+                                        "start": 94,
                                         "end": 106
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 96,
+                                "start": 94,
                                 "end": 106
                             },
                             "returnType": {
@@ -278,7 +278,7 @@ type overloads2 = {
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 96,
+                            "start": 94,
                             "end": 117
                         },
                         "flags": 0,

@@ -52,8 +52,8 @@ var f = (x): ((number) => 123) => 123;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
-                                "start": 22,
-                                "end": 25
+                                "start": 30,
+                                "end": 33
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -72,71 +72,73 @@ var f = (x): ((number) => 123) => 123;
                                 "type": {
                                     "kind": 260,
                                     "type": {
-                                        "kind": 260,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "number",
-                                                "rawText": "number",
-                                                "flags": 96,
-                                                "start": 15,
-                                                "end": 21
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
-                                            "start": 14,
-                                            "end": 21
+                                        "kind": 261,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 22,
+                                            "end": 25
                                         },
+                                        "parameters": {
+                                            "kind": 279,
+                                            "parameters": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "number",
+                                                    "rawText": "number",
+                                                    "flags": 96,
+                                                    "start": 15,
+                                                    "end": 21
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 12,
+                                            "end": 25
+                                        },
+                                        "returnType": {
+                                            "kind": 134217968,
+                                            "value": 123,
+                                            "flags": 0,
+                                            "start": 25,
+                                            "end": 29
+                                        },
+                                        "typeParameters": null,
                                         "flags": 0,
-                                        "start": 14,
-                                        "end": 22
+                                        "start": 12,
+                                        "end": 29
                                     },
                                     "flags": 0,
                                     "start": 12,
-                                    "end": 22
+                                    "end": 30
                                 },
                                 "flags": 0,
                                 "start": 11,
-                                "end": 22
+                                "end": 30
                             },
                             "contents": {
                                 "kind": 201392130,
                                 "text": 123,
                                 "rawText": "123",
                                 "flags": 96,
-                                "start": 25,
-                                "end": 29
+                                "start": 33,
+                                "end": 37
                             },
                             "flags": 32,
                             "start": 7,
-                            "end": 29
+                            "end": 37
                         },
                         "flags": 16,
                         "start": 3,
-                        "end": 29
+                        "end": 37
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 29
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 29
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 123,
-                "rawText": "123",
-                "flags": 96,
-                "start": 33,
                 "end": 37
             },
             "flags": 16,
-            "start": 33,
+            "start": 0,
             "end": 38
         }
     ],
@@ -153,15 +155,12 @@ var f = (x): ((number) => 123) => 123;
 
 ```javascript
 
+var f = (x) =>  123;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 22, end: 25
-✖ ',' expected - start: 29, end: 30
-✖ Expected a `;` - start: 29, end: 30
-✖ Declaration or statement expected - start: 30, end: 33
-
+✔ No errors
 ```
 

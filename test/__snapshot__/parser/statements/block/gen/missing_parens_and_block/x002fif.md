@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-06
+- Regenerated: 2021-06-12
 - From: kataw8/test\__snapshot__/parser/statements/block/autogen.md
 - Path: kataw8/test\__snapshot__\parser\statements\block\gen\missing_parens_and_block
 > :: test: missing parens and block

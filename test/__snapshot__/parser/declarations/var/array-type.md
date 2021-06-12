@@ -127,12 +127,14 @@ var a: (?number)[];
                                             "end": 31
                                         },
                                         "parameters": {
-                                            "kind": 208,
-                                            "parameters": [],
+                                            "kind": 279,
+                                            "parameters": [
+                                                []
+                                            ],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 27,
-                                            "end": 27
+                                            "start": 24,
+                                            "end": 31
                                         },
                                         "returnType": {
                                             "kind": 134234345,
@@ -142,7 +144,7 @@ var a: (?number)[];
                                         },
                                         "typeParameters": null,
                                         "flags": 0,
-                                        "start": 26,
+                                        "start": 24,
                                         "end": 38
                                     },
                                     "flags": 0,

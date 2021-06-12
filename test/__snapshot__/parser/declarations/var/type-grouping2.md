@@ -62,12 +62,14 @@ var a: (() => number) | () => string
                                                 "end": 13
                                             },
                                             "parameters": {
-                                                "kind": 208,
-                                                "parameters": [],
+                                                "kind": 279,
+                                                "parameters": [
+                                                    []
+                                                ],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 9,
-                                                "end": 9
+                                                "start": 6,
+                                                "end": 13
                                             },
                                             "returnType": {
                                                 "kind": 134234345,
@@ -77,7 +79,7 @@ var a: (() => number) | () => string
                                             },
                                             "typeParameters": null,
                                             "flags": 0,
-                                            "start": 8,
+                                            "start": 6,
                                             "end": 20
                                         },
                                         "flags": 0,

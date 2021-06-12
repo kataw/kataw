@@ -140,7 +140,7 @@ type a = (([-1]| q & (x)) => T) => T
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 10,
+                                "start": 8,
                                 "end": 28
                             },
                             "returnType": {
@@ -160,7 +160,7 @@ type a = (([-1]| q & (x)) => T) => T
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 10,
+                            "start": 8,
                             "end": 30
                         }
                     ],

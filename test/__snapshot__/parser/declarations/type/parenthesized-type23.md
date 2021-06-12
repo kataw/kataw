@@ -42,26 +42,20 @@ type X = (([1]))
             "type": {
                 "kind": 260,
                 "type": {
-                    "kind": 260,
-                    "type": {
-                        "kind": 147,
-                        "elementTypes": [
-                            {
-                                "kind": 134217968,
-                                "value": 1,
-                                "flags": 0,
-                                "start": 12,
-                                "end": 13
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 0,
-                        "start": 11,
-                        "end": 14
-                    },
+                    "kind": 147,
+                    "elementTypes": [
+                        {
+                            "kind": 134217968,
+                            "value": 1,
+                            "flags": 0,
+                            "start": 12,
+                            "end": 13
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 0,
-                    "start": 10,
-                    "end": 15
+                    "start": 11,
+                    "end": 14
                 },
                 "flags": 0,
                 "start": 8,

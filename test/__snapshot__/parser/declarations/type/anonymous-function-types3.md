@@ -75,32 +75,9 @@ type A = (string,) => void
                             "flags": 0,
                             "start": 8,
                             "end": 16
-                        },
-                        {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": null,
-                            "optionalToken": null,
-                            "types": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 17,
-                                    "end": 17
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 17,
-                                "end": 17
-                            },
-                            "flags": 0,
-                            "start": 17,
-                            "end": 17
                         }
                     ],
-                    "trailingComma": false,
+                    "trailingComma": true,
                     "flags": 32,
                     "start": 8,
                     "end": 17
@@ -134,12 +111,12 @@ type A = (string,) => void
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Type expected - start: 17, end: 18
-
+✔ No errors
 ```
 

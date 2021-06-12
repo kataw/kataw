@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-06
+- Regenerated: 2021-06-12
 - From: kataw8/test\__snapshot__/parser/declarations/let/binding-pattern/autogen.md
 - Path: kataw8/test\__snapshot__\parser\declarations\let\binding-pattern\gen\member_value_on_key_that_is_computed
 > :: test: member value on key that is computed

@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-06
+- Regenerated: 2021-06-12
 - From: kataw8/test\__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
 - Path: kataw8/test\__snapshot__\parser\expressions\classes\extends-lefthandside\gen\for-in_lhs
 > :: test: for-in lhs

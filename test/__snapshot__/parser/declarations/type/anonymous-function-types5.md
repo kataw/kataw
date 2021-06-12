@@ -94,32 +94,9 @@ type A = (Array<string>,) => void
                             "flags": 0,
                             "start": 8,
                             "end": 23
-                        },
-                        {
-                            "kind": 149,
-                            "ellipsisToken": null,
-                            "name": null,
-                            "optionalToken": null,
-                            "types": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 64,
-                                    "start": 24,
-                                    "end": 24
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 24,
-                                "end": 24
-                            },
-                            "flags": 0,
-                            "start": 24,
-                            "end": 24
                         }
                     ],
-                    "trailingComma": false,
+                    "trailingComma": true,
                     "flags": 32,
                     "start": 8,
                     "end": 24
@@ -153,12 +130,12 @@ type A = (Array<string>,) => void
 
 ```javascript
 
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Type expected - start: 24, end: 25
-
+✔ No errors
 ```
 

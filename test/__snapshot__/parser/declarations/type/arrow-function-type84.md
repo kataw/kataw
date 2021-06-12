@@ -61,12 +61,14 @@ type a = (() => T) => T
                                 "end": 15
                             },
                             "parameters": {
-                                "kind": 208,
-                                "parameters": [],
+                                "kind": 279,
+                                "parameters": [
+                                    []
+                                ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 11,
-                                "end": 11
+                                "start": 8,
+                                "end": 15
                             },
                             "returnType": {
                                 "kind": 144,
@@ -85,7 +87,7 @@ type a = (() => T) => T
                             },
                             "typeParameters": null,
                             "flags": 0,
-                            "start": 10,
+                            "start": 8,
                             "end": 17
                         }
                     ],
