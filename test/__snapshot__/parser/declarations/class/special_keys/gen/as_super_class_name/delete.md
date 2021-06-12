@@ -118,7 +118,7 @@ class x extends delete {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 24
-✖ Missing an opening brace - '{ - start: 25, end: 25
+✖ Missing an opening brace - '{ - start: 24, end: 25
 
 ```
 

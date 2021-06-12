@@ -156,7 +156,7 @@ function *f(){
 ```javascript
 ✖ Identifier expected - start: 25, end: 27
 ✖ Expected a ')' to match the '(' token here - start: 29, end: 30
-✖ Expected a ')' to match the '(' token here - start: 30, end: 32
+✖ Expected a ')' to match the '(' token here - start: 31, end: 32
 
 ```
 

@@ -199,7 +199,7 @@ class A {async get 7(){}}
 
 ```javascript
 ✖ 'async' modifier cannot be used here - start: 18, end: 20
-✖ Method definition expected - start: 18, end: 20
+✖ Method definition expected - start: 19, end: 20
 
 ```
 

@@ -164,7 +164,7 @@ function* g() {
 ✖ Cannot use the 'yield' keyword on the left-hand side of a 'for...in' statement in a generator context - start: 23, end: 31
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 34, end: 36
 ✖ Expected a ')' to match the '(' token here - start: 37, end: 38
-✖ The parser expected to find a '}' to match the '{' token here - start: 40, end: 42
+✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 42
 ✖ Declaration or statement expected - start: 44, end: 46
 
 ```

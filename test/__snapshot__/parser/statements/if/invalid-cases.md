@@ -2094,7 +2094,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ✖ Expected a `;` - start: 16, end: 18
 ✖ Generators can only be declared at the top level or inside a block - start: 48, end: 50
 ✖ Class declarations cannot be used in a single-statement context - start: 64, end: 70
-✖ Missing an opening parentheses - '( - start: 80, end: 86
+✖ Missing an opening parentheses - '( - start: 81, end: 86
 ✖ 'try' expected - start: 80, end: 86
 ✖ A 'break' statement can only be used within an enclosing iteration or switch statement. - start: 106, end: 107
 ✖ A return statement can only be used within a function_body - start: 116, end: 123
@@ -2112,7 +2112,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 397, end: 401
 ✖ The left-hand side must be a variable or a property access. - start: 437, end: 439
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 464, end: 473
-✖ ',' expected - start: 513, end: 515
+✖ ',' expected - start: 514, end: 515
 ✖ Declaration or statement expected - start: 515, end: 517
 ✖ Declaration or statement expected - start: 526, end: 527
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 550, end: 554

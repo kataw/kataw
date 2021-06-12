@@ -76,7 +76,7 @@ do /)finally while
 
 ```javascript
 ✖ Unterminated regular expression - start: 2, end: 18
-✖ Missing an opening parentheses - '( - start: 18, end: 18
+✖ Missing an opening parentheses - '( - start: 3, end: 18
 
 ```
 

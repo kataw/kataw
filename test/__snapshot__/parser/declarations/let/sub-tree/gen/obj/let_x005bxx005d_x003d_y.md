@@ -126,9 +126,9 @@ a = { let [x] = y }
 
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 9, end: 11
-✖ ',' expected - start: 9, end: 11
+✖ ',' expected - start: 10, end: 11
 ✖ Property definition expected. Did you mean to use a ':'? - start: 13, end: 15
-✖ ',' expected - start: 13, end: 15
+✖ ',' expected - start: 14, end: 15
 ✖ Declaration or statement expected - start: 17, end: 19
 
 ```

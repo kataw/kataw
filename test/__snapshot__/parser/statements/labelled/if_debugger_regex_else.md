@@ -140,7 +140,7 @@ function x(){
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 51
+✖ The parser expected to find a '}' to match the '{' token here - start: 47, end: 51
 ✖ Declaration or statement expected - start: 52, end: 54
 
 ```

@@ -96,9 +96,9 @@ if = x
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 2, end: 4
+✖ Missing an opening parentheses - '( - start: 3, end: 4
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2, end: 4
-✖ Declaration or statement expected - start: 6, end: 6
+✖ Declaration or statement expected - start: 5, end: 6
 
 ```
 

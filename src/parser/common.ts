@@ -190,7 +190,7 @@ export function consume<T extends TokenSyntaxKind>(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[diagnosticMessage],
-      parser.curPos,
+      parser.tokenPos,
       parser.pos
     );
   }

@@ -135,7 +135,7 @@ function f(foo = +await bar){}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 23, end: 27
+✖ ',' expected - start: 24, end: 27
 
 ```
 

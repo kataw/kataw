@@ -2106,7 +2106,7 @@ new import(x);
 ✖ Expected a `;` - start: 38, end: 39
 ✖ Import Call should take at least one argument - start: 49, end: 50
 ✖ Unterminated string literal - start: 60, end: 63
-✖ Expected a ')' to match the '(' token here - start: 63, end: 71
+✖ Expected a ')' to match the '(' token here - start: 65, end: 71
 ✖ Expected a ')' to match the '(' token here - start: 75, end: 76
 ✖ Declaration or statement expected - start: 85, end: 86
 ✖ Expected a `;` - start: 85, end: 86
@@ -2160,7 +2160,7 @@ new import(x);
 ✖ Identifier expected - start: 386, end: 387
 ✖ Declaration or statement expected - start: 387, end: 388
 ✖ Identifier expected - start: 399, end: 400
-✖ ',' expected - start: 400, end: 403
+✖ ',' expected - start: 402, end: 403
 ✖ Property definition expected. Did you mean to use a ':'? - start: 409, end: 410
 ✖ ',' expected - start: 410, end: 411
 ✖ Declaration or statement expected - start: 419, end: 420

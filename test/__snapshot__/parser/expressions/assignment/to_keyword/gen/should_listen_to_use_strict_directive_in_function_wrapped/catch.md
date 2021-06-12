@@ -191,7 +191,7 @@ function f() {
 ```javascript
 ✖ Identifier expected - start: 34, end: 39
 ✖ 'try' expected - start: 34, end: 39
-✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 41
+✖ The parser expected to find a '}' to match the '{' token here - start: 40, end: 41
 ✖ Expected a `;` - start: 43, end: 44
 ✖ Declaration or statement expected - start: 45, end: 47
 

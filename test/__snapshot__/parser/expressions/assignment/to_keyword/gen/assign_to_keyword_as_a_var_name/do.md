@@ -97,7 +97,7 @@ do = x
 ```javascript
 ✖ Identifier expected - start: 2, end: 4
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2, end: 4
-✖ Missing an opening parentheses - '( - start: 6, end: 6
+✖ Missing an opening parentheses - '( - start: 5, end: 6
 
 ```
 

@@ -163,7 +163,7 @@ do( catch while
 ```javascript
 ✖ Identifier expected - start: 3, end: 9
 ✖ 'try' expected - start: 3, end: 9
-✖ Missing an opening parentheses - '( - start: 15, end: 15
+✖ Missing an opening parentheses - '( - start: 10, end: 15
 
 ```
 

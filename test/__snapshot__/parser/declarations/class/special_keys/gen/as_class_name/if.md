@@ -120,8 +120,8 @@ class if {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 8
-✖ Missing an opening parentheses - '( - start: 8, end: 10
-✖ Declaration or statement expected - start: 11, end: 11
+✖ Missing an opening parentheses - '( - start: 9, end: 10
+✖ Declaration or statement expected - start: 10, end: 11
 
 ```
 

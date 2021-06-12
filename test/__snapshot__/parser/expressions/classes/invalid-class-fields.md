@@ -3767,37 +3767,37 @@
 ```javascript
 ✖ Invalid character - start: 12, end: 13
 ✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 14
-✖ Expected a ')' to match the '(' token here - start: 17, end: 19
+✖ Expected a ')' to match the '(' token here - start: 18, end: 19
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Invalid character - start: 34, end: 35
 ✖ Identifier expected. A decorator name can only be an identifier - start: 36, end: 37
 ✖ Identifier expected. A decorator name can only be an identifier - start: 45, end: 47
 ✖ Declaration or statement expected - start: 47, end: 48
 ✖ Invalid character - start: 62, end: 63
-✖ Missing an opening brace - '{ - start: 106, end: 108
+✖ Missing an opening brace - '{ - start: 107, end: 108
 ✖ Declaration or statement expected - start: 110, end: 111
 ✖ Declaration or statement expected - start: 111, end: 112
-✖ Missing an opening brace - '{ - start: 126, end: 128
+✖ Missing an opening brace - '{ - start: 127, end: 128
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 126, end: 128
 ✖ Identifier expected - start: 128, end: 129
 ✖ Declaration or statement expected - start: 129, end: 130
-✖ Missing an opening brace - '{ - start: 144, end: 147
+✖ Missing an opening brace - '{ - start: 145, end: 147
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 131, end: 147
 ✖ Declaration or statement expected - start: 150, end: 151
 ✖ Declaration or statement expected - start: 151, end: 152
-✖ The parser expected to find a '}' to match the '{' token here - start: 164, end: 167
+✖ The parser expected to find a '}' to match the '{' token here - start: 165, end: 167
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 153, end: 167
 ✖ Declaration or statement expected - start: 170, end: 171
 ✖ Declaration or statement expected - start: 171, end: 172
-✖ Missing an opening brace - '{ - start: 187, end: 189
+✖ Missing an opening brace - '{ - start: 188, end: 189
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 187, end: 189
 ✖ Expected a ')' to match the '(' token here - start: 191, end: 192
 ✖ Declaration or statement expected - start: 192, end: 193
-✖ Missing an opening brace - '{ - start: 208, end: 211
+✖ Missing an opening brace - '{ - start: 209, end: 211
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 194, end: 211
 ✖ Declaration or statement expected - start: 213, end: 214
 ✖ Declaration or statement expected - start: 214, end: 215
-✖ Missing an opening brace - '{ - start: 230, end: 233
+✖ Missing an opening brace - '{ - start: 231, end: 233
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 216, end: 233
 ✖ Declaration or statement expected - start: 236, end: 237
 ✖ Declaration or statement expected - start: 237, end: 238
@@ -3805,15 +3805,15 @@
 ✖ Identifier expected - start: 257, end: 258
 ✖ Missing an opening brace - '{ - start: 280, end: 281
 ✖ Identifier expected - start: 281, end: 282
-✖ The parser expected to find a '}' to match the '{' token here - start: 302, end: 305
+✖ The parser expected to find a '}' to match the '{' token here - start: 303, end: 305
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 285, end: 305
 ✖ Declaration or statement expected - start: 308, end: 309
 ✖ Declaration or statement expected - start: 309, end: 310
-✖ Missing an opening brace - '{ - start: 330, end: 332
+✖ Missing an opening brace - '{ - start: 331, end: 332
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 330, end: 332
 ✖ Expected a ')' to match the '(' token here - start: 334, end: 335
 ✖ Declaration or statement expected - start: 335, end: 336
-✖ Method definition expected - start: 354, end: 357
+✖ Method definition expected - start: 355, end: 357
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 337, end: 357
 ✖ Declaration or statement expected - start: 360, end: 361
 ✖ Declaration or statement expected - start: 361, end: 362
@@ -3829,7 +3829,7 @@
 ✖ Method definition expected - start: 579, end: 580
 ✖ Unterminated string literal - start: 580, end: 592
 ✖ Expected a computed property - start: 627, end: 628
-✖ The parser expected to find a '}' to match the '{' token here - start: 628, end: 630
+✖ The parser expected to find a '}' to match the '{' token here - start: 629, end: 630
 ✖ Invalid character - start: 653, end: 654
 ✖ Method definition expected - start: 654, end: 655
 ✖ Expected a ')' to match the '(' token here - start: 666, end: 667

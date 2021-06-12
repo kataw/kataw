@@ -149,7 +149,7 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 25, end: 29
+✖ ',' expected - start: 26, end: 29
 
 ```
 

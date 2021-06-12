@@ -319,12 +319,12 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ Declaration or statement expected - start: 9, end: 11
-✖ Missing an opening brace - '{ - start: 18, end: 27
+✖ Missing an opening brace - '{ - start: 19, end: 27
 ✖ Binding identifier expected - start: 27, end: 31
-✖ Missing an opening parentheses - '( - start: 27, end: 31
+✖ Missing an opening parentheses - '( - start: 28, end: 31
 ✖ Declaration or statement expected - start: 31, end: 37
-✖ Missing an opening parentheses - '( - start: 37, end: 42
-✖ Missing an opening parentheses - '( - start: 42, end: 46
+✖ Missing an opening parentheses - '( - start: 38, end: 42
+✖ Missing an opening parentheses - '( - start: 43, end: 46
 ✖ Declaration or statement expected - start: 46, end: 47
 
 ```

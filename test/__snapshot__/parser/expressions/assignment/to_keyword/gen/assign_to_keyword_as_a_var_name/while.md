@@ -94,9 +94,9 @@ while = x
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 5, end: 7
+✖ Missing an opening parentheses - '( - start: 6, end: 7
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 5, end: 7
-✖ Declaration or statement expected - start: 9, end: 9
+✖ Declaration or statement expected - start: 8, end: 9
 
 ```
 

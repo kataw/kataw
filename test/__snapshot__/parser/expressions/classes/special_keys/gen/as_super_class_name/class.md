@@ -120,7 +120,7 @@ class x extends class {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 24, end: 24
+✖ Missing an opening brace - '{ - start: 23, end: 24
 
 ```
 

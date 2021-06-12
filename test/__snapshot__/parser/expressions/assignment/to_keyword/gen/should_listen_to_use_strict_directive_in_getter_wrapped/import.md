@@ -189,7 +189,7 @@ foo = {
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 54, end: 58
+✖ Expected a ')' to match the '(' token here - start: 57, end: 58
 
 ```
 

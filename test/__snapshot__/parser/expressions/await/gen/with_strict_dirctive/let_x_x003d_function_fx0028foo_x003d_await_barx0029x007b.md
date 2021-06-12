@@ -167,8 +167,8 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 44, end: 48
-✖ The parser expected to find a '}' to match the '{' token here - start: 50, end: 50
+✖ ',' expected - start: 45, end: 48
+✖ The parser expected to find a '}' to match the '{' token here - start: 49, end: 50
 
 ```
 

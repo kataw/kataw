@@ -283,8 +283,8 @@ class C { set x(_) { class C { set x(_) { super( } }
 
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 41, end: 48
-✖ Expected a ')' to match the '(' token here - start: 48, end: 50
-✖ The parser expected to find a '}' to match the '{' token here - start: 52, end: 52
+✖ Expected a ')' to match the '(' token here - start: 49, end: 50
+✖ The parser expected to find a '}' to match the '{' token here - start: 51, end: 52
 
 ```
 

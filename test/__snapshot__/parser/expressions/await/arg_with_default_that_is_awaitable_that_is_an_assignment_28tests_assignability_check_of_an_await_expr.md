@@ -132,7 +132,7 @@ function call(foo=await bar=10){}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 23, end: 27
+✖ ',' expected - start: 24, end: 27
 
 ```
 

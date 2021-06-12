@@ -139,7 +139,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 11, end: 17
+✖ Missing an opening parentheses - '( - start: 12, end: 17
 
 ```
 

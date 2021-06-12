@@ -124,7 +124,7 @@
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 4, end: 5
 ✖ Property definition expected. Did you mean to use a ':'? - start: 13, end: 17
-✖ ',' expected - start: 13, end: 17
+✖ ',' expected - start: 14, end: 17
 ✖ ',' expected - start: 18, end: 19
 
 ```

@@ -94,7 +94,7 @@ class C { \\u0041 }
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 10
-✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 11
 ✖ Declaration or statement expected - start: 17, end: 19
 
 ```

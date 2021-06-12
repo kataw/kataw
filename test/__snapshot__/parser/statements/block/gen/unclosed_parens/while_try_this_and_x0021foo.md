@@ -187,11 +187,11 @@
 
 ```javascript
 ✖ Identifier expected - start: 2, end: 8
-✖ Missing an opening parentheses - '( - start: 8, end: 12
+✖ Missing an opening parentheses - '( - start: 9, end: 12
 ✖ Declaration or statement expected - start: 12, end: 17
 ✖ Expected a `;` - start: 17, end: 21
 ✖ Expected a `;` - start: 21, end: 23
-✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 26
+✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 26
 
 ```
 

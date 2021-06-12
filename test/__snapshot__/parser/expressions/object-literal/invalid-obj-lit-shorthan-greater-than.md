@@ -60,7 +60,7 @@
 
 ```javascript
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 9, end: 11
-✖ Expected a ')' to match the '(' token here - start: 15, end: 15
+✖ Expected a ')' to match the '(' token here - start: 14, end: 15
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
 

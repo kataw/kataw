@@ -190,7 +190,7 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ 'try' expected - start: 11, end: 16
-✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 16
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 16
 
 ```
 

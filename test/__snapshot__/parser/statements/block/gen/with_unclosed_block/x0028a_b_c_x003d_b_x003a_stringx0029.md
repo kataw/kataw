@@ -228,7 +228,7 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
-✖ Expected a ')' to match the '(' token here - start: 20, end: 22
+✖ Expected a ')' to match the '(' token here - start: 21, end: 22
 ✖ Expected a `;` - start: 29, end: 31
 ✖ Expected a `;` - start: 38, end: 39
 

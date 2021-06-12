@@ -10729,11 +10729,11 @@ a++ => {};
 ✖ Expected a `;` - start: 2858, end: 2861
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 2865, end: 2873
 ✖ Expected a `;` - start: 2885, end: 2888
-✖ Missing an opening parentheses - '( - start: 2895, end: 2898
+✖ Missing an opening parentheses - '( - start: 2896, end: 2898
 ✖ Identifier expected - start: 2904, end: 2906
 ✖ Missing an opening parentheses - '( - start: 2906, end: 2907
 ✖ Identifier expected - start: 2907, end: 2910
-✖ Expected a ')' to match the '(' token here - start: 2918, end: 2921
+✖ Expected a ')' to match the '(' token here - start: 2919, end: 2921
 ✖ Missing an opening parentheses - '( - start: 2921, end: 2922
 ✖ Identifier expected - start: 2922, end: 2925
 ✖ Expected a `;` - start: 2933, end: 2938
@@ -10743,7 +10743,7 @@ a++ => {};
 ✖ Expected a `;` - start: 2997, end: 3000
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3004, end: 3013
 ✖ Unterminated string literal - start: 3019, end: 3032
-✖ Expected a ')' to match the '(' token here - start: 3041, end: 3044
+✖ Expected a ')' to match the '(' token here - start: 3042, end: 3044
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3017, end: 3044
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3058, end: 3066
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 3070, end: 3081
@@ -10762,7 +10762,7 @@ a++ => {};
 ✖ The left hand side of the arrow is not destructible  - start: 3301, end: 3304
 ✖ Expected a `;` - start: 3320, end: 3323
 ✖ A rest element cannot have an initializer - start: 3335, end: 3337
-✖ Expected a ')' to match the '(' token here - start: 3354, end: 3356
+✖ Expected a ')' to match the '(' token here - start: 3355, end: 3356
 ✖ Expected a `;` - start: 3358, end: 3359
 ✖ Declaration or statement expected - start: 3359, end: 3362
 ✖ Expected a `;` - start: 3380, end: 3383

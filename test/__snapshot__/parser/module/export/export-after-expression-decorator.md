@@ -173,7 +173,7 @@ let MyClass = @foo export class {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 18, end: 25
+✖ Missing an opening brace - '{ - start: 19, end: 25
 ✖ Lexical declaration expected - start: 18, end: 25
 ✖ A class declaration without the 'default' modifier must have a name. - start: 31, end: 33
 

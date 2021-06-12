@@ -97,7 +97,7 @@
 
 ```javascript
 ✖ Binding identifier expected - start: 13, end: 15
-✖ Missing an opening parentheses - '( - start: 13, end: 15
+✖ Missing an opening parentheses - '( - start: 14, end: 15
 
 ```
 

@@ -130,9 +130,9 @@ async x => switch = 1
 
 ```javascript
 ✖ Identifier expected - start: 10, end: 17
-✖ Missing an opening parentheses - '( - start: 17, end: 19
+✖ Missing an opening parentheses - '( - start: 18, end: 19
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 17, end: 19
-✖ Declaration or statement expected - start: 21, end: 21
+✖ Declaration or statement expected - start: 20, end: 21
 
 ```
 

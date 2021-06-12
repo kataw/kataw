@@ -62,7 +62,7 @@
 
 ```javascript
 ✖ Unterminated regular expression - start: 24, end: 36
-✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 36
+✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 36
 
 ```
 

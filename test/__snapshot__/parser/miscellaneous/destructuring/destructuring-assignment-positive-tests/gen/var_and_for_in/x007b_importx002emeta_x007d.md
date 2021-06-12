@@ -238,7 +238,7 @@ var x, y, z; for (x in { import.meta } = z = {});
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 31, end: 32
 ✖ ',' expected - start: 31, end: 32
-✖ Expected a ')' to match the '(' token here - start: 36, end: 38
+✖ Expected a ')' to match the '(' token here - start: 37, end: 38
 ✖ Declaration or statement expected - start: 38, end: 40
 ✖ Expected a `;` - start: 47, end: 48
 

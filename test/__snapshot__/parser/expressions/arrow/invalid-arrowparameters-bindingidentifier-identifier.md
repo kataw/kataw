@@ -120,7 +120,7 @@ var af = switch => 1;
 ```javascript
 ✖ Identifier expected - start: 8, end: 15
 ✖ Variable declaration expected. - start: 8, end: 15
-✖ Missing an opening parentheses - '( - start: 15, end: 18
+✖ Missing an opening parentheses - '( - start: 16, end: 18
 
 ```
 

@@ -115,7 +115,7 @@ do( class x {} while
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 14, end: 20
+✖ Expected a ')' to match the '(' token here - start: 15, end: 20
 
 ```
 

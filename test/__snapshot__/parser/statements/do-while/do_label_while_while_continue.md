@@ -134,7 +134,7 @@ do wow: while (x) while (x) continue wow;
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 41, end: 41
+✖ Missing an opening parentheses - '( - start: 40, end: 41
 
 ```
 

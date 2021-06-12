@@ -209,11 +209,11 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
-✖ Missing an opening parentheses - '( - start: 12, end: 14
-✖ Declaration or statement expected - start: 14, end: 21
-✖ Missing an opening parentheses - '( - start: 21, end: 27
-✖ Missing an opening parentheses - '( - start: 27, end: 29
-✖ Declaration or statement expected - start: 29, end: 35
+✖ Missing an opening parentheses - '( - start: 13, end: 14
+✖ Declaration or statement expected - start: 15, end: 21
+✖ Missing an opening parentheses - '( - start: 22, end: 27
+✖ Missing an opening parentheses - '( - start: 28, end: 29
+✖ Declaration or statement expected - start: 30, end: 35
 
 ```
 

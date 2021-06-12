@@ -274,14 +274,14 @@
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 7
+✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 7
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 7, end: 8
-✖ Missing an opening brace - '{ - start: 14, end: 23
+✖ Missing an opening brace - '{ - start: 15, end: 23
 ✖ Binding identifier expected - start: 23, end: 27
-✖ Missing an opening parentheses - '( - start: 23, end: 27
+✖ Missing an opening parentheses - '( - start: 24, end: 27
 ✖ Declaration or statement expected - start: 27, end: 33
-✖ Missing an opening parentheses - '( - start: 33, end: 38
-✖ Missing an opening parentheses - '( - start: 38, end: 42
+✖ Missing an opening parentheses - '( - start: 34, end: 38
+✖ Missing an opening parentheses - '( - start: 39, end: 42
 ✖ Declaration or statement expected - start: 42, end: 43
 
 ```

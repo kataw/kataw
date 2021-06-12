@@ -140,9 +140,9 @@
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 4, end: 5
 ✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 6
-✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 8
+✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 8
 ✖ Unterminated regular expression - start: 8, end: 26
-✖ ',' expected - start: 26, end: 26
+✖ ',' expected - start: 8, end: 26
 
 ```
 

@@ -98,7 +98,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 16, end: 18
+✖ Missing an opening parentheses - '( - start: 17, end: 18
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 18
 ✖ Declaration or statement expected - start: 20, end: 21
 

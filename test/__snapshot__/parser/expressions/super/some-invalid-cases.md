@@ -2690,13 +2690,13 @@ let x = { foo(){ super(); } };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 22
 ✖ Duplicate identifier - start: 36, end: 38
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 46, end: 53
-✖ Missing an opening brace - '{ - start: 56, end: 58
+✖ Missing an opening brace - '{ - start: 57, end: 58
 ✖ Expected a `;` - start: 58, end: 60
 ✖ Duplicate identifier - start: 69, end: 71
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 84, end: 90
 ✖ Duplicate identifier - start: 105, end: 107
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 120, end: 126
-✖ ',' expected - start: 129, end: 131
+✖ ',' expected - start: 130, end: 131
 ✖ Duplicate identifier - start: 143, end: 145
 ✖ Expected a ')' to match the '(' token here - start: 152, end: 157
 ✖ The parser expected to find a '}' to match the '{' token here - start: 157, end: 158
@@ -2710,16 +2710,16 @@ let x = { foo(){ super(); } };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 206, end: 212
 ✖ Duplicate identifier - start: 229, end: 231
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 235, end: 241
-✖ Expected a computed property - start: 244, end: 246
+✖ Expected a computed property - start: 245, end: 246
 ✖ The parser expected to find a '}' to match the '{' token here - start: 246, end: 247
 ✖ Declaration or statement expected - start: 251, end: 253
 ✖ Binding identifier expected - start: 285, end: 291
 ✖ Expected a `;` - start: 295, end: 297
 ✖ Duplicate identifier - start: 310, end: 312
-✖ Missing an opening brace - '{ - start: 355, end: 357
+✖ Missing an opening brace - '{ - start: 356, end: 357
 ✖ Expected a `;` - start: 357, end: 359
 ✖ Duplicate identifier - start: 372, end: 374
-✖ ',' expected - start: 421, end: 423
+✖ ',' expected - start: 422, end: 423
 ✖ Duplicate identifier - start: 439, end: 441
 ✖ Expected a ')' to match the '(' token here - start: 473, end: 478
 ✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479

@@ -102,7 +102,7 @@ async x => import = 1
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 21, end: 21
+✖ Expected a ')' to match the '(' token here - start: 20, end: 21
 
 ```
 

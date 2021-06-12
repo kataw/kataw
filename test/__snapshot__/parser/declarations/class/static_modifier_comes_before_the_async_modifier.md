@@ -198,7 +198,7 @@ class x{   async static static(){}    }
 ### Diagnostics
 
 ```javascript
-✖ Method definition expected - start: 23, end: 30
+✖ Method definition expected - start: 24, end: 30
 
 ```
 

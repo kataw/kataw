@@ -260,18 +260,18 @@
 
 ```javascript
 ✖ Expected a `;` - start: 3, end: 10
-✖ Missing an opening parentheses - '( - start: 10, end: 13
-✖ Declaration or statement expected - start: 13, end: 18
+✖ Missing an opening parentheses - '( - start: 11, end: 13
+✖ Declaration or statement expected - start: 14, end: 18
 ✖ Expected a `;` - start: 18, end: 21
 ✖ Expected a `;` - start: 21, end: 29
 ✖ Expected a `;` - start: 29, end: 32
 ✖ Expected a `;` - start: 32, end: 37
 ✖ Expected a `;` - start: 37, end: 44
 ✖ Expected a `;` - start: 44, end: 50
-✖ Missing an opening parentheses - '( - start: 50, end: 52
-✖ Declaration or statement expected - start: 52, end: 56
+✖ Missing an opening parentheses - '( - start: 51, end: 52
+✖ Declaration or statement expected - start: 53, end: 56
 ✖ Expected a `;` - start: 56, end: 60
-✖ Missing an opening parentheses - '( - start: 60, end: 62
+✖ Missing an opening parentheses - '( - start: 61, end: 62
 ✖ Identifier expected - start: 67, end: 67
 
 ```

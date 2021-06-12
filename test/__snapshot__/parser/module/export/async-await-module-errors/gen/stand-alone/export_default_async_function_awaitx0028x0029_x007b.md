@@ -113,7 +113,7 @@ export default async function await() {
 
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
-✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 39
+✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 39
 
 ```
 

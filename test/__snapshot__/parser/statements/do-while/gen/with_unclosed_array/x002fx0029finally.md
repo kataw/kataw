@@ -91,7 +91,7 @@ do[ /)finally
 
 ```javascript
 ✖ Unterminated regular expression - start: 3, end: 13
-✖ ',' expected - start: 13, end: 13
+✖ ',' expected - start: 4, end: 13
 
 ```
 

@@ -139,7 +139,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 4, end: 6
+✖ Expected a ')' to match the '(' token here - start: 5, end: 6
 ✖ Expected a `;` - start: 13, end: 15
 ✖ Expected a `;` - start: 22, end: 23
 

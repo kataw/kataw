@@ -143,8 +143,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 18, end: 21
-✖ Expected a ')' to match the '(' token here - start: 23, end: 25
+✖ Missing an opening brace - '{ - start: 19, end: 21
+✖ Expected a ')' to match the '(' token here - start: 24, end: 25
 ✖ Declaration or statement expected - start: 26, end: 27
 
 ```

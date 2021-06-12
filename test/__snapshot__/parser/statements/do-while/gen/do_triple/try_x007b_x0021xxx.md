@@ -240,8 +240,8 @@ do do do try { !xxx while while while
 
 ```javascript
 ✖ Expected a `;` - start: 19, end: 25
-✖ Missing an opening parentheses - '( - start: 25, end: 31
-✖ Missing an opening parentheses - '( - start: 31, end: 37
+✖ Missing an opening parentheses - '( - start: 26, end: 31
+✖ Missing an opening parentheses - '( - start: 32, end: 37
 
 ```
 

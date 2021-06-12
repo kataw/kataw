@@ -242,7 +242,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 26, end: 33
+✖ ',' expected - start: 27, end: 33
 ✖ Missing initializer in const declaration - start: 26, end: 33
 ✖ ',' expected - start: 26, end: 33
 ✖ Missing initializer in const declaration - start: 33, end: 35

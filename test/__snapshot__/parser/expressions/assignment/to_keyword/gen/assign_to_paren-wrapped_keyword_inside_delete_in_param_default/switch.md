@@ -171,7 +171,7 @@ async (x = delete ((switch) = f)) => {}
 ```javascript
 ✖ Identifier expected - start: 20, end: 26
 ✖ Missing an opening parentheses - '( - start: 26, end: 27
-✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 29
+✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
 ✖ Expected a `;` - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33
 ✖ Declaration or statement expected - start: 33, end: 36

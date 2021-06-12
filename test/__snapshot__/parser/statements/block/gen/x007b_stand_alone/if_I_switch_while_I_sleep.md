@@ -138,11 +138,11 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 4, end: 6
-✖ Declaration or statement expected - start: 6, end: 13
-✖ Missing an opening parentheses - '( - start: 13, end: 19
-✖ Missing an opening parentheses - '( - start: 19, end: 21
-✖ Declaration or statement expected - start: 21, end: 27
+✖ Missing an opening parentheses - '( - start: 5, end: 6
+✖ Declaration or statement expected - start: 7, end: 13
+✖ Missing an opening parentheses - '( - start: 14, end: 19
+✖ Missing an opening parentheses - '( - start: 20, end: 21
+✖ Declaration or statement expected - start: 22, end: 27
 
 ```
 

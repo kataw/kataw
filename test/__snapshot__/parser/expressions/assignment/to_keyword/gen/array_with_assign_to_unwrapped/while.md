@@ -136,9 +136,9 @@ async x => while = 1
 
 ```javascript
 ✖ Identifier expected - start: 10, end: 16
-✖ Missing an opening parentheses - '( - start: 16, end: 18
+✖ Missing an opening parentheses - '( - start: 17, end: 18
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 18
-✖ Declaration or statement expected - start: 20, end: 20
+✖ Declaration or statement expected - start: 19, end: 20
 
 ```
 

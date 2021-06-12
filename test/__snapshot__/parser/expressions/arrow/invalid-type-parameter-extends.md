@@ -140,7 +140,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 2, end: 10
+✖ Expected to find a '>' to match the '<' token here. - start: 3, end: 10
 ✖ Identifier expected - start: 0, end: 1
 ✖ Expected a `;` - start: 2, end: 10
 ✖ Expected a `;` - start: 16, end: 19

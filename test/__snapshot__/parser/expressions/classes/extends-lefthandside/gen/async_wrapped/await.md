@@ -173,7 +173,7 @@ async function p(){
 
 ```javascript
 ✖ Expression expected - start: 37, end: 43
-✖ Missing an opening brace - '{ - start: 46, end: 48
+✖ Missing an opening brace - '{ - start: 47, end: 48
 
 ```
 

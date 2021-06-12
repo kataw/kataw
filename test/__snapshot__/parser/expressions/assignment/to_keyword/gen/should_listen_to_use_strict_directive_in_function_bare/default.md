@@ -115,7 +115,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 30, end: 40
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 40
 ✖ Declaration or statement expected - start: 40, end: 42
 ✖ Declaration or statement expected - start: 44, end: 46
 

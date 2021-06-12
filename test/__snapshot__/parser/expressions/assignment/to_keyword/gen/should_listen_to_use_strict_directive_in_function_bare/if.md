@@ -156,9 +156,9 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 35, end: 37
+✖ Missing an opening parentheses - '( - start: 36, end: 37
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 35, end: 37
-✖ Declaration or statement expected - start: 39, end: 41
+✖ Declaration or statement expected - start: 40, end: 41
 
 ```
 

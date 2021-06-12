@@ -136,9 +136,9 @@ async x => with = 1
 
 ```javascript
 ✖ Identifier expected - start: 10, end: 15
-✖ Missing an opening parentheses - '( - start: 15, end: 17
+✖ Missing an opening parentheses - '( - start: 16, end: 17
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 17
-✖ Declaration or statement expected - start: 19, end: 19
+✖ Declaration or statement expected - start: 18, end: 19
 
 ```
 

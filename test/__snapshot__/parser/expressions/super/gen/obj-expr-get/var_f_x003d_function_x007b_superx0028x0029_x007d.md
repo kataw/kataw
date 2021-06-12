@@ -232,7 +232,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 29, end: 31
+✖ Missing an opening parentheses - '( - start: 30, end: 31
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 31, end: 38
 
 ```

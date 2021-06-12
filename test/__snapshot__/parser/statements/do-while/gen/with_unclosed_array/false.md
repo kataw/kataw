@@ -89,7 +89,7 @@ do[ false
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 9, end: 9
+✖ ',' expected - start: 4, end: 9
 
 ```
 

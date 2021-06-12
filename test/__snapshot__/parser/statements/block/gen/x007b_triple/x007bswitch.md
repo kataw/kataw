@@ -124,7 +124,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 13, end: 13
+✖ Missing an opening parentheses - '( - start: 7, end: 13
 
 ```
 

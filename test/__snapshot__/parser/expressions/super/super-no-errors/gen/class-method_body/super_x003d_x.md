@@ -186,7 +186,7 @@ class C { m() { super = x; }
 ✖ 'super' must be followed by an argument list or member access. - start: 15, end: 23
 ✖ Dot property must be an identifier - start: 21, end: 23
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
+✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 28
 
 ```
 

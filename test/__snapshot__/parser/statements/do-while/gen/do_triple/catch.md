@@ -166,8 +166,8 @@ do do do catch while while while
 
 ```javascript
 ✖ 'try' expected - start: 8, end: 14
-✖ Missing an opening parentheses - '( - start: 20, end: 26
-✖ Missing an opening parentheses - '( - start: 26, end: 32
+✖ Missing an opening parentheses - '( - start: 21, end: 26
+✖ Missing an opening parentheses - '( - start: 27, end: 32
 
 ```
 

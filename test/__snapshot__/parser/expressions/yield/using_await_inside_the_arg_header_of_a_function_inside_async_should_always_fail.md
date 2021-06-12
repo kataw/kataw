@@ -130,7 +130,7 @@ let f = () => (y=await foo) => y;
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 22, end: 26
+✖ Expected a ')' to match the '(' token here - start: 23, end: 26
 ✖ ',' expected - start: 22, end: 26
 ✖ ',' expected - start: 26, end: 27
 ✖ Expected a `;` - start: 26, end: 27

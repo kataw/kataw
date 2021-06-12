@@ -166,11 +166,11 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 8, end: 10
-✖ Declaration or statement expected - start: 10, end: 17
-✖ Missing an opening parentheses - '( - start: 17, end: 23
-✖ Missing an opening parentheses - '( - start: 23, end: 25
-✖ Declaration or statement expected - start: 25, end: 31
+✖ Missing an opening parentheses - '( - start: 9, end: 10
+✖ Declaration or statement expected - start: 11, end: 17
+✖ Missing an opening parentheses - '( - start: 18, end: 23
+✖ Missing an opening parentheses - '( - start: 24, end: 25
+✖ Declaration or statement expected - start: 26, end: 31
 
 ```
 

@@ -74,7 +74,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 8, end: 8
+✖ Expected a ')' to match the '(' token here - start: 3, end: 8
 
 ```
 

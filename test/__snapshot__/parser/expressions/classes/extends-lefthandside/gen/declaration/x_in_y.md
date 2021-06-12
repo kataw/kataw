@@ -145,7 +145,7 @@ class A extends x in y {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 17, end: 20
+✖ Missing an opening brace - '{ - start: 18, end: 20
 ✖ Expected a `;` - start: 22, end: 24
 
 ```

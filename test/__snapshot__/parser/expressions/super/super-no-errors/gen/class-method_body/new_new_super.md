@@ -191,7 +191,7 @@ class C { m() { new new super; }
 ```javascript
 ✖ 'super' must be followed by an argument list or member access. - start: 23, end: 30
 ✖ Dot property must be an identifier - start: 29, end: 30
-✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
+✖ The parser expected to find a '}' to match the '{' token here - start: 31, end: 32
 
 ```
 

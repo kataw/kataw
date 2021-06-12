@@ -211,7 +211,7 @@ do( while try this and !foo while
 
 ```javascript
 ✖ Identifier expected - start: 3, end: 9
-✖ Missing an opening parentheses - '( - start: 9, end: 13
+✖ Missing an opening parentheses - '( - start: 10, end: 13
 ✖ Declaration or statement expected - start: 13, end: 18
 ✖ Expected a `;` - start: 18, end: 22
 ✖ Expected a `;` - start: 22, end: 24

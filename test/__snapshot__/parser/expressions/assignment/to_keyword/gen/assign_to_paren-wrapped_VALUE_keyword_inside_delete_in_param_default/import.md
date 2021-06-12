@@ -198,8 +198,8 @@ function *f(x = delete ((import) = f)) {}
 ✖ Identifier expected - start: 32, end: 34
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 32, end: 34
 ✖ Expected a `;` - start: 37, end: 38
-✖ Expected a ')' to match the '(' token here - start: 38, end: 40
-✖ ',' expected - start: 41, end: 41
+✖ Expected a ')' to match the '(' token here - start: 39, end: 40
+✖ ',' expected - start: 40, end: 41
 
 ```
 

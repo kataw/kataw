@@ -143,9 +143,9 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 18, end: 20
+✖ Missing an opening brace - '{ - start: 19, end: 20
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
-✖ Expected a ')' to match the '(' token here - start: 22, end: 24
+✖ Expected a ')' to match the '(' token here - start: 23, end: 24
 ✖ Declaration or statement expected - start: 25, end: 26
 
 ```

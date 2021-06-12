@@ -105,7 +105,7 @@ while (a);
 
 ```javascript
 ✖ Expected a `;` - start: 6, end: 8
-✖ Declaration or statement expected - start: 8, end: 14
+✖ Declaration or statement expected - start: 9, end: 14
 
 ```
 

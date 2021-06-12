@@ -275,7 +275,7 @@
 ✖ Expected a `;` - start: 26, end: 32
 ✖ Binding identifier expected - start: 32, end: 41
 ✖ Binding identifier expected - start: 41, end: 43
-✖ Missing an opening parentheses - '( - start: 41, end: 43
+✖ Missing an opening parentheses - '( - start: 42, end: 43
 ✖ Identifier expected - start: 44, end: 44
 
 ```

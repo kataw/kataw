@@ -179,11 +179,11 @@ do[ async try while { catch }
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 9, end: 13
+✖ ',' expected - start: 10, end: 13
 ✖ Declaration or statement expected - start: 13, end: 19
-✖ Missing an opening parentheses - '( - start: 19, end: 21
+✖ Missing an opening parentheses - '( - start: 20, end: 21
 ✖ Property definition expected. Did you mean to use a ':'? - start: 27, end: 29
-✖ Declaration or statement expected - start: 29, end: 29
+✖ Declaration or statement expected - start: 28, end: 29
 
 ```
 

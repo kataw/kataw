@@ -195,7 +195,7 @@ class A {async set foo(value) { }};
 
 ```javascript
 ✖ 'async' modifier cannot be used here - start: 18, end: 22
-✖ Method definition expected - start: 18, end: 22
+✖ Method definition expected - start: 19, end: 22
 
 ```
 

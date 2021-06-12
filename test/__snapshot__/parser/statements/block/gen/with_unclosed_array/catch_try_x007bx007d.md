@@ -164,7 +164,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Did you forgot a ']' to match the `[` token? - start: 2, end: 8
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 2, end: 8
 ✖ Declaration or statement expected - start: 15, end: 15
 

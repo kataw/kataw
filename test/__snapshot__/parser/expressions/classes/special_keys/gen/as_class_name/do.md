@@ -112,7 +112,7 @@ class do {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 8
-✖ Missing an opening parentheses - '( - start: 11, end: 11
+✖ Missing an opening parentheses - '( - start: 10, end: 11
 
 ```
 

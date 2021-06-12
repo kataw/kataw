@@ -179,7 +179,7 @@ var o = {
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 13
+✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 13
 ✖ Missing an opening brace - '{ - start: 22, end: 23
 ✖ Declaration or statement expected - start: 30, end: 32
 

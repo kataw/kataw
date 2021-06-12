@@ -246,7 +246,7 @@ foo = {
 ```javascript
 ✖ Identifier expected - start: 42, end: 47
 ✖ 'try' expected - start: 42, end: 47
-✖ The parser expected to find a '}' to match the '{' token here - start: 47, end: 49
+✖ The parser expected to find a '}' to match the '{' token here - start: 48, end: 49
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 49
 ✖ Expected a `;` - start: 51, end: 52
 ✖ Declaration or statement expected - start: 53, end: 57

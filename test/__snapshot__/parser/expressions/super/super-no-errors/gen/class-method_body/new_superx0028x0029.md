@@ -171,7 +171,7 @@ class C { m() { new super(); }
 
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 19, end: 26
-✖ The parser expected to find a '}' to match the '{' token here - start: 30, end: 30
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 30
 
 ```
 

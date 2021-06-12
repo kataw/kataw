@@ -128,7 +128,7 @@
 
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 2, end: 9
-✖ Expected a ')' to match the '(' token here - start: 14, end: 14
+✖ Expected a ')' to match the '(' token here - start: 13, end: 14
 
 ```
 

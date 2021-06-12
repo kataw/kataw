@@ -173,11 +173,11 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 8, end: 12
+✖ ',' expected - start: 9, end: 12
 ✖ Declaration or statement expected - start: 12, end: 18
-✖ Missing an opening parentheses - '( - start: 18, end: 20
+✖ Missing an opening parentheses - '( - start: 19, end: 20
 ✖ Property definition expected. Did you mean to use a ':'? - start: 26, end: 28
-✖ Declaration or statement expected - start: 28, end: 28
+✖ Declaration or statement expected - start: 27, end: 28
 
 ```
 

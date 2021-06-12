@@ -153,7 +153,7 @@ async (x = (switch) = f) => {}
 ```javascript
 ✖ Identifier expected - start: 12, end: 18
 ✖ Missing an opening parentheses - '( - start: 18, end: 19
-✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 21
+✖ The parser expected to find a '}' to match the '{' token here - start: 20, end: 21
 ✖ Expected a `;` - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 27
 

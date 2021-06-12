@@ -151,8 +151,8 @@ do do do /false//a while while while
 
 ```javascript
 ✖ Expected a `;` - start: 18, end: 24
-✖ Missing an opening parentheses - '( - start: 24, end: 30
-✖ Missing an opening parentheses - '( - start: 30, end: 36
+✖ Missing an opening parentheses - '( - start: 25, end: 30
+✖ Missing an opening parentheses - '( - start: 31, end: 36
 
 ```
 

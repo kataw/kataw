@@ -53,7 +53,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 17, end: 17
+✖ Expected a ')' to match the '(' token here - start: 16, end: 17
 
 ```
 

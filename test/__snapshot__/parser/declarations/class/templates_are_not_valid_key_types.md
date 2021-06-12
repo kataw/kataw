@@ -131,7 +131,7 @@ class x { `constructor`(){} }
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 23
+✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 23
 ✖ Expected a `;` - start: 25, end: 26
 ✖ Declaration or statement expected - start: 27, end: 29
 

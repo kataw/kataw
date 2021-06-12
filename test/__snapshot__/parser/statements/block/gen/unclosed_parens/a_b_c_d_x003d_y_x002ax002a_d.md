@@ -148,7 +148,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 20, end: 20
+✖ Expected a ')' to match the '(' token here - start: 19, end: 20
 
 ```
 

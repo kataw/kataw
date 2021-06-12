@@ -174,7 +174,7 @@ function f() {
 
 ```javascript
 ✖ Identifier expected - start: 34, end: 40
-✖ Missing an opening parentheses - '( - start: 40, end: 42
+✖ Missing an opening parentheses - '( - start: 41, end: 42
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 40, end: 42
 ✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 46
 

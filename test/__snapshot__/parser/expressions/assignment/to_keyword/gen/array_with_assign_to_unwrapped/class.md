@@ -125,7 +125,7 @@ async x => class = 1
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 16, end: 18
+✖ Missing an opening brace - '{ - start: 17, end: 18
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 18
 
 ```

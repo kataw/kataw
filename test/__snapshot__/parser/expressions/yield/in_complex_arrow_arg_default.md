@@ -100,7 +100,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 16, end: 18
+✖ Expected a ')' to match the '(' token here - start: 17, end: 18
 ✖ Expected a `;` - start: 18, end: 19
 ✖ Declaration or statement expected - start: 19, end: 22
 ✖ Declaration or statement expected - start: 26, end: 28

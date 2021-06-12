@@ -125,9 +125,9 @@ async () => {  sw\u0069tch = x  }
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 13, end: 26
-✖ Missing an opening parentheses - '( - start: 26, end: 28
+✖ Missing an opening parentheses - '( - start: 27, end: 28
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 26, end: 28
-✖ Declaration or statement expected - start: 30, end: 33
+✖ Declaration or statement expected - start: 32, end: 33
 
 ```
 

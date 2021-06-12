@@ -250,7 +250,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 25, end: 28
+✖ Expected a ')' to match the '(' token here - start: 26, end: 28
 ✖ ',' expected - start: 30, end: 31
 ✖ Expected a ')' to match the '(' token here - start: 31, end: 32
 ✖ Declaration or statement expected - start: 32, end: 33

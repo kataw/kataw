@@ -140,7 +140,7 @@ class A {async **=f(){}}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 18
+✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 18
 ✖ Expected a `;` - start: 21, end: 22
 ✖ Declaration or statement expected - start: 23, end: 24
 

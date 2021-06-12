@@ -100,7 +100,7 @@ do class x {}
 
 ```javascript
 ✖ Class declarations cannot be used in a single-statement context - start: 2, end: 8
-✖ Missing an opening parentheses - '( - start: 13, end: 13
+✖ Missing an opening parentheses - '( - start: 12, end: 13
 
 ```
 

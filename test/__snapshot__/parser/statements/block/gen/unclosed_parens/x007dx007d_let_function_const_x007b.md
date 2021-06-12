@@ -176,8 +176,8 @@
 ✖ Declaration or statement expected - start: 4, end: 5
 ✖ Expected a `;` - start: 9, end: 18
 ✖ Binding identifier expected - start: 18, end: 24
-✖ Missing an opening parentheses - '( - start: 18, end: 24
-✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 26
+✖ Missing an opening parentheses - '( - start: 19, end: 24
+✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 26
 ✖ Missing initializer in const declaration - start: 26, end: 26
 
 ```

@@ -101,7 +101,7 @@
 
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 7, end: 7
-✖ ',' expected - start: 7, end: 7
+✖ ',' expected - start: 4, end: 7
 
 ```
 

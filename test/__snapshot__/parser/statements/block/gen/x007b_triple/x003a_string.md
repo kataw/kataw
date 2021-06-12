@@ -97,7 +97,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 7
+✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 7
 
 ```
 

@@ -108,9 +108,9 @@
 
 ```javascript
 ✖ Identifier expected - start: 1, end: 7
-✖ Missing an opening parentheses - '( - start: 7, end: 9
+✖ Missing an opening parentheses - '( - start: 8, end: 9
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 7, end: 9
-✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 12
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 12
 
 ```
 

@@ -158,7 +158,7 @@ function *f(){
 ```javascript
 ✖ Identifier expected - start: 18, end: 24
 ✖ Missing an opening parentheses - '( - start: 24, end: 25
-✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 27
+✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 27
 ✖ Declaration or statement expected - start: 30, end: 32
 
 ```

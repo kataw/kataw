@@ -204,9 +204,9 @@ foo = {
 
 ```javascript
 ✖ 'with' statements are not allowed in strict mode. - start: 36, end: 45
-✖ Missing an opening parentheses - '( - start: 45, end: 47
+✖ Missing an opening parentheses - '( - start: 46, end: 47
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 45, end: 47
-✖ Declaration or statement expected - start: 49, end: 53
+✖ Declaration or statement expected - start: 52, end: 53
 
 ```
 

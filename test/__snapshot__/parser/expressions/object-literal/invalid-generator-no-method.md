@@ -114,7 +114,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Method definition expected - start: 5, end: 7
+✖ Method definition expected - start: 6, end: 7
 
 ```
 

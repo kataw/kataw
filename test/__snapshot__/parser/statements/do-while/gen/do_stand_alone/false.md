@@ -74,7 +74,7 @@ do false
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 8, end: 8
+✖ Missing an opening parentheses - '( - start: 3, end: 8
 
 ```
 

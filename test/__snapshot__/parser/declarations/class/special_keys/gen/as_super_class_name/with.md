@@ -138,8 +138,8 @@ class x extends with {}
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 20
-✖ Missing an opening parentheses - '( - start: 20, end: 22
-✖ Declaration or statement expected - start: 23, end: 23
+✖ Missing an opening parentheses - '( - start: 21, end: 22
+✖ Declaration or statement expected - start: 22, end: 23
 
 ```
 

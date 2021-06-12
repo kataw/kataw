@@ -90,7 +90,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Did you forgot a ']' to match the `[` token? - start: 2, end: 4
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 4
 
 ```
 

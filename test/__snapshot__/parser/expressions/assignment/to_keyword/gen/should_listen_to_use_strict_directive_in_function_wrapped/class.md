@@ -163,7 +163,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 39, end: 41
+✖ Missing an opening brace - '{ - start: 40, end: 41
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 39, end: 41
 
 ```

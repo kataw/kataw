@@ -145,9 +145,9 @@
 
 ```javascript
 ✖ `yield` expression cannot be used in function parameters - start: 19, end: 24
-✖ ',' expected - start: 24, end: 26
-✖ Missing an opening brace - '{ - start: 27, end: 29
-✖ The parser expected to find a '}' to match the '{' token here - start: 31, end: 31
+✖ ',' expected - start: 25, end: 26
+✖ Missing an opening brace - '{ - start: 28, end: 29
+✖ The parser expected to find a '}' to match the '{' token here - start: 30, end: 31
 
 ```
 

@@ -107,7 +107,7 @@ a = { let
 
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 9, end: 11
-✖ ',' expected - start: 9, end: 11
+✖ ',' expected - start: 10, end: 11
 ✖ Declaration or statement expected - start: 12, end: 14
 
 ```

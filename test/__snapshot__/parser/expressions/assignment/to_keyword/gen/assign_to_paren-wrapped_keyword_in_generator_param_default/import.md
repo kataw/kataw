@@ -179,7 +179,7 @@ function *f(x = (import) = f) {}
 ```javascript
 ✖ Identifier expected - start: 24, end: 26
 ✖ Expected a `;` - start: 29, end: 31
-✖ ',' expected - start: 32, end: 32
+✖ ',' expected - start: 31, end: 32
 
 ```
 

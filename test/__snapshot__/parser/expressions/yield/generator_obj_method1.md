@@ -301,7 +301,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 52, end: 56
+✖ ',' expected - start: 53, end: 56
 
 ```
 

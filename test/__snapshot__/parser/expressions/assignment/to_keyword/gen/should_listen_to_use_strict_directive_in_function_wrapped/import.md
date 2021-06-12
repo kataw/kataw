@@ -140,7 +140,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 46, end: 48
+✖ Expected a ')' to match the '(' token here - start: 47, end: 48
 
 ```
 

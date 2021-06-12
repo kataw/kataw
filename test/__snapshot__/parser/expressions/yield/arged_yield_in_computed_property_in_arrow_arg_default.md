@@ -95,7 +95,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a computed property - start: 14, end: 16
+✖ Expected a computed property - start: 15, end: 16
 ✖ Property definition expected. Did you mean to use a ':'? - start: 14, end: 16
 ✖ Property definition expected. Did you mean to use a ':'? - start: 16, end: 17
 ✖ ',' expected - start: 16, end: 17

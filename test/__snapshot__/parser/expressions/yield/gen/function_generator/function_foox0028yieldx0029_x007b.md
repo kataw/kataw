@@ -199,7 +199,7 @@ function * gen() { function not_gen() { function foo(yield) { }}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 64, end: 64
+✖ The parser expected to find a '}' to match the '{' token here - start: 63, end: 64
 
 ```
 

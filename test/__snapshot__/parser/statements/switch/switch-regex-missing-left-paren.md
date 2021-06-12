@@ -116,10 +116,10 @@ switch (/a/i {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 6, end: 11
-✖ Missing an opening parentheses - '( - start: 23, end: 28
-✖ Declaration or statement expected - start: 28, end: 30
-✖ Expected a ')' to match the '(' token here - start: 45, end: 47
+✖ Missing an opening parentheses - '( - start: 7, end: 11
+✖ Missing an opening parentheses - '( - start: 24, end: 28
+✖ Declaration or statement expected - start: 29, end: 30
+✖ Expected a ')' to match the '(' token here - start: 46, end: 47
 
 ```
 

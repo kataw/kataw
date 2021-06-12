@@ -142,7 +142,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 31
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 31
 ✖ Declaration or statement expected - start: 34, end: 36
 
 ```

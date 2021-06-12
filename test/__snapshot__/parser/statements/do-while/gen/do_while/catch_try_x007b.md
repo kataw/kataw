@@ -184,8 +184,8 @@ do catch try { while
 
 ```javascript
 ✖ 'try' expected - start: 2, end: 8
-✖ Missing an opening parentheses - '( - start: 8, end: 12
-✖ Missing an opening parentheses - '( - start: 20, end: 20
+✖ Missing an opening parentheses - '( - start: 9, end: 12
+✖ Missing an opening parentheses - '( - start: 15, end: 20
 
 ```
 

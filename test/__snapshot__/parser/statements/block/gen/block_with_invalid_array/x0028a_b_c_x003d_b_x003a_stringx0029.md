@@ -210,7 +210,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
-✖ Expected a ')' to match the '(' token here - start: 12, end: 14
+✖ Expected a ')' to match the '(' token here - start: 13, end: 14
 ✖ Expected a `;` - start: 21, end: 23
 ✖ Expected a `;` - start: 30, end: 31
 

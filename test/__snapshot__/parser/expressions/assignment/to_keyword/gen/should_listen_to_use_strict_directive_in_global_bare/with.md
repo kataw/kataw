@@ -97,7 +97,7 @@
 
 ```javascript
 ✖ 'with' statements are not allowed in strict mode. - start: 13, end: 18
-✖ Missing an opening parentheses - '( - start: 18, end: 20
+✖ Missing an opening parentheses - '( - start: 19, end: 20
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
 ✖ Declaration or statement expected - start: 22, end: 23
 

@@ -129,7 +129,7 @@ async (foo ? bar : baz, a) => {
 
 ```javascript
 ✖ Declaration or statement expected - start: 26, end: 29
-✖ The parser expected to find a '}' to match the '{' token here - start: 31, end: 31
+✖ The parser expected to find a '}' to match the '{' token here - start: 30, end: 31
 
 ```
 

@@ -191,10 +191,10 @@ do do do function while while while while
 ```javascript
 ✖ Function declarations cannot be used in a single-statement context - start: 8, end: 17
 ✖ Binding identifier expected - start: 17, end: 23
-✖ Missing an opening parentheses - '( - start: 17, end: 23
-✖ Missing an opening parentheses - '( - start: 23, end: 29
-✖ Missing an opening parentheses - '( - start: 29, end: 35
-✖ Missing an opening parentheses - '( - start: 35, end: 41
+✖ Missing an opening parentheses - '( - start: 18, end: 23
+✖ Missing an opening parentheses - '( - start: 24, end: 29
+✖ Missing an opening parentheses - '( - start: 30, end: 35
+✖ Missing an opening parentheses - '( - start: 36, end: 41
 
 ```
 

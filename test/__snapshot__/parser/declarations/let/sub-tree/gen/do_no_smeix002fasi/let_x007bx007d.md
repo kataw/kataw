@@ -111,8 +111,8 @@ do let
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 6, end: 8
-✖ Declaration or statement expected - start: 9, end: 15
+✖ Missing an opening parentheses - '( - start: 7, end: 8
+✖ Declaration or statement expected - start: 10, end: 15
 
 ```
 

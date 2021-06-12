@@ -956,27 +956,27 @@ async function f(){}
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 11, end: 21
+✖ Expected a ')' to match the '(' token here - start: 13, end: 21
 ✖ Duplicate identifier - start: 21, end: 23
-✖ ',' expected - start: 56, end: 65
+✖ ',' expected - start: 57, end: 65
 ✖ Duplicate identifier - start: 65, end: 67
 ✖ Duplicate identifier - start: 87, end: 89
 ✖ Binding identifier expected - start: 104, end: 106
-✖ Missing an opening parentheses - '( - start: 104, end: 106
+✖ Missing an opening parentheses - '( - start: 105, end: 106
 ✖ Expected a `;` - start: 109, end: 110
 ✖ Duplicate identifier - start: 123, end: 125
 ✖ Expected a ')' to match the '(' token here - start: 126, end: 127
 ✖ Duplicate identifier - start: 139, end: 141
 ✖ Expected a ')' to match the '(' token here - start: 142, end: 143
 ✖ Expected a `;` - start: 144, end: 151
-✖ Missing an opening parentheses - '( - start: 151, end: 155
-✖ Declaration or statement expected - start: 155, end: 159
+✖ Missing an opening parentheses - '( - start: 152, end: 155
+✖ Declaration or statement expected - start: 156, end: 159
 ✖ Missing an opening parentheses - '( - start: 172, end: 173
 ✖ The parser expected to find a '}' to match the '{' token here - start: 174, end: 175
 ✖ Identifier expected - start: 175, end: 176
 ✖ Duplicate identifier - start: 186, end: 188
 ✖ Missing an opening brace - '{ - start: 222, end: 228
-✖ Missing an opening parentheses - '( - start: 228, end: 237
+✖ Missing an opening parentheses - '( - start: 229, end: 237
 ✖ Missing an opening parentheses - '( - start: 237, end: 238
 
 ```

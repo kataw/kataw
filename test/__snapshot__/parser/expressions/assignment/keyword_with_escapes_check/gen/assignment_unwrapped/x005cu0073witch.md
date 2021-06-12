@@ -95,7 +95,7 @@
 
 ```javascript
 ✖ Keywords cannot contain escape characters - start: 0, end: 11
-✖ Missing an opening parentheses - '( - start: 11, end: 13
+✖ Missing an opening parentheses - '( - start: 12, end: 13
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 13
 ✖ Declaration or statement expected - start: 15, end: 16
 

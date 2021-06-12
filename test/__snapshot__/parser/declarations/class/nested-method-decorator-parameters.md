@@ -307,8 +307,8 @@ class Bar{
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 20, end: 26
-✖ The parser expected to find a '}' to match the '{' token here - start: 40, end: 42
+✖ Expected a ')' to match the '(' token here - start: 25, end: 26
+✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 42
 ✖ Missing an opening brace - '{ - start: 73, end: 74
 ✖ Declaration or statement expected - start: 84, end: 88
 ✖ Expected a `;` - start: 104, end: 106

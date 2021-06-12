@@ -206,11 +206,11 @@ do {} while (x) { while try this and !foo
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 23, end: 27
+✖ Missing an opening parentheses - '( - start: 24, end: 27
 ✖ Declaration or statement expected - start: 27, end: 32
 ✖ Expected a `;` - start: 32, end: 36
 ✖ Expected a `;` - start: 36, end: 38
-✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 41
+✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 41
 
 ```
 

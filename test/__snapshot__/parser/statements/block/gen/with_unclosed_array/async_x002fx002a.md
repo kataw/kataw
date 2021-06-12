@@ -86,7 +86,7 @@
 
 ```javascript
 ✖ Unexpected token. - start: 8, end: 12
-✖ ',' expected - start: 8, end: 12
+✖ ',' expected - start: 9, end: 12
 
 ```
 

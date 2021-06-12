@@ -238,15 +238,15 @@ do while [catch] async try while { catch }
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 8, end: 10
+✖ Missing an opening parentheses - '( - start: 9, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Expected a `;` - start: 22, end: 26
 ✖ Declaration or statement expected - start: 26, end: 32
-✖ Missing an opening parentheses - '( - start: 32, end: 34
+✖ Missing an opening parentheses - '( - start: 33, end: 34
 ✖ Property definition expected. Did you mean to use a ':'? - start: 40, end: 42
-✖ Declaration or statement expected - start: 42, end: 42
+✖ Declaration or statement expected - start: 41, end: 42
 
 ```
 

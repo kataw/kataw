@@ -82,7 +82,7 @@ new class
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 9, end: 9
+✖ Missing an opening brace - '{ - start: 4, end: 9
 
 ```
 

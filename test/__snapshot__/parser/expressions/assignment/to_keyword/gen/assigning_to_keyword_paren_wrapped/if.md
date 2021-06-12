@@ -116,7 +116,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 1, end: 3
-✖ Missing an opening parentheses - '( - start: 3, end: 5
+✖ Missing an opening parentheses - '( - start: 4, end: 5
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 3, end: 5
 ✖ Identifier expected - start: 8, end: 8
 

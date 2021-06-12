@@ -216,9 +216,9 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 9
 ✖ `yield` expression cannot be used in function parameters - start: 27, end: 32
-✖ ',' expected - start: 32, end: 34
-✖ Missing an opening brace - '{ - start: 35, end: 37
-✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 39
+✖ ',' expected - start: 33, end: 34
+✖ Missing an opening brace - '{ - start: 36, end: 37
+✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 39
 
 ```
 

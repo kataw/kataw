@@ -836,16 +836,16 @@ x({ x: x &&= 2 ] = { x: 2 });
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 6, end: 10
 ✖ The left-hand side must be a variable or a property access. - start: 32, end: 34
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 45, end: 54
-✖ ',' expected - start: 80, end: 82
+✖ ',' expected - start: 81, end: 82
 ✖ Declaration or statement expected - start: 82, end: 84
 ✖ Declaration or statement expected - start: 93, end: 94
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 103, end: 107
 ✖ The left-hand side must be a variable or a property access. - start: 129, end: 131
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 142, end: 151
-✖ ',' expected - start: 177, end: 179
+✖ ',' expected - start: 178, end: 179
 ✖ Declaration or statement expected - start: 179, end: 181
 ✖ Declaration or statement expected - start: 190, end: 191
-✖ ',' expected - start: 208, end: 210
+✖ ',' expected - start: 209, end: 210
 ✖ Declaration or statement expected - start: 210, end: 212
 ✖ Declaration or statement expected - start: 221, end: 222
 

@@ -152,7 +152,7 @@ class x extends for {}
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 19
-✖ Missing an opening parentheses - '( - start: 19, end: 21
+✖ Missing an opening parentheses - '( - start: 20, end: 21
 ✖ Identifier expected - start: 22, end: 22
 
 ```

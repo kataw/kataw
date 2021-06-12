@@ -87,7 +87,7 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 6, end: 6
+✖ ',' expected - start: 5, end: 6
 
 ```
 

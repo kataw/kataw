@@ -200,7 +200,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 34, end: 37
+✖ Missing an opening brace - '{ - start: 35, end: 37
 ✖ Expected a `;` - start: 39, end: 41
 
 ```

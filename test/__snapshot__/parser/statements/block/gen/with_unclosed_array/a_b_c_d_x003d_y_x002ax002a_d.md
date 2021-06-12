@@ -149,8 +149,8 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 9, end: 11
-✖ ',' expected - start: 20, end: 20
+✖ ',' expected - start: 10, end: 11
+✖ ',' expected - start: 19, end: 20
 
 ```
 

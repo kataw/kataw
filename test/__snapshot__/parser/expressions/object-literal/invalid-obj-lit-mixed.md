@@ -1687,7 +1687,7 @@
 ✖ Identifier expected - start: 232, end: 233
 ✖ Declaration or statement expected - start: 233, end: 235
 ✖ Declaration or statement expected - start: 235, end: 236
-✖ Expected a ')' to match the '(' token here - start: 275, end: 278
+✖ Expected a ')' to match the '(' token here - start: 276, end: 278
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 263, end: 278
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 262, end: 278
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 261, end: 278
@@ -1699,7 +1699,7 @@
 ✖ Declaration or statement expected - start: 294, end: 295
 ✖ Declaration or statement expected - start: 295, end: 297
 ✖ Declaration or statement expected - start: 297, end: 298
-✖ ',' expected - start: 336, end: 339
+✖ ',' expected - start: 337, end: 339
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 325, end: 339
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 324, end: 339
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 323, end: 339
@@ -1714,7 +1714,7 @@
 ✖ Declaration or statement expected - start: 361, end: 363
 ✖ Declaration or statement expected - start: 363, end: 364
 ✖ Dot property must be an identifier - start: 401, end: 402
-✖ ',' expected - start: 404, end: 407
+✖ ',' expected - start: 405, end: 407
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 391, end: 407
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 390, end: 407
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 389, end: 407
@@ -1728,7 +1728,7 @@
 ✖ Declaration or statement expected - start: 428, end: 429
 ✖ Declaration or statement expected - start: 429, end: 431
 ✖ Declaration or statement expected - start: 431, end: 432
-✖ ',' expected - start: 472, end: 475
+✖ ',' expected - start: 473, end: 475
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 459, end: 475
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 458, end: 475
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 457, end: 475

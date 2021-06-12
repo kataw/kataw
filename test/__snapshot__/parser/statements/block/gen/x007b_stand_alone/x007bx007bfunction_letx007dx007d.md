@@ -132,7 +132,7 @@
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 16, end: 17
-✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 18
+✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 18
 
 ```
 

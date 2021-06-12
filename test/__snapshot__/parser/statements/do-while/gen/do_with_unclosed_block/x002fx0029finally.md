@@ -109,7 +109,7 @@ do {} while (x) { /)finally
 
 ```javascript
 ✖ Unterminated regular expression - start: 17, end: 27
-✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 27
+✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 27
 
 ```
 

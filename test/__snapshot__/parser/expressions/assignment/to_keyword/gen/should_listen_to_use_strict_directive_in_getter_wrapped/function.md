@@ -222,7 +222,7 @@ foo = {
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 50, end: 52
+✖ Missing an opening parentheses - '( - start: 51, end: 52
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 50, end: 52
 
 ```

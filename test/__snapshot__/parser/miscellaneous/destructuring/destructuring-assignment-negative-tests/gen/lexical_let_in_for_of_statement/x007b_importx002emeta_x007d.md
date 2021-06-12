@@ -220,7 +220,7 @@
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 45, end: 46
 ✖ ',' expected - start: 45, end: 46
-✖ Expected a ')' to match the '(' token here - start: 50, end: 52
+✖ Expected a ')' to match the '(' token here - start: 51, end: 52
 ✖ Declaration or statement expected - start: 52, end: 54
 ✖ Declaration or statement expected - start: 57, end: 58
 

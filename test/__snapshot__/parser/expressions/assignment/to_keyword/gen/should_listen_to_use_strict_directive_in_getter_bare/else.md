@@ -178,9 +178,9 @@ foo = {
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 45
+✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 45
 ✖ Property definition expected. Did you mean to use a ':'? - start: 45, end: 47
-✖ ',' expected - start: 45, end: 47
+✖ ',' expected - start: 46, end: 47
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 47
 ✖ Declaration or statement expected - start: 49, end: 53
 ✖ Declaration or statement expected - start: 53, end: 55

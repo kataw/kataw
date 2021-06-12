@@ -152,7 +152,7 @@ function *f(){
 
 ```javascript
 ✖ Binding identifier expected - start: 25, end: 27
-✖ Missing an opening parentheses - '( - start: 25, end: 27
+✖ Missing an opening parentheses - '( - start: 26, end: 27
 ✖ Declaration or statement expected - start: 30, end: 32
 
 ```

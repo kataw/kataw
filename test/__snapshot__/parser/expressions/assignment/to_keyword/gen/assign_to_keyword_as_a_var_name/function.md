@@ -97,7 +97,7 @@ function = x
 
 ```javascript
 ✖ Binding identifier expected - start: 8, end: 10
-✖ Missing an opening parentheses - '( - start: 8, end: 10
+✖ Missing an opening parentheses - '( - start: 9, end: 10
 
 ```
 

@@ -105,7 +105,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 1, end: 7
-✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 7
+✖ The parser expected to find a '}' to match the '{' token here - start: 2, end: 7
 
 ```
 

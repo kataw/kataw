@@ -137,7 +137,7 @@
 
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 2, end: 9
-✖ ',' expected - start: 14, end: 14
+✖ ',' expected - start: 13, end: 14
 
 ```
 

@@ -187,9 +187,9 @@ for (class x extends a in b {} in c);
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 22, end: 25
+✖ Missing an opening brace - '{ - start: 23, end: 25
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 25, end: 27
-✖ Expected a ')' to match the '(' token here - start: 27, end: 29
+✖ Expected a ')' to match the '(' token here - start: 28, end: 29
 ✖ Identifier expected - start: 30, end: 33
 ✖ Expected a `;` - start: 35, end: 36
 

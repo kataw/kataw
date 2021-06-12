@@ -128,7 +128,7 @@ async x => (import) = 1
 
 ```javascript
 ✖ Identifier expected - start: 19, end: 21
-✖ Expected a ')' to match the '(' token here - start: 23, end: 23
+✖ Expected a ')' to match the '(' token here - start: 22, end: 23
 
 ```
 

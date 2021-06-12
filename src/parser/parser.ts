@@ -7908,7 +7908,7 @@ function parseVariableDeclaration(
   const binding = parseIdentifierOrPattern(parser, context, scope, type, DiagnosticCode.Variable_declaration_expected);
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   const typeAnnotation = parseTypeAnnotation(parser, context);
-  const initializer = parseInitializer(parser, context, false);
+  let initializer = parseInitializer(parser, context, false);
   if (initializer) {
     if (
       inForStatement &&
@@ -7941,26 +7941,9 @@ function parseTypeAsIdentifierOrTypeAlias(
   if (context & Context.OptionsAllowTypes && parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
-    let type = null;
-    if (consumeOpt(parser, context, SyntaxKind.Assign)) {
-      type = parseType(parser, context);
-    } else {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[
-          DiagnosticCode
-            .Type_parameter_declaration_needs_a_default_since_a_preceding_type_parameter_declaration_has_a_default
-        ],
-        parser.curPos,
-        parser.pos
-      );
-    }
-
-    if (declareKeyword) {
-      nodeFlags |= NodeFlags.Declared;
-    }
-
+    consume(parser, context, SyntaxKind.Assign, DiagnosticCode.An_TypeAlias_declaration_require_a)
+    const type = parseType(parser, context);
+    if (declareKeyword) nodeFlags |= NodeFlags.Declared;
     parseSemicolon(parser, context);
     return createTypeAlias(
       declareKeyword,
@@ -8450,7 +8433,7 @@ function parseObjectTypeCallProperty(
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
+      diagnosticMap[DiagnosticCode.Type_expected],
       pos,
       parser.pos
     );
@@ -8482,7 +8465,7 @@ function parseObjectTypeInternalSlot(
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
+      diagnosticMap[DiagnosticCode.Type_expected],
       pos,
       parser.pos
     );
@@ -8570,7 +8553,7 @@ function parseObjectTypeIndexer(
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode._yield_expression_cannot_be_used_in_function_parameters],
+      diagnosticMap[DiagnosticCode.Type_expected],
       pos,
       parser.pos
     );

@@ -112,8 +112,8 @@ class switch {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 12
-✖ Missing an opening parentheses - '( - start: 12, end: 14
-✖ Declaration or statement expected - start: 15, end: 15
+✖ Missing an opening parentheses - '( - start: 13, end: 14
+✖ Declaration or statement expected - start: 14, end: 15
 
 ```
 

@@ -133,7 +133,7 @@ import { typeof Foo12 } from "bar";
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 15, end: 21
+✖ ',' expected - start: 16, end: 21
 
 ```
 

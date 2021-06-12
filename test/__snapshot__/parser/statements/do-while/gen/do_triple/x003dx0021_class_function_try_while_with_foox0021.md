@@ -376,15 +376,15 @@ do do do =! class function try while with foo! while while while
 ```javascript
 ✖ Identifier expected - start: 8, end: 10
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 8, end: 10
-✖ Missing an opening brace - '{ - start: 17, end: 26
-✖ Missing an opening parentheses - '( - start: 26, end: 30
+✖ Missing an opening brace - '{ - start: 18, end: 26
+✖ Missing an opening parentheses - '( - start: 27, end: 30
 ✖ Declaration or statement expected - start: 30, end: 36
-✖ Missing an opening parentheses - '( - start: 36, end: 41
-✖ Missing an opening parentheses - '( - start: 41, end: 45
+✖ Missing an opening parentheses - '( - start: 37, end: 41
+✖ Missing an opening parentheses - '( - start: 42, end: 45
 ✖ Declaration or statement expected - start: 45, end: 46
 ✖ Identifier expected - start: 46, end: 52
-✖ Missing an opening parentheses - '( - start: 52, end: 58
-✖ Missing an opening parentheses - '( - start: 58, end: 64
+✖ Missing an opening parentheses - '( - start: 53, end: 58
+✖ Missing an opening parentheses - '( - start: 59, end: 64
 
 ```
 

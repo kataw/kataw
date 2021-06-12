@@ -139,7 +139,7 @@ async x => do = 1
 ✖ Identifier expected - start: 10, end: 13
 ✖ Identifier expected - start: 13, end: 15
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 13, end: 15
-✖ Missing an opening parentheses - '( - start: 17, end: 17
+✖ Missing an opening parentheses - '( - start: 16, end: 17
 
 ```
 

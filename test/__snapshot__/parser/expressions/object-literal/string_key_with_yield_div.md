@@ -165,7 +165,7 @@ function *f(){   s = {"foo": yield / x}   }
 
 ```javascript
 ✖ Unterminated regular expression - start: 34, end: 43
-✖ ',' expected - start: 43, end: 43
+✖ ',' expected - start: 35, end: 43
 
 ```
 

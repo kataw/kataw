@@ -218,7 +218,7 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
 ✖ Binding identifier expected - start: 26, end: 32
-✖ Missing an opening parentheses - '( - start: 26, end: 32
+✖ Missing an opening parentheses - '( - start: 27, end: 32
 
 ```
 

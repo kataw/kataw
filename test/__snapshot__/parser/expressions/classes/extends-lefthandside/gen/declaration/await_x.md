@@ -126,7 +126,7 @@ class A extends await x {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 21, end: 23
+✖ Missing an opening brace - '{ - start: 22, end: 23
 ✖ Expected a `;` - start: 23, end: 25
 
 ```

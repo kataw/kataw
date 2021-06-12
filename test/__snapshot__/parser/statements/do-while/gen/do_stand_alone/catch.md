@@ -111,7 +111,7 @@ do catch
 
 ```javascript
 ✖ 'try' expected - start: 2, end: 8
-✖ Missing an opening parentheses - '( - start: 8, end: 8
+✖ Missing an opening parentheses - '( - start: 3, end: 8
 
 ```
 

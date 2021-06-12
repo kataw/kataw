@@ -138,8 +138,8 @@ class x extends while {}
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 21
-✖ Missing an opening parentheses - '( - start: 21, end: 23
-✖ Declaration or statement expected - start: 24, end: 24
+✖ Missing an opening parentheses - '( - start: 22, end: 23
+✖ Declaration or statement expected - start: 23, end: 24
 
 ```
 

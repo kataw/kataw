@@ -200,7 +200,7 @@ class A {set set foo(value) { }};
 ### Diagnostics
 
 ```javascript
-✖ Method definition expected - start: 16, end: 20
+✖ Method definition expected - start: 17, end: 20
 
 ```
 

@@ -96,7 +96,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 9, end: 9
+✖ Missing an opening parentheses - '( - start: 3, end: 9
 
 ```
 

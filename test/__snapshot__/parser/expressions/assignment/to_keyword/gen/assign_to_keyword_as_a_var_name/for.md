@@ -108,7 +108,7 @@ for = x
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 3, end: 5
+✖ Missing an opening parentheses - '( - start: 4, end: 5
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 3, end: 5
 ✖ Identifier expected - start: 7, end: 7
 

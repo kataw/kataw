@@ -203,11 +203,11 @@ do while [catch] try { !xxx
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 8, end: 10
+✖ Missing an opening parentheses - '( - start: 9, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
-✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 27
+✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 27
 
 ```
 

@@ -349,18 +349,18 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 15, end: 17
 ✖ Expected a `;` - start: 19, end: 26
-✖ Missing an opening parentheses - '( - start: 26, end: 29
-✖ Declaration or statement expected - start: 29, end: 34
+✖ Missing an opening parentheses - '( - start: 27, end: 29
+✖ Declaration or statement expected - start: 30, end: 34
 ✖ Expected a `;` - start: 34, end: 37
 ✖ Expected a `;` - start: 37, end: 45
 ✖ Expected a `;` - start: 45, end: 48
 ✖ Expected a `;` - start: 48, end: 53
 ✖ Expected a `;` - start: 53, end: 60
 ✖ Expected a `;` - start: 60, end: 66
-✖ Missing an opening parentheses - '( - start: 66, end: 68
-✖ Declaration or statement expected - start: 68, end: 72
+✖ Missing an opening parentheses - '( - start: 67, end: 68
+✖ Declaration or statement expected - start: 69, end: 72
 ✖ Expected a `;` - start: 72, end: 76
-✖ Missing an opening parentheses - '( - start: 76, end: 78
+✖ Missing an opening parentheses - '( - start: 77, end: 78
 ✖ Identifier expected - start: 83, end: 83
 
 ```

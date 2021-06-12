@@ -186,7 +186,7 @@
 ✖ Expected a `;` - start: 10, end: 16
 ✖ Binding identifier expected - start: 16, end: 25
 ✖ Binding identifier expected - start: 25, end: 27
-✖ Missing an opening parentheses - '( - start: 25, end: 27
+✖ Missing an opening parentheses - '( - start: 26, end: 27
 ✖ Identifier expected - start: 28, end: 28
 
 ```

@@ -166,7 +166,7 @@ f(await 1);
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 36, end: 38
+✖ ',' expected - start: 37, end: 38
 
 ```
 

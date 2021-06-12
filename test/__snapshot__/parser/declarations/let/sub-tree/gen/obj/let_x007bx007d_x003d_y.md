@@ -121,7 +121,7 @@ a = { let
 
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 9, end: 11
-✖ ',' expected - start: 9, end: 11
+✖ ',' expected - start: 10, end: 11
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 14, end: 16
 ✖ Declaration or statement expected - start: 16, end: 18
 

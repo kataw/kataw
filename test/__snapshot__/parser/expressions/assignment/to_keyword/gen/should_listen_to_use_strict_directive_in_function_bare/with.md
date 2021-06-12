@@ -155,9 +155,9 @@ function f() {
 
 ```javascript
 ✖ 'with' statements are not allowed in strict mode. - start: 30, end: 37
-✖ Missing an opening parentheses - '( - start: 37, end: 39
+✖ Missing an opening parentheses - '( - start: 38, end: 39
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 37, end: 39
-✖ Declaration or statement expected - start: 41, end: 43
+✖ Declaration or statement expected - start: 42, end: 43
 
 ```
 

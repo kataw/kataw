@@ -216,7 +216,7 @@ foo = {
 
 ```javascript
 ✖ Identifier expected - start: 42, end: 47
-✖ Missing an opening parentheses - '( - start: 47, end: 49
+✖ Missing an opening parentheses - '( - start: 48, end: 49
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 47, end: 49
 
 ```

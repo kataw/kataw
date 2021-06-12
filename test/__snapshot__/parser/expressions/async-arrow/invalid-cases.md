@@ -2247,23 +2247,23 @@ async ([a]:string)=>c;
 ✖ Declaration or statement expected - start: 58, end: 59
 ✖ Declaration or statement expected - start: 59, end: 61
 ✖ Expected a `;` - start: 71, end: 74
-✖ Missing an opening parentheses - '( - start: 74, end: 77
+✖ Missing an opening parentheses - '( - start: 75, end: 77
 ✖ Declaration or statement expected - start: 106, end: 109
 ✖ Expected a `;` - start: 138, end: 140
 ✖ Declaration or statement expected - start: 140, end: 143
 ✖ Identifier expected - start: 177, end: 179
-✖ Expected a ')' to match the '(' token here - start: 205, end: 208
+✖ Expected a ')' to match the '(' token here - start: 206, end: 208
 ✖ Expected a `;` - start: 210, end: 211
 ✖ Declaration or statement expected - start: 250, end: 251
-✖ Expected a ')' to match the '(' token here - start: 293, end: 296
+✖ Expected a ')' to match the '(' token here - start: 294, end: 296
 ✖ Expected a `;` - start: 298, end: 299
-✖ Expected a ')' to match the '(' token here - start: 321, end: 327
+✖ Expected a ')' to match the '(' token here - start: 322, end: 327
 ✖ Expected a `;` - start: 332, end: 333
-✖ Expected a ')' to match the '(' token here - start: 357, end: 360
+✖ Expected a ')' to match the '(' token here - start: 358, end: 360
 ✖ Expected a `;` - start: 362, end: 363
-✖ Expected a ')' to match the '(' token here - start: 380, end: 386
+✖ Expected a ')' to match the '(' token here - start: 381, end: 386
 ✖ Expected a `;` - start: 391, end: 392
-✖ Expected a ')' to match the '(' token here - start: 411, end: 414
+✖ Expected a ')' to match the '(' token here - start: 412, end: 414
 ✖ Expected a `;` - start: 416, end: 417
 ✖ Duplicate identifier - start: 422, end: 424
 ✖ Invalid hexadecimal escape sequence - start: 426, end: 432

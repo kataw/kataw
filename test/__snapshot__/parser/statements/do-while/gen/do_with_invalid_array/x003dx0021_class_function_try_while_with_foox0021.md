@@ -327,17 +327,17 @@ do while [catch] =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 8, end: 10
+✖ Missing an opening parentheses - '( - start: 9, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
 ✖ Declaration or statement expected - start: 16, end: 18
-✖ Missing an opening brace - '{ - start: 25, end: 34
+✖ Missing an opening brace - '{ - start: 26, end: 34
 ✖ Binding identifier expected - start: 34, end: 38
-✖ Missing an opening parentheses - '( - start: 34, end: 38
+✖ Missing an opening parentheses - '( - start: 35, end: 38
 ✖ Declaration or statement expected - start: 38, end: 44
-✖ Missing an opening parentheses - '( - start: 44, end: 49
-✖ Missing an opening parentheses - '( - start: 49, end: 53
+✖ Missing an opening parentheses - '( - start: 45, end: 49
+✖ Missing an opening parentheses - '( - start: 50, end: 53
 ✖ Declaration or statement expected - start: 53, end: 54
 
 ```

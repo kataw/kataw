@@ -95,7 +95,7 @@ do /false//a
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 12, end: 12
+✖ Missing an opening parentheses - '( - start: 11, end: 12
 
 ```
 

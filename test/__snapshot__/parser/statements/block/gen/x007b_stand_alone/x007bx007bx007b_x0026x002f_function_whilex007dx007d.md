@@ -132,7 +132,7 @@
 ```javascript
 ✖ Identifier expected - start: 5, end: 7
 ✖ Unterminated regular expression - start: 7, end: 25
-✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 25
+✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 25
 
 ```
 

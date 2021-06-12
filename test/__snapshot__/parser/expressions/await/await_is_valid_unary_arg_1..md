@@ -256,7 +256,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 56, end: 60
+✖ ',' expected - start: 57, end: 60
 
 ```
 

@@ -264,19 +264,19 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 4, end: 11
-✖ Missing an opening parentheses - '( - start: 11, end: 14
-✖ Declaration or statement expected - start: 14, end: 19
+✖ Expected a ')' to match the '(' token here - start: 5, end: 11
+✖ Missing an opening parentheses - '( - start: 12, end: 14
+✖ Declaration or statement expected - start: 15, end: 19
 ✖ Expected a `;` - start: 19, end: 22
 ✖ Expected a `;` - start: 22, end: 30
 ✖ Expected a `;` - start: 30, end: 33
 ✖ Expected a `;` - start: 33, end: 38
 ✖ Expected a `;` - start: 38, end: 45
 ✖ Expected a `;` - start: 45, end: 51
-✖ Missing an opening parentheses - '( - start: 51, end: 53
-✖ Declaration or statement expected - start: 53, end: 57
+✖ Missing an opening parentheses - '( - start: 52, end: 53
+✖ Declaration or statement expected - start: 54, end: 57
 ✖ Expected a `;` - start: 57, end: 61
-✖ Missing an opening parentheses - '( - start: 61, end: 63
+✖ Missing an opening parentheses - '( - start: 62, end: 63
 ✖ Identifier expected - start: 68, end: 68
 
 ```

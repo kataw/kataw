@@ -184,9 +184,9 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 11, end: 17
-✖ Missing an opening brace - '{ - start: 17, end: 26
-✖ Missing an opening parentheses - '( - start: 26, end: 28
+✖ ',' expected - start: 12, end: 17
+✖ Missing an opening brace - '{ - start: 18, end: 26
+✖ Missing an opening parentheses - '( - start: 27, end: 28
 ✖ Identifier expected - start: 29, end: 29
 
 ```

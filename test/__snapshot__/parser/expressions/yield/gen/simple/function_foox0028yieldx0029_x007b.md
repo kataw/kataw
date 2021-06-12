@@ -98,7 +98,7 @@ function foo(yield) {
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 21
+✖ The parser expected to find a '}' to match the '{' token here - start: 20, end: 21
 
 ```
 

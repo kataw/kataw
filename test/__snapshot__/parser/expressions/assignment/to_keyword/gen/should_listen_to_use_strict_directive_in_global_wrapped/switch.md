@@ -123,7 +123,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 21
-✖ Missing an opening parentheses - '( - start: 21, end: 23
+✖ Missing an opening parentheses - '( - start: 22, end: 23
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 27
 

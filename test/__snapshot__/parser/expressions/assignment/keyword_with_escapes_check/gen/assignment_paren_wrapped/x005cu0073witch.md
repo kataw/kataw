@@ -115,7 +115,7 @@
 ```javascript
 ✖ Identifier expected - start: 1, end: 12
 ✖ Keywords cannot contain escape characters - start: 1, end: 12
-✖ Missing an opening parentheses - '( - start: 12, end: 14
+✖ Missing an opening parentheses - '( - start: 13, end: 14
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 12, end: 14
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 18
 

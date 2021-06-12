@@ -158,8 +158,8 @@ let x = function f(foo = await bar){
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 30, end: 34
-✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 36
+✖ ',' expected - start: 31, end: 34
+✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 36
 
 ```
 

@@ -130,8 +130,8 @@ class x extends function {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 24, end: 26
-✖ Missing an opening brace - '{ - start: 27, end: 27
+✖ Missing an opening parentheses - '( - start: 25, end: 26
+✖ Missing an opening brace - '{ - start: 26, end: 27
 
 ```
 

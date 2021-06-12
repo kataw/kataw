@@ -151,8 +151,8 @@ do catch try {
 
 ```javascript
 ✖ 'try' expected - start: 2, end: 8
-✖ Missing an opening parentheses - '( - start: 8, end: 12
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 14
+✖ Missing an opening parentheses - '( - start: 9, end: 12
+✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 14
 
 ```
 

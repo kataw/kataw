@@ -7019,7 +7019,7 @@ for ({}.bar = x in obj);
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 983, end: 985
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 1000, end: 1001
 ✖ Identifier expected - start: 1029, end: 1030
-✖ The parser expected to find a '}' to match the '{' token here - start: 1044, end: 1046
+✖ The parser expected to find a '}' to match the '{' token here - start: 1045, end: 1046
 ✖ Identifier expected - start: 1051, end: 1052
 ✖ Identifier expected - start: 1052, end: 1055
 ✖ Expected a `;` - start: 1059, end: 1060

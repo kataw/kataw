@@ -165,7 +165,7 @@ function *f(){
 ```javascript
 ✖ Identifier expected - start: 18, end: 20
 ✖ Identifier expected - start: 20, end: 21
-✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 23
+✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 23
 ✖ Declaration or statement expected - start: 26, end: 28
 
 ```

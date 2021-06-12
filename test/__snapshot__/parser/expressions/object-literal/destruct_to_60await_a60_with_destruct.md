@@ -140,7 +140,7 @@ s = {"foo": await a = x} = x
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 17, end: 19
+✖ ',' expected - start: 18, end: 19
 ✖ The left-hand side must be a variable or a property access. - start: 3, end: 26
 
 ```

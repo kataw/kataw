@@ -108,7 +108,7 @@
 
 ```javascript
 ✖ `yield` expression cannot be used in function parameters - start: 27, end: 32
-✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 35
+✖ The parser expected to find a '}' to match the '{' token here - start: 34, end: 35
 
 ```
 

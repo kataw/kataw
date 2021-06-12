@@ -132,7 +132,7 @@ do {} while (x) { class x {}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
+✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 28
 
 ```
 

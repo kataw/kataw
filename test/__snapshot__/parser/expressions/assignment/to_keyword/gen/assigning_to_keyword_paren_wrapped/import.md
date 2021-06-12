@@ -80,7 +80,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 12, end: 12
+✖ Expected a ')' to match the '(' token here - start: 11, end: 12
 
 ```
 

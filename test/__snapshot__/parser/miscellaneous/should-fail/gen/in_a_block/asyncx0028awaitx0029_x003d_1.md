@@ -101,7 +101,7 @@
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 16
+✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 16
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 16, end: 18
 ✖ Declaration or statement expected - start: 18, end: 20
 

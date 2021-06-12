@@ -147,7 +147,7 @@ function f(x=(yield z)=y){}
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 19, end: 21
+✖ Expected a ')' to match the '(' token here - start: 20, end: 21
 ✖ Missing an opening brace - '{ - start: 22, end: 23
 ✖ Expected a `;` - start: 24, end: 25
 

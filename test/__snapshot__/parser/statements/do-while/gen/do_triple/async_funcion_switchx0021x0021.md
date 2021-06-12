@@ -262,8 +262,8 @@ do do do async funcion switch!! while while while
 ✖ Identifier expected - start: 22, end: 29
 ✖ Missing an opening parentheses - '( - start: 29, end: 30
 ✖ Identifier expected - start: 31, end: 37
-✖ Missing an opening parentheses - '( - start: 37, end: 43
-✖ Missing an opening parentheses - '( - start: 43, end: 49
+✖ Missing an opening parentheses - '( - start: 38, end: 43
+✖ Missing an opening parentheses - '( - start: 44, end: 49
 
 ```
 

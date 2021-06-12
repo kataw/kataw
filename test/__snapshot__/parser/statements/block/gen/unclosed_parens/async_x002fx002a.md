@@ -76,7 +76,7 @@
 
 ```javascript
 ✖ Unexpected token. - start: 8, end: 12
-✖ Expected a ')' to match the '(' token here - start: 8, end: 12
+✖ Expected a ')' to match the '(' token here - start: 9, end: 12
 
 ```
 

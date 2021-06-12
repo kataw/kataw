@@ -194,7 +194,7 @@ function *g() { function f(x = x + yield y) {}; }
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 40, end: 42
+✖ ',' expected - start: 41, end: 42
 
 ```
 

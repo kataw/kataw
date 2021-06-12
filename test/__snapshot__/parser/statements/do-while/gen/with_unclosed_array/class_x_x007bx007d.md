@@ -119,7 +119,7 @@ do[ class x {}
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 14, end: 14
+✖ ',' expected - start: 13, end: 14
 
 ```
 

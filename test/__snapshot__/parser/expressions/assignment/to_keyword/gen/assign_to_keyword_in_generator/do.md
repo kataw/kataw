@@ -152,7 +152,7 @@ function *f(){
 ```javascript
 ✖ Identifier expected - start: 19, end: 21
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
-✖ Missing an opening parentheses - '( - start: 24, end: 26
+✖ Missing an opening parentheses - '( - start: 25, end: 26
 
 ```
 

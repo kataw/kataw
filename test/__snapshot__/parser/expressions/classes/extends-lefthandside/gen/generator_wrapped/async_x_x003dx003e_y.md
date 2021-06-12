@@ -206,7 +206,7 @@ x => y {}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 38, end: 40
+✖ Missing an opening brace - '{ - start: 39, end: 40
 ✖ Expected a `;` - start: 45, end: 47
 
 ```

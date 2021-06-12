@@ -244,13 +244,13 @@ do do do while try this and !foo while while while
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 14, end: 18
+✖ Missing an opening parentheses - '( - start: 15, end: 18
 ✖ Declaration or statement expected - start: 18, end: 23
-✖ Declaration or statement expected - start: 23, end: 27
-✖ Declaration or statement expected - start: 27, end: 29
-✖ Declaration or statement expected - start: 32, end: 38
-✖ Missing an opening parentheses - '( - start: 38, end: 44
-✖ Missing an opening parentheses - '( - start: 44, end: 50
+✖ Declaration or statement expected - start: 24, end: 27
+✖ Declaration or statement expected - start: 28, end: 29
+✖ Declaration or statement expected - start: 33, end: 38
+✖ Missing an opening parentheses - '( - start: 39, end: 44
+✖ Missing an opening parentheses - '( - start: 45, end: 50
 
 ```
 

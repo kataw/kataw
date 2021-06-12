@@ -206,7 +206,7 @@ foo = {
 ```javascript
 ✖ Identifier expected - start: 42, end: 46
 ✖ Property definition expected. Did you mean to use a ':'? - start: 46, end: 48
-✖ ',' expected - start: 46, end: 48
+✖ ',' expected - start: 47, end: 48
 ✖ The left-hand side must be a variable or a property access. - start: 5, end: 48
 ✖ Expected a `;` - start: 50, end: 51
 ✖ Declaration or statement expected - start: 52, end: 56

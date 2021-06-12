@@ -127,7 +127,7 @@ do[ function while
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 12, end: 18
+✖ Missing an opening parentheses - '( - start: 13, end: 18
 
 ```
 

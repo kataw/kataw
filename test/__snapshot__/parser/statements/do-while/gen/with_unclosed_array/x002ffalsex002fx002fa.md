@@ -110,7 +110,7 @@ do[ /false//a
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 13, end: 13
+✖ ',' expected - start: 12, end: 13
 
 ```
 

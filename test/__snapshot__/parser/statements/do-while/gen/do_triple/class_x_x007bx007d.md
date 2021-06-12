@@ -155,8 +155,8 @@ do do do class x {} while while while
 
 ```javascript
 ✖ Class declarations cannot be used in a single-statement context - start: 8, end: 14
-✖ Missing an opening parentheses - '( - start: 25, end: 31
-✖ Missing an opening parentheses - '( - start: 31, end: 37
+✖ Missing an opening parentheses - '( - start: 26, end: 31
+✖ Missing an opening parentheses - '( - start: 32, end: 37
 
 ```
 

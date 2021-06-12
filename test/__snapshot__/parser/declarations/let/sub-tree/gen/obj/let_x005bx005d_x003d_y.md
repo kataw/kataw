@@ -127,10 +127,10 @@ a = { let
 
 ```javascript
 ✖ Property definition expected. Did you mean to use a ':'? - start: 9, end: 11
-✖ ',' expected - start: 9, end: 11
+✖ ',' expected - start: 10, end: 11
 ✖ Identifier expected - start: 11, end: 12
 ✖ Property definition expected. Did you mean to use a ':'? - start: 12, end: 14
-✖ ',' expected - start: 12, end: 14
+✖ ',' expected - start: 13, end: 14
 ✖ Declaration or statement expected - start: 16, end: 18
 
 ```

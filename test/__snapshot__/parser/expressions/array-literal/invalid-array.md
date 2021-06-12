@@ -83,7 +83,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Did you forgot a ']' to match the `[` token? - start: 1, end: 6
+✖ Did you forgot a ']' to match the `[` token? - start: 5, end: 6
 ✖ Declaration or statement expected - start: 6, end: 9
 ✖ Identifier expected - start: 10, end: 10
 

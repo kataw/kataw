@@ -158,11 +158,11 @@
 
 ```javascript
 ✖ Identifier expected - start: 2, end: 5
-✖ Missing an opening parentheses - '( - start: 5, end: 7
-✖ Declaration or statement expected - start: 7, end: 14
-✖ Missing an opening parentheses - '( - start: 14, end: 20
-✖ Missing an opening parentheses - '( - start: 20, end: 22
-✖ Declaration or statement expected - start: 22, end: 28
+✖ Missing an opening parentheses - '( - start: 6, end: 7
+✖ Declaration or statement expected - start: 8, end: 14
+✖ Missing an opening parentheses - '( - start: 15, end: 20
+✖ Missing an opening parentheses - '( - start: 21, end: 22
+✖ Declaration or statement expected - start: 23, end: 28
 
 ```
 

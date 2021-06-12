@@ -140,8 +140,8 @@ class x extends if {}
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 18
-✖ Missing an opening parentheses - '( - start: 18, end: 20
-✖ Declaration or statement expected - start: 21, end: 21
+✖ Missing an opening parentheses - '( - start: 19, end: 20
+✖ Declaration or statement expected - start: 20, end: 21
 
 ```
 

@@ -3485,12 +3485,12 @@ try {} catch({ x: "str" }) {}
 ✖ Declaration or statement expected - start: 287, end: 289
 ✖ 'try' expected - start: 289, end: 295
 ✖ ',' expected - start: 305, end: 307
-✖ The parser expected to find a '}' to match the '{' token here - start: 305, end: 307
+✖ The parser expected to find a '}' to match the '{' token here - start: 306, end: 307
 ✖ Declaration or statement expected - start: 314, end: 315
 ✖ Declaration or statement expected - start: 315, end: 316
 ✖ ',' expected - start: 340, end: 342
 ✖ ',' expected - start: 342, end: 345
-✖ Did you forgot a ']' to match the `[` token? - start: 342, end: 345
+✖ Did you forgot a ']' to match the `[` token? - start: 343, end: 345
 ✖ Declaration or statement expected - start: 345, end: 347
 ✖ Declaration or statement expected - start: 347, end: 348
 ✖ Declaration or statement expected - start: 348, end: 350
@@ -3518,12 +3518,12 @@ try {} catch({ x: "str" }) {}
 ✖ ',' expected - start: 731, end: 732
 ✖ Declaration or statement expected - start: 738, end: 739
 ✖ ',' expected - start: 766, end: 768
-✖ The parser expected to find a '}' to match the '{' token here - start: 766, end: 768
+✖ The parser expected to find a '}' to match the '{' token here - start: 767, end: 768
 ✖ Declaration or statement expected - start: 775, end: 776
 ✖ Declaration or statement expected - start: 776, end: 777
 ✖ ',' expected - start: 801, end: 803
 ✖ ',' expected - start: 803, end: 806
-✖ Did you forgot a ']' to match the `[` token? - start: 803, end: 806
+✖ Did you forgot a ']' to match the `[` token? - start: 804, end: 806
 ✖ Expected a `;` - start: 808, end: 809
 ✖ Declaration or statement expected - start: 809, end: 810
 ✖ Object property expected - start: 832, end: 834

@@ -108,7 +108,7 @@ new class extends{}
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening brace - '{ - start: 19, end: 19
+✖ Missing an opening brace - '{ - start: 18, end: 19
 
 ```
 

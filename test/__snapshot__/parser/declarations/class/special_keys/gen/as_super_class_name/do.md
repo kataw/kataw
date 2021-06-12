@@ -132,7 +132,7 @@ class x extends do {}
 
 ```javascript
 ✖ Identifier expected - start: 15, end: 18
-✖ Missing an opening parentheses - '( - start: 21, end: 21
+✖ Missing an opening parentheses - '( - start: 20, end: 21
 
 ```
 

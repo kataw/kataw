@@ -96,7 +96,7 @@ import { , };
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 10
+✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 10
 ✖ Declaration or statement expected - start: 10, end: 12
 
 ```

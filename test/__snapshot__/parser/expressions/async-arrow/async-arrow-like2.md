@@ -197,7 +197,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 9, end: 11
+✖ Expected to find a '>' to match the '<' token here. - start: 10, end: 11
 ✖ Expected a `;` - start: 21, end: 22
 
 ```

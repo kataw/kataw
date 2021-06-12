@@ -95,7 +95,7 @@
 ```javascript
 ✖ 'super' must be followed by an argument list or member access. - start: 2, end: 8
 ✖ Dot property must be an identifier - start: 8, end: 8
-✖ Expected a ')' to match the '(' token here - start: 8, end: 8
+✖ Expected a ')' to match the '(' token here - start: 3, end: 8
 
 ```
 

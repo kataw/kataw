@@ -104,7 +104,7 @@ function: x
 ```javascript
 ✖ Binding identifier expected - start: 8, end: 9
 ✖ Missing an opening parentheses - '( - start: 8, end: 9
-✖ Missing an opening brace - '{ - start: 11, end: 11
+✖ Missing an opening brace - '{ - start: 10, end: 11
 
 ```
 

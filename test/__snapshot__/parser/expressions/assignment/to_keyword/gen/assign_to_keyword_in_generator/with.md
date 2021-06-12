@@ -142,7 +142,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 21, end: 23
+✖ Missing an opening parentheses - '( - start: 22, end: 23
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23
 ✖ Declaration or statement expected - start: 25, end: 26
 

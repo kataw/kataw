@@ -106,7 +106,7 @@
 ```javascript
 ✖ Identifier expected - start: 16, end: 18
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 18
-✖ Missing an opening parentheses - '( - start: 21, end: 21
+✖ Missing an opening parentheses - '( - start: 20, end: 21
 
 ```
 

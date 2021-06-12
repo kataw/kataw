@@ -120,7 +120,7 @@ class function {}
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 14
 ✖ Binding identifier expected - start: 14, end: 16
-✖ Missing an opening parentheses - '( - start: 14, end: 16
+✖ Missing an opening parentheses - '( - start: 15, end: 16
 
 ```
 

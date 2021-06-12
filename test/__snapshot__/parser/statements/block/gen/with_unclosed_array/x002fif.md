@@ -85,7 +85,7 @@
 
 ```javascript
 ✖ Unterminated regular expression - start: 2, end: 6
-✖ ',' expected - start: 6, end: 6
+✖ ',' expected - start: 3, end: 6
 
 ```
 

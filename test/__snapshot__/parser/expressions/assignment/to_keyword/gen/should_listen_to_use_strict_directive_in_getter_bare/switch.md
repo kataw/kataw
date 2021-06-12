@@ -197,10 +197,10 @@ foo = {
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 47, end: 49
+✖ Missing an opening parentheses - '( - start: 48, end: 49
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 47, end: 49
-✖ Declaration or statement expected - start: 51, end: 55
-✖ ',' expected - start: 57, end: 57
+✖ Declaration or statement expected - start: 54, end: 55
+✖ ',' expected - start: 56, end: 57
 
 ```
 

@@ -104,7 +104,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Missing an opening parentheses - '( - start: 5, end: 5
+✖ Missing an opening parentheses - '( - start: 3, end: 5
 
 ```
 

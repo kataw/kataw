@@ -76,7 +76,7 @@ do /)finally
 
 ```javascript
 ✖ Unterminated regular expression - start: 2, end: 12
-✖ Missing an opening parentheses - '( - start: 12, end: 12
+✖ Missing an opening parentheses - '( - start: 3, end: 12
 
 ```
 

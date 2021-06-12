@@ -87,7 +87,7 @@ yield (await foo)
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 12, end: 16
+✖ ',' expected - start: 13, end: 16
 
 ```
 

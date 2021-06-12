@@ -149,8 +149,8 @@ do[ try { !xxx
 ### Diagnostics
 
 ```javascript
-✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 7
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 14
+✖ Did you forgot a ']' to match the `[` token? - start: 4, end: 7
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 14
 
 ```
 

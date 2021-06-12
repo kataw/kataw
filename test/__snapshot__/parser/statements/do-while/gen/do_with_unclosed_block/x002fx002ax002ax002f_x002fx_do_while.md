@@ -109,7 +109,7 @@ do {} while (x) { /**/ /x do while
 
 ```javascript
 ✖ Unterminated regular expression - start: 17, end: 34
-✖ The parser expected to find a '}' to match the '{' token here - start: 34, end: 34
+✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 34
 
 ```
 

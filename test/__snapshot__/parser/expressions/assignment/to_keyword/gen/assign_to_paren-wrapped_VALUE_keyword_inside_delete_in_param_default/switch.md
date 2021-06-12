@@ -198,7 +198,7 @@ function *f(x = delete ((switch) = f)) {}
 ```javascript
 ✖ Identifier expected - start: 25, end: 31
 ✖ Missing an opening parentheses - '( - start: 31, end: 32
-✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 34
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 34
 ✖ Expected a `;` - start: 36, end: 37
 ✖ Declaration or statement expected - start: 37, end: 38
 

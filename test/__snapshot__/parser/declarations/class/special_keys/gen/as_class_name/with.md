@@ -118,8 +118,8 @@ class with {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
-✖ Missing an opening parentheses - '( - start: 10, end: 12
-✖ Declaration or statement expected - start: 13, end: 13
+✖ Missing an opening parentheses - '( - start: 11, end: 12
+✖ Declaration or statement expected - start: 12, end: 13
 
 ```
 

@@ -99,7 +99,7 @@
 
 ```javascript
 ✖ Unexpected token. - start: 11, end: 15
-✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 15
+✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 15
 
 ```
 

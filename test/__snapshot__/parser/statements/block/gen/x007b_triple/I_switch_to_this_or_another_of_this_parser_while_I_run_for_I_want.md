@@ -288,18 +288,18 @@
 
 ```javascript
 ✖ Expected a `;` - start: 7, end: 14
-✖ Missing an opening parentheses - '( - start: 14, end: 17
-✖ Declaration or statement expected - start: 17, end: 22
+✖ Missing an opening parentheses - '( - start: 15, end: 17
+✖ Declaration or statement expected - start: 18, end: 22
 ✖ Expected a `;` - start: 22, end: 25
 ✖ Expected a `;` - start: 25, end: 33
 ✖ Expected a `;` - start: 33, end: 36
 ✖ Expected a `;` - start: 36, end: 41
 ✖ Expected a `;` - start: 41, end: 48
 ✖ Expected a `;` - start: 48, end: 54
-✖ Missing an opening parentheses - '( - start: 54, end: 56
-✖ Declaration or statement expected - start: 56, end: 60
+✖ Missing an opening parentheses - '( - start: 55, end: 56
+✖ Declaration or statement expected - start: 57, end: 60
 ✖ Expected a `;` - start: 60, end: 64
-✖ Missing an opening parentheses - '( - start: 64, end: 66
+✖ Missing an opening parentheses - '( - start: 65, end: 66
 ✖ Identifier expected - start: 71, end: 71
 
 ```
