@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/declarations/let/binding-pattern/autogen.md
-- Path: kataw8/test\__snapshot__\parser\declarations\let\binding-pattern\gen\key_that_is_computed
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
+- Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/key_that_is_computed
 > :: test: key that is computed
 > :: case: const
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

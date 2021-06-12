@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw8/test\__snapshot__\parser\declarations\let\sub-tree\gen\for-of_loop
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
+- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/for-of_loop
 > :: test: for-of loop
 > :: case: let [x] = y
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

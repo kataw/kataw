@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\arrow\position\gen\yield_arg
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/yield_arg
 > :: test: yield arg
 > :: case: async async => ok
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/declarations/let/binding-pattern/autogen.md
-- Path: kataw8/test\__snapshot__\parser\declarations\let\binding-pattern\gen\base_case_array
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
+- Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/base_case_array
 > :: test: base case array
 > :: case: let
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

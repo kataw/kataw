@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw8/test\__snapshot__\parser\declarations\class\special_keys\gen\as_static_async_generator_in_class
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
+- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_static_async_generator_in_class
 > :: test: as static async generator in class
 > :: case: return
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

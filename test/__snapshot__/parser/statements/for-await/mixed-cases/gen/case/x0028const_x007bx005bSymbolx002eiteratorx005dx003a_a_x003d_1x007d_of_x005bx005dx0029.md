@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/statements/for-await/mixed-cases/autogen.md
-- Path: kataw8/test\__snapshot__\parser\statements\for-await\mixed-cases\gen\case
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/statements/for-await/mixed-cases/autogen.md
+- Path: kataw/test/__snapshot__/parser/statements/for-await/mixed-cases/gen/case
 > :: test: case
 > :: case: (const {[Symbol.iterator]: a = 1} of [])
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

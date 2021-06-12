@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/statements/block/autogen.md
-- Path: kataw8/test\__snapshot__\parser\statements\block\gen\block_with_invalid_array
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/statements/block/autogen.md
+- Path: kataw/test/__snapshot__/parser/statements/block/gen/block_with_invalid_array
 > :: test: block with invalid array
 > :: case: catch try {}
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

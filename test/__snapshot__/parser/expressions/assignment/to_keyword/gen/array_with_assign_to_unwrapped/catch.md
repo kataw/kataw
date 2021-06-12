@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\array_with_assign_to_unwrapped
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/array_with_assign_to_unwrapped
 > :: test: array with assign to unwrapped
 > :: case: catch
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/classes/method-name/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\classes\method-name\gen\prologue-method-gen
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/classes/method-name/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/classes/method-name/gen/prologue-method-gen
 > :: test: prologue-method-gen
 > :: case: false
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\assignment\to_keyword\gen\should_listen_to_use_strict_directive_in_getter_wrapped
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_getter_wrapped
 > :: test: should listen to use strict directive in getter wrapped
 > :: case: eval
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

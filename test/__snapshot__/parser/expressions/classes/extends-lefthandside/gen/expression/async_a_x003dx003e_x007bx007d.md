@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\classes\extends-lefthandside\gen\expression
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/expression
 > :: test: expression
 > :: case: async a => {}
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

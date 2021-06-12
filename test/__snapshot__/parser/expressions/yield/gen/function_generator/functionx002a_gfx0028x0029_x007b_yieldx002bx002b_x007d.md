@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\yield\gen\function_generator
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
 > :: test: function generator
 > :: case: function* gf() { yield++; }
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

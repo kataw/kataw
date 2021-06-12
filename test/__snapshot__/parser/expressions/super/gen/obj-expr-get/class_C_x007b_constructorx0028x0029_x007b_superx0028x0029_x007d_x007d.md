@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/expressions/super/autogen.md
-- Path: kataw8/test\__snapshot__\parser\expressions\super\gen\obj-expr-get
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/expressions/super/autogen.md
+- Path: kataw/test/__snapshot__/parser/expressions/super/gen/obj-expr-get
 > :: test: obj-expr-get
 > :: case: class C { constructor() { super(); } }
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

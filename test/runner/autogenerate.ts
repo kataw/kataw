@@ -1,6 +1,7 @@
 import { join, dirname } from 'path';
 import { writeFileSync, unlinkSync, rmdirSync, mkdirSync } from 'fs';
 import { promiseToReadFile, loadSnaps, san, ColorCodes, Constants, report } from './utils';
+import { defaultOptions } from '../conf/options';
 
 /**
  * Autogenerate files in the runner
@@ -113,16 +114,24 @@ export async function autogen(files: string[], conservative: boolean) {
       cases.forEach((c: any) => {
         // macos filename path has a limit(255 chars). as of now, we use the slice(0, 128).
         const testFile = join(caseDir, san(String(c)).slice(0, 128) + '.md');
-
+        const options = defaultOptions.find((it) => caseDir.includes(it.dir)) || {
+          parserOptions: {},
+          printerOptions: {}
+        };
         // immediately generate a test case for it, as well
         writeFileSync(
           testFile,
           `# Auto-generated test cases ( Kataw )
 - Regenerated: ${new Date().toISOString().slice(0, 10)}
-- From: ${obj.file.slice(obj.file.indexOf('kataw')).replace('\\', '/')}
-- Path: ${caseDir.slice(caseDir.indexOf('kataw')).replace('\\', '/')}
+- From: ${obj.file.slice(obj.file.indexOf('kataw')).replace(/\\/g, '/')}
+- Path: ${caseDir.slice(caseDir.indexOf('kataw')).replace(/\\/g, '/')}
 > :: test: ${title.split('\n').join('\n>          ')}
 > :: case: ${c.split('\n').join('\n>          ')}
+## Options
+
+\`\`\`\`\`js
+${JSON.stringify(options.parserOptions)}
+\`\`\`\`\`
 ## Input
 ${Object.getOwnPropertyNames(params)
   .map((key) => '- `' + key + ' = ' + params[key].replace(/#/g, c) + '`\n')

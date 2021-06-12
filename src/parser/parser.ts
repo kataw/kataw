@@ -7908,7 +7908,7 @@ function parseVariableDeclaration(
   const binding = parseIdentifierOrPattern(parser, context, scope, type, DiagnosticCode.Variable_declaration_expected);
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   const typeAnnotation = parseTypeAnnotation(parser, context);
-  let initializer = parseInitializer(parser, context, false);
+  const initializer = parseInitializer(parser, context, false);
   if (initializer) {
     if (
       inForStatement &&

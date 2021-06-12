@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw8/test\__snapshot__\parser\miscellaneous\should-pass\gen\stand-alone
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: 42 /* block comment 1 */ /* block comment 2 */
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js

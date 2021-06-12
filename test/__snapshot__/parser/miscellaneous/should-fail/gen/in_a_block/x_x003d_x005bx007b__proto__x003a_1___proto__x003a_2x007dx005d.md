@@ -1,9 +1,14 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-12
-- From: kataw8/test\__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw8/test\__snapshot__\parser\miscellaneous\should-fail\gen\in_a_block
+- Regenerated: 2021-06-11
+- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/in_a_block
 > :: test: in a block
 > :: case: x = [{__proto__: 1, __proto__: 2}]
+## Options
+
+`````js
+{}
+`````
 ## Input
 
 `````js
