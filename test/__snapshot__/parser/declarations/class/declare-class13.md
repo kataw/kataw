@@ -82,6 +82,7 @@ declare class A { static () : number }
                             "end": 36
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 38

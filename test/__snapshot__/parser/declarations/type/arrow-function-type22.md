@@ -98,6 +98,7 @@ type a = ({key():string}[x]) => T;
                                         "end": 23
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 10,
                                 "end": 24

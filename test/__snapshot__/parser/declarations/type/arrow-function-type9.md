@@ -56,11 +56,11 @@ type X = (x | y & z, q: string) => T;
                             "kind": 149,
                             "ellipsisToken": null,
                             "name": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 137,
-                                    "types": [
-                                        {
+                                "kind": 137,
+                                "types": [
+                                    {
+                                        "kind": 144,
+                                        "id": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -68,52 +68,52 @@ type X = (x | y & z, q: string) => T;
                                             "start": 10,
                                             "end": 11
                                         },
-                                        {
-                                            "kind": 138,
-                                            "types": [
-                                                {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "y",
-                                                        "rawText": "y",
-                                                        "flags": 96,
-                                                        "start": 13,
-                                                        "end": 15
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 0,
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 8,
+                                        "end": 11
+                                    },
+                                    {
+                                        "kind": 138,
+                                        "types": [
+                                            {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "y",
+                                                    "rawText": "y",
+                                                    "flags": 96,
                                                     "start": 13,
                                                     "end": 15
                                                 },
-                                                {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "z",
-                                                        "rawText": "z",
-                                                        "flags": 96,
-                                                        "start": 17,
-                                                        "end": 19
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 0,
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 13,
+                                                "end": 15
+                                            },
+                                            {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "z",
+                                                    "rawText": "z",
+                                                    "flags": 96,
                                                     "start": 17,
                                                     "end": 19
-                                                }
-                                            ],
-                                            "flags": 0,
-                                            "start": 15,
-                                            "end": 19
-                                        }
-                                    ],
-                                    "flags": 0,
-                                    "start": 11,
-                                    "end": 19
-                                },
-                                "typeParameters": null,
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 17,
+                                                "end": 19
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "start": 15,
+                                        "end": 19
+                                    }
+                                ],
                                 "flags": 0,
-                                "start": 8,
+                                "start": 11,
                                 "end": 19
                             },
                             "optionalToken": null,

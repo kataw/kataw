@@ -52,13 +52,13 @@ type a = (bj[c] | e) => T;
                     "end": 23
                 },
                 "parameters": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 138,
-                        "types": [
-                            {
-                                "kind": 268,
-                                "objectType": {
+                    "kind": 138,
+                    "types": [
+                        {
+                            "kind": 268,
+                            "objectType": {
+                                "kind": 144,
+                                "id": {
                                     "kind": 134299649,
                                     "text": "bj",
                                     "rawText": "bj",
@@ -66,48 +66,48 @@ type a = (bj[c] | e) => T;
                                     "start": 10,
                                     "end": 12
                                 },
-                                "indexType": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "c",
-                                        "rawText": "c",
-                                        "flags": 96,
-                                        "start": 13,
-                                        "end": 14
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 0,
-                                    "start": 13,
-                                    "end": 14
-                                },
+                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 13,
-                                "end": 17
+                                "start": 8,
+                                "end": 12
                             },
-                            {
+                            "indexType": {
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "text": "d",
-                                    "rawText": "d",
+                                    "text": "c",
+                                    "rawText": "c",
                                     "flags": 96,
-                                    "start": 17,
-                                    "end": 19
+                                    "start": 13,
+                                    "end": 14
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
+                                "start": 13,
+                                "end": 14
+                            },
+                            "flags": 0,
+                            "start": 13,
+                            "end": 17
+                        },
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "d",
+                                "rawText": "d",
+                                "flags": 96,
                                 "start": 17,
                                 "end": 19
-                            }
-                        ],
-                        "flags": 0,
-                        "start": 15,
-                        "end": 19
-                    },
-                    "typeParameters": null,
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 17,
+                            "end": 19
+                        }
+                    ],
                     "flags": 0,
-                    "start": 8,
+                    "start": 15,
                     "end": 19
                 },
                 "returnType": {
@@ -161,13 +161,13 @@ type a = (bj[c] | e) => T;
                     "end": 51
                 },
                 "parameters": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 137,
-                        "types": [
-                            {
-                                "kind": 268,
-                                "objectType": {
+                    "kind": 137,
+                    "types": [
+                        {
+                            "kind": 268,
+                            "objectType": {
+                                "kind": 144,
+                                "id": {
                                     "kind": 134299649,
                                     "text": "bj",
                                     "rawText": "bj",
@@ -175,48 +175,48 @@ type a = (bj[c] | e) => T;
                                     "start": 38,
                                     "end": 40
                                 },
-                                "indexType": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "c",
-                                        "rawText": "c",
-                                        "flags": 96,
-                                        "start": 41,
-                                        "end": 42
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 0,
-                                    "start": 41,
-                                    "end": 42
-                                },
+                                "typeParameters": null,
                                 "flags": 0,
-                                "start": 41,
-                                "end": 45
+                                "start": 36,
+                                "end": 40
                             },
-                            {
+                            "indexType": {
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "text": "e",
-                                    "rawText": "e",
+                                    "text": "c",
+                                    "rawText": "c",
                                     "flags": 96,
-                                    "start": 45,
-                                    "end": 47
+                                    "start": 41,
+                                    "end": 42
                                 },
                                 "typeParameters": null,
                                 "flags": 0,
+                                "start": 41,
+                                "end": 42
+                            },
+                            "flags": 0,
+                            "start": 41,
+                            "end": 45
+                        },
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "e",
+                                "rawText": "e",
+                                "flags": 96,
                                 "start": 45,
                                 "end": 47
-                            }
-                        ],
-                        "flags": 0,
-                        "start": 43,
-                        "end": 47
-                    },
-                    "typeParameters": null,
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 45,
+                            "end": 47
+                        }
+                    ],
                     "flags": 0,
-                    "start": 36,
+                    "start": 43,
                     "end": 47
                 },
                 "returnType": {

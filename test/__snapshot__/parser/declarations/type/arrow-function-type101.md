@@ -64,11 +64,11 @@ type a = ((q | y)=> T) => T;
                                 "kind": 279,
                                 "parameters": [
                                     {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 137,
-                                            "types": [
-                                                {
+                                        "kind": 137,
+                                        "types": [
+                                            {
+                                                "kind": 144,
+                                                "id": {
                                                     "kind": 134299649,
                                                     "text": "q",
                                                     "rawText": "q",
@@ -76,29 +76,29 @@ type a = ((q | y)=> T) => T;
                                                     "start": 11,
                                                     "end": 12
                                                 },
-                                                {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "y",
-                                                        "rawText": "y",
-                                                        "flags": 96,
-                                                        "start": 14,
-                                                        "end": 16
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 0,
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 8,
+                                                "end": 12
+                                            },
+                                            {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "y",
+                                                    "rawText": "y",
+                                                    "flags": 96,
                                                     "start": 14,
                                                     "end": 16
-                                                }
-                                            ],
-                                            "flags": 0,
-                                            "start": 12,
-                                            "end": 16
-                                        },
-                                        "typeParameters": null,
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 0,
+                                                "start": 14,
+                                                "end": 16
+                                            }
+                                        ],
                                         "flags": 0,
-                                        "start": 8,
+                                        "start": 12,
                                         "end": 16
                                     }
                                 ],

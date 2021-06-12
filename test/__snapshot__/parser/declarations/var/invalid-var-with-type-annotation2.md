@@ -120,6 +120,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                     "end": 30
                                                 }
                                             ],
+                                            "trailingComma": false,
                                             "flags": 0,
                                             "start": 19,
                                             "end": 32
@@ -129,6 +130,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "end": 32
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 7,
                                 "end": 34

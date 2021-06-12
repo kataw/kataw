@@ -50,12 +50,12 @@ type a = (a[b][]) => T;
                     "end": 20
                 },
                 "parameters": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 136,
-                        "type": {
-                            "kind": 268,
-                            "objectType": {
+                    "kind": 136,
+                    "type": {
+                        "kind": 268,
+                        "objectType": {
+                            "kind": 144,
+                            "id": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -63,32 +63,32 @@ type a = (a[b][]) => T;
                                 "start": 10,
                                 "end": 11
                             },
-                            "indexType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 12,
-                                    "end": 13
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 8,
+                            "end": 11
+                        },
+                        "indexType": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
                                 "start": 12,
                                 "end": 13
                             },
+                            "typeParameters": null,
                             "flags": 0,
                             "start": 12,
-                            "end": 15
+                            "end": 13
                         },
                         "flags": 0,
-                        "start": 15,
-                        "end": 16
+                        "start": 12,
+                        "end": 15
                     },
-                    "typeParameters": null,
                     "flags": 0,
-                    "start": 8,
+                    "start": 15,
                     "end": 16
                 },
                 "returnType": {

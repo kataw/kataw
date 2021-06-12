@@ -111,6 +111,7 @@ type a = {await:y.z[][][]};
                         "end": 25
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 26

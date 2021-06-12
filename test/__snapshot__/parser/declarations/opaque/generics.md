@@ -178,6 +178,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         "end": 47
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 30,
                 "end": 49
@@ -288,6 +289,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         "end": 83
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 51,
                 "end": 85

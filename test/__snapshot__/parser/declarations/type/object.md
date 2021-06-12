@@ -77,6 +77,7 @@ type T = { [[foo]]: X }
                         "end": 21
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 23

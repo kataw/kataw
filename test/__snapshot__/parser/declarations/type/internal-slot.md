@@ -81,6 +81,7 @@ type q = { [[foo]]: X }
                         "end": 21
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 23
@@ -158,6 +159,7 @@ type q = { [[foo]]: X }
                         "end": 48
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 33,
                 "end": 50
@@ -225,6 +227,7 @@ type q = { [[foo]]: X }
                         "end": 74
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 60,
                 "end": 76
@@ -287,6 +290,7 @@ type q = { [[foo]]: X }
                         "end": 99
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 86,
                 "end": 101

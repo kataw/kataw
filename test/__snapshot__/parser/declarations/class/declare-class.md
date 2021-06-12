@@ -129,6 +129,7 @@ declare class A { static foo(): number; static x : string }
                             "end": 57
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 59

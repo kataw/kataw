@@ -132,6 +132,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                         "end": 56
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 57

@@ -44,6 +44,7 @@ type a = {};
             "type": {
                 "kind": 134234353,
                 "properties": [],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 11

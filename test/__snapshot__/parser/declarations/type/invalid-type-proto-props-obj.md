@@ -79,6 +79,7 @@ type T = { proto p: string }
                         "end": 18
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 18

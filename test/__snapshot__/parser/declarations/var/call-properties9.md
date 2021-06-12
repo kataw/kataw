@@ -84,6 +84,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                         "end": 18
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 20

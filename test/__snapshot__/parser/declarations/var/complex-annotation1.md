@@ -127,6 +127,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         "end": 41
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 8,
                                 "end": 42

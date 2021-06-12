@@ -100,6 +100,7 @@ declare class C {
                             "end": 38
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 40

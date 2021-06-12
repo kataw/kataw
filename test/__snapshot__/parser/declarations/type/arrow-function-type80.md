@@ -93,6 +93,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                             "end": 14
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 10,
                                     "end": 15
@@ -124,6 +125,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                             "end": 32
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 17,
                                     "end": 33

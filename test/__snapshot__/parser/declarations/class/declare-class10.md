@@ -53,6 +53,7 @@ declare class A {}
                 "body": {
                     "kind": 134234353,
                     "properties": [],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 18

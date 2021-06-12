@@ -127,6 +127,7 @@ var c: { (): string; (x: number): string } =
                                         "end": 96
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 62,
                                 "end": 98
@@ -352,6 +353,7 @@ var c: { (): string; (x: number): string } =
                                         "end": 257
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 223,
                                 "end": 259

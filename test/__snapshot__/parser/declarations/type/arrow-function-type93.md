@@ -55,11 +55,11 @@ type a = (((x | x))) => T;
                         {
                             "kind": 260,
                             "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 137,
-                                    "types": [
-                                        {
+                                "kind": 137,
+                                "types": [
+                                    {
+                                        "kind": 144,
+                                        "id": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -67,29 +67,29 @@ type a = (((x | x))) => T;
                                             "start": 12,
                                             "end": 13
                                         },
-                                        {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 15,
-                                                "end": 17
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 0,
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 11,
+                                        "end": 13
+                                    },
+                                    {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
                                             "start": 15,
                                             "end": 17
-                                        }
-                                    ],
-                                    "flags": 0,
-                                    "start": 13,
-                                    "end": 17
-                                },
-                                "typeParameters": null,
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 0,
+                                        "start": 15,
+                                        "end": 17
+                                    }
+                                ],
                                 "flags": 0,
-                                "start": 11,
+                                "start": 13,
                                 "end": 17
                             },
                             "flags": 0,

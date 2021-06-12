@@ -772,6 +772,7 @@ type ten = {
                         "end": 301
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 175,
                 "end": 303

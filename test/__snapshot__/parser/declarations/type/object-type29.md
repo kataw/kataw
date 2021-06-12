@@ -95,6 +95,7 @@ type a = {x: number,y: string};
                         "end": 29
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 30

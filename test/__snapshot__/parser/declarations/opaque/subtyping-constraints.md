@@ -75,6 +75,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                         "end": 28
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 17,
                 "end": 29
@@ -133,6 +134,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                         "end": 53
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 31,
                 "end": 54

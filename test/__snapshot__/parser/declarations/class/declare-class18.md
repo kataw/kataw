@@ -95,6 +95,7 @@ declare class C {
                             "end": 31
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 33

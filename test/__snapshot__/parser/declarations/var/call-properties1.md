@@ -75,6 +75,7 @@ var a : { (): number }
                                         "end": 20
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 7,
                                 "end": 22

@@ -57,6 +57,7 @@ type D32 = {p?: number};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -64,18 +65,18 @@ type D32 = {p?: number};
                             "start": 11,
                             "end": 17
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 19,
                             "end": 26
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 26
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 27
@@ -160,6 +161,7 @@ type D32 = {p?: number};
                         "end": 55
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 37,
                 "end": 56
@@ -217,34 +219,44 @@ type D32 = {p?: number};
                         "flags": 0,
                         "start": 69,
                         "end": 74
+                    },
+                    {
+                        "kind": 247,
+                        "protoKeyword": null,
+                        "ellipsisToken": {
+                            "kind": 524302,
+                            "flags": 64,
+                            "start": 75,
+                            "end": 79
+                        },
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "B2",
+                                "rawText": "B2",
+                                "flags": 96,
+                                "start": 79,
+                                "end": 81
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 79,
+                            "end": 81
+                        },
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 75,
+                        "end": 81
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 67,
-                "end": 74
+                "end": 82
             },
             "flags": 17,
             "start": 57,
-            "end": 74
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "B2",
-                "rawText": "B2",
-                "flags": 96,
-                "start": 79,
-                "end": 81
-            },
-            "flags": 16,
-            "start": 79,
-            "end": 81
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 82,
             "end": 83
         },
         {
@@ -294,6 +306,7 @@ type D32 = {p?: number};
                         "end": 104
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 93,
                 "end": 105
@@ -351,34 +364,44 @@ type D32 = {p?: number};
                         "flags": 0,
                         "start": 118,
                         "end": 123
+                    },
+                    {
+                        "kind": 247,
+                        "protoKeyword": null,
+                        "ellipsisToken": {
+                            "kind": 524302,
+                            "flags": 64,
+                            "start": 124,
+                            "end": 128
+                        },
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "B9",
+                                "rawText": "B9",
+                                "flags": 96,
+                                "start": 128,
+                                "end": 130
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 128,
+                            "end": 130
+                        },
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 124,
+                        "end": 130
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 116,
-                "end": 123
+                "end": 131
             },
             "flags": 17,
             "start": 106,
-            "end": 123
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "B9",
-                "rawText": "B9",
-                "flags": 96,
-                "start": 128,
-                "end": 130
-            },
-            "flags": 16,
-            "start": 128,
-            "end": 130
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 131,
             "end": 132
         },
         {
@@ -447,6 +470,7 @@ type D32 = {p?: number};
                         "end": 163
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 142,
                 "end": 164
@@ -504,34 +528,44 @@ type D32 = {p?: number};
                         "flags": 0,
                         "start": 178,
                         "end": 184
+                    },
+                    {
+                        "kind": 247,
+                        "protoKeyword": null,
+                        "ellipsisToken": {
+                            "kind": 524302,
+                            "flags": 64,
+                            "start": 185,
+                            "end": 189
+                        },
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "B11",
+                                "rawText": "B11",
+                                "flags": 96,
+                                "start": 189,
+                                "end": 192
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 189,
+                            "end": 192
+                        },
+                        "staticToken": null,
+                        "flags": 0,
+                        "start": 185,
+                        "end": 192
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 176,
-                "end": 184
+                "end": 193
             },
             "flags": 17,
             "start": 165,
-            "end": 184
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "B11",
-                "rawText": "B11",
-                "flags": 96,
-                "start": 189,
-                "end": 192
-            },
-            "flags": 16,
-            "start": 189,
-            "end": 192
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 193,
             "end": 194
         },
         {
@@ -586,6 +620,7 @@ type D32 = {p?: number};
                         "end": 217
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 205,
                 "end": 218
@@ -618,6 +653,7 @@ type D32 = {p?: number};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -625,13 +661,12 @@ type D32 = {p?: number};
                             "start": 233,
                             "end": 239
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 241,
                             "end": 248
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 232,
                         "end": 249
@@ -681,6 +716,7 @@ type D32 = {p?: number};
                         "end": 269
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 230,
                 "end": 270
@@ -713,6 +749,7 @@ type D32 = {p?: number};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 134234347,
@@ -720,13 +757,12 @@ type D32 = {p?: number};
                             "start": 285,
                             "end": 291
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 293,
                             "end": 300
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 284,
                         "end": 301
@@ -776,6 +812,7 @@ type D32 = {p?: number};
                         "end": 321
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 282,
                 "end": 322
@@ -836,6 +873,7 @@ type D32 = {p?: number};
                         "end": 346
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 334,
                 "end": 347
@@ -858,20 +896,22 @@ type D32 = {p?: number};
 
 ```javascript
 
+
+
+
+
+
+
+
+
+
+
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 74, end: 75
-✖ Declaration or statement expected - start: 75, end: 79
-✖ Declaration or statement expected - start: 81, end: 82
-✖ The parser expected to find a '}' to match the '{' token here - start: 123, end: 124
-✖ Declaration or statement expected - start: 124, end: 128
-✖ Declaration or statement expected - start: 130, end: 131
-✖ The parser expected to find a '}' to match the '{' token here - start: 184, end: 185
-✖ Declaration or statement expected - start: 185, end: 189
-✖ Declaration or statement expected - start: 192, end: 193
-
+✔ No errors
 ```
 

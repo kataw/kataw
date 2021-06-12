@@ -76,6 +76,7 @@ type T4 = { foo: number, bar: string, ... };
                         "end": 15
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 9,
                 "end": 17
@@ -188,6 +189,7 @@ type T4 = { foo: number, bar: string, ... };
                                                             "end": 48
                                                         }
                                                     ],
+                                                    "trailingComma": false,
                                                     "flags": 0,
                                                     "start": 43,
                                                     "end": 49
@@ -225,6 +227,7 @@ type T4 = { foo: number, bar: string, ... };
                                                 "end": 54
                                             }
                                         ],
+                                        "trailingComma": false,
                                         "flags": 0,
                                         "start": 38,
                                         "end": 56
@@ -262,6 +265,7 @@ type T4 = { foo: number, bar: string, ... };
                                     "end": 61
                                 }
                             ],
+                            "trailingComma": false,
                             "flags": 0,
                             "start": 33,
                             "end": 63
@@ -271,6 +275,7 @@ type T4 = { foo: number, bar: string, ... };
                         "end": 63
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 28,
                 "end": 65
@@ -354,6 +359,7 @@ type T4 = { foo: number, bar: string, ... };
                         "end": 94
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 75,
                 "end": 96
@@ -462,6 +468,7 @@ type T4 = { foo: number, bar: string, ... };
                         "end": 139
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 107,
                 "end": 141

@@ -134,6 +134,7 @@ function d(x: { (): string; (x: number): string }): () => string {
                                         "end": 47
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 13,
                                 "end": 49

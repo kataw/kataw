@@ -80,6 +80,7 @@ var a: { <T>(x: T): number; };
                                         "end": 21
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 7,
                                 "end": 23
@@ -209,6 +210,7 @@ var a: { <T>(x: T): number; };
                                         "end": 52
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 31,
                                 "end": 54
@@ -283,6 +285,7 @@ var a: { <T>(x: T): number; };
                                         "end": 74
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 61,
                                 "end": 76
@@ -357,6 +360,7 @@ var a: { <T>(x: T): number; };
                                         "end": 98
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 84,
                                 "end": 100
@@ -502,6 +506,7 @@ var a: { <T>(x: T): number; };
                                         "end": 153
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 108,
                                 "end": 155
@@ -631,6 +636,7 @@ var a: { <T>(x: T): number; };
                                         "end": 184
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 163,
                                 "end": 186

@@ -47,6 +47,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 260,
@@ -104,6 +105,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                             "end": 21
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 14,
                                     "end": 21
@@ -116,7 +118,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                             "start": 11,
                             "end": 22
                         },
-                        "value": {
+                        "type": {
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
@@ -131,12 +133,12 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                             "start": 23,
                             "end": 26
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 26
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 27

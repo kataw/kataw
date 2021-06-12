@@ -126,6 +126,7 @@ type a = ({get y(y): string}) => T;
                                     "end": 27
                                 }
                             ],
+                            "trailingComma": false,
                             "flags": 0,
                             "start": 10,
                             "end": 28

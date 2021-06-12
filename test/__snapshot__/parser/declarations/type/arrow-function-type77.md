@@ -58,6 +58,7 @@ type a = ({} | {}) => T;
                                 {
                                     "kind": 134234353,
                                     "properties": [],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 10,
                                     "end": 12
@@ -65,6 +66,7 @@ type a = ({} | {}) => T;
                                 {
                                     "kind": 134234353,
                                     "properties": [],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 14,
                                     "end": 17

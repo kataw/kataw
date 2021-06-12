@@ -150,6 +150,7 @@ type a = {((((-1) => [c|d]))):string};
                         "end": 28
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 28

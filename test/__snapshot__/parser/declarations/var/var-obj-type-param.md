@@ -156,6 +156,7 @@ var a: { id<T>(x: T): T; }
                                         "end": 24
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 26

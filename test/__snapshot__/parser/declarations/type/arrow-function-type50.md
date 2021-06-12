@@ -50,10 +50,10 @@ type a = (a[-1]) => T;
                     "end": 19
                 },
                 "parameters": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 268,
-                        "objectType": {
+                    "kind": 268,
+                    "objectType": {
+                        "kind": 144,
+                        "id": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -61,27 +61,27 @@ type a = (a[-1]) => T;
                             "start": 10,
                             "end": 11
                         },
-                        "indexType": {
-                            "kind": 271,
-                            "subtractionToken": {
-                                "kind": 134318643,
-                                "flags": 64,
-                                "start": 12,
-                                "end": 13
-                            },
-                            "value": 1,
+                        "typeParameters": null,
+                        "flags": 0,
+                        "start": 8,
+                        "end": 11
+                    },
+                    "indexType": {
+                        "kind": 271,
+                        "subtractionToken": {
+                            "kind": 134318643,
                             "flags": 64,
                             "start": 12,
-                            "end": 14
+                            "end": 13
                         },
-                        "flags": 0,
+                        "value": 1,
+                        "flags": 64,
                         "start": 12,
-                        "end": 16
+                        "end": 14
                     },
-                    "typeParameters": null,
                     "flags": 0,
-                    "start": 8,
-                    "end": 15
+                    "start": 12,
+                    "end": 16
                 },
                 "returnType": {
                     "kind": 144,

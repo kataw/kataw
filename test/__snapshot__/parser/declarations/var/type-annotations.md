@@ -1038,6 +1038,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 275
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 262,
                                 "end": 277

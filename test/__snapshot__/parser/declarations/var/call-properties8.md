@@ -98,6 +98,7 @@ var e: { (x: any): void } = function() { } // arity
                                         "end": 23
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 25

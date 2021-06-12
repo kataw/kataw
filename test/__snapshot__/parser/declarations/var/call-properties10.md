@@ -98,6 +98,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                         "end": 26
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 28

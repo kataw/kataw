@@ -404,6 +404,7 @@ type B = Foo<
                                                 "end": 148
                                             }
                                         ],
+                                        "trailingComma": false,
                                         "flags": 0,
                                         "start": 137,
                                         "end": 149
@@ -438,6 +439,7 @@ type B = Foo<
                                                 "end": 164
                                             }
                                         ],
+                                        "trailingComma": false,
                                         "flags": 0,
                                         "start": 153,
                                         "end": 165
@@ -530,6 +532,7 @@ type B = Foo<
                                                 "end": 198
                                             }
                                         ],
+                                        "trailingComma": false,
                                         "flags": 0,
                                         "start": 187,
                                         "end": 199
@@ -564,6 +567,7 @@ type B = Foo<
                                                 "end": 214
                                             }
                                         ],
+                                        "trailingComma": false,
                                         "flags": 0,
                                         "start": 203,
                                         "end": 215

@@ -92,6 +92,7 @@ var {x}: {x: string; } = { x: "hello" };
                                         "end": 20
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 8,
                                 "end": 22

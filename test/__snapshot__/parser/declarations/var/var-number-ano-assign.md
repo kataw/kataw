@@ -112,6 +112,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "name": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -126,13 +127,12 @@ var a: { [a: number]: string; [b: number]: string; };
                                             "start": 46,
                                             "end": 53
                                         },
-                                        "value": {
+                                        "type": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 55,
                                             "end": 62
                                         },
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 42,
                                         "end": 63
@@ -140,6 +140,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "name": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -154,18 +155,18 @@ var a: { [a: number]: string; [b: number]: string; };
                                             "start": 67,
                                             "end": 74
                                         },
-                                        "value": {
+                                        "type": {
                                             "kind": 134234347,
                                             "flags": 64,
                                             "start": 76,
                                             "end": 83
                                         },
-                                        "staticToken": null,
                                         "flags": 0,
                                         "start": 63,
                                         "end": 84
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 40,
                                 "end": 86

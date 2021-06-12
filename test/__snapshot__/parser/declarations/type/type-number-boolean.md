@@ -47,6 +47,7 @@ type A = { [string | boolean]: number };
                     {
                         "kind": 195,
                         "protoKeyword": null,
+                        "staticToken": null,
                         "name": null,
                         "key": {
                             "kind": 137,
@@ -68,18 +69,18 @@ type A = { [string | boolean]: number };
                             "start": 18,
                             "end": 28
                         },
-                        "value": {
+                        "type": {
                             "kind": 134234345,
                             "flags": 64,
                             "start": 30,
                             "end": 37
                         },
-                        "staticToken": null,
                         "flags": 0,
                         "start": 10,
                         "end": 37
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 8,
                 "end": 39

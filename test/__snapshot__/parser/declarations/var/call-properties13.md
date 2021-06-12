@@ -75,6 +75,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                         "end": 19
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 21

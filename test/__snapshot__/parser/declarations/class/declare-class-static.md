@@ -91,6 +91,7 @@ declare class C { static [[foo]]: T }
                             "end": 35
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 37

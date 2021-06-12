@@ -109,6 +109,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                         "end": 45
                                                     }
                                                 ],
+                                                "trailingComma": false,
                                                 "flags": 0,
                                                 "start": 36,
                                                 "end": 46

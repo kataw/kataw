@@ -83,18 +83,9 @@ var f = (x): ((number) => 123) => 123;
                                             "kind": 279,
                                             "parameters": [
                                                 {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "number",
-                                                        "rawText": "number",
-                                                        "flags": 96,
-                                                        "start": 15,
-                                                        "end": 21
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 0,
-                                                    "start": 12,
+                                                    "kind": 134234345,
+                                                    "flags": 64,
+                                                    "start": 15,
                                                     "end": 21
                                                 }
                                             ],

@@ -83,6 +83,7 @@ declare class B { () : number }
                             "end": 36
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 38
@@ -149,6 +150,7 @@ declare class B { () : number }
                             "end": 68
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 54,
                     "end": 70

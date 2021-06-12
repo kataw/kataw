@@ -134,6 +134,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "end": 47
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 13,
                                 "end": 49

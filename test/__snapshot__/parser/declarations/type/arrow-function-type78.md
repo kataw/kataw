@@ -58,6 +58,7 @@ type a = ({} | {[x]:string}) => T;
                                 {
                                     "kind": 134234353,
                                     "properties": [],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 10,
                                     "end": 12
@@ -68,6 +69,7 @@ type a = ({} | {[x]:string}) => T;
                                         {
                                             "kind": 195,
                                             "protoKeyword": null,
+                                            "staticToken": null,
                                             "name": null,
                                             "key": {
                                                 "kind": 144,
@@ -81,21 +83,21 @@ type a = ({} | {[x]:string}) => T;
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 0,
-                                                "start": 17,
+                                                "start": 16,
                                                 "end": 18
                                             },
-                                            "value": {
+                                            "type": {
                                                 "kind": 134234347,
                                                 "flags": 64,
                                                 "start": 20,
                                                 "end": 26
                                             },
-                                            "staticToken": null,
                                             "flags": 0,
                                             "start": 16,
                                             "end": 26
                                         }
                                     ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "start": 14,
                                     "end": 27

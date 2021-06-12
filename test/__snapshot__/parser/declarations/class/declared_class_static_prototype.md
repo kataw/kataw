@@ -95,6 +95,7 @@ declare class A {
                             "end": 45
                         }
                     ],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 15,
                     "end": 56

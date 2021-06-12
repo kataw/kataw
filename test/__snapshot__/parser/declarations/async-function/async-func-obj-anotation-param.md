@@ -108,6 +108,7 @@ async function foo({x}: { x: string; }) {}
                                         "end": 36
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 23,
                                 "end": 38

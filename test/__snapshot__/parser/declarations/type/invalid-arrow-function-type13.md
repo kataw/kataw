@@ -134,6 +134,7 @@ type a = ({get y(y)}) => T;
                                     "end": 19
                                 }
                             ],
+                            "trailingComma": false,
                             "flags": 0,
                             "start": 10,
                             "end": 20

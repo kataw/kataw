@@ -98,6 +98,7 @@ var a: { (x: number): string } = (x) => x.toString()
                                         "end": 28
                                     }
                                 ],
+                                "trailingComma": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 30

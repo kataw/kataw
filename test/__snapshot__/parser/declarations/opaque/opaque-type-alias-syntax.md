@@ -164,6 +164,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         "end": 101
                     }
                 ],
+                "trailingComma": false,
                 "flags": 0,
                 "start": 59,
                 "end": 103

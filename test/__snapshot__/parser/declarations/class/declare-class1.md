@@ -57,6 +57,7 @@ type T2 = number;
                 "body": {
                     "kind": 134234353,
                     "properties": [],
+                    "trailingComma": false,
                     "flags": 0,
                     "start": 16,
                     "end": 19

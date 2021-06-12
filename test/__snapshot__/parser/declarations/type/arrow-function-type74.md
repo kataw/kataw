@@ -96,6 +96,7 @@ type a = ({x: (y)}) => T;
                                     "end": 17
                                 }
                             ],
+                            "trailingComma": false,
                             "flags": 0,
                             "start": 10,
                             "end": 18
