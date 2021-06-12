@@ -676,14 +676,7 @@ type T = { [string]: Class<null> }
                     {
                         "kind": 195,
                         "protoKeyword": null,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "string",
-                            "rawText": "string",
-                            "flags": 96,
-                            "start": 208,
-                            "end": 214
-                        },
+                        "name": null,
                         "key": {
                             "kind": 134234347,
                             "flags": 64,

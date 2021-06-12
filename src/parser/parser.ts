@@ -7519,7 +7519,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
   // '('
   if (parser.token === SyntaxKind.LeftParen) {
     nextToken(parser, context);
-     token = parser.token;
+    token = parser.token;
     let type: any;
     if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
       type = createArrowFunctionType(
@@ -8568,7 +8568,7 @@ function nextTokenIsNotColonOrQuestionMark(parser: ParserState, context: Context
 }
 
 function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKind, key: any, pos: number) {
-  switch(t) {
+  switch (t) {
     case SyntaxKind.StringLiteral:
     case SyntaxKind.AnyKeyword:
     case SyntaxKind.NullKeyword:
@@ -8618,11 +8618,11 @@ function parseObjectTypeIndexer(
 
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const token = parser.token;
-    name = parseIdentifier(parser, context, SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved);
+    key = parseIdentifier(parser, context, SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved);
     if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) {
       let optionalToken = null;
       optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
-
+      name = key;
       if (optionalToken) {
         parser.onError(
           DiagnosticSource.Parser,
@@ -8635,9 +8635,7 @@ function parseObjectTypeIndexer(
       consume(parser, context, SyntaxKind.Colon);
       key = parseType(parser, context);
     } else {
-
-      key = convertToPrimaryType(parser, context, token, name, pos);
-
+      key = convertToPrimaryType(parser, context, token, key, pos);
       if (parser.token === SyntaxKind.LeftBracket) {
         while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
           const pos = parser.curPos;
@@ -8652,9 +8650,8 @@ function parseObjectTypeIndexer(
         }
       }
 
-      // - `type X = (x & y);`
-      // - `type X = (x & y) => T;`
-      // - `type a = (bj[c] & a | b) => T;`
+      // - `type X = {[x & y]: string};`
+      // - `type X = {[bj[c] & a | b]: string};`
       if (parser.token === SyntaxKind.BitwiseAnd) {
         const pos = parser.curPos;
         const types = [key];
@@ -8665,8 +8662,7 @@ function parseObjectTypeIndexer(
         key = createIntersectionType(types, pos, parser.curPos);
       }
 
-      // - `type X = (x | y);`
-      // - `type X = (x | y) => T;`
+      // - `type X = {[x | y]: string};`
       if (parser.token === SyntaxKind.BitwiseOr) {
         const pos = parser.curPos;
         const types = [key];
