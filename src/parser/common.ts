@@ -65,7 +65,8 @@ export const enum Context {
   ArrowOrigin = 1 << 24, // If node origin was not part of the types.
   AllowImportMeta = 1 << 25, // Allows parsing 'Import meta'. *Only* allowed for module goal
   LexicalContext = 1 << 26, // If node was parsed in a lexical context,
-  DecoratorContext = 1 << 27
+  DecoratorContext = 1 << 27,
+  aasfdasa = Context.InStaticBlock | 0b00000000000000000101100000000000
 }
 
 export const enum DestructibleKind {

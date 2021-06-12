@@ -1668,7 +1668,10 @@ function parseBindingIdentifier(
         curPos,
         parser.pos
       );
-    } else if (context & (Context.Module | Context.AwaitContext) && token === SyntaxKind.AwaitKeyword) {
+    } else if (
+      context & (Context.Module | Context.InStaticBlock | Context.AwaitContext) &&
+      token === SyntaxKind.AwaitKeyword
+    ) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -2342,7 +2345,7 @@ function parseArrowFunction(
 
   const contents = parseConciseOrFunctionBody(
     parser,
-    ((context | 0b00000000010000000101111100001000) ^ 0b00000000010000000101111100001000) |
+    ((context | 0b00000000010000000101111100101000) ^ 0b00000000010000000101111100101000) |
       (asyncToken ? Context.AwaitContext : Context.None),
     scope,
     (flags & NodeFlags.NoneSimpleParamList) < 1
@@ -6115,7 +6118,7 @@ function parseFunctionBody(
   ) {
     const statementList = parseFunctionStatementList(
       parser,
-      (context | 0b00000000000000000101100100000000) ^ 0b00000000000000000101100000000000,
+      (context | 0b00000000000000000101100100100000) ^ 0b00000000000000000101100000100000,
       {
         kind: ScopeKind.FunctionBody,
         scope,
@@ -7941,7 +7944,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   if (context & Context.OptionsAllowTypes && parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
-    consume(parser, context, SyntaxKind.Assign, DiagnosticCode.An_TypeAlias_declaration_require_a)
+    consume(parser, context, SyntaxKind.Assign, DiagnosticCode.An_TypeAlias_declaration_require_a);
     const type = parseType(parser, context);
     if (declareKeyword) nodeFlags |= NodeFlags.Declared;
     parseSemicolon(parser, context);
@@ -9583,10 +9586,7 @@ export function parseStaticBlock(
   }
   const block = parseBlock(
     parser,
-    (context | 0b01100000000000000111111100000000) ^
-      // The "await" and 'yield' parsing context does not apply to the block's statement list in a static block
-      // so we unset the bit to trigger an error message
-      0b01000000000000000101111100000000,
+    (context | 0b01100000000000000111111100000000) ^ 0b01000000000000000101111100000000,
     {
       kind: ScopeKind.Block,
       scope: {

@@ -167,14 +167,12 @@ class C {
 
 ```javascript
 
-class C {
-   ;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ `await` expression cannot be used in function parameters - start: 41, end: 46
+
 ```
 

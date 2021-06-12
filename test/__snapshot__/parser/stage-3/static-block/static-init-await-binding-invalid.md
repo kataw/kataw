@@ -144,6 +144,7 @@ class C {
 
 ```javascript
 ✖ BindingIdentifier may not be `await` within class static blocks - start: 97, end: 103
+✖ 'await' cannot be used as an identifier here - start: 97, end: 103
 
 ```
 
