@@ -1,4 +1,4 @@
-import { SyntaxKind, NodeFlags, ExportKind } from '../ast/syntax-node';
+import { SyntaxKind, NodeFlags, Constants, ExportKind } from '../ast/syntax-node';
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken } from './scanner/scanner';
 import { scanTemplateTail } from './scanner/template';
@@ -151,7 +151,6 @@ import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
 import { TypeNode } from '../ast/types';
 import { Char } from './scanner/char';
 import { isLineTerminator } from '../parser/scanner/common';
-import { Constants } from '../parser/constants';
 import {
   createTypeParameterInstantiationList,
   TypeParameterInstantiationList

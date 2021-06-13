@@ -8,6 +8,16 @@ export interface SyntaxNode {
   end: number;
 }
 
+export const enum Constants {
+  Identifier = 0b00000000100000000100000000000000,
+  IdentifierOrKeyword = 0b00000000110000000100000000000000,
+  IdentiferOrType  = 0b00001000100000000100000000000000,
+  VariableDeclarationList = 0b00010000100000000100000000000000,
+  IsInOrOf = 0b00010000100000000100000000000000,
+  IsEscaped = 0b00000000000000000110000000000000,
+  IsGetSetAsync = 0b00000000000000000000011100000000,
+}
+
 export const enum ExportKind {
   Type,
   Value
