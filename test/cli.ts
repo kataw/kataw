@@ -96,7 +96,7 @@ function showHelp() {
 function setTiming(opts) {
   console.time(
     ColorCodes.GREEN +
-      'Running ' +
+      'Ran ' +
       ColorCodes.RESET +
       opts.files.length +
       ' test cases.' +
