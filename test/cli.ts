@@ -108,7 +108,7 @@ function setTiming(opts) {
   process.on('beforeExit', function () {
     console.timeEnd(
       ColorCodes.GREEN +
-        'Running ' +
+        'Ran ' +
         ColorCodes.RESET +
         opts.files.length +
         ' test cases.' +
