@@ -56,7 +56,7 @@ type a = (b[()=> c]) => c;
                     "end": 23
                 },
                 "arrowToken": {
-                    "kind": 268,
+                    "kind": 311,
                     "objectType": {
                         "kind": 144,
                         "id": {

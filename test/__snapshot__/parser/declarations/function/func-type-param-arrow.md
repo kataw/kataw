@@ -429,10 +429,10 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                         "end": 140
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,

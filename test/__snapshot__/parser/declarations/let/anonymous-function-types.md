@@ -70,10 +70,10 @@ let x = (): Array<(string) => number> => []
                                         "end": 17
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 288,
                                                     "arrowTypeParameterList": {

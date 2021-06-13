@@ -170,7 +170,7 @@ async function * gen() {x = class extends (a ? null : await 10) { }}
                                             "end": 63
                                         },
                                         "body": {
-                                            "kind": 262,
+                                            "kind": 303,
                                             "elements": [],
                                             "flags": 32,
                                             "start": 65,

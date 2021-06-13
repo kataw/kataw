@@ -54,7 +54,7 @@ class w { static #\u0063onstructor }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -113,7 +113,7 @@ class w { static #\u0063onstructor }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -202,7 +202,7 @@ class w { static #\u0063onstructor }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -266,7 +266,7 @@ class w { static #\u0063onstructor }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -360,7 +360,7 @@ class w { static #\u0063onstructor }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,

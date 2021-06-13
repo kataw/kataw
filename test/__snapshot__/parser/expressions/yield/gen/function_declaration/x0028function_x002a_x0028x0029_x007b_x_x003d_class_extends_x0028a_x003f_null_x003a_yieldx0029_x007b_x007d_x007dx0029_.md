@@ -188,7 +188,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                     "end": 74
                                                                 },
                                                                 "body": {
-                                                                    "kind": 262,
+                                                                    "kind": 303,
                                                                     "elements": [],
                                                                     "flags": 32,
                                                                     "start": 76,

@@ -124,7 +124,7 @@ function *P(){
                                     "end": 42
                                 },
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [],
                                     "flags": 32,
                                     "start": 44,

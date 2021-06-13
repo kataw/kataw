@@ -74,7 +74,7 @@ switch (0) { case 1: class f {} default: const f = 0 }
                                     "kind": 277,
                                     "classHeritage": null,
                                     "body": {
-                                        "kind": 262,
+                                        "kind": 303,
                                         "elements": [],
                                         "flags": 32,
                                         "start": 30,

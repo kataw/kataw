@@ -110,10 +110,10 @@ const fn = async (a?: any): Promise<void> => {};
                                         "end": 35
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 138477615,
                                                     "flags": 2097216,

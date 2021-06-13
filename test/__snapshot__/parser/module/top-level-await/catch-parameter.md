@@ -162,7 +162,7 @@ try {} catch ([ x = await 42 ]) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
@@ -269,7 +269,7 @@ try {} catch ([ x = await 42 ]) {}
                 "catchParameter": {
                     "kind": 201,
                     "elementList": {
-                        "kind": 202,
+                        "kind": 324,
                         "elements": [
                             {
                                 "kind": 281,

@@ -39,7 +39,7 @@ class x {    async async get f(x){}    }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

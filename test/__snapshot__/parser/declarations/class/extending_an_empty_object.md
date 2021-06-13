@@ -83,7 +83,7 @@ class x extends {} {}
                     "end": 18
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 20,

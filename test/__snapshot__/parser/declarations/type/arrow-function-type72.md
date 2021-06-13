@@ -87,7 +87,7 @@ type a = (((symbol[{a():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =
                                                         "type": {
                                                             "kind": 136,
                                                             "type": {
-                                                                "kind": 268,
+                                                                "kind": 311,
                                                                 "objectType": {
                                                                     "kind": 134234343,
                                                                     "flags": 64,

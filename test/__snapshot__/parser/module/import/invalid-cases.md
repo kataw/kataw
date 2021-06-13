@@ -43,7 +43,7 @@ import * as x, {y} from 'm.js';
             "typeKeyword": null,
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 16637,
@@ -154,7 +154,7 @@ import * as x, {y} from 'm.js';
             "typeKeyword": null,
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 134299649,
@@ -228,7 +228,7 @@ import * as x, {y} from 'm.js';
             "typeKeyword": null,
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 198,
@@ -344,7 +344,7 @@ import * as x, {y} from 'm.js';
             "typeKeyword": null,
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 198,
@@ -493,7 +493,7 @@ import * as x, {y} from 'm.js';
             "typeKeyword": null,
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 16637,
@@ -618,7 +618,7 @@ import * as x, {y} from 'm.js';
             "typeKeyword": null,
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 198,

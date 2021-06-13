@@ -108,7 +108,7 @@ async function foo(a = class extends (await b) {}) {};
                                     "end": 46
                                 },
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [],
                                     "flags": 32,
                                     "start": 48,

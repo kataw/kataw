@@ -3795,7 +3795,7 @@ async function * gen() {class C extends await { }}
                                                                 "binding": {
                                                                     "kind": 201,
                                                                     "elementList": {
-                                                                        "kind": 202,
+                                                                        "kind": 324,
                                                                         "elements": [
                                                                             {
                                                                                 "kind": 134299649,
@@ -3936,7 +3936,7 @@ async function * gen() {class C extends await { }}
                                                         "binding": {
                                                             "kind": 201,
                                                             "elementList": {
-                                                                "kind": 202,
+                                                                "kind": 324,
                                                                 "elements": [
                                                                     {
                                                                         "kind": 134299649,
@@ -4072,7 +4072,7 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 213,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 204,
+                                                                        "kind": 329,
                                                                         "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 134299649,
@@ -4236,7 +4236,7 @@ async function * gen() {class C extends await { }}
                                                                 "kind": 213,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 204,
+                                                                        "kind": 329,
                                                                         "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 134299649,
@@ -4993,7 +4993,7 @@ async function * gen() {class C extends await { }}
                                                         "binding": {
                                                             "kind": 201,
                                                             "elementList": {
-                                                                "kind": 202,
+                                                                "kind": 324,
                                                                 "elements": [
                                                                     {
                                                                         "kind": 134299649,
@@ -5162,7 +5162,7 @@ async function * gen() {class C extends await { }}
                                         "binding": {
                                             "kind": 201,
                                             "elementList": {
-                                                "kind": 202,
+                                                "kind": 324,
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
@@ -5319,7 +5319,7 @@ async function * gen() {class C extends await { }}
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,
@@ -5343,7 +5343,7 @@ async function * gen() {class C extends await { }}
                                                         "end": 2615
                                                     },
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 201392130,
@@ -5506,7 +5506,7 @@ async function * gen() {class C extends await { }}
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,
@@ -5530,7 +5530,7 @@ async function * gen() {class C extends await { }}
                                                         "end": 2671
                                                     },
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 201392130,
@@ -7392,7 +7392,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3337
                                 },
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [],
                                     "flags": 32,
                                     "start": 3319,
@@ -7525,7 +7525,7 @@ async function * gen() {class C extends await { }}
                                     "end": 3388
                                 },
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [],
                                     "flags": 32,
                                     "start": 3370,

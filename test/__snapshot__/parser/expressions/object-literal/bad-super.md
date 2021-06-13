@@ -58,7 +58,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                     "end": 17
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -113,7 +113,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                 "kind": 213,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 204,
+                                                                        "kind": 329,
                                                                         "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 201392131,

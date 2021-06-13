@@ -69,7 +69,7 @@ type a = ((1 |-1)) => T;
                                     "end": 12
                                 },
                                 {
-                                    "kind": 271,
+                                    "kind": 313,
                                     "subtractionToken": {
                                         "kind": 134318643,
                                         "flags": 64,

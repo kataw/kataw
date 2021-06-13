@@ -48,11 +48,11 @@ type a = (bj[c])[d];
                 "end": 8
             },
             "type": {
-                "kind": 268,
+                "kind": 311,
                 "objectType": {
                     "kind": 290,
                     "type": {
-                        "kind": 268,
+                        "kind": 311,
                         "objectType": {
                             "kind": 144,
                             "id": {

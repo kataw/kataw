@@ -55,7 +55,7 @@ class C {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -79,7 +79,7 @@ class C {
                             "end": 18
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 18,
                             "end": 19

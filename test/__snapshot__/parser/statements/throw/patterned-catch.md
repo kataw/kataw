@@ -47,7 +47,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                 "catchParameter": {
                     "kind": 201,
                     "elementList": {
-                        "kind": 202,
+                        "kind": 324,
                         "elements": [
                             {
                                 "kind": 134299649,
@@ -79,7 +79,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                             "end": 22
                                         },
                                         {
-                                            "kind": 204,
+                                            "kind": 329,
                                             "ellipsisToken": null,
                                             "key": {
                                                 "kind": 134299649,
@@ -110,7 +110,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                             "end": 29
                                         },
                                         {
-                                            "kind": 204,
+                                            "kind": 329,
                                             "ellipsisToken": null,
                                             "key": {
                                                 "kind": 194,

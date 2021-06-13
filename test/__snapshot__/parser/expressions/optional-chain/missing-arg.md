@@ -55,7 +55,7 @@ x?.y?.[]
                         "chain": {
                             "kind": 536871114,
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": null,
                                 "flags": 32,
                                 "start": 3,
@@ -78,7 +78,7 @@ x?.y?.[]
                         "end": 8
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,
@@ -103,7 +103,7 @@ x?.y?.[]
                     "end": 11
                 },
                 "chain": {
-                    "kind": 206,
+                    "kind": 302,
                     "chain": null,
                     "flags": 32,
                     "start": 13,

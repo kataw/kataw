@@ -46,7 +46,7 @@ class A9<S = number, T: ?string = string> {}
                 "end": 8
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -78,7 +78,7 @@ class A9<S = number, T: ?string = string> {}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 22,
@@ -111,7 +111,7 @@ class A9<S = number, T: ?string = string> {}
                 "end": 32
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -166,7 +166,7 @@ class A9<S = number, T: ?string = string> {}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 55,
@@ -199,7 +199,7 @@ class A9<S = number, T: ?string = string> {}
                 "end": 65
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -270,7 +270,7 @@ class A9<S = number, T: ?string = string> {}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 91,
@@ -303,7 +303,7 @@ class A9<S = number, T: ?string = string> {}
                 "end": 101
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -379,7 +379,7 @@ class A9<S = number, T: ?string = string> {}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 136,
@@ -415,7 +415,7 @@ class A9<S = number, T: ?string = string> {}
                         "end": 148
                     },
                     "typeParameters": {
-                        "kind": 265,
+                        "kind": 307,
                         "typeParameters": [
                             {
                                 "kind": 146,
@@ -447,7 +447,7 @@ class A9<S = number, T: ?string = string> {}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [],
                             "flags": 32,
                             "start": 162,

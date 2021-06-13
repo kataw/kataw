@@ -78,7 +78,7 @@ async function f(){   function fh([+ await x]) { }   }
                                     {
                                         "kind": 201,
                                         "elementList": {
-                                            "kind": 202,
+                                            "kind": 324,
                                             "elements": [],
                                             "trailingComma": false,
                                             "flags": 0,

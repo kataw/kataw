@@ -57,7 +57,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -81,7 +81,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                             "end": 14
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 14,
                             "end": 15
@@ -163,7 +163,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                         "end": 26
                                                     },
                                                     "chain": {
-                                                        "kind": 206,
+                                                        "kind": 302,
                                                         "chain": {
                                                             "kind": 536871114,
                                                             "chain": null,

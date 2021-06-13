@@ -58,10 +58,10 @@ type D = $Call<Fn1>;
                     "end": 14
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 144,
                                 "id": {

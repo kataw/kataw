@@ -140,7 +140,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                     "kind": 277,
                                                     "classHeritage": null,
                                                     "body": {
-                                                        "kind": 262,
+                                                        "kind": 303,
                                                         "elements": [
                                                             {
                                                                 "kind": 278,

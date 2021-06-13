@@ -43,7 +43,7 @@ var {a: my_var} = {a: 3}; my_var;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,

@@ -58,10 +58,10 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                     "end": 14
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 138,
                                 "types": [
@@ -122,7 +122,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                 "end": 27
                                             },
                                             "typeParameters": {
-                                                "kind": 265,
+                                                "kind": 307,
                                                 "typeParameters": [
                                                     {
                                                         "kind": 146,
@@ -210,7 +210,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                 "end": 43
                                             },
                                             "typeParameters": {
-                                                "kind": 265,
+                                                "kind": 307,
                                                 "typeParameters": [
                                                     {
                                                         "kind": 146,
@@ -251,7 +251,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                             "end": 44
                         },
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 137,
                                 "types": [

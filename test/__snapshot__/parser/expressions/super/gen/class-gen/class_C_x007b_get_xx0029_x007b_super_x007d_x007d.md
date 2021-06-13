@@ -46,7 +46,7 @@ class C { *method() { class C { get x) { super; } } } }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -111,7 +111,7 @@ class C { *method() { class C { get x) { super; } } } }
                                                     "kind": 277,
                                                     "classHeritage": null,
                                                     "body": {
-                                                        "kind": 262,
+                                                        "kind": 303,
                                                         "elements": [
                                                             {
                                                                 "kind": 278,

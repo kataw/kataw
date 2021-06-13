@@ -66,7 +66,7 @@ class C extends Base { static async(){} }
                     "end": 20
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

@@ -28,7 +28,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
     "directives": [],
     "statements": [
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
@@ -51,7 +51,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                 "end": 20
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,

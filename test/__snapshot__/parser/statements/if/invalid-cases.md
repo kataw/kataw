@@ -267,7 +267,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "kind": 277,
                     "classHeritage": null,
                     "body": {
-                        "kind": 262,
+                        "kind": 303,
                         "elements": [],
                         "flags": 32,
                         "start": 74,
@@ -728,7 +728,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "kind": 277,
                     "classHeritage": null,
                     "body": {
-                        "kind": 262,
+                        "kind": 303,
                         "elements": [],
                         "flags": 32,
                         "start": 236,

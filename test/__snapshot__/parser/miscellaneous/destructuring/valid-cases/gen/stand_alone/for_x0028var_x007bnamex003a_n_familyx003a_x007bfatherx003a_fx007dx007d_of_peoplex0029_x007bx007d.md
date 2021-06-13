@@ -43,7 +43,7 @@ for (var {name: n, family: {father: f}} of people) {}
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -67,7 +67,7 @@ for (var {name: n, family: {father: f}} of people) {}
                                         "end": 17
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -83,7 +83,7 @@ for (var {name: n, family: {father: f}} of people) {}
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,

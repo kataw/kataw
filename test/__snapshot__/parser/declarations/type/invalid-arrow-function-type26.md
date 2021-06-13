@@ -78,7 +78,7 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                             "end": 56
                                         },
                                         "arrowToken": {
-                                            "kind": 268,
+                                            "kind": 311,
                                             "objectType": {
                                                 "kind": 134234343,
                                                 "flags": 64,

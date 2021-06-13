@@ -71,7 +71,7 @@ var f = (argument1,{ __proto__: x, __proto__: y}) => {};
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 204,
+                                                "kind": 329,
                                                 "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
@@ -95,7 +95,7 @@ var f = (argument1,{ __proto__: x, __proto__: y}) => {};
                                                 "end": 33
                                             },
                                             {
-                                                "kind": 204,
+                                                "kind": 329,
                                                 "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,

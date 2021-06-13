@@ -66,7 +66,7 @@
                                     "end": 7
                                 },
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
@@ -90,7 +90,7 @@
                                     "end": 11
                                 },
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,

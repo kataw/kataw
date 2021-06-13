@@ -78,7 +78,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "kind": 277,
                                             "classHeritage": null,
                                             "body": {
-                                                "kind": 262,
+                                                "kind": 303,
                                                 "elements": [],
                                                 "flags": 32,
                                                 "start": 27,
@@ -127,7 +127,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "kind": 277,
                                             "classHeritage": null,
                                             "body": {
-                                                "kind": 262,
+                                                "kind": 303,
                                                 "elements": [],
                                                 "flags": 32,
                                                 "start": 43,
@@ -176,7 +176,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "kind": 277,
                                             "classHeritage": null,
                                             "body": {
-                                                "kind": 262,
+                                                "kind": 303,
                                                 "elements": [
                                                     {
                                                         "kind": 278,

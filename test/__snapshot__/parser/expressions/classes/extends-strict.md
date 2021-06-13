@@ -212,7 +212,7 @@ class C extends (function B() {
                     "end": 69
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 71,

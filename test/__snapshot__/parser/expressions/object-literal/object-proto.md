@@ -432,7 +432,7 @@ x = {async __proto__(){}, *__proto__(){}};
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
@@ -456,7 +456,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "end": 129
                                 },
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,

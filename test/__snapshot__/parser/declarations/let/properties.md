@@ -67,7 +67,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "end": 10
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -91,7 +91,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "end": 14
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -122,7 +122,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "end": 20
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
@@ -141,7 +141,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "value": {
                                             "kind": 201,
                                             "elementList": {
-                                                "kind": 202,
+                                                "kind": 324,
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,

@@ -57,7 +57,7 @@ class C { aaa; bbb}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -81,7 +81,7 @@ class C { aaa; bbb}
                             "end": 13
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 13,
                             "end": 14

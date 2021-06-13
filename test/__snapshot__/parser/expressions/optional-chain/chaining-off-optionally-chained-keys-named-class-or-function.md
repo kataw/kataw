@@ -39,7 +39,7 @@ foo?.function?.bar
                 "chain": {
                     "kind": 536871114,
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,
@@ -100,7 +100,7 @@ foo?.function?.bar
                 "chain": {
                     "kind": 536871114,
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,
@@ -167,7 +167,7 @@ foo?.function?.bar
                         "end": 36
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,
@@ -194,7 +194,7 @@ foo?.function?.bar
                 "chain": {
                     "kind": 536871114,
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,
@@ -261,7 +261,7 @@ foo?.function?.bar
                         "end": 56
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,
@@ -286,7 +286,7 @@ foo?.function?.bar
                     "end": 66
                 },
                 "chain": {
-                    "kind": 206,
+                    "kind": 302,
                     "chain": {
                         "kind": 536871114,
                         "chain": null,
@@ -330,8 +330,8 @@ foo?.function?.bar
 
 foo?.;
 foo?.;
- = ?.;
- = ?.;
+?.;
+?.;
 ```
 
 ### Diagnostics

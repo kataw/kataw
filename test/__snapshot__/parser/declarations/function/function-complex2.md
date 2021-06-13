@@ -79,7 +79,7 @@ function d<X: [number, number]>(x: X): X {
                 "end": 35
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -104,10 +104,10 @@ function d<X: [number, number]>(x: X): X {
                                     "end": 28
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
@@ -345,7 +345,7 @@ function d<X: [number, number]>(x: X): X {
                 "end": 104
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -370,10 +370,10 @@ function d<X: [number, number]>(x: X): X {
                                     "end": 97
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
@@ -631,7 +631,7 @@ function d<X: [number, number]>(x: X): X {
                 "end": 215
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -656,10 +656,10 @@ function d<X: [number, number]>(x: X): X {
                                     "end": 208
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
@@ -1012,7 +1012,7 @@ function d<X: [number, number]>(x: X): X {
                 "end": 338
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,

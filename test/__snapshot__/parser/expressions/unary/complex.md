@@ -571,10 +571,10 @@ function x8(a: false & false): false {
                                     "end": 347
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 205586437,
                                                 "flags": 2097216,
@@ -726,10 +726,10 @@ function x8(a: false & false): false {
                                     "end": 403
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 205586437,
                                                 "flags": 2097216,

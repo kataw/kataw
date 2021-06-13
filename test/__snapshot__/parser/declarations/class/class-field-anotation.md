@@ -46,7 +46,7 @@ class Foo { prop1:string; prop2:number; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -81,7 +81,7 @@ class Foo { prop1:string; prop2:number; }
                             "end": 24
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 24,
                             "end": 25
@@ -119,7 +119,7 @@ class Foo { prop1:string; prop2:number; }
                             "end": 38
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 38,
                             "end": 39

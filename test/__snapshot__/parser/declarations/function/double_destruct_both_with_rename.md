@@ -34,7 +34,7 @@ let {x : y, z : a} = obj;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -58,7 +58,7 @@ let {x : y, z : a} = obj;
                                         "end": 10
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,

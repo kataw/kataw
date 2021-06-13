@@ -100,7 +100,7 @@ class A extends async async => {} {}
                     "end": 33
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 35,

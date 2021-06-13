@@ -51,7 +51,7 @@ function x({ x: import.meta }) {}
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
@@ -74,7 +74,7 @@ function x({ x: import.meta }) {}
                                     "end": 15
                                 },
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,

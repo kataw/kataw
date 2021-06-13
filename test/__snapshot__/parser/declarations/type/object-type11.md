@@ -69,7 +69,7 @@ type a = (1 | 1[symbol & string]) => T;
                                     "end": 11
                                 },
                                 {
-                                    "kind": 268,
+                                    "kind": 311,
                                     "objectType": {
                                         "kind": 134217968,
                                         "text": 1,

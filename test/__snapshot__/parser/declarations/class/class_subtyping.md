@@ -47,7 +47,7 @@ class D extends C<O> {
                 "end": 8
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -74,7 +74,7 @@ class D extends C<O> {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -118,7 +118,7 @@ class D extends C<O> {
                             "end": 18
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 18,
                             "end": 19
@@ -174,10 +174,10 @@ class D extends C<O> {
                         "end": 40
                     },
                     "typeParameter": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -207,7 +207,7 @@ class D extends C<O> {
                     "end": 43
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

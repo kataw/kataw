@@ -2506,7 +2506,7 @@ for ({}.bar = x in obj);
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 205,
+                                "kind": 301,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -2917,7 +2917,7 @@ for ({}.bar = x in obj);
                                     "kind": 218,
                                     "properties": [
                                         {
-                                            "kind": 205,
+                                            "kind": 301,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -3170,7 +3170,7 @@ for ({}.bar = x in obj);
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 205,
+                                "kind": 301,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -3273,7 +3273,7 @@ for ({}.bar = x in obj);
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 205,
+                                "kind": 301,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -3548,7 +3548,7 @@ for ({}.bar = x in obj);
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 205,
+                                        "kind": 301,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -3615,7 +3615,7 @@ for ({}.bar = x in obj);
                     "kind": 218,
                     "properties": [
                         {
-                            "kind": 205,
+                            "kind": 301,
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -4166,7 +4166,7 @@ for ({}.bar = x in obj);
                                         "end": 1137
                                     },
                                     "chain": {
-                                        "kind": 206,
+                                        "kind": 302,
                                         "chain": {
                                             "kind": 536871114,
                                             "chain": null,
@@ -4401,7 +4401,7 @@ for ({}.bar = x in obj);
                                     "end": 1191
                                 },
                                 "chain": {
-                                    "kind": 206,
+                                    "kind": 302,
                                     "chain": {
                                         "kind": 536871114,
                                         "chain": null,
@@ -6551,7 +6551,7 @@ for ({}.bar = x in obj);
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 134299649,
@@ -6623,7 +6623,7 @@ for ({}.bar = x in obj);
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 134299649,

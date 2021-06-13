@@ -62,7 +62,7 @@ var {a, [x]: y} = a;
                                         "end": 6
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,

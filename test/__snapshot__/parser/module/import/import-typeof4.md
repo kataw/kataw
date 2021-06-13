@@ -37,7 +37,7 @@ import typeof a * from "b";
                 "end": 13
             },
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 198,

@@ -52,7 +52,7 @@ class I<X> {
                 "end": 7
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -79,7 +79,7 @@ class I<X> {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -103,7 +103,7 @@ class I<X> {
                             "end": 17
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 17,
                             "end": 18
@@ -130,7 +130,7 @@ class I<X> {
                             "end": 23
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 23,
                             "end": 24

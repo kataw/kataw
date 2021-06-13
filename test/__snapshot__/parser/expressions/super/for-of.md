@@ -43,7 +43,7 @@ for (a?.b of c);
                 "chain": {
                     "kind": 536871114,
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,

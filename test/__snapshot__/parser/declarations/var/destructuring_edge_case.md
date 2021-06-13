@@ -43,7 +43,7 @@ var {[2]: y} = {2:3}
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,

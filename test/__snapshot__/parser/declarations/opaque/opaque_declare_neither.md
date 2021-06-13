@@ -24,7 +24,7 @@ declare opaque type Foo
     "directives": [],
     "statements": [
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,

@@ -56,7 +56,7 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
@@ -86,7 +86,7 @@ let x = a; let x = b;
                                         "end": 11
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -161,7 +161,7 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
@@ -191,7 +191,7 @@ let x = a; let x = b;
                                         "end": 38
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
@@ -272,7 +272,7 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -296,7 +296,7 @@ let x = a; let x = b;
                                         "end": 65
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -371,7 +371,7 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -395,7 +395,7 @@ let x = a; let x = b;
                                         "end": 90
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -537,7 +537,7 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -561,7 +561,7 @@ let x = a; let x = b;
                                         "end": 134
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -577,7 +577,7 @@ let x = a; let x = b;
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,
@@ -684,7 +684,7 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -700,7 +700,7 @@ let x = a; let x = b;
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,
@@ -807,7 +807,7 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -897,7 +897,7 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -921,7 +921,7 @@ let x = a; let x = b;
                                         "end": 215
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
@@ -1015,7 +1015,7 @@ let x = a; let x = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,

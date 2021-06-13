@@ -33,7 +33,7 @@ async <T>(fn: () => T) => fn;
                 "end": 25
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,

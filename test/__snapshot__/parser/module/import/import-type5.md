@@ -37,7 +37,7 @@ import type a * from "b";
             },
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 201392131,

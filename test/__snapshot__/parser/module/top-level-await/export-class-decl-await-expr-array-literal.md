@@ -216,7 +216,7 @@ export class C extends fn(await []) {};
                         "end": 118
                     },
                     "body": {
-                        "kind": 262,
+                        "kind": 303,
                         "elements": [],
                         "flags": 32,
                         "start": 120,

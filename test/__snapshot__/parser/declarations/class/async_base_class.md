@@ -55,7 +55,7 @@ async function foo() {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 9,
@@ -111,10 +111,10 @@ async function foo() {
                                     "end": 27
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -126,10 +126,10 @@ async function foo() {
                                                     "end": 33
                                                 },
                                                 "typeParameters": {
-                                                    "kind": 266,
+                                                    "kind": 309,
                                                     "parameters": [
                                                         {
-                                                            "kind": 267,
+                                                            "kind": 310,
                                                             "type": {
                                                                 "kind": 144,
                                                                 "id": {
@@ -449,7 +449,7 @@ async function foo() {
                                     "end": 152
                                 },
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [],
                                     "flags": 32,
                                     "start": 154,

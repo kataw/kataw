@@ -58,15 +58,15 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                 "arrowToken": {
                     "kind": 136,
                     "type": {
-                        "kind": 268,
+                        "kind": 311,
                         "objectType": {
-                            "kind": 268,
+                            "kind": 311,
                             "objectType": {
-                                "kind": 268,
+                                "kind": 311,
                                 "objectType": {
-                                    "kind": 268,
+                                    "kind": 311,
                                     "objectType": {
-                                        "kind": 268,
+                                        "kind": 311,
                                         "objectType": {
                                             "kind": 144,
                                             "id": {
@@ -101,7 +101,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                     "end": 13
                                                 },
                                                 {
-                                                    "kind": 268,
+                                                    "kind": 311,
                                                     "objectType": {
                                                         "kind": 144,
                                                         "id": {
@@ -303,7 +303,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                 "end": 47
                             },
                             "indexType": {
-                                "kind": 271,
+                                "kind": 313,
                                 "subtractionToken": {
                                     "kind": 134318643,
                                     "flags": 64,

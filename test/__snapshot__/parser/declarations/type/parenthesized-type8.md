@@ -74,7 +74,7 @@ type X = (x.y<>);
                         "end": 13
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [],
                         "flags": 2097152,
                         "start": 13,

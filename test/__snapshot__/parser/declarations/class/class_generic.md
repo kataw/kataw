@@ -49,7 +49,7 @@ class C<T> {
                 "end": 7
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -76,7 +76,7 @@ class C<T> {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -106,10 +106,10 @@ class C<T> {
                                         "end": 25
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 134234353,
                                                     "properties": [
@@ -176,7 +176,7 @@ class C<T> {
                             "end": 37
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 37,
                             "end": 38

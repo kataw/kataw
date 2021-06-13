@@ -38,7 +38,7 @@ class x { constructor(){ function f(){ super[bar]; } }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

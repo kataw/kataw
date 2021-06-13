@@ -162,7 +162,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
             },
             "contents": null,
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -187,10 +187,10 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                     "end": 47
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234353,
                                                 "properties": [

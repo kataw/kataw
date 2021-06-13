@@ -44,7 +44,7 @@ type MyObject<A, B, C> = {
                 "end": 13
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,

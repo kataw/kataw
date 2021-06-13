@@ -73,7 +73,7 @@ type a = (?bj[c] & a | b) => T;
                                                 "end": 11
                                             },
                                             "type": {
-                                                "kind": 268,
+                                                "kind": 311,
                                                 "objectType": {
                                                     "kind": 144,
                                                     "id": {

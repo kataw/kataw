@@ -36,7 +36,7 @@ a?.b`foo`
                 "chain": {
                     "kind": 226,
                     "member": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,

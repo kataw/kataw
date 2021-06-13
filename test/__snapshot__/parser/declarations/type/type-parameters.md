@@ -45,7 +45,7 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 7
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -116,7 +116,7 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 32
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -187,7 +187,7 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 52
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -281,7 +281,7 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 86
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -391,7 +391,7 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 123
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,

@@ -45,7 +45,7 @@ class Foo7<T> {
                 "end": 10
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -72,7 +72,7 @@ class Foo7<T> {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -94,7 +94,7 @@ class Foo7<T> {
                                     "end": 21
                                 },
                                 "typeParameters": {
-                                    "kind": 265,
+                                    "kind": 307,
                                     "typeParameters": [
                                         {
                                             "kind": 146,

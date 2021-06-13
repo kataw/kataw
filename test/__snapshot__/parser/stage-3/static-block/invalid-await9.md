@@ -105,10 +105,10 @@ class C {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
-                            "kind": 263,
+                            "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
                             "staticKeyword": null,
@@ -238,7 +238,7 @@ class C {
                                                                 "kind": 213,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 204,
+                                                                        "kind": 329,
                                                                         "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 134299649,
@@ -427,7 +427,7 @@ class C {
                                                 "kind": 277,
                                                 "classHeritage": null,
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [],
                                                     "flags": 32,
                                                     "start": 313,
@@ -561,7 +561,7 @@ class C {
                                                 "kind": 277,
                                                 "classHeritage": null,
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [
                                                         {
                                                             "kind": 280,
@@ -592,7 +592,7 @@ class C {
                                                             "end": 447
                                                         },
                                                         {
-                                                            "kind": 281,
+                                                            "kind": 317,
                                                             "flags": 96,
                                                             "start": 447,
                                                             "end": 448
@@ -626,7 +626,7 @@ class C {
                                                             "end": 473
                                                         },
                                                         {
-                                                            "kind": 281,
+                                                            "kind": 317,
                                                             "flags": 96,
                                                             "start": 473,
                                                             "end": 474
@@ -666,7 +666,7 @@ class C {
                                                             "end": 551
                                                         },
                                                         {
-                                                            "kind": 281,
+                                                            "kind": 317,
                                                             "flags": 96,
                                                             "start": 551,
                                                             "end": 552
@@ -774,7 +774,7 @@ class C {
                                                         "kind": 277,
                                                         "classHeritage": null,
                                                         "body": {
-                                                            "kind": 262,
+                                                            "kind": 303,
                                                             "elements": [],
                                                             "flags": 32,
                                                             "start": 758,

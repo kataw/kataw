@@ -84,7 +84,7 @@ function *f(){
                                             "kind": 277,
                                             "classHeritage": null,
                                             "body": {
-                                                "kind": 262,
+                                                "kind": 303,
                                                 "elements": [],
                                                 "flags": 32,
                                                 "start": 23,

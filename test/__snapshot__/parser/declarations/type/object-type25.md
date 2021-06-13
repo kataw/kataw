@@ -90,7 +90,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                 "kind": 292,
                                                                 "parameters": [
                                                                     {
-                                                                        "kind": 271,
+                                                                        "kind": 313,
                                                                         "subtractionToken": {
                                                                             "kind": 134318643,
                                                                             "flags": 64,

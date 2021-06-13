@@ -66,7 +66,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                     "end": 17
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

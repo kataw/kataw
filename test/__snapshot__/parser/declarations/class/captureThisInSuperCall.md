@@ -53,7 +53,7 @@ class B extends A {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -192,7 +192,7 @@ class B extends A {
                     "end": 56
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

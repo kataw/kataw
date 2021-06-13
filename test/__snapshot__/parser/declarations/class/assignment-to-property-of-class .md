@@ -47,7 +47,7 @@ c.m = n => n * 3;
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -121,7 +121,7 @@ c.m = n => n * 3;
                             "end": 93
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 93,
                             "end": 94

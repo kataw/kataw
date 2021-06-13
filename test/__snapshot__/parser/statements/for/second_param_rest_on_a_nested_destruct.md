@@ -31,7 +31,7 @@ for (let [x, ...[foo, bar]] = obj);
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 134299649,
@@ -52,7 +52,7 @@ for (let [x, ...[foo, bar]] = obj);
                                         "left": {
                                             "kind": 201,
                                             "elementList": {
-                                                "kind": 202,
+                                                "kind": 324,
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,

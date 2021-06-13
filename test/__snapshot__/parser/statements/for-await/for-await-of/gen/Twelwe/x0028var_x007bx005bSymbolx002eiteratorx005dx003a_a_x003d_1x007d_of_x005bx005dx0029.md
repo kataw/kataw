@@ -101,7 +101,7 @@ await (var {[Symbol.iterator]: a = 1} of []) { } }
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 194,

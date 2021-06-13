@@ -86,7 +86,7 @@ switch (0) {
                                                 "kind": 277,
                                                 "classHeritage": null,
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [
                                                         {
                                                             "kind": 278,
@@ -145,7 +145,7 @@ switch (0) {
                                                             "end": 61
                                                         },
                                                         {
-                                                            "kind": 263,
+                                                            "kind": 305,
                                                             "decorators": null,
                                                             "declaredKeyword": null,
                                                             "staticKeyword": null,

@@ -60,11 +60,11 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                     "type": {
                         "kind": 136,
                         "type": {
-                            "kind": 268,
+                            "kind": 311,
                             "objectType": {
-                                "kind": 268,
+                                "kind": 311,
                                 "objectType": {
-                                    "kind": 268,
+                                    "kind": 311,
                                     "objectType": {
                                         "kind": 144,
                                         "id": {
@@ -99,7 +99,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                 "end": 13
                                             },
                                             {
-                                                "kind": 268,
+                                                "kind": 311,
                                                 "objectType": {
                                                     "kind": 144,
                                                     "id": {
@@ -231,7 +231,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                 "end": 33
                             },
                             "indexType": {
-                                "kind": 271,
+                                "kind": 313,
                                 "subtractionToken": {
                                     "kind": 134318643,
                                     "flags": 64,

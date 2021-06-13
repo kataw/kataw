@@ -52,10 +52,10 @@ class C {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
-                            "kind": 263,
+                            "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
                             "staticKeyword": null,
@@ -322,7 +322,7 @@ class C {
 ```javascript
 
 class C {
-   ;
+
 }
 ```
 

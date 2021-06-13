@@ -38,7 +38,7 @@ class x { "construct\u{6f}r"(){} }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

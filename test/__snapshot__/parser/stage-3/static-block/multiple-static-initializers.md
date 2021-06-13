@@ -54,7 +54,7 @@ class Foo {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -90,7 +90,7 @@ class Foo {
                             "end": 30
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 30,
                             "end": 31
@@ -287,7 +287,7 @@ class Foo {
                             "end": 113
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 113,
                             "end": 114
@@ -326,7 +326,7 @@ class Foo {
                             "end": 132
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 132,
                             "end": 133
@@ -466,7 +466,7 @@ class Foo {
                             "end": 190
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 190,
                             "end": 191

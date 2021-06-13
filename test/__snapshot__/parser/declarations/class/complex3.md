@@ -77,7 +77,7 @@ var stringArr:Array<string> = ['a','b'];
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -150,10 +150,10 @@ var stringArr:Array<string> = ['a','b'];
                                                                         "end": 53
                                                                     },
                                                                     "typeParameters": {
-                                                                        "kind": 266,
+                                                                        "kind": 309,
                                                                         "parameters": [
                                                                             {
-                                                                                "kind": 267,
+                                                                                "kind": 310,
                                                                                 "type": {
                                                                                     "kind": 137,
                                                                                     "types": [
@@ -263,10 +263,10 @@ var stringArr:Array<string> = ['a','b'];
                                                                         "end": 93
                                                                     },
                                                                     "typeParameters": {
-                                                                        "kind": 266,
+                                                                        "kind": 309,
                                                                         "parameters": [
                                                                             {
-                                                                                "kind": 267,
+                                                                                "kind": 310,
                                                                                 "type": {
                                                                                     "kind": 137,
                                                                                     "types": [
@@ -444,7 +444,7 @@ var stringArr:Array<string> = ['a','b'];
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -517,10 +517,10 @@ var stringArr:Array<string> = ['a','b'];
                                                                         "end": 202
                                                                     },
                                                                     "typeParameters": {
-                                                                        "kind": 266,
+                                                                        "kind": 309,
                                                                         "parameters": [
                                                                             {
-                                                                                "kind": 267,
+                                                                                "kind": 310,
                                                                                 "type": {
                                                                                     "kind": 144,
                                                                                     "id": {
@@ -638,10 +638,10 @@ var stringArr:Array<string> = ['a','b'];
                                                                         "end": 244
                                                                     },
                                                                     "typeParameters": {
-                                                                        "kind": 266,
+                                                                        "kind": 309,
                                                                         "parameters": [
                                                                             {
-                                                                                "kind": 267,
+                                                                                "kind": 310,
                                                                                 "type": {
                                                                                     "kind": 144,
                                                                                     "id": {
@@ -748,7 +748,7 @@ var stringArr:Array<string> = ['a','b'];
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -809,7 +809,7 @@ var stringArr:Array<string> = ['a','b'];
                             "end": 297
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 297,
                             "end": 298
@@ -946,7 +946,7 @@ var stringArr:Array<string> = ['a','b'];
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -1004,7 +1004,7 @@ var stringArr:Array<string> = ['a','b'];
                             "end": 382
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 382,
                             "end": 383
@@ -1261,10 +1261,10 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 522
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 137,
                                                 "types": [
@@ -1382,10 +1382,10 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 566
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,

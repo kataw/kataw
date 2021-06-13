@@ -69,7 +69,7 @@
                             "end": 21
                         },
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [],
                             "flags": 32,
                             "start": 23,

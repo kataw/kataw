@@ -160,7 +160,7 @@ const d: string | null = c?.c;
                                 "end": 54
                             },
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -329,7 +329,7 @@ const d: string | null = c?.c;
                                 "end": 107
                             },
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -381,9 +381,9 @@ const d: string | null = c?.c;
 ```javascript
 
 const a = 1337;
-const b =  = ;
+const b = ;
 const c = 1337;
-const d =  = ;
+const d = ;
 ```
 
 ### Diagnostics

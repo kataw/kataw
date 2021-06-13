@@ -64,7 +64,7 @@ class Foo {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -315,7 +315,7 @@ class Foo {
                                                     "chain": {
                                                         "kind": 204,
                                                         "chain": {
-                                                            "kind": 206,
+                                                            "kind": 302,
                                                             "chain": {
                                                                 "kind": 536871114,
                                                                 "chain": null,
@@ -431,7 +431,7 @@ class Foo {
                                                                 "chain": {
                                                                     "kind": 536871114,
                                                                     "chain": {
-                                                                        "kind": 206,
+                                                                        "kind": 302,
                                                                         "chain": {
                                                                             "kind": 204,
                                                                             "chain": null,
@@ -489,7 +489,7 @@ class Foo {
                                                             "end": 105
                                                         },
                                                         "chain": {
-                                                            "kind": 206,
+                                                            "kind": 302,
                                                             "chain": {
                                                                 "kind": 536871114,
                                                                 "chain": null,
@@ -514,7 +514,7 @@ class Foo {
                                                         "end": 110
                                                     },
                                                     "chain": {
-                                                        "kind": 206,
+                                                        "kind": 302,
                                                         "chain": {
                                                             "kind": 204,
                                                             "chain": null,
@@ -743,7 +743,7 @@ class Foo {
                                                     "chain": {
                                                         "kind": 204,
                                                         "chain": {
-                                                            "kind": 206,
+                                                            "kind": 302,
                                                             "chain": {
                                                                 "kind": 536871114,
                                                                 "chain": null,
@@ -873,7 +873,7 @@ class Foo {
                                                                                     "chain": {
                                                                                         "kind": 536871114,
                                                                                         "chain": {
-                                                                                            "kind": 206,
+                                                                                            "kind": 302,
                                                                                             "chain": {
                                                                                                 "kind": 204,
                                                                                                 "chain": null,
@@ -931,7 +931,7 @@ class Foo {
                                                                                 "end": 206
                                                                             },
                                                                             "chain": {
-                                                                                "kind": 206,
+                                                                                "kind": 302,
                                                                                 "chain": {
                                                                                     "kind": 536871114,
                                                                                     "chain": null,
@@ -957,7 +957,7 @@ class Foo {
                                                                         "chain": {
                                                                             "kind": 536871114,
                                                                             "chain": {
-                                                                                "kind": 206,
+                                                                                "kind": 302,
                                                                                 "chain": {
                                                                                     "kind": 204,
                                                                                     "chain": null,
@@ -1017,7 +1017,7 @@ class Foo {
                                                                 "chain": {
                                                                     "kind": 536871114,
                                                                     "chain": {
-                                                                        "kind": 206,
+                                                                        "kind": 302,
                                                                         "chain": {
                                                                             "kind": 536871114,
                                                                             "chain": null,
@@ -1293,7 +1293,7 @@ class Foo {
                                                     "chain": {
                                                         "kind": 204,
                                                         "chain": {
-                                                            "kind": 206,
+                                                            "kind": 302,
                                                             "chain": {
                                                                 "kind": 536871114,
                                                                 "chain": null,
@@ -1423,7 +1423,7 @@ class Foo {
                                                                                     "chain": {
                                                                                         "kind": 536871114,
                                                                                         "chain": {
-                                                                                            "kind": 206,
+                                                                                            "kind": 302,
                                                                                             "chain": {
                                                                                                 "kind": 204,
                                                                                                 "chain": null,
@@ -1481,7 +1481,7 @@ class Foo {
                                                                                 "end": 342
                                                                             },
                                                                             "chain": {
-                                                                                "kind": 206,
+                                                                                "kind": 302,
                                                                                 "chain": {
                                                                                     "kind": 536871114,
                                                                                     "chain": null,
@@ -1507,7 +1507,7 @@ class Foo {
                                                                         "chain": {
                                                                             "kind": 536871114,
                                                                             "chain": {
-                                                                                "kind": 206,
+                                                                                "kind": 302,
                                                                                 "chain": {
                                                                                     "kind": 204,
                                                                                     "chain": null,
@@ -1567,7 +1567,7 @@ class Foo {
                                                                 "chain": {
                                                                     "kind": 536871114,
                                                                     "chain": {
-                                                                        "kind": 206,
+                                                                        "kind": 302,
                                                                         "chain": {
                                                                             "kind": 536871114,
                                                                             "chain": null,
@@ -1702,19 +1702,19 @@ class Foo {
     a().foo;
     b().foo(x);
     c()?.(x);
-     = ?.(x);
+    ?.(x);
   }
   privateField() {
     a().#field;
     b().#field(x);
     c()?.(x);
-     = (x).bar();
+    (x).bar();
   }
   privateMethod() {
     a().#method;
     b().#method(x);
     c()?.(x);
-     = (x).bar();
+    (x).bar();
   }
 }
 ```

@@ -53,7 +53,7 @@ new Foo();
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -165,7 +165,7 @@ new Foo();
                             "end": 64
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 64,
                             "end": 65

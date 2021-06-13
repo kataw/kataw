@@ -38,28 +38,28 @@ class A {; ;; ;}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 9,
                             "end": 10
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 10,
                             "end": 12
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 12,
                             "end": 13
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 13,
                             "end": 15

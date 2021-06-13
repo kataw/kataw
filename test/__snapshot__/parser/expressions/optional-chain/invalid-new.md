@@ -42,7 +42,7 @@ new obj?.()
                         "end": 7
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 204,
                             "chain": null,

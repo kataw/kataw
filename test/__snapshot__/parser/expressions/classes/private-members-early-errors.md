@@ -48,7 +48,7 @@ class C { foo() { this.#a = 1; }}
                             "kind": 277,
                             "classHeritage": null,
                             "body": {
-                                "kind": 262,
+                                "kind": 303,
                                 "elements": [
                                     {
                                         "kind": 278,
@@ -195,7 +195,7 @@ class C { foo() { this.#a = 1; }}
                                 "kind": 277,
                                 "classHeritage": null,
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [
                                         {
                                             "kind": 278,
@@ -354,7 +354,7 @@ class C { foo() { this.#a = 1; }}
                     "end": 104
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -475,7 +475,7 @@ class C { foo() { this.#a = 1; }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

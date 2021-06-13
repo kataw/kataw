@@ -170,7 +170,7 @@ type T = <
                                     "end": 47
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [],
                                     "flags": 2097152,
                                     "start": 47,
@@ -299,7 +299,7 @@ type T = <
                 "end": 133
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [],
                 "flags": 2097152,
                 "start": 113,
@@ -349,7 +349,7 @@ type T = <
                             "kind": 271,
                             "arrowToken": null,
                             "typeParameters": {
-                                "kind": 265,
+                                "kind": 307,
                                 "typeParameters": [],
                                 "flags": 2097153,
                                 "start": 150,
@@ -472,7 +472,7 @@ type T = <
                     "end": 220
                 },
                 "typeParameters": {
-                    "kind": 265,
+                    "kind": 307,
                     "typeParameters": [],
                     "flags": 2097152,
                     "start": 192,
@@ -574,7 +574,7 @@ type T = <
                                     "end": 272
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [],
                                     "flags": 2097152,
                                     "start": 272,
@@ -703,7 +703,7 @@ type T = <
                 "end": 367
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [],
                 "flags": 2097152,
                 "start": 344,
@@ -753,7 +753,7 @@ type T = <
                             "kind": 271,
                             "arrowToken": null,
                             "typeParameters": {
-                                "kind": 265,
+                                "kind": 307,
                                 "typeParameters": [
                                     {
                                         "kind": 146,
@@ -893,7 +893,7 @@ type T = <
                     "end": 462
                 },
                 "typeParameters": {
-                    "kind": 265,
+                    "kind": 307,
                     "typeParameters": [],
                     "flags": 2097152,
                     "start": 431,

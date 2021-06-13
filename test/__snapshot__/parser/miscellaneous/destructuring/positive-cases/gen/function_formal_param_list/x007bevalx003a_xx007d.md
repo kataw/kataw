@@ -51,7 +51,7 @@ function f({eval: x}) {}
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,

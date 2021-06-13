@@ -84,7 +84,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "kind": 277,
                                                 "classHeritage": null,
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [
                                                         {
                                                             "kind": 278,
@@ -194,7 +194,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "kind": 277,
                                                 "classHeritage": null,
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [],
                                                     "flags": 32,
                                                     "start": 38,
@@ -240,7 +240,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "kind": 277,
                                                 "classHeritage": null,
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [],
                                                     "flags": 32,
                                                     "start": 19,

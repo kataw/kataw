@@ -48,10 +48,10 @@ class C {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
-                            "kind": 263,
+                            "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
                             "staticKeyword": null,
@@ -99,7 +99,7 @@ class C {
                                                                                 "binding": {
                                                                                     "kind": 201,
                                                                                     "elementList": {
-                                                                                        "kind": 202,
+                                                                                        "kind": 324,
                                                                                         "elements": [
                                                                                             {
                                                                                                 "kind": 134299649,
@@ -210,7 +210,7 @@ class C {
 ```javascript
 
 class C {
-   ;
+
 }
 ```
 

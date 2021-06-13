@@ -42,7 +42,7 @@ obj?.a?.b
                         "end": 3
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,
@@ -67,7 +67,7 @@ obj?.a?.b
                     "end": 6
                 },
                 "chain": {
-                    "kind": 206,
+                    "kind": 302,
                     "chain": {
                         "kind": 536871114,
                         "chain": null,
@@ -109,7 +109,7 @@ obj?.a?.b
 
 ```javascript
 
- = ?.;
+?.;
 ```
 
 ### Diagnostics

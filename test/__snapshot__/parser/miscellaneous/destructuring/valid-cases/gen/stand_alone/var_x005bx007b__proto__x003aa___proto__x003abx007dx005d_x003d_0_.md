@@ -40,7 +40,7 @@ var [{__proto__:a, __proto__:b}] = 0;
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 212,
@@ -48,7 +48,7 @@ var [{__proto__:a, __proto__:b}] = 0;
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 204,
+                                                    "kind": 329,
                                                     "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 134299649,
@@ -72,7 +72,7 @@ var [{__proto__:a, __proto__:b}] = 0;
                                                     "end": 17
                                                 },
                                                 {
-                                                    "kind": 204,
+                                                    "kind": 329,
                                                     "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 134299649,

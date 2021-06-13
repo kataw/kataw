@@ -35,7 +35,7 @@ var { ...{ x = 5 } } = {x : 1};
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,

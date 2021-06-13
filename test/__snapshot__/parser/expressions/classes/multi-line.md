@@ -84,7 +84,7 @@ class C extends (
                     "end": 28
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 30,

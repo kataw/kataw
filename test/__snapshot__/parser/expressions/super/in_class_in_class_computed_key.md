@@ -64,7 +64,7 @@ class A extends B {
                     "end": 17
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -144,7 +144,7 @@ class A extends B {
                                                         "end": 49
                                                     },
                                                     "body": {
-                                                        "kind": 262,
+                                                        "kind": 303,
                                                         "elements": [
                                                             {
                                                                 "kind": 278,

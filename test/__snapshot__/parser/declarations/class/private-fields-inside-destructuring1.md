@@ -50,7 +50,7 @@ class Test {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -81,7 +81,7 @@ class Test {
                             "end": 22
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 22,
                             "end": 23
@@ -121,7 +121,7 @@ class Test {
                             "end": 34
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 34,
                             "end": 35
@@ -155,7 +155,7 @@ class Test {
                             "end": 44
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 44,
                             "end": 45

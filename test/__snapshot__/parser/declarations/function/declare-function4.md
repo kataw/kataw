@@ -75,10 +75,10 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                     "end": 35
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234353,
                                                 "properties": [

@@ -58,7 +58,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                     "end": 17
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

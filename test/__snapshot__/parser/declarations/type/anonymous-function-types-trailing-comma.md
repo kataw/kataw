@@ -72,10 +72,10 @@ type A = (Array<string>,) => void
                                     "end": 15
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,

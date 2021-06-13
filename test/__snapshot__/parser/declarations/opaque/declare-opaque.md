@@ -26,7 +26,7 @@ declare var a: A;
     "directives": [],
     "statements": [
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,
@@ -67,7 +67,7 @@ declare var a: A;
             "end": 22
         },
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,

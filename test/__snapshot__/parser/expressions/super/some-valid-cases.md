@@ -89,7 +89,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "end": 17
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 19,
@@ -146,7 +146,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "end": 40
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -255,7 +255,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "end": 69
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -377,7 +377,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -499,7 +499,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -621,7 +621,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -887,7 +887,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -1009,7 +1009,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -1131,7 +1131,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -1539,7 +1539,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "end": 414
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -1729,7 +1729,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "end": 478
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -1873,7 +1873,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -2017,7 +2017,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

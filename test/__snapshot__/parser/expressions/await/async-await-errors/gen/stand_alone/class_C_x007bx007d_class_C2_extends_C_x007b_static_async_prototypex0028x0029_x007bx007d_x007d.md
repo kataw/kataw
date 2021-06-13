@@ -46,7 +46,7 @@ class C {}; class C2 extends C { static async prototype() {} }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 9,
@@ -109,7 +109,7 @@ class C {}; class C2 extends C { static async prototype() {} }
                     "end": 30
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

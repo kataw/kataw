@@ -51,7 +51,7 @@ function f({ __proto__: x, __proto__: y, ...z}) {}
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
@@ -75,7 +75,7 @@ function f({ __proto__: x, __proto__: y, ...z}) {}
                                     "end": 25
                                 },
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,

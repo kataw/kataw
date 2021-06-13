@@ -62,7 +62,7 @@ type a = (bj[c], a | b) => T;
                             "kind": 149,
                             "ellipsisToken": null,
                             "name": {
-                                "kind": 268,
+                                "kind": 311,
                                 "objectType": {
                                     "kind": 144,
                                     "id": {

@@ -41,7 +41,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -65,7 +65,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "end": 17
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 17,
                             "end": 18
@@ -195,7 +195,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -219,7 +219,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "end": 65
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 65,
                             "end": 66
@@ -284,7 +284,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                             "end": 86
                                                         },
                                                         "chain": {
-                                                            "kind": 206,
+                                                            "kind": 302,
                                                             "chain": {
                                                                 "kind": 536871114,
                                                                 "chain": null,

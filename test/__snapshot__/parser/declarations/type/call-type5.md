@@ -58,10 +58,10 @@ type F = $Call<Fn1, number, string>;
                     "end": 14
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -82,7 +82,7 @@ type F = $Call<Fn1, number, string>;
                             "end": 18
                         },
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -94,7 +94,7 @@ type F = $Call<Fn1, number, string>;
                             "end": 26
                         },
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,

@@ -58,7 +58,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                     "end": 17
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

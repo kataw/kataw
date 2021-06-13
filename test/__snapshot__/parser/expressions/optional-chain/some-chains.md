@@ -58,7 +58,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": {
-                                        "kind": 206,
+                                        "kind": 302,
                                         "chain": {
                                             "kind": 536871114,
                                             "chain": null,
@@ -191,7 +191,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "end": 18
                                 },
                                 "chain": {
-                                    "kind": 206,
+                                    "kind": 302,
                                     "chain": {
                                         "kind": 536871114,
                                         "chain": null,
@@ -216,7 +216,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "end": 21
                             },
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -241,7 +241,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 24
                         },
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -268,7 +268,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "chain": {
                         "kind": 536871114,
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -393,7 +393,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "end": 42
                                 },
                                 "chain": {
-                                    "kind": 206,
+                                    "kind": 302,
                                     "chain": {
                                         "kind": 536871114,
                                         "chain": null,
@@ -418,7 +418,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "end": 45
                             },
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -443,7 +443,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 48
                         },
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -470,7 +470,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "chain": {
                         "kind": 536871114,
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -589,7 +589,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "end": 64
                                     },
                                     "chain": {
-                                        "kind": 206,
+                                        "kind": 302,
                                         "chain": {
                                             "kind": 204,
                                             "chain": null,
@@ -623,7 +623,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "end": 69
                                 },
                                 "chain": {
-                                    "kind": 206,
+                                    "kind": 302,
                                     "chain": {
                                         "kind": 536871114,
                                         "chain": null,
@@ -648,7 +648,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "end": 72
                             },
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -673,7 +673,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 75
                         },
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -700,7 +700,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "chain": {
                         "kind": 536871114,
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -783,7 +783,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "chain": {
                                         "kind": 536871114,
                                         "chain": {
-                                            "kind": 206,
+                                            "kind": 302,
                                             "chain": {
                                                 "kind": 536871114,
                                                 "chain": null,
@@ -922,7 +922,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "end": 109
                                     },
                                     "chain": {
-                                        "kind": 206,
+                                        "kind": 302,
                                         "chain": {
                                             "kind": 536871114,
                                             "chain": null,
@@ -947,7 +947,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "end": 112
                                 },
                                 "chain": {
-                                    "kind": 206,
+                                    "kind": 302,
                                     "chain": {
                                         "kind": 536871114,
                                         "chain": null,
@@ -976,7 +976,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 116
                         },
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -1003,7 +1003,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "chain": {
                         "kind": 536871114,
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -1134,7 +1134,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "end": 136
                                 },
                                 "chain": {
-                                    "kind": 206,
+                                    "kind": 302,
                                     "chain": {
                                         "kind": 536871114,
                                         "chain": null,
@@ -1159,7 +1159,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "end": 139
                             },
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -1184,7 +1184,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 142
                         },
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -1211,7 +1211,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "chain": {
                         "kind": 536871114,
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -1332,7 +1332,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                             "end": 159
                                         },
                                         "chain": {
-                                            "kind": 206,
+                                            "kind": 302,
                                             "chain": {
                                                 "kind": 204,
                                                 "chain": null,
@@ -1366,7 +1366,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "end": 164
                                     },
                                     "chain": {
-                                        "kind": 206,
+                                        "kind": 302,
                                         "chain": {
                                             "kind": 536871114,
                                             "chain": null,
@@ -1395,7 +1395,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "end": 168
                             },
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -1420,7 +1420,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "end": 171
                         },
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -1447,7 +1447,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "chain": {
                         "kind": 536871114,
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -1513,14 +1513,14 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
 
 ```javascript
 
- = .x.x.x.x;
- = .x;
- = .x;
- = .x;
-( = .x).x.x.x;
- = .x;
- = .x;
- = .x;
+.x.x.x.x;
+.x;
+.x;
+.x;
+(.x).x.x.x;
+.x;
+.x;
+.x;
 ```
 
 ### Diagnostics

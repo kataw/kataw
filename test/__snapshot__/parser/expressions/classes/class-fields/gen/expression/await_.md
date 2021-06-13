@@ -66,7 +66,7 @@ class C extends Base { await; }
                     "end": 20
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -90,7 +90,7 @@ class C extends Base { await; }
                             "end": 28
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 28,
                             "end": 29

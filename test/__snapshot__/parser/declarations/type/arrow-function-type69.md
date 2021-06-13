@@ -85,9 +85,9 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                     "type": {
                                                         "kind": 136,
                                                         "type": {
-                                                            "kind": 268,
+                                                            "kind": 311,
                                                             "objectType": {
-                                                                "kind": 268,
+                                                                "kind": 311,
                                                                 "objectType": {
                                                                     "kind": 134234343,
                                                                     "flags": 64,
@@ -177,7 +177,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                         "type": {
                                                                                                             "kind": 136,
                                                                                                             "type": {
-                                                                                                                "kind": 268,
+                                                                                                                "kind": 311,
                                                                                                                 "objectType": {
                                                                                                                     "kind": 134234343,
                                                                                                                     "flags": 64,

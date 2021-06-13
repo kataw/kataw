@@ -75,7 +75,7 @@ a=function<T,S>() {}
                         "end": 20
                     },
                     "typeParameters": {
-                        "kind": 265,
+                        "kind": 307,
                         "typeParameters": [
                             {
                                 "kind": 146,

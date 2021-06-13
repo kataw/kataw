@@ -93,10 +93,10 @@ class C {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
-                            "kind": 263,
+                            "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
                             "staticKeyword": null,
@@ -184,7 +184,7 @@ class C {
                                                 "kind": 277,
                                                 "classHeritage": null,
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [
                                                         {
                                                             "kind": 280,
@@ -215,7 +215,7 @@ class C {
                                                             "end": 95
                                                         },
                                                         {
-                                                            "kind": 281,
+                                                            "kind": 317,
                                                             "flags": 96,
                                                             "start": 95,
                                                             "end": 96
@@ -249,7 +249,7 @@ class C {
                                                             "end": 121
                                                         },
                                                         {
-                                                            "kind": 281,
+                                                            "kind": 317,
                                                             "flags": 96,
                                                             "start": 121,
                                                             "end": 122
@@ -289,7 +289,7 @@ class C {
                                                             "end": 199
                                                         },
                                                         {
-                                                            "kind": 281,
+                                                            "kind": 317,
                                                             "flags": 96,
                                                             "start": 199,
                                                             "end": 200
@@ -355,7 +355,7 @@ class C {
 
 let await;
 class C {
-   ;
+
 }
 ```
 

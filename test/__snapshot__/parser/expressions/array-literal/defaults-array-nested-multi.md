@@ -51,7 +51,7 @@ var [x = 10, [ z ]] = a;
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 281,
@@ -81,7 +81,7 @@ var [x = 10, [ z ]] = a;
                                     {
                                         "kind": 201,
                                         "elementList": {
-                                            "kind": 202,
+                                            "kind": 324,
                                             "elements": [
                                                 {
                                                     "kind": 134299649,

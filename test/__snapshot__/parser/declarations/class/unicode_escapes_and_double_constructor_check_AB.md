@@ -46,7 +46,7 @@ class x { \u0063onstructor(){}; constructor(){} }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -100,7 +100,7 @@ class x { \u0063onstructor(){}; constructor(){} }
                             "end": 30
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 30,
                             "end": 31

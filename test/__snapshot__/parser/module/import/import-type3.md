@@ -32,7 +32,7 @@ import { type Foo12 } from "bar";
             "typeKeyword": null,
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,

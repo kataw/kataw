@@ -51,7 +51,7 @@ class B<X> {
                 "end": 7
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -78,7 +78,7 @@ class B<X> {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -122,7 +122,7 @@ class B<X> {
                             "end": 19
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 19,
                             "end": 20

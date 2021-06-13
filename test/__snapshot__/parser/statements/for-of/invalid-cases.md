@@ -477,7 +477,7 @@ for ({a: b.c}-- of d) e;
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 0,
@@ -540,7 +540,7 @@ for ({a: b.c}-- of d) e;
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 281,
@@ -2838,7 +2838,7 @@ for ({a: b.c}-- of d) e;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -5079,7 +5079,7 @@ for ({a: b.c}-- of d) e;
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 134299649,

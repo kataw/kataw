@@ -48,11 +48,11 @@ type C = Obj['bar'][foo]['boz'];
                 "end": 8
             },
             "type": {
-                "kind": 268,
+                "kind": 311,
                 "objectType": {
-                    "kind": 268,
+                    "kind": 311,
                     "objectType": {
-                        "kind": 268,
+                        "kind": 311,
                         "objectType": {
                             "kind": 144,
                             "id": {

@@ -38,7 +38,7 @@ x?.y = 0;
                         "end": 1
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 203,
                             "chain": null,
@@ -105,7 +105,7 @@ x?.y = 0;
                         "end": 14
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,

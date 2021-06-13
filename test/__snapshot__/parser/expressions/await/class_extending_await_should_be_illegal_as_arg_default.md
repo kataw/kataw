@@ -132,7 +132,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                     "end": 56
                                                 },
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [],
                                                     "flags": 32,
                                                     "start": 58,

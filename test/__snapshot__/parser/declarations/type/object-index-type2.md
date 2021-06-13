@@ -62,7 +62,7 @@ type X = {[bj[c] & a | b]: string};
                                     "kind": 138,
                                     "types": [
                                         {
-                                            "kind": 268,
+                                            "kind": 311,
                                             "objectType": {
                                                 "kind": 144,
                                                 "id": {

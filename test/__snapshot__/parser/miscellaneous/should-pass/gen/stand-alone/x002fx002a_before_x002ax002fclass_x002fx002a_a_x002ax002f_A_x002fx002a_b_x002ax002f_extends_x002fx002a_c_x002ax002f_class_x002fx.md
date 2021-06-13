@@ -74,7 +74,7 @@
                             "kind": 277,
                             "classHeritage": null,
                             "body": {
-                                "kind": 262,
+                                "kind": 303,
                                 "elements": [],
                                 "flags": 32,
                                 "start": 77,
@@ -94,7 +94,7 @@
                     "end": 87
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 97,

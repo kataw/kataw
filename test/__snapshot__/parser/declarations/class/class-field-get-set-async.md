@@ -46,7 +46,7 @@ class C { get; set; static; async }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -70,7 +70,7 @@ class C { get; set; static; async }
                             "end": 13
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 13,
                             "end": 14
@@ -97,7 +97,7 @@ class C { get; set; static; async }
                             "end": 18
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 18,
                             "end": 19
@@ -124,7 +124,7 @@ class C { get; set; static; async }
                             "end": 26
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 26,
                             "end": 27

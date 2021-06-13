@@ -1147,10 +1147,10 @@ function foo28(numVal?: number = 2) {}
                                                     "end": 480
                                                 },
                                                 "typeParameters": {
-                                                    "kind": 266,
+                                                    "kind": 309,
                                                     "parameters": [
                                                         {
-                                                            "kind": 267,
+                                                            "kind": 310,
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
@@ -1692,7 +1692,7 @@ function foo28(numVal?: number = 2) {}
                 "end": 685
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -1868,7 +1868,7 @@ function foo28(numVal?: number = 2) {}
                         "left": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 134299649,
@@ -1902,10 +1902,10 @@ function foo28(numVal?: number = 2) {}
                                     "end": 750
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
@@ -2012,10 +2012,10 @@ function foo28(numVal?: number = 2) {}
                                     "end": 792
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,

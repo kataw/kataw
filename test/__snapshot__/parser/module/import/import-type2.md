@@ -37,7 +37,7 @@ import type foo24 from "bar";
             },
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,

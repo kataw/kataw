@@ -46,7 +46,7 @@ class Foo { static x = class { y = this } }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -84,7 +84,7 @@ class Foo { static x = class { y = this } }
                                     "kind": 277,
                                     "classHeritage": null,
                                     "body": {
-                                        "kind": 262,
+                                        "kind": 303,
                                         "elements": [
                                             {
                                                 "kind": 280,

@@ -56,7 +56,7 @@ type a = (bj[c]) => T;
                     "end": 19
                 },
                 "arrowToken": {
-                    "kind": 268,
+                    "kind": 311,
                     "objectType": {
                         "kind": 144,
                         "id": {

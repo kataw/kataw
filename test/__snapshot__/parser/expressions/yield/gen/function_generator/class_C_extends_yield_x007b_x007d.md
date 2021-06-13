@@ -137,7 +137,7 @@ function * gen() { function not_gen() { class C extends yield { } }}
                                                     "end": 61
                                                 },
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [],
                                                     "flags": 32,
                                                     "start": 63,

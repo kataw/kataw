@@ -134,7 +134,7 @@ type X = (x | y & z, q[t]) => T;
                             "name": null,
                             "optionalToken": null,
                             "types": {
-                                "kind": 268,
+                                "kind": 311,
                                 "objectType": {
                                     "kind": 144,
                                     "id": {

@@ -64,7 +64,7 @@ type T = { [string]: Class<null> }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 9,
@@ -101,7 +101,7 @@ type T = { [string]: Class<null> }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -255,10 +255,10 @@ type T = { [string]: Class<null> }
                                     "end": 72
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -406,7 +406,7 @@ type T = { [string]: Class<null> }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -545,7 +545,7 @@ type T = { [string]: Class<null> }
                     "end": 165
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -701,10 +701,10 @@ type T = { [string]: Class<null> }
                                 "end": 222
                             },
                             "typeParameters": {
-                                "kind": 266,
+                                "kind": 309,
                                 "parameters": [
                                     {
-                                        "kind": 267,
+                                        "kind": 310,
                                         "type": {
                                             "kind": 138477575,
                                             "flags": 2097216,

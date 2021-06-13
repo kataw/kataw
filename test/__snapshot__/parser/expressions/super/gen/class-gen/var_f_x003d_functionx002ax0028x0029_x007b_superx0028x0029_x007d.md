@@ -46,7 +46,7 @@ class C { *method() { var f = function*() { super(); } } }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

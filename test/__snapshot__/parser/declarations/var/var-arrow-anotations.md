@@ -156,10 +156,10 @@ class Array { concat(items:number | string) {}; }
                                     "end": 28
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
@@ -171,7 +171,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 35
                                         },
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -183,10 +183,10 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 42
                                                 },
                                                 "typeParameters": {
-                                                    "kind": 266,
+                                                    "kind": 309,
                                                     "parameters": [
                                                         {
-                                                            "kind": 267,
+                                                            "kind": 310,
                                                             "type": {
                                                                 "kind": 134234347,
                                                                 "flags": 2097216,
@@ -305,10 +305,10 @@ class Array { concat(items:number | string) {}; }
                                     "end": 64
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
@@ -320,7 +320,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 71
                                         },
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -332,10 +332,10 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 78
                                                 },
                                                 "typeParameters": {
-                                                    "kind": 266,
+                                                    "kind": 309,
                                                     "parameters": [
                                                         {
-                                                            "kind": 267,
+                                                            "kind": 310,
                                                             "type": {
                                                                 "kind": 134234347,
                                                                 "flags": 2097216,
@@ -1531,7 +1531,7 @@ class Array { concat(items:number | string) {}; }
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 134299649,
@@ -1565,10 +1565,10 @@ class Array { concat(items:number | string) {}; }
                                     "end": 533
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
@@ -2194,7 +2194,7 @@ class Array { concat(items:number | string) {}; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -2292,7 +2292,7 @@ class Array { concat(items:number | string) {}; }
                             "end": 780
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 780,
                             "end": 781

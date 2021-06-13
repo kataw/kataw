@@ -65,7 +65,7 @@ class extends {}
                     "end": 16
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 5,

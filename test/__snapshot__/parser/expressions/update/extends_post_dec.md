@@ -70,7 +70,7 @@ class x extends a-- {}
                     "end": 19
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 21,

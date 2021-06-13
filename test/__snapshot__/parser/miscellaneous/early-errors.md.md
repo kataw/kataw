@@ -181,7 +181,7 @@ try {} catch(e) { for(var e of 0); };
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 205,
+                                "kind": 301,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -2775,7 +2775,7 @@ try {} catch(e) { for(var e of 0); };
                     "end": 3244
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -2999,7 +2999,7 @@ try {} catch(e) { for(var e of 0); };
                     "end": 3315
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -3228,7 +3228,7 @@ try {} catch(e) { for(var e of 0); };
                     "end": 3387
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -3457,7 +3457,7 @@ try {} catch(e) { for(var e of 0); };
                     "end": 3462
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -3839,7 +3839,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 205,
+                                    "kind": 301,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "eval",
@@ -3991,7 +3991,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 205,
+                                    "kind": 301,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -5050,7 +5050,7 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 204,
+                                                    "kind": 329,
                                                     "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 194,

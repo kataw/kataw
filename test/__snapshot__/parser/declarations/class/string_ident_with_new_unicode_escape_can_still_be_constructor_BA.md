@@ -46,7 +46,7 @@ class x { constructor(){}; "constructor"(){}; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -100,7 +100,7 @@ class x { constructor(){}; "constructor"(){}; }
                             "end": 25
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 25,
                             "end": 26
@@ -157,7 +157,7 @@ class x { constructor(){}; "constructor"(){}; }
                             "end": 44
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 44,
                             "end": 45

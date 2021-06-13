@@ -64,7 +64,7 @@ s = {"foo": yield a = x} = x
                                     "end": 17
                                 },
                                 {
-                                    "kind": 205,
+                                    "kind": 301,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",

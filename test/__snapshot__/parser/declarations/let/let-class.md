@@ -31,7 +31,7 @@ let[{}=class{}]=null
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 281,
@@ -67,7 +67,7 @@ let[{}=class{}]=null
                                                 "kind": 277,
                                                 "classHeritage": null,
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [],
                                                     "flags": 32,
                                                     "start": 13,

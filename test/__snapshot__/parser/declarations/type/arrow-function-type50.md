@@ -56,7 +56,7 @@ type a = (a[-1]) => T;
                     "end": 19
                 },
                 "arrowToken": {
-                    "kind": 268,
+                    "kind": 311,
                     "objectType": {
                         "kind": 144,
                         "id": {
@@ -73,7 +73,7 @@ type a = (a[-1]) => T;
                         "end": 11
                     },
                     "indexType": {
-                        "kind": 271,
+                        "kind": 313,
                         "subtractionToken": {
                             "kind": 134318643,
                             "flags": 64,

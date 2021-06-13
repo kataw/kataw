@@ -37,7 +37,7 @@ x?.['y z']();
                     "end": 1
                 },
                 "chain": {
-                    "kind": 206,
+                    "kind": 302,
                     "chain": {
                         "kind": 203,
                         "chain": null,
@@ -86,7 +86,7 @@ x?.['y z']();
                 "chain": {
                     "kind": 204,
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 203,
                             "chain": null,
@@ -147,7 +147,7 @@ x?.['y z']();
                 "chain": {
                     "kind": 204,
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 203,
                             "chain": null,

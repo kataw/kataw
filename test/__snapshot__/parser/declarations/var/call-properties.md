@@ -135,7 +135,7 @@ var a: { <T>(x: T): number; };
                                         "kind": 196,
                                         "protoKeyword": null,
                                         "typeParameter": {
-                                            "kind": 265,
+                                            "kind": 307,
                                             "typeParameters": [
                                                 {
                                                     "kind": 146,
@@ -561,7 +561,7 @@ var a: { <T>(x: T): number; };
                                         "kind": 196,
                                         "protoKeyword": null,
                                         "typeParameter": {
-                                            "kind": 265,
+                                            "kind": 307,
                                             "typeParameters": [
                                                 {
                                                     "kind": 146,

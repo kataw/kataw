@@ -136,7 +136,7 @@ class x { #foo() {}}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -221,7 +221,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -314,7 +314,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -411,7 +411,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -517,7 +517,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -614,7 +614,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -711,7 +711,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -813,7 +813,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -957,7 +957,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -1118,7 +1118,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -1334,7 +1334,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -1614,7 +1614,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -1784,7 +1784,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -1936,7 +1936,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -2085,7 +2085,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -2229,7 +2229,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -2429,7 +2429,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -2643,7 +2643,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -2884,7 +2884,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3032,7 +3032,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3180,7 +3180,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3333,7 +3333,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3426,7 +3426,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3519,7 +3519,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3612,7 +3612,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3705,7 +3705,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3798,7 +3798,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3891,7 +3891,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -3984,7 +3984,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4081,7 +4081,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4178,7 +4178,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4275,7 +4275,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4372,7 +4372,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4469,7 +4469,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4566,7 +4566,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4672,7 +4672,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4778,7 +4778,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4884,7 +4884,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -4990,7 +4990,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5096,7 +5096,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5202,7 +5202,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5299,7 +5299,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5396,7 +5396,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5493,7 +5493,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5590,7 +5590,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5687,7 +5687,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5784,7 +5784,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5881,7 +5881,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -5978,7 +5978,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6075,7 +6075,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6172,7 +6172,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6269,7 +6269,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6366,7 +6366,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6463,7 +6463,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6560,7 +6560,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6662,7 +6662,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6764,7 +6764,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6866,7 +6866,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -6968,7 +6968,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -7070,7 +7070,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -7172,7 +7172,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -7274,7 +7274,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -7298,7 +7298,7 @@ class x { #foo() {}}
                                     "end": 1902
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 1902,
                                     "end": 1903
@@ -7394,7 +7394,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -7418,7 +7418,7 @@ class x { #foo() {}}
                                     "end": 1926
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 1926,
                                     "end": 1927
@@ -7518,7 +7518,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -7542,7 +7542,7 @@ class x { #foo() {}}
                                     "end": 1954
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 1954,
                                     "end": 1955
@@ -7651,7 +7651,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -7675,7 +7675,7 @@ class x { #foo() {}}
                                     "end": 1985
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 1985,
                                     "end": 1986
@@ -7775,7 +7775,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -7799,7 +7799,7 @@ class x { #foo() {}}
                                     "end": 2010
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2010,
                                     "end": 2011
@@ -7899,7 +7899,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -7923,7 +7923,7 @@ class x { #foo() {}}
                                     "end": 2040
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2040,
                                     "end": 2041
@@ -8028,7 +8028,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -8059,7 +8059,7 @@ class x { #foo() {}}
                                     "end": 2075
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2075,
                                     "end": 2076
@@ -8155,7 +8155,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -8186,7 +8186,7 @@ class x { #foo() {}}
                                     "end": 2103
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2103,
                                     "end": 2104
@@ -8286,7 +8286,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -8317,7 +8317,7 @@ class x { #foo() {}}
                                     "end": 2135
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2135,
                                     "end": 2136
@@ -8426,7 +8426,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -8457,7 +8457,7 @@ class x { #foo() {}}
                                     "end": 2170
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2170,
                                     "end": 2171
@@ -8557,7 +8557,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -8588,7 +8588,7 @@ class x { #foo() {}}
                                     "end": 2199
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2199,
                                     "end": 2200
@@ -8688,7 +8688,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -8719,7 +8719,7 @@ class x { #foo() {}}
                                     "end": 2233
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2233,
                                     "end": 2234
@@ -8824,7 +8824,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -8848,7 +8848,7 @@ class x { #foo() {}}
                                     "end": 2263
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2263,
                                     "end": 2264
@@ -8944,7 +8944,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -8968,7 +8968,7 @@ class x { #foo() {}}
                                     "end": 2286
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2286,
                                     "end": 2287
@@ -9068,7 +9068,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -9092,7 +9092,7 @@ class x { #foo() {}}
                                     "end": 2313
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2313,
                                     "end": 2314
@@ -9201,7 +9201,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -9225,7 +9225,7 @@ class x { #foo() {}}
                                     "end": 2343
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2343,
                                     "end": 2344
@@ -9325,7 +9325,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -9349,7 +9349,7 @@ class x { #foo() {}}
                                     "end": 2367
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2367,
                                     "end": 2368
@@ -9449,7 +9449,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -9473,7 +9473,7 @@ class x { #foo() {}}
                                     "end": 2396
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2396,
                                     "end": 2397
@@ -9578,7 +9578,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -9609,7 +9609,7 @@ class x { #foo() {}}
                                     "end": 2430
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2430,
                                     "end": 2431
@@ -9705,7 +9705,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -9736,7 +9736,7 @@ class x { #foo() {}}
                                     "end": 2457
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2457,
                                     "end": 2458
@@ -9836,7 +9836,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -9867,7 +9867,7 @@ class x { #foo() {}}
                                     "end": 2488
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2488,
                                     "end": 2489
@@ -9976,7 +9976,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -10007,7 +10007,7 @@ class x { #foo() {}}
                                     "end": 2522
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2522,
                                     "end": 2523
@@ -10107,7 +10107,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -10138,7 +10138,7 @@ class x { #foo() {}}
                                     "end": 2550
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2550,
                                     "end": 2551
@@ -10238,7 +10238,7 @@ class x { #foo() {}}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -10269,7 +10269,7 @@ class x { #foo() {}}
                                     "end": 2583
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 2583,
                                     "end": 2584

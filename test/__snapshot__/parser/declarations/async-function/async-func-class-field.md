@@ -95,7 +95,7 @@ async function f() { class C { aaa = await } }
                                 "kind": 277,
                                 "classHeritage": null,
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [
                                         {
                                             "kind": 280,

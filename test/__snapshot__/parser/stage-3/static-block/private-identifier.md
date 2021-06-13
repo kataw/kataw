@@ -53,7 +53,7 @@ class C {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -82,7 +82,7 @@ class C {
                             "end": 21
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 21,
                             "end": 22
@@ -145,10 +145,10 @@ class C {
                                                     "kind": 277,
                                                     "classHeritage": null,
                                                     "body": {
-                                                        "kind": 262,
+                                                        "kind": 303,
                                                         "elements": [
                                                             {
-                                                                "kind": 263,
+                                                                "kind": 305,
                                                                 "decorators": null,
                                                                 "declaredKeyword": null,
                                                                 "staticKeyword": null,
@@ -279,7 +279,7 @@ class C {
 
   constructor() {
     class D {
-       ;
+
     }
   }
 }

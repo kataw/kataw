@@ -39,7 +39,7 @@ let [a, my_var] = [1, 2]; my_var;
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 134299649,

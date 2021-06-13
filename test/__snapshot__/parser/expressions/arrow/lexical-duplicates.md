@@ -709,7 +709,7 @@ a = b => { let b; };
                                             "binding": {
                                                 "kind": 201,
                                                 "elementList": {
-                                                    "kind": 202,
+                                                    "kind": 324,
                                                     "elements": [
                                                         {
                                                             "kind": 134299649,
@@ -917,7 +917,7 @@ a = b => { let b; };
                                                 "binding": {
                                                     "kind": 201,
                                                     "elementList": {
-                                                        "kind": 202,
+                                                        "kind": 324,
                                                         "elements": [
                                                             {
                                                                 "kind": 134299649,
@@ -1453,7 +1453,7 @@ a = b => { let b; };
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
@@ -1745,7 +1745,7 @@ a = b => { let b; };
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
@@ -1838,7 +1838,7 @@ a = b => { let b; };
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 201392131,
@@ -1862,7 +1862,7 @@ a = b => { let b; };
                                     "end": 448
                                 },
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,

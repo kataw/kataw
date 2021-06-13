@@ -55,7 +55,7 @@ type B = Foo<
                 "end": 7
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -149,7 +149,7 @@ type B = Foo<
                 "end": 42
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -259,7 +259,7 @@ type B = Foo<
                 "end": 80
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -391,10 +391,10 @@ type B = Foo<
                     "end": 132
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -525,10 +525,10 @@ type B = Foo<
                     "end": 182
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 138,
                                 "types": [

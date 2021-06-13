@@ -45,7 +45,7 @@ class Foo {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -122,7 +122,7 @@ class Foo {
                                                     "chain": {
                                                         "kind": 536871114,
                                                         "chain": {
-                                                            "kind": 206,
+                                                            "kind": 302,
                                                             "chain": {
                                                                 "kind": 536871114,
                                                                 "chain": null,
@@ -180,7 +180,7 @@ class Foo {
                                                     "chain": {
                                                         "kind": 536871114,
                                                         "chain": {
-                                                            "kind": 206,
+                                                            "kind": 302,
                                                             "chain": {
                                                                 "kind": 536871114,
                                                                 "chain": null,
@@ -249,7 +249,7 @@ class Foo {
                                                         "end": 60
                                                     },
                                                     "chain": {
-                                                        "kind": 206,
+                                                        "kind": 302,
                                                         "chain": {
                                                             "kind": 536871114,
                                                             "chain": null,

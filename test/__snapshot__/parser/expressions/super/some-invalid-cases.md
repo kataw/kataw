@@ -95,7 +95,7 @@ let x = { foo(){ super(); } };
                     "end": 25
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 27,
@@ -176,7 +176,7 @@ let x = { foo(){ super(); } };
                     "end": 56
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 38,
@@ -307,7 +307,7 @@ let x = { foo(){ super(); } };
                     "end": 94
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 96,
@@ -419,7 +419,7 @@ let x = { foo(){ super(); } };
                     "end": 132
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 134,
@@ -462,7 +462,7 @@ let x = { foo(){ super(); } };
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -605,7 +605,7 @@ let x = { foo(){ super(); } };
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -711,7 +711,7 @@ let x = { foo(){ super(); } };
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -830,7 +830,7 @@ let x = { foo(){ super(); } };
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -971,7 +971,7 @@ let x = { foo(){ super(); } };
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -1030,7 +1030,7 @@ let x = { foo(){ super(); } };
                                                     "kind": 277,
                                                     "classHeritage": null,
                                                     "body": {
-                                                        "kind": 262,
+                                                        "kind": 303,
                                                         "elements": [],
                                                         "flags": 32,
                                                         "start": 285,
@@ -1148,7 +1148,7 @@ let x = { foo(){ super(); } };
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -1246,7 +1246,7 @@ let x = { foo(){ super(); } };
                                                         "end": 355
                                                     },
                                                     "body": {
-                                                        "kind": 262,
+                                                        "kind": 303,
                                                         "elements": [],
                                                         "flags": 32,
                                                         "start": 337,
@@ -1346,7 +1346,7 @@ let x = { foo(){ super(); } };
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -1475,7 +1475,7 @@ let x = { foo(){ super(); } };
                                                         "end": 424
                                                     },
                                                     "body": {
-                                                        "kind": 262,
+                                                        "kind": 303,
                                                         "elements": [],
                                                         "flags": 32,
                                                         "start": 426,
@@ -1548,7 +1548,7 @@ let x = { foo(){ super(); } };
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -1608,7 +1608,7 @@ let x = { foo(){ super(); } };
                                                     "kind": 277,
                                                     "classHeritage": null,
                                                     "body": {
-                                                        "kind": 262,
+                                                        "kind": 303,
                                                         "elements": [
                                                             {
                                                                 "kind": 278,

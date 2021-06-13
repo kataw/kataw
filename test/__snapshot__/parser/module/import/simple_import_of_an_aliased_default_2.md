@@ -32,7 +32,7 @@ import x, * as a from "y"
             "typeKeyword": null,
             "typeofKeyword": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 198,

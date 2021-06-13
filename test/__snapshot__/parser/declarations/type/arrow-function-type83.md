@@ -73,7 +73,7 @@ type a = (([-1]) => T) => T
                                         "kind": 147,
                                         "elementTypes": [
                                             {
-                                                "kind": 271,
+                                                "kind": 313,
                                                 "subtractionToken": {
                                                     "kind": 134318643,
                                                     "flags": 64,

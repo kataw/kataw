@@ -48,7 +48,7 @@ type A = Obj['a'];
                 "end": 8
             },
             "type": {
-                "kind": 268,
+                "kind": 311,
                 "objectType": {
                     "kind": 144,
                     "id": {

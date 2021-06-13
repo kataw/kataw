@@ -76,10 +76,10 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 15
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 134217970,
                                                     "nullableToken": {
@@ -238,7 +238,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "end": 55
                                 },
                                 "typeParameters": {
-                                    "kind": 265,
+                                    "kind": 307,
                                     "typeParameters": [
                                         {
                                             "kind": 146,
@@ -430,7 +430,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "end": 95
                                 },
                                 "typeParameters": {
-                                    "kind": 265,
+                                    "kind": 307,
                                     "typeParameters": [
                                         {
                                             "kind": 146,
@@ -635,10 +635,10 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 149
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {

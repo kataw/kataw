@@ -97,7 +97,7 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                     "end": 29
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

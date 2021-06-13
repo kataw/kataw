@@ -879,7 +879,7 @@ try {} catch({ x: "str" }) {}
                 "catchParameter": {
                     "kind": 201,
                     "elementList": {
-                        "kind": 202,
+                        "kind": 324,
                         "elements": [
                             {
                                 "kind": 281,
@@ -985,7 +985,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
@@ -1115,7 +1115,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
@@ -1255,7 +1255,7 @@ try {} catch({ x: "str" }) {}
                 "catchParameter": {
                     "kind": 201,
                     "elementList": {
-                        "kind": 202,
+                        "kind": 324,
                         "elements": [
                             {
                                 "kind": 134299649,
@@ -1341,7 +1341,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
@@ -1495,7 +1495,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
@@ -1710,7 +1710,7 @@ try {} catch({ x: "str" }) {}
                             "catchParameter": {
                                 "kind": 201,
                                 "elementList": {
-                                    "kind": 202,
+                                    "kind": 324,
                                     "elements": [
                                         {
                                             "kind": 134299649,
@@ -2417,7 +2417,7 @@ try {} catch({ x: "str" }) {}
                             "catchParameter": {
                                 "kind": 201,
                                 "elementList": {
-                                    "kind": 202,
+                                    "kind": 324,
                                     "elements": [
                                         {
                                             "kind": 281,
@@ -2523,7 +2523,7 @@ try {} catch({ x: "str" }) {}
                                     "kind": 213,
                                     "properties": [
                                         {
-                                            "kind": 204,
+                                            "kind": 329,
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
@@ -2671,7 +2671,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
@@ -2811,7 +2811,7 @@ try {} catch({ x: "str" }) {}
                 "catchParameter": {
                     "kind": 201,
                     "elementList": {
-                        "kind": 202,
+                        "kind": 324,
                         "elements": [
                             {
                                 "kind": 134299649,
@@ -2924,7 +2924,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
@@ -3083,7 +3083,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
@@ -3237,7 +3237,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
@@ -3374,7 +3374,7 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
@@ -3397,7 +3397,7 @@ try {} catch({ x: "str" }) {}
                                 "end": 948
                             },
                             {
-                                "kind": 204,
+                                "kind": 329,
                                 "ellipsisToken": null,
                                 "key": {
                                     "kind": 201392131,

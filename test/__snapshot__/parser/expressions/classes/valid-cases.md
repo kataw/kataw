@@ -63,7 +63,7 @@ x = class {y = 1; 'z' = 2}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -94,7 +94,7 @@ x = class {y = 1; 'z' = 2}
                                     "end": 16
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 16,
                                     "end": 17
@@ -181,7 +181,7 @@ x = class {y = 1; 'z' = 2}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -235,7 +235,7 @@ x = class {y = 1; 'z' = 2}
                                     "end": 45
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 45,
                                     "end": 46
@@ -345,7 +345,7 @@ x = class {y = 1; 'z' = 2}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -404,7 +404,7 @@ x = class {y = 1; 'z' = 2}
                                     "end": 79
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 79,
                                     "end": 80
@@ -528,7 +528,7 @@ x = class {y = 1; 'z' = 2}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 278,
@@ -587,7 +587,7 @@ x = class {y = 1; 'z' = 2}
                                     "end": 118
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 118,
                                     "end": 119
@@ -711,7 +711,7 @@ x = class {y = 1; 'z' = 2}
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -742,7 +742,7 @@ x = class {y = 1; 'z' = 2}
                                     "end": 152
                                 },
                                 {
-                                    "kind": 281,
+                                    "kind": 317,
                                     "flags": 96,
                                     "start": 152,
                                     "end": 153

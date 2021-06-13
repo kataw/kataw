@@ -66,10 +66,10 @@ declare var tup: [{foo: string}, {bar: number}];
                                     "end": 28
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234353,
                                                 "properties": [
@@ -176,10 +176,10 @@ declare var tup: [{foo: string}, {bar: number}];
                                     "end": 86
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234353,
                                                 "properties": [

@@ -67,7 +67,7 @@ class C { f(){ this.#a } #a; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -91,7 +91,7 @@ class C { f(){ this.#a } #a; }
                             "end": 12
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 12,
                             "end": 13
@@ -136,7 +136,7 @@ class C { f(){ this.#a } #a; }
                             "end": 25
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 25,
                             "end": 26
@@ -177,7 +177,7 @@ class C { f(){ this.#a } #a; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -219,7 +219,7 @@ class C { f(){ this.#a } #a; }
                             "end": 51
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 51,
                             "end": 52
@@ -246,7 +246,7 @@ class C { f(){ this.#a } #a; }
                             "end": 55
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 55,
                             "end": 56
@@ -287,7 +287,7 @@ class C { f(){ this.#a } #a; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -311,7 +311,7 @@ class C { f(){ this.#a } #a; }
                             "end": 72
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 72,
                             "end": 73
@@ -355,7 +355,7 @@ class C { f(){ this.#a } #a; }
                             "end": 83
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 83,
                             "end": 84
@@ -396,7 +396,7 @@ class C { f(){ this.#a } #a; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -437,7 +437,7 @@ class C { f(){ this.#a } #a; }
                             "end": 107
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 107,
                             "end": 108
@@ -464,7 +464,7 @@ class C { f(){ this.#a } #a; }
                             "end": 111
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 111,
                             "end": 112
@@ -505,7 +505,7 @@ class C { f(){ this.#a } #a; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -529,7 +529,7 @@ class C { f(){ this.#a } #a; }
                             "end": 128
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 128,
                             "end": 129
@@ -647,7 +647,7 @@ class C { f(){ this.#a } #a; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -748,7 +748,7 @@ class C { f(){ this.#a } #a; }
                             "end": 175
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 175,
                             "end": 176

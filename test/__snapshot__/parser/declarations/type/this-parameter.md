@@ -410,7 +410,7 @@ type ten = {
                     "end": 163
                 },
                 "typeParameters": {
-                    "kind": 265,
+                    "kind": 307,
                     "typeParameters": [
                         {
                             "kind": 146,
@@ -770,7 +770,7 @@ type ten = {
                                 "end": 300
                             },
                             "typeParameters": {
-                                "kind": 265,
+                                "kind": 307,
                                 "typeParameters": [
                                     {
                                         "kind": 146,

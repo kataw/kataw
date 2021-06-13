@@ -128,7 +128,7 @@ async function * gen() {class C extends await { }}
                                     "end": 49
                                 },
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [],
                                     "flags": 32,
                                     "start": 31,

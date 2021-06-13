@@ -30,7 +30,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
     "directives": [],
     "statements": [
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
@@ -71,7 +71,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             "end": 33
         },
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
@@ -180,7 +180,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             "end": 104
         },
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
@@ -244,7 +244,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             "end": 140
         },
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
@@ -308,7 +308,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             "end": 191
         },
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,

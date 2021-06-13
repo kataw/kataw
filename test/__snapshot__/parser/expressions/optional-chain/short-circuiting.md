@@ -53,7 +53,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                             "chain": {
                                 "kind": 536871114,
                                 "chain": {
-                                    "kind": 206,
+                                    "kind": 302,
                                     "chain": {
                                         "kind": 203,
                                         "chain": null,
@@ -104,7 +104,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                         "chain": {
                             "kind": 536871114,
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -222,7 +222,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                             "chain": {
                                 "kind": 536871114,
                                 "chain": {
-                                    "kind": 206,
+                                    "kind": 302,
                                     "chain": {
                                         "kind": 203,
                                         "chain": null,
@@ -273,7 +273,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                         "chain": {
                             "kind": 536871114,
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -372,9 +372,9 @@ undefined?.b.c(++x).d; // long short-circuiting.
 
 ```javascript
 
- = (++x).d; // long short-circuiting.
+(++x).d; // long short-circuiting.
 
- = (++x).d; // long short-circuiting.
+(++x).d; // long short-circuiting.
 
 ```
 

@@ -71,10 +71,10 @@ try {
                                 "kind": 277,
                                 "classHeritage": null,
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [
                                         {
-                                            "kind": 263,
+                                            "kind": 305,
                                             "decorators": null,
                                             "declaredKeyword": null,
                                             "staticKeyword": null,
@@ -200,13 +200,13 @@ try {
                                             "end": 119
                                         },
                                         {
-                                            "kind": 281,
+                                            "kind": 317,
                                             "flags": 96,
                                             "start": 119,
                                             "end": 120
                                         },
                                         {
-                                            "kind": 263,
+                                            "kind": 305,
                                             "decorators": null,
                                             "declaredKeyword": null,
                                             "staticKeyword": null,
@@ -372,10 +372,10 @@ try {
 
 try {
   class C {
-     ;
+
     static x = subsequentField = true;
 
-     ;
+
   }
 } catch (error) {
   caught = error;

@@ -234,7 +234,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 "end": 94
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -289,10 +289,10 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 "end": 35
                             },
                             "typeParameters": {
-                                "kind": 266,
+                                "kind": 309,
                                 "parameters": [
                                     {
-                                        "kind": 267,
+                                        "kind": 310,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -313,7 +313,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                         "end": 37
                                     },
                                     {
-                                        "kind": 267,
+                                        "kind": 310,
                                         "type": {
                                             "kind": 134234353,
                                             "properties": [

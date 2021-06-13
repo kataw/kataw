@@ -40,7 +40,7 @@ function a([a, b, ...[ok]]) {};
                     {
                         "kind": 201,
                         "elementList": {
-                            "kind": 202,
+                            "kind": 324,
                             "elements": [
                                 {
                                     "kind": 134299649,
@@ -69,7 +69,7 @@ function a([a, b, ...[ok]]) {};
                                     "left": {
                                         "kind": 201,
                                         "elementList": {
-                                            "kind": 202,
+                                            "kind": 324,
                                             "elements": [
                                                 {
                                                     "kind": 134299649,

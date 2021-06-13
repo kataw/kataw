@@ -79,10 +79,10 @@ declare function aw<T>(p: Pr<T> | T): T;
                                             "end": 28
                                         },
                                         "typeParameters": {
-                                            "kind": 266,
+                                            "kind": 309,
                                             "parameters": [
                                                 {
-                                                    "kind": 267,
+                                                    "kind": 310,
                                                     "type": {
                                                         "kind": 144,
                                                         "id": {
@@ -148,7 +148,7 @@ declare function aw<T>(p: Pr<T> | T): T;
             },
             "contents": null,
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,

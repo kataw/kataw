@@ -62,7 +62,7 @@ class D<T> {
                 "end": 7
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -105,7 +105,7 @@ class D<T> {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -149,7 +149,7 @@ class D<T> {
                             "end": 22
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 22,
                             "end": 23
@@ -531,7 +531,7 @@ class D<T> {
                 "end": 152
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -558,7 +558,7 @@ class D<T> {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -602,7 +602,7 @@ class D<T> {
                             "end": 164
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 164,
                             "end": 165
@@ -627,7 +627,7 @@ class D<T> {
                                     "end": 169
                                 },
                                 "typeParameters": {
-                                    "kind": 265,
+                                    "kind": 307,
                                     "typeParameters": [
                                         {
                                             "kind": 146,

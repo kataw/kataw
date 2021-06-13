@@ -56,9 +56,9 @@ type a = (a[a & b[a]][c]) => T;
                     "end": 28
                 },
                 "arrowToken": {
-                    "kind": 268,
+                    "kind": 311,
                     "objectType": {
-                        "kind": 268,
+                        "kind": 311,
                         "objectType": {
                             "kind": 144,
                             "id": {
@@ -93,7 +93,7 @@ type a = (a[a & b[a]][c]) => T;
                                     "end": 13
                                 },
                                 {
-                                    "kind": 268,
+                                    "kind": 311,
                                     "objectType": {
                                         "kind": 144,
                                         "id": {

@@ -45,7 +45,7 @@ class Example {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -69,7 +69,7 @@ class Example {
                             "end": 23
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 23,
                             "end": 24
@@ -184,7 +184,7 @@ class Example {
                             "end": 87
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 87,
                             "end": 88

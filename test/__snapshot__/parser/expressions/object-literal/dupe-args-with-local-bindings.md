@@ -46,7 +46,7 @@ class o {f([b, a], ...b) {}}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -343,7 +343,7 @@ class o {f([b, a], ...b) {}}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -480,7 +480,7 @@ class o {f([b, a], ...b) {}}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -508,7 +508,7 @@ class o {f([b, a], ...b) {}}
                                         {
                                             "kind": 201,
                                             "elementList": {
-                                                "kind": 202,
+                                                "kind": 324,
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
@@ -624,7 +624,7 @@ class o {f([b, a], ...b) {}}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -652,7 +652,7 @@ class o {f([b, a], ...b) {}}
                                         {
                                             "kind": 201,
                                             "elementList": {
-                                                "kind": 202,
+                                                "kind": 324,
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,

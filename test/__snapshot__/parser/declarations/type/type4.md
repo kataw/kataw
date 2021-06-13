@@ -80,10 +80,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 21
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -163,10 +163,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 69
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -269,10 +269,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 122
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 290,
                                 "type": {
@@ -323,7 +323,7 @@ type T27 = ArgumentType<never>;  // any
                                         "end": 134
                                     },
                                     "typeParameters": {
-                                        "kind": 265,
+                                        "kind": 307,
                                         "typeParameters": [
                                             {
                                                 "kind": 146,
@@ -406,10 +406,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 167
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 134299891,
                                 "typeOfKeyword": {
@@ -489,10 +489,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 231
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 134299891,
                                 "typeOfKeyword": {
@@ -572,10 +572,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 270
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -634,10 +634,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 307
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 134234349,
                                 "flags": 2097216,
@@ -696,10 +696,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 345
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -758,10 +758,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 386
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -829,10 +829,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 430
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -912,10 +912,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 477
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -1018,10 +1018,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 536
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -1129,10 +1129,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 608
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -1246,10 +1246,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 676
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -1317,10 +1317,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 721
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -1379,10 +1379,10 @@ type T27 = ArgumentType<never>;  // any
                     "end": 759
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 134234349,
                                 "flags": 2097216,

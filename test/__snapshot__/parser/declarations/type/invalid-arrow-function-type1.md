@@ -56,17 +56,17 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                     "end": 91
                 },
                 "arrowToken": {
-                    "kind": 268,
+                    "kind": 311,
                     "objectType": {
                         "kind": 136,
                         "type": {
                             "kind": 136,
                             "type": {
-                                "kind": 268,
+                                "kind": 311,
                                 "objectType": {
-                                    "kind": 268,
+                                    "kind": 311,
                                     "objectType": {
-                                        "kind": 268,
+                                        "kind": 311,
                                         "objectType": {
                                             "kind": 144,
                                             "id": {
@@ -242,11 +242,11 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                 "type": {
                                     "kind": 136,
                                     "type": {
-                                        "kind": 268,
+                                        "kind": 311,
                                         "objectType": {
-                                            "kind": 268,
+                                            "kind": 311,
                                             "objectType": {
-                                                "kind": 268,
+                                                "kind": 311,
                                                 "objectType": {
                                                     "kind": 144,
                                                     "id": {

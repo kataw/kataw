@@ -129,7 +129,7 @@ async function x() {
                                     "chain": {
                                         "kind": 203,
                                         "chain": {
-                                            "kind": 206,
+                                            "kind": 302,
                                             "chain": {
                                                 "kind": 536871114,
                                                 "chain": null,
@@ -203,7 +203,7 @@ async function x() {
 ```javascript
 
 async function x() {
-  await  = ;
+  await ;
 }
 ```
 

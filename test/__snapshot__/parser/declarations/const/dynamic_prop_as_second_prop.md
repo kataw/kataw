@@ -61,7 +61,7 @@ const {a, [x]: y} = a;
                                         "end": 8
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,

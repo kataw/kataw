@@ -49,7 +49,7 @@ class K {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -101,7 +101,7 @@ class K {
                             "end": 21
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 21,
                             "end": 22
@@ -156,7 +156,7 @@ class K {
                             "end": 34
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 34,
                             "end": 35

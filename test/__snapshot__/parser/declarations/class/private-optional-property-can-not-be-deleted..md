@@ -62,7 +62,7 @@ class Foo {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -86,7 +86,7 @@ class Foo {
                             "end": 16
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 16,
                             "end": 17
@@ -151,7 +151,7 @@ class Foo {
                                                             "end": 51
                                                         },
                                                         "chain": {
-                                                            "kind": 206,
+                                                            "kind": 302,
                                                             "chain": {
                                                                 "kind": 536871114,
                                                                 "chain": null,
@@ -230,7 +230,7 @@ class Foo {
   #x;
 
   constructor() {
-    delete  = ;
+    delete ;
   }
 }
 ```

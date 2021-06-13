@@ -132,7 +132,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 194,

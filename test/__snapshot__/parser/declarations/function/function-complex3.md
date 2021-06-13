@@ -89,10 +89,10 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "end": 25
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -412,7 +412,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "end": 197
                             },
                             "typeParameters": {
-                                "kind": 265,
+                                "kind": 307,
                                 "typeParameters": [
                                     {
                                         "kind": 146,
@@ -473,7 +473,7 @@ function b1<A: 'a', B: A>(b: B): void {
                 "end": 200
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -658,7 +658,7 @@ function b1<A: 'a', B: A>(b: B): void {
                 "end": 300
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,

@@ -448,7 +448,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 "end": 156
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -544,7 +544,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 "end": 184
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -569,10 +569,10 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "end": 177
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,

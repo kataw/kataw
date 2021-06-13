@@ -23,7 +23,7 @@ opaque type Good: {x: string} = {x: string, y: number};
     "directives": [],
     "statements": [
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,

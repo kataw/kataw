@@ -156,10 +156,10 @@ function *infer_stmt() {
                         "end": 33
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -171,7 +171,7 @@ function *infer_stmt() {
                                 "end": 40
                             },
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 138477615,
                                     "flags": 2097216,
@@ -183,7 +183,7 @@ function *infer_stmt() {
                                 "end": 46
                             },
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 138477615,
                                     "flags": 2097216,
@@ -292,10 +292,10 @@ function *infer_stmt() {
                         "end": 119
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 138477615,
                                     "flags": 2097216,
@@ -307,7 +307,7 @@ function *infer_stmt() {
                                 "end": 124
                             },
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -319,7 +319,7 @@ function *infer_stmt() {
                                 "end": 132
                             },
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 138477615,
                                     "flags": 2097216,
@@ -428,10 +428,10 @@ function *infer_stmt() {
                         "end": 195
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 138477615,
                                     "flags": 2097216,
@@ -443,7 +443,7 @@ function *infer_stmt() {
                                 "end": 200
                             },
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -455,7 +455,7 @@ function *infer_stmt() {
                                 "end": 208
                             },
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 138477615,
                                     "flags": 2097216,

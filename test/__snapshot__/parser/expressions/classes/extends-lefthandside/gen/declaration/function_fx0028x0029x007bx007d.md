@@ -104,7 +104,7 @@ class A extends function f(){} {}
                     "end": 30
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 32,

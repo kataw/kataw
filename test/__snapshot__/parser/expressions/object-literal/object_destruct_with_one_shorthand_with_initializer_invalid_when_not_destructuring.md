@@ -38,7 +38,7 @@ x({a=b}=c);
                                     "kind": 218,
                                     "properties": [
                                         {
-                                            "kind": 205,
+                                            "kind": 301,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "a",

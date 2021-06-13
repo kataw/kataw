@@ -99,10 +99,10 @@ type C = (<T>(T) => $Foo<T>)[];
                                         "end": 24
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -137,7 +137,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                 "end": 27
                             },
                             "typeParameters": {
-                                "kind": 265,
+                                "kind": 307,
                                 "typeParameters": [
                                     {
                                         "kind": 146,
@@ -215,10 +215,10 @@ type C = (<T>(T) => $Foo<T>)[];
                                         "end": 46
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -253,7 +253,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                 "end": 49
                             },
                             "typeParameters": {
-                                "kind": 265,
+                                "kind": 307,
                                 "typeParameters": [
                                     {
                                         "kind": 146,
@@ -367,10 +367,10 @@ type C = (<T>(T) => $Foo<T>)[];
                                         "end": 76
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -405,7 +405,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                 "end": 79
                             },
                             "typeParameters": {
-                                "kind": 265,
+                                "kind": 307,
                                 "typeParameters": [
                                     {
                                         "kind": 146,
@@ -483,10 +483,10 @@ type C = (<T>(T) => $Foo<T>)[];
                                         "end": 98
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -521,7 +521,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                 "end": 101
                             },
                             "typeParameters": {
-                                "kind": 265,
+                                "kind": 307,
                                 "typeParameters": [
                                     {
                                         "kind": 146,
@@ -634,10 +634,10 @@ type C = (<T>(T) => $Foo<T>)[];
                                     "end": 128
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -672,7 +672,7 @@ type C = (<T>(T) => $Foo<T>)[];
                             "end": 131
                         },
                         "typeParameters": {
-                            "kind": 265,
+                            "kind": 307,
                             "typeParameters": [
                                 {
                                     "kind": 146,

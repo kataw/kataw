@@ -46,7 +46,7 @@ class C { await = 0; }
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -77,7 +77,7 @@ class C { await = 0; }
                             "end": 19
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 19,
                             "end": 20

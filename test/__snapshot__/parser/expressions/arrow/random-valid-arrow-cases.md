@@ -2520,7 +2520,7 @@ foo((x, y) => {});
                                     "end": 619
                                 },
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
@@ -2544,7 +2544,7 @@ foo((x, y) => {});
                                     "end": 623
                                 },
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,

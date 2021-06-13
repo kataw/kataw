@@ -47,7 +47,7 @@ export *, {bar} from 'bar';
                 "end": 8
             },
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 16637,

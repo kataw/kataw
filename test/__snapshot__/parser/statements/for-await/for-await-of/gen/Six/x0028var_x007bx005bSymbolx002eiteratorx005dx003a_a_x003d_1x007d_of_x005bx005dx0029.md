@@ -100,7 +100,7 @@ async function * f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} o
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 194,

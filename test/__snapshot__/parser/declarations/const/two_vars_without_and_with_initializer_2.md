@@ -39,7 +39,7 @@ const [foo=a, bar=b] = arr;
                         "binding": {
                             "kind": 201,
                             "elementList": {
-                                "kind": 202,
+                                "kind": 324,
                                 "elements": [
                                     {
                                         "kind": 281,

@@ -49,7 +49,7 @@ class Foo {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -85,13 +85,13 @@ class Foo {
                             "end": 29
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 29,
                             "end": 30
                         },
                         {
-                            "kind": 263,
+                            "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
                             "staticKeyword": null,
@@ -203,7 +203,7 @@ class Foo {
 class Foo {
   static bar = 42;
 
-   ;
+
 }
 ```
 

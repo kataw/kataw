@@ -1492,7 +1492,7 @@ x = {y: {z: 1}}?.y?.z;
                         "end": 346
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 203,
                             "chain": null,
@@ -1627,7 +1627,7 @@ x = {y: {z: 1}}?.y?.z;
                             "end": 371
                         },
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -1652,7 +1652,7 @@ x = {y: {z: 1}}?.y?.z;
                         "end": 374
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,
@@ -1787,7 +1787,7 @@ x = {y: {z: 1}}?.y?.z;
                             "end": 395
                         },
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 536871114,
                                 "chain": null,
@@ -1812,7 +1812,7 @@ x = {y: {z: 1}}?.y?.z;
                         "end": 398
                     },
                     "chain": {
-                        "kind": 206,
+                        "kind": 302,
                         "chain": {
                             "kind": 536871114,
                             "chain": null,

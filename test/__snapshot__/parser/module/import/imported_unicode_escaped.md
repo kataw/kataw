@@ -75,7 +75,7 @@ export {a \u0061s b} from "x";
             },
             "exportFromClause": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,

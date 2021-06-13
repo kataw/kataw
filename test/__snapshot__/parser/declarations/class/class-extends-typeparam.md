@@ -42,7 +42,7 @@ class Foo<T> extends Bar<T> { }
                 "end": 9
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -84,10 +84,10 @@ class Foo<T> extends Bar<T> { }
                         "end": 24
                     },
                     "typeParameter": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -117,7 +117,7 @@ class Foo<T> extends Bar<T> { }
                     "end": 27
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 29,

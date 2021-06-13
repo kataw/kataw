@@ -89,7 +89,7 @@ a ? (b) : c => <T>(d) : e => f;
                             "end": 28
                         },
                         "typeParameters": {
-                            "kind": 265,
+                            "kind": 307,
                             "typeParameters": [
                                 {
                                     "kind": 146,

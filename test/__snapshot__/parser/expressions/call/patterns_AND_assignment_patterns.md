@@ -36,7 +36,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 205,
+                                        "kind": 301,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -84,7 +84,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 205,
+                                    "kind": 301,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "b",
@@ -123,7 +123,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 205,
+                                        "kind": 301,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "c",

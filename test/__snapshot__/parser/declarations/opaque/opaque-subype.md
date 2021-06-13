@@ -23,7 +23,7 @@ opaque type Counter: Box<T> = Container<T>;
     "directives": [],
     "statements": [
         {
-            "kind": 269,
+            "kind": 312,
             "declareToken": null,
             "opaqueToken": {
                 "kind": 24822,
@@ -57,10 +57,10 @@ opaque type Counter: Box<T> = Container<T>;
                     "end": 24
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -100,10 +100,10 @@ opaque type Counter: Box<T> = Container<T>;
                     "end": 39
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 144,
                                 "id": {

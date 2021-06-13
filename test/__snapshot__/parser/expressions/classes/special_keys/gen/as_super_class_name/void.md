@@ -84,7 +84,7 @@ class x extends void {}
                     "end": 23
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 7,

@@ -102,7 +102,7 @@ class Foo extends async x => {} {}
                     "end": 25
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 27,
@@ -181,7 +181,7 @@ class Foo extends async x => {} {}
                     "end": 56
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 58,
@@ -272,7 +272,7 @@ class Foo extends async x => {} {}
                     "end": 92
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 94,
@@ -362,7 +362,7 @@ class Foo extends async x => {} {}
                                             "end": 119
                                         },
                                         "body": {
-                                            "kind": 262,
+                                            "kind": 303,
                                             "elements": [],
                                             "flags": 32,
                                             "start": 121,
@@ -449,7 +449,7 @@ class Foo extends async x => {} {}
                                                 "end": 149
                                             },
                                             "body": {
-                                                "kind": 262,
+                                                "kind": 303,
                                                 "elements": [],
                                                 "flags": 32,
                                                 "start": 151,
@@ -545,7 +545,7 @@ class Foo extends async x => {} {}
                                             "end": 183
                                         },
                                         "body": {
-                                            "kind": 262,
+                                            "kind": 303,
                                             "elements": [],
                                             "flags": 32,
                                             "start": 185,
@@ -634,7 +634,7 @@ class Foo extends async x => {} {}
                                         "end": 218
                                     },
                                     "body": {
-                                        "kind": 262,
+                                        "kind": 303,
                                         "elements": [],
                                         "flags": 32,
                                         "start": 220,
@@ -732,7 +732,7 @@ class Foo extends async x => {} {}
                                     "end": 254
                                 },
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [],
                                     "flags": 32,
                                     "start": 256,

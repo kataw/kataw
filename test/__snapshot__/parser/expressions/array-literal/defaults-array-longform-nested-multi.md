@@ -54,7 +54,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -78,7 +78,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                         "end": 9
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -102,7 +102,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                         "end": 15
                                     },
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
@@ -118,7 +118,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                 "kind": 213,
                                                 "properties": [
                                                     {
-                                                        "kind": 204,
+                                                        "kind": 329,
                                                         "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,

@@ -59,7 +59,7 @@ export * as foo, {bar} from 'bar';
                 "end": 15
             },
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": null,
                 "from": {
                     "kind": 16637,

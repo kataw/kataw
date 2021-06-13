@@ -67,7 +67,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                     "end": 1
                                 },
                                 "chain": {
-                                    "kind": 206,
+                                    "kind": 302,
                                     "chain": {
                                         "kind": 536871114,
                                         "chain": null,
@@ -92,7 +92,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                 "end": 4
                             },
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": null,
@@ -117,7 +117,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "end": 7
                         },
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 204,
                                 "chain": null,
@@ -153,7 +153,7 @@ a?.b?.c?.(d)?.[e].f?.g
                     "chain": {
                         "kind": 536871114,
                         "chain": {
-                            "kind": 206,
+                            "kind": 302,
                             "chain": {
                                 "kind": 203,
                                 "chain": null,
@@ -190,7 +190,7 @@ a?.b?.c?.(d)?.[e].f?.g
                     "end": 19
                 },
                 "chain": {
-                    "kind": 206,
+                    "kind": 302,
                     "chain": {
                         "kind": 536871114,
                         "chain": null,
@@ -232,7 +232,7 @@ a?.b?.c?.(d)?.[e].f?.g
 
 ```javascript
 
- = ?.;
+?.;
 ```
 
 ### Diagnostics

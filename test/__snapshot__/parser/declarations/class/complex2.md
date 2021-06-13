@@ -57,7 +57,7 @@ class C2<X, Y> {
                 "end": 7
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -99,10 +99,10 @@ class C2<X, Y> {
                         "end": 20
                     },
                     "typeParameter": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -123,7 +123,7 @@ class C2<X, Y> {
                                 "end": 22
                             },
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -144,7 +144,7 @@ class C2<X, Y> {
                     "end": 31
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -463,7 +463,7 @@ class C2<X, Y> {
                 "end": 153
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -506,7 +506,7 @@ class C2<X, Y> {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,
@@ -578,7 +578,7 @@ class C2<X, Y> {
                             "end": 173
                         },
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 173,
                             "end": 174
@@ -624,10 +624,10 @@ class C2<X, Y> {
                                             "end": 186
                                         },
                                         "typeParameters": {
-                                            "kind": 266,
+                                            "kind": 309,
                                             "parameters": [
                                                 {
-                                                    "kind": 267,
+                                                    "kind": 310,
                                                     "type": {
                                                         "kind": 144,
                                                         "id": {
@@ -648,7 +648,7 @@ class C2<X, Y> {
                                                     "end": 188
                                                 },
                                                 {
-                                                    "kind": 267,
+                                                    "kind": 310,
                                                     "type": {
                                                         "kind": 144,
                                                         "id": {

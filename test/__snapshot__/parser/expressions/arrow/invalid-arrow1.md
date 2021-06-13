@@ -83,7 +83,7 @@ y = (x => {}(0));
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
@@ -175,7 +175,7 @@ y = (x => {}(0));
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 204,
+                                                    "kind": 329,
                                                     "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 134299649,
@@ -288,7 +288,7 @@ y = (x => {}(0));
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 204,
+                                                "kind": 329,
                                                 "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
@@ -390,7 +390,7 @@ y = (x => {}(0));
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 204,
+                                                    "kind": 329,
                                                     "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 134299649,
@@ -506,7 +506,7 @@ y = (x => {}(0));
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 204,
+                                                    "kind": 329,
                                                     "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 201392131,
@@ -617,7 +617,7 @@ y = (x => {}(0));
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 204,
+                                        "kind": 329,
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 201392131,
@@ -720,7 +720,7 @@ y = (x => {}(0));
                                         "kind": 213,
                                         "properties": [
                                             {
-                                                "kind": 204,
+                                                "kind": 329,
                                                 "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 201392131,
@@ -822,7 +822,7 @@ y = (x => {}(0));
                                             "kind": 213,
                                             "properties": [
                                                 {
-                                                    "kind": 204,
+                                                    "kind": 329,
                                                     "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 201392131,

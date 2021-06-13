@@ -60,9 +60,9 @@ type a = (a[b][x][][]) => T;
                     "type": {
                         "kind": 136,
                         "type": {
-                            "kind": 268,
+                            "kind": 311,
                             "objectType": {
-                                "kind": 268,
+                                "kind": 311,
                                 "objectType": {
                                     "kind": 144,
                                     "id": {

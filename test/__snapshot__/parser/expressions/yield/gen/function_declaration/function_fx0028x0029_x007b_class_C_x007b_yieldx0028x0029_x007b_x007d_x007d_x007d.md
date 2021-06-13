@@ -112,7 +112,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                 "kind": 277,
                                                 "classHeritage": null,
                                                 "body": {
-                                                    "kind": 262,
+                                                    "kind": 303,
                                                     "elements": [
                                                         {
                                                             "kind": 278,

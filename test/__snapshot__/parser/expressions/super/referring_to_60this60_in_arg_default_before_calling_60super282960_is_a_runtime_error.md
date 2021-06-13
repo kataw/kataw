@@ -58,7 +58,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                     "end": 17
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,

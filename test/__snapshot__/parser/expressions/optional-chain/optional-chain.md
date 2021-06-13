@@ -34,7 +34,7 @@ arr?.[i + 1]
                     "end": 3
                 },
                 "chain": {
-                    "kind": 206,
+                    "kind": 302,
                     "chain": {
                         "kind": 203,
                         "chain": null,

@@ -48,9 +48,9 @@ type Age = typeof MyArray[number]["age"];
                 "end": 10
             },
             "type": {
-                "kind": 268,
+                "kind": 311,
                 "objectType": {
-                    "kind": 268,
+                    "kind": 311,
                     "objectType": {
                         "kind": 134299891,
                         "typeOfKeyword": {

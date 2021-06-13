@@ -498,10 +498,10 @@ var y: Array<string> = ['3', ...x];
                                     "end": 113
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
@@ -605,10 +605,10 @@ var y: Array<string> = ['3', ...x];
                                     "end": 148
                                 },
                                 "typeParameters": {
-                                    "kind": 266,
+                                    "kind": 309,
                                     "parameters": [
                                         {
-                                            "kind": 267,
+                                            "kind": 310,
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,

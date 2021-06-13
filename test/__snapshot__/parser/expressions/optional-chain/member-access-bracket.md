@@ -106,7 +106,7 @@ obj.a?.[true]
                                                     "chain": {
                                                         "kind": 536871114,
                                                         "chain": {
-                                                            "kind": 206,
+                                                            "kind": 302,
                                                             "chain": {
                                                                 "kind": 203,
                                                                 "chain": null,
@@ -143,7 +143,7 @@ obj.a?.[true]
                                                     "end": 16
                                                 },
                                                 "chain": {
-                                                    "kind": 206,
+                                                    "kind": 302,
                                                     "chain": {
                                                         "kind": 203,
                                                         "chain": null,
@@ -170,7 +170,7 @@ obj.a?.[true]
                                             "chain": {
                                                 "kind": 536871114,
                                                 "chain": {
-                                                    "kind": 206,
+                                                    "kind": 302,
                                                     "chain": {
                                                         "kind": 203,
                                                         "chain": null,
@@ -209,7 +209,7 @@ obj.a?.[true]
                                         "chain": {
                                             "kind": 536871114,
                                             "chain": {
-                                                "kind": 206,
+                                                "kind": 302,
                                                 "chain": {
                                                     "kind": 203,
                                                     "chain": null,
@@ -244,7 +244,7 @@ obj.a?.[true]
                                         "end": 51
                                     },
                                     "chain": {
-                                        "kind": 206,
+                                        "kind": 302,
                                         "chain": {
                                             "kind": 203,
                                             "chain": null,
@@ -269,7 +269,7 @@ obj.a?.[true]
                                 "chain": {
                                     "kind": 536871114,
                                     "chain": {
-                                        "kind": 206,
+                                        "kind": 302,
                                         "chain": {
                                             "kind": 203,
                                             "chain": null,
@@ -318,7 +318,7 @@ obj.a?.[true]
                         "chain": {
                             "kind": 536871114,
                             "chain": {
-                                "kind": 206,
+                                "kind": 302,
                                 "chain": {
                                     "kind": 203,
                                     "chain": null,
@@ -367,7 +367,7 @@ obj.a?.[true]
                     "end": 89
                 },
                 "chain": {
-                    "kind": 206,
+                    "kind": 302,
                     "chain": {
                         "kind": 203,
                         "chain": null,
@@ -407,7 +407,7 @@ obj.a?.[true]
 
 ```javascript
 
- = .a?.[true];
+.a?.[true];
 ```
 
 ### Diagnostics

@@ -374,7 +374,7 @@ class two {
                                     "end": 142
                                 },
                                 "typeParameters": {
-                                    "kind": 265,
+                                    "kind": 307,
                                     "typeParameters": [
                                         {
                                             "kind": 146,
@@ -442,7 +442,7 @@ class two {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -858,7 +858,7 @@ class two {
                                     "end": 276
                                 },
                                 "typeParameters": {
-                                    "kind": 265,
+                                    "kind": 307,
                                     "typeParameters": [
                                         {
                                             "kind": 146,

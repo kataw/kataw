@@ -88,7 +88,7 @@ type a = (x,symbol['string']) => T;
                             "name": null,
                             "optionalToken": null,
                             "types": {
-                                "kind": 268,
+                                "kind": 311,
                                 "objectType": {
                                     "kind": 134234343,
                                     "flags": 64,

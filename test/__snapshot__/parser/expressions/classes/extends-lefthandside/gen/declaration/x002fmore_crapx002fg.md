@@ -65,7 +65,7 @@ class A extends /more crap/g {}
                     "end": 28
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 30,

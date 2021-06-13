@@ -108,10 +108,10 @@ async function foo3(): Promise<string> {
                         "end": 30
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -220,10 +220,10 @@ async function foo3(): Promise<string> {
                         "end": 84
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -393,10 +393,10 @@ async function foo3(): Promise<string> {
                         "end": 148
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,

@@ -41,7 +41,7 @@ type T<U> = U;
                 "end": 6
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,

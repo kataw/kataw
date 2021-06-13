@@ -64,10 +64,10 @@ class K extends {} {;async\n async *1(){}}
                     "end": 18
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
-                            "kind": 281,
+                            "kind": 317,
                             "flags": 96,
                             "start": 20,
                             "end": 21

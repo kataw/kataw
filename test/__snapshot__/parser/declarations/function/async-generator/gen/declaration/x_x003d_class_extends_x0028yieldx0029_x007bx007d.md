@@ -133,7 +133,7 @@ async function * gen() {x = class extends (yield) {}}
                                             "end": 49
                                         },
                                         "body": {
-                                            "kind": 262,
+                                            "kind": 303,
                                             "elements": [],
                                             "flags": 32,
                                             "start": 51,

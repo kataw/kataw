@@ -61,7 +61,7 @@ type a = (bj[c] | e) => T;
                     "kind": 138,
                     "types": [
                         {
-                            "kind": 268,
+                            "kind": 311,
                             "objectType": {
                                 "kind": 144,
                                 "id": {
@@ -176,7 +176,7 @@ type a = (bj[c] | e) => T;
                     "kind": 137,
                     "types": [
                         {
-                            "kind": 268,
+                            "kind": 311,
                             "objectType": {
                                 "kind": 144,
                                 "id": {

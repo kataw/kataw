@@ -68,7 +68,7 @@ a={*id<T>(x: T): T {}}
                                         "end": 6
                                     },
                                     "typeParameters": {
-                                        "kind": 265,
+                                        "kind": 307,
                                         "typeParameters": [
                                             {
                                                 "kind": 146,

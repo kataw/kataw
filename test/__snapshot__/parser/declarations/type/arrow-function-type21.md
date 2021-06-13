@@ -59,7 +59,7 @@ type a = ({}[x]) => T;
                     "kind": 292,
                     "parameters": [
                         {
-                            "kind": 268,
+                            "kind": 311,
                             "objectType": {
                                 "kind": 134234353,
                                 "properties": [],

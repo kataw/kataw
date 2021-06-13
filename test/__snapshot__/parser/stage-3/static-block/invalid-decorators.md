@@ -50,7 +50,7 @@ class C {
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -109,7 +109,7 @@ class C {
                             "end": 27
                         },
                         {
-                            "kind": 263,
+                            "kind": 305,
                             "decorators": {
                                 "kind": 207,
                                 "elements": [

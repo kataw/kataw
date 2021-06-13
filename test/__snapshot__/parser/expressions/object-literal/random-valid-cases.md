@@ -1375,7 +1375,7 @@ a = { y: x = 1 } = b;
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 204,
+                                    "kind": 329,
                                     "ellipsisToken": null,
                                     "key": {
                                         "kind": 201392131,
@@ -2110,7 +2110,7 @@ a = { y: x = 1 } = b;
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 205,
+                                    "kind": 301,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",

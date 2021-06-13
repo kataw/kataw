@@ -66,7 +66,7 @@ class C extends Base { await\n a }
                     "end": 20
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 280,

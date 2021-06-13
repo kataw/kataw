@@ -75,7 +75,7 @@ export {𐀀 as x} from 'path'
             },
             "exportFromClause": null,
             "fromClause": {
-                "kind": 256,
+                "kind": 325,
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,

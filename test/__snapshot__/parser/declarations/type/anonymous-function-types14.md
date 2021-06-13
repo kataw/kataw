@@ -58,10 +58,10 @@ type T = Array<(string) => number>
                     "end": 14
                 },
                 "typeParameters": {
-                    "kind": 266,
+                    "kind": 309,
                     "parameters": [
                         {
-                            "kind": 267,
+                            "kind": 310,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {

@@ -42,7 +42,7 @@ class Foo<T> extends mixin(Bar) { }
                 "end": 9
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,
@@ -112,7 +112,7 @@ class Foo<T> extends mixin(Bar) { }
                     "end": 31
                 },
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [],
                     "flags": 32,
                     "start": 33,

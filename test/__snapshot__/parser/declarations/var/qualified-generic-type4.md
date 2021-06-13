@@ -81,10 +81,10 @@ var a : typeof A.B<T>
                                         "end": 18
                                     },
                                     "typeParameters": {
-                                        "kind": 266,
+                                        "kind": 309,
                                         "parameters": [
                                             {
-                                                "kind": 267,
+                                                "kind": 310,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {

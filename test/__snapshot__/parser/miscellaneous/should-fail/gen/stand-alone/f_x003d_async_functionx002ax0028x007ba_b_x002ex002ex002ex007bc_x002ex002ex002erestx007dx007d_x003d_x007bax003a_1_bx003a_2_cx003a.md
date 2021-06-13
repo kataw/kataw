@@ -90,7 +90,7 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                                                 "end": 25
                                             },
                                             {
-                                                "kind": 204,
+                                                "kind": 329,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,

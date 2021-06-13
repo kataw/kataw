@@ -328,7 +328,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                 "end": 123
             },
             "typeParameters": {
-                "kind": 265,
+                "kind": 307,
                 "typeParameters": [
                     {
                         "kind": 146,

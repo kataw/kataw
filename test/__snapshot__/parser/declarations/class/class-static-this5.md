@@ -63,7 +63,7 @@ x = class Foo { static x = class extends this {} }
                         "kind": 277,
                         "classHeritage": null,
                         "body": {
-                            "kind": 262,
+                            "kind": 303,
                             "elements": [
                                 {
                                     "kind": 280,
@@ -119,7 +119,7 @@ x = class Foo { static x = class extends this {} }
                                                 "end": 45
                                             },
                                             "body": {
-                                                "kind": 262,
+                                                "kind": 303,
                                                 "elements": [],
                                                 "flags": 32,
                                                 "start": 47,

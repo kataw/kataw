@@ -6666,10 +6666,10 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "end": 5429
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234252,
                                     "flags": 2097216,
@@ -6870,10 +6870,10 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "end": 5573
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234252,
                                     "flags": 2097216,
@@ -8643,10 +8643,10 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "end": 6369
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234353,
                                     "properties": [
@@ -9269,10 +9269,10 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "end": 6688
                     },
                     "typeParameters": {
-                        "kind": 266,
+                        "kind": 309,
                         "parameters": [
                             {
-                                "kind": 267,
+                                "kind": 310,
                                 "type": {
                                     "kind": 134234353,
                                     "properties": [

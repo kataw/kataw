@@ -140,7 +140,7 @@ switch (0) { case 1: async function f() {} default: class f {} }
                                     "kind": 277,
                                     "classHeritage": null,
                                     "body": {
-                                        "kind": 262,
+                                        "kind": 303,
                                         "elements": [],
                                         "flags": 32,
                                         "start": 61,

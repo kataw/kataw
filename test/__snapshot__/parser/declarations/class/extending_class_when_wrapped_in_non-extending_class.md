@@ -57,7 +57,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                 "kind": 277,
                 "classHeritage": null,
                 "body": {
-                    "kind": 262,
+                    "kind": 303,
                     "elements": [
                         {
                             "kind": 278,
@@ -137,7 +137,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                         "end": 44
                                                     },
                                                     "body": {
-                                                        "kind": 262,
+                                                        "kind": 303,
                                                         "elements": [
                                                             {
                                                                 "kind": 278,

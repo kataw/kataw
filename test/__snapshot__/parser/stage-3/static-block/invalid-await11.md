@@ -89,7 +89,7 @@ async function foo() {
                                 "kind": 277,
                                 "classHeritage": null,
                                 "body": {
-                                    "kind": 262,
+                                    "kind": 303,
                                     "elements": [
                                         {
                                             "kind": 278,
@@ -148,7 +148,7 @@ async function foo() {
                                             "end": 54
                                         },
                                         {
-                                            "kind": 263,
+                                            "kind": 305,
                                             "decorators": null,
                                             "declaredKeyword": null,
                                             "staticKeyword": null,
