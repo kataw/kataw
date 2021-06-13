@@ -273,20 +273,18 @@ export function forEachChild(node: any, visitor: any): any {
       return visitNode(node.exportsList, node, visitor);
     case SyntaxKind.NamedImports:
       return visitNode(node.importsList, node, visitor);
-    case SyntaxKind.ArrayType:
-      return visitNode(node.elementType, node, visitor);
     case SyntaxKind.FunctionExpression:
     case SyntaxKind.FunctionDeclaration:
       return (
         visitNode(node.name, node, visitor) ||
-        visitNodes(node.formalParameters, node, visitor) ||
+        visitNode(node.formalParameters, node, visitor) ||
         visitNode(node.contents, node, visitor) ||
         visitNode(node.typeParameters, node, visitor) ||
         visitNode(node.returnType, node, visitor)
       );
     case SyntaxKind.MethodDefinition:
       return (
-        visitNodes(node.formalParameters, node, visitor) ||
+        visitNode(node.formalParameters, node, visitor) ||
         visitNodes(node.name, node, visitor) ||
         visitNode(node.contents, node, visitor)
       );
@@ -308,9 +306,8 @@ export function forEachChild(node: any, visitor: any): any {
       return visitNodes(node.parameters, node, visitor);
     case SyntaxKind.TypeAlias:
       return (
-        visitNode(node.name, node, visitor) ||
-        visitNode(node.typeParameters, node, visitor) ||
-        visitNode(node.type, node, visitor)
+        visitNode(node.type, node, visitor) ||
+        visitNode(node.typeParameters, node, visitor)
       );
     case SyntaxKind.IntersectionType:
     case SyntaxKind.UnionType:
@@ -319,8 +316,6 @@ export function forEachChild(node: any, visitor: any): any {
       return visitNode(node.type, node, visitor) || visitNode(node.defaultType, node, visitor);
     case SyntaxKind.TypeParameterDeclaration:
       return visitNodes(node.typeParameters, node, visitor);
-    case SyntaxKind.TypeParameterInstantiationList:
-      return visitNodes(node.parameters, node, visitor);
     case SyntaxKind.FunctionType:
       return (
         visitNodes(node.functionTypeParameterList, node, visitor) ||
@@ -343,8 +338,6 @@ export function forEachChild(node: any, visitor: any): any {
       return visitNode(node.name, node, visitor) || visitNode(node.value, node, visitor);
     case SyntaxKind.ParenthesizedType:
       return visitNode(node.type, node, visitor);
-    case SyntaxKind.ObjectTypeInternalSlot:
-      return visitNode(node.name, node, visitor) || visitNode(node.value, node, visitor);
     case SyntaxKind.QualifiedType:
       return visitNode(node.qualification, node, visitor) || visitNode(node.id, node, visitor);
     case SyntaxKind.ObjectType:
