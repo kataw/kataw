@@ -7,6 +7,7 @@ import { defaultOptions } from '../conf/options';
  * Autogenerate files in the runner
  */
 export async function autogen(files: string[], conservative: boolean) {
+  const testFiles: string[] = [];
   // Info message to output after generating the files
 
   console.log(
@@ -15,11 +16,7 @@ export async function autogen(files: string[], conservative: boolean) {
       ColorCodes.yellow +
       files.length +
       ColorCodes.GREEN +
-      ' files. \n\nRun ' +
-      ColorCodes.yellow +
-      'npm run test:update-all' +
-      ColorCodes.GREEN +
-      ' for auto update' +
+      ' files. \n\n' +
       ColorCodes.RESET
   );
 
@@ -29,7 +26,6 @@ export async function autogen(files: string[], conservative: boolean) {
     throw new Error(e);
   });
 
-  // TODO: cleanup
   list = list.map((it, idx) => ({ file: files[idx], data: it }));
 
   list.forEach((obj: any) => {
@@ -114,6 +110,7 @@ export async function autogen(files: string[], conservative: boolean) {
       cases.forEach((c: any) => {
         // macos filename path has a limit(255 chars). as of now, we use the slice(0, 128).
         const testFile = join(caseDir, san(String(c)).slice(0, 128) + '.md');
+        testFiles.push(testFile);
         const options = defaultOptions.find((it) => caseDir.includes(it.dir)) || {
           parserOptions: {},
           printerOptions: {}
@@ -144,4 +141,6 @@ ${code.replace(/#/g, c)}
       });
     });
   });
+
+  return testFiles;
 }
