@@ -704,7 +704,7 @@ type C = (<T>(T) => $Foo<T>)[];
                     "end": 132
                 },
                 "flags": 2097152,
-                "start": 133,
+                "start": 112,
                 "end": 134
             },
             "flags": 2097153,

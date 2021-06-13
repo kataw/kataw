@@ -348,6 +348,37 @@ interface TypeofType <: TypeNode {
 ```js
 interface UnionType <: TypeNode {
   kind: NodeKind.UnionType;
-  types: readonly TypeNode[];
+  types: TypeNode[];
 }
 ```
+
+### RestType
+
+```js
+interface RestType <: TypeNode {
+  ellipsisToken: SyntaxToken<TokenSyntaxKind>;
+  type: TypeNode;
+}
+}
+```
+
+### OptionalType
+
+```js
+interface OptionalType <: TypeNode {
+  optionalToken: SyntaxToken<TokenSyntaxKind>;
+  type: TypeNode;
+}
+```
+
+### OptionalIndexedAccess
+
+```js
+interface OptionalIndexedAccess <: TypeNode {
+  kind: NodeKind.OptionalIndexedAccess;
+  optionalIndexedToken: SyntaxToken<TokenSyntaxKind>;
+  objectType: TypeNode;
+  indexType: TypeNode;
+}
+```
+

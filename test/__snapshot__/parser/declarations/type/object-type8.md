@@ -101,15 +101,15 @@ type a = {1:y.z[][][]};
                                         "end": 15
                                     },
                                     "flags": 2097152,
-                                    "start": 16,
+                                    "start": 12,
                                     "end": 17
                                 },
                                 "flags": 2097152,
-                                "start": 18,
+                                "start": 12,
                                 "end": 19
                             },
                             "flags": 2097152,
-                            "start": 20,
+                            "start": 12,
                             "end": 21
                         },
                         "flags": 2097152,

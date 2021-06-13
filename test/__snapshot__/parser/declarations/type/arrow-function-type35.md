@@ -201,7 +201,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][][][]) => T;
                                                         "end": 27
                                                     },
                                                     "flags": 0,
-                                                    "start": 18,
+                                                    "start": 15,
                                                     "end": 29
                                                 }
                                             ],

@@ -27,6 +27,9 @@ import { SubtractionType } from './subtraction-type';
 import { ArrowTypeParameterList } from './arrow-type-parameter-list';
 import { ArrowFunctionType } from './arrow-function-type';
 import { ArrowTypeParameter } from './arrow-type-parameter';
+import { OptionalIndexedAccess } from './optional-indexed-access';
+import { RestType } from './rest-type';
+import { OptionalType } from './optional-type';
 
 /**
  * The set of all syntax items which are types.
@@ -35,6 +38,9 @@ export type TypeNode =
   | TypeofType
   | ArrowTypeParameterList
   | ArrowFunctionType
+  | OptionalIndexedAccess
+  | RestType
+  | OptionalType
   | ArrowTypeParameter
   | TypeReference
   | NullableType

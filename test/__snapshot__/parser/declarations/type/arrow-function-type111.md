@@ -215,7 +215,7 @@ type a = ((bj[c])[d]);
                     "end": 45
                 },
                 "flags": 0,
-                "start": 44,
+                "start": 34,
                 "end": 47
             },
             "flags": 2097153,
