@@ -51,26 +51,26 @@ type a = ((x?:string)=> T) => T;
                 "kind": 260,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 26,
                         "end": 29
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
                                 "kind": 144,
                                 "id": {
                                     "kind": 261,
-                                    "arrowToken": {
+                                    "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 21,
                                         "end": 23
                                     },
-                                    "parameters": {
+                                    "arrowToken": {
                                         "kind": 279,
                                         "parameters": [
                                             {

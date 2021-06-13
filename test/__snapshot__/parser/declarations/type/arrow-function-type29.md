@@ -49,24 +49,24 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 51,
                     "end": 54
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
                             "kind": 261,
-                            "arrowToken": {
+                            "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 46,
                                 "end": 48
                             },
-                            "parameters": {
+                            "arrowToken": {
                                 "kind": 279,
                                 "parameters": [
                                     {
@@ -147,13 +147,13 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
                                                         },
                                                         {
                                                             "kind": 261,
-                                                            "arrowToken": {
+                                                            "arrowTypeParameterList": {
                                                                 "kind": 10,
                                                                 "flags": 64,
                                                                 "start": 41,
                                                                 "end": 43
                                                             },
-                                                            "parameters": {
+                                                            "arrowToken": {
                                                                 "kind": 279,
                                                                 "parameters": [
                                                                     {

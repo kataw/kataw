@@ -66,13 +66,13 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 23,
                         "end": 26
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
@@ -196,13 +196,13 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 80,
                         "end": 83
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
@@ -361,13 +361,13 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 149,
                         "end": 152
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {

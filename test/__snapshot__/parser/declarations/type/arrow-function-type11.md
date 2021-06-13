@@ -49,18 +49,18 @@ type a = ("string") => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 19,
                     "end": 22
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
                             "kind": 134217967,
-                            "value": "string",
+                            "text": "string",
                             "flags": 2097216,
                             "start": 10,
                             "end": 18

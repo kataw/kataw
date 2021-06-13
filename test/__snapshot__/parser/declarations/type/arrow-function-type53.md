@@ -49,13 +49,13 @@ type a = (a[a & b[a]][c]) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 25,
                     "end": 28
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 268,
                     "objectType": {
                         "kind": 268,

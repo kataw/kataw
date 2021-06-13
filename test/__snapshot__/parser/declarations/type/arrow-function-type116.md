@@ -49,13 +49,13 @@ type a = (1,2, x) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 17,
                     "end": 20
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -75,7 +75,7 @@ type a = (1,2, x) => T;
                             "end": 11
                         },
                         {
-                            "kind": 149,
+                            "kind": 284,
                             "ellipsisToken": null,
                             "name": null,
                             "optionalToken": null,
@@ -91,7 +91,7 @@ type a = (1,2, x) => T;
                             "end": 13
                         },
                         {
-                            "kind": 149,
+                            "kind": 284,
                             "ellipsisToken": null,
                             "name": null,
                             "optionalToken": null,

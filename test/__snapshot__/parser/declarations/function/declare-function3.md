@@ -74,14 +74,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 113,
-                                    "end": 116
-                                },
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -124,6 +118,12 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                     "flags": 2097152,
                                     "start": 93,
                                     "end": 112
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 113,
+                                    "end": 116
                                 },
                                 "returnType": {
                                     "kind": 144,
@@ -211,7 +211,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                         "optionalToken": null,
                                                         "value": {
                                                             "kind": 134217967,
-                                                            "value": "a",
+                                                            "text": "a",
                                                             "flags": 2097216,
                                                             "start": 53,
                                                             "end": 57
@@ -273,14 +273,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 152,
-                        "end": 155
-                    },
-                    "parameters": {
-                        "kind": 282,
+                    "arrowTypeParameterList": {
+                        "kind": 279,
                         "parameters": [
                             {
                                 "kind": 149,
@@ -323,6 +317,12 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                         "flags": 2097152,
                         "start": 132,
                         "end": 151
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 152,
+                        "end": 155
                     },
                     "returnType": {
                         "kind": 144,

@@ -75,7 +75,7 @@ declare class A { static foo(): number; static x : string }
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
-                                "parameters": {
+                                "functionTypeParameterList": {
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,

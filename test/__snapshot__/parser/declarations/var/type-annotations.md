@@ -160,24 +160,24 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": null,
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 44,
                                     "end": 44
                                 },
+                                "arrowToken": null,
                                 "returnType": {
                                     "kind": 261,
-                                    "arrowToken": {
+                                    "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 50,
                                         "end": 53
                                     },
-                                    "parameters": {
+                                    "arrowToken": {
                                         "kind": 279,
                                         "parameters": [
                                             {
@@ -310,24 +310,24 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": null,
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 74,
                                     "end": 74
                                 },
+                                "arrowToken": null,
                                 "returnType": {
                                     "kind": 261,
-                                    "arrowToken": {
+                                    "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 90,
                                         "end": 93
                                     },
-                                    "parameters": {
+                                    "arrowToken": {
                                         "kind": 279,
                                         "parameters": [
                                             {
@@ -716,19 +716,19 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 168,
-                                    "end": 171
-                                },
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 167,
                                     "end": 167
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 168,
+                                    "end": 171
                                 },
                                 "returnType": {
                                     "kind": 137,
@@ -741,19 +741,19 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         },
                                         {
                                             "kind": 261,
-                                            "arrowToken": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 183,
-                                                "end": 186
-                                            },
-                                            "parameters": {
-                                                "kind": 282,
+                                            "arrowTypeParameterList": {
+                                                "kind": 279,
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
                                                 "start": 182,
                                                 "end": 182
+                                            },
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 183,
+                                                "end": 186
                                             },
                                             "returnType": {
                                                 "kind": 134234347,

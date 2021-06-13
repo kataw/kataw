@@ -49,13 +49,13 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 35,
                                     "end": 38
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -83,7 +83,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                             "end": 18
                                         },
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": null,
                                             "optionalToken": null,
@@ -107,7 +107,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                             "end": 26
                                         },
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": null,
                                             "optionalToken": null,

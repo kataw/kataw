@@ -70,7 +70,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
-                                "parameters": {
+                                "functionTypeParameterList": {
                                     "kind": 282,
                                     "parameters": [
                                         {

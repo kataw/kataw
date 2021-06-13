@@ -49,24 +49,24 @@ type a = (([-1]| q & (x)) => T) => T
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 31,
                     "end": 34
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
                             "kind": 261,
-                            "arrowToken": {
+                            "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 25,
                                 "end": 28
                             },
-                            "parameters": {
+                            "arrowToken": {
                                 "kind": 279,
                                 "parameters": [
                                     {
@@ -83,7 +83,7 @@ type a = (([-1]| q & (x)) => T) => T
                                                             "start": 12,
                                                             "end": 13
                                                         },
-                                                        "value": 1,
+                                                        "text": 1,
                                                         "flags": 2097216,
                                                         "start": 12,
                                                         "end": 14

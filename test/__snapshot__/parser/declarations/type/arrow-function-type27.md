@@ -51,26 +51,26 @@ type a = ((x?:string, (x?:string)=> T)=> T) => T;
                 "kind": 260,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 43,
                         "end": 46
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
                                 "kind": 144,
                                 "id": {
                                     "kind": 261,
-                                    "arrowToken": {
+                                    "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 38,
                                         "end": 40
                                     },
-                                    "parameters": {
+                                    "arrowToken": {
                                         "kind": 279,
                                         "parameters": [
                                             {
@@ -101,19 +101,19 @@ type a = ((x?:string, (x?:string)=> T)=> T) => T;
                                                 "end": 20
                                             },
                                             {
-                                                "kind": 149,
+                                                "kind": 284,
                                                 "ellipsisToken": null,
                                                 "name": null,
                                                 "optionalToken": null,
                                                 "types": {
                                                     "kind": 261,
-                                                    "arrowToken": {
+                                                    "arrowTypeParameterList": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 33,
                                                         "end": 35
                                                     },
-                                                    "parameters": {
+                                                    "arrowToken": {
                                                         "kind": 279,
                                                         "parameters": [
                                                             {

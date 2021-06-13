@@ -49,24 +49,24 @@ type Fn1 = <T>(T) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": null,
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
                     "start": 14,
                     "end": 14
                 },
+                "arrowToken": null,
                 "returnType": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 17,
                         "end": 20
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,

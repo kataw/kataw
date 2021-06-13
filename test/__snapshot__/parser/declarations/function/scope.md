@@ -393,19 +393,19 @@ function for_scope_var() {
                                             "kind": 139,
                                             "type": {
                                                 "kind": 261,
-                                                "arrowToken": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 208,
-                                                    "end": 211
-                                                },
-                                                "parameters": {
-                                                    "kind": 282,
+                                                "arrowTypeParameterList": {
+                                                    "kind": 279,
                                                     "parameters": [],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
                                                     "start": 207,
                                                     "end": 207
+                                                },
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 208,
+                                                    "end": 211
                                                 },
                                                 "returnType": {
                                                     "kind": 134234347,

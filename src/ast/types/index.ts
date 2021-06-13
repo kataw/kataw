@@ -19,17 +19,22 @@ import { QualifiedType } from './qualified-type';
 import { TypeAlias } from './type-alias-declaration';
 import { TypeofType } from './typeof-type';
 import { FunctionTypeParameterList } from './function-type-parameter-list';
-import { BooleanType } from './boolean-type';
 import { TypeParameterDeclaration } from './type-parameter-declaration';
 import { TypeParameter } from './type-parameter';
 import { IndexedAccessType } from './indexed-access-type';
 import { SubtractionType } from './subtraction-type';
+import { ArrowTypeParameterList } from './arrow-type-parameter-list';
+import { ArrowFunctionType } from './arrow-function-type';
+import { ArrowTypeParameter } from './arrow-type-parameter';
 
 /**
  * The set of all syntax items which are types.
  */
 export type TypeNode =
   | TypeofType
+  | ArrowTypeParameterList
+  | ArrowFunctionType
+  | ArrowTypeParameter
   | TypeReference
   | NullableType
   | IndexedAccessType
@@ -42,7 +47,6 @@ export type TypeNode =
   | ObjectTypeSpreadProperty
   | QualifiedType
   | TypeAlias
-  | BooleanType
   | IntersectionType
   | ArrayType
   | UnionType

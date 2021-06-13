@@ -80,7 +80,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "kind": 139,
                 "type": {
                     "kind": 134217967,
-                    "value": "div",
+                    "text": "div",
                     "flags": 2097216,
                     "start": 31,
                     "end": 37

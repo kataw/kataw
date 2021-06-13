@@ -200,19 +200,19 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 108,
-                        "end": 111
-                    },
-                    "parameters": {
-                        "kind": 282,
+                    "arrowTypeParameterList": {
+                        "kind": 279,
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 107,
                         "end": 107
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 108,
+                        "end": 111
                     },
                     "returnType": {
                         "kind": 134234347,
@@ -402,19 +402,19 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 222,
-                        "end": 225
-                    },
-                    "parameters": {
-                        "kind": 282,
+                    "arrowTypeParameterList": {
+                        "kind": 279,
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 221,
                         "end": 221
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 222,
+                        "end": 225
                     },
                     "returnType": {
                         "kind": 134234345,

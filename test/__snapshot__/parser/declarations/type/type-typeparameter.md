@@ -418,7 +418,7 @@ type B = Foo<
                                                 "optionalToken": null,
                                                 "value": {
                                                     "kind": 134217967,
-                                                    "value": "A",
+                                                    "text": "A",
                                                     "flags": 2097216,
                                                     "start": 144,
                                                     "end": 148
@@ -453,7 +453,7 @@ type B = Foo<
                                                 "optionalToken": null,
                                                 "value": {
                                                     "kind": 134217967,
-                                                    "value": "B",
+                                                    "text": "B",
                                                     "flags": 2097216,
                                                     "start": 160,
                                                     "end": 164
@@ -552,7 +552,7 @@ type B = Foo<
                                                 "optionalToken": null,
                                                 "value": {
                                                     "kind": 134217967,
-                                                    "value": "A",
+                                                    "text": "A",
                                                     "flags": 2097216,
                                                     "start": 194,
                                                     "end": 198
@@ -587,7 +587,7 @@ type B = Foo<
                                                 "optionalToken": null,
                                                 "value": {
                                                     "kind": 134217967,
-                                                    "value": "B",
+                                                    "text": "B",
                                                     "flags": 2097216,
                                                     "start": 210,
                                                     "end": 214

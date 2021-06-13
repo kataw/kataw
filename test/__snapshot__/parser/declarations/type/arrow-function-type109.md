@@ -48,17 +48,11 @@ type a = (...b[([x])=> c] | d) => c;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 30,
-                    "end": 33
-                },
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [
                         {
-                            "kind": 149,
+                            "kind": 284,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -89,13 +83,13 @@ type a = (...b[([x])=> c] | d) => c;
                                         },
                                         "indexType": {
                                             "kind": 261,
-                                            "arrowToken": {
+                                            "arrowTypeParameterList": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 20,
                                                 "end": 22
                                             },
-                                            "parameters": {
+                                            "arrowToken": {
                                                 "kind": 279,
                                                 "parameters": [
                                                     {
@@ -181,6 +175,12 @@ type a = (...b[([x])=> c] | d) => c;
                     "flags": 2097152,
                     "start": 10,
                     "end": 29
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 30,
+                    "end": 33
                 },
                 "returnType": {
                     "kind": 144,

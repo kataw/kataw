@@ -49,14 +49,8 @@ type a = (...x: string & foo | bar) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 35,
-                    "end": 38
-                },
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [
                         {
                             "kind": 149,
@@ -136,6 +130,12 @@ type a = (...x: string & foo | bar) => T;
                     "flags": 2097152,
                     "start": 10,
                     "end": 34
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 35,
+                    "end": 38
                 },
                 "returnType": {
                     "kind": 144,

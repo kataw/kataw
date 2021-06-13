@@ -108,7 +108,6 @@ import { createBigIntLiteral, BigIntLiteral } from '../ast/expressions/big-int-l
 import { createConditionalExpression } from '../ast/expressions/conditional-expr';
 import { createBinaryExpression, BinaryExpression } from '../ast/expressions/binary-expr';
 import { createSubtractionType, SubtractionType } from '../ast/types/subtraction-type';
-import { createBooleanType, BooleanType } from '../ast/types/boolean-type';
 import { createIndexedAccessType } from '../ast/types/indexed-access-type';
 import { createObjectTypeSpreadProperty, ObjectTypeSpreadProperty } from '../ast/types/object-type-spread-property';
 import { createObjectTypeInternalSlot, ObjectTypeInternalSlot } from '../ast/types/object-type-internal-slot';
@@ -128,6 +127,7 @@ import { createTypeReference, TypeReference } from '../ast/types/type-reference'
 import { createTypeParameter, TypeParameter } from '../ast/types/type-parameter';
 import { createTupleType, TupleType } from '../ast/types/tuple-type';
 import { createArrowFunctionType, ArrowFunctionType } from '../ast/types/arrow-function-type';
+import { createArrowTypeParameter, ArrowTypeParameter } from '../ast/types/arrow-type-parameter';
 import { createParenthesizedType } from '../ast/types/parenthesized-type';
 import { createFunctionType, FunctionType } from '../ast/types/function-type';
 import { createFunctionTypeParameterList, FunctionTypeParameterList } from '../ast/types/function-type-parameter-list';
@@ -7155,10 +7155,11 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
       return parseStringType(parser, context);
     case SyntaxKind.NumericLiteral:
       return parseNumberType(parser, context);
-    case SyntaxKind.TrueKeyword:
-      return parseBooleanType(parser, context, /* isTruthy */ true);
     case SyntaxKind.FalseKeyword:
-      return parseBooleanType(parser, context, /* isTruthy */ false);
+    case SyntaxKind.TrueKeyword:
+      const pos = parser.curPos;
+      nextToken(parser, context);
+      return createToken(parser.token, NodeFlags.IsTypeNode | NodeFlags.ChildLess, pos, parser.curPos);
     case SyntaxKind.LeftBrace:
       return parseObjectType(parser, context, ObjectTypeFlag.None);
     case SyntaxKind.LeftBracket:
@@ -7218,12 +7219,6 @@ function parseNumberType(parser: ParserState, context: Context): NumberType {
   const value = parser.tokenValue;
   nextToken(parser, context);
   return createNumberType(value, pos, parser.curPos);
-}
-
-function parseBooleanType(parser: ParserState, context: Context, isTruthy: boolean): BooleanType {
-  const pos = parser.curPos;
-  nextToken(parser, context);
-  return createBooleanType(isTruthy ? true : false, pos, parser.curPos);
 }
 
 function parseTupleType(parser: ParserState, context: Context): TupleType {
@@ -7348,20 +7343,67 @@ function parseFunctionTypeParameter(parser: ParserState, context: Context): Func
   } else {
     type = parseType(parser, context);
   }
-  return createFunctionTypeParameters(ellipsisToken, null as any, /* optionalToken */ null, type, pos, parser.curPos);
+  return createArrowTypeParameter(ellipsisToken, null as any, /* optionalToken */ null, type, pos, parser.curPos);
+}
+
+function parseArrowTypeParameter(parser: ParserState, context: Context): FunctionTypeParameter {
+  const pos = parser.curPos;
+  const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
+  let type: any = null;
+  if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+    const token = parser.token;
+    type = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Type_expected);
+    if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) {
+      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      consume(parser, context, SyntaxKind.Colon, DiagnosticCode.Type_expected);
+      return createFunctionTypeParameters(
+        ellipsisToken,
+        type,
+        optionalToken,
+        parseType(parser, context),
+        pos,
+        parser.curPos
+      );
+    }
+
+    type = parsePrimaryTypeRest(parser, context, token, type, pos);
+  } else {
+    type = parseType(parser, context);
+  }
+  return createArrowTypeParameter(ellipsisToken, null as any, /* optionalToken */ null, type, pos, parser.curPos);
 }
 
 function parseArrowFunctionType(parser: ParserState, context: Context): ArrowFunctionType {
   const pos = parser.curPos;
   const typeParameters = parseTypeParameterDeclaration(parser, context);
   return createArrowFunctionType(
+    parseArrowTypeParameters(parser, context),
     consumeOptToken(parser, context, SyntaxKind.Arrow),
-    parseFunctionTypeParameters(parser, context, FunctionTypeFlags.None),
     parseType(parser, context),
     typeParameters,
     pos,
     parser.curPos
   );
+}
+
+function parseArrowTypeParameters(parser: ParserState, context: Context): FunctionTypeParameterList {
+  const pos = parser.curPos;
+  const arrowTypeParameterList: ArrowTypeParameter[] = [];
+  let trailingComma = false;
+  while (
+    parser.token &
+    (SyntaxKind.IsEllipsis | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType)
+  ) {
+    arrowTypeParameterList.push(parseArrowTypeParameter(parser, context));
+    if (parser.token === SyntaxKind.RightParen) break;
+    if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
+      if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+        trailingComma = true;
+        break;
+      }
+    }
+  }
+  return createArrowTypeParameterList(arrowTypeParameterList, trailingComma, pos, parser.curPos);
 }
 
 function parseArrowFunctionTypeParameters(parser: ParserState, context: Context, param: any, pos: number): any {
@@ -7373,7 +7415,7 @@ function parseArrowFunctionTypeParameters(parser: ParserState, context: Context,
       return createArrowTypeParameterList(params, /* trailingComma */ true, pos, parser.curPos);
     }
     do {
-      params.push(parseFunctionTypeParameter(parser, context));
+      params.push(parseArrowTypeParameter(parser, context));
       if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
       consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
       if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
@@ -7395,11 +7437,11 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
   // - `type a = (|x) => T;`
   // - `type a = [(&x,|a) => T];`
   if (parser.token === SyntaxKind.RightParen || parser.token === SyntaxKind.Ellipsis) {
-    const params = parseFunctionTypeParameters(parser, context, FunctionTypeFlags.None);
+    const params = parseArrowTypeParameters(parser, context);
     consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
     return createArrowFunctionType(
-      consumeOptToken(parser, context, SyntaxKind.Arrow),
       params,
+      consumeOptToken(parser, context, SyntaxKind.Arrow),
       parseType(parser, context),
       /* typeParameters */ null,
       pos,

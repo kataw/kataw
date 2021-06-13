@@ -67,11 +67,11 @@ type o = { m(|int|bool): void }
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [
                                     {
-                                        "kind": 149,
+                                        "kind": 284,
                                         "ellipsisToken": null,
                                         "name": null,
                                         "optionalToken": null,

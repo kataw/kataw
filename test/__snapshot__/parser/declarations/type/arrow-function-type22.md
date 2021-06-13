@@ -49,13 +49,13 @@ type a = ({key():string}[x]) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 28,
                     "end": 31
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -80,7 +80,7 @@ type a = ({key():string}[x]) => T;
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 148,
-                                            "parameters": {
+                                            "functionTypeParameterList": {
                                                 "kind": 282,
                                                 "parameters": [],
                                                 "trailingComma": false,

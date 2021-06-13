@@ -171,19 +171,19 @@ function d(x: { (z: number): string }): () => string {
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 42,
-                        "end": 45
-                    },
-                    "parameters": {
-                        "kind": 282,
+                    "arrowTypeParameterList": {
+                        "kind": 279,
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 41,
                         "end": 41
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 42,
+                        "end": 45
                     },
                     "returnType": {
                         "kind": 134234347,

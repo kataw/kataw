@@ -56,7 +56,7 @@ var a: -0x7B
                                     "start": 6,
                                     "end": 8
                                 },
-                                "value": 123,
+                                "text": 123,
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 12

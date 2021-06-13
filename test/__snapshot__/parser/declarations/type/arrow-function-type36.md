@@ -49,13 +49,13 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][][]) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 55,
                     "end": 58
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 136,
                     "type": {
                         "kind": 136,
@@ -257,13 +257,13 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][][]) => T;
                                 },
                                 "indexType": {
                                     "kind": 261,
-                                    "arrowToken": {
+                                    "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 40,
                                         "end": 43
                                     },
-                                    "parameters": {
+                                    "arrowToken": {
                                         "kind": 144,
                                         "id": {
                                             "kind": 134299649,
@@ -310,7 +310,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][][]) => T;
                                     "start": 47,
                                     "end": 48
                                 },
-                                "value": 1,
+                                "text": 1,
                                 "flags": 2097216,
                                 "start": 47,
                                 "end": 49

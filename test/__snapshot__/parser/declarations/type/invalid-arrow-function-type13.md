@@ -49,13 +49,13 @@ type a = ({get y(y)}) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 21,
                     "end": 24
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -83,11 +83,11 @@ type a = ({get y(y)}) => T;
                                     "optionalToken": null,
                                     "value": {
                                         "kind": 148,
-                                        "parameters": {
+                                        "functionTypeParameterList": {
                                             "kind": 282,
                                             "parameters": [
                                                 {
-                                                    "kind": 149,
+                                                    "kind": 284,
                                                     "ellipsisToken": null,
                                                     "name": null,
                                                     "optionalToken": null,

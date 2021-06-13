@@ -49,13 +49,13 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 88,
                     "end": 91
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 268,
                     "objectType": {
                         "kind": 136,
@@ -186,7 +186,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                             "optionalToken": null,
                                             "value": {
                                                 "kind": 148,
-                                                "parameters": {
+                                                "functionTypeParameterList": {
                                                     "kind": 282,
                                                     "parameters": [],
                                                     "trailingComma": false,
@@ -229,13 +229,13 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                     },
                     "indexType": {
                         "kind": 261,
-                        "arrowToken": {
+                        "arrowTypeParameterList": {
                             "kind": 10,
                             "flags": 64,
                             "start": 81,
                             "end": 84
                         },
-                        "parameters": {
+                        "arrowToken": {
                             "kind": 136,
                             "type": {
                                 "kind": 136,
@@ -366,7 +366,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                     "optionalToken": null,
                                                     "value": {
                                                         "kind": 148,
-                                                        "parameters": {
+                                                        "functionTypeParameterList": {
                                                             "kind": 282,
                                                             "parameters": [],
                                                             "trailingComma": false,

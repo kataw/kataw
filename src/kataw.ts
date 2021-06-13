@@ -110,7 +110,6 @@ export { createBigIntLiteral } from './ast/expressions/big-int-literal';
 export { createConditionalExpression } from './ast/expressions/conditional-expr';
 export { createBinaryExpression } from './ast/expressions/binary-expr';
 export { createSubtractionType } from './ast/types/subtraction-type';
-export { createBooleanType } from './ast/types/boolean-type';
 export { createIndexedAccessType } from './ast/types/indexed-access-type';
 export { createObjectTypeSpreadProperty } from './ast/types/object-type-spread-property';
 export { createObjectTypeInternalSlot } from './ast/types/object-type-internal-slot';

@@ -99,7 +99,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                         "optionalToken": null,
                                                         "value": {
                                                             "kind": 134217967,
-                                                            "value": "a",
+                                                            "text": "a",
                                                             "flags": 2097216,
                                                             "start": 41,
                                                             "end": 45

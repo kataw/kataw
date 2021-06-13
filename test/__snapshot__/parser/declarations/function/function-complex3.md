@@ -428,7 +428,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134217967,
-                                                "value": "a",
+                                                "text": "a",
                                                 "flags": 2097216,
                                                 "start": 156,
                                                 "end": 160
@@ -674,7 +674,7 @@ function b1<A: 'a', B: A>(b: B): void {
                             "kind": 139,
                             "type": {
                                 "kind": 134217967,
-                                "value": "a",
+                                "text": "a",
                                 "flags": 2097216,
                                 "start": 216,
                                 "end": 220

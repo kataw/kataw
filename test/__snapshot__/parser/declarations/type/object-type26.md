@@ -59,13 +59,13 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                             "kind": 260,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 24,
                                     "end": 27
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -88,7 +88,7 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                                                     "optionalToken": null,
                                                     "value": {
                                                         "kind": 148,
-                                                        "parameters": {
+                                                        "functionTypeParameterList": {
                                                             "kind": 282,
                                                             "parameters": [],
                                                             "trailingComma": false,

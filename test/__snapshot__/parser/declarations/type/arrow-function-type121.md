@@ -51,13 +51,13 @@ type a = [(&x,|a) => T];
                 "elementTypes": [
                     {
                         "kind": 261,
-                        "arrowToken": {
+                        "arrowTypeParameterList": {
                             "kind": 10,
                             "flags": 64,
                             "start": 17,
                             "end": 20
                         },
-                        "parameters": {
+                        "arrowToken": {
                             "kind": 279,
                             "parameters": [
                                 {
@@ -85,7 +85,7 @@ type a = [(&x,|a) => T];
                                     "end": 13
                                 },
                                 {
-                                    "kind": 149,
+                                    "kind": 284,
                                     "ellipsisToken": null,
                                     "name": null,
                                     "optionalToken": null,

@@ -49,8 +49,7 @@ var foo: true
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 209,
-                                "text": true,
+                                "kind": 1048699,
                                 "flags": 2097216,
                                 "start": 8,
                                 "end": 13

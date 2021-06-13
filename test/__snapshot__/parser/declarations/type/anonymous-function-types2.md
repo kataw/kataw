@@ -49,13 +49,13 @@ type A = (string) => void
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 17,
                     "end": 20
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 134234347,
                     "flags": 64,
                     "start": 10,

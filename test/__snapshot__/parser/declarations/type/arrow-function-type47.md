@@ -49,13 +49,13 @@ type a = (a[b][-1][][]) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 23,
                     "end": 26
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 136,
                     "type": {
                         "kind": 136,
@@ -105,7 +105,7 @@ type a = (a[b][-1][][]) => T;
                                     "start": 15,
                                     "end": 16
                                 },
-                                "value": 1,
+                                "text": 1,
                                 "flags": 2097216,
                                 "start": 15,
                                 "end": 17

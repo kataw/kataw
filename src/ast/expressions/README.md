@@ -1,7 +1,7 @@
 # 13 ECMAScript Language: Expressions
 
 ```js
-interface Expression <: Node { }
+interface Expression <: SyntaxNode { }
 ```
 
 ### Identifier

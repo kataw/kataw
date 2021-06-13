@@ -74,7 +74,7 @@ type a = (a[-1]);
                             "start": 12,
                             "end": 13
                         },
-                        "value": 1,
+                        "text": 1,
                         "flags": 2097216,
                         "start": 12,
                         "end": 14

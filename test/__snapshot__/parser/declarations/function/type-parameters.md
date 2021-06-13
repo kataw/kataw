@@ -428,24 +428,24 @@ type T = <
             },
             "type": {
                 "kind": 261,
-                "arrowToken": null,
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
                     "start": 208,
                     "end": 208
                 },
+                "arrowToken": null,
                 "returnType": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 213,
                         "end": 216
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
@@ -849,24 +849,24 @@ type T = <
             },
             "type": {
                 "kind": 261,
-                "arrowToken": null,
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
                     "start": 450,
                     "end": 450
                 },
+                "arrowToken": null,
                 "returnType": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 455,
                         "end": 458
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,

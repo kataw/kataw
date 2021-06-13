@@ -624,7 +624,7 @@ type T9 = { [param: string]: U };
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
@@ -701,19 +701,19 @@ type T9 = { [param: string]: U };
                         "optionalToken": null,
                         "value": {
                             "kind": 261,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 203,
-                                "end": 206
-                            },
-                            "parameters": {
-                                "kind": 282,
+                            "arrowTypeParameterList": {
+                                "kind": 279,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
                                 "start": 202,
                                 "end": 202
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 203,
+                                "end": 206
                             },
                             "returnType": {
                                 "kind": 134234345,

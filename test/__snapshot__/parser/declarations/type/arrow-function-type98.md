@@ -49,13 +49,13 @@ type a = ((x | (y)=> T)) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 24,
                     "end": 27
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -78,13 +78,13 @@ type a = ((x | (y)=> T)) => T;
                                 },
                                 {
                                     "kind": 261,
-                                    "arrowToken": {
+                                    "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 18,
                                         "end": 20
                                     },
-                                    "parameters": {
+                                    "arrowToken": {
                                         "kind": 144,
                                         "id": {
                                             "kind": 134299649,

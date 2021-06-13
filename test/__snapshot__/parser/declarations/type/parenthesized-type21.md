@@ -52,7 +52,7 @@ type a = (["string"]);
                     "elementTypes": [
                         {
                             "kind": 134217967,
-                            "value": "string",
+                            "text": "string",
                             "flags": 2097216,
                             "start": 11,
                             "end": 19

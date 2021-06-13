@@ -3,7 +3,7 @@
 ### ImportDeclaration
 
 ```js
-interface ImportDeclaration <: Node {
+interface ImportDeclaration <: SyntaxNode {
   kind: NodeKind.ImportDeclaration;
   importKeyword: SyntaxToken<TokenSyntaxKind>;
   typeKeyword: SyntaxToken<TokenSyntaxKind> | null;

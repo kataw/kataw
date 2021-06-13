@@ -49,13 +49,13 @@ type a = (b[()=> c]) => c;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 20,
                     "end": 23
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 268,
                     "objectType": {
                         "kind": 144,
@@ -74,19 +74,19 @@ type a = (b[()=> c]) => c;
                     },
                     "indexType": {
                         "kind": 261,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 14,
-                            "end": 16
-                        },
-                        "parameters": {
-                            "kind": 282,
+                        "arrowTypeParameterList": {
+                            "kind": 279,
                             "parameters": [],
                             "trailingComma": false,
                             "flags": 2097152,
                             "start": 13,
                             "end": 13
+                        },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 14,
+                            "end": 16
                         },
                         "returnType": {
                             "kind": 144,

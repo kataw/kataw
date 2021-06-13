@@ -490,19 +490,19 @@ class Array { concat(items:number | string) {}; }
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 123,
-                                    "end": 126
-                                },
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 122,
                                     "end": 122
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 123,
+                                    "end": 126
                                 },
                                 "returnType": {
                                     "kind": 137,
@@ -515,19 +515,19 @@ class Array { concat(items:number | string) {}; }
                                         },
                                         {
                                             "kind": 261,
-                                            "arrowToken": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 138,
-                                                "end": 141
-                                            },
-                                            "parameters": {
-                                                "kind": 282,
+                                            "arrowTypeParameterList": {
+                                                "kind": 279,
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
                                                 "start": 137,
                                                 "end": 137
+                                            },
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 138,
+                                                "end": 141
                                             },
                                             "returnType": {
                                                 "kind": 134234347,

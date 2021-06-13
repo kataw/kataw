@@ -1,12 +1,3 @@
-### PrologueDirective
-
-```js
-interface PrologueDirective <: Expression {
-  kind: NodeKind.PrologueDirective;
-  expression: StringLiteral;
-}
-```
-
 ### UniqueIdentifier
 
 ```js

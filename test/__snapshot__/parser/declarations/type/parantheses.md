@@ -56,24 +56,24 @@ type C = (<T>(T) => $Foo<T>)[];
                         "kind": 260,
                         "type": {
                             "kind": 261,
-                            "arrowToken": null,
-                            "parameters": {
-                                "kind": 282,
+                            "arrowTypeParameterList": {
+                                "kind": 279,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
                                 "start": 13,
                                 "end": 13
                             },
+                            "arrowToken": null,
                             "returnType": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 16,
                                     "end": 19
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -172,24 +172,24 @@ type C = (<T>(T) => $Foo<T>)[];
                         "kind": 260,
                         "type": {
                             "kind": 261,
-                            "arrowToken": null,
-                            "parameters": {
-                                "kind": 282,
+                            "arrowTypeParameterList": {
+                                "kind": 279,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
                                 "start": 35,
                                 "end": 35
                             },
+                            "arrowToken": null,
                             "returnType": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 38,
                                     "end": 41
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -324,24 +324,24 @@ type C = (<T>(T) => $Foo<T>)[];
                         "kind": 260,
                         "type": {
                             "kind": 261,
-                            "arrowToken": null,
-                            "parameters": {
-                                "kind": 282,
+                            "arrowTypeParameterList": {
+                                "kind": 279,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
                                 "start": 65,
                                 "end": 65
                             },
+                            "arrowToken": null,
                             "returnType": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 68,
                                     "end": 71
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -440,24 +440,24 @@ type C = (<T>(T) => $Foo<T>)[];
                         "kind": 260,
                         "type": {
                             "kind": 261,
-                            "arrowToken": null,
-                            "parameters": {
-                                "kind": 282,
+                            "arrowTypeParameterList": {
+                                "kind": 279,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
                                 "start": 87,
                                 "end": 87
                             },
+                            "arrowToken": null,
                             "returnType": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 90,
                                     "end": 93
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -591,24 +591,24 @@ type C = (<T>(T) => $Foo<T>)[];
                     "kind": 260,
                     "type": {
                         "kind": 261,
-                        "arrowToken": null,
-                        "parameters": {
-                            "kind": 282,
+                        "arrowTypeParameterList": {
+                            "kind": 279,
                             "parameters": [],
                             "trailingComma": false,
                             "flags": 2097152,
                             "start": 117,
                             "end": 117
                         },
+                        "arrowToken": null,
                         "returnType": {
                             "kind": 261,
-                            "arrowToken": {
+                            "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 120,
                                 "end": 123
                             },
-                            "parameters": {
+                            "arrowToken": {
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,

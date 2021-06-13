@@ -94,13 +94,13 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                                             "elementTypes": [
                                                 {
                                                     "kind": 261,
-                                                    "arrowToken": {
+                                                    "arrowTypeParameterList": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 25,
                                                         "end": 28
                                                     },
-                                                    "parameters": {
+                                                    "arrowToken": {
                                                         "kind": 144,
                                                         "id": {
                                                             "kind": 134299649,

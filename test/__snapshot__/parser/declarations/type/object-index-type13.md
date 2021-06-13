@@ -57,13 +57,13 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                         "name": null,
                         "key": {
                             "kind": 261,
-                            "arrowToken": {
+                            "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 15,
                                 "end": 18
                             },
-                            "parameters": {
+                            "arrowToken": {
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,

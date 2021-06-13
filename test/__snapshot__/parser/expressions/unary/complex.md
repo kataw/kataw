@@ -576,8 +576,7 @@ function x8(a: false & false): false {
                                         {
                                             "kind": 267,
                                             "type": {
-                                                "kind": 209,
-                                                "text": false,
+                                                "kind": 34883,
                                                 "flags": 2097216,
                                                 "start": 348,
                                                 "end": 353
@@ -661,8 +660,7 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 209,
-                    "text": true,
+                    "kind": 268501004,
                     "flags": 2097216,
                     "start": 356,
                     "end": 361
@@ -733,8 +731,7 @@ function x8(a: false & false): false {
                                         {
                                             "kind": 267,
                                             "type": {
-                                                "kind": 209,
-                                                "text": false,
+                                                "kind": 34883,
                                                 "flags": 2097216,
                                                 "start": 404,
                                                 "end": 409
@@ -818,8 +815,7 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 209,
-                    "text": false,
+                    "kind": 268501004,
                     "flags": 2097216,
                     "start": 412,
                     "end": 418
@@ -878,15 +874,13 @@ function x8(a: false & false): false {
                                 "kind": 138,
                                 "types": [
                                     {
-                                        "kind": 209,
-                                        "text": false,
+                                        "kind": 134252103,
                                         "flags": 2097216,
                                         "start": 476,
                                         "end": 482
                                     },
                                     {
-                                        "kind": 209,
-                                        "text": false,
+                                        "kind": 16,
                                         "flags": 2097216,
                                         "start": 484,
                                         "end": 490
@@ -962,8 +956,7 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 209,
-                    "text": true,
+                    "kind": 268501004,
                     "flags": 2097216,
                     "start": 492,
                     "end": 497
@@ -1022,15 +1015,13 @@ function x8(a: false & false): false {
                                 "kind": 138,
                                 "types": [
                                     {
-                                        "kind": 209,
-                                        "text": false,
+                                        "kind": 134252103,
                                         "flags": 2097216,
                                         "start": 537,
                                         "end": 543
                                     },
                                     {
-                                        "kind": 209,
-                                        "text": false,
+                                        "kind": 16,
                                         "flags": 2097216,
                                         "start": 545,
                                         "end": 551
@@ -1106,8 +1097,7 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 209,
-                    "text": false,
+                    "kind": 268501004,
                     "flags": 2097216,
                     "start": 553,
                     "end": 559

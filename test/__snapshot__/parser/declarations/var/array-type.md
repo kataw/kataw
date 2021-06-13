@@ -120,13 +120,13 @@ var a: (?number)[];
                                     "kind": 260,
                                     "type": {
                                         "kind": 261,
-                                        "arrowToken": {
+                                        "arrowTypeParameterList": {
                                             "kind": 10,
                                             "flags": 64,
                                             "start": 28,
                                             "end": 31
                                         },
-                                        "parameters": {
+                                        "arrowToken": {
                                             "kind": 279,
                                             "parameters": [
                                                 []
@@ -200,19 +200,19 @@ var a: (?number)[];
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 53,
-                                    "end": 56
-                                },
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 52,
                                     "end": 52
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 53,
+                                    "end": 56
                                 },
                                 "returnType": {
                                     "kind": 136,

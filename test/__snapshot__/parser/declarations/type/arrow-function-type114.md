@@ -53,13 +53,13 @@ type a = (bj[[c]] & d) => T;
                 "kind": 260,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 23,
                         "end": 26
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
@@ -190,13 +190,13 @@ type a = (bj[[c]] & d) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 54,
                     "end": 57
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 138,
                     "types": [
                         {
