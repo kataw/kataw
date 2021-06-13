@@ -41,6 +41,12 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -50,7 +56,7 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                     "end": 68
                 },
                 "parameters": {
-                    "kind": 208,
+                    "kind": 282,
                     "parameters": [
                         {
                             "kind": 149,
@@ -97,12 +103,12 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                                     "end": 29
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 25,
                                                 "end": 29
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 23,
                                         "end": 29
                                     },
@@ -115,7 +121,7 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                             "end": 62
                                         },
                                         "parameters": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -162,12 +168,12 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                                                             "end": 52
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "flags": 0,
+                                                                        "flags": 32,
                                                                         "start": 48,
                                                                         "end": 52
                                                                     }
                                                                 ],
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 46,
                                                                 "end": 52
                                                             },
@@ -182,16 +188,16 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                                                     "end": 58
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 54,
                                                                 "end": 58
                                                             }
                                                         ],
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 52,
                                                         "end": 58
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 33,
                                                     "end": 58
                                                 }
@@ -212,21 +218,21 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                                 "end": 64
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 62,
                                             "end": 64
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 31,
                                         "end": 64
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 29,
                                 "end": 64
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 10,
                             "end": 64
                         }
@@ -247,12 +253,12 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                         "end": 70
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 68,
                     "end": 70
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 70
             },

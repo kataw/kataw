@@ -41,6 +41,12 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 144,
                 "id": {
@@ -65,7 +71,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                             "kind": 261,
                                             "arrowToken": null,
                                             "parameters": {
-                                                "kind": 208,
+                                                "kind": 282,
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
@@ -91,7 +97,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         "end": 21
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 19,
                                                     "end": 21
                                                 },
@@ -106,12 +112,12 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         "end": 27
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 25,
                                                     "end": 27
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 19,
                                                 "end": 27
                                             },
@@ -130,7 +136,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         },
                                                         "type": null,
                                                         "defaultType": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 17,
                                                         "end": 18
                                                     }
@@ -139,11 +145,11 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                 "start": 16,
                                                 "end": 19
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 16,
                                             "end": 27
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 28
                                     },
@@ -153,7 +159,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                             "kind": 261,
                                             "arrowToken": null,
                                             "parameters": {
-                                                "kind": 208,
+                                                "kind": 282,
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
@@ -179,7 +185,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         "end": 37
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 35,
                                                     "end": 37
                                                 },
@@ -194,12 +200,12 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         "end": 43
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 41,
                                                     "end": 43
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 35,
                                                 "end": 43
                                             },
@@ -218,7 +224,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         },
                                                         "type": null,
                                                         "defaultType": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 33,
                                                         "end": 34
                                                     }
@@ -227,20 +233,20 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                 "start": 32,
                                                 "end": 35
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 32,
                                             "end": 43
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 30,
                                         "end": 44
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 28,
                                 "end": 44
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 44
                         },
@@ -260,7 +266,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                             "end": 47
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 45,
                                         "end": 47
                                     },
@@ -275,16 +281,16 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                             "end": 51
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 49,
                                         "end": 51
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 47,
                                 "end": 51
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 45,
                             "end": 51
                         }
@@ -293,7 +299,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                     "start": 14,
                     "end": 52
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 52
             },

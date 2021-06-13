@@ -41,6 +41,12 @@ type X = (await:string) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -70,7 +76,7 @@ type X = (await:string) => T;
                                 "start": 16,
                                 "end": 22
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 22
                         }
@@ -91,12 +97,12 @@ type X = (await:string) => T;
                         "end": 28
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 26,
                     "end": 28
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 28
             },

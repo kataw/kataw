@@ -65,7 +65,7 @@ function g(a:number=1, e:number=1) {}
                                 "start": 13,
                                 "end": 19
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 19
                         },
@@ -101,7 +101,7 @@ function g(a:number=1, e:number=1) {}
                                 "start": 25,
                                 "end": 31
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 24,
                             "end": 31
                         },

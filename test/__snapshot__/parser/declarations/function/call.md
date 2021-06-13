@@ -73,7 +73,7 @@ function g(x: () => any) {
                                 "start": 13,
                                 "end": 17
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 17
                         },
@@ -240,7 +240,7 @@ function g(x: () => any) {
                                     "end": 67
                                 },
                                 "parameters": {
-                                    "kind": 208,
+                                    "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
@@ -254,11 +254,11 @@ function g(x: () => any) {
                                     "end": 71
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 61,
                                 "end": 71
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 60,
                             "end": 71
                         },

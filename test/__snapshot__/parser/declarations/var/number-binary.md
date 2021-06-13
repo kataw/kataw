@@ -50,12 +50,12 @@ var a: 0b1111011
                             "kind": 139,
                             "type": {
                                 "kind": 134217968,
-                                "value": 123,
-                                "flags": 0,
+                                "text": 123,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 16
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 16
                         },

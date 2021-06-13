@@ -72,7 +72,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "start": 14,
                                             "end": 20
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 21
                                     },
@@ -97,7 +97,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "start": 24,
                                             "end": 30
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 21,
                                         "end": 31
                                     },
@@ -122,7 +122,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "start": 34,
                                             "end": 41
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 31,
                                         "end": 41
                                     }
@@ -132,7 +132,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                 "start": 8,
                                 "end": 42
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 7,
                             "end": 42
                         },

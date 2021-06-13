@@ -41,6 +41,12 @@ type a = ((...b?:string | d) => c);
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -96,16 +102,16 @@ type a = ((...b?:string | d) => c);
                                                 "end": 27
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 25,
                                             "end": 27
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 27
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 27
                             }
@@ -126,16 +132,16 @@ type a = ((...b?:string | d) => c);
                             "end": 33
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 31,
                         "end": 33
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 33
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 34
             },

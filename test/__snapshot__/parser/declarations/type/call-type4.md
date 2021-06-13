@@ -41,6 +41,12 @@ type D = $Call<Fn1>;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 144,
                 "id": {
@@ -67,11 +73,11 @@ type D = $Call<Fn1>;
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 18
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 18
                         }
@@ -80,7 +86,7 @@ type D = $Call<Fn1>;
                     "start": 14,
                     "end": 19
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 19
             },

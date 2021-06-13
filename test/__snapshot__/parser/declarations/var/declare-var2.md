@@ -74,7 +74,7 @@ declare var C: Class<string>;
                                                 "start": 21,
                                                 "end": 27
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 21,
                                             "end": 27
                                         }
@@ -83,11 +83,11 @@ declare var C: Class<string>;
                                     "start": 20,
                                     "end": 28
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 28
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 13,
                             "end": 28
                         },

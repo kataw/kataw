@@ -40,6 +40,12 @@ type a = (|x) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -62,7 +68,7 @@ type a = (|x) => T;
                                 "end": 12
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 12
                         }
@@ -83,12 +89,12 @@ type a = (|x) => T;
                         "end": 18
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 16,
                     "end": 18
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 18
             },

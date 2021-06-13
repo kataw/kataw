@@ -41,6 +41,12 @@ type a = {x?: {x?:y}};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -98,11 +104,11 @@ type a = {x?: {x?:y}};
                                             "end": 19
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 19
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 19
                                 }
@@ -112,7 +118,7 @@ type a = {x?: {x?:y}};
                             "start": 13,
                             "end": 20
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 20
                     }

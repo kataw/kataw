@@ -78,7 +78,7 @@ declare class B {
                             "value": {
                                 "kind": 148,
                                 "parameters": {
-                                    "kind": 208,
+                                    "kind": 282,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -101,11 +101,11 @@ declare class B {
                                                     "end": 45
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 41,
                                                 "end": 45
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 41,
                                             "end": 45
                                         }
@@ -124,11 +124,11 @@ declare class B {
                                     "end": 50
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 50
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 51
                         }

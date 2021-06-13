@@ -56,7 +56,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -76,7 +76,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                                         "start": 12,
                                                         "end": 19
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 10,
                                                     "end": 19
                                                 }
@@ -93,7 +93,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                             "start": 21,
                                             "end": 28
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 28
                                     }
@@ -103,7 +103,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                 "start": 6,
                                 "end": 30
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 30
                         },
@@ -141,7 +141,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                                 "start": 45,
                                                 "end": 52
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 44,
                                             "end": 52
                                         },
@@ -200,7 +200,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                     "start": 54,
                                     "end": 61
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 53,
                                 "end": 61
                             },

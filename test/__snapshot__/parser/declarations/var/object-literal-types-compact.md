@@ -44,6 +44,12 @@ type T4 = { foo: number, bar: string, ... };
                 "end": 7
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 7,
+                "end": 9
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -66,12 +72,12 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 15
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 15
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 11,
                         "end": 15
                     }
@@ -103,6 +109,12 @@ type T4 = { foo: number, bar: string, ... };
                 "end": 26
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 26,
+                "end": 28
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -179,12 +191,12 @@ type T4 = { foo: number, bar: string, ... };
                                                                     "end": 48
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 48,
                                                                 "end": 48
                                                             },
                                                             "staticToken": null,
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 45,
                                                             "end": 48
                                                         }
@@ -194,7 +206,7 @@ type T4 = { foo: number, bar: string, ... };
                                                     "start": 43,
                                                     "end": 49
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 40,
                                                 "end": 50
                                             },
@@ -217,12 +229,12 @@ type T4 = { foo: number, bar: string, ... };
                                                         "end": 54
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 54,
                                                     "end": 54
                                                 },
                                                 "staticToken": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 50,
                                                 "end": 54
                                             }
@@ -232,7 +244,7 @@ type T4 = { foo: number, bar: string, ... };
                                         "start": 38,
                                         "end": 56
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 35,
                                     "end": 57
                                 },
@@ -255,12 +267,12 @@ type T4 = { foo: number, bar: string, ... };
                                             "end": 61
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 61,
                                         "end": 61
                                     },
                                     "staticToken": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 57,
                                     "end": 61
                                 }
@@ -270,7 +282,7 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 33,
                             "end": 63
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 30,
                         "end": 63
                     }
@@ -302,6 +314,12 @@ type T4 = { foo: number, bar: string, ... };
                 "end": 73
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 73,
+                "end": 75
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -326,7 +344,7 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 82,
                             "end": 89
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 77,
                         "end": 90
                     },
@@ -349,12 +367,12 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 94
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 94,
                             "end": 94
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 90,
                         "end": 94
                     }
@@ -386,6 +404,12 @@ type T4 = { foo: number, bar: string, ... };
                 "end": 105
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 105,
+                "end": 107
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -410,7 +434,7 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 114,
                             "end": 121
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 109,
                         "end": 122
                     },
@@ -435,7 +459,7 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 127,
                             "end": 134
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 122,
                         "end": 135
                     },
@@ -458,12 +482,12 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 139
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 139,
                             "end": 139
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 135,
                         "end": 139
                     }

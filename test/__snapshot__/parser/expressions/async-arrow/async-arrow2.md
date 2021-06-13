@@ -47,7 +47,7 @@ async <T>() => {}
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 7,
                         "end": 8
                     }

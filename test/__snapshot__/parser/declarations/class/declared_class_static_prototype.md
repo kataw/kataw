@@ -86,11 +86,11 @@ declare class A {
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 44
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 45
                         }

@@ -45,6 +45,12 @@ type q = { [[foo]]: X }
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -70,13 +76,13 @@ type q = { [[foo]]: X }
                                 "end": 21
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 19,
                             "end": 21
                         },
                         "optionalToken": null,
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 21
                     }
@@ -108,6 +114,12 @@ type q = { [[foo]]: X }
                 "end": 31
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 31,
+                "end": 33
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -125,7 +137,7 @@ type q = { [[foo]]: X }
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
@@ -143,18 +155,18 @@ type q = { [[foo]]: X }
                                     "end": 48
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 46,
                                 "end": 48
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 35,
                             "end": 48
                         },
                         "optionalToken": null,
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 35,
                         "end": 48
                     }
@@ -186,6 +198,12 @@ type q = { [[foo]]: X }
                 "end": 58
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 58,
+                "end": 60
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -211,7 +229,7 @@ type q = { [[foo]]: X }
                                 "end": 74
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 72,
                             "end": 74
                         },
@@ -222,7 +240,7 @@ type q = { [[foo]]: X }
                             "end": 71
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 62,
                         "end": 74
                     }
@@ -254,6 +272,12 @@ type q = { [[foo]]: X }
                 "end": 84
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 84,
+                "end": 86
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -279,13 +303,13 @@ type q = { [[foo]]: X }
                                 "end": 99
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 97,
                             "end": 99
                         },
                         "optionalToken": null,
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 88,
                         "end": 99
                     }

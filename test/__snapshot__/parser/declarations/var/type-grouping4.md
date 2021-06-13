@@ -69,19 +69,19 @@ var a: (typeof A)
                                             "end": 16
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 14,
                                         "end": 16
                                     },
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 16
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 17
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 17
                         },

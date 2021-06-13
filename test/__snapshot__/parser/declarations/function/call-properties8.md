@@ -67,7 +67,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -87,7 +87,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                                         "start": 19,
                                                         "end": 26
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 17,
                                                     "end": 26
                                                 }
@@ -104,7 +104,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                             "start": 28,
                                             "end": 35
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 35
                                     }
@@ -114,7 +114,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                 "start": 13,
                                 "end": 37
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 37
                         },
@@ -196,7 +196,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                     "start": 43,
                                     "end": 50
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 50
                             }
@@ -213,11 +213,11 @@ function b(x: { (z: number): string }): (z: number) => number {
                         "end": 61
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 39,
                     "end": 61
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 0,
                 "end": 61
             },

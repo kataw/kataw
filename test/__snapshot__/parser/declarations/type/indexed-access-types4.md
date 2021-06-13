@@ -41,6 +41,12 @@ type E = Obj['bar'][];
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 136,
                 "type": {
@@ -56,14 +62,14 @@ type E = Obj['bar'][];
                             "end": 12
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 12
                     },
                     "indexType": {
                         "kind": 134217967,
                         "value": "bar",
-                        "flags": 0,
+                        "flags": 96,
                         "start": 13,
                         "end": 18
                     },
@@ -71,7 +77,7 @@ type E = Obj['bar'][];
                     "start": 13,
                     "end": 20
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 20,
                 "end": 21
             },

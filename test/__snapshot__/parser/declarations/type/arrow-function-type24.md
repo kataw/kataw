@@ -41,6 +41,12 @@ type a = (1 | 1[symbol & string]) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -57,8 +63,8 @@ type a = (1 | 1[symbol & string]) => T;
                             "types": [
                                 {
                                     "kind": 134217968,
-                                    "value": 1,
-                                    "flags": 0,
+                                    "text": 1,
+                                    "flags": 96,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -66,8 +72,8 @@ type a = (1 | 1[symbol & string]) => T;
                                     "kind": 268,
                                     "objectType": {
                                         "kind": 134217968,
-                                        "value": 1,
-                                        "flags": 0,
+                                        "text": 1,
+                                        "flags": 96,
                                         "start": 13,
                                         "end": 15
                                     },
@@ -87,7 +93,7 @@ type a = (1 | 1[symbol & string]) => T;
                                                 "end": 31
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 22,
                                         "end": 31
                                     },
@@ -96,7 +102,7 @@ type a = (1 | 1[symbol & string]) => T;
                                     "end": 33
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 32
                         }
@@ -117,12 +123,12 @@ type a = (1 | 1[symbol & string]) => T;
                         "end": 38
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 36,
                     "end": 38
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 38
             },

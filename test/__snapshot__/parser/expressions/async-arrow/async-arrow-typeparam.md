@@ -68,7 +68,7 @@ async (): string => {}
                             "start": 13,
                             "end": 20
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 12,
                         "end": 20
                     },
@@ -136,7 +136,7 @@ async (): string => {}
                     "start": 44,
                     "end": 51
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 43,
                 "end": 51
             },

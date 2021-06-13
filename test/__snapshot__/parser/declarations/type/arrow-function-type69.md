@@ -41,6 +41,12 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -107,7 +113,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                     "end": 22
                                                                                 },
                                                                                 "typeParameters": null,
-                                                                                "flags": 0,
+                                                                                "flags": 32,
                                                                                 "start": 20,
                                                                                 "end": 22
                                                                             },
@@ -117,7 +123,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                 "start": 24,
                                                                                 "end": 30
                                                                             },
-                                                                            "flags": 0,
+                                                                            "flags": 32,
                                                                             "start": 20,
                                                                             "end": 30
                                                                         }
@@ -197,7 +203,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                     "end": 46
                                                                                                                                 },
                                                                                                                                 "typeParameters": null,
-                                                                                                                                "flags": 0,
+                                                                                                                                "flags": 32,
                                                                                                                                 "start": 44,
                                                                                                                                 "end": 46
                                                                                                                             },
@@ -207,7 +213,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                 "start": 48,
                                                                                                                                 "end": 54
                                                                                                                             },
-                                                                                                                            "flags": 0,
+                                                                                                                            "flags": 32,
                                                                                                                             "start": 44,
                                                                                                                             "end": 54
                                                                                                                         }
@@ -221,15 +227,15 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                 "start": 43,
                                                                                                                 "end": 57
                                                                                                             },
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 32,
                                                                                                             "start": 57,
                                                                                                             "end": 58
                                                                                                         },
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 32,
                                                                                                         "start": 59,
                                                                                                         "end": 60
                                                                                                     },
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 32,
                                                                                                     "start": 61,
                                                                                                     "end": 62
                                                                                                 },
@@ -269,7 +275,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                         "end": 68
                                                                                                                                     },
                                                                                                                                     "typeParameters": null,
-                                                                                                                                    "flags": 0,
+                                                                                                                                    "flags": 32,
                                                                                                                                     "start": 64,
                                                                                                                                     "end": 68
                                                                                                                                 },
@@ -300,7 +306,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                                                 "end": 75
                                                                                                                                                             },
                                                                                                                                                             "typeParameters": null,
-                                                                                                                                                            "flags": 0,
+                                                                                                                                                            "flags": 32,
                                                                                                                                                             "start": 72,
                                                                                                                                                             "end": 75
                                                                                                                                                         }
@@ -321,27 +327,27 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                                         "end": 81
                                                                                                                                                     },
                                                                                                                                                     "typeParameters": null,
-                                                                                                                                                    "flags": 0,
+                                                                                                                                                    "flags": 32,
                                                                                                                                                     "start": 79,
                                                                                                                                                     "end": 81
                                                                                                                                                 },
                                                                                                                                                 "typeParameters": null,
-                                                                                                                                                "flags": 0,
+                                                                                                                                                "flags": 32,
                                                                                                                                                 "start": 72,
                                                                                                                                                 "end": 81
                                                                                                                                             },
-                                                                                                                                            "flags": 0,
+                                                                                                                                            "flags": 32,
                                                                                                                                             "start": 72,
                                                                                                                                             "end": 82
                                                                                                                                         }
                                                                                                                                     ],
                                                                                                                                     "trailingComma": false,
-                                                                                                                                    "flags": 0,
+                                                                                                                                    "flags": 32,
                                                                                                                                     "start": 70,
                                                                                                                                     "end": 83
                                                                                                                                 }
                                                                                                                             ],
-                                                                                                                            "flags": 0,
+                                                                                                                            "flags": 32,
                                                                                                                             "start": 68,
                                                                                                                             "end": 83
                                                                                                                         }
@@ -362,12 +368,12 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                         "end": 89
                                                                                                                     },
                                                                                                                     "typeParameters": null,
-                                                                                                                    "flags": 0,
+                                                                                                                    "flags": 32,
                                                                                                                     "start": 87,
                                                                                                                     "end": 89
                                                                                                                 },
                                                                                                                 "typeParameters": null,
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 32,
                                                                                                                 "start": 64,
                                                                                                                 "end": 89
                                                                                                             }
@@ -388,17 +394,17 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                             "end": 95
                                                                                                         },
                                                                                                         "typeParameters": null,
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 32,
                                                                                                         "start": 93,
                                                                                                         "end": 95
                                                                                                     },
                                                                                                     "typeParameters": null,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 32,
                                                                                                     "start": 64,
                                                                                                     "end": 95
                                                                                                 }
                                                                                             ],
-                                                                                            "flags": 0,
+                                                                                            "flags": 32,
                                                                                             "start": 62,
                                                                                             "end": 95
                                                                                         },
@@ -413,12 +419,12 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                 "end": 101
                                                                                             },
                                                                                             "typeParameters": null,
-                                                                                            "flags": 0,
+                                                                                            "flags": 32,
                                                                                             "start": 99,
                                                                                             "end": 101
                                                                                         },
                                                                                         "typeParameters": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 32,
                                                                                         "start": 35,
                                                                                         "end": 101
                                                                                     }
@@ -439,12 +445,12 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                     "end": 107
                                                                                 },
                                                                                 "typeParameters": null,
-                                                                                "flags": 0,
+                                                                                "flags": 32,
                                                                                 "start": 105,
                                                                                 "end": 107
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "flags": 0,
+                                                                            "flags": 32,
                                                                             "start": 33,
                                                                             "end": 107
                                                                         }
@@ -465,12 +471,12 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                         "end": 113
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "flags": 0,
+                                                                    "flags": 32,
                                                                     "start": 111,
                                                                     "end": 113
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 33,
                                                                 "end": 113
                                                             },
@@ -478,11 +484,11 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                             "start": 33,
                                                             "end": 115
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 115,
                                                         "end": 116
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 117,
                                                     "end": 118
                                                 },
@@ -522,7 +528,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                         "end": 124
                                                                                     },
                                                                                     "typeParameters": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 32,
                                                                                     "start": 120,
                                                                                     "end": 124
                                                                                 },
@@ -553,7 +559,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                 "end": 131
                                                                                                             },
                                                                                                             "typeParameters": null,
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 32,
                                                                                                             "start": 128,
                                                                                                             "end": 131
                                                                                                         }
@@ -574,27 +580,27 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                         "end": 137
                                                                                                     },
                                                                                                     "typeParameters": null,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 32,
                                                                                                     "start": 135,
                                                                                                     "end": 137
                                                                                                 },
                                                                                                 "typeParameters": null,
-                                                                                                "flags": 0,
+                                                                                                "flags": 32,
                                                                                                 "start": 128,
                                                                                                 "end": 137
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 32,
                                                                                             "start": 128,
                                                                                             "end": 138
                                                                                         }
                                                                                     ],
                                                                                     "trailingComma": false,
-                                                                                    "flags": 0,
+                                                                                    "flags": 32,
                                                                                     "start": 126,
                                                                                     "end": 139
                                                                                 }
                                                                             ],
-                                                                            "flags": 0,
+                                                                            "flags": 32,
                                                                             "start": 124,
                                                                             "end": 139
                                                                         }
@@ -615,12 +621,12 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                         "end": 145
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "flags": 0,
+                                                                    "flags": 32,
                                                                     "start": 143,
                                                                     "end": 145
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 120,
                                                                 "end": 145
                                                             }
@@ -641,17 +647,17 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                             "end": 151
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 149,
                                                         "end": 151
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 120,
                                                     "end": 151
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 118,
                                             "end": 151
                                         },
@@ -666,12 +672,12 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                 "end": 157
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 155,
                                             "end": 157
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 157
                                     }
@@ -692,12 +698,12 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                     "end": 163
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 161,
                                 "end": 163
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 163
                         }
@@ -718,12 +724,12 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                         "end": 169
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 167,
                     "end": 169
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 169
             },

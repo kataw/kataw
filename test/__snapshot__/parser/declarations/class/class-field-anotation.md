@@ -71,7 +71,7 @@ class Foo { prop1:string; prop2:number; }
                                     "start": 18,
                                     "end": 24
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 24
                             },
@@ -109,7 +109,7 @@ class Foo { prop1:string; prop2:number; }
                                     "start": 32,
                                     "end": 38
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 38
                             },

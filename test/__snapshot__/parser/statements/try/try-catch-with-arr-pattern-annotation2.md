@@ -75,7 +75,7 @@ try {} catch([a:string]: number) {}
                                         "start": 16,
                                         "end": 22
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 22
                                 },

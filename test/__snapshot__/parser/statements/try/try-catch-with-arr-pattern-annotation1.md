@@ -75,7 +75,7 @@ try {} catch([a:string]) {}
                                         "start": 16,
                                         "end": 22
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 22
                                 },

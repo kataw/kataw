@@ -41,6 +41,12 @@ type a = ({key():string}[x]) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -75,7 +81,7 @@ type a = ({key():string}[x]) => T;
                                         "value": {
                                             "kind": 148,
                                             "parameters": {
-                                                "kind": 208,
+                                                "kind": 282,
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
@@ -89,11 +95,11 @@ type a = ({key():string}[x]) => T;
                                                 "end": 23
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 14,
                                             "end": 23
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 23
                                     }
@@ -114,7 +120,7 @@ type a = ({key():string}[x]) => T;
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 26
                             },
@@ -139,12 +145,12 @@ type a = ({key():string}[x]) => T;
                         "end": 33
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 31,
                     "end": 33
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 33
             },

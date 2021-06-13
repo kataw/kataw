@@ -41,6 +41,12 @@ type C = Obj['bar'][foo]['boz'];
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 268,
                 "objectType": {
@@ -58,14 +64,14 @@ type C = Obj['bar'][foo]['boz'];
                                 "end": 12
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 12
                         },
                         "indexType": {
                             "kind": 134217967,
                             "value": "bar",
-                            "flags": 0,
+                            "flags": 96,
                             "start": 13,
                             "end": 18
                         },
@@ -84,7 +90,7 @@ type C = Obj['bar'][foo]['boz'];
                             "end": 23
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 20,
                         "end": 23
                     },
@@ -95,7 +101,7 @@ type C = Obj['bar'][foo]['boz'];
                 "indexType": {
                     "kind": 134217967,
                     "value": "boz",
-                    "flags": 0,
+                    "flags": 96,
                     "start": 25,
                     "end": 30
                 },

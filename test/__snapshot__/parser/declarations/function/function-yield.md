@@ -123,7 +123,7 @@ function *foo() {
                                                         "start": 39,
                                                         "end": 43
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 38,
                                                     "end": 43
                                                 },

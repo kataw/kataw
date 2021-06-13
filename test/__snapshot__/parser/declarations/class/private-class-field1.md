@@ -140,7 +140,7 @@ class Annotations {
                                     "start": 15,
                                     "end": 22
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 22
                             },
@@ -172,7 +172,7 @@ class Annotations {
                                     "start": 28,
                                     "end": 35
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 35
                             },
@@ -351,11 +351,11 @@ class Annotations {
                                                         "end": 127
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 125,
                                                     "end": 127
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 124,
                                                 "end": 127
                                             },
@@ -482,7 +482,7 @@ class Annotations {
                                     "start": 220,
                                     "end": 227
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 219,
                                 "end": 227
                             },
@@ -602,11 +602,11 @@ class Annotations {
                                                                                             "end": 289
                                                                                         },
                                                                                         "typeParameters": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 32,
                                                                                         "start": 283,
                                                                                         "end": 289
                                                                                     },
-                                                                                    "flags": 0,
+                                                                                    "flags": 32,
                                                                                     "start": 282,
                                                                                     "end": 289
                                                                                 },
@@ -1015,7 +1015,7 @@ class Annotations {
                                     "start": 646,
                                     "end": 653
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 645,
                                 "end": 653
                             },
@@ -1114,7 +1114,7 @@ class Annotations {
                                     "start": 676,
                                     "end": 683
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 675,
                                 "end": 683
                             },
@@ -1159,7 +1159,7 @@ class Annotations {
                                     "start": 721,
                                     "end": 728
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 720,
                                 "end": 728
                             },
@@ -1209,7 +1209,7 @@ class Annotations {
                                     "start": 752,
                                     "end": 759
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 751,
                                 "end": 759
                             },
@@ -1323,7 +1323,7 @@ class Annotations {
                                     "start": 806,
                                     "end": 813
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 805,
                                 "end": 813
                             },
@@ -1373,7 +1373,7 @@ class Annotations {
                                     "start": 859,
                                     "end": 866
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 858,
                                 "end": 866
                             },
@@ -1431,7 +1431,7 @@ class Annotations {
                                         "start": 887,
                                         "end": 894
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 886,
                                     "end": 894
                                 },
@@ -1525,7 +1525,7 @@ class Annotations {
                                         "start": 931,
                                         "end": 938
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 930,
                                     "end": 938
                                 },
@@ -1619,7 +1619,7 @@ class Annotations {
                                         "start": 1002,
                                         "end": 1009
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 1001,
                                     "end": 1009
                                 },
@@ -1715,7 +1715,7 @@ class Annotations {
                                         "start": 1054,
                                         "end": 1061
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 1053,
                                     "end": 1061
                                 },
@@ -1811,7 +1811,7 @@ class Annotations {
                                         "start": 1133,
                                         "end": 1140
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 1132,
                                     "end": 1140
                                 },
@@ -1905,7 +1905,7 @@ class Annotations {
                                         "start": 1177,
                                         "end": 1184
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 1176,
                                     "end": 1184
                                 },
@@ -2096,7 +2096,7 @@ class Annotations {
                                         "start": 1291,
                                         "end": 1298
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 1290,
                                     "end": 1298
                                 },
@@ -2192,7 +2192,7 @@ class Annotations {
                                         "start": 1343,
                                         "end": 1350
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 1342,
                                     "end": 1350
                                 },

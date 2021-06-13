@@ -62,11 +62,11 @@ async (f)
                         "end": 13
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 11,
                     "end": 13
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 9,
                 "end": 13
             },

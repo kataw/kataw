@@ -41,11 +41,17 @@ type Fn1 = <T>(T) => T;
                 "end": 8
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 8,
+                "end": 10
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": null,
                 "parameters": {
-                    "kind": 208,
+                    "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
@@ -71,7 +77,7 @@ type Fn1 = <T>(T) => T;
                             "end": 16
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 14,
                         "end": 16
                     },
@@ -86,12 +92,12 @@ type Fn1 = <T>(T) => T;
                             "end": 22
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 20,
                         "end": 22
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 14,
                     "end": 22
                 },
@@ -110,7 +116,7 @@ type Fn1 = <T>(T) => T;
                             },
                             "type": null,
                             "defaultType": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 13
                         }
@@ -119,7 +125,7 @@ type Fn1 = <T>(T) => T;
                     "start": 10,
                     "end": 14
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 10,
                 "end": 22
             },

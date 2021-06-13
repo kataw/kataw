@@ -41,6 +41,12 @@ type a = ({set y(y): string}) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -78,7 +84,7 @@ type a = ({set y(y): string}) => T;
                                     "value": {
                                         "kind": 148,
                                         "parameters": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -96,11 +102,11 @@ type a = ({set y(y): string}) => T;
                                                             "end": 18
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 17,
                                                         "end": 18
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 17,
                                                     "end": 18
                                                 }
@@ -117,11 +123,11 @@ type a = ({set y(y): string}) => T;
                                             "end": 27
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 27
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 27
                                 }
@@ -148,12 +154,12 @@ type a = ({set y(y): string}) => T;
                         "end": 34
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 32,
                     "end": 34
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 34
             },

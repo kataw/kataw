@@ -93,6 +93,12 @@ type T2 = number;
                 "end": 36
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 36,
+                "end": 38
+            },
             "type": {
                 "kind": 134234345,
                 "flags": 64,
@@ -121,6 +127,12 @@ type T2 = number;
                 "end": 55
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 55,
+                "end": 57
+            },
             "type": {
                 "kind": 134234345,
                 "flags": 64,

@@ -41,6 +41,12 @@ type T = { proto p: string }
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -70,11 +76,11 @@ type T = { proto p: string }
                                 "end": 18
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 16,
                             "end": 18
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 18
                     }

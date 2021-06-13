@@ -41,6 +41,12 @@ type X = {[x & y]: string};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -63,7 +69,7 @@ type X = {[x & y]: string};
                                         "end": 12
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -78,12 +84,12 @@ type X = {[x & y]: string};
                                         "end": 16
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 16
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 16
                         },
@@ -93,7 +99,7 @@ type X = {[x & y]: string};
                             "start": 18,
                             "end": 25
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 25
                     }

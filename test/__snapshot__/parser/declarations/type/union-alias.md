@@ -41,32 +41,38 @@ type UnionAlias = 1 | 2 | 3;
                 "end": 15
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 15,
+                "end": 17
+            },
             "type": {
                 "kind": 137,
                 "types": [
                     {
                         "kind": 134217968,
-                        "value": 1,
-                        "flags": 0,
+                        "text": 1,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     },
                     {
                         "kind": 134217968,
-                        "value": 2,
-                        "flags": 0,
+                        "text": 2,
+                        "flags": 96,
                         "start": 21,
                         "end": 23
                     },
                     {
                         "kind": 134217968,
-                        "value": 3,
-                        "flags": 0,
+                        "text": 3,
+                        "flags": 96,
                         "start": 25,
                         "end": 27
                     }
                 ],
-                "flags": 0,
+                "flags": 32,
                 "start": 19,
                 "end": 27
             },

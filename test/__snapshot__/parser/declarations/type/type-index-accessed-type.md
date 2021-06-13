@@ -41,6 +41,12 @@ type Age = typeof MyArray[number]["age"];
                 "end": 8
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 8,
+                "end": 10
+            },
             "type": {
                 "kind": 268,
                 "objectType": {
@@ -64,11 +70,11 @@ type Age = typeof MyArray[number]["age"];
                                 "end": 25
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 25
                         },
-                        "flags": 0,
+                        "flags": 96,
                         "start": 10,
                         "end": 25
                     },
@@ -85,7 +91,7 @@ type Age = typeof MyArray[number]["age"];
                 "indexType": {
                     "kind": 134217967,
                     "value": "age",
-                    "flags": 0,
+                    "flags": 96,
                     "start": 34,
                     "end": 39
                 },

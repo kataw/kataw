@@ -41,6 +41,12 @@ type X = ((x?) => T);
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -74,7 +80,7 @@ type X = ((x?) => T);
                                         "end": 13
                                     },
                                     "types": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 8,
                                     "end": 13
                                 }
@@ -95,21 +101,21 @@ type X = ((x?) => T);
                                 "end": 19
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 19
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 19
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 19
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 20
             },

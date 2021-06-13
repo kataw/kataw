@@ -79,7 +79,7 @@ function foo<T,S>() {}
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 13,
                         "end": 14
                     },
@@ -95,7 +95,7 @@ function foo<T,S>() {}
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 15,
                         "end": 16
                     }

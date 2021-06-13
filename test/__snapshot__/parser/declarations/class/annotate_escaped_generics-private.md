@@ -66,7 +66,7 @@ class I<X> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 9
                     }
@@ -183,11 +183,11 @@ class I<X> {
                                                         "end": 34
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 32,
                                                     "end": 34
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 34
                                             },
@@ -294,11 +294,11 @@ class I<X> {
                                                         "end": 64
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 62,
                                                     "end": 64
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 61,
                                                 "end": 64
                                             },

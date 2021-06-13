@@ -75,7 +75,7 @@ var obj: { [user_id: number]: string } = {};
                                             "start": 29,
                                             "end": 36
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 36
                                     }
@@ -85,7 +85,7 @@ var obj: { [user_id: number]: string } = {};
                                 "start": 8,
                                 "end": 38
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 7,
                             "end": 38
                         },

@@ -75,7 +75,7 @@ declare class C { static [[foo]]: T }
                                     "end": 35
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 35
                             },
@@ -86,7 +86,7 @@ declare class C { static [[foo]]: T }
                                 "start": 17,
                                 "end": 24
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 35
                         }

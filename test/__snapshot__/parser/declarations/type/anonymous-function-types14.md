@@ -41,6 +41,12 @@ type T = Array<(string) => number>
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 144,
                 "id": {
@@ -77,11 +83,11 @@ type T = Array<(string) => number>
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 33
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 33
                         }
@@ -90,7 +96,7 @@ type T = Array<(string) => number>
                     "start": 14,
                     "end": 34
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 34
             },

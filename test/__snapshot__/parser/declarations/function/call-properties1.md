@@ -69,7 +69,7 @@ function a(f: { (): string; (x: number): string }): string {
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
@@ -83,7 +83,7 @@ function a(f: { (): string; (x: number): string }): string {
                                             "start": 19,
                                             "end": 26
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 27
                                     },
@@ -92,7 +92,7 @@ function a(f: { (): string; (x: number): string }): string {
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -112,7 +112,7 @@ function a(f: { (): string; (x: number): string }): string {
                                                         "start": 31,
                                                         "end": 38
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 29,
                                                     "end": 38
                                                 }
@@ -129,7 +129,7 @@ function a(f: { (): string; (x: number): string }): string {
                                             "start": 40,
                                             "end": 47
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 27,
                                         "end": 47
                                     }
@@ -139,7 +139,7 @@ function a(f: { (): string; (x: number): string }): string {
                                 "start": 13,
                                 "end": 49
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 49
                         },
@@ -255,7 +255,7 @@ function a(f: { (): string; (x: number): string }): string {
                     "start": 51,
                     "end": 58
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 0,
                 "end": 58
             },

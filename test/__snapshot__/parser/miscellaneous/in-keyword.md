@@ -1509,11 +1509,11 @@ let tests = [
                                                                 "end": 903
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 896,
                                                             "end": 903
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 895,
                                                         "end": 903
                                                     },
@@ -1547,11 +1547,11 @@ let tests = [
                                                                 "end": 913
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 907,
                                                             "end": 913
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 906,
                                                         "end": 913
                                                     },

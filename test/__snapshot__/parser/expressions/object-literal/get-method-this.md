@@ -103,7 +103,7 @@ x = {get this(this):number{}};
                                             "start": 20,
                                             "end": 26
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 26
                                     },

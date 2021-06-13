@@ -41,6 +41,12 @@ type a = (((| x, )=> T) => T);
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -79,13 +85,13 @@ type a = (((| x, )=> T) => T);
                                                     "end": 15
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 13,
                                                 "end": 15
                                             },
                                             "optionalToken": null,
                                             "types": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 11,
                                             "end": 15
                                         }
@@ -106,12 +112,12 @@ type a = (((| x, )=> T) => T);
                                         "end": 22
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 22
                             }
@@ -132,16 +138,16 @@ type a = (((| x, )=> T) => T);
                             "end": 28
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 26,
                         "end": 28
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 28
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 29
             },

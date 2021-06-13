@@ -86,7 +86,7 @@ function method(obj: { [key: string]: any }) {}
                                             "start": 37,
                                             "end": 41
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 22,
                                         "end": 41
                                     }
@@ -96,7 +96,7 @@ function method(obj: { [key: string]: any }) {}
                                 "start": 20,
                                 "end": 43
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 19,
                             "end": 43
                         },

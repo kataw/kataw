@@ -70,7 +70,7 @@ function one(this?: number) {}
                                 "start": 19,
                                 "end": 26
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 18,
                             "end": 26
                         },

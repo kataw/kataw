@@ -70,7 +70,7 @@ function e(x: {}): () => string {
                                 "start": 13,
                                 "end": 16
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 16
                         },
@@ -132,7 +132,7 @@ function e(x: {}): () => string {
                         "end": 24
                     },
                     "parameters": {
-                        "kind": 208,
+                        "kind": 282,
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
@@ -146,11 +146,11 @@ function e(x: {}): () => string {
                         "end": 31
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 18,
                     "end": 31
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 0,
                 "end": 31
             },

@@ -41,6 +41,12 @@ type F = $Call<Fn1, number, string>;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 144,
                 "id": {
@@ -67,11 +73,11 @@ type F = $Call<Fn1, number, string>;
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 18
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 18
                         },
@@ -83,7 +89,7 @@ type F = $Call<Fn1, number, string>;
                                 "start": 19,
                                 "end": 26
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 19,
                             "end": 26
                         },
@@ -95,7 +101,7 @@ type F = $Call<Fn1, number, string>;
                                 "start": 27,
                                 "end": 34
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 27,
                             "end": 34
                         }
@@ -104,7 +110,7 @@ type F = $Call<Fn1, number, string>;
                     "start": 14,
                     "end": 35
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 35
             },

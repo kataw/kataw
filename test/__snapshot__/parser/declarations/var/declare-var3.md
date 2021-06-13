@@ -94,7 +94,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                             "start": 35,
                                                             "end": 42
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 30,
                                                         "end": 42
                                                     }
@@ -104,7 +104,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "start": 29,
                                                 "end": 44
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 29,
                                             "end": 44
                                         }
@@ -113,11 +113,11 @@ declare var tup: [{foo: string}, {bar: number}];
                                     "start": 28,
                                     "end": 45
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 45
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 21,
                             "end": 45
                         },
@@ -204,7 +204,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                             "start": 92,
                                                             "end": 99
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 88,
                                                         "end": 99
                                                     }
@@ -214,7 +214,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "start": 87,
                                                 "end": 100
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 87,
                                             "end": 100
                                         }
@@ -223,11 +223,11 @@ declare var tup: [{foo: string}, {bar: number}];
                                     "start": 86,
                                     "end": 101
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 71,
                                 "end": 101
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 70,
                             "end": 101
                         },
@@ -302,7 +302,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                     "start": 126,
                                                     "end": 133
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 122,
                                                 "end": 133
                                             }
@@ -336,7 +336,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                     "start": 141,
                                                     "end": 148
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 137,
                                                 "end": 148
                                             }
@@ -348,11 +348,11 @@ declare var tup: [{foo: string}, {bar: number}];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 119,
                                 "end": 150
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 118,
                             "end": 150
                         },

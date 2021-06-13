@@ -55,7 +55,7 @@ type T<U> = U;
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 7,
                         "end": 8
                     }
@@ -63,6 +63,12 @@ type T<U> = U;
                 "flags": 0,
                 "start": 6,
                 "end": 9
+            },
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 9,
+                "end": 11
             },
             "type": {
                 "kind": 144,
@@ -75,7 +81,7 @@ type T<U> = U;
                     "end": 13
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 11,
                 "end": 13
             },

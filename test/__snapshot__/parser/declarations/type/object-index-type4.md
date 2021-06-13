@@ -41,6 +41,12 @@ type x = { [x:string]:string }
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -68,7 +74,7 @@ type x = { [x:string]:string }
                             "start": 22,
                             "end": 28
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 28
                     }

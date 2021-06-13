@@ -77,7 +77,7 @@ var obj: {
                                             "start": 18,
                                             "end": 25
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 26
                                     },
@@ -105,7 +105,7 @@ var obj: {
                                             "start": 42,
                                             "end": 49
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 26,
                                         "end": 49
                                     }
@@ -115,7 +115,7 @@ var obj: {
                                 "start": 8,
                                 "end": 51
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 7,
                             "end": 51
                         },

@@ -41,6 +41,12 @@ type a = (bj[c] & a | b) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -68,7 +74,7 @@ type a = (bj[c] & a | b) => T;
                                             "end": 12
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 12
                                     },
@@ -83,7 +89,7 @@ type a = (bj[c] & a | b) => T;
                                             "end": 14
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 14
                                     },
@@ -102,12 +108,12 @@ type a = (bj[c] & a | b) => T;
                                         "end": 19
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 19
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 19
                         },
@@ -122,12 +128,12 @@ type a = (bj[c] & a | b) => T;
                                 "end": 23
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 21,
                             "end": 23
                         }
                     ],
-                    "flags": 0,
+                    "flags": 32,
                     "start": 19,
                     "end": 23
                 },
@@ -142,12 +148,12 @@ type a = (bj[c] & a | b) => T;
                         "end": 29
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 27,
                     "end": 29
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 29
             },

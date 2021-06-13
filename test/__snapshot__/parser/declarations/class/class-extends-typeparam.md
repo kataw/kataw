@@ -56,7 +56,7 @@ class Foo<T> extends Bar<T> { }
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 11
                     }
@@ -99,11 +99,11 @@ class Foo<T> extends Bar<T> { }
                                         "end": 26
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 26
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 26
                             }

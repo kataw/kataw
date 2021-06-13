@@ -279,7 +279,7 @@ function test1() {
                                                                 "start": 124,
                                                                 "end": 131
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 123,
                                                             "end": 131
                                                         },
@@ -335,7 +335,7 @@ function test1() {
                                                                 "start": 156,
                                                                 "end": 163
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 155,
                                                             "end": 163
                                                         },

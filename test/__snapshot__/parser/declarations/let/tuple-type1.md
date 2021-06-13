@@ -58,11 +58,11 @@ let tuple1: [number] = [1];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 20
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 10,
                             "end": 20
                         },

@@ -41,6 +41,12 @@ type a = (((x | x))) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -68,7 +74,7 @@ type a = (((x | x))) => T;
                                             "end": 13
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 13
                                     },
@@ -83,16 +89,16 @@ type a = (((x | x))) => T;
                                             "end": 17
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 17
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 17
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 18
                         }
@@ -113,12 +119,12 @@ type a = (((x | x))) => T;
                         "end": 25
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 23,
                     "end": 25
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 25
             },

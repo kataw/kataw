@@ -104,11 +104,11 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                     "end": 31
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 27,
                                                 "end": 31
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 22,
                                             "end": 31
                                         },
@@ -130,7 +130,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                 "start": 36,
                                                 "end": 42
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 32,
                                             "end": 42
                                         }
@@ -147,11 +147,11 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                     "end": 53
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 53
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 21,
                             "end": 53
                         },

@@ -146,7 +146,7 @@ type T = { [string]: Class<null> }
                                                     "start": 31,
                                                     "end": 37
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 30,
                                                 "end": 37
                                             },
@@ -169,7 +169,7 @@ type T = { [string]: Class<null> }
                                         "start": 39,
                                         "end": 43
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 38,
                                     "end": 43
                                 },
@@ -270,11 +270,11 @@ type T = { [string]: Class<null> }
                                                     "end": 74
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 73,
                                                 "end": 74
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 73,
                                             "end": 74
                                         }
@@ -283,11 +283,11 @@ type T = { [string]: Class<null> }
                                     "start": 72,
                                     "end": 75
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 66,
                                 "end": 75
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 65,
                             "end": 75
                         },
@@ -371,11 +371,11 @@ type T = { [string]: Class<null> }
                         "end": 79
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 77,
                     "end": 79
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 49,
                 "end": 79
             },
@@ -451,7 +451,7 @@ type T = { [string]: Class<null> }
                                                     "start": 135,
                                                     "end": 139
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 134,
                                                 "end": 139
                                             },
@@ -590,7 +590,7 @@ type T = { [string]: Class<null> }
                                                     "start": 176,
                                                     "end": 182
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 175,
                                                 "end": 182
                                             },
@@ -613,7 +613,7 @@ type T = { [string]: Class<null> }
                                         "start": 184,
                                         "end": 188
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 183,
                                     "end": 188
                                 },
@@ -670,6 +670,12 @@ type T = { [string]: Class<null> }
                 "end": 202
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 202,
+                "end": 204
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -705,7 +711,7 @@ type T = { [string]: Class<null> }
                                             "start": 223,
                                             "end": 227
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 223,
                                         "end": 227
                                     }
@@ -714,11 +720,11 @@ type T = { [string]: Class<null> }
                                 "start": 222,
                                 "end": 228
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 216,
                             "end": 228
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 206,
                         "end": 228
                     }

@@ -39,6 +39,12 @@ type a = (["string"]);
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -47,17 +53,17 @@ type a = (["string"]);
                         {
                             "kind": 134217967,
                             "value": "string",
-                            "flags": 0,
+                            "flags": 96,
                             "start": 11,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 10,
                     "end": 20
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 21
             },

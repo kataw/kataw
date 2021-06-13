@@ -43,6 +43,12 @@ type a = (bj[c] | e) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -67,7 +73,7 @@ type a = (bj[c] | e) => T;
                                     "end": 12
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 8,
                                 "end": 12
                             },
@@ -82,7 +88,7 @@ type a = (bj[c] | e) => T;
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 14
                             },
@@ -101,12 +107,12 @@ type a = (bj[c] | e) => T;
                                 "end": 19
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 19
                         }
                     ],
-                    "flags": 0,
+                    "flags": 32,
                     "start": 15,
                     "end": 19
                 },
@@ -121,12 +127,12 @@ type a = (bj[c] | e) => T;
                         "end": 25
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 23,
                     "end": 25
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 25
             },
@@ -152,6 +158,12 @@ type a = (bj[c] | e) => T;
                 "end": 34
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 34,
+                "end": 36
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -176,7 +188,7 @@ type a = (bj[c] | e) => T;
                                     "end": 40
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 36,
                                 "end": 40
                             },
@@ -191,7 +203,7 @@ type a = (bj[c] | e) => T;
                                     "end": 42
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 41,
                                 "end": 42
                             },
@@ -210,12 +222,12 @@ type a = (bj[c] | e) => T;
                                 "end": 47
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 45,
                             "end": 47
                         }
                     ],
-                    "flags": 0,
+                    "flags": 32,
                     "start": 43,
                     "end": 47
                 },
@@ -230,12 +242,12 @@ type a = (bj[c] | e) => T;
                         "end": 53
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 51,
                     "end": 53
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 36,
                 "end": 53
             },

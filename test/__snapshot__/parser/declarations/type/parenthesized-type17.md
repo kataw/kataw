@@ -41,6 +41,12 @@ type a = (bj[c])[d];
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 268,
                 "objectType": {
@@ -58,7 +64,7 @@ type a = (bj[c])[d];
                                 "end": 12
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 12
                         },
@@ -73,7 +79,7 @@ type a = (bj[c])[d];
                                 "end": 14
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 13,
                             "end": 14
                         },
@@ -81,7 +87,7 @@ type a = (bj[c])[d];
                         "start": 13,
                         "end": 16
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 16
                 },
@@ -96,7 +102,7 @@ type a = (bj[c])[d];
                         "end": 18
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 17,
                     "end": 18
                 },

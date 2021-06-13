@@ -41,6 +41,12 @@ type A = { [string | boolean]: number };
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -65,7 +71,7 @@ type A = { [string | boolean]: number };
                                     "end": 28
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 18,
                             "end": 28
                         },
@@ -75,7 +81,7 @@ type A = { [string | boolean]: number };
                             "start": 30,
                             "end": 37
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 37
                     }

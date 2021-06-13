@@ -63,7 +63,7 @@ class C<T> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 9
                     }
@@ -139,11 +139,11 @@ class C<T> {
                                                                     "end": 35
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 33,
                                                                 "end": 35
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 27,
                                                             "end": 35
                                                         }
@@ -153,7 +153,7 @@ class C<T> {
                                                     "start": 26,
                                                     "end": 36
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 26,
                                                 "end": 36
                                             }
@@ -162,11 +162,11 @@ class C<T> {
                                         "start": 25,
                                         "end": 37
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 19,
                                     "end": 37
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 37
                             },
@@ -229,11 +229,11 @@ class C<T> {
                                                         "end": 54
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 52,
                                                     "end": 54
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 51,
                                                 "end": 54
                                             },
@@ -309,11 +309,11 @@ class C<T> {
                                                                                     "end": 82
                                                                                 },
                                                                                 "typeParameters": null,
-                                                                                "flags": 0,
+                                                                                "flags": 32,
                                                                                 "start": 80,
                                                                                 "end": 82
                                                                             },
-                                                                            "flags": 0,
+                                                                            "flags": 32,
                                                                             "start": 74,
                                                                             "end": 82
                                                                         }
@@ -323,7 +323,7 @@ class C<T> {
                                                                     "start": 72,
                                                                     "end": 83
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 71,
                                                                 "end": 83
                                                             },

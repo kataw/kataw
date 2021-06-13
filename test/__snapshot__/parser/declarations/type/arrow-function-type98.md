@@ -41,6 +41,12 @@ type a = ((x | (y)=> T)) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -66,7 +72,7 @@ type a = ((x | (y)=> T)) => T;
                                         "end": 12
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 8,
                                     "end": 12
                                 },
@@ -89,7 +95,7 @@ type a = ((x | (y)=> T)) => T;
                                             "end": 17
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 14,
                                         "end": 17
                                     },
@@ -104,17 +110,17 @@ type a = ((x | (y)=> T)) => T;
                                             "end": 22
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 22
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 22
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 22
                         }
@@ -135,12 +141,12 @@ type a = ((x | (y)=> T)) => T;
                         "end": 29
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 27,
                     "end": 29
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 29
             },

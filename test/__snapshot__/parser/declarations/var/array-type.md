@@ -67,11 +67,11 @@ var a: (?number)[];
                                     "start": 6,
                                     "end": 13
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 15
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 15
                         },
@@ -143,19 +143,19 @@ var a: (?number)[];
                                             "end": 38
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 24,
                                         "end": 38
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 39
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 40,
                                 "end": 41
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 23,
                             "end": 41
                         },
@@ -207,7 +207,7 @@ var a: (?number)[];
                                     "end": 56
                                 },
                                 "parameters": {
-                                    "kind": 208,
+                                    "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
@@ -222,16 +222,16 @@ var a: (?number)[];
                                         "start": 56,
                                         "end": 63
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 64,
                                     "end": 65
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 50,
                                 "end": 65
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 49,
                             "end": 65
                         },
@@ -284,15 +284,15 @@ var a: (?number)[];
                                         "start": 74,
                                         "end": 81
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 82,
                                     "end": 83
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 84,
                                 "end": 85
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 73,
                             "end": 85
                         },
@@ -341,7 +341,7 @@ var a: (?number)[];
                                 "start": 94,
                                 "end": 101
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 93,
                             "end": 101
                         },
@@ -422,19 +422,19 @@ var a: (?number)[];
                                             "start": 116,
                                             "end": 122
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 115,
                                         "end": 122
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 113,
                                     "end": 123
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 124,
                                 "end": 125
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 112,
                             "end": 125
                         },

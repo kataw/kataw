@@ -84,7 +84,7 @@ declare class C {
                                 "start": 31,
                                 "end": 38
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 39
                         },
@@ -111,7 +111,7 @@ declare class C {
                             "value": {
                                 "kind": 148,
                                 "parameters": {
-                                    "kind": 208,
+                                    "kind": 282,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -131,7 +131,7 @@ declare class C {
                                                 "start": 57,
                                                 "end": 64
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 55,
                                             "end": 64
                                         }
@@ -148,11 +148,11 @@ declare class C {
                                     "end": 71
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 54,
                                 "end": 71
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 39,
                             "end": 72
                         },
@@ -174,7 +174,7 @@ declare class C {
                             "value": {
                                 "kind": 148,
                                 "parameters": {
-                                    "kind": 208,
+                                    "kind": 282,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -194,7 +194,7 @@ declare class C {
                                                 "start": 91,
                                                 "end": 98
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 89,
                                             "end": 98
                                         }
@@ -211,11 +211,11 @@ declare class C {
                                     "end": 105
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 88,
                                 "end": 105
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 72,
                             "end": 106
                         }

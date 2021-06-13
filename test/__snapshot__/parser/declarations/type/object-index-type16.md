@@ -68,7 +68,7 @@ var o: { [string]: number } = {};
                                             "start": 18,
                                             "end": 25
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 25
                                     }
@@ -78,7 +78,7 @@ var o: { [string]: number } = {};
                                 "start": 6,
                                 "end": 27
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 27
                         },

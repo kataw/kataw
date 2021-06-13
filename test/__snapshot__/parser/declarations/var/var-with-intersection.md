@@ -57,24 +57,24 @@ var x:
                                 "types": [
                                     {
                                         "kind": 134217968,
-                                        "value": 1,
-                                        "flags": 0,
+                                        "text": 1,
+                                        "flags": 96,
                                         "start": 9,
                                         "end": 11
                                     },
                                     {
                                         "kind": 134217968,
-                                        "value": 2,
-                                        "flags": 0,
+                                        "text": 2,
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 16
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 16
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 16
                         },

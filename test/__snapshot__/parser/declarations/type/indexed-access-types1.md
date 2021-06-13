@@ -41,6 +41,12 @@ type A = Obj['a'];
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 268,
                 "objectType": {
@@ -54,14 +60,14 @@ type A = Obj['a'];
                         "end": 12
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 12
                 },
                 "indexType": {
                     "kind": 134217967,
                     "value": "a",
-                    "flags": 0,
+                    "flags": 96,
                     "start": 13,
                     "end": 16
                 },

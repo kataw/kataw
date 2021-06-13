@@ -41,6 +41,12 @@ type A = (x: string, number) => void
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -70,7 +76,7 @@ type A = (x: string, number) => void
                                 "start": 12,
                                 "end": 19
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 19
                         },
@@ -85,7 +91,7 @@ type A = (x: string, number) => void
                                 "start": 20,
                                 "end": 27
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 20,
                             "end": 27
                         }
@@ -102,7 +108,7 @@ type A = (x: string, number) => void
                     "end": 36
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 36
             },

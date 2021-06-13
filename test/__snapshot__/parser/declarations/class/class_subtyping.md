@@ -61,7 +61,7 @@ class D extends C<O> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 9,
                         "end": 10
                     }
@@ -104,11 +104,11 @@ class D extends C<O> {
                                         "end": 18
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 18
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 18
                             },
@@ -189,11 +189,11 @@ class D extends C<O> {
                                         "end": 42
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 41,
                                     "end": 42
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 41,
                                 "end": 42
                             }

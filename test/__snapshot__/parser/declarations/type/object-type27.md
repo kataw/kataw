@@ -41,6 +41,12 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -74,7 +80,7 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                                             "value": {
                                                 "kind": 148,
                                                 "parameters": {
-                                                    "kind": 208,
+                                                    "kind": 282,
                                                     "parameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
@@ -97,26 +103,26 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                                                                     "end": 19
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 18,
                                                                 "end": 19
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 17,
                                                         "end": 20
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 21,
                                                     "end": 22
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 16,
                                                 "end": 22
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 15,
                                             "end": 22
                                         }
@@ -126,11 +132,11 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                                     "start": 14,
                                     "end": 22
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 23
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 23
                         },
@@ -145,11 +151,11 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                                 "end": 27
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 24,
                             "end": 27
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 27
                     }

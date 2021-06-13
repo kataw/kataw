@@ -56,7 +56,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
@@ -75,11 +75,11 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                                 "end": 18
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 12,
                                             "end": 18
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 18
                                     }
@@ -89,7 +89,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                 "start": 6,
                                 "end": 20
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 20
                         },
@@ -156,7 +156,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                     "start": 34,
                                     "end": 41
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 41
                             },

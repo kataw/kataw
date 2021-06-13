@@ -79,11 +79,11 @@ a ? async (b) : c => d : e;
                                 "end": 17
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 17
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 13,
                         "end": 17
                     },

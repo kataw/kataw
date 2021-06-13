@@ -41,6 +41,12 @@ type a = ({get y(y)}) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -78,7 +84,7 @@ type a = ({get y(y)}) => T;
                                     "value": {
                                         "kind": 148,
                                         "parameters": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -96,11 +102,11 @@ type a = ({get y(y)}) => T;
                                                             "end": 18
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 17,
                                                         "end": 18
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 17,
                                                     "end": 18
                                                 }
@@ -120,16 +126,16 @@ type a = ({get y(y)}) => T;
                                                 "end": 19
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 19,
                                             "end": 19
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 19
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 19
                                 }
@@ -156,12 +162,12 @@ type a = ({get y(y)}) => T;
                         "end": 26
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 24,
                     "end": 26
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 26
             },

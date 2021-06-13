@@ -50,6 +50,12 @@ type ten = {
                 "end": 8
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 8,
+                "end": 10
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -79,7 +85,7 @@ type ten = {
                                 "start": 17,
                                 "end": 24
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 10,
                             "end": 24
                         }
@@ -96,7 +102,7 @@ type ten = {
                     "end": 33
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 10,
                 "end": 33
             },
@@ -122,6 +128,12 @@ type ten = {
                 "end": 45
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 45,
+                "end": 47
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -151,7 +163,7 @@ type ten = {
                                 "start": 54,
                                 "end": 61
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 47,
                             "end": 61
                         },
@@ -173,7 +185,7 @@ type ten = {
                                 "start": 65,
                                 "end": 72
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 62,
                             "end": 72
                         }
@@ -190,7 +202,7 @@ type ten = {
                     "end": 81
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 47,
                 "end": 81
             },
@@ -216,6 +228,12 @@ type ten = {
                 "end": 93
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 93,
+                "end": 95
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -245,7 +263,7 @@ type ten = {
                                 "start": 102,
                                 "end": 109
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 95,
                             "end": 109
                         },
@@ -272,7 +290,7 @@ type ten = {
                                 "start": 116,
                                 "end": 120
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 110,
                             "end": 120
                         }
@@ -289,7 +307,7 @@ type ten = {
                     "end": 129
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 95,
                 "end": 129
             },
@@ -315,11 +333,17 @@ type ten = {
                 "end": 140
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 140,
+                "end": 142
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": null,
                 "parameters": {
-                    "kind": 208,
+                    "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
@@ -360,11 +384,11 @@ type ten = {
                                         "end": 154
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 152,
                                     "end": 154
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 146,
                                 "end": 154
                             }
@@ -381,7 +405,7 @@ type ten = {
                         "end": 163
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 146,
                     "end": 163
                 },
@@ -400,7 +424,7 @@ type ten = {
                             },
                             "type": null,
                             "defaultType": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 144,
                             "end": 145
                         }
@@ -409,7 +433,7 @@ type ten = {
                     "start": 142,
                     "end": 146
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 142,
                 "end": 163
             },
@@ -435,6 +459,12 @@ type ten = {
                 "end": 173
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 173,
+                "end": 175
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -456,7 +486,7 @@ type ten = {
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [
                                     {
                                         "kind": 149,
@@ -476,7 +506,7 @@ type ten = {
                                             "start": 188,
                                             "end": 195
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 183,
                                         "end": 195
                                     }
@@ -493,11 +523,11 @@ type ten = {
                                 "end": 202
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 182,
                             "end": 202
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 177,
                         "end": 203
                     },
@@ -519,7 +549,7 @@ type ten = {
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [
                                     {
                                         "kind": 149,
@@ -539,7 +569,7 @@ type ten = {
                                             "start": 214,
                                             "end": 221
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 209,
                                         "end": 221
                                     },
@@ -561,7 +591,7 @@ type ten = {
                                             "start": 225,
                                             "end": 232
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 222,
                                         "end": 232
                                     }
@@ -578,11 +608,11 @@ type ten = {
                                 "end": 239
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 208,
                             "end": 239
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 203,
                         "end": 240
                     },
@@ -604,7 +634,7 @@ type ten = {
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [
                                     {
                                         "kind": 149,
@@ -624,7 +654,7 @@ type ten = {
                                             "start": 251,
                                             "end": 258
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 246,
                                         "end": 258
                                     },
@@ -651,7 +681,7 @@ type ten = {
                                             "start": 265,
                                             "end": 269
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 259,
                                         "end": 269
                                     }
@@ -668,11 +698,11 @@ type ten = {
                                 "end": 276
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 245,
                             "end": 276
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 240,
                         "end": 277
                     },
@@ -694,7 +724,7 @@ type ten = {
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [
                                     {
                                         "kind": 149,
@@ -719,11 +749,11 @@ type ten = {
                                                 "end": 293
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 291,
                                             "end": 293
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 286,
                                         "end": 293
                                     }
@@ -754,7 +784,7 @@ type ten = {
                                         },
                                         "type": null,
                                         "defaultType": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 283,
                                         "end": 284
                                     }
@@ -763,11 +793,11 @@ type ten = {
                                 "start": 282,
                                 "end": 285
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 282,
                             "end": 300
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 277,
                         "end": 301
                     }

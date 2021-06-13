@@ -112,15 +112,15 @@ a ? b ? (c) : (d) : (e) => f : g;
                                         "end": 22
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 19,
                                     "end": 22
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 23
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 23
                         },

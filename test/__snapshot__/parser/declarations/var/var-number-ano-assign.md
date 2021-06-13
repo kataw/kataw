@@ -56,7 +56,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                 "start": 11,
                                 "end": 17
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 10,
                             "end": 17
                         },
@@ -133,7 +133,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                             "start": 55,
                                             "end": 62
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 42,
                                         "end": 63
                                     },
@@ -161,7 +161,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                             "start": 76,
                                             "end": 83
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 63,
                                         "end": 84
                                     }
@@ -171,7 +171,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                 "start": 40,
                                 "end": 86
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 39,
                             "end": 86
                         },

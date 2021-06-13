@@ -74,7 +74,7 @@ const {q}: string = y;
                                 "start": 11,
                                 "end": 18
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 10,
                             "end": 18
                         },
@@ -137,7 +137,7 @@ const {q}: string = y;
                                                 "start": 34,
                                                 "end": 40
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 33,
                                             "end": 40
                                         },
@@ -165,7 +165,7 @@ const {q}: string = y;
                                 "start": 42,
                                 "end": 49
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 41,
                             "end": 49
                         },
@@ -235,7 +235,7 @@ const {q}: string = y;
                                 "start": 66,
                                 "end": 73
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 65,
                             "end": 73
                         },

@@ -41,6 +41,12 @@ type X = {[(x)]: string};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -62,11 +68,11 @@ type X = {[(x)]: string};
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 13
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 14
                         },
@@ -76,7 +82,7 @@ type X = {[(x)]: string};
                             "start": 16,
                             "end": 23
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 23
                     }

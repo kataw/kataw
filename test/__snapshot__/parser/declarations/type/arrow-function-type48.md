@@ -41,6 +41,12 @@ type a = (a[b][]) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -64,7 +70,7 @@ type a = (a[b][]) => T;
                                 "end": 11
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 11
                         },
@@ -79,7 +85,7 @@ type a = (a[b][]) => T;
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 13
                         },
@@ -87,7 +93,7 @@ type a = (a[b][]) => T;
                         "start": 12,
                         "end": 15
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 15,
                     "end": 16
                 },
@@ -102,12 +108,12 @@ type a = (a[b][]) => T;
                         "end": 22
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 20,
                     "end": 22
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 22
             },

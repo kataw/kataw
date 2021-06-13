@@ -70,11 +70,11 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 37
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 10,
                             "end": 37
                         },

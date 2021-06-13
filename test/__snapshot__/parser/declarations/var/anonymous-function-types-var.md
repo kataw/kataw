@@ -76,24 +76,24 @@ var f = (): (number) => 123;
                                     "types": [
                                         {
                                             "kind": 134217968,
-                                            "value": 1,
-                                            "flags": 0,
+                                            "text": 1,
+                                            "flags": 96,
                                             "start": 14,
                                             "end": 16
                                         },
                                         {
                                             "kind": 134217968,
-                                            "value": 2,
-                                            "flags": 0,
+                                            "text": 2,
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 20
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 20
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 20
                             },
@@ -167,11 +167,11 @@ var f = (): (number) => 123;
                                         "start": 41,
                                         "end": 47
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 39,
                                     "end": 48
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 38,
                                 "end": 48
                             },

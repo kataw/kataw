@@ -86,11 +86,11 @@ declare class C {
                                     "end": 34
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 34
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 34
                         }

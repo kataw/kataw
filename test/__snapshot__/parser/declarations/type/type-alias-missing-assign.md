@@ -41,6 +41,7 @@ type x
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": null,
             "type": {
                 "kind": 144,
                 "id": {
@@ -51,7 +52,7 @@ type x
                     "end": 6
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 6,
                 "end": 6
             },
@@ -78,7 +79,7 @@ type x
 ### Diagnostics
 
 ```javascript
-✖ An TypeAlias declaration require a '=' - start: 5, end: 6
+✖ An TypeAlias declaration require a '=' - start: 6, end: 6
 
 ```
 

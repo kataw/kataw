@@ -63,15 +63,15 @@ var a?: number[][]
                                         "start": 7,
                                         "end": 14
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 16
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 18
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 6,
                             "end": 18
                         },

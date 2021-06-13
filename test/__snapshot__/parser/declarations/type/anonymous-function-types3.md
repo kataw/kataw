@@ -41,6 +41,12 @@ type A = (string,) => void
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -63,7 +69,7 @@ type A = (string,) => void
                             },
                             "optionalToken": null,
                             "types": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 16
                         }
@@ -80,7 +86,7 @@ type A = (string,) => void
                     "end": 26
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 26
             },

@@ -113,11 +113,11 @@ a ? b ? (c => d) : e => f : g;
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 20
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 16,
                             "end": 20
                         },

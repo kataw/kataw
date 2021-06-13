@@ -55,7 +55,7 @@ async ([a]:string)=>c;
                             "start": 9,
                             "end": 15
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 15
                     },
@@ -135,7 +135,7 @@ async ([a]:string)=>c;
                             "start": 33,
                             "end": 39
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 32,
                         "end": 39
                     },

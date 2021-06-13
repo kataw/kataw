@@ -93,16 +93,16 @@ function bar<T: ?number>() {}
                                     "start": 17,
                                     "end": 23
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 23
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 14,
                             "end": 23
                         },
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 13,
                         "end": 23
                     }

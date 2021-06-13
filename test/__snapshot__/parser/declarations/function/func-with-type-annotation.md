@@ -67,7 +67,7 @@ function a<string>(x: string): string {
                                 "start": 21,
                                 "end": 28
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 20,
                             "end": 28
                         },
@@ -132,7 +132,7 @@ function a<string>(x: string): string {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 11,
                         "end": 17
                     }
@@ -149,7 +149,7 @@ function a<string>(x: string): string {
                     "start": 30,
                     "end": 37
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 0,
                 "end": 37
             },

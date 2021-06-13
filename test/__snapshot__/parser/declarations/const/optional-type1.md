@@ -109,11 +109,11 @@ const f = (x?, y?:Object = {}) => {}
                                                 "end": 24
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 18,
                                             "end": 24
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 17,
                                         "end": 24
                                     },

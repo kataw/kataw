@@ -45,6 +45,12 @@ type MyObject = {
                 "end": 13
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 13,
+                "end": 15
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -69,7 +75,7 @@ type MyObject = {
                             "start": 24,
                             "end": 31
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 17,
                         "end": 32
                     },
@@ -94,7 +100,7 @@ type MyObject = {
                             "start": 39,
                             "end": 47
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 32,
                         "end": 48
                     },
@@ -119,7 +125,7 @@ type MyObject = {
                             "start": 55,
                             "end": 62
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 48,
                         "end": 63
                     }

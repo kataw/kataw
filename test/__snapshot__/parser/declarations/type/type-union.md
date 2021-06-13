@@ -72,6 +72,12 @@ type overloads2 = {
                 "end": 10
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 10,
+                "end": 12
+            },
             "type": {
                 "kind": 137,
                 "types": [
@@ -96,11 +102,11 @@ type overloads2 = {
                                 "value": {
                                     "kind": 134217967,
                                     "value": "A",
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 22,
                                     "end": 26
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 26
                             }
@@ -131,11 +137,11 @@ type overloads2 = {
                                 "value": {
                                     "kind": 134217967,
                                     "value": "B",
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 37,
                                     "end": 41
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 41
                             }
@@ -146,7 +152,7 @@ type overloads2 = {
                         "end": 42
                     }
                 ],
-                "flags": 0,
+                "flags": 32,
                 "start": 27,
                 "end": 42
             },
@@ -172,6 +178,12 @@ type overloads2 = {
                 "end": 60
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 60,
+                "end": 62
+            },
             "type": {
                 "kind": 138,
                 "types": [
@@ -208,7 +220,7 @@ type overloads2 = {
                                                 "start": 71,
                                                 "end": 78
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 66,
                                             "end": 78
                                         }
@@ -225,16 +237,16 @@ type overloads2 = {
                                     "end": 89
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 66,
                                 "end": 89
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 66,
                             "end": 89
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 66,
                         "end": 90
                     },
@@ -271,7 +283,7 @@ type overloads2 = {
                                                 "start": 99,
                                                 "end": 106
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 94,
                                             "end": 106
                                         }
@@ -288,21 +300,21 @@ type overloads2 = {
                                     "end": 117
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 94,
                                 "end": 117
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 94,
                             "end": 117
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 94,
                         "end": 118
                     }
                 ],
-                "flags": 0,
+                "flags": 32,
                 "start": 90,
                 "end": 118
             },
@@ -328,6 +340,12 @@ type overloads2 = {
                 "end": 133
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 133,
+                "end": 135
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -370,11 +388,11 @@ type overloads2 = {
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "A",
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 155,
                                                 "end": 159
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 150,
                                             "end": 159
                                         }
@@ -405,11 +423,11 @@ type overloads2 = {
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "B",
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 173,
                                                 "end": 177
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 168,
                                             "end": 177
                                         }
@@ -420,11 +438,11 @@ type overloads2 = {
                                     "end": 178
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 160,
                             "end": 178
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 137,
                         "end": 178
                     }
@@ -456,6 +474,12 @@ type overloads2 = {
                 "end": 198
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 198,
+                "end": 200
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -498,11 +522,11 @@ type overloads2 = {
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "A",
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 220,
                                                 "end": 224
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 215,
                                             "end": 224
                                         }
@@ -533,11 +557,11 @@ type overloads2 = {
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "B",
-                                                "flags": 0,
+                                                "flags": 96,
                                                 "start": 238,
                                                 "end": 242
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 233,
                                             "end": 242
                                         }
@@ -548,11 +572,11 @@ type overloads2 = {
                                     "end": 243
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 225,
                             "end": 243
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 202,
                         "end": 243
                     }

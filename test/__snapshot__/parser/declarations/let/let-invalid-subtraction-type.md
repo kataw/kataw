@@ -57,11 +57,11 @@ let x: -;
                                     "end": 8
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 8
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 8
                         },

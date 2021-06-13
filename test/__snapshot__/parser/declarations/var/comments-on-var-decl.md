@@ -512,7 +512,7 @@ n4 = z2;
                                             "start": 953,
                                             "end": 960
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 952,
                                         "end": 960
                                     },
@@ -541,7 +541,7 @@ n4 = z2;
                                             "start": 964,
                                             "end": 971
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 963,
                                         "end": 971
                                     },
@@ -652,7 +652,7 @@ n4 = z2;
                                                 "start": 1014,
                                                 "end": 1021
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 991,
                                             "end": 1021
                                         }
@@ -669,11 +669,11 @@ n4 = z2;
                                     "end": 1032
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 991,
                                 "end": 1032
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 990,
                             "end": 1032
                         },
@@ -790,7 +790,7 @@ n4 = z2;
                                                 "start": 1060,
                                                 "end": 1067
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 1056,
                                             "end": 1067
                                         }
@@ -807,11 +807,11 @@ n4 = z2;
                                     "end": 1078
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 1056,
                                 "end": 1078
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 1055,
                             "end": 1078
                         },

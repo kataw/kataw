@@ -58,7 +58,7 @@ declare class A { static () : number }
                             "protoKeyword": null,
                             "typeParameter": null,
                             "value": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
@@ -77,7 +77,7 @@ declare class A { static () : number }
                                 "start": 29,
                                 "end": 36
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 36
                         }

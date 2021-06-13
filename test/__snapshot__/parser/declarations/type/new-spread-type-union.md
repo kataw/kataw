@@ -43,6 +43,12 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "end": 7
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 7,
+                "end": 9
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -87,11 +93,11 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                     "end": 18
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 17,
                                                 "end": 18
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 15,
                                             "end": 18
                                         }
@@ -130,11 +136,11 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                     "end": 24
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 23,
                                                 "end": 24
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 21,
                                             "end": 24
                                         }
@@ -145,12 +151,12 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                     "end": 25
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 19,
                             "end": 25
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 11,
                         "end": 25
                     }
@@ -182,6 +188,12 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "end": 49
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 49,
+                "end": 51
+            },
             "type": {
                 "kind": 137,
                 "types": [
@@ -196,7 +208,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                             "end": 58
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 51,
                         "end": 58
                     },
@@ -211,7 +223,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                             "end": 67
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 60,
                         "end": 67
                     },
@@ -234,16 +246,16 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                 "end": 78
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 76,
                             "end": 78
                         },
-                        "flags": 0,
+                        "flags": 96,
                         "start": 69,
                         "end": 78
                     }
                 ],
-                "flags": 0,
+                "flags": 32,
                 "start": 58,
                 "end": 78
             },

@@ -41,6 +41,12 @@ type x = {get x (): string }
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -67,7 +73,7 @@ type x = {get x (): string }
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
@@ -81,11 +87,11 @@ type x = {get x (): string }
                                 "end": 26
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 26
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 26
                     }

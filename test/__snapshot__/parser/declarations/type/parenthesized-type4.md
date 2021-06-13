@@ -41,6 +41,12 @@ type X = (x);
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -54,11 +60,11 @@ type X = (x);
                         "end": 11
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 11
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 12
             },

@@ -41,6 +41,12 @@ type X = (x.y<>) => T
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -69,7 +75,7 @@ type X = (x.y<>) => T
                             "start": 12,
                             "end": 13
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 13
                     },
@@ -80,7 +86,7 @@ type X = (x.y<>) => T
                         "start": 13,
                         "end": 15
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 15
                 },
@@ -95,12 +101,12 @@ type X = (x.y<>) => T
                         "end": 21
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 19,
                     "end": 21
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 21
             },

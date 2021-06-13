@@ -51,11 +51,11 @@ let x: [,] = y;
                                 "kind": 147,
                                 "elementTypes": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 8
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 8
                         },

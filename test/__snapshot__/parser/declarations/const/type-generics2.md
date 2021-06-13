@@ -69,7 +69,7 @@ const identity = <T>(t: T): T => t;
                                         },
                                         "type": null,
                                         "defaultType": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 19
                                     }
@@ -104,11 +104,11 @@ const identity = <T>(t: T): T => t;
                                                 "end": 25
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 23,
                                             "end": 25
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 22,
                                         "end": 25
                                     },
@@ -132,11 +132,11 @@ const identity = <T>(t: T): T => t;
                                         "end": 29
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 27,
                                     "end": 29
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 29
                             },

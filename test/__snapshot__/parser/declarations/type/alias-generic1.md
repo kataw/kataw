@@ -58,7 +58,7 @@ type MyObject<A, B, C> = {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 14,
                         "end": 15
                     },
@@ -74,7 +74,7 @@ type MyObject<A, B, C> = {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 16,
                         "end": 18
                     },
@@ -90,7 +90,7 @@ type MyObject<A, B, C> = {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 19,
                         "end": 21
                     }
@@ -98,6 +98,12 @@ type MyObject<A, B, C> = {
                 "flags": 0,
                 "start": 13,
                 "end": 22
+            },
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 22,
+                "end": 24
             },
             "type": {
                 "kind": 134234353,
@@ -128,11 +134,11 @@ type MyObject<A, B, C> = {
                                 "end": 40
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 38,
                             "end": 40
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 26,
                         "end": 41
                     },
@@ -154,7 +160,7 @@ type MyObject<A, B, C> = {
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [
                                     {
                                         "kind": 149,
@@ -179,11 +185,11 @@ type MyObject<A, B, C> = {
                                                 "end": 57
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 55,
                                             "end": 57
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 51,
                                         "end": 57
                                     }
@@ -204,16 +210,16 @@ type MyObject<A, B, C> = {
                                     "end": 61
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 59,
                                 "end": 61
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 50,
                             "end": 61
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 41,
                         "end": 62
                     }

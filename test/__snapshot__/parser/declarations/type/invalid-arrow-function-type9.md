@@ -41,6 +41,12 @@ type a = ({} | { [x]?:string}) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -73,7 +79,7 @@ type a = ({} | { [x]?:string}) => T;
                                             "end": 19
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 19
                                     },
@@ -95,15 +101,15 @@ type a = ({} | { [x]?:string}) => T;
                                                 "end": 21
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 21,
                                             "end": 21
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 21
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 21
                                 }
@@ -114,11 +120,11 @@ type a = ({} | { [x]?:string}) => T;
                             "end": 21
                         }
                     ],
-                    "flags": 0,
+                    "flags": 32,
                     "start": 12,
                     "end": 21
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 21
             },

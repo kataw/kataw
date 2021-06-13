@@ -60,11 +60,11 @@ var a: typeof A[];
                                     "start": 6,
                                     "end": 13
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 15
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 15
                         },
@@ -123,15 +123,15 @@ var a: typeof A[];
                                         "start": 25,
                                         "end": 31
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 32,
                                     "end": 33
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 33
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 22,
                             "end": 33
                         },
@@ -192,19 +192,19 @@ var a: typeof A[];
                                             "start": 44,
                                             "end": 50
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 43,
                                         "end": 50
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 41,
                                     "end": 51
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 52,
                                 "end": 53
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 40,
                             "end": 53
                         },
@@ -256,7 +256,7 @@ var a: typeof A[];
                                     "end": 67
                                 },
                                 "parameters": {
-                                    "kind": 208,
+                                    "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
@@ -271,16 +271,16 @@ var a: typeof A[];
                                         "start": 67,
                                         "end": 74
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 75,
                                     "end": 76
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 61,
                                 "end": 76
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 60,
                             "end": 76
                         },
@@ -344,19 +344,19 @@ var a: typeof A[];
                                             "end": 93
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 91,
                                         "end": 93
                                     },
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 84,
                                     "end": 93
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 94,
                                 "end": 95
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 83,
                             "end": 95
                         },

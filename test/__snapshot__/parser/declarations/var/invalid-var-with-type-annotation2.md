@@ -73,7 +73,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 19
                                     },
@@ -115,7 +115,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                         "start": 23,
                                                         "end": 30
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 20,
                                                     "end": 30
                                                 }
@@ -125,7 +125,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "start": 19,
                                             "end": 32
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 32
                                     }
@@ -135,7 +135,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                 "start": 7,
                                 "end": 34
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 34
                         },

@@ -53,7 +53,7 @@ async (s: any) => x
                             "start": 9,
                             "end": 13
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 13
                     },

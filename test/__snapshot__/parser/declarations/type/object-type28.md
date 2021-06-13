@@ -41,6 +41,12 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -74,7 +80,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                             "value": {
                                                 "kind": 148,
                                                 "parameters": {
-                                                    "kind": 208,
+                                                    "kind": 282,
                                                     "parameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
@@ -87,20 +93,20 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                                         "kind": 147,
                                                         "elementTypes": [],
                                                         "trailingComma": false,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 17,
                                                         "end": 19
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 20,
                                                     "end": 21
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 16,
                                                 "end": 21
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 15,
                                             "end": 21
                                         }
@@ -110,11 +116,11 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                     "start": 14,
                                     "end": 21
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 22
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 22
                         },
@@ -129,11 +135,11 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                 "end": 26
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 23,
                             "end": 26
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 26
                     }

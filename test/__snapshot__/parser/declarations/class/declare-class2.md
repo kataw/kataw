@@ -78,7 +78,7 @@ declare class X {
                                 "start": 21,
                                 "end": 28
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 29
                         },
@@ -108,7 +108,7 @@ declare class X {
                                 "start": 40,
                                 "end": 47
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 29,
                             "end": 48
                         },
@@ -133,7 +133,7 @@ declare class X {
                                 "start": 52,
                                 "end": 59
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 48,
                             "end": 60
                         }

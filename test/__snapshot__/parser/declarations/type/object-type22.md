@@ -41,6 +41,12 @@ type a = {function((((-1) => [c|d]))):string};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -62,7 +68,7 @@ type a = {function((((-1) => [c|d]))):string};
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
@@ -91,7 +97,7 @@ type a = {function((((-1) => [c|d]))):string};
                                                     "end": 23
                                                 },
                                                 "value": 1,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 22,
                                                 "end": 24
                                             }
@@ -118,7 +124,7 @@ type a = {function((((-1) => [c|d]))):string};
                                                             "end": 31
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 30,
                                                         "end": 31
                                                     },
@@ -133,36 +139,36 @@ type a = {function((((-1) => [c|d]))):string};
                                                             "end": 33
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 32,
                                                         "end": 33
                                                     }
                                                 ],
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 33
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 28,
                                         "end": 34
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 34
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 36
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 18,
                             "end": 36
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 36
                     }

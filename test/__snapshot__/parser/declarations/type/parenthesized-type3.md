@@ -41,6 +41,12 @@ type Foo = (string)
                 "end": 8
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 8,
+                "end": 10
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -49,7 +55,7 @@ type Foo = (string)
                     "start": 12,
                     "end": 18
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 10,
                 "end": 19
             },

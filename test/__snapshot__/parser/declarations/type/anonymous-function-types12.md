@@ -96,21 +96,21 @@ var f = (x): ((number) => 123) => 123;
                                         },
                                         "returnType": {
                                             "kind": 134217968,
-                                            "value": 123,
-                                            "flags": 0,
+                                            "text": 123,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 29
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 29
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 30
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 30
                             },

@@ -77,7 +77,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 16,
                                             "end": 23
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 24
                                     },
@@ -102,7 +102,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 32,
                                             "end": 39
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 24,
                                         "end": 40
                                     },
@@ -127,7 +127,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 48,
                                             "end": 55
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 40,
                                         "end": 56
                                     }
@@ -137,7 +137,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                 "start": 6,
                                 "end": 57
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 57
                         },

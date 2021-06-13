@@ -55,7 +55,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 16,
                         "end": 20
                     }
@@ -63,6 +63,12 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                 "flags": 0,
                 "start": 15,
                 "end": 21
+            },
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 21,
+                "end": 23
             },
             "type": {
                 "kind": 138,
@@ -78,7 +84,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                             "end": 28
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 23,
                         "end": 28
                     },
@@ -126,11 +132,11 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                                         "end": 54
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 50,
                                                     "end": 54
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 50,
                                                 "end": 54
                                             }
@@ -139,11 +145,11 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                         "start": 49,
                                         "end": 55
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 38,
                                     "end": 55
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 32,
                                 "end": 55
                             }
@@ -154,7 +160,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                         "end": 57
                     }
                 ],
-                "flags": 0,
+                "flags": 32,
                 "start": 28,
                 "end": 57
             },

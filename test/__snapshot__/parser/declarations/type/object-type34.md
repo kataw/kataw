@@ -50,6 +50,12 @@
                 "end": 20
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 20,
+                "end": 22
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -79,7 +85,7 @@
                                 "start": 30,
                                 "end": 36
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 22,
                             "end": 36
                         }
@@ -100,12 +106,12 @@
                         "end": 42
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 40,
                     "end": 42
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 22,
                 "end": 42
             },

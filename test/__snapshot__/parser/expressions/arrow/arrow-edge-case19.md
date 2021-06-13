@@ -123,11 +123,11 @@ a ? async (b) => (c => d) : e => f;
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 29
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 25,
                             "end": 29
                         },

@@ -40,6 +40,12 @@ type a = [(&x,|a) => T];
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 147,
                 "elementTypes": [
@@ -68,13 +74,13 @@ type a = [(&x,|a) => T];
                                             "end": 13
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 13
                                     },
                                     "optionalToken": null,
                                     "types": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -94,11 +100,11 @@ type a = [(&x,|a) => T];
                                             "end": 16
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 16
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 16
                                 }
@@ -119,18 +125,18 @@ type a = [(&x,|a) => T];
                                 "end": 22
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 20,
                             "end": 22
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 23
             },

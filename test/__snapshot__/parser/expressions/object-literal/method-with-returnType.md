@@ -84,7 +84,7 @@ a={get fooProp():number{}}
                                             "start": 17,
                                             "end": 23
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 16,
                                         "end": 23
                                     },

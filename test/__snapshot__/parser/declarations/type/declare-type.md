@@ -46,6 +46,12 @@ declare type bool = any;
                 "end": 17
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 17,
+                "end": 19
+            },
             "type": {
                 "kind": 134234252,
                 "flags": 64,

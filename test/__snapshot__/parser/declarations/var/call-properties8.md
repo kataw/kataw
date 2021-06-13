@@ -56,7 +56,7 @@ var e: { (x: any): void } = function() { } // arity
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -76,7 +76,7 @@ var e: { (x: any): void } = function() { } // arity
                                                         "start": 12,
                                                         "end": 16
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 10,
                                                     "end": 16
                                                 }
@@ -93,7 +93,7 @@ var e: { (x: any): void } = function() { } // arity
                                             "start": 18,
                                             "end": 23
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 23
                                     }
@@ -103,7 +103,7 @@ var e: { (x: any): void } = function() { } // arity
                                 "start": 6,
                                 "end": 25
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 25
                         },

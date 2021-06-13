@@ -65,7 +65,7 @@ function foo(numVal: any, otherVal: mixed){}
                                 "start": 20,
                                 "end": 24
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 19,
                             "end": 24
                         },
@@ -99,11 +99,11 @@ function foo(numVal: any, otherVal: mixed){}
                                     "end": 41
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 41
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 34,
                             "end": 41
                         },

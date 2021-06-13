@@ -83,11 +83,11 @@ class A {
                                         "end": 36
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 29,
                                     "end": 36
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 28,
                                 "end": 36
                             },

@@ -691,7 +691,7 @@ class c9 {
                                     "start": 485,
                                     "end": 492
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 484,
                                 "end": 492
                             },
@@ -882,7 +882,7 @@ class c9 {
                                     "start": 654,
                                     "end": 661
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 653,
                                 "end": 661
                             },
@@ -1124,7 +1124,7 @@ class c9 {
                                     "start": 876,
                                     "end": 883
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 875,
                                 "end": 883
                             },
@@ -1366,7 +1366,7 @@ class c9 {
                                     "start": 1065,
                                     "end": 1072
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 1064,
                                 "end": 1072
                             },

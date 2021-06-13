@@ -39,6 +39,12 @@ type Fn0 = () => number;
                 "end": 8
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 8,
+                "end": 10
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -48,7 +54,7 @@ type Fn0 = () => number;
                     "end": 16
                 },
                 "parameters": {
-                    "kind": 208,
+                    "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
@@ -62,7 +68,7 @@ type Fn0 = () => number;
                     "end": 23
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 10,
                 "end": 23
             },

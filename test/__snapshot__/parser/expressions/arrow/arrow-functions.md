@@ -84,7 +84,7 @@ const bar9 = <T>(x) => {};
                                             "start": 16,
                                             "end": 23
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 23
                                     },
@@ -103,7 +103,7 @@ const bar9 = <T>(x) => {};
                                     "start": 25,
                                     "end": 32
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 32
                             },
@@ -286,7 +286,7 @@ const bar9 = <T>(x) => {};
                                             "start": 82,
                                             "end": 89
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 81,
                                         "end": 89
                                     },
@@ -395,7 +395,7 @@ const bar9 = <T>(x) => {};
                                             "start": 118,
                                             "end": 125
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 117,
                                         "end": 125
                                     },
@@ -509,7 +509,7 @@ const bar9 = <T>(x) => {};
                                             "start": 157,
                                             "end": 164
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 156,
                                         "end": 164
                                     },
@@ -676,7 +676,7 @@ const bar9 = <T>(x) => {};
                                     "start": 212,
                                     "end": 219
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 211,
                                 "end": 219
                             },
@@ -764,7 +764,7 @@ const bar9 = <T>(x) => {};
                                             "start": 243,
                                             "end": 250
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 242,
                                         "end": 250
                                     },
@@ -853,7 +853,7 @@ const bar9 = <T>(x) => {};
                                         },
                                         "type": null,
                                         "defaultType": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 273,
                                         "end": 274
                                     }

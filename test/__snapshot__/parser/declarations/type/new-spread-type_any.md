@@ -53,6 +53,12 @@ var o3: O3 = (0: mixed); // ok
                 "end": 7
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 7,
+                "end": 9
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -72,7 +78,7 @@ var o3: O3 = (0: mixed); // ok
                             "end": 17
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 11,
                         "end": 17
                     }
@@ -122,11 +128,11 @@ var o3: O3 = (0: mixed); // ok
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 30
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 26,
                             "end": 30
                         },
@@ -206,11 +212,11 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 61
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 55,
                             "end": 61
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 54,
                         "end": 61
                     },
@@ -245,6 +251,12 @@ var o3: O3 = (0: mixed); // ok
                 "end": 78
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 78,
+                "end": 80
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -268,12 +280,12 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 91
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 85,
                             "end": 91
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 82,
                         "end": 91
                     }
@@ -323,11 +335,11 @@ var o3: O3 = (0: mixed); // ok
                                     "end": 104
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 101,
                                 "end": 104
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 100,
                             "end": 104
                         },
@@ -407,11 +419,11 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 135
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 129,
                             "end": 135
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 128,
                         "end": 135
                     },
@@ -464,7 +476,7 @@ var o3: O3 = (0: mixed); // ok
                                 "start": 162,
                                 "end": 166
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 161,
                             "end": 166
                         },
@@ -563,6 +575,12 @@ var o3: O3 = (0: mixed); // ok
                 "end": 213
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 213,
+                "end": 215
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -586,12 +604,12 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 227
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 220,
                             "end": 227
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 217,
                         "end": 227
                     }
@@ -641,11 +659,11 @@ var o3: O3 = (0: mixed); // ok
                                     "end": 240
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 237,
                                 "end": 240
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 236,
                             "end": 240
                         },
@@ -725,11 +743,11 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 271
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 265,
                             "end": 271
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 264,
                         "end": 271
                     },

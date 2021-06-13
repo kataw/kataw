@@ -462,7 +462,7 @@ export const [destructuredArrNumber2] = [1]
                         "start": 300,
                         "end": 307
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 274,
                     "end": 307
                 },
@@ -553,7 +553,7 @@ export const [destructuredArrNumber2] = [1]
                                             "start": 371,
                                             "end": 378
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 370,
                                         "end": 378
                                     },

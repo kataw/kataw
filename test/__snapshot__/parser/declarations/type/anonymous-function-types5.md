@@ -41,6 +41,12 @@ type A = (Array<string>,) => void
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -76,7 +82,7 @@ type A = (Array<string>,) => void
                                                 "start": 16,
                                                 "end": 22
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 16,
                                             "end": 22
                                         }
@@ -85,13 +91,13 @@ type A = (Array<string>,) => void
                                     "start": 15,
                                     "end": 23
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 8,
                                 "end": 23
                             },
                             "optionalToken": null,
                             "types": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 23
                         }
@@ -108,7 +114,7 @@ type A = (Array<string>,) => void
                     "end": 33
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 33
             },

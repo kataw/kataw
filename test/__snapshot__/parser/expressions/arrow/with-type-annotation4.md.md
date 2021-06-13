@@ -60,11 +60,11 @@
                                         "end": 5
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 4,
                                     "end": 5
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 3,
                                 "end": 5
                             },

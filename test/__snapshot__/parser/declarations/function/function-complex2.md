@@ -114,7 +114,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 29,
                                                 "end": 35
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 29,
                                             "end": 35
                                         }
@@ -123,16 +123,16 @@ function d<X: [number, number]>(x: X): X {
                                     "start": 28,
                                     "end": 35
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 35
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 35
                         },
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 11,
                         "end": 35
                     }
@@ -193,11 +193,11 @@ function d<X: [number, number]>(x: X): X {
                                         "end": 42
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 40,
                                     "end": 42
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 42
                             },
@@ -221,11 +221,11 @@ function d<X: [number, number]>(x: X): X {
                                 "end": 46
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 44,
                             "end": 46
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 43,
                         "end": 46
                     },
@@ -380,7 +380,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 98,
                                                 "end": 104
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 98,
                                             "end": 104
                                         }
@@ -389,16 +389,16 @@ function d<X: [number, number]>(x: X): X {
                                     "start": 97,
                                     "end": 104
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 82,
                                 "end": 104
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 81,
                             "end": 104
                         },
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 80,
                         "end": 104
                     }
@@ -459,11 +459,11 @@ function d<X: [number, number]>(x: X): X {
                                         "end": 111
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 109,
                                     "end": 111
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 108,
                                 "end": 111
                             },
@@ -487,11 +487,11 @@ function d<X: [number, number]>(x: X): X {
                                 "end": 115
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 113,
                             "end": 115
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 112,
                         "end": 115
                     },
@@ -666,7 +666,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 209,
                                                 "end": 215
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 209,
                                             "end": 215
                                         }
@@ -675,16 +675,16 @@ function d<X: [number, number]>(x: X): X {
                                     "start": 208,
                                     "end": 215
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 193,
                                 "end": 215
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 192,
                             "end": 215
                         },
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 191,
                         "end": 215
                     }
@@ -745,11 +745,11 @@ function d<X: [number, number]>(x: X): X {
                                         "end": 222
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 220,
                                     "end": 222
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 219,
                                 "end": 222
                             },
@@ -773,11 +773,11 @@ function d<X: [number, number]>(x: X): X {
                                 "end": 226
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 224,
                             "end": 226
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 223,
                         "end": 226
                     },
@@ -910,11 +910,11 @@ function d<X: [number, number]>(x: X): X {
                                     "end": 298
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 296,
                                 "end": 298
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 295,
                             "end": 298
                         },
@@ -1043,16 +1043,16 @@ function d<X: [number, number]>(x: X): X {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 275,
                                 "end": 292
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 274,
                             "end": 292
                         },
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 273,
                         "end": 292
                     }
@@ -1074,11 +1074,11 @@ function d<X: [number, number]>(x: X): X {
                         "end": 302
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 300,
                     "end": 302
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 260,
                 "end": 302
             },

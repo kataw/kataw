@@ -118,7 +118,7 @@ async function foo3(): Promise<string> {
                                     "start": 31,
                                     "end": 37
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 37
                             }
@@ -127,11 +127,11 @@ async function foo3(): Promise<string> {
                         "start": 30,
                         "end": 38
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 22,
                     "end": 38
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 0,
                 "end": 38
             },
@@ -230,7 +230,7 @@ async function foo3(): Promise<string> {
                                     "start": 85,
                                     "end": 91
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 85,
                                 "end": 91
                             }
@@ -239,11 +239,11 @@ async function foo3(): Promise<string> {
                         "start": 84,
                         "end": 92
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 76,
                     "end": 92
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 52,
                 "end": 92
             },
@@ -403,7 +403,7 @@ async function foo3(): Promise<string> {
                                     "start": 149,
                                     "end": 155
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 149,
                                 "end": 155
                             }
@@ -412,11 +412,11 @@ async function foo3(): Promise<string> {
                         "start": 148,
                         "end": 156
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 140,
                     "end": 156
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 116,
                 "end": 156
             },

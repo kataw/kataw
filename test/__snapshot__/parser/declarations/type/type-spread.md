@@ -51,6 +51,12 @@ type D32 = {p?: number};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -71,7 +77,7 @@ type D32 = {p?: number};
                             "start": 19,
                             "end": 26
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 26
                     }
@@ -103,6 +109,12 @@ type D32 = {p?: number};
                 "end": 35
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 35,
+                "end": 37
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -127,7 +139,7 @@ type D32 = {p?: number};
                             "start": 43,
                             "end": 49
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 39,
                         "end": 50
                     },
@@ -151,12 +163,12 @@ type D32 = {p?: number};
                                 "end": 55
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 54,
                             "end": 55
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 50,
                         "end": 55
                     }
@@ -188,6 +200,12 @@ type D32 = {p?: number};
                 "end": 65
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 65,
+                "end": 67
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -211,12 +229,12 @@ type D32 = {p?: number};
                                 "end": 74
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 72,
                             "end": 74
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 69,
                         "end": 74
                     },
@@ -240,12 +258,12 @@ type D32 = {p?: number};
                                 "end": 81
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 79,
                             "end": 81
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 75,
                         "end": 81
                     }
@@ -277,6 +295,12 @@ type D32 = {p?: number};
                 "end": 91
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 91,
+                "end": 93
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -301,7 +325,7 @@ type D32 = {p?: number};
                             "start": 97,
                             "end": 104
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 95,
                         "end": 104
                     }
@@ -333,6 +357,12 @@ type D32 = {p?: number};
                 "end": 114
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 114,
+                "end": 116
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -356,12 +386,12 @@ type D32 = {p?: number};
                                 "end": 123
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 121,
                             "end": 123
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 118,
                         "end": 123
                     },
@@ -385,12 +415,12 @@ type D32 = {p?: number};
                                 "end": 130
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 128,
                             "end": 130
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 124,
                         "end": 130
                     }
@@ -422,6 +452,12 @@ type D32 = {p?: number};
                 "end": 140
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 140,
+                "end": 142
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -461,11 +497,11 @@ type D32 = {p?: number};
                                     "end": 163
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 154,
                             "end": 163
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 144,
                         "end": 163
                     }
@@ -497,6 +533,12 @@ type D32 = {p?: number};
                 "end": 174
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 174,
+                "end": 176
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -520,12 +562,12 @@ type D32 = {p?: number};
                                 "end": 184
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 181,
                             "end": 184
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 178,
                         "end": 184
                     },
@@ -549,12 +591,12 @@ type D32 = {p?: number};
                                 "end": 192
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 189,
                             "end": 192
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 185,
                         "end": 192
                     }
@@ -586,6 +628,12 @@ type D32 = {p?: number};
                 "end": 203
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 203,
+                "end": 205
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -615,7 +663,7 @@ type D32 = {p?: number};
                             "start": 210,
                             "end": 217
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 207,
                         "end": 217
                     }
@@ -647,6 +695,12 @@ type D32 = {p?: number};
                 "end": 228
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 228,
+                "end": 230
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -667,7 +721,7 @@ type D32 = {p?: number};
                             "start": 241,
                             "end": 248
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 232,
                         "end": 249
                     },
@@ -707,11 +761,11 @@ type D32 = {p?: number};
                                     "end": 269
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 260,
                             "end": 269
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 249,
                         "end": 269
                     }
@@ -743,6 +797,12 @@ type D32 = {p?: number};
                 "end": 280
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 280,
+                "end": 282
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -763,7 +823,7 @@ type D32 = {p?: number};
                             "start": 293,
                             "end": 300
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 284,
                         "end": 301
                     },
@@ -803,11 +863,11 @@ type D32 = {p?: number};
                                     "end": 321
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 312,
                             "end": 321
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 301,
                         "end": 321
                     }
@@ -839,6 +899,12 @@ type D32 = {p?: number};
                 "end": 332
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 332,
+                "end": 334
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -868,7 +934,7 @@ type D32 = {p?: number};
                             "start": 339,
                             "end": 346
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 336,
                         "end": 346
                     }

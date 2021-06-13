@@ -96,7 +96,7 @@ class Foo {set fooProp(value:number){}}
                                                     "start": 29,
                                                     "end": 35
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 28,
                                                 "end": 35
                                             },

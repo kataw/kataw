@@ -41,6 +41,12 @@
                 "end": 7
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 7,
+                "end": 9
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -54,11 +60,11 @@
                         "end": 13
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 12,
                     "end": 13
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 9,
                 "end": 14
             },

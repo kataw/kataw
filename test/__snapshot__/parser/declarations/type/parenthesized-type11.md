@@ -41,6 +41,12 @@ type X = (?x.y<z>[]);
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -73,7 +79,7 @@ type X = (?x.y<z>[]);
                                     "start": 13,
                                     "end": 14
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 14
                             },
@@ -93,11 +99,11 @@ type X = (?x.y<z>[]);
                                                 "end": 16
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 15,
                                             "end": 16
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 16
                                     }
@@ -106,19 +112,19 @@ type X = (?x.y<z>[]);
                                 "start": 14,
                                 "end": 17
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 17
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 18,
                         "end": 19
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 10,
                     "end": 19
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 20
             },

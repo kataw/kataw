@@ -56,7 +56,7 @@ var a : { (): number }
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
@@ -70,7 +70,7 @@ var a : { (): number }
                                             "start": 13,
                                             "end": 20
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 9,
                                         "end": 20
                                     }
@@ -80,7 +80,7 @@ var a : { (): number }
                                 "start": 7,
                                 "end": 22
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 22
                         },

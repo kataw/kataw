@@ -59,7 +59,7 @@ declare var string: any;
                                 "start": 19,
                                 "end": 23
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 18,
                             "end": 23
                         },

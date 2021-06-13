@@ -56,7 +56,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -81,11 +81,11 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                                             "end": 17
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 12,
                                                         "end": 17
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 10,
                                                     "end": 17
                                                 }
@@ -102,7 +102,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                             "start": 19,
                                             "end": 24
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 24
                                     }
@@ -112,7 +112,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                 "start": 6,
                                 "end": 26
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 26
                         },

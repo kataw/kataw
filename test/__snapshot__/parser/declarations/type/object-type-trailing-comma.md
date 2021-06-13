@@ -41,6 +41,12 @@ type a = {x: number, };
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -65,7 +71,7 @@ type a = {x: number, };
                             "start": 12,
                             "end": 19
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 20
                     }

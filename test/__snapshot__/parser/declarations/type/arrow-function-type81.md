@@ -41,6 +41,12 @@ type a = (([-1] | x | q & (x)) => T) => T
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -78,13 +84,13 @@ type a = (([-1] | x | q & (x)) => T) => T
                                                             "end": 13
                                                         },
                                                         "value": 1,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 12,
                                                         "end": 14
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 11,
                                                 "end": 15
                                             },
@@ -99,7 +105,7 @@ type a = (([-1] | x | q & (x)) => T) => T
                                                     "end": 19
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 17,
                                                 "end": 19
                                             },
@@ -117,7 +123,7 @@ type a = (([-1] | x | q & (x)) => T) => T
                                                             "end": 23
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 21,
                                                         "end": 23
                                                     },
@@ -134,21 +140,21 @@ type a = (([-1] | x | q & (x)) => T) => T
                                                                 "end": 28
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 25,
                                                             "end": 28
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 25,
                                                         "end": 29
                                                     }
                                                 ],
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 23,
                                                 "end": 29
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 29
                                     }
@@ -169,12 +175,12 @@ type a = (([-1] | x | q & (x)) => T) => T
                                     "end": 35
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 35
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 35
                         }
@@ -195,12 +201,12 @@ type a = (([-1] | x | q & (x)) => T) => T
                         "end": 41
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 39,
                     "end": 41
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 41
             },

@@ -65,7 +65,7 @@ class A9<S = number, T: ?string = string> {}
                             "start": 12,
                             "end": 19
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 9,
                         "end": 19
                     }
@@ -139,11 +139,11 @@ class A9<S = number, T: ?string = string> {}
                                     "start": 37,
                                     "end": 43
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 35,
                                 "end": 43
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 34,
                             "end": 43
                         },
@@ -153,7 +153,7 @@ class A9<S = number, T: ?string = string> {}
                             "start": 45,
                             "end": 52
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 33,
                         "end": 52
                     }
@@ -213,7 +213,7 @@ class A9<S = number, T: ?string = string> {}
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 66,
                         "end": 67
                     },
@@ -243,11 +243,11 @@ class A9<S = number, T: ?string = string> {}
                                     "start": 73,
                                     "end": 79
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 71,
                                 "end": 79
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 70,
                             "end": 79
                         },
@@ -257,7 +257,7 @@ class A9<S = number, T: ?string = string> {}
                             "start": 81,
                             "end": 88
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 68,
                         "end": 88
                     }
@@ -322,7 +322,7 @@ class A9<S = number, T: ?string = string> {}
                             "start": 105,
                             "end": 112
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 102,
                         "end": 112
                     },
@@ -352,11 +352,11 @@ class A9<S = number, T: ?string = string> {}
                                     "start": 118,
                                     "end": 124
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 116,
                                 "end": 124
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 115,
                             "end": 124
                         },
@@ -366,7 +366,7 @@ class A9<S = number, T: ?string = string> {}
                             "start": 126,
                             "end": 133
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 113,
                         "end": 133
                     }
@@ -434,7 +434,7 @@ class A9<S = number, T: ?string = string> {}
                                     "start": 152,
                                     "end": 159
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 149,
                                 "end": 159
                             }

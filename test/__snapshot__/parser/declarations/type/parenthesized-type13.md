@@ -41,16 +41,22 @@ type X = ("string");
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
                     "kind": 134217967,
                     "value": "string",
-                    "flags": 0,
+                    "flags": 96,
                     "start": 10,
                     "end": 18
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 19
             },

@@ -66,11 +66,11 @@ const d: string | null = c?.c;
                                         "end": 19
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 12,
                                 "end": 19
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 7,
                             "end": 19
                         },
@@ -135,11 +135,11 @@ const d: string | null = c?.c;
                                         "end": 50
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 43,
                                 "end": 50
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 35,
                             "end": 50
                         },
@@ -235,11 +235,11 @@ const d: string | null = c?.c;
                                     "start": 69,
                                     "end": 72
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 67,
                                 "end": 72
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 66,
                             "end": 72
                         },
@@ -304,11 +304,11 @@ const d: string | null = c?.c;
                                         "end": 103
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 96,
                                 "end": 103
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 88,
                             "end": 103
                         },

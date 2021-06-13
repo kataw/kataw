@@ -41,6 +41,12 @@ type a = ((q, x?:string )=> T) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -80,13 +86,13 @@ type a = ((q, x?:string )=> T) => T;
                                                         "end": 12
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 8,
                                                     "end": 12
                                                 },
                                                 "optionalToken": null,
                                                 "types": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 8,
                                                 "end": 12
                                             },
@@ -113,7 +119,7 @@ type a = ((q, x?:string )=> T) => T;
                                                     "start": 17,
                                                     "end": 23
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 13,
                                                 "end": 23
                                             }
@@ -140,12 +146,12 @@ type a = ((q, x?:string )=> T) => T;
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 27,
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 29
                         }
@@ -166,12 +172,12 @@ type a = ((q, x?:string )=> T) => T;
                         "end": 35
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 33,
                     "end": 35
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 35
             },

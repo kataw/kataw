@@ -41,6 +41,12 @@ type A = (...Array<string>) => void
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -50,7 +56,7 @@ type A = (...Array<string>) => void
                     "end": 30
                 },
                 "parameters": {
-                    "kind": 208,
+                    "kind": 282,
                     "parameters": [
                         {
                             "kind": 149,
@@ -83,7 +89,7 @@ type A = (...Array<string>) => void
                                                 "start": 19,
                                                 "end": 25
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 19,
                                             "end": 25
                                         }
@@ -92,11 +98,11 @@ type A = (...Array<string>) => void
                                     "start": 18,
                                     "end": 26
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 26
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 10,
                             "end": 26
                         }
@@ -113,7 +119,7 @@ type A = (...Array<string>) => void
                     "end": 35
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 35
             },

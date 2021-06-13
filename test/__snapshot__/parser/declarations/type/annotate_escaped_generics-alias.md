@@ -41,11 +41,17 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                 "end": 7
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 7,
+                "end": 9
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": null,
                 "parameters": {
-                    "kind": 208,
+                    "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
@@ -107,11 +113,11 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                                         "end": 34
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 28,
                                                     "end": 34
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 28,
                                                 "end": 34
                                             }
@@ -120,12 +126,12 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                         "start": 27,
                                         "end": 35
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 35
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 35
                             }
@@ -146,12 +152,12 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                             "end": 46
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 39,
                         "end": 46
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 18,
                     "end": 46
                 },
@@ -170,7 +176,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                             },
                             "type": null,
                             "defaultType": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 17
                         }
@@ -179,7 +185,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                     "start": 9,
                     "end": 18
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 9,
                 "end": 46
             },

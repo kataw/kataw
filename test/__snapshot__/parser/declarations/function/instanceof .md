@@ -72,11 +72,11 @@ function foo(value: AOrString) {
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 29
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 18,
                             "end": 29
                         },

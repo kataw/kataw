@@ -76,7 +76,7 @@ var a : typeof A.B<T>
                                             "start": 17,
                                             "end": 18
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 14,
                                         "end": 18
                                     },
@@ -96,11 +96,11 @@ var a : typeof A.B<T>
                                                         "end": 20
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 19,
                                                     "end": 20
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 19,
                                                 "end": 20
                                             }
@@ -109,15 +109,15 @@ var a : typeof A.B<T>
                                         "start": 18,
                                         "end": 21
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 21
                                 },
-                                "flags": 0,
+                                "flags": 96,
                                 "start": 7,
                                 "end": 21
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 21
                         },

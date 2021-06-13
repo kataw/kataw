@@ -59,7 +59,7 @@ class Foo7<T> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 11,
                         "end": 12
                     }
@@ -108,7 +108,7 @@ class Foo7<T> {
                                             },
                                             "type": null,
                                             "defaultType": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 22,
                                             "end": 23
                                         }
@@ -133,7 +133,7 @@ class Foo7<T> {
                                         "start": 27,
                                         "end": 33
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 26,
                                     "end": 33
                                 },

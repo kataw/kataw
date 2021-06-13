@@ -41,6 +41,12 @@ type o = { m(|int|bool): void }
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -62,7 +68,7 @@ type o = { m(|int|bool): void }
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [
                                     {
                                         "kind": 149,
@@ -83,7 +89,7 @@ type o = { m(|int|bool): void }
                                                         "end": 17
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 14,
                                                     "end": 17
                                                 },
@@ -98,16 +104,16 @@ type o = { m(|int|bool): void }
                                                         "end": 22
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 18,
                                                     "end": 22
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 17,
                                             "end": 22
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 22
                                     }
@@ -124,11 +130,11 @@ type o = { m(|int|bool): void }
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 29
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 29
                     }

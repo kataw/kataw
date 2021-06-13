@@ -42,6 +42,12 @@ type a = ((bj[c])[d]);
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -68,7 +74,7 @@ type a = ((bj[c])[d]);
                                         "end": 13
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 8,
                                     "end": 13
                                 },
@@ -83,7 +89,7 @@ type a = ((bj[c])[d]);
                                         "end": 15
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -108,16 +114,16 @@ type a = ((bj[c])[d]);
                             "end": 22
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 20,
                         "end": 22
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 22
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 23
             },
@@ -143,6 +149,12 @@ type a = ((bj[c])[d]);
                 "end": 32
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 32,
+                "end": 34
+            },
             "type": {
                 "kind": 268,
                 "objectType": {
@@ -160,7 +172,7 @@ type a = ((bj[c])[d]);
                                 "end": 39
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 34,
                             "end": 39
                         },
@@ -175,7 +187,7 @@ type a = ((bj[c])[d]);
                                 "end": 41
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 40,
                             "end": 41
                         },
@@ -183,7 +195,7 @@ type a = ((bj[c])[d]);
                         "start": 40,
                         "end": 43
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 34,
                     "end": 43
                 },
@@ -198,7 +210,7 @@ type a = ((bj[c])[d]);
                         "end": 45
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 44,
                     "end": 45
                 },

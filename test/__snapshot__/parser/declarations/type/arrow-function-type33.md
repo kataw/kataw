@@ -41,6 +41,12 @@ type a = (a[a & b][c | d][][][][]) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -72,7 +78,7 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                 "end": 11
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 8,
                                             "end": 11
                                         },
@@ -90,7 +96,7 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                         "end": 13
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 12,
                                                     "end": 13
                                                 },
@@ -105,12 +111,12 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                         "end": 17
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 15,
                                                     "end": 17
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 13,
                                             "end": 17
                                         },
@@ -132,7 +138,7 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                     "end": 20
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 19,
                                                 "end": 20
                                             },
@@ -147,12 +153,12 @@ type a = (a[a & b][c | d][][][][]) => T;
                                                     "end": 24
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 22,
                                                 "end": 24
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 24
                                     },
@@ -160,19 +166,19 @@ type a = (a[a & b][c | d][][][][]) => T;
                                     "start": 19,
                                     "end": 26
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 27
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 28,
                             "end": 29
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 30,
                         "end": 31
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 32,
                     "end": 33
                 },
@@ -187,12 +193,12 @@ type a = (a[a & b][c | d][][][][]) => T;
                         "end": 39
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 37,
                     "end": 39
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 39
             },

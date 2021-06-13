@@ -56,7 +56,7 @@ var y : {} = function (x: number): string { return "hi"; };
                                 "start": 7,
                                 "end": 10
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 10
                         },
@@ -94,7 +94,7 @@ var y : {} = function (x: number): string { return "hi"; };
                                                 "start": 25,
                                                 "end": 32
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 24,
                                             "end": 32
                                         },
@@ -153,7 +153,7 @@ var y : {} = function (x: number): string { return "hi"; };
                                     "start": 34,
                                     "end": 41
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 41
                             },

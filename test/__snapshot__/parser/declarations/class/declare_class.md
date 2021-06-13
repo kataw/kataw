@@ -87,7 +87,7 @@ declare class D extends C { }
                                 "start": 31,
                                 "end": 38
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 39
                         },
@@ -114,7 +114,7 @@ declare class D extends C { }
                             "value": {
                                 "kind": 148,
                                 "parameters": {
-                                    "kind": 208,
+                                    "kind": 282,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -134,7 +134,7 @@ declare class D extends C { }
                                                 "start": 57,
                                                 "end": 64
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 55,
                                             "end": 64
                                         }
@@ -151,11 +151,11 @@ declare class D extends C { }
                                     "end": 71
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 54,
                                 "end": 71
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 39,
                             "end": 72
                         },
@@ -177,7 +177,7 @@ declare class D extends C { }
                             "value": {
                                 "kind": 148,
                                 "parameters": {
-                                    "kind": 208,
+                                    "kind": 282,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -197,7 +197,7 @@ declare class D extends C { }
                                                 "start": 92,
                                                 "end": 99
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 90,
                                             "end": 99
                                         }
@@ -214,11 +214,11 @@ declare class D extends C { }
                                     "end": 106
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 89,
                                 "end": 106
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 72,
                             "end": 107
                         }

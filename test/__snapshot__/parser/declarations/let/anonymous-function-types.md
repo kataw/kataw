@@ -95,11 +95,11 @@ let x = (): Array<(string) => number> => []
                                                         "end": 36
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 18,
                                                     "end": 36
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 18,
                                                 "end": 36
                                             }
@@ -108,11 +108,11 @@ let x = (): Array<(string) => number> => []
                                         "start": 17,
                                         "end": 37
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 11,
                                     "end": 37
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 37
                             },

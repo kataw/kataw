@@ -55,6 +55,12 @@ type T9 = { [param: string]: U };
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [],
@@ -85,6 +91,12 @@ type T9 = { [param: string]: U };
                 "end": 19
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 19,
+                "end": 21
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [],
@@ -115,6 +127,12 @@ type T9 = { [param: string]: U };
                 "end": 33
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 33,
+                "end": 35
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -138,12 +156,12 @@ type T9 = { [param: string]: U };
                                 "end": 42
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 41,
                             "end": 42
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 37,
                         "end": 42
                     }
@@ -175,6 +193,12 @@ type T9 = { [param: string]: U };
                 "end": 54
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 54,
+                "end": 56
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -198,12 +222,12 @@ type T9 = { [param: string]: U };
                                 "end": 63
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 62,
                             "end": 63
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 58,
                         "end": 63
                     },
@@ -227,12 +251,12 @@ type T9 = { [param: string]: U };
                                 "end": 69
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 68,
                             "end": 69
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 64,
                         "end": 69
                     }
@@ -264,6 +288,12 @@ type T9 = { [param: string]: U };
                 "end": 80
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 80,
+                "end": 82
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -293,11 +323,11 @@ type T9 = { [param: string]: U };
                                 "end": 89
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 87,
                             "end": 89
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 84,
                         "end": 90
                     },
@@ -321,12 +351,12 @@ type T9 = { [param: string]: U };
                                 "end": 95
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 94,
                             "end": 95
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 90,
                         "end": 95
                     }
@@ -358,6 +388,12 @@ type T9 = { [param: string]: U };
                 "end": 106
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 106,
+                "end": 108
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -381,12 +417,12 @@ type T9 = { [param: string]: U };
                                 "end": 115
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 114,
                             "end": 115
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 110,
                         "end": 115
                     },
@@ -416,11 +452,11 @@ type T9 = { [param: string]: U };
                                 "end": 121
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 119,
                             "end": 121
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 116,
                         "end": 122
                     }
@@ -452,6 +488,12 @@ type T9 = { [param: string]: U };
                 "end": 133
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 133,
+                "end": 135
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -504,11 +546,11 @@ type T9 = { [param: string]: U };
                                                     "end": 150
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 148,
                                                 "end": 150
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 145,
                                             "end": 151
                                         }
@@ -519,12 +561,12 @@ type T9 = { [param: string]: U };
                                     "end": 153
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 143,
                             "end": 153
                         },
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 137,
                         "end": 153
                     }
@@ -556,6 +598,12 @@ type T9 = { [param: string]: U };
                 "end": 163
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 163,
+                "end": 165
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -577,7 +625,7 @@ type T9 = { [param: string]: U };
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
@@ -591,11 +639,11 @@ type T9 = { [param: string]: U };
                                 "end": 181
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 171,
                             "end": 181
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 167,
                         "end": 181
                     }
@@ -627,6 +675,12 @@ type T9 = { [param: string]: U };
                 "end": 191
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 191,
+                "end": 193
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -654,7 +708,7 @@ type T9 = { [param: string]: U };
                                 "end": 206
                             },
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
@@ -668,11 +722,11 @@ type T9 = { [param: string]: U };
                                 "end": 213
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 200,
                             "end": 213
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 195,
                         "end": 213
                     }
@@ -704,6 +758,12 @@ type T9 = { [param: string]: U };
                 "end": 223
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 223,
+                "end": 225
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -729,11 +789,11 @@ type T9 = { [param: string]: U };
                                 "end": 239
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 237,
                             "end": 239
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 227,
                         "end": 239
                     }
@@ -765,6 +825,12 @@ type T9 = { [param: string]: U };
                 "end": 250
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 250,
+                "end": 252
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -797,11 +863,11 @@ type T9 = { [param: string]: U };
                                 "end": 273
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 271,
                             "end": 273
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 254,
                         "end": 273
                     }

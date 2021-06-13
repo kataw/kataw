@@ -508,7 +508,7 @@ var y: Array<string> = ['3', ...x];
                                                 "start": 114,
                                                 "end": 120
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 114,
                                             "end": 120
                                         }
@@ -517,11 +517,11 @@ var y: Array<string> = ['3', ...x];
                                     "start": 113,
                                     "end": 121
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 107,
                                 "end": 121
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 106,
                             "end": 121
                         },
@@ -615,7 +615,7 @@ var y: Array<string> = ['3', ...x];
                                                 "start": 149,
                                                 "end": 155
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 149,
                                             "end": 155
                                         }
@@ -624,11 +624,11 @@ var y: Array<string> = ['3', ...x];
                                     "start": 148,
                                     "end": 156
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 142,
                                 "end": 156
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 141,
                             "end": 156
                         },

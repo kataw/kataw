@@ -56,7 +56,7 @@ class Foo<T> extends mixin(Bar) { }
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 11
                     }

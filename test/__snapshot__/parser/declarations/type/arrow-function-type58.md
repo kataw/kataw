@@ -73,13 +73,13 @@ let a: ([-1] | x | q & (x)) => T;
                                                                 "end": 10
                                                             },
                                                             "value": 1,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 9,
                                                             "end": 11
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 8,
                                                     "end": 12
                                                 },
@@ -94,7 +94,7 @@ let a: ([-1] | x | q & (x)) => T;
                                                         "end": 16
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 14,
                                                     "end": 16
                                                 },
@@ -112,7 +112,7 @@ let a: ([-1] | x | q & (x)) => T;
                                                                 "end": 20
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 18,
                                                             "end": 20
                                                         },
@@ -129,21 +129,21 @@ let a: ([-1] | x | q & (x)) => T;
                                                                     "end": 25
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 22,
                                                                 "end": 25
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 22,
                                                             "end": 26
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 20,
                                                     "end": 26
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 12,
                                             "end": 26
                                         }
@@ -164,16 +164,16 @@ let a: ([-1] | x | q & (x)) => T;
                                         "end": 32
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 30,
                                     "end": 32
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 6,
                                 "end": 32
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 32
                         },

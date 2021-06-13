@@ -41,6 +41,12 @@ type D = (Obj['bar'])['baz'];
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 268,
                 "objectType": {
@@ -58,14 +64,14 @@ type D = (Obj['bar'])['baz'];
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 13
                         },
                         "indexType": {
                             "kind": 134217967,
                             "value": "bar",
-                            "flags": 0,
+                            "flags": 96,
                             "start": 14,
                             "end": 19
                         },
@@ -73,14 +79,14 @@ type D = (Obj['bar'])['baz'];
                         "start": 14,
                         "end": 21
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 21
                 },
                 "indexType": {
                     "kind": 134217967,
                     "value": "baz",
-                    "flags": 0,
+                    "flags": 96,
                     "start": 22,
                     "end": 27
                 },

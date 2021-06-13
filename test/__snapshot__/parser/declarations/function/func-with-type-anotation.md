@@ -93,11 +93,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                     "end": 31
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 27,
                                                 "end": 31
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 22,
                                             "end": 31
                                         },
@@ -139,7 +139,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                                 "start": 46,
                                                                 "end": 52
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 46,
                                                             "end": 52
                                                         }
@@ -148,11 +148,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                     "start": 45,
                                                     "end": 53
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 40,
                                                 "end": 53
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 32,
                                             "end": 53
                                         }
@@ -169,11 +169,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 64
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 64
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 21,
                             "end": 64
                         },

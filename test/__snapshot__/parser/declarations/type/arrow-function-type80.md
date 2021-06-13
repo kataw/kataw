@@ -41,6 +41,12 @@ type a = ({x:y} | { [[x]]:string}) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -84,11 +90,11 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                                     "end": 14
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 13,
                                                 "end": 14
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 11,
                                             "end": 14
                                         }
@@ -120,7 +126,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                             },
                                             "optionalToken": null,
                                             "staticToken": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 19,
                                             "end": 32
                                         }
@@ -131,7 +137,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                     "end": 33
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 33
                         }
@@ -152,12 +158,12 @@ type a = ({x:y} | { [[x]]:string}) => T;
                         "end": 39
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 37,
                     "end": 39
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 39
             },

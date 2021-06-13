@@ -42,6 +42,12 @@ type T1 = number;
                 "end": 7
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 7,
+                "end": 9
+            },
             "type": {
                 "kind": 134234347,
                 "flags": 64,
@@ -70,6 +76,12 @@ type T1 = number;
                 "end": 25
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 25,
+                "end": 27
+            },
             "type": {
                 "kind": 134234345,
                 "flags": 64,

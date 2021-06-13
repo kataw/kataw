@@ -55,7 +55,7 @@ type foo<number> = string;
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 9,
                         "end": 15
                     }
@@ -63,6 +63,12 @@ type foo<number> = string;
                 "flags": 0,
                 "start": 8,
                 "end": 16
+            },
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 16,
+                "end": 18
             },
             "type": {
                 "kind": 134234347,

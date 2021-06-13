@@ -73,13 +73,13 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                     "end": 18
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 9,
                                                 "end": 18
                                             },
                                             "optionalToken": null,
                                             "types": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 9,
                                             "end": 18
                                         },
@@ -107,15 +107,15 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                         "end": 27
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 21,
                                                     "end": 27
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 19,
                                                 "end": 27
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 19,
                                             "end": 27
                                         }
@@ -132,11 +132,11 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "end": 37
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 37
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 37
                         },
@@ -243,13 +243,13 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                     "end": 77
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 68,
                                                 "end": 77
                                             },
                                             "optionalToken": null,
                                             "types": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 68,
                                             "end": 77
                                         },
@@ -277,15 +277,15 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                         "end": 86
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 80,
                                                     "end": 86
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 78,
                                                 "end": 86
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 78,
                                             "end": 86
                                         }
@@ -302,11 +302,11 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "end": 97
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 68,
                                 "end": 97
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 67,
                             "end": 97
                         },

@@ -41,6 +41,12 @@ type a = (|1,symbol['string']) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -57,14 +63,14 @@ type a = (|1,symbol['string']) => T;
                             "ellipsisToken": null,
                             "name": {
                                 "kind": 134217968,
-                                "value": 1,
-                                "flags": 0,
+                                "text": 1,
+                                "flags": 96,
                                 "start": 11,
                                 "end": 12
                             },
                             "optionalToken": null,
                             "types": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 12
                         },
@@ -84,7 +90,7 @@ type a = (|1,symbol['string']) => T;
                                 "indexType": {
                                     "kind": 134217967,
                                     "value": "string",
-                                    "flags": 0,
+                                    "flags": 96,
                                     "start": 20,
                                     "end": 28
                                 },
@@ -92,7 +98,7 @@ type a = (|1,symbol['string']) => T;
                                 "start": 20,
                                 "end": 30
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 13,
                             "end": 29
                         }
@@ -113,12 +119,12 @@ type a = (|1,symbol['string']) => T;
                         "end": 35
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 33,
                     "end": 35
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 35
             },

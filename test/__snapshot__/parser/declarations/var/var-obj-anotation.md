@@ -87,7 +87,7 @@ var {x}: {x: string; } = { x: "hello" };
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 20
                                     }
@@ -97,7 +97,7 @@ var {x}: {x: string; } = { x: "hello" };
                                 "start": 8,
                                 "end": 22
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 7,
                             "end": 22
                         },

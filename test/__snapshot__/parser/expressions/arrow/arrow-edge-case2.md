@@ -74,11 +74,11 @@ a ? (b) : c => d : e;
                                 "end": 11
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 9,
                             "end": 11
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 7,
                         "end": 11
                     },

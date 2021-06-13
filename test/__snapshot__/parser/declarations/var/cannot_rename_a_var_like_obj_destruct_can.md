@@ -78,11 +78,11 @@ var [foo:bar] = obj;
                                                     "end": 12
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 9,
                                                 "end": 12
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 8,
                                             "end": 12
                                         },

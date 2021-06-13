@@ -56,7 +56,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -76,7 +76,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                                         "start": 12,
                                                         "end": 19
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 10,
                                                     "end": 19
                                                 }
@@ -93,7 +93,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                             "start": 21,
                                             "end": 28
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 28
                                     }
@@ -103,7 +103,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                 "start": 6,
                                 "end": 30
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 30
                         },

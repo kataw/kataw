@@ -41,6 +41,12 @@ type X = {[(x) =>x]: string, (): string};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -68,7 +74,7 @@ type X = {[(x) =>x]: string, (): string};
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 13
                             },
@@ -83,12 +89,12 @@ type X = {[(x) =>x]: string, (): string};
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 18
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 18
                         },
@@ -98,7 +104,7 @@ type X = {[(x) =>x]: string, (): string};
                             "start": 20,
                             "end": 27
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 28
                     },
@@ -107,7 +113,7 @@ type X = {[(x) =>x]: string, (): string};
                         "protoKeyword": null,
                         "typeParameter": null,
                         "value": {
-                            "kind": 208,
+                            "kind": 282,
                             "parameters": [],
                             "trailingComma": false,
                             "flags": 32,
@@ -121,7 +127,7 @@ type X = {[(x) =>x]: string, (): string};
                             "start": 32,
                             "end": 39
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 28,
                         "end": 39
                     }

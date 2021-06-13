@@ -71,7 +71,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                             "value": {
                                 "kind": 148,
                                 "parameters": {
-                                    "kind": 208,
+                                    "kind": 282,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -96,11 +96,11 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                     "end": 51
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 45,
                                                 "end": 51
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 40,
                                             "end": 51
                                         },
@@ -122,7 +122,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                 "start": 58,
                                                 "end": 64
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 52,
                                             "end": 64
                                         }
@@ -139,11 +139,11 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                     "end": 71
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 71
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 28,
                             "end": 72
                         }

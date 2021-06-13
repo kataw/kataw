@@ -41,6 +41,12 @@ type X = {[bj[c] & a | b]: string};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -68,7 +74,7 @@ type X = {[bj[c] & a | b]: string};
                                                     "end": 13
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 10,
                                                 "end": 13
                                             },
@@ -83,7 +89,7 @@ type X = {[bj[c] & a | b]: string};
                                                     "end": 15
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 14,
                                                 "end": 15
                                             },
@@ -102,12 +108,12 @@ type X = {[bj[c] & a | b]: string};
                                                 "end": 20
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 18,
                                             "end": 20
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -122,12 +128,12 @@ type X = {[bj[c] & a | b]: string};
                                         "end": 24
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 24
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 20,
                             "end": 24
                         },
@@ -137,7 +143,7 @@ type X = {[bj[c] & a | b]: string};
                             "start": 26,
                             "end": 33
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 33
                     }

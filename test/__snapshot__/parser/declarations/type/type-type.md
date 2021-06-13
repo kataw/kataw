@@ -55,7 +55,7 @@ type Foo<T> = Bar<T>
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 9,
                         "end": 10
                     }
@@ -63,6 +63,12 @@ type Foo<T> = Bar<T>
                 "flags": 0,
                 "start": 8,
                 "end": 11
+            },
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 11,
+                "end": 13
             },
             "type": {
                 "kind": 144,
@@ -90,11 +96,11 @@ type Foo<T> = Bar<T>
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 19
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 18,
                             "end": 19
                         }
@@ -103,7 +109,7 @@ type Foo<T> = Bar<T>
                     "start": 17,
                     "end": 20
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 13,
                 "end": 20
             },

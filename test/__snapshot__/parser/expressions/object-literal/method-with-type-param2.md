@@ -82,7 +82,7 @@ a={*id<T>(x: T): T {}}
                                                 },
                                                 "type": null,
                                                 "defaultType": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 7,
                                                 "end": 8
                                             }
@@ -119,11 +119,11 @@ a={*id<T>(x: T): T {}}
                                                             "end": 14
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 12,
                                                         "end": 14
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 11,
                                                     "end": 14
                                                 },
@@ -151,11 +151,11 @@ a={*id<T>(x: T): T {}}
                                                 "end": 18
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 16,
                                             "end": 18
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 18
                                     },

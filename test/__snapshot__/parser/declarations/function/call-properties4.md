@@ -57,7 +57,7 @@ var b: { (): string; (x: number): string } =
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
@@ -71,7 +71,7 @@ var b: { (): string; (x: number): string } =
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 20
                                     },
@@ -80,7 +80,7 @@ var b: { (): string; (x: number): string } =
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -100,7 +100,7 @@ var b: { (): string; (x: number): string } =
                                                         "start": 24,
                                                         "end": 31
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 22,
                                                     "end": 31
                                                 }
@@ -117,7 +117,7 @@ var b: { (): string; (x: number): string } =
                                             "start": 33,
                                             "end": 40
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 20,
                                         "end": 40
                                     }
@@ -127,7 +127,7 @@ var b: { (): string; (x: number): string } =
                                 "start": 6,
                                 "end": 42
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 42
                         },
@@ -170,7 +170,7 @@ var b: { (): string; (x: number): string } =
                                                 "start": 60,
                                                 "end": 67
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 59,
                                             "end": 67
                                         },
@@ -229,7 +229,7 @@ var b: { (): string; (x: number): string } =
                                     "start": 69,
                                     "end": 76
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 68,
                                 "end": 76
                             },

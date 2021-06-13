@@ -69,7 +69,7 @@ var a: { id<T>(x: T): T; }
                                         "value": {
                                             "kind": 148,
                                             "parameters": {
-                                                "kind": 208,
+                                                "kind": 282,
                                                 "parameters": [
                                                     {
                                                         "kind": 149,
@@ -94,11 +94,11 @@ var a: { id<T>(x: T): T; }
                                                                 "end": 19
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 17,
                                                             "end": 19
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 15,
                                                         "end": 19
                                                     }
@@ -119,7 +119,7 @@ var a: { id<T>(x: T): T; }
                                                     "end": 23
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 21,
                                                 "end": 23
                                             },
@@ -138,7 +138,7 @@ var a: { id<T>(x: T): T; }
                                                         },
                                                         "type": null,
                                                         "defaultType": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 12,
                                                         "end": 13
                                                     }
@@ -147,11 +147,11 @@ var a: { id<T>(x: T): T; }
                                                 "start": 11,
                                                 "end": 14
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 11,
                                             "end": 23
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 24
                                     }
@@ -161,7 +161,7 @@ var a: { id<T>(x: T): T; }
                                 "start": 6,
                                 "end": 26
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 26
                         },

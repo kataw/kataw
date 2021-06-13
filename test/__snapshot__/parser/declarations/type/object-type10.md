@@ -41,6 +41,12 @@ type a = {function:y.z[][][]};
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -85,28 +91,28 @@ type a = {function:y.z[][][]};
                                                 "start": 21,
                                                 "end": 22
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 19,
                                             "end": 22
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 19,
                                         "end": 22
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 23,
                                     "end": 24
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 26
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 27,
                             "end": 28
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 28
                     }

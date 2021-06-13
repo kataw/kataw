@@ -141,11 +141,11 @@ async function foo() {
                                                                     "end": 35
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 34,
                                                                 "end": 35
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 34,
                                                             "end": 35
                                                         }
@@ -154,11 +154,11 @@ async function foo() {
                                                     "start": 33,
                                                     "end": 35
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 28,
                                                 "end": 35
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 28,
                                             "end": 35
                                         }
@@ -167,11 +167,11 @@ async function foo() {
                                     "start": 27,
                                     "end": 35
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 35
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 18,
                             "end": 35
                         },

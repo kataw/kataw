@@ -58,7 +58,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                 "start": 8,
                                 "end": 15
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 7,
                             "end": 15
                         },

@@ -56,7 +56,7 @@ var d: { (): string } = (x) => "hi"
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
@@ -70,7 +70,7 @@ var d: { (): string } = (x) => "hi"
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 19
                                     }
@@ -80,7 +80,7 @@ var d: { (): string } = (x) => "hi"
                                 "start": 6,
                                 "end": 21
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 21
                         },

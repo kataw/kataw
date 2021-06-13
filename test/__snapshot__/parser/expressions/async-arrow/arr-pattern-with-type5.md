@@ -58,7 +58,7 @@ async ([x?: string, y: number]) =>  {};
                                         "start": 22,
                                         "end": 29
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 21,
                                     "end": 29
                                 },
@@ -92,7 +92,7 @@ async ([x?: string, y: number]) =>  {};
                                         "start": 11,
                                         "end": 18
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 10,
                                     "end": 18
                                 },

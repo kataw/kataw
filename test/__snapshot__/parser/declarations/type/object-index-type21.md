@@ -41,6 +41,12 @@ type x = { [y]: z[q] | null };
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -60,7 +66,7 @@ type x = { [y]: z[q] | null };
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 10,
                             "end": 13
                         },
@@ -80,7 +86,7 @@ type x = { [y]: z[q] | null };
                                             "end": 17
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -95,7 +101,7 @@ type x = { [y]: z[q] | null };
                                             "end": 19
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 19
                                     },
@@ -110,11 +116,11 @@ type x = { [y]: z[q] | null };
                                     "end": 27
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 20,
                             "end": 27
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 27
                     }

@@ -39,6 +39,12 @@ type X = (([1]))
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -46,18 +52,18 @@ type X = (([1]))
                     "elementTypes": [
                         {
                             "kind": 134217968,
-                            "value": 1,
-                            "flags": 0,
+                            "text": 1,
+                            "flags": 96,
                             "start": 12,
                             "end": 13
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 11,
                     "end": 14
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 16
             },

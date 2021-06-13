@@ -70,7 +70,7 @@ var a : A.B.C
                                             "start": 10,
                                             "end": 11
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 7,
                                         "end": 11
                                     },
@@ -82,16 +82,16 @@ var a : A.B.C
                                         "start": 12,
                                         "end": 13
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 7,
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 13
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 13
                         },

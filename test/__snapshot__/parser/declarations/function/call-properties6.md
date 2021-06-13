@@ -69,7 +69,7 @@ function d(x: { (z: number): string }): () => string {
                                         "protoKeyword": null,
                                         "typeParameter": null,
                                         "value": {
-                                            "kind": 208,
+                                            "kind": 282,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -89,7 +89,7 @@ function d(x: { (z: number): string }): () => string {
                                                         "start": 19,
                                                         "end": 26
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 17,
                                                     "end": 26
                                                 }
@@ -106,7 +106,7 @@ function d(x: { (z: number): string }): () => string {
                                             "start": 28,
                                             "end": 35
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 35
                                     }
@@ -116,7 +116,7 @@ function d(x: { (z: number): string }): () => string {
                                 "start": 13,
                                 "end": 37
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 37
                         },
@@ -178,7 +178,7 @@ function d(x: { (z: number): string }): () => string {
                         "end": 45
                     },
                     "parameters": {
-                        "kind": 208,
+                        "kind": 282,
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
@@ -192,11 +192,11 @@ function d(x: { (z: number): string }): () => string {
                         "end": 52
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 39,
                     "end": 52
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 0,
                 "end": 52
             },

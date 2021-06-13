@@ -41,6 +41,12 @@ type T = { [[foo]](): X }
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 134234353,
                 "properties": [
@@ -58,7 +64,7 @@ type T = { [[foo]](): X }
                         "value": {
                             "kind": 148,
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
@@ -76,18 +82,18 @@ type T = { [[foo]](): X }
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 21,
                                 "end": 23
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 10,
                             "end": 23
                         },
                         "optionalToken": null,
                         "staticToken": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 23
                     }

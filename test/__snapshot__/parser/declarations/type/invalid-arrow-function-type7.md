@@ -41,6 +41,12 @@ type a = ({} | {proto [x]:string}) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -86,17 +92,17 @@ type a = ({} | {proto [x]:string}) => T;
                                                     "end": 24
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 23,
                                                 "end": 24
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 21,
                                         "end": 25
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 16,
                                     "end": 25
                                 }
@@ -107,11 +113,11 @@ type a = ({} | {proto [x]:string}) => T;
                             "end": 25
                         }
                     ],
-                    "flags": 0,
+                    "flags": 32,
                     "start": 12,
                     "end": 25
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 25
             },

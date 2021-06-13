@@ -79,7 +79,7 @@ class Array { concat(items:number | string) {}; }
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 11,
                         "end": 12
                     }
@@ -139,7 +139,7 @@ class Array { concat(items:number | string) {}; }
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 28,
                         "end": 29
                     }
@@ -182,11 +182,11 @@ class Array { concat(items:number | string) {}; }
                                         "end": 44
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 43,
                                     "end": 44
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 43,
                                 "end": 44
                             }
@@ -247,7 +247,7 @@ class Array { concat(items:number | string) {}; }
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 60,
                         "end": 61
                     }
@@ -390,7 +390,7 @@ class Array { concat(items:number | string) {}; }
                                                     "start": 118,
                                                     "end": 125
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 117,
                                                 "end": 125
                                             },
@@ -514,7 +514,7 @@ class Array { concat(items:number | string) {}; }
                                                     "start": 165,
                                                     "end": 172
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 164,
                                                 "end": 172
                                             },
@@ -537,7 +537,7 @@ class Array { concat(items:number | string) {}; }
                                         "start": 174,
                                         "end": 179
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 173,
                                     "end": 179
                                 },
@@ -642,7 +642,7 @@ class Array { concat(items:number | string) {}; }
                                         "start": 214,
                                         "end": 221
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 213,
                                     "end": 221
                                 },
@@ -740,7 +740,7 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             "type": null,
                                             "defaultType": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 248,
                                             "end": 249
                                         }
@@ -846,7 +846,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 287,
                                     "end": 294
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 286,
                                 "end": 294
                             },
@@ -884,7 +884,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 304,
                                     "end": 311
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 303,
                                 "end": 311
                             },
@@ -960,7 +960,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 338,
                                     "end": 345
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 337,
                                 "end": 345
                             },
@@ -998,7 +998,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 355,
                                     "end": 362
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 354,
                                 "end": 362
                             },
@@ -1104,11 +1104,11 @@ class Array { concat(items:number | string) {}; }
                                                             "end": 408
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 399,
                                                     "end": 408
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 392,
                                                 "end": 408
                                             },

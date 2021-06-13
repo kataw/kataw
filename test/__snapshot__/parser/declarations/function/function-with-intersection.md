@@ -64,24 +64,24 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                 "types": [
                                     {
                                         "kind": 134217968,
-                                        "value": 1,
-                                        "flags": 0,
+                                        "text": 1,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 17
                                     },
                                     {
                                         "kind": 134217968,
-                                        "value": 2,
-                                        "flags": 0,
+                                        "text": 2,
+                                        "flags": 96,
                                         "start": 19,
                                         "end": 21
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 21
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 12,
                             "end": 21
                         },
@@ -109,24 +109,24 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                 "types": [
                                     {
                                         "kind": 134217968,
-                                        "value": 3,
-                                        "flags": 0,
+                                        "text": 3,
+                                        "flags": 96,
                                         "start": 27,
                                         "end": 29
                                     },
                                     {
                                         "kind": 134217968,
-                                        "value": 4,
-                                        "flags": 0,
+                                        "text": 4,
+                                        "flags": 96,
                                         "start": 31,
                                         "end": 33
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 29,
                                 "end": 33
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 24,
                             "end": 33
                         },
@@ -164,7 +164,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                     "start": 35,
                     "end": 42
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 0,
                 "end": 42
             },

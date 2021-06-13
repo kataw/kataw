@@ -41,6 +41,12 @@ type a = (a[][][][][][]) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -72,31 +78,31 @@ type a = (a[][][][][][]) => T;
                                                 "end": 11
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 8,
                                             "end": 11
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 12,
                                         "end": 13
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 14,
                                     "end": 15
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 16,
                                 "end": 17
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 18,
                             "end": 19
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 20,
                         "end": 21
                     },
-                    "flags": 0,
+                    "flags": 32,
                     "start": 22,
                     "end": 23
                 },
@@ -111,12 +117,12 @@ type a = (a[][][][][][]) => T;
                         "end": 29
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 27,
                     "end": 29
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 29
             },

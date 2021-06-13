@@ -41,6 +41,12 @@ type a = (?c & a | b) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -77,11 +83,11 @@ type a = (?c & a | b) => T;
                                                     "end": 12
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 11,
                                                 "end": 12
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -96,12 +102,12 @@ type a = (?c & a | b) => T;
                                                 "end": 16
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 14,
                                             "end": 16
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 16
                                 },
@@ -116,12 +122,12 @@ type a = (?c & a | b) => T;
                                         "end": 20
                                     },
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 18,
                                     "end": 20
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 32,
                             "start": 16,
                             "end": 20
                         }
@@ -142,12 +148,12 @@ type a = (?c & a | b) => T;
                         "end": 26
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 24,
                     "end": 26
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 26
             },

@@ -73,11 +73,11 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 31,
                                 "end": 33
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 30,
                             "end": 33
                         },
@@ -111,11 +111,11 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "end": 39
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 39
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 36,
                             "end": 39
                         },
@@ -149,11 +149,11 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "end": 45
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 43,
                                 "end": 45
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 42,
                             "end": 45
                         },
@@ -342,7 +342,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 11,
                         "end": 12
                     },
@@ -369,16 +369,16 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 16,
                                 "end": 18
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 18
                         },
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 13,
                         "end": 18
                     },
@@ -405,16 +405,16 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 24
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 21,
                             "end": 24
                         },
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 19,
                         "end": 24
                     },
@@ -430,7 +430,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 25,
                         "end": 27
                     }
@@ -452,11 +452,11 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         "end": 49
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 47,
                     "end": 49
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 0,
                 "end": 49
             },

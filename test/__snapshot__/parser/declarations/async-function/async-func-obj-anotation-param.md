@@ -103,7 +103,7 @@ async function foo({x}: { x: string; }) {}
                                             "start": 28,
                                             "end": 35
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 25,
                                         "end": 36
                                     }
@@ -113,7 +113,7 @@ async function foo({x}: { x: string; }) {}
                                 "start": 23,
                                 "end": 38
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 22,
                             "end": 38
                         },

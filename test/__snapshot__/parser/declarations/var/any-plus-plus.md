@@ -56,7 +56,7 @@ var z = x + x;
                                 "start": 6,
                                 "end": 10
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 5,
                             "end": 10
                         },

@@ -83,11 +83,11 @@ type B = Foo<
                                     "start": 12,
                                     "end": 18
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 18
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 9,
                             "end": 18
                         },
@@ -97,7 +97,7 @@ type B = Foo<
                             "start": 20,
                             "end": 27
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 27
                     }
@@ -105,6 +105,12 @@ type B = Foo<
                 "flags": 0,
                 "start": 7,
                 "end": 28
+            },
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 28,
+                "end": 30
             },
             "type": {
                 "kind": 144,
@@ -117,7 +123,7 @@ type B = Foo<
                     "end": 32
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 30,
                 "end": 32
             },
@@ -157,7 +163,7 @@ type B = Foo<
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 43,
                         "end": 44
                     },
@@ -187,11 +193,11 @@ type B = Foo<
                                     "start": 50,
                                     "end": 56
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 48,
                                 "end": 56
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 47,
                             "end": 56
                         },
@@ -201,7 +207,7 @@ type B = Foo<
                             "start": 58,
                             "end": 65
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 45,
                         "end": 65
                     }
@@ -209,6 +215,12 @@ type B = Foo<
                 "flags": 0,
                 "start": 42,
                 "end": 66
+            },
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 66,
+                "end": 68
             },
             "type": {
                 "kind": 144,
@@ -221,7 +233,7 @@ type B = Foo<
                     "end": 70
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 68,
                 "end": 70
             },
@@ -266,7 +278,7 @@ type B = Foo<
                             "start": 84,
                             "end": 91
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 81,
                         "end": 91
                     },
@@ -296,11 +308,11 @@ type B = Foo<
                                     "start": 97,
                                     "end": 103
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 95,
                                 "end": 103
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 94,
                             "end": 103
                         },
@@ -310,7 +322,7 @@ type B = Foo<
                             "start": 105,
                             "end": 112
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 92,
                         "end": 112
                     }
@@ -318,6 +330,12 @@ type B = Foo<
                 "flags": 0,
                 "start": 80,
                 "end": 113
+            },
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 113,
+                "end": 115
             },
             "type": {
                 "kind": 144,
@@ -330,7 +348,7 @@ type B = Foo<
                     "end": 117
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 115,
                 "end": 117
             },
@@ -356,6 +374,12 @@ type B = Foo<
                 "end": 126
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 126,
+                "end": 128
+            },
             "type": {
                 "kind": 144,
                 "id": {
@@ -395,11 +419,11 @@ type B = Foo<
                                                 "value": {
                                                     "kind": 134217967,
                                                     "value": "A",
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 144,
                                                     "end": 148
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 139,
                                                 "end": 148
                                             }
@@ -430,11 +454,11 @@ type B = Foo<
                                                 "value": {
                                                     "kind": 134217967,
                                                     "value": "B",
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 160,
                                                     "end": 164
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 155,
                                                 "end": 164
                                             }
@@ -445,11 +469,11 @@ type B = Foo<
                                         "end": 165
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 149,
                                 "end": 165
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 133,
                             "end": 165
                         }
@@ -458,7 +482,7 @@ type B = Foo<
                     "start": 132,
                     "end": 167
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 128,
                 "end": 167
             },
@@ -484,6 +508,12 @@ type B = Foo<
                 "end": 176
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 176,
+                "end": 178
+            },
             "type": {
                 "kind": 144,
                 "id": {
@@ -523,11 +553,11 @@ type B = Foo<
                                                 "value": {
                                                     "kind": 134217967,
                                                     "value": "A",
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 194,
                                                     "end": 198
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 189,
                                                 "end": 198
                                             }
@@ -558,11 +588,11 @@ type B = Foo<
                                                 "value": {
                                                     "kind": 134217967,
                                                     "value": "B",
-                                                    "flags": 0,
+                                                    "flags": 96,
                                                     "start": 210,
                                                     "end": 214
                                                 },
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 205,
                                                 "end": 214
                                             }
@@ -573,11 +603,11 @@ type B = Foo<
                                         "end": 215
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 199,
                                 "end": 215
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 183,
                             "end": 215
                         }
@@ -586,7 +616,7 @@ type B = Foo<
                     "start": 182,
                     "end": 217
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 178,
                 "end": 217
             },

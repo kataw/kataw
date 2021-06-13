@@ -41,6 +41,12 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -68,7 +74,7 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                                             "end": 13
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 13
                                     },
@@ -88,7 +94,7 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                                                         "end": 19
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 15,
                                                     "end": 19
                                                 },
@@ -119,7 +125,7 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                                                                                 "end": 26
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "flags": 0,
+                                                                            "flags": 32,
                                                                             "start": 23,
                                                                             "end": 26
                                                                         }
@@ -140,40 +146,40 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                                                                         "end": 32
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "flags": 0,
+                                                                    "flags": 32,
                                                                     "start": 30,
                                                                     "end": 32
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 23,
                                                                 "end": 32
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 23,
                                                             "end": 33
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 21,
                                                     "end": 34
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 19,
                                             "end": 34
                                         },
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 36
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 36
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 11,
                             "end": 37
                         }
@@ -194,12 +200,12 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                         "end": 44
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 42,
                     "end": 44
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 44
             },

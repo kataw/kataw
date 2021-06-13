@@ -41,6 +41,12 @@ type a = (a[-1]);
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -56,7 +62,7 @@ type a = (a[-1]);
                             "end": 11
                         },
                         "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 11
                     },
@@ -69,7 +75,7 @@ type a = (a[-1]);
                             "end": 13
                         },
                         "value": 1,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 12,
                         "end": 14
                     },
@@ -77,7 +83,7 @@ type a = (a[-1]);
                     "start": 12,
                     "end": 16
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 16
             },

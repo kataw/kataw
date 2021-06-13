@@ -108,28 +108,28 @@ declare var x3: ?(() => (() => number));
                                                     "end": 37
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 23,
                                                 "end": 37
                                             },
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 23,
                                             "end": 38
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 17,
                                         "end": 38
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 39
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 39
                             },
-                            "flags": 0,
+                            "flags": 32,
                             "start": 14,
                             "end": 39
                         },

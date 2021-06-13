@@ -102,7 +102,7 @@ let one = {
                                                                 "start": 22,
                                                                 "end": 29
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 21,
                                                             "end": 29
                                                         },
@@ -180,7 +180,7 @@ let one = {
                                                                 "start": 46,
                                                                 "end": 53
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 45,
                                                             "end": 53
                                                         },
@@ -266,7 +266,7 @@ let one = {
                                                                 "start": 73,
                                                                 "end": 80
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 72,
                                                             "end": 80
                                                         },
@@ -367,7 +367,7 @@ let one = {
                                                                 "start": 103,
                                                                 "end": 110
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 102,
                                                             "end": 110
                                                         },
@@ -475,7 +475,7 @@ let one = {
                                                         },
                                                         "type": null,
                                                         "defaultType": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 134,
                                                         "end": 135
                                                     }
@@ -512,11 +512,11 @@ let one = {
                                                                     "end": 144
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 142,
                                                                 "end": 144
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 141,
                                                             "end": 144
                                                         },

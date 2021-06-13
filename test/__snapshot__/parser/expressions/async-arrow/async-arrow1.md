@@ -47,7 +47,7 @@ async <T>(fn: () => T) => fn;
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 7,
                         "end": 8
                     }
@@ -80,7 +80,7 @@ async <T>(fn: () => T) => fn;
                                 "end": 19
                             },
                             "parameters": {
-                                "kind": 208,
+                                "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
@@ -98,16 +98,16 @@ async <T>(fn: () => T) => fn;
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 21
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 13,
                             "end": 21
                         },
-                        "flags": 0,
+                        "flags": 32,
                         "start": 12,
                         "end": 21
                     },

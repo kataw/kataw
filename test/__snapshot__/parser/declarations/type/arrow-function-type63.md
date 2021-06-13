@@ -41,6 +41,12 @@ type a = ((((() => T) => T) => T) => T) => T;
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 261,
                 "arrowToken": {
@@ -94,7 +100,7 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                                     "end": 18
                                                                 },
                                                                 "parameters": {
-                                                                    "kind": 208,
+                                                                    "kind": 282,
                                                                     "parameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
@@ -112,12 +118,12 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                                         "end": 20
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "flags": 0,
+                                                                    "flags": 32,
                                                                     "start": 18,
                                                                     "end": 20
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 13,
                                                                 "end": 20
                                                             }
@@ -138,12 +144,12 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                             "end": 26
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 24,
                                                         "end": 26
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 0,
+                                                    "flags": 32,
                                                     "start": 11,
                                                     "end": 26
                                                 }
@@ -164,12 +170,12 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                 "end": 32
                                             },
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 30,
                                             "end": 32
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 11,
                                         "end": 32
                                     }
@@ -190,12 +196,12 @@ type a = ((((() => T) => T) => T) => T) => T;
                                     "end": 38
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 36,
                                 "end": 38
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 38
                         }
@@ -216,12 +222,12 @@ type a = ((((() => T) => T) => T) => T) => T;
                         "end": 44
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 42,
                     "end": 44
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 44
             },

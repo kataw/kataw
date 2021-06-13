@@ -83,7 +83,7 @@ x = (x, {}:string) => {} ;
                                     "start": 11,
                                     "end": 17
                                 },
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 17
                             },

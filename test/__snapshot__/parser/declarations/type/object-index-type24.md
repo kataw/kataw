@@ -41,6 +41,12 @@ type X = (x & {[x]:string});
                 "end": 6
             },
             "typeParameters": null,
+            "assignToken": {
+                "kind": 4125,
+                "flags": 64,
+                "start": 6,
+                "end": 8
+            },
             "type": {
                 "kind": 260,
                 "type": {
@@ -57,7 +63,7 @@ type X = (x & {[x]:string});
                                 "end": 11
                             },
                             "typeParameters": null,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 8,
                             "end": 11
                         },
@@ -80,7 +86,7 @@ type X = (x & {[x]:string});
                                             "end": 17
                                         },
                                         "typeParameters": null,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -90,7 +96,7 @@ type X = (x & {[x]:string});
                                         "start": 19,
                                         "end": 25
                                     },
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 25
                                 }
@@ -101,11 +107,11 @@ type X = (x & {[x]:string});
                             "end": 26
                         }
                     ],
-                    "flags": 0,
+                    "flags": 32,
                     "start": 11,
                     "end": 26
                 },
-                "flags": 0,
+                "flags": 32,
                 "start": 8,
                 "end": 27
             },
