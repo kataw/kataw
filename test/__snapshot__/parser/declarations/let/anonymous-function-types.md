@@ -75,7 +75,7 @@ let x = (): Array<(string) => number> => []
                                             {
                                                 "kind": 267,
                                                 "type": {
-                                                    "kind": 261,
+                                                    "kind": 288,
                                                     "arrowTypeParameterList": {
                                                         "kind": 10,
                                                         "flags": 64,

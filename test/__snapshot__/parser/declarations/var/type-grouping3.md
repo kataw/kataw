@@ -58,7 +58,7 @@ var a: number & (string | bool)
                                         "end": 13
                                     },
                                     {
-                                        "kind": 260,
+                                        "kind": 290,
                                         "type": {
                                             "kind": 137,
                                             "types": [

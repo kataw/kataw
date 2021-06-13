@@ -48,9 +48,9 @@ type a = (((| x, )=> T) => T);
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
@@ -58,21 +58,15 @@ type a = (((| x, )=> T) => T);
                         "end": 26
                     },
                     "arrowToken": {
-                        "kind": 279,
+                        "kind": 292,
                         "parameters": [
                             {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 18,
-                                    "end": 20
-                                },
-                                "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 144,
@@ -100,6 +94,12 @@ type a = (((| x, )=> T) => T);
                                     "flags": 2097152,
                                     "start": 11,
                                     "end": 16
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 18,
+                                    "end": 20
                                 },
                                 "returnType": {
                                     "kind": 144,

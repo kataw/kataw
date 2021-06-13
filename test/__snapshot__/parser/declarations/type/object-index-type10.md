@@ -56,7 +56,7 @@ type X = {[(x) =>x]: string, ({[(x) =>x]: string, (): string}): string};
                         "staticToken": null,
                         "name": null,
                         "key": {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
@@ -130,7 +130,7 @@ type X = {[(x) =>x]: string, ({[(x) =>x]: string, (): string}): string};
                                     "staticToken": null,
                                     "name": null,
                                     "key": {
-                                        "kind": 261,
+                                        "kind": 288,
                                         "arrowTypeParameterList": {
                                             "kind": 10,
                                             "flags": 64,

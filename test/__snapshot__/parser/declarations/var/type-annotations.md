@@ -159,9 +159,9 @@ var {x5}: {x5: string; } = { x5: "hello" };
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
@@ -170,7 +170,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 },
                                 "arrowToken": null,
                                 "returnType": {
-                                    "kind": 261,
+                                    "kind": 288,
                                     "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
@@ -178,7 +178,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 53
                                     },
                                     "arrowToken": {
-                                        "kind": 279,
+                                        "kind": 292,
                                         "parameters": [
                                             {
                                                 "kind": 149,
@@ -309,9 +309,9 @@ var {x5}: {x5: string; } = { x5: "hello" };
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
@@ -320,7 +320,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 },
                                 "arrowToken": null,
                                 "returnType": {
-                                    "kind": 261,
+                                    "kind": 288,
                                     "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
@@ -328,7 +328,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 93
                                     },
                                     "arrowToken": {
-                                        "kind": 279,
+                                        "kind": 292,
                                         "parameters": [
                                             {
                                                 "kind": 149,
@@ -715,9 +715,9 @@ var {x5}: {x5: string; } = { x5: "hello" };
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
@@ -740,9 +740,9 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "end": 178
                                         },
                                         {
-                                            "kind": 261,
+                                            "kind": 288,
                                             "arrowTypeParameterList": {
-                                                "kind": 279,
+                                                "kind": 292,
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 2097152,

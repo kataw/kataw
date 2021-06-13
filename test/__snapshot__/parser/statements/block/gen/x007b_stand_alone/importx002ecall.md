@@ -31,7 +31,7 @@
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 207,
+                            "kind": 299,
                             "importKeyword": {
                                 "kind": 37814364,
                                 "flags": 80,

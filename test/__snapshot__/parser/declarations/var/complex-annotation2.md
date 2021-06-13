@@ -203,7 +203,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                             "type": {
                                 "kind": 136,
                                 "type": {
-                                    "kind": 260,
+                                    "kind": 290,
                                     "type": {
                                         "kind": 147,
                                         "elementTypes": [
@@ -364,7 +364,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                     "end": 202
                                 },
                                 "type": {
-                                    "kind": 260,
+                                    "kind": 290,
                                     "type": {
                                         "kind": 136,
                                         "type": {

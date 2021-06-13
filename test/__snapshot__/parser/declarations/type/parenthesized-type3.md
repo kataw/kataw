@@ -48,7 +48,7 @@ type Foo = (string)
                 "end": 10
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
                     "kind": 134234347,
                     "flags": 64,

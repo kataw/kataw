@@ -48,9 +48,9 @@ type A = (...Array<string>) => void
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
                             "kind": 284,

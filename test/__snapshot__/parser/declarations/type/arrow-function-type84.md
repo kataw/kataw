@@ -48,7 +48,7 @@ type a = (() => T) => T
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -56,10 +56,10 @@ type a = (() => T) => T
                     "end": 21
                 },
                 "arrowToken": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
@@ -67,7 +67,7 @@ type a = (() => T) => T
                                 "end": 15
                             },
                             "arrowToken": {
-                                "kind": 279,
+                                "kind": 292,
                                 "parameters": [
                                     []
                                 ],

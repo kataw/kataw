@@ -177,7 +177,7 @@ var a: typeof A[];
                             "type": {
                                 "kind": 136,
                                 "type": {
-                                    "kind": 260,
+                                    "kind": 290,
                                     "type": {
                                         "kind": 134217970,
                                         "nullableToken": {
@@ -248,9 +248,9 @@ var a: typeof A[];
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,

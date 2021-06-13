@@ -48,9 +48,9 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
                             "kind": 149,
@@ -107,9 +107,9 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                         "end": 29
                                     },
                                     {
-                                        "kind": 261,
+                                        "kind": 288,
                                         "arrowTypeParameterList": {
-                                            "kind": 279,
+                                            "kind": 292,
                                             "parameters": [
                                                 {
                                                     "kind": 149,

@@ -76,9 +76,9 @@ type a = {function((((-1) => [c|d]))):string};
                                 "end": 19
                             },
                             "returnType": {
-                                "kind": 260,
+                                "kind": 290,
                                 "type": {
-                                    "kind": 261,
+                                    "kind": 288,
                                     "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
@@ -86,7 +86,7 @@ type a = {function((((-1) => [c|d]))):string};
                                         "end": 28
                                     },
                                     "arrowToken": {
-                                        "kind": 279,
+                                        "kind": 292,
                                         "parameters": [
                                             {
                                                 "kind": 271,

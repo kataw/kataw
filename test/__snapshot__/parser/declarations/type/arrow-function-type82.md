@@ -48,7 +48,7 @@ type a = (([-1]| q & (x)) => T) => T
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -56,10 +56,10 @@ type a = (([-1]| q & (x)) => T) => T
                     "end": 34
                 },
                 "arrowToken": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
@@ -67,7 +67,7 @@ type a = (([-1]| q & (x)) => T) => T
                                 "end": 28
                             },
                             "arrowToken": {
-                                "kind": 279,
+                                "kind": 292,
                                 "parameters": [
                                     {
                                         "kind": 137,
@@ -113,7 +113,7 @@ type a = (([-1]| q & (x)) => T) => T
                                                         "end": 18
                                                     },
                                                     {
-                                                        "kind": 260,
+                                                        "kind": 290,
                                                         "type": {
                                                             "kind": 144,
                                                             "id": {

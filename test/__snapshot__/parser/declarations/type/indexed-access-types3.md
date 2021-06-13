@@ -50,7 +50,7 @@ type D = (Obj['bar'])['baz'];
             "type": {
                 "kind": 268,
                 "objectType": {
-                    "kind": 260,
+                    "kind": 290,
                     "type": {
                         "kind": 268,
                         "objectType": {

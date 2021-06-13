@@ -48,18 +48,12 @@ type a = (|1,symbol['string']) => T;
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 30,
-                    "end": 33
-                },
-                "arrowToken": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
-                            "kind": 149,
+                            "kind": 284,
                             "ellipsisToken": null,
                             "name": {
                                 "kind": 134217968,
@@ -107,6 +101,12 @@ type a = (|1,symbol['string']) => T;
                     "flags": 2097152,
                     "start": 8,
                     "end": 29
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 30,
+                    "end": 33
                 },
                 "returnType": {
                     "kind": 144,

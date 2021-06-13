@@ -117,9 +117,9 @@ var a: (?number)[];
                             "type": {
                                 "kind": 136,
                                 "type": {
-                                    "kind": 260,
+                                    "kind": 290,
                                     "type": {
-                                        "kind": 261,
+                                        "kind": 288,
                                         "arrowTypeParameterList": {
                                             "kind": 10,
                                             "flags": 64,
@@ -127,7 +127,7 @@ var a: (?number)[];
                                             "end": 31
                                         },
                                         "arrowToken": {
-                                            "kind": 279,
+                                            "kind": 292,
                                             "parameters": [
                                                 []
                                             ],
@@ -199,9 +199,9 @@ var a: (?number)[];
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
@@ -407,7 +407,7 @@ var a: (?number)[];
                             "type": {
                                 "kind": 136,
                                 "type": {
-                                    "kind": 260,
+                                    "kind": 290,
                                     "type": {
                                         "kind": 134217970,
                                         "nullableToken": {

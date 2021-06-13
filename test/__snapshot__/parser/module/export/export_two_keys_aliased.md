@@ -88,10 +88,10 @@ var x,y; export {x as a, y as b}
             "namedExports": {
                 "kind": 266,
                 "exportsList": {
-                    "kind": 261,
+                    "kind": 289,
                     "specifiers": [
                         {
-                            "kind": 260,
+                            "kind": 291,
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
@@ -120,7 +120,7 @@ var x,y; export {x as a, y as b}
                             "end": 23
                         },
                         {
-                            "kind": 260,
+                            "kind": 291,
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,

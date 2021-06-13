@@ -50,7 +50,7 @@ type a = (bj[c])[d];
             "type": {
                 "kind": 268,
                 "objectType": {
-                    "kind": 260,
+                    "kind": 290,
                     "type": {
                         "kind": 268,
                         "objectType": {

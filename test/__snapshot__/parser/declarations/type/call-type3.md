@@ -48,9 +48,9 @@ type Fn1 = <T>(T) => T;
                 "end": 10
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
@@ -59,7 +59,7 @@ type Fn1 = <T>(T) => T;
                 },
                 "arrowToken": null,
                 "returnType": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,

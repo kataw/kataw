@@ -48,7 +48,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -228,7 +228,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                         "end": 43
                     },
                     "indexType": {
-                        "kind": 261,
+                        "kind": 288,
                         "arrowTypeParameterList": {
                             "kind": 10,
                             "flags": 64,

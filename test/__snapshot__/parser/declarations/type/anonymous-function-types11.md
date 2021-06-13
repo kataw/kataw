@@ -70,7 +70,7 @@ var f = (): string | (number) => 123;
                                             "end": 18
                                         },
                                         {
-                                            "kind": 260,
+                                            "kind": 290,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 64,

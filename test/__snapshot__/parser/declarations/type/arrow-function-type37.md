@@ -48,7 +48,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -256,7 +256,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                     "end": 37
                                 },
                                 "indexType": {
-                                    "kind": 261,
+                                    "kind": 288,
                                     "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,

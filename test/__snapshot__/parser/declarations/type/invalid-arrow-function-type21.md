@@ -79,7 +79,7 @@ var f = (x): string | (number) => 123 => 123;
                                             "end": 19
                                         },
                                         {
-                                            "kind": 260,
+                                            "kind": 290,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 64,

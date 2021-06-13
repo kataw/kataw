@@ -48,7 +48,7 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -56,10 +56,10 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                     "end": 68
                 },
                 "arrowToken": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
@@ -67,10 +67,10 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                 "end": 62
                             },
                             "arrowToken": {
-                                "kind": 279,
+                                "kind": 292,
                                 "parameters": [
                                     {
-                                        "kind": 261,
+                                        "kind": 288,
                                         "arrowTypeParameterList": {
                                             "kind": 10,
                                             "flags": 64,
@@ -86,7 +86,7 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                 "end": 18
                                             },
                                             "indexType": {
-                                                "kind": 261,
+                                                "kind": 288,
                                                 "arrowTypeParameterList": {
                                                     "kind": 10,
                                                     "flags": 64,
@@ -94,10 +94,10 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                     "end": 50
                                                 },
                                                 "arrowToken": {
-                                                    "kind": 279,
+                                                    "kind": 292,
                                                     "parameters": [
                                                         {
-                                                            "kind": 261,
+                                                            "kind": 288,
                                                             "arrowTypeParameterList": {
                                                                 "kind": 10,
                                                                 "flags": 64,
@@ -105,7 +105,7 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                                 "end": 44
                                                             },
                                                             "arrowToken": {
-                                                                "kind": 279,
+                                                                "kind": 292,
                                                                 "parameters": [
                                                                     {
                                                                         "kind": 138,
@@ -129,9 +129,9 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                                                 "kind": 147,
                                                                                 "elementTypes": [
                                                                                     {
-                                                                                        "kind": 260,
+                                                                                        "kind": 290,
                                                                                         "type": {
-                                                                                            "kind": 261,
+                                                                                            "kind": 288,
                                                                                             "arrowTypeParameterList": {
                                                                                                 "kind": 10,
                                                                                                 "flags": 64,
@@ -139,7 +139,7 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                                                                 "end": 36
                                                                                             },
                                                                                             "arrowToken": {
-                                                                                                "kind": 279,
+                                                                                                "kind": 292,
                                                                                                 "parameters": [
                                                                                                     {
                                                                                                         "kind": 144,

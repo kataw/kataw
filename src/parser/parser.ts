@@ -3623,7 +3623,12 @@ function parsePostfixUpdateExpression(
       parser.pos
     );
   }
-  return createPostfixUpdateExpression(parseTokenNode(parser, context, NodeFlags.ExpressionNode), expr, start, parser.curPos);
+  return createPostfixUpdateExpression(
+    parseTokenNode(parser, context, NodeFlags.ExpressionNode),
+    expr,
+    start,
+    parser.curPos
+  );
 }
 
 // UpdateExpression :
@@ -7391,11 +7396,7 @@ function parseArrowFunctionType(parser: ParserState, context: Context): ArrowFun
   );
 }
 
-
-function parseArrowTypeParameters(
-  parser: ParserState,
-  context: Context
-): FunctionTypeParameterList {
+function parseArrowTypeParameters(parser: ParserState, context: Context): FunctionTypeParameterList {
   const pos = parser.curPos;
   const arrowTypeParameterList: ArrowTypeParameter[] = [];
   let trailingComma = false;
@@ -7708,7 +7709,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     type = parseArrowFunctionTypeParameters(
       parser,
       context,
-      createFunctionTypeParameters(
+      createArrowTypeParameter(
         /* ellipsisToken */ null,
         type,
         /* optionalToken */ null,
@@ -7719,9 +7720,10 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       pos
     );
     consume(parser, context, SyntaxKind.RightParen);
+
     return createArrowFunctionType(
-      consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
       type,
+      consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
       parseType(parser, context),
       /* typeParameters */ null,
       pos,

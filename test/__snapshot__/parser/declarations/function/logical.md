@@ -1879,7 +1879,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -1887,7 +1887,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "end": 1331
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,

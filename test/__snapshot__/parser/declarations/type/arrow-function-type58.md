@@ -48,7 +48,7 @@ let a: ([-1] | x | q & (x)) => T;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -56,7 +56,7 @@ let a: ([-1] | x | q & (x)) => T;
                                     "end": 30
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 137,
@@ -117,7 +117,7 @@ let a: ([-1] | x | q & (x)) => T;
                                                             "end": 20
                                                         },
                                                         {
-                                                            "kind": 260,
+                                                            "kind": 290,
                                                             "type": {
                                                                 "kind": 144,
                                                                 "id": {

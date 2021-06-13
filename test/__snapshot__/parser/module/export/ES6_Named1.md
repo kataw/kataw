@@ -271,10 +271,10 @@ export const [destructuredArrNumber] = [1]
             "namedExports": {
                 "kind": 266,
                 "exportsList": {
-                    "kind": 261,
+                    "kind": 289,
                     "specifiers": [
                         {
-                            "kind": 260,
+                            "kind": 291,
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
@@ -318,10 +318,10 @@ export const [destructuredArrNumber] = [1]
             "namedExports": {
                 "kind": 266,
                 "exportsList": {
-                    "kind": 261,
+                    "kind": 289,
                     "specifiers": [
                         {
-                            "kind": 260,
+                            "kind": 291,
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
@@ -377,10 +377,10 @@ export const [destructuredArrNumber] = [1]
             "namedExports": {
                 "kind": 266,
                 "exportsList": {
-                    "kind": 261,
+                    "kind": 289,
                     "specifiers": [
                         {
-                            "kind": 260,
+                            "kind": 291,
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
@@ -424,10 +424,10 @@ export const [destructuredArrNumber] = [1]
             "namedExports": {
                 "kind": 266,
                 "exportsList": {
-                    "kind": 261,
+                    "kind": 289,
                     "specifiers": [
                         {
-                            "kind": 260,
+                            "kind": 291,
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
@@ -444,7 +444,7 @@ export const [destructuredArrNumber] = [1]
                             "end": 294
                         },
                         {
-                            "kind": 260,
+                            "kind": 291,
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,

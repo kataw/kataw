@@ -48,9 +48,9 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
-                    "kind": 260,
+                    "kind": 290,
                     "type": {
                         "kind": 137,
                         "types": [
@@ -70,7 +70,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                                 "end": 13
                             },
                             {
-                                "kind": 260,
+                                "kind": 290,
                                 "type": {
                                     "kind": 138,
                                     "types": [
@@ -93,7 +93,7 @@ type a = (((x | ((y & [(x => T)]) => T) => T) => T) => T) => T;
                                             "kind": 147,
                                             "elementTypes": [
                                                 {
-                                                    "kind": 261,
+                                                    "kind": 288,
                                                     "arrowTypeParameterList": {
                                                         "kind": 10,
                                                         "flags": 64,

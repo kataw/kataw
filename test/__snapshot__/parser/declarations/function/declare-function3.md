@@ -73,9 +73,9 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -272,9 +272,9 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
-                        "kind": 279,
+                        "kind": 292,
                         "parameters": [
                             {
                                 "kind": 149,

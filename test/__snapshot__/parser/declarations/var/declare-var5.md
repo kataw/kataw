@@ -62,9 +62,9 @@ declare var x3: ?(() => (() => number));
                                     "end": 17
                                 },
                                 "type": {
-                                    "kind": 260,
+                                    "kind": 290,
                                     "type": {
-                                        "kind": 261,
+                                        "kind": 288,
                                         "arrowTypeParameterList": {
                                             "kind": 10,
                                             "flags": 64,
@@ -72,7 +72,7 @@ declare var x3: ?(() => (() => number));
                                             "end": 23
                                         },
                                         "arrowToken": {
-                                            "kind": 279,
+                                            "kind": 292,
                                             "parameters": [
                                                 []
                                             ],
@@ -82,9 +82,9 @@ declare var x3: ?(() => (() => number));
                                             "end": 23
                                         },
                                         "returnType": {
-                                            "kind": 260,
+                                            "kind": 290,
                                             "type": {
-                                                "kind": 261,
+                                                "kind": 288,
                                                 "arrowTypeParameterList": {
                                                     "kind": 10,
                                                     "flags": 64,
@@ -92,7 +92,7 @@ declare var x3: ?(() => (() => number));
                                                     "end": 30
                                                 },
                                                 "arrowToken": {
-                                                    "kind": 279,
+                                                    "kind": 292,
                                                     "parameters": [
                                                         []
                                                     ],

@@ -6,7 +6,7 @@ export function visit(cst: any, filename: any): void {
   assertType(cst.start, 'number');
   assertType(cst.end, 'number');
 
-  forEachChild(cst, function (node) {
+  forEachChild(cst, function (node: any) {
     return isChildLess(node) || forEachChild(node, visitor);
   });
 
@@ -16,10 +16,11 @@ export function visit(cst: any, filename: any): void {
       assertType(node.start, 'number');
       assertType(node.end, 'number');
       assertType(node.flags, 'number');
+      forEachChild(node, visitor);
     }
   }
 
-  function assertType(value, type) {
+  function assertType(value: any, type: any) {
     assert.equal(typeof value, type, `snap: ${filename}: expected ${type}, passed ${value}.`);
   }
 }
