@@ -78,7 +78,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                     "end": 36
                                 },
                                 "flags": 2097152,
-                                "start": 37,
+                                "start": 19,
                                 "end": 38
                             },
                             "flags": 2097152,
@@ -230,7 +230,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                     "end": 113
                                 },
                                 "flags": 2097152,
-                                "start": 114,
+                                "start": 94,
                                 "end": 115
                             },
                             "flags": 2097152,
@@ -300,7 +300,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                         "end": 162
                                     },
                                     "flags": 2097152,
-                                    "start": 163,
+                                    "start": 156,
                                     "end": 164
                                 },
                                 "flags": 2097152,

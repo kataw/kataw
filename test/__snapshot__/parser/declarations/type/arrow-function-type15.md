@@ -105,7 +105,7 @@ type a = (?bj[c] & a | b) => T;
                                                     "end": 15
                                                 },
                                                 "flags": 0,
-                                                "start": 14,
+                                                "start": 11,
                                                 "end": 18
                                             },
                                             "flags": 2097152,

@@ -65,7 +65,7 @@ var a: ?number[]
                                         "end": 14
                                     },
                                     "flags": 2097152,
-                                    "start": 15,
+                                    "start": 8,
                                     "end": 16
                                 },
                                 "flags": 2097152,

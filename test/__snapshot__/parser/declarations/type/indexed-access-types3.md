@@ -91,7 +91,7 @@ type D = (Obj['bar'])['baz'];
                     "end": 27
                 },
                 "flags": 0,
-                "start": 22,
+                "start": 8,
                 "end": 29
             },
             "flags": 2097152,

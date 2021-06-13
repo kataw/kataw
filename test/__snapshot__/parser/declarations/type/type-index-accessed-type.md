@@ -85,7 +85,7 @@ type Age = typeof MyArray[number]["age"];
                         "end": 32
                     },
                     "flags": 0,
-                    "start": 26,
+                    "start": 10,
                     "end": 34
                 },
                 "indexType": {
@@ -96,7 +96,7 @@ type Age = typeof MyArray[number]["age"];
                     "end": 39
                 },
                 "flags": 0,
-                "start": 34,
+                "start": 10,
                 "end": 41
             },
             "flags": 2097152,

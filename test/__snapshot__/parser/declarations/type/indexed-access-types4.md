@@ -74,11 +74,11 @@ type E = Obj['bar'][];
                         "end": 18
                     },
                     "flags": 0,
-                    "start": 13,
+                    "start": 8,
                     "end": 20
                 },
                 "flags": 2097152,
-                "start": 20,
+                "start": 8,
                 "end": 21
             },
             "flags": 2097152,

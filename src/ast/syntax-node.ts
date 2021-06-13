@@ -22,7 +22,8 @@ export const enum Constants {
   FormalParameterList = 0b00010000100010000100000000000000,
   ElementList = 0b00010000101011010100000000000000,
   DelimitedList = 0b00010000101010010100000000000000,
-  ArgumentList = 0b00000000101010111100000000000000
+  ArgumentList = 0b00000000101010111100000000000000,
+  IsType = 0b00111000100000000100000000000000
 }
 
 export const enum ExportKind {
@@ -98,6 +99,9 @@ export enum SyntaxKind {
   BitwiseOrAssign = 4136,
   BitwiseXor = 134251849,
   BitwiseXorAssign = 4135,
+  RestType = 333,
+  OptionalType = 334,
+  OptionalIndexedAccess = 332,
   Block = 249,
   BlockStatement = 124,
   BooleanKeyword = 134234254,

@@ -109,11 +109,14 @@ import { createConditionalExpression } from '../ast/expressions/conditional-expr
 import { createBinaryExpression, BinaryExpression } from '../ast/expressions/binary-expr';
 import { createSubtractionType, SubtractionType } from '../ast/types/subtraction-type';
 import { createIndexedAccessType } from '../ast/types/indexed-access-type';
+import { createRestType } from '../ast/types/rest-type';
+import { createOptionalType } from '../ast/types/optional-type';
 import { createObjectTypeSpreadProperty, ObjectTypeSpreadProperty } from '../ast/types/object-type-spread-property';
 import { createObjectTypeInternalSlot, ObjectTypeInternalSlot } from '../ast/types/object-type-internal-slot';
 import { createArrayType } from '../ast/types/array-type';
+import { createOptionalIndexedAccess } from '../ast/types/optional-indexed-access';
 import { createTypeofType, TypeofType } from '../ast/types/typeof-type';
-import { createNullableType } from '../ast/types/nullable-type';
+import { createNullableType, NullableType } from '../ast/types/nullable-type';
 import { createObjectType, ObjectType } from '../ast/types/object-type';
 import { createStringType, StringType } from '../ast/types/string-type';
 import { createNumberType, NumberType } from '../ast/types/number-type';
@@ -7101,38 +7104,57 @@ function parseUnionType(parser: ParserState, context: Context): TypeNode {
 
 function parseIntersectionType(parser: ParserState, context: Context): TypeNode {
   consumeOpt(parser, context, SyntaxKind.BitwiseAnd);
-  const type = parsePostfixType(parser, context);
+  const type = parsePrefixType(parser, context);
   if (parser.token === SyntaxKind.BitwiseAnd) {
     const pos = parser.curPos;
     const types = [type];
     while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
-      types.push(parsePostfixType(parser, context));
+      types.push(parsePrefixType(parser, context));
     }
     return createIntersectionType(types, pos, parser.curPos);
   }
   return type;
 }
 
+function parsePrefixType(parser: ParserState, context: Context): TypeNode {
+  return parser.token === SyntaxKind.QuestionMark
+    ? parseNullableType(parser, context)
+    : parsePostfixType(parser, context);
+}
+
+function parseNullableType(parser: ParserState, context: Context): NullableType {
+  const pos = parser.curPos;
+  return createNullableType(
+    consumeOptToken(parser, context, SyntaxKind.QuestionMark),
+    parsePostfixType(parser, context),
+    pos,
+    parser.curPos
+  );
+}
+
 function parsePostfixType(parser: ParserState, context: Context): TypeNode {
-  if (parser.token === SyntaxKind.QuestionMark) {
-    const pos = parser.curPos;
-    return createNullableType(
-      consumeOptToken(parser, context, SyntaxKind.QuestionMark),
-      parsePostfixType(parser, context),
-      pos,
-      parser.curPos
-    );
-  }
+  const pos = parser.curPos;
   let type = parsePrimaryType(parser, context);
-  while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-    const pos = parser.curPos;
-    if (parser.token & 0b00111000100000000100000000000000) {
-      const indexType = parseType(parser, context);
-      consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-      type = createIndexedAccessType(type, indexType, parser.nodeFlags, pos, parser.pos);
-    } else {
-      consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-      type = createArrayType(type, pos, parser.curPos);
+  let optionalIndexedToken = null;
+  while ((parser.nodeFlags & NodeFlags.NewLine) === 0) {
+    switch (parser.token) {
+      case SyntaxKind.QuestionMarkPeriod:
+        optionalIndexedToken = consumeToken(parser, context, SyntaxKind.QuestionMarkPeriod);
+      case SyntaxKind.LeftBracket:
+        nextToken(parser, context);
+        if (parser.token & Constants.IsType || optionalIndexedToken) {
+          const indexType = parseType(parser, context);
+          consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+          type = optionalIndexedToken
+            ? createOptionalIndexedAccess(optionalIndexedToken, type, indexType, pos, parser.pos)
+            : createIndexedAccessType(type, indexType, parser.nodeFlags, pos, parser.pos);
+        } else {
+          consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
+          type = createArrayType(type, pos, parser.curPos);
+        }
+        break;
+      default:
+        return type;
     }
   }
   return type;
@@ -7207,8 +7229,12 @@ function parseSubtractionType(parser: ParserState, context: Context): Subtractio
 
 function parseTypeofType(parser: ParserState, context: Context): TypeofType {
   const pos = parser.curPos;
-  const typeofKeyword = consumeToken(parser, context, SyntaxKind.TypeofKeyword);
-  return createTypeofType(typeofKeyword, parsePrimaryType(parser, context), pos, parser.curPos);
+  return createTypeofType(
+    consumeToken(parser, context, SyntaxKind.TypeofKeyword),
+    parsePrimaryType(parser, context),
+    pos,
+    parser.curPos
+  );
 }
 
 function parseStringType(parser: ParserState, context: Context): StringType {
@@ -7237,11 +7263,18 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   nextToken(parser, context);
   const flags = parser.nodeFlags | NodeFlags.IsTypeNode;
   const elements: TypeNode[] = [];
-  while (parser.token & 0b00111000100000000100000000000000) {
-    elements.push(parseType(parser, context));
+  let ellipsisToken = null;
+  let optionalToken = null;
+  while (parser.token & (SyntaxKind.IsEllipsis | Constants.IsType)) {
+    let innerPos = parser.curPos;
+    ellipsisToken = consumeOptToken(parser, context, SyntaxKind.Ellipsis);
+    let type = parseType(parser, context);
+    optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+    if (optionalToken) type = createOptionalType(optionalToken, type, innerPos, parser.curPos);
+    elements.push(ellipsisToken ? createRestType(ellipsisToken, type, innerPos, parser.curPos) : type);
     if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) break;
-    consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
-    if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) {
+    consume(parser, context, SyntaxKind.Comma, DiagnosticCode._expected);
+    if (parser.token === SyntaxKind.RightBracket) {
       trailingComma = true;
       break;
     }
@@ -7331,13 +7364,13 @@ function parseFunctionTypeParameters(
 
 function parseFunctionTypeParameter(parser: ParserState, context: Context): FunctionTypeParameter {
   const pos = parser.curPos;
-  const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
+  const ellipsisToken = consumeOptToken(parser, context, SyntaxKind.Ellipsis);
   let type: any = null;
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     const token = parser.token;
     type = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Type_expected);
     if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) {
-      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      const optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
       consume(parser, context, SyntaxKind.Colon, DiagnosticCode.Type_expected);
       return createFunctionTypeParameters(
         ellipsisToken,
@@ -8692,7 +8725,7 @@ function parsePrimaryTypeRest(
   if (parser.token === SyntaxKind.LeftBracket) {
     while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
       const pos = parser.curPos;
-      if (parser.token & 0b00111000100000000100000000000000) {
+      if (parser.token & Constants.IsType) {
         const indexType = parseType(parser, context);
         consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
         type = createIndexedAccessType(type, indexType, parser.nodeFlags | NodeFlags.IsTypeNode, pos, parser.pos);
@@ -8707,7 +8740,7 @@ function parsePrimaryTypeRest(
     const pos = parser.curPos;
     const types = [type];
     while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
-      types.push(parsePostfixType(parser, context));
+      types.push(parsePrefixType(parser, context));
     }
     type = createIntersectionType(types, pos, parser.curPos);
   }

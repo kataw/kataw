@@ -131,7 +131,7 @@ type a = (a[a & b[a]][c][-1][][]) => T;
                                                     "end": 19
                                                 },
                                                 "flags": 0,
-                                                "start": 18,
+                                                "start": 15,
                                                 "end": 21
                                             }
                                         ],
