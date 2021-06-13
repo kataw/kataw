@@ -287,11 +287,11 @@ export function forEachChild(node: any, visitor: any): any {
     case SyntaxKind.MethodDefinition:
       return (
         visitNode(node.formalParameters, node, visitor) &&
-        visitNodes(node.name, node, visitor) &&
+        visitNode(node.name, node, visitor) &&
         visitNode(node.contents, node, visitor)
       );
     case SyntaxKind.DecoratorList:
-      return visitNodes(node.decoratorList, node, visitor);
+      return visitNodes(node.elements, node, visitor);
     case SyntaxKind.Decorator:
       return visitNode(node.expression, node, visitor);
     case SyntaxKind.ArrayType:
@@ -299,10 +299,7 @@ export function forEachChild(node: any, visitor: any): any {
     case SyntaxKind.ArrowTypeParameterList:
       return visitNodes(node.parameters, node, visitor);
     case SyntaxKind.ArrowTypeParameter:
-      return (
-        visitNode(node.name, node, visitor) &&
-        visitNode(node.types, node, visitor)
-      );
+      return visitNode(node.name, node, visitor) && visitNode(node.types, node, visitor);
     case SyntaxKind.ArrowFunctionType:
       return (
         visitNode(node.arrowTypeParameterList, node, visitor) &&

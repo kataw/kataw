@@ -197,7 +197,7 @@ export enum SyntaxKind {
   ImportClause = 262,
   ImportDeclaration = 263,
   ImportKeyword = 37814364,
-  ImportMeta = 207,
+  ImportMeta = 299,
   ImportSpecifier = 264,
   ImportsList = 265,
   InKeyword = 21006388,

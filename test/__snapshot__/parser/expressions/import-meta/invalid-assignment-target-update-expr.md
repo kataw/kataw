@@ -32,7 +32,7 @@ import.meta++;
                     "end": 13
                 },
                 "operand": {
-                    "kind": 207,
+                    "kind": 299,
                     "importKeyword": {
                         "kind": 37814364,
                         "flags": 80,
