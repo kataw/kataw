@@ -7,7 +7,7 @@ export function visit(cst: any, filename: any): void {
   assertType(cst.end, 'number');
 
   forEachChild(cst, function (node: any) {
-    return isChildLess(node) || forEachChild(node, visitor);
+    if (node) return visitor(node);
   });
 
   function visitor(node: any) {
@@ -16,7 +16,7 @@ export function visit(cst: any, filename: any): void {
       assertType(node.start, 'number');
       assertType(node.end, 'number');
       assertType(node.flags, 'number');
-      forEachChild(node, visitor);
+      return forEachChild(node, visitor);
     }
   }
 

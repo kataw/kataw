@@ -161,10 +161,9 @@ export function forEachChild(node: any, visitor: any): any {
     case SyntaxKind.ClassDeclaration:
     case SyntaxKind.ClassExpression:
       return (
-        visitNode(node.decorators, node, visitor) &&
-        visitNode(node.name, node, visitor) &&
-        visitNode(node.implementClauses, node, visitor) &&
-        visitNode(node.typeParameters, node, visitor) &&
+        visitNode(node.decorators, node, visitor) ||
+        visitNode(node.name, node, visitor) ||
+        visitNode(node.typeParameters, node, visitor) ||
         visitNode(node.tail, node, visitor)
       );
     case SyntaxKind.BreakStatement:
@@ -348,7 +347,7 @@ export function forEachChild(node: any, visitor: any): any {
     case SyntaxKind.ObjectType:
       return visitNode(node.key, node, visitor) && visitNode(node.value, node, visitor);
     case SyntaxKind.TupleType:
-      return visitNode(node.elementTypes, node, visitor);
+      return visitNodes(node.elementTypes, node, visitor);
     case SyntaxKind.ObjectTypeProperty:
       return visitNodes(node.parameters, node, visitor);
     case SyntaxKind.TypeAnnotation:
