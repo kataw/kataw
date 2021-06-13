@@ -152,202 +152,163 @@ async function foo() {
                                                     ],
                                                     "flags": 2097152,
                                                     "start": 33,
-                                                    "end": 35
+                                                    "end": 36
                                                 },
                                                 "flags": 2097152,
                                                 "start": 28,
-                                                "end": 35
+                                                "end": 36
                                             },
                                             "flags": 2097152,
                                             "start": 28,
-                                            "end": 35
+                                            "end": 36
                                         }
                                     ],
                                     "flags": 2097152,
                                     "start": 27,
-                                    "end": 35
+                                    "end": 37
                                 },
                                 "flags": 2097152,
                                 "start": 19,
-                                "end": 35
+                                "end": 37
                             },
                             "flags": 2097152,
                             "start": 18,
-                            "end": 35
+                            "end": 37
                         },
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 16,
-                        "end": 35
-                    }
-                ],
-                "flags": 16,
-                "start": 16,
-                "end": 35
-            },
-            "flags": 16,
-            "start": 11,
-            "end": 35
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 35,
-                    "end": 35
-                },
-                "operatorToken": {
-                    "kind": 35141,
-                    "flags": 96,
-                    "start": 35,
-                    "end": 37
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 37,
-                    "end": 37
-                },
-                "flags": 32,
-                "start": 35,
-                "end": 37
-            },
-            "flags": 16,
-            "start": 35,
-            "end": 37
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 210,
-                "newKeyword": {
-                    "kind": 138477661,
-                    "flags": 96,
-                    "start": 39,
-                    "end": 43
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "Promise",
-                    "rawText": "Promise",
-                    "flags": 96,
-                    "start": 43,
-                    "end": 51
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [
-                        {
-                            "kind": 177,
-                            "asyncKeyword": null,
-                            "functionKeyword": {
-                                "kind": 37822554,
-                                "flags": 64,
-                                "start": 52,
-                                "end": 60
+                        "initializer": {
+                            "kind": 210,
+                            "newKeyword": {
+                                "kind": 138477661,
+                                "flags": 96,
+                                "start": 39,
+                                "end": 43
                             },
-                            "generatorToken": null,
-                            "name": null,
-                            "formalParameters": {
-                                "kind": 214,
-                                "formalParameterList": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "resolve",
-                                        "rawText": "resolve",
-                                        "flags": 96,
-                                        "start": 62,
-                                        "end": 69
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "reject",
-                                        "rawText": "reject",
-                                        "flags": 96,
-                                        "start": 70,
-                                        "end": 77
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 60,
-                                "end": 78
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "Promise",
+                                "rawText": "Promise",
+                                "flags": 96,
+                                "start": 43,
+                                "end": 51
                             },
-                            "contents": {
-                                "kind": 216,
-                                "functionStatementList": {
-                                    "kind": 217,
-                                    "directives": [],
-                                    "statements": [
-                                        {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 131,
-                                                "expression": {
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 177,
+                                        "asyncKeyword": null,
+                                        "functionKeyword": {
+                                            "kind": 37822554,
+                                            "flags": 64,
+                                            "start": 52,
+                                            "end": 60
+                                        },
+                                        "generatorToken": null,
+                                        "name": null,
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [
+                                                {
                                                     "kind": 134299649,
                                                     "text": "resolve",
                                                     "rawText": "resolve",
                                                     "flags": 96,
-                                                    "start": 80,
-                                                    "end": 90
+                                                    "start": 62,
+                                                    "end": 69
                                                 },
-                                                "argumentList": {
-                                                    "kind": 256,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 134299649,
-                                                            "text": "C",
-                                                            "rawText": "C",
-                                                            "flags": 96,
-                                                            "start": 91,
-                                                            "end": 92
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
-                                                    "start": 91,
-                                                    "end": 92
-                                                },
-                                                "flags": 268435488,
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "reject",
+                                                    "rawText": "reject",
+                                                    "flags": 96,
+                                                    "start": 70,
+                                                    "end": 77
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 60,
+                                            "end": 78
+                                        },
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [
+                                                    {
+                                                        "kind": 120,
+                                                        "expression": {
+                                                            "kind": 131,
+                                                            "expression": {
+                                                                "kind": 134299649,
+                                                                "text": "resolve",
+                                                                "rawText": "resolve",
+                                                                "flags": 96,
+                                                                "start": 80,
+                                                                "end": 90
+                                                            },
+                                                            "argumentList": {
+                                                                "kind": 256,
+                                                                "elements": [
+                                                                    {
+                                                                        "kind": 134299649,
+                                                                        "text": "C",
+                                                                        "rawText": "C",
+                                                                        "flags": 96,
+                                                                        "start": 91,
+                                                                        "end": 92
+                                                                    }
+                                                                ],
+                                                                "trailingComma": false,
+                                                                "flags": 32,
+                                                                "start": 91,
+                                                                "end": 92
+                                                            },
+                                                            "flags": 268435488,
+                                                            "start": 80,
+                                                            "end": 93
+                                                        },
+                                                        "flags": 16,
+                                                        "start": 80,
+                                                        "end": 94
+                                                    }
+                                                ],
+                                                "flags": 33,
                                                 "start": 80,
-                                                "end": 93
+                                                "end": 94
                                             },
-                                            "flags": 16,
-                                            "start": 80,
-                                            "end": 94
-                                        }
-                                    ],
-                                    "flags": 33,
-                                    "start": 80,
-                                    "end": 94
-                                },
+                                            "flags": 32,
+                                            "start": 78,
+                                            "end": 96
+                                        },
+                                        "typeParameters": null,
+                                        "returnType": null,
+                                        "flags": 32,
+                                        "start": 52,
+                                        "end": 96
+                                    }
+                                ],
+                                "trailingComma": false,
                                 "flags": 32,
-                                "start": 78,
+                                "start": 52,
                                 "end": 96
                             },
-                            "typeParameters": null,
-                            "returnType": null,
-                            "flags": 32,
-                            "start": 52,
-                            "end": 96
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 52,
-                    "end": 96
-                },
-                "flags": 96,
-                "start": 39,
+                            "flags": 96,
+                            "start": 39,
+                            "end": 97
+                        },
+                        "flags": 16,
+                        "start": 16,
+                        "end": 97
+                    }
+                ],
+                "flags": 16,
+                "start": 16,
                 "end": 97
             },
             "flags": 16,
-            "start": 39,
+            "start": 11,
             "end": 98
         },
         {
@@ -512,14 +473,19 @@ async function foo() {
 
 ```javascript
 
+class C {}
+var P = new  Promise(function (resolve, reject) {
+  resolve(C);
+});
+async function foo() {
+  class Bar  {}
+  return  Bar;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 35, end: 37
-✖ ',' expected - start: 35, end: 37
-✖ Identifier expected - start: 37, end: 39
-
+✔ No errors
 ```
 

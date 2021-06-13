@@ -7799,7 +7799,7 @@ function parseTypeReference(parser: ParserState, context: Context): TypeReferenc
     parseEntityName(
       parser,
       context,
-      parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Type_expected),
+      parseIdentifier(parser, context | Context.ArrowOrigin, Constants.IdentifierOrKeyword, DiagnosticCode.Type_expected),
       Constants.IdentifierOrKeyword,
       pos
     ),
@@ -7831,14 +7831,7 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
     let requireDefault = false;
-    while (
-      parser.token &
-      (SyntaxKind.IsIdentifier |
-        SyntaxKind.IsPatternStart |
-        SyntaxKind.IsStartOfType |
-        SyntaxKind.IsFutureReserved |
-        SyntaxKind.IsLessThanOrLeftParen)
-    ) {
+    while (parser.token & Constants.IsTypeParameter) {
       const type = parseTypeParameter(parser, context, requireDefault);
       types.push(type);
       if (type.defaultType) requireDefault = true;
@@ -7858,16 +7851,9 @@ function parseTypeParameterInstantiationList(
 ): TypeParameterInstantiationList | null {
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
-  if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
+  if ((parser.nodeFlags & NodeFlags.NewLine) === 0 && consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
-    while (
-      parser.token &
-      (SyntaxKind.IsIdentifier |
-        SyntaxKind.IsPatternStart |
-        SyntaxKind.IsStartOfType |
-        SyntaxKind.IsFutureReserved |
-        SyntaxKind.IsLessThanOrLeftParen)
-    ) {
+    while (parser.token & Constants.IsTypeParameter) {
       types.push(parseTypeParameterInstantiation(parser, context));
       if (parser.token !== SyntaxKind.GreaterThan) {
         consume(parser, context, SyntaxKind.Comma);
