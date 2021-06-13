@@ -100,6 +100,16 @@ interface NumberType <: TypeNode {
 }
 ```
 
+### BigIntType
+
+```js
+interface BigIntType <: TypeNode {
+  kind: NodeKind.BigIntType;
+  text: number;
+  raw: string;
+}
+```
+
 ### NullableType
 
 ```js

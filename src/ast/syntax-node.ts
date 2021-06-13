@@ -392,7 +392,8 @@ export enum SyntaxKind {
   BigIntLiteral = 201392400,
   ProtoKeyword = 16873,
   ArrowTypeParameterList = 279,
-  ArrowTypeParameter = 284
+  ArrowTypeParameter = 284,
+  BigIntType = 286
 }
 
 export function tokenToString(node: any): string {
