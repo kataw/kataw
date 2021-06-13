@@ -174,7 +174,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                         },
                                                                                         {
                                                                                             "kind": 134234347,
-                                                                                            "flags": 64,
+                                                                                            "flags": 2097216,
                                                                                             "start": 58,
                                                                                             "end": 64
                                                                                         }
@@ -287,7 +287,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                         },
                                                                                         {
                                                                                             "kind": 134234347,
-                                                                                            "flags": 64,
+                                                                                            "flags": 2097216,
                                                                                             "start": 98,
                                                                                             "end": 104
                                                                                         }
@@ -408,7 +408,7 @@ var stringArr:Array<string> = ['a','b'];
                     },
                     {
                         "kind": 134234347,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 139,
                         "end": 146
                     }
@@ -780,7 +780,7 @@ var stringArr:Array<string> = ['a','b'];
                                             },
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 284,
                                                 "end": 290
                                             },
@@ -790,7 +790,7 @@ var stringArr:Array<string> = ['a','b'];
                                         },
                                         {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 291,
                                             "end": 297
                                         }
@@ -875,7 +875,7 @@ var stringArr:Array<string> = ['a','b'];
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 333,
                                                         "end": 335
                                                     },
@@ -970,7 +970,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "types": [
                                         {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 373,
                                             "end": 380
                                         },
@@ -1083,7 +1083,7 @@ var stringArr:Array<string> = ['a','b'];
                                         "types": [
                                             {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 412,
                                                 "end": 419
                                             },
@@ -1143,7 +1143,7 @@ var stringArr:Array<string> = ['a','b'];
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 444,
                                                         "end": 446
                                                     },
@@ -1270,13 +1270,13 @@ var stringArr:Array<string> = ['a','b'];
                                                 "types": [
                                                     {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 523,
                                                         "end": 529
                                                     },
                                                     {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 530,
                                                         "end": 536
                                                     }
@@ -1388,7 +1388,7 @@ var stringArr:Array<string> = ['a','b'];
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 567,
                                                 "end": 573
                                             },

@@ -72,7 +72,7 @@ const a = async (foo: string = "") => {}
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 21,
                                             "end": 28
                                         },

@@ -130,7 +130,7 @@ var x, y, z; for (x of x = { import.meta } = z = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 24,
                     "end": 26
                 },
@@ -206,7 +206,7 @@ var x, y, z; for (x of x = { import.meta } = z = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 46,
                     "end": 48
                 },

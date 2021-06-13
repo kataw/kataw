@@ -49,13 +49,13 @@ type A = (Array<string>, ...Array<string>) => void
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 42,
                     "end": 45
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -78,7 +78,7 @@ type A = (Array<string>, ...Array<string>) => void
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 16,
                                                 "end": 22
                                             },
@@ -102,7 +102,7 @@ type A = (Array<string>, ...Array<string>) => void
                             "end": 23
                         },
                         {
-                            "kind": 149,
+                            "kind": 284,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -128,7 +128,7 @@ type A = (Array<string>, ...Array<string>) => void
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 34,
                                                 "end": 40
                                             },
@@ -157,7 +157,7 @@ type A = (Array<string>, ...Array<string>) => void
                 },
                 "returnType": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 45,
                     "end": 50
                 },

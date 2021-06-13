@@ -29,7 +29,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 3,
                     "end": 5
                 },
@@ -55,7 +55,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 14,
                     "end": 16
                 },
@@ -95,7 +95,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 26,
                     "end": 28
                 },
@@ -135,7 +135,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 40,
                     "end": 42
                 },
@@ -189,7 +189,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 53,
                     "end": 55
                 },
@@ -243,7 +243,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 65,
                     "end": 67
                 },
@@ -281,7 +281,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 78,
                     "end": 80
                 },
@@ -319,7 +319,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 96,
                     "end": 98
                 },
@@ -379,7 +379,7 @@ new foo().bar++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 113,
                     "end": 115
                 },

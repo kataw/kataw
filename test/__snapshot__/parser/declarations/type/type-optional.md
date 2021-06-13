@@ -89,7 +89,7 @@ type a = ??string;
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 8,
                     "end": 11
                 },

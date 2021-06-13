@@ -89,7 +89,7 @@ declare function foo(): void
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 26,
                     "end": 31
                 },
@@ -150,7 +150,7 @@ declare function foo(): void
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 57,
                                 "end": 64
                             },
@@ -179,7 +179,7 @@ declare function foo(): void
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 68,
                                 "end": 75
                             },
@@ -204,7 +204,7 @@ declare function foo(): void
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 77,
                     "end": 82
                 },
@@ -260,7 +260,7 @@ declare function foo(): void
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 108,
                     "end": 113
                 },

@@ -103,7 +103,7 @@ x?.y = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -156,7 +156,7 @@ x?.y = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 18,
                     "end": 20
                 },
@@ -243,7 +243,7 @@ x?.y = 0;
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 32,
                                 "end": 34
                             },

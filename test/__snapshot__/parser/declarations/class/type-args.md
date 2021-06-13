@@ -126,7 +126,7 @@ class C<T> {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 536971330,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 39,
                                                             "end": 40
                                                         },
@@ -144,7 +144,7 @@ class C<T> {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 34883,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 41,
                                                         "end": 42
                                                     },
@@ -186,7 +186,7 @@ class C<T> {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 536971330,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 63,
                                                             "end": 64
                                                         },
@@ -204,7 +204,7 @@ class C<T> {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 134251592,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 65,
                                                         "end": 67
                                                     },
@@ -220,7 +220,7 @@ class C<T> {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 34883,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 74,
                                                             "end": 75
                                                         },
@@ -266,7 +266,7 @@ class C<T> {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 536971330,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 96,
                                                             "end": 97
                                                         },
@@ -337,7 +337,7 @@ class C<T> {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 34883,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 114,
                                                         "end": 115
                                                     },

@@ -162,7 +162,7 @@ function *infer_stmt() {
                                 "kind": 267,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 34,
                                     "end": 40
                                 },
@@ -174,7 +174,7 @@ function *infer_stmt() {
                                 "kind": 267,
                                 "type": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 41,
                                     "end": 46
                                 },
@@ -186,7 +186,7 @@ function *infer_stmt() {
                                 "kind": 267,
                                 "type": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 47,
                                     "end": 52
                                 },
@@ -298,7 +298,7 @@ function *infer_stmt() {
                                 "kind": 267,
                                 "type": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 120,
                                     "end": 124
                                 },
@@ -310,7 +310,7 @@ function *infer_stmt() {
                                 "kind": 267,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 125,
                                     "end": 132
                                 },
@@ -322,7 +322,7 @@ function *infer_stmt() {
                                 "kind": 267,
                                 "type": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 133,
                                     "end": 138
                                 },
@@ -434,7 +434,7 @@ function *infer_stmt() {
                                 "kind": 267,
                                 "type": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 196,
                                     "end": 200
                                 },
@@ -446,7 +446,7 @@ function *infer_stmt() {
                                 "kind": 267,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 201,
                                     "end": 208
                                 },
@@ -458,7 +458,7 @@ function *infer_stmt() {
                                 "kind": 267,
                                 "type": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 209,
                                     "end": 214
                                 },
@@ -548,7 +548,7 @@ function *infer_stmt() {
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234254,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 267,
                                                 "end": 275
                                             },

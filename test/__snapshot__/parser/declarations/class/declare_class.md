@@ -83,7 +83,7 @@ declare class D extends C { }
                             "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 31,
                                 "end": 38
                             },
@@ -113,7 +113,7 @@ declare class D extends C { }
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
-                                "parameters": {
+                                "functionTypeParameterList": {
                                     "kind": 282,
                                     "parameters": [
                                         {
@@ -130,7 +130,7 @@ declare class D extends C { }
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 57,
                                                 "end": 64
                                             },
@@ -146,7 +146,7 @@ declare class D extends C { }
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 66,
                                     "end": 71
                                 },
@@ -176,7 +176,7 @@ declare class D extends C { }
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
-                                "parameters": {
+                                "functionTypeParameterList": {
                                     "kind": 282,
                                     "parameters": [
                                         {
@@ -193,7 +193,7 @@ declare class D extends C { }
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 92,
                                                 "end": 99
                                             },
@@ -209,7 +209,7 @@ declare class D extends C { }
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 101,
                                     "end": 106
                                 },

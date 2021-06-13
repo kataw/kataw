@@ -66,7 +66,7 @@ declare function foo(x: number, y: string): void;
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 23,
                                 "end": 30
                             },
@@ -95,7 +95,7 @@ declare function foo(x: number, y: string): void;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 34,
                                 "end": 41
                             },
@@ -120,7 +120,7 @@ declare function foo(x: number, y: string): void;
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 43,
                     "end": 48
                 },

@@ -78,7 +78,7 @@ type X = {[(x)]: string};
                         },
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 16,
                             "end": 23
                         },

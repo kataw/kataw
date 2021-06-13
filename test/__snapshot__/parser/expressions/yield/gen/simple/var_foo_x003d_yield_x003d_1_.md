@@ -59,7 +59,7 @@ var foo = yield = 1;
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 17
                             },

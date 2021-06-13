@@ -54,7 +54,7 @@ async (x = (void) = f) => {}
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 16
                                 },
@@ -75,7 +75,7 @@ async (x = (void) = f) => {}
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 17,
                             "end": 19
                         },

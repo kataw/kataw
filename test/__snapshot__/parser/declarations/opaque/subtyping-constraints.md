@@ -66,7 +66,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                         "optionalToken": null,
                         "value": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 21,
                             "end": 28
                         },
@@ -100,7 +100,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                         "optionalToken": null,
                         "value": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 35,
                             "end": 42
                         },
@@ -125,7 +125,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                         "optionalToken": null,
                         "value": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 46,
                             "end": 53
                         },

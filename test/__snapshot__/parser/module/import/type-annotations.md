@@ -451,7 +451,7 @@ import { type Foo12 } from "bar";
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 183,
                         "end": 185
                     },

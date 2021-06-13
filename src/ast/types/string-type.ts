@@ -1,13 +1,13 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
 export interface StringType extends SyntaxNode {
-  readonly value: number;
+  readonly text: string;
 }
 
-export function createStringType(value: number, start: number, end: number): StringType {
+export function createStringType(text: string, start: number, end: number): StringType {
   return {
     kind: SyntaxKind.StringType,
-    value,
+    text,
     flags: NodeFlags.IsTypeNode | NodeFlags.ChildLess,
     start,
     end

@@ -70,7 +70,7 @@ declare var C: Class<string>;
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 21,
                                                 "end": 27
                                             },

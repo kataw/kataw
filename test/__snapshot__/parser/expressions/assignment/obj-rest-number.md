@@ -29,7 +29,7 @@ result = {...rest} = 69;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -72,7 +72,7 @@ result = {...rest} = 69;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 18,
                         "end": 20
                     },

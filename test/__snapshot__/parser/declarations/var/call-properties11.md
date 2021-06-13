@@ -90,7 +90,7 @@ var y : {} = function (x: number): string { return "hi"; };
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 25,
                                                 "end": 32
                                             },
@@ -149,7 +149,7 @@ var y : {} = function (x: number): string { return "hi"; };
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 34,
                                     "end": 41
                                 },

@@ -29,7 +29,7 @@ x = { foo(){ delete super[foo]; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -76,7 +76,7 @@ x = { foo(){ delete super[foo]; }}
                                                         "kind": 126,
                                                         "operandToken": {
                                                             "kind": 4259886,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 12,
                                                             "end": 19
                                                         },

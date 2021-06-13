@@ -67,7 +67,7 @@ type a = {x: number, };
                         "optionalToken": null,
                         "value": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 12,
                             "end": 19
                         },

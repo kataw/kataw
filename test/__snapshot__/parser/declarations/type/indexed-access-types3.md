@@ -70,7 +70,7 @@ type D = (Obj['bar'])['baz'];
                         },
                         "indexType": {
                             "kind": 134217967,
-                            "value": "bar",
+                            "text": "bar",
                             "flags": 2097216,
                             "start": 14,
                             "end": 19
@@ -85,7 +85,7 @@ type D = (Obj['bar'])['baz'];
                 },
                 "indexType": {
                     "kind": 134217967,
-                    "value": "baz",
+                    "text": "baz",
                     "flags": 2097216,
                     "start": 22,
                     "end": 27

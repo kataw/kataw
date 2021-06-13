@@ -59,13 +59,13 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                             "kind": 260,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 43,
                                     "end": 46
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -80,13 +80,13 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                         "kind": 260,
                                                         "type": {
                                                             "kind": 261,
-                                                            "arrowToken": {
+                                                            "arrowTypeParameterList": {
                                                                 "kind": 10,
                                                                 "flags": 64,
                                                                 "start": 22,
                                                                 "end": 25
                                                             },
-                                                            "parameters": {
+                                                            "arrowToken": {
                                                                 "kind": 279,
                                                                 "parameters": [
                                                                     {
@@ -97,7 +97,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                             "start": 19,
                                                                             "end": 20
                                                                         },
-                                                                        "value": 1,
+                                                                        "text": 1,
                                                                         "flags": 2097216,
                                                                         "start": 19,
                                                                         "end": 21
@@ -166,7 +166,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                     },
                                                     "type": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 35,
                                                         "end": 41
                                                     },
@@ -244,7 +244,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                         },
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 56,
                             "end": 62
                         },

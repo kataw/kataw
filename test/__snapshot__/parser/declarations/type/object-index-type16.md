@@ -64,7 +64,7 @@ var o: { [string]: number } = {};
                                         },
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 18,
                                             "end": 25
                                         },

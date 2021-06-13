@@ -59,7 +59,7 @@ async () => {  inst\u0061nceof = x  }
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
-                                    "flags": 16448,
+                                    "flags": 16480,
                                     "start": 13,
                                     "end": 30
                                 },

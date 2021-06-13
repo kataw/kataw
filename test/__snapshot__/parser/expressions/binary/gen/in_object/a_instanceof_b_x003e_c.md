@@ -37,7 +37,7 @@ x = { a: a instanceof b > c }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -71,7 +71,7 @@ x = { a: a instanceof b > c }
                                         },
                                         "operatorToken": {
                                             "kind": 4229173,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 10,
                                             "end": 21
                                         },
@@ -89,7 +89,7 @@ x = { a: a instanceof b > c }
                                     },
                                     "operatorToken": {
                                         "kind": 34883,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 23,
                                         "end": 25
                                     },

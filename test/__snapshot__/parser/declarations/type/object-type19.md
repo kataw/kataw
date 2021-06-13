@@ -72,7 +72,7 @@ type a = {get foo():string};
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
@@ -82,7 +82,7 @@ type a = {get foo():string};
                             },
                             "returnType": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 20,
                                 "end": 26
                             },

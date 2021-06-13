@@ -226,7 +226,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                                                         },
                                                                                                         "operatorToken": {
                                                                                                             "kind": 99634,
-                                                                                                            "flags": 64,
+                                                                                                            "flags": 96,
                                                                                                             "start": 82,
                                                                                                             "end": 84
                                                                                                         },

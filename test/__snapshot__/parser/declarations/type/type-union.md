@@ -101,7 +101,7 @@ type overloads2 = {
                                 "optionalToken": null,
                                 "value": {
                                     "kind": 134217967,
-                                    "value": "A",
+                                    "text": "A",
                                     "flags": 2097216,
                                     "start": 22,
                                     "end": 26
@@ -136,7 +136,7 @@ type overloads2 = {
                                 "optionalToken": null,
                                 "value": {
                                     "kind": 134217967,
-                                    "value": "B",
+                                    "text": "B",
                                     "flags": 2097216,
                                     "start": 37,
                                     "end": 41
@@ -193,13 +193,13 @@ type overloads2 = {
                             "kind": 144,
                             "id": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 79,
                                     "end": 82
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -216,7 +216,7 @@ type overloads2 = {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 71,
                                                 "end": 78
                                             },
@@ -232,7 +232,7 @@ type overloads2 = {
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 82,
                                     "end": 89
                                 },
@@ -256,13 +256,13 @@ type overloads2 = {
                             "kind": 144,
                             "id": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 107,
                                     "end": 110
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -279,7 +279,7 @@ type overloads2 = {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 99,
                                                 "end": 106
                                             },
@@ -295,7 +295,7 @@ type overloads2 = {
                                 },
                                 "returnType": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 110,
                                     "end": 117
                                 },
@@ -387,7 +387,7 @@ type overloads2 = {
                                             "optionalToken": null,
                                             "value": {
                                                 "kind": 134217967,
-                                                "value": "A",
+                                                "text": "A",
                                                 "flags": 2097216,
                                                 "start": 155,
                                                 "end": 159
@@ -422,7 +422,7 @@ type overloads2 = {
                                             "optionalToken": null,
                                             "value": {
                                                 "kind": 134217967,
-                                                "value": "B",
+                                                "text": "B",
                                                 "flags": 2097216,
                                                 "start": 173,
                                                 "end": 177
@@ -521,7 +521,7 @@ type overloads2 = {
                                             "optionalToken": null,
                                             "value": {
                                                 "kind": 134217967,
-                                                "value": "A",
+                                                "text": "A",
                                                 "flags": 2097216,
                                                 "start": 220,
                                                 "end": 224
@@ -556,7 +556,7 @@ type overloads2 = {
                                             "optionalToken": null,
                                             "value": {
                                                 "kind": 134217967,
-                                                "value": "B",
+                                                "text": "B",
                                                 "flags": 2097216,
                                                 "start": 238,
                                                 "end": 242

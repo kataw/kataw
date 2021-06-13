@@ -130,7 +130,7 @@ var x, y, z; for (x of x = { x: async function() {} } = z = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 24,
                     "end": 26
                 },
@@ -212,7 +212,7 @@ var x, y, z; for (x of x = { x: async function() {} } = z = {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 53,
                         "end": 55
                     },
@@ -228,7 +228,7 @@ var x, y, z; for (x of x = { x: async function() {} } = z = {});
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 57,
                             "end": 59
                         },

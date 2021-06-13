@@ -1,6 +1,10 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { TypeNode } from '.';
 
+/**
+ * An array type node.
+ */
+
 export interface ArrayType extends SyntaxNode {
   readonly type: TypeNode;
 }

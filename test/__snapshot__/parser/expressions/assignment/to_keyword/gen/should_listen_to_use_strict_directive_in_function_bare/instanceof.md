@@ -81,7 +81,7 @@ function f() {
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
-                                    "flags": 65,
+                                    "flags": 97,
                                     "start": 30,
                                     "end": 43
                                 },

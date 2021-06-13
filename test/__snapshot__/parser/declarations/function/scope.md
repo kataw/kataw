@@ -119,7 +119,7 @@ function for_scope_var() {
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 33,
                                                 "end": 40
                                             },
@@ -175,7 +175,7 @@ function for_scope_var() {
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 54,
                                                 "end": 61
                                             },
@@ -393,23 +393,23 @@ function for_scope_var() {
                                             "kind": 139,
                                             "type": {
                                                 "kind": 261,
-                                                "arrowToken": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 208,
-                                                    "end": 211
-                                                },
-                                                "parameters": {
-                                                    "kind": 282,
+                                                "arrowTypeParameterList": {
+                                                    "kind": 279,
                                                     "parameters": [],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
                                                     "start": 207,
                                                     "end": 207
                                                 },
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 208,
+                                                    "end": 211
+                                                },
                                                 "returnType": {
                                                     "kind": 134234347,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 211,
                                                     "end": 218
                                                 },
@@ -480,7 +480,7 @@ function for_scope_var() {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 254,
                                     "end": 261
                                 },
@@ -751,7 +751,7 @@ function for_scope_var() {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 406,
                                     "end": 413
                                 },
@@ -900,7 +900,7 @@ function for_scope_var() {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 529,
                                     "end": 536
                                 },
@@ -986,7 +986,7 @@ function for_scope_var() {
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 610,
                                                 "end": 617
                                             },
@@ -1149,7 +1149,7 @@ function for_scope_var() {
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 709,
                                                 "end": 716
                                             },

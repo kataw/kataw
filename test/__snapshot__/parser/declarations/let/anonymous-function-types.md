@@ -76,13 +76,13 @@ let x = (): Array<(string) => number> => []
                                                 "kind": 267,
                                                 "type": {
                                                     "kind": 261,
-                                                    "arrowToken": {
+                                                    "arrowTypeParameterList": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 26,
                                                         "end": 29
                                                     },
-                                                    "parameters": {
+                                                    "arrowToken": {
                                                         "kind": 134234347,
                                                         "flags": 64,
                                                         "start": 19,
@@ -90,7 +90,7 @@ let x = (): Array<(string) => number> => []
                                                     },
                                                     "returnType": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 29,
                                                         "end": 36
                                                     },

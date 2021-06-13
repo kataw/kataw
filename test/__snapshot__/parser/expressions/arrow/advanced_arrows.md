@@ -78,7 +78,7 @@ var ident = <T>(x: T): T => x;
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 13,
                                             "end": 20
                                         },
@@ -107,7 +107,7 @@ var ident = <T>(x: T): T => x;
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 24,
                                             "end": 31
                                         },
@@ -126,7 +126,7 @@ var ident = <T>(x: T): T => x;
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 33,
                                     "end": 40
                                 },
@@ -146,7 +146,7 @@ var ident = <T>(x: T): T => x;
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 45,
                                     "end": 47
                                 },
@@ -229,7 +229,7 @@ var ident = <T>(x: T): T => x;
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 65,
                                             "end": 72
                                         },
@@ -248,7 +248,7 @@ var ident = <T>(x: T): T => x;
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 74,
                                     "end": 81
                                 },

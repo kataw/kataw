@@ -61,7 +61,7 @@ do a / b + c while (x);
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 4,
                             "end": 6
                         },
@@ -79,7 +79,7 @@ do a / b + c while (x);
                     },
                     "operatorToken": {
                         "kind": 99634,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 8,
                         "end": 10
                     },

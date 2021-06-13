@@ -99,7 +99,7 @@ async function foo({x}: { x: string; }) {}
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 28,
                                             "end": 35
                                         },

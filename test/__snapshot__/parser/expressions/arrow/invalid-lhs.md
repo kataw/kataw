@@ -242,7 +242,7 @@ x = (a,b)+c=>{};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 51,
                     "end": 53
                 },
@@ -540,7 +540,7 @@ x = (a,b)+c=>{};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 135,
                     "end": 137
                 },
@@ -821,7 +821,7 @@ x = (a,b)+c=>{};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 226,
                     "end": 228
                 },
@@ -881,7 +881,7 @@ x = (a,b)+c=>{};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 240,
                     "end": 242
                 },
@@ -947,7 +947,7 @@ x = (a,b)+c=>{};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 255,
                     "end": 257
                 },
@@ -985,7 +985,7 @@ x = (a,b)+c=>{};
                     },
                     "operatorToken": {
                         "kind": 99634,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 263,
                         "end": 264
                     },

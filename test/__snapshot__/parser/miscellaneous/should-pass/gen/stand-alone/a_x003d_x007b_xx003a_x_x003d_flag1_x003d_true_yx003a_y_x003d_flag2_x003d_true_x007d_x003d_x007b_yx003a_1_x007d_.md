@@ -37,7 +37,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -71,7 +71,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -87,7 +87,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 18,
                                                 "end": 20
                                             },
@@ -132,7 +132,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 31,
                                             "end": 33
                                         },
@@ -148,7 +148,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 39,
                                                 "end": 41
                                             },
@@ -182,7 +182,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 48,
                         "end": 50
                     },

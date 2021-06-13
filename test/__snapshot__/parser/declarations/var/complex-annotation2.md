@@ -61,13 +61,13 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                     "elementTypes": [
                                         {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 21,
                                             "end": 27
                                         },
                                         {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 28,
                                             "end": 35
                                         }
@@ -209,13 +209,13 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                         "elementTypes": [
                                             {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 97,
                                                 "end": 103
                                             },
                                             {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 104,
                                                 "end": 111
                                             }
@@ -295,7 +295,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 156,
                                         "end": 162
                                     },

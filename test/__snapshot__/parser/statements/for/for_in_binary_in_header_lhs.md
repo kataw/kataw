@@ -68,7 +68,7 @@ for (x in a>c;;) x
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 11,
                     "end": 12
                 },

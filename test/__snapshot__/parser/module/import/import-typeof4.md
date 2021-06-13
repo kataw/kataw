@@ -50,7 +50,7 @@ import typeof a * from "b";
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 15,
                         "end": 17
                     },

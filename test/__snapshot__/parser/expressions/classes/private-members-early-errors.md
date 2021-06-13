@@ -123,7 +123,7 @@ class C { foo() { this.#a = 1; }}
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
-                                                                    "flags": 64,
+                                                                    "flags": 96,
                                                                     "start": 30,
                                                                     "end": 32
                                                                 },
@@ -537,7 +537,7 @@ class C { foo() { this.#a = 1; }}
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 159,
                                                         "end": 161
                                                     },

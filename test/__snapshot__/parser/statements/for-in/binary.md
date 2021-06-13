@@ -48,7 +48,7 @@ a + b - c
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -64,7 +64,7 @@ a + b - c
                     },
                     "operatorToken": {
                         "kind": 134318643,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 5,
                         "end": 7
                     },

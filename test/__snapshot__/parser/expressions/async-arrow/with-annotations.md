@@ -51,7 +51,7 @@ async ([a]:string)=>c;
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 9,
                             "end": 15
                         },
@@ -131,7 +131,7 @@ async ([a]:string)=>c;
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 33,
                             "end": 39
                         },

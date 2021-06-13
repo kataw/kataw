@@ -36,7 +36,7 @@ instanceof = x
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 0,
                     "end": 10
                 },

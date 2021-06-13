@@ -37,7 +37,7 @@ x = {get this(this):number{}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -99,7 +99,7 @@ x = {get this(this):number{}};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 20,
                                             "end": 26
                                         },

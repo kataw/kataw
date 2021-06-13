@@ -191,7 +191,7 @@ result = [[x]] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 45,
                     "end": 47
                 },
@@ -237,7 +237,7 @@ result = [[x]] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 53,
                         "end": 55
                     },

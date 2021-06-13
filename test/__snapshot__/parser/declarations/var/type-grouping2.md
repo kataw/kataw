@@ -55,13 +55,13 @@ var a: (() => number) | () => string
                                         "kind": 260,
                                         "type": {
                                             "kind": 261,
-                                            "arrowToken": {
+                                            "arrowTypeParameterList": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 10,
                                                 "end": 13
                                             },
-                                            "parameters": {
+                                            "arrowToken": {
                                                 "kind": 279,
                                                 "parameters": [
                                                     []
@@ -73,7 +73,7 @@ var a: (() => number) | () => string
                                             },
                                             "returnType": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 13,
                                                 "end": 20
                                             },
@@ -88,23 +88,23 @@ var a: (() => number) | () => string
                                     },
                                     {
                                         "kind": 261,
-                                        "arrowToken": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 26,
-                                            "end": 29
-                                        },
-                                        "parameters": {
-                                            "kind": 282,
+                                        "arrowTypeParameterList": {
+                                            "kind": 279,
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
                                             "start": 25,
                                             "end": 25
                                         },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 26,
+                                            "end": 29
+                                        },
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 29,
                                             "end": 36
                                         },

@@ -29,7 +29,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -52,7 +52,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -108,7 +108,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 33,
                                         "end": 35
                                     },
@@ -157,7 +157,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 51,
                                         "end": 53
                                     },
@@ -263,7 +263,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 82,
                         "end": 84
                     },

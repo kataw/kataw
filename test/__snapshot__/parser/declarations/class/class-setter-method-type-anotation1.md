@@ -92,7 +92,7 @@ class Foo {set fooProp(value:number):void{}}
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 29,
                                                     "end": 35
                                                 },
@@ -115,7 +115,7 @@ class Foo {set fooProp(value:number):void{}}
                                     "kind": 139,
                                     "type": {
                                         "kind": 138477615,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 37,
                                         "end": 41
                                     },

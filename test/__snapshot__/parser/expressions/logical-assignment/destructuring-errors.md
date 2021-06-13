@@ -68,7 +68,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4138,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 6,
                         "end": 10
                     },
@@ -130,7 +130,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     },
                                     "operatorToken": {
                                         "kind": 4138,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 24,
                                         "end": 28
                                     },
@@ -158,7 +158,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 32,
                         "end": 34
                     },
@@ -228,7 +228,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4138,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 50,
                         "end": 54
                     },
@@ -386,7 +386,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4139,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 103,
                         "end": 107
                     },
@@ -448,7 +448,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     },
                                     "operatorToken": {
                                         "kind": 4139,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 121,
                                         "end": 125
                                     },
@@ -476,7 +476,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 129,
                         "end": 131
                     },
@@ -546,7 +546,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     },
                     "operatorToken": {
                         "kind": 4139,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 147,
                         "end": 151
                     },
@@ -716,7 +716,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                             },
                                             "operatorToken": {
                                                 "kind": 4139,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 202,
                                                 "end": 206
                                             },

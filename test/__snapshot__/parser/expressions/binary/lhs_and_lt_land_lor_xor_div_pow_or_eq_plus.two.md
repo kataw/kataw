@@ -35,7 +35,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                             },
                             "operatorToken": {
                                 "kind": 35140,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 2,
                                 "end": 5
                             },
@@ -53,7 +53,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         },
                         "operatorToken": {
                             "kind": 134252103,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
@@ -69,7 +69,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                             },
                             "operatorToken": {
                                 "kind": 536971330,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 15
                             },
@@ -91,7 +91,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 18,
                         "end": 21
                     },
@@ -109,7 +109,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                 },
                 "operatorToken": {
                     "kind": 33339,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 24,
                     "end": 27
                 },
@@ -127,7 +127,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         },
                         "operatorToken": {
                             "kind": 134251849,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 30,
                             "end": 32
                         },
@@ -143,7 +143,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 35,
                                 "end": 37
                             },
@@ -159,7 +159,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                                 },
                                 "operatorToken": {
                                     "kind": 35897,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 40,
                                     "end": 43
                                 },
@@ -185,7 +185,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                     },
                     "operatorToken": {
                         "kind": 134251592,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 46,
                         "end": 48
                     },
@@ -203,7 +203,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                             },
                             "operatorToken": {
                                 "kind": 34622,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 51,
                                 "end": 54
                             },
@@ -221,7 +221,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         },
                         "operatorToken": {
                             "kind": 99634,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 58,
                             "end": 60
                         },

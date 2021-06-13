@@ -3,19 +3,19 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 export interface SubtractionType extends SyntaxNode {
   readonly subtractionToken: SyntaxToken<TokenSyntaxKind>;
-  readonly value: number;
+  readonly text: number;
 }
 
 export function createSubtractionType(
   subtractionToken: SyntaxToken<TokenSyntaxKind>,
-  value: number,
+  text: number,
   start: number,
   end: number
 ): SubtractionType {
   return {
     kind: SyntaxKind.SubtractionType,
     subtractionToken,
-    value,
+    text,
     flags: NodeFlags.ChildLess | NodeFlags.IsTypeNode,
     start,
     end

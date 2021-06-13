@@ -324,7 +324,7 @@ var {get} = obj;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 66,
                                                     "end": 68
                                                 },
@@ -448,7 +448,7 @@ var {get} = obj;
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 95,
                                                     "end": 97
                                                 },
@@ -706,7 +706,7 @@ var {get} = obj;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 172,
                                         "end": 174
                                     },
@@ -807,7 +807,7 @@ var {get} = obj;
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 196,
                                                         "end": 198
                                                     },
@@ -866,7 +866,7 @@ var {get} = obj;
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 207,
                                                         "end": 208
                                                     },
@@ -884,7 +884,7 @@ var {get} = obj;
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 212,
                                                                 "end": 213
                                                             },
@@ -1019,7 +1019,7 @@ var {get} = obj;
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 240,
                                                         "end": 242
                                                     },
@@ -1037,7 +1037,7 @@ var {get} = obj;
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 247,
                                                                 "end": 249
                                                             },

@@ -35,7 +35,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 2,
                                 "end": 4
                             },
@@ -53,7 +53,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                         },
                         "operatorToken": {
                             "kind": 134252103,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 7,
                             "end": 9
                         },
@@ -69,7 +69,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 35141,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 15
                             },
@@ -91,7 +91,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                     },
                     "operatorToken": {
                         "kind": 134251849,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 18,
                         "end": 20
                     },
@@ -107,7 +107,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                         },
                         "operatorToken": {
                             "kind": 34883,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 23,
                             "end": 25
                         },
@@ -123,7 +123,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 134318643,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 28,
                                 "end": 30
                             },
@@ -149,7 +149,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                 },
                 "operatorToken": {
                     "kind": 33339,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 33,
                     "end": 36
                 },
@@ -165,7 +165,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 39,
                         "end": 42
                     },
@@ -183,7 +183,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 34623,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 45,
                                 "end": 48
                             },
@@ -201,7 +201,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                         },
                         "operatorToken": {
                             "kind": 134251592,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 51,
                             "end": 53
                         },
@@ -217,7 +217,7 @@ x0 / x1 & x2 >> x3 ^ x4 > x5 - x6 || x7 && x8 != x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 35897,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 57,
                                 "end": 60
                             },

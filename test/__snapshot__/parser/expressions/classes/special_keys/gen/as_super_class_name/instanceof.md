@@ -92,7 +92,7 @@ class x extends instanceof {}
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 15,
                     "end": 26
                 },

@@ -76,7 +76,7 @@ function f() {
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477615,
-                                        "flags": 65,
+                                        "flags": 97,
                                         "start": 30,
                                         "end": 37
                                     },
@@ -93,7 +93,7 @@ function f() {
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 37,
                                     "end": 39
                                 },

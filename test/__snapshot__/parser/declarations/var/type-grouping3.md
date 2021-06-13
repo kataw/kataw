@@ -53,7 +53,7 @@ var a: number & (string | bool)
                                 "types": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 6,
                                         "end": 13
                                     },

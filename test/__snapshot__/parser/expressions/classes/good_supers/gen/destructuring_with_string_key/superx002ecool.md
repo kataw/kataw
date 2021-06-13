@@ -171,7 +171,7 @@ class x extends y {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 62,
                                                             "end": 64
                                                         },

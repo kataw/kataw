@@ -58,13 +58,13 @@ type ten = {
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 25,
                     "end": 28
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -81,7 +81,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 17,
                                 "end": 24
                             },
@@ -97,7 +97,7 @@ type ten = {
                 },
                 "returnType": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 28,
                     "end": 33
                 },
@@ -136,13 +136,13 @@ type ten = {
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 73,
                     "end": 76
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -159,7 +159,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 54,
                                 "end": 61
                             },
@@ -181,7 +181,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 65,
                                 "end": 72
                             },
@@ -197,7 +197,7 @@ type ten = {
                 },
                 "returnType": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 76,
                     "end": 81
                 },
@@ -236,13 +236,13 @@ type ten = {
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 121,
                     "end": 124
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -259,7 +259,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 102,
                                 "end": 109
                             },
@@ -286,7 +286,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 116,
                                 "end": 120
                             },
@@ -302,7 +302,7 @@ type ten = {
                 },
                 "returnType": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 124,
                     "end": 129
                 },
@@ -341,24 +341,24 @@ type ten = {
             },
             "type": {
                 "kind": 261,
-                "arrowToken": null,
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
                     "start": 146,
                     "end": 146
                 },
+                "arrowToken": null,
                 "returnType": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 155,
                         "end": 158
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
@@ -400,7 +400,7 @@ type ten = {
                     },
                     "returnType": {
                         "kind": 138477615,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 158,
                         "end": 163
                     },
@@ -485,7 +485,7 @@ type ten = {
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [
                                     {
@@ -502,7 +502,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 188,
                                             "end": 195
                                         },
@@ -518,7 +518,7 @@ type ten = {
                             },
                             "returnType": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 197,
                                 "end": 202
                             },
@@ -548,7 +548,7 @@ type ten = {
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [
                                     {
@@ -565,7 +565,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 214,
                                             "end": 221
                                         },
@@ -587,7 +587,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 225,
                                             "end": 232
                                         },
@@ -603,7 +603,7 @@ type ten = {
                             },
                             "returnType": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 234,
                                 "end": 239
                             },
@@ -633,7 +633,7 @@ type ten = {
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [
                                     {
@@ -650,7 +650,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 251,
                                             "end": 258
                                         },
@@ -677,7 +677,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234252,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 265,
                                             "end": 269
                                         },
@@ -693,7 +693,7 @@ type ten = {
                             },
                             "returnType": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 271,
                                 "end": 276
                             },
@@ -723,7 +723,7 @@ type ten = {
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [
                                     {
@@ -765,7 +765,7 @@ type ten = {
                             },
                             "returnType": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 295,
                                 "end": 300
                             },

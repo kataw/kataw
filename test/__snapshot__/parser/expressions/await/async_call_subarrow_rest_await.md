@@ -40,7 +40,7 @@ async (a = (...await) => {});
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },

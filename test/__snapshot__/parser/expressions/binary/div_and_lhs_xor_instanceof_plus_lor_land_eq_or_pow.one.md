@@ -39,7 +39,7 @@ typeof x;
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -57,7 +57,7 @@ typeof x;
                             },
                             "operatorToken": {
                                 "kind": 134252103,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 7,
                                 "end": 9
                             },
@@ -73,7 +73,7 @@ typeof x;
                                 },
                                 "operatorToken": {
                                     "kind": 35140,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 15
                                 },
@@ -95,7 +95,7 @@ typeof x;
                         },
                         "operatorToken": {
                             "kind": 134251849,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 18,
                             "end": 20
                         },
@@ -111,7 +111,7 @@ typeof x;
                             },
                             "operatorToken": {
                                 "kind": 4229173,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 23,
                                 "end": 34
                             },
@@ -133,7 +133,7 @@ typeof x;
                     },
                     "operatorToken": {
                         "kind": 99634,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 37,
                         "end": 39
                     },
@@ -151,7 +151,7 @@ typeof x;
                 },
                 "operatorToken": {
                     "kind": 33339,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 42,
                     "end": 45
                 },
@@ -167,7 +167,7 @@ typeof x;
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 48,
                         "end": 51
                     },
@@ -185,7 +185,7 @@ typeof x;
                             },
                             "operatorToken": {
                                 "kind": 34622,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 54,
                                 "end": 57
                             },
@@ -203,7 +203,7 @@ typeof x;
                         },
                         "operatorToken": {
                             "kind": 134251592,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 60,
                             "end": 62
                         },
@@ -219,7 +219,7 @@ typeof x;
                             },
                             "operatorToken": {
                                 "kind": 35897,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 66,
                                 "end": 69
                             },
@@ -257,7 +257,7 @@ typeof x;
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 71,
                     "end": 79
                 },

@@ -152,7 +152,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 34,
                                     "end": 41
                                 },

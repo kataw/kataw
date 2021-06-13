@@ -29,7 +29,7 @@ async in {}
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 5,
                     "end": 8
                 },

@@ -73,7 +73,7 @@ type D32 = {p?: number};
                         },
                         "type": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 19,
                             "end": 26
                         },
@@ -135,7 +135,7 @@ type D32 = {p?: number};
                         "optionalToken": null,
                         "value": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 43,
                             "end": 49
                         },
@@ -321,7 +321,7 @@ type D32 = {p?: number};
                         "optionalToken": null,
                         "value": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 97,
                             "end": 104
                         },
@@ -486,13 +486,13 @@ type D32 = {p?: number};
                             "types": [
                                 {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 147,
                                     "end": 154
                                 },
                                 {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 156,
                                     "end": 163
                                 }
@@ -659,7 +659,7 @@ type D32 = {p?: number};
                         },
                         "value": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 210,
                             "end": 217
                         },
@@ -717,7 +717,7 @@ type D32 = {p?: number};
                         },
                         "type": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 241,
                             "end": 248
                         },
@@ -750,13 +750,13 @@ type D32 = {p?: number};
                             "types": [
                                 {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 253,
                                     "end": 260
                                 },
                                 {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 262,
                                     "end": 269
                                 }
@@ -819,7 +819,7 @@ type D32 = {p?: number};
                         },
                         "type": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 293,
                             "end": 300
                         },
@@ -852,13 +852,13 @@ type D32 = {p?: number};
                             "types": [
                                 {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 305,
                                     "end": 312
                                 },
                                 {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 314,
                                     "end": 321
                                 }
@@ -930,7 +930,7 @@ type D32 = {p?: number};
                         },
                         "value": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 339,
                             "end": 346
                         },

@@ -345,7 +345,7 @@ class I<X> {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 79,
                                                         "end": 81
                                                     },
@@ -391,7 +391,7 @@ class I<X> {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 96,
                                                         "end": 98
                                                     },

@@ -1,7 +1,7 @@
 # 14 ECMAScript Language: Statements and Declarations
 
 ```js
-interface Statements <: Node { }
+interface Statements <: SyntaxNode { }
 ```
 
 ## BlockStatement

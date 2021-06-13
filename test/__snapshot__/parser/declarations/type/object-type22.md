@@ -67,7 +67,7 @@ type a = {function((((-1) => [c|d]))):string};
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
@@ -79,13 +79,13 @@ type a = {function((((-1) => [c|d]))):string};
                                 "kind": 260,
                                 "type": {
                                     "kind": 261,
-                                    "arrowToken": {
+                                    "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 25,
                                         "end": 28
                                     },
-                                    "parameters": {
+                                    "arrowToken": {
                                         "kind": 279,
                                         "parameters": [
                                             {
@@ -96,7 +96,7 @@ type a = {function((((-1) => [c|d]))):string};
                                                     "start": 22,
                                                     "end": 23
                                                 },
-                                                "value": 1,
+                                                "text": 1,
                                                 "flags": 2097216,
                                                 "start": 22,
                                                 "end": 24

@@ -153,7 +153,7 @@ var x, y, z; for (x in [super = 1] = {});
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 29,
                                     "end": 31
                                 },
@@ -181,7 +181,7 @@ var x, y, z; for (x in [super = 1] = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 34,
                     "end": 36
                 },

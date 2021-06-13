@@ -160,7 +160,7 @@ var x, y, z; for (x in [x,y,z] = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 30,
                     "end": 32
                 },

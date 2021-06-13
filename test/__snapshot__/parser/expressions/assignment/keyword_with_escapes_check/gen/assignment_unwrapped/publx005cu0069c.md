@@ -37,7 +37,7 @@ publ\u0069c = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 11,
                     "end": 13
                 },

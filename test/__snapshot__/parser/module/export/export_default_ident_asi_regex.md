@@ -50,7 +50,7 @@ export default x
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 65,
+                        "flags": 97,
                         "start": 16,
                         "end": 18
                     },
@@ -68,7 +68,7 @@ export default x
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 19,
                     "end": 20
                 },

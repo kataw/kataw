@@ -56,7 +56,7 @@ class A extends typeof x {}
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477613,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 15,
                             "end": 22
                         },

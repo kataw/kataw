@@ -105,7 +105,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                             },
                                             "operatorToken": {
                                                 "kind": 99634,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 35,
                                                 "end": 37
                                             },

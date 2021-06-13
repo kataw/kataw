@@ -39,7 +39,7 @@ test !== false ? success() : error()
                     },
                     "operatorToken": {
                         "kind": 34621,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 4,
                         "end": 8
                     },

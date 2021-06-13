@@ -49,24 +49,24 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 51,
                     "end": 54
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
                             "kind": 261,
-                            "arrowToken": {
+                            "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 46,
                                 "end": 48
                             },
-                            "parameters": {
+                            "arrowToken": {
                                 "kind": 279,
                                 "parameters": [
                                     {
@@ -141,19 +141,19 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
                                                     "types": [
                                                         {
                                                             "kind": 134234347,
-                                                            "flags": 64,
+                                                            "flags": 2097216,
                                                             "start": 21,
                                                             "end": 27
                                                         },
                                                         {
                                                             "kind": 261,
-                                                            "arrowToken": {
+                                                            "arrowTypeParameterList": {
                                                                 "kind": 10,
                                                                 "flags": 64,
                                                                 "start": 41,
                                                                 "end": 43
                                                             },
-                                                            "parameters": {
+                                                            "arrowToken": {
                                                                 "kind": 279,
                                                                 "parameters": [
                                                                     {
@@ -175,7 +175,7 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
                                                                         },
                                                                         "types": {
                                                                             "kind": 134234347,
-                                                                            "flags": 64,
+                                                                            "flags": 2097216,
                                                                             "start": 34,
                                                                             "end": 40
                                                                         },

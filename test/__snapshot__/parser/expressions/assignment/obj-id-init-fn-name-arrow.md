@@ -29,7 +29,7 @@ result = { arrow = () => {} } = {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -96,7 +96,7 @@ result = { arrow = () => {} } = {}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 29,
                         "end": 31
                     },

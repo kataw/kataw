@@ -54,7 +54,7 @@ for (a instanceof b;;);
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 17
                 },

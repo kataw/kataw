@@ -29,7 +29,7 @@ result = { x: arrow = () => {} } = {};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -63,7 +63,7 @@ result = { x: arrow = () => {} } = {};
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 19,
                                             "end": 21
                                         },
@@ -117,7 +117,7 @@ result = { x: arrow = () => {} } = {};
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 32,
                         "end": 34
                     },

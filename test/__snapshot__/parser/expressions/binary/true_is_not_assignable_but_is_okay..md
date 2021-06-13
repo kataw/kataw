@@ -27,7 +27,7 @@ true ** a
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 4,
                     "end": 7
                 },

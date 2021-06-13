@@ -1,15 +1,16 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { TypeParameterDeclaration } from './type-parameter-declaration';
+import { FunctionTypeParameterList } from './function-type-parameter-list';
 import { TypeNode } from './';
 
 export interface FunctionType extends SyntaxNode {
-  readonly parameters: any;
+  readonly functionTypeParameterList: FunctionTypeParameterList;
   readonly returnType: TypeNode;
   readonly typeParameters: TypeParameterDeclaration | null;
 }
 
 export function createFunctionType(
-  parameters: any,
+  functionTypeParameterList: FunctionTypeParameterList,
   returnType: TypeNode,
   typeParameters: TypeParameterDeclaration | null,
   start: number,
@@ -17,7 +18,7 @@ export function createFunctionType(
 ): FunctionType {
   return {
     kind: SyntaxKind.FunctionType,
-    parameters,
+    functionTypeParameterList,
     returnType,
     typeParameters,
     flags: NodeFlags.IsTypeNode,

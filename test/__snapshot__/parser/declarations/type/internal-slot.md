@@ -136,7 +136,7 @@ type q = { [[foo]]: X }
                         },
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,

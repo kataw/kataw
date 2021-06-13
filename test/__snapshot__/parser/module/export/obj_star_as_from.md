@@ -81,7 +81,7 @@ export {bar}, * as foo from 'bar';
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 13,
                     "end": 15
                 },

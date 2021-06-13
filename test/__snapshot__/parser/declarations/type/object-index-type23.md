@@ -90,7 +90,7 @@ type X = x & {[x]:string}
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 18,
                                     "end": 24
                                 },

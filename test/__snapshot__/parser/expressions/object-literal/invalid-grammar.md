@@ -43,7 +43,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -126,7 +126,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 19,
                         "end": 21
                     },
@@ -200,7 +200,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 34,
                     "end": 36
                 },
@@ -283,7 +283,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 52,
                         "end": 54
                     },
@@ -327,7 +327,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 60,
                     "end": 62
                 },
@@ -410,7 +410,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 78,
                         "end": 80
                     },
@@ -448,7 +448,7 @@ q = {"foo": super = x} = x;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 88,
                                             "end": 90
                                         },
@@ -471,7 +471,7 @@ q = {"foo": super = x} = x;
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 94,
                                                                 "end": 95
                                                             },
@@ -545,7 +545,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 104,
                     "end": 106
                 },
@@ -628,7 +628,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 122,
                         "end": 124
                     },
@@ -666,7 +666,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 137,
                     "end": 139
                 },
@@ -749,7 +749,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 155,
                         "end": 157
                     },
@@ -785,7 +785,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 165,
                     "end": 167
                 },
@@ -868,7 +868,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 183,
                         "end": 185
                     },
@@ -906,7 +906,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 191,
                     "end": 193
                 },
@@ -989,7 +989,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 209,
                         "end": 211
                     },
@@ -1025,7 +1025,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 220,
                     "end": 222
                 },
@@ -1108,7 +1108,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 238,
                         "end": 240
                     },
@@ -1146,7 +1146,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 245,
                     "end": 247
                 },
@@ -1229,7 +1229,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 263,
                         "end": 265
                     },
@@ -1295,7 +1295,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 280,
                     "end": 282
                 },
@@ -1339,7 +1339,7 @@ q = {"foo": super = x} = x;
                                     },
                                     "operatorToken": {
                                         "kind": 4133,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 292,
                                         "end": 295
                                     },
@@ -1391,7 +1391,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 302,
                     "end": 304
                 },
@@ -1429,7 +1429,7 @@ q = {"foo": super = x} = x;
                                     },
                                     "operatorToken": {
                                         "kind": 4133,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 312,
                                         "end": 315
                                     },
@@ -1481,7 +1481,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 322,
                     "end": 324
                 },
@@ -1505,7 +1505,7 @@ q = {"foo": super = x} = x;
                                     "kind": 127,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 332,
                                         "end": 335
                                     },
@@ -1571,7 +1571,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 341,
                     "end": 343
                 },
@@ -1605,7 +1605,7 @@ q = {"foo": super = x} = x;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 357,
                                             "end": 359
                                         },
@@ -1637,7 +1637,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 362,
                         "end": 364
                     },
@@ -1675,7 +1675,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 369,
                     "end": 371
                 },
@@ -1707,7 +1707,7 @@ q = {"foo": super = x} = x;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 384,
                                             "end": 386
                                         },
@@ -1739,7 +1739,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 389,
                         "end": 391
                     },
@@ -1777,7 +1777,7 @@ q = {"foo": super = x} = x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 396,
                     "end": 398
                 },
@@ -1828,7 +1828,7 @@ q = {"foo": super = x} = x;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 412,
                                             "end": 414
                                         },
@@ -1860,7 +1860,7 @@ q = {"foo": super = x} = x;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 417,
                         "end": 419
                     },

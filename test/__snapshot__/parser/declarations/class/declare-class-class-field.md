@@ -74,7 +74,7 @@ declare class X {
                             "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 22,
                                 "end": 29
                             },
@@ -104,7 +104,7 @@ declare class X {
                             "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 42,
                                 "end": 49
                             },
@@ -129,7 +129,7 @@ declare class X {
                             "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 55,
                                 "end": 62
                             },

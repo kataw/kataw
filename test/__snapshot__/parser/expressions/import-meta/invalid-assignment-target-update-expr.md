@@ -27,7 +27,7 @@ import.meta++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 11,
                     "end": 13
                 },

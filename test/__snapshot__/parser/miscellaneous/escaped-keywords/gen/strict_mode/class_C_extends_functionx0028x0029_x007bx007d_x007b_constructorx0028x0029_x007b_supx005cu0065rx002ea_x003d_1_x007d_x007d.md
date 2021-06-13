@@ -166,7 +166,7 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 60,
                                                         "end": 62
                                                     },

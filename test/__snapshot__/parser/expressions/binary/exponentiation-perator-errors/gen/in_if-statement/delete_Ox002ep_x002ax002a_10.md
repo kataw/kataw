@@ -142,7 +142,7 @@ var O = { p: 1 }, x = 10; ; if (delete O.p ** 10) { foo(); }
                     "kind": 126,
                     "operandToken": {
                         "kind": 4259886,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 32,
                         "end": 38
                     },
@@ -174,7 +174,7 @@ var O = { p: 1 }, x = 10; ; if (delete O.p ** 10) { foo(); }
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 42,
                     "end": 45
                 },

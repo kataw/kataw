@@ -63,7 +63,7 @@ function g(x: any): string {
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 13,
                                 "end": 17
                             },
@@ -108,7 +108,7 @@ function g(x: any): string {
                                 },
                                 "operatorToken": {
                                     "kind": 33047,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 39,
                                     "end": 42
                                 },
@@ -142,7 +142,7 @@ function g(x: any): string {
                 "kind": 139,
                 "type": {
                     "kind": 134234347,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 19,
                     "end": 26
                 },

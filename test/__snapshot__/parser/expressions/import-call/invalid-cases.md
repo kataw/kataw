@@ -1506,7 +1506,7 @@ new import(x);
                 "kind": 126,
                 "operandToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 419,
                     "end": 420
                 },

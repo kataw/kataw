@@ -49,13 +49,13 @@ type X = (x.y) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 14,
                     "end": 17
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 144,
                     "id": {
                         "kind": 145,

@@ -69,7 +69,7 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 9,
                     "end": 12
                 },
@@ -145,7 +145,7 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4126,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 32,
                     "end": 36
                 },
@@ -221,7 +221,7 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4136,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 55,
                     "end": 58
                 },
@@ -297,7 +297,7 @@ for ({}[y] ^= x;;) x;
                 },
                 "operatorToken": {
                     "kind": 4135,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 78,
                     "end": 81
                 },

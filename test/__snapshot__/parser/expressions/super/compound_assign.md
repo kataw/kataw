@@ -62,7 +62,7 @@ foo?.bar *= x
                 },
                 "operatorToken": {
                     "kind": 4132,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 8,
                     "end": 11
                 },

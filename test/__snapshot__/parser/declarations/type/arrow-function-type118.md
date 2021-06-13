@@ -48,8 +48,8 @@ type a = (&1,|2&3, ['string']) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": null,
-                "parameters": {
+                "arrowTypeParameterList": null,
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -69,7 +69,7 @@ type a = (&1,|2&3, ['string']) => T;
                             "end": 12
                         },
                         {
-                            "kind": 149,
+                            "kind": 284,
                             "ellipsisToken": null,
                             "name": null,
                             "optionalToken": null,
@@ -110,7 +110,7 @@ type a = (&1,|2&3, ['string']) => T;
                     "elementTypes": [
                         {
                             "kind": 134217967,
-                            "value": "string",
+                            "text": "string",
                             "flags": 2097216,
                             "start": 20,
                             "end": 28

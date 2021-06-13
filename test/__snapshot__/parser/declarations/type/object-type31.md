@@ -67,7 +67,7 @@ type x = { get (): string }
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
@@ -77,7 +77,7 @@ type x = { get (): string }
                             },
                             "returnType": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 18,
                                 "end": 25
                             },

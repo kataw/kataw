@@ -29,7 +29,7 @@ result = [ x = 'x' in {} ] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -52,7 +52,7 @@ result = [ x = 'x' in {} ] = vals;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 12,
                                         "end": 14
                                     },
@@ -68,7 +68,7 @@ result = [ x = 'x' in {} ] = vals;
                                         },
                                         "operatorToken": {
                                             "kind": 21006388,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 18,
                                             "end": 21
                                         },
@@ -106,7 +106,7 @@ result = [ x = 'x' in {} ] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 26,
                         "end": 28
                     },

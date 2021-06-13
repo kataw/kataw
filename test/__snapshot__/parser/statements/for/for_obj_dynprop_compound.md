@@ -63,7 +63,7 @@ for ({}.u |= c;;) x;
                 },
                 "operatorToken": {
                     "kind": 4136,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 9,
                     "end": 12
                 },

@@ -49,13 +49,13 @@ type X = (x | y, z: string) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 27,
                     "end": 30
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -119,7 +119,7 @@ type X = (x | y, z: string) => T;
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 19,
                                 "end": 26
                             },

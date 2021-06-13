@@ -70,7 +70,7 @@ type C = Obj['bar'][foo]['boz'];
                         },
                         "indexType": {
                             "kind": 134217967,
-                            "value": "bar",
+                            "text": "bar",
                             "flags": 2097216,
                             "start": 13,
                             "end": 18
@@ -100,7 +100,7 @@ type C = Obj['bar'][foo]['boz'];
                 },
                 "indexType": {
                     "kind": 134217967,
-                    "value": "boz",
+                    "text": "boz",
                     "flags": 2097216,
                     "start": 25,
                     "end": 30

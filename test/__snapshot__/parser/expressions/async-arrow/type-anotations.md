@@ -70,7 +70,7 @@ async (...[x]?: string, a?) => {};
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 10,
                             "end": 17
                         },
@@ -156,7 +156,7 @@ async (...[x]?: string, a?) => {};
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 38,
                             "end": 45
                         },
@@ -250,7 +250,7 @@ async (...[x]?: string, a?) => {};
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 69,
                             "end": 76
                         },
@@ -344,7 +344,7 @@ async (...[x]?: string, a?) => {};
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 100,
                             "end": 107
                         },
@@ -373,7 +373,7 @@ async (...[x]?: string, a?) => {};
                         "kind": 139,
                         "type": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 111,
                             "end": 118
                         },
@@ -464,7 +464,7 @@ async (...[x]?: string, a?) => {};
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 140,
                             "end": 147
                         },
@@ -563,7 +563,7 @@ async (...[x]?: string, a?) => {};
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 172,
                             "end": 179
                         },

@@ -62,7 +62,7 @@ async () => (await 5) ** 6;
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 21,
                     "end": 24
                 },

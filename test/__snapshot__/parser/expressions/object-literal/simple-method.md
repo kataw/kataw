@@ -32,7 +32,7 @@ x = { method(test: string) { } };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -130,7 +130,7 @@ x = { method(test: string) { } };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 28,
                     "end": 30
                 },

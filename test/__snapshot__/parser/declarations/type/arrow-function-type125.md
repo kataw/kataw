@@ -49,13 +49,13 @@ type a = (|1,symbol['string']) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 30,
                     "end": 33
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -75,7 +75,7 @@ type a = (|1,symbol['string']) => T;
                             "end": 12
                         },
                         {
-                            "kind": 149,
+                            "kind": 284,
                             "ellipsisToken": null,
                             "name": null,
                             "optionalToken": null,
@@ -89,7 +89,7 @@ type a = (|1,symbol['string']) => T;
                                 },
                                 "indexType": {
                                     "kind": 134217967,
-                                    "value": "string",
+                                    "text": "string",
                                     "flags": 2097216,
                                     "start": 20,
                                     "end": 28

@@ -49,14 +49,8 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 65,
-                    "end": 68
-                },
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [
                         {
                             "kind": 149,
@@ -88,7 +82,7 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                         "types": [
                                             {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 16,
                                                 "end": 23
                                             },
@@ -114,14 +108,8 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                     },
                                     {
                                         "kind": 261,
-                                        "arrowToken": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 59,
-                                            "end": 62
-                                        },
-                                        "parameters": {
-                                            "kind": 282,
+                                        "arrowTypeParameterList": {
+                                            "kind": 279,
                                             "parameters": [
                                                 {
                                                     "kind": 149,
@@ -153,7 +141,7 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                                                 "types": [
                                                                     {
                                                                         "kind": 134234347,
-                                                                        "flags": 64,
+                                                                        "flags": 2097216,
                                                                         "start": 39,
                                                                         "end": 46
                                                                     },
@@ -207,6 +195,12 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                                             "start": 33,
                                             "end": 58
                                         },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 59,
+                                            "end": 62
+                                        },
                                         "returnType": {
                                             "kind": 144,
                                             "id": {
@@ -241,6 +235,12 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
                     "flags": 2097152,
                     "start": 10,
                     "end": 64
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 65,
+                    "end": 68
                 },
                 "returnType": {
                     "kind": 144,

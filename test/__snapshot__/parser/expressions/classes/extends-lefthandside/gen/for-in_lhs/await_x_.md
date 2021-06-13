@@ -52,7 +52,7 @@ x; in x) ;
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 13,
                     "end": 16
                 },

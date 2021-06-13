@@ -75,7 +75,7 @@ declare class A { static foo(): number; static x : string }
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
-                                "parameters": {
+                                "functionTypeParameterList": {
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
@@ -85,7 +85,7 @@ declare class A { static foo(): number; static x : string }
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 31,
                                     "end": 38
                                 },
@@ -120,7 +120,7 @@ declare class A { static foo(): number; static x : string }
                             "optionalToken": null,
                             "value": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 50,
                                 "end": 57
                             },

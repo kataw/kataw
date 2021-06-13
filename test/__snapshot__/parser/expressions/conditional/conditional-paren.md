@@ -55,7 +55,7 @@ a ? (1 + 2) : (3 + 4)
                         },
                         "operatorToken": {
                             "kind": 99634,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 6,
                             "end": 8
                         },
@@ -95,7 +95,7 @@ a ? (1 + 2) : (3 + 4)
                         },
                         "operatorToken": {
                             "kind": 99634,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 16,
                             "end": 18
                         },

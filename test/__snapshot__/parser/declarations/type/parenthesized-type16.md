@@ -60,7 +60,7 @@ type Foo = (string | number)
                         },
                         {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 20,
                             "end": 27
                         }

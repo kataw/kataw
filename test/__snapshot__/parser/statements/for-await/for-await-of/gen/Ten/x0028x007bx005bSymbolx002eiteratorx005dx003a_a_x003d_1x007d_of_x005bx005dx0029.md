@@ -133,7 +133,7 @@ await ({[Symbol.iterator]: a = 1} of []) ; }
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 67,
                                                     "end": 69
                                                 },

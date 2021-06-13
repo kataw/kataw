@@ -111,7 +111,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 37,
                                                                             "end": 39
                                                                         },

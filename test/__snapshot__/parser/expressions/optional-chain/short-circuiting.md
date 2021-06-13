@@ -61,7 +61,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                             "kind": 128,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 4,
                                                 "end": 6
                                             },
@@ -147,7 +147,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 37,
                                     "end": 39
                                 },
@@ -230,7 +230,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                             "kind": 128,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 84,
                                                 "end": 86
                                             },
@@ -316,7 +316,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 125,
                                     "end": 127
                                 },

@@ -71,7 +71,7 @@ x({a=b}=c);
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 7,
                                 "end": 8
                             },

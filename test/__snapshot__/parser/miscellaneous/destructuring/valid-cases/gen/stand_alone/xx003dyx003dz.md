@@ -37,7 +37,7 @@ x=y=z
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 2
                 },
@@ -53,7 +53,7 @@ x=y=z
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 3,
                         "end": 4
                     },

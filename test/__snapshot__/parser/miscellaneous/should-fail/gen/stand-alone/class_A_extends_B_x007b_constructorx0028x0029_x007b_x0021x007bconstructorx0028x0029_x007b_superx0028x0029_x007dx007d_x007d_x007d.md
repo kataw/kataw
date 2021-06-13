@@ -109,7 +109,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 65584,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 35,
                                                         "end": 37
                                                     },

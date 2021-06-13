@@ -57,7 +57,7 @@ async x => (delete) = 1
                             "kind": 126,
                             "operandToken": {
                                 "kind": 4259886,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 18
                             },
@@ -78,7 +78,7 @@ async x => (delete) = 1
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 19,
                         "end": 21
                     },

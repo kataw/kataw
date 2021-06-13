@@ -81,7 +81,7 @@ do {} while (x) { =! class function try while with foo!
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 19,
                     "end": 20
                 },
@@ -239,7 +239,7 @@ do {} while (x) { =! class function try while with foo!
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 54,
                             "end": 55
                         },

@@ -52,7 +52,7 @@ let tuple1: [number] = [1];
                                 "elementTypes": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 13,
                                         "end": 19
                                     }

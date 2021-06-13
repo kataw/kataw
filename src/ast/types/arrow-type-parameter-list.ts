@@ -1,13 +1,13 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { FunctionTypeParameter } from './function-type-parameter';
+import { ArrowTypeParameter } from './arrow-type-parameter';
 
 export interface ArrowTypeParameterList extends SyntaxNode {
-  readonly parameters: readonly FunctionTypeParameter[];
+  readonly parameters: readonly ArrowTypeParameter[];
   readonly trailingComma: boolean;
 }
 
 export function createArrowTypeParameterList(
-  parameters: readonly FunctionTypeParameter[],
+  parameters: readonly ArrowTypeParameter[],
   trailingComma: boolean,
   start: number,
   end: number

@@ -72,7 +72,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 12,
                                                         "end": 19
                                                     },
@@ -89,7 +89,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 21,
                                             "end": 28
                                         },

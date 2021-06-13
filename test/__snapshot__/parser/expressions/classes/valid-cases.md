@@ -44,7 +44,7 @@ x = class {y = 1; 'z' = 2}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -162,7 +162,7 @@ x = class {y = 1; 'z' = 2}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 29,
                     "end": 31
                 },
@@ -326,7 +326,7 @@ x = class {y = 1; 'z' = 2}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 59,
                     "end": 61
                 },
@@ -509,7 +509,7 @@ x = class {y = 1; 'z' = 2}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 98,
                     "end": 100
                 },
@@ -692,7 +692,7 @@ x = class {y = 1; 'z' = 2}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 137,
                     "end": 139
                 },

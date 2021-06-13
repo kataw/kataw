@@ -51,7 +51,7 @@ var x = typ\u0065of 'blah'
                             "kind": 126,
                             "operandToken": {
                                 "kind": 138477613,
-                                "flags": 16448,
+                                "flags": 16480,
                                 "start": 7,
                                 "end": 19
                             },

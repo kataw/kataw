@@ -58,7 +58,7 @@ type x = [-1];
                             "start": 10,
                             "end": 11
                         },
-                        "value": 1,
+                        "text": 1,
                         "flags": 2097216,
                         "start": 10,
                         "end": 12

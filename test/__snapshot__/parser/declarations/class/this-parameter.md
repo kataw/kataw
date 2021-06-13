@@ -89,7 +89,7 @@ class two {
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
-                                "parameters": {
+                                "functionTypeParameterList": {
                                     "kind": 282,
                                     "parameters": [
                                         {
@@ -106,7 +106,7 @@ class two {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 30,
                                                 "end": 37
                                             },
@@ -122,7 +122,7 @@ class two {
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 39,
                                     "end": 44
                                 },
@@ -152,7 +152,7 @@ class two {
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
-                                "parameters": {
+                                "functionTypeParameterList": {
                                     "kind": 282,
                                     "parameters": [
                                         {
@@ -169,7 +169,7 @@ class two {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 56,
                                                 "end": 63
                                             },
@@ -191,7 +191,7 @@ class two {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 67,
                                                 "end": 74
                                             },
@@ -207,7 +207,7 @@ class two {
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 76,
                                     "end": 81
                                 },
@@ -237,7 +237,7 @@ class two {
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
-                                "parameters": {
+                                "functionTypeParameterList": {
                                     "kind": 282,
                                     "parameters": [
                                         {
@@ -254,7 +254,7 @@ class two {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 93,
                                                 "end": 100
                                             },
@@ -281,7 +281,7 @@ class two {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234252,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 107,
                                                 "end": 111
                                             },
@@ -297,7 +297,7 @@ class two {
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 113,
                                     "end": 118
                                 },
@@ -327,7 +327,7 @@ class two {
                             "optionalToken": null,
                             "value": {
                                 "kind": 148,
-                                "parameters": {
+                                "functionTypeParameterList": {
                                     "kind": 282,
                                     "parameters": [
                                         {
@@ -369,7 +369,7 @@ class two {
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 137,
                                     "end": 142
                                 },
@@ -483,7 +483,7 @@ class two {
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 169,
                                                     "end": 176
                                                 },
@@ -564,7 +564,7 @@ class two {
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 192,
                                                     "end": 199
                                                 },
@@ -653,7 +653,7 @@ class two {
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 218,
                                                     "end": 225
                                                 },
@@ -757,7 +757,7 @@ class two {
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 247,
                                                     "end": 254
                                                 },

@@ -179,7 +179,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                 },
                                                                                 "operatorToken": {
                                                                                     "kind": 99634,
-                                                                                    "flags": 64,
+                                                                                    "flags": 96,
                                                                                     "start": 83,
                                                                                     "end": 85
                                                                                 },

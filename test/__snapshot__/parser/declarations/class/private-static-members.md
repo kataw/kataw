@@ -323,7 +323,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4130,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 99,
                                                         "end": 102
                                                     },
@@ -370,7 +370,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4130,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 114,
                                                         "end": 117
                                                     },

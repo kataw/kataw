@@ -84,7 +84,7 @@ var foo2: {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 21,
                                                         "end": 28
                                                     },
@@ -101,7 +101,7 @@ var foo2: {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 30,
                                             "end": 37
                                         },
@@ -130,7 +130,7 @@ var foo2: {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134217967,
-                                                        "value": "order",
+                                                        "text": "order",
                                                         "flags": 2097216,
                                                         "start": 49,
                                                         "end": 57
@@ -148,7 +148,7 @@ var foo2: {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 59,
                                             "end": 66
                                         },
@@ -177,7 +177,7 @@ var foo2: {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134217967,
-                                                        "value": "content",
+                                                        "text": "content",
                                                         "flags": 2097216,
                                                         "start": 78,
                                                         "end": 88
@@ -195,7 +195,7 @@ var foo2: {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 90,
                                             "end": 97
                                         },
@@ -224,7 +224,7 @@ var foo2: {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134217967,
-                                                        "value": "done",
+                                                        "text": "done",
                                                         "flags": 2097216,
                                                         "start": 109,
                                                         "end": 116
@@ -242,7 +242,7 @@ var foo2: {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 118,
                                             "end": 125
                                         },
@@ -323,7 +323,7 @@ var foo2: {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 152,
                                                         "end": 159
                                                     },
@@ -340,7 +340,7 @@ var foo2: {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 161,
                                             "end": 168
                                         },
@@ -369,7 +369,7 @@ var foo2: {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134217967,
-                                                        "value": "order",
+                                                        "text": "order",
                                                         "flags": 2097216,
                                                         "start": 180,
                                                         "end": 188
@@ -387,7 +387,7 @@ var foo2: {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 190,
                                             "end": 197
                                         },
@@ -416,7 +416,7 @@ var foo2: {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134217967,
-                                                        "value": "order",
+                                                        "text": "order",
                                                         "flags": 2097216,
                                                         "start": 209,
                                                         "end": 217
@@ -434,7 +434,7 @@ var foo2: {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 219,
                                             "end": 226
                                         },
@@ -463,7 +463,7 @@ var foo2: {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134217967,
-                                                        "value": "done",
+                                                        "text": "done",
                                                         "flags": 2097216,
                                                         "start": 238,
                                                         "end": 245
@@ -481,7 +481,7 @@ var foo2: {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 247,
                                             "end": 254
                                         },

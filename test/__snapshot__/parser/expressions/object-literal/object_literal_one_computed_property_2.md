@@ -107,7 +107,7 @@ x({[a]:b, [15]:d}=obj);
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 17,
                                 "end": 18
                             },

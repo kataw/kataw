@@ -49,19 +49,19 @@ type a = () => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 11,
-                    "end": 14
-                },
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
                     "start": 10,
                     "end": 10
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
                 },
                 "returnType": {
                     "kind": 144,

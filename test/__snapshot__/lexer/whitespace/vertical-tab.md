@@ -35,7 +35,7 @@ left|right
                 },
                 "operatorToken": {
                     "kind": 134251592,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 4,
                     "end": 5
                 },

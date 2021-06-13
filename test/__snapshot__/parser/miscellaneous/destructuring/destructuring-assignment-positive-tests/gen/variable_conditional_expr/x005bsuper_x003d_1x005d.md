@@ -201,7 +201,7 @@ var x, y, z; m(['b']) ? lhs : [super = 1] = {}
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 36,
                                         "end": 38
                                     },
@@ -229,7 +229,7 @@ var x, y, z; m(['b']) ? lhs : [super = 1] = {}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 41,
                         "end": 43
                     },

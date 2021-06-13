@@ -54,7 +54,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 8,
                                 "end": 15
                             },

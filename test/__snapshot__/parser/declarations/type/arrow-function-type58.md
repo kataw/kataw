@@ -49,13 +49,13 @@ let a: ([-1] | x | q & (x)) => T;
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 27,
                                     "end": 30
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -72,7 +72,7 @@ let a: ([-1] | x | q & (x)) => T;
                                                                 "start": 9,
                                                                 "end": 10
                                                             },
-                                                            "value": 1,
+                                                            "text": 1,
                                                             "flags": 2097216,
                                                             "start": 9,
                                                             "end": 11

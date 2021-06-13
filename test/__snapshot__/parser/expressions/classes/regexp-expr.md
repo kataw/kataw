@@ -22,7 +22,7 @@ typeof class{}
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },

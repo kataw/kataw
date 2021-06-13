@@ -104,7 +104,7 @@ var C = class { async method() {
                                                                     "kind": 126,
                                                                     "operandToken": {
                                                                         "kind": 138477615,
-                                                                        "flags": 65,
+                                                                        "flags": 97,
                                                                         "start": 32,
                                                                         "end": 41
                                                                     },

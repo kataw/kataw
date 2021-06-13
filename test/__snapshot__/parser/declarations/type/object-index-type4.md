@@ -64,13 +64,13 @@ type x = { [x:string]:string }
                         },
                         "key": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 14,
                             "end": 20
                         },
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 22,
                             "end": 28
                         },

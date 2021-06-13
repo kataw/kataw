@@ -54,7 +54,7 @@ async ([x: string = y, z: number]) =>  {};
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 25,
                                         "end": 32
                                     },
@@ -83,7 +83,7 @@ async ([x: string = y, z: number]) =>  {};
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 10,
                                         "end": 17
                                     },

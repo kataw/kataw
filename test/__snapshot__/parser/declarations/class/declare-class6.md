@@ -61,7 +61,7 @@ declare function foo(): void;
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 23,
                     "end": 28
                 },

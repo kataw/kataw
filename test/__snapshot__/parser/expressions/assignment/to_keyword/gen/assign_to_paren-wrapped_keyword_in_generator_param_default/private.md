@@ -81,7 +81,7 @@ function *f(x = (private) = f) {}
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 25,
                                 "end": 27
                             },

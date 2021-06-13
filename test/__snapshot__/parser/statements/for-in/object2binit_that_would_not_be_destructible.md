@@ -61,7 +61,7 @@ for ({a: x + y} = z in obj);
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 12
                                     },
@@ -93,7 +93,7 @@ for ({a: x + y} = z in obj);
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 15,
                     "end": 17
                 },
@@ -109,7 +109,7 @@ for ({a: x + y} = z in obj);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 19,
                         "end": 22
                     },

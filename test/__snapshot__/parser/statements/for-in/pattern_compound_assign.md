@@ -60,7 +60,7 @@ for({}/=y in y)x
                 },
                 "operatorToken": {
                     "kind": 4133,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -76,7 +76,7 @@ for({}/=y in y)x
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 9,
                         "end": 12
                     },

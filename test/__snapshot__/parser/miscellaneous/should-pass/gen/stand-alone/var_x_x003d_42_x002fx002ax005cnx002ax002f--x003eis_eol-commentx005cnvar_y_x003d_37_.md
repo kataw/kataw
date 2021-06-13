@@ -76,7 +76,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "kind": 128,
                     "operandToken": {
                         "kind": 196636,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 11,
                         "end": 19
                     },
@@ -93,7 +93,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 19,
                     "end": 20
                 },
@@ -127,7 +127,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                 },
                 "operatorToken": {
                     "kind": 134318643,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 26,
                     "end": 27
                 },
@@ -175,7 +175,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 41,
                     "end": 43
                 },

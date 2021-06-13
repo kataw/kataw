@@ -41,7 +41,7 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -130,7 +130,7 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 23,
                     "end": 25
                 },
@@ -219,7 +219,7 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 42,
                     "end": 44
                 },
@@ -308,7 +308,7 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 61,
                     "end": 63
                 },
@@ -484,7 +484,7 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 107,
                     "end": 109
                 },
@@ -579,7 +579,7 @@ x = { method(test) { } }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 130,
                     "end": 132
                 },

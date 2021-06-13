@@ -44,7 +44,7 @@ x[y] = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -92,7 +92,7 @@ x[y] = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 10,
                     "end": 12
                 },
@@ -140,7 +140,7 @@ x[y] = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 20,
                     "end": 22
                 },
@@ -187,7 +187,7 @@ x[y] = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 29,
                     "end": 31
                 },
@@ -236,7 +236,7 @@ x[y] = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 38,
                     "end": 40
                 },
@@ -277,7 +277,7 @@ x[y] = 0;
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 46,
                                     "end": 48
                                 },
@@ -305,7 +305,7 @@ x[y] = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 51,
                     "end": 53
                 },
@@ -366,7 +366,7 @@ x[y] = 0;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 63,
                     "end": 65
                 },
@@ -429,7 +429,7 @@ x[y] = 0;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 76,
                         "end": 78
                     },
@@ -498,7 +498,7 @@ x[y] = 0;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 91,
                         "end": 93
                     },
@@ -556,7 +556,7 @@ x[y] = 0;
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 104,
                                             "end": 106
                                         },
@@ -588,7 +588,7 @@ x[y] = 0;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 109,
                         "end": 111
                     },

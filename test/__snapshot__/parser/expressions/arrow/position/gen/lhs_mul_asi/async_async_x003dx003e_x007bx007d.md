@@ -85,7 +85,7 @@ async async => {}
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 17,
                     "end": 19
                 },

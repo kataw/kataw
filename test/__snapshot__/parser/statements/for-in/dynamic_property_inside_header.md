@@ -64,7 +64,7 @@ for (x[a in b] in y);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 8,
                         "end": 11
                     },

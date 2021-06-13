@@ -32,7 +32,7 @@ async (x--, y) => x;
                         "kind": 127,
                         "operandToken": {
                             "kind": 196636,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },

@@ -64,7 +64,7 @@ async x => (instanceof) = 1
                             },
                             "operatorToken": {
                                 "kind": 4229173,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 22
                             },
@@ -85,7 +85,7 @@ async x => (instanceof) = 1
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 23,
                         "end": 25
                     },

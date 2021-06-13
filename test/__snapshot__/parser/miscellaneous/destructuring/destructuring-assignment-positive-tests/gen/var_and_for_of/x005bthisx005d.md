@@ -130,7 +130,7 @@ var x, y, z; for (x of x = [this] = z = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 24,
                     "end": 26
                 },
@@ -159,7 +159,7 @@ var x, y, z; for (x of x = [this] = z = {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 33,
                         "end": 35
                     },
@@ -175,7 +175,7 @@ var x, y, z; for (x of x = [this] = z = {});
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 37,
                             "end": 39
                         },

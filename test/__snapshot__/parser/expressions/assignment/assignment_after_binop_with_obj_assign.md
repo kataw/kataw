@@ -57,7 +57,7 @@ for(x in(t&{}=y))x
                     },
                     "operatorToken": {
                         "kind": 134252103,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 10,
                         "end": 11
                     },
@@ -79,7 +79,7 @@ for(x in(t&{}=y))x
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 13,
                             "end": 14
                         },

@@ -85,7 +85,7 @@ function *foo() { let x = {yield} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 25,
                                         "end": 27
                                     },
@@ -300,7 +300,7 @@ function *foo() { let x = {yield} }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 96,
                                         "end": 98
                                     },

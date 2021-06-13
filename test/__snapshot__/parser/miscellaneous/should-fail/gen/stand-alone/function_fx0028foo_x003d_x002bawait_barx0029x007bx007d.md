@@ -62,7 +62,7 @@ function f(foo = +await bar){}
                             "kind": 126,
                             "operandToken": {
                                 "kind": 99634,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 16,
                                 "end": 18
                             },

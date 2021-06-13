@@ -391,7 +391,8 @@ export enum SyntaxKind {
   SubtractionType = 271,
   BigIntLiteral = 201392400,
   ProtoKeyword = 16873,
-  ArrowTypeParameterList = 279
+  ArrowTypeParameterList = 279,
+  ArrowTypeParameter = 284
 }
 
 export function tokenToString(node: any): string {

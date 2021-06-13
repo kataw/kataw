@@ -134,7 +134,7 @@ label: for (let x = 0; x < 10;) {
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 39,
                         "end": 41
                     },
@@ -161,7 +161,7 @@ label: for (let x = 0; x < 10;) {
                                     "kind": 127,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 52,
                                         "end": 54
                                     },
@@ -187,7 +187,7 @@ label: for (let x = 0; x < 10;) {
                                     "kind": 127,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 63,
                                         "end": 65
                                     },

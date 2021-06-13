@@ -49,13 +49,13 @@ type a = (?"string" | y) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 24,
                     "end": 27
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
@@ -71,7 +71,7 @@ type a = (?"string" | y) => T;
                                     },
                                     "type": {
                                         "kind": 134217967,
-                                        "value": "string",
+                                        "text": "string",
                                         "flags": 2097216,
                                         "start": 11,
                                         "end": 19

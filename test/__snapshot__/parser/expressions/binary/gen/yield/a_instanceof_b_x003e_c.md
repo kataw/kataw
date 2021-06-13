@@ -89,7 +89,7 @@ function *f() {
                                         },
                                         "operatorToken": {
                                             "kind": 4229173,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 36
                                         },
@@ -107,7 +107,7 @@ function *f() {
                                     },
                                     "operatorToken": {
                                         "kind": 34883,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 38,
                                         "end": 40
                                     },

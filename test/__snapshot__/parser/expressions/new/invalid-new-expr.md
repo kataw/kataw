@@ -117,7 +117,7 @@ new foo ++;
                     "kind": 128,
                     "operandToken": {
                         "kind": 196635,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 30,
                         "end": 33
                     },
@@ -148,7 +148,7 @@ new foo ++;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 46,
                     "end": 49
                 },

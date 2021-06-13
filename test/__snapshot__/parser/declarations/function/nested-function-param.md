@@ -194,7 +194,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 59,
                                     "end": 63
                                 },
@@ -256,7 +256,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 84,
                                     "end": 88
                                 },

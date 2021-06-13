@@ -48,7 +48,7 @@ x => ok++
                     "kind": 127,
                     "operandToken": {
                         "kind": 196635,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 7,
                         "end": 9
                     },

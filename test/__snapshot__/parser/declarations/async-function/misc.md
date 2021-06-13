@@ -275,7 +275,7 @@ function test1() {
                                                             "kind": 139,
                                                             "type": {
                                                                 "kind": 134234345,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 124,
                                                                 "end": 131
                                                             },
@@ -331,7 +331,7 @@ function test1() {
                                                             "kind": 139,
                                                             "type": {
                                                                 "kind": 134234347,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 156,
                                                                 "end": 163
                                                             },

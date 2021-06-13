@@ -687,7 +687,7 @@ class c9 {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 485,
                                     "end": 492
                                 },
@@ -878,7 +878,7 @@ class c9 {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 654,
                                     "end": 661
                                 },
@@ -1120,7 +1120,7 @@ class c9 {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 876,
                                     "end": 883
                                 },
@@ -1362,7 +1362,7 @@ class c9 {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 1065,
                                     "end": 1072
                                 },

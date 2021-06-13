@@ -95,7 +95,7 @@ foo:for(;;)continue foo
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 65,
+                        "flags": 97,
                         "start": 23,
                         "end": 25
                     },
@@ -113,7 +113,7 @@ foo:for(;;)continue foo
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 28,
                     "end": 29
                 },

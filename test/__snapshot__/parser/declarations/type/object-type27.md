@@ -79,7 +79,7 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                                             "optionalToken": null,
                                             "value": {
                                                 "kind": 148,
-                                                "parameters": {
+                                                "functionTypeParameterList": {
                                                     "kind": 282,
                                                     "parameters": [],
                                                     "trailingComma": false,
@@ -188,7 +188,7 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                             },
                             "operatorToken": {
                                 "kind": 134251592,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 35,
                                 "end": 36
                             },

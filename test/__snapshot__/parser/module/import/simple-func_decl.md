@@ -171,7 +171,7 @@ x@{x9}@+@{x9}@y
                 "kind": 126,
                 "operandToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 7,
                     "end": 8
                 },

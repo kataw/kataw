@@ -47,23 +47,23 @@ type Fn0 = () => number;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 13,
-                    "end": 16
-                },
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
                     "start": 12,
                     "end": 12
                 },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 13,
+                    "end": 16
+                },
                 "returnType": {
                     "kind": 134234345,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 16,
                     "end": 23
                 },

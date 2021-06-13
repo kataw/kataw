@@ -60,7 +60,7 @@ function f(){ return --a; }
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196636,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 20,
                                     "end": 23
                                 },

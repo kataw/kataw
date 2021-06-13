@@ -124,7 +124,7 @@ var x, y, z; ([this] = {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 20,
                         "end": 22
                     },

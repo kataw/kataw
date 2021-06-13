@@ -51,24 +51,24 @@ type a = (((| x, )=> T) => T);
                 "kind": 260,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 23,
                         "end": 26
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 18,
                                     "end": 20
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {

@@ -78,7 +78,7 @@ f((async (a, b) => a + b));
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 20,
                                         "end": 22
                                     },

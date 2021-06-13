@@ -45,7 +45,7 @@ if ( a / b + c ) ;
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 6,
                         "end": 8
                     },
@@ -63,7 +63,7 @@ if ( a / b + c ) ;
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 10,
                     "end": 12
                 },

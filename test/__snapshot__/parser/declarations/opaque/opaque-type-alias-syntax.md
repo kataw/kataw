@@ -56,7 +56,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             "superType": null,
             "impltype": {
                 "kind": 134234347,
-                "flags": 64,
+                "flags": 2097216,
                 "start": 25,
                 "end": 32
             },
@@ -115,7 +115,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         "optionalToken": null,
                         "value": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 73,
                             "end": 80
                         },
@@ -140,7 +140,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         "optionalToken": null,
                         "value": {
                             "kind": 148,
-                            "parameters": {
+                            "functionTypeParameterList": {
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
@@ -150,7 +150,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                             },
                             "returnType": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 93,
                                 "end": 100
                             },

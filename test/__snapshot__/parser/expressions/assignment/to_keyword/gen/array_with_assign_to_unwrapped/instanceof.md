@@ -60,7 +60,7 @@ async x => instanceof = 1
                     },
                     "operatorToken": {
                         "kind": 4229173,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 10,
                         "end": 21
                     },

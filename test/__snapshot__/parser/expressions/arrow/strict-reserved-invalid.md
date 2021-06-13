@@ -45,7 +45,7 @@ new package => x
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 7,
                     "end": 8
                 },
@@ -92,7 +92,7 @@ new package => x
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 16,
                     "end": 18
                 },
@@ -118,7 +118,7 @@ new package => x
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 25,
                     "end": 26
                 },
@@ -151,7 +151,7 @@ new package => x
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 31,
                     "end": 34
                 },
@@ -166,7 +166,7 @@ new package => x
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 34,
                         "end": 35
                     },
@@ -193,7 +193,7 @@ new package => x
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 45,
                                 "end": 47
                             },
@@ -236,7 +236,7 @@ new package => x
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
-                                            "flags": 65,
+                                            "flags": 97,
                                             "start": 65,
                                             "end": 68
                                         },
@@ -310,7 +310,7 @@ new package => x
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 80,
                     "end": 83
                 },

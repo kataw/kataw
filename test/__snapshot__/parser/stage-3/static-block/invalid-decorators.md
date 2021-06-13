@@ -171,7 +171,7 @@ class C {
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 58,
                                                     "end": 60
                                                 },

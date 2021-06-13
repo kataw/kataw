@@ -114,7 +114,7 @@ var C = class { static async *gen() {
                                                                     "kind": 126,
                                                                     "operandToken": {
                                                                         "kind": 138477615,
-                                                                        "flags": 65,
+                                                                        "flags": 97,
                                                                         "start": 37,
                                                                         "end": 46
                                                                     },

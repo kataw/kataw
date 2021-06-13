@@ -83,7 +83,7 @@ var {x}: {x: string; } = { x: "hello" };
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 12,
                                             "end": 19
                                         },

@@ -90,7 +90,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                     },
                                                     "type": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 17,
                                                         "end": 23
                                                     },
@@ -160,24 +160,24 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": null,
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 44,
                                     "end": 44
                                 },
+                                "arrowToken": null,
                                 "returnType": {
                                     "kind": 261,
-                                    "arrowToken": {
+                                    "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 50,
                                         "end": 53
                                     },
-                                    "parameters": {
+                                    "arrowToken": {
                                         "kind": 279,
                                         "parameters": [
                                             {
@@ -310,24 +310,24 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": null,
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 74,
                                     "end": 74
                                 },
+                                "arrowToken": null,
                                 "returnType": {
                                     "kind": 261,
-                                    "arrowToken": {
+                                    "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 90,
                                         "end": 93
                                     },
-                                    "parameters": {
+                                    "arrowToken": {
                                         "kind": 279,
                                         "parameters": [
                                             {
@@ -504,7 +504,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "kind": 136,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 104,
                                     "end": 111
                                 },
@@ -567,7 +567,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 124,
                                         "end": 130
                                     },
@@ -716,48 +716,48 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 168,
-                                    "end": 171
-                                },
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 167,
                                     "end": 167
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 168,
+                                    "end": 171
+                                },
                                 "returnType": {
                                     "kind": 137,
                                     "types": [
                                         {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 171,
                                             "end": 178
                                         },
                                         {
                                             "kind": 261,
-                                            "arrowToken": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 183,
-                                                "end": 186
-                                            },
-                                            "parameters": {
-                                                "kind": 282,
+                                            "arrowTypeParameterList": {
+                                                "kind": 279,
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
                                                 "start": 182,
                                                 "end": 182
                                             },
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 183,
+                                                "end": 186
+                                            },
                                             "returnType": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 186,
                                                 "end": 193
                                             },
@@ -935,7 +935,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     },
                                     {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 240,
                                         "end": 247
                                     }
@@ -1029,7 +1029,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 267,
                                             "end": 274
                                         },

@@ -64,13 +64,13 @@ type T = Array<(string) => number>
                             "kind": 267,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 23,
                                     "end": 26
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 134234347,
                                     "flags": 64,
                                     "start": 16,
@@ -78,7 +78,7 @@ type T = Array<(string) => number>
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 26,
                                     "end": 33
                                 },

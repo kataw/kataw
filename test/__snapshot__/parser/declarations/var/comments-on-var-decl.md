@@ -303,7 +303,7 @@ n4 = z2;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 604,
                     "end": 606
                 },
@@ -508,7 +508,7 @@ n4 = z2;
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 953,
                                             "end": 960
                                         },
@@ -537,7 +537,7 @@ n4 = z2;
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 964,
                                             "end": 971
                                         },
@@ -565,7 +565,7 @@ n4 = z2;
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 977,
                                     "end": 979
                                 },
@@ -625,13 +625,13 @@ n4 = z2;
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 1022,
                                     "end": 1025
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -648,7 +648,7 @@ n4 = z2;
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 1014,
                                                 "end": 1021
                                             },
@@ -664,7 +664,7 @@ n4 = z2;
                                 },
                                 "returnType": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 1025,
                                     "end": 1032
                                 },
@@ -763,13 +763,13 @@ n4 = z2;
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 1068,
                                     "end": 1071
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -786,7 +786,7 @@ n4 = z2;
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 1060,
                                                 "end": 1067
                                             },
@@ -802,7 +802,7 @@ n4 = z2;
                                 },
                                 "returnType": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 1071,
                                     "end": 1078
                                 },
@@ -843,7 +843,7 @@ n4 = z2;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1082,
                     "end": 1084
                 },

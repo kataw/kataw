@@ -142,7 +142,7 @@ type T = { [string]: Class<null> }
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 31,
                                                     "end": 37
                                                 },
@@ -165,7 +165,7 @@ type T = { [string]: Class<null> }
                                     "kind": 139,
                                     "type": {
                                         "kind": 138477615,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 39,
                                         "end": 43
                                     },
@@ -447,7 +447,7 @@ type T = { [string]: Class<null> }
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234252,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 135,
                                                     "end": 139
                                                 },
@@ -586,7 +586,7 @@ type T = { [string]: Class<null> }
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234347,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 176,
                                                     "end": 182
                                                 },
@@ -609,7 +609,7 @@ type T = { [string]: Class<null> }
                                     "kind": 139,
                                     "type": {
                                         "kind": 138477615,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 184,
                                         "end": 188
                                     },
@@ -707,7 +707,7 @@ type T = { [string]: Class<null> }
                                         "kind": 267,
                                         "type": {
                                             "kind": 138477575,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 223,
                                             "end": 227
                                         },

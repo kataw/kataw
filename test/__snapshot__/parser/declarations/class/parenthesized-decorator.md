@@ -274,7 +274,7 @@ class Foo {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 69,
                                                             "end": 71
                                                         },

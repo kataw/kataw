@@ -125,23 +125,23 @@ function e(x: {}): () => string {
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 21,
-                        "end": 24
-                    },
-                    "parameters": {
-                        "kind": 282,
+                    "arrowTypeParameterList": {
+                        "kind": 279,
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 20,
                         "end": 20
                     },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 21,
+                        "end": 24
+                    },
                     "returnType": {
                         "kind": 134234347,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 24,
                         "end": 31
                     },

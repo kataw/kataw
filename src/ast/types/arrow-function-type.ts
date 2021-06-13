@@ -1,18 +1,19 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { TypeParameterDeclaration } from './type-parameter-declaration';
+import { ArrowTypeParameterList } from './arrow-type-parameter-list';
 import { TypeNode } from './';
 
 export interface ArrowFunctionType extends SyntaxNode {
+  readonly arrowTypeParameterList: ArrowTypeParameterList;
   readonly arrowToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly parameters: any;
   readonly returnType: TypeNode;
   readonly typeParameters: TypeParameterDeclaration | null;
 }
 
 export function createArrowFunctionType(
+  arrowTypeParameterList: ArrowTypeParameterList,
   arrowToken: SyntaxToken<TokenSyntaxKind> | null,
-  parameters: any,
   returnType: TypeNode,
   typeParameters: TypeParameterDeclaration | null,
   start: number,
@@ -20,8 +21,8 @@ export function createArrowFunctionType(
 ): ArrowFunctionType {
   return {
     kind: SyntaxKind.ArrowFunctionType,
+    arrowTypeParameterList,
     arrowToken,
-    parameters,
     returnType,
     typeParameters,
     flags: NodeFlags.IsTypeNode,

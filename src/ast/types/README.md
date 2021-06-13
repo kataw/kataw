@@ -1,7 +1,7 @@
-# Typescript
+# Types
 
 ```js
-interface TypeNode <: Node { }
+interface TypeNode <: SyntaxNode { }
 ```
 
 ### ArrayType
@@ -13,118 +13,37 @@ interface ArrayType <: TypeNode {
 }
 ```
 
-### BigIntKeyword
+### ArrowFunctionType
 
 ```js
-interface BigIntKeyword <: TypeNode {
-  kind: NodeKind.BigIntKeyword;
+interface ArrowFunctionType <: TypeNode {
+  kind: NodeKind.ArrowFunctionType;
+  arrowTypeParameterList: ArrowTypeParameterList;
+  arrowToken: SyntaxToken<TokenSyntaxKind> | null;
+  returnType: TypeNode;
+  typeParameters: TypeParameterDeclaration | null;
 }
 ```
 
-### BigIntType
+### ArrowTypeParameterList
 
 ```js
-interface BigIntType <: TypeNode {
-  kind: NodeKind.BigIntType;
-  text: string;
-  rawText: string;
+interface ArrowTypeParameterList <: TypeNode {
+ kind: NodeKind.ArrowTypeParameterList;
+ parameters: ArrowTypeParameter[];
+ trailingComma: boolean;
 }
 ```
 
-### BooleanKeyword
+### ArrowTypeParameter
 
 ```js
-interface BooleanKeyword <: TypeNode {
-  kind: NodeKind.BooleanKeyword;
-}
-```
-
-### ConditionalType
-
-```js
-interface ConditionalType <: TypeNode {
-  kind: NodeKind.ConditionalType;
-  checkType: TypeNode;
-  extendsType: TypeNode;
-  trueType: TypeNode;
-  falseType: TypeNode;
-}
-```
-
-### ConstructSignatureDeclaration
-
-```js
-interface ConstructSignatureDeclaration  <: TypeNode {
-  kind: NodeKind.ConstructSignatureDeclaration;
-  typeParameters: TypeParameters;
-  accessModifiers: AccessModifiers;
-  parameters: Parameters;
-  returnType: TypeNode | null;
-}
-```
-
-### ConstructorType
-
-```js
-interface ConstructorType <: TypeNode {
-  kind: NodeKind.ConstructorType;
-  accessModifiers: AccessModifiers;
-  typeParameters: TypeParameters;
-  parameters: Parameters;
-  returnType: TypeNode | null;
-}
-```
-
-### AbstractConstructorType
-
-```js
-interface AbstractConstructorType <: TypeNode {
-  kind: NodeKind.AbstractConstructorType;
-  accessModifiers: AccessModifiers;
-  typeParameters: TypeParameters;
-  parameters: Parameters;
-  returnType: TypeNode | null;
-}
-```
-
-### EnumDeclaration
-
-```js
-interface EnumDeclaration <: TypeNode {
-  kind: NodeKind.EnumDeclaration;
-  name: IdentifierReference;
-  members: EnumMembersList;
-  isConst: boolean;
-}
-```
-
-### EnumMember
-
-```js
-interface EnumMember <: TypeNode {
-  kind: NodeKind.EnumMember;
-  name: PropertyName;
-  initializer: Expression | null;
-  parent: EnumMembersList | null;
-}
-```
-
-### EnumMembersList
-
-```js
-interface EnumMembersList <: TypeNode {
-  kind: NodeKind.EnumMembersList;
-  enumMembersList: [ EnumMember ];
-}
-```
-
-### FalseType
-
-```js
-interface FalseType <: TypeNode {
-  kind: NodeKind.FalseType;
-   value: string;
-  rawValue: string;
+interface ArrowTypeParameter <: TypeNode {
+ kind: NodeKind.ArrowTypeParameter;
+ ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
+ name: Identifier;
+ optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+ types: TypeNode | null;
 }
 ```
 
@@ -133,69 +52,32 @@ interface FalseType <: TypeNode {
 ```js
 interface FunctionType <: TypeNode {
   kind: NodeKind.FunctionType;
-  typeParameters: TypeParameters;
-  parameters: Parameters;
-  returnType: TypeNode | null;
+  arrowTypeParameterList: FunctionTypeParameterList;
+  arrowToken: SyntaxToken<TokenSyntaxKind> | null;
+  returnType: TypeNode;
+  typeParameters: TypeParameterDeclaration | null;
 }
 ```
 
-### HeritageClause
+### FunctionTypeParameterList
 
 ```js
-interface HeritageClause <: TypeNode {
-  kind: NodeKind.HeritageClause;
-  type: TypeNode;
+interface FunctionTypeParameterList <: TypeNode {
+ kind: NodeKind.FunctionTypeParameterList;
+ parameters: FunctionTypeParameter[];
+ trailingComma: boolean;
 }
 ```
 
-### HeritageClauses
+### FunctionTypeParameter
 
 ```js
-interface HeritageClauses <: TypeNode {
- kind: NodeKind.HeritageClauses;
- clauses: [ HeritageClause ];
-}
-```
-
-### ImplementClause
-
-```js
-interface ImplementClause <: TypeNode {
-  kind: NodeKind.ImplementClause;
-  type: TypeNode;
-}
-```
-
-### ImplementClauses
-
-```js
-interface ImplementClauses <: TypeNode {
- kind: NodeKind.ImplementClauses;
- clauses: [ HeritageClause ];
-}
-```
-
-### ImportType
-
-```js
-interface ImportType <: TypeNode {
-  kind: NodeKind.ImportType;
-  isTypeOf: boolean;
-  argument: TypeNode;
-  qualifier: IdentifierReference | QualifiedName | null;
-  typeArguments: TypeArguments | null;
-}
-```
-
-### IndexSignature
-
-```js
-interface IndexSignature <: TypeNode {
-  kind: NodeKind.IndexSignature;
-  parameters: Parameters;
-  type: TypeNode | null;
-  isReadOnly: boolean;
-  accessModifiers: AccessModifiers;
+interface FunctionTypeParameter <: TypeNode {
+ kind: NodeKind.FunctionTypeParameter;
+ ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
+ name: Identifier;
+ optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+ types: TypeNode | null;
 }
 ```
 
@@ -209,172 +91,117 @@ interface IndexedAccessType <: TypeNode {
 }
 ```
 
-### InferType
-
-```js
-interface InferType <: TypeNode {
-  kind: NodeKind.InferType;
-  typeParameter: TypeParameter;
-}
-```
-
-### InterfaceDeclaration
-
-```js
-interface InterfaceDeclaration <: TypeNode {
-  kind: NodeKind.InterfaceDeclaration;
-  name: string | IdentifierReference;
-  typeParameters: TypeParameters;
-  heritageClauses: HeritageClauses | null;
-  objectTypeMembers: ObjectTypeMembers;
-  isDeclared: boolean;
-  isExported: boolean;
-}
-```
-
-### IntersectionType
-
-```js
-interface IntersectionType <: TypeNode {
-  kind: NodeKind.IntersectionType;
-  types: [ TypeNode ];
-}
-```
-
-### MappedType
-
-```js
-interface MappedType <: TypeNode {
-  kind: NodeKind.MappedType;
-  typeParameter: TypeParameter;
-  nameType: TypeNode | null;
-  isReadOnly: boolean;
-  plus: boolean;
-  minus: boolean;
-  isOptional: boolean;
-  type: TypeNode | null;
-}
-```
-
-### MethodSignature
-
-```js
-interface MethodSignature <: TypeNode {
-  kind: NodeKind.MethodSignature;
-  name: PropertyName;
-  isOptional: boolean;
-  isReadOnly: boolean;
-  accessModifiers: AccessModifiers;
-  typeParameters: TypeParameters;
-  parameters: Parameters;
-  returnType: TypeNode | null;
-}
-```
-
-### MinusType
-
-```js
-interface MinusType <: TypeNode {
-  kind: NodeKind.MinusType;
-  expression: UnaryExpression;
-}
-```
-
-### NamedTupleMember
-
-```js
-interface NamedTupleMember <: TypeNode {
-  kind: NodeKind.NamedTupleMember;
-  ellipsis: boolean;
-  name: IdentifierReference;
-  isOptional: boolean;
-  type: TypeNode;
-}
-```
-
-### NeverKeyword
-
-```js
-interface  NeverKeyword <: TypeNode {
-  kind: NodeKind.NeverKeyword;
-}
-```
-
-### NullKeyword
-
-```js
-interface NullKeyword <: TypeNode {
-  kind: NodeKind.NullKeyword;
-}
-```
-
-### NumberKeyword
-
-```js
-interface NumberKeyword <: TypeNode {
-  kind: NodeKind.NumberKeyword;
-}
-```
-
 ### NumberType
 
 ```js
 interface NumberType <: TypeNode {
   kind: NodeKind.NumberType;
-  text: string;
-  rawText: string;
-}
-
-```
-
-### ObjectKeyword
-
-```js
-interface ObjectKeyword <: TypeNode {
-  kind: NodeKind.ObjectKeyword;
+  text: number;
 }
 ```
 
-### ObjectTypeMembers
+### NullableType
 
 ```js
-interface ObjectTypeMembers <: TypeNode {
-  kind: NodeKind.ObjectTypeMembers;
-  members: [ CallSignatureDeclaration | ConstructSignatureDeclaration | PropertySignature | IndexSignature ];
+interface NullableType <: TypeNode {
+  kind: NodeKind.NullableType;
+  nullableToken: SyntaxToken<TokenSyntaxKind>;
+  type: TypeNode;
 }
 ```
 
-### OptionalType
+### ObjectTypeCallProperty
 
 ```js
-interface OptionalType <: TypeNode {
-  kind: NodeKind.OptionalType;
-  valueType: TypeNode;
+interface ObjectTypeCallProperty <: TypeNode {
+  kind: NodeKind.ObjectTypeCallProperty;
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  typeParameter: TypeParameterDeclaration | null;
+  kind: SyntaxKind.ObjectTypeCallProperty;
+  value: TypeNode;
+  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  returnType: TypeNode;
 }
 ```
 
-### ParameterDeclaration
+### ObjectTypeIndexer
 
 ```js
-interface ParameterDeclaration  <: TypeNode {
-  kind: NodeKind.ParameterDeclaration;
-  ellipsis: boolean;
-  binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier;
-  isOptional: boolean;
-  isReadOnly: boolean;
-  type: TypeNode | null;
-  initializer: AssignmentExpression | null;
-  accessModifiers: AccessModifiers;
+interface ObjectTypeIndexer <: TypeNode {
+  kind: NodeKind.ObjectTypeIndexer;
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null;
+  key: TypeNode;
+  type: TypeNode;
+  staticToken: SyntaxToken<TokenSyntaxKind> | null;
 }
 ```
 
-
-### Parameters
+### ObjectTypeInternalSlot
 
 ```js
-interface Parameters <: TypeNode {
-  kind: NodeKind.Parameters;
-  parameterList: [ ParameterDeclaration ];
+interface ObjectTypeInternalSlot <: TypeNode {
+  kind: NodeKind.ObjectTypeInternalSlot;
+   kind: SyntaxKind.ObjectTypeInternalSlot;
+  /* error recovery */
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
+  value: TypeNode;
+  optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+}
+```
+
+### ObjectTypeProperty
+
+```js
+interface ObjectTypeProperty <: TypeNode {
+  kind: NodeKind.ObjectTypeProperty;
+  getKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  setKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
+  optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+  value: TypeNode;
+}
+```
+
+### ObjectTypeSpreadProperty
+
+```js
+interface ObjectTypeSpreadProperty <: TypeNode {
+  kind: NodeKind.ObjectTypeSpreadProperty;
+  protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  ellipsisToken: SyntaxToken<TokenSyntaxKind>;
+  kind: SyntaxKind.ObjectTypeSpreadProperty;
+  type: TypeNode;
+  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+}
+```
+
+###  ObjectType
+
+```js
+interface  ObjectType <: TypeNode {
+  kind: NodeKind. ObjectType;
+  properties: any[];
+  trailingComma: boolean;
+}
+```
+
+### OpaqueType
+
+```js
+interface OpaqueType <: TypeNode {
+  kind: NodeKind.OpaqueType;
+  declareToken: SyntaxToken<TokenSyntaxKind> | null;
+  opaqueToken: SyntaxToken<TokenSyntaxKind> | null;
+  typeToken: SyntaxToken<TokenSyntaxKind>;
+  name: Identifier | DummyIdentifier;
+  typeParameters: TypeParameterDeclaration | null;
+  superType: TypeNode | null;
+  impltype: TypeNode | null;
 }
 ```
 
@@ -383,48 +210,17 @@ interface Parameters <: TypeNode {
 ```js
 interface ParenthesizedType <: TypeNode {
   kind: NodeKind.ParenthesizedType;
-  type: TypeNode;
+  ttype: TypeNode;
 }
 ```
 
-### PropertySignature
+### QualifiedType
 
 ```js
-interface PropertySignature <: TypeNode {
-  kind: NodeKind.PropertySignature;
-  name: PropertyName;
-  isOptional: boolean;
-  type: TypeNode | null;
-  isReadOnly: boolean;
-  accessModifiers: AccessModifiers;
-  initializer: Expression | null;
-}
-```
-
-### QualifiedName
-
-```js
-interface QualifiedName <: TypeNode {
-  kind: NodeKind.QualifiedName;
-  left: IdentifierReference | IdentifierName | QualifiedName;
-  right: IdentifierName;
-}
-```
-
-### RestType
-
-```js
-interface RestType <: TypeNode {
-  kind: NodeKind.RestType;
-  type: TypeNode;
-}
-```
-
- ### StringKeyword
-
-```js
-interface StringKeyword <: TypeNode {
-  kind: NodeKind.StringKeyword;
+interface QualifiedType <: TypeNode {
+  kind: NodeKind.QualifiedType;
+  qualification: Identifier | DummyIdentifier | QualifiedType;
+  id: Identifier | DummyIdentifier;
 }
 ```
 
@@ -434,54 +230,16 @@ interface StringKeyword <: TypeNode {
 interface StringType <: TypeNode {
   kind: NodeKind.StringType;
   text: string;
-  rawText: string;
 }
 ```
 
-### SymbolKeyword
+### SubtractionType
 
 ```js
-interface SymbolKeyword <: TypeNode {
-  kind: NodeKind.SymbolKeyword;
-}
-```
-
-### TemplateType
-
-```js
-interface TemplateType <: TypeNode {
-  kind: NodeKind.TemplateType;
-  spans: TemplateTypeSpan[];
-  tail: TemplateTail;
-}
-```
-
-### TemplateTypeSpan
-
-```js
-interface TemplateTypeSpan <: TypeNode {
-  kind: NodeKind.TemplateTypeSpan;
-  type: TypeNode,
-  rawText: string,
-  text: string,
-}
-```
-
-### ThisType
-
-```js
-interface ThisType <: TypeNode {
-  kind: NodeKind.ThisType;
-}
-```
-
-### TrueType
-
-```js
-interface TrueType <: TypeNode {
-  kind: NodeKind.TrueType;
-  text: string;
-  rawText: string;
+interface SubtractionType <: TypeNode {
+ kind: NodeKind.SubtractionType;
+ subtractionToken: SyntaxToken<TokenSyntaxKind>;
+ text: number;
 }
 ```
 
@@ -490,68 +248,58 @@ interface TrueType <: TypeNode {
 ```js
 interface TupleType <: TypeNode {
   kind: NodeKind.TupleType;
-  elementTypes: [ TypeNode ];
+  elementTypes: TypeNode[];
+  trailingComma: boolean;
 }
 ```
 
-### TypeAliasDeclaration
+### TypeAlias
 
 ```js
-interface TypeAliasDeclaration <: TypeNode {
-  kind: NodeKind.TypeAliasDeclaration;
-  name: IdentifierReference;
+interface TypeAlias <: TypeNode {
+  kind: NodeKind.TypeAlias;
+  declareToken: SyntaxToken<TokenSyntaxKind> | null;
+  typeToken: SyntaxToken<TokenSyntaxKind>;
+  name: Identifier;
+  typeParameters: TypeParameterDeclaration | null;
+  assignToken: SyntaxToken<TokenSyntaxKind>;
   type: TypeNode;
-  typeParameters: TypeParameters;
-  isDeclared: boolean;
-  isExported: boolean;
 }
 ```
 
-### TypeArguments
+### TypeAnnotation
 
 ```js
-interface TypeArguments <: TypeNode {
-  kind: NodeKind.TypeArguments;
-  typeArgumentsList: [ TypeNode ];
-}
-```
-
-### TypeAssertion
-
-```js
-interface TypeAssertion <: TypeNode {
-  kind: NodeKind.TypeAssertion;
+interface TypeAnnotation <: TypeNode {
+  kind: NodeKind.TypeAnnotation;
   type: TypeNode;
-  expression: UnaryExpression;
 }
 ```
 
-### TypeLiteral
+### TypeParameterDeclaration
 
 ```js
-interface TypeLiteral <: TypeNode {
-  kind: NodeKind.TypeLiteral;
-  objectTypeMembers: ObjectTypeMembers;
+interface TypeParameterDeclaration <: TypeNode {
+  kind: NodeKind.TypeParameterDeclaration;
+  typeParameters: TypeParameter[];
 }
 ```
 
-
-### TypeOperator
+### TypeParameterInstantiation
 
 ```js
-interface TypeOperator <: TypeNode {
-  kind: NodeKind.TypeOperator;
-  operator: TypeOperators;
+interface TypeParameterInstantiation <: TypeNode {
+  kind: NodeKind.TypeParameterInstantiation;
   type: TypeNode | null;
 }
 ```
 
-### TypeParameters
+### TypeParameterInstantiationList
 
 ```js
-interface TypeParameters <: TypeNode {
-  kind: NodeKind.TypeParameters;
-  typeParameterList: [ TypeParameter ];
+interface TypeParameterInstantiationList  <: TypeNode {
+  kind: NodeKind.TypeParameterInstantiationList ;
+  parameters: TypeParameterInstantiation[];
 }
 ```
 
@@ -560,30 +308,8 @@ interface TypeParameters <: TypeNode {
 ```js
 interface TypeParameter <: TypeNode {
   kind: NodeKind.TypeParameter;
-  name: string | IdentifierReference;
-  constraint: TypeNode | null;
-  defaultType: TypeNode | null;
-}
-```
-
-### TypePredicate
-
-```js
-interface TypePredicate <: TypeNode {
-  kind: NodeKind.TypePredicate;
-  asserts: boolean;
-  parameterName: IdentifierReference | ThisType;
   type: TypeNode | null;
-}
-```
-
-
-### TypeQuery
-
-```js
-interface TypeQuery <: TypeNode {
-  kind: NodeKind.TypeQuery;
-  exprName: IdentifierReference | QualifiedName;
+  defaultType: TypeNode | null;
 }
 ```
 
@@ -592,70 +318,26 @@ interface TypeQuery <: TypeNode {
 ```js
 interface TypeReference <: TypeNode {
   kind: NodeKind.TypeReference;
-  typeName: IdentifierReference | string | QualifiedName;
-  typeArguments: TypeArguments;
+  id: Identifier | DummyIdentifier;
+  typeParameters: TypeParameterInstantiationList | null;
 }
 ```
 
-### UndefinedKeyword
+### TypeofType
 
 ```js
-interface UndefinedKeyword <: TypeNode {
-  kind: NodeKind.UndefinedKeyword;
+interface TypeofType <: TypeNode {
+  kind: NodeKind.TypeofType;
+  typeOfKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  type: TypeNode;
 }
 ```
-
 
 ### UnionType
 
 ```js
 interface UnionType <: TypeNode {
   kind: NodeKind.UnionType;
-}
-```
-
-### UnknownKeyword
-
-```js
-interface UnknownKeyword <: TypeNode {
-  kind: NodeKind.UnknownKeyword;
-}
-```
-
-### VoidKeyword
-
-```js
-interface VoidKeyword <: TypeNode {
-  kind: NodeKind. VoidKeyword;
-}
-```
-
-### FunctionTypeParameterList
-
-```js
-interface FunctionTypeParameterList <: TypeNode {
-  kind: NodeKind. FunctionTypeParameterList;
-  functionTypeParameterList: readonly FunctionTypeParameter[];
-  trailingComma: boolean;
-}
-```
-
-### FunctionTypeParameter
-
-```js
-interface FunctionTypeParameter <: TypeNode {
-  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
-  name: Identifier;
-  optionalToken: SyntaxToken<TokenSyntaxKind> | null;
-  typeAnnotation: TypeNode;
-}
-```
-
-### GenericType
-
-```js
-interface GenericType <: TypeNode {
-  id: any;
-  typeParameters: TypeParameter | null;
+  types: readonly TypeNode[];
 }
 ```

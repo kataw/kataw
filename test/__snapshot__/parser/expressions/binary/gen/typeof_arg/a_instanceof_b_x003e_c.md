@@ -33,7 +33,7 @@ typeof a instanceof b > c
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477613,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 0,
                             "end": 6
                         },
@@ -51,7 +51,7 @@ typeof a instanceof b > c
                     },
                     "operatorToken": {
                         "kind": 4229173,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 8,
                         "end": 19
                     },
@@ -69,7 +69,7 @@ typeof a instanceof b > c
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 21,
                     "end": 23
                 },

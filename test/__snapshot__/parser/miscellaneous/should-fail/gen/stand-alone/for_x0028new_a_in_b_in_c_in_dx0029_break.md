@@ -72,7 +72,7 @@ for (new a in b in c in d) break
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 15,
                         "end": 18
                     },
@@ -90,7 +90,7 @@ for (new a in b in c in d) break
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 20,
                     "end": 23
                 },

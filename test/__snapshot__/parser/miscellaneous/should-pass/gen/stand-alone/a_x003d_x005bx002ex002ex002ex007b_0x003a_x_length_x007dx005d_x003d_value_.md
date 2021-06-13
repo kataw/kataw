@@ -37,7 +37,7 @@ a = [...{ 0: x, length }] = value;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -118,7 +118,7 @@ a = [...{ 0: x, length }] = value;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 25,
                         "end": 27
                     },

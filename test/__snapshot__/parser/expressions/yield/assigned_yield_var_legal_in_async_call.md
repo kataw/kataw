@@ -40,7 +40,7 @@ async (x = z = yield)
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
@@ -56,7 +56,7 @@ async (x = z = yield)
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 14
                             },

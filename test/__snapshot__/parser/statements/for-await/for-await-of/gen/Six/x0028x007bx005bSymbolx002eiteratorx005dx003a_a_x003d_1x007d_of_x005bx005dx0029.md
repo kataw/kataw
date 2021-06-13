@@ -137,7 +137,7 @@ async function * f() { 'use strict'; for await ({[Symbol.iterator]: a = 1} of []
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 69,
                                                     "end": 71
                                                 },

@@ -104,7 +104,7 @@ async function foo(a, b) { await a + await b };
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 34,
                                     "end": 36
                                 },

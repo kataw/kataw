@@ -50,7 +50,7 @@ type T1 = number;
             },
             "type": {
                 "kind": 134234347,
-                "flags": 64,
+                "flags": 2097216,
                 "start": 9,
                 "end": 16
             },
@@ -84,7 +84,7 @@ type T1 = number;
             },
             "type": {
                 "kind": 134234345,
-                "flags": 64,
+                "flags": 2097216,
                 "start": 27,
                 "end": 34
             },

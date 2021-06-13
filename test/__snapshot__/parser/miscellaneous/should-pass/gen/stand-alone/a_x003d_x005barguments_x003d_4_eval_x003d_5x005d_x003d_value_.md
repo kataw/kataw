@@ -37,7 +37,7 @@ a = [arguments = 4, eval = 5] = value;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -60,7 +60,7 @@ a = [arguments = 4, eval = 5] = value;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 16
                                     },
@@ -88,7 +88,7 @@ a = [arguments = 4, eval = 5] = value;
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 24,
                                         "end": 26
                                     },
@@ -116,7 +116,7 @@ a = [arguments = 4, eval = 5] = value;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 29,
                         "end": 31
                     },

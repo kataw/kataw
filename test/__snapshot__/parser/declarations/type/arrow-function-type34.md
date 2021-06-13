@@ -49,13 +49,13 @@ type a = (a[a & b][c | d][{a():string}][][][]) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 46,
                     "end": 49
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 136,
                     "type": {
                         "kind": 136,
@@ -186,7 +186,7 @@ type a = (a[a & b][c | d][{a():string}][][][]) => T;
                                             "optionalToken": null,
                                             "value": {
                                                 "kind": 148,
-                                                "parameters": {
+                                                "functionTypeParameterList": {
                                                     "kind": 282,
                                                     "parameters": [],
                                                     "trailingComma": false,
@@ -196,7 +196,7 @@ type a = (a[a & b][c | d][{a():string}][][][]) => T;
                                                 },
                                                 "returnType": {
                                                     "kind": 134234347,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 31,
                                                     "end": 37
                                                 },

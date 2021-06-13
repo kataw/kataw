@@ -72,7 +72,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 12,
                                                         "end": 19
                                                     },
@@ -89,7 +89,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 138477615,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 21,
                                             "end": 26
                                         },

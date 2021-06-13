@@ -130,7 +130,7 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 24,
                     "end": 26
                 },
@@ -174,7 +174,7 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 42,
                                             "end": 44
                                         },
@@ -206,7 +206,7 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 48,
                         "end": 50
                     },
@@ -222,7 +222,7 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 52,
                             "end": 54
                         },

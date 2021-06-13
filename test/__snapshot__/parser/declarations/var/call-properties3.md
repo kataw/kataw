@@ -97,7 +97,7 @@ var z : Object = (x) => "hi"
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 79,
                                             "end": 86
                                         },
@@ -395,7 +395,7 @@ var z : Object = (x) => "hi"
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 304,
                     "end": 306
                 },
@@ -460,7 +460,7 @@ var z : Object = (x) => "hi"
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 329,
                                             "end": 336
                                         },
@@ -548,7 +548,7 @@ var z : Object = (x) => "hi"
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 357,
                                                         "end": 364
                                                     },
@@ -565,7 +565,7 @@ var z : Object = (x) => "hi"
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 366,
                                             "end": 373
                                         },
@@ -706,7 +706,7 @@ var z : Object = (x) => "hi"
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 468,
                                                         "end": 475
                                                     },
@@ -723,7 +723,7 @@ var z : Object = (x) => "hi"
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 477,
                                             "end": 484
                                         },
@@ -836,7 +836,7 @@ var z : Object = (x) => "hi"
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 550,
                                                         "end": 557
                                                     },
@@ -853,7 +853,7 @@ var z : Object = (x) => "hi"
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 559,
                                             "end": 566
                                         },
@@ -988,7 +988,7 @@ var z : Object = (x) => "hi"
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 634,
                                             "end": 641
                                         },
@@ -1101,7 +1101,7 @@ var z : Object = (x) => "hi"
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234252,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 709,
                                                         "end": 713
                                                     },
@@ -1118,7 +1118,7 @@ var z : Object = (x) => "hi"
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 138477615,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 715,
                                             "end": 720
                                         },
@@ -1361,7 +1361,7 @@ var z : Object = (x) => "hi"
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 138477615,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 812,
                                             "end": 817
                                         },
@@ -1420,7 +1420,7 @@ var z : Object = (x) => "hi"
                                                 },
                                                 "operatorToken": {
                                                     "kind": 67143222,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 832,
                                                     "end": 834
                                                 },

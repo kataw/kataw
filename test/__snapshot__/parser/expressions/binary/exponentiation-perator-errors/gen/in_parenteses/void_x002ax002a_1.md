@@ -138,7 +138,7 @@ var O = { p: 1 }, x = 10; ; (void ** 1)
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477615,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 29,
                             "end": 33
                         },
@@ -155,7 +155,7 @@ var O = { p: 1 }, x = 10; ; (void ** 1)
                     },
                     "operatorToken": {
                         "kind": 35897,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 33,
                         "end": 36
                     },

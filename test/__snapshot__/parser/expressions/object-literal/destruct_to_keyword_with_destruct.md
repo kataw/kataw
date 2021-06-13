@@ -29,7 +29,7 @@ s = {s: true = x} = x
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -61,7 +61,7 @@ s = {s: true = x} = x
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 14
                                         },
@@ -93,7 +93,7 @@ s = {s: true = x} = x
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     },

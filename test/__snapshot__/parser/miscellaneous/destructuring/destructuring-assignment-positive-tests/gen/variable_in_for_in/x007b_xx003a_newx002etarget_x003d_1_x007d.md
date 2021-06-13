@@ -157,7 +157,7 @@ var x, y, z; for (x in { x: new.target = 1 } = {});
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 38,
                                         "end": 40
                                     },
@@ -189,7 +189,7 @@ var x, y, z; for (x in { x: new.target = 1 } = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 44,
                     "end": 46
                 },

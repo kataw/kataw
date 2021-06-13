@@ -87,7 +87,7 @@ function *f() { yield
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 25
                                         },
@@ -105,7 +105,7 @@ function *f() { yield
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 26,
                                         "end": 27
                                     },

@@ -422,7 +422,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 659,
                     "end": 661
                 },
@@ -448,7 +448,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 127,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 664,
                     "end": 666
                 },
@@ -474,7 +474,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 667,
                     "end": 777
                 },
@@ -500,7 +500,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 128,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 779,
                     "end": 782
                 },
@@ -566,7 +566,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 1057,
                         "end": 1059
                     },
@@ -666,7 +666,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 1076,
                         "end": 1078
                     },
@@ -775,7 +775,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 1096,
                         "end": 1098
                     },
@@ -879,7 +879,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 1112,
                         "end": 1114
                     },
@@ -932,7 +932,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1122,
                     "end": 1124
                 },
@@ -972,7 +972,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1313,
                     "end": 1315
                 },
@@ -1033,7 +1033,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1429,
                     "end": 1431
                 },
@@ -1094,7 +1094,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1441,
                     "end": 1443
                 },
@@ -1151,7 +1151,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "operatorToken": {
                         "kind": 4130,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 1452,
                         "end": 1455
                     },
@@ -1210,7 +1210,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4132,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1464,
                     "end": 1467
                 },
@@ -1250,7 +1250,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4133,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1473,
                     "end": 1476
                 },
@@ -1347,7 +1347,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1762,
                     "end": 1764
                 },
@@ -1429,7 +1429,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1777,
                     "end": 1779
                 },
@@ -1496,7 +1496,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1960,
                     "end": 1962
                 },
@@ -1576,7 +1576,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1977,
                     "end": 1979
                 },
@@ -2818,7 +2818,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 65584,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 3262,
                                                         "end": 3264
                                                     },
@@ -3042,7 +3042,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 65584,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 3333,
                                                         "end": 3335
                                                     },
@@ -3271,7 +3271,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 65584,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 3405,
                                                         "end": 3407
                                                     },
@@ -3500,7 +3500,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 65584,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 3480,
                                                         "end": 3482
                                                     },
@@ -3789,7 +3789,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 4240,
                         "end": 4242
                     },
@@ -3872,7 +3872,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 4272,
                         "end": 4274
                     },
@@ -3941,7 +3941,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 4305,
                         "end": 4307
                     },
@@ -4024,7 +4024,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 4342,
                         "end": 4344
                     },
@@ -4904,7 +4904,7 @@ try {} catch(e) { for(var e of 0); };
                                             },
                                             "operatorToken": {
                                                 "kind": 99634,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 4830,
                                                 "end": 4832
                                             },

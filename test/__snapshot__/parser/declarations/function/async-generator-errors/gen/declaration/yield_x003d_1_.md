@@ -88,7 +88,7 @@ async function * gen() {yield = 1;}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 29,
                                     "end": 31
                                 },

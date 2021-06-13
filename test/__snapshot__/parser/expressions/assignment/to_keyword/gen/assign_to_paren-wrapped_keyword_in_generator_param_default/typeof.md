@@ -71,7 +71,7 @@ function *f(x = (typeof) = f) {}
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477613,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 17,
                                         "end": 23
                                     },
@@ -92,7 +92,7 @@ function *f(x = (typeof) = f) {}
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 24,
                                 "end": 26
                             },

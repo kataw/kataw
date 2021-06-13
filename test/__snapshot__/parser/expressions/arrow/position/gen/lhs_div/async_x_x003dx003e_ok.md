@@ -61,7 +61,7 @@ async x => ok / x
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 13,
                         "end": 15
                     },

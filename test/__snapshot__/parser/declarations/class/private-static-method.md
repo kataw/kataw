@@ -165,7 +165,7 @@ class A {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 56,
                                                         "end": 58
                                                     },
@@ -229,7 +229,7 @@ class A {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 78,
                                                             "end": 80
                                                         },

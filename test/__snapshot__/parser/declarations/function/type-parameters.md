@@ -98,7 +98,7 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 13,
                         "end": 14
                     },
@@ -116,7 +116,7 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 15,
                     "end": 32
                 },
@@ -221,7 +221,7 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 81,
                         "end": 82
                     },
@@ -238,7 +238,7 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 82,
                     "end": 96
                 },
@@ -370,7 +370,7 @@ type T = <
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234252,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 174,
                                     "end": 178
                                 },
@@ -428,24 +428,24 @@ type T = <
             },
             "type": {
                 "kind": 261,
-                "arrowToken": null,
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
                     "start": 208,
                     "end": 208
                 },
+                "arrowToken": null,
                 "returnType": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 213,
                         "end": 216
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
@@ -462,7 +462,7 @@ type T = <
                     },
                     "returnType": {
                         "kind": 134234252,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 216,
                         "end": 220
                     },
@@ -502,7 +502,7 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 237,
                         "end": 238
                     },
@@ -520,7 +520,7 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 243,
                     "end": 257
                 },
@@ -625,7 +625,7 @@ type T = <
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 309,
                         "end": 310
                     },
@@ -642,7 +642,7 @@ type T = <
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 310,
                     "end": 327
                 },
@@ -791,7 +791,7 @@ type T = <
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234252,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 413,
                                     "end": 417
                                 },
@@ -849,24 +849,24 @@ type T = <
             },
             "type": {
                 "kind": 261,
-                "arrowToken": null,
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
                     "start": 450,
                     "end": 450
                 },
+                "arrowToken": null,
                 "returnType": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 455,
                         "end": 458
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
@@ -883,7 +883,7 @@ type T = <
                     },
                     "returnType": {
                         "kind": 134234252,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 458,
                         "end": 462
                     },

@@ -108,7 +108,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                                 },
                                                 "operatorToken": {
                                                     "kind": 99634,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 43,
                                                     "end": 45
                                                 },

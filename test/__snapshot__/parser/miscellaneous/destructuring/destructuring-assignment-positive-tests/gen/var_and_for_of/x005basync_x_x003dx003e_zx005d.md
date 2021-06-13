@@ -130,7 +130,7 @@ var x, y, z; for (x of x = [async x => z] = z = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 24,
                     "end": 26
                 },
@@ -189,7 +189,7 @@ var x, y, z; for (x of x = [async x => z] = z = {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 41,
                         "end": 43
                     },
@@ -205,7 +205,7 @@ var x, y, z; for (x of x = [async x => z] = z = {});
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 45,
                             "end": 47
                         },

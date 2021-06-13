@@ -59,13 +59,13 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                             "name": null,
                             "key": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 16,
                                     "end": 19
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
@@ -104,7 +104,7 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                                 "kind": 136,
                                                 "type": {
                                                     "kind": 134234343,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 21,
                                                     "end": 27
                                                 },
@@ -166,7 +166,7 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                             },
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 36,
                                 "end": 43
                             },

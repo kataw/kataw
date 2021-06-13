@@ -142,7 +142,7 @@ var await; var f = (async function() { await = 1 });
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 44,
                                                         "end": 46
                                                     },

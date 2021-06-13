@@ -72,7 +72,7 @@ var c: { (): string; (x: number): string } =
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 68,
                                             "end": 75
                                         },
@@ -101,7 +101,7 @@ var c: { (): string; (x: number): string } =
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 80,
                                                         "end": 87
                                                     },
@@ -118,7 +118,7 @@ var c: { (): string; (x: number): string } =
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 89,
                                             "end": 96
                                         },
@@ -171,7 +171,7 @@ var c: { (): string; (x: number): string } =
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 116,
                                                 "end": 123
                                             },
@@ -230,7 +230,7 @@ var c: { (): string; (x: number): string } =
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 125,
                                     "end": 132
                                 },
@@ -298,7 +298,7 @@ var c: { (): string; (x: number): string } =
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 229,
                                             "end": 236
                                         },
@@ -327,7 +327,7 @@ var c: { (): string; (x: number): string } =
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 241,
                                                         "end": 248
                                                     },
@@ -344,7 +344,7 @@ var c: { (): string; (x: number): string } =
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 250,
                                             "end": 257
                                         },
@@ -392,7 +392,7 @@ var c: { (): string; (x: number): string } =
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 276,
                                                 "end": 283
                                             },
@@ -451,7 +451,7 @@ var c: { (): string; (x: number): string } =
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 285,
                                     "end": 292
                                 },

@@ -49,14 +49,8 @@ type a = (...x: string) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 23,
-                    "end": 26
-                },
-                "parameters": {
-                    "kind": 282,
+                "arrowTypeParameterList": {
+                    "kind": 279,
                     "parameters": [
                         {
                             "kind": 149,
@@ -77,7 +71,7 @@ type a = (...x: string) => T;
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 15,
                                 "end": 22
                             },
@@ -90,6 +84,12 @@ type a = (...x: string) => T;
                     "flags": 2097152,
                     "start": 10,
                     "end": 22
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 23,
+                    "end": 26
                 },
                 "returnType": {
                     "kind": 144,

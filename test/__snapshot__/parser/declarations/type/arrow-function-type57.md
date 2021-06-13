@@ -49,24 +49,24 @@ type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 50,
                     "end": 53
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
                             "kind": 261,
-                            "arrowToken": {
+                            "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 30,
                                 "end": 33
                             },
-                            "parameters": {
+                            "arrowToken": {
                                 "kind": 279,
                                 "parameters": [
                                     {
@@ -83,7 +83,7 @@ type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T;
                                                             "start": 12,
                                                             "end": 13
                                                         },
-                                                        "value": 1,
+                                                        "text": 1,
                                                         "flags": 2097216,
                                                         "start": 12,
                                                         "end": 14

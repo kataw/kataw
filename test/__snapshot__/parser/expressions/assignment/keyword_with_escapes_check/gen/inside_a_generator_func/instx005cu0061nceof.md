@@ -76,7 +76,7 @@ function *f(){
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
-                                    "flags": 16449,
+                                    "flags": 16481,
                                     "start": 14,
                                     "end": 32
                                 },

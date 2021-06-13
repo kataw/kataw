@@ -106,7 +106,7 @@ class x { static / foo(){} }
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 16,
                     "end": 18
                 },

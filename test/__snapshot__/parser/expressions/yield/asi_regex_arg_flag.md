@@ -32,7 +32,7 @@ yield
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 65,
+                        "flags": 97,
                         "start": 5,
                         "end": 7
                     },
@@ -50,7 +50,7 @@ yield
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 8,
                     "end": 9
                 },

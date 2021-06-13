@@ -57,13 +57,13 @@ type X = {[(x) =>x]: string, (): string};
                         "name": null,
                         "key": {
                             "kind": 261,
-                            "arrowToken": {
+                            "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 14,
                                 "end": 17
                             },
-                            "parameters": {
+                            "arrowToken": {
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
@@ -100,7 +100,7 @@ type X = {[(x) =>x]: string, (): string};
                         },
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 20,
                             "end": 27
                         },
@@ -123,7 +123,7 @@ type X = {[(x) =>x]: string, (): string};
                         "staticToken": null,
                         "returnType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 32,
                             "end": 39
                         },

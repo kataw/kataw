@@ -60,7 +60,7 @@ type A5<S = number, T: ?string = string> = T;
                         "type": null,
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 11,
                             "end": 18
                         },
@@ -131,7 +131,7 @@ type A5<S = number, T: ?string = string> = T;
                         "type": null,
                         "defaultType": {
                             "kind": 67143222,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 36,
                             "end": 38
                         },
@@ -211,7 +211,7 @@ type A5<S = number, T: ?string = string> = T;
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 57,
                                     "end": 63
                                 },
@@ -225,7 +225,7 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 65,
                             "end": 72
                         },
@@ -321,7 +321,7 @@ type A5<S = number, T: ?string = string> = T;
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 94,
                                     "end": 100
                                 },
@@ -335,7 +335,7 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 102,
                             "end": 109
                         },
@@ -406,7 +406,7 @@ type A5<S = number, T: ?string = string> = T;
                         "type": null,
                         "defaultType": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 127,
                             "end": 134
                         },
@@ -436,7 +436,7 @@ type A5<S = number, T: ?string = string> = T;
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 140,
                                     "end": 146
                                 },
@@ -450,7 +450,7 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 148,
                             "end": 155
                         },

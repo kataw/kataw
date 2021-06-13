@@ -469,7 +469,7 @@ let one = {
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 133,
                         "end": 134
                     },
@@ -487,7 +487,7 @@ let one = {
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 135,
                     "end": 136
                 },

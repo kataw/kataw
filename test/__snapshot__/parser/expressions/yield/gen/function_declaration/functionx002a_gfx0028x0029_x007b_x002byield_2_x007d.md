@@ -100,7 +100,7 @@ function not_gen() { function* gf() { +yield 2; } }}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 99634,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 37,
                                                     "end": 39
                                                 },

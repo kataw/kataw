@@ -37,7 +37,7 @@ x = {__proto__: a, __proto__: b} = y
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -106,7 +106,7 @@ x = {__proto__: a, __proto__: b} = y
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 32,
                         "end": 34
                     },

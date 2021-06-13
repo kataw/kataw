@@ -201,7 +201,7 @@ var x, y, z; for (x of { z : { __proto__: x, __proto__: y } = z } = {});
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 59,
                                         "end": 61
                                     },
@@ -233,7 +233,7 @@ var x, y, z; for (x of { z : { __proto__: x, __proto__: y } = z } = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 65,
                     "end": 67
                 },

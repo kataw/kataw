@@ -95,7 +95,7 @@ class C {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 47,
                                         "end": 54
                                     },

@@ -124,7 +124,7 @@ function foo(value: AOrString) {
                                             },
                                             "operatorToken": {
                                                 "kind": 4229173,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 50,
                                                 "end": 61
                                             },

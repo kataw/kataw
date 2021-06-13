@@ -61,7 +61,7 @@ function foo(numVal: any, otherVal: mixed){}
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 20,
                                 "end": 24
                             },

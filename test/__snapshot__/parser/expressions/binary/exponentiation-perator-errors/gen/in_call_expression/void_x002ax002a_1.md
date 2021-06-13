@@ -143,7 +143,7 @@ var O = { p: 1 }, x = 10; foo(void ** 1)
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 30,
                                     "end": 34
                                 },
@@ -160,7 +160,7 @@ var O = { p: 1 }, x = 10; foo(void ** 1)
                             },
                             "operatorToken": {
                                 "kind": 35897,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 34,
                                 "end": 37
                             },

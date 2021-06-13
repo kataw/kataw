@@ -50,13 +50,13 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 29,
                                     "end": 32
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -84,7 +84,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                             "end": 18
                                         },
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": null,
                                             "optionalToken": null,
@@ -127,7 +127,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 32,
                                     "end": 37
                                 },
@@ -220,13 +220,13 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 89,
                                     "end": 92
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -254,7 +254,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                             "end": 77
                                         },
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": null,
                                             "optionalToken": null,
@@ -297,7 +297,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 92,
                                     "end": 97
                                 },

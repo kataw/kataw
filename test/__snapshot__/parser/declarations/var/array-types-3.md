@@ -59,7 +59,7 @@ var a?: number[][]
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 7,
                                         "end": 14
                                     },

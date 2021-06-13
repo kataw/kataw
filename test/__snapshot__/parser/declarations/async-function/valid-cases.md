@@ -32,7 +32,7 @@ new async function() { await 0 }.x
                     "kind": 126,
                     "operandToken": {
                         "kind": 134318643,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 0,
                         "end": 1
                     },
@@ -120,7 +120,7 @@ new async function() { await 0 }.x
                 },
                 "operatorToken": {
                     "kind": 134318643,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 33,
                     "end": 35
                 },
@@ -217,7 +217,7 @@ new async function() { await 0 }.x
                 },
                 "operatorToken": {
                     "kind": 134318643,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 65,
                     "end": 67
                 },
@@ -321,7 +321,7 @@ new async function() { await 0 }.x
                 },
                 "operatorToken": {
                     "kind": 134318643,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 102,
                     "end": 104
                 },

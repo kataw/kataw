@@ -48,7 +48,7 @@ async (x = delete ((break) = f)) => {}
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
@@ -56,7 +56,7 @@ async (x = delete ((break) = f)) => {}
                             "kind": 126,
                             "operandToken": {
                                 "kind": 4259886,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 17
                             },

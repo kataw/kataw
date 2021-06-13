@@ -138,7 +138,7 @@ var O = { p: 1 }, x = 10; ; (delete x ** 10)
                         "kind": 126,
                         "operandToken": {
                             "kind": 4259886,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 29,
                             "end": 35
                         },
@@ -156,7 +156,7 @@ var O = { p: 1 }, x = 10; ; (delete x ** 10)
                     },
                     "operatorToken": {
                         "kind": 35897,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 37,
                         "end": 40
                     },

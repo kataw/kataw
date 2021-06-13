@@ -85,7 +85,7 @@ type F = $Call<Fn1, number, string>;
                             "kind": 267,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 19,
                                 "end": 26
                             },
@@ -97,7 +97,7 @@ type F = $Call<Fn1, number, string>;
                             "kind": 267,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 27,
                                 "end": 34
                             },

@@ -532,7 +532,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 33339,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 109,
                         "end": 112
                     },
@@ -600,7 +600,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 33339,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 125,
                         "end": 128
                     },
@@ -668,7 +668,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 141,
                         "end": 144
                     },
@@ -750,7 +750,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 162,
                         "end": 165
                     },
@@ -818,7 +818,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 178,
                         "end": 181
                     },
@@ -886,7 +886,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 33339,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 194,
                         "end": 197
                     },
@@ -924,7 +924,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 203,
                     "end": 205
                 },
@@ -942,7 +942,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         },
                         "operatorToken": {
                             "kind": 34622,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 207,
                             "end": 210
                         },
@@ -1010,7 +1010,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 226,
                     "end": 228
                 },
@@ -1028,7 +1028,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         },
                         "operatorToken": {
                             "kind": 34623,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 230,
                             "end": 233
                         },
@@ -1188,7 +1188,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 268,
                                     "end": 270
                                 },
@@ -1214,7 +1214,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 134318643,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 273,
                                     "end": 275
                                 },
@@ -1283,7 +1283,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 284,
                                     "end": 286
                                 },
@@ -1366,7 +1366,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 134318643,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 299,
                                     "end": 301
                                 },
@@ -1484,7 +1484,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 126,
                     "operandToken": {
                         "kind": 134318643,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 325,
                         "end": 327
                     },
@@ -1510,7 +1510,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 126,
                     "operandToken": {
                         "kind": 134318643,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 330,
                         "end": 332
                     },
@@ -2134,7 +2134,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 34622,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 444,
                         "end": 447
                     },
@@ -2168,7 +2168,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 34622,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 453,
                         "end": 456
                     },
@@ -2249,7 +2249,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 469,
                                     "end": 471
                                 },
@@ -2334,7 +2334,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 485,
                                     "end": 487
                                 },
@@ -2404,7 +2404,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 126,
                     "operandToken": {
                         "kind": 134318643,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 499,
                         "end": 501
                     },
@@ -2430,7 +2430,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 504,
                         "end": 506
                     },
@@ -2948,7 +2948,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 34622,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 599,
                         "end": 602
                     },
@@ -2982,7 +2982,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     },
                     "operatorToken": {
                         "kind": 34623,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 608,
                         "end": 611
                     },
@@ -3063,7 +3063,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 624,
                                     "end": 626
                                 },
@@ -3148,7 +3148,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 640,
                                     "end": 642
                                 },

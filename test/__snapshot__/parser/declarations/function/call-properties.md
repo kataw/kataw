@@ -85,7 +85,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 73,
                                             "end": 80
                                         },
@@ -114,7 +114,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 85,
                                                         "end": 92
                                                     },
@@ -131,7 +131,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 94,
                                             "end": 101
                                         },
@@ -200,23 +200,23 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 108,
-                        "end": 111
-                    },
-                    "parameters": {
-                        "kind": 282,
+                    "arrowTypeParameterList": {
+                        "kind": 279,
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 107,
                         "end": 107
                     },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 108,
+                        "end": 111
+                    },
                     "returnType": {
                         "kind": 134234347,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 111,
                         "end": 118
                     },
@@ -287,7 +287,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 187,
                                             "end": 194
                                         },
@@ -316,7 +316,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 199,
                                                         "end": 206
                                                     },
@@ -333,7 +333,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 208,
                                             "end": 215
                                         },
@@ -402,23 +402,23 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 222,
-                        "end": 225
-                    },
-                    "parameters": {
-                        "kind": 282,
+                    "arrowTypeParameterList": {
+                        "kind": 279,
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 221,
                         "end": 221
                     },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 222,
+                        "end": 225
+                    },
                     "returnType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 225,
                         "end": 232
                     },

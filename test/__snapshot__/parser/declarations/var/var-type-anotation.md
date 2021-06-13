@@ -64,7 +64,7 @@ var foo = ((): number => bar);
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 14,
                                         "end": 21
                                     },

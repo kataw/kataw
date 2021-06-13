@@ -73,7 +73,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                         },
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 16,
                                             "end": 23
                                         },
@@ -98,7 +98,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 32,
                                             "end": 39
                                         },
@@ -123,7 +123,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 48,
                                             "end": 55
                                         },

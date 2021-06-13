@@ -54,7 +54,7 @@ for (a = b in x);
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -70,7 +70,7 @@ for (a = b in x);
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 10,
                         "end": 13
                     },

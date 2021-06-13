@@ -66,7 +66,7 @@ type A = Obj['a'];
                 },
                 "indexType": {
                     "kind": 134217967,
-                    "value": "a",
+                    "text": "a",
                     "flags": 2097216,
                     "start": 13,
                     "end": 16

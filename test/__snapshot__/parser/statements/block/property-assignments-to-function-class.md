@@ -94,7 +94,7 @@ FooBar.bar = 1;
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 22,
                                 "end": 24
                             },
@@ -208,7 +208,7 @@ FooBar.bar = 1;
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 60,
                                 "end": 62
                             },
@@ -303,7 +303,7 @@ FooBar.bar = 1;
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 98,
                                 "end": 100
                             },

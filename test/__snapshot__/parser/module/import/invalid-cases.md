@@ -241,7 +241,7 @@ import * as x, {y} from 'm.js';
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 69,
                         "end": 71
                     },
@@ -357,7 +357,7 @@ import * as x, {y} from 'm.js';
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 102,
                         "end": 104
                     },
@@ -415,7 +415,7 @@ import * as x, {y} from 'm.js';
                         },
                         "operatorToken": {
                             "kind": 67143222,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 110,
                             "end": 112
                         },
@@ -631,7 +631,7 @@ import * as x, {y} from 'm.js';
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 168,
                         "end": 170
                     },

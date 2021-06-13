@@ -72,7 +72,7 @@ var e: { (x: any): void } = function() { } // arity
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234252,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 12,
                                                         "end": 16
                                                     },
@@ -89,7 +89,7 @@ var e: { (x: any): void } = function() { } // arity
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 138477615,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 18,
                                             "end": 23
                                         },

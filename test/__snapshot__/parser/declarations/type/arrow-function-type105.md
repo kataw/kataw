@@ -51,13 +51,13 @@ type a = ((...b?:string | d) => c);
                 "kind": 260,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 28,
                         "end": 31
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
@@ -87,7 +87,7 @@ type a = ((...b?:string | d) => c);
                                     "types": [
                                         {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 17,
                                             "end": 23
                                         },

@@ -196,7 +196,7 @@ var x, y, z; for (x of { x: async function() {} } = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 49,
                     "end": 51
                 },

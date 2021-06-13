@@ -190,7 +190,7 @@ var x, y, z; m(['b']) ? lhs : [this] = {}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 36,
                         "end": 38
                     },

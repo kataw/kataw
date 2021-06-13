@@ -119,7 +119,7 @@ function *foo() {
                                                     "kind": 139,
                                                     "type": {
                                                         "kind": 134234252,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 39,
                                                         "end": 43
                                                     },

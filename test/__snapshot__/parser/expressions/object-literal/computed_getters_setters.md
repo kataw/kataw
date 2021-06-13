@@ -184,7 +184,7 @@ var f = {
                                                             "kind": 139,
                                                             "type": {
                                                                 "kind": 134234345,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 57,
                                                                 "end": 64
                                                             },
@@ -267,7 +267,7 @@ var f = {
                                                             "kind": 139,
                                                             "type": {
                                                                 "kind": 134234345,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 94,
                                                                 "end": 101
                                                             },
@@ -343,7 +343,7 @@ var f = {
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 132,
                                                     "end": 139
                                                 },

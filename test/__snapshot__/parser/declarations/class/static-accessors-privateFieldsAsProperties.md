@@ -128,7 +128,7 @@ new C;
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 35,
                                                         "end": 37
                                                     },
@@ -276,7 +276,7 @@ new C;
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 84,
                                                             "end": 86
                                                         },

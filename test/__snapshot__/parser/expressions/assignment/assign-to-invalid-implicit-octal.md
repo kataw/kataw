@@ -44,7 +44,7 @@ x = 01124n;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -78,7 +78,7 @@ x = 01124n;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 31,
                     "end": 33
                 },
@@ -112,7 +112,7 @@ x = 01124n;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 65,
                     "end": 67
                 },
@@ -146,7 +146,7 @@ x = 01124n;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 81,
                     "end": 83
                 },
@@ -180,7 +180,7 @@ x = 01124n;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 98,
                     "end": 100
                 },

@@ -367,7 +367,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                 },
                                                 "operatorToken": {
                                                     "kind": 34620,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 183,
                                                     "end": 187
                                                 },
@@ -428,7 +428,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134217967,
-                                                "value": "a",
+                                                "text": "a",
                                                 "flags": 2097216,
                                                 "start": 156,
                                                 "end": 160
@@ -451,7 +451,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "kind": 139,
                                 "type": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 168,
                                     "end": 173
                                 },
@@ -613,7 +613,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 249,
                                     "end": 253
                                 },
@@ -674,7 +674,7 @@ function b1<A: 'a', B: A>(b: B): void {
                             "kind": 139,
                             "type": {
                                 "kind": 134217967,
-                                "value": "a",
+                                "text": "a",
                                 "flags": 2097216,
                                 "start": 216,
                                 "end": 220
@@ -733,7 +733,7 @@ function b1<A: 'a', B: A>(b: B): void {
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 234,
                     "end": 239
                 },

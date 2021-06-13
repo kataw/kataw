@@ -139,7 +139,7 @@ var Person = makeClass(
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 238,
                                                                                 "end": 240
                                                                             },

@@ -31,7 +31,7 @@ void = x
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477615,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 0,
                         "end": 4
                     },
@@ -48,7 +48,7 @@ void = x
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 4,
                     "end": 6
                 },

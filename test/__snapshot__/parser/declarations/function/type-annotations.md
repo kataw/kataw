@@ -82,7 +82,7 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 21,
                                 "end": 25
                             },
@@ -159,7 +159,7 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 51,
                                 "end": 58
                             },
@@ -236,7 +236,7 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 84,
                                 "end": 91
                             },
@@ -265,7 +265,7 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 100,
                                 "end": 107
                             },
@@ -342,7 +342,7 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 133,
                                 "end": 140
                             },
@@ -435,7 +435,7 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 190,
                                 "end": 197
                             },
@@ -520,7 +520,7 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 230,
                                     "end": 236
                                 },
@@ -601,23 +601,23 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 267,
-                                    "end": 270
-                                },
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 266,
                                     "end": 266
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 267,
+                                    "end": 270
+                                },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 270,
                                     "end": 275
                                 },
@@ -699,23 +699,23 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 306,
-                                    "end": 309
-                                },
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 305,
                                     "end": 305
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 306,
+                                    "end": 309
+                                },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 309,
                                     "end": 316
                                 },
@@ -797,13 +797,13 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 354,
                                     "end": 357
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -845,7 +845,7 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 357,
                                     "end": 364
                                 },
@@ -927,13 +927,13 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 416,
                                     "end": 419
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -981,7 +981,7 @@ function foo28(numVal?: number = 2) {}
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 408,
                                                 "end": 415
                                             },
@@ -997,7 +997,7 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 419,
                                     "end": 426
                                 },
@@ -1079,13 +1079,13 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
+                                "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 489,
                                     "end": 492
                                 },
-                                "parameters": {
+                                "arrowToken": {
                                     "kind": 279,
                                     "parameters": [
                                         {
@@ -1153,7 +1153,7 @@ function foo28(numVal?: number = 2) {}
                                                             "kind": 267,
                                                             "type": {
                                                                 "kind": 134234345,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 481,
                                                                 "end": 487
                                                             },
@@ -1182,7 +1182,7 @@ function foo28(numVal?: number = 2) {}
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 492,
                                     "end": 499
                                 },
@@ -1272,7 +1272,7 @@ function foo28(numVal?: number = 2) {}
                 "kind": 139,
                 "type": {
                     "kind": 134234345,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 521,
                     "end": 528
                 },
@@ -1330,23 +1330,23 @@ function foo28(numVal?: number = 2) {}
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 550,
-                        "end": 553
-                    },
-                    "parameters": {
-                        "kind": 282,
+                    "arrowTypeParameterList": {
+                        "kind": 279,
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 549,
                         "end": 549
                     },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 550,
+                        "end": 553
+                    },
                     "returnType": {
                         "kind": 138477615,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 553,
                         "end": 558
                     },
@@ -1409,13 +1409,13 @@ function foo28(numVal?: number = 2) {}
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 587,
                         "end": 590
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
@@ -1457,7 +1457,7 @@ function foo28(numVal?: number = 2) {}
                     },
                     "returnType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 590,
                         "end": 597
                     },
@@ -1520,13 +1520,13 @@ function foo28(numVal?: number = 2) {}
                 "kind": 139,
                 "type": {
                     "kind": 261,
-                    "arrowToken": {
+                    "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
                         "start": 626,
                         "end": 629
                     },
-                    "parameters": {
+                    "arrowToken": {
                         "kind": 279,
                         "parameters": [
                             {
@@ -1573,7 +1573,7 @@ function foo28(numVal?: number = 2) {}
                     },
                     "returnType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 629,
                         "end": 636
                     },
@@ -1791,7 +1791,7 @@ function foo28(numVal?: number = 2) {}
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 710,
                                             "end": 717
                                         },
@@ -1908,7 +1908,7 @@ function foo28(numVal?: number = 2) {}
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 751,
                                                 "end": 757
                                             },
@@ -2018,7 +2018,7 @@ function foo28(numVal?: number = 2) {}
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 793,
                                                 "end": 799
                                             },
@@ -2108,7 +2108,7 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 827,
                                 "end": 834
                             },
@@ -2197,7 +2197,7 @@ function foo28(numVal?: number = 2) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 866,
                                 "end": 873
                             },

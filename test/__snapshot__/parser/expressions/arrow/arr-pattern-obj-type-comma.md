@@ -35,7 +35,7 @@ x = (x, {}:string) => {} ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -79,7 +79,7 @@ x = (x, {}:string) => {} ;
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 11,
                                     "end": 17
                                 },

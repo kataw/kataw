@@ -64,7 +64,7 @@ async x => (in) = 1
                             },
                             "operatorToken": {
                                 "kind": 21006388,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 12,
                                 "end": 14
                             },
@@ -85,7 +85,7 @@ async x => (in) = 1
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 15,
                         "end": 17
                     },

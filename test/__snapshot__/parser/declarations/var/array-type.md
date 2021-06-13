@@ -63,7 +63,7 @@ var a: (?number)[];
                                 "kind": 136,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 6,
                                     "end": 13
                                 },
@@ -120,13 +120,13 @@ var a: (?number)[];
                                     "kind": 260,
                                     "type": {
                                         "kind": 261,
-                                        "arrowToken": {
+                                        "arrowTypeParameterList": {
                                             "kind": 10,
                                             "flags": 64,
                                             "start": 28,
                                             "end": 31
                                         },
-                                        "parameters": {
+                                        "arrowToken": {
                                             "kind": 279,
                                             "parameters": [
                                                 []
@@ -138,7 +138,7 @@ var a: (?number)[];
                                         },
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 31,
                                             "end": 38
                                         },
@@ -200,25 +200,25 @@ var a: (?number)[];
                             "kind": 139,
                             "type": {
                                 "kind": 261,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 53,
-                                    "end": 56
-                                },
-                                "parameters": {
-                                    "kind": 282,
+                                "arrowTypeParameterList": {
+                                    "kind": 279,
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 52,
                                     "end": 52
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 53,
+                                    "end": 56
+                                },
                                 "returnType": {
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 56,
                                         "end": 63
                                     },
@@ -280,7 +280,7 @@ var a: (?number)[];
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 74,
                                         "end": 81
                                     },
@@ -337,7 +337,7 @@ var a: (?number)[];
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 94,
                                 "end": 101
                             },
@@ -418,7 +418,7 @@ var a: (?number)[];
                                         },
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 116,
                                             "end": 122
                                         },

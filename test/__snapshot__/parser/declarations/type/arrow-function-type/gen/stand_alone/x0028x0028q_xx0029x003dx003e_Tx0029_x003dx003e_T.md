@@ -49,24 +49,24 @@ type a = ((q, x)=> T) => T;
             },
             "type": {
                 "kind": 261,
-                "arrowToken": {
+                "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
                     "start": 21,
                     "end": 24
                 },
-                "parameters": {
+                "arrowToken": {
                     "kind": 279,
                     "parameters": [
                         {
                             "kind": 261,
-                            "arrowToken": {
+                            "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 16,
                                 "end": 18
                             },
-                            "parameters": {
+                            "arrowToken": {
                                 "kind": 279,
                                 "parameters": [
                                     {
@@ -97,7 +97,7 @@ type a = ((q, x)=> T) => T;
                                                 "end": 12
                                             },
                                             {
-                                                "kind": 149,
+                                                "kind": 284,
                                                 "ellipsisToken": null,
                                                 "name": null,
                                                 "optionalToken": null,
