@@ -1,6 +1,6 @@
 import { join, dirname } from 'path';
 import { writeFileSync, unlinkSync, rmdirSync, mkdirSync } from 'fs';
-import { promiseToReadFile, loadSnaps, san, ColorCodes, Constants, report } from './utils';
+import { promiseToReadFile, loadSnaps, san, ColorCodes, Constants, report, toUnixPath } from './utils';
 import { defaultOptions } from '../conf/options';
 
 /**
@@ -109,7 +109,7 @@ export async function autogen(files: string[], conservative: boolean) {
     // Now generate all cases with each # in the params and templates replaced with each case
 
     templates.forEach(({ title, code }: any) => {
-      const caseDir = join(genDir, san(String(title)));
+      const caseDir = toUnixPath(join(genDir, san(String(title))));
       mkdirSync(caseDir, { recursive: true });
       cases.forEach((c: any) => {
         // macos filename path has a limit(255 chars). as of now, we use the slice(0, 128).
@@ -124,7 +124,7 @@ export async function autogen(files: string[], conservative: boolean) {
           `# Auto-generated test cases ( Kataw )
 - Regenerated: ${new Date().toISOString().slice(0, 10)}
 - From: ${obj.file.slice(obj.file.indexOf('kataw')).replace(/\\/g, '/')}
-- Path: ${caseDir.slice(caseDir.indexOf('kataw')).replace(/\\/g, '/')}
+- Path: ${caseDir.slice(caseDir.indexOf('kataw'))}
 > :: test: ${title.split('\n').join('\n>          ')}
 > :: case: ${c.split('\n').join('\n>          ')}
 ## Options

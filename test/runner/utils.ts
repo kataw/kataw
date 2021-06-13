@@ -111,3 +111,7 @@ export function report(_err: Error | string): void {
   // const pe = new PrettyError();
   // console.log(pe.render(err));
 }
+
+export function toUnixPath(path: string): string{
+  return path.replace(/\\/g, "/");
+}

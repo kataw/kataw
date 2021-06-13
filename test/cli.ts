@@ -14,7 +14,7 @@ const APIs = ['parser', 'printer'];
 runCli();
 
 export async function runCli() {
-  const opts = cliOpts();
+  const opts = getCliOptions();
   const bar = new ProgressBar('Testing snapshots [:bar] :percent, :elapseds elapsed, eta :etas,', {
     clear: false,
     total: opts.files.length
@@ -63,7 +63,7 @@ export async function runCli() {
   }
 }
 
-export function cliOpts(): any {
+export function getCliOptions(): any {
   const help = process.argv.includes('-?') || process.argv.includes('--help');
   help && showHelp();
 
