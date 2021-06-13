@@ -71,7 +71,7 @@ while (function* () {} === x);
                 },
                 "operatorToken": {
                     "kind": 34620,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 22,
                     "end": 26
                 },

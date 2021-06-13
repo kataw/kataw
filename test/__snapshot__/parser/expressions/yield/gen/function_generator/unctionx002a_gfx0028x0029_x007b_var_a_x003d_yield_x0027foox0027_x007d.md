@@ -108,7 +108,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                 },
                                                 "operatorToken": {
                                                     "kind": 67143222,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 47,
                                                     "end": 48
                                                 },

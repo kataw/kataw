@@ -37,7 +37,7 @@ fn = ({text = "default", ...props}) => text + props.children
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 2,
                     "end": 4
                 },
@@ -129,7 +129,7 @@ fn = ({text = "default", ...props}) => text + props.children
                         },
                         "operatorToken": {
                             "kind": 99634,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 43,
                             "end": 45
                         },

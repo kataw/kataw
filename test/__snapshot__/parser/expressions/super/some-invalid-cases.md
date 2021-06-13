@@ -1772,7 +1772,7 @@ let x = { foo(){ super(); } };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 494,
                     "end": 495
                 },
@@ -1900,7 +1900,7 @@ let x = { foo(){ super(); } };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 530,
                     "end": 531
                 },
@@ -2016,7 +2016,7 @@ let x = { foo(){ super(); } };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 560,
                     "end": 561
                 },
@@ -2157,7 +2157,7 @@ let x = { foo(){ super(); } };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 592,
                     "end": 593
                 },
@@ -2483,7 +2483,7 @@ let x = { foo(){ super(); } };
                             },
                             "operatorToken": {
                                 "kind": 99634,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 687,
                                 "end": 689
                             },

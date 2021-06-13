@@ -56,7 +56,7 @@
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 16,
                         "end": 17
                     },
@@ -74,7 +74,7 @@
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 23,
                     "end": 24
                 },

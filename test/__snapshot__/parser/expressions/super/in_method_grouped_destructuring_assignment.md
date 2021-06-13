@@ -29,7 +29,7 @@ x = { foo(){ ([a = super[foo]] = c); }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -93,7 +93,7 @@ x = { foo(){ ([a = super[foo]] = c); }}
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 16,
                                                                                 "end": 18
                                                                             },
@@ -139,7 +139,7 @@ x = { foo(){ ([a = super[foo]] = c); }}
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 30,
                                                                 "end": 32
                                                             },

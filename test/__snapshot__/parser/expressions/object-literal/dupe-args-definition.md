@@ -49,7 +49,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -155,7 +155,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 20,
                     "end": 22
                 },
@@ -269,7 +269,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 42,
                     "end": 44
                 },
@@ -383,7 +383,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 64,
                     "end": 66
                 },
@@ -497,7 +497,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 86,
                     "end": 88
                 },
@@ -642,7 +642,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 119,
                     "end": 121
                 },
@@ -781,7 +781,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 148,
                     "end": 150
                 },
@@ -918,7 +918,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 176,
                     "end": 178
                 },
@@ -1047,7 +1047,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 200,
                     "end": 202
                 },
@@ -1193,7 +1193,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 226,
                     "end": 228
                 },
@@ -1337,7 +1337,7 @@ o = {f([b, a], b=x) {}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 253,
                     "end": 255
                 },

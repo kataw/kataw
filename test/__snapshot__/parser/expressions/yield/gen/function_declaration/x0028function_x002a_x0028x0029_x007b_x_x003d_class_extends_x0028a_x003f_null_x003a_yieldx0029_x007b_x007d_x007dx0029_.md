@@ -104,7 +104,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 39,
                                                             "end": 41
                                                         },

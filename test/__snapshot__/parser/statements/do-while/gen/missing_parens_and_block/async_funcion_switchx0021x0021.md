@@ -91,7 +91,7 @@ do async funcion switch!! while
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 23,
                     "end": 24
                 },
@@ -99,7 +99,7 @@ do async funcion switch!! while
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 24,
                         "end": 25
                     },

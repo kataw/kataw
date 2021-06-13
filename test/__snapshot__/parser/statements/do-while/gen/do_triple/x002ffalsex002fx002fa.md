@@ -99,7 +99,7 @@ do do do /false//a while while while
                             },
                             "operatorToken": {
                                 "kind": 35640,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 16,
                                 "end": 17
                             },

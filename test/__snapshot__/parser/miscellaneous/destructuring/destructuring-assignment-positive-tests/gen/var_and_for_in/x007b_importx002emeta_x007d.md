@@ -185,7 +185,7 @@ var x, y, z; for (x in { import.meta } = z = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 42,
                     "end": 44
                 },

@@ -43,7 +43,7 @@ for (a+b in c) d;
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 7
                 },
@@ -59,7 +59,7 @@ for (a+b in c) d;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 8,
                         "end": 11
                     },

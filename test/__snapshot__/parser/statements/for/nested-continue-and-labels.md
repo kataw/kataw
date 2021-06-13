@@ -89,7 +89,7 @@ function relativeComplement() {
                                     "kind": 127,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 80,
                                         "end": 82
                                     },
@@ -117,7 +117,7 @@ function relativeComplement() {
                                     },
                                     "operatorToken": {
                                         "kind": 536971330,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 55,
                                         "end": 57
                                     },
@@ -181,7 +181,7 @@ function relativeComplement() {
                                                         "kind": 127,
                                                         "operandToken": {
                                                             "kind": 196635,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 136,
                                                             "end": 138
                                                         },
@@ -209,7 +209,7 @@ function relativeComplement() {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 536971330,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 111,
                                                             "end": 113
                                                         },
@@ -334,7 +334,7 @@ function relativeComplement() {
                                                                                     "kind": 126,
                                                                                     "operandToken": {
                                                                                         "kind": 134318643,
-                                                                                        "flags": 64,
+                                                                                        "flags": 96,
                                                                                         "start": 212,
                                                                                         "end": 214
                                                                                     },

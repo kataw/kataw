@@ -37,7 +37,7 @@ s = {foo: yield / x}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -69,7 +69,7 @@ s = {foo: yield / x}
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 17
                                     },

@@ -130,7 +130,7 @@ var x, y, z; for (x of x = [super] = z = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 24,
                     "end": 26
                 },
@@ -178,7 +178,7 @@ var x, y, z; for (x of x = [super] = z = {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 34,
                         "end": 36
                     },
@@ -194,7 +194,7 @@ var x, y, z; for (x of x = [super] = z = {});
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 38,
                             "end": 40
                         },

@@ -360,7 +360,7 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 104,
                                                     "end": 106
                                                 },
@@ -460,7 +460,7 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 126,
                                                     "end": 127
                                                 },
@@ -539,7 +539,7 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 142,
                                                     "end": 143
                                                 },
@@ -671,7 +671,7 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 174,
                                                     "end": 175
                                                 },
@@ -744,7 +744,7 @@ async function f(){}
                                                 "kind": 126,
                                                 "operandToken": {
                                                     "kind": 65584,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 191,
                                                     "end": 192
                                                 },

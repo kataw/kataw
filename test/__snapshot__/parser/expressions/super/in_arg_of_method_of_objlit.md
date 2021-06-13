@@ -29,7 +29,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 2
                 },

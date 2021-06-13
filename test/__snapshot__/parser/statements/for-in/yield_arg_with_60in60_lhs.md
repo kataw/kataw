@@ -120,7 +120,7 @@ function *f(){   for (yield x in y in z);   }
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 34,
                                     "end": 37
                                 },

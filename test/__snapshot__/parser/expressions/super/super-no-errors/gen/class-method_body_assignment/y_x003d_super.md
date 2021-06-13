@@ -97,7 +97,7 @@ class C { m() { k = y = super; } }
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 17,
                                                         "end": 19
                                                     },
@@ -113,7 +113,7 @@ class C { m() { k = y = super; } }
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 21,
                                                             "end": 23
                                                         },

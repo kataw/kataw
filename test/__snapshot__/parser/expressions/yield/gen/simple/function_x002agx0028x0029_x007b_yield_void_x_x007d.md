@@ -77,7 +77,7 @@ function *g() { yield void x }
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477615,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 21,
                                         "end": 26
                                     },

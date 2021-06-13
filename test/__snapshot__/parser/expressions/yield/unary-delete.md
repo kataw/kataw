@@ -65,7 +65,7 @@ function *f() {  return delete yield;  }
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 4259886,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 23,
                                     "end": 30
                                 },

@@ -78,7 +78,7 @@ function *g() { async (x = x + yield y); }
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 24,
                                             "end": 26
                                         },
@@ -94,7 +94,7 @@ function *g() { async (x = x + yield y); }
                                             },
                                             "operatorToken": {
                                                 "kind": 99634,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 28,
                                                 "end": 30
                                             },

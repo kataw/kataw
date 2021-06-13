@@ -177,7 +177,7 @@ var x, y, z; ({ x: async function() {} } = {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 40,
                         "end": 42
                     },

@@ -1818,7 +1818,7 @@ for ({a: b.c}-- of d) e;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 491,
                     "end": 493
                 },
@@ -2081,7 +2081,7 @@ for ({a: b.c}-- of d) e;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 572,
                     "end": 574
                 },
@@ -2196,7 +2196,7 @@ for ({a: b.c}-- of d) e;
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 612,
                     "end": 614
                 },
@@ -2211,7 +2211,7 @@ for ({a: b.c}-- of d) e;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 614,
                         "end": 617
                     },
@@ -2726,7 +2726,7 @@ for ({a: b.c}-- of d) e;
                             "kind": 126,
                             "operandToken": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 753,
                                 "end": 758
                             },
@@ -2907,7 +2907,7 @@ for ({a: b.c}-- of d) e;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 797,
                     "end": 799
                 },
@@ -3873,7 +3873,7 @@ for ({a: b.c}-- of d) e;
                             "kind": 126,
                             "operandToken": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 1068,
                                 "end": 1073
                             },
@@ -4500,7 +4500,7 @@ for ({a: b.c}-- of d) e;
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 1246,
                                     "end": 1251
                                 },
@@ -4956,7 +4956,7 @@ for ({a: b.c}-- of d) e;
                             "kind": 126,
                             "operandToken": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 1385,
                                 "end": 1390
                             },
@@ -5246,7 +5246,7 @@ for ({a: b.c}-- of d) e;
                 "kind": 127,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1517,
                     "end": 1519
                 },

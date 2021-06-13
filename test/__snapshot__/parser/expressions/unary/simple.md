@@ -24,7 +24,7 @@ typeof x;
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 0,
                     "end": 1
                 },
@@ -50,7 +50,7 @@ typeof x;
                 "kind": 126,
                 "operandToken": {
                     "kind": 99634,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 3,
                     "end": 5
                 },
@@ -76,7 +76,7 @@ typeof x;
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 7,
                     "end": 15
                 },

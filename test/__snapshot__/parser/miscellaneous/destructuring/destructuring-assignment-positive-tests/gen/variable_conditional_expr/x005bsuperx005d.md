@@ -209,7 +209,7 @@ var x, y, z; m(['b']) ? lhs : [super] = {}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 37,
                         "end": 39
                     },

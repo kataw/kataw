@@ -67,7 +67,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 32,
                     "end": 35
                 },
@@ -95,7 +95,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                 },
                 "operatorToken": {
                     "kind": 536971330,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 27,
                     "end": 29
                 },

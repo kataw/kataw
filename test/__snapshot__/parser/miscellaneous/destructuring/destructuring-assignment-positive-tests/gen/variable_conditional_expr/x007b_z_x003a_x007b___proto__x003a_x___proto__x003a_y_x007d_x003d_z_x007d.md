@@ -248,7 +248,7 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 66,
                                             "end": 68
                                         },
@@ -280,7 +280,7 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 72,
                         "end": 74
                     },

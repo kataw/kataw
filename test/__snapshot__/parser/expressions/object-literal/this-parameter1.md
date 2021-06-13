@@ -98,7 +98,7 @@ let one = {
                                                             "kind": 139,
                                                             "type": {
                                                                 "kind": 134234345,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 22,
                                                                 "end": 29
                                                             },
@@ -176,7 +176,7 @@ let one = {
                                                             "kind": 139,
                                                             "type": {
                                                                 "kind": 134234345,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 46,
                                                                 "end": 53
                                                             },
@@ -262,7 +262,7 @@ let one = {
                                                             "kind": 139,
                                                             "type": {
                                                                 "kind": 134234345,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 73,
                                                                 "end": 80
                                                             },
@@ -363,7 +363,7 @@ let one = {
                                                             "kind": 139,
                                                             "type": {
                                                                 "kind": 134234345,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 103,
                                                                 "end": 110
                                                             },

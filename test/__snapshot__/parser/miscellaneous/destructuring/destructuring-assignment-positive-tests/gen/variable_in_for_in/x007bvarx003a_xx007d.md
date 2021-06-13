@@ -159,7 +159,7 @@ var x, y, z; for (x in {var: x} = {});
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 31,
                     "end": 33
                 },

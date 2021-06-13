@@ -29,7 +29,7 @@ yield ** x;
                 },
                 "operatorToken": {
                     "kind": 35897,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 5,
                     "end": 8
                 },

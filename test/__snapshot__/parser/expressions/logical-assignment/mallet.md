@@ -36,7 +36,7 @@ obj.a ||= b;
                 },
                 "operatorToken": {
                     "kind": 4138,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 5
                 },
@@ -84,7 +84,7 @@ obj.a ||= b;
                 },
                 "operatorToken": {
                     "kind": 4138,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 14,
                     "end": 18
                 },

@@ -37,7 +37,7 @@ assignmentResult = { x: x = yield } = value
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 16,
                     "end": 18
                 },
@@ -71,7 +71,7 @@ assignmentResult = { x: x = yield } = value
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 27
                                         },
@@ -103,7 +103,7 @@ assignmentResult = { x: x = yield } = value
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 35,
                         "end": 37
                     },

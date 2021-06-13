@@ -61,7 +61,7 @@ foo() in x);
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 14,
                     "end": 17
                 },

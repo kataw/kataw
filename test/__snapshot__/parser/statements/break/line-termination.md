@@ -87,7 +87,7 @@ FOR2 : for(var i=1;i<2;i++){
                     "kind": 127,
                     "operandToken": {
                         "kind": 196635,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 24,
                         "end": 26
                     },
@@ -115,7 +115,7 @@ FOR2 : for(var i=1;i<2;i++){
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 20,
                         "end": 21
                     },
@@ -300,7 +300,7 @@ FOR2 : for(var i=1;i<2;i++){
                     "kind": 127,
                     "operandToken": {
                         "kind": 196635,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 102,
                         "end": 104
                     },
@@ -328,7 +328,7 @@ FOR2 : for(var i=1;i<2;i++){
                     },
                     "operatorToken": {
                         "kind": 536971330,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 98,
                         "end": 99
                     },

@@ -102,7 +102,7 @@ async function f() { for await ([a] = 1 of []) ; }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 35,
                                     "end": 37
                                 },

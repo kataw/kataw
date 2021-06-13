@@ -165,7 +165,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                     },
                                                                                     "operatorToken": {
                                                                                         "kind": 99634,
-                                                                                        "flags": 64,
+                                                                                        "flags": 96,
                                                                                         "start": 64,
                                                                                         "end": 66
                                                                                     },

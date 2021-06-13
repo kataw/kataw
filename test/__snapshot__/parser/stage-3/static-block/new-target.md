@@ -116,7 +116,7 @@ class Base {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 43,
                                                         "end": 45
                                                     },
@@ -206,7 +206,7 @@ class Base {
                                                                                                         },
                                                                                                         "operatorToken": {
                                                                                                             "kind": 4125,
-                                                                                                            "flags": 64,
+                                                                                                            "flags": 96,
                                                                                                             "start": 97,
                                                                                                             "end": 99
                                                                                                         },

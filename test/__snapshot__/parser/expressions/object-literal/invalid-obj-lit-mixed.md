@@ -63,7 +63,7 @@
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -205,7 +205,7 @@
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 70,
                                         "end": 72
                                     },
@@ -415,7 +415,7 @@
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 282,
                                             "end": 284
                                         },
@@ -524,7 +524,7 @@
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 348,
                                         "end": 350
                                     },
@@ -629,7 +629,7 @@
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 416,
                                         "end": 418
                                     },
@@ -734,7 +734,7 @@
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 484,
                                         "end": 486
                                     },
@@ -824,7 +824,7 @@
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 517,
                                         "end": 519
                                     },
@@ -875,7 +875,7 @@
                                                                     },
                                                                     "operatorToken": {
                                                                         "kind": 4133,
-                                                                        "flags": 64,
+                                                                        "flags": 96,
                                                                         "start": 530,
                                                                         "end": 533
                                                                     },
@@ -931,7 +931,7 @@
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 4125,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 544,
                                                                             "end": 546
                                                                         },
@@ -956,7 +956,7 @@
                                                                                                 },
                                                                                                 "operatorToken": {
                                                                                                     "kind": 35640,
-                                                                                                    "flags": 64,
+                                                                                                    "flags": 96,
                                                                                                     "start": 550,
                                                                                                     "end": 552
                                                                                                 },
@@ -1098,7 +1098,7 @@
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 584,
                                             "end": 586
                                         },
@@ -1149,7 +1149,7 @@
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 4133,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 597,
                                                                             "end": 600
                                                                         },
@@ -1194,7 +1194,7 @@
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 607,
                                                                                 "end": 609
                                                                             },
@@ -1219,7 +1219,7 @@
                                                                                                     },
                                                                                                     "operatorToken": {
                                                                                                         "kind": 35640,
-                                                                                                        "flags": 64,
+                                                                                                        "flags": 96,
                                                                                                         "start": 613,
                                                                                                         "end": 615
                                                                                                     },
@@ -1383,7 +1383,7 @@
                                                 },
                                                 "operatorToken": {
                                                     "kind": 35640,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 653,
                                                     "end": 655
                                                 },
@@ -1434,7 +1434,7 @@
                                                                                 },
                                                                                 "operatorToken": {
                                                                                     "kind": 4133,
-                                                                                    "flags": 64,
+                                                                                    "flags": 96,
                                                                                     "start": 666,
                                                                                     "end": 669
                                                                                 },
@@ -1479,7 +1479,7 @@
                                                                                     },
                                                                                     "operatorToken": {
                                                                                         "kind": 4125,
-                                                                                        "flags": 64,
+                                                                                        "flags": 96,
                                                                                         "start": 676,
                                                                                         "end": 678
                                                                                     },
@@ -1504,7 +1504,7 @@
                                                                                                             },
                                                                                                             "operatorToken": {
                                                                                                                 "kind": 35640,
-                                                                                                                "flags": 64,
+                                                                                                                "flags": 96,
                                                                                                                 "start": 682,
                                                                                                                 "end": 684
                                                                                                             },
@@ -1608,7 +1608,7 @@
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 699,
                         "end": 701
                     },

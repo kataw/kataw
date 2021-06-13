@@ -81,7 +81,7 @@ function baz(x: boolean) {
                             "kind": 139,
                             "type": {
                                 "kind": 134234254,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 15,
                                 "end": 23
                             },
@@ -384,7 +384,7 @@ function baz(x: boolean) {
                             "kind": 139,
                             "type": {
                                 "kind": 134234254,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 149,
                                 "end": 157
                             },
@@ -546,7 +546,7 @@ function baz(x: boolean) {
                             "kind": 139,
                             "type": {
                                 "kind": 134234254,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 220,
                                 "end": 228
                             },

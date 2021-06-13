@@ -61,7 +61,7 @@ for({}/=y of a)x
                 },
                 "operatorToken": {
                     "kind": 4133,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },

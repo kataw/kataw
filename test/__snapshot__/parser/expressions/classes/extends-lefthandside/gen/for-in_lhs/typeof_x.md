@@ -35,7 +35,7 @@ for (typeof x in x) ;
                 "kind": 126,
                 "operandToken": {
                     "kind": 138477613,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 5,
                     "end": 11
                 },

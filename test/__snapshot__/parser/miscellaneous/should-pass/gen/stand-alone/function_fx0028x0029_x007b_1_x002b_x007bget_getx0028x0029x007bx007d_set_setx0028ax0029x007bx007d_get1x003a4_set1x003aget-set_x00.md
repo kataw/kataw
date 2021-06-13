@@ -70,7 +70,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -240,7 +240,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                     },
                                                     "operatorToken": {
                                                         "kind": 134318643,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 63,
                                                         "end": 64
                                                     },

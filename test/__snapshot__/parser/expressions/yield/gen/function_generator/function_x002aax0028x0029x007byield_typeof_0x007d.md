@@ -148,7 +148,7 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                                                                     "kind": 126,
                                                                     "operandToken": {
                                                                         "kind": 138477613,
-                                                                        "flags": 64,
+                                                                        "flags": 96,
                                                                         "start": 59,
                                                                         "end": 66
                                                                     },

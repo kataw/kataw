@@ -39,7 +39,7 @@ a in b instanceof delete -c
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 1,
                         "end": 4
                     },
@@ -57,7 +57,7 @@ a in b instanceof delete -c
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 17
                 },
@@ -65,7 +65,7 @@ a in b instanceof delete -c
                     "kind": 126,
                     "operandToken": {
                         "kind": 4259886,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 17,
                         "end": 24
                     },
@@ -73,7 +73,7 @@ a in b instanceof delete -c
                         "kind": 126,
                         "operandToken": {
                             "kind": 134318643,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 24,
                             "end": 26
                         },

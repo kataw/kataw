@@ -50,7 +50,7 @@ foo( a + b instanceof c )
                             },
                             "operatorToken": {
                                 "kind": 99634,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 8
                             },
@@ -66,7 +66,7 @@ foo( a + b instanceof c )
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 10,
                                     "end": 21
                                 },

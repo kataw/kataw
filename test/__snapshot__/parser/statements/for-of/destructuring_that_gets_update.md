@@ -36,7 +36,7 @@ for ({a: b.c}-- of d) e
                 "kind": 127,
                 "operandToken": {
                     "kind": 196636,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 13,
                     "end": 15
                 },

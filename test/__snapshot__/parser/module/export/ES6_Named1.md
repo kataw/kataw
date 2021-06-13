@@ -551,7 +551,7 @@ export const [destructuredArrNumber] = [1]
                     "kind": 139,
                     "type": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 354,
                         "end": 361
                     },
@@ -642,7 +642,7 @@ export const [destructuredArrNumber] = [1]
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 424,
                                             "end": 431
                                         },

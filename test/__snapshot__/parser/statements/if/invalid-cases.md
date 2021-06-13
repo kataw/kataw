@@ -118,7 +118,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 18,
                     "end": 20
                 },
@@ -419,7 +419,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 113,
                     "end": 114
                 },
@@ -1075,7 +1075,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 381,
                         "end": 383
                     },
@@ -1136,7 +1136,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "operatorToken": {
                     "kind": 4138,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 397,
                     "end": 401
                 },
@@ -1248,7 +1248,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 },
                                 "operatorToken": {
                                     "kind": 4138,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 429,
                                     "end": 433
                                 },
@@ -1276,7 +1276,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 437,
                     "end": 439
                 },
@@ -1396,7 +1396,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "operatorToken": {
                     "kind": 4138,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 469,
                     "end": 473
                 },
@@ -1532,7 +1532,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 },
                                 "operatorToken": {
                                     "kind": 4138,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 507,
                                     "end": 511
                                 },
@@ -1712,7 +1712,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "operatorToken": {
                     "kind": 4139,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 550,
                     "end": 554
                 },
@@ -1824,7 +1824,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                 },
                                 "operatorToken": {
                                     "kind": 4139,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 582,
                                     "end": 586
                                 },
@@ -1852,7 +1852,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 590,
                     "end": 592
                 },
@@ -1972,7 +1972,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 },
                 "operatorToken": {
                     "kind": 4139,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 622,
                     "end": 626
                 },

@@ -98,7 +98,7 @@ for ({x:a.b}=x in x) ;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 12,
                     "end": 13
                 },
@@ -114,7 +114,7 @@ for ({x:a.b}=x in x) ;
                     },
                     "operatorToken": {
                         "kind": 21006388,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 14,
                         "end": 17
                     },

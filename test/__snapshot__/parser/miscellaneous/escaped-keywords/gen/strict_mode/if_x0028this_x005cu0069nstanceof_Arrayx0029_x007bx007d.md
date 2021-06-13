@@ -41,7 +41,7 @@ if (this \u0069nstanceof Array) {}
                 },
                 "operatorToken": {
                     "kind": 4229173,
-                    "flags": 16448,
+                    "flags": 16480,
                     "start": 8,
                     "end": 24
                 },

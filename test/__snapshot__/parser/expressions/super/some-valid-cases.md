@@ -745,7 +745,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 207,
                     "end": 208
                 },
@@ -1255,7 +1255,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 342,
                     "end": 343
                 },
@@ -1377,7 +1377,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 369,
                     "end": 370
                 },

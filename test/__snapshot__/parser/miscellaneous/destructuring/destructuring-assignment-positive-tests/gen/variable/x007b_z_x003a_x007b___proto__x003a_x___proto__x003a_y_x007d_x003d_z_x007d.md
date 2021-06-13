@@ -182,7 +182,7 @@ var x, y, z; ({ z : { __proto__: x, __proto__: y } = z } = {});
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 50,
                                             "end": 52
                                         },
@@ -214,7 +214,7 @@ var x, y, z; ({ z : { __proto__: x, __proto__: y } = z } = {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 56,
                         "end": 58
                     },

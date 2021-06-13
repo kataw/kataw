@@ -56,7 +56,7 @@ for (a * b + c * d;b;c);
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 6,
                         "end": 8
                     },
@@ -74,7 +74,7 @@ for (a * b + c * d;b;c);
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 10,
                     "end": 12
                 },
@@ -90,7 +90,7 @@ for (a * b + c * d;b;c);
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 14,
                         "end": 16
                     },

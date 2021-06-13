@@ -2657,7 +2657,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 369,
                     "end": 370
                 },
@@ -2854,7 +2854,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 397,
                     "end": 398
                 },
@@ -3117,7 +3117,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 432,
                     "end": 433
                 },

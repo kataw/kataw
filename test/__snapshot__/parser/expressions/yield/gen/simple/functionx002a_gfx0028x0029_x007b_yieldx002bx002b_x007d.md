@@ -77,7 +77,7 @@ function* gf() { yield++; }
                                     "kind": 128,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 22,
                                         "end": 24
                                     },

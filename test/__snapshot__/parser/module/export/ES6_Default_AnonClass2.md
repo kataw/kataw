@@ -87,7 +87,7 @@ export default class { givesANum(): number { return 42; }};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 35,
                                             "end": 42
                                         },

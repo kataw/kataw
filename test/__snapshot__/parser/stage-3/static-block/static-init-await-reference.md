@@ -107,7 +107,7 @@ class C {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 4125,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 49,
                                                                             "end": 51
                                                                         },
@@ -153,7 +153,7 @@ class C {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 75,
                                                                                 "end": 77
                                                                             },

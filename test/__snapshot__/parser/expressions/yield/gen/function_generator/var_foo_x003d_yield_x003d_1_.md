@@ -130,7 +130,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 4125,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 55,
                                                                 "end": 57
                                                             },

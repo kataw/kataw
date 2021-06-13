@@ -29,7 +29,7 @@ x={...x=y}=z
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 2
                 },
@@ -60,7 +60,7 @@ x={...x=y}=z
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -92,7 +92,7 @@ x={...x=y}=z
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 10,
                         "end": 11
                     },

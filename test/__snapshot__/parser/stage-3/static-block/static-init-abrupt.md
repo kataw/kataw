@@ -117,7 +117,7 @@ try {
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
-                                                                    "flags": 64,
+                                                                    "flags": 96,
                                                                     "start": 67,
                                                                     "end": 69
                                                                 },
@@ -181,7 +181,7 @@ try {
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 112,
                                                     "end": 114
                                                 },
@@ -229,7 +229,7 @@ try {
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
-                                                                    "flags": 64,
+                                                                    "flags": 96,
                                                                     "start": 155,
                                                                     "end": 157
                                                                 },
@@ -317,7 +317,7 @@ try {
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 200,
                                         "end": 202
                                     },

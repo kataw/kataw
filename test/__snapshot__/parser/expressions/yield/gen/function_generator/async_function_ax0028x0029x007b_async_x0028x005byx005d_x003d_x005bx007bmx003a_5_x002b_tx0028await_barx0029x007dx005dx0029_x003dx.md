@@ -203,7 +203,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                     },
                                                                                                     "operatorToken": {
                                                                                                         "kind": 99634,
-                                                                                                        "flags": 64,
+                                                                                                        "flags": 96,
                                                                                                         "start": 83,
                                                                                                         "end": 85
                                                                                                     },

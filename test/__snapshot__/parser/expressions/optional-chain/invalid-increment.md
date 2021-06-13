@@ -21,7 +21,7 @@ obj?.foo++
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 8,
                     "end": 10
                 },

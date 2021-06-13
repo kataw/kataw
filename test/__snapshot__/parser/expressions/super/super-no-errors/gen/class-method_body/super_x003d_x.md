@@ -114,7 +114,7 @@ class C { m() { super = x; }
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 21,
                                                         "end": 23
                                                     },

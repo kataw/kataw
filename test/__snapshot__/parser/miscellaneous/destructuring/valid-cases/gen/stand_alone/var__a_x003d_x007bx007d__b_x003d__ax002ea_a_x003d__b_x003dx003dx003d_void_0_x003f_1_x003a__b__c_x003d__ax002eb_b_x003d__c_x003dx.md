@@ -129,7 +129,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 30,
                                     "end": 34
                                 },
@@ -137,7 +137,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477615,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 34,
                                         "end": 39
                                     },
@@ -257,7 +257,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 69,
                                     "end": 73
                                 },
@@ -265,7 +265,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477615,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 73,
                                         "end": 78
                                     },
@@ -385,7 +385,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 108,
                                     "end": 112
                                 },
@@ -393,7 +393,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477615,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 112,
                                         "end": 117
                                     },

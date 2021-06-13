@@ -133,7 +133,7 @@ async function f(){
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 40,
                                     "end": 41
                                 },

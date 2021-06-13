@@ -37,7 +37,7 @@ yield * 1; return 37; yield * 'dead';
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 5,
                     "end": 7
                 },
@@ -91,7 +91,7 @@ yield * 1; return 37; yield * 'dead';
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 27,
                     "end": 29
                 },

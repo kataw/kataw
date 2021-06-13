@@ -65,7 +65,7 @@ function *f() {  return void yield;  }
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 23,
                                     "end": 28
                                 },

@@ -125,7 +125,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                         "kind": 127,
                                         "operandToken": {
                                             "kind": 196635,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 34,
                                             "end": 36
                                         },
@@ -147,7 +147,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 37,
                                     "end": 39
                                 },

@@ -41,7 +41,7 @@ o = {f(){ function x(){} var x = y; }};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -206,7 +206,7 @@ o = {f(){ function x(){} var x = y; }};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 30,
                     "end": 32
                 },
@@ -371,7 +371,7 @@ o = {f(){ function x(){} var x = y; }};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 59,
                     "end": 61
                 },
@@ -543,7 +543,7 @@ o = {f(){ function x(){} var x = y; }};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 94,
                     "end": 96
                 },
@@ -717,7 +717,7 @@ o = {f(){ function x(){} var x = y; }};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 131,
                     "end": 133
                 },
@@ -898,7 +898,7 @@ o = {f(){ function x(){} var x = y; }};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 174,
                     "end": 176
                 },
@@ -1079,7 +1079,7 @@ o = {f(){ function x(){} var x = y; }};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 217,
                     "end": 219
                 },

@@ -50,7 +50,7 @@ class C { test() {get #a() { }}}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 3,
                     "end": 5
                 },
@@ -109,7 +109,7 @@ class C { test() {get #a() { }}}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 25,
                                     "end": 27
                                 },
@@ -712,7 +712,7 @@ class C { test() {get #a() { }}}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 193,
                         "end": 195
                     },
@@ -822,7 +822,7 @@ class C { test() {get #a() { }}}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 220,
                         "end": 222
                     },

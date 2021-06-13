@@ -37,7 +37,7 @@ unction* gf() { var a = yield 'foo'; }
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 7,
                     "end": 8
                 },

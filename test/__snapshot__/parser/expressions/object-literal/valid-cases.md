@@ -1016,7 +1016,7 @@ x = {y: {z: 1}}?.y?.z;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 237,
                     "end": 239
                 },
@@ -1091,7 +1091,7 @@ x = {y: {z: 1}}?.y?.z;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 259,
                     "end": 261
                 },
@@ -1190,7 +1190,7 @@ x = {y: {z: 1}}?.y?.z;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 283,
                     "end": 285
                 },
@@ -1309,7 +1309,7 @@ x = {y: {z: 1}}?.y?.z;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 311,
                     "end": 313
                 },
@@ -1441,7 +1441,7 @@ x = {y: {z: 1}}?.y?.z;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 337,
                     "end": 339
                 },
@@ -1538,7 +1538,7 @@ x = {y: {z: 1}}?.y?.z;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 357,
                     "end": 359
                 },
@@ -1698,7 +1698,7 @@ x = {y: {z: 1}}?.y?.z;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 381,
                     "end": 383
                 },

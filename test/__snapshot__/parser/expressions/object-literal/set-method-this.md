@@ -39,7 +39,7 @@ x = {set this(this: string):number{}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -101,7 +101,7 @@ x = {set this(this: string):number{}};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 20,
                                             "end": 26
                                         },
@@ -163,7 +163,7 @@ x = {set this(this: string):number{}};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 33,
                     "end": 35
                 },
@@ -213,7 +213,7 @@ x = {set this(this: string):number{}};
                                                     "kind": 139,
                                                     "type": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 51,
                                                         "end": 58
                                                     },
@@ -236,7 +236,7 @@ x = {set this(this: string):number{}};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 60,
                                             "end": 66
                                         },

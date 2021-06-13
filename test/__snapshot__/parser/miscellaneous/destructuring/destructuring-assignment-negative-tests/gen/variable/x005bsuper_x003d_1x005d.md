@@ -135,7 +135,7 @@ var x, y, z; ([super = 1] = {});
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -163,7 +163,7 @@ var x, y, z; ([super = 1] = {});
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 25,
                         "end": 27
                     },

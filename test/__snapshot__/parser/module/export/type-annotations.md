@@ -197,7 +197,7 @@ export type * from "foo";
                     },
                     "operatorToken": {
                         "kind": 67143222,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 65,
                         "end": 67
                     },

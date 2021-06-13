@@ -29,7 +29,7 @@ a ?? (b && c);
                 },
                 "operatorToken": {
                     "kind": 33047,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 4
                 },
@@ -47,7 +47,7 @@ a ?? (b && c);
                         },
                         "operatorToken": {
                             "kind": 33594,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 7,
                             "end": 10
                         },

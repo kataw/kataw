@@ -89,7 +89,7 @@ function x8(a: false & false): false {
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 14,
                                 "end": 21
                             },
@@ -126,7 +126,7 @@ function x8(a: false & false): false {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 41,
                                     "end": 43
                                 },
@@ -160,7 +160,7 @@ function x8(a: false & false): false {
                 "kind": 139,
                 "type": {
                     "kind": 134234345,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 23,
                     "end": 30
                 },
@@ -210,7 +210,7 @@ function x8(a: false & false): false {
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 99,
                                 "end": 106
                             },
@@ -247,7 +247,7 @@ function x8(a: false & false): false {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 134318643,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 126,
                                     "end": 128
                                 },
@@ -281,7 +281,7 @@ function x8(a: false & false): false {
                 "kind": 139,
                 "type": {
                     "kind": 134234345,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 108,
                     "end": 115
                 },
@@ -331,7 +331,7 @@ function x8(a: false & false): false {
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 187,
                                 "end": 194
                             },
@@ -368,7 +368,7 @@ function x8(a: false & false): false {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65585,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 206,
                                     "end": 208
                                 },
@@ -441,7 +441,7 @@ function x8(a: false & false): false {
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 268,
                                 "end": 275
                             },
@@ -478,7 +478,7 @@ function x8(a: false & false): false {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 296,
                                     "end": 298
                                 },
@@ -512,7 +512,7 @@ function x8(a: false & false): false {
                 "kind": 139,
                 "type": {
                     "kind": 134234254,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 277,
                     "end": 285
                 },
@@ -576,7 +576,7 @@ function x8(a: false & false): false {
                                         {
                                             "kind": 267,
                                             "type": {
-                                                "kind": 34883,
+                                                "kind": 205586437,
                                                 "flags": 2097216,
                                                 "start": 348,
                                                 "end": 353
@@ -627,7 +627,7 @@ function x8(a: false & false): false {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 372,
                                     "end": 374
                                 },
@@ -660,7 +660,7 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 268501004,
+                    "kind": 24752947,
                     "flags": 2097216,
                     "start": 356,
                     "end": 361
@@ -731,7 +731,7 @@ function x8(a: false & false): false {
                                         {
                                             "kind": 267,
                                             "type": {
-                                                "kind": 34883,
+                                                "kind": 205586437,
                                                 "flags": 2097216,
                                                 "start": 404,
                                                 "end": 409
@@ -782,7 +782,7 @@ function x8(a: false & false): false {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 429,
                                     "end": 431
                                 },
@@ -815,7 +815,7 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 268501004,
+                    "kind": 205586437,
                     "flags": 2097216,
                     "start": 412,
                     "end": 418
@@ -874,13 +874,13 @@ function x8(a: false & false): false {
                                 "kind": 138,
                                 "types": [
                                     {
-                                        "kind": 134252103,
+                                        "kind": 205586437,
                                         "flags": 2097216,
                                         "start": 476,
                                         "end": 482
                                     },
                                     {
-                                        "kind": 16,
+                                        "kind": 205586437,
                                         "flags": 2097216,
                                         "start": 484,
                                         "end": 490
@@ -923,7 +923,7 @@ function x8(a: false & false): false {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 508,
                                     "end": 510
                                 },
@@ -956,7 +956,7 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 268501004,
+                    "kind": 24752947,
                     "flags": 2097216,
                     "start": 492,
                     "end": 497
@@ -1015,13 +1015,13 @@ function x8(a: false & false): false {
                                 "kind": 138,
                                 "types": [
                                     {
-                                        "kind": 134252103,
+                                        "kind": 205586437,
                                         "flags": 2097216,
                                         "start": 537,
                                         "end": 543
                                     },
                                     {
-                                        "kind": 16,
+                                        "kind": 205586437,
                                         "flags": 2097216,
                                         "start": 545,
                                         "end": 551
@@ -1064,7 +1064,7 @@ function x8(a: false & false): false {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 570,
                                     "end": 572
                                 },
@@ -1097,7 +1097,7 @@ function x8(a: false & false): false {
             "returnType": {
                 "kind": 139,
                 "type": {
-                    "kind": 268501004,
+                    "kind": 205586437,
                     "flags": 2097216,
                     "start": 553,
                     "end": 559

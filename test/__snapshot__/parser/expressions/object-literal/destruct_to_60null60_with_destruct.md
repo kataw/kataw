@@ -29,7 +29,7 @@ s = {"foo": null = x} = x
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -61,7 +61,7 @@ s = {"foo": null = x} = x
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 16,
                                             "end": 18
                                         },
@@ -93,7 +93,7 @@ s = {"foo": null = x} = x
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 21,
                         "end": 23
                     },

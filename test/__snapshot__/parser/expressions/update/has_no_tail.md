@@ -21,7 +21,7 @@ x.foo++.bar
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 5,
                     "end": 7
                 },

@@ -21,7 +21,7 @@ delete (((((foo(yield)))))).bar
                 "kind": 126,
                 "operandToken": {
                     "kind": 4259886,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },

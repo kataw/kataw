@@ -37,7 +37,7 @@ a + typeof b += c in d
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -45,7 +45,7 @@ a + typeof b += c in d
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477613,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 3,
                         "end": 10
                     },
@@ -83,7 +83,7 @@ a + typeof b += c in d
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 17,
                     "end": 20
                 },

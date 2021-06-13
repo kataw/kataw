@@ -35,7 +35,7 @@ while (i-- > 0) {}
                     "kind": 127,
                     "operandToken": {
                         "kind": 196636,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 8,
                         "end": 10
                     },
@@ -53,7 +53,7 @@ while (i-- > 0) {}
                 },
                 "operatorToken": {
                     "kind": 34883,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 10,
                     "end": 12
                 },

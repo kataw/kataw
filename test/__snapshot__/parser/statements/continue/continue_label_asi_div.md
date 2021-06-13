@@ -84,7 +84,7 @@ x: for(;;) continue x
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 21,
                     "end": 23
                 },

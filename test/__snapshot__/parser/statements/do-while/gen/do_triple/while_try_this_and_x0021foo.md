@@ -35,7 +35,7 @@ do do do while try this and !foo while while while
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 27,
                     "end": 29
                 },

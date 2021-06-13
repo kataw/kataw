@@ -89,7 +89,7 @@ for (function(){ if (a in b); }.prop in x);
                                         },
                                         "operatorToken": {
                                             "kind": 21006388,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 22,
                                             "end": 25
                                         },

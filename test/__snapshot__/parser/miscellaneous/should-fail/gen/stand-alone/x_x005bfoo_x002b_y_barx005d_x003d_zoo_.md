@@ -55,7 +55,7 @@ x, [foo + y, bar] = zoo;
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 7,
                                             "end": 9
                                         },
@@ -91,7 +91,7 @@ x, [foo + y, bar] = zoo;
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 17,
                             "end": 19
                         },

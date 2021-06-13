@@ -37,7 +37,7 @@ a = [[x[await]]] = value;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -97,7 +97,7 @@ a = [[x[await]]] = value;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 16,
                         "end": 18
                     },
