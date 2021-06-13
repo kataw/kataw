@@ -151,6 +151,7 @@ import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
 import { TypeNode } from '../ast/types';
 import { Char } from './scanner/char';
 import { isLineTerminator } from '../parser/scanner/common';
+import { Constants } from '../parser/constants';
 import {
   createTypeParameterInstantiationList,
   TypeParameterInstantiationList
@@ -487,7 +488,7 @@ function parseSwitchStatement(
       labels,
       ownLabels
     ),
-    (switchToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (switchToken.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -680,7 +681,7 @@ function parseCatchClause(parser: ParserState, context: Context, scope: ScopeSta
     catchToken,
     catchParameter,
     parseBlockStatement(parser, context, scope, labels, null),
-    (catchToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (catchToken.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -731,7 +732,7 @@ function parseBreakStatement(parser: ParserState, context: Context, labels: any)
       );
     }
   } else {
-    label = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
+    label = parseIdentifier(parser, context, Constants.Identifier);
     if (lookupBreakTarget(labels, label.text)) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -770,7 +771,7 @@ function parseContinueStatement(parser: ParserState, context: Context, labels: a
     pos
   );
   if (!canParseSemicolon(parser)) {
-    label = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
+    label = parseIdentifier(parser, context, Constants.Identifier);
     if (lookupContinueTarget(labels, label.text)) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -820,7 +821,7 @@ function parseIfStatement(parser: ParserState, context: Context, scope: ScopeSta
     consequent,
     elseKeyword,
     elseKeyword ? parseConsequentOrAlternative(parser, context, scope, labels) : null,
-    (ifKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (ifKeyword.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -990,7 +991,7 @@ function parseWhileStatement(
       labels,
       ownLabels
     ),
-    (whileToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (whileToken.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -1042,7 +1043,7 @@ function parseDoWhileStatement(
     expression,
     whileKeyword,
     statement,
-    (doKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (doKeyword.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -1101,7 +1102,7 @@ function parseWithStatement(
       labels,
       ownLabels
     ),
-    (withKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (withKeyword.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -1177,7 +1178,7 @@ export function parseLabelledStatement(
           DiagnosticSource.Parser,
           DiagnosticKind.Error | DiagnosticKind.EarlyError,
           diagnosticMap[
-            flags & 0b00000000000000000110000000000000
+            flags & Constants.IsEscaped
               ? DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords
               : DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal_and_cannot_be_used_as_an_label
           ],
@@ -1191,7 +1192,7 @@ export function parseLabelledStatement(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
-          flags & 0b00000000000000000110000000000000
+          flags & Constants.IsEscaped
             ? DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords
             : DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode_and_cannot_be_used_as_an_label
         ],
@@ -1302,7 +1303,7 @@ function parseForStatement(
 
   if (parser.token === SyntaxKind.LetKeyword) {
     const { curPos } = parser;
-    initializer = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
+    initializer = parseIdentifier(parser, context, Constants.Identifier);
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved | SyntaxKind.IsPatternStart)) {
       if ((parser.token as SyntaxKind) === SyntaxKind.InKeyword) {
         if (context & Context.Strict) {
@@ -1436,7 +1437,7 @@ function parseForStatement(
     : consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.OfKeyword);
 
   if (ofKeyword) {
-    if (ofKeyword.flags & 0b00000000000000000110000000000000) {
+    if (ofKeyword.flags & Constants.IsEscaped) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -1475,7 +1476,7 @@ function parseForStatement(
         /* ownLabels */ null
       ),
       awaitKeyword,
-      (forKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+      (forKeyword.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
       pos,
       parser.curPos
     );
@@ -1484,7 +1485,7 @@ function parseForStatement(
   const inKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.InKeyword);
 
   if (inKeyword) {
-    if (inKeyword.flags & 0b00000000000000000110000000000000) {
+    if (inKeyword.flags & Constants.IsEscaped) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -1525,7 +1526,7 @@ function parseForStatement(
         labels,
         /* ownLabels */ null
       ),
-      (forKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+      (forKeyword.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
       pos,
       parser.curPos
     );
@@ -1584,7 +1585,7 @@ function parseForStatement(
       labels,
       /* ownLabels */ null
     ),
-    (forKeyword.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (forKeyword.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -2243,10 +2244,10 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
 
 function parsePropertyOrPrivatePropertyName(parser: ParserState, context: Context): Identifier | PrivateIdentifier {
   const pos = parser.curPos;
-  if (parser.token & 0b00000000110000000100000000000000) {
+  if (parser.token & Constants.IdentifierOrKeyword) {
     return parser.token === SyntaxKind.PrivateIdentifier
       ? parsePrivateIdentifier(parser, context)
-      : parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
+      : parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Identifier_expected);
   }
 
   parser.onError(
@@ -2911,17 +2912,17 @@ function parsePropertyDefinition(
 
   if (generatorToken) nodeFlags |= NodeFlags.Generator;
 
-  if (parser.token & 0b00000000100000000100000000000000) {
+  if (parser.token & Constants.Identifier) {
     const token = parser.token;
 
-    key = parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
+    key = parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Identifier_expected);
 
     // Check for a modifier keyword
     if (parser.token & 0b00000100110000000100000000000000) {
       if (token === SyntaxKind.AsyncKeyword) {
         nodeFlags |= NodeFlags.Async;
         asyncKeyword = createToken(SyntaxKind.AsyncKeyword, nodeFlags | NodeFlags.ChildLess, pos, parser.curPos);
-        if (nodeFlags & 0b00000000000000000110000000000000) {
+        if (nodeFlags & Constants.IsEscaped) {
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
@@ -3058,7 +3059,7 @@ function parsePropertyDefinition(
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)) {
     let left;
 
-    if (parser.token & 0b00000000110000000100000000000000) {
+    if (parser.token & Constants.IdentifierOrKeyword) {
       const colonValue = parser.tokenValue;
       left = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
@@ -3594,7 +3595,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
     newToken,
     expression,
     parser.token === SyntaxKind.LeftParen ? parseArguments(parser, context) : null,
-    (newToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (newToken.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -3696,15 +3697,12 @@ function parseUnaryExpression(
 ): UnaryExpression {
   const curPos = parser.curPos;
   const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
-  if (
-    operandToken.flags & 0b00000000000000000110000000000000 ||
-    leftHandSideContext & LeftHandSide.DisallowClassExtends
-  ) {
+  if (operandToken.flags & Constants.IsEscaped || leftHandSideContext & LeftHandSide.DisallowClassExtends) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        operandToken.flags & 0b00000000000000000110000000000000
+        operandToken.flags & Constants.IsEscaped
           ? DiagnosticCode.Keywords_cannot_contain_escape_characters
           : DiagnosticCode.Expression_expected
       ],
@@ -5287,7 +5285,7 @@ function parsePropertyName(
     case SyntaxKind.PrivateIdentifier:
       return parsePrivateIdentifier(parser, context);
     default:
-      return parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
+      return parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Identifier_expected);
   }
 }
 
@@ -5545,7 +5543,7 @@ function parseFunctionExpression(
           if (parser.token & SyntaxKind.IsInOrOf && speculate(parser, context, isArrowAfterTheCurrentToken, true)) {
             // Do not allow "for (async of []) ;" but do allow "for await (async of []) ;"
             if (
-              (asyncToken.flags & 0b00000000000000000110000000000000) < 1 &&
+              (asyncToken.flags & Constants.IsEscaped) < 1 &&
               (context & Context.InForOfAwait) < 1 &&
               parser.token & SyntaxKind.IsInOrOf
             ) {
@@ -5652,7 +5650,7 @@ function parseFunctionExpression(
       // "async + 1"
       return expression;
     }
-    if (asyncToken.flags & 0b00000000000000000110000000000000) {
+    if (asyncToken.flags & Constants.IsEscaped) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -5795,7 +5793,7 @@ function parseFunctionDeclaration(
             );
           }
 
-          if (asyncToken.flags & 0b00000000000000000110000000000000) {
+          if (asyncToken.flags & Constants.IsEscaped) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -5830,7 +5828,7 @@ function parseFunctionDeclaration(
 
           addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
 
-          const params = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
+          const params = parseIdentifier(parser, context, Constants.Identifier);
 
           expression = parseArrowFunction(
             parser,
@@ -5919,7 +5917,7 @@ function parseFunctionDeclaration(
       return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expression, pos), pos);
     }
 
-    if (asyncToken.flags & 0b00000000000000000110000000000000) {
+    if (asyncToken.flags & Constants.IsEscaped) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -6179,7 +6177,7 @@ function parseFunctionStatementList(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
             diagnosticMap[
-              flags & 0b00000000000000000110000000000000
+              flags & Constants.IsEscaped
                 ? DiagnosticCode._eval_and_arguments_cannot_contain_escape_characters
                 : DiagnosticCode._eval_and_arguments_cannot_be_used_as_an_identifier_here
             ],
@@ -6513,7 +6511,7 @@ function parseImportDeclaration(
       /* fromClause */ null,
       moduleSpecifier,
       /* importClause */ null,
-      (importToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+      (importToken.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
       pos,
       parser.curPos
     );
@@ -6543,7 +6541,7 @@ function parseImportDeclaration(
   let typeofKeyword = null;
 
   const token = parser.token;
-  const tokenIsIdentifier = parser.token & 0b00000000110000000100000000000000;
+  const tokenIsIdentifier = parser.token & Constants.IdentifierOrKeyword;
 
   if (
     tokenIsIdentifier || // import id
@@ -6571,11 +6569,11 @@ function parseImportDeclaration(
         }
         typeofKeyword = consumeOptToken(parser, context, SyntaxKind.TypeofKeyword);
         // - `import type foo24 from "bar";`
-        if (parser.token & 0b00000000100000000100000000000000) {
+        if (parser.token & Constants.Identifier) {
           defaultBinding = parseIdentifier(
             parser,
             context,
-            0b00000000100000000100000000000000,
+            Constants.Identifier,
             DiagnosticCode.Binding_identifier_expected
           ) as Identifier;
         }
@@ -6583,7 +6581,7 @@ function parseImportDeclaration(
         defaultBinding = parseIdentifier(
           parser,
           context,
-          0b00000000100000000100000000000000,
+          Constants.Identifier,
           DiagnosticCode.Binding_identifier_expected
         ) as Identifier;
       }
@@ -6602,11 +6600,11 @@ function parseImportDeclaration(
           (defaultBinding as any).end
         );
         // - `import type foo24 from "bar";`
-        if (parser.token & 0b00000000100000000100000000000000) {
+        if (parser.token & Constants.Identifier) {
           defaultBinding = parseIdentifier(
             parser,
             context,
-            0b00000000100000000100000000000000,
+            Constants.Identifier,
             DiagnosticCode.Binding_identifier_expected
           ) as Identifier;
         }
@@ -6660,7 +6658,7 @@ function parseImportDeclaration(
     fromClause,
     /* moduleSpecifier */ null,
     importClause,
-    (importToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (importToken.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -6717,7 +6715,7 @@ function parseImportsList(parser: ParserState, context: Context, scope: ScopeSta
         parseIdentifier(
           parser,
           context,
-          0b00000000100000000100000000000000,
+          Constants.Identifier,
           DiagnosticCode.Binding_identifier_expected
         ) as Identifier,
         pos,
@@ -6726,7 +6724,7 @@ function parseImportsList(parser: ParserState, context: Context, scope: ScopeSta
     );
   }
 
-  while (parser.token & 0b00000000110000000100000000000000) {
+  while (parser.token & Constants.IdentifierOrKeyword) {
     specifiers.push(parseImportSpecifier(parser, context, scope));
     if (parser.token === SyntaxKind.RightBrace) break;
     consume(parser, context, SyntaxKind.Comma, DiagnosticCode._expected);
@@ -6741,12 +6739,7 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
   const pos = parser.curPos;
   const token = parser.token;
   let typeKeyword = null;
-  let identifier = parseIdentifier(
-    parser,
-    context,
-    0b00000000110000000100000000000000,
-    DiagnosticCode.Identifier_expected
-  );
+  let identifier = parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Identifier_expected);
 
   if (parser.token === SyntaxKind.AsKeyword) {
     return createImportSpecifier(
@@ -6768,12 +6761,7 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
 
   if (token === SyntaxKind.TypeKeyword && parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     typeKeyword = createToken(SyntaxKind.TypeKeyword, NodeFlags.ChildLess, identifier.start, identifier.end);
-    identifier = parseIdentifier(
-      parser,
-      context,
-      0b00000000110000000100000000000000,
-      DiagnosticCode.Identifier_expected
-    );
+    identifier = parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Identifier_expected);
   }
 
   if (token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier) {
@@ -6781,7 +6769,7 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        identifier.flags & 0b00000000000000000110000000000000
+        identifier.flags & Constants.IsEscaped
           ? DiagnosticCode._eval_and_arguments_cannot_contain_escape_characters
           : DiagnosticCode._eval_and_arguments_cannot_be_used_as_an_identifier_here
       ],
@@ -6853,7 +6841,7 @@ function parseExportDeclaration(
       if (
         (parser.token as SyntaxKind) === SyntaxKind.FromKeyword &&
         // - `fro\u006D`
-        (parser.nodeFlags & 0b00000000000000000110000000000000) === 0
+        (parser.nodeFlags & Constants.IsEscaped) === 0
       ) {
         fromClause = parseFromClause(parser, context);
       }
@@ -6935,7 +6923,7 @@ function parseExportDeclaration(
     fromClause as any,
     exportFromClause,
     exportKind,
-    (exportToken.flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (exportToken.flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -6961,12 +6949,7 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
     if (parser.token === SyntaxKind.StringLiteral) {
       moduleExportName = parseModuleExportName(parser, context);
     } else {
-      namedBinding = parseIdentifier(
-        parser,
-        context,
-        0b00000000100000000100000000000000,
-        DiagnosticCode.Identifier_expected
-      );
+      namedBinding = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
     }
   }
   return createExportFromClause(
@@ -6995,7 +6978,7 @@ function parseNamedExports(parser: ParserState, context: Context): NamedExports 
 function parseExportsList(parser: ParserState, context: Context): ExportsList {
   const pos = parser.curPos;
   const specifiers = [];
-  while (parser.token & 0b00000000110000000100000000000000) {
+  while (parser.token & Constants.IdentifierOrKeyword) {
     specifiers.push(parseExportSpecifier(parser, context));
     if (parser.token === SyntaxKind.RightBrace) break;
     consume(parser, context, SyntaxKind.Comma);
@@ -7018,7 +7001,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
   const localName =
     parser.token === SyntaxKind.StringLiteral
       ? parseModuleExportName(parser, context)
-      : parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Identifier_expected);
+      : parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Identifier_expected);
 
   let exportedName = null;
 
@@ -7034,7 +7017,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
     if (parser.token === SyntaxKind.StringLiteral) {
       moduleExportName = parseModuleExportName(parser, context);
     } else {
-      exportedName = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
+      exportedName = parseIdentifier(parser, context, Constants.Identifier);
     }
   }
   return createExportSpecifier(moduleExportName, localName, asKeyword, exportedName, pos, parser.curPos);
@@ -7211,13 +7194,7 @@ function parseSubtractionType(parser: ParserState, context: Context): Subtractio
   );
 
   return createTypeReference(
-    parseEntityName(
-      parser,
-      context,
-      createDummyIdentifier(pos, parser.curPos),
-      0b00000000110000000100000000000000,
-      pos
-    ),
+    parseEntityName(parser, context, createDummyIdentifier(pos, parser.curPos), Constants.IdentifierOrKeyword, pos),
     null,
     pos,
     parser.curPos
@@ -7354,7 +7331,7 @@ function parseFunctionTypeParameter(parser: ParserState, context: Context): Func
   let type: any = null;
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     const token = parser.token;
-    type = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Type_expected);
+    type = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Type_expected);
     if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) {
       const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
       consume(parser, context, SyntaxKind.Colon, DiagnosticCode.Type_expected);
@@ -7404,7 +7381,7 @@ function parseArrowFunctionTypeParameters(parser: ParserState, context: Context,
         trailingComma = true;
         break;
       }
-    } while (parser.token & 0b00001000100000000100000000000000);
+    } while (parser.token & Constants.IdentiferOrType);
   }
   return createArrowTypeParameterList(params, trailingComma, pos, parser.curPos);
 }
@@ -7432,7 +7409,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
   }
 
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    let arg: any = parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Type_expected);
+    let arg: any = parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Type_expected);
     // - `type a = (x?: y) => T;`
     // - `type a = (x: y) => T;`
     if (parser.token === SyntaxKind.QuestionMark || parser.token === SyntaxKind.Colon) {
@@ -7565,7 +7542,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       );
     } else {
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-        type = parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Type_expected);
+        type = parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Type_expected);
         // - `type X = ((x?) => T);`
         // - `type X = ((x?: y) => T);`
         // - `type X = ((x: y) => T);`
@@ -7737,8 +7714,8 @@ function parseTypeReference(parser: ParserState, context: Context): TypeReferenc
     parseEntityName(
       parser,
       context,
-      parseIdentifier(parser, context, 0b00000000110000000100000000000000, DiagnosticCode.Type_expected),
-      0b00000000110000000100000000000000,
+      parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Type_expected),
+      Constants.IdentifierOrKeyword,
       pos
     ),
     parseTypeParameterInstantiationList(
@@ -7825,7 +7802,7 @@ function parseTypeParameterInstantiation(parser: ParserState, context: Context):
 
 function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean): TypeParameter {
   const start = parser.curPos;
-  const name = parseIdentifier(parser, context, 0b00000000100000000100000000000000);
+  const name = parseIdentifier(parser, context, Constants.Identifier);
   const type = parseTypeAnnotation(parser, context);
   const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
     ? parseType(parser, context | Context.ArrowOrigin)
@@ -7887,7 +7864,7 @@ function parseVariableDeclarationList(
   const pos = parser.curPos;
   const declarations = [];
 
-  while (parser.token & 0b00010000100000000100000000000000) {
+  while (parser.token & Constants.VariableDeclarationList) {
     declarations.push(parseVariableDeclaration(parser, context, inForStatement, scope, type));
     // If we can consume a semicolon (either explicitly, or with ASI), then consider us done
     // with parsing the list of variable declarators.
@@ -7896,7 +7873,7 @@ function parseVariableDeclarationList(
     // are done if we see an 'in' keyword in front of us. Same with for-of
     if (parser.token & (SyntaxKind.Smi | SyntaxKind.IsInOrOf) || parser.nodeFlags & NodeFlags.NewLine) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if ((parser.token & 0b00010000100000000100000000000000) < 1) {
+      if ((parser.token & Constants.IsInOrOf) < 1) {
         parser.previousErrorPos = parser.pos;
         parser.onError(
           DiagnosticSource.Parser,
@@ -7993,11 +7970,16 @@ function parseTypeAsIdentifierOrTypeAlias(
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   let nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
-  let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
+  let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
   if (context & Context.OptionsAllowTypes && parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
+    expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
-    const assignToken = consumeToken(parser, context, SyntaxKind.Assign, DiagnosticCode.An_TypeAlias_declaration_require_a);
+    const assignToken = consumeToken(
+      parser,
+      context,
+      SyntaxKind.Assign,
+      DiagnosticCode.An_TypeAlias_declaration_require_a
+    );
     const type = parseType(parser, context);
     if (declareKeyword) nodeFlags |= NodeFlags.Declared;
     parseSemicolon(parser, context);
@@ -8053,10 +8035,10 @@ function parseLetAsIdentifierOrLexicalDeclaration(
 ): LexicalDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.IsStatement;
-  let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
+  let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
   if (
     parser.token & (SyntaxKind.IsPatternStart | SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved) &&
-    (flags & 0b00000000000000000110000000000000) < 1
+    (flags & Constants.IsEscaped) < 1
   ) {
     const declarationList = parseBindingList(
       parser,
@@ -8382,7 +8364,7 @@ function parseObjectTypeProperty(
 
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const token = parser.token;
-    key = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
+    key = parseObjectTypePropertyKey(parser, context, Constants.IdentifierOrKeyword);
     if (
       (parser.token & SyntaxKind.IsLessThanOrLeftParen) === 0 &&
       (token === SyntaxKind.GetKeyword || token === SyntaxKind.SetKeyword)
@@ -8392,7 +8374,7 @@ function parseObjectTypeProperty(
       } else {
         setKeyword = createToken(SyntaxKind.SetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end);
       }
-      key = parseObjectTypePropertyKey(parser, context, 0b00000000100000000100000000000000);
+      key = parseObjectTypePropertyKey(parser, context, Constants.Identifier);
       const value = parseFunctionType(
         parser,
         context,
@@ -8443,7 +8425,7 @@ function parseObjectTypeProperty(
       parser.curPos
     );
   } else {
-    key = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
+    key = parseObjectTypePropertyKey(parser, context, Constants.IdentifierOrKeyword);
   }
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
@@ -8529,7 +8511,7 @@ function parseObjectTypeInternalSlot(
   }
 
   consume(parser, context, SyntaxKind.LeftBracket);
-  const name = parseObjectTypePropertyKey(parser, context, 0b00000000110000000100000000000000);
+  const name = parseObjectTypePropertyKey(parser, context, Constants.IdentifierOrKeyword);
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
 
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
@@ -8586,7 +8568,7 @@ function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKi
       return createToken(t, NodeFlags.ChildLess, key.start, key.end);
     default:
       return createTypeReference(
-        parseEntityName(parser, context, key, 0b00000000110000000100000000000000, pos),
+        parseEntityName(parser, context, key, Constants.IdentifierOrKeyword, pos),
         parseTypeParameterInstantiationList(
           parser,
           (context | (context & Context.ArrowOrigin)) ^ (context & Context.ArrowOrigin)
@@ -8776,12 +8758,7 @@ function parseYieldIdentifierOrExpression(
       parser.curPos
     );
   }
-  const expression = parseIdentifier(
-    parser,
-    context,
-    0b00000000100000000100000000000000,
-    DiagnosticCode.Identifier_expected
-  );
+  const expression = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
 
   if (parser.token === SyntaxKind.Arrow) {
     const scope = {
@@ -8816,15 +8793,12 @@ export function parseAwaitExpression(
 ): AwaitExpression | DummyIdentifier {
   const pos = parser.curPos;
 
-  if (
-    (context & Context.Module && (context & Context.TopLevel) == 0) ||
-    parser.nodeFlags & 0b00000000000000000110000000000000
-  ) {
+  if ((context & Context.Module && (context & Context.TopLevel) == 0) || parser.nodeFlags & Constants.IsEscaped) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        parser.nodeFlags & 0b00000000000000000110000000000000
+        parser.nodeFlags & Constants.IsEscaped
           ? DiagnosticCode._await_keyword_must_not_contain_escaped_characters
           : DiagnosticCode._await_is_only_allowed_within_async_functions_and_at_the_top_levels_of_modules
       ],
@@ -9021,7 +8995,7 @@ function parseClassDeclaration(
   let declareKeyword = null;
 
   if (parser.token === SyntaxKind.DeclareKeyword) {
-    let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
+    let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
     if ((context & Context.OptionsAllowTypes) === 0 || (parser.token & SyntaxKind.IsStatementStart) === 0) {
       parser.assignable = true;
       if ((parser.token as SyntaxKind) === SyntaxKind.Colon) {
@@ -9124,7 +9098,7 @@ function parseClassDeclaration(
     name as any,
     typeParameters,
     classTail,
-    (flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -9169,7 +9143,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
     name as any,
     typeParameters,
     classTail,
-    (flags | 0b00000000000000000110000000000000) ^ 0b00000000000000000110000000000000,
+    (flags | Constants.IsEscaped) ^ Constants.IsEscaped,
     pos,
     parser.curPos
   );
@@ -9297,8 +9271,8 @@ export function parseClassElement(
 
   const token = parser.token;
   const flags = parser.nodeFlags;
-  if (token & 0b00000000100000000100000000000000) {
-    let key = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
+  if (token & Constants.Identifier) {
+    let key = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
 
     if (
       (parser.token & 0b00000100110000000100000000000000 || parser.token === SyntaxKind.Decorator) &&
@@ -9310,7 +9284,7 @@ export function parseClassElement(
       switch (token) {
         case SyntaxKind.StaticKeyword:
           // avoid 'static static'
-          if (flags & 0b00000000000000000110000000000000) {
+          if (flags & Constants.IsEscaped) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -9377,7 +9351,7 @@ export function parseClassElement(
           }
           break;
         case SyntaxKind.AsyncKeyword:
-          if (flags & 0b00000000000000000110000000000000) {
+          if (flags & Constants.IsEscaped) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -9392,7 +9366,7 @@ export function parseClassElement(
           if (generatorToken) nodeFlags |= NodeFlags.Generator;
           break;
         case SyntaxKind.GetKeyword:
-          if (flags & 0b00000000000000000110000000000000) {
+          if (flags & Constants.IsEscaped) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -9449,10 +9423,10 @@ export function parseClassElement(
       }
     }
 
-    if (parser.token & SyntaxKind.IsLessThanOrLeftParen || nodeFlags & 0b00000000000000000000011100000000) {
+    if (parser.token & SyntaxKind.IsLessThanOrLeftParen || nodeFlags & Constants.IsGetSetAsync) {
       if (key.kind !== SyntaxKind.ComputedPropertyName) {
         if (parser.tokenValue === 'constructor') {
-          if ((!staticKeyword && nodeFlags & 0b00000000000000000000011100000000) || decorators) {
+          if ((!staticKeyword && nodeFlags & Constants.IsGetSetAsync) || decorators) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -10490,13 +10464,13 @@ function parseOpaqueType(
   ownLabels: any
 ) {
   const pos = parser.curPos;
-  let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
+  let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
   if (parser.token === SyntaxKind.TypeKeyword) {
     return createOpaqueType(
       declareKeyword,
       createToken(SyntaxKind.OpaqueKeyword, NodeFlags.ChildLess, pos, parser.curPos),
       consumeOptToken(parser, context, SyntaxKind.TypeKeyword),
-      parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected),
+      parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected),
       parseTypeParameterDeclaration(parser, context),
       consumeOpt(parser, context, SyntaxKind.Colon) ? parseType(parser, context) : null,
       !declareKeyword && consume(parser, context, SyntaxKind.Assign) ? parseType(parser, context) : null,
