@@ -37,7 +37,7 @@ x = {[ a / b + c ]: y}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -65,7 +65,7 @@ x = {[ a / b + c ]: y}
                                             },
                                             "operatorToken": {
                                                 "kind": 35640,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 8,
                                                 "end": 10
                                             },
@@ -83,7 +83,7 @@ x = {[ a / b + c ]: y}
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 14
                                         },

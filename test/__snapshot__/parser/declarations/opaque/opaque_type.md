@@ -61,7 +61,7 @@ opaque type ID = number;
             "superType": null,
             "impltype": {
                 "kind": 134234345,
-                "flags": 64,
+                "flags": 2097216,
                 "start": 16,
                 "end": 23
             },

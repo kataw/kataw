@@ -324,7 +324,7 @@ function* g() {
                                                                     },
                                                                     "operatorToken": {
                                                                         "kind": 4125,
-                                                                        "flags": 64,
+                                                                        "flags": 96,
                                                                         "start": 127,
                                                                         "end": 129
                                                                     },
@@ -388,7 +388,7 @@ function* g() {
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 147,
                                     "end": 149
                                 },

@@ -68,7 +68,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 14,
                                             "end": 20
                                         },
@@ -93,7 +93,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 24,
                                             "end": 30
                                         },
@@ -118,7 +118,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234254,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 34,
                                             "end": 41
                                         },

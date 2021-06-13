@@ -50,7 +50,7 @@ async (x = delete ((function) = f)) => {}
                         "kind": 126,
                         "operandToken": {
                             "kind": 4259886,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 10,
                             "end": 17
                         },
@@ -105,7 +105,7 @@ async (x = delete ((function) = f)) => {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 29,
                                     "end": 31
                                 },

@@ -51,7 +51,7 @@
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 3,
                                 "end": 7
                             },

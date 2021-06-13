@@ -61,7 +61,7 @@ a ? b : c ** x ? d : e
                         },
                         "operatorToken": {
                             "kind": 35897,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 9,
                             "end": 12
                         },

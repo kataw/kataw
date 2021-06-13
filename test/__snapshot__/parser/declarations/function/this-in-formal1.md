@@ -61,7 +61,7 @@ function one(this: number) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 18,
                                 "end": 25
                             },

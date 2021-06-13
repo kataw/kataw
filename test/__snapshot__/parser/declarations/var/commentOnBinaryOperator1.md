@@ -70,7 +70,7 @@ var c = 'some'
                             },
                             "operatorToken": {
                                 "kind": 99634,
-                                "flags": 65,
+                                "flags": 97,
                                 "start": 14,
                                 "end": 35
                             },
@@ -135,7 +135,7 @@ var c = 'some'
                             },
                             "operatorToken": {
                                 "kind": 99634,
-                                "flags": 65,
+                                "flags": 97,
                                 "start": 59,
                                 "end": 83
                             },
@@ -200,7 +200,7 @@ var c = 'some'
                             },
                             "operatorToken": {
                                 "kind": 99634,
-                                "flags": 65,
+                                "flags": 97,
                                 "start": 107,
                                 "end": 131
                             },

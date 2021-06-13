@@ -31,7 +31,7 @@ typeof = x
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477613,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 0,
                         "end": 6
                     },
@@ -48,7 +48,7 @@ typeof = x
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },

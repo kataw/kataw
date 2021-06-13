@@ -254,7 +254,7 @@ class D<T> {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 56,
                                                         "end": 58
                                                     },
@@ -788,7 +788,7 @@ class D<T> {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 200,
                                                         "end": 202
                                                     },

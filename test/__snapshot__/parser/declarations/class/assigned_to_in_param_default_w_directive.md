@@ -88,7 +88,7 @@ class c {foo(x=eval=y){ "use strict"; }}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 19,
                                                     "end": 20
                                                 },

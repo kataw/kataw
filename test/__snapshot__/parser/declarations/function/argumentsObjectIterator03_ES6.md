@@ -84,7 +84,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "kind": 139,
                 "type": {
                     "kind": 134234345,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 27,
                     "end": 34
                 },

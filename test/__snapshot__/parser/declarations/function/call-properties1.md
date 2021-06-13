@@ -79,7 +79,7 @@ function a(f: { (): string; (x: number): string }): string {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 19,
                                             "end": 26
                                         },
@@ -108,7 +108,7 @@ function a(f: { (): string; (x: number): string }): string {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 31,
                                                         "end": 38
                                                     },
@@ -125,7 +125,7 @@ function a(f: { (): string; (x: number): string }): string {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 40,
                                             "end": 47
                                         },
@@ -194,7 +194,7 @@ function a(f: { (): string; (x: number): string }): string {
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 73,
                                     "end": 75
                                 },
@@ -251,7 +251,7 @@ function a(f: { (): string; (x: number): string }): string {
                 "kind": 139,
                 "type": {
                     "kind": 134234347,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 51,
                     "end": 58
                 },

@@ -82,7 +82,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                         "types": [
                                             {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 16,
                                                 "end": 23
                                             },
@@ -136,7 +136,7 @@ type a = (...x?: string & foo | (...x: string & foo | bar) => T) => T;
                                                                 "types": [
                                                                     {
                                                                         "kind": 134234347,
-                                                                        "flags": 64,
+                                                                        "flags": 2097216,
                                                                         "start": 38,
                                                                         "end": 45
                                                                     },

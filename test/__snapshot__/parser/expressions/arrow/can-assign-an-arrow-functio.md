@@ -37,7 +37,7 @@ y = async (x) => {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -100,7 +100,7 @@ y = async (x) => {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 14,
                     "end": 16
                 },
@@ -156,7 +156,7 @@ y = async (x) => {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 28,
                     "end": 30
                 },
@@ -221,7 +221,7 @@ y = async (x) => {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 43,
                     "end": 45
                 },
@@ -282,7 +282,7 @@ y = async (x) => {}
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 63,
                     "end": 65
                 },

@@ -55,7 +55,7 @@ declare var x: symbol;
                             "kind": 139,
                             "type": {
                                 "kind": 134234343,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 14,
                                 "end": 21
                             },

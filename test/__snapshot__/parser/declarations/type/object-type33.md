@@ -72,7 +72,7 @@ type X = (await:string) => T;
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 16,
                                 "end": 22
                             },

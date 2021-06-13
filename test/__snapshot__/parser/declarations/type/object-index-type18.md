@@ -73,7 +73,7 @@ var obj: {
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 18,
                                             "end": 25
                                         },
@@ -95,13 +95,13 @@ var obj: {
                                         },
                                         "key": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 33,
                                             "end": 40
                                         },
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 42,
                                             "end": 49
                                         },

@@ -135,7 +135,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                             "kind": 267,
                                                             "type": {
                                                                 "kind": 134234345,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 46,
                                                                 "end": 52
                                                             },
@@ -164,7 +164,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                 },
                                 "returnType": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 57,
                                     "end": 64
                                 },

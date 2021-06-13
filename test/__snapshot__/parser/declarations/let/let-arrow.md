@@ -76,7 +76,7 @@ hello();
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -102,7 +102,7 @@ hello();
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 42,
                                     "end": 49
                                 },
@@ -157,7 +157,7 @@ hello();
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 76,
                                                                 "end": 78
                                                             },

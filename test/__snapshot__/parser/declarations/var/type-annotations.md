@@ -90,7 +90,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                     },
                                                     "type": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 17,
                                                         "end": 23
                                                     },
@@ -504,7 +504,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "kind": 136,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 104,
                                     "end": 111
                                 },
@@ -567,7 +567,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 124,
                                         "end": 130
                                     },
@@ -735,7 +735,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "types": [
                                         {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 171,
                                             "end": 178
                                         },
@@ -757,7 +757,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             },
                                             "returnType": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 186,
                                                 "end": 193
                                             },
@@ -935,7 +935,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     },
                                     {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 240,
                                         "end": 247
                                     }
@@ -1029,7 +1029,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "optionalToken": null,
                                         "value": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 267,
                                             "end": 274
                                         },

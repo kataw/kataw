@@ -190,7 +190,7 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                         },
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 37,
                             "end": 43
                         },

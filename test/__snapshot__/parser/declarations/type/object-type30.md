@@ -145,7 +145,7 @@ type a = {[(((-1) => [c|d]))]:string};
                         },
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 30,
                             "end": 36
                         },

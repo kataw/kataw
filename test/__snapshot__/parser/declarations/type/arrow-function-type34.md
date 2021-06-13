@@ -196,7 +196,7 @@ type a = (a[a & b][c | d][{a():string}][][][]) => T;
                                                 },
                                                 "returnType": {
                                                     "kind": 134234347,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 31,
                                                     "end": 37
                                                 },

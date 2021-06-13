@@ -69,7 +69,7 @@ function g(x: () => any) {
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 13,
                                 "end": 17
                             },
@@ -249,7 +249,7 @@ function g(x: () => any) {
                                 },
                                 "returnType": {
                                     "kind": 134234252,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 67,
                                     "end": 71
                                 },

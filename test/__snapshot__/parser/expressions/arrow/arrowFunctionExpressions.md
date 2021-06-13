@@ -95,7 +95,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 11,
                                             "end": 18
                                         },
@@ -200,7 +200,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 44,
                                             "end": 51
                                         },
@@ -501,7 +501,7 @@ var p10 = ([{ value, done }]) => { };
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 144,
                                 "end": 151
                             },
@@ -578,7 +578,7 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 167,
                                     "end": 169
                                 },
@@ -668,7 +668,7 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 189,
                                     "end": 191
                                 },
@@ -751,7 +751,7 @@ var p10 = ([{ value, done }]) => { };
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234252,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 205,
                                                 "end": 209
                                             },
@@ -767,7 +767,7 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "returnType": {
                                     "kind": 134234252,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 213,
                                     "end": 217
                                 },

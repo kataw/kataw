@@ -82,7 +82,7 @@ opaque += 4;
                 },
                 "operatorToken": {
                     "kind": 4130,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 22,
                     "end": 25
                 },

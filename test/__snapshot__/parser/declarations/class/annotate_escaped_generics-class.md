@@ -209,7 +209,7 @@ class B<X> {
                                                                     },
                                                                     "operatorToken": {
                                                                         "kind": 4125,
-                                                                        "flags": 64,
+                                                                        "flags": 96,
                                                                         "start": 54,
                                                                         "end": 56
                                                                     },
@@ -282,7 +282,7 @@ class B<X> {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 81,
                                                         "end": 83
                                                     },

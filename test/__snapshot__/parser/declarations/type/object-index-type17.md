@@ -65,13 +65,13 @@ var obj: { [user_id: number]: string } = {};
                                         },
                                         "key": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 20,
                                             "end": 27
                                         },
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 29,
                                             "end": 36
                                         },

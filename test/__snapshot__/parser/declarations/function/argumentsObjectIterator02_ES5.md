@@ -88,7 +88,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "kind": 139,
                 "type": {
                     "kind": 134234345,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 34,
                     "end": 41
                 },
@@ -444,7 +444,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 211,
                                                             "end": 213
                                                         },
@@ -508,7 +508,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 236,
                                     "end": 238
                                 },
@@ -557,7 +557,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                             },
                             "operatorToken": {
                                 "kind": 34883,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 253,
                                 "end": 254
                             },

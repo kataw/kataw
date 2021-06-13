@@ -136,7 +136,7 @@ class Annotations {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 15,
                                     "end": 22
                                 },
@@ -168,7 +168,7 @@ class Annotations {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 28,
                                     "end": 35
                                 },
@@ -241,7 +241,7 @@ class Annotations {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 65,
                                                         "end": 67
                                                     },
@@ -478,7 +478,7 @@ class Annotations {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 220,
                                     "end": 227
                                 },
@@ -675,7 +675,7 @@ class Annotations {
                                                                                                         },
                                                                                                         "operatorToken": {
                                                                                                             "kind": 4125,
-                                                                                                            "flags": 64,
+                                                                                                            "flags": 96,
                                                                                                             "start": 331,
                                                                                                             "end": 333
                                                                                                         },
@@ -807,7 +807,7 @@ class Annotations {
                                                                                                         },
                                                                                                         "operatorToken": {
                                                                                                             "kind": 4125,
-                                                                                                            "flags": 64,
+                                                                                                            "flags": 96,
                                                                                                             "start": 392,
                                                                                                             "end": 394
                                                                                                         },
@@ -854,7 +854,7 @@ class Annotations {
                                                                                                         },
                                                                                                         "operatorToken": {
                                                                                                             "kind": 4125,
-                                                                                                            "flags": 64,
+                                                                                                            "flags": 96,
                                                                                                             "start": 462,
                                                                                                             "end": 464
                                                                                                         },
@@ -1011,7 +1011,7 @@ class Annotations {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 646,
                                     "end": 653
                                 },
@@ -1110,7 +1110,7 @@ class Annotations {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 676,
                                     "end": 683
                                 },
@@ -1155,7 +1155,7 @@ class Annotations {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 721,
                                     "end": 728
                                 },
@@ -1205,7 +1205,7 @@ class Annotations {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 752,
                                     "end": 759
                                 },
@@ -1319,7 +1319,7 @@ class Annotations {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 806,
                                     "end": 813
                                 },
@@ -1369,7 +1369,7 @@ class Annotations {
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 859,
                                     "end": 866
                                 },
@@ -1427,7 +1427,7 @@ class Annotations {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 887,
                                         "end": 894
                                     },
@@ -1521,7 +1521,7 @@ class Annotations {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 931,
                                         "end": 938
                                     },
@@ -1615,7 +1615,7 @@ class Annotations {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 1002,
                                         "end": 1009
                                     },
@@ -1711,7 +1711,7 @@ class Annotations {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 1054,
                                         "end": 1061
                                     },
@@ -1807,7 +1807,7 @@ class Annotations {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 1133,
                                         "end": 1140
                                     },
@@ -1901,7 +1901,7 @@ class Annotations {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 1177,
                                         "end": 1184
                                     },
@@ -2023,7 +2023,7 @@ class Annotations {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 1271,
                                                         "end": 1273
                                                     },
@@ -2092,7 +2092,7 @@ class Annotations {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 1291,
                                         "end": 1298
                                     },
@@ -2188,7 +2188,7 @@ class Annotations {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 1343,
                                         "end": 1350
                                     },
@@ -2314,7 +2314,7 @@ class Annotations {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 1453,
                                                         "end": 1455
                                                     },

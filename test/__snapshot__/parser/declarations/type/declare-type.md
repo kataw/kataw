@@ -54,7 +54,7 @@ declare type bool = any;
             },
             "type": {
                 "kind": 134234252,
-                "flags": 64,
+                "flags": 2097216,
                 "start": 19,
                 "end": 23
             },

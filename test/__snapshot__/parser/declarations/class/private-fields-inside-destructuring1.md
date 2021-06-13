@@ -576,7 +576,7 @@ class Test {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 195,
                                                         "end": 197
                                                     },

@@ -1896,7 +1896,7 @@ function parseAssignmentExpression(
         parser.pos
       );
     }
-    const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp);
+    const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
     const right = parseExpression(parser, context);
     parser.assignable = false;
     return createAssignmentExpression(expr, operatorToken, right, pos, parser.curPos);
@@ -1905,13 +1905,13 @@ function parseAssignmentExpression(
   return parseShortCircuitExpression(parser, context, expr, pos);
 }
 
-function parseTokenNode(parser: ParserState, context: Context): SyntaxToken<TokenSyntaxKind> {
+function parseTokenNode(parser: ParserState, context: Context, flags: NodeFlags): SyntaxToken<TokenSyntaxKind> {
   const pos = parser.curPos;
   const kind = parser.token;
-  const flags = parser.nodeFlags;
+  const nodeFlags = parser.nodeFlags;
   parser.assignable = false;
   nextToken(parser, context);
-  return createToken(kind, flags | NodeFlags.ChildLess, pos, parser.curPos);
+  return createToken(kind, nodeFlags | flags | NodeFlags.ChildLess, pos, parser.curPos);
 }
 
 // ConditionalExpression :
@@ -2008,7 +2008,7 @@ function parseBinaryExpression(
 
     left = createBinaryExpression(
       left,
-      parseTokenNode(parser, context | Context.AllowRegExp),
+      parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode),
       parseBinaryExpression(
         parser,
         context,
@@ -2787,7 +2787,7 @@ function parseObjectLiteralOrAssignmentExpression(
         pos,
         parser.curPos
       ),
-      parseTokenNode(parser, context),
+      parseTokenNode(parser, context, NodeFlags.ExpressionNode),
       parseExpression(parser, context),
       pos,
       parser.curPos
@@ -3622,7 +3622,7 @@ function parsePostfixUpdateExpression(
       parser.pos
     );
   }
-  return createPostfixUpdateExpression(parseTokenNode(parser, context), expr, start, parser.curPos);
+  return createPostfixUpdateExpression(parseTokenNode(parser, context, NodeFlags.ExpressionNode), expr, start, parser.curPos);
 }
 
 // UpdateExpression :
@@ -3634,7 +3634,7 @@ function parsePrefixUpdateExpression(
   leftHandSideContext: LeftHandSide
 ): PrefixUpdateExpression {
   const curPos = parser.curPos;
-  const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
+  const operandToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
   const operand = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
   if (leftHandSideContext & LeftHandSide.DisallowClassExtends) {
     parser.onError(
@@ -3695,7 +3695,7 @@ function parseUnaryExpression(
   leftHandSideContext: LeftHandSide
 ): UnaryExpression {
   const curPos = parser.curPos;
-  const operandToken = parseTokenNode(parser, context | Context.AllowRegExp);
+  const operandToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
   if (operandToken.flags & Constants.IsEscaped || leftHandSideContext & LeftHandSide.DisallowClassExtends) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -3819,7 +3819,7 @@ function parseArrayLiteralOrAssignmentExpression(
     }
     const node = createAssignmentExpression(
       createArrayLiteral(elementList, nodeFlags | NodeFlags.ExpressionNode, curPos, parser.curPos),
-      parseTokenNode(parser, context | Context.AllowRegExp),
+      parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode),
       parseExpression(parser, context),
       curPos,
       parser.curPos
@@ -3925,7 +3925,7 @@ function parseArrayLiteralElement(
         );
       }
 
-      const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp);
+      const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
 
       if (type & BindingType.InArrow) {
         addVarOrBlock(parser, context, scope, tokenValue, type);
@@ -7150,7 +7150,9 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
     case SyntaxKind.StringKeyword:
     case SyntaxKind.BooleanKeyword:
     case SyntaxKind.EmptyKeyword:
-      return parseTokenNode(parser, context);
+    case SyntaxKind.FalseKeyword:
+    case SyntaxKind.TrueKeyword:
+      return parseTokenNode(parser, context, NodeFlags.IsTypeNode);
     case SyntaxKind.StringLiteral:
       return parseStringType(parser, context);
     case SyntaxKind.NumericLiteral:
@@ -7158,7 +7160,7 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
     case SyntaxKind.FalseKeyword:
     case SyntaxKind.TrueKeyword:
       const pos = parser.curPos;
-      nextToken(parser, context);
+      nextToken(parser, context)
       return createToken(parser.token, NodeFlags.IsTypeNode | NodeFlags.ChildLess, pos, parser.curPos);
     case SyntaxKind.LeftBrace:
       return parseObjectType(parser, context, ObjectTypeFlag.None);
@@ -7386,7 +7388,11 @@ function parseArrowFunctionType(parser: ParserState, context: Context): ArrowFun
   );
 }
 
-function parseArrowTypeParameters(parser: ParserState, context: Context): FunctionTypeParameterList {
+
+function parseArrowTypeParameters(
+  parser: ParserState,
+  context: Context
+): FunctionTypeParameterList {
   const pos = parser.curPos;
   const arrowTypeParameterList: ArrowTypeParameter[] = [];
   let trailingComma = false;

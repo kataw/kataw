@@ -51,7 +51,7 @@ let arr: number[] = [0, 1, 2, 3];
                                 "kind": 136,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 8,
                                     "end": 15
                                 },

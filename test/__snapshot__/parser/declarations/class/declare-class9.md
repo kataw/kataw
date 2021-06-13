@@ -118,7 +118,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 58,
                                                 "end": 64
                                             },
@@ -134,7 +134,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 67,
                                     "end": 71
                                 },

@@ -1188,7 +1188,7 @@ function targetKey() {
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 670,
                         "end": 672
                     },

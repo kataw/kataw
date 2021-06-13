@@ -114,7 +114,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     },
                     "returnType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 26,
                         "end": 33
                     },
@@ -250,7 +250,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                 "optionalToken": null,
                                 "types": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 73,
                                     "end": 79
                                 },
@@ -266,7 +266,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     },
                     "returnType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 83,
                         "end": 90
                     },
@@ -435,7 +435,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                 "kind": 267,
                                                 "type": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 141,
                                                     "end": 147
                                                 },
@@ -464,7 +464,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     },
                     "returnType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 152,
                         "end": 159
                     },

@@ -129,7 +129,7 @@ class Foo7<T> {
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 27,
                                         "end": 33
                                     },

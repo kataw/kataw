@@ -69,7 +69,7 @@ function five<T>(this: T) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 18,
                                 "end": 25
                             },
@@ -146,7 +146,7 @@ function five<T>(this: T) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 49,
                                 "end": 56
                             },
@@ -231,7 +231,7 @@ function five<T>(this: T) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 85,
                                 "end": 92
                             },
@@ -331,7 +331,7 @@ function five<T>(this: T) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 123,
                                 "end": 130
                             },

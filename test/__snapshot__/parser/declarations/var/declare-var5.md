@@ -103,7 +103,7 @@ declare var x3: ?(() => (() => number));
                                                 },
                                                 "returnType": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 30,
                                                     "end": 37
                                                 },

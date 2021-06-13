@@ -49,7 +49,7 @@ opaque type ID = string;
             "superType": null,
             "impltype": {
                 "kind": 134234347,
-                "flags": 64,
+                "flags": 2097216,
                 "start": 16,
                 "end": 23
             },

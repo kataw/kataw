@@ -104,7 +104,7 @@ for (const x in [1, 2, 3]) { x++ }
                                 "kind": 127,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 30,
                                     "end": 32
                                 },

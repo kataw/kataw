@@ -202,7 +202,7 @@ async function foo() {
                 },
                 "operatorToken": {
                     "kind": 35141,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 35,
                     "end": 37
                 },

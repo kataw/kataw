@@ -52,7 +52,7 @@ var a: { [a: number]: string; [b: number]: string; };
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 11,
                                 "end": 17
                             },
@@ -123,13 +123,13 @@ var a: { [a: number]: string; [b: number]: string; };
                                         },
                                         "key": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 46,
                                             "end": 53
                                         },
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 55,
                                             "end": 62
                                         },
@@ -151,13 +151,13 @@ var a: { [a: number]: string; [b: number]: string; };
                                         },
                                         "key": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 67,
                                             "end": 74
                                         },
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 76,
                                             "end": 83
                                         },

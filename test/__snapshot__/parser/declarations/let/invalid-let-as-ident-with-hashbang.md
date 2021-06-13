@@ -65,7 +65,7 @@ let x = ;
                 "kind": 126,
                 "operandToken": {
                     "kind": 65584,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 11,
                     "end": 12
                 },

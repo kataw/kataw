@@ -37,7 +37,7 @@ x = class Foo { static x = class extends this {} }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },

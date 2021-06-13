@@ -85,7 +85,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 73,
                                             "end": 80
                                         },
@@ -114,7 +114,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 85,
                                                         "end": 92
                                                     },
@@ -131,7 +131,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 94,
                                             "end": 101
                                         },
@@ -216,7 +216,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                     },
                     "returnType": {
                         "kind": 134234347,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 111,
                         "end": 118
                     },
@@ -287,7 +287,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 187,
                                             "end": 194
                                         },
@@ -316,7 +316,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 199,
                                                         "end": 206
                                                     },
@@ -333,7 +333,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 208,
                                             "end": 215
                                         },
@@ -418,7 +418,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                     },
                     "returnType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 225,
                         "end": 232
                     },

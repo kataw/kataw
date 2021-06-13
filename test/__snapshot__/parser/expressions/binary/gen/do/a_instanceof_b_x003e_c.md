@@ -61,7 +61,7 @@ do a instanceof b > c while (x);
                         },
                         "operatorToken": {
                             "kind": 4229173,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 4,
                             "end": 15
                         },
@@ -79,7 +79,7 @@ do a instanceof b > c while (x);
                     },
                     "operatorToken": {
                         "kind": 34883,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     },

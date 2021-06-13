@@ -126,7 +126,7 @@ class C2<X, Y> {
                                 "kind": 267,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 23,
                                     "end": 30
                                 },
@@ -266,7 +266,7 @@ class C2<X, Y> {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 61,
                                                         "end": 63
                                                     },

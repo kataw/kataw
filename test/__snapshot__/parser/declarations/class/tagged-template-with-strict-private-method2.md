@@ -315,7 +315,7 @@ new Foo();
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 34620,
-                                                                    "flags": 64,
+                                                                    "flags": 96,
                                                                     "start": 161,
                                                                     "end": 165
                                                                 },
@@ -453,7 +453,7 @@ new Foo();
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 34620,
-                                                                    "flags": 64,
+                                                                    "flags": 96,
                                                                     "start": 253,
                                                                     "end": 257
                                                                 },

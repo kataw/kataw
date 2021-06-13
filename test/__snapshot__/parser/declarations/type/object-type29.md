@@ -67,7 +67,7 @@ type a = {x: number,y: string};
                         "optionalToken": null,
                         "value": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 12,
                             "end": 19
                         },
@@ -92,7 +92,7 @@ type a = {x: number,y: string};
                         "optionalToken": null,
                         "value": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 22,
                             "end": 29
                         },

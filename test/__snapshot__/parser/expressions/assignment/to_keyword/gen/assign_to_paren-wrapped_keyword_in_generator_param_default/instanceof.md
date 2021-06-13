@@ -78,7 +78,7 @@ function *f(x = (instanceof) = f) {}
                                     },
                                     "operatorToken": {
                                         "kind": 4229173,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 17,
                                         "end": 27
                                     },
@@ -99,7 +99,7 @@ function *f(x = (instanceof) = f) {}
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 28,
                                 "end": 30
                             },

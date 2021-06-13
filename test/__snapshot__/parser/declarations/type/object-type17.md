@@ -65,7 +65,7 @@ type a = {():string};
                         "staticToken": null,
                         "returnType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 13,
                             "end": 19
                         },

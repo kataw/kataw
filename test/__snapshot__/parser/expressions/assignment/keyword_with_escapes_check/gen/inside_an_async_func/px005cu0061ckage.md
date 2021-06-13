@@ -60,7 +60,7 @@ async () => {  p\u0061ckage = x  }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 27,
                                     "end": 29
                                 },

@@ -67,7 +67,7 @@ if (a) let [x] = y
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 14,
                         "end": 16
                     },

@@ -115,7 +115,7 @@ type a = ((q, x?:string )=> T) => T;
                                                 },
                                                 "types": {
                                                     "kind": 134234347,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 17,
                                                     "end": 23
                                                 },

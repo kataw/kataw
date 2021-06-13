@@ -73,7 +73,7 @@ var a: (() => number) | () => string
                                             },
                                             "returnType": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 13,
                                                 "end": 20
                                             },
@@ -104,7 +104,7 @@ var a: (() => number) | () => string
                                         },
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 29,
                                             "end": 36
                                         },

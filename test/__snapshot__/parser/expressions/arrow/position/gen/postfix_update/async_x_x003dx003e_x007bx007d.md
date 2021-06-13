@@ -77,7 +77,7 @@ async x => {}++
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 13,
                     "end": 15
                 },

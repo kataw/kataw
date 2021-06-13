@@ -80,7 +80,7 @@ const bar9 = <T>(x) => {};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 16,
                                             "end": 23
                                         },
@@ -99,7 +99,7 @@ const bar9 = <T>(x) => {};
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 25,
                                     "end": 32
                                 },
@@ -282,7 +282,7 @@ const bar9 = <T>(x) => {};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 82,
                                             "end": 89
                                         },
@@ -391,7 +391,7 @@ const bar9 = <T>(x) => {};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 118,
                                             "end": 125
                                         },
@@ -505,7 +505,7 @@ const bar9 = <T>(x) => {};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 157,
                                             "end": 164
                                         },
@@ -672,7 +672,7 @@ const bar9 = <T>(x) => {};
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 212,
                                     "end": 219
                                 },
@@ -760,7 +760,7 @@ const bar9 = <T>(x) => {};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 243,
                                             "end": 250
                                         },

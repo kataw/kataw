@@ -79,7 +79,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 19,
                                             "end": 26
                                         },
@@ -108,7 +108,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 31,
                                                         "end": 38
                                                     },
@@ -125,7 +125,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 40,
                                             "end": 47
                                         },
@@ -210,7 +210,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                     },
                     "returnType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 57,
                         "end": 64
                     },

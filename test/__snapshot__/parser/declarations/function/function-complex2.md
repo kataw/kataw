@@ -110,7 +110,7 @@ function d<X: [number, number]>(x: X): X {
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 29,
                                                 "end": 35
                                             },
@@ -159,7 +159,7 @@ function d<X: [number, number]>(x: X): X {
                 },
                 "operatorToken": {
                     "kind": 35141,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 35,
                     "end": 37
                 },
@@ -376,7 +376,7 @@ function d<X: [number, number]>(x: X): X {
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 98,
                                                 "end": 104
                                             },
@@ -425,7 +425,7 @@ function d<X: [number, number]>(x: X): X {
                 },
                 "operatorToken": {
                     "kind": 35141,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 104,
                     "end": 106
                 },
@@ -662,7 +662,7 @@ function d<X: [number, number]>(x: X): X {
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 209,
                                                 "end": 215
                                             },
@@ -711,7 +711,7 @@ function d<X: [number, number]>(x: X): X {
                 },
                 "operatorToken": {
                     "kind": 35141,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 215,
                     "end": 217
                 },
@@ -1031,13 +1031,13 @@ function d<X: [number, number]>(x: X): X {
                                 "elementTypes": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 277,
                                         "end": 283
                                     },
                                     {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 284,
                                         "end": 291
                                     }

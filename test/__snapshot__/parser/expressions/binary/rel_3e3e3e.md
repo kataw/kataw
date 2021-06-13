@@ -29,7 +29,7 @@ a>>>b
                 },
                 "operatorToken": {
                     "kind": 35142,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 4
                 },

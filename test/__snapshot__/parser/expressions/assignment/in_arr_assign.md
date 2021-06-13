@@ -36,7 +36,7 @@ x in[]=x
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 4
                 },
@@ -58,7 +58,7 @@ x in[]=x
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 6,
                         "end": 7
                     },

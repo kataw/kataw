@@ -39,7 +39,7 @@ x = 0o0011___________;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -87,7 +87,7 @@ x = 0o0011___________;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },
@@ -135,7 +135,7 @@ x = 0o0011___________;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 44,
                     "end": 46
                 },

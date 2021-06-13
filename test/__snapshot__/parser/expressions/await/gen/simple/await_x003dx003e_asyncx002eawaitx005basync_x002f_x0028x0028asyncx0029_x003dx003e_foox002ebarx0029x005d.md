@@ -80,7 +80,7 @@ await => async.await[async / ((async) => foo.bar)]
                         },
                         "operatorToken": {
                             "kind": 35640,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 26,
                             "end": 28
                         },

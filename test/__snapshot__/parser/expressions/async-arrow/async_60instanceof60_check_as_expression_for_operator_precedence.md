@@ -42,7 +42,7 @@ f(a + async instanceof b)
                             },
                             "operatorToken": {
                                 "kind": 99634,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 3,
                                 "end": 5
                             },
@@ -58,7 +58,7 @@ f(a + async instanceof b)
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 11,
                                     "end": 22
                                 },

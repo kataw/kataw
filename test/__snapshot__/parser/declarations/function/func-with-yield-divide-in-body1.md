@@ -72,7 +72,7 @@ function f1() { yield / 1 /g }
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 21,
                                         "end": 23
                                     },
@@ -90,7 +90,7 @@ function f1() { yield / 1 /g }
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 25,
                                     "end": 27
                                 },

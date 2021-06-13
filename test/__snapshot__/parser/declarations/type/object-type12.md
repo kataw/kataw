@@ -72,7 +72,7 @@ type a = {[x]:string};
                         },
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 14,
                             "end": 20
                         },

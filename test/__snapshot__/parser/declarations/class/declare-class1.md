@@ -101,7 +101,7 @@ type T2 = number;
             },
             "type": {
                 "kind": 134234345,
-                "flags": 64,
+                "flags": 2097216,
                 "start": 38,
                 "end": 45
             },
@@ -135,7 +135,7 @@ type T2 = number;
             },
             "type": {
                 "kind": 134234345,
-                "flags": 64,
+                "flags": 2097216,
                 "start": 57,
                 "end": 64
             },

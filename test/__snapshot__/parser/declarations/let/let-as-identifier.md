@@ -445,7 +445,7 @@ L: let
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 146,
                     "end": 148
                 },
@@ -501,7 +501,7 @@ L: let
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 166,
                                 "end": 168
                             },
@@ -544,7 +544,7 @@ L: let
                 },
                 "operatorToken": {
                     "kind": 67143222,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 176,
                     "end": 178
                 },
@@ -570,7 +570,7 @@ L: let
                 "kind": 128,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 65,
+                    "flags": 97,
                     "start": 181,
                     "end": 185
                 },
@@ -596,7 +596,7 @@ L: let
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 194,
                     "end": 196
                 },
@@ -794,7 +794,7 @@ L: let
                                                 },
                                                 "operatorToken": {
                                                     "kind": 99634,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 260,
                                                     "end": 262
                                                 },

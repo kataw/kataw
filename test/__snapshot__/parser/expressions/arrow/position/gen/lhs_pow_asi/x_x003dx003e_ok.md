@@ -57,7 +57,7 @@ x => ok
                     },
                     "operatorToken": {
                         "kind": 35897,
-                        "flags": 65,
+                        "flags": 97,
                         "start": 7,
                         "end": 10
                     },

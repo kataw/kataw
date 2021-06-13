@@ -66,7 +66,7 @@ var d: { (): string } = (x) => "hi"
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 12,
                                             "end": 19
                                         },

@@ -188,7 +188,7 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                             },
                             "operatorToken": {
                                 "kind": 134251592,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 35,
                                 "end": 36
                             },

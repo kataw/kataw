@@ -31,7 +31,7 @@ typeof a + b / c
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477613,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 0,
                         "end": 6
                     },
@@ -49,7 +49,7 @@ typeof a + b / c
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 8,
                     "end": 10
                 },
@@ -65,7 +65,7 @@ typeof a + b / c
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 12,
                         "end": 14
                     },

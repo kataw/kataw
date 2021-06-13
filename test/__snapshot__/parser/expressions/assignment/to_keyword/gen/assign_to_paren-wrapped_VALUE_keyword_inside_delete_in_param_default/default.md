@@ -67,7 +67,7 @@ function *f(x = delete ((default) = f)) {}
                             "kind": 126,
                             "operandToken": {
                                 "kind": 4259886,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 22
                             },

@@ -479,7 +479,7 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 124,
                                     "end": 126
                                 },
@@ -673,7 +673,7 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 180,
                                     "end": 182
                                 },
@@ -838,7 +838,7 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 224,
                                     "end": 226
                                 },
@@ -1372,7 +1372,7 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 373,
                                     "end": 375
                                 },
@@ -1560,7 +1560,7 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 423,
                                     "end": 425
                                 },
@@ -1742,7 +1742,7 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 469,
                                     "end": 471
                                 },
@@ -1916,7 +1916,7 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 527,
                                     "end": 529
                                 },
@@ -2084,7 +2084,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 574,
                                                         "end": 575
                                                     },
@@ -2320,7 +2320,7 @@ function f({x:arg = (arg = 2)}) {}
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
-                                                                    "flags": 64,
+                                                                    "flags": 96,
                                                                     "start": 633,
                                                                     "end": 635
                                                                 },
@@ -2539,7 +2539,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 687,
                                                     "end": 689
                                                 },
@@ -3122,7 +3122,7 @@ function f({x:arg = (arg = 2)}) {}
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 857,
                                     "end": 859
                                 },
@@ -3662,7 +3662,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
-                                                    "flags": 64,
+                                                    "flags": 96,
                                                     "start": 1027,
                                                     "end": 1029
                                                 },
@@ -3854,7 +3854,7 @@ function f({x:arg = (arg = 2)}) {}
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 1077,
                                                 "end": 1078
                                             },
@@ -3974,7 +3974,7 @@ function f({x:arg = (arg = 2)}) {}
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 1111,
                                                 "end": 1113
                                             },

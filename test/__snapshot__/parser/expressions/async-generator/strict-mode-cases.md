@@ -1046,7 +1046,7 @@ function * x() { "use strict";  yield: 34; }
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 525,
                                     "end": 527
                                 },
@@ -1164,7 +1164,7 @@ function * x() { "use strict";  yield: 34; }
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 583,
                                                 "end": 585
                                             },
@@ -1261,7 +1261,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 625,
                                     "end": 628
                                 },
@@ -1344,7 +1344,7 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 127,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 678,
                                     "end": 680
                                 },
@@ -1533,7 +1533,7 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 128,
                                     "operandToken": {
                                         "kind": 196635,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 770,
                                         "end": 772
                                     },

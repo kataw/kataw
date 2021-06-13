@@ -53,7 +53,7 @@ async ([(a) = [] ] = []);
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 11,
                                             "end": 13
                                         },
@@ -87,7 +87,7 @@ async ([(a) = [] ] = []);
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 18,
                             "end": 20
                         },

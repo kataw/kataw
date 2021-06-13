@@ -69,7 +69,7 @@ function *foo() { (x = \u0079ield) }
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 20,
                                         "end": 22
                                     },

@@ -52,19 +52,19 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                                 "elementTypes": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 13,
                                         "end": 19
                                     },
                                     {
                                         "kind": 134234254,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 20,
                                         "end": 28
                                     },
                                     {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 29,
                                         "end": 36
                                     }

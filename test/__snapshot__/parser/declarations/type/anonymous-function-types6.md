@@ -72,7 +72,7 @@ type A = (x: string, number) => void
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 12,
                                 "end": 19
                             },
@@ -103,7 +103,7 @@ type A = (x: string, number) => void
                 },
                 "returnType": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 31,
                     "end": 36
                 },

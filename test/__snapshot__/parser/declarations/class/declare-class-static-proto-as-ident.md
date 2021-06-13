@@ -87,7 +87,7 @@ declare class B {
                                 },
                                 "returnType": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 36,
                                     "end": 43
                                 },

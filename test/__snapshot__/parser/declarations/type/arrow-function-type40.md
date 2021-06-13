@@ -77,7 +77,7 @@ type a = (...x: string & foo | bar) => T;
                                         "types": [
                                             {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 15,
                                                 "end": 22
                                             },

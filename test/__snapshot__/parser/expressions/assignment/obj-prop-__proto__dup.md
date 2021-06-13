@@ -31,7 +31,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -100,7 +100,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 39,
                         "end": 41
                     },
@@ -138,7 +138,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 56,
                     "end": 58
                 },
@@ -209,7 +209,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 90,
                             "end": 92
                         },

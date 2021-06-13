@@ -110,7 +110,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     },
                                     "operatorToken": {
                                         "kind": 67143222,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 27,
                                         "end": 28
                                     },
@@ -128,7 +128,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 29,
                                     "end": 31
                                 },
@@ -144,7 +144,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     },
                                     "operatorToken": {
                                         "kind": 67143222,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 33,
                                         "end": 34
                                     },

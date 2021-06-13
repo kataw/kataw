@@ -141,7 +141,7 @@ declare class A<T> extends B<T> { x: number }
                             "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 36,
                                 "end": 43
                             },

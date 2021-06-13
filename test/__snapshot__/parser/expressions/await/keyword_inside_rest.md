@@ -53,7 +53,7 @@ async r => result = [...{ x = await x }] = y;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     },
@@ -137,7 +137,7 @@ async r => result = [...{ x = await x }] = y;
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 40,
                             "end": 42
                         },

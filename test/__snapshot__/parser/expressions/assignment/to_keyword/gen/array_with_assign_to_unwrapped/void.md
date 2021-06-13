@@ -55,7 +55,7 @@ async x => void = 1
                         "kind": 126,
                         "operandToken": {
                             "kind": 138477615,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 10,
                             "end": 15
                         },
@@ -72,7 +72,7 @@ async x => void = 1
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 15,
                         "end": 17
                     },

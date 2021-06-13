@@ -111,7 +111,7 @@ type x = { [y]: z[q] | null };
                                 },
                                 {
                                     "kind": 138477575,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 22,
                                     "end": 27
                                 }

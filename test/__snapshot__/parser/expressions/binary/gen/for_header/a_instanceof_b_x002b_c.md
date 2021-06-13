@@ -45,7 +45,7 @@ for ( a instanceof b + c ;;);
                     },
                     "operatorToken": {
                         "kind": 4229173,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 7,
                         "end": 18
                     },
@@ -63,7 +63,7 @@ for ( a instanceof b + c ;;);
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 20,
                     "end": 22
                 },

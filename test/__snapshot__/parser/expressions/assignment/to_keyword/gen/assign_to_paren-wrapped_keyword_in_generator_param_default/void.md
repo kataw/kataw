@@ -71,7 +71,7 @@ function *f(x = (void) = f) {}
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 138477615,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 17,
                                         "end": 21
                                     },
@@ -92,7 +92,7 @@ function *f(x = (void) = f) {}
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 22,
                                 "end": 24
                             },

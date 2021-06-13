@@ -324,7 +324,7 @@ var y: Array<string> = ['3', ...x];
                                 },
                                 "operatorToken": {
                                     "kind": 134318643,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 68,
                                     "end": 70
                                 },
@@ -428,7 +428,7 @@ var y: Array<string> = ['3', ...x];
                                 },
                                 "operatorToken": {
                                     "kind": 134318643,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 93,
                                     "end": 95
                                 },
@@ -504,7 +504,7 @@ var y: Array<string> = ['3', ...x];
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 114,
                                                 "end": 120
                                             },
@@ -611,7 +611,7 @@ var y: Array<string> = ['3', ...x];
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 149,
                                                 "end": 155
                                             },

@@ -70,7 +70,7 @@ function f2() { yield /=2 /d }
                                 },
                                 "operatorToken": {
                                     "kind": 4133,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 21,
                                     "end": 24
                                 },
@@ -86,7 +86,7 @@ function f2() { yield /=2 /d }
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 25,
                                         "end": 27
                                     },

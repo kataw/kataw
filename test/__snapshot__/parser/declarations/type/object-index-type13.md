@@ -102,7 +102,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                             "kind": 136,
                                             "type": {
                                                 "kind": 134234343,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 20,
                                                 "end": 26
                                             },
@@ -164,7 +164,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                         },
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 35,
                             "end": 42
                         },

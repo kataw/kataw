@@ -90,7 +90,7 @@ type a = ({key():string}[x]) => T;
                                             },
                                             "returnType": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 17,
                                                 "end": 23
                                             },

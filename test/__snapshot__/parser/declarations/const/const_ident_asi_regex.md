@@ -87,7 +87,7 @@ const q
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 65,
+                        "flags": 97,
                         "start": 7,
                         "end": 9
                     },
@@ -105,7 +105,7 @@ const q
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 10,
                     "end": 11
                 },

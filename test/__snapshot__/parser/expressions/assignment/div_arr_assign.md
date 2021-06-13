@@ -29,7 +29,7 @@ y/[]=x
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 2
                 },
@@ -51,7 +51,7 @@ y/[]=x
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 4,
                         "end": 5
                     },

@@ -35,7 +35,7 @@ a *= b
                 },
                 "operatorToken": {
                     "kind": 4132,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 4
                 },

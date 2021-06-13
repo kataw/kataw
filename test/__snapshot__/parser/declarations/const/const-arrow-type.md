@@ -77,7 +77,7 @@ const fn = async (a?: any): Promise<void> => {};
                                         "kind": 139,
                                         "type": {
                                             "kind": 134234252,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 21,
                                             "end": 25
                                         },
@@ -116,7 +116,7 @@ const fn = async (a?: any): Promise<void> => {};
                                                 "kind": 267,
                                                 "type": {
                                                     "kind": 138477615,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 36,
                                                     "end": 40
                                                 },

@@ -80,7 +80,7 @@ type Age = typeof MyArray[number]["age"];
                     },
                     "indexType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 26,
                         "end": 32
                     },

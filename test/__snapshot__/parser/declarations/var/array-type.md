@@ -63,7 +63,7 @@ var a: (?number)[];
                                 "kind": 136,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 6,
                                     "end": 13
                                 },
@@ -138,7 +138,7 @@ var a: (?number)[];
                                         },
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 31,
                                             "end": 38
                                         },
@@ -218,7 +218,7 @@ var a: (?number)[];
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 56,
                                         "end": 63
                                     },
@@ -280,7 +280,7 @@ var a: (?number)[];
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 74,
                                         "end": 81
                                     },
@@ -337,7 +337,7 @@ var a: (?number)[];
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 94,
                                 "end": 101
                             },
@@ -418,7 +418,7 @@ var a: (?number)[];
                                         },
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 116,
                                             "end": 122
                                         },

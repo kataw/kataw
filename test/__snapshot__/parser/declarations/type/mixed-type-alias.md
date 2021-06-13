@@ -71,7 +71,7 @@ type MyObject = {
                         "optionalToken": null,
                         "value": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 24,
                             "end": 31
                         },
@@ -96,7 +96,7 @@ type MyObject = {
                         "optionalToken": null,
                         "value": {
                             "kind": 134234254,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 39,
                             "end": 47
                         },
@@ -121,7 +121,7 @@ type MyObject = {
                         "optionalToken": null,
                         "value": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 55,
                             "end": 62
                         },

@@ -94,7 +94,7 @@ class B extends A {
                                                 "kind": 139,
                                                 "type": {
                                                     "kind": 134234252,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 28,
                                                     "end": 31
                                                 },

@@ -118,7 +118,7 @@ async function f(){ await foo\n/foo/g }
                     },
                     "operatorToken": {
                         "kind": 35640,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 31,
                         "end": 32
                     },
@@ -136,7 +136,7 @@ async function f(){ await foo\n/foo/g }
                 },
                 "operatorToken": {
                     "kind": 35640,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 35,
                     "end": 36
                 },

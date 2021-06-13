@@ -41,7 +41,7 @@ x = /x/xxx;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -74,7 +74,7 @@ x = /x/xxx;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },
@@ -107,7 +107,7 @@ x = /x/xxx;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 31,
                     "end": 33
                 },
@@ -140,7 +140,7 @@ x = /x/xxx;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 44,
                     "end": 46
                 },
@@ -173,7 +173,7 @@ x = /x/xxx;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 60,
                     "end": 62
                 },
@@ -206,7 +206,7 @@ x = /x/xxx;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 75,
                     "end": 77
                 },
@@ -239,7 +239,7 @@ x = /x/xxx;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 122,
                     "end": 124
                 },

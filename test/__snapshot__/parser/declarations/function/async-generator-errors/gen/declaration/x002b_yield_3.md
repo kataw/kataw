@@ -73,7 +73,7 @@ async function * gen() {+ yield 3}
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 24,
                                     "end": 25
                                 },

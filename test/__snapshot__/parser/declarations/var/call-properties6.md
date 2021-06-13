@@ -72,7 +72,7 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 12,
                                                         "end": 19
                                                     },
@@ -89,7 +89,7 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 21,
                                             "end": 28
                                         },
@@ -137,7 +137,7 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 45,
                                                 "end": 52
                                             },
@@ -196,7 +196,7 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 54,
                                     "end": 61
                                 },

@@ -49,7 +49,7 @@ var foo: true
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 1048699,
+                                "kind": 24752947,
                                 "flags": 2097216,
                                 "start": 8,
                                 "end": 13

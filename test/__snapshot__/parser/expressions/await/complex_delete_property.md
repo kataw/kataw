@@ -93,7 +93,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 34,
                                             "end": 36
                                         },
@@ -101,7 +101,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                             "kind": 126,
                                             "operandToken": {
                                                 "kind": 4259886,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 36,
                                                 "end": 43
                                             },

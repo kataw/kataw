@@ -56,7 +56,7 @@ var a: typeof A[];
                                 "kind": 136,
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 6,
                                     "end": 13
                                 },
@@ -119,7 +119,7 @@ var a: typeof A[];
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 25,
                                         "end": 31
                                     },
@@ -188,7 +188,7 @@ var a: typeof A[];
                                         },
                                         "type": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 44,
                                             "end": 50
                                         },
@@ -267,7 +267,7 @@ var a: typeof A[];
                                     "kind": 136,
                                     "type": {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 67,
                                         "end": 74
                                     },

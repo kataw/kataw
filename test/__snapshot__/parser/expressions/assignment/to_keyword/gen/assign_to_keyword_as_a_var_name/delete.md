@@ -31,7 +31,7 @@ delete = x
                     "kind": 126,
                     "operandToken": {
                         "kind": 4259886,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 0,
                         "end": 6
                     },
@@ -48,7 +48,7 @@ delete = x
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },

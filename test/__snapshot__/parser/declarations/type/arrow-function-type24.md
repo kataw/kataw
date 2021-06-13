@@ -82,13 +82,13 @@ type a = (1 | 1[symbol & string]) => T;
                                         "types": [
                                             {
                                                 "kind": 134234343,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 16,
                                                 "end": 22
                                             },
                                             {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 24,
                                                 "end": 31
                                             }

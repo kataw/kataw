@@ -73,7 +73,7 @@ var o3: O3 = (0: mixed); // ok
                         },
                         "type": {
                             "kind": 134234252,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 14,
                             "end": 17
                         },
@@ -472,7 +472,7 @@ var o3: O3 = (0: mixed); // ok
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 162,
                                 "end": 166
                             },

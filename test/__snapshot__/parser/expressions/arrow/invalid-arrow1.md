@@ -1164,7 +1164,7 @@ y = (x => {}(0));
                             },
                             "operatorToken": {
                                 "kind": 99634,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 265,
                                 "end": 267
                             },
@@ -1244,7 +1244,7 @@ y = (x => {}(0));
                         },
                         "operatorToken": {
                             "kind": 99634,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 284,
                             "end": 286
                         },
@@ -1536,7 +1536,7 @@ y = (x => {}(0));
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 363,
                     "end": 365
                 },
@@ -1750,7 +1750,7 @@ y = (x => {}(0));
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 419,
                     "end": 421
                 },

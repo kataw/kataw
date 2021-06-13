@@ -340,7 +340,7 @@ type T4 = { foo: number, bar: string, ... };
                         "optionalToken": null,
                         "value": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 82,
                             "end": 89
                         },
@@ -430,7 +430,7 @@ type T4 = { foo: number, bar: string, ... };
                         "optionalToken": null,
                         "value": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 114,
                             "end": 121
                         },
@@ -455,7 +455,7 @@ type T4 = { foo: number, bar: string, ... };
                         "optionalToken": null,
                         "value": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 127,
                             "end": 134
                         },

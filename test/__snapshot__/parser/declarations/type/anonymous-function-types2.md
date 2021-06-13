@@ -63,7 +63,7 @@ type A = (string) => void
                 },
                 "returnType": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 20,
                     "end": 25
                 },

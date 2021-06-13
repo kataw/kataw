@@ -31,7 +31,7 @@ x = {arrow: (x, y) => ok};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -120,7 +120,7 @@ x = {arrow: (x, y) => ok};
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 26,
                     "end": 28
                 },

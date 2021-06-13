@@ -548,7 +548,7 @@ async ([a]:string)=>c;
                 },
                 "operatorToken": {
                     "kind": 99634,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 149,
                     "end": 151
                 },
@@ -712,7 +712,7 @@ async ([a]:string)=>c;
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 223,
                                     "end": 225
                                 },
@@ -730,7 +730,7 @@ async ([a]:string)=>c;
                             },
                             "operatorToken": {
                                 "kind": 99634,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 227,
                                 "end": 229
                             },
@@ -1418,7 +1418,7 @@ async ([a]:string)=>c;
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 513,
                             "end": 515
                         },
@@ -1590,7 +1590,7 @@ async ([a]:string)=>c;
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 574,
                             "end": 576
                         },
@@ -1683,7 +1683,7 @@ async ([a]:string)=>c;
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 608,
                                     "end": 610
                                 },
@@ -2039,7 +2039,7 @@ async ([a]:string)=>c;
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 727,
                             "end": 729
                         },
@@ -2102,7 +2102,7 @@ async ([a]:string)=>c;
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 741,
                             "end": 743
                         },
@@ -2181,7 +2181,7 @@ async ([a]:string)=>c;
                         "kind": 139,
                         "type": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 761,
                             "end": 767
                         },

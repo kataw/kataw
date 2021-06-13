@@ -1640,7 +1640,7 @@ a = b => { let b; };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 397,
                     "end": 399
                 },
@@ -1884,7 +1884,7 @@ a = b => { let b; };
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 454,
                                             "end": 456
                                         },

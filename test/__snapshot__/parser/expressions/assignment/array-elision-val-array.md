@@ -35,7 +35,7 @@ result = [,] = vals;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -64,7 +64,7 @@ result = [,] = vals;
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 12,
                         "end": 14
                     },

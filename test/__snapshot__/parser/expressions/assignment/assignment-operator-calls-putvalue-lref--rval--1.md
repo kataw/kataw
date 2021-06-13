@@ -348,7 +348,7 @@ Object.defineProperty(this, "x", {
                                                                             "kind": 127,
                                                                             "operandToken": {
                                                                                 "kind": 196635,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 187,
                                                                                 "end": 189
                                                                             },
@@ -382,7 +382,7 @@ Object.defineProperty(this, "x", {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 4125,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 196,
                                                                                 "end": 198
                                                                             },
@@ -395,7 +395,7 @@ Object.defineProperty(this, "x", {
                                                                                             "kind": 126,
                                                                                             "operandToken": {
                                                                                                 "kind": 4259886,
-                                                                                                "flags": 64,
+                                                                                                "flags": 96,
                                                                                                 "start": 200,
                                                                                                 "end": 206
                                                                                             },
@@ -456,7 +456,7 @@ Object.defineProperty(this, "x", {
                                                                             "kind": 127,
                                                                             "operandToken": {
                                                                                 "kind": 196635,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 230,
                                                                                 "end": 232
                                                                             },
@@ -509,7 +509,7 @@ Object.defineProperty(this, "x", {
                                             "kind": 127,
                                             "operandToken": {
                                                 "kind": 196635,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 247,
                                                 "end": 249
                                             },

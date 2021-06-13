@@ -79,7 +79,7 @@ type B = Foo<
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 12,
                                     "end": 18
                                 },
@@ -93,7 +93,7 @@ type B = Foo<
                         },
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 20,
                             "end": 27
                         },
@@ -189,7 +189,7 @@ type B = Foo<
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 50,
                                     "end": 56
                                 },
@@ -203,7 +203,7 @@ type B = Foo<
                         },
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 58,
                             "end": 65
                         },
@@ -274,7 +274,7 @@ type B = Foo<
                         "type": null,
                         "defaultType": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 84,
                             "end": 91
                         },
@@ -304,7 +304,7 @@ type B = Foo<
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 97,
                                     "end": 103
                                 },
@@ -318,7 +318,7 @@ type B = Foo<
                         },
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 105,
                             "end": 112
                         },

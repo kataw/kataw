@@ -186,7 +186,7 @@ declare var union: Foo | null | void;
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 62,
                                 "end": 66
                             },
@@ -396,13 +396,13 @@ declare var union: Foo | null | void;
                                     },
                                     {
                                         "kind": 138477575,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 143,
                                         "end": 148
                                     },
                                     {
                                         "kind": 138477615,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 150,
                                         "end": 155
                                     }

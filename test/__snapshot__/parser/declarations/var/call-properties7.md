@@ -66,7 +66,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 12,
                                             "end": 19
                                         },
@@ -114,7 +114,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 36,
                                                 "end": 43
                                             },
@@ -173,7 +173,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 45,
                                     "end": 52
                                 },

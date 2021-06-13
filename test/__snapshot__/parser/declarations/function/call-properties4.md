@@ -67,7 +67,7 @@ var b: { (): string; (x: number): string } =
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 12,
                                             "end": 19
                                         },
@@ -96,7 +96,7 @@ var b: { (): string; (x: number): string } =
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 24,
                                                         "end": 31
                                                     },
@@ -113,7 +113,7 @@ var b: { (): string; (x: number): string } =
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 33,
                                             "end": 40
                                         },
@@ -166,7 +166,7 @@ var b: { (): string; (x: number): string } =
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 60,
                                                 "end": 67
                                             },
@@ -225,7 +225,7 @@ var b: { (): string; (x: number): string } =
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 69,
                                     "end": 76
                                 },

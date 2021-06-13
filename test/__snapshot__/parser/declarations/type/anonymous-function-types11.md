@@ -65,7 +65,7 @@ var f = (): string | (number) => 123;
                                     "types": [
                                         {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 11,
                                             "end": 18
                                         },

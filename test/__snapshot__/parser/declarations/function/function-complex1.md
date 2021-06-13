@@ -172,7 +172,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 58,
                                     "end": 63
                                 },
@@ -467,13 +467,13 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "elementTypes": [
                                     {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 15,
                                         "end": 21
                                     },
                                     {
                                         "kind": 134234345,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 22,
                                         "end": 29
                                     }
@@ -575,7 +575,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "kind": 267,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 178,
                                                 "end": 184
                                             },
@@ -624,7 +624,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 },
                 "operatorToken": {
                     "kind": 35141,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 184,
                     "end": 186
                 },
@@ -748,7 +748,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                         },
                                         "returnType": {
                                             "kind": 138477615,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 213,
                                             "end": 218
                                         },

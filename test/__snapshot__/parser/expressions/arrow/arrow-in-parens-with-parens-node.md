@@ -52,7 +52,7 @@ var asserted1 = <any>((n) => { return n; });
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 15,
                                     "end": 17
                                 },
@@ -70,7 +70,7 @@ var asserted1 = <any>((n) => { return n; });
                             },
                             "operatorToken": {
                                 "kind": 34883,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 21
                             },

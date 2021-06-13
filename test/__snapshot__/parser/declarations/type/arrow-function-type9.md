@@ -142,7 +142,7 @@ type X = (x | y & z, q: string) => T;
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 23,
                                 "end": 30
                             },

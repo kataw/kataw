@@ -73,7 +73,7 @@ var obj: { foo?: boolean } = {};
                                         },
                                         "value": {
                                             "kind": 134234254,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 16,
                                             "end": 24
                                         },

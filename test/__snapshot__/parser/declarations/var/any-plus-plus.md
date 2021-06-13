@@ -52,7 +52,7 @@ var z = x + x;
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 6,
                                 "end": 10
                             },
@@ -102,7 +102,7 @@ var z = x + x;
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 18,
                     "end": 20
                 },
@@ -158,7 +158,7 @@ var z = x + x;
                             },
                             "operatorToken": {
                                 "kind": 99634,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 39,
                                 "end": 41
                             },

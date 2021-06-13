@@ -76,13 +76,13 @@ function method(obj: { [key: string]: any }) {}
                                         },
                                         "key": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 28,
                                             "end": 35
                                         },
                                         "type": {
                                             "kind": 134234252,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 37,
                                             "end": 41
                                         },

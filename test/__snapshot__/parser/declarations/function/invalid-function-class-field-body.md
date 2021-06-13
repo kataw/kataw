@@ -113,7 +113,7 @@ function* foo() {
                                                     "kind": 126,
                                                     "operandToken": {
                                                         "kind": 99634,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 88,
                                                         "end": 90
                                                     },

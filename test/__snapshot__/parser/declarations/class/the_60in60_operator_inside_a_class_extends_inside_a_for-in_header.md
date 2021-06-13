@@ -142,7 +142,7 @@ for (class x extends a in b {} in c);
                 },
                 "operatorToken": {
                     "kind": 21006388,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 30,
                     "end": 33
                 },

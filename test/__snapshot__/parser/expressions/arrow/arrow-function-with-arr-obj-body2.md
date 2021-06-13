@@ -75,7 +75,7 @@ var v = a => <any><any>{}
                                             },
                                             "operatorToken": {
                                                 "kind": 536971330,
-                                                "flags": 64,
+                                                "flags": 96,
                                                 "start": 12,
                                                 "end": 14
                                             },
@@ -93,7 +93,7 @@ var v = a => <any><any>{}
                                         },
                                         "operatorToken": {
                                             "kind": 34883,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 17,
                                             "end": 18
                                         },
@@ -110,7 +110,7 @@ var v = a => <any><any>{}
                                     },
                                     "operatorToken": {
                                         "kind": 536971330,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 18,
                                         "end": 19
                                     },
@@ -128,7 +128,7 @@ var v = a => <any><any>{}
                                 },
                                 "operatorToken": {
                                     "kind": 34883,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 22,
                                     "end": 23
                                 },

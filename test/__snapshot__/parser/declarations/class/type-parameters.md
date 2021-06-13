@@ -61,7 +61,7 @@ class A9<S = number, T: ?string = string> {}
                         "type": null,
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 12,
                             "end": 19
                         },
@@ -135,7 +135,7 @@ class A9<S = number, T: ?string = string> {}
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 37,
                                     "end": 43
                                 },
@@ -149,7 +149,7 @@ class A9<S = number, T: ?string = string> {}
                         },
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 45,
                             "end": 52
                         },
@@ -239,7 +239,7 @@ class A9<S = number, T: ?string = string> {}
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 73,
                                     "end": 79
                                 },
@@ -253,7 +253,7 @@ class A9<S = number, T: ?string = string> {}
                         },
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 81,
                             "end": 88
                         },
@@ -318,7 +318,7 @@ class A9<S = number, T: ?string = string> {}
                         "type": null,
                         "defaultType": {
                             "kind": 134234345,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 105,
                             "end": 112
                         },
@@ -348,7 +348,7 @@ class A9<S = number, T: ?string = string> {}
                                 },
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 118,
                                     "end": 124
                                 },
@@ -362,7 +362,7 @@ class A9<S = number, T: ?string = string> {}
                         },
                         "defaultType": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 126,
                             "end": 133
                         },
@@ -430,7 +430,7 @@ class A9<S = number, T: ?string = string> {}
                                 "type": null,
                                 "defaultType": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 152,
                                     "end": 159
                                 },

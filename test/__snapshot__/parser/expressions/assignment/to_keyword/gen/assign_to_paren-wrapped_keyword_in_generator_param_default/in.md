@@ -78,7 +78,7 @@ function *f(x = (in) = f) {}
                                     },
                                     "operatorToken": {
                                         "kind": 21006388,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 17,
                                         "end": 19
                                     },
@@ -99,7 +99,7 @@ function *f(x = (in) = f) {}
                             },
                             "operatorToken": {
                                 "kind": 4125,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 22
                             },

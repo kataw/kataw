@@ -141,7 +141,7 @@ function e(x: {}): () => string {
                     },
                     "returnType": {
                         "kind": 134234347,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 24,
                         "end": 31
                     },

@@ -102,7 +102,7 @@ let tests = [
                                                             "elementTypes": [
                                                                 {
                                                                     "kind": 134234345,
-                                                                    "flags": 64,
+                                                                    "flags": 2097216,
                                                                     "start": 29,
                                                                     "end": 35
                                                                 }
@@ -177,7 +177,7 @@ let tests = [
                                                                 "kind": 126,
                                                                 "operandToken": {
                                                                     "kind": 134318643,
-                                                                    "flags": 64,
+                                                                    "flags": 96,
                                                                     "start": 80,
                                                                     "end": 81
                                                                 },
@@ -249,13 +249,13 @@ let tests = [
                                                             "elementTypes": [
                                                                 {
                                                                     "kind": 134234345,
-                                                                    "flags": 64,
+                                                                    "flags": 2097216,
                                                                     "start": 165,
                                                                     "end": 171
                                                                 },
                                                                 {
                                                                     "kind": 134234347,
-                                                                    "flags": 64,
+                                                                    "flags": 2097216,
                                                                     "start": 172,
                                                                     "end": 179
                                                                 }
@@ -390,7 +390,7 @@ let tests = [
                                                             "elementTypes": [
                                                                 {
                                                                     "kind": 134234345,
-                                                                    "flags": 64,
+                                                                    "flags": 2097216,
                                                                     "start": 343,
                                                                     "end": 349
                                                                 }
@@ -661,7 +661,7 @@ let tests = [
                                                             "kind": 139,
                                                             "type": {
                                                                 "kind": 134234347,
-                                                                "flags": 64,
+                                                                "flags": 2097216,
                                                                 "start": 559,
                                                                 "end": 566
                                                             },

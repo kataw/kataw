@@ -60,7 +60,7 @@ async ([{x}: string]) =>  {};
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 10,
                                         "end": 17
                                     },
@@ -161,7 +161,7 @@ async ([{x}: string]) =>  {};
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 41,
                                         "end": 48
                                     },
@@ -255,7 +255,7 @@ async ([{x}: string]) =>  {};
                                                     "kind": 139,
                                                     "type": {
                                                         "kind": 134234347,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 71,
                                                         "end": 78
                                                     },
@@ -283,7 +283,7 @@ async ([{x}: string]) =>  {};
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 80,
                                         "end": 87
                                     },
@@ -384,7 +384,7 @@ async ([{x}: string]) =>  {};
                                     "kind": 139,
                                     "type": {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 111,
                                         "end": 118
                                     },

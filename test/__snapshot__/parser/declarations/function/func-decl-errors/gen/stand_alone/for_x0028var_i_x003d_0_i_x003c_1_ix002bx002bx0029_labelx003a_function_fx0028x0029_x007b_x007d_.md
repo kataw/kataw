@@ -67,7 +67,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                 "kind": 127,
                 "operandToken": {
                     "kind": 196635,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 24,
                     "end": 26
                 },
@@ -95,7 +95,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                 },
                 "operatorToken": {
                     "kind": 536971330,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 17,
                     "end": 19
                 },

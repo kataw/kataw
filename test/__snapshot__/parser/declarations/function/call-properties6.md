@@ -85,7 +85,7 @@ function d(x: { (z: number): string }): () => string {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 19,
                                                         "end": 26
                                                     },
@@ -102,7 +102,7 @@ function d(x: { (z: number): string }): () => string {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -187,7 +187,7 @@ function d(x: { (z: number): string }): () => string {
                     },
                     "returnType": {
                         "kind": 134234347,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 45,
                         "end": 52
                     },

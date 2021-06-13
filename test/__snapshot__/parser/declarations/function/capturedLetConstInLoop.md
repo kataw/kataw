@@ -403,7 +403,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 107,
                                                                             "end": 109
                                                                         },
@@ -474,7 +474,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 132,
                                                             "end": 134
                                                         },
@@ -737,7 +737,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 257,
                                                                             "end": 259
                                                                         },
@@ -808,7 +808,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 282,
                                                             "end": 284
                                                         },
@@ -950,7 +950,7 @@ function foo8_c(x) {
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 343,
                                     "end": 346
                                 },
@@ -978,7 +978,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 338,
                                     "end": 340
                                 },
@@ -1106,7 +1106,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 415,
                                                                             "end": 417
                                                                         },
@@ -1177,7 +1177,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 440,
                                                             "end": 442
                                                         },
@@ -1295,7 +1295,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 487,
                                     "end": 491
                                 },
@@ -1423,7 +1423,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 561,
                                                                             "end": 563
                                                                         },
@@ -1494,7 +1494,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 586,
                                                             "end": 588
                                                         },
@@ -1612,7 +1612,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 755,
                                     "end": 759
                                 },
@@ -1783,7 +1783,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 709,
                                                                             "end": 711
                                                                         },
@@ -1854,7 +1854,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 734,
                                                             "end": 736
                                                         },
@@ -1996,7 +1996,7 @@ function foo8_c(x) {
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 811,
                                     "end": 814
                                 },
@@ -2024,7 +2024,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 806,
                                     "end": 808
                                 },
@@ -2196,7 +2196,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 902,
                                                                             "end": 904
                                                                         },
@@ -2267,7 +2267,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 927,
                                                             "end": 929
                                                         },
@@ -2433,7 +2433,7 @@ function foo8_c(x) {
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 995,
                                     "end": 998
                                 },
@@ -2461,7 +2461,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 990,
                                     "end": 992
                                 },
@@ -2591,7 +2591,7 @@ function foo8_c(x) {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 1067,
                                                                                 "end": 1069
                                                                             },
@@ -2609,7 +2609,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 1071,
                                                                             "end": 1073
                                                                         },
@@ -2682,7 +2682,7 @@ function foo8_c(x) {
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 1096,
                                                                 "end": 1098
                                                             },
@@ -2700,7 +2700,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 1100,
                                                             "end": 1102
                                                         },
@@ -2818,7 +2818,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 1148,
                                     "end": 1152
                                 },
@@ -3002,7 +3002,7 @@ function foo8_c(x) {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 1240,
                                                                                 "end": 1242
                                                                             },
@@ -3020,7 +3020,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 1244,
                                                                             "end": 1246
                                                                         },
@@ -3093,7 +3093,7 @@ function foo8_c(x) {
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 1269,
                                                                 "end": 1271
                                                             },
@@ -3111,7 +3111,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 1273,
                                                             "end": 1275
                                                         },
@@ -3229,7 +3229,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 1453,
                                     "end": 1457
                                 },
@@ -3419,7 +3419,7 @@ function foo8_c(x) {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 1399,
                                                                                 "end": 1401
                                                                             },
@@ -3437,7 +3437,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 1403,
                                                                             "end": 1405
                                                                         },
@@ -3510,7 +3510,7 @@ function foo8_c(x) {
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 1428,
                                                                 "end": 1430
                                                             },
@@ -3528,7 +3528,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 1432,
                                                             "end": 1434
                                                         },
@@ -3670,7 +3670,7 @@ function foo8_c(x) {
                                 "kind": 128,
                                 "operandToken": {
                                     "kind": 196635,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 1510,
                                     "end": 1513
                                 },
@@ -3698,7 +3698,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 1505,
                                     "end": 1507
                                 },
@@ -3872,7 +3872,7 @@ function foo8_c(x) {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 1601,
                                                                                 "end": 1603
                                                                             },
@@ -3890,7 +3890,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 1605,
                                                                             "end": 1607
                                                                         },
@@ -3963,7 +3963,7 @@ function foo8_c(x) {
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 1630,
                                                                 "end": 1632
                                                             },
@@ -3981,7 +3981,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 1634,
                                                             "end": 1636
                                                         },
@@ -4245,7 +4245,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 1778,
                                                                             "end": 1780
                                                                         },
@@ -4316,7 +4316,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 1803,
                                                             "end": 1805
                                                         },
@@ -4579,7 +4579,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 1934,
                                                                             "end": 1936
                                                                         },
@@ -4650,7 +4650,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 1959,
                                                             "end": 1961
                                                         },
@@ -4801,7 +4801,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 2019,
                                     "end": 2021
                                 },
@@ -4929,7 +4929,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 2094,
                                                                             "end": 2096
                                                                         },
@@ -5000,7 +5000,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 2119,
                                                             "end": 2121
                                                         },
@@ -5118,7 +5118,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 2168,
                                     "end": 2172
                                 },
@@ -5246,7 +5246,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 2244,
                                                                             "end": 2246
                                                                         },
@@ -5317,7 +5317,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 2269,
                                                             "end": 2271
                                                         },
@@ -5435,7 +5435,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 2448,
                                     "end": 2452
                                 },
@@ -5613,7 +5613,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 2402,
                                                                             "end": 2404
                                                                         },
@@ -5684,7 +5684,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 2427,
                                                             "end": 2429
                                                         },
@@ -5835,7 +5835,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 2503,
                                     "end": 2505
                                 },
@@ -6007,7 +6007,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 2599,
                                                                             "end": 2601
                                                                         },
@@ -6078,7 +6078,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 2624,
                                                             "end": 2626
                                                         },
@@ -6253,7 +6253,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 2691,
                                     "end": 2693
                                 },
@@ -6383,7 +6383,7 @@ function foo8_c(x) {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 2766,
                                                                                 "end": 2768
                                                                             },
@@ -6401,7 +6401,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 2770,
                                                                             "end": 2772
                                                                         },
@@ -6474,7 +6474,7 @@ function foo8_c(x) {
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 2795,
                                                                 "end": 2797
                                                             },
@@ -6492,7 +6492,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 2799,
                                                             "end": 2801
                                                         },
@@ -6610,7 +6610,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 2849,
                                     "end": 2853
                                 },
@@ -6808,7 +6808,7 @@ function foo8_c(x) {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 2953,
                                                                                 "end": 2955
                                                                             },
@@ -6826,7 +6826,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 2957,
                                                                             "end": 2959
                                                                         },
@@ -6899,7 +6899,7 @@ function foo8_c(x) {
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 2982,
                                                                 "end": 2984
                                                             },
@@ -6917,7 +6917,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 2986,
                                                             "end": 2988
                                                         },
@@ -7035,7 +7035,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 3180,
                                     "end": 3184
                                 },
@@ -7239,7 +7239,7 @@ function foo8_c(x) {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 3126,
                                                                                 "end": 3128
                                                                             },
@@ -7257,7 +7257,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 3130,
                                                                             "end": 3132
                                                                         },
@@ -7330,7 +7330,7 @@ function foo8_c(x) {
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 3155,
                                                                 "end": 3157
                                                             },
@@ -7348,7 +7348,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 3159,
                                                             "end": 3161
                                                         },
@@ -7499,7 +7499,7 @@ function foo8_c(x) {
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 3236,
                                     "end": 3238
                                 },
@@ -7673,7 +7673,7 @@ function foo8_c(x) {
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
-                                                                                "flags": 64,
+                                                                                "flags": 96,
                                                                                 "start": 3332,
                                                                                 "end": 3334
                                                                             },
@@ -7691,7 +7691,7 @@ function foo8_c(x) {
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
-                                                                            "flags": 64,
+                                                                            "flags": 96,
                                                                             "start": 3336,
                                                                             "end": 3338
                                                                         },
@@ -7764,7 +7764,7 @@ function foo8_c(x) {
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
-                                                                "flags": 64,
+                                                                "flags": 96,
                                                                 "start": 3361,
                                                                 "end": 3363
                                                             },
@@ -7782,7 +7782,7 @@ function foo8_c(x) {
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
-                                                            "flags": 64,
+                                                            "flags": 96,
                                                             "start": 3365,
                                                             "end": 3367
                                                         },

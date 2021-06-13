@@ -48,7 +48,7 @@ async (x = (with) = f) => {}
                         },
                         "operatorToken": {
                             "kind": 4125,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 8,
                             "end": 10
                         },
@@ -107,7 +107,7 @@ async (x = (with) = f) => {}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 17,
                         "end": 19
                     },

@@ -35,7 +35,7 @@ result = { x: { y } } = { x: { y: 2 } };
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 6,
                     "end": 8
                 },
@@ -96,7 +96,7 @@ result = { x: { y } } = { x: { y: 2 } };
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 21,
                         "end": 23
                     },

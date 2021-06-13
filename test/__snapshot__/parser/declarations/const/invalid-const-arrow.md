@@ -138,7 +138,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 38,
                                     "end": 43
                                 },

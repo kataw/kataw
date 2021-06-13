@@ -37,7 +37,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -55,7 +55,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 134252103,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 7,
                                 "end": 9
                             },
@@ -71,7 +71,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                                 },
                                 "operatorToken": {
                                     "kind": 35140,
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 15
                                 },
@@ -93,7 +93,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                         },
                         "operatorToken": {
                             "kind": 134251849,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 18,
                             "end": 20
                         },
@@ -109,7 +109,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 34881,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 23,
                                 "end": 26
                             },
@@ -131,7 +131,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                     },
                     "operatorToken": {
                         "kind": 99634,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 29,
                         "end": 31
                     },
@@ -149,7 +149,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                 },
                 "operatorToken": {
                     "kind": 33339,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 34,
                     "end": 37
                 },
@@ -165,7 +165,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                     },
                     "operatorToken": {
                         "kind": 33594,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 40,
                         "end": 43
                     },
@@ -183,7 +183,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 34620,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 46,
                                 "end": 50
                             },
@@ -201,7 +201,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                         },
                         "operatorToken": {
                             "kind": 134251592,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 53,
                             "end": 55
                         },
@@ -217,7 +217,7 @@ x0 / x1 & x2 << x3 ^ x4 >= x5 + x6 || x7 && x8 === x9 | x10 ** x
                             },
                             "operatorToken": {
                                 "kind": 35897,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 59,
                                 "end": 62
                             },

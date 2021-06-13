@@ -72,7 +72,7 @@ var b: { (x: number): number } = (x) => "hi"
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 12,
                                                         "end": 19
                                                     },
@@ -89,7 +89,7 @@ var b: { (x: number): number } = (x) => "hi"
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 21,
                                             "end": 28
                                         },

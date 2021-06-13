@@ -114,7 +114,7 @@ async function foo3(): Promise<string> {
                                 "kind": 267,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 31,
                                     "end": 37
                                 },
@@ -226,7 +226,7 @@ async function foo3(): Promise<string> {
                                 "kind": 267,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 85,
                                     "end": 91
                                 },
@@ -399,7 +399,7 @@ async function foo3(): Promise<string> {
                                 "kind": 267,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 149,
                                     "end": 155
                                 },

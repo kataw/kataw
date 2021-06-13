@@ -42,7 +42,7 @@ foo = {
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 3,
                     "end": 5
                 },
@@ -112,7 +112,7 @@ foo = {
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 21006388,
-                                                                "flags": 65,
+                                                                "flags": 97,
                                                                 "start": 36,
                                                                 "end": 43
                                                             },
@@ -160,7 +160,7 @@ foo = {
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 43,
                         "end": 45
                     },

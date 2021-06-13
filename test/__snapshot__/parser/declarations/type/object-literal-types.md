@@ -634,7 +634,7 @@ type T9 = { [param: string]: U };
                             },
                             "returnType": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 174,
                                 "end": 181
                             },
@@ -717,7 +717,7 @@ type T9 = { [param: string]: U };
                             },
                             "returnType": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 206,
                                 "end": 213
                             },
@@ -848,7 +848,7 @@ type T9 = { [param: string]: U };
                         },
                         "key": {
                             "kind": 134234347,
-                            "flags": 64,
+                            "flags": 2097216,
                             "start": 262,
                             "end": 269
                         },

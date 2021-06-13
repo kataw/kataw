@@ -35,7 +35,7 @@ switch(y&[]=y){}
                 },
                 "operatorToken": {
                     "kind": 134252103,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 8,
                     "end": 9
                 },
@@ -57,7 +57,7 @@ switch(y&[]=y){}
                     },
                     "operatorToken": {
                         "kind": 4125,
-                        "flags": 64,
+                        "flags": 96,
                         "start": 11,
                         "end": 12
                     },

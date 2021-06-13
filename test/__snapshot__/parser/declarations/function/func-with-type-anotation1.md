@@ -61,7 +61,7 @@ function g(a:number=1, e:number=1) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 13,
                                 "end": 19
                             },
@@ -97,7 +97,7 @@ function g(a:number=1, e:number=1) {}
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 25,
                                 "end": 31
                             },

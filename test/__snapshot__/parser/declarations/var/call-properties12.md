@@ -97,7 +97,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 29,
                                                 "end": 36
                                             },
@@ -156,7 +156,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                 "kind": 139,
                                 "type": {
                                     "kind": 134234347,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 38,
                                     "end": 45
                                 },

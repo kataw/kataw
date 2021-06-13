@@ -84,7 +84,7 @@ declare function foo<T>(): void;
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 26,
                     "end": 31
                 },

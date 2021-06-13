@@ -94,7 +94,7 @@ var f = (x): (x: number) => 123 => 123;
                                                 "optionalToken": null,
                                                 "types": {
                                                     "kind": 134234345,
-                                                    "flags": 64,
+                                                    "flags": 2097216,
                                                     "start": 16,
                                                     "end": 23
                                                 },

@@ -83,7 +83,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 134234345,
-                                                        "flags": 64,
+                                                        "flags": 2097216,
                                                         "start": 19,
                                                         "end": 26
                                                     },
@@ -100,7 +100,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                         "staticToken": null,
                                         "returnType": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -192,7 +192,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                 "optionalToken": null,
                                 "types": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 43,
                                     "end": 50
                                 },
@@ -208,7 +208,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                     },
                     "returnType": {
                         "kind": 134234345,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 54,
                         "end": 61
                     },

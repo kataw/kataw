@@ -112,7 +112,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                             "staticToken": null,
                                                                             "returnType": {
                                                                                 "kind": 134234347,
-                                                                                "flags": 64,
+                                                                                "flags": 2097216,
                                                                                 "start": 23,
                                                                                 "end": 29
                                                                             },

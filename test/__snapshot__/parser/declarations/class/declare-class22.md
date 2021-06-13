@@ -80,7 +80,7 @@ declare class C {
                             "optionalToken": null,
                             "value": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 31,
                                 "end": 38
                             },
@@ -127,7 +127,7 @@ declare class C {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234345,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 57,
                                                 "end": 64
                                             },
@@ -143,7 +143,7 @@ declare class C {
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 66,
                                     "end": 71
                                 },
@@ -190,7 +190,7 @@ declare class C {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 91,
                                                 "end": 98
                                             },
@@ -206,7 +206,7 @@ declare class C {
                                 },
                                 "returnType": {
                                     "kind": 138477615,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 100,
                                     "end": 105
                                 },

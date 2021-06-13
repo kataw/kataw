@@ -74,7 +74,7 @@ declare class B { () : number }
                             },
                             "returnType": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 29,
                                 "end": 36
                             },
@@ -141,7 +141,7 @@ declare class B { () : number }
                             "staticToken": null,
                             "returnType": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 61,
                                 "end": 68
                             },

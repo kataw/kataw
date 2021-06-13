@@ -89,7 +89,7 @@ function bar<T: ?number>() {}
                                 },
                                 "type": {
                                     "kind": 134234345,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 17,
                                     "end": 23
                                 },

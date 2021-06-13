@@ -172,7 +172,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                             },
                             "operatorToken": {
                                 "kind": 134251592,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 34,
                                 "end": 35
                             },

@@ -69,7 +69,7 @@ declare function four<T>(this: T): void;
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 26,
                                 "end": 33
                             },
@@ -94,7 +94,7 @@ declare function four<T>(this: T): void;
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 35,
                     "end": 40
                 },
@@ -155,7 +155,7 @@ declare function four<T>(this: T): void;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 68,
                                 "end": 75
                             },
@@ -184,7 +184,7 @@ declare function four<T>(this: T): void;
                             "kind": 139,
                             "type": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 79,
                                 "end": 86
                             },
@@ -209,7 +209,7 @@ declare function four<T>(this: T): void;
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 88,
                     "end": 93
                 },
@@ -270,7 +270,7 @@ declare function four<T>(this: T): void;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 123,
                                 "end": 130
                             },
@@ -304,7 +304,7 @@ declare function four<T>(this: T): void;
                             "kind": 139,
                             "type": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 137,
                                 "end": 141
                             },
@@ -329,7 +329,7 @@ declare function four<T>(this: T): void;
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 143,
                     "end": 148
                 },
@@ -447,7 +447,7 @@ declare function four<T>(this: T): void;
                 "kind": 139,
                 "type": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 184,
                     "end": 189
                 },

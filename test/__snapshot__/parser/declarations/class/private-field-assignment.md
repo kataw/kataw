@@ -128,7 +128,7 @@ class Foo {
                                                     "kind": 127,
                                                     "operandToken": {
                                                         "kind": 196635,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 36,
                                                         "end": 38
                                                     },
@@ -165,7 +165,7 @@ class Foo {
                                                     "kind": 127,
                                                     "operandToken": {
                                                         "kind": 196636,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 48,
                                                         "end": 50
                                                     },
@@ -202,7 +202,7 @@ class Foo {
                                                     "kind": 128,
                                                     "operandToken": {
                                                         "kind": 196635,
-                                                        "flags": 65,
+                                                        "flags": 97,
                                                         "start": 50,
                                                         "end": 55
                                                     },
@@ -239,7 +239,7 @@ class Foo {
                                                     "kind": 128,
                                                     "operandToken": {
                                                         "kind": 196636,
-                                                        "flags": 65,
+                                                        "flags": 97,
                                                         "start": 62,
                                                         "end": 67
                                                     },
@@ -347,7 +347,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 99,
                                                         "end": 101
                                                     },
@@ -392,7 +392,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4130,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 113,
                                                         "end": 116
                                                     },
@@ -437,7 +437,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4131,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 128,
                                                         "end": 131
                                                     },
@@ -482,7 +482,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4132,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 143,
                                                         "end": 146
                                                     },
@@ -527,7 +527,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4133,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 158,
                                                         "end": 161
                                                     },
@@ -572,7 +572,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4134,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 173,
                                                         "end": 176
                                                     },
@@ -617,7 +617,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4129,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 188,
                                                         "end": 192
                                                     },
@@ -662,7 +662,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4126,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 204,
                                                         "end": 208
                                                     },
@@ -707,7 +707,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4127,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 220,
                                                         "end": 224
                                                     },
@@ -752,7 +752,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4128,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 236,
                                                         "end": 241
                                                     },
@@ -797,7 +797,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4137,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 253,
                                                         "end": 256
                                                     },
@@ -842,7 +842,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4136,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 268,
                                                         "end": 271
                                                     },
@@ -887,7 +887,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4135,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 283,
                                                         "end": 286
                                                     },
@@ -932,7 +932,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4139,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 298,
                                                         "end": 302
                                                     },
@@ -977,7 +977,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4138,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 314,
                                                         "end": 318
                                                     },
@@ -1022,7 +1022,7 @@ class Foo {
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4140,
-                                                        "flags": 64,
+                                                        "flags": 96,
                                                         "start": 330,
                                                         "end": 334
                                                     },

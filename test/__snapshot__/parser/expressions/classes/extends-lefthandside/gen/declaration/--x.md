@@ -56,7 +56,7 @@ class A extends --x {}
                         "kind": 128,
                         "operandToken": {
                             "kind": 196636,
-                            "flags": 64,
+                            "flags": 96,
                             "start": 15,
                             "end": 18
                         },

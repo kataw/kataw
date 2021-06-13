@@ -129,7 +129,7 @@ type a = ({x:y} | { [x]:string}) => T;
                                             },
                                             "type": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 24,
                                                 "end": 30
                                             },

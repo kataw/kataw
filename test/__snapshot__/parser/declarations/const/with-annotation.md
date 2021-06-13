@@ -70,7 +70,7 @@ const {q}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 11,
                                 "end": 18
                             },
@@ -133,7 +133,7 @@ const {q}: string = y;
                                             "kind": 139,
                                             "type": {
                                                 "kind": 134234343,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 34,
                                                 "end": 40
                                             },
@@ -161,7 +161,7 @@ const {q}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 42,
                                 "end": 49
                             },
@@ -231,7 +231,7 @@ const {q}: string = y;
                             "kind": 139,
                             "type": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 66,
                                 "end": 73
                             },

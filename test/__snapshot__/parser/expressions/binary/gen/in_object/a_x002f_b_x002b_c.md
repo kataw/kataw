@@ -37,7 +37,7 @@ x = { a: a / b + c }
                 },
                 "operatorToken": {
                     "kind": 4125,
-                    "flags": 64,
+                    "flags": 96,
                     "start": 1,
                     "end": 3
                 },
@@ -71,7 +71,7 @@ x = { a: a / b + c }
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
-                                            "flags": 64,
+                                            "flags": 96,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -89,7 +89,7 @@ x = { a: a / b + c }
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 14,
                                         "end": 16
                                     },

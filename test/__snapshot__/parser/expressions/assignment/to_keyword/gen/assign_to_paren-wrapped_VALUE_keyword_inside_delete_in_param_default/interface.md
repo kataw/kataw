@@ -67,7 +67,7 @@ function *f(x = delete ((interface) = f)) {}
                             "kind": 126,
                             "operandToken": {
                                 "kind": 4259886,
-                                "flags": 64,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 22
                             },
@@ -91,7 +91,7 @@ function *f(x = delete ((interface) = f)) {}
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
-                                        "flags": 64,
+                                        "flags": 96,
                                         "start": 35,
                                         "end": 37
                                     },

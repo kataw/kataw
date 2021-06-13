@@ -82,7 +82,7 @@ type a = {get "string"():string};
                             },
                             "returnType": {
                                 "kind": 134234347,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 25,
                                 "end": 31
                             },

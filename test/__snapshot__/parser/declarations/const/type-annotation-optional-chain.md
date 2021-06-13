@@ -55,13 +55,13 @@ const d: string | null = c?.c;
                                 "types": [
                                     {
                                         "kind": 134234252,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 8,
                                         "end": 12
                                     },
                                     {
                                         "kind": 138477575,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 14,
                                         "end": 19
                                     }
@@ -124,13 +124,13 @@ const d: string | null = c?.c;
                                 "types": [
                                     {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 36,
                                         "end": 43
                                     },
                                     {
                                         "kind": 138477575,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 45,
                                         "end": 50
                                     }
@@ -231,7 +231,7 @@ const d: string | null = c?.c;
                                 },
                                 "type": {
                                     "kind": 134234252,
-                                    "flags": 64,
+                                    "flags": 2097216,
                                     "start": 69,
                                     "end": 72
                                 },
@@ -293,13 +293,13 @@ const d: string | null = c?.c;
                                 "types": [
                                     {
                                         "kind": 134234347,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 89,
                                         "end": 96
                                     },
                                     {
                                         "kind": 138477575,
-                                        "flags": 64,
+                                        "flags": 2097216,
                                         "start": 98,
                                         "end": 103
                                     }

@@ -120,7 +120,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                             },
                                             "value": {
                                                 "kind": 134234347,
-                                                "flags": 64,
+                                                "flags": 2097216,
                                                 "start": 26,
                                                 "end": 32
                                             },

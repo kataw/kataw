@@ -81,7 +81,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 17,
                                 "end": 24
                             },
@@ -97,7 +97,7 @@ type ten = {
                 },
                 "returnType": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 28,
                     "end": 33
                 },
@@ -159,7 +159,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 54,
                                 "end": 61
                             },
@@ -181,7 +181,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 65,
                                 "end": 72
                             },
@@ -197,7 +197,7 @@ type ten = {
                 },
                 "returnType": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 76,
                     "end": 81
                 },
@@ -259,7 +259,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234345,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 102,
                                 "end": 109
                             },
@@ -286,7 +286,7 @@ type ten = {
                             "optionalToken": null,
                             "types": {
                                 "kind": 134234252,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 116,
                                 "end": 120
                             },
@@ -302,7 +302,7 @@ type ten = {
                 },
                 "returnType": {
                     "kind": 138477615,
-                    "flags": 64,
+                    "flags": 2097216,
                     "start": 124,
                     "end": 129
                 },
@@ -400,7 +400,7 @@ type ten = {
                     },
                     "returnType": {
                         "kind": 138477615,
-                        "flags": 64,
+                        "flags": 2097216,
                         "start": 158,
                         "end": 163
                     },
@@ -502,7 +502,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 188,
                                             "end": 195
                                         },
@@ -518,7 +518,7 @@ type ten = {
                             },
                             "returnType": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 197,
                                 "end": 202
                             },
@@ -565,7 +565,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 214,
                                             "end": 221
                                         },
@@ -587,7 +587,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234345,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 225,
                                             "end": 232
                                         },
@@ -603,7 +603,7 @@ type ten = {
                             },
                             "returnType": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 234,
                                 "end": 239
                             },
@@ -650,7 +650,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234347,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 251,
                                             "end": 258
                                         },
@@ -677,7 +677,7 @@ type ten = {
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 134234252,
-                                            "flags": 64,
+                                            "flags": 2097216,
                                             "start": 265,
                                             "end": 269
                                         },
@@ -693,7 +693,7 @@ type ten = {
                             },
                             "returnType": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 271,
                                 "end": 276
                             },
@@ -765,7 +765,7 @@ type ten = {
                             },
                             "returnType": {
                                 "kind": 138477615,
-                                "flags": 64,
+                                "flags": 2097216,
                                 "start": 295,
                                 "end": 300
                             },

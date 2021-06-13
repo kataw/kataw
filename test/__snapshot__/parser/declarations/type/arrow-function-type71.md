@@ -115,7 +115,7 @@ type a = (((symbol[{a:string}][][][] | ((y & [((x) => T)]) => T) => T) => T) => 
                                                                             "optionalToken": null,
                                                                             "value": {
                                                                                 "kind": 134234347,
-                                                                                "flags": 64,
+                                                                                "flags": 2097216,
                                                                                 "start": 22,
                                                                                 "end": 28
                                                                             },
