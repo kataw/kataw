@@ -50,9 +50,9 @@ type a = ((bj[c] | e) => T);
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
@@ -60,7 +60,7 @@ type a = ((bj[c] | e) => T);
                         "end": 24
                     },
                     "arrowToken": {
-                        "kind": 279,
+                        "kind": 292,
                         "parameters": [
                             {
                                 "kind": 138,
@@ -180,9 +180,9 @@ type a = ((bj[c] | e) => T);
                 "end": 38
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
@@ -190,7 +190,7 @@ type a = ((bj[c] | e) => T);
                         "end": 54
                     },
                     "arrowToken": {
-                        "kind": 279,
+                        "kind": 292,
                         "parameters": [
                             {
                                 "kind": 137,

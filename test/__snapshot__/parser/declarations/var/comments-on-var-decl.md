@@ -624,7 +624,7 @@ n4 = z2;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -632,7 +632,7 @@ n4 = z2;
                                     "end": 1025
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -762,7 +762,7 @@ n4 = z2;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -770,7 +770,7 @@ n4 = z2;
                                     "end": 1071
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,

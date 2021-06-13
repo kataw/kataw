@@ -48,7 +48,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -56,10 +56,10 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                     "end": 86
                 },
                 "arrowToken": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,
@@ -67,10 +67,10 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                 "end": 80
                             },
                             "arrowToken": {
-                                "kind": 279,
+                                "kind": 292,
                                 "parameters": [
                                     {
-                                        "kind": 261,
+                                        "kind": 288,
                                         "arrowTypeParameterList": {
                                             "kind": 10,
                                             "flags": 64,
@@ -143,7 +143,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                     "end": 37
                                                 },
                                                 {
-                                                    "kind": 261,
+                                                    "kind": 288,
                                                     "arrowTypeParameterList": {
                                                         "kind": 10,
                                                         "flags": 64,
@@ -151,10 +151,10 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                         "end": 68
                                                     },
                                                     "arrowToken": {
-                                                        "kind": 279,
+                                                        "kind": 292,
                                                         "parameters": [
                                                             {
-                                                                "kind": 261,
+                                                                "kind": 288,
                                                                 "arrowTypeParameterList": {
                                                                     "kind": 10,
                                                                     "flags": 64,
@@ -162,7 +162,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                     "end": 62
                                                                 },
                                                                 "arrowToken": {
-                                                                    "kind": 279,
+                                                                    "kind": 292,
                                                                     "parameters": [
                                                                         {
                                                                             "kind": 138,
@@ -186,9 +186,9 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                                     "kind": 147,
                                                                                     "elementTypes": [
                                                                                         {
-                                                                                            "kind": 260,
+                                                                                            "kind": 290,
                                                                                             "type": {
-                                                                                                "kind": 261,
+                                                                                                "kind": 288,
                                                                                                 "arrowTypeParameterList": {
                                                                                                     "kind": 10,
                                                                                                     "flags": 64,
@@ -196,7 +196,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                                                     "end": 54
                                                                                                 },
                                                                                                 "arrowToken": {
-                                                                                                    "kind": 279,
+                                                                                                    "kind": 292,
                                                                                                     "parameters": [
                                                                                                         {
                                                                                                             "kind": 144,

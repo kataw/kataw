@@ -48,9 +48,9 @@ type Fn2 = <A, B>(A, B) => A | B;
                 "end": 10
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
@@ -59,7 +59,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                 },
                 "arrowToken": null,
                 "returnType": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
@@ -67,7 +67,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                         "end": 26
                     },
                     "arrowToken": {
-                        "kind": 279,
+                        "kind": 292,
                         "parameters": [
                             {
                                 "kind": 149,

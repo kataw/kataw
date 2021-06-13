@@ -71,7 +71,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -79,7 +79,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                     "end": 46
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,

@@ -70,9 +70,9 @@ var f = (x): ((number) => 123) => 123;
                             "returnType": {
                                 "kind": 139,
                                 "type": {
-                                    "kind": 260,
+                                    "kind": 290,
                                     "type": {
-                                        "kind": 261,
+                                        "kind": 288,
                                         "arrowTypeParameterList": {
                                             "kind": 10,
                                             "flags": 64,
@@ -80,7 +80,7 @@ var f = (x): ((number) => 123) => 123;
                                             "end": 25
                                         },
                                         "arrowToken": {
-                                            "kind": 279,
+                                            "kind": 292,
                                             "parameters": [
                                                 {
                                                     "kind": 134234345,

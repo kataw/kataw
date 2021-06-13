@@ -49,7 +49,7 @@ var a: (typeof A)
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 260,
+                                "kind": 290,
                                 "type": {
                                     "kind": 134299891,
                                     "typeOfKeyword": {

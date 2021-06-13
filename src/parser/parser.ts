@@ -7578,6 +7578,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
   // '('
   if (parser.token === SyntaxKind.LeftParen) {
+
     nextToken(parser, context);
     token = parser.token;
     let type: any;
@@ -7708,7 +7709,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     type = parseArrowFunctionTypeParameters(
       parser,
       context,
-      createFunctionTypeParameters(
+      createArrowTypeParameter(
         /* ellipsisToken */ null,
         type,
         /* optionalToken */ null,
@@ -7719,9 +7720,10 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       pos
     );
     consume(parser, context, SyntaxKind.RightParen);
+
     return createArrowFunctionType(
-      consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
       type,
+      consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
       parseType(parser, context),
       /* typeParameters */ null,
       pos,

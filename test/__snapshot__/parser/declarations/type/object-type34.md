@@ -57,7 +57,7 @@
                 "end": 22
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -65,7 +65,7 @@
                     "end": 40
                 },
                 "arrowToken": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
                             "kind": 149,

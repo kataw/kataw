@@ -70,7 +70,7 @@ var f = (x): (number) => 123 => 123;
                             "returnType": {
                                 "kind": 139,
                                 "type": {
-                                    "kind": 260,
+                                    "kind": 290,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 64,

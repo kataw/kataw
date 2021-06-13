@@ -110,7 +110,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -118,7 +118,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "end": 58
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -686,7 +686,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "type": {
                                     "kind": 139,
                                     "type": {
-                                        "kind": 261,
+                                        "kind": 288,
                                         "arrowTypeParameterList": {
                                             "kind": 10,
                                             "flags": 64,
@@ -694,7 +694,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "end": 213
                                         },
                                         "arrowToken": {
-                                            "kind": 279,
+                                            "kind": 292,
                                             "parameters": [
                                                 {
                                                     "kind": 149,

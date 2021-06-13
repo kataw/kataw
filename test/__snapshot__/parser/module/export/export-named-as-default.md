@@ -33,10 +33,10 @@ export {foo as default};
             "namedExports": {
                 "kind": 266,
                 "exportsList": {
-                    "kind": 261,
+                    "kind": 289,
                     "specifiers": [
                         {
-                            "kind": 260,
+                            "kind": 291,
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
@@ -64,7 +64,7 @@ export {foo as default};
                             "end": 14
                         },
                         {
-                            "kind": 260,
+                            "kind": 291,
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,

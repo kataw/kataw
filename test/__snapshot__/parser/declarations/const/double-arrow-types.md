@@ -49,7 +49,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -57,7 +57,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "end": 32
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -219,7 +219,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -227,7 +227,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "end": 92
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,

@@ -91,7 +91,7 @@ class x extends export {}
             "namedExports": {
                 "kind": 266,
                 "exportsList": {
-                    "kind": 261,
+                    "kind": 289,
                     "specifiers": [],
                     "flags": 16,
                     "start": 24,

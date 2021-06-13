@@ -47,9 +47,9 @@ type a = (...b[([x])=> c] | d) => c;
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
                             "kind": 284,
@@ -82,7 +82,7 @@ type a = (...b[([x])=> c] | d) => c;
                                             "end": 14
                                         },
                                         "indexType": {
-                                            "kind": 261,
+                                            "kind": 288,
                                             "arrowTypeParameterList": {
                                                 "kind": 10,
                                                 "flags": 64,
@@ -90,7 +90,7 @@ type a = (...b[([x])=> c] | d) => c;
                                                 "end": 22
                                             },
                                             "arrowToken": {
-                                                "kind": 279,
+                                                "kind": 292,
                                                 "parameters": [
                                                     {
                                                         "kind": 147,

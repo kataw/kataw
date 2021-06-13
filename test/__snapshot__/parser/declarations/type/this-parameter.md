@@ -57,7 +57,7 @@ type ten = {
                 "end": 10
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -65,7 +65,7 @@ type ten = {
                     "end": 28
                 },
                 "arrowToken": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
                             "kind": 149,
@@ -135,7 +135,7 @@ type ten = {
                 "end": 47
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -143,7 +143,7 @@ type ten = {
                     "end": 76
                 },
                 "arrowToken": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
                             "kind": 149,
@@ -235,7 +235,7 @@ type ten = {
                 "end": 95
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,
@@ -243,7 +243,7 @@ type ten = {
                     "end": 124
                 },
                 "arrowToken": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [
                         {
                             "kind": 149,
@@ -340,9 +340,9 @@ type ten = {
                 "end": 142
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
@@ -351,7 +351,7 @@ type ten = {
                 },
                 "arrowToken": null,
                 "returnType": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
@@ -359,7 +359,7 @@ type ten = {
                         "end": 158
                     },
                     "arrowToken": {
-                        "kind": 279,
+                        "kind": 292,
                         "parameters": [
                             {
                                 "kind": 149,

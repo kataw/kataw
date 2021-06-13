@@ -392,9 +392,9 @@ function for_scope_var() {
                                         "type": {
                                             "kind": 139,
                                             "type": {
-                                                "kind": 261,
+                                                "kind": 288,
                                                 "arrowTypeParameterList": {
-                                                    "kind": 279,
+                                                    "kind": 292,
                                                     "parameters": [],
                                                     "trailingComma": false,
                                                     "flags": 2097152,

@@ -48,7 +48,7 @@ type x = (([1]: y) => T);
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
                     "kind": 147,
                     "elementTypes": [

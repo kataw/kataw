@@ -56,9 +56,9 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                         "staticToken": null,
                         "name": null,
                         "key": {
-                            "kind": 260,
+                            "kind": 290,
                             "type": {
-                                "kind": 260,
+                                "kind": 290,
                                 "type": {
                                     "kind": 134234353,
                                     "properties": [

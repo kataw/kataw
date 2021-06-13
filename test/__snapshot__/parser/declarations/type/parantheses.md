@@ -53,11 +53,11 @@ type C = (<T>(T) => $Foo<T>)[];
                 "kind": 138,
                 "types": [
                     {
-                        "kind": 260,
+                        "kind": 290,
                         "type": {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
-                                "kind": 279,
+                                "kind": 292,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
@@ -66,7 +66,7 @@ type C = (<T>(T) => $Foo<T>)[];
                             },
                             "arrowToken": null,
                             "returnType": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -169,11 +169,11 @@ type C = (<T>(T) => $Foo<T>)[];
                         "end": 28
                     },
                     {
-                        "kind": 260,
+                        "kind": 290,
                         "type": {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
-                                "kind": 279,
+                                "kind": 292,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
@@ -182,7 +182,7 @@ type C = (<T>(T) => $Foo<T>)[];
                             },
                             "arrowToken": null,
                             "returnType": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -321,11 +321,11 @@ type C = (<T>(T) => $Foo<T>)[];
                 "kind": 137,
                 "types": [
                     {
-                        "kind": 260,
+                        "kind": 290,
                         "type": {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
-                                "kind": 279,
+                                "kind": 292,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
@@ -334,7 +334,7 @@ type C = (<T>(T) => $Foo<T>)[];
                             },
                             "arrowToken": null,
                             "returnType": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -437,11 +437,11 @@ type C = (<T>(T) => $Foo<T>)[];
                         "end": 80
                     },
                     {
-                        "kind": 260,
+                        "kind": 290,
                         "type": {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
-                                "kind": 279,
+                                "kind": 292,
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
@@ -450,7 +450,7 @@ type C = (<T>(T) => $Foo<T>)[];
                             },
                             "arrowToken": null,
                             "returnType": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -588,11 +588,11 @@ type C = (<T>(T) => $Foo<T>)[];
             "type": {
                 "kind": 136,
                 "type": {
-                    "kind": 260,
+                    "kind": 290,
                     "type": {
-                        "kind": 261,
+                        "kind": 288,
                         "arrowTypeParameterList": {
-                            "kind": 279,
+                            "kind": 292,
                             "parameters": [],
                             "trailingComma": false,
                             "flags": 2097152,
@@ -601,7 +601,7 @@ type C = (<T>(T) => $Foo<T>)[];
                         },
                         "arrowToken": null,
                         "returnType": {
-                            "kind": 261,
+                            "kind": 288,
                             "arrowTypeParameterList": {
                                 "kind": 10,
                                 "flags": 64,

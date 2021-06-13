@@ -48,7 +48,7 @@ type X = (1<z>[]);
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
                     "kind": 134217968,
                     "text": 1,

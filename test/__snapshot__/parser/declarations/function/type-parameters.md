@@ -427,9 +427,9 @@ type T = <
                 "end": 192
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
@@ -438,7 +438,7 @@ type T = <
                 },
                 "arrowToken": null,
                 "returnType": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
@@ -848,9 +848,9 @@ type T = <
                 "end": 431
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
@@ -859,7 +859,7 @@ type T = <
                 },
                 "arrowToken": null,
                 "returnType": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,

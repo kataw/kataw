@@ -727,7 +727,7 @@ var p10 = ([{ value, done }]) => { };
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -735,7 +735,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 213
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,

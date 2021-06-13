@@ -48,7 +48,7 @@ type a = (a[a & b[a]][c][-1][][]) => T;
                 "end": 8
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
                     "kind": 10,
                     "flags": 64,

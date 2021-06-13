@@ -48,7 +48,7 @@ type X = (?await:string) => T;
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
                     "kind": 134217970,
                     "nullableToken": {

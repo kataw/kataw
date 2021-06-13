@@ -48,9 +48,9 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                 "end": 9
             },
             "type": {
-                "kind": 261,
+                "kind": 288,
                 "arrowTypeParameterList": {
-                    "kind": 279,
+                    "kind": 292,
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 2097152,
@@ -59,7 +59,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                 },
                 "arrowToken": null,
                 "returnType": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
@@ -67,10 +67,10 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                         "end": 39
                     },
                     "arrowToken": {
-                        "kind": 279,
+                        "kind": 292,
                         "parameters": [
                             {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -78,7 +78,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                     "end": 24
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         []
                                     ],

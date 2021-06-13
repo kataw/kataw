@@ -188,11 +188,11 @@ type overloads2 = {
                 "kind": 138,
                 "types": [
                     {
-                        "kind": 260,
+                        "kind": 290,
                         "type": {
                             "kind": 144,
                             "id": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -200,7 +200,7 @@ type overloads2 = {
                                     "end": 82
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,
@@ -251,11 +251,11 @@ type overloads2 = {
                         "end": 90
                     },
                     {
-                        "kind": 260,
+                        "kind": 290,
                         "type": {
                             "kind": 144,
                             "id": {
-                                "kind": 261,
+                                "kind": 288,
                                 "arrowTypeParameterList": {
                                     "kind": 10,
                                     "flags": 64,
@@ -263,7 +263,7 @@ type overloads2 = {
                                     "end": 110
                                 },
                                 "arrowToken": {
-                                    "kind": 279,
+                                    "kind": 292,
                                     "parameters": [
                                         {
                                             "kind": 149,

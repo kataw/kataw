@@ -49,9 +49,9 @@ type a = ((bj[c])[d]);
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
@@ -59,7 +59,7 @@ type a = ((bj[c])[d]);
                         "end": 20
                     },
                     "arrowToken": {
-                        "kind": 279,
+                        "kind": 292,
                         "parameters": [
                             {
                                 "kind": 268,
@@ -158,7 +158,7 @@ type a = ((bj[c])[d]);
             "type": {
                 "kind": 268,
                 "objectType": {
-                    "kind": 260,
+                    "kind": 290,
                     "type": {
                         "kind": 268,
                         "objectType": {

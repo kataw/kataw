@@ -48,7 +48,7 @@ type X = (x & {[x]:string});
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
                     "kind": 138,
                     "types": [

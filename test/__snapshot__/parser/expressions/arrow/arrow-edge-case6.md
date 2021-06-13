@@ -100,7 +100,7 @@ a ? b ? (c) : (d) : (e) => f : g;
                         "returnType": {
                             "kind": 139,
                             "type": {
-                                "kind": 260,
+                                "kind": 290,
                                 "type": {
                                     "kind": 144,
                                     "id": {

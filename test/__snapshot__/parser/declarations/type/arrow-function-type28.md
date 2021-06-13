@@ -48,9 +48,9 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
-                    "kind": 261,
+                    "kind": 288,
                     "arrowTypeParameterList": {
                         "kind": 10,
                         "flags": 64,
@@ -58,12 +58,12 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                         "end": 47
                     },
                     "arrowToken": {
-                        "kind": 279,
+                        "kind": 292,
                         "parameters": [
                             {
                                 "kind": 144,
                                 "id": {
-                                    "kind": 261,
+                                    "kind": 288,
                                     "arrowTypeParameterList": {
                                         "kind": 10,
                                         "flags": 64,
@@ -71,7 +71,7 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                                         "end": 41
                                     },
                                     "arrowToken": {
-                                        "kind": 279,
+                                        "kind": 292,
                                         "parameters": [
                                             {
                                                 "kind": 149,
@@ -100,7 +100,7 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                                                             "end": 20
                                                         },
                                                         {
-                                                            "kind": 261,
+                                                            "kind": 288,
                                                             "arrowTypeParameterList": {
                                                                 "kind": 10,
                                                                 "flags": 64,
@@ -108,7 +108,7 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                                                                 "end": 36
                                                             },
                                                             "arrowToken": {
-                                                                "kind": 279,
+                                                                "kind": 292,
                                                                 "parameters": [
                                                                     {
                                                                         "kind": 149,

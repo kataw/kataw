@@ -48,7 +48,7 @@ type a = (a[-1]);
                 "end": 8
             },
             "type": {
-                "kind": 260,
+                "kind": 290,
                 "type": {
                     "kind": 268,
                     "objectType": {
