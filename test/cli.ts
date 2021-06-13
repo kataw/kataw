@@ -94,27 +94,10 @@ function showHelp() {
 }
 
 function setTiming(opts) {
-  console.time(
-    ColorCodes.GREEN +
-      'Ran ' +
-      ColorCodes.RESET +
-      opts.files.length +
-      ' test cases.' +
-      ColorCodes.yellow +
-      ' Total time' +
-      ColorCodes.RESET
-  );
+  const msg = `${ColorCodes.GREEN}Ran ${ColorCodes.RESET}${opts.files.length}  test cases.${ColorCodes.yellow} test cases.${ColorCodes.RESET}`;
 
+  console.time(msg);
   process.on('beforeExit', function () {
-    console.timeEnd(
-      ColorCodes.GREEN +
-        'Ran ' +
-        ColorCodes.RESET +
-        opts.files.length +
-        ' test cases.' +
-        ColorCodes.yellow +
-        ' Total time' +
-        ColorCodes.RESET
-    );
+    console.timeEnd(msg);
   });
 }
