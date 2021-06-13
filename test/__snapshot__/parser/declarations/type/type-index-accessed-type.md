@@ -70,11 +70,11 @@ type Age = typeof MyArray[number]["age"];
                                 "end": 25
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 25
                         },
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 10,
                         "end": 25
                     },
@@ -91,7 +91,7 @@ type Age = typeof MyArray[number]["age"];
                 "indexType": {
                     "kind": 134217967,
                     "value": "age",
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 34,
                     "end": 39
                 },
@@ -99,7 +99,7 @@ type Age = typeof MyArray[number]["age"];
                 "start": 34,
                 "end": 41
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 41
         }

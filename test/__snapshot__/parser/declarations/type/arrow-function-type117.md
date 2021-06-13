@@ -59,13 +59,13 @@ type a = (1,2&3, ['string']) => T;
                             "name": {
                                 "kind": 134217968,
                                 "text": 1,
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 10,
                                 "end": 11
                             },
                             "optionalToken": null,
                             "types": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 11
                         },
@@ -80,29 +80,29 @@ type a = (1,2&3, ['string']) => T;
                                     {
                                         "kind": 134217968,
                                         "text": 2,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 12,
                                         "end": 13
                                     },
                                     {
                                         "kind": 134217968,
                                         "text": 3,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 14,
                                         "end": 15
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 15
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 16
                 },
@@ -112,22 +112,22 @@ type a = (1,2&3, ['string']) => T;
                         {
                             "kind": 134217967,
                             "value": "string",
-                            "flags": 96,
+                            "flags": 2097216,
                             "start": 18,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 4194336,
+                    "flags": 6291456,
                     "start": 16,
                     "end": 27
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 27
         },

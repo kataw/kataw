@@ -111,17 +111,17 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                     "end": 112
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 101,
                                                 "end": 112
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 93,
                                             "end": 112
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 93,
                                     "end": 112
                                 },
@@ -136,16 +136,16 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                         "end": 124
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 116,
                                     "end": 124
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 91,
                                 "end": 124
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 90,
                             "end": 124
                         },
@@ -212,39 +212,39 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                         "value": {
                                                             "kind": 134217967,
                                                             "value": "a",
-                                                            "flags": 96,
+                                                            "flags": 2097216,
                                                             "start": 53,
                                                             "end": 57
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 49,
                                                         "end": 57
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 2097152,
                                                 "start": 48,
                                                 "end": 58
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 48,
                                             "end": 58
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 47,
                                     "end": 59
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 32,
                                 "end": 59
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 31,
                             "end": 59
                         },
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 21,
                         "end": 59
                     },
@@ -260,12 +260,12 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 60,
                         "end": 68
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 20,
                 "end": 69
             },
@@ -310,17 +310,17 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                         "end": 151
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 140,
                                     "end": 151
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 132,
                                 "end": 151
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 132,
                         "end": 151
                     },
@@ -335,16 +335,16 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                             "end": 163
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 155,
                         "end": 163
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 130,
                     "end": 163
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 7,
                 "end": 163
             },

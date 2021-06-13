@@ -76,21 +76,21 @@ type a = {x:y};
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 13
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 13
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 14
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 15
         }

@@ -99,31 +99,31 @@ type a = {x: {x?:y}};
                                             "end": 18
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 17,
                                         "end": 18
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 18
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 19
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 19
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 21
         }

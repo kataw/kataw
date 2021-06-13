@@ -61,12 +61,12 @@ declare class A<T> extends B<T> { x: number }
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 16,
                         "end": 17
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 15,
                 "end": 18
             },
@@ -104,16 +104,16 @@ declare class A<T> extends B<T> { x: number }
                                         "end": 30
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 29,
                                     "end": 30
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 29,
                                 "end": 30
                             }
                         ],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 28,
                         "end": 31
                     },
@@ -145,13 +145,13 @@ declare class A<T> extends B<T> { x: number }
                                 "start": 36,
                                 "end": 43
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 33,
                             "end": 43
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 31,
                     "end": 45
                 },

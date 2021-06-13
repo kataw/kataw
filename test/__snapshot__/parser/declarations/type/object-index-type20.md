@@ -55,12 +55,12 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 16,
                         "end": 20
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 15,
                 "end": 21
             },
@@ -84,7 +84,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                             "end": 28
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 23,
                         "end": 28
                     },
@@ -132,39 +132,39 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                                         "end": 54
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 50,
                                                     "end": 54
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 50,
                                                 "end": 54
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 49,
                                         "end": 55
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 38,
                                     "end": 55
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 32,
                                 "end": 55
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 30,
                         "end": 57
                     }
                 ],
-                "flags": 32,
+                "flags": 2097152,
                 "start": 28,
                 "end": 57
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 58
         }

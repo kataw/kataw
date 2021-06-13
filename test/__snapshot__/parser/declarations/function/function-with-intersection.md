@@ -65,23 +65,23 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                     {
                                         "kind": 134217968,
                                         "text": 1,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 15,
                                         "end": 17
                                     },
                                     {
                                         "kind": 134217968,
                                         "text": 2,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 19,
                                         "end": 21
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 17,
                                 "end": 21
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 21
                         },
@@ -110,23 +110,23 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                     {
                                         "kind": 134217968,
                                         "text": 3,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 27,
                                         "end": 29
                                     },
                                     {
                                         "kind": 134217968,
                                         "text": 4,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 31,
                                         "end": 33
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 29,
                                 "end": 33
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 24,
                             "end": 33
                         },
@@ -164,7 +164,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                     "start": 35,
                     "end": 42
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 42
             },

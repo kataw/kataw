@@ -66,7 +66,7 @@ type X = (x) => T;
                         "end": 11
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 11
                 },
@@ -81,16 +81,16 @@ type X = (x) => T;
                         "end": 17
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 17
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 18
         }

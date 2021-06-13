@@ -61,21 +61,21 @@ type a = ([-1])
                                 "end": 12
                             },
                             "value": 1,
-                            "flags": 96,
+                            "flags": 2097216,
                             "start": 11,
                             "end": 13
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 15
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 15
         }

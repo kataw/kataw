@@ -70,7 +70,7 @@ type a = (a[b][]) => T;
                                 "end": 11
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 11
                         },
@@ -85,15 +85,15 @@ type a = (a[b][]) => T;
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 13
                         },
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 12,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 16
                 },
@@ -108,16 +108,16 @@ type a = (a[b][]) => T;
                         "end": 22
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 20,
                     "end": 22
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 23
         }

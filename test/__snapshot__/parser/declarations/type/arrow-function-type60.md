@@ -80,11 +80,11 @@ type a = (?x | y) => T;
                                             "end": 12
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 11,
                                         "end": 12
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -99,18 +99,18 @@ type a = (?x | y) => T;
                                         "end": 16
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 16
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 16
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 20
                 },
@@ -125,16 +125,16 @@ type a = (?x | y) => T;
                         "end": 22
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 20,
                     "end": 22
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 23
         }

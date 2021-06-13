@@ -17,7 +17,7 @@ export function createTypeofType(
     kind: SyntaxKind.TypeofType,
     typeOfKeyword,
     type,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags: NodeFlags.IsTypeNode | NodeFlags.ChildLess,
     start,
     end
   };

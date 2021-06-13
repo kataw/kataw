@@ -68,11 +68,11 @@ type A = (string) => void
                     "end": 25
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 25
         }

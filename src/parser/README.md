@@ -61,6 +61,9 @@ Multiple API methods exist to get info from the CST nodes
 | `isAssignOp`              | True if the node is one of `-=`, `*=`, `/=`, `%=`, `^=`, `|=`, `&=`, `||=`, `&&=` or `??=` |
 | `isBinaryOp`              | True if the node is one of `+`, `-`, `in`, `*`, `%`, `/` etc |
 | `isStatementStart`              | True if node is valid start of an statement |
+| `isExpressionNode`              | True if node is a valid expression node |
+| `isStatementNode`              | True if node is a valid statement node |
+| `isTypeNode`              | True if node is a valid type node |
 | `isExpressionStart`              | True if node valid start of an expression |
 | `isEllipsis`              | True if the node is `...`, |
 | `isInOrOf`              |  True if the node is one of `in` or `of` |

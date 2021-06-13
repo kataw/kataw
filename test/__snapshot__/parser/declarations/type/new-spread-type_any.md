@@ -78,17 +78,17 @@ var o3: O3 = (0: mixed); // ok
                             "end": 17
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 9,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 19
         },
@@ -128,11 +128,11 @@ var o3: O3 = (0: mixed); // ok
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 27,
                                 "end": 30
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 26,
                             "end": 30
                         },
@@ -212,11 +212,11 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 61
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 55,
                             "end": 61
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 54,
                         "end": 61
                     },
@@ -280,22 +280,22 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 91
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 85,
                             "end": 91
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 82,
                         "end": 91
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 80,
                 "end": 92
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 63,
             "end": 93
         },
@@ -335,11 +335,11 @@ var o3: O3 = (0: mixed); // ok
                                     "end": 104
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 101,
                                 "end": 104
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 100,
                             "end": 104
                         },
@@ -419,11 +419,11 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 135
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 129,
                             "end": 135
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 128,
                         "end": 135
                     },
@@ -476,7 +476,7 @@ var o3: O3 = (0: mixed); // ok
                                 "start": 162,
                                 "end": 166
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 161,
                             "end": 166
                         },
@@ -545,7 +545,7 @@ var o3: O3 = (0: mixed); // ok
                     "kind": 134234353,
                     "properties": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 202,
                     "end": 205
                 },
@@ -604,22 +604,22 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 227
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 220,
                             "end": 227
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 217,
                         "end": 227
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 215,
                 "end": 228
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 205,
             "end": 229
         },
@@ -659,11 +659,11 @@ var o3: O3 = (0: mixed); // ok
                                     "end": 240
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 237,
                                 "end": 240
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 236,
                             "end": 240
                         },
@@ -743,11 +743,11 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 271
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 265,
                             "end": 271
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 264,
                         "end": 271
                     },

@@ -69,13 +69,13 @@ type A = (string,) => void
                             },
                             "optionalToken": null,
                             "types": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 16
                         }
                     ],
                     "trailingComma": true,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 17
                 },
@@ -86,11 +86,11 @@ type A = (string,) => void
                     "end": 26
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 26
         }

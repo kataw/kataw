@@ -77,7 +77,7 @@ type X = (?x.y<z>);
                                 "start": 13,
                                 "end": 14
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 14
                         },
@@ -97,32 +97,32 @@ type X = (?x.y<z>);
                                             "end": 16
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 16
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 15,
                                     "end": 16
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 14,
                             "end": 17
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 19
         }

@@ -75,17 +75,17 @@ var obj: { [user_id: number]: string } = {};
                                             "start": 29,
                                             "end": 36
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 10,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 38
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 7,
                             "end": 38
                         },

@@ -73,13 +73,13 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                     "end": 18
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 9,
                                                 "end": 18
                                             },
                                             "optionalToken": null,
                                             "types": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 9,
                                             "end": 18
                                         },
@@ -107,21 +107,21 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                         "end": 27
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 21,
                                                     "end": 27
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 19,
                                                 "end": 27
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 27
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 9,
                                     "end": 27
                                 },
@@ -132,11 +132,11 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "end": 37
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 9,
                                 "end": 37
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 37
                         },
@@ -243,13 +243,13 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                     "end": 77
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 68,
                                                 "end": 77
                                             },
                                             "optionalToken": null,
                                             "types": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 68,
                                             "end": 77
                                         },
@@ -277,21 +277,21 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                         "end": 86
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 80,
                                                     "end": 86
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 78,
                                                 "end": 86
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 78,
                                             "end": 86
                                         }
                                     ],
                                     "trailingComma": true,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 68,
                                     "end": 87
                                 },
@@ -302,11 +302,11 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "end": 97
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 68,
                                 "end": 97
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 67,
                             "end": 97
                         },

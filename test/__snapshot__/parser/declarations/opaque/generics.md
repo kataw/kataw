@@ -65,7 +65,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 21,
                         "end": 22
                     },
@@ -81,7 +81,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 23,
                         "end": 25
                     },
@@ -97,12 +97,12 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 26,
                         "end": 28
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 20,
                 "end": 29
             },
@@ -135,11 +135,11 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 39
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 37,
                             "end": 39
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 32,
                         "end": 40
                     },
@@ -169,17 +169,17 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 47
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 45,
                             "end": 47
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 40,
                         "end": 47
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 30,
                 "end": 49
             },
@@ -212,11 +212,11 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 62
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 60,
                             "end": 62
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 53,
                         "end": 63
                     },
@@ -246,11 +246,11 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 72
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 70,
                             "end": 72
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 63,
                         "end": 73
                     },
@@ -280,21 +280,21 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 82
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 80,
                             "end": 82
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 73,
                         "end": 83
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 51,
                 "end": 85
             },
-            "flags": 32,
+            "flags": 2097152,
             "start": 0,
             "end": 85
         },

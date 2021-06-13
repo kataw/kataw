@@ -77,16 +77,16 @@ var f = (): string | (number) => 123;
                                                 "start": 22,
                                                 "end": 28
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 20,
                                             "end": 29
                                         }
                                     ],
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 18,
                                     "end": 29
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 10,
                                 "end": 29
                             },

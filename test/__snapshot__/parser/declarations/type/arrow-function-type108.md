@@ -68,7 +68,7 @@ type a = (b[()=> c]) => c;
                             "end": 11
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 11
                     },
@@ -84,7 +84,7 @@ type a = (b[()=> c]) => c;
                             "kind": 282,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 13,
                             "end": 13
                         },
@@ -99,16 +99,16 @@ type a = (b[()=> c]) => c;
                                 "end": 18
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 16,
                             "end": 18
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 12,
                         "end": 18
                     },
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 12,
                     "end": 20
                 },
@@ -123,16 +123,16 @@ type a = (b[()=> c]) => c;
                         "end": 25
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 23,
                     "end": 25
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 26
         }

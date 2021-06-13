@@ -65,7 +65,7 @@ type a = ({} | {[x]:string}) => T;
                                     "kind": 134234353,
                                     "properties": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -88,7 +88,7 @@ type a = ({} | {[x]:string}) => T;
                                                     "end": 18
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 16,
                                                 "end": 18
                                             },
@@ -98,24 +98,24 @@ type a = ({} | {[x]:string}) => T;
                                                 "start": 20,
                                                 "end": 26
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 16,
                                             "end": 26
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 27
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 27
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 31
                 },
@@ -130,16 +130,16 @@ type a = ({} | {[x]:string}) => T;
                         "end": 33
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 31,
                     "end": 33
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 33
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 34
         }

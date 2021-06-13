@@ -94,17 +94,17 @@ var a: { id<T>(x: T): T; }
                                                                 "end": 19
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 17,
                                                             "end": 19
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 15,
                                                         "end": 19
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 15,
                                                 "end": 19
                                             },
@@ -119,7 +119,7 @@ var a: { id<T>(x: T): T; }
                                                     "end": 23
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 21,
                                                 "end": 23
                                             },
@@ -138,30 +138,30 @@ var a: { id<T>(x: T): T; }
                                                         },
                                                         "type": null,
                                                         "defaultType": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 12,
                                                         "end": 13
                                                     }
                                                 ],
-                                                "flags": 0,
+                                                "flags": 2097152,
                                                 "start": 11,
                                                 "end": 14
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 11,
                                             "end": 23
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 26
                         },

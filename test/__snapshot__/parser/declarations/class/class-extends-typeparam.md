@@ -56,12 +56,12 @@ class Foo<T> extends Bar<T> { }
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 11
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 9,
                 "end": 12
             },
@@ -99,16 +99,16 @@ class Foo<T> extends Bar<T> { }
                                         "end": 26
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 25,
                                     "end": 26
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 25,
                                 "end": 26
                             }
                         ],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 24,
                         "end": 27
                     },

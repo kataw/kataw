@@ -59,12 +59,12 @@ class Foo7<T> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 12
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 10,
                 "end": 13
             },
@@ -108,12 +108,12 @@ class Foo7<T> {
                                             },
                                             "type": null,
                                             "defaultType": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 22,
                                             "end": 23
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 21,
                                     "end": 24
                                 },
@@ -133,7 +133,7 @@ class Foo7<T> {
                                         "start": 27,
                                         "end": 33
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 26,
                                     "end": 33
                                 },

@@ -64,7 +64,7 @@ type a = (1 | 1[]) => T;
                                 {
                                     "kind": 134217968,
                                     "text": 1,
-                                    "flags": 96,
+                                    "flags": 2097216,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -73,22 +73,22 @@ type a = (1 | 1[]) => T;
                                     "type": {
                                         "kind": 134217968,
                                         "text": 1,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 13,
                                         "end": 15
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 16,
                                     "end": 17
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 21
                 },
@@ -103,16 +103,16 @@ type a = (1 | 1[]) => T;
                         "end": 23
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 21,
                     "end": 23
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 24
         }

@@ -74,15 +74,15 @@ declare var x2: X;
                                         "end": 18
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 17,
                                     "end": 18
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 15,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 14,
                             "end": 18
                         },
@@ -146,11 +146,11 @@ declare var x2: X;
                                     "end": 38
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 36,
                                 "end": 38
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 35,
                             "end": 38
                         },
@@ -209,11 +209,11 @@ declare var x2: X;
                                     "end": 57
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 55,
                                 "end": 57
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 54,
                             "end": 57
                         },

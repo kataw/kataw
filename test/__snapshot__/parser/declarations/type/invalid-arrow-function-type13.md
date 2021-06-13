@@ -102,17 +102,17 @@ type a = ({get y(y)}) => T;
                                                             "end": 18
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 17,
                                                         "end": 18
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 17,
                                                     "end": 18
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 17,
                                             "end": 18
                                         },
@@ -126,28 +126,28 @@ type a = ({get y(y)}) => T;
                                                 "end": 19
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 19
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 16,
                                         "end": 19
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 11,
                                     "end": 19
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 24
                 },
@@ -162,16 +162,16 @@ type a = ({get y(y)}) => T;
                         "end": 26
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 24,
                     "end": 26
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 27
         }

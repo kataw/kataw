@@ -69,26 +69,26 @@ type X = (x.y<>);
                             "start": 12,
                             "end": 13
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 13
                     },
                     "typeParameters": {
                         "kind": 266,
                         "parameters": [],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 13,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 17
         }

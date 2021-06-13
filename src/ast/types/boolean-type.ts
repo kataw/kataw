@@ -8,7 +8,7 @@ export function createBooleanType(text: boolean, start: number, end: number): Bo
   return {
     kind: SyntaxKind.BooleanType,
     text,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags: NodeFlags.IsTypeNode | NodeFlags.ChildLess,
     start,
     end
   };

@@ -59,7 +59,7 @@ type MyObject<A, B, C> = {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 14,
                         "end": 15
                     },
@@ -75,7 +75,7 @@ type MyObject<A, B, C> = {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 16,
                         "end": 18
                     },
@@ -91,12 +91,12 @@ type MyObject<A, B, C> = {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 19,
                         "end": 21
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 13,
                 "end": 22
             },
@@ -135,11 +135,11 @@ type MyObject<A, B, C> = {
                                 "end": 35
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 33,
                             "end": 35
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 26,
                         "end": 36
                     },
@@ -169,11 +169,11 @@ type MyObject<A, B, C> = {
                                 "end": 45
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 43,
                             "end": 45
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 36,
                         "end": 46
                     },
@@ -203,21 +203,21 @@ type MyObject<A, B, C> = {
                                 "end": 55
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 53,
                             "end": 55
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 46,
                         "end": 56
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 24,
                 "end": 58
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 59
         }

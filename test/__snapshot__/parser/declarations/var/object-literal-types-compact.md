@@ -72,22 +72,22 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 15
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 15,
                             "end": 15
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 9,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 18
         },
@@ -191,22 +191,22 @@ type T4 = { foo: number, bar: string, ... };
                                                                     "end": 48
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 48,
                                                                 "end": 48
                                                             },
                                                             "staticToken": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 45,
                                                             "end": 48
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 2097152,
                                                     "start": 43,
                                                     "end": 49
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 40,
                                                 "end": 50
                                             },
@@ -229,22 +229,22 @@ type T4 = { foo: number, bar: string, ... };
                                                         "end": 54
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 54,
                                                     "end": 54
                                                 },
                                                 "staticToken": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 50,
                                                 "end": 54
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 38,
                                         "end": 56
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 35,
                                     "end": 57
                                 },
@@ -267,32 +267,32 @@ type T4 = { foo: number, bar: string, ... };
                                             "end": 61
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 61,
                                         "end": 61
                                     },
                                     "staticToken": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 57,
                                     "end": 61
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 33,
                             "end": 63
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 30,
                         "end": 63
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 28,
                 "end": 65
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 18,
             "end": 65
         },
@@ -344,7 +344,7 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 82,
                             "end": 89
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 77,
                         "end": 90
                     },
@@ -367,22 +367,22 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 94
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 94,
                             "end": 94
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 90,
                         "end": 94
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 75,
                 "end": 96
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 65,
             "end": 97
         },
@@ -434,7 +434,7 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 114,
                             "end": 121
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 109,
                         "end": 122
                     },
@@ -459,7 +459,7 @@ type T4 = { foo: number, bar: string, ... };
                             "start": 127,
                             "end": 134
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 122,
                         "end": 135
                     },
@@ -482,22 +482,22 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 139
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 139,
                             "end": 139
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 135,
                         "end": 139
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 107,
                 "end": 141
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 97,
             "end": 142
         }

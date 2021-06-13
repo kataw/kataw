@@ -93,7 +93,7 @@ function x8(a: false & false): false {
                                 "start": 14,
                                 "end": 21
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 13,
                             "end": 21
                         },
@@ -164,7 +164,7 @@ function x8(a: false & false): false {
                     "start": 23,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 30
             },
@@ -214,7 +214,7 @@ function x8(a: false & false): false {
                                 "start": 99,
                                 "end": 106
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 98,
                             "end": 106
                         },
@@ -285,7 +285,7 @@ function x8(a: false & false): false {
                     "start": 108,
                     "end": 115
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 83,
                 "end": 115
             },
@@ -335,7 +335,7 @@ function x8(a: false & false): false {
                                 "start": 187,
                                 "end": 194
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 186,
                             "end": 194
                         },
@@ -445,7 +445,7 @@ function x8(a: false & false): false {
                                 "start": 268,
                                 "end": 275
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 267,
                             "end": 275
                         },
@@ -516,7 +516,7 @@ function x8(a: false & false): false {
                     "start": 277,
                     "end": 285
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 252,
                 "end": 285
             },
@@ -578,24 +578,24 @@ function x8(a: false & false): false {
                                             "type": {
                                                 "kind": 209,
                                                 "text": false,
-                                                "flags": 96,
+                                                "flags": 2097216,
                                                 "start": 348,
                                                 "end": 353
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 348,
                                             "end": 353
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 347,
                                     "end": 354
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 345,
                                 "end": 354
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 344,
                             "end": 354
                         },
@@ -663,11 +663,11 @@ function x8(a: false & false): false {
                 "type": {
                     "kind": 209,
                     "text": true,
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 356,
                     "end": 361
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 329,
                 "end": 361
             },
@@ -735,24 +735,24 @@ function x8(a: false & false): false {
                                             "type": {
                                                 "kind": 209,
                                                 "text": false,
-                                                "flags": 96,
+                                                "flags": 2097216,
                                                 "start": 404,
                                                 "end": 409
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 404,
                                             "end": 409
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 403,
                                     "end": 410
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 401,
                                 "end": 410
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 400,
                             "end": 410
                         },
@@ -820,11 +820,11 @@ function x8(a: false & false): false {
                 "type": {
                     "kind": 209,
                     "text": false,
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 412,
                     "end": 418
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 385,
                 "end": 418
             },
@@ -880,23 +880,23 @@ function x8(a: false & false): false {
                                     {
                                         "kind": 209,
                                         "text": false,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 476,
                                         "end": 482
                                     },
                                     {
                                         "kind": 209,
                                         "text": false,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 484,
                                         "end": 490
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 482,
                                 "end": 490
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 475,
                             "end": 490
                         },
@@ -964,11 +964,11 @@ function x8(a: false & false): false {
                 "type": {
                     "kind": 209,
                     "text": true,
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 492,
                     "end": 497
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 460,
                 "end": 497
             },
@@ -1024,23 +1024,23 @@ function x8(a: false & false): false {
                                     {
                                         "kind": 209,
                                         "text": false,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 537,
                                         "end": 543
                                     },
                                     {
                                         "kind": 209,
                                         "text": false,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 545,
                                         "end": 551
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 543,
                                 "end": 551
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 536,
                             "end": 551
                         },
@@ -1108,11 +1108,11 @@ function x8(a: false & false): false {
                 "type": {
                     "kind": 209,
                     "text": false,
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 553,
                     "end": 559
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 521,
                 "end": 559
             },

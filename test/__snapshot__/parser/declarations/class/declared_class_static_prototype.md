@@ -86,17 +86,17 @@ declare class A {
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 37,
                                 "end": 44
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 45
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 56
                 },

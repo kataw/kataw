@@ -64,29 +64,29 @@ type D = (Obj['bar'])['baz'];
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 13
                         },
                         "indexType": {
                             "kind": 134217967,
                             "value": "bar",
-                            "flags": 96,
+                            "flags": 2097216,
                             "start": 14,
                             "end": 19
                         },
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 14,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 21
                 },
                 "indexType": {
                     "kind": 134217967,
                     "value": "baz",
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 22,
                     "end": 27
                 },
@@ -94,7 +94,7 @@ type D = (Obj['bar'])['baz'];
                 "start": 22,
                 "end": 29
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 29
         }

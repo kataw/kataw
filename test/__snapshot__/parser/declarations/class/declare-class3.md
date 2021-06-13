@@ -62,7 +62,7 @@ declare class B { () : number }
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 26,
                                 "end": 26
                             },
@@ -78,13 +78,13 @@ declare class B { () : number }
                                 "start": 29,
                                 "end": 36
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 36
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 38
                 },
@@ -134,7 +134,7 @@ declare class B { () : number }
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 58,
                                 "end": 58
                             },
@@ -145,13 +145,13 @@ declare class B { () : number }
                                 "start": 61,
                                 "end": 68
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 56,
                             "end": 68
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 54,
                     "end": 70
                 },

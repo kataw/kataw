@@ -136,11 +136,11 @@ a ? (b) : c => (d => e) : f => g;
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 25,
                                 "end": 27
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 23,
                             "end": 27
                         },

@@ -68,11 +68,11 @@ var f = (): (number) => 123;
                                         "start": 13,
                                         "end": 19
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 11,
                                     "end": 20
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 10,
                                 "end": 20
                             },

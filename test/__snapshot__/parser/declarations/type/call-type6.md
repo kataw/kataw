@@ -57,7 +57,7 @@ type Fn0 = () => number;
                     "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 12,
                     "end": 12
                 },
@@ -68,11 +68,11 @@ type Fn0 = () => number;
                     "end": 23
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 10,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 24
         }

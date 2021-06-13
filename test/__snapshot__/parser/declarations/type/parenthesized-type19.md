@@ -62,7 +62,7 @@ type a = (a[-1]);
                             "end": 11
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 11
                     },
@@ -75,19 +75,19 @@ type a = (a[-1]);
                             "end": 13
                         },
                         "value": 1,
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 12,
                         "end": 14
                     },
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 12,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 17
         }

@@ -87,13 +87,13 @@ function b(x: { (z: number): string }): (z: number) => number {
                                                         "start": 19,
                                                         "end": 26
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 17,
                                                     "end": 26
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 17,
                                             "end": 26
                                         },
@@ -104,17 +104,17 @@ function b(x: { (z: number): string }): (z: number) => number {
                                             "start": 28,
                                             "end": 35
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 37
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 37
                         },
@@ -196,13 +196,13 @@ function b(x: { (z: number): string }): (z: number) => number {
                                     "start": 43,
                                     "end": 50
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 39,
                                 "end": 50
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 39,
                         "end": 50
                     },
@@ -213,11 +213,11 @@ function b(x: { (z: number): string }): (z: number) => number {
                         "end": 61
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 39,
                     "end": 61
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 61
             },

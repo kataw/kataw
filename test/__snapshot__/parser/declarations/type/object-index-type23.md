@@ -61,7 +61,7 @@ type X = x & {[x]:string}
                             "end": 10
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 10
                     },
@@ -84,7 +84,7 @@ type X = x & {[x]:string}
                                         "end": 16
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 16
                                 },
@@ -94,22 +94,22 @@ type X = x & {[x]:string}
                                     "start": 18,
                                     "end": 24
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 14,
                                 "end": 24
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 12,
                         "end": 25
                     }
                 ],
-                "flags": 32,
+                "flags": 2097152,
                 "start": 10,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 25
         }

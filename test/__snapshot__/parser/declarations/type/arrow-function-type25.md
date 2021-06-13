@@ -72,7 +72,7 @@ type a = (()=> T) => T;
                                     []
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 14
                             },
@@ -87,18 +87,18 @@ type a = (()=> T) => T;
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 14,
                                 "end": 16
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 16
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 20
                 },
@@ -113,16 +113,16 @@ type a = (()=> T) => T;
                         "end": 22
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 20,
                     "end": 22
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 23
         }

@@ -90,27 +90,27 @@ var f = (x): ((number) => 123) => 123;
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 12,
                                             "end": 25
                                         },
                                         "returnType": {
                                             "kind": 134217968,
                                             "text": 123,
-                                            "flags": 96,
+                                            "flags": 2097216,
                                             "start": 25,
                                             "end": 29
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 12,
                                         "end": 29
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 12,
                                     "end": 30
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 30
                             },

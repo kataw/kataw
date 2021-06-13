@@ -95,24 +95,24 @@ let x = (): Array<(string) => number> => []
                                                         "end": 36
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 18,
                                                     "end": 36
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 18,
                                                 "end": 36
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 17,
                                         "end": 37
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 11,
                                     "end": 37
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 10,
                                 "end": 37
                             },

@@ -68,19 +68,19 @@ type X = (?await:string) => T;
                             "end": 16
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 16
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 16
         },

@@ -59,11 +59,11 @@ var f: >x:int) => string;
                                     "end": 6
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 6
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 6
                         },

@@ -76,7 +76,7 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                         "end": 15
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -94,7 +94,7 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                                 "end": 20
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 20
                                         },
@@ -108,7 +108,7 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                                     "start": 21,
                                                     "end": 27
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 28,
                                                 "end": 29
                                             },
@@ -126,7 +126,7 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                                             "end": 31
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 30,
                                                         "end": 31
                                                     },
@@ -141,12 +141,12 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                                             "end": 33
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 32,
                                                         "end": 33
                                                     }
                                                 ],
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 31,
                                                 "end": 33
                                             },
@@ -155,12 +155,12 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                             "end": 35
                                         }
                                     ],
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 20,
                                     "end": 34
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 34
                             },
@@ -170,21 +170,21 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                 "start": 36,
                                 "end": 43
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 44
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 45
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 46
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 47
         }

@@ -78,11 +78,11 @@ test
                                         "end": 14
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 12,
                                     "end": 14
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 14
                             },
@@ -106,11 +106,11 @@ test
                                 "end": 18
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 16,
                             "end": 18
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 15,
                         "end": 18
                     },

@@ -74,7 +74,7 @@ async (...[x]?: string, a?) => {};
                             "start": 10,
                             "end": 17
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 9,
                         "end": 17
                     },
@@ -160,7 +160,7 @@ async (...[x]?: string, a?) => {};
                             "start": 38,
                             "end": 45
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 37,
                         "end": 45
                     },
@@ -254,7 +254,7 @@ async (...[x]?: string, a?) => {};
                             "start": 69,
                             "end": 76
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 68,
                         "end": 76
                     },
@@ -348,7 +348,7 @@ async (...[x]?: string, a?) => {};
                             "start": 100,
                             "end": 107
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 99,
                         "end": 107
                     },
@@ -377,7 +377,7 @@ async (...[x]?: string, a?) => {};
                             "start": 111,
                             "end": 118
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 110,
                         "end": 118
                     },
@@ -468,7 +468,7 @@ async (...[x]?: string, a?) => {};
                             "start": 140,
                             "end": 147
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 139,
                         "end": 147
                     },
@@ -567,7 +567,7 @@ async (...[x]?: string, a?) => {};
                             "start": 172,
                             "end": 179
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 171,
                         "end": 179
                     },

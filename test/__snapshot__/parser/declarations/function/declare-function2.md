@@ -76,12 +76,12 @@ declare function foo(): void
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 21,
                         "end": 22
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 20,
                 "end": 23
             },
@@ -93,7 +93,7 @@ declare function foo(): void
                     "start": 26,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 7,
                 "end": 31
             },
@@ -154,7 +154,7 @@ declare function foo(): void
                                 "start": 57,
                                 "end": 64
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 56,
                             "end": 64
                         },
@@ -183,7 +183,7 @@ declare function foo(): void
                                 "start": 68,
                                 "end": 75
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 67,
                             "end": 75
                         },
@@ -208,7 +208,7 @@ declare function foo(): void
                     "start": 77,
                     "end": 82
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 41,
                 "end": 82
             },
@@ -264,7 +264,7 @@ declare function foo(): void
                     "start": 108,
                     "end": 113
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 92,
                 "end": 113
             },

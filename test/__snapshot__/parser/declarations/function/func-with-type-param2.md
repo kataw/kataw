@@ -89,7 +89,7 @@ a=function<T,S>() {}
                                 },
                                 "type": null,
                                 "defaultType": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 12
                             },
@@ -105,12 +105,12 @@ a=function<T,S>() {}
                                 },
                                 "type": null,
                                 "defaultType": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 14
                             }
                         ],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 15
                     },

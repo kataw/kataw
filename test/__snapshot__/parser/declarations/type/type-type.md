@@ -55,12 +55,12 @@ type Foo<T> = Bar<T>
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 9,
                         "end": 10
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 11
             },
@@ -96,24 +96,24 @@ type Foo<T> = Bar<T>
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 18,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 18,
                             "end": 19
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 17,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 13,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 20
         }

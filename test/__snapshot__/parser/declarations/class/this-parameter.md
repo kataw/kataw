@@ -110,13 +110,13 @@ class two {
                                                 "start": 30,
                                                 "end": 37
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 25,
                                             "end": 37
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 25,
                                     "end": 37
                                 },
@@ -127,11 +127,11 @@ class two {
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 24,
                                 "end": 44
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 19,
                             "end": 45
                         },
@@ -173,7 +173,7 @@ class two {
                                                 "start": 56,
                                                 "end": 63
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 51,
                                             "end": 63
                                         },
@@ -195,13 +195,13 @@ class two {
                                                 "start": 67,
                                                 "end": 74
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 64,
                                             "end": 74
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 51,
                                     "end": 74
                                 },
@@ -212,11 +212,11 @@ class two {
                                     "end": 81
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 50,
                                 "end": 81
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 45,
                             "end": 82
                         },
@@ -258,7 +258,7 @@ class two {
                                                 "start": 93,
                                                 "end": 100
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 88,
                                             "end": 100
                                         },
@@ -285,13 +285,13 @@ class two {
                                                 "start": 107,
                                                 "end": 111
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 101,
                                             "end": 111
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 88,
                                     "end": 111
                                 },
@@ -302,11 +302,11 @@ class two {
                                     "end": 118
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 87,
                                 "end": 118
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 82,
                             "end": 119
                         },
@@ -353,17 +353,17 @@ class two {
                                                     "end": 135
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 133,
                                                 "end": 135
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 128,
                                             "end": 135
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 128,
                                     "end": 135
                                 },
@@ -388,26 +388,26 @@ class two {
                                             },
                                             "type": null,
                                             "defaultType": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 125,
                                             "end": 126
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 124,
                                     "end": 127
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 124,
                                 "end": 142
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 119,
                             "end": 143
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 17,
                     "end": 145
                 },
@@ -487,7 +487,7 @@ class two {
                                                     "start": 169,
                                                     "end": 176
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 168,
                                                 "end": 176
                                             },
@@ -568,7 +568,7 @@ class two {
                                                     "start": 192,
                                                     "end": 199
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 191,
                                                 "end": 199
                                             },
@@ -657,7 +657,7 @@ class two {
                                                     "start": 218,
                                                     "end": 225
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 217,
                                                 "end": 225
                                             },
@@ -761,7 +761,7 @@ class two {
                                                     "start": 247,
                                                     "end": 254
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 246,
                                                 "end": 254
                                             },
@@ -872,12 +872,12 @@ class two {
                                             },
                                             "type": null,
                                             "defaultType": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 277,
                                             "end": 278
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 276,
                                     "end": 279
                                 },
@@ -909,11 +909,11 @@ class two {
                                                         "end": 287
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 285,
                                                     "end": 287
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 284,
                                                 "end": 287
                                             },

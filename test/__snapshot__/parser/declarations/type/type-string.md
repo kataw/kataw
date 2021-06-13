@@ -54,7 +54,7 @@ type T1 = number;
                 "start": 9,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 17
         },
@@ -88,7 +88,7 @@ type T1 = number;
                 "start": 27,
                 "end": 34
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 17,
             "end": 35
         }

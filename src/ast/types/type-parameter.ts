@@ -21,7 +21,7 @@ export function createTypeParameter(
     name,
     type,
     defaultType,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

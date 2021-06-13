@@ -56,7 +56,7 @@ declare var a: A;
             "typeParameters": null,
             "superType": null,
             "impltype": null,
-            "flags": 32,
+            "flags": 2097152,
             "start": 7,
             "end": 21
         },
@@ -97,7 +97,7 @@ declare var a: A;
             "typeParameters": null,
             "superType": null,
             "impltype": null,
-            "flags": 32,
+            "flags": 2097152,
             "start": 30,
             "end": 44
         },
@@ -148,11 +148,11 @@ declare var a: A;
                                     "end": 62
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 60,
                                 "end": 62
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 59,
                             "end": 62
                         },

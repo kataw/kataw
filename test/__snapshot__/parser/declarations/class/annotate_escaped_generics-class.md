@@ -65,12 +65,12 @@ class B<X> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 9
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 7,
                 "end": 10
             },
@@ -108,11 +108,11 @@ class B<X> {
                                         "end": 19
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 17,
                                     "end": 19
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 16,
                                 "end": 19
                             },

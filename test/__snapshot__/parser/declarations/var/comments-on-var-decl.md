@@ -512,7 +512,7 @@ n4 = z2;
                                             "start": 953,
                                             "end": 960
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 952,
                                         "end": 960
                                     },
@@ -541,7 +541,7 @@ n4 = z2;
                                             "start": 964,
                                             "end": 971
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 963,
                                         "end": 971
                                     },
@@ -652,13 +652,13 @@ n4 = z2;
                                                 "start": 1014,
                                                 "end": 1021
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 991,
                                             "end": 1021
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 991,
                                     "end": 1021
                                 },
@@ -669,11 +669,11 @@ n4 = z2;
                                     "end": 1032
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 991,
                                 "end": 1032
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 990,
                             "end": 1032
                         },
@@ -790,13 +790,13 @@ n4 = z2;
                                                 "start": 1060,
                                                 "end": 1067
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 1056,
                                             "end": 1067
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 1056,
                                     "end": 1067
                                 },
@@ -807,11 +807,11 @@ n4 = z2;
                                     "end": 1078
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 1056,
                                 "end": 1078
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 1055,
                             "end": 1078
                         },

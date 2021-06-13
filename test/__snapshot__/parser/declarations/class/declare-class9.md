@@ -96,11 +96,11 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                     "end": 51
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 45,
                                                 "end": 51
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 40,
                                             "end": 51
                                         },
@@ -122,13 +122,13 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                 "start": 58,
                                                 "end": 64
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 52,
                                             "end": 64
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 40,
                                     "end": 64
                                 },
@@ -139,17 +139,17 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                     "end": 71
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 39,
                                 "end": 71
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 28,
                             "end": 72
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 26,
                     "end": 74
                 },

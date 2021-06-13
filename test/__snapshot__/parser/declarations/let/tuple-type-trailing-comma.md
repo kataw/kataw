@@ -61,17 +61,17 @@ let x: [y,] = z;
                                             "end": 9
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 9
                                     }
                                 ],
                                 "trailingComma": true,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 11
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 11
                         },

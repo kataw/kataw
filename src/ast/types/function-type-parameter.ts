@@ -24,7 +24,7 @@ export function createFunctionTypeParameters(
     name,
     optionalToken,
     types,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

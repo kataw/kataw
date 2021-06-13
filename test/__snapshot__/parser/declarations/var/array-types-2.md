@@ -64,15 +64,15 @@ var a: ?number[]
                                         "start": 8,
                                         "end": 14
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 15,
                                     "end": 16
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 16
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 16
                         },

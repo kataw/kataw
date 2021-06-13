@@ -113,11 +113,11 @@ a ? <T>(b) : c => (d) : e => f;
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 23,
                                 "end": 25
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 21,
                             "end": 25
                         },

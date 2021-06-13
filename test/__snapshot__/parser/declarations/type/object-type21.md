@@ -71,7 +71,7 @@ type a = {function():string};
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 19,
                                 "end": 19
                             },
@@ -82,21 +82,21 @@ type a = {function():string};
                                 "end": 27
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 18,
                             "end": 27
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 27
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 29
         }

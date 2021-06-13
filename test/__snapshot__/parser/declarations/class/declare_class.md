@@ -87,7 +87,7 @@ declare class D extends C { }
                                 "start": 31,
                                 "end": 38
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 39
                         },
@@ -134,13 +134,13 @@ declare class D extends C { }
                                                 "start": 57,
                                                 "end": 64
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 55,
                                             "end": 64
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 55,
                                     "end": 64
                                 },
@@ -151,11 +151,11 @@ declare class D extends C { }
                                     "end": 71
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 54,
                                 "end": 71
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 39,
                             "end": 72
                         },
@@ -197,13 +197,13 @@ declare class D extends C { }
                                                 "start": 92,
                                                 "end": 99
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 90,
                                             "end": 99
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 90,
                                     "end": 99
                                 },
@@ -214,17 +214,17 @@ declare class D extends C { }
                                     "end": 106
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 89,
                                 "end": 106
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 72,
                             "end": 107
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 109
                 },
@@ -287,7 +287,7 @@ declare class D extends C { }
                     "kind": 134234353,
                     "properties": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 136,
                     "end": 140
                 },

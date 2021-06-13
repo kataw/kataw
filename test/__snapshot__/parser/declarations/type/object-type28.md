@@ -83,7 +83,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                                     "kind": 282,
                                                     "parameters": [],
                                                     "trailingComma": false,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 17,
                                                     "end": 17
                                                 },
@@ -93,34 +93,34 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                                         "kind": 147,
                                                         "elementTypes": [],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 17,
                                                         "end": 19
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 20,
                                                     "end": 21
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 16,
                                                 "end": 21
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 15,
                                             "end": 21
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 21
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 22
                         },
@@ -135,21 +135,21 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                 "end": 26
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 23,
                             "end": 26
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 26
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 27
         },

@@ -166,7 +166,7 @@ function *infer_stmt() {
                                     "start": 34,
                                     "end": 40
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 34,
                                 "end": 40
                             },
@@ -178,7 +178,7 @@ function *infer_stmt() {
                                     "start": 41,
                                     "end": 46
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 41,
                                 "end": 46
                             },
@@ -190,20 +190,20 @@ function *infer_stmt() {
                                     "start": 47,
                                     "end": 52
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 47,
                                 "end": 52
                             }
                         ],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 33,
                         "end": 53
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 23,
                     "end": 53
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 53
             },
@@ -302,7 +302,7 @@ function *infer_stmt() {
                                     "start": 120,
                                     "end": 124
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 120,
                                 "end": 124
                             },
@@ -314,7 +314,7 @@ function *infer_stmt() {
                                     "start": 125,
                                     "end": 132
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 125,
                                 "end": 132
                             },
@@ -326,20 +326,20 @@ function *infer_stmt() {
                                     "start": 133,
                                     "end": 138
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 133,
                                 "end": 138
                             }
                         ],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 119,
                         "end": 139
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 109,
                     "end": 139
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 80,
                 "end": 139
             },
@@ -438,7 +438,7 @@ function *infer_stmt() {
                                     "start": 196,
                                     "end": 200
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 196,
                                 "end": 200
                             },
@@ -450,7 +450,7 @@ function *infer_stmt() {
                                     "start": 201,
                                     "end": 208
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 201,
                                 "end": 208
                             },
@@ -462,20 +462,20 @@ function *infer_stmt() {
                                     "start": 209,
                                     "end": 214
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 209,
                                 "end": 214
                             }
                         ],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 195,
                         "end": 215
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 185,
                     "end": 215
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 155,
                 "end": 215
             },
@@ -552,7 +552,7 @@ function *infer_stmt() {
                                                 "start": 267,
                                                 "end": 275
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 266,
                                             "end": 275
                                         },

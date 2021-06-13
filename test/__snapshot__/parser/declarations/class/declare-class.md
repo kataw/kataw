@@ -79,7 +79,7 @@ declare class A { static foo(): number; static x : string }
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 29,
                                     "end": 29
                                 },
@@ -90,11 +90,11 @@ declare class A { static foo(): number; static x : string }
                                     "end": 38
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 28,
                                 "end": 38
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 39
                         },
@@ -124,13 +124,13 @@ declare class A { static foo(): number; static x : string }
                                 "start": 50,
                                 "end": 57
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 39,
                             "end": 57
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 59
                 },

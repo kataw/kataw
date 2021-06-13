@@ -74,11 +74,11 @@ a ? (b) : c => (d) : e => f : g;
                                 "end": 11
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 9,
                             "end": 11
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 7,
                         "end": 11
                     },
@@ -115,11 +115,11 @@ a ? (b) : c => (d) : e => f : g;
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 20,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 18,
                             "end": 22
                         },

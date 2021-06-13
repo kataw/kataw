@@ -58,16 +58,16 @@
                                     "end": 6
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 4,
                                 "end": 6
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 1,
                             "end": 6
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 0,
                     "end": 7
                 },

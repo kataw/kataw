@@ -9,7 +9,7 @@ export function createArrayType(type: TypeNode, start: number, end: number): Arr
   return {
     kind: SyntaxKind.ArrayType,
     type,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

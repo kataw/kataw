@@ -72,13 +72,13 @@ type a = ((1) => T) => T
                                     {
                                         "kind": 134217968,
                                         "text": 1,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 11,
                                         "end": 12
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 16
                             },
@@ -93,18 +93,18 @@ type a = ((1) => T) => T
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 16,
                                 "end": 18
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 22
                 },
@@ -119,16 +119,16 @@ type a = ((1) => T) => T
                         "end": 24
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 22,
                     "end": 24
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 24
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 24
         }

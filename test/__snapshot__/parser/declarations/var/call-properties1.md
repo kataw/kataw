@@ -59,7 +59,7 @@ var a : { (): number }
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 11,
                                             "end": 11
                                         },
@@ -70,17 +70,17 @@ var a : { (): number }
                                             "start": 13,
                                             "end": 20
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 9,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 7,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 22
                         },

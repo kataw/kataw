@@ -73,7 +73,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 9,
                                         "end": 19
                                     },
@@ -115,27 +115,27 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                         "start": 23,
                                                         "end": 30
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 20,
                                                     "end": 30
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 32
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 19,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 7,
                                 "end": 34
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 34
                         },

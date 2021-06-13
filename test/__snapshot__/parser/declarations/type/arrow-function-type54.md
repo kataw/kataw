@@ -69,13 +69,13 @@ type a = ((x)) => T;
                                 "end": 12
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 17
                 },
@@ -90,16 +90,16 @@ type a = ((x)) => T;
                         "end": 19
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 17,
                     "end": 19
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 20
         }

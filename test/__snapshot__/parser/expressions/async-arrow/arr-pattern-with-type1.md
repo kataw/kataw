@@ -64,7 +64,7 @@ async ([{x}: string]) =>  {};
                                         "start": 10,
                                         "end": 17
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 9,
                                     "end": 17
                                 },
@@ -165,7 +165,7 @@ async ([{x}: string]) =>  {};
                                         "start": 41,
                                         "end": 48
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 40,
                                     "end": 48
                                 },
@@ -259,7 +259,7 @@ async ([{x}: string]) =>  {};
                                                         "start": 71,
                                                         "end": 78
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 70,
                                                     "end": 78
                                                 },
@@ -287,7 +287,7 @@ async ([{x}: string]) =>  {};
                                         "start": 80,
                                         "end": 87
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 79,
                                     "end": 87
                                 },
@@ -388,7 +388,7 @@ async ([{x}: string]) =>  {};
                                         "start": 111,
                                         "end": 118
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 110,
                                     "end": 118
                                 },

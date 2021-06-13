@@ -64,19 +64,19 @@ type a = (["string"]) => T;
                                 {
                                     "kind": 134217967,
                                     "value": "string",
-                                    "flags": 96,
+                                    "flags": 2097216,
                                     "start": 11,
                                     "end": 19
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 24
                 },
@@ -91,16 +91,16 @@ type a = (["string"]) => T;
                         "end": 26
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 24,
                     "end": 26
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 27
         }

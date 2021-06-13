@@ -85,7 +85,7 @@ type a = (?bj[c] & a | b) => T;
                                                         "end": 13
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 11,
                                                     "end": 13
                                                 },
@@ -100,7 +100,7 @@ type a = (?bj[c] & a | b) => T;
                                                         "end": 15
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 14,
                                                     "end": 15
                                                 },
@@ -108,7 +108,7 @@ type a = (?bj[c] & a | b) => T;
                                                 "start": 14,
                                                 "end": 18
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 16
                                         },
@@ -123,12 +123,12 @@ type a = (?bj[c] & a | b) => T;
                                                 "end": 20
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 18,
                                             "end": 20
                                         }
                                     ],
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -143,18 +143,18 @@ type a = (?bj[c] & a | b) => T;
                                         "end": 24
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 22,
                                     "end": 24
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 20,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 28
                 },
@@ -169,16 +169,16 @@ type a = (?bj[c] & a | b) => T;
                         "end": 30
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 28,
                     "end": 30
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 30
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 31
         }

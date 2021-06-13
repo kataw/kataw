@@ -188,7 +188,7 @@ class Bar {
                                                     "start": 58,
                                                     "end": 65
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 57,
                                                 "end": 65
                                             },

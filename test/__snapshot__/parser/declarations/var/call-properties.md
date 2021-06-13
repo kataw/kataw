@@ -64,7 +64,7 @@ var a: { <T>(x: T): number; };
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 11,
                                             "end": 11
                                         },
@@ -75,17 +75,17 @@ var a: { <T>(x: T): number; };
                                             "start": 13,
                                             "end": 20
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 9,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 7,
                                 "end": 23
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 23
                         },
@@ -149,12 +149,12 @@ var a: { <T>(x: T): number; };
                                                     },
                                                     "type": null,
                                                     "defaultType": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 35,
                                                     "end": 36
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 2097152,
                                             "start": 33,
                                             "end": 37
                                         },
@@ -184,17 +184,17 @@ var a: { <T>(x: T): number; };
                                                             "end": 42
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 40,
                                                         "end": 42
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 38,
                                                     "end": 42
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 38,
                                             "end": 42
                                         },
@@ -205,17 +205,17 @@ var a: { <T>(x: T): number; };
                                             "start": 44,
                                             "end": 51
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 33,
                                         "end": 52
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 31,
                                 "end": 54
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 29,
                             "end": 54
                         },
@@ -269,7 +269,7 @@ var a: { <T>(x: T): number; };
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 65,
                                             "end": 65
                                         },
@@ -280,17 +280,17 @@ var a: { <T>(x: T): number; };
                                             "start": 67,
                                             "end": 74
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 63,
                                         "end": 74
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 61,
                                 "end": 76
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 60,
                             "end": 76
                         },
@@ -344,7 +344,7 @@ var a: { <T>(x: T): number; };
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 88,
                                             "end": 88
                                         },
@@ -355,17 +355,17 @@ var a: { <T>(x: T): number; };
                                             "start": 90,
                                             "end": 97
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 86,
                                         "end": 98
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 84,
                                 "end": 100
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 83,
                             "end": 100
                         },
@@ -419,7 +419,7 @@ var a: { <T>(x: T): number; };
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 112,
                                             "end": 112
                                         },
@@ -430,7 +430,7 @@ var a: { <T>(x: T): number; };
                                             "start": 114,
                                             "end": 121
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 110,
                                         "end": 122
                                     },
@@ -455,7 +455,7 @@ var a: { <T>(x: T): number; };
                                             "start": 125,
                                             "end": 132
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 122,
                                         "end": 133
                                     },
@@ -484,13 +484,13 @@ var a: { <T>(x: T): number; };
                                                         "start": 137,
                                                         "end": 144
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 135,
                                                     "end": 144
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 135,
                                             "end": 144
                                         },
@@ -501,17 +501,17 @@ var a: { <T>(x: T): number; };
                                             "start": 146,
                                             "end": 153
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 133,
                                         "end": 153
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 108,
                                 "end": 155
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 107,
                             "end": 155
                         },
@@ -575,12 +575,12 @@ var a: { <T>(x: T): number; };
                                                     },
                                                     "type": null,
                                                     "defaultType": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 167,
                                                     "end": 168
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 2097152,
                                             "start": 165,
                                             "end": 169
                                         },
@@ -610,17 +610,17 @@ var a: { <T>(x: T): number; };
                                                             "end": 174
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 172,
                                                         "end": 174
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 170,
                                                     "end": 174
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 170,
                                             "end": 174
                                         },
@@ -631,17 +631,17 @@ var a: { <T>(x: T): number; };
                                             "start": 176,
                                             "end": 183
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 165,
                                         "end": 184
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 163,
                                 "end": 186
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 162,
                             "end": 186
                         },

@@ -55,12 +55,12 @@ type T<U> = U;
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 7,
                         "end": 8
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 6,
                 "end": 9
             },
@@ -81,11 +81,11 @@ type T<U> = U;
                     "end": 13
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 11,
                 "end": 13
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 14
         }

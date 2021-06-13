@@ -64,7 +64,7 @@ type a = ((1 |-1)) => T;
                                 {
                                     "kind": 134217968,
                                     "text": 1,
-                                    "flags": 96,
+                                    "flags": 2097216,
                                     "start": 11,
                                     "end": 12
                                 },
@@ -77,18 +77,18 @@ type a = ((1 |-1)) => T;
                                         "end": 15
                                     },
                                     "value": 1,
-                                    "flags": 96,
+                                    "flags": 2097216,
                                     "start": 14,
                                     "end": 16
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 16
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 21
                 },
@@ -103,16 +103,16 @@ type a = ((1 |-1)) => T;
                         "end": 23
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 21,
                     "end": 23
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 24
         }

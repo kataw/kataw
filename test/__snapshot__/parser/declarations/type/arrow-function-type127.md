@@ -64,13 +64,13 @@ type a = (&1,|2&3, ) => T;
                             "name": {
                                 "kind": 134217968,
                                 "text": 1,
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 11,
                                 "end": 12
                             },
                             "optionalToken": null,
                             "types": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 12
                         },
@@ -85,29 +85,29 @@ type a = (&1,|2&3, ) => T;
                                     {
                                         "kind": 134217968,
                                         "text": 2,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 14,
                                         "end": 15
                                     },
                                     {
                                         "kind": 134217968,
                                         "text": 3,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 16,
                                         "end": 17
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 15,
                                 "end": 17
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 13,
                             "end": 17
                         }
                     ],
                     "trailingComma": true,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 18
                 },
@@ -122,16 +122,16 @@ type a = (&1,|2&3, ) => T;
                         "end": 25
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 23,
                     "end": 25
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 26
         }

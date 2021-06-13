@@ -16,7 +16,7 @@ export function createSubtractionType(
     kind: SyntaxKind.SubtractionType,
     subtractionToken,
     value,
-    flags: NodeFlags.ChildLess | NodeFlags.ExpressionNode,
+    flags: NodeFlags.ChildLess | NodeFlags.IsTypeNode,
     start,
     end
   };

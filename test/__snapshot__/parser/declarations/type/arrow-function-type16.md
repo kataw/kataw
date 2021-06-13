@@ -74,7 +74,7 @@ type a = (bj[c] & a | b) => T;
                                             "end": 12
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 12
                                     },
@@ -89,11 +89,11 @@ type a = (bj[c] & a | b) => T;
                                             "end": 14
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 13,
                                         "end": 14
                                     },
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 13,
                                     "end": 17
                                 },
@@ -108,12 +108,12 @@ type a = (bj[c] & a | b) => T;
                                         "end": 19
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 17,
                                     "end": 19
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 15,
                             "end": 19
                         },
@@ -128,12 +128,12 @@ type a = (bj[c] & a | b) => T;
                                 "end": 23
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 21,
                             "end": 23
                         }
                     ],
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 19,
                     "end": 23
                 },
@@ -148,16 +148,16 @@ type a = (bj[c] & a | b) => T;
                         "end": 29
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 27,
                     "end": 29
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 29
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 30
         }

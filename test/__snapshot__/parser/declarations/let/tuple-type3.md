@@ -64,11 +64,11 @@ let tuple2: [number, boolean] = [1, true];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 29
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 29
                         },

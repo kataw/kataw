@@ -94,28 +94,28 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                         "start": 17,
                                                         "end": 23
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 16,
                                                     "end": 23
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 16,
                                                 "end": 23
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 24
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 10,
                                     "end": 24
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 24
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 7,
                             "end": 24
                         },
@@ -165,7 +165,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 44,
                                     "end": 44
                                 },
@@ -203,17 +203,17 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                         "end": 49
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 47,
                                                     "end": 49
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 44,
                                                 "end": 49
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 44,
                                         "end": 49
                                     },
@@ -228,12 +228,12 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "end": 55
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 53,
                                         "end": 55
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 44,
                                     "end": 55
                                 },
@@ -252,20 +252,20 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             },
                                             "type": null,
                                             "defaultType": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 42,
                                             "end": 43
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 40,
                                     "end": 44
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 40,
                                 "end": 55
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 39,
                             "end": 55
                         },
@@ -315,7 +315,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 74,
                                     "end": 74
                                 },
@@ -353,11 +353,11 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                         "end": 79
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 77,
                                                     "end": 79
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 74,
                                                 "end": 79
                                             },
@@ -391,21 +391,21 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                             "end": 87
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 86,
                                                         "end": 87
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 88,
                                                     "end": 89
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 80,
                                                 "end": 89
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 74,
                                         "end": 89
                                     },
@@ -420,12 +420,12 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "end": 95
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 93,
                                         "end": 95
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 74,
                                     "end": 95
                                 },
@@ -444,20 +444,20 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             },
                                             "type": null,
                                             "defaultType": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 72,
                                             "end": 73
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 70,
                                     "end": 74
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 70,
                                 "end": 95
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 69,
                             "end": 95
                         },
@@ -508,11 +508,11 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "start": 104,
                                     "end": 111
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 112,
                                 "end": 113
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 103,
                             "end": 113
                         },
@@ -571,15 +571,15 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "start": 124,
                                         "end": 130
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 131,
                                     "end": 132
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 122,
                                 "end": 132
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 121,
                             "end": 132
                         },
@@ -650,28 +650,28 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                         "end": 154
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 150,
                                                     "end": 154
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 150,
                                                 "end": 154
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 149,
                                         "end": 155
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 141,
                                     "end": 155
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 156,
                                 "end": 157
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 140,
                             "end": 157
                         },
@@ -726,7 +726,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 167,
                                     "end": 167
                                 },
@@ -751,7 +751,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                 "kind": 282,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 182,
                                                 "end": 182
                                             },
@@ -762,21 +762,21 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                 "end": 193
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 180,
                                             "end": 193
                                         }
                                     ],
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 178,
                                     "end": 193
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 165,
                                 "end": 193
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 164,
                             "end": 193
                         },
@@ -845,15 +845,15 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 216
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 214,
                                     "end": 216
                                 },
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 207,
                                 "end": 216
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 206,
                             "end": 216
                         },
@@ -925,11 +925,11 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                 "end": 238
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 236,
                                             "end": 238
                                         },
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 229,
                                         "end": 238
                                     },
@@ -940,11 +940,11 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 247
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 238,
                                 "end": 247
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 228,
                             "end": 247
                         },
@@ -1033,17 +1033,17 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "start": 267,
                                             "end": 274
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 264,
                                         "end": 275
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 262,
                                 "end": 277
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 261,
                             "end": 277
                         },

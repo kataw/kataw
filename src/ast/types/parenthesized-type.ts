@@ -9,7 +9,7 @@ export function createParenthesizedType(type: any, start: number, end: number): 
   return {
     kind: SyntaxKind.ParenthesizedType,
     type,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

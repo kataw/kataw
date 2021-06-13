@@ -81,17 +81,17 @@ type X = (x: y) => T;
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 12,
                                 "end": 14
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 14
                 },
@@ -106,16 +106,16 @@ type X = (x: y) => T;
                         "end": 20
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 18,
                     "end": 20
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 21
         }

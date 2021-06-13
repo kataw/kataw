@@ -74,7 +74,7 @@ type a = ((bj[c])[d]);
                                         "end": 13
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 8,
                                     "end": 13
                                 },
@@ -89,17 +89,17 @@ type a = ((bj[c])[d]);
                                         "end": 15
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 15
                                 },
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 14,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 20
                     },
@@ -114,20 +114,20 @@ type a = ((bj[c])[d]);
                             "end": 22
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 20,
                         "end": 22
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 24
         },
@@ -172,7 +172,7 @@ type a = ((bj[c])[d]);
                                 "end": 39
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 34,
                             "end": 39
                         },
@@ -187,15 +187,15 @@ type a = ((bj[c])[d]);
                                 "end": 41
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 40,
                             "end": 41
                         },
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 40,
                         "end": 43
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 34,
                     "end": 43
                 },
@@ -210,7 +210,7 @@ type a = ((bj[c])[d]);
                         "end": 45
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 44,
                     "end": 45
                 },
@@ -218,7 +218,7 @@ type a = ((bj[c])[d]);
                 "start": 44,
                 "end": 47
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 24,
             "end": 46
         },

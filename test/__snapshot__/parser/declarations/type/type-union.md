@@ -102,17 +102,17 @@ type overloads2 = {
                                 "value": {
                                     "kind": 134217967,
                                     "value": "A",
-                                    "flags": 96,
+                                    "flags": 2097216,
                                     "start": 22,
                                     "end": 26
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 17,
                                 "end": 26
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 15,
                         "end": 27
                     },
@@ -137,26 +137,26 @@ type overloads2 = {
                                 "value": {
                                     "kind": 134217967,
                                     "value": "B",
-                                    "flags": 96,
+                                    "flags": 2097216,
                                     "start": 37,
                                     "end": 41
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 32,
                                 "end": 41
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 30,
                         "end": 42
                     }
                 ],
-                "flags": 32,
+                "flags": 2097152,
                 "start": 27,
                 "end": 42
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 44
         },
@@ -220,13 +220,13 @@ type overloads2 = {
                                                 "start": 71,
                                                 "end": 78
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 66,
                                             "end": 78
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 66,
                                     "end": 78
                                 },
@@ -237,16 +237,16 @@ type overloads2 = {
                                     "end": 89
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 66,
                                 "end": 89
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 66,
                             "end": 89
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 66,
                         "end": 90
                     },
@@ -283,13 +283,13 @@ type overloads2 = {
                                                 "start": 99,
                                                 "end": 106
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 94,
                                             "end": 106
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 94,
                                     "end": 106
                                 },
@@ -300,25 +300,25 @@ type overloads2 = {
                                     "end": 117
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 94,
                                 "end": 117
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 94,
                             "end": 117
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 94,
                         "end": 118
                     }
                 ],
-                "flags": 32,
+                "flags": 2097152,
                 "start": 90,
                 "end": 118
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 44,
             "end": 120
         },
@@ -388,17 +388,17 @@ type overloads2 = {
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "A",
-                                                "flags": 96,
+                                                "flags": 2097216,
                                                 "start": 155,
                                                 "end": 159
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 150,
                                             "end": 159
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 148,
                                     "end": 160
                                 },
@@ -423,36 +423,36 @@ type overloads2 = {
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "B",
-                                                "flags": 96,
+                                                "flags": 2097216,
                                                 "start": 173,
                                                 "end": 177
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 168,
                                             "end": 177
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 166,
                                     "end": 178
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 160,
                             "end": 178
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 137,
                         "end": 178
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 135,
                 "end": 180
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 120,
             "end": 181
         },
@@ -522,17 +522,17 @@ type overloads2 = {
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "A",
-                                                "flags": 96,
+                                                "flags": 2097216,
                                                 "start": 220,
                                                 "end": 224
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 215,
                                             "end": 224
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 213,
                                     "end": 225
                                 },
@@ -557,36 +557,36 @@ type overloads2 = {
                                             "value": {
                                                 "kind": 134217967,
                                                 "value": "B",
-                                                "flags": 96,
+                                                "flags": 2097216,
                                                 "start": 238,
                                                 "end": 242
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 233,
                                             "end": 242
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 231,
                                     "end": 243
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 225,
                             "end": 243
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 202,
                         "end": 243
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 200,
                 "end": 245
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 181,
             "end": 246
         }

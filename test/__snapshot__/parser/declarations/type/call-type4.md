@@ -73,24 +73,24 @@ type D = $Call<Fn1>;
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 15,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 15,
                             "end": 18
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 14,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 20
         }

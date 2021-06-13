@@ -79,12 +79,12 @@ function foo<T>() {}
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 13,
                         "end": 14
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 12,
                 "end": 15
             },

@@ -74,7 +74,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 12,
                                 "end": 14
                             },
@@ -92,7 +92,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                             "end": 19
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 18,
                                         "end": 19
                                     },
@@ -106,7 +106,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                                 "start": 20,
                                                 "end": 26
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 27,
                                             "end": 28
                                         },
@@ -124,7 +124,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                                         "end": 30
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 29,
                                                     "end": 30
                                                 },
@@ -139,12 +139,12 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                                         "end": 32
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 31,
                                                     "end": 32
                                                 }
                                             ],
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 30,
                                             "end": 32
                                         },
@@ -153,12 +153,12 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                         "end": 34
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 19,
                                 "end": 33
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 33
                         },
@@ -168,17 +168,17 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                             "start": 35,
                             "end": 42
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 43
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 44
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 45
         }

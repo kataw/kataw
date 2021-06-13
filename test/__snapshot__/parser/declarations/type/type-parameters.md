@@ -64,12 +64,12 @@ type A5<S = number, T: ?string = string> = T;
                             "start": 11,
                             "end": 18
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 18
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 7,
                 "end": 19
             },
@@ -90,11 +90,11 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 23
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 21,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 24
         },
@@ -135,12 +135,12 @@ type A5<S = number, T: ?string = string> = T;
                             "start": 36,
                             "end": 38
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 33,
                         "end": 38
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 32,
                 "end": 39
             },
@@ -161,11 +161,11 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 43
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 41,
                 "end": 43
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 24,
             "end": 44
         },
@@ -215,11 +215,11 @@ type A5<S = number, T: ?string = string> = T;
                                     "start": 57,
                                     "end": 63
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 55,
                                 "end": 63
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 54,
                             "end": 63
                         },
@@ -229,12 +229,12 @@ type A5<S = number, T: ?string = string> = T;
                             "start": 65,
                             "end": 72
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 53,
                         "end": 72
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 52,
                 "end": 73
             },
@@ -255,11 +255,11 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 77
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 75,
                 "end": 77
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 44,
             "end": 78
         },
@@ -295,7 +295,7 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 87,
                         "end": 88
                     },
@@ -325,11 +325,11 @@ type A5<S = number, T: ?string = string> = T;
                                     "start": 94,
                                     "end": 100
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 92,
                                 "end": 100
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 91,
                             "end": 100
                         },
@@ -339,12 +339,12 @@ type A5<S = number, T: ?string = string> = T;
                             "start": 102,
                             "end": 109
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 89,
                         "end": 109
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 86,
                 "end": 110
             },
@@ -365,11 +365,11 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 114
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 112,
                 "end": 114
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 78,
             "end": 115
         },
@@ -410,7 +410,7 @@ type A5<S = number, T: ?string = string> = T;
                             "start": 127,
                             "end": 134
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 124,
                         "end": 134
                     },
@@ -440,11 +440,11 @@ type A5<S = number, T: ?string = string> = T;
                                     "start": 140,
                                     "end": 146
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 138,
                                 "end": 146
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 137,
                             "end": 146
                         },
@@ -454,12 +454,12 @@ type A5<S = number, T: ?string = string> = T;
                             "start": 148,
                             "end": 155
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 135,
                         "end": 155
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 123,
                 "end": 156
             },
@@ -480,11 +480,11 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 160
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 158,
                 "end": 160
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 115,
             "end": 161
         }

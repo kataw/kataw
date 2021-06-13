@@ -74,11 +74,11 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 24,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 23,
                             "end": 26
                         },
@@ -248,7 +248,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 16,
                         "end": 17
                     },
@@ -264,12 +264,12 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 18,
                         "end": 20
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 15,
                 "end": 21
             },
@@ -304,11 +304,11 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                 "end": 37
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 36,
                                             "end": 37
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 36,
                                         "end": 37
                                     },
@@ -343,30 +343,30 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                             "end": 44
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 42,
                                                         "end": 44
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 40,
                                                     "end": 44
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 2097152,
                                             "start": 38,
                                             "end": 45
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 38,
                                         "end": 45
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 35,
                                 "end": 46
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 30,
                             "end": 46
                         },
@@ -381,17 +381,17 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 "end": 49
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 47,
                             "end": 49
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 28,
                     "end": 50
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 50
             },

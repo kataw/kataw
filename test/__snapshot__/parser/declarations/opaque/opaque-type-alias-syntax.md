@@ -60,7 +60,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "start": 25,
                 "end": 32
             },
-            "flags": 32,
+            "flags": 2097152,
             "start": 0,
             "end": 32
         },
@@ -119,7 +119,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                             "start": 73,
                             "end": 80
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 61,
                         "end": 81
                     },
@@ -144,7 +144,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 91,
                                 "end": 91
                             },
@@ -155,21 +155,21 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                                 "end": 100
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 90,
                             "end": 100
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 81,
                         "end": 101
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 59,
                 "end": 103
             },
-            "flags": 32,
+            "flags": 2097152,
             "start": 33,
             "end": 103
         },
@@ -210,30 +210,30 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                     {
                         "kind": 134217968,
                         "text": 1,
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 129,
                         "end": 131
                     },
                     {
                         "kind": 134217968,
                         "text": 2,
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 133,
                         "end": 135
                     },
                     {
                         "kind": 134217968,
                         "text": 3,
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 137,
                         "end": 139
                     }
                 ],
-                "flags": 32,
+                "flags": 2097152,
                 "start": 131,
                 "end": 139
             },
-            "flags": 32,
+            "flags": 2097152,
             "start": 104,
             "end": 139
         },
@@ -278,7 +278,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                     "end": 176
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 164,
                 "end": 176
             },
@@ -293,11 +293,11 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                     "end": 190
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 178,
                 "end": 190
             },
-            "flags": 32,
+            "flags": 2097152,
             "start": 140,
             "end": 190
         },
@@ -342,7 +342,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                     "end": 226
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 215,
                 "end": 226
             },
@@ -357,11 +357,11 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                     "end": 240
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 228,
                 "end": 240
             },
-            "flags": 32,
+            "flags": 2097152,
             "start": 191,
             "end": 240
         },

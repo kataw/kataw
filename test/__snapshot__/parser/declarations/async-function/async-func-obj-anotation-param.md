@@ -103,17 +103,17 @@ async function foo({x}: { x: string; }) {}
                                             "start": 28,
                                             "end": 35
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 25,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 23,
                                 "end": 38
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 22,
                             "end": 38
                         },

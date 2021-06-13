@@ -51,11 +51,11 @@ var a: 0b1111011
                             "type": {
                                 "kind": 134217968,
                                 "text": 123,
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 6,
                                 "end": 16
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 16
                         },

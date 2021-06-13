@@ -133,13 +133,13 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                                                                             "start": 27,
                                                                             "end": 33
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 2097152,
                                                                         "start": 22,
                                                                         "end": 33
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 22,
                                                                 "end": 33
                                                             },
@@ -154,27 +154,27 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                                                                     "end": 38
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 36,
                                                                 "end": 38
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 22,
                                                             "end": 38
                                                         }
                                                     ],
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 20,
                                                     "end": 38
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 8,
                                                 "end": 38
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 38
                                     },
@@ -189,23 +189,23 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                                             "end": 43
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 41,
                                         "end": 43
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 8,
                                     "end": 43
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 43
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 47
                     },
@@ -220,20 +220,20 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                             "end": 49
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 47,
                         "end": 49
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 49
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 49
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 50
         }

@@ -84,7 +84,7 @@ type a = ({key():string}[x]) => T;
                                                 "kind": 282,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 15,
                                                 "end": 15
                                             },
@@ -95,17 +95,17 @@ type a = ({key():string}[x]) => T;
                                                 "end": 23
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 14,
                                             "end": 23
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 11,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 10,
                                 "end": 24
                             },
@@ -120,7 +120,7 @@ type a = ({key():string}[x]) => T;
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 25,
                                 "end": 26
                             },
@@ -130,7 +130,7 @@ type a = ({key():string}[x]) => T;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 31
                 },
@@ -145,16 +145,16 @@ type a = ({key():string}[x]) => T;
                         "end": 33
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 31,
                     "end": 33
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 33
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 34
         }

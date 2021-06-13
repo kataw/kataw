@@ -76,21 +76,21 @@ type T = { proto p: string }
                                 "end": 18
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 16,
                             "end": 18
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 18
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 18
         },

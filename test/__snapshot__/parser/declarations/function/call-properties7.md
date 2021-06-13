@@ -66,11 +66,11 @@ function e(x: {}): () => string {
                                 "kind": 134234353,
                                 "properties": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 16
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 16
                         },
@@ -135,7 +135,7 @@ function e(x: {}): () => string {
                         "kind": 282,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 20,
                         "end": 20
                     },
@@ -146,11 +146,11 @@ function e(x: {}): () => string {
                         "end": 31
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 18,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 31
             },

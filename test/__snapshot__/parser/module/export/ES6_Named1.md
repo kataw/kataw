@@ -555,7 +555,7 @@ export const [destructuredArrNumber] = [1]
                         "start": 354,
                         "end": 361
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 329,
                     "end": 361
                 },
@@ -646,7 +646,7 @@ export const [destructuredArrNumber] = [1]
                                             "start": 424,
                                             "end": 431
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 423,
                                         "end": 431
                                     },

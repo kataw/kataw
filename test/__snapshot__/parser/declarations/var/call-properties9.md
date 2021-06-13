@@ -59,7 +59,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 10
                                         },
@@ -75,21 +75,21 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                                 "end": 18
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 12,
                                             "end": 18
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 20
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 20
                         },
@@ -156,7 +156,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                     "start": 34,
                                     "end": 41
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 33,
                                 "end": 41
                             },

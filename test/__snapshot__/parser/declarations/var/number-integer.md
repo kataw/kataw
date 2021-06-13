@@ -52,11 +52,11 @@ var a: 123
                             "type": {
                                 "kind": 134217968,
                                 "text": 123,
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 6,
                                 "end": 10
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 10
                         },

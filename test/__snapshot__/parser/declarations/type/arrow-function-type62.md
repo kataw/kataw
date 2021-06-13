@@ -59,7 +59,7 @@ type a = () => T;
                     "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 10
                 },
@@ -74,16 +74,16 @@ type a = () => T;
                         "end": 16
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 14,
                     "end": 16
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 17
         }

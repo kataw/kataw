@@ -68,17 +68,17 @@ var o: { [string]: number } = {};
                                             "start": 18,
                                             "end": 25
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 27
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 27
                         },

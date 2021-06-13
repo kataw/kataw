@@ -90,7 +90,7 @@ class WebControls {
                                         "start": 80,
                                         "end": 84
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 79,
                                     "end": 84
                                 },

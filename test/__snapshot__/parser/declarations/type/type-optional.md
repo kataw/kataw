@@ -68,11 +68,11 @@ type a = ??string;
                     "end": 8
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 8
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 8
         },

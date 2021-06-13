@@ -92,7 +92,7 @@ function one(this: number) {}
                     "start": 18,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 25
             },

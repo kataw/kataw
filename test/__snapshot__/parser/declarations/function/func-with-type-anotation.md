@@ -93,11 +93,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                     "end": 31
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 27,
                                                 "end": 31
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 22,
                                             "end": 31
                                         },
@@ -139,26 +139,26 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                                 "start": 46,
                                                                 "end": 52
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 46,
                                                             "end": 52
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 2097152,
                                                     "start": 45,
                                                     "end": 53
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 40,
                                                 "end": 53
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 32,
                                             "end": 53
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 22,
                                     "end": 53
                                 },
@@ -169,11 +169,11 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 64
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 22,
                                 "end": 64
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 21,
                             "end": 64
                         },

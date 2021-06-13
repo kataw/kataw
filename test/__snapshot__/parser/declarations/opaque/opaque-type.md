@@ -53,7 +53,7 @@ opaque type ID = string;
                 "start": 16,
                 "end": 23
             },
-            "flags": 32,
+            "flags": 2097152,
             "start": 0,
             "end": 23
         },

@@ -70,7 +70,7 @@ function foo(...args: any) { }
                                 "start": 21,
                                 "end": 25
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 20,
                             "end": 25
                         },

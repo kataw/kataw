@@ -59,11 +59,11 @@ s.map(// do something
                                     "start": 22,
                                     "end": 29
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 30,
                                 "end": 31
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 21,
                             "end": 31
                         },

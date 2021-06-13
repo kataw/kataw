@@ -59,7 +59,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 10
                                         },
@@ -70,17 +70,17 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 21
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 21
                         },
@@ -118,7 +118,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                                 "start": 36,
                                                 "end": 43
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 35,
                                             "end": 43
                                         },
@@ -177,7 +177,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                     "start": 45,
                                     "end": 52
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 44,
                                 "end": 52
                             },

@@ -91,38 +91,38 @@ type a = {1:y.z[][][]};
                                                 "start": 14,
                                                 "end": 15
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 12,
                                             "end": 15
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 12,
                                         "end": 15
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 16,
                                     "end": 17
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 18,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 20,
                             "end": 21
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 21
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 23
         }

@@ -61,13 +61,13 @@ type a = (1) => T;
                         {
                             "kind": 134217968,
                             "text": 1,
-                            "flags": 96,
+                            "flags": 2097216,
                             "start": 10,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 15
                 },
@@ -82,16 +82,16 @@ type a = (1) => T;
                         "end": 17
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 17
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 17
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 18
         }

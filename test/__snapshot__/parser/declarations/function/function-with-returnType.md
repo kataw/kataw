@@ -84,7 +84,7 @@ function foo():number{}
                     "start": 15,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 21
             },

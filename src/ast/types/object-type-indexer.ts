@@ -31,7 +31,7 @@ export function createObjectTypeIndexer(
     name,
     key,
     type,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

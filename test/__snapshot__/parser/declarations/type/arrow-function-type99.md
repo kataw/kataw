@@ -72,7 +72,7 @@ type a = ((x | (y & x))) => T;
                                         "end": 12
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 8,
                                     "end": 12
                                 },
@@ -92,7 +92,7 @@ type a = ((x | (y & x))) => T;
                                                     "end": 17
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 14,
                                                 "end": 17
                                             },
@@ -107,27 +107,27 @@ type a = ((x | (y & x))) => T;
                                                     "end": 21
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 19,
                                                 "end": 21
                                             }
                                         ],
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 17,
                                         "end": 21
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 22
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 22
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 27
                 },
@@ -142,16 +142,16 @@ type a = ((x | (y & x))) => T;
                         "end": 29
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 27,
                     "end": 29
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 29
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 30
         }

@@ -71,7 +71,7 @@ type x = { get (): string }
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 16,
                                 "end": 16
                             },
@@ -82,21 +82,21 @@ type x = { get (): string }
                                 "end": 25
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 14,
                             "end": 25
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 27
         }

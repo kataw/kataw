@@ -172,15 +172,15 @@ type T = <
                                 "typeParameters": {
                                     "kind": 266,
                                     "parameters": [],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 47,
                                     "end": 62
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 45,
                                 "end": 62
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 44,
                             "end": 62
                         },
@@ -301,7 +301,7 @@ type T = <
             "typeParameters": {
                 "kind": 265,
                 "typeParameters": [],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 113,
                 "end": 128
             },
@@ -351,7 +351,7 @@ type T = <
                             "typeParameters": {
                                 "kind": 265,
                                 "typeParameters": [],
-                                "flags": 1,
+                                "flags": 2097153,
                                 "start": 150,
                                 "end": 168
                             },
@@ -374,7 +374,7 @@ type T = <
                                     "start": 174,
                                     "end": 178
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 173,
                                 "end": 178
                             },
@@ -433,7 +433,7 @@ type T = <
                     "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 208,
                     "end": 208
                 },
@@ -456,7 +456,7 @@ type T = <
                             "end": 212
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 208,
                         "end": 212
                     },
@@ -467,22 +467,22 @@ type T = <
                         "end": 220
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 208,
                     "end": 220
                 },
                 "typeParameters": {
                     "kind": 265,
                     "typeParameters": [],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 192,
                     "end": 208
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 192,
                 "end": 220
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 182,
             "end": 221
         },
@@ -576,15 +576,15 @@ type T = <
                                 "typeParameters": {
                                     "kind": 266,
                                     "parameters": [],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 272,
                                     "end": 290
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 270,
                                 "end": 290
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 269,
                             "end": 290
                         },
@@ -705,7 +705,7 @@ type T = <
             "typeParameters": {
                 "kind": 265,
                 "typeParameters": [],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 344,
                 "end": 362
             },
@@ -767,12 +767,12 @@ type T = <
                                         },
                                         "type": null,
                                         "defaultType": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 388,
                                         "end": 393
                                     }
                                 ],
-                                "flags": 1,
+                                "flags": 2097153,
                                 "start": 384,
                                 "end": 407
                             },
@@ -795,7 +795,7 @@ type T = <
                                     "start": 413,
                                     "end": 417
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 412,
                                 "end": 417
                             },
@@ -854,7 +854,7 @@ type T = <
                     "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 450,
                     "end": 450
                 },
@@ -877,7 +877,7 @@ type T = <
                             "end": 454
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 450,
                         "end": 454
                     },
@@ -888,22 +888,22 @@ type T = <
                         "end": 462
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 450,
                     "end": 462
                 },
                 "typeParameters": {
                     "kind": 265,
                     "typeParameters": [],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 431,
                     "end": 450
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 431,
                 "end": 462
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 421,
             "end": 463
         }

@@ -83,7 +83,7 @@ type a = (...b[([x])=> c] | d) => c;
                                                 "end": 14
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 14
                                         },
@@ -112,19 +112,19 @@ type a = (...b[([x])=> c] | d) => c;
                                                                     "end": 18
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 17,
                                                                 "end": 18
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 16,
                                                         "end": 19
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 15,
                                                 "end": 22
                                             },
@@ -139,16 +139,16 @@ type a = (...b[([x])=> c] | d) => c;
                                                     "end": 24
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 22,
                                                 "end": 24
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 15,
                                             "end": 24
                                         },
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 27
                                     },
@@ -163,22 +163,22 @@ type a = (...b[([x])=> c] | d) => c;
                                             "end": 29
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 27,
                                         "end": 29
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 25,
                                 "end": 29
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 29
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 29
                 },
@@ -193,16 +193,16 @@ type a = (...b[([x])=> c] | d) => c;
                         "end": 35
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 33,
                     "end": 35
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 36
         }

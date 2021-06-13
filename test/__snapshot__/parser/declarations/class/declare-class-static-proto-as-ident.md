@@ -81,7 +81,7 @@ declare class B {
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 34,
                                     "end": 34
                                 },
@@ -92,17 +92,17 @@ declare class B {
                                     "end": 43
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 32,
                                 "end": 43
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 44
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 46
                 },

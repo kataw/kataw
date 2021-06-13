@@ -77,17 +77,17 @@ type D32 = {p?: number};
                             "start": 19,
                             "end": 26
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 26
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 28
         },
@@ -139,7 +139,7 @@ type D32 = {p?: number};
                             "start": 43,
                             "end": 49
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 39,
                         "end": 50
                     },
@@ -163,22 +163,22 @@ type D32 = {p?: number};
                                 "end": 55
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 54,
                             "end": 55
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 50,
                         "end": 55
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 37,
                 "end": 56
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 28,
             "end": 57
         },
@@ -229,12 +229,12 @@ type D32 = {p?: number};
                                 "end": 74
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 72,
                             "end": 74
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 69,
                         "end": 74
                     },
@@ -258,22 +258,22 @@ type D32 = {p?: number};
                                 "end": 81
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 79,
                             "end": 81
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 75,
                         "end": 81
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 67,
                 "end": 82
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 57,
             "end": 83
         },
@@ -325,17 +325,17 @@ type D32 = {p?: number};
                             "start": 97,
                             "end": 104
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 95,
                         "end": 104
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 93,
                 "end": 105
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 83,
             "end": 106
         },
@@ -386,12 +386,12 @@ type D32 = {p?: number};
                                 "end": 123
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 121,
                             "end": 123
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 118,
                         "end": 123
                     },
@@ -415,22 +415,22 @@ type D32 = {p?: number};
                                 "end": 130
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 128,
                             "end": 130
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 124,
                         "end": 130
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 116,
                 "end": 131
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 106,
             "end": 132
         },
@@ -497,21 +497,21 @@ type D32 = {p?: number};
                                     "end": 163
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 154,
                             "end": 163
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 144,
                         "end": 163
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 142,
                 "end": 164
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 132,
             "end": 165
         },
@@ -562,12 +562,12 @@ type D32 = {p?: number};
                                 "end": 184
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 181,
                             "end": 184
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 178,
                         "end": 184
                     },
@@ -591,22 +591,22 @@ type D32 = {p?: number};
                                 "end": 192
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 189,
                             "end": 192
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 185,
                         "end": 192
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 176,
                 "end": 193
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 165,
             "end": 194
         },
@@ -663,17 +663,17 @@ type D32 = {p?: number};
                             "start": 210,
                             "end": 217
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 207,
                         "end": 217
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 205,
                 "end": 218
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 194,
             "end": 219
         },
@@ -721,7 +721,7 @@ type D32 = {p?: number};
                             "start": 241,
                             "end": 248
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 232,
                         "end": 249
                     },
@@ -761,21 +761,21 @@ type D32 = {p?: number};
                                     "end": 269
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 260,
                             "end": 269
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 249,
                         "end": 269
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 230,
                 "end": 270
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 219,
             "end": 271
         },
@@ -823,7 +823,7 @@ type D32 = {p?: number};
                             "start": 293,
                             "end": 300
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 284,
                         "end": 301
                     },
@@ -863,21 +863,21 @@ type D32 = {p?: number};
                                     "end": 321
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 312,
                             "end": 321
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 301,
                         "end": 321
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 282,
                 "end": 322
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 271,
             "end": 323
         },
@@ -934,17 +934,17 @@ type D32 = {p?: number};
                             "start": 339,
                             "end": 346
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 336,
                         "end": 346
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 334,
                 "end": 347
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 323,
             "end": 348
         }

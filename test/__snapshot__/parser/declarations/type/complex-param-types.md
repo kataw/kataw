@@ -89,7 +89,7 @@ type o = { m(|int|bool): void }
                                                         "end": 17
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 14,
                                                     "end": 17
                                                 },
@@ -104,22 +104,22 @@ type o = { m(|int|bool): void }
                                                         "end": 22
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 18,
                                                     "end": 22
                                                 }
                                             ],
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 17,
                                             "end": 22
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 13,
                                         "end": 22
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 22
                             },
@@ -130,21 +130,21 @@ type o = { m(|int|bool): void }
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 29
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 29
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 31
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 31
         }

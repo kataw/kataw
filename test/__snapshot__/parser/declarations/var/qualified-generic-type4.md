@@ -76,7 +76,7 @@ var a : typeof A.B<T>
                                             "start": 17,
                                             "end": 18
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 14,
                                         "end": 18
                                     },
@@ -96,28 +96,28 @@ var a : typeof A.B<T>
                                                         "end": 20
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 19,
                                                     "end": 20
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 19,
                                                 "end": 20
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 18,
                                         "end": 21
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 21
                                 },
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 7,
                                 "end": 21
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 21
                         },

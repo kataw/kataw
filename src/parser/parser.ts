@@ -7254,7 +7254,7 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   const pos = parser.curPos;
   let trailingComma = false;
   nextToken(parser, context);
-  const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
+  const flags = parser.nodeFlags | NodeFlags.IsTypeNode;
   const elements: TypeNode[] = [];
   while (parser.token & 0b00111000100000000100000000000000) {
     elements.push(parseType(parser, context));
@@ -7765,7 +7765,7 @@ function parseEntityName(parser: ParserState, context: Context, entity: any, che
 
 function parseTypeParameterDeclaration(parser: ParserState, context: Context): TypeParameterDeclaration | null {
   const pos = parser.curPos;
-  const nodeFlags = parser.nodeFlags;
+  const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
     let requireDefault = false;
@@ -7795,7 +7795,7 @@ function parseTypeParameterInstantiationList(
   context: Context
 ): TypeParameterInstantiationList | null {
   const pos = parser.curPos;
-  const nodeFlags = parser.nodeFlags;
+  const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
     const types = [];
     while (
@@ -7992,7 +7992,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   ownLabels: any
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
-  let nodeFlags = parser.nodeFlags | NodeFlags.IsStatement;
+  let nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
   let expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
   if (context & Context.OptionsAllowTypes && parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
@@ -8311,7 +8311,7 @@ function parseTypeMemberSemicolon(parser: ParserState, context: Context): void {
 function parseObjectType(parser: ParserState, context: Context, objectTypeFlag: ObjectTypeFlag): ObjectType {
   const pos = parser.curPos;
   const properties = [];
-  const nodeFlags = parser.nodeFlags;
+  const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
   let trailingComma = false;
   if (consume(parser, context, SyntaxKind.LeftBrace, DiagnosticCode.Missing_an_opening_brace)) {
     while (parser.token & 0b00111000110010000100000000000000) {
@@ -8661,7 +8661,7 @@ function parsePrimaryTypeRest(
       if (parser.token & 0b00111000100000000100000000000000) {
         const indexType = parseType(parser, context);
         consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-        type = createIndexedAccessType(type, indexType, parser.nodeFlags, pos, parser.pos);
+        type = createIndexedAccessType(type, indexType, parser.nodeFlags | NodeFlags.IsTypeNode, pos, parser.pos);
       } else {
         consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
         type = createArrayType(type, pos, parser.curPos);

@@ -102,22 +102,22 @@ type a = ((...b?:string | d) => c);
                                                 "end": 27
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 25,
                                             "end": 27
                                         }
                                     ],
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 23,
                                     "end": 27
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 27
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 31
                     },
@@ -132,20 +132,20 @@ type a = ((...b?:string | d) => c);
                             "end": 33
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 31,
                         "end": 33
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 35
         }

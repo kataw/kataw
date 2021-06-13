@@ -86,17 +86,17 @@ function method(obj: { [key: string]: any }) {}
                                             "start": 37,
                                             "end": 41
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 22,
                                         "end": 41
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 20,
                                 "end": 43
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 19,
                             "end": 43
                         },

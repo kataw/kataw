@@ -108,11 +108,11 @@ let tests = [
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 27,
                                                             "end": 36
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 26,
                                                         "end": 36
                                                     },
@@ -261,11 +261,11 @@ let tests = [
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 163,
                                                             "end": 180
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 162,
                                                         "end": 180
                                                     },
@@ -396,11 +396,11 @@ let tests = [
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 341,
                                                             "end": 350
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 340,
                                                         "end": 350
                                                     },
@@ -575,24 +575,24 @@ let tests = [
                                                                                 {
                                                                                     "kind": 134217968,
                                                                                     "text": 1,
-                                                                                    "flags": 96,
+                                                                                    "flags": 2097216,
                                                                                     "start": 552,
                                                                                     "end": 553
                                                                                 },
                                                                                 {
                                                                                     "kind": 134217968,
                                                                                     "text": 2,
-                                                                                    "flags": 96,
+                                                                                    "flags": 2097216,
                                                                                     "start": 554,
                                                                                     "end": 556
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
-                                                                            "flags": 32,
+                                                                            "flags": 2097152,
                                                                             "start": 550,
                                                                             "end": 557
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 2097152,
                                                                         "start": 549,
                                                                         "end": 557
                                                                     },
@@ -665,7 +665,7 @@ let tests = [
                                                                 "start": 559,
                                                                 "end": 566
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 492,
                                                             "end": 566
                                                         },

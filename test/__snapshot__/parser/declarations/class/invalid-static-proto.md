@@ -86,17 +86,17 @@ declare class C {
                                     "end": 34
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 32,
                                 "end": 34
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 34
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 34
                 },

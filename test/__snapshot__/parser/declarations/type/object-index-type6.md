@@ -68,11 +68,11 @@ type X = {[(x)]: string};
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 13
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 14
                         },
@@ -82,17 +82,17 @@ type X = {[(x)]: string};
                             "start": 16,
                             "end": 23
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 23
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 24
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 25
         }

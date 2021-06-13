@@ -76,13 +76,13 @@ var e: { (x: any): void } = function() { } // arity
                                                         "start": 12,
                                                         "end": 16
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 10,
                                                     "end": 16
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 16
                                         },
@@ -93,17 +93,17 @@ var e: { (x: any): void } = function() { } // arity
                                             "start": 18,
                                             "end": 23
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 25
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 25
                         },

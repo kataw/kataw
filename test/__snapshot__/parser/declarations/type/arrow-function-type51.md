@@ -70,19 +70,19 @@ type a = ([-1]) => T;
                                         "end": 12
                                     },
                                     "value": 1,
-                                    "flags": 96,
+                                    "flags": 2097216,
                                     "start": 11,
                                     "end": 13
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 18
                 },
@@ -97,16 +97,16 @@ type a = ([-1]) => T;
                         "end": 20
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 18,
                     "end": 20
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 21
         }

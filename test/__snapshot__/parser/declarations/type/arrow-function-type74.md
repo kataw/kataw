@@ -89,27 +89,27 @@ type a = ({x: (y)}) => T;
                                                 "end": 16
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 13,
                                             "end": 16
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 13,
                                         "end": 17
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 11,
                                     "end": 17
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 22
                 },
@@ -124,16 +124,16 @@ type a = ({x: (y)}) => T;
                         "end": 24
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 22,
                     "end": 24
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 24
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 25
         }

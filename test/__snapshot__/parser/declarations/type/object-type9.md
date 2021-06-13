@@ -91,38 +91,38 @@ type a = {await:y.z[][][]};
                                                 "start": 18,
                                                 "end": 19
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 16,
                                             "end": 19
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 16,
                                         "end": 19
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 20,
                                     "end": 21
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 22,
                                 "end": 23
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 24,
                             "end": 25
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 27
         }

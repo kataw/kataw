@@ -64,7 +64,7 @@ type a = (1 | 1[symbol & string]) => T;
                                 {
                                     "kind": 134217968,
                                     "text": 1,
-                                    "flags": 96,
+                                    "flags": 2097216,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -73,7 +73,7 @@ type a = (1 | 1[symbol & string]) => T;
                                     "objectType": {
                                         "kind": 134217968,
                                         "text": 1,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 13,
                                         "end": 15
                                     },
@@ -93,7 +93,7 @@ type a = (1 | 1[symbol & string]) => T;
                                                 "end": 31
                                             }
                                         ],
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 22,
                                         "end": 31
                                     },
@@ -102,13 +102,13 @@ type a = (1 | 1[symbol & string]) => T;
                                     "end": 33
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 32
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 36
                 },
@@ -123,16 +123,16 @@ type a = (1 | 1[symbol & string]) => T;
                         "end": 38
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 36,
                     "end": 38
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 38
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 39
         }

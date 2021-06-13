@@ -99,7 +99,7 @@ var p10 = ([{ value, done }]) => { };
                                             "start": 11,
                                             "end": 18
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 10,
                                         "end": 18
                                     },
@@ -204,7 +204,7 @@ var p10 = ([{ value, done }]) => { };
                                             "start": 44,
                                             "end": 51
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 43,
                                         "end": 51
                                     },
@@ -505,7 +505,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 144,
                                 "end": 151
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 143,
                             "end": 151
                         },
@@ -755,13 +755,13 @@ var p10 = ([{ value, done }]) => { };
                                                 "start": 205,
                                                 "end": 209
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 201,
                                             "end": 209
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 201,
                                     "end": 209
                                 },
@@ -772,11 +772,11 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 217
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 201,
                                 "end": 217
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 200,
                             "end": 217
                         },

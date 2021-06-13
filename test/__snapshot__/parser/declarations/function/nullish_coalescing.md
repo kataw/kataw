@@ -67,7 +67,7 @@ function g(x: any): string {
                                 "start": 13,
                                 "end": 17
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 17
                         },
@@ -146,7 +146,7 @@ function g(x: any): string {
                     "start": 19,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 26
             },

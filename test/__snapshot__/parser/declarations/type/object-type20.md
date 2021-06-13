@@ -76,7 +76,7 @@ type a = {get "string"():string};
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 23,
                                 "end": 23
                             },
@@ -87,21 +87,21 @@ type a = {get "string"():string};
                                 "end": 31
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 22,
                             "end": 31
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 31
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 33
         }

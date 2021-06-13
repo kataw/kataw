@@ -122,11 +122,11 @@
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 14
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 14
                         },

@@ -64,7 +64,7 @@ type a = ({}[x]) => T;
                                 "kind": 134234353,
                                 "properties": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 10,
                                 "end": 12
                             },
@@ -79,7 +79,7 @@ type a = ({}[x]) => T;
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 14
                             },
@@ -89,7 +89,7 @@ type a = ({}[x]) => T;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 19
                 },
@@ -104,16 +104,16 @@ type a = ({}[x]) => T;
                         "end": 21
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 19,
                     "end": 21
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 22
         }

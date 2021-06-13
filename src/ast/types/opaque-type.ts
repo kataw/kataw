@@ -35,7 +35,7 @@ export function createOpaqueType(
     typeParameters,
     superType,
     impltype,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

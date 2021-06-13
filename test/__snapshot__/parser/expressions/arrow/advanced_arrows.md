@@ -82,7 +82,7 @@ var ident = <T>(x: T): T => x;
                                             "start": 13,
                                             "end": 20
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 12,
                                         "end": 20
                                     },
@@ -111,7 +111,7 @@ var ident = <T>(x: T): T => x;
                                             "start": 24,
                                             "end": 31
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 23,
                                         "end": 31
                                     },
@@ -130,7 +130,7 @@ var ident = <T>(x: T): T => x;
                                     "start": 33,
                                     "end": 40
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 32,
                                 "end": 40
                             },
@@ -233,7 +233,7 @@ var ident = <T>(x: T): T => x;
                                             "start": 65,
                                             "end": 72
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 64,
                                         "end": 72
                                     },
@@ -252,7 +252,7 @@ var ident = <T>(x: T): T => x;
                                     "start": 74,
                                     "end": 81
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 73,
                                 "end": 81
                             },
@@ -328,12 +328,12 @@ var ident = <T>(x: T): T => x;
                                         },
                                         "type": null,
                                         "defaultType": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 102,
                                         "end": 103
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 100,
                                 "end": 104
                             },
@@ -363,11 +363,11 @@ var ident = <T>(x: T): T => x;
                                                 "end": 109
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 107,
                                             "end": 109
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 106,
                                         "end": 109
                                     },
@@ -391,11 +391,11 @@ var ident = <T>(x: T): T => x;
                                         "end": 113
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 111,
                                     "end": 113
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 110,
                                 "end": 113
                             },

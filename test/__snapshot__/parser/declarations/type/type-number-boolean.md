@@ -71,7 +71,7 @@ type A = { [string | boolean]: number };
                                     "end": 28
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 18,
                             "end": 28
                         },
@@ -81,17 +81,17 @@ type A = { [string | boolean]: number };
                             "start": 30,
                             "end": 37
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 37
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 39
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 40
         }

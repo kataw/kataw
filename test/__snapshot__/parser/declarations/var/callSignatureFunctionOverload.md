@@ -88,13 +88,13 @@ var foo2: {
                                                         "start": 21,
                                                         "end": 28
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 16,
                                                     "end": 28
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 16,
                                             "end": 28
                                         },
@@ -105,7 +105,7 @@ var foo2: {
                                             "start": 30,
                                             "end": 37
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 10,
                                         "end": 38
                                     },
@@ -131,17 +131,17 @@ var foo2: {
                                                     "types": {
                                                         "kind": 134217967,
                                                         "value": "order",
-                                                        "flags": 96,
+                                                        "flags": 2097216,
                                                         "start": 49,
                                                         "end": 57
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 44,
                                                     "end": 57
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 44,
                                             "end": 57
                                         },
@@ -152,7 +152,7 @@ var foo2: {
                                             "start": 59,
                                             "end": 66
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 38,
                                         "end": 67
                                     },
@@ -178,17 +178,17 @@ var foo2: {
                                                     "types": {
                                                         "kind": 134217967,
                                                         "value": "content",
-                                                        "flags": 96,
+                                                        "flags": 2097216,
                                                         "start": 78,
                                                         "end": 88
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 73,
                                                     "end": 88
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 73,
                                             "end": 88
                                         },
@@ -199,7 +199,7 @@ var foo2: {
                                             "start": 90,
                                             "end": 97
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 67,
                                         "end": 98
                                     },
@@ -225,17 +225,17 @@ var foo2: {
                                                     "types": {
                                                         "kind": 134217967,
                                                         "value": "done",
-                                                        "flags": 96,
+                                                        "flags": 2097216,
                                                         "start": 109,
                                                         "end": 116
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 104,
                                                     "end": 116
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 104,
                                             "end": 116
                                         },
@@ -246,17 +246,17 @@ var foo2: {
                                             "start": 118,
                                             "end": 125
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 98,
                                         "end": 126
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 128
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 7,
                             "end": 128
                         },
@@ -327,13 +327,13 @@ var foo2: {
                                                         "start": 152,
                                                         "end": 159
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 147,
                                                     "end": 159
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 147,
                                             "end": 159
                                         },
@@ -344,7 +344,7 @@ var foo2: {
                                             "start": 161,
                                             "end": 168
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 141,
                                         "end": 169
                                     },
@@ -370,17 +370,17 @@ var foo2: {
                                                     "types": {
                                                         "kind": 134217967,
                                                         "value": "order",
-                                                        "flags": 96,
+                                                        "flags": 2097216,
                                                         "start": 180,
                                                         "end": 188
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 175,
                                                     "end": 188
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 175,
                                             "end": 188
                                         },
@@ -391,7 +391,7 @@ var foo2: {
                                             "start": 190,
                                             "end": 197
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 169,
                                         "end": 198
                                     },
@@ -417,17 +417,17 @@ var foo2: {
                                                     "types": {
                                                         "kind": 134217967,
                                                         "value": "order",
-                                                        "flags": 96,
+                                                        "flags": 2097216,
                                                         "start": 209,
                                                         "end": 217
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 204,
                                                     "end": 217
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 204,
                                             "end": 217
                                         },
@@ -438,7 +438,7 @@ var foo2: {
                                             "start": 219,
                                             "end": 226
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 198,
                                         "end": 227
                                     },
@@ -464,17 +464,17 @@ var foo2: {
                                                     "types": {
                                                         "kind": 134217967,
                                                         "value": "done",
-                                                        "flags": 96,
+                                                        "flags": 2097216,
                                                         "start": 238,
                                                         "end": 245
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 233,
                                                     "end": 245
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 233,
                                             "end": 245
                                         },
@@ -485,17 +485,17 @@ var foo2: {
                                             "start": 247,
                                             "end": 254
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 227,
                                         "end": 255
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 139,
                                 "end": 257
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 138,
                             "end": 257
                         },

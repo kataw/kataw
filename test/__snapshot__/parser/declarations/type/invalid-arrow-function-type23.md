@@ -55,21 +55,21 @@ type x = (([1]: y) => T);
                         {
                             "kind": 134217968,
                             "text": 1,
-                            "flags": 96,
+                            "flags": 2097216,
                             "start": 12,
                             "end": 13
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 11,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 14
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 14
         },

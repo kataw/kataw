@@ -102,17 +102,17 @@ type a = ({get y(y): string}) => T;
                                                             "end": 18
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 17,
                                                         "end": 18
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 17,
                                                     "end": 18
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 17,
                                             "end": 18
                                         },
@@ -123,23 +123,23 @@ type a = ({get y(y): string}) => T;
                                             "end": 27
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 16,
                                         "end": 27
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 11,
                                     "end": 27
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 32
                 },
@@ -154,16 +154,16 @@ type a = ({get y(y): string}) => T;
                         "end": 34
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 32,
                     "end": 34
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 35
         }

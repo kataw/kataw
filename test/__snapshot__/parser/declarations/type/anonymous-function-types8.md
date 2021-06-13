@@ -82,22 +82,22 @@ type A = (Array<string>, ...Array<string>) => void
                                                 "start": 16,
                                                 "end": 22
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 16,
                                             "end": 22
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 15,
                                     "end": 23
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 23
                             },
                             "optionalToken": null,
                             "types": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 23
                         },
@@ -132,26 +132,26 @@ type A = (Array<string>, ...Array<string>) => void
                                                 "start": 34,
                                                 "end": 40
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 34,
                                             "end": 40
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 33,
                                     "end": 41
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 24,
                                 "end": 41
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 24,
                             "end": 41
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 41
                 },
@@ -162,11 +162,11 @@ type A = (Array<string>, ...Array<string>) => void
                     "end": 50
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 50
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 50
         }

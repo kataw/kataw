@@ -76,7 +76,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                             "end": 11
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 11
                                     },
@@ -94,7 +94,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                     "end": 13
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 12,
                                                 "end": 13
                                             },
@@ -111,7 +111,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                         "end": 17
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 15,
                                                     "end": 17
                                                 },
@@ -129,7 +129,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                                 "end": 19
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 18,
                                                             "end": 19
                                                         },
@@ -144,7 +144,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                                 "end": 21
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 20,
                                                             "end": 21
                                                         },
@@ -159,7 +159,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                                 "end": 23
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 22,
                                                             "end": 23
                                                         },
@@ -174,7 +174,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                                 "end": 25
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 24,
                                                             "end": 25
                                                         },
@@ -189,12 +189,12 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                                 "end": 27
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 26,
                                                             "end": 27
                                                         }
                                                     ],
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 19,
                                                     "end": 27
                                                 },
@@ -203,11 +203,11 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                 "end": 29
                                             }
                                         ],
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 13,
                                         "end": 28
                                     },
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 12,
                                     "end": 30
                                 },
@@ -222,11 +222,11 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                         "end": 31
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 30,
                                     "end": 31
                                 },
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 30,
                                 "end": 33
                             },
@@ -239,19 +239,19 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                     "end": 34
                                 },
                                 "value": 1,
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 33,
                                 "end": 35
                             },
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 33,
                             "end": 37
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 37,
                         "end": 38
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 39,
                     "end": 40
                 },
@@ -266,16 +266,16 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                         "end": 46
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 44,
                     "end": 46
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 46
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 47
         }

@@ -103,7 +103,7 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                                     "kind": 282,
                                                                     "parameters": [],
                                                                     "trailingComma": false,
-                                                                    "flags": 32,
+                                                                    "flags": 2097152,
                                                                     "start": 14,
                                                                     "end": 14
                                                                 },
@@ -118,18 +118,18 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                                         "end": 20
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "flags": 32,
+                                                                    "flags": 2097152,
                                                                     "start": 18,
                                                                     "end": 20
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 13,
                                                                 "end": 20
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 11,
                                                         "end": 24
                                                     },
@@ -144,18 +144,18 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                             "end": 26
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 24,
                                                         "end": 26
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 11,
                                                     "end": 26
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 11,
                                             "end": 30
                                         },
@@ -170,18 +170,18 @@ type a = ((((() => T) => T) => T) => T) => T;
                                                 "end": 32
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 30,
                                             "end": 32
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 11,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 36
                             },
@@ -196,18 +196,18 @@ type a = ((((() => T) => T) => T) => T) => T;
                                     "end": 38
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 36,
                                 "end": 38
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 38
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 42
                 },
@@ -222,16 +222,16 @@ type a = ((((() => T) => T) => T) => T) => T;
                         "end": 44
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 42,
                     "end": 44
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 44
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 45
         }

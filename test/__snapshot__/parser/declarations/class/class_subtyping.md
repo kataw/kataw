@@ -61,12 +61,12 @@ class D extends C<O> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 9,
                         "end": 10
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 11
             },
@@ -104,11 +104,11 @@ class D extends C<O> {
                                         "end": 18
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 16,
                                     "end": 18
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 15,
                                 "end": 18
                             },
@@ -189,16 +189,16 @@ class D extends C<O> {
                                         "end": 42
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 41,
                                     "end": 42
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 41,
                                 "end": 42
                             }
                         ],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 40,
                         "end": 43
                     },

@@ -63,7 +63,7 @@ type X = (x & {[x]:string});
                                 "end": 11
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 11
                         },
@@ -86,7 +86,7 @@ type X = (x & {[x]:string});
                                             "end": 17
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -96,26 +96,26 @@ type X = (x & {[x]:string});
                                         "start": 19,
                                         "end": 25
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 15,
                                     "end": 25
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 13,
                             "end": 26
                         }
                     ],
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 11,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 28
         }

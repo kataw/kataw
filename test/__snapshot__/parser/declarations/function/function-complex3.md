@@ -104,24 +104,24 @@ function b1<A: 'a', B: A>(b: B): void {
                                                     "end": 27
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 26,
                                                 "end": 27
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 26,
                                             "end": 27
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 25,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 19,
                                 "end": 28
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 18,
                             "end": 28
                         },
@@ -322,11 +322,11 @@ function b1<A: 'a', B: A>(b: B): void {
                                                     "end": 166
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 164,
                                                 "end": 166
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 163,
                                             "end": 166
                                         },
@@ -429,21 +429,21 @@ function b1<A: 'a', B: A>(b: B): void {
                                             "type": {
                                                 "kind": 134217967,
                                                 "value": "a",
-                                                "flags": 96,
+                                                "flags": 2097216,
                                                 "start": 156,
                                                 "end": 160
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 155,
                                             "end": 160
                                         },
                                         "defaultType": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 154,
                                         "end": 160
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 153,
                                 "end": 161
                             },
@@ -455,7 +455,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "start": 168,
                                     "end": 173
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 140,
                                 "end": 173
                             },
@@ -498,21 +498,21 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 15
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 15
                         },
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 15
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 10,
                 "end": 16
             },
@@ -568,11 +568,11 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "end": 232
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 230,
                                 "end": 232
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 229,
                             "end": 232
                         },
@@ -675,16 +675,16 @@ function b1<A: 'a', B: A>(b: B): void {
                             "type": {
                                 "kind": 134217967,
                                 "value": "a",
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 216,
                                 "end": 220
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 215,
                             "end": 220
                         },
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 214,
                         "end": 220
                     },
@@ -711,21 +711,21 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "end": 226
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 224,
                                 "end": 226
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 223,
                             "end": 226
                         },
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 221,
                         "end": 226
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 213,
                 "end": 227
             },
@@ -737,7 +737,7 @@ function b1<A: 'a', B: A>(b: B): void {
                     "start": 234,
                     "end": 239
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 200,
                 "end": 239
             },

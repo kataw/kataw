@@ -51,11 +51,11 @@ var foo: true
                             "type": {
                                 "kind": 209,
                                 "text": true,
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 8,
                                 "end": 13
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 7,
                             "end": 13
                         },

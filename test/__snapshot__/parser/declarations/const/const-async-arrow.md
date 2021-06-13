@@ -76,7 +76,7 @@ const a = async (foo: string = "") => {}
                                             "start": 21,
                                             "end": 28
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 20,
                                         "end": 28
                                     },

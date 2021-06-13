@@ -53,30 +53,30 @@ type UnionAlias = 1 | 2 | 3;
                     {
                         "kind": 134217968,
                         "text": 1,
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 17,
                         "end": 19
                     },
                     {
                         "kind": 134217968,
                         "text": 2,
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 21,
                         "end": 23
                     },
                     {
                         "kind": 134217968,
                         "text": 3,
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 25,
                         "end": 27
                     }
                 ],
-                "flags": 32,
+                "flags": 2097152,
                 "start": 19,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 28
         }

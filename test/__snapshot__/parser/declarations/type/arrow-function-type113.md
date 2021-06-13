@@ -73,7 +73,7 @@ type a = (bj[c] | e) => T;
                                     "end": 12
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 12
                             },
@@ -88,11 +88,11 @@ type a = (bj[c] | e) => T;
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 14
                             },
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 13,
                             "end": 17
                         },
@@ -107,12 +107,12 @@ type a = (bj[c] | e) => T;
                                 "end": 19
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 19
                         }
                     ],
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 19
                 },
@@ -127,16 +127,16 @@ type a = (bj[c] | e) => T;
                         "end": 25
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 23,
                     "end": 25
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 26
         },
@@ -188,7 +188,7 @@ type a = (bj[c] | e) => T;
                                     "end": 40
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 36,
                                 "end": 40
                             },
@@ -203,11 +203,11 @@ type a = (bj[c] | e) => T;
                                     "end": 42
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 41,
                                 "end": 42
                             },
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 41,
                             "end": 45
                         },
@@ -222,12 +222,12 @@ type a = (bj[c] | e) => T;
                                 "end": 47
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 45,
                             "end": 47
                         }
                     ],
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 43,
                     "end": 47
                 },
@@ -242,16 +242,16 @@ type a = (bj[c] | e) => T;
                         "end": 53
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 51,
                     "end": 53
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 36,
                 "end": 53
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 26,
             "end": 54
         }

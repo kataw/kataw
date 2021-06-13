@@ -60,12 +60,12 @@ class C<T> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 9
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 7,
                 "end": 10
             },

@@ -63,7 +63,7 @@
                                 "start": 3,
                                 "end": 10
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 2,
                             "end": 10
                         },
@@ -131,7 +131,7 @@
                                 "start": 25,
                                 "end": 32
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 24,
                             "end": 32
                         },
@@ -206,7 +206,7 @@
                                 "start": 46,
                                 "end": 53
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 45,
                             "end": 53
                         },
@@ -281,7 +281,7 @@
                                 "start": 67,
                                 "end": 74
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 66,
                             "end": 74
                         },

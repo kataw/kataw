@@ -51,11 +51,11 @@ type a = {};
                 "kind": 134234353,
                 "properties": [],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 11
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 12
         }

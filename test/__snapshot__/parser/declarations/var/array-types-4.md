@@ -55,7 +55,7 @@ var a: number
                                 "start": 6,
                                 "end": 13
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 13
                         },

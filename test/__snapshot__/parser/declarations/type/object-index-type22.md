@@ -77,17 +77,17 @@ var obj: { foo?: boolean } = {};
                                             "start": 16,
                                             "end": 24
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 10,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 7,
                             "end": 26
                         },

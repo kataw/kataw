@@ -18,7 +18,7 @@ export function createTypeReference(
     kind: SyntaxKind.TypeReference,
     id,
     typeParameters,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

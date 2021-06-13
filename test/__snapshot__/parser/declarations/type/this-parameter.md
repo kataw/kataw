@@ -85,13 +85,13 @@ type ten = {
                                 "start": 17,
                                 "end": 24
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 24
                 },
@@ -102,11 +102,11 @@ type ten = {
                     "end": 33
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 10,
                 "end": 33
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 34
         },
@@ -163,7 +163,7 @@ type ten = {
                                 "start": 54,
                                 "end": 61
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 47,
                             "end": 61
                         },
@@ -185,13 +185,13 @@ type ten = {
                                 "start": 65,
                                 "end": 72
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 62,
                             "end": 72
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 47,
                     "end": 72
                 },
@@ -202,11 +202,11 @@ type ten = {
                     "end": 81
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 47,
                 "end": 81
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 34,
             "end": 82
         },
@@ -263,7 +263,7 @@ type ten = {
                                 "start": 102,
                                 "end": 109
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 95,
                             "end": 109
                         },
@@ -290,13 +290,13 @@ type ten = {
                                 "start": 116,
                                 "end": 120
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 110,
                             "end": 120
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 95,
                     "end": 120
                 },
@@ -307,11 +307,11 @@ type ten = {
                     "end": 129
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 95,
                 "end": 129
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 82,
             "end": 130
         },
@@ -346,7 +346,7 @@ type ten = {
                     "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 146,
                     "end": 146
                 },
@@ -384,17 +384,17 @@ type ten = {
                                         "end": 154
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 152,
                                     "end": 154
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 146,
                                 "end": 154
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 146,
                         "end": 154
                     },
@@ -405,7 +405,7 @@ type ten = {
                         "end": 163
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 146,
                     "end": 163
                 },
@@ -424,20 +424,20 @@ type ten = {
                             },
                             "type": null,
                             "defaultType": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 144,
                             "end": 145
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 142,
                     "end": 146
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 142,
                 "end": 163
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 130,
             "end": 164
         },
@@ -506,13 +506,13 @@ type ten = {
                                             "start": 188,
                                             "end": 195
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 183,
                                         "end": 195
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 183,
                                 "end": 195
                             },
@@ -523,11 +523,11 @@ type ten = {
                                 "end": 202
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 182,
                             "end": 202
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 177,
                         "end": 203
                     },
@@ -569,7 +569,7 @@ type ten = {
                                             "start": 214,
                                             "end": 221
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 209,
                                         "end": 221
                                     },
@@ -591,13 +591,13 @@ type ten = {
                                             "start": 225,
                                             "end": 232
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 222,
                                         "end": 232
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 209,
                                 "end": 232
                             },
@@ -608,11 +608,11 @@ type ten = {
                                 "end": 239
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 208,
                             "end": 239
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 203,
                         "end": 240
                     },
@@ -654,7 +654,7 @@ type ten = {
                                             "start": 251,
                                             "end": 258
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 246,
                                         "end": 258
                                     },
@@ -681,13 +681,13 @@ type ten = {
                                             "start": 265,
                                             "end": 269
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 259,
                                         "end": 269
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 246,
                                 "end": 269
                             },
@@ -698,11 +698,11 @@ type ten = {
                                 "end": 276
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 245,
                             "end": 276
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 240,
                         "end": 277
                     },
@@ -749,17 +749,17 @@ type ten = {
                                                 "end": 293
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 291,
                                             "end": 293
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 286,
                                         "end": 293
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 286,
                                 "end": 293
                             },
@@ -784,30 +784,30 @@ type ten = {
                                         },
                                         "type": null,
                                         "defaultType": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 283,
                                         "end": 284
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 282,
                                 "end": 285
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 282,
                             "end": 300
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 277,
                         "end": 301
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 175,
                 "end": 303
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 164,
             "end": 304
         }

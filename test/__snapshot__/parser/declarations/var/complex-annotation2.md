@@ -73,15 +73,15 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 19,
                                     "end": 36
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 37,
                                 "end": 38
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 18,
                             "end": 38
                         },
@@ -221,19 +221,19 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 96,
                                         "end": 112
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 94,
                                     "end": 113
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 114,
                                 "end": 115
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 93,
                             "end": 115
                         },
@@ -299,15 +299,15 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                         "start": 156,
                                         "end": 162
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 163,
                                     "end": 164
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 154,
                                 "end": 164
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 153,
                             "end": 164
                         },
@@ -373,19 +373,19 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                             "start": 203,
                                             "end": 209
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 210,
                                         "end": 211
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 202,
                                     "end": 212
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 200,
                                 "end": 212
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 199,
                             "end": 212
                         },

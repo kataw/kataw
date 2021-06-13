@@ -89,13 +89,13 @@ function d(x: { (z: number): string }): () => string {
                                                         "start": 19,
                                                         "end": 26
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 17,
                                                     "end": 26
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 17,
                                             "end": 26
                                         },
@@ -106,17 +106,17 @@ function d(x: { (z: number): string }): () => string {
                                             "start": 28,
                                             "end": 35
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 37
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 37
                         },
@@ -181,7 +181,7 @@ function d(x: { (z: number): string }): () => string {
                         "kind": 282,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 41,
                         "end": 41
                     },
@@ -192,11 +192,11 @@ function d(x: { (z: number): string }): () => string {
                         "end": 52
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 39,
                     "end": 52
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 52
             },

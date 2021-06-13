@@ -16,7 +16,7 @@ export function createArrowTypeParameterList(
     kind: SyntaxKind.ArrowTypeParameterList,
     parameters,
     trailingComma,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

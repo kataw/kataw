@@ -79,25 +79,25 @@ var a: number & (string | bool)
                                                         "end": 30
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 25,
                                                     "end": 30
                                                 }
                                             ],
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 23,
                                             "end": 30
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 31
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 31
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 31
                         },

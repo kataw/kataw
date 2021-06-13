@@ -80,13 +80,13 @@ type X = ((x?) => T);
                                         "end": 13
                                     },
                                     "types": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 8,
                                     "end": 13
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 13
                         },
@@ -101,25 +101,25 @@ type X = ((x?) => T);
                                 "end": 19
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 19
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 19
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 21
         }

@@ -78,7 +78,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                 "end": 11
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 8,
                                             "end": 11
                                         },
@@ -96,7 +96,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                         "end": 13
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 12,
                                                     "end": 13
                                                 },
@@ -111,16 +111,16 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                         "end": 17
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 15,
                                                     "end": 17
                                                 }
                                             ],
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 13,
                                             "end": 17
                                         },
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 12,
                                         "end": 19
                                     },
@@ -138,7 +138,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                     "end": 20
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 19,
                                                 "end": 20
                                             },
@@ -153,16 +153,16 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                     "end": 24
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 22,
                                                 "end": 24
                                             }
                                         ],
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 20,
                                         "end": 24
                                     },
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 19,
                                     "end": 26
                                 },
@@ -190,7 +190,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                     "kind": 282,
                                                     "parameters": [],
                                                     "trailingComma": false,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 29,
                                                     "end": 29
                                                 },
@@ -201,29 +201,29 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                     "end": 37
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 28,
                                                 "end": 37
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 27,
                                             "end": 37
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 26,
                                     "end": 38
                                 },
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 26,
                                 "end": 40
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 40,
                             "end": 41
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 42,
                         "end": 43
                     },
@@ -258,7 +258,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                         "end": 46
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 44,
                                                     "end": 46
                                                 },
@@ -276,7 +276,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                                 "end": 48
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 47,
                                                             "end": 48
                                                         },
@@ -291,16 +291,16 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                                 "end": 52
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 50,
                                                             "end": 52
                                                         }
                                                     ],
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 48,
                                                     "end": 52
                                                 },
-                                                "flags": 0,
+                                                "flags": 2097152,
                                                 "start": 47,
                                                 "end": 54
                                             },
@@ -318,7 +318,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                             "end": 55
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 54,
                                                         "end": 55
                                                     },
@@ -333,16 +333,16 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                             "end": 59
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 57,
                                                         "end": 59
                                                     }
                                                 ],
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 55,
                                                 "end": 59
                                             },
-                                            "flags": 0,
+                                            "flags": 2097152,
                                             "start": 54,
                                             "end": 61
                                         },
@@ -370,7 +370,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                             "kind": 282,
                                                             "parameters": [],
                                                             "trailingComma": false,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 64,
                                                             "end": 64
                                                         },
@@ -381,33 +381,33 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                             "end": 72
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 63,
                                                         "end": 72
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 62,
                                                     "end": 72
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 2097152,
                                             "start": 61,
                                             "end": 73
                                         },
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 61,
                                         "end": 75
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 75,
                                     "end": 76
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 77,
                                 "end": 78
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 79,
                             "end": 80
                         },
@@ -422,16 +422,16 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                 "end": 86
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 84,
                             "end": 86
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 44,
                         "end": 86
                     },
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 44,
                     "end": 88
                 },
@@ -446,16 +446,16 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                         "end": 93
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 91,
                     "end": 93
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 93
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 94
         }

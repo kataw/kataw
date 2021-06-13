@@ -71,11 +71,11 @@ function foo(): {} {}
                     "kind": 134234353,
                     "properties": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 18
             },

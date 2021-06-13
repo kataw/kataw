@@ -62,14 +62,14 @@ type E = Obj['bar'][];
                             "end": 12
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 12
                     },
                     "indexType": {
                         "kind": 134217967,
                         "value": "bar",
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 13,
                         "end": 18
                     },
@@ -77,11 +77,11 @@ type E = Obj['bar'][];
                     "start": 13,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 20,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 22
         }

@@ -56,11 +56,11 @@ var a: (number)
                                     "start": 8,
                                     "end": 14
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 15
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 15
                         },

@@ -85,15 +85,15 @@ var f = (x): ?(number) => 123 => 123;
                                             "start": 15,
                                             "end": 21
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 14,
                                         "end": 22
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 12,
                                     "end": 22
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 22
                             },

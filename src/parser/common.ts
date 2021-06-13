@@ -326,6 +326,10 @@ export function isCaseOrDefaultClause(t: SyntaxKind): boolean {
   return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
 }
 
+export function isTypeNode(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.IsTypeNode) === NodeFlags.IsTypeNode;
+}
+
 export function isStatementNode(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.IsStatement) === NodeFlags.IsStatement;
 }

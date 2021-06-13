@@ -24,7 +24,7 @@ export function createObjectTypeSpreadProperty(
     ellipsisToken,
     type,
     staticToken,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

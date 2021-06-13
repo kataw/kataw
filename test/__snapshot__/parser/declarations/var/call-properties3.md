@@ -101,17 +101,17 @@ var z : Object = (x) => "hi"
                                             "start": 79,
                                             "end": 86
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 69,
                                         "end": 86
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 67,
                                 "end": 88
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 65,
                             "end": 88
                         },
@@ -221,21 +221,21 @@ var z : Object = (x) => "hi"
                                                 "end": 186
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 177,
                                             "end": 186
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 170,
                                         "end": 186
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 168,
                                 "end": 188
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 166,
                             "end": 188
                         },
@@ -464,17 +464,17 @@ var z : Object = (x) => "hi"
                                             "start": 329,
                                             "end": 336
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 321,
                                         "end": 336
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 319,
                                 "end": 338
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 317,
                             "end": 338
                         },
@@ -552,13 +552,13 @@ var z : Object = (x) => "hi"
                                                         "start": 357,
                                                         "end": 364
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 355,
                                                     "end": 364
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 355,
                                             "end": 364
                                         },
@@ -569,17 +569,17 @@ var z : Object = (x) => "hi"
                                             "start": 366,
                                             "end": 373
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 353,
                                         "end": 373
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 351,
                                 "end": 375
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 350,
                             "end": 375
                         },
@@ -710,13 +710,13 @@ var z : Object = (x) => "hi"
                                                         "start": 468,
                                                         "end": 475
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 466,
                                                     "end": 475
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 466,
                                             "end": 475
                                         },
@@ -727,17 +727,17 @@ var z : Object = (x) => "hi"
                                             "start": 477,
                                             "end": 484
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 464,
                                         "end": 484
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 462,
                                 "end": 486
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 461,
                             "end": 486
                         },
@@ -840,13 +840,13 @@ var z : Object = (x) => "hi"
                                                         "start": 550,
                                                         "end": 557
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 548,
                                                     "end": 557
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 548,
                                             "end": 557
                                         },
@@ -857,17 +857,17 @@ var z : Object = (x) => "hi"
                                             "start": 559,
                                             "end": 566
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 546,
                                         "end": 566
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 544,
                                 "end": 568
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 543,
                             "end": 568
                         },
@@ -981,7 +981,7 @@ var z : Object = (x) => "hi"
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 632,
                                             "end": 632
                                         },
@@ -992,17 +992,17 @@ var z : Object = (x) => "hi"
                                             "start": 634,
                                             "end": 641
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 630,
                                         "end": 641
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 628,
                                 "end": 643
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 627,
                             "end": 643
                         },
@@ -1105,13 +1105,13 @@ var z : Object = (x) => "hi"
                                                         "start": 709,
                                                         "end": 713
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 707,
                                                     "end": 713
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 707,
                                             "end": 713
                                         },
@@ -1122,17 +1122,17 @@ var z : Object = (x) => "hi"
                                             "start": 715,
                                             "end": 720
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 705,
                                         "end": 720
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 703,
                                 "end": 722
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 702,
                             "end": 722
                         },
@@ -1215,7 +1215,7 @@ var z : Object = (x) => "hi"
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 754,
                                             "end": 754
                                         },
@@ -1231,21 +1231,21 @@ var z : Object = (x) => "hi"
                                                 "end": 762
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 756,
                                             "end": 762
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 752,
                                         "end": 762
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 750,
                                 "end": 764
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 749,
                             "end": 764
                         },
@@ -1344,17 +1344,17 @@ var z : Object = (x) => "hi"
                                                             "end": 810
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 805,
                                                         "end": 810
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 803,
                                                     "end": 810
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 803,
                                             "end": 810
                                         },
@@ -1365,17 +1365,17 @@ var z : Object = (x) => "hi"
                                             "start": 812,
                                             "end": 817
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 801,
                                         "end": 817
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 799,
                                 "end": 819
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 798,
                             "end": 819
                         },
@@ -1495,11 +1495,11 @@ var z : Object = (x) => "hi"
                                 "kind": 134234353,
                                 "properties": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 908,
                                 "end": 911
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 906,
                             "end": 911
                         },
@@ -1585,11 +1585,11 @@ var z : Object = (x) => "hi"
                                     "end": 940
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 933,
                                 "end": 940
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 931,
                             "end": 940
                         },

@@ -54,7 +54,7 @@ declare opaque type Foo
             "typeParameters": null,
             "superType": null,
             "impltype": null,
-            "flags": 32,
+            "flags": 2097152,
             "start": 7,
             "end": 23
         }

@@ -91,17 +91,17 @@ declare class C {
                                     "end": 37
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 35,
                                 "end": 37
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 38
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 40
                 },

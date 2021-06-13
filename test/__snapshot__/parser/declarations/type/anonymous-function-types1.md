@@ -70,7 +70,7 @@ declare function foo(x: number, string): void;
                                 "start": 23,
                                 "end": 30
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 22,
                             "end": 30
                         },
@@ -103,7 +103,7 @@ declare function foo(x: number, string): void;
                     "start": 40,
                     "end": 45
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 7,
                 "end": 45
             },

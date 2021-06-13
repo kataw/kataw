@@ -81,11 +81,11 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "type": {
                     "kind": 134217967,
                     "value": "div",
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 31,
                     "end": 37
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 37
             },

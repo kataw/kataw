@@ -72,13 +72,13 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                                     "end": 18
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 9,
                                                 "end": 18
                                             },
                                             "optionalToken": null,
                                             "types": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 9,
                                             "end": 18
                                         },
@@ -98,11 +98,11 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                                     "end": 26
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 19,
                                                 "end": 26
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 26
                                         },
@@ -122,17 +122,17 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                                     "end": 33
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 26,
                                                 "end": 33
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 26,
                                             "end": 33
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 9,
                                     "end": 33
                                 },
@@ -143,11 +143,11 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                     "end": 43
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 9,
                                 "end": 43
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 43
                         },

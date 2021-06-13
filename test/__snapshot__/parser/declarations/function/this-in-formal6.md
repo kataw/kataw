@@ -73,7 +73,7 @@ declare function four<T>(this: T): void;
                                 "start": 26,
                                 "end": 33
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 25,
                             "end": 33
                         },
@@ -98,7 +98,7 @@ declare function four<T>(this: T): void;
                     "start": 35,
                     "end": 40
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 7,
                 "end": 40
             },
@@ -159,7 +159,7 @@ declare function four<T>(this: T): void;
                                 "start": 68,
                                 "end": 75
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 67,
                             "end": 75
                         },
@@ -188,7 +188,7 @@ declare function four<T>(this: T): void;
                                 "start": 79,
                                 "end": 86
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 78,
                             "end": 86
                         },
@@ -213,7 +213,7 @@ declare function four<T>(this: T): void;
                     "start": 88,
                     "end": 93
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 49,
                 "end": 93
             },
@@ -274,7 +274,7 @@ declare function four<T>(this: T): void;
                                 "start": 123,
                                 "end": 130
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 122,
                             "end": 130
                         },
@@ -308,7 +308,7 @@ declare function four<T>(this: T): void;
                                 "start": 137,
                                 "end": 141
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 136,
                             "end": 141
                         },
@@ -333,7 +333,7 @@ declare function four<T>(this: T): void;
                     "start": 143,
                     "end": 148
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 102,
                 "end": 148
             },
@@ -399,11 +399,11 @@ declare function four<T>(this: T): void;
                                     "end": 182
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 180,
                                 "end": 182
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 179,
                             "end": 182
                         },
@@ -434,12 +434,12 @@ declare function four<T>(this: T): void;
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 172,
                         "end": 173
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 171,
                 "end": 174
             },
@@ -451,7 +451,7 @@ declare function four<T>(this: T): void;
                     "start": 184,
                     "end": 189
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 157,
                 "end": 189
             },

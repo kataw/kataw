@@ -76,13 +76,13 @@ var g: { (x: string): void } = function(x: mixed) { }
                                                         "start": 12,
                                                         "end": 19
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 10,
                                                     "end": 19
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 19
                                         },
@@ -93,17 +93,17 @@ var g: { (x: string): void } = function(x: mixed) { }
                                             "start": 21,
                                             "end": 26
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 26
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 28
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 28
                         },
@@ -146,11 +146,11 @@ var g: { (x: string): void } = function(x: mixed) { }
                                                     "end": 48
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 42,
                                                 "end": 48
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 41,
                                             "end": 48
                                         },

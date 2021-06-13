@@ -94,19 +94,19 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                                     "start": 12,
                                                                     "end": 18
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 19,
                                                                 "end": 20
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 21,
                                                             "end": 22
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 23,
                                                         "end": 24
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 25,
                                                     "end": 26
                                                 },
@@ -146,7 +146,7 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                                                         "end": 32
                                                                                     },
                                                                                     "typeParameters": null,
-                                                                                    "flags": 32,
+                                                                                    "flags": 2097152,
                                                                                     "start": 28,
                                                                                     "end": 32
                                                                                 },
@@ -177,13 +177,13 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                                                                                 "end": 39
                                                                                                             },
                                                                                                             "typeParameters": null,
-                                                                                                            "flags": 32,
+                                                                                                            "flags": 2097152,
                                                                                                             "start": 36,
                                                                                                             "end": 39
                                                                                                         }
                                                                                                     ],
                                                                                                     "trailingComma": false,
-                                                                                                    "flags": 32,
+                                                                                                    "flags": 2097152,
                                                                                                     "start": 36,
                                                                                                     "end": 43
                                                                                                 },
@@ -198,33 +198,33 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                                                                         "end": 45
                                                                                                     },
                                                                                                     "typeParameters": null,
-                                                                                                    "flags": 32,
+                                                                                                    "flags": 2097152,
                                                                                                     "start": 43,
                                                                                                     "end": 45
                                                                                                 },
                                                                                                 "typeParameters": null,
-                                                                                                "flags": 32,
+                                                                                                "flags": 2097152,
                                                                                                 "start": 36,
                                                                                                 "end": 45
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 2097152,
                                                                                             "start": 36,
                                                                                             "end": 46
                                                                                         }
                                                                                     ],
                                                                                     "trailingComma": false,
-                                                                                    "flags": 32,
+                                                                                    "flags": 2097152,
                                                                                     "start": 34,
                                                                                     "end": 47
                                                                                 }
                                                                             ],
-                                                                            "flags": 32,
+                                                                            "flags": 2097152,
                                                                             "start": 32,
                                                                             "end": 47
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 32,
+                                                                    "flags": 2097152,
                                                                     "start": 28,
                                                                     "end": 51
                                                                 },
@@ -239,18 +239,18 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                                         "end": 53
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "flags": 32,
+                                                                    "flags": 2097152,
                                                                     "start": 51,
                                                                     "end": 53
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 28,
                                                                 "end": 53
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 28,
                                                         "end": 57
                                                     },
@@ -265,17 +265,17 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                             "end": 59
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 57,
                                                         "end": 59
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 28,
                                                     "end": 59
                                                 }
                                             ],
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 26,
                                             "end": 59
                                         },
@@ -290,18 +290,18 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                 "end": 65
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 63,
                                             "end": 65
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 11,
                                         "end": 65
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 69
                             },
@@ -316,18 +316,18 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                     "end": 71
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 69,
                                 "end": 71
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 71
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 75
                 },
@@ -342,16 +342,16 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                         "end": 77
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 75,
                     "end": 77
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 77
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 78
         }

@@ -63,12 +63,12 @@ class C<T> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 9
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 7,
                 "end": 10
             },
@@ -139,34 +139,34 @@ class C<T> {
                                                                     "end": 35
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 33,
                                                                 "end": 35
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 27,
                                                             "end": 35
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 2097152,
                                                     "start": 26,
                                                     "end": 36
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 26,
                                                 "end": 36
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 25,
                                         "end": 37
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 19,
                                     "end": 37
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 18,
                                 "end": 37
                             },
@@ -229,11 +229,11 @@ class C<T> {
                                                         "end": 54
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 52,
                                                     "end": 54
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 51,
                                                 "end": 54
                                             },
@@ -309,21 +309,21 @@ class C<T> {
                                                                                     "end": 82
                                                                                 },
                                                                                 "typeParameters": null,
-                                                                                "flags": 32,
+                                                                                "flags": 2097152,
                                                                                 "start": 80,
                                                                                 "end": 82
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 2097152,
                                                                             "start": 74,
                                                                             "end": 82
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 0,
+                                                                    "flags": 2097152,
                                                                     "start": 72,
                                                                     "end": 83
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 71,
                                                                 "end": 83
                                                             },

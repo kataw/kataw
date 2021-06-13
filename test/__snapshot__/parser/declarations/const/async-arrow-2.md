@@ -75,7 +75,7 @@ const f = async <T, R, S>(
                                         },
                                         "type": null,
                                         "defaultType": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 17,
                                         "end": 18
                                     },
@@ -91,7 +91,7 @@ const f = async <T, R, S>(
                                         },
                                         "type": null,
                                         "defaultType": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 19,
                                         "end": 21
                                     },
@@ -107,12 +107,12 @@ const f = async <T, R, S>(
                                         },
                                         "type": null,
                                         "defaultType": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 22,
                                         "end": 24
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 15,
                                 "end": 25
                             },
@@ -142,11 +142,11 @@ const f = async <T, R, S>(
                                                 "end": 33
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 31,
                                             "end": 33
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 30,
                                         "end": 33
                                     },
@@ -180,11 +180,11 @@ const f = async <T, R, S>(
                                                 "end": 41
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 39,
                                             "end": 41
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 38,
                                         "end": 41
                                     },
@@ -218,11 +218,11 @@ const f = async <T, R, S>(
                                                 "end": 49
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 47,
                                             "end": 49
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 46,
                                         "end": 49
                                     },

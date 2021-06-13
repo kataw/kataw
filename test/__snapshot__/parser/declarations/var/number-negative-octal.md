@@ -57,11 +57,11 @@ var a: -0x7B
                                     "end": 8
                                 },
                                 "value": 123,
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 6,
                                 "end": 12
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 12
                         },

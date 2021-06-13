@@ -93,17 +93,17 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                     "end": 18
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 17,
                                                 "end": 18
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 15,
                                             "end": 18
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 19
                                 },
@@ -136,37 +136,37 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                     "end": 24
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 23,
                                                 "end": 24
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 21,
                                             "end": 24
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 20,
                                     "end": 25
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 19,
                             "end": 25
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 9,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 27
         },
@@ -208,7 +208,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                             "end": 58
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 51,
                         "end": 58
                     },
@@ -223,7 +223,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                             "end": 67
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 60,
                         "end": 67
                     },
@@ -246,20 +246,20 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                 "end": 78
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 76,
                             "end": 78
                         },
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 69,
                         "end": 78
                     }
                 ],
-                "flags": 32,
+                "flags": 2097152,
                 "start": 58,
                 "end": 78
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 27,
             "end": 79
         }

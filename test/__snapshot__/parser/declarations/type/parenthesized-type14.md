@@ -52,15 +52,15 @@ type X = (1);
                 "type": {
                     "kind": 134217968,
                     "text": 1,
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 10,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 12
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 13
         }

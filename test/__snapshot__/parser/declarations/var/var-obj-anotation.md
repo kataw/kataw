@@ -87,17 +87,17 @@ var {x}: {x: string; } = { x: "hello" };
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 10,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 7,
                             "end": 22
                         },

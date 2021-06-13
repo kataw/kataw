@@ -84,17 +84,17 @@ type a = {[{x:y}]:string};
                                             "end": 15
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 14,
                                         "end": 15
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 12,
                                     "end": 15
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 16
                         },
@@ -104,17 +104,17 @@ type a = {[{x:y}]:string};
                             "start": 18,
                             "end": 24
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 24
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 26
         }

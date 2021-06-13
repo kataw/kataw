@@ -77,23 +77,23 @@ var f = (): (number) => 123;
                                         {
                                             "kind": 134217968,
                                             "text": 1,
-                                            "flags": 96,
+                                            "flags": 2097216,
                                             "start": 14,
                                             "end": 16
                                         },
                                         {
                                             "kind": 134217968,
                                             "text": 2,
-                                            "flags": 96,
+                                            "flags": 2097216,
                                             "start": 18,
                                             "end": 20
                                         }
                                     ],
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 16,
                                     "end": 20
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 20
                             },
@@ -167,11 +167,11 @@ var f = (): (number) => 123;
                                         "start": 41,
                                         "end": 47
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 39,
                                     "end": 48
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 38,
                                 "end": 48
                             },

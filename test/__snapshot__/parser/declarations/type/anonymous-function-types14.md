@@ -83,24 +83,24 @@ type T = Array<(string) => number>
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 15,
                                 "end": 33
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 15,
                             "end": 33
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 14,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 34
         }

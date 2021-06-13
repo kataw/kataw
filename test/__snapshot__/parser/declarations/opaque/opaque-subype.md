@@ -72,20 +72,20 @@ opaque type Counter: Box<T> = Container<T>;
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 25,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 25,
                             "end": 26
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 24,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 20,
                 "end": 27
             },
@@ -115,24 +115,24 @@ opaque type Counter: Box<T> = Container<T>;
                                     "end": 41
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 40,
                                 "end": 41
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 40,
                             "end": 41
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 39,
                     "end": 42
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 29,
                 "end": 42
             },
-            "flags": 32,
+            "flags": 2097152,
             "start": 0,
             "end": 42
         },

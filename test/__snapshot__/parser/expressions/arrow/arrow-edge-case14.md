@@ -175,11 +175,11 @@ a ? b ? (c => d) : e => (f => g) : h => i;
                                         "end": 36
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 34,
                                     "end": 36
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 32,
                                 "end": 36
                             },

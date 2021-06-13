@@ -71,12 +71,12 @@ class C2<X, Y> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 9
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 7,
                 "end": 10
             },
@@ -114,11 +114,11 @@ class C2<X, Y> {
                                         "end": 22
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 21,
                                     "end": 22
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 21,
                                 "end": 22
                             },
@@ -130,12 +130,12 @@ class C2<X, Y> {
                                     "start": 23,
                                     "end": 30
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 23,
                                 "end": 30
                             }
                         ],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 20,
                         "end": 31
                     },
@@ -194,11 +194,11 @@ class C2<X, Y> {
                                                         "end": 44
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 42,
                                                     "end": 44
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 41,
                                                 "end": 44
                                             },
@@ -226,11 +226,11 @@ class C2<X, Y> {
                                             "end": 48
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 46,
                                         "end": 48
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 45,
                                     "end": 48
                                 },
@@ -477,7 +477,7 @@ class C2<X, Y> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 154,
                         "end": 155
                     },
@@ -493,12 +493,12 @@ class C2<X, Y> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 156,
                         "end": 158
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 153,
                 "end": 159
             },
@@ -554,21 +554,21 @@ class C2<X, Y> {
                                                     "end": 172
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 170,
                                                 "end": 172
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 168,
                                             "end": 172
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 166,
                                     "end": 173
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 165,
                                 "end": 173
                             },
@@ -639,11 +639,11 @@ class C2<X, Y> {
                                                             "end": 188
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 187,
                                                         "end": 188
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 187,
                                                     "end": 188
                                                 },
@@ -660,24 +660,24 @@ class C2<X, Y> {
                                                             "end": 191
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 189,
                                                         "end": 191
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 189,
                                                     "end": 191
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 2097152,
                                             "start": 186,
                                             "end": 192
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 183,
                                         "end": 192
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 182,
                                     "end": 192
                                 },

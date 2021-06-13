@@ -67,19 +67,19 @@ type a = (?!x) => T;
                             "end": 11
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 11
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 11
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 11
         },

@@ -68,7 +68,7 @@ var a : A.B<T>
                                         "start": 10,
                                         "end": 11
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 7,
                                     "end": 11
                                 },
@@ -88,24 +88,24 @@ var a : A.B<T>
                                                     "end": 13
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 12,
                                                 "end": 13
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 12,
                                             "end": 13
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 11,
                                     "end": 14
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 7,
                                 "end": 14
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 14
                         },

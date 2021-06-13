@@ -100,34 +100,34 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                         "value": {
                                                             "kind": 134217967,
                                                             "value": "a",
-                                                            "flags": 96,
+                                                            "flags": 2097216,
                                                             "start": 41,
                                                             "end": 45
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 37,
                                                         "end": 45
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 2097152,
                                                 "start": 36,
                                                 "end": 46
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 36,
                                             "end": 46
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 35,
                                     "end": 47
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 28,
                                 "end": 47
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 27,
                             "end": 47
                         },
@@ -152,7 +152,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                     "start": 50,
                     "end": 55
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 7,
                 "end": 55
             },

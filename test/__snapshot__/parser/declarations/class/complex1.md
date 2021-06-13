@@ -76,7 +76,7 @@ class D<T> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 9
                     },
@@ -92,12 +92,12 @@ class D<T> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 12
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 7,
                 "end": 13
             },
@@ -135,11 +135,11 @@ class D<T> {
                                         "end": 22
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 20,
                                     "end": 22
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 19,
                                 "end": 22
                             },
@@ -202,11 +202,11 @@ class D<T> {
                                                         "end": 42
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 40,
                                                     "end": 42
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 39,
                                                 "end": 42
                                             },
@@ -332,11 +332,11 @@ class D<T> {
                                             "end": 76
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 74,
                                         "end": 76
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 73,
                                     "end": 76
                                 },
@@ -436,11 +436,11 @@ class D<T> {
                                             "end": 116
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 114,
                                         "end": 116
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 113,
                                     "end": 116
                                 },
@@ -545,12 +545,12 @@ class D<T> {
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 153,
                         "end": 154
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 152,
                 "end": 155
             },
@@ -588,11 +588,11 @@ class D<T> {
                                         "end": 164
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 162,
                                     "end": 164
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 161,
                                 "end": 164
                             },
@@ -641,12 +641,12 @@ class D<T> {
                                             },
                                             "type": null,
                                             "defaultType": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 170,
                                             "end": 171
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 169,
                                     "end": 172
                                 },
@@ -678,11 +678,11 @@ class D<T> {
                                                         "end": 177
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 175,
                                                     "end": 177
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 174,
                                                 "end": 177
                                             },
@@ -716,11 +716,11 @@ class D<T> {
                                                         "end": 183
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 181,
                                                     "end": 183
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 180,
                                                 "end": 183
                                             },
@@ -748,11 +748,11 @@ class D<T> {
                                             "end": 187
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 185,
                                         "end": 187
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 184,
                                     "end": 187
                                 },

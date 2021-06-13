@@ -84,13 +84,13 @@ type a = (([-1]| q & (x)) => T) => T
                                                             "end": 13
                                                         },
                                                         "value": 1,
-                                                        "flags": 96,
+                                                        "flags": 2097216,
                                                         "start": 12,
                                                         "end": 14
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 11,
                                                 "end": 15
                                             },
@@ -108,7 +108,7 @@ type a = (([-1]| q & (x)) => T) => T
                                                             "end": 18
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 16,
                                                         "end": 18
                                                     },
@@ -125,27 +125,27 @@ type a = (([-1]| q & (x)) => T) => T
                                                                 "end": 23
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 20,
                                                             "end": 23
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 20,
                                                         "end": 24
                                                     }
                                                 ],
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 18,
                                                 "end": 24
                                             }
                                         ],
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 28
                             },
@@ -160,18 +160,18 @@ type a = (([-1]| q & (x)) => T) => T
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 28,
                                 "end": 30
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 30
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 34
                 },
@@ -186,16 +186,16 @@ type a = (([-1]| q & (x)) => T) => T
                         "end": 36
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 34,
                     "end": 36
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 36
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 36
         }

@@ -99,7 +99,7 @@ class C {
                                         "start": 47,
                                         "end": 54
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 46,
                                     "end": 54
                                 },

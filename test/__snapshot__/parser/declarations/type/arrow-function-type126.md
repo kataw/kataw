@@ -67,25 +67,25 @@ type a = (|2&3,symbol['string']) => T;
                                     {
                                         "kind": 134217968,
                                         "text": 2,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 11,
                                         "end": 12
                                     },
                                     {
                                         "kind": 134217968,
                                         "text": 3,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 13,
                                         "end": 14
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 12,
                                 "end": 14
                             },
                             "optionalToken": null,
                             "types": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 14
                         },
@@ -105,21 +105,21 @@ type a = (|2&3,symbol['string']) => T;
                                 "indexType": {
                                     "kind": 134217967,
                                     "value": "string",
-                                    "flags": 96,
+                                    "flags": 2097216,
                                     "start": 22,
                                     "end": 30
                                 },
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 22,
                                 "end": 32
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 15,
                             "end": 31
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 31
                 },
@@ -134,16 +134,16 @@ type a = (|2&3,symbol['string']) => T;
                         "end": 37
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 35,
                     "end": 37
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 37
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 38
         }

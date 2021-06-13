@@ -74,7 +74,7 @@ type a = (a[b][-1][][]) => T;
                                         "end": 11
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 8,
                                     "end": 11
                                 },
@@ -89,11 +89,11 @@ type a = (a[b][-1][][]) => T;
                                         "end": 13
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 12,
                                     "end": 13
                                 },
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 12,
                                 "end": 15
                             },
@@ -106,19 +106,19 @@ type a = (a[b][-1][][]) => T;
                                     "end": 16
                                 },
                                 "value": 1,
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 15,
                                 "end": 17
                             },
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 15,
                             "end": 19
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 19,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 21,
                     "end": 22
                 },
@@ -133,16 +133,16 @@ type a = (a[b][-1][][]) => T;
                         "end": 28
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 26,
                     "end": 28
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 29
         }

@@ -81,7 +81,7 @@ const fn = async (a?: any): Promise<void> => {};
                                             "start": 21,
                                             "end": 25
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 20,
                                         "end": 25
                                     },
@@ -120,20 +120,20 @@ const fn = async (a?: any): Promise<void> => {};
                                                     "start": 36,
                                                     "end": 40
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 36,
                                                 "end": 40
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 35,
                                         "end": 41
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 27,
                                     "end": 41
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 26,
                                 "end": 41
                             },

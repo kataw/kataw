@@ -73,7 +73,7 @@ function five<T>(this: T) {}
                                 "start": 18,
                                 "end": 25
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 25
                         },
@@ -150,7 +150,7 @@ function five<T>(this: T) {}
                                 "start": 49,
                                 "end": 56
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 48,
                             "end": 56
                         },
@@ -235,7 +235,7 @@ function five<T>(this: T) {}
                                 "start": 85,
                                 "end": 92
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 84,
                             "end": 92
                         },
@@ -335,7 +335,7 @@ function five<T>(this: T) {}
                                 "start": 123,
                                 "end": 130
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 122,
                             "end": 130
                         },
@@ -456,11 +456,11 @@ function five<T>(this: T) {}
                                     "end": 172
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 170,
                                 "end": 172
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 169,
                             "end": 172
                         },
@@ -504,12 +504,12 @@ function five<T>(this: T) {}
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 162,
                         "end": 163
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 161,
                 "end": 164
             },

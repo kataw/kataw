@@ -77,12 +77,12 @@ a={123<T>(x: T): T {}}
                                                 },
                                                 "type": null,
                                                 "defaultType": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 7,
                                                 "end": 8
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 6,
                                         "end": 9
                                     },
@@ -114,11 +114,11 @@ a={123<T>(x: T): T {}}
                                                             "end": 14
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 12,
                                                         "end": 14
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 11,
                                                     "end": 14
                                                 },
@@ -146,11 +146,11 @@ a={123<T>(x: T): T {}}
                                                 "end": 18
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 16,
                                             "end": 18
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 18
                                     },

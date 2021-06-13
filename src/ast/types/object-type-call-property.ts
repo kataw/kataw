@@ -28,7 +28,7 @@ export function createObjectTypeCallProperty(
     value,
     staticToken,
     returnType,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

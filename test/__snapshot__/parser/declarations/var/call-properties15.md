@@ -81,17 +81,17 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                                             "end": 17
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 12,
                                                         "end": 17
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 10,
                                                     "end": 17
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 17
                                         },
@@ -102,17 +102,17 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                             "start": 19,
                                             "end": 24
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 26
                         },

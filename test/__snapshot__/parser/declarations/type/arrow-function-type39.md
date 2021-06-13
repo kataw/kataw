@@ -81,13 +81,13 @@ type a = (...x: string) => T;
                                 "start": 15,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 22
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 22
                 },
@@ -102,16 +102,16 @@ type a = (...x: string) => T;
                         "end": 28
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 26,
                     "end": 28
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 28
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 29
         }

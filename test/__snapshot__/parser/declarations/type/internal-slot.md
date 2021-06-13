@@ -76,23 +76,23 @@ type q = { [[foo]]: X }
                                 "end": 21
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 19,
                             "end": 21
                         },
                         "optionalToken": null,
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 21
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 23
         },
@@ -140,7 +140,7 @@ type q = { [[foo]]: X }
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 44,
                                 "end": 44
                             },
@@ -155,28 +155,28 @@ type q = { [[foo]]: X }
                                     "end": 48
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 46,
                                 "end": 48
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 35,
                             "end": 48
                         },
                         "optionalToken": null,
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 35,
                         "end": 48
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 33,
                 "end": 50
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 23,
             "end": 50
         },
@@ -229,7 +229,7 @@ type q = { [[foo]]: X }
                                 "end": 74
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 72,
                             "end": 74
                         },
@@ -240,17 +240,17 @@ type q = { [[foo]]: X }
                             "end": 71
                         },
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 62,
                         "end": 74
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 60,
                 "end": 76
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 50,
             "end": 76
         },
@@ -303,23 +303,23 @@ type q = { [[foo]]: X }
                                 "end": 99
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 97,
                             "end": 99
                         },
                         "optionalToken": null,
                         "staticToken": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 88,
                         "end": 99
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 86,
                 "end": 101
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 76,
             "end": 101
         }

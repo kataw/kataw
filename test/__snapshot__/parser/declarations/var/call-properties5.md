@@ -76,13 +76,13 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                                         "start": 12,
                                                         "end": 19
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 10,
                                                     "end": 19
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 19
                                         },
@@ -93,17 +93,17 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                             "start": 21,
                                             "end": 28
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 30
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 30
                         },
@@ -141,7 +141,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                                 "start": 45,
                                                 "end": 52
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 44,
                                             "end": 52
                                         },
@@ -200,7 +200,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                     "start": 54,
                                     "end": 61
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 53,
                                 "end": 61
                             },

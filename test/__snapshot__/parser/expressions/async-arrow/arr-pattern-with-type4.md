@@ -71,7 +71,7 @@
                                         "start": 12,
                                         "end": 19
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 11,
                                     "end": 19
                                 },

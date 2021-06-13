@@ -28,7 +28,7 @@ export function createInterfaceDeclaration(
     typeParameters,
     types,
     members,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

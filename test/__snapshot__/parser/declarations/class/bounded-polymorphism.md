@@ -67,21 +67,21 @@ class A<T: Foo> {}
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 10,
                                 "end": 14
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 9,
                             "end": 14
                         },
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 14
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 7,
                 "end": 15
             },

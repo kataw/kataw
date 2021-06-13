@@ -75,7 +75,7 @@ type X = (x | y & z, q: string) => T;
                                             "end": 11
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 11
                                     },
@@ -93,7 +93,7 @@ type X = (x | y & z, q: string) => T;
                                                     "end": 15
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 13,
                                                 "end": 15
                                             },
@@ -108,23 +108,23 @@ type X = (x | y & z, q: string) => T;
                                                     "end": 19
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 17,
                                                 "end": 19
                                             }
                                         ],
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 19
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 19
                             },
                             "optionalToken": null,
                             "types": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 19
                         },
@@ -146,13 +146,13 @@ type X = (x | y & z, q: string) => T;
                                 "start": 23,
                                 "end": 30
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 20,
                             "end": 30
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 30
                 },
@@ -167,16 +167,16 @@ type X = (x | y & z, q: string) => T;
                         "end": 36
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 34,
                     "end": 36
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 36
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 37
         }

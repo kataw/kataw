@@ -78,7 +78,7 @@ declare class X {
                                 "start": 22,
                                 "end": 29
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 30
                         },
@@ -108,7 +108,7 @@ declare class X {
                                 "start": 42,
                                 "end": 49
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 30,
                             "end": 50
                         },
@@ -133,13 +133,13 @@ declare class X {
                                 "start": 55,
                                 "end": 62
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 50,
                             "end": 63
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 65
                 },

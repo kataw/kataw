@@ -82,11 +82,11 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "end": 36
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 34,
                                 "end": 36
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 33,
                             "end": 36
                         },
@@ -131,7 +131,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             },
                                             "optionalToken": null,
                                             "types": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 40,
                                             "end": 48
                                         },
@@ -156,17 +156,17 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                     "end": 54
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 49,
                                                 "end": 54
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 49,
                                             "end": 54
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 40,
                                     "end": 54
                                 },
@@ -177,11 +177,11 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "end": 63
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 40,
                                 "end": 63
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 39,
                             "end": 63
                         },
@@ -479,21 +479,21 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 30
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 30
                         },
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 30
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 10,
                 "end": 31
             },
@@ -579,30 +579,30 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 178,
                                                 "end": 184
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 178,
                                             "end": 184
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 177,
                                     "end": 184
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 171,
                                 "end": 184
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 170,
                             "end": 184
                         },
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 169,
                         "end": 184
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 168,
                 "end": 184
             },
@@ -658,11 +658,11 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "end": 191
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 189,
                                         "end": 191
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 188,
                                     "end": 191
                                 },
@@ -707,7 +707,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                     },
                                                     "optionalToken": null,
                                                     "types": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 195,
                                                     "end": 203
                                                 },
@@ -732,17 +732,17 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                             "end": 209
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 204,
                                                         "end": 209
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 204,
                                                     "end": 209
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 195,
                                             "end": 209
                                         },
@@ -753,11 +753,11 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "end": 218
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 195,
                                         "end": 218
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 194,
                                     "end": 218
                                 },

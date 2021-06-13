@@ -71,17 +71,17 @@ type a = {x: number, };
                             "start": 12,
                             "end": 19
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 20
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 23
         }

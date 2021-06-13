@@ -73,11 +73,11 @@ type F = $Call<Fn1, number, string>;
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 15,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 15,
                             "end": 18
                         },
@@ -89,7 +89,7 @@ type F = $Call<Fn1, number, string>;
                                 "start": 19,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 19,
                             "end": 26
                         },
@@ -101,20 +101,20 @@ type F = $Call<Fn1, number, string>;
                                 "start": 27,
                                 "end": 34
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 27,
                             "end": 34
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 14,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 36
         }

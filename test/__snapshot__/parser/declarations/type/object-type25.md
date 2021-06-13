@@ -98,13 +98,13 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                             "end": 20
                                                                         },
                                                                         "value": 1,
-                                                                        "flags": 96,
+                                                                        "flags": 2097216,
                                                                         "start": 19,
                                                                         "end": 21
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 18,
                                                                 "end": 25
                                                             },
@@ -125,7 +125,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                     "end": 28
                                                                                 },
                                                                                 "typeParameters": null,
-                                                                                "flags": 32,
+                                                                                "flags": 2097152,
                                                                                 "start": 27,
                                                                                 "end": 28
                                                                             },
@@ -140,27 +140,27 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                     "end": 30
                                                                                 },
                                                                                 "typeParameters": null,
-                                                                                "flags": 32,
+                                                                                "flags": 2097152,
                                                                                 "start": 29,
                                                                                 "end": 30
                                                                             }
                                                                         ],
-                                                                        "flags": 32,
+                                                                        "flags": 2097152,
                                                                         "start": 28,
                                                                         "end": 30
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 25,
                                                                 "end": 31
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 18,
                                                             "end": 31
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 16,
                                                         "end": 33
                                                     },
@@ -170,19 +170,19 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                         "start": 35,
                                                         "end": 41
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 15,
                                                     "end": 41
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 2097152,
                                             "start": 14,
                                             "end": 42
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 13,
                                     "end": 46
                                 },
@@ -203,7 +203,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                         "end": 49
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 48,
                                                     "end": 49
                                                 },
@@ -218,27 +218,27 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                         "end": 51
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 50,
                                                     "end": 51
                                                 }
                                             ],
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 49,
                                             "end": 51
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 46,
                                     "end": 52
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 52
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 54
                         },
@@ -248,17 +248,17 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                             "start": 56,
                             "end": 62
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 62
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 63
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 64
         }

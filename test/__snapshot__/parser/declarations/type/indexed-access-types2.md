@@ -64,14 +64,14 @@ type C = Obj['bar'][foo]['boz'];
                                 "end": 12
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 12
                         },
                         "indexType": {
                             "kind": 134217967,
                             "value": "bar",
-                            "flags": 96,
+                            "flags": 2097216,
                             "start": 13,
                             "end": 18
                         },
@@ -90,7 +90,7 @@ type C = Obj['bar'][foo]['boz'];
                             "end": 23
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 20,
                         "end": 23
                     },
@@ -101,7 +101,7 @@ type C = Obj['bar'][foo]['boz'];
                 "indexType": {
                     "kind": 134217967,
                     "value": "boz",
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 25,
                     "end": 30
                 },
@@ -109,7 +109,7 @@ type C = Obj['bar'][foo]['boz'];
                 "start": 25,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 32
         }

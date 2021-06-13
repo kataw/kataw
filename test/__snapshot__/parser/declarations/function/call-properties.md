@@ -78,7 +78,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 71,
                                             "end": 71
                                         },
@@ -89,7 +89,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "start": 73,
                                             "end": 80
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 69,
                                         "end": 81
                                     },
@@ -118,13 +118,13 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                         "start": 85,
                                                         "end": 92
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 83,
                                                     "end": 92
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 83,
                                             "end": 92
                                         },
@@ -135,17 +135,17 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "start": 94,
                                             "end": 101
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 81,
                                         "end": 101
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 67,
                                 "end": 103
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 66,
                             "end": 103
                         },
@@ -210,7 +210,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "kind": 282,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 107,
                         "end": 107
                     },
@@ -221,11 +221,11 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "end": 118
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 105,
                     "end": 118
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 118
             },
@@ -280,7 +280,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 185,
                                             "end": 185
                                         },
@@ -291,7 +291,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "start": 187,
                                             "end": 194
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 183,
                                         "end": 195
                                     },
@@ -320,13 +320,13 @@ function e(x: { (): string; (x: number): string }): () => number {
                                                         "start": 199,
                                                         "end": 206
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 197,
                                                     "end": 206
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 197,
                                             "end": 206
                                         },
@@ -337,17 +337,17 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "start": 208,
                                             "end": 215
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 195,
                                         "end": 215
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 181,
                                 "end": 217
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 180,
                             "end": 217
                         },
@@ -412,7 +412,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "kind": 282,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 221,
                         "end": 221
                     },
@@ -423,11 +423,11 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "end": 232
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 219,
                     "end": 232
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 134,
                 "end": 232
             },

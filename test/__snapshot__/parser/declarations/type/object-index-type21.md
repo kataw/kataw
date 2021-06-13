@@ -66,7 +66,7 @@ type x = { [y]: z[q] | null };
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 13
                         },
@@ -86,7 +86,7 @@ type x = { [y]: z[q] | null };
                                             "end": 17
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -101,7 +101,7 @@ type x = { [y]: z[q] | null };
                                             "end": 19
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 18,
                                         "end": 19
                                     },
@@ -116,21 +116,21 @@ type x = { [y]: z[q] | null };
                                     "end": 27
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 20,
                             "end": 27
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 27
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 29
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 30
         }

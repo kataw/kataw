@@ -101,17 +101,17 @@ declare class B {
                                                     "end": 45
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 41,
                                                 "end": 45
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 41,
                                             "end": 45
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 41,
                                     "end": 45
                                 },
@@ -119,22 +119,22 @@ declare class B {
                                     "kind": 134234353,
                                     "properties": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 47,
                                     "end": 50
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 39,
                                 "end": 50
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 51
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 53
                 },

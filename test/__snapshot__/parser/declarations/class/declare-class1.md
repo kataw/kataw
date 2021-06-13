@@ -58,7 +58,7 @@ type T2 = number;
                     "kind": 134234353,
                     "properties": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 16,
                     "end": 19
                 },
@@ -105,7 +105,7 @@ type T2 = number;
                 "start": 38,
                 "end": 45
             },
-            "flags": 4112,
+            "flags": 2101248,
             "start": 28,
             "end": 46
         },
@@ -139,7 +139,7 @@ type T2 = number;
                 "start": 57,
                 "end": 64
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 46,
             "end": 65
         }

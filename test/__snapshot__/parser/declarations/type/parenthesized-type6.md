@@ -63,7 +63,7 @@ type X = (x | y);
                                 "end": 11
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 11
                         },
@@ -78,20 +78,20 @@ type X = (x | y);
                                 "end": 15
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 13,
                             "end": 15
                         }
                     ],
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 11,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 16
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 17
         }

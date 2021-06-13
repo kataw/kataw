@@ -68,16 +68,16 @@ var a : A.B
                                         "start": 10,
                                         "end": 11
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 7,
                                     "end": 11
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 7,
                                 "end": 11
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 11
                         },

@@ -80,7 +80,7 @@ hello();
                                             "start": 22,
                                             "end": 28
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 21,
                                         "end": 28
                                     },
@@ -106,7 +106,7 @@ hello();
                                     "start": 42,
                                     "end": 49
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 40,
                                 "end": 49
                             },

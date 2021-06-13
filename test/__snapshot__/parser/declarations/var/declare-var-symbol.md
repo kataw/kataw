@@ -59,7 +59,7 @@ declare var x: symbol;
                                 "start": 14,
                                 "end": 21
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 13,
                             "end": 21
                         },

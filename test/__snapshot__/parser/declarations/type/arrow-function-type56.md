@@ -73,13 +73,13 @@ type a = ([-1] | x | q & (x)) => T;
                                                 "end": 12
                                             },
                                             "value": 1,
-                                            "flags": 96,
+                                            "flags": 2097216,
                                             "start": 11,
                                             "end": 13
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 10,
                                     "end": 14
                                 },
@@ -94,7 +94,7 @@ type a = ([-1] | x | q & (x)) => T;
                                         "end": 18
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -112,7 +112,7 @@ type a = ([-1] | x | q & (x)) => T;
                                                 "end": 22
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 20,
                                             "end": 22
                                         },
@@ -129,27 +129,27 @@ type a = ([-1] | x | q & (x)) => T;
                                                     "end": 27
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 24,
                                                 "end": 27
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 24,
                                             "end": 28
                                         }
                                     ],
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 22,
                                     "end": 28
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 14,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 32
                 },
@@ -164,16 +164,16 @@ type a = ([-1] | x | q & (x)) => T;
                         "end": 34
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 32,
                     "end": 34
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 34
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 35
         }

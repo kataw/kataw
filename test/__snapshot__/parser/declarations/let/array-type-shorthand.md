@@ -55,11 +55,11 @@ let arr: number[] = [0, 1, 2, 3];
                                     "start": 8,
                                     "end": 15
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 16,
                                 "end": 17
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 7,
                             "end": 17
                         },

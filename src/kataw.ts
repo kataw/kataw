@@ -182,6 +182,7 @@ export {
   isSemicolon,
   isCallExpression,
   isMemberExpression,
+  isTypeNode,
   isTemplateLiteral,
   shouldIgnoreNextNode
 } from './parser/common';

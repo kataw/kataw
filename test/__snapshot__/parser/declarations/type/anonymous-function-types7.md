@@ -89,26 +89,26 @@ type A = (...Array<string>) => void
                                                 "start": 19,
                                                 "end": 25
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 25
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 18,
                                     "end": 26
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 10,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 26
                 },
@@ -119,11 +119,11 @@ type A = (...Array<string>) => void
                     "end": 35
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 35
         }

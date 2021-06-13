@@ -9,7 +9,7 @@ export function createUnionType(types: readonly TypeNode[], start: number, end: 
   return {
     kind: SyntaxKind.UnionType,
     types,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

@@ -58,23 +58,23 @@ var x:
                                     {
                                         "kind": 134217968,
                                         "text": 1,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 9,
                                         "end": 11
                                     },
                                     {
                                         "kind": 134217968,
                                         "text": 2,
-                                        "flags": 96,
+                                        "flags": 2097216,
                                         "start": 14,
                                         "end": 16
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 11,
                                 "end": 16
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 16
                         },

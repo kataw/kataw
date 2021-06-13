@@ -141,37 +141,37 @@ async function foo() {
                                                                     "end": 35
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 34,
                                                                 "end": 35
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 34,
                                                             "end": 35
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 2097152,
                                                     "start": 33,
                                                     "end": 35
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 28,
                                                 "end": 35
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 28,
                                             "end": 35
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 27,
                                     "end": 35
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 19,
                                 "end": 35
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 18,
                             "end": 35
                         },

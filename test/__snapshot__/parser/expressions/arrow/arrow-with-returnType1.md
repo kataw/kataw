@@ -66,11 +66,11 @@
                             "end": 13
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 13
                 },

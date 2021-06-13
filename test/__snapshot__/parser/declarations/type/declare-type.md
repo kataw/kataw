@@ -58,7 +58,7 @@ declare type bool = any;
                 "start": 19,
                 "end": 23
             },
-            "flags": 4112,
+            "flags": 2101248,
             "start": 7,
             "end": 24
         }

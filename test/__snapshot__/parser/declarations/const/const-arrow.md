@@ -86,11 +86,11 @@ const foo = (foo?: bar) => {};
                                                 "end": 22
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 18,
                                             "end": 22
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 17,
                                         "end": 22
                                     },

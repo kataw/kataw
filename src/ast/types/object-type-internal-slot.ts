@@ -32,7 +32,7 @@ export function createObjectTypeInternalSlot(
     value,
     optionalToken,
     staticToken,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

@@ -98,12 +98,12 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                                     "end": 28
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 24,
                                                 "end": 28
                                             }
                                         ],
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 22,
                                         "end": 28
                                     },
@@ -158,12 +158,12 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                                                             "end": 50
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "flags": 32,
+                                                                        "flags": 2097152,
                                                                         "start": 46,
                                                                         "end": 50
                                                                     }
                                                                 ],
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 44,
                                                                 "end": 50
                                                             },
@@ -178,22 +178,22 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                                                     "end": 56
                                                                 },
                                                                 "typeParameters": null,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 52,
                                                                 "end": 56
                                                             }
                                                         ],
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 50,
                                                         "end": 56
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 32,
                                                     "end": 56
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 32,
                                             "end": 56
                                         },
@@ -208,27 +208,27 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                                 "end": 62
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 60,
                                             "end": 62
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 30,
                                         "end": 62
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 28,
                                 "end": 62
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 62
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 62
                 },
@@ -243,16 +243,16 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                         "end": 68
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 66,
                     "end": 68
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 68
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 69
         }

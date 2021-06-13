@@ -60,7 +60,7 @@ var c: { (): string; (x: number): string } =
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 10
                                         },
@@ -71,7 +71,7 @@ var c: { (): string; (x: number): string } =
                                             "start": 12,
                                             "end": 19
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 20
                                     },
@@ -100,13 +100,13 @@ var c: { (): string; (x: number): string } =
                                                         "start": 24,
                                                         "end": 31
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 22,
                                                     "end": 31
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 22,
                                             "end": 31
                                         },
@@ -117,17 +117,17 @@ var c: { (): string; (x: number): string } =
                                             "start": 33,
                                             "end": 40
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 20,
                                         "end": 40
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 42
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 42
                         },
@@ -165,7 +165,7 @@ var c: { (): string; (x: number): string } =
                                                 "start": 59,
                                                 "end": 66
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 58,
                                             "end": 66
                                         },
@@ -224,7 +224,7 @@ var c: { (): string; (x: number): string } =
                                     "start": 68,
                                     "end": 75
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 67,
                                 "end": 75
                             },

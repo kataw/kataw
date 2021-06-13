@@ -54,7 +54,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                     "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 17,
                     "end": 17
                 },
@@ -83,13 +83,13 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "end": 19
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 17,
                                     "end": 19
                                 },
                                 "optionalToken": null,
                                 "types": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 17,
                                 "end": 19
                             },
@@ -109,17 +109,17 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "end": 22
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 20,
                                     "end": 22
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 20,
                                 "end": 22
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 17,
                         "end": 22
                     },
@@ -137,7 +137,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 26,
                                 "end": 28
                             },
@@ -152,17 +152,17 @@ type Fn2 = <A, B>(A, B) => A | B;
                                     "end": 32
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 30,
                                 "end": 32
                             }
                         ],
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 28,
                         "end": 32
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 17,
                     "end": 32
                 },
@@ -181,7 +181,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                             },
                             "type": null,
                             "defaultType": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 13
                         },
@@ -197,20 +197,20 @@ type Fn2 = <A, B>(A, B) => A | B;
                             },
                             "type": null,
                             "defaultType": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 14,
                             "end": 16
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 10,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 33
         }

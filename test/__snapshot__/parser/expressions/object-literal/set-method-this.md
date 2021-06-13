@@ -105,7 +105,7 @@ x = {set this(this: string):number{}};
                                             "start": 20,
                                             "end": 26
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 19,
                                         "end": 26
                                     },
@@ -217,7 +217,7 @@ x = {set this(this: string):number{}};
                                                         "start": 51,
                                                         "end": 58
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 50,
                                                     "end": 58
                                                 },
@@ -240,7 +240,7 @@ x = {set this(this: string):number{}};
                                             "start": 60,
                                             "end": 66
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 59,
                                         "end": 66
                                     },

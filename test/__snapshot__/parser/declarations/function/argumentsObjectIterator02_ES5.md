@@ -92,7 +92,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                     "start": 34,
                     "end": 41
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 41
             },

@@ -71,7 +71,7 @@ type a = {function((((-1) => [c|d]))):string};
                                 "kind": 282,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 19,
                                 "end": 19
                             },
@@ -97,13 +97,13 @@ type a = {function((((-1) => [c|d]))):string};
                                                     "end": 23
                                                 },
                                                 "value": 1,
-                                                "flags": 96,
+                                                "flags": 2097216,
                                                 "start": 22,
                                                 "end": 24
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 21,
                                         "end": 28
                                     },
@@ -124,7 +124,7 @@ type a = {function((((-1) => [c|d]))):string};
                                                             "end": 31
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 30,
                                                         "end": 31
                                                     },
@@ -139,46 +139,46 @@ type a = {function((((-1) => [c|d]))):string};
                                                             "end": 33
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 32,
                                                         "end": 33
                                                     }
                                                 ],
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 31,
                                                 "end": 33
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 28,
                                         "end": 34
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 21,
                                     "end": 34
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 19,
                                 "end": 36
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 18,
                             "end": 36
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 36
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 36
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 36
         },

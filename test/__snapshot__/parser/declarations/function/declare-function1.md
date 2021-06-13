@@ -94,20 +94,20 @@ declare function aw<T>(p: Pr<T> | T): T;
                                                             "end": 30
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 29,
                                                         "end": 30
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 29,
                                                     "end": 30
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 2097152,
                                             "start": 28,
                                             "end": 31
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 25,
                                         "end": 31
                                     },
@@ -122,16 +122,16 @@ declare function aw<T>(p: Pr<T> | T): T;
                                             "end": 35
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 33,
                                         "end": 35
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 31,
                                 "end": 35
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 24,
                             "end": 35
                         },
@@ -162,12 +162,12 @@ declare function aw<T>(p: Pr<T> | T): T;
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 20,
                         "end": 21
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 19,
                 "end": 22
             },
@@ -184,11 +184,11 @@ declare function aw<T>(p: Pr<T> | T): T;
                         "end": 39
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 37,
                     "end": 39
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 7,
                 "end": 39
             },

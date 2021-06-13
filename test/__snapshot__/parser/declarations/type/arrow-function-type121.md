@@ -74,13 +74,13 @@ type a = [(&x,|a) => T];
                                             "end": 13
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 12,
                                         "end": 13
                                     },
                                     "optionalToken": null,
                                     "types": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -100,17 +100,17 @@ type a = [(&x,|a) => T];
                                             "end": 16
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 16
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 16
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 16
                         },
@@ -125,22 +125,22 @@ type a = [(&x,|a) => T];
                                 "end": 22
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 20,
                             "end": 22
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 23
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 24
         }

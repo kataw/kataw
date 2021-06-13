@@ -77,7 +77,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 16,
                                             "end": 23
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 24
                                     },
@@ -102,7 +102,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 32,
                                             "end": 39
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 24,
                                         "end": 40
                                     },
@@ -127,17 +127,17 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 48,
                                             "end": 55
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 40,
                                         "end": 56
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 57
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 57
                         },

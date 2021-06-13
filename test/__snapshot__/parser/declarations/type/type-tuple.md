@@ -67,17 +67,17 @@ type A = { [string]: number };
                             "start": 20,
                             "end": 27
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 27
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 29
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 30
         }

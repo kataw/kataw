@@ -69,11 +69,11 @@ declare var union: Foo | null | void;
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 14,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 13,
                             "end": 18
                         },
@@ -132,11 +132,11 @@ declare var union: Foo | null | void;
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 38,
                                 "end": 44
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 37,
                             "end": 44
                         },
@@ -190,7 +190,7 @@ declare var union: Foo | null | void;
                                 "start": 62,
                                 "end": 66
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 61,
                             "end": 66
                         },
@@ -249,11 +249,11 @@ declare var union: Foo | null | void;
                                     "end": 92
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 86,
                                 "end": 92
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 85,
                             "end": 92
                         },
@@ -320,15 +320,15 @@ declare var union: Foo | null | void;
                                         "end": 117
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 114,
                                     "end": 117
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 112,
                                 "end": 117
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 111,
                             "end": 117
                         },
@@ -390,7 +390,7 @@ declare var union: Foo | null | void;
                                             "end": 141
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 137,
                                         "end": 141
                                     },
@@ -407,11 +407,11 @@ declare var union: Foo | null | void;
                                         "end": 155
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 141,
                                 "end": 155
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 136,
                             "end": 155
                         },

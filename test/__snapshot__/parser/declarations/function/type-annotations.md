@@ -86,7 +86,7 @@ function foo28(numVal?: number = 2) {}
                                 "start": 21,
                                 "end": 25
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 20,
                             "end": 25
                         },
@@ -163,7 +163,7 @@ function foo28(numVal?: number = 2) {}
                                 "start": 51,
                                 "end": 58
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 50,
                             "end": 58
                         },
@@ -240,7 +240,7 @@ function foo28(numVal?: number = 2) {}
                                 "start": 84,
                                 "end": 91
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 83,
                             "end": 91
                         },
@@ -269,7 +269,7 @@ function foo28(numVal?: number = 2) {}
                                 "start": 100,
                                 "end": 107
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 99,
                             "end": 107
                         },
@@ -346,7 +346,7 @@ function foo28(numVal?: number = 2) {}
                                 "start": 133,
                                 "end": 140
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 132,
                             "end": 140
                         },
@@ -439,7 +439,7 @@ function foo28(numVal?: number = 2) {}
                                 "start": 190,
                                 "end": 197
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 189,
                             "end": 197
                         },
@@ -524,11 +524,11 @@ function foo28(numVal?: number = 2) {}
                                     "start": 230,
                                     "end": 236
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 228,
                                 "end": 236
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 227,
                             "end": 236
                         },
@@ -611,7 +611,7 @@ function foo28(numVal?: number = 2) {}
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 266,
                                     "end": 266
                                 },
@@ -622,11 +622,11 @@ function foo28(numVal?: number = 2) {}
                                     "end": 275
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 264,
                                 "end": 275
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 263,
                             "end": 275
                         },
@@ -709,7 +709,7 @@ function foo28(numVal?: number = 2) {}
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 305,
                                     "end": 305
                                 },
@@ -720,11 +720,11 @@ function foo28(numVal?: number = 2) {}
                                     "end": 316
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 303,
                                 "end": 316
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 302,
                             "end": 316
                         },
@@ -829,17 +829,17 @@ function foo28(numVal?: number = 2) {}
                                                     "end": 353
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 348,
                                                 "end": 353
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 344,
                                             "end": 353
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 344,
                                     "end": 353
                                 },
@@ -850,11 +850,11 @@ function foo28(numVal?: number = 2) {}
                                     "end": 364
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 344,
                                 "end": 364
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 343,
                             "end": 364
                         },
@@ -959,11 +959,11 @@ function foo28(numVal?: number = 2) {}
                                                     "end": 403
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 398,
                                                 "end": 403
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 393,
                                             "end": 403
                                         },
@@ -985,13 +985,13 @@ function foo28(numVal?: number = 2) {}
                                                 "start": 408,
                                                 "end": 415
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 404,
                                             "end": 415
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 393,
                                     "end": 415
                                 },
@@ -1002,11 +1002,11 @@ function foo28(numVal?: number = 2) {}
                                     "end": 426
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 393,
                                 "end": 426
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 392,
                             "end": 426
                         },
@@ -1111,11 +1111,11 @@ function foo28(numVal?: number = 2) {}
                                                     "end": 465
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 460,
                                                 "end": 465
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 455,
                                             "end": 465
                                         },
@@ -1157,26 +1157,26 @@ function foo28(numVal?: number = 2) {}
                                                                 "start": 481,
                                                                 "end": 487
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 481,
                                                             "end": 487
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 2097152,
                                                     "start": 480,
                                                     "end": 488
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 474,
                                                 "end": 488
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 466,
                                             "end": 488
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 455,
                                     "end": 488
                                 },
@@ -1187,11 +1187,11 @@ function foo28(numVal?: number = 2) {}
                                     "end": 499
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 455,
                                 "end": 499
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 454,
                             "end": 499
                         },
@@ -1276,7 +1276,7 @@ function foo28(numVal?: number = 2) {}
                     "start": 521,
                     "end": 528
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 503,
                 "end": 528
             },
@@ -1340,7 +1340,7 @@ function foo28(numVal?: number = 2) {}
                         "kind": 282,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 549,
                         "end": 549
                     },
@@ -1351,11 +1351,11 @@ function foo28(numVal?: number = 2) {}
                         "end": 558
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 548,
                     "end": 558
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 530,
                 "end": 558
             },
@@ -1441,17 +1441,17 @@ function foo28(numVal?: number = 2) {}
                                         "end": 586
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 582,
                                     "end": 586
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 579,
                                 "end": 586
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 579,
                         "end": 586
                     },
@@ -1462,11 +1462,11 @@ function foo28(numVal?: number = 2) {}
                         "end": 597
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 579,
                     "end": 597
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 561,
                 "end": 597
             },
@@ -1557,17 +1557,17 @@ function foo28(numVal?: number = 2) {}
                                         "end": 625
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 621,
                                     "end": 625
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 617,
                                 "end": 625
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 617,
                         "end": 625
                     },
@@ -1578,11 +1578,11 @@ function foo28(numVal?: number = 2) {}
                         "end": 636
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 617,
                     "end": 636
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 599,
                 "end": 636
             },
@@ -1638,11 +1638,11 @@ function foo28(numVal?: number = 2) {}
                     "kind": 134234353,
                     "properties": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 656,
                     "end": 659
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 638,
                 "end": 659
             },
@@ -1706,12 +1706,12 @@ function foo28(numVal?: number = 2) {}
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 678,
                         "end": 679
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 677,
                 "end": 680
             },
@@ -1795,17 +1795,17 @@ function foo28(numVal?: number = 2) {}
                                             "start": 710,
                                             "end": 717
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 707,
                                         "end": 718
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 705,
                                 "end": 720
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 704,
                             "end": 720
                         },
@@ -1912,20 +1912,20 @@ function foo28(numVal?: number = 2) {}
                                                 "start": 751,
                                                 "end": 757
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 751,
                                             "end": 757
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 750,
                                     "end": 758
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 744,
                                 "end": 758
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 743,
                             "end": 758
                         },
@@ -2022,20 +2022,20 @@ function foo28(numVal?: number = 2) {}
                                                 "start": 793,
                                                 "end": 799
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 793,
                                             "end": 799
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 792,
                                     "end": 800
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 786,
                                 "end": 800
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 785,
                             "end": 800
                         },
@@ -2112,7 +2112,7 @@ function foo28(numVal?: number = 2) {}
                                 "start": 827,
                                 "end": 834
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 826,
                             "end": 834
                         },
@@ -2201,7 +2201,7 @@ function foo28(numVal?: number = 2) {}
                                 "start": 866,
                                 "end": 873
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 865,
                             "end": 873
                         },

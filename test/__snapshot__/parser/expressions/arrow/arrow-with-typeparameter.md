@@ -48,12 +48,12 @@
                             },
                             "type": null,
                             "defaultType": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 1,
                             "end": 2
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 0,
                     "end": 3
                 },
@@ -67,7 +67,7 @@
                         "start": 6,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 5,
                     "end": 13
                 },

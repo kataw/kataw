@@ -54,7 +54,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                     "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 18,
                     "end": 18
                 },
@@ -83,7 +83,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                         []
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 18,
                                     "end": 24
                                 },
@@ -113,31 +113,31 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                                         "end": 34
                                                     },
                                                     "typeParameters": null,
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 28,
                                                     "end": 34
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 28,
                                                 "end": 34
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 27,
                                         "end": 35
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 24,
                                     "end": 35
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 18,
                                 "end": 35
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 18,
                         "end": 39
                     },
@@ -152,12 +152,12 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                             "end": 46
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 39,
                         "end": 46
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 18,
                     "end": 46
                 },
@@ -176,20 +176,20 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                             },
                             "type": null,
                             "defaultType": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 17
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 9,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 9,
                 "end": 46
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 47
         }

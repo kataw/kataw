@@ -60,14 +60,14 @@ type A = Obj['a'];
                         "end": 12
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 12
                 },
                 "indexType": {
                     "kind": 134217967,
                     "value": "a",
-                    "flags": 96,
+                    "flags": 2097216,
                     "start": 13,
                     "end": 16
                 },
@@ -75,7 +75,7 @@ type A = Obj['a'];
                 "start": 13,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 18
         }

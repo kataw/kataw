@@ -71,11 +71,11 @@ function bar(x: X): B { return x; }
                                     "end": 17
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 15,
                                 "end": 17
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 14,
                             "end": 17
                         },
@@ -139,11 +139,11 @@ function bar(x: X): B { return x; }
                         "end": 21
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 19,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 0,
                 "end": 21
             },
@@ -198,11 +198,11 @@ function bar(x: X): B { return x; }
                                     "end": 53
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 51,
                                 "end": 53
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 50,
                             "end": 53
                         },
@@ -266,11 +266,11 @@ function bar(x: X): B { return x; }
                         "end": 57
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 55,
                     "end": 57
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 35,
                 "end": 57
             },

@@ -62,7 +62,7 @@ async <T>(fn: () => T);
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 15,
                                     "end": 15
                                 },
@@ -77,16 +77,16 @@ async <T>(fn: () => T);
                                         "end": 21
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 21
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 21
                         },

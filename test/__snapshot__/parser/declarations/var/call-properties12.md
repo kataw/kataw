@@ -59,11 +59,11 @@ var z : Object = function (x: number): string { return "hi"; };
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 7,
                                 "end": 14
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 14
                         },
@@ -101,7 +101,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                                 "start": 29,
                                                 "end": 36
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 28,
                                             "end": 36
                                         },
@@ -160,7 +160,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                     "start": 38,
                                     "end": 45
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 37,
                                 "end": 45
                             },

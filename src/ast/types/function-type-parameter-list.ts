@@ -16,7 +16,7 @@ export function createFunctionTypeParameterList(
     kind: SyntaxKind.FunctionTypeParameterList,
     parameters,
     trailingComma,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

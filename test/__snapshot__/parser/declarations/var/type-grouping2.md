@@ -67,7 +67,7 @@ var a: (() => number) | () => string
                                                     []
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 6,
                                                 "end": 13
                                             },
@@ -78,11 +78,11 @@ var a: (() => number) | () => string
                                                 "end": 20
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 6,
                                             "end": 20
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 6,
                                         "end": 21
                                     },
@@ -98,7 +98,7 @@ var a: (() => number) | () => string
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 25,
                                             "end": 25
                                         },
@@ -109,16 +109,16 @@ var a: (() => number) | () => string
                                             "end": 36
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 23,
                                         "end": 36
                                     }
                                 ],
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 21,
                                 "end": 36
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 36
                         },

@@ -96,7 +96,7 @@ type T27 = ArgumentType<never>;  // any
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 23,
                                     "end": 23
                                 },
@@ -107,24 +107,24 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 34
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 22,
                                 "end": 34
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 22,
                             "end": 34
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 21,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 10,
                 "end": 35
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 36
         },
@@ -196,13 +196,13 @@ type T27 = ArgumentType<never>;  // any
                                                 "start": 73,
                                                 "end": 80
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 70,
                                             "end": 80
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 70,
                                     "end": 80
                                 },
@@ -213,24 +213,24 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 89
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 70,
                                 "end": 89
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 70,
                             "end": 89
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 69,
                     "end": 90
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 58,
                 "end": 90
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 36,
             "end": 91
         },
@@ -282,7 +282,7 @@ type T27 = ArgumentType<never>;  // any
                                         "kind": 282,
                                         "parameters": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 127,
                                         "end": 127
                                     },
@@ -298,7 +298,7 @@ type T27 = ArgumentType<never>;  // any
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 128,
                                             "end": 128
                                         },
@@ -313,12 +313,12 @@ type T27 = ArgumentType<never>;  // any
                                                 "end": 134
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 132,
                                             "end": 134
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 127,
                                         "end": 134
                                     },
@@ -337,37 +337,37 @@ type T27 = ArgumentType<never>;  // any
                                                 },
                                                 "type": null,
                                                 "defaultType": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 125,
                                                 "end": 126
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 2097152,
                                         "start": 124,
                                         "end": 127
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 124,
                                     "end": 134
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 123,
                                 "end": 135
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 123,
                             "end": 135
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 122,
                     "end": 136
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 111,
                 "end": 136
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 91,
             "end": 137
         },
@@ -429,28 +429,28 @@ type T27 = ArgumentType<never>;  // any
                                         "end": 177
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 174,
                                     "end": 177
                                 },
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 168,
                                 "end": 177
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 168,
                             "end": 177
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 167,
                     "end": 178
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 156,
                 "end": 178
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 137,
             "end": 179
         },
@@ -512,28 +512,28 @@ type T27 = ArgumentType<never>;  // any
                                         "end": 240
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 238,
                                     "end": 240
                                 },
-                                "flags": 96,
+                                "flags": 2097216,
                                 "start": 232,
                                 "end": 240
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 232,
                             "end": 240
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 231,
                     "end": 241
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 220,
                 "end": 241
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 179,
             "end": 242
         },
@@ -582,20 +582,20 @@ type T27 = ArgumentType<never>;  // any
                                 "start": 271,
                                 "end": 274
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 271,
                             "end": 274
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 270,
                     "end": 275
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 259,
                 "end": 275
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 242,
             "end": 276
         },
@@ -644,20 +644,20 @@ type T27 = ArgumentType<never>;  // any
                                 "start": 308,
                                 "end": 313
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 308,
                             "end": 313
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 307,
                     "end": 314
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 296,
                 "end": 314
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 276,
             "end": 315
         },
@@ -706,20 +706,20 @@ type T27 = ArgumentType<never>;  // any
                                 "start": 346,
                                 "end": 352
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 346,
                             "end": 352
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 345,
                     "end": 353
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 334,
                 "end": 353
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 315,
             "end": 354
         },
@@ -773,24 +773,24 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 395
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 387,
                                 "end": 395
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 387,
                             "end": 395
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 386,
                     "end": 396
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 375,
                 "end": 396
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 354,
             "end": 397
         },
@@ -845,7 +845,7 @@ type T27 = ArgumentType<never>;  // any
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 432,
                                     "end": 432
                                 },
@@ -856,24 +856,24 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 441
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 431,
                                 "end": 441
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 431,
                             "end": 441
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 430,
                     "end": 442
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 417,
                 "end": 442
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 397,
             "end": 443
         },
@@ -945,13 +945,13 @@ type T27 = ArgumentType<never>;  // any
                                                 "start": 481,
                                                 "end": 488
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 478,
                                             "end": 488
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 478,
                                     "end": 488
                                 },
@@ -962,24 +962,24 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 499
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 478,
                                 "end": 499
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 478,
                             "end": 499
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 477,
                     "end": 500
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 464,
                 "end": 500
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 443,
             "end": 501
         },
@@ -1056,13 +1056,13 @@ type T27 = ArgumentType<never>;  // any
                                                 "start": 541,
                                                 "end": 548
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 537,
                                             "end": 548
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 537,
                                     "end": 548
                                 },
@@ -1073,24 +1073,24 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 559
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 537,
                                 "end": 559
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 537,
                             "end": 559
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 536,
                     "end": 560
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 523,
                 "end": 560
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 501,
             "end": 561
         },
@@ -1169,17 +1169,17 @@ type T27 = ArgumentType<never>;  // any
                                                     "start": 618,
                                                     "end": 625
                                                 },
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 626,
                                                 "end": 627
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 610,
                                             "end": 627
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 610,
                                     "end": 627
                                 },
@@ -1190,24 +1190,24 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 638
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 609,
                                 "end": 638
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 609,
                             "end": 638
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 608,
                     "end": 639
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 595,
                 "end": 639
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 561,
             "end": 640
         },
@@ -1261,24 +1261,24 @@ type T27 = ArgumentType<never>;  // any
                                     "end": 685
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 677,
                                 "end": 685
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 677,
                             "end": 685
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 676,
                     "end": 686
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 663,
                 "end": 686
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 640,
             "end": 687
         },
@@ -1327,20 +1327,20 @@ type T27 = ArgumentType<never>;  // any
                                 "start": 722,
                                 "end": 725
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 722,
                             "end": 725
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 721,
                     "end": 726
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 708,
                 "end": 726
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 687,
             "end": 727
         },
@@ -1389,20 +1389,20 @@ type T27 = ArgumentType<never>;  // any
                                 "start": 760,
                                 "end": 765
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 760,
                             "end": 765
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 759,
                     "end": 766
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 746,
                 "end": 766
             },
-            "flags": 17,
+            "flags": 2097153,
             "start": 727,
             "end": 767
         }

@@ -76,7 +76,7 @@ type A = (x: string, number) => void
                                 "start": 12,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 19
                         },
@@ -91,13 +91,13 @@ type A = (x: string, number) => void
                                 "start": 20,
                                 "end": 27
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 20,
                             "end": 27
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 27
                 },
@@ -108,11 +108,11 @@ type A = (x: string, number) => void
                     "end": 36
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 36
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 36
         }

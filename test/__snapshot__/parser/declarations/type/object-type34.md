@@ -85,13 +85,13 @@
                                 "start": 30,
                                 "end": 36
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 22,
                             "end": 36
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 22,
                     "end": 36
                 },
@@ -106,16 +106,16 @@
                         "end": 42
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 40,
                     "end": 42
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 22,
                 "end": 42
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 13,
             "end": 43
         }

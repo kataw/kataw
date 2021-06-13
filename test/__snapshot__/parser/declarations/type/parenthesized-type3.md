@@ -55,11 +55,11 @@ type Foo = (string)
                     "start": 12,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 10,
                 "end": 19
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 19
         }

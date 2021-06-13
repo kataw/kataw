@@ -68,7 +68,7 @@ type a = (a[-1]) => T;
                             "end": 11
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 11
                     },
@@ -81,11 +81,11 @@ type a = (a[-1]) => T;
                             "end": 13
                         },
                         "value": 1,
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 12,
                         "end": 14
                     },
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 12,
                     "end": 16
                 },
@@ -100,16 +100,16 @@ type a = (a[-1]) => T;
                         "end": 21
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 19,
                     "end": 21
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 21
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 22
         }

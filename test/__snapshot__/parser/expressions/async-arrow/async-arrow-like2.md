@@ -114,11 +114,11 @@
                                                 "end": 20
                                             },
                                             "typeParameters": null,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 18,
                                             "end": 20
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 17,
                                         "end": 20
                                     },
@@ -142,11 +142,11 @@
                                         "end": 24
                                     },
                                     "typeParameters": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 22,
                                     "end": 24
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 21,
                                 "end": 24
                             },

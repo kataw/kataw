@@ -103,12 +103,12 @@ a ? (b) : c => <T>(d) : e => f;
                                     },
                                     "type": null,
                                     "defaultType": null,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 16,
                                     "end": 17
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 2097152,
                             "start": 14,
                             "end": 18
                         },
@@ -136,11 +136,11 @@ a ? (b) : c => <T>(d) : e => f;
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 23,
                                 "end": 25
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 21,
                             "end": 25
                         },

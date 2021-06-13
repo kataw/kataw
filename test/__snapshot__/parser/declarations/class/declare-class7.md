@@ -71,12 +71,12 @@ declare function foo<T>(): void;
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 21,
                         "end": 22
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 20,
                 "end": 23
             },
@@ -88,7 +88,7 @@ declare function foo<T>(): void;
                     "start": 26,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 7,
                 "end": 31
             },

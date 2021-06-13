@@ -75,7 +75,7 @@ type MyObject = {
                             "start": 24,
                             "end": 31
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 17,
                         "end": 32
                     },
@@ -100,7 +100,7 @@ type MyObject = {
                             "start": 39,
                             "end": 47
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 32,
                         "end": 48
                     },
@@ -125,17 +125,17 @@ type MyObject = {
                             "start": 55,
                             "end": 62
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 48,
                         "end": 63
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 15,
                 "end": 65
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 66
         }

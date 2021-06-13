@@ -76,13 +76,13 @@ type X = (x?) => T;
                                 "end": 12
                             },
                             "types": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 12
                 },
@@ -97,16 +97,16 @@ type X = (x?) => T;
                         "end": 18
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 16,
                     "end": 18
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 18
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 19
         }

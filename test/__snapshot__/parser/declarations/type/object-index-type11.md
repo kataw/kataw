@@ -74,7 +74,7 @@ type X = {[|(x) =>x]: string,};
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 12,
                                 "end": 14
                             },
@@ -89,12 +89,12 @@ type X = {[|(x) =>x]: string,};
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 18,
                                 "end": 19
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 19
                         },
@@ -104,17 +104,17 @@ type X = {[|(x) =>x]: string,};
                             "start": 21,
                             "end": 28
                         },
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 29
                     }
                 ],
                 "trailingComma": false,
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 30
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 31
         }

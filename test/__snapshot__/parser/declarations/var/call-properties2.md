@@ -65,7 +65,7 @@ var c: { (): string; (x: number): string } =
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 66,
                                             "end": 66
                                         },
@@ -76,7 +76,7 @@ var c: { (): string; (x: number): string } =
                                             "start": 68,
                                             "end": 75
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 64,
                                         "end": 76
                                     },
@@ -105,13 +105,13 @@ var c: { (): string; (x: number): string } =
                                                         "start": 80,
                                                         "end": 87
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 78,
                                                     "end": 87
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 78,
                                             "end": 87
                                         },
@@ -122,17 +122,17 @@ var c: { (): string; (x: number): string } =
                                             "start": 89,
                                             "end": 96
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 76,
                                         "end": 96
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 62,
                                 "end": 98
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 61,
                             "end": 98
                         },
@@ -175,7 +175,7 @@ var c: { (): string; (x: number): string } =
                                                 "start": 116,
                                                 "end": 123
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 115,
                                             "end": 123
                                         },
@@ -234,7 +234,7 @@ var c: { (): string; (x: number): string } =
                                     "start": 125,
                                     "end": 132
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 124,
                                 "end": 132
                             },
@@ -291,7 +291,7 @@ var c: { (): string; (x: number): string } =
                                             "kind": 282,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 227,
                                             "end": 227
                                         },
@@ -302,7 +302,7 @@ var c: { (): string; (x: number): string } =
                                             "start": 229,
                                             "end": 236
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 225,
                                         "end": 237
                                     },
@@ -331,13 +331,13 @@ var c: { (): string; (x: number): string } =
                                                         "start": 241,
                                                         "end": 248
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 239,
                                                     "end": 248
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 239,
                                             "end": 248
                                         },
@@ -348,17 +348,17 @@ var c: { (): string; (x: number): string } =
                                             "start": 250,
                                             "end": 257
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 237,
                                         "end": 257
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 223,
                                 "end": 259
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 222,
                             "end": 259
                         },
@@ -396,7 +396,7 @@ var c: { (): string; (x: number): string } =
                                                 "start": 276,
                                                 "end": 283
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 275,
                                             "end": 283
                                         },
@@ -455,7 +455,7 @@ var c: { (): string; (x: number): string } =
                                     "start": 285,
                                     "end": 292
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 284,
                                 "end": 292
                             },

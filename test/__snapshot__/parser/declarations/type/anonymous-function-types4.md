@@ -76,16 +76,16 @@ type A = (Array<string>) => void
                                     "start": 16,
                                     "end": 22
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 16,
                                 "end": 22
                             }
                         ],
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 15,
                         "end": 23
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 23
                 },
@@ -96,11 +96,11 @@ type A = (Array<string>) => void
                     "end": 32
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 32
         }

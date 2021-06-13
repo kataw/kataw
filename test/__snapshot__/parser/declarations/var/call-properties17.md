@@ -76,13 +76,13 @@ var b: { (x: number): number } = (x) => "hi"
                                                         "start": 12,
                                                         "end": 19
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 2097152,
                                                     "start": 10,
                                                     "end": 19
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 10,
                                             "end": 19
                                         },
@@ -93,17 +93,17 @@ var b: { (x: number): number } = (x) => "hi"
                                             "start": 21,
                                             "end": 28
                                         },
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 2097152,
                                 "start": 6,
                                 "end": 30
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 5,
                             "end": 30
                         },

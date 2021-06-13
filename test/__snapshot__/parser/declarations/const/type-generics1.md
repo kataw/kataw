@@ -99,12 +99,12 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                 },
                                                                 "type": null,
                                                                 "defaultType": null,
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 56,
                                                                 "end": 57
                                                             }
                                                         ],
-                                                        "flags": 0,
+                                                        "flags": 2097152,
                                                         "start": 54,
                                                         "end": 58
                                                     },
@@ -134,11 +134,11 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                         "end": 67
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "flags": 32,
+                                                                    "flags": 2097152,
                                                                     "start": 65,
                                                                     "end": 67
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 2097152,
                                                                 "start": 64,
                                                                 "end": 67
                                                             },
@@ -162,11 +162,11 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                 "end": 71
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 32,
+                                                            "flags": 2097152,
                                                             "start": 69,
                                                             "end": 71
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 2097152,
                                                         "start": 68,
                                                         "end": 71
                                                     },

@@ -54,7 +54,7 @@ type Fn1 = <T>(T) => T;
                     "kind": 282,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 14,
                     "end": 14
                 },
@@ -77,7 +77,7 @@ type Fn1 = <T>(T) => T;
                             "end": 16
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 14,
                         "end": 16
                     },
@@ -92,12 +92,12 @@ type Fn1 = <T>(T) => T;
                             "end": 22
                         },
                         "typeParameters": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 20,
                         "end": 22
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 14,
                     "end": 22
                 },
@@ -116,20 +116,20 @@ type Fn1 = <T>(T) => T;
                             },
                             "type": null,
                             "defaultType": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 12,
                             "end": 13
                         }
                     ],
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 10,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 10,
                 "end": 22
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 23
         }

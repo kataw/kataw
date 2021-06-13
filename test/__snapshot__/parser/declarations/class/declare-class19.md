@@ -81,7 +81,7 @@ declare class x {
                                     "kind": 282,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 37,
                                     "end": 37
                                 },
@@ -89,22 +89,22 @@ declare class x {
                                     "kind": 134234353,
                                     "properties": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 39,
                                     "end": 42
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 35,
                                 "end": 42
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 17,
                             "end": 43
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 15,
                     "end": 45
                 },

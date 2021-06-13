@@ -55,12 +55,12 @@ type foo<number> = string;
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 9,
                         "end": 15
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
                 "end": 16
             },
@@ -76,7 +76,7 @@ type foo<number> = string;
                 "start": 18,
                 "end": 25
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 26
         }

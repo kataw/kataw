@@ -73,13 +73,13 @@ type a = ([-1] | (x)) => T;
                                                 "end": 12
                                             },
                                             "value": 1,
-                                            "flags": 96,
+                                            "flags": 2097216,
                                             "start": 11,
                                             "end": 13
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 10,
                                     "end": 14
                                 },
@@ -96,22 +96,22 @@ type a = ([-1] | (x)) => T;
                                             "end": 19
                                         },
                                         "typeParameters": null,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 16,
                                         "end": 19
                                     },
-                                    "flags": 32,
+                                    "flags": 2097152,
                                     "start": 16,
                                     "end": 20
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 14,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 24
                 },
@@ -126,16 +126,16 @@ type a = ([-1] | (x)) => T;
                         "end": 26
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 24,
                     "end": 26
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 26
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 27
         }

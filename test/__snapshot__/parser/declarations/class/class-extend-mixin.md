@@ -56,12 +56,12 @@ class Foo<T> extends mixin(Bar) { }
                         },
                         "type": null,
                         "defaultType": null,
-                        "flags": 32,
+                        "flags": 2097152,
                         "start": 10,
                         "end": 11
                     }
                 ],
-                "flags": 0,
+                "flags": 2097152,
                 "start": 9,
                 "end": 12
             },

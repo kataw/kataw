@@ -64,7 +64,7 @@ type a = (bj[c])[d];
                                 "end": 12
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 12
                         },
@@ -79,15 +79,15 @@ type a = (bj[c])[d];
                                 "end": 14
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 13,
                             "end": 14
                         },
-                        "flags": 0,
+                        "flags": 2097152,
                         "start": 13,
                         "end": 16
                     },
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 16
                 },
@@ -102,7 +102,7 @@ type a = (bj[c])[d];
                         "end": 18
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 17,
                     "end": 18
                 },
@@ -110,7 +110,7 @@ type a = (bj[c])[d];
                 "start": 17,
                 "end": 20
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 20
         }

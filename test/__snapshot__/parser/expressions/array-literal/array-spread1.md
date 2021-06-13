@@ -508,20 +508,20 @@ var y: Array<string> = ['3', ...x];
                                                 "start": 114,
                                                 "end": 120
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 114,
                                             "end": 120
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 113,
                                     "end": 121
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 107,
                                 "end": 121
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 106,
                             "end": 121
                         },
@@ -615,20 +615,20 @@ var y: Array<string> = ['3', ...x];
                                                 "start": 149,
                                                 "end": 155
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 149,
                                             "end": 155
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 148,
                                     "end": 156
                                 },
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 142,
                                 "end": 156
                             },
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 141,
                             "end": 156
                         },

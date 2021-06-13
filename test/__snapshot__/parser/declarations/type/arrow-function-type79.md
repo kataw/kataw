@@ -90,17 +90,17 @@ type a = ({x:y} | { [x]:string}) => T;
                                                     "end": 14
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 13,
                                                 "end": 14
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 11,
                                             "end": 14
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 10,
                                     "end": 15
                                 },
@@ -123,7 +123,7 @@ type a = ({x:y} | { [x]:string}) => T;
                                                     "end": 22
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 32,
+                                                "flags": 2097152,
                                                 "start": 19,
                                                 "end": 22
                                             },
@@ -133,24 +133,24 @@ type a = ({x:y} | { [x]:string}) => T;
                                                 "start": 24,
                                                 "end": 30
                                             },
-                                            "flags": 32,
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 30
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 2097152,
                                     "start": 17,
                                     "end": 31
                                 }
                             ],
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 15,
                             "end": 31
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 35
                 },
@@ -165,16 +165,16 @@ type a = ({x:y} | { [x]:string}) => T;
                         "end": 37
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 35,
                     "end": 37
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 37
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 38
         }

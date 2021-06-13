@@ -65,7 +65,7 @@ declare function foo(): void
                     "start": 23,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 2097152,
                 "start": 7,
                 "end": 28
             },

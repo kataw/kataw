@@ -81,19 +81,19 @@ type a = (([-1]) => T) => T
                                                     "end": 13
                                                 },
                                                 "value": 1,
-                                                "flags": 96,
+                                                "flags": 2097216,
                                                 "start": 12,
                                                 "end": 14
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 2097152,
                                         "start": 11,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 8,
                                 "end": 19
                             },
@@ -108,18 +108,18 @@ type a = (([-1]) => T) => T
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "flags": 32,
+                                "flags": 2097152,
                                 "start": 19,
                                 "end": 21
                             },
                             "typeParameters": null,
-                            "flags": 32,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 25
                 },
@@ -134,16 +134,16 @@ type a = (([-1]) => T) => T
                         "end": 27
                     },
                     "typeParameters": null,
-                    "flags": 32,
+                    "flags": 2097152,
                     "start": 25,
                     "end": 27
                 },
                 "typeParameters": null,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 27
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 27
         }

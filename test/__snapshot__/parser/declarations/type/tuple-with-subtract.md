@@ -59,17 +59,17 @@ type x = [-1];
                             "end": 11
                         },
                         "value": 1,
-                        "flags": 96,
+                        "flags": 2097216,
                         "start": 10,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 2097152,
                 "start": 8,
                 "end": 13
             },
-            "flags": 16,
+            "flags": 2097152,
             "start": 0,
             "end": 14
         }
