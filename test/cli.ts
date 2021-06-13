@@ -20,46 +20,26 @@ export async function runCli() {
     total: opts.files.length
   });
 
-  console.time(
-    ColorCodes.GREEN +
-      'Running ' +
-      ColorCodes.RESET +
-      opts.files.length +
-      ' test cases.' +
-      ColorCodes.yellow +
-      ' Total time' +
-      ColorCodes.RESET
-  );
-  if (opts.gen) {
-    autogen(opts.files, opts.conservative);
-  } else {
-    let cnt = 0;
+  opts.gen && (opts.files = await autogen(opts.files, opts.conservative));
+  setTiming(opts);
 
-    for (let i = 0; i < opts.files.length; i++) {
-      const tob = await file2Tob(opts.files[i]);
-      if (tob.mismatchItems.length) {
-        cnt++;
-        console.log(`Output mismatch(${tob.mismatchItems}) for`, tob.filename);
-        updateTob(tob, opts.updateItems);
-      }
-      bar.tick(1);
-    }
-    console.timeEnd(
-      ColorCodes.GREEN +
-        'Running ' +
-        ColorCodes.RESET +
-        opts.files.length +
-        ' test cases.' +
-        ColorCodes.yellow +
-        ' Total time' +
-        ColorCodes.RESET
-    );
+  let cnt = 0;
 
-    // Only show mismatch if it exist
-    if (cnt > 0) {
-      console.log(ColorCodes.RED + 'Mismatch: ' + ColorCodes.yellow + `${cnt}/${opts.files.length}` + ColorCodes.RESET);
-      if (opts.updateItems.length === 0) process.exitCode = 1;
+  for (let i = 0; i < opts.files.length; i++) {
+    const tob = await file2Tob(opts.files[i]);
+    if (tob.mismatchItems.length) {
+      cnt++;
+      // only log when not auto-gen mode
+      opts.gen || console.log(`Output mismatch(${tob.mismatchItems}) for`, tob.filename);
+      updateTob(tob, opts.updateItems);
     }
+    bar.tick(1);
+  }
+
+  // Only show mismatch if it exist
+  if (cnt > 0) {
+    console.log(ColorCodes.RED + '\nMismatch: ' + ColorCodes.yellow + `${cnt}/${opts.files.length}` + ColorCodes.RESET);
+    if (opts.updateItems.length === 0) process.exitCode = 1;
   }
 }
 
@@ -88,8 +68,12 @@ export function getCliOptions(): any {
 
   if (opts.updateItems.length) {
     if (opts.gen) {
-      process.exitCode = 2;
-      throw new Error('Cannot use auto update and auto generate together');
+      console.log('Cannot use auto update and auto generate together');
+      process.exit(2);
+    }
+    if (opts.updateItems.some((it) => !APIs.includes(it))) {
+      console.log(`updateItems can only be one of ${APIs.join(', ')}, but you passed ${opts.updateItems}.`);
+      process.exit(2);
     }
     console.log(`update items: ${opts.updateItems}`);
   }
@@ -107,4 +91,30 @@ function showHelp() {
       -u            Auto-update tests with the results (tests silently updated inline, use source control to diff)
   `);
   process.exit(0);
+}
+
+function setTiming(opts) {
+  console.time(
+    ColorCodes.GREEN +
+      'Running ' +
+      ColorCodes.RESET +
+      opts.files.length +
+      ' test cases.' +
+      ColorCodes.yellow +
+      ' Total time' +
+      ColorCodes.RESET
+  );
+
+  process.on('beforeExit', function () {
+    console.timeEnd(
+      ColorCodes.GREEN +
+        'Running ' +
+        ColorCodes.RESET +
+        opts.files.length +
+        ' test cases.' +
+        ColorCodes.yellow +
+        ' Total time' +
+        ColorCodes.RESET
+    );
+  });
 }
