@@ -294,8 +294,6 @@ export function forEachChild(node: any, visitor: any): any {
       return visitNodes(node.elements, node, visitor);
     case SyntaxKind.Decorator:
       return visitNode(node.expression, node, visitor);
-    case SyntaxKind.ArrayType:
-      return visitNode(node.type, node, visitor);
     case SyntaxKind.ArrowTypeParameterList:
       return visitNodes(node.parameters, node, visitor);
     case SyntaxKind.ArrowTypeParameter:
@@ -341,8 +339,6 @@ export function forEachChild(node: any, visitor: any): any {
       return (
         visitNode(node.name, node, visitor) && visitNode(node.key, node, visitor) && visitNode(node.type, node, visitor)
       );
-    case SyntaxKind.ObjectTypeInternalSlot:
-      return visitNode(node.name, node, visitor) && visitNode(node.value, node, visitor);
     case SyntaxKind.ParenthesizedType:
       return visitNode(node.type, node, visitor);
     case SyntaxKind.ObjectTypeInternalSlot:
