@@ -292,7 +292,7 @@ export function parse(
   }
 
   while (parser.token !== SyntaxKind.EndOfFileToken) {
-    if (parser.token & 0b00010000100000011110000000000000) {
+    if (parser.token & Constants.StatementOrExpression) {
       statements.push(moduleOrScript(parser, context, scope, /* labels */ null, /* ownLabels */ null));
     } else {
       if (parser.previousErrorPos !== parser.pos) {
@@ -1855,7 +1855,7 @@ function parseBlock(parser: ParserState, context: Context, scope: ScopeState, la
   const flags = parser.nodeFlags;
   // We avoid making a a new 'catch scope' while parsing out a "TryStatement" for
   // cases like 'try {} catch(x) {}'. Instead we continue with current scope.
-  while (parser.token & 0b00010000100000011110000000000000) {
+  while (parser.token & Constants.StatementOrExpression) {
     statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
   }
   return createBlock(statements, flags | NodeFlags.IsStatement, curPos, parser.curPos);
@@ -2499,7 +2499,7 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
   const start = parser.curPos;
   const elements: ExpressionNode[] = [];
   let trailingComma = false;
-  while (parser.token & 0b00000000101010111100000000000000) {
+  while (parser.token & Constants.ArgumentList) {
     elements.push(parseArgumentOrArrayLiteralElement(parser, context));
     if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
     consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
@@ -3254,7 +3254,7 @@ function parsMethodParameters(
     const curpPos = parser.curPos;
     let trailingComma = false;
     let count = 0;
-    while (parser.token & 0b00010000100010000100000000000000) {
+    while (parser.token & Constants.FormalParameterList) {
       if (nodeFlags & NodeFlags.Setter) {
         if (parser.token === SyntaxKind.Ellipsis) {
           parser.onError(
@@ -3839,7 +3839,7 @@ function parseElementList(parser: ParserState, context: Context, scope: ScopeSta
   let trailingComma = false;
   let destructible = DestructibleKind.None;
 
-  while (parser.token & 0b00010000101011010100000000000000) {
+  while (parser.token & Constants.ElementList) {
     elements.push(parseArrayLiteralElement(parser, context, scope, type));
     destructible |= parser.destructible;
     if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) break;
@@ -4873,7 +4873,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
     expressions = [expression];
 
-    while (parser.token & 0b00010000101010010100000000000000) {
+    while (parser.token & Constants.DelimitedList) {
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
         addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
         expression = parsePrimaryExpression(parser, context, LeftHandSide.None);
@@ -6219,7 +6219,7 @@ function parseFunctionStatementList(
     }
   }
 
-  while (parser.token & 0b00010000100000011110000000000000) {
+  while (parser.token & Constants.StatementOrExpression) {
     statements.push(parseStatementListItem(parser, context, scope, null, null));
   }
   return createFunctionStatementList(directives, statements, flags | NodeFlags.ExpressionNode, pos, parser.curPos);
@@ -6236,7 +6236,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
     let trailingComma = false;
     let count = 0;
     let ellipsisToken = null;
-    while (parser.token & 0b00010000100010000100000000000000) {
+    while (parser.token & Constants.FormalParameterList) {
       const pos = parser.curPos;
       if (parser.token === SyntaxKind.ThisKeyword) {
         if ((context & Context.OptionsAllowTypes) < 1 || count > 0) {
@@ -9917,7 +9917,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   const params: ExpressionNode[] = [];
 
-  while (parser.token & 0b00010000101010010100000000000000) {
+  while (parser.token & Constants.DelimitedList) {
     const pos = parser.curPos;
 
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -10332,7 +10332,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
       let trailingComma = false;
 
-      while (parser.token & 0b00000000101010111100000000000000) {
+      while (parser.token & Constants.ArgumentList) {
         params.push(parseArgumentOrArrayLiteralElement(parser, context));
         if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
         consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
