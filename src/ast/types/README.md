@@ -106,6 +106,7 @@ interface NumberType <: TypeNode {
 interface BigIntType <: TypeNode {
   kind: NodeKind.BigIntType;
   text: number;
+  raw: string;
 }
 ```
 
