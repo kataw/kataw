@@ -6,6 +6,7 @@ import { TupleType } from './tuple-type';
 import { FunctionType } from './function-type';
 import { FunctionTypeParameter } from './function-type-parameter';
 import { NumberType } from './number-type';
+import { BigIntType } from './big-int-type';
 import { StringType } from './string-type';
 import { ObjectType } from './object-type';
 import { TypeReference } from './type-reference';
@@ -53,6 +54,7 @@ export type TypeNode =
   | TypeAnnotation
   | TupleType
   | NumberType
+  | BigIntType
   | StringType
   | ObjectType
   | FunctionType

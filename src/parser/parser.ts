@@ -117,6 +117,7 @@ import { createNullableType } from '../ast/types/nullable-type';
 import { createObjectType, ObjectType } from '../ast/types/object-type';
 import { createStringType, StringType } from '../ast/types/string-type';
 import { createNumberType, NumberType } from '../ast/types/number-type';
+import { createBigIntType, BigIntType } from '../ast/types/big-int-type';
 import { createObjectTypeCallProperty, ObjectTypeCallProperty } from '../ast/types/object-type-call-property';
 import { createObjectTypeIndexer, ObjectTypeIndexer } from '../ast/types/object-type-indexer';
 import { createIntersectionType } from '../ast/types/intersection-type';
@@ -7135,7 +7136,6 @@ function parsePostfixType(parser: ParserState, context: Context): TypeNode {
 function parsePrimaryType(parser: ParserState, context: Context): TypeNode | SyntaxToken<TokenSyntaxKind> {
   switch (parser.token) {
     case SyntaxKind.Multiply:
-    case SyntaxKind.BigIntLiteral:
     case SyntaxKind.ThisKeyword:
     case SyntaxKind.AnyKeyword:
     case SyntaxKind.NullKeyword:
@@ -7157,6 +7157,8 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
       return parseStringType(parser, context);
     case SyntaxKind.NumericLiteral:
       return parseNumberType(parser, context);
+    case SyntaxKind.BigIntLiteral:
+      return parseBigIntType(parser, context);
     case SyntaxKind.LeftBrace:
       return parseObjectType(parser, context, ObjectTypeFlag.None);
     case SyntaxKind.LeftBracket:
@@ -7216,6 +7218,12 @@ function parseNumberType(parser: ParserState, context: Context): NumberType {
   const value = parser.tokenValue;
   nextToken(parser, context);
   return createNumberType(value, pos, parser.curPos);
+}
+
+function parseBigIntType(parser: ParserState, context: Context): BigIntType {
+  const { curPos, tokenValue, tokenRaw } = parser;
+  nextToken(parser, context);
+  return createBigIntType(tokenValue, tokenRaw, curPos, parser.curPos);
 }
 
 function parseTupleType(parser: ParserState, context: Context): TupleType {
