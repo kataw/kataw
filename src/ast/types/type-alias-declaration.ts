@@ -9,6 +9,7 @@ export interface TypeAlias extends SyntaxNode {
   readonly typeToken: SyntaxToken<TokenSyntaxKind>;
   readonly name: Identifier;
   readonly typeParameters: TypeParameterDeclaration | null;
+  readonly assignToken: SyntaxToken<TokenSyntaxKind>;
   readonly type: TypeNode;
 }
 
@@ -17,6 +18,7 @@ export function createTypeAlias(
   typeToken: SyntaxToken<TokenSyntaxKind>,
   name: Identifier,
   typeParameters: TypeParameterDeclaration | null,
+  assignToken: SyntaxToken<TokenSyntaxKind>,
   type: TypeNode,
   flags: NodeFlags,
   start: number,
@@ -28,6 +30,7 @@ export function createTypeAlias(
     typeToken,
     name,
     typeParameters,
+    assignToken,
     type,
     flags,
     start,

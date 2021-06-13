@@ -19,7 +19,7 @@ export function createFunctionType(
     parameters,
     returnType,
     typeParameters,
-    flags: NodeFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

@@ -37,7 +37,7 @@ export function createObjectTypeProperty(
     key,
     optionalToken,
     value,
-    flags: NodeFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

@@ -17,7 +17,7 @@ export function createQualifiedType(
     kind: SyntaxKind.QualifiedType,
     qualification,
     id,
-    flags: NodeFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

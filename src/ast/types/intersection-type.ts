@@ -10,7 +10,7 @@ export function createIntersectionType(types: readonly TypeNode[], start: number
   return {
     kind: SyntaxKind.IntersectionType,
     types,
-    flags: NodeFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

@@ -164,7 +164,7 @@ export enum SyntaxKind {
   FunctionStatementList = 217,
   FunctionType = 148,
   FunctionTypeParameter = 149,
-  FunctionTypeParameterList = 208,
+  FunctionTypeParameterList = 282,
   TypeReference = 144,
   GetKeyword = 16498,
   GreaterThan = 34883,

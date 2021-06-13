@@ -7254,7 +7254,7 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   const pos = parser.curPos;
   let trailingComma = false;
   nextToken(parser, context);
-  const flags = parser.nodeFlags;
+  const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const elements: TypeNode[] = [];
   while (parser.token & 0b00111000100000000100000000000000) {
     elements.push(parseType(parser, context));
@@ -7997,7 +7997,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   if (context & Context.OptionsAllowTypes && parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     expr = parseIdentifier(parser, context, 0b00000000100000000100000000000000, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
-    consume(parser, context, SyntaxKind.Assign, DiagnosticCode.An_TypeAlias_declaration_require_a);
+    const assignToken = consumeToken(parser, context, SyntaxKind.Assign, DiagnosticCode.An_TypeAlias_declaration_require_a);
     const type = parseType(parser, context);
     if (declareKeyword) nodeFlags |= NodeFlags.Declared;
     parseSemicolon(parser, context);
@@ -8006,6 +8006,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       createToken(SyntaxKind.TypeKeyword, NodeFlags.ChildLess, pos, expr.end),
       expr as Identifier,
       typeParameters,
+      assignToken,
       type as any,
       nodeFlags,
       pos,

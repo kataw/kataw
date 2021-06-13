@@ -13,7 +13,7 @@ export function createTypeParameterInstantiation(
   return {
     kind: SyntaxKind.TypeParameterInstantiation,
     type,
-    flags: NodeFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

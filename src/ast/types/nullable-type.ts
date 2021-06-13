@@ -17,7 +17,7 @@ export function createNullableType(
     kind: SyntaxKind.NullableType,
     nullableToken,
     type,
-    flags: NodeFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

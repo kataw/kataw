@@ -23,7 +23,7 @@ export function createArrowFunctionType(
     parameters,
     returnType,
     typeParameters,
-    flags: NodeFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

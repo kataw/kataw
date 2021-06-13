@@ -21,7 +21,7 @@ export function createInterfaceExtends(
     kind: SyntaxKind.InterfaceExtends,
     name,
     typeParameters,
-    flags: NodeFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

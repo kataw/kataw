@@ -9,7 +9,7 @@ export function createTypeAnnotation(type: TypeNode, start: number, end: number)
   return {
     kind: SyntaxKind.TypeAnnotation,
     type,
-    flags: NodeFlags.None,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };
