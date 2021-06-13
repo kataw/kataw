@@ -351,8 +351,6 @@ export function forEachChild(node: any, visitor: any): any {
       return visitNode(node.elementTypes, node, visitor);
     case SyntaxKind.ObjectTypeProperty:
       return visitNodes(node.parameters, node, visitor);
-    case SyntaxKind.TypeParameterInstantiationList:
-      return visitNodes(node.parameters, node, visitor);
     case SyntaxKind.TypeAnnotation:
       return visitNode(node.type, node, visitor);
     default:
