@@ -7157,11 +7157,6 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
       return parseStringType(parser, context);
     case SyntaxKind.NumericLiteral:
       return parseNumberType(parser, context);
-    case SyntaxKind.FalseKeyword:
-    case SyntaxKind.TrueKeyword:
-      const pos = parser.curPos;
-      nextToken(parser, context)
-      return createToken(parser.token, NodeFlags.IsTypeNode | NodeFlags.ChildLess, pos, parser.curPos);
     case SyntaxKind.LeftBrace:
       return parseObjectType(parser, context, ObjectTypeFlag.None);
     case SyntaxKind.LeftBracket:
