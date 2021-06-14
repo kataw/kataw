@@ -7908,7 +7908,7 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
-    const declarations = parseParameterDeclarations(parser, context);
+    const declarations = parseParameterDeclarations(parser, context | Context.InType);
     consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
     return createTypeParameterDeclaration(declarations, nodeFlags, pos, parser.curPos);
   }
@@ -7921,11 +7921,12 @@ function parseParameterDeclarations(parser: ParserState, context: Context): Para
   let requireDefault = false;
   let trailingComma = false;
   while (parser.token & Constants.IsTypeParameter) {
-    const type = parseTypeParameter(parser, context | Context.InType, requireDefault);
+    const type = parseTypeParameter(parser, context, requireDefault);
     types.push(type);
     if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
+    if (type.defaultType) requireDefault = true;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) {
+      if (parser.token === SyntaxKind.GreaterThan) {
         trailingComma = true;
         break;
       }
@@ -7938,7 +7939,7 @@ function parseTypeParameterInstantiation(parser: ParserState, context: Context):
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
   if ((parser.nodeFlags & NodeFlags.NewLine) === 0 && consumeOpt(parser, context, SyntaxKind.LessThan)) {
-    const typeInstantiations = parseTypeInstantiations(parser, context);
+    const typeInstantiations = parseTypeInstantiations(parser, context | Context.InType);
     consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
     return createTypeParameterInstantiation(typeInstantiations, nodeFlags, pos, parser.curPos);
   }
@@ -7950,10 +7951,10 @@ function parseTypeInstantiations(parser: ParserState, context: Context): TypeIns
   const types = [];
   let trailingComma = false;
   while (parser.token & Constants.IsTypeParameter) {
-    types.push(parseTypeAnnotation(parser, context | Context.InType));
+    types.push(parseTypeAnnotation(parser, context));
     if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
-      if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) {
+      if (parser.token === SyntaxKind.GreaterThan) {
         trailingComma = true;
         break;
       }
@@ -7965,10 +7966,8 @@ function parseTypeInstantiations(parser: ParserState, context: Context): TypeIns
 function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean): TypeParameter {
   const start = parser.curPos;
   const name = parseIdentifier(parser, context, Constants.Identifier);
-  const type = parseType(parser, context | Context.InType);
-  const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
-    ? parseTypeAnnotation(parser, context | Context.ArrowOrigin | Context.InType)
-    : null;
+  const type = parseType(parser, context);
+  const defaultType = consumeOpt(parser, context, SyntaxKind.Assign) ? parseTypeAnnotation(parser, context) : null;
   if (requireInitializer && !defaultType && parser.previousErrorPos !== parser.pos) {
     parser.previousErrorPos = parser.pos;
     parser.onError(

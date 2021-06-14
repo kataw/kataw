@@ -150,12 +150,12 @@
 
 ```javascript
 
-(x) =>  {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Type parameter declaration needs a default, since a preceding type parameter declaration has a default - start: 7, end: 8
+
 ```
 
