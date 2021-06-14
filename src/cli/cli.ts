@@ -13,6 +13,7 @@ export function cli(
   source: string,
   filename: string,
   isModule: boolean,
+  disableWebCompat: boolean,
   onError: OnError,
   _options?: Options // linter options
 ): RootNode {
@@ -23,6 +24,8 @@ export function cli(
     // types is on by default in the CLI
     allowTypes: true,
     // allow 'ESNext' proposals
-    next: true
+    next: true,
+    // Disables AnnexB
+    disableWebCompat
   });
 }
