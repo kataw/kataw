@@ -3231,7 +3231,7 @@ function parseMethodDefinition(
 
   const methodParameters = parsMethodParameters(parser, context, nodeFlags, scope);
 
-  const returnType = parseTypeAnnotation(parser, context);
+  const returnType = parseType(parser, context);
 
   const contents = parseFunctionBody(
     parser,
@@ -3940,7 +3940,7 @@ function parseArrayLiteralElement(
           left as Identifier,
           /* error recovery */
           optionalToken,
-          parseTypeAnnotation(parser, context),
+          parseType(parser, context),
           parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           pos,
@@ -4074,7 +4074,7 @@ function parseArrayLiteralElement(
           left as any,
           /* error recovery */
           optionalToken,
-          parseTypeAnnotation(parser, context),
+          parseType(parser, context),
           parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           pos,
@@ -4148,7 +4148,7 @@ function parseArrayLiteralElement(
           left as any,
           /* error recovery */
           optionalToken,
-          parseTypeAnnotation(parser, context),
+          parseType(parser, context),
           parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           pos,
@@ -4496,7 +4496,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           context,
           scope,
           /*typeParameters */ typeParameters,
-          /* returnType */ isType ? parseTypeAnnotation(parser, context | Context.ArrowOrigin) : null,
+          /* returnType */ isType ? parseType(parser, context | Context.ArrowOrigin) : null,
           /* params */ [],
           /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.ExpressionNode,
@@ -4541,7 +4541,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           /* ellipsisToken */ null,
           /* left */ expression,
           /* optionalToken */ questionMarkToken,
-          /* type */ parseTypeAnnotation(parser, context),
+          /* type */ parseType(parser, context),
           /* right */ parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           curPos,
@@ -4568,7 +4568,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         /* ellipsisToken */ null,
         /* left */ expression,
         /* optionalToken */ null,
-        /* type */ parseTypeAnnotation(parser, context),
+        /* type */ parseType(parser, context),
         /* right */ parseInitializer(parser, context, false),
         NodeFlags.ExpressionNode,
         curPos,
@@ -4693,7 +4693,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           /* ellipsisToken */ null,
           /* left */ expression,
           /* optionalToken */ questionMarkToken,
-          /* type */ parseTypeAnnotation(parser, context),
+          /* type */ parseType(parser, context),
           /* right */ parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           curPos,
@@ -4721,7 +4721,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         /* ellipsisToken */ null,
         /* left */ expression as any,
         /* optionalToken */ null,
-        /* type */ parseTypeAnnotation(parser, context),
+        /* type */ parseType(parser, context),
         /* right */ parseInitializer(parser, context, false),
         NodeFlags.ExpressionNode,
         curPos,
@@ -4876,7 +4876,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           context,
           scope,
           typeParameters,
-          parseTypeAnnotation(parser, context | Context.ArrowOrigin),
+          parseType(parser, context | Context.ArrowOrigin),
           [expression],
           null,
           /* nodeFlags */ flags,
@@ -4936,7 +4936,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               /* ellipsisToken */ null,
               /* left */ expression,
               /* optionalToken */ questionMarkToken,
-              /* type */ parseTypeAnnotation(parser, context),
+              /* type */ parseType(parser, context),
               /* right */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
               curPos,
@@ -4966,7 +4966,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             /* ellipsisToken */ null,
             /* left */ expression,
             /* optionalToken */ null,
-            /* type */ parseTypeAnnotation(parser, context),
+            /* type */ parseType(parser, context),
             /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             curPos,
@@ -5066,7 +5066,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               /* ellipsisToken */ null,
               /* left */ expression,
               /* optionalToken */ questionMarkToken,
-              /* type */ parseTypeAnnotation(parser, context),
+              /* type */ parseType(parser, context),
               /* right */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
               curPos,
@@ -5097,7 +5097,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             /* ellipsisToken */ null,
             /* left */ expression as any,
             /* optionalToken */ null,
-            /* type */ parseTypeAnnotation(parser, context),
+            /* type */ parseType(parser, context),
             /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             curPos,
@@ -5248,7 +5248,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         context,
         scope,
         typeParameters,
-        parseTypeAnnotation(parser, context),
+        parseType(parser, context),
         arrowParams,
         null,
         flags,
@@ -5400,7 +5400,7 @@ function parseBindingElementList(
           ellipsisToken,
           left,
           consumeOptToken(parser, context, SyntaxKind.QuestionMark),
-          parseTypeAnnotation(parser, context),
+          parseType(parser, context),
           parseInitializer(parser, context, ellipsisToken ? true : false),
           NodeFlags.ExpressionNode,
           pos,
@@ -5780,7 +5780,7 @@ function parseFunctionExpression(
     context | Context.Parameters | Context.Parameters,
     scope
   );
-  const returnType = parseTypeAnnotation(parser, context);
+  const returnType = parseType(parser, context);
   const contents = parseFunctionBody(
     parser,
     context | Context.NewTarget | Context.IsOutsideFnOrArrow,
@@ -6095,7 +6095,7 @@ function parseFunctionDeclaration(
         )
       : consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)
   ) {
-    returnType = createTypeAnnotation(null, null, parseType(parser, context), pos, parser.curPos);
+    returnType = createTypeAnnotation(null, null, parseTypeAnnotation(parser, context), pos, parser.curPos);
   }
 
   const contents =
@@ -6322,7 +6322,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
             ellipsisToken,
             left,
             optionalToken,
-            parseTypeAnnotation(parser, context),
+            parseType(parser, context),
             /* right */ null,
             nodeflags,
             pos,
@@ -6365,7 +6365,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
             ellipsisToken,
             left,
             consumeOptToken(parser, context, SyntaxKind.QuestionMark),
-            parseTypeAnnotation(parser, context),
+            parseType(parser, context),
             parseInitializer(parser, context, ellipsisToken ? true : false),
             nodeflags,
             pos,
@@ -6477,7 +6477,7 @@ function parseFormalParameter(
       /* ellipsisToken */ null,
       left,
       /* optionalToken */ null,
-      parseTypeAnnotation(parser, context),
+      parseType(parser, context),
       /* right */ null,
       nodeflags,
       pos,
@@ -6513,7 +6513,7 @@ function parseFormalParameter(
       }
     }
     const optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
-    const type = parseTypeAnnotation(parser, context);
+    const type = parseType(parser, context);
     const right = parseInitializer(parser, context, ellipsisToken ? true : false);
 
     if (left.kind !== SyntaxKind.Identifier || right) {
@@ -7112,7 +7112,7 @@ function parseExportDefault(
   return createExportDefault(exportToken, defaultToken, declaration, pos, parser.curPos);
 }
 
-function parseType(parser: ParserState, context: Context): any {
+function parseTypeAnnotation(parser: ParserState, context: Context): any {
   const pos = parser.curPos;
   return createTypeAnnotation(
     consumeOptToken(parser, context, SyntaxKind.BitwiseOr),
@@ -7145,9 +7145,9 @@ function parseTypeContinuation(parser: ParserState, context: Context, type: Type
   return type;
 }
 
-function parseTypeAnnotation(parser: ParserState, context: Context): TypeAnnotation | null {
+function parseType(parser: ParserState, context: Context): TypeAnnotation | null {
   return context & Context.OptionsAllowTypes && consumeOpt(parser, context, SyntaxKind.Colon)
-    ? parseType(parser, context)
+    ? parseTypeAnnotation(parser, context)
     : null;
 }
 
@@ -7186,7 +7186,7 @@ function parsePostfixType(parser: ParserState, context: Context, type: TypeNode,
       case SyntaxKind.LeftBracket:
         nextToken(parser, context);
         if (parser.token & Constants.IsType || optionalIndexedToken) {
-          const indexType = parseType(parser, context);
+          const indexType = parseTypeAnnotation(parser, context);
           consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
           type = optionalIndexedToken
             ? createOptionalIndexedAccess(optionalIndexedToken, type, indexType, pos, parser.pos)
@@ -7311,7 +7311,7 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   while (parser.token & (SyntaxKind.IsEllipsis | Constants.IsType)) {
     let innerPos = parser.curPos;
     ellipsisToken = consumeOptToken(parser, context, SyntaxKind.Ellipsis);
-    let type = parseType(parser, context);
+    let type = parseTypeAnnotation(parser, context);
     optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
     if (optionalToken) type = createOptionalType(optionalToken, type, innerPos, parser.curPos);
     elements.push(ellipsisToken ? createRestType(ellipsisToken, type, innerPos, parser.curPos) : type);
@@ -7332,7 +7332,7 @@ function parseFunctionType(parser: ParserState, context: Context, functionTypeFl
   const typeParameters = parseTypeParameterDeclaration(parser, context);
   const params = parseObjectTypeParameter(parser, context, functionTypeFlags);
   consume(parser, context, SyntaxKind.Colon);
-  const returnType = parseType(parser, context);
+  const returnType = parseTypeAnnotation(parser, context);
   return createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
 }
 
@@ -7419,7 +7419,7 @@ function parseFunctionTypeParameter(parser: ParserState, context: Context): Func
         ellipsisToken,
         type,
         optionalToken,
-        parseType(parser, context),
+        parseTypeAnnotation(parser, context),
         pos,
         parser.curPos
       );
@@ -7431,7 +7431,7 @@ function parseFunctionTypeParameter(parser: ParserState, context: Context): Func
       parsePostfixType(parser, context, convertToPrimaryType(parser, context, token, type, pos), parser.curPos)
     );
   } else {
-    type = parseType(parser, context);
+    type = parseTypeAnnotation(parser, context);
   }
   return createArrowTypeParameter(ellipsisToken, null as any, /* optionalToken */ null, type, pos, parser.curPos);
 }
@@ -7450,7 +7450,7 @@ function parseArrowTypeParameter(parser: ParserState, context: Context): Functio
         ellipsisToken,
         type,
         optionalToken,
-        parseType(parser, context),
+        parseTypeAnnotation(parser, context),
         pos,
         parser.curPos
       );
@@ -7462,7 +7462,7 @@ function parseArrowTypeParameter(parser: ParserState, context: Context): Functio
       parsePostfixType(parser, context, convertToPrimaryType(parser, context, token, type, pos), parser.curPos)
     );
   } else {
-    type = parseType(parser, context);
+    type = parseTypeAnnotation(parser, context);
   }
   return createArrowTypeParameter(ellipsisToken, null as any, /* optionalToken */ null, type, pos, parser.curPos);
 }
@@ -7473,7 +7473,7 @@ function parseArrowFunctionType(parser: ParserState, context: Context): ArrowFun
   return createArrowFunctionType(
     parseArrowTypeParameters(parser, context),
     consumeOptToken(parser, context, SyntaxKind.Arrow),
-    parseType(parser, context),
+    parseTypeAnnotation(parser, context),
     typeParameters,
     pos,
     parser.curPos
@@ -7536,7 +7536,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     return createArrowFunctionType(
       params,
       consumeOptToken(parser, context, SyntaxKind.Arrow),
-      parseType(parser, context),
+      parseTypeAnnotation(parser, context),
       /* typeParameters */ null,
       pos,
       parser.curPos
@@ -7562,7 +7562,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
         );
       }
       if (consumeOpt(parser, context, SyntaxKind.Colon)) {
-        type = parseType(parser, context);
+        type = parseTypeAnnotation(parser, context);
       }
       const params = parseArrowFunctionTypeParameters(
         parser,
@@ -7575,7 +7575,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       return createArrowFunctionType(
         consumeOptToken(parser, context, SyntaxKind.Arrow),
         params,
-        parseType(parser, context),
+        parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
         parser.curPos
@@ -7641,7 +7641,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       return createArrowFunctionType(
         consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         arg,
-        parseType(parser, context),
+        parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
         parser.curPos
@@ -7654,7 +7654,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       return createArrowFunctionType(
         consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         arg,
-        parseType(parser, context),
+        parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
         parser.curPos
@@ -7674,7 +7674,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       type = createArrowFunctionType(
         consumeOptToken(parser, context, SyntaxKind.Arrow),
         parseArrowFunctionTypeParameters(parser, context, [], pos),
-        parseType(parser, context),
+        parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
         parser.curPos
@@ -7704,7 +7704,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           }
 
           if (consumeOpt(parser, context, SyntaxKind.Colon)) {
-            type1 = parseType(parser, context);
+            type1 = parseTypeAnnotation(parser, context);
           }
           const params = parseArrowFunctionTypeParameters(
             parser,
@@ -7717,7 +7717,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           type = createArrowFunctionType(
             consumeOptToken(parser, context, SyntaxKind.Arrow),
             params,
-            parseType(parser, context),
+            parseTypeAnnotation(parser, context),
             /* typeParameters */ null,
             pos,
             parser.curPos
@@ -7761,7 +7761,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
         // - `type X = ((1) => T);`
         // - `type X = (([1]) => T);`
       } else {
-        type = parseType(parser, context);
+        type = parseTypeAnnotation(parser, context);
       }
 
       consume(parser, context, SyntaxKind.RightParen);
@@ -7770,7 +7770,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
         type = createArrowFunctionType(
           arrowToken,
           parseArrowFunctionTypeParameters(parser, context, type, pos),
-          parseType(parser, context),
+          parseTypeAnnotation(parser, context),
           /* typeParameters */ null,
           pos,
           parser.curPos
@@ -7784,7 +7784,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       return createArrowFunctionType(
         consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         parseArrowFunctionTypeParameters(parser, context, type, pos),
-        parseType(parser, context),
+        parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
         parser.curPos
@@ -7794,7 +7794,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     return createParenthesizedType(type, pos, parser.curPos);
   }
 
-  let type: any = parseType(parser, context);
+  let type: any = parseTypeAnnotation(parser, context);
 
   // This has to be an 'ArrowFunctionType'
   if (parser.token === SyntaxKind.Comma) {
@@ -7816,7 +7816,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     return createArrowFunctionType(
       type,
       consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
-      parseType(parser, context),
+      parseTypeAnnotation(parser, context),
       /* typeParameters */ null,
       pos,
       parser.curPos
@@ -7835,7 +7835,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     return createArrowFunctionType(
       consumeOptToken(parser, context, SyntaxKind.Arrow),
       parseArrowFunctionTypeParameters(parser, context, type, pos),
-      parseType(parser, context),
+      parseTypeAnnotation(parser, context),
       /* typeParameters */ null,
       pos,
       parser.curPos
@@ -7931,16 +7931,16 @@ function parseTypeParameterInstantiationList(
 
 function parseTypeParameterInstantiation(parser: ParserState, context: Context): TypeParameterInstantiation {
   const start = parser.curPos;
-  const type = parseType(parser, context);
+  const type = parseTypeAnnotation(parser, context);
   return createTypeParameterInstantiation(type, start, parser.curPos);
 }
 
 function parseTypeParameter(parser: ParserState, context: Context, requireInitializer: boolean): TypeParameter {
   const start = parser.curPos;
   const name = parseIdentifier(parser, context, Constants.Identifier);
-  const type = parseTypeAnnotation(parser, context);
+  const type = parseType(parser, context);
   const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
-    ? parseType(parser, context | Context.ArrowOrigin)
+    ? parseTypeAnnotation(parser, context | Context.ArrowOrigin)
     : null;
   if (requireInitializer && !defaultType && parser.previousErrorPos !== parser.pos) {
     parser.previousErrorPos = parser.pos;
@@ -8075,7 +8075,7 @@ function parseVariableDeclaration(
   const pos = parser.curPos;
   const binding = parseIdentifierOrPattern(parser, context, scope, type, DiagnosticCode.Variable_declaration_expected);
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
-  const typeAnnotation = parseTypeAnnotation(parser, context);
+  const typeAnnotation = parseType(parser, context);
   const initializer = parseInitializer(parser, context, false);
   if (initializer) {
     if (
@@ -8115,7 +8115,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       SyntaxKind.Assign,
       DiagnosticCode.An_TypeAlias_declaration_require_a
     );
-    const type = parseType(parser, context);
+    const type = parseTypeAnnotation(parser, context);
     if (declareKeyword) nodeFlags |= NodeFlags.Declared;
     parseSemicolon(parser, context);
     return createTypeAlias(
@@ -8335,7 +8335,7 @@ function parseLexicalBinding(
 
   const binding = parseIdentifierOrPattern(parser, context, scope, type, DiagnosticCode.Lexical_declaration_expected);
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
-  const typeAnnotation = parseTypeAnnotation(parser, context);
+  const typeAnnotation = parseType(parser, context);
 
   let initializer = null;
 
@@ -8462,7 +8462,7 @@ function parseObjectTypeSpreadProperty(
   return createObjectTypeSpreadProperty(
     protoKeyword,
     consumeToken(parser, context, SyntaxKind.Ellipsis, DiagnosticCode.Type_expected),
-    parseType(parser, context),
+    parseTypeAnnotation(parser, context),
     staticKeyword,
     pos,
     parser.curPos
@@ -8546,7 +8546,7 @@ function parseObjectTypeProperty(
     }
     const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
     consume(parser, context, SyntaxKind.Colon);
-    const value = parseType(parser, context);
+    const value = parseTypeAnnotation(parser, context);
     parseTypeMemberSemicolon(parser, context);
     return createObjectTypeProperty(
       getKeyword,
@@ -8581,7 +8581,7 @@ function parseObjectTypeProperty(
   }
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   consume(parser, context, SyntaxKind.Colon);
-  const value = parseType(parser, context);
+  const value = parseTypeAnnotation(parser, context);
   parseTypeMemberSemicolon(parser, context);
   return createObjectTypeProperty(
     getKeyword,
@@ -8615,7 +8615,7 @@ function parseObjectTypeCallProperty(
   const typeParameters = parseTypeParameterDeclaration(parser, context);
   const params = parseObjectTypeParameter(parser, context, FunctionTypeFlags.None);
   consume(parser, context, SyntaxKind.Colon);
-  const returnType = parseType(parser, context);
+  const returnType = parseTypeAnnotation(parser, context);
   consumeOpt(parser, context, SyntaxKind.Semicolon);
   return createObjectTypeCallProperty(
     protoKeyword,
@@ -8655,7 +8655,7 @@ function parseObjectTypeInternalSlot(
     const typeParameters = parseTypeParameterDeclaration(parser, context);
     const params = parseObjectTypeParameter(parser, context, FunctionTypeFlags.None);
     consume(parser, context, SyntaxKind.Colon);
-    const returnType = parseType(parser, context);
+    const returnType = parseTypeAnnotation(parser, context);
     const value = createFunctionType(params, returnType, typeParameters, pos, parser.curPos);
     parseTypeMemberSemicolon(parser, context);
     return createObjectTypeInternalSlot(
@@ -8670,7 +8670,7 @@ function parseObjectTypeInternalSlot(
   }
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   consume(parser, context, SyntaxKind.Colon);
-  const type = parseType(parser, context);
+  const type = parseTypeAnnotation(parser, context);
   parseTypeMemberSemicolon(parser, context);
   return createObjectTypeInternalSlot(protoKeyword, name, optionalToken, staticKeyword, type, pos, parser.curPos);
 }
@@ -8746,7 +8746,7 @@ function parseObjectTypeIndexer(
         );
       }
       consume(parser, context, SyntaxKind.Colon);
-      key = parseType(parser, context);
+      key = parseTypeAnnotation(parser, context);
     } else {
       key = parseTypeContinuation(
         parser,
@@ -8755,7 +8755,7 @@ function parseObjectTypeIndexer(
       );
     }
   } else {
-    key = parseType(parser, context);
+    key = parseTypeAnnotation(parser, context);
   }
 
   consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Did_you_forgot_a_to_match_the_token);
@@ -8766,7 +8766,7 @@ function parseObjectTypeIndexer(
 
 function parseReturnType(parser: ParserState, context: Context): TypeNode {
   consume(parser, context, SyntaxKind.Colon);
-  return parseType(parser, context);
+  return parseTypeAnnotation(parser, context);
 }
 
 function parseComputedPropertyName(parser: ParserState, context: Context): ComputedPropertyName {
@@ -9760,7 +9760,7 @@ export function parseFieldDefinition(
     context & Context.OptionsAllowTypes ? consumeOptToken(parser, context, SyntaxKind.QuestionMark) : null;
 
   // - `class X { foo: number }`
-  const type = parseTypeAnnotation(parser, context);
+  const type = parseType(parser, context);
 
   let initializer = null;
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Assign)) {
@@ -9995,7 +9995,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         context,
         scope,
         typeParameters,
-        parseTypeAnnotation(parser, context),
+        parseType(parser, context),
         [],
         asyncToken,
         /* nodeFlags */ NodeFlags.Async,
@@ -10036,7 +10036,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             /* ellipsisToken */ null,
             /* left */ expression,
             /* optionalToken */ questionMarkToken,
-            /* type */ parseTypeAnnotation(parser, context),
+            /* type */ parseType(parser, context),
             /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             pos,
@@ -10066,7 +10066,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           /* ellipsisToken */ null,
           /* left */ expression,
           /* optionalToken */ null,
-          /* type */ parseTypeAnnotation(parser, context),
+          /* type */ parseType(parser, context),
           /* right */ parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           pos,
@@ -10158,7 +10158,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             /* ellipsisToken */ null,
             /* left */ expression,
             /* optionalToken */ questionMarkToken,
-            /* type */ parseTypeAnnotation(parser, context),
+            /* type */ parseType(parser, context),
             /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             pos,
@@ -10171,7 +10171,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           /* ellipsisToken */ null,
           /* left */ expression as any,
           /* optionalToken */ null,
-          /* type */ parseTypeAnnotation(parser, context),
+          /* type */ parseType(parser, context),
           /* right */ parseInitializer(parser, context, false),
           NodeFlags.ExpressionNode,
           pos,
@@ -10266,7 +10266,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               /* ellipsisToken */ ellipsisToken,
               /* left */ expression,
               /* optionalToken */ questionMarkToken,
-              /* type */ parseTypeAnnotation(parser, context),
+              /* type */ parseType(parser, context),
               /* right */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
               pos,
@@ -10281,7 +10281,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             /* ellipsisToken */ ellipsisToken,
             /* left */ expression,
             /* optionalToken */ null,
-            /* type */ parseTypeAnnotation(parser, context),
+            /* type */ parseType(parser, context),
             /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             pos,
@@ -10341,7 +10341,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               /* ellipsisToken */ null,
               /* left */ expression,
               /* optionalToken */ questionMarkToken,
-              /* type */ parseTypeAnnotation(parser, context),
+              /* type */ parseType(parser, context),
               /* right */ parseInitializer(parser, context, false),
               NodeFlags.ExpressionNode,
               pos,
@@ -10371,7 +10371,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             /* ellipsisToken */ ellipsisToken,
             /* left */ expression,
             /* optionalToken */ null,
-            /* type */ parseTypeAnnotation(parser, context),
+            /* type */ parseType(parser, context),
             /* right */ parseInitializer(parser, context, false),
             NodeFlags.ExpressionNode,
             pos,
@@ -10522,7 +10522,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         context,
         scope,
         typeParameters,
-        parseTypeAnnotation(parser, context),
+        parseType(parser, context),
         arrowParams,
         asyncToken,
         /* nodeFlags */ flags | NodeFlags.Async,
@@ -10570,8 +10570,8 @@ function parseOpaqueType(
       consumeOptToken(parser, context, SyntaxKind.TypeKeyword),
       parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected),
       parseTypeParameterDeclaration(parser, context),
-      consumeOpt(parser, context, SyntaxKind.Colon) ? parseType(parser, context) : null,
-      !declareKeyword && consume(parser, context, SyntaxKind.Assign) ? parseType(parser, context) : null,
+      consumeOpt(parser, context, SyntaxKind.Colon) ? parseTypeAnnotation(parser, context) : null,
+      !declareKeyword && consume(parser, context, SyntaxKind.Assign) ? parseTypeAnnotation(parser, context) : null,
       pos,
       parser.curPos
     );
