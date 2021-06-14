@@ -90,21 +90,13 @@ declare function foo(): void
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 138477615,
-                        "flags": 2097216,
-                        "start": 26,
-                        "end": 31
-                    },
-                    "flags": 2097152,
+                    "kind": 138477615,
+                    "flags": 2097216,
                     "start": 26,
                     "end": 31
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 26,
                 "end": 31
             },
             "flags": 4112,
@@ -219,21 +211,13 @@ declare function foo(): void
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 138477615,
-                        "flags": 2097216,
-                        "start": 77,
-                        "end": 82
-                    },
-                    "flags": 2097152,
+                    "kind": 138477615,
+                    "flags": 2097216,
                     "start": 77,
                     "end": 82
                 },
                 "flags": 2097152,
-                "start": 41,
+                "start": 77,
                 "end": 82
             },
             "flags": 4112,
@@ -285,21 +269,13 @@ declare function foo(): void
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 138477615,
-                        "flags": 2097216,
-                        "start": 108,
-                        "end": 113
-                    },
-                    "flags": 2097152,
+                    "kind": 138477615,
+                    "flags": 2097216,
                     "start": 108,
                     "end": 113
                 },
                 "flags": 2097152,
-                "start": 92,
+                "start": 108,
                 "end": 113
             },
             "flags": 4112,

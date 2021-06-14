@@ -495,21 +495,13 @@ function for_scope_var() {
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
                                 "type": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
-                                        "start": 254,
-                                        "end": 261
-                                    },
-                                    "flags": 2097152,
+                                    "kind": 134234345,
+                                    "flags": 2097216,
                                     "start": 254,
                                     "end": 261
                                 },
                                 "flags": 2097152,
-                                "start": 137,
+                                "start": 254,
                                 "end": 261
                             },
                             "flags": 16,
@@ -776,21 +768,13 @@ function for_scope_var() {
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
                                 "type": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
-                                        "start": 406,
-                                        "end": 413
-                                    },
-                                    "flags": 2097152,
+                                    "kind": 134234345,
+                                    "flags": 2097216,
                                     "start": 406,
                                     "end": 413
                                 },
                                 "flags": 2097152,
-                                "start": 378,
+                                "start": 406,
                                 "end": 413
                             },
                             "flags": 16,
@@ -935,21 +919,13 @@ function for_scope_var() {
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
                                 "type": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
-                                        "start": 529,
-                                        "end": 536
-                                    },
-                                    "flags": 2097152,
+                                    "kind": 134234345,
+                                    "flags": 2097216,
                                     "start": 529,
                                     "end": 536
                                 },
                                 "flags": 2097152,
-                                "start": 477,
+                                "start": 529,
                                 "end": 536
                             },
                             "flags": 16,

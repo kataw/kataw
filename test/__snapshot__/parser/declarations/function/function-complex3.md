@@ -466,21 +466,13 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
                                 "type": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 138477615,
-                                        "flags": 2097216,
-                                        "start": 168,
-                                        "end": 173
-                                    },
-                                    "flags": 2097152,
+                                    "kind": 138477615,
+                                    "flags": 2097216,
                                     "start": 168,
                                     "end": 173
                                 },
                                 "flags": 2097152,
-                                "start": 140,
+                                "start": 168,
                                 "end": 173
                             },
                             "flags": 16,
@@ -766,21 +758,13 @@ function b1<A: 'a', B: A>(b: B): void {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 138477615,
-                        "flags": 2097216,
-                        "start": 234,
-                        "end": 239
-                    },
-                    "flags": 2097152,
+                    "kind": 138477615,
+                    "flags": 2097216,
                     "start": 234,
                     "end": 239
                 },
                 "flags": 2097152,
-                "start": 200,
+                "start": 234,
                 "end": 239
             },
             "flags": 16,

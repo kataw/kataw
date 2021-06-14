@@ -1128,30 +1128,22 @@ function d<X: [number, number]>(x: X): X {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "X",
-                            "rawText": "X",
-                            "flags": 96,
-                            "start": 300,
-                            "end": 302
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "X",
+                        "rawText": "X",
+                        "flags": 96,
                         "start": 300,
                         "end": 302
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 300,
                     "end": 302
                 },
                 "flags": 2097152,
-                "start": 260,
+                "start": 300,
                 "end": 302
             },
             "flags": 16,

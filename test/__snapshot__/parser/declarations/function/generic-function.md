@@ -121,43 +121,35 @@ function from<T>(arg: any): Query<T> {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Query",
-                            "rawText": "Query",
-                            "flags": 96,
-                            "start": 39,
-                            "end": 45
-                        },
-                        "typeParameters": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "Query",
+                        "rawText": "Query",
+                        "flags": 96,
+                        "start": 39,
+                        "end": 45
+                    },
+                    "typeParameters": {
+                        "kind": 309,
+                        "parameters": [
+                            {
+                                "kind": 310,
+                                "type": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "start": 46,
-                                                "end": 47
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
                                             "start": 46,
                                             "end": 47
                                         },
+                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 46,
                                         "end": 47
@@ -165,14 +157,14 @@ function from<T>(arg: any): Query<T> {
                                     "flags": 2097152,
                                     "start": 46,
                                     "end": 47
-                                }
-                            ],
-                            "flags": 2097152,
-                            "start": 45,
-                            "end": 48
-                        },
+                                },
+                                "flags": 2097152,
+                                "start": 46,
+                                "end": 47
+                            }
+                        ],
                         "flags": 2097152,
-                        "start": 39,
+                        "start": 45,
                         "end": 48
                     },
                     "flags": 2097152,
@@ -180,7 +172,7 @@ function from<T>(arg: any): Query<T> {
                     "end": 48
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 39,
                 "end": 48
             },
             "flags": 4112,
@@ -316,43 +308,35 @@ function from<T>(arg: any): Query<T> {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Query",
-                            "rawText": "Query",
-                            "flags": 96,
-                            "start": 77,
-                            "end": 83
-                        },
-                        "typeParameters": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "Query",
+                        "rawText": "Query",
+                        "flags": 96,
+                        "start": 77,
+                        "end": 83
+                    },
+                    "typeParameters": {
+                        "kind": 309,
+                        "parameters": [
+                            {
+                                "kind": 310,
+                                "type": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "start": 84,
-                                                "end": 85
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
                                             "start": 84,
                                             "end": 85
                                         },
+                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 84,
                                         "end": 85
@@ -360,14 +344,14 @@ function from<T>(arg: any): Query<T> {
                                     "flags": 2097152,
                                     "start": 84,
                                     "end": 85
-                                }
-                            ],
-                            "flags": 2097152,
-                            "start": 83,
-                            "end": 86
-                        },
+                                },
+                                "flags": 2097152,
+                                "start": 84,
+                                "end": 85
+                            }
+                        ],
                         "flags": 2097152,
-                        "start": 77,
+                        "start": 83,
                         "end": 86
                     },
                     "flags": 2097152,
@@ -375,7 +359,7 @@ function from<T>(arg: any): Query<T> {
                     "end": 86
                 },
                 "flags": 2097152,
-                "start": 49,
+                "start": 77,
                 "end": 86
             },
             "flags": 16,

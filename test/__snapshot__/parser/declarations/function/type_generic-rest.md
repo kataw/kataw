@@ -280,50 +280,42 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 147,
-                        "elementTypes": [
-                            {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "$Rest",
-                                        "rawText": "$Rest",
-                                        "flags": 96,
-                                        "start": 30,
-                                        "end": 35
-                                    },
-                                    "typeParameters": {
-                                        "kind": 309,
-                                        "parameters": [
-                                            {
-                                                "kind": 310,
+                    "kind": 147,
+                    "elementTypes": [
+                        {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "$Rest",
+                                    "rawText": "$Rest",
+                                    "flags": 96,
+                                    "start": 30,
+                                    "end": 35
+                                },
+                                "typeParameters": {
+                                    "kind": 309,
+                                    "parameters": [
+                                        {
+                                            "kind": 310,
+                                            "type": {
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "A",
-                                                            "rawText": "A",
-                                                            "flags": 96,
-                                                            "start": 36,
-                                                            "end": 37
-                                                        },
-                                                        "typeParameters": null,
-                                                        "flags": 2097152,
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "A",
+                                                        "rawText": "A",
+                                                        "flags": 96,
                                                         "start": 36,
                                                         "end": 37
                                                     },
+                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "start": 36,
                                                     "end": 37
@@ -332,63 +324,63 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                 "start": 36,
                                                 "end": 37
                                             },
-                                            {
-                                                "kind": 310,
+                                            "flags": 2097152,
+                                            "start": 36,
+                                            "end": 37
+                                        },
+                                        {
+                                            "kind": 310,
+                                            "type": {
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 134234353,
-                                                        "properties": [
-                                                            {
-                                                                "kind": 193,
-                                                                "protoKeyword": null,
-                                                                "staticToken": null,
-                                                                "getKeyword": null,
-                                                                "setKeyword": null,
-                                                                "key": {
-                                                                    "kind": 134299649,
-                                                                    "text": "p",
-                                                                    "rawText": "p",
-                                                                    "flags": 96,
-                                                                    "start": 40,
-                                                                    "end": 41
-                                                                },
-                                                                "optionalToken": null,
-                                                                "value": {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "id": {
-                                                                            "kind": 134299649,
-                                                                            "text": "B",
-                                                                            "rawText": "B",
-                                                                            "flags": 96,
-                                                                            "start": 42,
-                                                                            "end": 44
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
+                                                    "kind": 134234353,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 193,
+                                                            "protoKeyword": null,
+                                                            "staticToken": null,
+                                                            "getKeyword": null,
+                                                            "setKeyword": null,
+                                                            "key": {
+                                                                "kind": 134299649,
+                                                                "text": "p",
+                                                                "rawText": "p",
+                                                                "flags": 96,
+                                                                "start": 40,
+                                                                "end": 41
+                                                            },
+                                                            "optionalToken": null,
+                                                            "value": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "B",
+                                                                        "rawText": "B",
+                                                                        "flags": 96,
                                                                         "start": 42,
                                                                         "end": 44
                                                                     },
+                                                                    "typeParameters": null,
                                                                     "flags": 2097152,
                                                                     "start": 42,
                                                                     "end": 44
                                                                 },
                                                                 "flags": 2097152,
-                                                                "start": 40,
+                                                                "start": 42,
                                                                 "end": 44
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 2097152,
-                                                        "start": 38,
-                                                        "end": 45
-                                                    },
+                                                            },
+                                                            "flags": 2097152,
+                                                            "start": 40,
+                                                            "end": 44
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
                                                     "flags": 2097152,
                                                     "start": 38,
                                                     "end": 45
@@ -396,55 +388,55 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                 "flags": 2097152,
                                                 "start": 38,
                                                 "end": 45
-                                            }
-                                        ],
-                                        "flags": 2097152,
-                                        "start": 35,
-                                        "end": 46
-                                    },
+                                            },
+                                            "flags": 2097152,
+                                            "start": 38,
+                                            "end": 45
+                                        }
+                                    ],
                                     "flags": 2097152,
-                                    "start": 30,
+                                    "start": 35,
                                     "end": 46
                                 },
                                 "flags": 2097152,
                                 "start": 30,
                                 "end": 46
                             },
-                            {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "B",
-                                        "rawText": "B",
-                                        "flags": 96,
-                                        "start": 47,
-                                        "end": 49
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 2097152,
+                            "flags": 2097152,
+                            "start": 30,
+                            "end": 46
+                        },
+                        {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "B",
+                                    "rawText": "B",
+                                    "flags": 96,
                                     "start": 47,
                                     "end": 49
                                 },
+                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 47,
                                 "end": 49
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "start": 28,
-                        "end": 50
-                    },
+                            },
+                            "flags": 2097152,
+                            "start": 47,
+                            "end": 49
+                        }
+                    ],
+                    "trailingComma": false,
                     "flags": 2097152,
                     "start": 28,
                     "end": 50
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 28,
                 "end": 50
             },
             "flags": 16,

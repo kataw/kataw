@@ -125,7 +125,7 @@ import { createObjectTypeCallProperty, ObjectTypeCallProperty } from '../ast/typ
 import { createObjectTypeIndexer, ObjectTypeIndexer } from '../ast/types/object-type-indexer';
 import { createIntersectionType } from '../ast/types/intersection-type';
 import { createUnionType } from '../ast/types/union-type';
-import { createTypeAnnotation, TypeAnnotation } from '../ast/types/type-annotation';
+import { createTypeAnnotation } from '../ast/types/type-annotation';
 import { createQualifiedType } from '../ast/types/qualified-type';
 import { createTypeReference, TypeReference } from '../ast/types/type-reference';
 import { createTypeParameter, TypeParameter } from '../ast/types/type-parameter';
@@ -6095,7 +6095,7 @@ function parseFunctionDeclaration(
         )
       : consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)
   ) {
-    returnType = createTypeAnnotation(null, null, parseTypeAnnotation(parser, context), pos, parser.curPos);
+    returnType = parseTypeAnnotation(parser, context);
   }
 
   const contents =

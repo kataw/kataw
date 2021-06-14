@@ -125,21 +125,13 @@ declare function foo(x: number, y: string): void;
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 138477615,
-                        "flags": 2097216,
-                        "start": 43,
-                        "end": 48
-                    },
-                    "flags": 2097152,
+                    "kind": 138477615,
+                    "flags": 2097216,
                     "start": 43,
                     "end": 48
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 43,
                 "end": 48
             },
             "flags": 4112,

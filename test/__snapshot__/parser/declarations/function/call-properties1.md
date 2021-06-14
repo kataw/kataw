@@ -278,21 +278,13 @@ function a(f: { (): string; (x: number): string }): string {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 134234347,
-                        "flags": 2097216,
-                        "start": 51,
-                        "end": 58
-                    },
-                    "flags": 2097152,
+                    "kind": 134234347,
+                    "flags": 2097216,
                     "start": 51,
                     "end": 58
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 51,
                 "end": 58
             },
             "flags": 16,

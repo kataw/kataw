@@ -163,21 +163,13 @@ function x8(a: false & false): false {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 134234345,
-                        "flags": 2097216,
-                        "start": 23,
-                        "end": 30
-                    },
-                    "flags": 2097152,
+                    "kind": 134234345,
+                    "flags": 2097216,
                     "start": 23,
                     "end": 30
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 23,
                 "end": 30
             },
             "flags": 16,
@@ -296,21 +288,13 @@ function x8(a: false & false): false {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 134234345,
-                        "flags": 2097216,
-                        "start": 108,
-                        "end": 115
-                    },
-                    "flags": 2097152,
+                    "kind": 134234345,
+                    "flags": 2097216,
                     "start": 108,
                     "end": 115
                 },
                 "flags": 2097152,
-                "start": 83,
+                "start": 108,
                 "end": 115
             },
             "flags": 16,
@@ -541,21 +525,13 @@ function x8(a: false & false): false {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 134234254,
-                        "flags": 2097216,
-                        "start": 277,
-                        "end": 285
-                    },
-                    "flags": 2097152,
+                    "kind": 134234254,
+                    "flags": 2097216,
                     "start": 277,
                     "end": 285
                 },
                 "flags": 2097152,
-                "start": 252,
+                "start": 277,
                 "end": 285
             },
             "flags": 16,
@@ -710,21 +686,13 @@ function x8(a: false & false): false {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 24752947,
-                        "flags": 2097216,
-                        "start": 356,
-                        "end": 361
-                    },
-                    "flags": 2097152,
+                    "kind": 24752947,
+                    "flags": 2097216,
                     "start": 356,
                     "end": 361
                 },
                 "flags": 2097152,
-                "start": 329,
+                "start": 356,
                 "end": 361
             },
             "flags": 16,
@@ -885,21 +853,13 @@ function x8(a: false & false): false {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 205586437,
-                        "flags": 2097216,
-                        "start": 412,
-                        "end": 418
-                    },
-                    "flags": 2097152,
+                    "kind": 205586437,
+                    "flags": 2097216,
                     "start": 412,
                     "end": 418
                 },
                 "flags": 2097152,
-                "start": 385,
+                "start": 412,
                 "end": 418
             },
             "flags": 16,
@@ -1038,21 +998,13 @@ function x8(a: false & false): false {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 24752947,
-                        "flags": 2097216,
-                        "start": 492,
-                        "end": 497
-                    },
-                    "flags": 2097152,
+                    "kind": 24752947,
+                    "flags": 2097216,
                     "start": 492,
                     "end": 497
                 },
                 "flags": 2097152,
-                "start": 460,
+                "start": 492,
                 "end": 497
             },
             "flags": 16,
@@ -1191,21 +1143,13 @@ function x8(a: false & false): false {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 205586437,
-                        "flags": 2097216,
-                        "start": 553,
-                        "end": 559
-                    },
-                    "flags": 2097152,
+                    "kind": 205586437,
+                    "flags": 2097216,
                     "start": 553,
                     "end": 559
                 },
                 "flags": 2097152,
-                "start": 521,
+                "start": 553,
                 "end": 559
             },
             "flags": 16,

@@ -85,21 +85,13 @@ declare function foo<T>(): void;
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 138477615,
-                        "flags": 2097216,
-                        "start": 26,
-                        "end": 31
-                    },
-                    "flags": 2097152,
+                    "kind": 138477615,
+                    "flags": 2097216,
                     "start": 26,
                     "end": 31
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 26,
                 "end": 31
             },
             "flags": 4112,

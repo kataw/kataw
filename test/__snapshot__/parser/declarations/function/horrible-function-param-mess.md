@@ -1040,85 +1040,77 @@ function processArgs<A1: {}, A2: {}>(
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 288,
-                        "arrowTypeParameterList": {
-                            "kind": 292,
-                            "parameters": [],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "start": 81,
-                            "end": 81
-                        },
-                        "arrowToken": null,
-                        "returnType": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 288,
-                                "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 121,
-                                    "end": 124
-                                },
-                                "arrowToken": {
-                                    "kind": 292,
-                                    "parameters": [
-                                        {
-                                            "kind": 149,
-                                            "ellipsisToken": null,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "resolver",
-                                                "rawText": "resolver",
-                                                "flags": 96,
-                                                "start": 82,
-                                                "end": 93
-                                            },
-                                            "optionalToken": null,
-                                            "types": {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "Resolver",
-                                                        "rawText": "Resolver",
-                                                        "flags": 96,
-                                                        "start": 94,
-                                                        "end": 103
-                                                    },
-                                                    "typeParameters": {
-                                                        "kind": 309,
-                                                        "parameters": [
-                                                            {
-                                                                "kind": 310,
+                    "kind": 288,
+                    "arrowTypeParameterList": {
+                        "kind": 292,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 81,
+                        "end": 81
+                    },
+                    "arrowToken": null,
+                    "returnType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 288,
+                            "arrowTypeParameterList": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 121,
+                                "end": 124
+                            },
+                            "arrowToken": {
+                                "kind": 292,
+                                "parameters": [
+                                    {
+                                        "kind": 149,
+                                        "ellipsisToken": null,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "resolver",
+                                            "rawText": "resolver",
+                                            "flags": 96,
+                                            "start": 82,
+                                            "end": 93
+                                        },
+                                        "optionalToken": null,
+                                        "types": {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "Resolver",
+                                                    "rawText": "Resolver",
+                                                    "flags": 96,
+                                                    "start": 94,
+                                                    "end": 103
+                                                },
+                                                "typeParameters": {
+                                                    "kind": 309,
+                                                    "parameters": [
+                                                        {
+                                                            "kind": 310,
+                                                            "type": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "id": {
-                                                                            "kind": 134299649,
-                                                                            "text": "S",
-                                                                            "rawText": "S",
-                                                                            "flags": 96,
-                                                                            "start": 104,
-                                                                            "end": 105
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "S",
+                                                                        "rawText": "S",
+                                                                        "flags": 96,
                                                                         "start": 104,
                                                                         "end": 105
                                                                     },
+                                                                    "typeParameters": null,
                                                                     "flags": 2097152,
                                                                     "start": 104,
                                                                     "end": 105
@@ -1127,27 +1119,27 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "start": 104,
                                                                 "end": 105
                                                             },
-                                                            {
-                                                                "kind": 310,
+                                                            "flags": 2097152,
+                                                            "start": 104,
+                                                            "end": 105
+                                                        },
+                                                        {
+                                                            "kind": 310,
+                                                            "type": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "id": {
-                                                                            "kind": 134299649,
-                                                                            "text": "A2",
-                                                                            "rawText": "A2",
-                                                                            "flags": 96,
-                                                                            "start": 106,
-                                                                            "end": 109
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "A2",
+                                                                        "rawText": "A2",
+                                                                        "flags": 96,
                                                                         "start": 106,
                                                                         "end": 109
                                                                     },
+                                                                    "typeParameters": null,
                                                                     "flags": 2097152,
                                                                     "start": 106,
                                                                     "end": 109
@@ -1156,27 +1148,27 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "start": 106,
                                                                 "end": 109
                                                             },
-                                                            {
-                                                                "kind": 310,
+                                                            "flags": 2097152,
+                                                            "start": 106,
+                                                            "end": 109
+                                                        },
+                                                        {
+                                                            "kind": 310,
+                                                            "type": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "id": {
-                                                                            "kind": 134299649,
-                                                                            "text": "C",
-                                                                            "rawText": "C",
-                                                                            "flags": 96,
-                                                                            "start": 110,
-                                                                            "end": 112
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "C",
+                                                                        "rawText": "C",
+                                                                        "flags": 96,
                                                                         "start": 110,
                                                                         "end": 112
                                                                     },
+                                                                    "typeParameters": null,
                                                                     "flags": 2097152,
                                                                     "start": 110,
                                                                     "end": 112
@@ -1185,27 +1177,27 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "start": 110,
                                                                 "end": 112
                                                             },
-                                                            {
-                                                                "kind": 310,
+                                                            "flags": 2097152,
+                                                            "start": 110,
+                                                            "end": 112
+                                                        },
+                                                        {
+                                                            "kind": 310,
+                                                            "type": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "id": {
-                                                                            "kind": 134299649,
-                                                                            "text": "I",
-                                                                            "rawText": "I",
-                                                                            "flags": 96,
-                                                                            "start": 113,
-                                                                            "end": 115
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "I",
+                                                                        "rawText": "I",
+                                                                        "flags": 96,
                                                                         "start": 113,
                                                                         "end": 115
                                                                     },
+                                                                    "typeParameters": null,
                                                                     "flags": 2097152,
                                                                     "start": 113,
                                                                     "end": 115
@@ -1214,27 +1206,27 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "start": 113,
                                                                 "end": 115
                                                             },
-                                                            {
-                                                                "kind": 310,
+                                                            "flags": 2097152,
+                                                            "start": 113,
+                                                            "end": 115
+                                                        },
+                                                        {
+                                                            "kind": 310,
+                                                            "type": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "id": {
-                                                                            "kind": 134299649,
-                                                                            "text": "R",
-                                                                            "rawText": "R",
-                                                                            "flags": 96,
-                                                                            "start": 116,
-                                                                            "end": 118
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "R",
+                                                                        "rawText": "R",
+                                                                        "flags": 96,
                                                                         "start": 116,
                                                                         "end": 118
                                                                     },
+                                                                    "typeParameters": null,
                                                                     "flags": 2097152,
                                                                     "start": 116,
                                                                     "end": 118
@@ -1242,14 +1234,14 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "flags": 2097152,
                                                                 "start": 116,
                                                                 "end": 118
-                                                            }
-                                                        ],
-                                                        "flags": 2097152,
-                                                        "start": 103,
-                                                        "end": 119
-                                                    },
+                                                            },
+                                                            "flags": 2097152,
+                                                            "start": 116,
+                                                            "end": 118
+                                                        }
+                                                    ],
                                                     "flags": 2097152,
-                                                    "start": 94,
+                                                    "start": 103,
                                                     "end": 119
                                                 },
                                                 "flags": 2097152,
@@ -1257,53 +1249,53 @@ function processArgs<A1: {}, A2: {}>(
                                                 "end": 119
                                             },
                                             "flags": 2097152,
-                                            "start": 81,
+                                            "start": 94,
                                             "end": 119
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "start": 81,
-                                    "end": 119
-                                },
-                                "returnType": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "Resolver",
-                                            "rawText": "Resolver",
-                                            "flags": 96,
-                                            "start": 124,
-                                            "end": 133
                                         },
-                                        "typeParameters": {
-                                            "kind": 309,
-                                            "parameters": [
-                                                {
-                                                    "kind": 310,
+                                        "flags": 2097152,
+                                        "start": 81,
+                                        "end": 119
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 81,
+                                "end": 119
+                            },
+                            "returnType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "Resolver",
+                                        "rawText": "Resolver",
+                                        "flags": 96,
+                                        "start": 124,
+                                        "end": 133
+                                    },
+                                    "typeParameters": {
+                                        "kind": 309,
+                                        "parameters": [
+                                            {
+                                                "kind": 310,
+                                                "type": {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
                                                     "type": {
-                                                        "kind": 139,
-                                                        "bitwiseOrToken": null,
-                                                        "bitwiseAndToken": null,
-                                                        "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "S",
-                                                                "rawText": "S",
-                                                                "flags": 96,
-                                                                "start": 134,
-                                                                "end": 135
-                                                            },
-                                                            "typeParameters": null,
-                                                            "flags": 2097152,
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "S",
+                                                            "rawText": "S",
+                                                            "flags": 96,
                                                             "start": 134,
                                                             "end": 135
                                                         },
+                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 134,
                                                         "end": 135
@@ -1312,27 +1304,27 @@ function processArgs<A1: {}, A2: {}>(
                                                     "start": 134,
                                                     "end": 135
                                                 },
-                                                {
-                                                    "kind": 310,
+                                                "flags": 2097152,
+                                                "start": 134,
+                                                "end": 135
+                                            },
+                                            {
+                                                "kind": 310,
+                                                "type": {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
                                                     "type": {
-                                                        "kind": 139,
-                                                        "bitwiseOrToken": null,
-                                                        "bitwiseAndToken": null,
-                                                        "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "A1",
-                                                                "rawText": "A1",
-                                                                "flags": 96,
-                                                                "start": 136,
-                                                                "end": 139
-                                                            },
-                                                            "typeParameters": null,
-                                                            "flags": 2097152,
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "A1",
+                                                            "rawText": "A1",
+                                                            "flags": 96,
                                                             "start": 136,
                                                             "end": 139
                                                         },
+                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 136,
                                                         "end": 139
@@ -1341,27 +1333,27 @@ function processArgs<A1: {}, A2: {}>(
                                                     "start": 136,
                                                     "end": 139
                                                 },
-                                                {
-                                                    "kind": 310,
+                                                "flags": 2097152,
+                                                "start": 136,
+                                                "end": 139
+                                            },
+                                            {
+                                                "kind": 310,
+                                                "type": {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
                                                     "type": {
-                                                        "kind": 139,
-                                                        "bitwiseOrToken": null,
-                                                        "bitwiseAndToken": null,
-                                                        "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "C",
-                                                                "rawText": "C",
-                                                                "flags": 96,
-                                                                "start": 140,
-                                                                "end": 142
-                                                            },
-                                                            "typeParameters": null,
-                                                            "flags": 2097152,
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "C",
+                                                            "rawText": "C",
+                                                            "flags": 96,
                                                             "start": 140,
                                                             "end": 142
                                                         },
+                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 140,
                                                         "end": 142
@@ -1370,27 +1362,27 @@ function processArgs<A1: {}, A2: {}>(
                                                     "start": 140,
                                                     "end": 142
                                                 },
-                                                {
-                                                    "kind": 310,
+                                                "flags": 2097152,
+                                                "start": 140,
+                                                "end": 142
+                                            },
+                                            {
+                                                "kind": 310,
+                                                "type": {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
                                                     "type": {
-                                                        "kind": 139,
-                                                        "bitwiseOrToken": null,
-                                                        "bitwiseAndToken": null,
-                                                        "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "I",
-                                                                "rawText": "I",
-                                                                "flags": 96,
-                                                                "start": 143,
-                                                                "end": 145
-                                                            },
-                                                            "typeParameters": null,
-                                                            "flags": 2097152,
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "I",
+                                                            "rawText": "I",
+                                                            "flags": 96,
                                                             "start": 143,
                                                             "end": 145
                                                         },
+                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 143,
                                                         "end": 145
@@ -1399,27 +1391,27 @@ function processArgs<A1: {}, A2: {}>(
                                                     "start": 143,
                                                     "end": 145
                                                 },
-                                                {
-                                                    "kind": 310,
+                                                "flags": 2097152,
+                                                "start": 143,
+                                                "end": 145
+                                            },
+                                            {
+                                                "kind": 310,
+                                                "type": {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
                                                     "type": {
-                                                        "kind": 139,
-                                                        "bitwiseOrToken": null,
-                                                        "bitwiseAndToken": null,
-                                                        "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "R",
-                                                                "rawText": "R",
-                                                                "flags": 96,
-                                                                "start": 146,
-                                                                "end": 148
-                                                            },
-                                                            "typeParameters": null,
-                                                            "flags": 2097152,
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "R",
+                                                            "rawText": "R",
+                                                            "flags": 96,
                                                             "start": 146,
                                                             "end": 148
                                                         },
+                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 146,
                                                         "end": 148
@@ -1427,111 +1419,111 @@ function processArgs<A1: {}, A2: {}>(
                                                     "flags": 2097152,
                                                     "start": 146,
                                                     "end": 148
-                                                }
-                                            ],
-                                            "flags": 2097152,
-                                            "start": 133,
-                                            "end": 149
-                                        },
+                                                },
+                                                "flags": 2097152,
+                                                "start": 146,
+                                                "end": 148
+                                            }
+                                        ],
                                         "flags": 2097152,
-                                        "start": 124,
+                                        "start": 133,
                                         "end": 149
                                     },
                                     "flags": 2097152,
                                     "start": 124,
                                     "end": 149
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
-                                "start": 81,
+                                "start": 124,
                                 "end": 149
                             },
+                            "typeParameters": null,
                             "flags": 2097152,
                             "start": 81,
                             "end": 149
                         },
-                        "typeParameters": {
-                            "kind": 307,
-                            "typeParameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "S",
-                                        "rawText": "S",
-                                        "flags": 96,
-                                        "start": 70,
-                                        "end": 71
-                                    },
-                                    "type": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                        "flags": 2097152,
+                        "start": 81,
+                        "end": 149
+                    },
+                    "typeParameters": {
+                        "kind": 307,
+                        "typeParameters": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "S",
+                                    "rawText": "S",
+                                    "flags": 96,
                                     "start": 70,
                                     "end": 71
                                 },
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "C",
-                                        "rawText": "C",
-                                        "flags": 96,
-                                        "start": 72,
-                                        "end": 74
-                                    },
-                                    "type": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                                "type": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "start": 70,
+                                "end": 71
+                            },
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "C",
+                                    "rawText": "C",
+                                    "flags": 96,
                                     "start": 72,
                                     "end": 74
                                 },
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "I",
-                                        "rawText": "I",
-                                        "flags": 96,
-                                        "start": 75,
-                                        "end": 77
-                                    },
-                                    "type": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                                "type": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "start": 72,
+                                "end": 74
+                            },
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "I",
+                                    "rawText": "I",
+                                    "flags": 96,
                                     "start": 75,
                                     "end": 77
                                 },
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "R",
-                                        "rawText": "R",
-                                        "flags": 96,
-                                        "start": 78,
-                                        "end": 80
-                                    },
-                                    "type": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
+                                "type": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "start": 75,
+                                "end": 77
+                            },
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "R",
+                                    "rawText": "R",
+                                    "flags": 96,
                                     "start": 78,
                                     "end": 80
-                                }
-                            ],
-                            "flags": 2097152,
-                            "start": 68,
-                            "end": 81
-                        },
+                                },
+                                "type": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "start": 78,
+                                "end": 80
+                            }
+                        ],
                         "flags": 2097152,
                         "start": 68,
-                        "end": 149
+                        "end": 81
                     },
                     "flags": 2097152,
                     "start": 68,
                     "end": 149
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 68,
                 "end": 149
             },
             "flags": 16,

@@ -89,21 +89,13 @@ function foo():any{return ""};
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 134234252,
-                        "flags": 2097216,
-                        "start": 15,
-                        "end": 18
-                    },
-                    "flags": 2097152,
+                    "kind": 134234252,
+                    "flags": 2097216,
                     "start": 15,
                     "end": 18
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 15,
                 "end": 18
             },
             "flags": 16,

@@ -145,21 +145,13 @@ function g(x: any): string {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 134234347,
-                        "flags": 2097216,
-                        "start": 19,
-                        "end": 26
-                    },
-                    "flags": 2097152,
+                    "kind": 134234347,
+                    "flags": 2097216,
                     "start": 19,
                     "end": 26
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 19,
                 "end": 26
             },
             "flags": 16,

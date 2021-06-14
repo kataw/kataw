@@ -81,22 +81,14 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 134217967,
-                        "text": "div",
-                        "flags": 2097216,
-                        "start": 31,
-                        "end": 37
-                    },
-                    "flags": 2097152,
+                    "kind": 134217967,
+                    "text": "div",
+                    "flags": 2097216,
                     "start": 31,
                     "end": 37
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 31,
                 "end": 37
             },
             "flags": 16,

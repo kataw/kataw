@@ -63,30 +63,22 @@ function: x
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 9,
-                            "end": 11
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
                         "start": 9,
                         "end": 11
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 9,
                     "end": 11
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 9,
                 "end": 11
             },
             "flags": 16,

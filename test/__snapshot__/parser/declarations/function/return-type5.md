@@ -5,13 +5,11 @@
 `````js
 function x(y: | /* comment 1 */ z):
   |
-  /* comment 1 */
+  /* comment 2 */
   () => number {}
 `````
 
 ## Options
-
-### Parser Options
 
 `````js
 { allowTypes : true }
@@ -116,58 +114,50 @@ function x(y: | /* comment 1 */ z):
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
-                "bitwiseOrToken": null,
+                "bitwiseOrToken": {
+                    "kind": 134251592,
+                    "flags": 65,
+                    "start": 35,
+                    "end": 39
+                },
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": {
-                        "kind": 134251592,
-                        "flags": 65,
-                        "start": 35,
-                        "end": 39
+                    "kind": 288,
+                    "arrowTypeParameterList": {
+                        "kind": 292,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 61,
+                        "end": 61
                     },
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 288,
-                        "arrowTypeParameterList": {
-                            "kind": 292,
-                            "parameters": [],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "start": 61,
-                            "end": 61
-                        },
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 62,
-                            "end": 65
-                        },
-                        "returnType": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 134234345,
-                                "flags": 2097216,
-                                "start": 65,
-                                "end": 72
-                            },
-                            "flags": 2097152,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 62,
+                        "end": 65
+                    },
+                    "returnType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134234345,
+                            "flags": 2097216,
                             "start": 65,
                             "end": 72
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
-                        "start": 39,
+                        "start": 65,
                         "end": 72
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
-                    "start": 35,
+                    "start": 39,
                     "end": 72
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 35,
                 "end": 72
             },
             "flags": 16,
@@ -176,7 +166,7 @@ function x(y: | /* comment 1 */ z):
         }
     ],
     "isModule": false,
-    "source": "function x(y: | /* comment 1 */ z):\n  |\n  /* comment 1 */\n  () => number {}",
+    "source": "function x(y: | /* comment 1 */ z):\n  |\n  /* comment 2 */\n  () => number {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,

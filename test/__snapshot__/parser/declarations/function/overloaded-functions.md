@@ -98,21 +98,13 @@ declare function three(value :mixed) :boolean;
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 205586437,
-                        "flags": 2097216,
-                        "start": 35,
-                        "end": 40
-                    },
-                    "flags": 2097152,
+                    "kind": 205586437,
+                    "flags": 2097216,
                     "start": 35,
                     "end": 40
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 35,
                 "end": 40
             },
             "flags": 4112,
@@ -196,21 +188,13 @@ declare function three(value :mixed) :boolean;
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 205586437,
-                        "flags": 2097216,
-                        "start": 78,
-                        "end": 83
-                    },
-                    "flags": 2097152,
+                    "kind": 205586437,
+                    "flags": 2097216,
                     "start": 78,
                     "end": 83
                 },
                 "flags": 2097152,
-                "start": 50,
+                "start": 78,
                 "end": 83
             },
             "flags": 4112,
@@ -303,21 +287,13 @@ declare function three(value :mixed) :boolean;
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 134234254,
-                        "flags": 2097216,
-                        "start": 124,
-                        "end": 131
-                    },
-                    "flags": 2097152,
+                    "kind": 134234254,
+                    "flags": 2097216,
                     "start": 124,
                     "end": 131
                 },
                 "flags": 2097152,
-                "start": 93,
+                "start": 124,
                 "end": 131
             },
             "flags": 4112,

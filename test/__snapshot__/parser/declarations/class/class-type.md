@@ -377,30 +377,22 @@ type T = { [string]: Class<null> }
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "A",
-                            "rawText": "A",
-                            "flags": 96,
-                            "start": 77,
-                            "end": 79
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "A",
+                        "rawText": "A",
+                        "flags": 96,
                         "start": 77,
                         "end": 79
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 77,
                     "end": 79
                 },
                 "flags": 2097152,
-                "start": 49,
+                "start": 77,
                 "end": 79
             },
             "flags": 16,

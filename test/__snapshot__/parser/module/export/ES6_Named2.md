@@ -459,21 +459,13 @@ export const [destructuredArrNumber2] = [1]
                     "bitwiseOrToken": null,
                     "bitwiseAndToken": null,
                     "type": {
-                        "kind": 139,
-                        "bitwiseOrToken": null,
-                        "bitwiseAndToken": null,
-                        "type": {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 300,
-                            "end": 307
-                        },
-                        "flags": 2097152,
+                        "kind": 134234345,
+                        "flags": 2097216,
                         "start": 300,
                         "end": 307
                     },
                     "flags": 2097152,
-                    "start": 274,
+                    "start": 300,
                     "end": 307
                 },
                 "flags": 16,

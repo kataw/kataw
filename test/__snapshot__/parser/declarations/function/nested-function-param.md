@@ -454,30 +454,22 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "X",
-                            "rawText": "X",
-                            "flags": 96,
-                            "start": 47,
-                            "end": 49
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "X",
+                        "rawText": "X",
+                        "flags": 96,
                         "start": 47,
                         "end": 49
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 47,
                     "end": 49
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 47,
                 "end": 49
             },
             "flags": 16,

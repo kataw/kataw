@@ -67,38 +67,30 @@ function x(): | a {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
-                "bitwiseOrToken": null,
+                "bitwiseOrToken": {
+                    "kind": 134251592,
+                    "flags": 64,
+                    "start": 13,
+                    "end": 15
+                },
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": {
-                        "kind": 134251592,
-                        "flags": 64,
-                        "start": 13,
-                        "end": 15
-                    },
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 15,
-                            "end": 17
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
                         "start": 15,
                         "end": 17
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
-                    "start": 13,
+                    "start": 15,
                     "end": 17
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 13,
                 "end": 17
             },
             "flags": 16,

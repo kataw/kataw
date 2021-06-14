@@ -89,21 +89,13 @@ function one(this: number) {}
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 134234345,
-                        "flags": 2097216,
-                        "start": 18,
-                        "end": 25
-                    },
-                    "flags": 2097152,
+                    "kind": 134234345,
+                    "flags": 2097216,
                     "start": 18,
                     "end": 25
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 18,
                 "end": 25
             },
             "flags": 16,

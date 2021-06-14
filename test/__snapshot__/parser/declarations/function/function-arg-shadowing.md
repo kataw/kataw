@@ -278,30 +278,22 @@ class C {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "A",
-                            "rawText": "A",
-                            "flags": 96,
-                            "start": 59,
-                            "end": 61
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "A",
+                        "rawText": "A",
+                        "flags": 96,
                         "start": 59,
                         "end": 61
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 59,
                     "end": 61
                 },
                 "flags": 2097152,
-                "start": 43,
+                "start": 59,
                 "end": 61
             },
             "flags": 16,

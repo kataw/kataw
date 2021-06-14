@@ -221,50 +221,42 @@ function d(x: { (): string; (x: number): string }): () => string {
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 288,
-                        "arrowTypeParameterList": {
-                            "kind": 292,
-                            "parameters": [],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "start": 53,
-                            "end": 53
-                        },
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 54,
-                            "end": 57
-                        },
-                        "returnType": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 2097216,
-                                "start": 57,
-                                "end": 64
-                            },
-                            "flags": 2097152,
+                    "kind": 288,
+                    "arrowTypeParameterList": {
+                        "kind": 292,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 53,
+                        "end": 53
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 54,
+                        "end": 57
+                    },
+                    "returnType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134234347,
+                            "flags": 2097216,
                             "start": 57,
                             "end": 64
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
-                        "start": 51,
+                        "start": 57,
                         "end": 64
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 51,
                     "end": 64
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 51,
                 "end": 64
             },
             "flags": 16,

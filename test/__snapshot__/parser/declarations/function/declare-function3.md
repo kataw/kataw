@@ -310,104 +310,96 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 288,
-                        "arrowTypeParameterList": {
-                            "kind": 292,
-                            "parameters": [
-                                {
-                                    "kind": 149,
-                                    "ellipsisToken": {
-                                        "kind": 524302,
-                                        "flags": 64,
-                                        "start": 132,
-                                        "end": 135
-                                    },
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "args",
-                                        "rawText": "args",
-                                        "flags": 96,
-                                        "start": 135,
-                                        "end": 139
-                                    },
-                                    "optionalToken": null,
-                                    "types": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "TArguments",
-                                                "rawText": "TArguments",
-                                                "flags": 96,
-                                                "start": 140,
-                                                "end": 151
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
+                    "kind": 288,
+                    "arrowTypeParameterList": {
+                        "kind": 292,
+                        "parameters": [
+                            {
+                                "kind": 149,
+                                "ellipsisToken": {
+                                    "kind": 524302,
+                                    "flags": 64,
+                                    "start": 132,
+                                    "end": 135
+                                },
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "args",
+                                    "rawText": "args",
+                                    "flags": 96,
+                                    "start": 135,
+                                    "end": 139
+                                },
+                                "optionalToken": null,
+                                "types": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "TArguments",
+                                            "rawText": "TArguments",
+                                            "flags": 96,
                                             "start": 140,
                                             "end": 151
                                         },
+                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 140,
                                         "end": 151
                                     },
                                     "flags": 2097152,
-                                    "start": 132,
+                                    "start": 140,
                                     "end": 151
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "start": 132,
-                            "end": 151
-                        },
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 152,
-                            "end": 155
-                        },
-                        "returnType": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "TReturn",
-                                    "rawText": "TReturn",
-                                    "flags": 96,
-                                    "start": 155,
-                                    "end": 163
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
+                                "start": 132,
+                                "end": 151
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 132,
+                        "end": 151
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 152,
+                        "end": 155
+                    },
+                    "returnType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "TReturn",
+                                "rawText": "TReturn",
+                                "flags": 96,
                                 "start": 155,
                                 "end": 163
                             },
+                            "typeParameters": null,
                             "flags": 2097152,
                             "start": 155,
                             "end": 163
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
-                        "start": 130,
+                        "start": 155,
                         "end": 163
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 130,
                     "end": 163
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 130,
                 "end": 163
             },
             "flags": 4112,

@@ -133,30 +133,22 @@ function bar(x: X): B { return x; }
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "A",
-                            "rawText": "A",
-                            "flags": 96,
-                            "start": 19,
-                            "end": 21
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "A",
+                        "rawText": "A",
+                        "flags": 96,
                         "start": 19,
                         "end": 21
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 19,
                     "end": 21
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 19,
                 "end": 21
             },
             "flags": 16,
@@ -272,30 +264,22 @@ function bar(x: X): B { return x; }
                 "bitwiseOrToken": null,
                 "bitwiseAndToken": null,
                 "type": {
-                    "kind": 139,
-                    "bitwiseOrToken": null,
-                    "bitwiseAndToken": null,
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "B",
-                            "rawText": "B",
-                            "flags": 96,
-                            "start": 55,
-                            "end": 57
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "B",
+                        "rawText": "B",
+                        "flags": 96,
                         "start": 55,
                         "end": 57
                     },
+                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 55,
                     "end": 57
                 },
                 "flags": 2097152,
-                "start": 35,
+                "start": 55,
                 "end": 57
             },
             "flags": 16,
