@@ -106,6 +106,7 @@ x?.['y z']();
                         "start": 15,
                         "end": 20
                     },
+                    "typeArguments": null,
                     "argumentList": {
                         "kind": 256,
                         "elements": [],
@@ -167,6 +168,7 @@ x?.['y z']();
                         "start": 27,
                         "end": 34
                     },
+                    "typeArguments": null,
                     "argumentList": {
                         "kind": 256,
                         "elements": [],

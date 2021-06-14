@@ -121,6 +121,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "chain": {
                                 "kind": 204,
                                 "chain": null,
+                                "typeArguments": null,
                                 "argumentList": {
                                     "kind": 256,
                                     "elements": [

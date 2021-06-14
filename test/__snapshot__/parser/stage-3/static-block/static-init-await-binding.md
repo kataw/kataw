@@ -172,7 +172,7 @@ class C {
 ### Diagnostics
 
 ```javascript
-✖ `await` expression cannot be used in function parameters - start: 41, end: 46
+✖ Await expression cannot be used inside class static block. - start: 41, end: 46
 
 ```
 

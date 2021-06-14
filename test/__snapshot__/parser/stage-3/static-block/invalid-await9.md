@@ -989,11 +989,11 @@ class C {
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 39, end: 45
+✖ Await expression cannot be used inside class static block. - start: 39, end: 45
 ✖ Duplicate identifier - start: 113, end: 115
 ✖ Cannot redeclare block-scoped variable - start: 272, end: 278
 ✖ BindingIdentifier may not be `await` within class static blocks - start: 305, end: 311
-✖ 'await' cannot be used as an identifier here - start: 305, end: 311
+✖ Await expression cannot be used inside class static block. - start: 305, end: 311
 ✖ Duplicate identifier - start: 305, end: 311
 
 ```

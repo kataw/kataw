@@ -1141,11 +1141,14 @@ function parseThrowStatement(parser: ParserState, context: Context): ThrowStatem
 //   `return` [no LineTerminator here] Expression `;`
 function parseReturnStatement(parser: ParserState, context: Context): ReturnStatement {
   const pos = parser.curPos;
-  if ((context & Context.IsOutsideFnOrArrow) < 1) {
+  if ((context & Context.IsOutsideFnOrArrow) === 0) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[DiagnosticCode.A_return_statement_can_only_be_used_within_a_function_body],
+      diagnosticMap[
+        context & Context.InStaticBlock ?
+        DiagnosticCode.A_return_statement_cannot_be_used_inside_class_static_block
+        :        DiagnosticCode.A_return_statement_can_only_be_used_within_a_function_body],
       pos,
       parser.pos
     );
@@ -1287,12 +1290,14 @@ function parseForStatement(
   let destructible!: DestructibleKind;
   const awaitKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
 
-  if (awaitKeyword && (context & (Context.Module | Context.AwaitContext)) < 1) {
+  if (awaitKeyword && ((context & (Context.Module | Context.AwaitContext)) === 0 || context & Context.InStaticBlock)) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
       diagnosticMap[
-        DiagnosticCode.A_for_await_of_statement_is_only_allowed_within_an_async_function_or_async_generator
+        context & Context.InStaticBlock
+          ? DiagnosticCode._For_await_loops_cannot_be_used_inside_class_static_block
+          : DiagnosticCode.A_for_await_of_statement_is_only_allowed_within_an_async_function_or_async_generator
       ],
       parser.curPos,
       parser.pos
@@ -1680,7 +1685,9 @@ function parseBindingIdentifier(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
-          context & Context.Parameters
+          context & Context.InStaticBlock
+            ? DiagnosticCode.Await_expression_cannot_be_used_inside_class_static_block
+            : context & Context.Parameters
             ? DiagnosticCode._await_expression_cannot_be_used_in_function_parameters
             : context & Context.Module
             ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_module_goal
@@ -2135,7 +2142,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
       );
     }
   } else if (parser.token === SyntaxKind.LeftParen) {
-    chain = createCallChain(chain, parseArguments(parser, context), pos, parser.curPos);
+    chain = createCallChain(chain, /* typeArguments */ null, parseArguments(parser, context), pos, parser.curPos);
   } else if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsKeyword | SyntaxKind.IsIdentifier)) {
     chain = createIndexExpressionChain(chain, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
     if (parser.token & SyntaxKind.IsAssignOp) {
@@ -2149,9 +2156,15 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         parser.pos
       );
     }
-  } else if (parser.token === SyntaxKind.PrivateIdentifier) {
-    chain = createIndexExpressionChain(chain, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
-  } else {
+  } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan) {
+    chain = createCallChain(
+      chain as any,
+      parseTypeParameterInstantiationList(parser, context),
+      parseArguments(parser, context),
+      pos,
+      parser.curPos
+    );
+  } else if (parser.token === SyntaxKind.TemplateTail || parser.token === SyntaxKind.TemplateCont) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -2162,7 +2175,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
 
     chain = createTaggedTemplate(
       chain as any,
-      (parser.token as SyntaxKind) === SyntaxKind.TemplateTail
+      parser.token === SyntaxKind.TemplateTail
         ? parseTemplateTail(parser, context, NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral)
         : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
       pos,
@@ -2174,7 +2187,11 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
   parser.assignable = false;
   while (
     parser.token &
-    (SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsPropertyOrCall)
+    (SyntaxKind.IsKeyword |
+      SyntaxKind.IsFutureReserved |
+      SyntaxKind.IsIdentifier |
+      SyntaxKind.IsPropertyOrCall |
+      SyntaxKind.IsLessThanOrLeftParen)
   ) {
     pos = parser.curPos;
     if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Period)) {
@@ -2185,7 +2202,21 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         parser.curPos
       );
     } else if (parser.token === SyntaxKind.LeftParen) {
-      chain = createCallChain(chain as any, parseArguments(parser, context), pos, parser.curPos);
+      chain = createCallChain(
+        chain as any,
+        /* typeArguments */ null,
+        parseArguments(parser, context),
+        pos,
+        parser.curPos
+      );
+    } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.LessThan) {
+      chain = createCallChain(
+        chain as any,
+        parseTypeParameterInstantiationList(parser, context),
+        parseArguments(parser, context),
+        pos,
+        parser.curPos
+      );
     } else if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.LeftBracket)) {
       if (parser.token === SyntaxKind.RightBracket) {
         parser.onError(
@@ -7799,7 +7830,12 @@ function parseTypeReference(parser: ParserState, context: Context): TypeReferenc
     parseEntityName(
       parser,
       context,
-      parseIdentifier(parser, context | Context.ArrowOrigin, Constants.IdentifierOrKeyword, DiagnosticCode.Type_expected),
+      parseIdentifier(
+        parser,
+        context | Context.ArrowOrigin,
+        Constants.IdentifierOrKeyword,
+        DiagnosticCode.Type_expected
+      ),
       Constants.IdentifierOrKeyword,
       pos
     ),
@@ -8611,10 +8647,6 @@ function parseObjectTypeInternalSlot(
   return createObjectTypeInternalSlot(protoKeyword, name, optionalToken, staticKeyword, type, pos, parser.curPos);
 }
 
-function nextTokenIsColon(parser: ParserState, context: Context) {
-  nextToken(parser, context);
-  return parser.token === SyntaxKind.Colon;
-}
 function nextTokenIsNotColonOrQuestionMark(parser: ParserState, context: Context) {
   nextToken(parser, context);
   return parser.token !== SyntaxKind.QuestionMark && parser.token !== SyntaxKind.Colon;

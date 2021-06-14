@@ -3,7 +3,13 @@
 ## Input
 
 `````js
-a?.(x)
+a?.<number>(y)
+`````
+
+## Options
+
+`````js
+{ allowTypes : true }
 `````
 
 ## Output
@@ -38,47 +44,66 @@ a?.(x)
                     "chain": {
                         "kind": 204,
                         "chain": null,
-                        "typeArguments": null,
+                        "typeArguments": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 4,
+                                        "end": 10
+                                    },
+                                    "flags": 2097152,
+                                    "start": 4,
+                                    "end": 10
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 3,
+                            "end": 11
+                        },
                         "argumentList": {
                             "kind": 256,
                             "elements": [
                                 {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "y",
+                                    "rawText": "y",
                                     "flags": 96,
-                                    "start": 4,
-                                    "end": 5
+                                    "start": 12,
+                                    "end": 13
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 4,
-                            "end": 5
+                            "start": 12,
+                            "end": 13
                         },
                         "flags": 268435488,
                         "start": 3,
-                        "end": 6
+                        "end": 14
                     },
                     "flags": 32,
                     "start": 3,
-                    "end": 6
+                    "end": 14
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 6
+                "end": 14
             },
             "flags": 16,
             "start": 0,
-            "end": 6
+            "end": 14
         }
     ],
     "isModule": false,
-    "source": "a?.(x)",
+    "source": "a?.<number>(y)",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 6
+    "end": 14
 }
 ```
 
@@ -86,7 +111,7 @@ a?.(x)
 
 ```javascript
 
-a?.(x);
+a?.(y);
 ```
 
 ### Diagnostics

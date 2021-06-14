@@ -70,6 +70,7 @@ a.b?.c()
                         "start": 5,
                         "end": 6
                     },
+                    "typeArguments": null,
                     "argumentList": {
                         "kind": 256,
                         "elements": [],

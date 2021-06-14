@@ -593,6 +593,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "chain": {
                                             "kind": 204,
                                             "chain": null,
+                                            "typeArguments": null,
                                             "argumentList": {
                                                 "kind": 256,
                                                 "elements": [
@@ -1336,6 +1337,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                             "chain": {
                                                 "kind": 204,
                                                 "chain": null,
+                                                "typeArguments": null,
                                                 "argumentList": {
                                                     "kind": 256,
                                                     "elements": [

@@ -335,6 +335,7 @@ class Foo {
                                                             "start": 78,
                                                             "end": 81
                                                         },
+                                                        "typeArguments": null,
                                                         "argumentList": {
                                                             "kind": 256,
                                                             "elements": [
@@ -435,6 +436,7 @@ class Foo {
                                                                         "chain": {
                                                                             "kind": 204,
                                                                             "chain": null,
+                                                                            "typeArguments": null,
                                                                             "argumentList": {
                                                                                 "kind": 256,
                                                                                 "elements": [
@@ -518,6 +520,7 @@ class Foo {
                                                         "chain": {
                                                             "kind": 204,
                                                             "chain": null,
+                                                            "typeArguments": null,
                                                             "argumentList": {
                                                                 "kind": 256,
                                                                 "elements": [
@@ -762,6 +765,7 @@ class Foo {
                                                             "start": 173,
                                                             "end": 179
                                                         },
+                                                        "typeArguments": null,
                                                         "argumentList": {
                                                             "kind": 256,
                                                             "elements": [
@@ -877,6 +881,7 @@ class Foo {
                                                                                             "chain": {
                                                                                                 "kind": 204,
                                                                                                 "chain": null,
+                                                                                                "typeArguments": null,
                                                                                                 "argumentList": {
                                                                                                     "kind": 256,
                                                                                                     "elements": [
@@ -961,6 +966,7 @@ class Foo {
                                                                                 "chain": {
                                                                                     "kind": 204,
                                                                                     "chain": null,
+                                                                                    "typeArguments": null,
                                                                                     "argumentList": {
                                                                                         "kind": 256,
                                                                                         "elements": [
@@ -1312,6 +1318,7 @@ class Foo {
                                                             "start": 307,
                                                             "end": 314
                                                         },
+                                                        "typeArguments": null,
                                                         "argumentList": {
                                                             "kind": 256,
                                                             "elements": [
@@ -1427,6 +1434,7 @@ class Foo {
                                                                                             "chain": {
                                                                                                 "kind": 204,
                                                                                                 "chain": null,
+                                                                                                "typeArguments": null,
                                                                                                 "argumentList": {
                                                                                                     "kind": 256,
                                                                                                     "elements": [
@@ -1511,6 +1519,7 @@ class Foo {
                                                                                 "chain": {
                                                                                     "kind": 204,
                                                                                     "chain": null,
+                                                                                    "typeArguments": null,
                                                                                     "argumentList": {
                                                                                         "kind": 256,
                                                                                         "elements": [

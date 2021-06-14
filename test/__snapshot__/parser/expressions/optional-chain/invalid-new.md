@@ -46,6 +46,7 @@ new obj?.()
                         "chain": {
                             "kind": 204,
                             "chain": null,
+                            "typeArguments": null,
                             "argumentList": {
                                 "kind": 256,
                                 "elements": [],

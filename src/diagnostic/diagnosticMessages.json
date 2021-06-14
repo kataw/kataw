@@ -238,5 +238,9 @@
   "Cannot use the 'yield' keyword on the left-hand side of conditional expression in a generator context": 246,
   "An optional parameter cannot be used without an ':' in an arrow function type parameter list": 247,
   "An index signature parameter cannot have a question mark.": 248,
-  "An TypeAlias declaration require a '='": 249
+  "An TypeAlias declaration require a '='": 249,
+
+  "Await expression cannot be used inside class static block.": 250,
+  "'For await' loops cannot be used inside class static block.": 251,
+  "A 'return' statement cannot be used inside class static block.": 252
 }

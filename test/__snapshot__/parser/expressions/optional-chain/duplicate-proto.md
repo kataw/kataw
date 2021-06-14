@@ -38,6 +38,7 @@ async?.({ __proto__: x, __proto__: y })
                     "chain": {
                         "kind": 204,
                         "chain": null,
+                        "typeArguments": null,
                         "argumentList": {
                             "kind": 256,
                             "elements": [

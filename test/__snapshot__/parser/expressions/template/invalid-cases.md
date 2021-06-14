@@ -122,6 +122,7 @@ a?.b
                         "chain": {
                             "kind": 204,
                             "chain": null,
+                            "typeArguments": null,
                             "argumentList": {
                                 "kind": 256,
                                 "elements": [
@@ -269,6 +270,7 @@ a?.b
                             "chain": {
                                 "kind": 204,
                                 "chain": null,
+                                "typeArguments": null,
                                 "argumentList": {
                                     "kind": 256,
                                     "elements": [
@@ -513,6 +515,7 @@ a?.b
                             "chain": {
                                 "kind": 204,
                                 "chain": null,
+                                "typeArguments": null,
                                 "argumentList": {
                                     "kind": 256,
                                     "elements": [

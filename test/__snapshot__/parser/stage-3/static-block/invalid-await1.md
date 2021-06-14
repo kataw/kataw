@@ -180,7 +180,7 @@ class C {
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 39, end: 45
+✖ Await expression cannot be used inside class static block. - start: 39, end: 45
 
 ```
 

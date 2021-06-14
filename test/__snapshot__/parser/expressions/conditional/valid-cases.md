@@ -1915,6 +1915,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "chain": {
                             "kind": 204,
                             "chain": null,
+                            "typeArguments": null,
                             "argumentList": {
                                 "kind": 256,
                                 "elements": [],
@@ -1962,6 +1963,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "chain": {
                             "kind": 204,
                             "chain": null,
+                            "typeArguments": null,
                             "argumentList": {
                                 "kind": 256,
                                 "elements": [],
@@ -2767,6 +2769,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "chain": {
                             "kind": 204,
                             "chain": null,
+                            "typeArguments": null,
                             "argumentList": {
                                 "kind": 256,
                                 "elements": [],
