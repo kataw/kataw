@@ -80,7 +80,7 @@ let x: T[K];
                                     "end": 10
                                 },
                                 "flags": 0,
-                                "start": 8,
+                                "start": 6,
                                 "end": 12
                             },
                             "flags": 2097152,

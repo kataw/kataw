@@ -114,7 +114,7 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                                                         "end": 20
                                                     },
                                                     "flags": 2097152,
-                                                    "start": 20,
+                                                    "start": 17,
                                                     "end": 22
                                                 },
                                                 "typeParameters": null,

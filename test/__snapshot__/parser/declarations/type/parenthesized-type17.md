@@ -107,7 +107,7 @@ type a = (bj[c])[d];
                     "end": 18
                 },
                 "flags": 0,
-                "start": 16,
+                "start": 8,
                 "end": 20
             },
             "flags": 2097152,

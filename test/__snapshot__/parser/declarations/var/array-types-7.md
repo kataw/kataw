@@ -59,11 +59,11 @@ var a: number[][]
                                         "end": 13
                                     },
                                     "flags": 2097152,
-                                    "start": 13,
+                                    "start": 6,
                                     "end": 15
                                 },
                                 "flags": 2097152,
-                                "start": 13,
+                                "start": 6,
                                 "end": 17
                             },
                             "flags": 2097152,

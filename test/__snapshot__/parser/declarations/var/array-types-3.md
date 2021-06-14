@@ -64,11 +64,11 @@ var a?: number[][]
                                         "end": 14
                                     },
                                     "flags": 2097152,
-                                    "start": 14,
+                                    "start": 7,
                                     "end": 16
                                 },
                                 "flags": 2097152,
-                                "start": 14,
+                                "start": 7,
                                 "end": 18
                             },
                             "flags": 2097152,

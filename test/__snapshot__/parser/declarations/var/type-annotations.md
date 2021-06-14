@@ -396,7 +396,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                         "end": 87
                                                     },
                                                     "flags": 2097152,
-                                                    "start": 87,
+                                                    "start": 86,
                                                     "end": 89
                                                 },
                                                 "flags": 2097152,
@@ -509,7 +509,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "end": 111
                                 },
                                 "flags": 2097152,
-                                "start": 111,
+                                "start": 104,
                                 "end": 113
                             },
                             "flags": 2097152,
@@ -668,7 +668,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "end": 155
                                 },
                                 "flags": 2097152,
-                                "start": 155,
+                                "start": 141,
                                 "end": 157
                             },
                             "flags": 2097152,

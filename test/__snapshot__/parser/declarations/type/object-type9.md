@@ -101,15 +101,15 @@ type a = {await:y.z[][][]};
                                         "end": 19
                                     },
                                     "flags": 2097152,
-                                    "start": 19,
+                                    "start": 16,
                                     "end": 21
                                 },
                                 "flags": 2097152,
-                                "start": 19,
+                                "start": 16,
                                 "end": 23
                             },
                             "flags": 2097152,
-                            "start": 19,
+                            "start": 16,
                             "end": 25
                         },
                         "flags": 2097152,

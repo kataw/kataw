@@ -125,7 +125,7 @@ type a = ({key():string}[x]) => T;
                                 "end": 26
                             },
                             "flags": 0,
-                            "start": 24,
+                            "start": 10,
                             "end": 28
                         }
                     ],

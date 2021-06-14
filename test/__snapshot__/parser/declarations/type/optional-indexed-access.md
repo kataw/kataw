@@ -86,7 +86,7 @@ type x = a?.[b]
                     "end": 14
                 },
                 "flags": 2097152,
-                "start": 10,
+                "start": 8,
                 "end": 15
             },
             "flags": 2097152,

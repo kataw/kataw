@@ -68,7 +68,7 @@ var a: (?number)[];
                                     "end": 13
                                 },
                                 "flags": 2097152,
-                                "start": 13,
+                                "start": 6,
                                 "end": 15
                             },
                             "flags": 2097152,
@@ -152,7 +152,7 @@ var a: (?number)[];
                                     "end": 39
                                 },
                                 "flags": 2097152,
-                                "start": 39,
+                                "start": 24,
                                 "end": 41
                             },
                             "flags": 2097152,
@@ -223,7 +223,7 @@ var a: (?number)[];
                                         "end": 63
                                     },
                                     "flags": 2097152,
-                                    "start": 63,
+                                    "start": 56,
                                     "end": 65
                                 },
                                 "typeParameters": null,
@@ -285,11 +285,11 @@ var a: (?number)[];
                                         "end": 81
                                     },
                                     "flags": 2097152,
-                                    "start": 81,
+                                    "start": 74,
                                     "end": 83
                                 },
                                 "flags": 2097152,
-                                "start": 81,
+                                "start": 74,
                                 "end": 85
                             },
                             "flags": 2097152,
@@ -431,7 +431,7 @@ var a: (?number)[];
                                     "end": 123
                                 },
                                 "flags": 2097152,
-                                "start": 123,
+                                "start": 113,
                                 "end": 125
                             },
                             "flags": 2097152,
