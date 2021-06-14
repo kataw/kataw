@@ -158,10 +158,10 @@
     _parse: function() {
       var result;
       try {
-        result = this.isModule ? kataw.parseModule(this.$input.val(), { allowTypes: true}, function (a, b, c, d, e) {
+        result = this.isModule ? kataw.parseModule(this.$input.val(), { allowTypes: true, next: true }, function (a, b, c, d, e) {
           throw c + '(' + d + ', ' + e + ')';
 
-        }) : kataw.parseScript(this.$input.val(), { allowTypes: true}, function (a, b, c, d, e) {
+        }) : kataw.parseScript(this.$input.val(), { allowTypes: true, next: true }, function (a, b, c, d, e) {
           throw c + '(' + d + ', ' + e + ')';
 
         });
