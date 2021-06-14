@@ -61,6 +61,8 @@ function d(x: { (z: number): string }): () => string {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -84,8 +86,16 @@ function d(x: { (z: number): string }): () => string {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234345,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 19,
+                                                            "end": 26
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 19,
                                                         "end": 26
                                                     },
@@ -101,8 +111,16 @@ function d(x: { (z: number): string }): () => string {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 28,
+                                                "end": 35
+                                            },
+                                            "flags": 2097152,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -117,7 +135,7 @@ function d(x: { (z: number): string }): () => string {
                                 "end": 37
                             },
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 13,
                             "end": 37
                         },
                         "right": null,
@@ -169,29 +187,47 @@ function d(x: { (z: number): string }): () => string {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 288,
-                    "arrowTypeParameterList": {
-                        "kind": 292,
-                        "parameters": [],
-                        "trailingComma": false,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 288,
+                        "arrowTypeParameterList": {
+                            "kind": 292,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 41,
+                            "end": 41
+                        },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 42,
+                            "end": 45
+                        },
+                        "returnType": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 45,
+                                "end": 52
+                            },
+                            "flags": 2097152,
+                            "start": 45,
+                            "end": 52
+                        },
+                        "typeParameters": null,
                         "flags": 2097152,
-                        "start": 41,
-                        "end": 41
-                    },
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 42,
-                        "end": 45
-                    },
-                    "returnType": {
-                        "kind": 134234347,
-                        "flags": 2097216,
-                        "start": 45,
+                        "start": 39,
                         "end": 52
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 39,
                     "end": 52

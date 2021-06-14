@@ -52,6 +52,8 @@
                                 "optionalToken": null,
                                 "type": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -59,7 +61,7 @@
                                         "end": 29
                                     },
                                     "flags": 2097152,
-                                    "start": 21,
+                                    "start": 22,
                                     "end": 29
                                 },
                                 "right": null,
@@ -81,6 +83,8 @@
                                 "optionalToken": null,
                                 "type": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
@@ -88,7 +92,7 @@
                                         "end": 18
                                     },
                                     "flags": 2097152,
-                                    "start": 10,
+                                    "start": 11,
                                     "end": 18
                                 },
                                 "right": null,

@@ -67,6 +67,8 @@ async ([{x}: string], y, z: string) =>  {};
                                 "optionalToken": null,
                                 "type": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
@@ -74,7 +76,7 @@ async ([{x}: string], y, z: string) =>  {};
                                         "end": 19
                                     },
                                     "flags": 2097152,
-                                    "start": 11,
+                                    "start": 12,
                                     "end": 19
                                 },
                                 "right": null,
@@ -114,6 +116,8 @@ async ([{x}: string], y, z: string) =>  {};
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -121,7 +125,7 @@ async ([{x}: string], y, z: string) =>  {};
                             "end": 34
                         },
                         "flags": 2097152,
-                        "start": 26,
+                        "start": 27,
                         "end": 34
                     },
                     "right": null,

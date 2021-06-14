@@ -48,21 +48,29 @@ type X = (x);
                 "end": 8
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 10,
+                    "kind": 290,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 10,
+                            "end": 11
+                        },
+                        "typeParameters": null,
+                        "flags": 2097152,
+                        "start": 8,
                         "end": 11
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
-                    "end": 11
+                    "end": 12
                 },
                 "flags": 2097152,
                 "start": 8,

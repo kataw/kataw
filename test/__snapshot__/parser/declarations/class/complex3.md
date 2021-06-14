@@ -139,6 +139,8 @@ var stringArr:Array<string> = ['a','b'];
                                                             "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
                                                                     "id": {
@@ -155,32 +157,40 @@ var stringArr:Array<string> = ['a','b'];
                                                                             {
                                                                                 "kind": 310,
                                                                                 "type": {
-                                                                                    "kind": 137,
-                                                                                    "types": [
-                                                                                        {
-                                                                                            "kind": 144,
-                                                                                            "id": {
-                                                                                                "kind": 134299649,
-                                                                                                "text": "Tag",
-                                                                                                "rawText": "Tag",
-                                                                                                "flags": 96,
+                                                                                    "kind": 139,
+                                                                                    "bitwiseOrToken": null,
+                                                                                    "bitwiseAndToken": null,
+                                                                                    "type": {
+                                                                                        "kind": 137,
+                                                                                        "types": [
+                                                                                            {
+                                                                                                "kind": 144,
+                                                                                                "id": {
+                                                                                                    "kind": 134299649,
+                                                                                                    "text": "Tag",
+                                                                                                    "rawText": "Tag",
+                                                                                                    "flags": 96,
+                                                                                                    "start": 54,
+                                                                                                    "end": 57
+                                                                                                },
+                                                                                                "typeParameters": null,
+                                                                                                "flags": 2097152,
                                                                                                 "start": 54,
                                                                                                 "end": 57
                                                                                             },
-                                                                                            "typeParameters": null,
-                                                                                            "flags": 2097152,
-                                                                                            "start": 54,
-                                                                                            "end": 57
-                                                                                        },
-                                                                                        {
-                                                                                            "kind": 134234347,
-                                                                                            "flags": 2097216,
-                                                                                            "start": 58,
-                                                                                            "end": 64
-                                                                                        }
-                                                                                    ],
+                                                                                            {
+                                                                                                "kind": 134234347,
+                                                                                                "flags": 2097216,
+                                                                                                "start": 58,
+                                                                                                "end": 64
+                                                                                            }
+                                                                                        ],
+                                                                                        "flags": 2097152,
+                                                                                        "start": 57,
+                                                                                        "end": 64
+                                                                                    },
                                                                                     "flags": 2097152,
-                                                                                    "start": 57,
+                                                                                    "start": 54,
                                                                                     "end": 64
                                                                                 },
                                                                                 "flags": 2097152,
@@ -197,7 +207,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                     "end": 65
                                                                 },
                                                                 "flags": 2097152,
-                                                                "start": 46,
+                                                                "start": 47,
                                                                 "end": 65
                                                             },
                                                             "initializer": {
@@ -252,6 +262,8 @@ var stringArr:Array<string> = ['a','b'];
                                                             "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
                                                                     "id": {
@@ -268,32 +280,40 @@ var stringArr:Array<string> = ['a','b'];
                                                                             {
                                                                                 "kind": 310,
                                                                                 "type": {
-                                                                                    "kind": 137,
-                                                                                    "types": [
-                                                                                        {
-                                                                                            "kind": 144,
-                                                                                            "id": {
-                                                                                                "kind": 134299649,
-                                                                                                "text": "Tag",
-                                                                                                "rawText": "Tag",
-                                                                                                "flags": 96,
+                                                                                    "kind": 139,
+                                                                                    "bitwiseOrToken": null,
+                                                                                    "bitwiseAndToken": null,
+                                                                                    "type": {
+                                                                                        "kind": 137,
+                                                                                        "types": [
+                                                                                            {
+                                                                                                "kind": 144,
+                                                                                                "id": {
+                                                                                                    "kind": 134299649,
+                                                                                                    "text": "Tag",
+                                                                                                    "rawText": "Tag",
+                                                                                                    "flags": 96,
+                                                                                                    "start": 94,
+                                                                                                    "end": 97
+                                                                                                },
+                                                                                                "typeParameters": null,
+                                                                                                "flags": 2097152,
                                                                                                 "start": 94,
                                                                                                 "end": 97
                                                                                             },
-                                                                                            "typeParameters": null,
-                                                                                            "flags": 2097152,
-                                                                                            "start": 94,
-                                                                                            "end": 97
-                                                                                        },
-                                                                                        {
-                                                                                            "kind": 134234347,
-                                                                                            "flags": 2097216,
-                                                                                            "start": 98,
-                                                                                            "end": 104
-                                                                                        }
-                                                                                    ],
+                                                                                            {
+                                                                                                "kind": 134234347,
+                                                                                                "flags": 2097216,
+                                                                                                "start": 98,
+                                                                                                "end": 104
+                                                                                            }
+                                                                                        ],
+                                                                                        "flags": 2097152,
+                                                                                        "start": 97,
+                                                                                        "end": 104
+                                                                                    },
                                                                                     "flags": 2097152,
-                                                                                    "start": 97,
+                                                                                    "start": 94,
                                                                                     "end": 104
                                                                                 },
                                                                                 "flags": 2097152,
@@ -310,7 +330,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                     "end": 105
                                                                 },
                                                                 "flags": 2097152,
-                                                                "start": 86,
+                                                                "start": 87,
                                                                 "end": 105
                                                             },
                                                             "initializer": {
@@ -389,32 +409,40 @@ var stringArr:Array<string> = ['a','b'];
                 "end": 132
             },
             "type": {
-                "kind": 137,
-                "types": [
-                    {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Tag_",
-                            "rawText": "Tag_",
-                            "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 137,
+                    "types": [
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "Tag_",
+                                "rawText": "Tag_",
+                                "flags": 96,
+                                "start": 132,
+                                "end": 137
+                            },
+                            "typeParameters": null,
+                            "flags": 2097152,
                             "start": 132,
                             "end": 137
                         },
-                        "typeParameters": null,
-                        "flags": 2097152,
-                        "start": 132,
-                        "end": 137
-                    },
-                    {
-                        "kind": 134234347,
-                        "flags": 2097216,
-                        "start": 139,
-                        "end": 146
-                    }
-                ],
+                        {
+                            "kind": 134234347,
+                            "flags": 2097216,
+                            "start": 139,
+                            "end": 146
+                        }
+                    ],
+                    "flags": 2097152,
+                    "start": 137,
+                    "end": 146
+                },
                 "flags": 2097152,
-                "start": 137,
+                "start": 132,
                 "end": 146
             },
             "flags": 2097153,
@@ -506,6 +534,8 @@ var stringArr:Array<string> = ['a','b'];
                                                             "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
                                                                     "id": {
@@ -522,16 +552,24 @@ var stringArr:Array<string> = ['a','b'];
                                                                             {
                                                                                 "kind": 310,
                                                                                 "type": {
-                                                                                    "kind": 144,
-                                                                                    "id": {
-                                                                                        "kind": 134299649,
-                                                                                        "text": "Node",
-                                                                                        "rawText": "Node",
-                                                                                        "flags": 96,
+                                                                                    "kind": 139,
+                                                                                    "bitwiseOrToken": null,
+                                                                                    "bitwiseAndToken": null,
+                                                                                    "type": {
+                                                                                        "kind": 144,
+                                                                                        "id": {
+                                                                                            "kind": 134299649,
+                                                                                            "text": "Node",
+                                                                                            "rawText": "Node",
+                                                                                            "flags": 96,
+                                                                                            "start": 203,
+                                                                                            "end": 207
+                                                                                        },
+                                                                                        "typeParameters": null,
+                                                                                        "flags": 2097152,
                                                                                         "start": 203,
                                                                                         "end": 207
                                                                                     },
-                                                                                    "typeParameters": null,
                                                                                     "flags": 2097152,
                                                                                     "start": 203,
                                                                                     "end": 207
@@ -550,7 +588,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                     "end": 208
                                                                 },
                                                                 "flags": 2097152,
-                                                                "start": 195,
+                                                                "start": 196,
                                                                 "end": 208
                                                             },
                                                             "initializer": {
@@ -627,6 +665,8 @@ var stringArr:Array<string> = ['a','b'];
                                                             "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
                                                                     "id": {
@@ -643,16 +683,24 @@ var stringArr:Array<string> = ['a','b'];
                                                                             {
                                                                                 "kind": 310,
                                                                                 "type": {
-                                                                                    "kind": 144,
-                                                                                    "id": {
-                                                                                        "kind": 134299649,
-                                                                                        "text": "Node",
-                                                                                        "rawText": "Node",
-                                                                                        "flags": 96,
+                                                                                    "kind": 139,
+                                                                                    "bitwiseOrToken": null,
+                                                                                    "bitwiseAndToken": null,
+                                                                                    "type": {
+                                                                                        "kind": 144,
+                                                                                        "id": {
+                                                                                            "kind": 134299649,
+                                                                                            "text": "Node",
+                                                                                            "rawText": "Node",
+                                                                                            "flags": 96,
+                                                                                            "start": 245,
+                                                                                            "end": 249
+                                                                                        },
+                                                                                        "typeParameters": null,
+                                                                                        "flags": 2097152,
                                                                                         "start": 245,
                                                                                         "end": 249
                                                                                     },
-                                                                                    "typeParameters": null,
                                                                                     "flags": 2097152,
                                                                                     "start": 245,
                                                                                     "end": 249
@@ -671,7 +719,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                     "end": 250
                                                                 },
                                                                 "flags": 2097152,
-                                                                "start": 237,
+                                                                "start": 238,
                                                                 "end": 250
                                                             },
                                                             "initializer": {
@@ -767,6 +815,8 @@ var stringArr:Array<string> = ['a','b'];
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 137,
                                     "types": [
@@ -800,7 +850,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 297
                                 },
                                 "flags": 2097152,
-                                "start": 281,
+                                "start": 282,
                                 "end": 297
                             },
                             "initializer": null,
@@ -965,6 +1015,8 @@ var stringArr:Array<string> = ['a','b'];
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 137,
                                     "types": [
@@ -995,7 +1047,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 382
                                 },
                                 "flags": 2097152,
-                                "start": 372,
+                                "start": 373,
                                 "end": 382
                             },
                             "initializer": null,
@@ -1046,6 +1098,8 @@ var stringArr:Array<string> = ['a','b'];
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -1062,7 +1116,7 @@ var stringArr:Array<string> = ['a','b'];
                                                     "end": 410
                                                 },
                                                 "flags": 2097152,
-                                                "start": 407,
+                                                "start": 408,
                                                 "end": 410
                                             },
                                             "right": null,
@@ -1078,6 +1132,8 @@ var stringArr:Array<string> = ['a','b'];
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 137,
                                         "types": [
@@ -1108,7 +1164,7 @@ var stringArr:Array<string> = ['a','b'];
                                         "end": 421
                                     },
                                     "flags": 2097152,
-                                    "start": 411,
+                                    "start": 412,
                                     "end": 421
                                 },
                                 "contents": {
@@ -1250,6 +1306,8 @@ var stringArr:Array<string> = ['a','b'];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -1266,23 +1324,31 @@ var stringArr:Array<string> = ['a','b'];
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 137,
-                                                "types": [
-                                                    {
-                                                        "kind": 134234345,
-                                                        "flags": 2097216,
-                                                        "start": 523,
-                                                        "end": 529
-                                                    },
-                                                    {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
-                                                        "start": 530,
-                                                        "end": 536
-                                                    }
-                                                ],
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 137,
+                                                    "types": [
+                                                        {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 523,
+                                                            "end": 529
+                                                        },
+                                                        {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 530,
+                                                            "end": 536
+                                                        }
+                                                    ],
+                                                    "flags": 2097152,
+                                                    "start": 529,
+                                                    "end": 536
+                                                },
                                                 "flags": 2097152,
-                                                "start": 529,
+                                                "start": 523,
                                                 "end": 536
                                             },
                                             "flags": 2097152,
@@ -1299,7 +1365,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "end": 537
                             },
                             "flags": 2097152,
-                            "start": 516,
+                            "start": 517,
                             "end": 537
                         },
                         "initializer": {
@@ -1371,6 +1437,8 @@ var stringArr:Array<string> = ['a','b'];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -1387,8 +1455,16 @@ var stringArr:Array<string> = ['a','b'];
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 567,
+                                                    "end": 573
+                                                },
+                                                "flags": 2097152,
                                                 "start": 567,
                                                 "end": 573
                                             },
@@ -1406,7 +1482,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "end": 574
                             },
                             "flags": 2097152,
-                            "start": 560,
+                            "start": 561,
                             "end": 574
                         },
                         "initializer": {

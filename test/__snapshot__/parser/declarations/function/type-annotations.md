@@ -80,6 +80,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -87,7 +89,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 25
                             },
                             "flags": 2097152,
-                            "start": 20,
+                            "start": 21,
                             "end": 25
                         },
                         "right": null,
@@ -157,6 +159,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -164,7 +168,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 58
                             },
                             "flags": 2097152,
-                            "start": 50,
+                            "start": 51,
                             "end": 58
                         },
                         "right": null,
@@ -234,6 +238,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -241,7 +247,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 91
                             },
                             "flags": 2097152,
-                            "start": 83,
+                            "start": 84,
                             "end": 91
                         },
                         "right": null,
@@ -263,6 +269,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -270,7 +278,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 107
                             },
                             "flags": 2097152,
-                            "start": 99,
+                            "start": 100,
                             "end": 107
                         },
                         "right": null,
@@ -340,6 +348,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -347,7 +357,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 140
                             },
                             "flags": 2097152,
-                            "start": 132,
+                            "start": 133,
                             "end": 140
                         },
                         "right": null,
@@ -433,6 +443,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -440,7 +452,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 197
                             },
                             "flags": 2097152,
-                            "start": 189,
+                            "start": 190,
                             "end": 197
                         },
                         "right": null,
@@ -510,6 +522,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -529,7 +543,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 236
                             },
                             "flags": 2097152,
-                            "start": 227,
+                            "start": 228,
                             "end": 236
                         },
                         "right": null,
@@ -599,6 +613,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -616,8 +632,16 @@ function foo28(numVal?: number = 2) {}
                                     "end": 270
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 270,
+                                        "end": 275
+                                    },
+                                    "flags": 2097152,
                                     "start": 270,
                                     "end": 275
                                 },
@@ -627,7 +651,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 275
                             },
                             "flags": 2097152,
-                            "start": 263,
+                            "start": 264,
                             "end": 275
                         },
                         "right": null,
@@ -697,6 +721,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -714,8 +740,16 @@ function foo28(numVal?: number = 2) {}
                                     "end": 309
                                 },
                                 "returnType": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 309,
+                                        "end": 316
+                                    },
+                                    "flags": 2097152,
                                     "start": 309,
                                     "end": 316
                                 },
@@ -725,7 +759,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 316
                             },
                             "flags": 2097152,
-                            "start": 302,
+                            "start": 303,
                             "end": 316
                         },
                         "right": null,
@@ -795,6 +829,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -819,16 +855,24 @@ function foo28(numVal?: number = 2) {}
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "bool",
-                                                    "rawText": "bool",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "bool",
+                                                        "rawText": "bool",
+                                                        "flags": 96,
+                                                        "start": 348,
+                                                        "end": 353
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 348,
                                                     "end": 353
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 348,
                                                 "end": 353
@@ -844,8 +888,16 @@ function foo28(numVal?: number = 2) {}
                                     "end": 353
                                 },
                                 "returnType": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 357,
+                                        "end": 364
+                                    },
+                                    "flags": 2097152,
                                     "start": 357,
                                     "end": 364
                                 },
@@ -855,7 +907,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 364
                             },
                             "flags": 2097152,
-                            "start": 343,
+                            "start": 344,
                             "end": 364
                         },
                         "right": null,
@@ -925,6 +977,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -949,16 +1003,24 @@ function foo28(numVal?: number = 2) {}
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "bool",
-                                                    "rawText": "bool",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "bool",
+                                                        "rawText": "bool",
+                                                        "flags": 96,
+                                                        "start": 398,
+                                                        "end": 403
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 398,
                                                     "end": 403
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 398,
                                                 "end": 403
@@ -980,8 +1042,16 @@ function foo28(numVal?: number = 2) {}
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 408,
+                                                    "end": 415
+                                                },
+                                                "flags": 2097152,
                                                 "start": 408,
                                                 "end": 415
                                             },
@@ -996,8 +1066,16 @@ function foo28(numVal?: number = 2) {}
                                     "end": 415
                                 },
                                 "returnType": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 419,
+                                        "end": 426
+                                    },
+                                    "flags": 2097152,
                                     "start": 419,
                                     "end": 426
                                 },
@@ -1007,7 +1085,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 426
                             },
                             "flags": 2097152,
-                            "start": 392,
+                            "start": 393,
                             "end": 426
                         },
                         "right": null,
@@ -1077,6 +1155,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -1101,16 +1181,24 @@ function foo28(numVal?: number = 2) {}
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "bool",
-                                                    "rawText": "bool",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "bool",
+                                                        "rawText": "bool",
+                                                        "flags": 96,
+                                                        "start": 460,
+                                                        "end": 465
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 460,
                                                     "end": 465
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 460,
                                                 "end": 465
@@ -1137,33 +1225,49 @@ function foo28(numVal?: number = 2) {}
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "Array",
-                                                    "rawText": "Array",
-                                                    "flags": 96,
-                                                    "start": 474,
-                                                    "end": 480
-                                                },
-                                                "typeParameters": {
-                                                    "kind": 309,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 310,
-                                                            "type": {
-                                                                "kind": 134234345,
-                                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "Array",
+                                                        "rawText": "Array",
+                                                        "flags": 96,
+                                                        "start": 474,
+                                                        "end": 480
+                                                    },
+                                                    "typeParameters": {
+                                                        "kind": 309,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 310,
+                                                                "type": {
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 134234345,
+                                                                        "flags": 2097216,
+                                                                        "start": 481,
+                                                                        "end": 487
+                                                                    },
+                                                                    "flags": 2097152,
+                                                                    "start": 481,
+                                                                    "end": 487
+                                                                },
+                                                                "flags": 2097152,
                                                                 "start": 481,
                                                                 "end": 487
-                                                            },
-                                                            "flags": 2097152,
-                                                            "start": 481,
-                                                            "end": 487
-                                                        }
-                                                    ],
+                                                            }
+                                                        ],
+                                                        "flags": 2097152,
+                                                        "start": 480,
+                                                        "end": 488
+                                                    },
                                                     "flags": 2097152,
-                                                    "start": 480,
+                                                    "start": 474,
                                                     "end": 488
                                                 },
                                                 "flags": 2097152,
@@ -1181,8 +1285,16 @@ function foo28(numVal?: number = 2) {}
                                     "end": 488
                                 },
                                 "returnType": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 492,
+                                        "end": 499
+                                    },
+                                    "flags": 2097152,
                                     "start": 492,
                                     "end": 499
                                 },
@@ -1192,7 +1304,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 499
                             },
                             "flags": 2097152,
-                            "start": 454,
+                            "start": 455,
                             "end": 499
                         },
                         "right": null,
@@ -1270,9 +1382,19 @@ function foo28(numVal?: number = 2) {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 521,
+                        "end": 528
+                    },
+                    "flags": 2097152,
                     "start": 521,
                     "end": 528
                 },
@@ -1328,29 +1450,47 @@ function foo28(numVal?: number = 2) {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 288,
-                    "arrowTypeParameterList": {
-                        "kind": 292,
-                        "parameters": [],
-                        "trailingComma": false,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 288,
+                        "arrowTypeParameterList": {
+                            "kind": 292,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 549,
+                            "end": 549
+                        },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 550,
+                            "end": 553
+                        },
+                        "returnType": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 138477615,
+                                "flags": 2097216,
+                                "start": 553,
+                                "end": 558
+                            },
+                            "flags": 2097152,
+                            "start": 553,
+                            "end": 558
+                        },
+                        "typeParameters": null,
                         "flags": 2097152,
-                        "start": 549,
-                        "end": 549
-                    },
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 550,
-                        "end": 553
-                    },
-                    "returnType": {
-                        "kind": 138477615,
-                        "flags": 2097216,
-                        "start": 553,
+                        "start": 548,
                         "end": 558
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 548,
                     "end": 558
@@ -1407,61 +1547,87 @@ function foo28(numVal?: number = 2) {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 288,
-                    "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 587,
-                        "end": 590
-                    },
-                    "arrowToken": {
-                        "kind": 292,
-                        "parameters": [
-                            {
-                                "kind": 149,
-                                "ellipsisToken": null,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "_",
-                                    "rawText": "_",
-                                    "flags": 96,
-                                    "start": 580,
-                                    "end": 581
-                                },
-                                "optionalToken": null,
-                                "types": {
-                                    "kind": 144,
-                                    "id": {
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 288,
+                        "arrowTypeParameterList": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 587,
+                            "end": 590
+                        },
+                        "arrowToken": {
+                            "kind": 292,
+                            "parameters": [
+                                {
+                                    "kind": 149,
+                                    "ellipsisToken": null,
+                                    "name": {
                                         "kind": 134299649,
-                                        "text": "bool",
-                                        "rawText": "bool",
+                                        "text": "_",
+                                        "rawText": "_",
                                         "flags": 96,
+                                        "start": 580,
+                                        "end": 581
+                                    },
+                                    "optionalToken": null,
+                                    "types": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "bool",
+                                                "rawText": "bool",
+                                                "flags": 96,
+                                                "start": 582,
+                                                "end": 586
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 2097152,
+                                            "start": 582,
+                                            "end": 586
+                                        },
+                                        "flags": 2097152,
                                         "start": 582,
                                         "end": 586
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
-                                    "start": 582,
+                                    "start": 579,
                                     "end": 586
-                                },
-                                "flags": 2097152,
-                                "start": 579,
-                                "end": 586
-                            }
-                        ],
-                        "trailingComma": false,
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 579,
+                            "end": 586
+                        },
+                        "returnType": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234345,
+                                "flags": 2097216,
+                                "start": 590,
+                                "end": 597
+                            },
+                            "flags": 2097152,
+                            "start": 590,
+                            "end": 597
+                        },
+                        "typeParameters": null,
                         "flags": 2097152,
                         "start": 579,
-                        "end": 586
-                    },
-                    "returnType": {
-                        "kind": 134234345,
-                        "flags": 2097216,
-                        "start": 590,
                         "end": 597
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 579,
                     "end": 597
@@ -1518,66 +1684,92 @@ function foo28(numVal?: number = 2) {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 288,
-                    "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 626,
-                        "end": 629
-                    },
-                    "arrowToken": {
-                        "kind": 292,
-                        "parameters": [
-                            {
-                                "kind": 149,
-                                "ellipsisToken": null,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "_",
-                                    "rawText": "_",
-                                    "flags": 96,
-                                    "start": 618,
-                                    "end": 619
-                                },
-                                "optionalToken": {
-                                    "kind": 134217750,
-                                    "flags": 64,
-                                    "start": 619,
-                                    "end": 620
-                                },
-                                "types": {
-                                    "kind": 144,
-                                    "id": {
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 288,
+                        "arrowTypeParameterList": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 626,
+                            "end": 629
+                        },
+                        "arrowToken": {
+                            "kind": 292,
+                            "parameters": [
+                                {
+                                    "kind": 149,
+                                    "ellipsisToken": null,
+                                    "name": {
                                         "kind": 134299649,
-                                        "text": "bool",
-                                        "rawText": "bool",
+                                        "text": "_",
+                                        "rawText": "_",
                                         "flags": 96,
+                                        "start": 618,
+                                        "end": 619
+                                    },
+                                    "optionalToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 619,
+                                        "end": 620
+                                    },
+                                    "types": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "bool",
+                                                "rawText": "bool",
+                                                "flags": 96,
+                                                "start": 621,
+                                                "end": 625
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 2097152,
+                                            "start": 621,
+                                            "end": 625
+                                        },
+                                        "flags": 2097152,
                                         "start": 621,
                                         "end": 625
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
-                                    "start": 621,
+                                    "start": 617,
                                     "end": 625
-                                },
-                                "flags": 2097152,
-                                "start": 617,
-                                "end": 625
-                            }
-                        ],
-                        "trailingComma": false,
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 617,
+                            "end": 625
+                        },
+                        "returnType": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234345,
+                                "flags": 2097216,
+                                "start": 629,
+                                "end": 636
+                            },
+                            "flags": 2097152,
+                            "start": 629,
+                            "end": 636
+                        },
+                        "typeParameters": null,
                         "flags": 2097152,
                         "start": 617,
-                        "end": 625
-                    },
-                    "returnType": {
-                        "kind": 134234345,
-                        "flags": 2097216,
-                        "start": 629,
                         "end": 636
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 617,
                     "end": 636
@@ -1634,10 +1826,20 @@ function foo28(numVal?: number = 2) {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234353,
-                    "properties": [],
-                    "trailingComma": false,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234353,
+                        "properties": [],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 656,
+                        "end": 659
+                    },
                     "flags": 2097152,
                     "start": 656,
                     "end": 659
@@ -1771,6 +1973,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -1790,8 +1994,16 @@ function foo28(numVal?: number = 2) {}
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 710,
+                                                "end": 717
+                                            },
+                                            "flags": 2097152,
                                             "start": 710,
                                             "end": 717
                                         },
@@ -1806,7 +2018,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 720
                             },
                             "flags": 2097152,
-                            "start": 704,
+                            "start": 705,
                             "end": 720
                         },
                         "right": null,
@@ -1891,6 +2103,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -1907,8 +2121,16 @@ function foo28(numVal?: number = 2) {}
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 751,
+                                                    "end": 757
+                                                },
+                                                "flags": 2097152,
                                                 "start": 751,
                                                 "end": 757
                                             },
@@ -1926,7 +2148,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 758
                             },
                             "flags": 2097152,
-                            "start": 743,
+                            "start": 744,
                             "end": 758
                         },
                         "right": null,
@@ -2001,6 +2223,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -2017,8 +2241,16 @@ function foo28(numVal?: number = 2) {}
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 793,
+                                                    "end": 799
+                                                },
+                                                "flags": 2097152,
                                                 "start": 793,
                                                 "end": 799
                                             },
@@ -2036,7 +2268,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 800
                             },
                             "flags": 2097152,
-                            "start": 785,
+                            "start": 786,
                             "end": 800
                         },
                         "right": null,
@@ -2106,6 +2338,8 @@ function foo28(numVal?: number = 2) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -2113,7 +2347,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 834
                             },
                             "flags": 2097152,
-                            "start": 826,
+                            "start": 827,
                             "end": 834
                         },
                         "right": {
@@ -2195,6 +2429,8 @@ function foo28(numVal?: number = 2) {}
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -2202,7 +2438,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 873
                             },
                             "flags": 2097152,
-                            "start": 865,
+                            "start": 866,
                             "end": 873
                         },
                         "right": {

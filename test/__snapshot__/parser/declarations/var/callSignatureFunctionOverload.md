@@ -60,6 +60,8 @@ var foo2: {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -83,8 +85,16 @@ var foo2: {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 21,
+                                                            "end": 28
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 21,
                                                         "end": 28
                                                     },
@@ -100,8 +110,16 @@ var foo2: {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 30,
+                                                "end": 37
+                                            },
+                                            "flags": 2097152,
                                             "start": 30,
                                             "end": 37
                                         },
@@ -129,9 +147,17 @@ var foo2: {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134217967,
-                                                        "text": "order",
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134217967,
+                                                            "text": "order",
+                                                            "flags": 2097216,
+                                                            "start": 49,
+                                                            "end": 57
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 49,
                                                         "end": 57
                                                     },
@@ -147,8 +173,16 @@ var foo2: {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 59,
+                                                "end": 66
+                                            },
+                                            "flags": 2097152,
                                             "start": 59,
                                             "end": 66
                                         },
@@ -176,9 +210,17 @@ var foo2: {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134217967,
-                                                        "text": "content",
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134217967,
+                                                            "text": "content",
+                                                            "flags": 2097216,
+                                                            "start": 78,
+                                                            "end": 88
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 78,
                                                         "end": 88
                                                     },
@@ -194,8 +236,16 @@ var foo2: {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 90,
+                                                "end": 97
+                                            },
+                                            "flags": 2097152,
                                             "start": 90,
                                             "end": 97
                                         },
@@ -223,9 +273,17 @@ var foo2: {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134217967,
-                                                        "text": "done",
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134217967,
+                                                            "text": "done",
+                                                            "flags": 2097216,
+                                                            "start": 109,
+                                                            "end": 116
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 109,
                                                         "end": 116
                                                     },
@@ -241,8 +299,16 @@ var foo2: {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 118,
+                                                "end": 125
+                                            },
+                                            "flags": 2097152,
                                             "start": 118,
                                             "end": 125
                                         },
@@ -257,7 +323,7 @@ var foo2: {
                                 "end": 128
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 128
                         },
                         "initializer": null,
@@ -299,6 +365,8 @@ var foo2: {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -322,8 +390,16 @@ var foo2: {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 152,
+                                                            "end": 159
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 152,
                                                         "end": 159
                                                     },
@@ -339,8 +415,16 @@ var foo2: {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 161,
+                                                "end": 168
+                                            },
+                                            "flags": 2097152,
                                             "start": 161,
                                             "end": 168
                                         },
@@ -368,9 +452,17 @@ var foo2: {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134217967,
-                                                        "text": "order",
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134217967,
+                                                            "text": "order",
+                                                            "flags": 2097216,
+                                                            "start": 180,
+                                                            "end": 188
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 180,
                                                         "end": 188
                                                     },
@@ -386,8 +478,16 @@ var foo2: {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 190,
+                                                "end": 197
+                                            },
+                                            "flags": 2097152,
                                             "start": 190,
                                             "end": 197
                                         },
@@ -415,9 +515,17 @@ var foo2: {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134217967,
-                                                        "text": "order",
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134217967,
+                                                            "text": "order",
+                                                            "flags": 2097216,
+                                                            "start": 209,
+                                                            "end": 217
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 209,
                                                         "end": 217
                                                     },
@@ -433,8 +541,16 @@ var foo2: {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 219,
+                                                "end": 226
+                                            },
+                                            "flags": 2097152,
                                             "start": 219,
                                             "end": 226
                                         },
@@ -462,9 +578,17 @@ var foo2: {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134217967,
-                                                        "text": "done",
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134217967,
+                                                            "text": "done",
+                                                            "flags": 2097216,
+                                                            "start": 238,
+                                                            "end": 245
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 238,
                                                         "end": 245
                                                     },
@@ -480,8 +604,16 @@ var foo2: {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 247,
+                                                "end": 254
+                                            },
+                                            "flags": 2097152,
                                             "start": 247,
                                             "end": 254
                                         },
@@ -496,7 +628,7 @@ var foo2: {
                                 "end": 257
                             },
                             "flags": 2097152,
-                            "start": 138,
+                            "start": 139,
                             "end": 257
                         },
                         "initializer": null,

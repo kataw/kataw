@@ -48,6 +48,8 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -65,16 +67,24 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "mixed",
-                                                "rawText": "mixed",
-                                                "flags": 96,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "mixed",
+                                                    "rawText": "mixed",
+                                                    "flags": 96,
+                                                    "start": 12,
+                                                    "end": 18
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
                                                 "start": 12,
                                                 "end": 18
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 12,
                                             "end": 18
@@ -90,7 +100,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                 "end": 20
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 20
                         },
                         "initializer": {
@@ -150,6 +160,8 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                             "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -157,7 +169,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                     "end": 41
                                 },
                                 "flags": 2097152,
-                                "start": 33,
+                                "start": 34,
                                 "end": 41
                             },
                             "flags": 32,

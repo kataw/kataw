@@ -47,6 +47,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -137,8 +139,16 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                     "end": 33
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 38,
+                                        "end": 43
+                                    },
+                                    "flags": 2097152,
                                     "start": 38,
                                     "end": 43
                                 },
@@ -148,7 +158,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                 "end": 43
                             },
                             "flags": 2097152,
-                            "start": 8,
+                            "start": 9,
                             "end": 43
                         },
                         "initializer": {

@@ -47,12 +47,22 @@ let tuple1: [number] = [1];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 147,
                                 "elementTypes": [
                                     {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 13,
+                                            "end": 19
+                                        },
+                                        "flags": 2097152,
                                         "start": 13,
                                         "end": 19
                                     }
@@ -63,7 +73,7 @@ let tuple1: [number] = [1];
                                 "end": 20
                             },
                             "flags": 2097152,
-                            "start": 10,
+                            "start": 11,
                             "end": 20
                         },
                         "initializer": {

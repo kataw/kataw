@@ -48,21 +48,42 @@
                 "end": 9
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 12,
+                    "kind": 290,
+                    "type": {
+                        "kind": 139,
+                        "bitwiseOrToken": {
+                            "kind": 134251592,
+                            "flags": 64,
+                            "start": 11,
+                            "end": 12
+                        },
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 12,
+                                "end": 13
+                            },
+                            "typeParameters": null,
+                            "flags": 2097152,
+                            "start": 12,
+                            "end": 13
+                        },
+                        "flags": 2097152,
+                        "start": 11,
                         "end": 13
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
-                    "start": 12,
-                    "end": 13
+                    "start": 9,
+                    "end": 14
                 },
                 "flags": 2097152,
                 "start": 9,

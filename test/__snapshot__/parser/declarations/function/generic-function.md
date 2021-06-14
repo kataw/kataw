@@ -68,6 +68,8 @@ function from<T>(arg: any): Query<T> {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
@@ -75,7 +77,7 @@ function from<T>(arg: any): Query<T> {
                                 "end": 37
                             },
                             "flags": 2097152,
-                            "start": 28,
+                            "start": 29,
                             "end": 37
                         },
                         "right": null,
@@ -116,43 +118,61 @@ function from<T>(arg: any): Query<T> {
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Query",
-                        "rawText": "Query",
-                        "flags": 96,
-                        "start": 39,
-                        "end": 45
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Query",
+                            "rawText": "Query",
+                            "flags": 96,
+                            "start": 39,
+                            "end": 45
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
+                                                "start": 46,
+                                                "end": 47
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 2097152,
+                                            "start": 46,
+                                            "end": 47
+                                        },
+                                        "flags": 2097152,
                                         "start": 46,
                                         "end": 47
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 46,
                                     "end": 47
-                                },
-                                "flags": 2097152,
-                                "start": 46,
-                                "end": 47
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 45,
+                            "end": 48
+                        },
                         "flags": 2097152,
-                        "start": 45,
+                        "start": 39,
                         "end": 48
                     },
                     "flags": 2097152,
@@ -209,6 +229,8 @@ function from<T>(arg: any): Query<T> {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -216,7 +238,7 @@ function from<T>(arg: any): Query<T> {
                                 "end": 75
                             },
                             "flags": 2097152,
-                            "start": 70,
+                            "start": 71,
                             "end": 75
                         },
                         "right": null,
@@ -291,43 +313,61 @@ function from<T>(arg: any): Query<T> {
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Query",
-                        "rawText": "Query",
-                        "flags": 96,
-                        "start": 77,
-                        "end": 83
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Query",
+                            "rawText": "Query",
+                            "flags": 96,
+                            "start": 77,
+                            "end": 83
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
+                                                "start": 84,
+                                                "end": 85
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 2097152,
+                                            "start": 84,
+                                            "end": 85
+                                        },
+                                        "flags": 2097152,
                                         "start": 84,
                                         "end": 85
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 84,
                                     "end": 85
-                                },
-                                "flags": 2097152,
-                                "start": 84,
-                                "end": 85
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 83,
+                            "end": 86
+                        },
                         "flags": 2097152,
-                        "start": 83,
+                        "start": 77,
                         "end": 86
                     },
                     "flags": 2097152,

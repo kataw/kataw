@@ -48,57 +48,73 @@ type T = { [[foo]](): X }
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 248,
-                        "protoKeyword": null,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 96,
-                            "start": 13,
-                            "end": 16
-                        },
-                        "value": {
-                            "kind": 148,
-                            "functionTypeParameterList": {
-                                "kind": 282,
-                                "parameters": [],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "start": 19,
-                                "end": 19
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 248,
+                            "protoKeyword": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 16
                             },
-                            "returnType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "X",
-                                    "rawText": "X",
-                                    "flags": 96,
+                            "value": {
+                                "kind": 148,
+                                "functionTypeParameterList": {
+                                    "kind": 282,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 19,
+                                    "end": 19
+                                },
+                                "returnType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "X",
+                                            "rawText": "X",
+                                            "flags": 96,
+                                            "start": 21,
+                                            "end": 23
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
+                                        "start": 21,
+                                        "end": 23
+                                    },
+                                    "flags": 2097152,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
-                                "start": 21,
+                                "start": 10,
                                 "end": 23
                             },
-                            "typeParameters": null,
+                            "optionalToken": null,
+                            "staticToken": null,
                             "flags": 2097152,
                             "start": 10,
                             "end": 23
-                        },
-                        "optionalToken": null,
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 23
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 25
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 25

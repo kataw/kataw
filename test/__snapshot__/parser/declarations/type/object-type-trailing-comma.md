@@ -48,35 +48,51 @@ type a = {x: number, };
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 11
+                            },
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 12,
+                                    "end": 19
+                                },
+                                "flags": 2097152,
+                                "start": 12,
+                                "end": 19
+                            },
+                            "flags": 2097152,
                             "start": 10,
-                            "end": 11
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 12,
-                            "end": 19
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 20
-                    }
-                ],
-                "trailingComma": false,
+                            "end": 20
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 22
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 22

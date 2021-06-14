@@ -47,24 +47,50 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 147,
                                 "elementTypes": [
                                     {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 13,
+                                            "end": 19
+                                        },
+                                        "flags": 2097152,
                                         "start": 13,
                                         "end": 19
                                     },
                                     {
-                                        "kind": 134234254,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234254,
+                                            "flags": 2097216,
+                                            "start": 20,
+                                            "end": 28
+                                        },
+                                        "flags": 2097152,
                                         "start": 20,
                                         "end": 28
                                     },
                                     {
-                                        "kind": 134234347,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234347,
+                                            "flags": 2097216,
+                                            "start": 29,
+                                            "end": 36
+                                        },
+                                        "flags": 2097152,
                                         "start": 29,
                                         "end": 36
                                     }
@@ -75,7 +101,7 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                                 "end": 37
                             },
                             "flags": 2097152,
-                            "start": 10,
+                            "start": 11,
                             "end": 37
                         },
                         "initializer": {

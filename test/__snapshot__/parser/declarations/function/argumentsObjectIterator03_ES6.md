@@ -82,9 +82,19 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 27,
+                        "end": 34
+                    },
+                    "flags": 2097152,
                     "start": 27,
                     "end": 34
                 },

@@ -46,28 +46,44 @@ type Fn0 = () => number;
                 "end": 10
             },
             "type": {
-                "kind": 288,
-                "arrowTypeParameterList": {
-                    "kind": 292,
-                    "parameters": [],
-                    "trailingComma": false,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 288,
+                    "arrowTypeParameterList": {
+                        "kind": 292,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 12,
+                        "end": 12
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 13,
+                        "end": 16
+                    },
+                    "returnType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134234345,
+                            "flags": 2097216,
+                            "start": 16,
+                            "end": 23
+                        },
+                        "flags": 2097152,
+                        "start": 16,
+                        "end": 23
+                    },
+                    "typeParameters": null,
                     "flags": 2097152,
-                    "start": 12,
-                    "end": 12
-                },
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 13,
-                    "end": 16
-                },
-                "returnType": {
-                    "kind": 134234345,
-                    "flags": 2097216,
-                    "start": 16,
+                    "start": 10,
                     "end": 23
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 10,
                 "end": 23

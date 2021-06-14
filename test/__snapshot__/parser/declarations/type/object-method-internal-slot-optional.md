@@ -48,47 +48,63 @@ type T = { [[foo]]?: X }
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 248,
-                        "protoKeyword": null,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 96,
-                            "start": 13,
-                            "end": 16
-                        },
-                        "value": {
-                            "kind": 144,
-                            "id": {
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 248,
+                            "protoKeyword": null,
+                            "name": {
                                 "kind": 134299649,
-                                "text": "X",
-                                "rawText": "X",
+                                "text": "foo",
+                                "rawText": "foo",
                                 "flags": 96,
+                                "start": 13,
+                                "end": 16
+                            },
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "X",
+                                        "rawText": "X",
+                                        "flags": 96,
+                                        "start": 20,
+                                        "end": 22
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 20,
+                                    "end": 22
+                                },
+                                "flags": 2097152,
                                 "start": 20,
                                 "end": 22
                             },
-                            "typeParameters": null,
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 18,
+                                "end": 19
+                            },
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 20,
+                            "start": 10,
                             "end": 22
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 18,
-                            "end": 19
-                        },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 22
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 24
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 24

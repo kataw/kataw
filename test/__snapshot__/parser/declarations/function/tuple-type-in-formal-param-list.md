@@ -72,6 +72,8 @@ function x({ y }: z<[string |Q]>) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -88,39 +90,55 @@ function x({ y }: z<[string |Q]>) {}
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 147,
-                                                "elementTypes": [
-                                                    {
-                                                        "kind": 137,
-                                                        "types": [
-                                                            {
-                                                                "kind": 134234347,
-                                                                "flags": 2097216,
-                                                                "start": 21,
-                                                                "end": 27
-                                                            },
-                                                            {
-                                                                "kind": 144,
-                                                                "id": {
-                                                                    "kind": 134299649,
-                                                                    "text": "Q",
-                                                                    "rawText": "Q",
-                                                                    "flags": 96,
-                                                                    "start": 29,
-                                                                    "end": 30
-                                                                },
-                                                                "typeParameters": null,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 147,
+                                                    "elementTypes": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 137,
+                                                                "types": [
+                                                                    {
+                                                                        "kind": 134234347,
+                                                                        "flags": 2097216,
+                                                                        "start": 21,
+                                                                        "end": 27
+                                                                    },
+                                                                    {
+                                                                        "kind": 144,
+                                                                        "id": {
+                                                                            "kind": 134299649,
+                                                                            "text": "Q",
+                                                                            "rawText": "Q",
+                                                                            "flags": 96,
+                                                                            "start": 29,
+                                                                            "end": 30
+                                                                        },
+                                                                        "typeParameters": null,
+                                                                        "flags": 2097152,
+                                                                        "start": 29,
+                                                                        "end": 30
+                                                                    }
+                                                                ],
                                                                 "flags": 2097152,
-                                                                "start": 29,
+                                                                "start": 27,
                                                                 "end": 30
-                                                            }
-                                                        ],
-                                                        "flags": 2097152,
-                                                        "start": 27,
-                                                        "end": 30
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                                            },
+                                                            "flags": 2097152,
+                                                            "start": 21,
+                                                            "end": 30
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 20,
+                                                    "end": 31
+                                                },
                                                 "flags": 2097152,
                                                 "start": 20,
                                                 "end": 31
@@ -139,7 +157,7 @@ function x({ y }: z<[string |Q]>) {}
                                 "end": 32
                             },
                             "flags": 2097152,
-                            "start": 16,
+                            "start": 17,
                             "end": 32
                         },
                         "right": null,

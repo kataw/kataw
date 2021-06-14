@@ -48,32 +48,48 @@ type A = Obj['a'];
                 "end": 8
             },
             "type": {
-                "kind": 311,
-                "objectType": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Obj",
-                        "rawText": "Obj",
-                        "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 311,
+                    "objectType": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Obj",
+                            "rawText": "Obj",
+                            "flags": 96,
+                            "start": 8,
+                            "end": 12
+                        },
+                        "typeParameters": null,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 12
                     },
-                    "typeParameters": null,
-                    "flags": 2097152,
+                    "indexType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134217967,
+                            "text": "a",
+                            "flags": 2097216,
+                            "start": 13,
+                            "end": 16
+                        },
+                        "flags": 2097152,
+                        "start": 13,
+                        "end": 16
+                    },
+                    "flags": 0,
                     "start": 8,
-                    "end": 12
+                    "end": 18
                 },
-                "indexType": {
-                    "kind": 134217967,
-                    "text": "a",
-                    "flags": 2097216,
-                    "start": 13,
-                    "end": 16
-                },
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
-                "end": 18
+                "end": 17
             },
             "flags": 2097152,
             "start": 0,

@@ -52,6 +52,8 @@ async (x?: number): any => x;
                     },
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
@@ -59,7 +61,7 @@ async (x?: number): any => x;
                             "end": 17
                         },
                         "flags": 2097152,
-                        "start": 9,
+                        "start": 10,
                         "end": 17
                     },
                     "right": null,
@@ -76,6 +78,8 @@ async (x?: number): any => x;
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234252,
                     "flags": 2097216,
@@ -83,7 +87,7 @@ async (x?: number): any => x;
                     "end": 23
                 },
                 "flags": 2097152,
-                "start": 18,
+                "start": 19,
                 "end": 23
             },
             "contents": {

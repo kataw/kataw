@@ -48,6 +48,8 @@ var o: { [string]: number } = {};
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -63,8 +65,16 @@ var o: { [string]: number } = {};
                                             "end": 16
                                         },
                                         "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 18,
+                                                "end": 25
+                                            },
+                                            "flags": 2097152,
                                             "start": 18,
                                             "end": 25
                                         },
@@ -79,7 +89,7 @@ var o: { [string]: number } = {};
                                 "end": 27
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 27
                         },
                         "initializer": {

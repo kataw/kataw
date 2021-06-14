@@ -71,6 +71,8 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -87,7 +89,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "end": 36
                             },
                             "flags": 2097152,
-                            "start": 33,
+                            "start": 34,
                             "end": 36
                         },
                         "right": null,
@@ -109,6 +111,8 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -171,8 +175,16 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "end": 54
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 58,
+                                        "end": 63
+                                    },
+                                    "flags": 2097152,
                                     "start": 58,
                                     "end": 63
                                 },
@@ -182,7 +194,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "end": 63
                             },
                             "flags": 2097152,
-                            "start": 39,
+                            "start": 40,
                             "end": 63
                         },
                         "right": null,
@@ -462,18 +474,36 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 147,
                                 "elementTypes": [
                                     {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 15,
+                                            "end": 21
+                                        },
+                                        "flags": 2097152,
                                         "start": 15,
                                         "end": 21
                                     },
                                     {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 22,
+                                            "end": 29
+                                        },
+                                        "flags": 2097152,
                                         "start": 22,
                                         "end": 29
                                     }
@@ -484,7 +514,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "end": 30
                             },
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 13,
                             "end": 30
                         },
                         "defaultType": null,
@@ -558,6 +588,8 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -574,8 +606,16 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 178,
+                                                    "end": 184
+                                                },
+                                                "flags": 2097152,
                                                 "start": 178,
                                                 "end": 184
                                             },
@@ -593,7 +633,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "end": 184
                             },
                             "flags": 2097152,
-                            "start": 170,
+                            "start": 171,
                             "end": 184
                         },
                         "defaultType": null,
@@ -647,6 +687,8 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "optionalToken": null,
                                 "type": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -663,7 +705,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                         "end": 191
                                     },
                                     "flags": 2097152,
-                                    "start": 188,
+                                    "start": 189,
                                     "end": 191
                                 },
                                 "right": null,
@@ -685,6 +727,8 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "optionalToken": null,
                                 "type": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 288,
                                         "arrowTypeParameterList": {
@@ -747,8 +791,16 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "end": 209
                                         },
                                         "returnType": {
-                                            "kind": 138477615,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 138477615,
+                                                "flags": 2097216,
+                                                "start": 213,
+                                                "end": 218
+                                            },
+                                            "flags": 2097152,
                                             "start": 213,
                                             "end": 218
                                         },
@@ -758,7 +810,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                         "end": 218
                                     },
                                     "flags": 2097152,
-                                    "start": 194,
+                                    "start": 195,
                                     "end": 218
                                 },
                                 "right": null,

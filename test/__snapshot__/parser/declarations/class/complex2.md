@@ -104,16 +104,24 @@ class C2<X, Y> {
                             {
                                 "kind": 310,
                                 "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "X",
-                                        "rawText": "X",
-                                        "flags": 96,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "X",
+                                            "rawText": "X",
+                                            "flags": 96,
+                                            "start": 21,
+                                            "end": 22
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 21,
                                         "end": 22
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 21,
                                     "end": 22
@@ -125,8 +133,16 @@ class C2<X, Y> {
                             {
                                 "kind": 310,
                                 "type": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 23,
+                                        "end": 30
+                                    },
+                                    "flags": 2097152,
                                     "start": 23,
                                     "end": 30
                                 },
@@ -183,6 +199,8 @@ class C2<X, Y> {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -199,7 +217,7 @@ class C2<X, Y> {
                                                     "end": 44
                                                 },
                                                 "flags": 2097152,
-                                                "start": 41,
+                                                "start": 42,
                                                 "end": 44
                                             },
                                             "right": null,
@@ -215,6 +233,8 @@ class C2<X, Y> {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -231,7 +251,7 @@ class C2<X, Y> {
                                         "end": 48
                                     },
                                     "flags": 2097152,
-                                    "start": 45,
+                                    "start": 46,
                                     "end": 48
                                 },
                                 "contents": {
@@ -525,6 +545,8 @@ class C2<X, Y> {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234353,
                                     "properties": [
@@ -544,16 +566,24 @@ class C2<X, Y> {
                                             },
                                             "optionalToken": null,
                                             "value": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "Y",
-                                                    "rawText": "Y",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "Y",
+                                                        "rawText": "Y",
+                                                        "flags": 96,
+                                                        "start": 170,
+                                                        "end": 172
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 170,
                                                     "end": 172
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 170,
                                                 "end": 172
@@ -569,7 +599,7 @@ class C2<X, Y> {
                                     "end": 173
                                 },
                                 "flags": 2097152,
-                                "start": 165,
+                                "start": 166,
                                 "end": 173
                             },
                             "initializer": null,
@@ -613,6 +643,8 @@ class C2<X, Y> {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -629,16 +661,24 @@ class C2<X, Y> {
                                                 {
                                                     "kind": 310,
                                                     "type": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "X",
-                                                            "rawText": "X",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "X",
+                                                                "rawText": "X",
+                                                                "flags": 96,
+                                                                "start": 187,
+                                                                "end": 188
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 187,
                                                             "end": 188
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 187,
                                                         "end": 188
@@ -650,16 +690,24 @@ class C2<X, Y> {
                                                 {
                                                     "kind": 310,
                                                     "type": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "Y",
-                                                            "rawText": "Y",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "Y",
+                                                                "rawText": "Y",
+                                                                "flags": 96,
+                                                                "start": 189,
+                                                                "end": 191
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 189,
                                                             "end": 191
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 189,
                                                         "end": 191
@@ -678,7 +726,7 @@ class C2<X, Y> {
                                         "end": 192
                                     },
                                     "flags": 2097152,
-                                    "start": 182,
+                                    "start": 183,
                                     "end": 192
                                 },
                                 "contents": {

@@ -86,9 +86,19 @@ function foo():any{return ""};
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234252,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234252,
+                        "flags": 2097216,
+                        "start": 15,
+                        "end": 18
+                    },
+                    "flags": 2097152,
                     "start": 15,
                     "end": 18
                 },

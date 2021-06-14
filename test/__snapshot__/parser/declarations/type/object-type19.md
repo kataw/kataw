@@ -48,55 +48,71 @@ type a = {get foo():string};
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": {
-                            "kind": 16498,
-                            "flags": 96,
-                            "start": 10,
-                            "end": 13
-                        },
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 96,
-                            "start": 13,
-                            "end": 17
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 148,
-                            "functionTypeParameterList": {
-                                "kind": 282,
-                                "parameters": [],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "start": 18,
-                                "end": 18
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": {
+                                "kind": 16498,
+                                "flags": 96,
+                                "start": 10,
+                                "end": 13
                             },
-                            "returnType": {
-                                "kind": 134234347,
-                                "flags": 2097216,
-                                "start": 20,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 17
+                            },
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 148,
+                                "functionTypeParameterList": {
+                                    "kind": 282,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 18,
+                                    "end": 18
+                                },
+                                "returnType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 20,
+                                        "end": 26
+                                    },
+                                    "flags": 2097152,
+                                    "start": 20,
+                                    "end": 26
+                                },
+                                "typeParameters": null,
+                                "flags": 2097152,
+                                "start": 17,
                                 "end": 26
                             },
-                            "typeParameters": null,
                             "flags": 2097152,
-                            "start": 17,
+                            "start": 10,
                             "end": 26
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 26
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 27
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 27

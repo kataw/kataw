@@ -48,9 +48,17 @@ type a = {};
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [],
-                "trailingComma": false,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 11
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 11

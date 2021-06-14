@@ -69,6 +69,8 @@ try {} catch([a:string]: number) {}
                                 "optionalToken": null,
                                 "type": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
@@ -76,7 +78,7 @@ try {} catch([a:string]: number) {}
                                         "end": 22
                                     },
                                     "flags": 2097152,
-                                    "start": 15,
+                                    "start": 16,
                                     "end": 22
                                 },
                                 "right": null,

@@ -48,6 +48,8 @@ var a: {param1?: number; param2: string; param3: string;}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -72,8 +74,16 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "end": 15
                                         },
                                         "value": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 16,
+                                                "end": 23
+                                            },
+                                            "flags": 2097152,
                                             "start": 16,
                                             "end": 23
                                         },
@@ -97,8 +107,16 @@ var a: {param1?: number; param2: string; param3: string;}
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 32,
+                                                "end": 39
+                                            },
+                                            "flags": 2097152,
                                             "start": 32,
                                             "end": 39
                                         },
@@ -122,8 +140,16 @@ var a: {param1?: number; param2: string; param3: string;}
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 48,
+                                                "end": 55
+                                            },
+                                            "flags": 2097152,
                                             "start": 48,
                                             "end": 55
                                         },
@@ -138,7 +164,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                 "end": 57
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 57
                         },
                         "initializer": null,

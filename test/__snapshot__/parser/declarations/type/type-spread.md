@@ -58,31 +58,47 @@ type D32 = {p?: number};
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 195,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "name": null,
-                        "key": {
-                            "kind": 134234347,
-                            "flags": 64,
-                            "start": 11,
-                            "end": 17
-                        },
-                        "type": {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 19,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 195,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "name": null,
+                            "key": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 11,
+                                "end": 17
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 19,
+                                    "end": 26
+                                },
+                                "flags": 2097152,
+                                "start": 19,
+                                "end": 26
+                            },
+                            "flags": 2097152,
+                            "start": 10,
                             "end": 26
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 26
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 27
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 27
@@ -116,64 +132,88 @@ type D32 = {p?: number};
                 "end": 37
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 96,
-                            "start": 39,
-                            "end": 42
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 43,
-                            "end": 49
-                        },
-                        "flags": 2097152,
-                        "start": 39,
-                        "end": 50
-                    },
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 50,
-                            "end": 54
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
                                 "kind": 134299649,
-                                "text": "D",
-                                "rawText": "D",
+                                "text": "foo",
+                                "rawText": "foo",
                                 "flags": 96,
+                                "start": 39,
+                                "end": 42
+                            },
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 43,
+                                    "end": 49
+                                },
+                                "flags": 2097152,
+                                "start": 43,
+                                "end": 49
+                            },
+                            "flags": 2097152,
+                            "start": 39,
+                            "end": 50
+                        },
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 50,
+                                "end": 54
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "D",
+                                        "rawText": "D",
+                                        "flags": 96,
+                                        "start": 54,
+                                        "end": 55
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 54,
+                                    "end": 55
+                                },
+                                "flags": 2097152,
                                 "start": 54,
                                 "end": 55
                             },
-                            "typeParameters": null,
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 54,
+                            "start": 50,
                             "end": 55
-                        },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 50,
-                        "end": 55
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 37,
+                    "end": 56
+                },
                 "flags": 2097152,
                 "start": 37,
                 "end": 56
@@ -207,68 +247,92 @@ type D32 = {p?: number};
                 "end": 67
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 69,
-                            "end": 72
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "A2",
-                                "rawText": "A2",
-                                "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 69,
+                                "end": 72
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "A2",
+                                        "rawText": "A2",
+                                        "flags": 96,
+                                        "start": 72,
+                                        "end": 74
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 72,
+                                    "end": 74
+                                },
+                                "flags": 2097152,
                                 "start": 72,
                                 "end": 74
                             },
-                            "typeParameters": null,
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 72,
+                            "start": 69,
                             "end": 74
                         },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 69,
-                        "end": 74
-                    },
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 75,
-                            "end": 79
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "B2",
-                                "rawText": "B2",
-                                "flags": 96,
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 75,
+                                "end": 79
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "B2",
+                                        "rawText": "B2",
+                                        "flags": 96,
+                                        "start": 79,
+                                        "end": 81
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 79,
+                                    "end": 81
+                                },
+                                "flags": 2097152,
                                 "start": 79,
                                 "end": 81
                             },
-                            "typeParameters": null,
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 79,
+                            "start": 75,
                             "end": 81
-                        },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 75,
-                        "end": 81
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 67,
+                    "end": 82
+                },
                 "flags": 2097152,
                 "start": 67,
                 "end": 82
@@ -302,35 +366,51 @@ type D32 = {p?: number};
                 "end": 93
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "p",
-                            "rawText": "p",
-                            "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "p",
+                                "rawText": "p",
+                                "flags": 96,
+                                "start": 95,
+                                "end": 96
+                            },
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 97,
+                                    "end": 104
+                                },
+                                "flags": 2097152,
+                                "start": 97,
+                                "end": 104
+                            },
+                            "flags": 2097152,
                             "start": 95,
-                            "end": 96
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 134234347,
-                            "flags": 2097216,
-                            "start": 97,
                             "end": 104
-                        },
-                        "flags": 2097152,
-                        "start": 95,
-                        "end": 104
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 93,
+                    "end": 105
+                },
                 "flags": 2097152,
                 "start": 93,
                 "end": 105
@@ -364,68 +444,92 @@ type D32 = {p?: number};
                 "end": 116
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 118,
-                            "end": 121
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "A9",
-                                "rawText": "A9",
-                                "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 118,
+                                "end": 121
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "A9",
+                                        "rawText": "A9",
+                                        "flags": 96,
+                                        "start": 121,
+                                        "end": 123
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 121,
+                                    "end": 123
+                                },
+                                "flags": 2097152,
                                 "start": 121,
                                 "end": 123
                             },
-                            "typeParameters": null,
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 121,
+                            "start": 118,
                             "end": 123
                         },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 118,
-                        "end": 123
-                    },
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 124,
-                            "end": 128
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "B9",
-                                "rawText": "B9",
-                                "flags": 96,
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 124,
+                                "end": 128
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "B9",
+                                        "rawText": "B9",
+                                        "flags": 96,
+                                        "start": 128,
+                                        "end": 130
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 128,
+                                    "end": 130
+                                },
+                                "flags": 2097152,
                                 "start": 128,
                                 "end": 130
                             },
-                            "typeParameters": null,
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 128,
+                            "start": 124,
                             "end": 130
-                        },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 124,
-                        "end": 130
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 116,
+                    "end": 131
+                },
                 "flags": 2097152,
                 "start": 116,
                 "end": 131
@@ -459,54 +563,70 @@ type D32 = {p?: number};
                 "end": 142
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "p",
-                            "rawText": "p",
-                            "flags": 96,
-                            "start": 144,
-                            "end": 145
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 145,
-                            "end": 146
-                        },
-                        "value": {
-                            "kind": 137,
-                            "types": [
-                                {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
-                                    "start": 147,
-                                    "end": 154
-                                },
-                                {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
-                                    "start": 156,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "p",
+                                "rawText": "p",
+                                "flags": 96,
+                                "start": 144,
+                                "end": 145
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 145,
+                                "end": 146
+                            },
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 137,
+                                    "types": [
+                                        {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 147,
+                                            "end": 154
+                                        },
+                                        {
+                                            "kind": 134234347,
+                                            "flags": 2097216,
+                                            "start": 156,
+                                            "end": 163
+                                        }
+                                    ],
+                                    "flags": 2097152,
+                                    "start": 154,
                                     "end": 163
-                                }
-                            ],
+                                },
+                                "flags": 2097152,
+                                "start": 147,
+                                "end": 163
+                            },
                             "flags": 2097152,
-                            "start": 154,
+                            "start": 144,
                             "end": 163
-                        },
-                        "flags": 2097152,
-                        "start": 144,
-                        "end": 163
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 142,
+                    "end": 164
+                },
                 "flags": 2097152,
                 "start": 142,
                 "end": 164
@@ -540,68 +660,92 @@ type D32 = {p?: number};
                 "end": 176
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 178,
-                            "end": 181
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "A11",
-                                "rawText": "A11",
-                                "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 178,
+                                "end": 181
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "A11",
+                                        "rawText": "A11",
+                                        "flags": 96,
+                                        "start": 181,
+                                        "end": 184
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 181,
+                                    "end": 184
+                                },
+                                "flags": 2097152,
                                 "start": 181,
                                 "end": 184
                             },
-                            "typeParameters": null,
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 181,
+                            "start": 178,
                             "end": 184
                         },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 178,
-                        "end": 184
-                    },
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 185,
-                            "end": 189
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "B11",
-                                "rawText": "B11",
-                                "flags": 96,
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 185,
+                                "end": 189
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "B11",
+                                        "rawText": "B11",
+                                        "flags": 96,
+                                        "start": 189,
+                                        "end": 192
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 189,
+                                    "end": 192
+                                },
+                                "flags": 2097152,
                                 "start": 189,
                                 "end": 192
                             },
-                            "typeParameters": null,
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 189,
+                            "start": 185,
                             "end": 192
-                        },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 185,
-                        "end": 192
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 176,
+                    "end": 193
+                },
                 "flags": 2097152,
                 "start": 176,
                 "end": 193
@@ -635,40 +779,56 @@ type D32 = {p?: number};
                 "end": 205
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "p",
-                            "rawText": "p",
-                            "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "p",
+                                "rawText": "p",
+                                "flags": 96,
+                                "start": 207,
+                                "end": 208
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 208,
+                                "end": 209
+                            },
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 210,
+                                    "end": 217
+                                },
+                                "flags": 2097152,
+                                "start": 210,
+                                "end": 217
+                            },
+                            "flags": 2097152,
                             "start": 207,
-                            "end": 208
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 208,
-                            "end": 209
-                        },
-                        "value": {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 210,
                             "end": 217
-                        },
-                        "flags": 2097152,
-                        "start": 207,
-                        "end": 217
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 205,
+                    "end": 218
+                },
                 "flags": 2097152,
                 "start": 205,
                 "end": 218
@@ -702,75 +862,99 @@ type D32 = {p?: number};
                 "end": 230
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 195,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "name": null,
-                        "key": {
-                            "kind": 134234347,
-                            "flags": 64,
-                            "start": 233,
-                            "end": 239
-                        },
-                        "type": {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 241,
-                            "end": 248
-                        },
-                        "flags": 2097152,
-                        "start": 232,
-                        "end": 249
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "p",
-                            "rawText": "p",
-                            "flags": 96,
-                            "start": 249,
-                            "end": 251
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 251,
-                            "end": 252
-                        },
-                        "value": {
-                            "kind": 137,
-                            "types": [
-                                {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
-                                    "start": 253,
-                                    "end": 260
-                                },
-                                {
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 195,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "name": null,
+                            "key": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 233,
+                                "end": 239
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
-                                    "start": 262,
-                                    "end": 269
-                                }
-                            ],
+                                    "start": 241,
+                                    "end": 248
+                                },
+                                "flags": 2097152,
+                                "start": 241,
+                                "end": 248
+                            },
                             "flags": 2097152,
-                            "start": 260,
-                            "end": 269
+                            "start": 232,
+                            "end": 249
                         },
-                        "flags": 2097152,
-                        "start": 249,
-                        "end": 269
-                    }
-                ],
-                "trailingComma": false,
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "p",
+                                "rawText": "p",
+                                "flags": 96,
+                                "start": 249,
+                                "end": 251
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 251,
+                                "end": 252
+                            },
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 137,
+                                    "types": [
+                                        {
+                                            "kind": 134234347,
+                                            "flags": 2097216,
+                                            "start": 253,
+                                            "end": 260
+                                        },
+                                        {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 262,
+                                            "end": 269
+                                        }
+                                    ],
+                                    "flags": 2097152,
+                                    "start": 260,
+                                    "end": 269
+                                },
+                                "flags": 2097152,
+                                "start": 253,
+                                "end": 269
+                            },
+                            "flags": 2097152,
+                            "start": 249,
+                            "end": 269
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 230,
+                    "end": 270
+                },
                 "flags": 2097152,
                 "start": 230,
                 "end": 270
@@ -804,75 +988,99 @@ type D32 = {p?: number};
                 "end": 282
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 195,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "name": null,
-                        "key": {
-                            "kind": 134234347,
-                            "flags": 64,
-                            "start": 285,
-                            "end": 291
-                        },
-                        "type": {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 293,
-                            "end": 300
-                        },
-                        "flags": 2097152,
-                        "start": 284,
-                        "end": 301
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "p",
-                            "rawText": "p",
-                            "flags": 96,
-                            "start": 301,
-                            "end": 303
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 303,
-                            "end": 304
-                        },
-                        "value": {
-                            "kind": 137,
-                            "types": [
-                                {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
-                                    "start": 305,
-                                    "end": 312
-                                },
-                                {
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 195,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "name": null,
+                            "key": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 285,
+                                "end": 291
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
-                                    "start": 314,
-                                    "end": 321
-                                }
-                            ],
+                                    "start": 293,
+                                    "end": 300
+                                },
+                                "flags": 2097152,
+                                "start": 293,
+                                "end": 300
+                            },
                             "flags": 2097152,
-                            "start": 312,
-                            "end": 321
+                            "start": 284,
+                            "end": 301
                         },
-                        "flags": 2097152,
-                        "start": 301,
-                        "end": 321
-                    }
-                ],
-                "trailingComma": false,
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "p",
+                                "rawText": "p",
+                                "flags": 96,
+                                "start": 301,
+                                "end": 303
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 303,
+                                "end": 304
+                            },
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 137,
+                                    "types": [
+                                        {
+                                            "kind": 134234347,
+                                            "flags": 2097216,
+                                            "start": 305,
+                                            "end": 312
+                                        },
+                                        {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 314,
+                                            "end": 321
+                                        }
+                                    ],
+                                    "flags": 2097152,
+                                    "start": 312,
+                                    "end": 321
+                                },
+                                "flags": 2097152,
+                                "start": 305,
+                                "end": 321
+                            },
+                            "flags": 2097152,
+                            "start": 301,
+                            "end": 321
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 282,
+                    "end": 322
+                },
                 "flags": 2097152,
                 "start": 282,
                 "end": 322
@@ -906,40 +1114,56 @@ type D32 = {p?: number};
                 "end": 334
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "p",
-                            "rawText": "p",
-                            "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "p",
+                                "rawText": "p",
+                                "flags": 96,
+                                "start": 336,
+                                "end": 337
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 337,
+                                "end": 338
+                            },
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 339,
+                                    "end": 346
+                                },
+                                "flags": 2097152,
+                                "start": 339,
+                                "end": 346
+                            },
+                            "flags": 2097152,
                             "start": 336,
-                            "end": 337
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 337,
-                            "end": 338
-                        },
-                        "value": {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 339,
                             "end": 346
-                        },
-                        "flags": 2097152,
-                        "start": 336,
-                        "end": 346
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 334,
+                    "end": 347
+                },
                 "flags": 2097152,
                 "start": 334,
                 "end": 347

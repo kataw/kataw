@@ -664,9 +664,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 73,
+                        "end": 80
+                    },
+                    "flags": 2097152,
                     "start": 73,
                     "end": 80
                 },
@@ -806,9 +816,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 225,
+                        "end": 232
+                    },
+                    "flags": 2097152,
                     "start": 225,
                     "end": 232
                 },
@@ -903,9 +923,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 344,
+                        "end": 351
+                    },
+                    "flags": 2097152,
                     "start": 344,
                     "end": 351
                 },
@@ -1002,9 +1032,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 473,
+                        "end": 480
+                    },
+                    "flags": 2097152,
                     "start": 473,
                     "end": 480
                 },
@@ -1101,9 +1141,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 574,
+                        "end": 581
+                    },
+                    "flags": 2097152,
                     "start": 574,
                     "end": 581
                 },
@@ -1205,9 +1255,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 674,
+                        "end": 681
+                    },
+                    "flags": 2097152,
                     "start": 674,
                     "end": 681
                 },
@@ -1304,9 +1364,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 778,
+                        "end": 785
+                    },
+                    "flags": 2097152,
                     "start": 778,
                     "end": 785
                 },
@@ -1403,9 +1473,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 881,
+                        "end": 888
+                    },
+                    "flags": 2097152,
                     "start": 881,
                     "end": 888
                 },
@@ -1533,9 +1613,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 984,
+                        "end": 991
+                    },
+                    "flags": 2097152,
                     "start": 984,
                     "end": 991
                 },
@@ -1583,6 +1673,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -1602,8 +1694,16 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 1095,
+                                                "end": 1102
+                                            },
+                                            "flags": 2097152,
                                             "start": 1095,
                                             "end": 1102
                                         },
@@ -1618,7 +1718,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 1103
                             },
                             "flags": 2097152,
-                            "start": 1090,
+                            "start": 1091,
                             "end": 1103
                         },
                         "right": null,
@@ -1690,9 +1790,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 1105,
+                        "end": 1112
+                    },
+                    "flags": 2097152,
                     "start": 1105,
                     "end": 1112
                 },
@@ -1740,6 +1850,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -1756,7 +1868,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 1213
                             },
                             "flags": 2097152,
-                            "start": 1205,
+                            "start": 1206,
                             "end": 1213
                         },
                         "right": null,
@@ -1828,9 +1940,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 1215,
+                        "end": 1222
+                    },
+                    "flags": 2097152,
                     "start": 1215,
                     "end": 1222
                 },
@@ -1878,6 +2000,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -1902,8 +2026,16 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 1320,
+                                                    "end": 1327
+                                                },
+                                                "flags": 2097152,
                                                 "start": 1320,
                                                 "end": 1327
                                             },
@@ -1918,8 +2050,16 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "end": 1327
                                 },
                                 "returnType": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 1331,
+                                        "end": 1338
+                                    },
+                                    "flags": 2097152,
                                     "start": 1331,
                                     "end": 1338
                                 },
@@ -1929,7 +2069,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 1338
                             },
                             "flags": 2097152,
-                            "start": 1315,
+                            "start": 1316,
                             "end": 1338
                         },
                         "right": null,
@@ -2001,9 +2141,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 1340,
+                        "end": 1347
+                    },
+                    "flags": 2097152,
                     "start": 1340,
                     "end": 1347
                 },
@@ -2051,6 +2201,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -2067,7 +2219,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 1450
                             },
                             "flags": 2097152,
-                            "start": 1440,
+                            "start": 1441,
                             "end": 1450
                         },
                         "right": null,
@@ -2139,9 +2291,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 1452,
+                        "end": 1459
+                    },
+                    "flags": 2097152,
                     "start": 1452,
                     "end": 1459
                 },
@@ -2211,6 +2373,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134217970,
                                                 "nullableToken": {
@@ -2230,7 +2394,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "end": 1609
                                             },
                                             "flags": 2097152,
-                                            "start": 1600,
+                                            "start": 1601,
                                             "end": 1609
                                         },
                                         "initializer": {
@@ -2342,9 +2506,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 1557,
+                        "end": 1564
+                    },
+                    "flags": 2097152,
                     "start": 1557,
                     "end": 1564
                 },
@@ -2414,6 +2588,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134217970,
                                                 "nullableToken": {
@@ -2433,7 +2609,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "end": 1783
                                             },
                                             "flags": 2097152,
-                                            "start": 1774,
+                                            "start": 1775,
                                             "end": 1783
                                         },
                                         "initializer": {
@@ -2525,9 +2701,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 1722,
+                        "end": 1729
+                    },
+                    "flags": 2097152,
                     "start": 1722,
                     "end": 1729
                 },
@@ -2597,6 +2783,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134217970,
                                                 "nullableToken": {
@@ -2616,7 +2804,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "end": 1954
                                             },
                                             "flags": 2097152,
-                                            "start": 1945,
+                                            "start": 1946,
                                             "end": 1954
                                         },
                                         "initializer": {
@@ -2710,18 +2898,28 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134217970,
-                    "nullableToken": {
-                        "kind": 134217750,
-                        "flags": 64,
-                        "start": 1891,
-                        "end": 1893
-                    },
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
                     "type": {
-                        "kind": 134234345,
-                        "flags": 2097216,
-                        "start": 1893,
+                        "kind": 134217970,
+                        "nullableToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 1891,
+                            "end": 1893
+                        },
+                        "type": {
+                            "kind": 134234345,
+                            "flags": 2097216,
+                            "start": 1893,
+                            "end": 1899
+                        },
+                        "flags": 2097152,
+                        "start": 1891,
                         "end": 1899
                     },
                     "flags": 2097152,
@@ -2772,6 +2970,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
@@ -2779,7 +2979,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 2069
                             },
                             "flags": 2097152,
-                            "start": 2060,
+                            "start": 2061,
                             "end": 2069
                         },
                         "right": null,
@@ -2851,9 +3051,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 2071,
+                        "end": 2078
+                    },
+                    "flags": 2097152,
                     "start": 2071,
                     "end": 2078
                 },
@@ -2993,9 +3203,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 2212,
+                        "end": 2219
+                    },
+                    "flags": 2097152,
                     "start": 2212,
                     "end": 2219
                 },
@@ -3065,6 +3285,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134217970,
                                                 "nullableToken": {
@@ -3084,7 +3306,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "end": 2363
                                             },
                                             "flags": 2097152,
-                                            "start": 2354,
+                                            "start": 2355,
                                             "end": 2363
                                         },
                                         "initializer": {
@@ -3158,9 +3380,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 2335,
+                        "end": 2342
+                    },
+                    "flags": 2097152,
                     "start": 2335,
                     "end": 2342
                 },
@@ -3300,9 +3532,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 2467,
+                        "end": 2474
+                    },
+                    "flags": 2097152,
                     "start": 2467,
                     "end": 2474
                 },
@@ -3397,9 +3639,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 2606,
+                        "end": 2613
+                    },
+                    "flags": 2097152,
                     "start": 2606,
                     "end": 2613
                 },
@@ -3496,9 +3748,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 2711,
+                        "end": 2718
+                    },
+                    "flags": 2097152,
                     "start": 2711,
                     "end": 2718
                 },
@@ -3595,9 +3857,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 2812,
+                        "end": 2819
+                    },
+                    "flags": 2097152,
                     "start": 2812,
                     "end": 2819
                 },
@@ -3699,9 +3971,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 2912,
+                        "end": 2919
+                    },
+                    "flags": 2097152,
                     "start": 2912,
                     "end": 2919
                 },
@@ -3798,9 +4080,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 3040,
+                        "end": 3047
+                    },
+                    "flags": 2097152,
                     "start": 3040,
                     "end": 3047
                 },
@@ -3897,9 +4189,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 3143,
+                        "end": 3150
+                    },
+                    "flags": 2097152,
                     "start": 3143,
                     "end": 3150
                 },
@@ -3969,6 +4271,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134217970,
                                                 "nullableToken": {
@@ -3988,7 +4292,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "end": 3263
                                             },
                                             "flags": 2097152,
-                                            "start": 3254,
+                                            "start": 3255,
                                             "end": 3263
                                         },
                                         "initializer": {
@@ -4100,9 +4404,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 3235,
+                        "end": 3242
+                    },
+                    "flags": 2097152,
                     "start": 3235,
                     "end": 3242
                 },
@@ -4150,6 +4464,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
@@ -4157,7 +4473,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 3401
                             },
                             "flags": 2097152,
-                            "start": 3392,
+                            "start": 3393,
                             "end": 3401
                         },
                         "right": null,
@@ -4179,6 +4495,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -4186,7 +4504,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 3412
                             },
                             "flags": 2097152,
-                            "start": 3404,
+                            "start": 3405,
                             "end": 3412
                         },
                         "right": null,
@@ -4278,9 +4596,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 3414,
+                        "end": 3421
+                    },
+                    "flags": 2097152,
                     "start": 3414,
                     "end": 3421
                 },
@@ -4328,6 +4656,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -4335,7 +4665,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 3512
                             },
                             "flags": 2097152,
-                            "start": 3504,
+                            "start": 3505,
                             "end": 3512
                         },
                         "right": null,
@@ -4427,9 +4757,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 3514,
+                        "end": 3521
+                    },
+                    "flags": 2097152,
                     "start": 3514,
                     "end": 3521
                 },
@@ -4477,6 +4817,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -4484,7 +4826,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 3612
                             },
                             "flags": 2097152,
-                            "start": 3604,
+                            "start": 3605,
                             "end": 3612
                         },
                         "right": null,
@@ -4576,9 +4918,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 3614,
+                        "end": 3621
+                    },
+                    "flags": 2097152,
                     "start": 3614,
                     "end": 3621
                 },
@@ -4626,6 +4978,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -4633,7 +4987,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 3720
                             },
                             "flags": 2097152,
-                            "start": 3712,
+                            "start": 3713,
                             "end": 3720
                         },
                         "right": null,
@@ -4723,9 +5077,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 3722,
+                        "end": 3729
+                    },
+                    "flags": 2097152,
                     "start": 3722,
                     "end": 3729
                 },
@@ -4891,9 +5255,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 3967,
+                        "end": 3974
+                    },
+                    "flags": 2097152,
                     "start": 3967,
                     "end": 3974
                 },
@@ -5059,9 +5433,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 4156,
+                        "end": 4163
+                    },
+                    "flags": 2097152,
                     "start": 4156,
                     "end": 4163
                 },
@@ -5227,9 +5611,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 4325,
+                        "end": 4332
+                    },
+                    "flags": 2097152,
                     "start": 4325,
                     "end": 4332
                 },
@@ -5395,9 +5789,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 4440,
+                        "end": 4447
+                    },
+                    "flags": 2097152,
                     "start": 4440,
                     "end": 4447
                 },
@@ -5563,9 +5967,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 4556,
+                        "end": 4563
+                    },
+                    "flags": 2097152,
                     "start": 4556,
                     "end": 4563
                 },
@@ -5731,9 +6145,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 4672,
+                        "end": 4679
+                    },
+                    "flags": 2097152,
                     "start": 4672,
                     "end": 4679
                 },
@@ -5781,6 +6205,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -5788,7 +6214,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 4823
                             },
                             "flags": 2097152,
-                            "start": 4815,
+                            "start": 4816,
                             "end": 4823
                         },
                         "right": null,
@@ -5810,6 +6236,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -5817,7 +6245,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 4838
                             },
                             "flags": 2097152,
-                            "start": 4830,
+                            "start": 4831,
                             "end": 4838
                         },
                         "right": null,
@@ -5907,24 +6335,34 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 137,
-                    "types": [
-                        {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 4841,
-                            "end": 4848
-                        },
-                        {
-                            "kind": 134234347,
-                            "flags": 2097216,
-                            "start": 4850,
-                            "end": 4857
-                        }
-                    ],
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 137,
+                        "types": [
+                            {
+                                "kind": 134234345,
+                                "flags": 2097216,
+                                "start": 4841,
+                                "end": 4848
+                            },
+                            {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 4850,
+                                "end": 4857
+                            }
+                        ],
+                        "flags": 2097152,
+                        "start": 4848,
+                        "end": 4857
+                    },
                     "flags": 2097152,
-                    "start": 4848,
+                    "start": 4841,
                     "end": 4857
                 },
                 "flags": 2097152,
@@ -5971,6 +6409,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -5978,7 +6418,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 4994
                             },
                             "flags": 2097152,
-                            "start": 4986,
+                            "start": 4987,
                             "end": 4994
                         },
                         "right": null,
@@ -6000,6 +6440,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -6007,7 +6449,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5005
                             },
                             "flags": 2097152,
-                            "start": 4997,
+                            "start": 4998,
                             "end": 5005
                         },
                         "right": null,
@@ -6097,24 +6539,34 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 137,
-                    "types": [
-                        {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 5007,
-                            "end": 5014
-                        },
-                        {
-                            "kind": 134234347,
-                            "flags": 2097216,
-                            "start": 5016,
-                            "end": 5023
-                        }
-                    ],
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 137,
+                        "types": [
+                            {
+                                "kind": 134234345,
+                                "flags": 2097216,
+                                "start": 5007,
+                                "end": 5014
+                            },
+                            {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 5016,
+                                "end": 5023
+                            }
+                        ],
+                        "flags": 2097152,
+                        "start": 5014,
+                        "end": 5023
+                    },
                     "flags": 2097152,
-                    "start": 5014,
+                    "start": 5007,
                     "end": 5023
                 },
                 "flags": 2097152,
@@ -6161,6 +6613,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -6168,7 +6622,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5118
                             },
                             "flags": 2097152,
-                            "start": 5110,
+                            "start": 5111,
                             "end": 5118
                         },
                         "right": null,
@@ -6190,6 +6644,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
@@ -6197,7 +6653,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5130
                             },
                             "flags": 2097152,
-                            "start": 5121,
+                            "start": 5122,
                             "end": 5130
                         },
                         "right": null,
@@ -6289,9 +6745,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 5132,
+                        "end": 5139
+                    },
+                    "flags": 2097152,
                     "start": 5132,
                     "end": 5139
                 },
@@ -6339,6 +6805,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -6346,7 +6814,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5238
                             },
                             "flags": 2097152,
-                            "start": 5230,
+                            "start": 5231,
                             "end": 5238
                         },
                         "right": null,
@@ -6368,6 +6836,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -6375,7 +6845,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5253
                             },
                             "flags": 2097152,
-                            "start": 5245,
+                            "start": 5246,
                             "end": 5253
                         },
                         "right": null,
@@ -6465,24 +6935,34 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 137,
-                    "types": [
-                        {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 5256,
-                            "end": 5263
-                        },
-                        {
-                            "kind": 134234347,
-                            "flags": 2097216,
-                            "start": 5265,
-                            "end": 5272
-                        }
-                    ],
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 137,
+                        "types": [
+                            {
+                                "kind": 134234345,
+                                "flags": 2097216,
+                                "start": 5256,
+                                "end": 5263
+                            },
+                            {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 5265,
+                                "end": 5272
+                            }
+                        ],
+                        "flags": 2097152,
+                        "start": 5263,
+                        "end": 5272
+                    },
                     "flags": 2097152,
-                    "start": 5263,
+                    "start": 5256,
                     "end": 5272
                 },
                 "flags": 2097152,
@@ -6529,6 +7009,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -6536,7 +7018,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5410
                             },
                             "flags": 2097152,
-                            "start": 5402,
+                            "start": 5403,
                             "end": 5410
                         },
                         "right": null,
@@ -6558,6 +7040,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -6565,7 +7049,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5421
                             },
                             "flags": 2097152,
-                            "start": 5413,
+                            "start": 5414,
                             "end": 5421
                         },
                         "right": null,
@@ -6655,34 +7139,52 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Array",
-                        "rawText": "Array",
-                        "flags": 96,
-                        "start": 5423,
-                        "end": 5429
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234252,
-                                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Array",
+                            "rawText": "Array",
+                            "flags": 96,
+                            "start": 5423,
+                            "end": 5429
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234252,
+                                            "flags": 2097216,
+                                            "start": 5430,
+                                            "end": 5433
+                                        },
+                                        "flags": 2097152,
+                                        "start": 5430,
+                                        "end": 5433
+                                    },
+                                    "flags": 2097152,
                                     "start": 5430,
                                     "end": 5433
-                                },
-                                "flags": 2097152,
-                                "start": 5430,
-                                "end": 5433
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 5429,
+                            "end": 5434
+                        },
                         "flags": 2097152,
-                        "start": 5429,
+                        "start": 5423,
                         "end": 5434
                     },
                     "flags": 2097152,
@@ -6733,6 +7235,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -6740,7 +7244,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5554
                             },
                             "flags": 2097152,
-                            "start": 5546,
+                            "start": 5547,
                             "end": 5554
                         },
                         "right": null,
@@ -6762,6 +7266,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -6769,7 +7275,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5565
                             },
                             "flags": 2097152,
-                            "start": 5557,
+                            "start": 5558,
                             "end": 5565
                         },
                         "right": null,
@@ -6859,34 +7365,52 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Array",
-                        "rawText": "Array",
-                        "flags": 96,
-                        "start": 5567,
-                        "end": 5573
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234252,
-                                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Array",
+                            "rawText": "Array",
+                            "flags": 96,
+                            "start": 5567,
+                            "end": 5573
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234252,
+                                            "flags": 2097216,
+                                            "start": 5574,
+                                            "end": 5577
+                                        },
+                                        "flags": 2097152,
+                                        "start": 5574,
+                                        "end": 5577
+                                    },
+                                    "flags": 2097152,
                                     "start": 5574,
                                     "end": 5577
-                                },
-                                "flags": 2097152,
-                                "start": 5574,
-                                "end": 5577
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 5573,
+                            "end": 5578
+                        },
                         "flags": 2097152,
-                        "start": 5573,
+                        "start": 5567,
                         "end": 5578
                     },
                     "flags": 2097152,
@@ -7169,9 +7693,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 5689,
+                        "end": 5696
+                    },
+                    "flags": 2097152,
                     "start": 5689,
                     "end": 5696
                 },
@@ -7219,6 +7753,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -7226,7 +7762,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5847
                             },
                             "flags": 2097152,
-                            "start": 5839,
+                            "start": 5840,
                             "end": 5847
                         },
                         "right": null,
@@ -7436,9 +7972,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 5849,
+                        "end": 5856
+                    },
+                    "flags": 2097152,
                     "start": 5849,
                     "end": 5856
                 },
@@ -7795,9 +8341,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 6006,
+                        "end": 6013
+                    },
+                    "flags": 2097152,
                     "start": 6006,
                     "end": 6013
                 },
@@ -7845,6 +8401,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -7852,7 +8410,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 6198
                             },
                             "flags": 2097152,
-                            "start": 6190,
+                            "start": 6191,
                             "end": 6198
                         },
                         "right": null,
@@ -8062,9 +8620,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 6200,
+                        "end": 6207
+                    },
+                    "flags": 2097152,
                     "start": 6200,
                     "end": 6207
                 },
@@ -8112,6 +8680,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -8119,7 +8689,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 6361
                             },
                             "flags": 2097152,
-                            "start": 6353,
+                            "start": 6354,
                             "end": 6361
                         },
                         "right": null,
@@ -8632,62 +9202,88 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Array",
-                        "rawText": "Array",
-                        "flags": 96,
-                        "start": 6363,
-                        "end": 6369
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234353,
-                                    "properties": [
-                                        {
-                                            "kind": 193,
-                                            "protoKeyword": null,
-                                            "staticToken": null,
-                                            "getKeyword": null,
-                                            "setKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 6371,
-                                                "end": 6372
-                                            },
-                                            "optionalToken": null,
-                                            "value": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
-                                                "start": 6373,
-                                                "end": 6380
-                                            },
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Array",
+                            "rawText": "Array",
+                            "flags": 96,
+                            "start": 6363,
+                            "end": 6369
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234353,
+                                            "properties": [
+                                                {
+                                                    "kind": 193,
+                                                    "protoKeyword": null,
+                                                    "staticToken": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 6371,
+                                                        "end": 6372
+                                                    },
+                                                    "optionalToken": null,
+                                                    "value": {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 6373,
+                                                            "end": 6380
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 6373,
+                                                        "end": 6380
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 6371,
+                                                    "end": 6380
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
-                                            "start": 6371,
-                                            "end": 6380
-                                        }
-                                    ],
-                                    "trailingComma": false,
+                                            "start": 6370,
+                                            "end": 6381
+                                        },
+                                        "flags": 2097152,
+                                        "start": 6370,
+                                        "end": 6381
+                                    },
                                     "flags": 2097152,
                                     "start": 6370,
                                     "end": 6381
-                                },
-                                "flags": 2097152,
-                                "start": 6370,
-                                "end": 6381
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 6369,
+                            "end": 6382
+                        },
                         "flags": 2097152,
-                        "start": 6369,
+                        "start": 6363,
                         "end": 6382
                     },
                     "flags": 2097152,
@@ -8738,6 +9334,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -8745,7 +9343,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 6680
                             },
                             "flags": 2097152,
-                            "start": 6672,
+                            "start": 6673,
                             "end": 6680
                         },
                         "right": null,
@@ -9258,62 +9856,88 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Array",
-                        "rawText": "Array",
-                        "flags": 96,
-                        "start": 6682,
-                        "end": 6688
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234353,
-                                    "properties": [
-                                        {
-                                            "kind": 193,
-                                            "protoKeyword": null,
-                                            "staticToken": null,
-                                            "getKeyword": null,
-                                            "setKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 6690,
-                                                "end": 6691
-                                            },
-                                            "optionalToken": null,
-                                            "value": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
-                                                "start": 6692,
-                                                "end": 6699
-                                            },
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Array",
+                            "rawText": "Array",
+                            "flags": 96,
+                            "start": 6682,
+                            "end": 6688
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234353,
+                                            "properties": [
+                                                {
+                                                    "kind": 193,
+                                                    "protoKeyword": null,
+                                                    "staticToken": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 6690,
+                                                        "end": 6691
+                                                    },
+                                                    "optionalToken": null,
+                                                    "value": {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 6692,
+                                                            "end": 6699
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 6692,
+                                                        "end": 6699
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 6690,
+                                                    "end": 6699
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
-                                            "start": 6690,
-                                            "end": 6699
-                                        }
-                                    ],
-                                    "trailingComma": false,
+                                            "start": 6689,
+                                            "end": 6700
+                                        },
+                                        "flags": 2097152,
+                                        "start": 6689,
+                                        "end": 6700
+                                    },
                                     "flags": 2097152,
                                     "start": 6689,
                                     "end": 6700
-                                },
-                                "flags": 2097152,
-                                "start": 6689,
-                                "end": 6700
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 6688,
+                            "end": 6701
+                        },
                         "flags": 2097152,
-                        "start": 6688,
+                        "start": 6682,
                         "end": 6701
                     },
                     "flags": 2097152,
@@ -9364,6 +9988,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -9371,7 +9997,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7007
                             },
                             "flags": 2097152,
-                            "start": 6999,
+                            "start": 7000,
                             "end": 7007
                         },
                         "right": null,
@@ -9469,9 +10095,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 7009,
+                        "end": 7016
+                    },
+                    "flags": 2097152,
                     "start": 7009,
                     "end": 7016
                 },
@@ -9519,6 +10155,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -9526,7 +10164,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7105
                             },
                             "flags": 2097152,
-                            "start": 7097,
+                            "start": 7098,
                             "end": 7105
                         },
                         "right": null,
@@ -9624,9 +10262,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 7107,
+                        "end": 7114
+                    },
+                    "flags": 2097152,
                     "start": 7107,
                     "end": 7114
                 },
@@ -9674,6 +10322,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -9681,7 +10331,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7203
                             },
                             "flags": 2097152,
-                            "start": 7195,
+                            "start": 7196,
                             "end": 7203
                         },
                         "right": null,
@@ -9779,9 +10429,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 7205,
+                        "end": 7212
+                    },
+                    "flags": 2097152,
                     "start": 7205,
                     "end": 7212
                 },
@@ -9829,6 +10489,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -9836,7 +10498,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7301
                             },
                             "flags": 2097152,
-                            "start": 7293,
+                            "start": 7294,
                             "end": 7301
                         },
                         "right": null,
@@ -9934,9 +10596,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 7303,
+                        "end": 7310
+                    },
+                    "flags": 2097152,
                     "start": 7303,
                     "end": 7310
                 },
@@ -9984,6 +10656,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -9991,7 +10665,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7400
                             },
                             "flags": 2097152,
-                            "start": 7392,
+                            "start": 7393,
                             "end": 7400
                         },
                         "right": null,
@@ -10089,9 +10763,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 7402,
+                        "end": 7410
+                    },
+                    "flags": 2097152,
                     "start": 7402,
                     "end": 7410
                 },
@@ -10139,6 +10823,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -10146,7 +10832,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7500
                             },
                             "flags": 2097152,
-                            "start": 7492,
+                            "start": 7493,
                             "end": 7500
                         },
                         "right": null,
@@ -10244,9 +10930,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 7502,
+                        "end": 7510
+                    },
+                    "flags": 2097152,
                     "start": 7502,
                     "end": 7510
                 },
@@ -10294,6 +10990,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -10301,7 +10999,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7600
                             },
                             "flags": 2097152,
-                            "start": 7592,
+                            "start": 7593,
                             "end": 7600
                         },
                         "right": null,
@@ -10399,9 +11097,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 7602,
+                        "end": 7610
+                    },
+                    "flags": 2097152,
                     "start": 7602,
                     "end": 7610
                 },
@@ -10449,6 +11157,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -10456,7 +11166,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7700
                             },
                             "flags": 2097152,
-                            "start": 7692,
+                            "start": 7693,
                             "end": 7700
                         },
                         "right": null,
@@ -10554,9 +11264,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 7702,
+                        "end": 7710
+                    },
+                    "flags": 2097152,
                     "start": 7702,
                     "end": 7710
                 },
@@ -10604,6 +11324,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -10611,7 +11333,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7799
                             },
                             "flags": 2097152,
-                            "start": 7791,
+                            "start": 7792,
                             "end": 7799
                         },
                         "right": null,
@@ -10709,9 +11431,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 7801,
+                        "end": 7809
+                    },
+                    "flags": 2097152,
                     "start": 7801,
                     "end": 7809
                 },
@@ -10759,6 +11491,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -10766,7 +11500,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7899
                             },
                             "flags": 2097152,
-                            "start": 7891,
+                            "start": 7892,
                             "end": 7899
                         },
                         "right": null,
@@ -10864,9 +11598,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 7901,
+                        "end": 7909
+                    },
+                    "flags": 2097152,
                     "start": 7901,
                     "end": 7909
                 },
@@ -10914,6 +11658,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -10921,7 +11667,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 7999
                             },
                             "flags": 2097152,
-                            "start": 7991,
+                            "start": 7992,
                             "end": 7999
                         },
                         "right": null,
@@ -11019,9 +11765,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 8001,
+                        "end": 8009
+                    },
+                    "flags": 2097152,
                     "start": 8001,
                     "end": 8009
                 },
@@ -11069,6 +11825,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -11076,7 +11834,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 8099
                             },
                             "flags": 2097152,
-                            "start": 8091,
+                            "start": 8092,
                             "end": 8099
                         },
                         "right": null,
@@ -11174,9 +11932,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 8101,
+                        "end": 8109
+                    },
+                    "flags": 2097152,
                     "start": 8101,
                     "end": 8109
                 },
@@ -11224,6 +11992,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -11231,7 +12001,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 8232
                             },
                             "flags": 2097152,
-                            "start": 8224,
+                            "start": 8225,
                             "end": 8232
                         },
                         "right": null,
@@ -11253,6 +12023,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -11260,7 +12032,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 8243
                             },
                             "flags": 2097152,
-                            "start": 8235,
+                            "start": 8236,
                             "end": 8243
                         },
                         "right": null,
@@ -11372,9 +12144,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 8245,
+                        "end": 8252
+                    },
+                    "flags": 2097152,
                     "start": 8245,
                     "end": 8252
                 },
@@ -11422,6 +12204,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -11441,8 +12225,16 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 8363,
+                                                "end": 8370
+                                            },
+                                            "flags": 2097152,
                                             "start": 8363,
                                             "end": 8370
                                         },
@@ -11457,7 +12249,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 8371
                             },
                             "flags": 2097152,
-                            "start": 8358,
+                            "start": 8359,
                             "end": 8371
                         },
                         "right": null,
@@ -11479,6 +12271,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -11498,8 +12292,16 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 8379,
+                                                "end": 8386
+                                            },
+                                            "flags": 2097152,
                                             "start": 8379,
                                             "end": 8386
                                         },
@@ -11514,7 +12316,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 8387
                             },
                             "flags": 2097152,
-                            "start": 8374,
+                            "start": 8375,
                             "end": 8387
                         },
                         "right": null,
@@ -11654,9 +12456,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234345,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234345,
+                        "flags": 2097216,
+                        "start": 8389,
+                        "end": 8396
+                    },
+                    "flags": 2097152,
                     "start": 8389,
                     "end": 8396
                 },
@@ -11704,6 +12516,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -11723,8 +12537,16 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 8514,
+                                                "end": 8521
+                                            },
+                                            "flags": 2097152,
                                             "start": 8514,
                                             "end": 8521
                                         },
@@ -11748,8 +12570,16 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234254,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234254,
+                                                "flags": 2097216,
+                                                "start": 8525,
+                                                "end": 8533
+                                            },
+                                            "flags": 2097152,
                                             "start": 8525,
                                             "end": 8533
                                         },
@@ -11764,7 +12594,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 8535
                             },
                             "flags": 2097152,
-                            "start": 8508,
+                            "start": 8509,
                             "end": 8535
                         },
                         "right": null,
@@ -11870,9 +12700,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 8537,
+                        "end": 8545
+                    },
+                    "flags": 2097152,
                     "start": 8537,
                     "end": 8545
                 },
@@ -11920,6 +12760,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -11939,8 +12781,16 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 8626,
+                                                "end": 8633
+                                            },
+                                            "flags": 2097152,
                                             "start": 8626,
                                             "end": 8633
                                         },
@@ -11964,8 +12814,16 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234254,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234254,
+                                                "flags": 2097216,
+                                                "start": 8637,
+                                                "end": 8645
+                                            },
+                                            "flags": 2097152,
                                             "start": 8637,
                                             "end": 8645
                                         },
@@ -11980,7 +12838,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 8647
                             },
                             "flags": 2097152,
-                            "start": 8620,
+                            "start": 8621,
                             "end": 8647
                         },
                         "right": null,
@@ -12086,9 +12944,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 8649,
+                        "end": 8657
+                    },
+                    "flags": 2097152,
                     "start": 8649,
                     "end": 8657
                 },

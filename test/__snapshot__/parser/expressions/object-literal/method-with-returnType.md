@@ -78,6 +78,8 @@ a={get fooProp():number{}}
                                     },
                                     "returnType": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -85,7 +87,7 @@ a={get fooProp():number{}}
                                             "end": 23
                                         },
                                         "flags": 2097152,
-                                        "start": 16,
+                                        "start": 17,
                                         "end": 23
                                     },
                                     "contents": {

@@ -53,6 +53,8 @@ declare var x: symbol;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234343,
                                 "flags": 2097216,
@@ -60,7 +62,7 @@ declare var x: symbol;
                                 "end": 21
                             },
                             "flags": 2097152,
-                            "start": 13,
+                            "start": 14,
                             "end": 21
                         },
                         "initializer": null,

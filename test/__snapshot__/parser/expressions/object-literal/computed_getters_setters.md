@@ -182,6 +182,8 @@ var f = {
                                                         "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
@@ -189,7 +191,7 @@ var f = {
                                                                 "end": 64
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 56,
+                                                            "start": 57,
                                                             "end": 64
                                                         },
                                                         "right": null,
@@ -265,6 +267,8 @@ var f = {
                                                         "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
@@ -272,7 +276,7 @@ var f = {
                                                                 "end": 101
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 93,
+                                                            "start": 94,
                                                             "end": 101
                                                         },
                                                         "right": null,
@@ -341,6 +345,8 @@ var f = {
                                             },
                                             "returnType": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -348,7 +354,7 @@ var f = {
                                                     "end": 139
                                                 },
                                                 "flags": 2097152,
-                                                "start": 131,
+                                                "start": 132,
                                                 "end": 139
                                             },
                                             "contents": {

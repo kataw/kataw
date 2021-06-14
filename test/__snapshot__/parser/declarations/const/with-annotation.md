@@ -68,6 +68,8 @@ const {q}: string = y;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -75,7 +77,7 @@ const {q}: string = y;
                                 "end": 18
                             },
                             "flags": 2097152,
-                            "start": 10,
+                            "start": 11,
                             "end": 18
                         },
                         "initializer": {
@@ -131,6 +133,8 @@ const {q}: string = y;
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134234343,
                                                 "flags": 2097216,
@@ -138,7 +142,7 @@ const {q}: string = y;
                                                 "end": 40
                                             },
                                             "flags": 2097152,
-                                            "start": 33,
+                                            "start": 34,
                                             "end": 40
                                         },
                                         "right": null,
@@ -159,6 +163,8 @@ const {q}: string = y;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -166,7 +172,7 @@ const {q}: string = y;
                                 "end": 49
                             },
                             "flags": 2097152,
-                            "start": 41,
+                            "start": 42,
                             "end": 49
                         },
                         "initializer": {
@@ -229,6 +235,8 @@ const {q}: string = y;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -236,7 +244,7 @@ const {q}: string = y;
                                 "end": 73
                             },
                             "flags": 2097152,
-                            "start": 65,
+                            "start": 66,
                             "end": 73
                         },
                         "initializer": {

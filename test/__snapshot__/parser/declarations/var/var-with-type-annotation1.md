@@ -87,6 +87,8 @@ var x = ({ a } : any = 'foo') => {}
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234252,
                                             "flags": 2097216,
@@ -94,7 +96,7 @@ var x = ({ a } : any = 'foo') => {}
                                             "end": 20
                                         },
                                         "flags": 2097152,
-                                        "start": 14,
+                                        "start": 16,
                                         "end": 20
                                     },
                                     "right": {

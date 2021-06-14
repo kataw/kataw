@@ -48,45 +48,61 @@ type A = { [string | boolean]: number };
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 195,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "name": null,
-                        "key": {
-                            "kind": 137,
-                            "types": [
-                                {
-                                    "kind": 134234347,
-                                    "flags": 64,
-                                    "start": 12,
-                                    "end": 18
-                                },
-                                {
-                                    "kind": 134234254,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 195,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "name": null,
+                            "key": {
+                                "kind": 137,
+                                "types": [
+                                    {
+                                        "kind": 134234347,
+                                        "flags": 64,
+                                        "start": 12,
+                                        "end": 18
+                                    },
+                                    {
+                                        "kind": 134234254,
+                                        "flags": 2097216,
+                                        "start": 20,
+                                        "end": 28
+                                    }
+                                ],
+                                "flags": 2097152,
+                                "start": 18,
+                                "end": 28
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
                                     "flags": 2097216,
-                                    "start": 20,
-                                    "end": 28
-                                }
-                            ],
+                                    "start": 30,
+                                    "end": 37
+                                },
+                                "flags": 2097152,
+                                "start": 30,
+                                "end": 37
+                            },
                             "flags": 2097152,
-                            "start": 18,
-                            "end": 28
-                        },
-                        "type": {
-                            "kind": 134234345,
-                            "flags": 2097216,
-                            "start": 30,
+                            "start": 10,
                             "end": 37
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 37
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 39
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 39

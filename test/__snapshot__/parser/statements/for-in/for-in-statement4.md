@@ -49,6 +49,8 @@ for (a in expr) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -56,7 +58,7 @@ for (a in expr) {
                                 "end": 13
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 13
                         },
                         "initializer": null,
@@ -98,6 +100,8 @@ for (a in expr) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -105,7 +109,7 @@ for (a in expr) {
                                 "end": 28
                             },
                             "flags": 2097152,
-                            "start": 23,
+                            "start": 24,
                             "end": 28
                         },
                         "initializer": null,

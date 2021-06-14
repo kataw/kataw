@@ -137,6 +137,8 @@ declare var a: A;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -153,7 +155,7 @@ declare var a: A;
                                 "end": 62
                             },
                             "flags": 2097152,
-                            "start": 59,
+                            "start": 60,
                             "end": 62
                         },
                         "initializer": null,

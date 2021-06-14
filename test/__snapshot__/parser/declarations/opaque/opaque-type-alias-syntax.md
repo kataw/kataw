@@ -55,8 +55,16 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             "typeParameters": null,
             "superType": null,
             "impltype": {
-                "kind": 134234347,
-                "flags": 2097216,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234347,
+                    "flags": 2097216,
+                    "start": 25,
+                    "end": 32
+                },
+                "flags": 2097152,
                 "start": 25,
                 "end": 32
             },
@@ -96,75 +104,99 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             "typeParameters": null,
             "superType": null,
             "impltype": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "property",
-                            "rawText": "property",
-                            "flags": 96,
-                            "start": 61,
-                            "end": 72
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 134234347,
-                            "flags": 2097216,
-                            "start": 73,
-                            "end": 80
-                        },
-                        "flags": 2097152,
-                        "start": 61,
-                        "end": 81
-                    },
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "method",
-                            "rawText": "method",
-                            "flags": 96,
-                            "start": 81,
-                            "end": 90
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 148,
-                            "functionTypeParameterList": {
-                                "kind": 282,
-                                "parameters": [],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "start": 91,
-                                "end": 91
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "property",
+                                "rawText": "property",
+                                "flags": 96,
+                                "start": 61,
+                                "end": 72
                             },
-                            "returnType": {
-                                "kind": 134234345,
-                                "flags": 2097216,
-                                "start": 93,
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 73,
+                                    "end": 80
+                                },
+                                "flags": 2097152,
+                                "start": 73,
+                                "end": 80
+                            },
+                            "flags": 2097152,
+                            "start": 61,
+                            "end": 81
+                        },
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "method",
+                                "rawText": "method",
+                                "flags": 96,
+                                "start": 81,
+                                "end": 90
+                            },
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 148,
+                                "functionTypeParameterList": {
+                                    "kind": 282,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 91,
+                                    "end": 91
+                                },
+                                "returnType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 93,
+                                        "end": 100
+                                    },
+                                    "flags": 2097152,
+                                    "start": 93,
+                                    "end": 100
+                                },
+                                "typeParameters": null,
+                                "flags": 2097152,
+                                "start": 90,
                                 "end": 100
                             },
-                            "typeParameters": null,
                             "flags": 2097152,
-                            "start": 90,
-                            "end": 100
-                        },
-                        "flags": 2097152,
-                        "start": 81,
-                        "end": 101
-                    }
-                ],
-                "trailingComma": false,
+                            "start": 81,
+                            "end": 101
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 59,
+                    "end": 103
+                },
                 "flags": 2097152,
                 "start": 59,
                 "end": 103
@@ -205,32 +237,40 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             "typeParameters": null,
             "superType": null,
             "impltype": {
-                "kind": 137,
-                "types": [
-                    {
-                        "kind": 134217968,
-                        "text": 1,
-                        "flags": 2097216,
-                        "start": 129,
-                        "end": 131
-                    },
-                    {
-                        "kind": 134217968,
-                        "text": 2,
-                        "flags": 2097216,
-                        "start": 133,
-                        "end": 135
-                    },
-                    {
-                        "kind": 134217968,
-                        "text": 3,
-                        "flags": 2097216,
-                        "start": 137,
-                        "end": 139
-                    }
-                ],
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 137,
+                    "types": [
+                        {
+                            "kind": 134217968,
+                            "text": 1,
+                            "flags": 2097216,
+                            "start": 129,
+                            "end": 131
+                        },
+                        {
+                            "kind": 134217968,
+                            "text": 2,
+                            "flags": 2097216,
+                            "start": 133,
+                            "end": 135
+                        },
+                        {
+                            "kind": 134217968,
+                            "text": 3,
+                            "flags": 2097216,
+                            "start": 137,
+                            "end": 139
+                        }
+                    ],
+                    "flags": 2097152,
+                    "start": 131,
+                    "end": 139
+                },
                 "flags": 2097152,
-                "start": 131,
+                "start": 129,
                 "end": 139
             },
             "flags": 2097152,
@@ -268,31 +308,47 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             },
             "typeParameters": null,
             "superType": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "ObjectAlias",
-                    "rawText": "ObjectAlias",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "ObjectAlias",
+                        "rawText": "ObjectAlias",
+                        "flags": 96,
+                        "start": 164,
+                        "end": 176
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 164,
                     "end": 176
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 164,
                 "end": 176
             },
             "impltype": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "ObjectAlias",
-                    "rawText": "ObjectAlias",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "ObjectAlias",
+                        "rawText": "ObjectAlias",
+                        "flags": 96,
+                        "start": 178,
+                        "end": 190
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 178,
                     "end": 190
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 178,
                 "end": 190
@@ -332,31 +388,47 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
             },
             "typeParameters": null,
             "superType": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "AliasAlias",
-                    "rawText": "AliasAlias",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "AliasAlias",
+                        "rawText": "AliasAlias",
+                        "flags": 96,
+                        "start": 215,
+                        "end": 226
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 215,
                     "end": 226
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 215,
                 "end": 226
             },
             "impltype": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "ObjectAlias",
-                    "rawText": "ObjectAlias",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "ObjectAlias",
+                        "rawText": "ObjectAlias",
+                        "flags": 96,
+                        "start": 228,
+                        "end": 240
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 228,
                     "end": 240
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 228,
                 "end": 240

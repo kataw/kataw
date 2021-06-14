@@ -89,6 +89,8 @@ class Foo { bar():this { return this; }}
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 4276321,
                                         "flags": 2097216,
@@ -96,7 +98,7 @@ class Foo { bar():this { return this; }}
                                         "end": 22
                                     },
                                     "flags": 2097152,
-                                    "start": 17,
+                                    "start": 18,
                                     "end": 22
                                 },
                                 "contents": {

@@ -48,98 +48,127 @@ type o = { m(|int|bool): void }
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "m",
-                            "rawText": "m",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 12
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 148,
-                            "functionTypeParameterList": {
-                                "kind": 282,
-                                "parameters": [
-                                    {
-                                        "kind": 284,
-                                        "ellipsisToken": null,
-                                        "name": null,
-                                        "optionalToken": null,
-                                        "types": {
-                                            "kind": 137,
-                                            "types": [
-                                                {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "int",
-                                                        "rawText": "int",
-                                                        "flags": 96,
-                                                        "start": 14,
-                                                        "end": 17
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 2097152,
-                                                    "start": 14,
-                                                    "end": 17
-                                                },
-                                                {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "bool",
-                                                        "rawText": "bool",
-                                                        "flags": 96,
-                                                        "start": 18,
-                                                        "end": 22
-                                                    },
-                                                    "typeParameters": null,
-                                                    "flags": 2097152,
-                                                    "start": 18,
-                                                    "end": 22
-                                                }
-                                            ],
-                                            "flags": 2097152,
-                                            "start": 17,
-                                            "end": 22
-                                        },
-                                        "flags": 2097152,
-                                        "start": 13,
-                                        "end": 22
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "start": 13,
-                                "end": 22
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "m",
+                                "rawText": "m",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 12
                             },
-                            "returnType": {
-                                "kind": 138477615,
-                                "flags": 2097216,
-                                "start": 24,
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 148,
+                                "functionTypeParameterList": {
+                                    "kind": 282,
+                                    "parameters": [
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": null,
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 139,
+                                                "bitwiseOrToken": {
+                                                    "kind": 134251592,
+                                                    "flags": 64,
+                                                    "start": 13,
+                                                    "end": 14
+                                                },
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 137,
+                                                    "types": [
+                                                        {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "int",
+                                                                "rawText": "int",
+                                                                "flags": 96,
+                                                                "start": 14,
+                                                                "end": 17
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
+                                                            "start": 14,
+                                                            "end": 17
+                                                        },
+                                                        {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "bool",
+                                                                "rawText": "bool",
+                                                                "flags": 96,
+                                                                "start": 18,
+                                                                "end": 22
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
+                                                            "start": 18,
+                                                            "end": 22
+                                                        }
+                                                    ],
+                                                    "flags": 2097152,
+                                                    "start": 17,
+                                                    "end": 22
+                                                },
+                                                "flags": 2097152,
+                                                "start": 13,
+                                                "end": 22
+                                            },
+                                            "flags": 2097152,
+                                            "start": 13,
+                                            "end": 22
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 13,
+                                    "end": 22
+                                },
+                                "returnType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 24,
+                                        "end": 29
+                                    },
+                                    "flags": 2097152,
+                                    "start": 24,
+                                    "end": 29
+                                },
+                                "typeParameters": null,
+                                "flags": 2097152,
+                                "start": 12,
                                 "end": 29
                             },
-                            "typeParameters": null,
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 10,
                             "end": 29
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 29
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 31
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 31

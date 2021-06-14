@@ -59,6 +59,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -83,16 +85,24 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "bool",
-                                                    "rawText": "bool",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "bool",
+                                                        "rawText": "bool",
+                                                        "flags": 96,
+                                                        "start": 27,
+                                                        "end": 31
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 27,
                                                     "end": 31
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 27,
                                                 "end": 31
@@ -119,33 +129,49 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "Array",
-                                                    "rawText": "Array",
-                                                    "flags": 96,
-                                                    "start": 40,
-                                                    "end": 45
-                                                },
-                                                "typeParameters": {
-                                                    "kind": 309,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 310,
-                                                            "type": {
-                                                                "kind": 134234345,
-                                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "Array",
+                                                        "rawText": "Array",
+                                                        "flags": 96,
+                                                        "start": 40,
+                                                        "end": 45
+                                                    },
+                                                    "typeParameters": {
+                                                        "kind": 309,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 310,
+                                                                "type": {
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 134234345,
+                                                                        "flags": 2097216,
+                                                                        "start": 46,
+                                                                        "end": 52
+                                                                    },
+                                                                    "flags": 2097152,
+                                                                    "start": 46,
+                                                                    "end": 52
+                                                                },
+                                                                "flags": 2097152,
                                                                 "start": 46,
                                                                 "end": 52
-                                                            },
-                                                            "flags": 2097152,
-                                                            "start": 46,
-                                                            "end": 52
-                                                        }
-                                                    ],
+                                                            }
+                                                        ],
+                                                        "flags": 2097152,
+                                                        "start": 45,
+                                                        "end": 53
+                                                    },
                                                     "flags": 2097152,
-                                                    "start": 45,
+                                                    "start": 40,
                                                     "end": 53
                                                 },
                                                 "flags": 2097152,
@@ -163,8 +189,16 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                     "end": 53
                                 },
                                 "returnType": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 57,
+                                        "end": 64
+                                    },
+                                    "flags": 2097152,
                                     "start": 57,
                                     "end": 64
                                 },
@@ -174,7 +208,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                 "end": 64
                             },
                             "flags": 2097152,
-                            "start": 21,
+                            "start": 22,
                             "end": 64
                         },
                         "right": null,

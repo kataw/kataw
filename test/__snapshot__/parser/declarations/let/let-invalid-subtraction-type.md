@@ -47,6 +47,8 @@ let x: -;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -62,7 +64,7 @@ let x: -;
                                 "end": 8
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 8
                         },
                         "initializer": null,

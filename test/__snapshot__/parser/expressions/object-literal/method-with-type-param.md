@@ -103,6 +103,8 @@ a={id<T>(x: T): T {}}
                                                 "optionalToken": null,
                                                 "type": {
                                                     "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
                                                         "id": {
@@ -119,7 +121,7 @@ a={id<T>(x: T): T {}}
                                                         "end": 13
                                                     },
                                                     "flags": 2097152,
-                                                    "start": 10,
+                                                    "start": 11,
                                                     "end": 13
                                                 },
                                                 "right": null,
@@ -135,6 +137,8 @@ a={id<T>(x: T): T {}}
                                     },
                                     "returnType": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -151,7 +155,7 @@ a={id<T>(x: T): T {}}
                                             "end": 17
                                         },
                                         "flags": 2097152,
-                                        "start": 14,
+                                        "start": 15,
                                         "end": 17
                                     },
                                     "contents": {

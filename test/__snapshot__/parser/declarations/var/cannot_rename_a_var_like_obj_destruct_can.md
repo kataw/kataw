@@ -67,6 +67,8 @@ var [foo:bar] = obj;
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -83,7 +85,7 @@ var [foo:bar] = obj;
                                                 "end": 12
                                             },
                                             "flags": 2097152,
-                                            "start": 8,
+                                            "start": 9,
                                             "end": 12
                                         },
                                         "right": null,

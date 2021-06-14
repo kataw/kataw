@@ -84,6 +84,8 @@ class WebControls {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234252,
                                         "flags": 2097216,
@@ -91,7 +93,7 @@ class WebControls {
                                         "end": 84
                                     },
                                     "flags": 2097152,
-                                    "start": 79,
+                                    "start": 80,
                                     "end": 84
                                 },
                                 "contents": {

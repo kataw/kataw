@@ -71,6 +71,8 @@ const processArgs =
                                         },
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134234353,
                                                 "properties": [],
@@ -80,7 +82,7 @@ const processArgs =
                                                 "end": 29
                                             },
                                             "flags": 2097152,
-                                            "start": 25,
+                                            "start": 26,
                                             "end": 29
                                         },
                                         "defaultType": null,
@@ -100,6 +102,8 @@ const processArgs =
                                         },
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134234353,
                                                 "properties": [],
@@ -109,7 +113,7 @@ const processArgs =
                                                 "end": 37
                                             },
                                             "flags": 2097152,
-                                            "start": 33,
+                                            "start": 34,
                                             "end": 37
                                         },
                                         "defaultType": null,
@@ -137,6 +141,8 @@ const processArgs =
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 288,
                                             "arrowTypeParameterList": {
@@ -161,16 +167,24 @@ const processArgs =
                                                         },
                                                         "optionalToken": null,
                                                         "types": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "A1",
-                                                                "rawText": "A1",
-                                                                "flags": 96,
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "id": {
+                                                                    "kind": 134299649,
+                                                                    "text": "A1",
+                                                                    "rawText": "A1",
+                                                                    "flags": 96,
+                                                                    "start": 54,
+                                                                    "end": 57
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
                                                                 "start": 54,
                                                                 "end": 57
                                                             },
-                                                            "typeParameters": null,
                                                             "flags": 2097152,
                                                             "start": 54,
                                                             "end": 57
@@ -186,16 +200,24 @@ const processArgs =
                                                 "end": 57
                                             },
                                             "returnType": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "A2",
-                                                    "rawText": "A2",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "A2",
+                                                        "rawText": "A2",
+                                                        "flags": 96,
+                                                        "start": 61,
+                                                        "end": 64
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 61,
                                                     "end": 64
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 61,
                                                 "end": 64
@@ -206,7 +228,7 @@ const processArgs =
                                             "end": 64
                                         },
                                         "flags": 2097152,
-                                        "start": 46,
+                                        "start": 47,
                                         "end": 64
                                     },
                                     "right": null,
@@ -312,6 +334,8 @@ const processArgs =
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -328,16 +352,24 @@ const processArgs =
                                                         {
                                                             "kind": 310,
                                                             "type": {
-                                                                "kind": 144,
-                                                                "id": {
-                                                                    "kind": 134299649,
-                                                                    "text": "S",
-                                                                    "rawText": "S",
-                                                                    "flags": 96,
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "S",
+                                                                        "rawText": "S",
+                                                                        "flags": 96,
+                                                                        "start": 103,
+                                                                        "end": 104
+                                                                    },
+                                                                    "typeParameters": null,
+                                                                    "flags": 2097152,
                                                                     "start": 103,
                                                                     "end": 104
                                                                 },
-                                                                "typeParameters": null,
                                                                 "flags": 2097152,
                                                                 "start": 103,
                                                                 "end": 104
@@ -349,16 +381,24 @@ const processArgs =
                                                         {
                                                             "kind": 310,
                                                             "type": {
-                                                                "kind": 144,
-                                                                "id": {
-                                                                    "kind": 134299649,
-                                                                    "text": "A2",
-                                                                    "rawText": "A2",
-                                                                    "flags": 96,
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "A2",
+                                                                        "rawText": "A2",
+                                                                        "flags": 96,
+                                                                        "start": 105,
+                                                                        "end": 108
+                                                                    },
+                                                                    "typeParameters": null,
+                                                                    "flags": 2097152,
                                                                     "start": 105,
                                                                     "end": 108
                                                                 },
-                                                                "typeParameters": null,
                                                                 "flags": 2097152,
                                                                 "start": 105,
                                                                 "end": 108
@@ -370,16 +410,24 @@ const processArgs =
                                                         {
                                                             "kind": 310,
                                                             "type": {
-                                                                "kind": 144,
-                                                                "id": {
-                                                                    "kind": 134299649,
-                                                                    "text": "C",
-                                                                    "rawText": "C",
-                                                                    "flags": 96,
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "C",
+                                                                        "rawText": "C",
+                                                                        "flags": 96,
+                                                                        "start": 109,
+                                                                        "end": 111
+                                                                    },
+                                                                    "typeParameters": null,
+                                                                    "flags": 2097152,
                                                                     "start": 109,
                                                                     "end": 111
                                                                 },
-                                                                "typeParameters": null,
                                                                 "flags": 2097152,
                                                                 "start": 109,
                                                                 "end": 111
@@ -391,16 +439,24 @@ const processArgs =
                                                         {
                                                             "kind": 310,
                                                             "type": {
-                                                                "kind": 144,
-                                                                "id": {
-                                                                    "kind": 134299649,
-                                                                    "text": "I",
-                                                                    "rawText": "I",
-                                                                    "flags": 96,
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "I",
+                                                                        "rawText": "I",
+                                                                        "flags": 96,
+                                                                        "start": 112,
+                                                                        "end": 114
+                                                                    },
+                                                                    "typeParameters": null,
+                                                                    "flags": 2097152,
                                                                     "start": 112,
                                                                     "end": 114
                                                                 },
-                                                                "typeParameters": null,
                                                                 "flags": 2097152,
                                                                 "start": 112,
                                                                 "end": 114
@@ -412,16 +468,24 @@ const processArgs =
                                                         {
                                                             "kind": 310,
                                                             "type": {
-                                                                "kind": 144,
-                                                                "id": {
-                                                                    "kind": 134299649,
-                                                                    "text": "R",
-                                                                    "rawText": "R",
-                                                                    "flags": 96,
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 144,
+                                                                    "id": {
+                                                                        "kind": 134299649,
+                                                                        "text": "R",
+                                                                        "rawText": "R",
+                                                                        "flags": 96,
+                                                                        "start": 115,
+                                                                        "end": 117
+                                                                    },
+                                                                    "typeParameters": null,
+                                                                    "flags": 2097152,
                                                                     "start": 115,
                                                                     "end": 117
                                                                 },
-                                                                "typeParameters": null,
                                                                 "flags": 2097152,
                                                                 "start": 115,
                                                                 "end": 117
@@ -440,7 +504,7 @@ const processArgs =
                                                 "end": 118
                                             },
                                             "flags": 2097152,
-                                            "start": 92,
+                                            "start": 93,
                                             "end": 118
                                         },
                                         "right": null,
@@ -475,6 +539,8 @@ const processArgs =
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -491,7 +557,7 @@ const processArgs =
                                                     "end": 132
                                                 },
                                                 "flags": 2097152,
-                                                "start": 129,
+                                                "start": 130,
                                                 "end": 132
                                             },
                                             "right": null,
@@ -513,6 +579,8 @@ const processArgs =
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -529,7 +597,7 @@ const processArgs =
                                                     "end": 142
                                                 },
                                                 "flags": 2097152,
-                                                "start": 138,
+                                                "start": 139,
                                                 "end": 142
                                             },
                                             "right": null,
@@ -551,6 +619,8 @@ const processArgs =
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -567,7 +637,7 @@ const processArgs =
                                                     "end": 157
                                                 },
                                                 "flags": 2097152,
-                                                "start": 154,
+                                                "start": 155,
                                                 "end": 157
                                             },
                                             "right": null,
@@ -589,6 +659,8 @@ const processArgs =
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -605,7 +677,7 @@ const processArgs =
                                                     "end": 166
                                                 },
                                                 "flags": 2097152,
-                                                "start": 163,
+                                                "start": 164,
                                                 "end": 166
                                             },
                                             "right": null,
@@ -617,6 +689,8 @@ const processArgs =
                                     "asyncKeyword": null,
                                     "returnType": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -633,16 +707,24 @@ const processArgs =
                                                     {
                                                         "kind": 310,
                                                         "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "S",
-                                                                "rawText": "S",
-                                                                "flags": 96,
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "id": {
+                                                                    "kind": 134299649,
+                                                                    "text": "S",
+                                                                    "rawText": "S",
+                                                                    "flags": 96,
+                                                                    "start": 178,
+                                                                    "end": 179
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
                                                                 "start": 178,
                                                                 "end": 179
                                                             },
-                                                            "typeParameters": null,
                                                             "flags": 2097152,
                                                             "start": 178,
                                                             "end": 179
@@ -654,16 +736,24 @@ const processArgs =
                                                     {
                                                         "kind": 310,
                                                         "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "A1",
-                                                                "rawText": "A1",
-                                                                "flags": 96,
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "id": {
+                                                                    "kind": 134299649,
+                                                                    "text": "A1",
+                                                                    "rawText": "A1",
+                                                                    "flags": 96,
+                                                                    "start": 180,
+                                                                    "end": 183
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
                                                                 "start": 180,
                                                                 "end": 183
                                                             },
-                                                            "typeParameters": null,
                                                             "flags": 2097152,
                                                             "start": 180,
                                                             "end": 183
@@ -675,16 +765,24 @@ const processArgs =
                                                     {
                                                         "kind": 310,
                                                         "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "C",
-                                                                "rawText": "C",
-                                                                "flags": 96,
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "id": {
+                                                                    "kind": 134299649,
+                                                                    "text": "C",
+                                                                    "rawText": "C",
+                                                                    "flags": 96,
+                                                                    "start": 184,
+                                                                    "end": 186
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
                                                                 "start": 184,
                                                                 "end": 186
                                                             },
-                                                            "typeParameters": null,
                                                             "flags": 2097152,
                                                             "start": 184,
                                                             "end": 186
@@ -696,16 +794,24 @@ const processArgs =
                                                     {
                                                         "kind": 310,
                                                         "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "I",
-                                                                "rawText": "I",
-                                                                "flags": 96,
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "id": {
+                                                                    "kind": 134299649,
+                                                                    "text": "I",
+                                                                    "rawText": "I",
+                                                                    "flags": 96,
+                                                                    "start": 187,
+                                                                    "end": 189
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
                                                                 "start": 187,
                                                                 "end": 189
                                                             },
-                                                            "typeParameters": null,
                                                             "flags": 2097152,
                                                             "start": 187,
                                                             "end": 189
@@ -717,16 +823,24 @@ const processArgs =
                                                     {
                                                         "kind": 310,
                                                         "type": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "R",
-                                                                "rawText": "R",
-                                                                "flags": 96,
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "id": {
+                                                                    "kind": 134299649,
+                                                                    "text": "R",
+                                                                    "rawText": "R",
+                                                                    "flags": 96,
+                                                                    "start": 190,
+                                                                    "end": 192
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
                                                                 "start": 190,
                                                                 "end": 192
                                                             },
-                                                            "typeParameters": null,
                                                             "flags": 2097152,
                                                             "start": 190,
                                                             "end": 192
@@ -745,7 +859,7 @@ const processArgs =
                                             "end": 193
                                         },
                                         "flags": 2097152,
-                                        "start": 167,
+                                        "start": 168,
                                         "end": 193
                                     },
                                     "contents": {

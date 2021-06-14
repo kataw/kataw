@@ -71,8 +71,16 @@ type foo<number> = string;
                 "end": 18
             },
             "type": {
-                "kind": 134234347,
-                "flags": 2097216,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234347,
+                    "flags": 2097216,
+                    "start": 18,
+                    "end": 25
+                },
+                "flags": 2097152,
                 "start": 18,
                 "end": 25
             },

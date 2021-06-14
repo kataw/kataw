@@ -52,6 +52,8 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -59,7 +61,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                 "end": 15
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 15
                         },
                         "initializer": {

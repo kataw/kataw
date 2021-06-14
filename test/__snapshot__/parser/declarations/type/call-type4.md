@@ -48,42 +48,58 @@ type D = $Call<Fn1>;
                 "end": 8
             },
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "$Call",
-                    "rawText": "$Call",
-                    "flags": 96,
-                    "start": 8,
-                    "end": 14
-                },
-                "typeParameters": {
-                    "kind": 309,
-                    "parameters": [
-                        {
-                            "kind": 310,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "Fn1",
-                                    "rawText": "Fn1",
-                                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "$Call",
+                        "rawText": "$Call",
+                        "flags": 96,
+                        "start": 8,
+                        "end": 14
+                    },
+                    "typeParameters": {
+                        "kind": 309,
+                        "parameters": [
+                            {
+                                "kind": 310,
+                                "type": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "Fn1",
+                                            "rawText": "Fn1",
+                                            "flags": 96,
+                                            "start": 15,
+                                            "end": 18
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
+                                        "start": 15,
+                                        "end": 18
+                                    },
+                                    "flags": 2097152,
                                     "start": 15,
                                     "end": 18
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 15,
                                 "end": 18
-                            },
-                            "flags": 2097152,
-                            "start": 15,
-                            "end": 18
-                        }
-                    ],
+                            }
+                        ],
+                        "flags": 2097152,
+                        "start": 14,
+                        "end": 19
+                    },
                     "flags": 2097152,
-                    "start": 14,
+                    "start": 8,
                     "end": 19
                 },
                 "flags": 2097152,

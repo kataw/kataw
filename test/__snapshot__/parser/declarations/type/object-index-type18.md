@@ -53,6 +53,8 @@ var obj: {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -72,8 +74,16 @@ var obj: {
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 18,
+                                                "end": 25
+                                            },
+                                            "flags": 2097152,
                                             "start": 18,
                                             "end": 25
                                         },
@@ -94,14 +104,30 @@ var obj: {
                                             "end": 32
                                         },
                                         "key": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 33,
+                                                "end": 40
+                                            },
+                                            "flags": 2097152,
                                             "start": 33,
                                             "end": 40
                                         },
                                         "type": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 42,
+                                                "end": 49
+                                            },
+                                            "flags": 2097152,
                                             "start": 42,
                                             "end": 49
                                         },
@@ -116,7 +142,7 @@ var obj: {
                                 "end": 51
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 51
                         },
                         "initializer": {

@@ -50,118 +50,150 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "end": 9
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 11,
-                            "end": 14
-                        },
-                        "type": {
-                            "kind": 137,
-                            "types": [
-                                {
-                                    "kind": 134234353,
-                                    "properties": [
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 11,
+                                "end": 14
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 137,
+                                    "types": [
                                         {
-                                            "kind": 193,
-                                            "protoKeyword": null,
-                                            "staticToken": null,
-                                            "getKeyword": null,
-                                            "setKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "p",
-                                                "rawText": "p",
-                                                "flags": 96,
-                                                "start": 15,
-                                                "end": 16
-                                            },
-                                            "optionalToken": null,
-                                            "value": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "start": 17,
+                                            "kind": 134234353,
+                                            "properties": [
+                                                {
+                                                    "kind": 193,
+                                                    "protoKeyword": null,
+                                                    "staticToken": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "p",
+                                                        "rawText": "p",
+                                                        "flags": 96,
+                                                        "start": 15,
+                                                        "end": 16
+                                                    },
+                                                    "optionalToken": null,
+                                                    "value": {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "T",
+                                                                "rawText": "T",
+                                                                "flags": 96,
+                                                                "start": 17,
+                                                                "end": 18
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
+                                                            "start": 17,
+                                                            "end": 18
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 17,
+                                                        "end": 18
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 15,
                                                     "end": 18
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
-                                                "start": 17,
-                                                "end": 18
-                                            },
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
-                                            "start": 15,
-                                            "end": 18
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "start": 14,
-                                    "end": 19
-                                },
-                                {
-                                    "kind": 134234353,
-                                    "properties": [
+                                            "start": 14,
+                                            "end": 19
+                                        },
                                         {
-                                            "kind": 193,
-                                            "protoKeyword": null,
-                                            "staticToken": null,
-                                            "getKeyword": null,
-                                            "setKeyword": null,
-                                            "key": {
-                                                "kind": 134299649,
-                                                "text": "q",
-                                                "rawText": "q",
-                                                "flags": 96,
-                                                "start": 21,
-                                                "end": 22
-                                            },
-                                            "optionalToken": null,
-                                            "value": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "U",
-                                                    "rawText": "U",
-                                                    "flags": 96,
-                                                    "start": 23,
+                                            "kind": 134234353,
+                                            "properties": [
+                                                {
+                                                    "kind": 193,
+                                                    "protoKeyword": null,
+                                                    "staticToken": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "q",
+                                                        "rawText": "q",
+                                                        "flags": 96,
+                                                        "start": 21,
+                                                        "end": 22
+                                                    },
+                                                    "optionalToken": null,
+                                                    "value": {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "U",
+                                                                "rawText": "U",
+                                                                "flags": 96,
+                                                                "start": 23,
+                                                                "end": 24
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
+                                                            "start": 23,
+                                                            "end": 24
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 23,
+                                                        "end": 24
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 21,
                                                     "end": 24
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
-                                                "start": 23,
-                                                "end": 24
-                                            },
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 2097152,
-                                            "start": 21,
-                                            "end": 24
+                                            "start": 20,
+                                            "end": 25
                                         }
                                     ],
-                                    "trailingComma": false,
                                     "flags": 2097152,
-                                    "start": 20,
+                                    "start": 19,
                                     "end": 25
-                                }
-                            ],
+                                },
+                                "flags": 2097152,
+                                "start": 14,
+                                "end": 25
+                            },
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 19,
+                            "start": 11,
                             "end": 25
-                        },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 11,
-                        "end": 25
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 9,
+                    "end": 26
+                },
                 "flags": 2097152,
                 "start": 9,
                 "end": 26
@@ -195,68 +227,76 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "end": 51
             },
             "type": {
-                "kind": 137,
-                "types": [
-                    {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Union1",
-                            "rawText": "Union1",
-                            "flags": 96,
-                            "start": 51,
-                            "end": 58
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
-                        "start": 51,
-                        "end": 58
-                    },
-                    {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Union2",
-                            "rawText": "Union2",
-                            "flags": 96,
-                            "start": 60,
-                            "end": 67
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
-                        "start": 60,
-                        "end": 67
-                    },
-                    {
-                        "kind": 134299891,
-                        "typeOfKeyword": {
-                            "kind": 138477613,
-                            "flags": 64,
-                            "start": 69,
-                            "end": 76
-                        },
-                        "type": {
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 137,
+                    "types": [
+                        {
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
+                                "text": "Union1",
+                                "rawText": "Union1",
                                 "flags": 96,
-                                "start": 76,
-                                "end": 78
+                                "start": 51,
+                                "end": 58
                             },
                             "typeParameters": null,
                             "flags": 2097152,
-                            "start": 76,
-                            "end": 78
+                            "start": 51,
+                            "end": 58
                         },
-                        "flags": 2097216,
-                        "start": 69,
-                        "end": 78
-                    }
-                ],
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "Union2",
+                                "rawText": "Union2",
+                                "flags": 96,
+                                "start": 60,
+                                "end": 67
+                            },
+                            "typeParameters": null,
+                            "flags": 2097152,
+                            "start": 60,
+                            "end": 67
+                        },
+                        {
+                            "kind": 134299891,
+                            "typeOfKeyword": {
+                                "kind": 138477613,
+                                "flags": 64,
+                                "start": 69,
+                                "end": 76
+                            },
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 76,
+                                    "end": 78
+                                },
+                                "typeParameters": null,
+                                "flags": 2097152,
+                                "start": 76,
+                                "end": 78
+                            },
+                            "flags": 2097216,
+                            "start": 69,
+                            "end": 78
+                        }
+                    ],
+                    "flags": 2097152,
+                    "start": 58,
+                    "end": 78
+                },
                 "flags": 2097152,
-                "start": 58,
+                "start": 51,
                 "end": 78
             },
             "flags": 2097153,

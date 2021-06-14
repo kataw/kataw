@@ -97,34 +97,52 @@ async function foo3(): Promise<string> {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Promise",
-                        "rawText": "Promise",
-                        "flags": 96,
-                        "start": 22,
-                        "end": 30
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Promise",
+                            "rawText": "Promise",
+                            "flags": 96,
+                            "start": 22,
+                            "end": 30
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234347,
+                                            "flags": 2097216,
+                                            "start": 31,
+                                            "end": 37
+                                        },
+                                        "flags": 2097152,
+                                        "start": 31,
+                                        "end": 37
+                                    },
+                                    "flags": 2097152,
                                     "start": 31,
                                     "end": 37
-                                },
-                                "flags": 2097152,
-                                "start": 31,
-                                "end": 37
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 30,
+                            "end": 38
+                        },
                         "flags": 2097152,
-                        "start": 30,
+                        "start": 22,
                         "end": 38
                     },
                     "flags": 2097152,
@@ -209,34 +227,52 @@ async function foo3(): Promise<string> {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Promise",
-                        "rawText": "Promise",
-                        "flags": 96,
-                        "start": 76,
-                        "end": 84
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Promise",
+                            "rawText": "Promise",
+                            "flags": 96,
+                            "start": 76,
+                            "end": 84
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234347,
+                                            "flags": 2097216,
+                                            "start": 85,
+                                            "end": 91
+                                        },
+                                        "flags": 2097152,
+                                        "start": 85,
+                                        "end": 91
+                                    },
+                                    "flags": 2097152,
                                     "start": 85,
                                     "end": 91
-                                },
-                                "flags": 2097152,
-                                "start": 85,
-                                "end": 91
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 84,
+                            "end": 92
+                        },
                         "flags": 2097152,
-                        "start": 84,
+                        "start": 76,
                         "end": 92
                     },
                     "flags": 2097152,
@@ -382,34 +418,52 @@ async function foo3(): Promise<string> {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Promise",
-                        "rawText": "Promise",
-                        "flags": 96,
-                        "start": 140,
-                        "end": 148
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Promise",
+                            "rawText": "Promise",
+                            "flags": 96,
+                            "start": 140,
+                            "end": 148
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234347,
+                                            "flags": 2097216,
+                                            "start": 149,
+                                            "end": 155
+                                        },
+                                        "flags": 2097152,
+                                        "start": 149,
+                                        "end": 155
+                                    },
+                                    "flags": 2097152,
                                     "start": 149,
                                     "end": 155
-                                },
-                                "flags": 2097152,
-                                "start": 149,
-                                "end": 155
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 148,
+                            "end": 156
+                        },
                         "flags": 2097152,
-                        "start": 148,
+                        "start": 140,
                         "end": 156
                     },
                     "flags": 2097152,

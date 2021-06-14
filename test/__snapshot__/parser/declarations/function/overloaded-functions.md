@@ -68,6 +68,8 @@ declare function three(value :mixed) :boolean;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 138477575,
                                 "flags": 2097216,
@@ -75,7 +77,7 @@ declare function three(value :mixed) :boolean;
                                 "end": 32
                             },
                             "flags": 2097152,
-                            "start": 26,
+                            "start": 28,
                             "end": 32
                         },
                         "right": null,
@@ -93,9 +95,19 @@ declare function three(value :mixed) :boolean;
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 205586437,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 205586437,
+                        "flags": 2097216,
+                        "start": 35,
+                        "end": 40
+                    },
+                    "flags": 2097152,
                     "start": 35,
                     "end": 40
                 },
@@ -154,6 +166,8 @@ declare function three(value :mixed) :boolean;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 138477615,
                                 "flags": 2097216,
@@ -161,7 +175,7 @@ declare function three(value :mixed) :boolean;
                                 "end": 75
                             },
                             "flags": 2097152,
-                            "start": 69,
+                            "start": 71,
                             "end": 75
                         },
                         "right": null,
@@ -179,9 +193,19 @@ declare function three(value :mixed) :boolean;
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 205586437,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 205586437,
+                        "flags": 2097216,
+                        "start": 78,
+                        "end": 83
+                    },
+                    "flags": 2097152,
                     "start": 78,
                     "end": 83
                 },
@@ -240,6 +264,8 @@ declare function three(value :mixed) :boolean;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -256,7 +282,7 @@ declare function three(value :mixed) :boolean;
                                 "end": 121
                             },
                             "flags": 2097152,
-                            "start": 114,
+                            "start": 116,
                             "end": 121
                         },
                         "right": null,
@@ -274,9 +300,19 @@ declare function three(value :mixed) :boolean;
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234254,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234254,
+                        "flags": 2097216,
+                        "start": 124,
+                        "end": 131
+                    },
+                    "flags": 2097152,
                     "start": 124,
                     "end": 131
                 },

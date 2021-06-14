@@ -93,6 +93,8 @@ class C<T> {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -109,7 +111,7 @@ class C<T> {
                                     "end": 24
                                 },
                                 "flags": 2097152,
-                                "start": 21,
+                                "start": 22,
                                 "end": 24
                             },
                             "initializer": null,
@@ -158,6 +160,8 @@ class C<T> {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -174,7 +178,7 @@ class C<T> {
                                         "end": 40
                                     },
                                     "flags": 2097152,
-                                    "start": 37,
+                                    "start": 38,
                                     "end": 40
                                 },
                                 "contents": {

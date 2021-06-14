@@ -48,6 +48,8 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -65,8 +67,16 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 12,
+                                                "end": 19
+                                            },
+                                            "flags": 2097152,
                                             "start": 12,
                                             "end": 19
                                         },
@@ -81,7 +91,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                 "end": 21
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 21
                         },
                         "initializer": {
@@ -112,6 +122,8 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
@@ -119,7 +131,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                                 "end": 43
                                             },
                                             "flags": 2097152,
-                                            "start": 35,
+                                            "start": 36,
                                             "end": 43
                                         },
                                         "right": null,
@@ -171,6 +183,8 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                             "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -178,7 +192,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                     "end": 52
                                 },
                                 "flags": 2097152,
-                                "start": 44,
+                                "start": 45,
                                 "end": 52
                             },
                             "flags": 32,

@@ -76,6 +76,8 @@ var ident = <T>(x: T): T => x;
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -83,7 +85,7 @@ var ident = <T>(x: T): T => x;
                                             "end": 20
                                         },
                                         "flags": 2097152,
-                                        "start": 12,
+                                        "start": 13,
                                         "end": 20
                                     },
                                     "right": null,
@@ -105,6 +107,8 @@ var ident = <T>(x: T): T => x;
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -112,7 +116,7 @@ var ident = <T>(x: T): T => x;
                                             "end": 31
                                         },
                                         "flags": 2097152,
-                                        "start": 23,
+                                        "start": 24,
                                         "end": 31
                                     },
                                     "right": null,
@@ -124,6 +128,8 @@ var ident = <T>(x: T): T => x;
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -131,7 +137,7 @@ var ident = <T>(x: T): T => x;
                                     "end": 40
                                 },
                                 "flags": 2097152,
-                                "start": 32,
+                                "start": 33,
                                 "end": 40
                             },
                             "contents": {
@@ -227,6 +233,8 @@ var ident = <T>(x: T): T => x;
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -234,7 +242,7 @@ var ident = <T>(x: T): T => x;
                                             "end": 72
                                         },
                                         "flags": 2097152,
-                                        "start": 64,
+                                        "start": 65,
                                         "end": 72
                                     },
                                     "right": null,
@@ -246,6 +254,8 @@ var ident = <T>(x: T): T => x;
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -253,7 +263,7 @@ var ident = <T>(x: T): T => x;
                                     "end": 81
                                 },
                                 "flags": 2097152,
-                                "start": 73,
+                                "start": 74,
                                 "end": 81
                             },
                             "contents": {
@@ -352,6 +362,8 @@ var ident = <T>(x: T): T => x;
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -368,7 +380,7 @@ var ident = <T>(x: T): T => x;
                                             "end": 109
                                         },
                                         "flags": 2097152,
-                                        "start": 106,
+                                        "start": 107,
                                         "end": 109
                                     },
                                     "right": null,
@@ -380,6 +392,8 @@ var ident = <T>(x: T): T => x;
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -396,7 +410,7 @@ var ident = <T>(x: T): T => x;
                                     "end": 113
                                 },
                                 "flags": 2097152,
-                                "start": 110,
+                                "start": 111,
                                 "end": 113
                             },
                             "contents": {

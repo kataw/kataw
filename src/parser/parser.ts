@@ -6095,7 +6095,7 @@ function parseFunctionDeclaration(
         )
       : consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)
   ) {
-    returnType = createTypeAnnotation(parseType(parser, context), pos, parser.curPos);
+    returnType = createTypeAnnotation(null, null, parseType(parser, context), pos, parser.curPos);
   }
 
   const contents =
@@ -7112,13 +7112,15 @@ function parseExportDefault(
   return createExportDefault(exportToken, defaultToken, declaration, pos, parser.curPos);
 }
 
-function parseType(parser: ParserState, context: Context): TypeNode {
-  // - `x | y`
-  consumeOpt(parser, context, SyntaxKind.BitwiseOr);
-  // - `x & y`
-  consumeOpt(parser, context, SyntaxKind.BitwiseAnd);
-
-  return parseTypeContinuation(parser, context, parseNullableType(parser, context));
+function parseType(parser: ParserState, context: Context): any {
+  const pos = parser.curPos;
+  return createTypeAnnotation(
+    consumeOptToken(parser, context, SyntaxKind.BitwiseOr),
+    consumeOptToken(parser, context, SyntaxKind.BitwiseAnd),
+    parseTypeContinuation(parser, context, parseNullableType(parser, context)),
+    pos,
+    parser.curPos
+  );
 }
 
 function parseTypeContinuation(parser: ParserState, context: Context, type: TypeNode): TypeNode {
@@ -7144,9 +7146,8 @@ function parseTypeContinuation(parser: ParserState, context: Context, type: Type
 }
 
 function parseTypeAnnotation(parser: ParserState, context: Context): TypeAnnotation | null {
-  const pos = parser.curPos;
   return context & Context.OptionsAllowTypes && consumeOpt(parser, context, SyntaxKind.Colon)
-    ? createTypeAnnotation(parseType(parser, context), pos, parser.curPos)
+    ? parseType(parser, context)
     : null;
 }
 

@@ -48,44 +48,60 @@ type a = {x:y};
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 11
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
                                 "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 96,
+                                "start": 10,
+                                "end": 11
+                            },
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 12,
+                                        "end": 13
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 12,
+                                    "end": 13
+                                },
+                                "flags": 2097152,
                                 "start": 12,
                                 "end": 13
                             },
-                            "typeParameters": null,
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 10,
                             "end": 13
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 13
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 14
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 14

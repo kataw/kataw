@@ -47,6 +47,8 @@ let f: (this: number) => void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -71,8 +73,16 @@ let f: (this: number) => void;
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 13,
+                                                    "end": 20
+                                                },
+                                                "flags": 2097152,
                                                 "start": 13,
                                                 "end": 20
                                             },
@@ -87,8 +97,16 @@ let f: (this: number) => void;
                                     "end": 20
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 24,
+                                        "end": 29
+                                    },
+                                    "flags": 2097152,
                                     "start": 24,
                                     "end": 29
                                 },
@@ -98,7 +116,7 @@ let f: (this: number) => void;
                                 "end": 29
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 29
                         },
                         "initializer": null,

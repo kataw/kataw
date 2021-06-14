@@ -1498,6 +1498,8 @@ let tests = [
                                                     "optionalToken": null,
                                                     "type": {
                                                         "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
                                                             "id": {
@@ -1514,7 +1516,7 @@ let tests = [
                                                             "end": 903
                                                         },
                                                         "flags": 2097152,
-                                                        "start": 895,
+                                                        "start": 896,
                                                         "end": 903
                                                     },
                                                     "right": null,
@@ -1536,6 +1538,8 @@ let tests = [
                                                     "optionalToken": null,
                                                     "type": {
                                                         "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
                                                             "id": {
@@ -1552,7 +1556,7 @@ let tests = [
                                                             "end": 913
                                                         },
                                                         "flags": 2097152,
-                                                        "start": 906,
+                                                        "start": 907,
                                                         "end": 913
                                                     },
                                                     "right": null,

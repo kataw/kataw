@@ -53,6 +53,8 @@ var a: { <T>(x: T): number; };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -70,8 +72,16 @@ var a: { <T>(x: T): number; };
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 13,
+                                                "end": 20
+                                            },
+                                            "flags": 2097152,
                                             "start": 13,
                                             "end": 20
                                         },
@@ -86,7 +96,7 @@ var a: { <T>(x: T): number; };
                                 "end": 23
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 7,
                             "end": 23
                         },
                         "initializer": null,
@@ -128,6 +138,8 @@ var a: { <T>(x: T): number; };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -174,16 +186,24 @@ var a: { <T>(x: T): number; };
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "T",
-                                                            "rawText": "T",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "T",
+                                                                "rawText": "T",
+                                                                "flags": 96,
+                                                                "start": 40,
+                                                                "end": 42
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 40,
                                                             "end": 42
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 40,
                                                         "end": 42
@@ -200,8 +220,16 @@ var a: { <T>(x: T): number; };
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 44,
+                                                "end": 51
+                                            },
+                                            "flags": 2097152,
                                             "start": 44,
                                             "end": 51
                                         },
@@ -216,7 +244,7 @@ var a: { <T>(x: T): number; };
                                 "end": 54
                             },
                             "flags": 2097152,
-                            "start": 29,
+                            "start": 31,
                             "end": 54
                         },
                         "initializer": null,
@@ -258,6 +286,8 @@ var a: { <T>(x: T): number; };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -275,8 +305,16 @@ var a: { <T>(x: T): number; };
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 67,
+                                                "end": 74
+                                            },
+                                            "flags": 2097152,
                                             "start": 67,
                                             "end": 74
                                         },
@@ -291,7 +329,7 @@ var a: { <T>(x: T): number; };
                                 "end": 76
                             },
                             "flags": 2097152,
-                            "start": 60,
+                            "start": 61,
                             "end": 76
                         },
                         "initializer": null,
@@ -333,6 +371,8 @@ var a: { <T>(x: T): number; };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -350,8 +390,16 @@ var a: { <T>(x: T): number; };
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 90,
+                                                "end": 97
+                                            },
+                                            "flags": 2097152,
                                             "start": 90,
                                             "end": 97
                                         },
@@ -366,7 +414,7 @@ var a: { <T>(x: T): number; };
                                 "end": 100
                             },
                             "flags": 2097152,
-                            "start": 83,
+                            "start": 84,
                             "end": 100
                         },
                         "initializer": null,
@@ -408,6 +456,8 @@ var a: { <T>(x: T): number; };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -425,8 +475,16 @@ var a: { <T>(x: T): number; };
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 114,
+                                                "end": 121
+                                            },
+                                            "flags": 2097152,
                                             "start": 114,
                                             "end": 121
                                         },
@@ -450,8 +508,16 @@ var a: { <T>(x: T): number; };
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 125,
+                                                "end": 132
+                                            },
+                                            "flags": 2097152,
                                             "start": 125,
                                             "end": 132
                                         },
@@ -479,8 +545,16 @@ var a: { <T>(x: T): number; };
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 137,
+                                                            "end": 144
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 137,
                                                         "end": 144
                                                     },
@@ -496,8 +570,16 @@ var a: { <T>(x: T): number; };
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 146,
+                                                "end": 153
+                                            },
+                                            "flags": 2097152,
                                             "start": 146,
                                             "end": 153
                                         },
@@ -512,7 +594,7 @@ var a: { <T>(x: T): number; };
                                 "end": 155
                             },
                             "flags": 2097152,
-                            "start": 107,
+                            "start": 108,
                             "end": 155
                         },
                         "initializer": null,
@@ -554,6 +636,8 @@ var a: { <T>(x: T): number; };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -600,16 +684,24 @@ var a: { <T>(x: T): number; };
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "T",
-                                                            "rawText": "T",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "T",
+                                                                "rawText": "T",
+                                                                "flags": 96,
+                                                                "start": 172,
+                                                                "end": 174
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 172,
                                                             "end": 174
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 172,
                                                         "end": 174
@@ -626,8 +718,16 @@ var a: { <T>(x: T): number; };
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 176,
+                                                "end": 183
+                                            },
+                                            "flags": 2097152,
                                             "start": 176,
                                             "end": 183
                                         },
@@ -642,7 +742,7 @@ var a: { <T>(x: T): number; };
                                 "end": 186
                             },
                             "flags": 2097152,
-                            "start": 162,
+                            "start": 163,
                             "end": 186
                         },
                         "initializer": null,

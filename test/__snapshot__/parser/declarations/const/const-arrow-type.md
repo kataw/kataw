@@ -75,6 +75,8 @@ const fn = async (a?: any): Promise<void> => {};
                                     },
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234252,
                                             "flags": 2097216,
@@ -82,7 +84,7 @@ const fn = async (a?: any): Promise<void> => {};
                                             "end": 25
                                         },
                                         "flags": 2097152,
-                                        "start": 20,
+                                        "start": 21,
                                         "end": 25
                                     },
                                     "right": null,
@@ -99,6 +101,8 @@ const fn = async (a?: any): Promise<void> => {};
                             },
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -115,8 +119,16 @@ const fn = async (a?: any): Promise<void> => {};
                                             {
                                                 "kind": 310,
                                                 "type": {
-                                                    "kind": 138477615,
-                                                    "flags": 2097216,
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 138477615,
+                                                        "flags": 2097216,
+                                                        "start": 36,
+                                                        "end": 40
+                                                    },
+                                                    "flags": 2097152,
                                                     "start": 36,
                                                     "end": 40
                                                 },
@@ -134,7 +146,7 @@ const fn = async (a?: any): Promise<void> => {};
                                     "end": 41
                                 },
                                 "flags": 2097152,
-                                "start": 26,
+                                "start": 27,
                                 "end": 41
                             },
                             "contents": {

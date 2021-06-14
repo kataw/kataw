@@ -46,22 +46,46 @@ type X = (([1]))
                 "end": 8
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 147,
-                    "elementTypes": [
-                        {
-                            "kind": 134217968,
-                            "text": 1,
-                            "flags": 2097216,
-                            "start": 12,
-                            "end": 13
-                        }
-                    ],
-                    "trailingComma": false,
+                    "kind": 290,
+                    "type": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 147,
+                            "elementTypes": [
+                                {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134217968,
+                                        "text": 1,
+                                        "flags": 2097216,
+                                        "start": 12,
+                                        "end": 13
+                                    },
+                                    "flags": 2097152,
+                                    "start": 12,
+                                    "end": 13
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 11,
+                            "end": 14
+                        },
+                        "flags": 2097152,
+                        "start": 11,
+                        "end": 14
+                    },
                     "flags": 2097152,
-                    "start": 11,
-                    "end": 14
+                    "start": 8,
+                    "end": 16
                 },
                 "flags": 2097152,
                 "start": 8,

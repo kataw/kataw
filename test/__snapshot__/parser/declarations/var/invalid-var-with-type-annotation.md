@@ -49,6 +49,8 @@ var f: >x:int) => string;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -64,7 +66,7 @@ var f: >x:int) => string;
                                 "end": 6
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 6
                         },
                         "initializer": null,

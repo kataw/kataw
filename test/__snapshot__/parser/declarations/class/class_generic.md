@@ -95,6 +95,8 @@ class C<T> {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -111,44 +113,60 @@ class C<T> {
                                             {
                                                 "kind": 310,
                                                 "type": {
-                                                    "kind": 134234353,
-                                                    "properties": [
-                                                        {
-                                                            "kind": 193,
-                                                            "protoKeyword": null,
-                                                            "staticToken": null,
-                                                            "getKeyword": null,
-                                                            "setKeyword": null,
-                                                            "key": {
-                                                                "kind": 134299649,
-                                                                "text": "value",
-                                                                "rawText": "value",
-                                                                "flags": 96,
-                                                                "start": 27,
-                                                                "end": 32
-                                                            },
-                                                            "optionalToken": null,
-                                                            "value": {
-                                                                "kind": 144,
-                                                                "id": {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 134234353,
+                                                        "properties": [
+                                                            {
+                                                                "kind": 193,
+                                                                "protoKeyword": null,
+                                                                "staticToken": null,
+                                                                "getKeyword": null,
+                                                                "setKeyword": null,
+                                                                "key": {
                                                                     "kind": 134299649,
-                                                                    "text": "T",
-                                                                    "rawText": "T",
+                                                                    "text": "value",
+                                                                    "rawText": "value",
                                                                     "flags": 96,
+                                                                    "start": 27,
+                                                                    "end": 32
+                                                                },
+                                                                "optionalToken": null,
+                                                                "value": {
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 144,
+                                                                        "id": {
+                                                                            "kind": 134299649,
+                                                                            "text": "T",
+                                                                            "rawText": "T",
+                                                                            "flags": 96,
+                                                                            "start": 33,
+                                                                            "end": 35
+                                                                        },
+                                                                        "typeParameters": null,
+                                                                        "flags": 2097152,
+                                                                        "start": 33,
+                                                                        "end": 35
+                                                                    },
+                                                                    "flags": 2097152,
                                                                     "start": 33,
                                                                     "end": 35
                                                                 },
-                                                                "typeParameters": null,
                                                                 "flags": 2097152,
-                                                                "start": 33,
+                                                                "start": 27,
                                                                 "end": 35
-                                                            },
-                                                            "flags": 2097152,
-                                                            "start": 27,
-                                                            "end": 35
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 2097152,
+                                                        "start": 26,
+                                                        "end": 36
+                                                    },
                                                     "flags": 2097152,
                                                     "start": 26,
                                                     "end": 36
@@ -167,7 +185,7 @@ class C<T> {
                                     "end": 37
                                 },
                                 "flags": 2097152,
-                                "start": 18,
+                                "start": 19,
                                 "end": 37
                             },
                             "initializer": null,
@@ -218,6 +236,8 @@ class C<T> {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -234,7 +254,7 @@ class C<T> {
                                                     "end": 54
                                                 },
                                                 "flags": 2097152,
-                                                "start": 51,
+                                                "start": 52,
                                                 "end": 54
                                             },
                                             "right": null,
@@ -280,6 +300,8 @@ class C<T> {
                                                             "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 134234353,
                                                                     "properties": [
@@ -299,16 +321,24 @@ class C<T> {
                                                                             },
                                                                             "optionalToken": null,
                                                                             "value": {
-                                                                                "kind": 144,
-                                                                                "id": {
-                                                                                    "kind": 134299649,
-                                                                                    "text": "T",
-                                                                                    "rawText": "T",
-                                                                                    "flags": 96,
+                                                                                "kind": 139,
+                                                                                "bitwiseOrToken": null,
+                                                                                "bitwiseAndToken": null,
+                                                                                "type": {
+                                                                                    "kind": 144,
+                                                                                    "id": {
+                                                                                        "kind": 134299649,
+                                                                                        "text": "T",
+                                                                                        "rawText": "T",
+                                                                                        "flags": 96,
+                                                                                        "start": 80,
+                                                                                        "end": 82
+                                                                                    },
+                                                                                    "typeParameters": null,
+                                                                                    "flags": 2097152,
                                                                                     "start": 80,
                                                                                     "end": 82
                                                                                 },
-                                                                                "typeParameters": null,
                                                                                 "flags": 2097152,
                                                                                 "start": 80,
                                                                                 "end": 82
@@ -324,7 +354,7 @@ class C<T> {
                                                                     "end": 83
                                                                 },
                                                                 "flags": 2097152,
-                                                                "start": 71,
+                                                                "start": 72,
                                                                 "end": 83
                                                             },
                                                             "initializer": {

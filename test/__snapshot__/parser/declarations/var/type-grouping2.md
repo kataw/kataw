@@ -48,6 +48,8 @@ var a: (() => number) | () => string
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -72,8 +74,16 @@ var a: (() => number) | () => string
                                                 "end": 13
                                             },
                                             "returnType": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 13,
+                                                    "end": 20
+                                                },
+                                                "flags": 2097152,
                                                 "start": 13,
                                                 "end": 20
                                             },
@@ -103,8 +113,16 @@ var a: (() => number) | () => string
                                             "end": 29
                                         },
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 29,
+                                                "end": 36
+                                            },
+                                            "flags": 2097152,
                                             "start": 29,
                                             "end": 36
                                         },
@@ -119,7 +137,7 @@ var a: (() => number) | () => string
                                 "end": 36
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 36
                         },
                         "initializer": null,

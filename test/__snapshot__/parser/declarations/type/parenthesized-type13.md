@@ -48,13 +48,29 @@ type X = ("string");
                 "end": 8
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134217967,
-                    "text": "string",
-                    "flags": 2097216,
-                    "start": 10,
-                    "end": 18
+                    "kind": 290,
+                    "type": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134217967,
+                            "text": "string",
+                            "flags": 2097216,
+                            "start": 10,
+                            "end": 18
+                        },
+                        "flags": 2097152,
+                        "start": 10,
+                        "end": 18
+                    },
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 19
                 },
                 "flags": 2097152,
                 "start": 8,

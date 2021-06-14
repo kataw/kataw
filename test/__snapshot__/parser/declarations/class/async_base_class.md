@@ -100,6 +100,8 @@ async function foo() {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -116,42 +118,58 @@ async function foo() {
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "Class",
-                                                    "rawText": "Class",
-                                                    "flags": 96,
-                                                    "start": 28,
-                                                    "end": 33
-                                                },
-                                                "typeParameters": {
-                                                    "kind": 309,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 310,
-                                                            "type": {
-                                                                "kind": 144,
-                                                                "id": {
-                                                                    "kind": 134299649,
-                                                                    "text": "C",
-                                                                    "rawText": "C",
-                                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "Class",
+                                                        "rawText": "Class",
+                                                        "flags": 96,
+                                                        "start": 28,
+                                                        "end": 33
+                                                    },
+                                                    "typeParameters": {
+                                                        "kind": 309,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 310,
+                                                                "type": {
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 144,
+                                                                        "id": {
+                                                                            "kind": 134299649,
+                                                                            "text": "C",
+                                                                            "rawText": "C",
+                                                                            "flags": 96,
+                                                                            "start": 34,
+                                                                            "end": 35
+                                                                        },
+                                                                        "typeParameters": null,
+                                                                        "flags": 2097152,
+                                                                        "start": 34,
+                                                                        "end": 35
+                                                                    },
+                                                                    "flags": 2097152,
                                                                     "start": 34,
                                                                     "end": 35
                                                                 },
-                                                                "typeParameters": null,
                                                                 "flags": 2097152,
                                                                 "start": 34,
                                                                 "end": 35
-                                                            },
-                                                            "flags": 2097152,
-                                                            "start": 34,
-                                                            "end": 35
-                                                        }
-                                                    ],
+                                                            }
+                                                        ],
+                                                        "flags": 2097152,
+                                                        "start": 33,
+                                                        "end": 36
+                                                    },
                                                     "flags": 2097152,
-                                                    "start": 33,
+                                                    "start": 28,
                                                     "end": 36
                                                 },
                                                 "flags": 2097152,
@@ -172,7 +190,7 @@ async function foo() {
                                 "end": 37
                             },
                             "flags": 2097152,
-                            "start": 18,
+                            "start": 19,
                             "end": 37
                         },
                         "initializer": {

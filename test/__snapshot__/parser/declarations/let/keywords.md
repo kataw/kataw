@@ -59,6 +59,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -66,7 +68,7 @@ let nx: mixed;
                                 "end": 10
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 10
                         },
                         "initializer": null,
@@ -107,6 +109,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234255,
                                 "flags": 2097216,
@@ -114,7 +118,7 @@ let nx: mixed;
                                 "end": 27
                             },
                             "flags": 2097152,
-                            "start": 18,
+                            "start": 19,
                             "end": 27
                         },
                         "initializer": null,
@@ -155,6 +159,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
@@ -162,7 +168,7 @@ let nx: mixed;
                                 "end": 43
                             },
                             "flags": 2097152,
-                            "start": 34,
+                            "start": 35,
                             "end": 43
                         },
                         "initializer": null,
@@ -203,6 +209,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234349,
                                 "flags": 2097216,
@@ -210,7 +218,7 @@ let nx: mixed;
                                 "end": 58
                             },
                             "flags": 2097152,
-                            "start": 51,
+                            "start": 52,
                             "end": 58
                         },
                         "initializer": null,
@@ -251,6 +259,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 138477575,
                                 "flags": 2097216,
@@ -258,7 +268,7 @@ let nx: mixed;
                                 "end": 73
                             },
                             "flags": 2097152,
-                            "start": 67,
+                            "start": 68,
                             "end": 73
                         },
                         "initializer": null,
@@ -299,6 +309,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -306,7 +318,7 @@ let nx: mixed;
                                 "end": 90
                             },
                             "flags": 2097152,
-                            "start": 82,
+                            "start": 83,
                             "end": 90
                         },
                         "initializer": null,
@@ -347,6 +359,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234346,
                                 "flags": 2097216,
@@ -354,7 +368,7 @@ let nx: mixed;
                                 "end": 105
                             },
                             "flags": 2097152,
-                            "start": 97,
+                            "start": 98,
                             "end": 105
                         },
                         "initializer": null,
@@ -395,6 +409,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -402,7 +418,7 @@ let nx: mixed;
                                 "end": 121
                             },
                             "flags": 2097152,
-                            "start": 113,
+                            "start": 114,
                             "end": 121
                         },
                         "initializer": null,
@@ -443,6 +459,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234343,
                                 "flags": 2097216,
@@ -450,7 +468,7 @@ let nx: mixed;
                                 "end": 137
                             },
                             "flags": 2097152,
-                            "start": 129,
+                            "start": 130,
                             "end": 137
                         },
                         "initializer": null,
@@ -491,6 +509,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234253,
                                 "flags": 2097216,
@@ -498,7 +518,7 @@ let nx: mixed;
                                 "end": 155
                             },
                             "flags": 2097152,
-                            "start": 144,
+                            "start": 145,
                             "end": 155
                         },
                         "initializer": null,
@@ -539,6 +559,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 138477615,
                                 "flags": 2097216,
@@ -546,7 +568,7 @@ let nx: mixed;
                                 "end": 168
                             },
                             "flags": 2097152,
-                            "start": 162,
+                            "start": 163,
                             "end": 168
                         },
                         "initializer": null,
@@ -587,6 +609,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -603,7 +627,7 @@ let nx: mixed;
                                 "end": 183
                             },
                             "flags": 2097152,
-                            "start": 175,
+                            "start": 176,
                             "end": 183
                         },
                         "initializer": null,
@@ -644,6 +668,8 @@ let nx: mixed;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -660,7 +686,7 @@ let nx: mixed;
                                 "end": 198
                             },
                             "flags": 2097152,
-                            "start": 191,
+                            "start": 192,
                             "end": 198
                         },
                         "initializer": null,

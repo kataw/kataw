@@ -154,6 +154,8 @@ class C<T> {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -170,16 +172,24 @@ class C<T> {
                                             {
                                                 "kind": 310,
                                                 "type": {
-                                                    "kind": 144,
-                                                    "id": {
-                                                        "kind": 134299649,
-                                                        "text": "T",
-                                                        "rawText": "T",
-                                                        "flags": 96,
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 144,
+                                                        "id": {
+                                                            "kind": 134299649,
+                                                            "text": "T",
+                                                            "rawText": "T",
+                                                            "flags": 96,
+                                                            "start": 41,
+                                                            "end": 42
+                                                        },
+                                                        "typeParameters": null,
+                                                        "flags": 2097152,
                                                         "start": 41,
                                                         "end": 42
                                                     },
-                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "start": 41,
                                                     "end": 42
@@ -198,7 +208,7 @@ class C<T> {
                                     "end": 43
                                 },
                                 "flags": 2097152,
-                                "start": 37,
+                                "start": 38,
                                 "end": 43
                             },
                             "initializer": null,
@@ -247,6 +257,8 @@ class C<T> {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -263,16 +275,24 @@ class C<T> {
                                                 {
                                                     "kind": 310,
                                                     "type": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "T",
-                                                            "rawText": "T",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "T",
+                                                                "rawText": "T",
+                                                                "flags": 96,
+                                                                "start": 60,
+                                                                "end": 61
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 60,
                                                             "end": 61
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 60,
                                                         "end": 61
@@ -291,7 +311,7 @@ class C<T> {
                                         "end": 62
                                     },
                                     "flags": 2097152,
-                                    "start": 56,
+                                    "start": 57,
                                     "end": 62
                                 },
                                 "contents": {

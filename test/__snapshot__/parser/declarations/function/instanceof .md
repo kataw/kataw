@@ -61,6 +61,8 @@ function foo(value: AOrString) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -77,7 +79,7 @@ function foo(value: AOrString) {
                                 "end": 29
                             },
                             "flags": 2097152,
-                            "start": 18,
+                            "start": 19,
                             "end": 29
                         },
                         "right": null,

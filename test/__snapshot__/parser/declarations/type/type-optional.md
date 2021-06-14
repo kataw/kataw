@@ -59,15 +59,23 @@ type a = ??string;
                 "end": 8
             },
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 8,
+                        "end": 8
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 8,
                     "end": 8
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 8,
                 "end": 8

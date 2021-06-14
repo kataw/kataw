@@ -182,6 +182,8 @@ class Bar {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -189,7 +191,7 @@ class Bar {
                                                     "end": 65
                                                 },
                                                 "flags": 2097152,
-                                                "start": 57,
+                                                "start": 58,
                                                 "end": 65
                                             },
                                             "right": null,

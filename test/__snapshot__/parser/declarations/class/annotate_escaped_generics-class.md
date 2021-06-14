@@ -97,6 +97,8 @@ class B<X> {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -113,7 +115,7 @@ class B<X> {
                                     "end": 19
                                 },
                                 "flags": 2097152,
-                                "start": 16,
+                                "start": 17,
                                 "end": 19
                             },
                             "initializer": null,

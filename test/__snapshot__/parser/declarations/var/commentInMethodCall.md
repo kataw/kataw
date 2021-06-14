@@ -51,6 +51,8 @@ s.map(// do something
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 136,
                                 "type": {
@@ -64,7 +66,7 @@ s.map(// do something
                                 "end": 31
                             },
                             "flags": 2097152,
-                            "start": 21,
+                            "start": 22,
                             "end": 31
                         },
                         "initializer": null,

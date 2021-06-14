@@ -69,6 +69,8 @@ var f = (x): ((number) => 123) => 123;
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 290,
                                     "type": {
@@ -95,9 +97,17 @@ var f = (x): ((number) => 123) => 123;
                                             "end": 25
                                         },
                                         "returnType": {
-                                            "kind": 134217968,
-                                            "text": 123,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134217968,
+                                                "text": 123,
+                                                "flags": 2097216,
+                                                "start": 25,
+                                                "end": 29
+                                            },
+                                            "flags": 2097152,
                                             "start": 25,
                                             "end": 29
                                         },
@@ -111,7 +121,7 @@ var f = (x): ((number) => 123) => 123;
                                     "end": 30
                                 },
                                 "flags": 2097152,
-                                "start": 11,
+                                "start": 12,
                                 "end": 30
                             },
                             "contents": {

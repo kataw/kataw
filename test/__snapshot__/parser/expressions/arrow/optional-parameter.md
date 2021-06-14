@@ -58,6 +58,8 @@
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -65,7 +67,7 @@
                                 "end": 11
                             },
                             "flags": 2097152,
-                            "start": 3,
+                            "start": 4,
                             "end": 11
                         },
                         "right": null,
@@ -77,6 +79,8 @@
                 "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
                     "type": {
                         "kind": 134234252,
                         "flags": 2097216,
@@ -84,7 +88,7 @@
                         "end": 17
                     },
                     "flags": 2097152,
-                    "start": 12,
+                    "start": 13,
                     "end": 17
                 },
                 "contents": {
@@ -236,6 +240,8 @@
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -243,7 +249,7 @@
                                 "end": 58
                             },
                             "flags": 2097152,
-                            "start": 50,
+                            "start": 51,
                             "end": 58
                         },
                         "right": null,
@@ -255,6 +261,8 @@
                 "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
                     "type": {
                         "kind": 134234252,
                         "flags": 2097216,
@@ -262,7 +270,7 @@
                         "end": 64
                     },
                     "flags": 2097152,
-                    "start": 59,
+                    "start": 60,
                     "end": 64
                 },
                 "contents": {

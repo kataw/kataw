@@ -99,6 +99,8 @@ x = {set this(this: string):number{}};
                                     },
                                     "returnType": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -106,7 +108,7 @@ x = {set this(this: string):number{}};
                                             "end": 26
                                         },
                                         "flags": 2097152,
-                                        "start": 19,
+                                        "start": 20,
                                         "end": 26
                                     },
                                     "contents": {
@@ -211,6 +213,8 @@ x = {set this(this: string):number{}};
                                                 "optionalToken": null,
                                                 "type": {
                                                     "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 134234347,
                                                         "flags": 2097216,
@@ -218,7 +222,7 @@ x = {set this(this: string):number{}};
                                                         "end": 58
                                                     },
                                                     "flags": 2097152,
-                                                    "start": 50,
+                                                    "start": 51,
                                                     "end": 58
                                                 },
                                                 "right": null,
@@ -234,6 +238,8 @@ x = {set this(this: string):number{}};
                                     },
                                     "returnType": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -241,7 +247,7 @@ x = {set this(this: string):number{}};
                                             "end": 66
                                         },
                                         "flags": 2097152,
-                                        "start": 59,
+                                        "start": 60,
                                         "end": 66
                                     },
                                     "contents": {

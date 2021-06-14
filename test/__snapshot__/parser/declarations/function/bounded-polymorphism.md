@@ -79,6 +79,8 @@ function bar<T: ?number>() {}
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -98,7 +100,7 @@ function bar<T: ?number>() {}
                                 "end": 23
                             },
                             "flags": 2097152,
-                            "start": 14,
+                            "start": 15,
                             "end": 23
                         },
                         "defaultType": null,

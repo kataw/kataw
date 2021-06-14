@@ -83,6 +83,8 @@ function F<T>() {
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -99,7 +101,7 @@ function F<T>() {
                                                 "end": 31
                                             },
                                             "flags": 2097152,
-                                            "start": 28,
+                                            "start": 29,
                                             "end": 31
                                         },
                                         "initializer": null,

@@ -48,6 +48,8 @@ var obj: { foo?: boolean } = {};
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -72,8 +74,16 @@ var obj: { foo?: boolean } = {};
                                             "end": 15
                                         },
                                         "value": {
-                                            "kind": 134234254,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234254,
+                                                "flags": 2097216,
+                                                "start": 16,
+                                                "end": 24
+                                            },
+                                            "flags": 2097152,
                                             "start": 16,
                                             "end": 24
                                         },
@@ -88,7 +98,7 @@ var obj: { foo?: boolean } = {};
                                 "end": 26
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 26
                         },
                         "initializer": {

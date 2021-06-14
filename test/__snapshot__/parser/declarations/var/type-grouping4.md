@@ -48,32 +48,42 @@ var a: (typeof A)
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 290,
                                 "type": {
-                                    "kind": 134299891,
-                                    "typeOfKeyword": {
-                                        "kind": 138477613,
-                                        "flags": 64,
-                                        "start": 8,
-                                        "end": 14
-                                    },
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "A",
-                                            "rawText": "A",
-                                            "flags": 96,
+                                        "kind": 134299891,
+                                        "typeOfKeyword": {
+                                            "kind": 138477613,
+                                            "flags": 64,
+                                            "start": 8,
+                                            "end": 14
+                                        },
+                                        "type": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "A",
+                                                "rawText": "A",
+                                                "flags": 96,
+                                                "start": 14,
+                                                "end": 16
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 2097152,
                                             "start": 14,
                                             "end": 16
                                         },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
-                                        "start": 14,
+                                        "flags": 2097216,
+                                        "start": 8,
                                         "end": 16
                                     },
-                                    "flags": 2097216,
+                                    "flags": 2097152,
                                     "start": 8,
                                     "end": 16
                                 },
@@ -82,7 +92,7 @@ var a: (typeof A)
                                 "end": 17
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 17
                         },
                         "initializer": null,

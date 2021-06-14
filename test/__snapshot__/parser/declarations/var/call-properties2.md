@@ -54,6 +54,8 @@ var c: { (): string; (x: number): string } =
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -71,8 +73,16 @@ var c: { (): string; (x: number): string } =
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 68,
+                                                "end": 75
+                                            },
+                                            "flags": 2097152,
                                             "start": 68,
                                             "end": 75
                                         },
@@ -100,8 +110,16 @@ var c: { (): string; (x: number): string } =
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234345,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 80,
+                                                            "end": 87
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 80,
                                                         "end": 87
                                                     },
@@ -117,8 +135,16 @@ var c: { (): string; (x: number): string } =
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 89,
+                                                "end": 96
+                                            },
+                                            "flags": 2097152,
                                             "start": 89,
                                             "end": 96
                                         },
@@ -133,7 +159,7 @@ var c: { (): string; (x: number): string } =
                                 "end": 98
                             },
                             "flags": 2097152,
-                            "start": 61,
+                            "start": 62,
                             "end": 98
                         },
                         "initializer": {
@@ -169,6 +195,8 @@ var c: { (): string; (x: number): string } =
                                         },
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
@@ -176,7 +204,7 @@ var c: { (): string; (x: number): string } =
                                                 "end": 123
                                             },
                                             "flags": 2097152,
-                                            "start": 115,
+                                            "start": 116,
                                             "end": 123
                                         },
                                         "right": null,
@@ -228,6 +256,8 @@ var c: { (): string; (x: number): string } =
                             "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -235,7 +265,7 @@ var c: { (): string; (x: number): string } =
                                     "end": 132
                                 },
                                 "flags": 2097152,
-                                "start": 124,
+                                "start": 125,
                                 "end": 132
                             },
                             "flags": 32,
@@ -280,6 +310,8 @@ var c: { (): string; (x: number): string } =
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -297,8 +329,16 @@ var c: { (): string; (x: number): string } =
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 229,
+                                                "end": 236
+                                            },
+                                            "flags": 2097152,
                                             "start": 229,
                                             "end": 236
                                         },
@@ -326,8 +366,16 @@ var c: { (): string; (x: number): string } =
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234345,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 241,
+                                                            "end": 248
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 241,
                                                         "end": 248
                                                     },
@@ -343,8 +391,16 @@ var c: { (): string; (x: number): string } =
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 250,
+                                                "end": 257
+                                            },
+                                            "flags": 2097152,
                                             "start": 250,
                                             "end": 257
                                         },
@@ -359,7 +415,7 @@ var c: { (): string; (x: number): string } =
                                 "end": 259
                             },
                             "flags": 2097152,
-                            "start": 222,
+                            "start": 223,
                             "end": 259
                         },
                         "initializer": {
@@ -390,6 +446,8 @@ var c: { (): string; (x: number): string } =
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
@@ -397,7 +455,7 @@ var c: { (): string; (x: number): string } =
                                                 "end": 283
                                             },
                                             "flags": 2097152,
-                                            "start": 275,
+                                            "start": 276,
                                             "end": 283
                                         },
                                         "right": null,
@@ -449,6 +507,8 @@ var c: { (): string; (x: number): string } =
                             "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -456,7 +516,7 @@ var c: { (): string; (x: number): string } =
                                     "end": 292
                                 },
                                 "flags": 2097152,
-                                "start": 284,
+                                "start": 285,
                                 "end": 292
                             },
                             "flags": 32,

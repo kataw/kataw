@@ -75,6 +75,8 @@ const foo = (foo?: bar) => {};
                                     },
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -91,7 +93,7 @@ const foo = (foo?: bar) => {};
                                             "end": 22
                                         },
                                         "flags": 2097152,
-                                        "start": 17,
+                                        "start": 18,
                                         "end": 22
                                     },
                                     "right": null,

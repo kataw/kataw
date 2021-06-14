@@ -47,18 +47,36 @@ let tuple2: [number, boolean] = [1, true];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 147,
                                 "elementTypes": [
                                     {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 13,
+                                            "end": 19
+                                        },
+                                        "flags": 2097152,
                                         "start": 13,
                                         "end": 19
                                     },
                                     {
-                                        "kind": 134234254,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234254,
+                                            "flags": 2097216,
+                                            "start": 20,
+                                            "end": 28
+                                        },
+                                        "flags": 2097152,
                                         "start": 20,
                                         "end": 28
                                     }
@@ -69,7 +87,7 @@ let tuple2: [number, boolean] = [1, true];
                                 "end": 29
                             },
                             "flags": 2097152,
-                            "start": 10,
+                            "start": 11,
                             "end": 29
                         },
                         "initializer": {

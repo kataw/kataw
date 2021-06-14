@@ -47,20 +47,30 @@ let x: [y,,] = z;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 147,
                                 "elementTypes": [
                                     {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 8,
+                                                "end": 9
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 2097152,
                                             "start": 8,
                                             "end": 9
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 8,
                                         "end": 9
@@ -72,7 +82,7 @@ let x: [y,,] = z;
                                 "end": 10
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 10
                         },
                         "initializer": null,

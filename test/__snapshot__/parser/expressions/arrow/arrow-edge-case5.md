@@ -105,6 +105,8 @@ a ? (b = (c) => d) : e => f : g;
                     "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -121,7 +123,7 @@ a ? (b = (c) => d) : e => f : g;
                             "end": 22
                         },
                         "flags": 2097152,
-                        "start": 18,
+                        "start": 20,
                         "end": 22
                     },
                     "contents": {

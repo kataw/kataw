@@ -48,46 +48,70 @@ type X = {[(x)]: string};
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 195,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "name": null,
-                        "key": {
-                            "kind": 290,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 12,
-                                    "end": 13
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 195,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "name": null,
+                            "key": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 290,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 12,
+                                            "end": 13
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
+                                        "start": 11,
+                                        "end": 13
+                                    },
+                                    "flags": 2097152,
+                                    "start": 11,
+                                    "end": 14
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 11,
-                                "end": 13
+                                "end": 14
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 16,
+                                    "end": 23
+                                },
+                                "flags": 2097152,
+                                "start": 16,
+                                "end": 23
                             },
                             "flags": 2097152,
-                            "start": 11,
-                            "end": 14
-                        },
-                        "type": {
-                            "kind": 134234347,
-                            "flags": 2097216,
-                            "start": 16,
+                            "start": 10,
                             "end": 23
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 23
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 24
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 24

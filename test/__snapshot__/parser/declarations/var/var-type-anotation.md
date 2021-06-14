@@ -62,6 +62,8 @@ var foo = ((): number => bar);
                                 "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -69,7 +71,7 @@ var foo = ((): number => bar);
                                         "end": 21
                                     },
                                     "flags": 2097152,
-                                    "start": 13,
+                                    "start": 14,
                                     "end": 21
                                 },
                                 "contents": {

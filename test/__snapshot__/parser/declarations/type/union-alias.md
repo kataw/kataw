@@ -48,32 +48,40 @@ type UnionAlias = 1 | 2 | 3;
                 "end": 17
             },
             "type": {
-                "kind": 137,
-                "types": [
-                    {
-                        "kind": 134217968,
-                        "text": 1,
-                        "flags": 2097216,
-                        "start": 17,
-                        "end": 19
-                    },
-                    {
-                        "kind": 134217968,
-                        "text": 2,
-                        "flags": 2097216,
-                        "start": 21,
-                        "end": 23
-                    },
-                    {
-                        "kind": 134217968,
-                        "text": 3,
-                        "flags": 2097216,
-                        "start": 25,
-                        "end": 27
-                    }
-                ],
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 137,
+                    "types": [
+                        {
+                            "kind": 134217968,
+                            "text": 1,
+                            "flags": 2097216,
+                            "start": 17,
+                            "end": 19
+                        },
+                        {
+                            "kind": 134217968,
+                            "text": 2,
+                            "flags": 2097216,
+                            "start": 21,
+                            "end": 23
+                        },
+                        {
+                            "kind": 134217968,
+                            "text": 3,
+                            "flags": 2097216,
+                            "start": 25,
+                            "end": 27
+                        }
+                    ],
+                    "flags": 2097152,
+                    "start": 19,
+                    "end": 27
+                },
                 "flags": 2097152,
-                "start": 19,
+                "start": 17,
                 "end": 27
             },
             "flags": 2097152,

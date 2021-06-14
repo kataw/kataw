@@ -92,6 +92,8 @@ class B extends A {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234252,
                                                     "flags": 2097216,
@@ -99,7 +101,7 @@ class B extends A {
                                                     "end": 31
                                                 },
                                                 "flags": 2097152,
-                                                "start": 27,
+                                                "start": 28,
                                                 "end": 31
                                             },
                                             "right": null,

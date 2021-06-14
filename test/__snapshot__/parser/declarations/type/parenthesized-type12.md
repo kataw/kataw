@@ -48,12 +48,28 @@ type X = (1<z>[]);
                 "end": 8
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134217968,
-                    "text": 1,
-                    "flags": 2097216,
-                    "start": 10,
+                    "kind": 290,
+                    "type": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134217968,
+                            "text": 1,
+                            "flags": 2097216,
+                            "start": 10,
+                            "end": 11
+                        },
+                        "flags": 2097152,
+                        "start": 10,
+                        "end": 11
+                    },
+                    "flags": 2097152,
+                    "start": 8,
                     "end": 11
                 },
                 "flags": 2097152,

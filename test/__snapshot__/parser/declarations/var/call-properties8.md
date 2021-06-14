@@ -48,6 +48,8 @@ var e: { (x: any): void } = function() { } // arity
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -71,8 +73,16 @@ var e: { (x: any): void } = function() { } // arity
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234252,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234252,
+                                                            "flags": 2097216,
+                                                            "start": 12,
+                                                            "end": 16
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 12,
                                                         "end": 16
                                                     },
@@ -88,8 +98,16 @@ var e: { (x: any): void } = function() { } // arity
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 138477615,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 138477615,
+                                                "flags": 2097216,
+                                                "start": 18,
+                                                "end": 23
+                                            },
+                                            "flags": 2097152,
                                             "start": 18,
                                             "end": 23
                                         },
@@ -104,7 +122,7 @@ var e: { (x: any): void } = function() { } // arity
                                 "end": 25
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 25
                         },
                         "initializer": {

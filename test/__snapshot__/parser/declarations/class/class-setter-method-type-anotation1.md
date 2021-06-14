@@ -90,6 +90,8 @@ class Foo {set fooProp(value:number):void{}}
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -97,7 +99,7 @@ class Foo {set fooProp(value:number):void{}}
                                                     "end": 35
                                                 },
                                                 "flags": 2097152,
-                                                "start": 28,
+                                                "start": 29,
                                                 "end": 35
                                             },
                                             "right": null,
@@ -113,6 +115,8 @@ class Foo {set fooProp(value:number):void{}}
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
@@ -120,7 +124,7 @@ class Foo {set fooProp(value:number):void{}}
                                         "end": 41
                                     },
                                     "flags": 2097152,
-                                    "start": 36,
+                                    "start": 37,
                                     "end": 41
                                 },
                                 "contents": {

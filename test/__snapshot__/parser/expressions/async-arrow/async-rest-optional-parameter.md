@@ -57,6 +57,8 @@ async(...args?: any[]) : any => {}
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234252,
                     "flags": 2097216,
@@ -64,7 +66,7 @@ async(...args?: any[]) : any => {}
                     "end": 28
                 },
                 "flags": 2097152,
-                "start": 22,
+                "start": 24,
                 "end": 28
             },
             "contents": {

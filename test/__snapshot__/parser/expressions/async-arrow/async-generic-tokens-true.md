@@ -70,6 +70,8 @@ async <T>(a: T): T => a;
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -86,7 +88,7 @@ async <T>(a: T): T => a;
                             "end": 14
                         },
                         "flags": 2097152,
-                        "start": 11,
+                        "start": 12,
                         "end": 14
                     },
                     "right": null,
@@ -103,6 +105,8 @@ async <T>(a: T): T => a;
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
                     "id": {
@@ -119,7 +123,7 @@ async <T>(a: T): T => a;
                     "end": 18
                 },
                 "flags": 2097152,
-                "start": 15,
+                "start": 16,
                 "end": 18
             },
             "contents": {

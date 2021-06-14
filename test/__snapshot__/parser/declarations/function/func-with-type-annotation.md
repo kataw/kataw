@@ -61,6 +61,8 @@ function a<string>(x: string): string {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -68,7 +70,7 @@ function a<string>(x: string): string {
                                 "end": 28
                             },
                             "flags": 2097152,
-                            "start": 20,
+                            "start": 21,
                             "end": 28
                         },
                         "right": null,
@@ -143,9 +145,19 @@ function a<string>(x: string): string {
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 2097216,
+                        "start": 30,
+                        "end": 37
+                    },
+                    "flags": 2097152,
                     "start": 30,
                     "end": 37
                 },

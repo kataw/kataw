@@ -68,6 +68,8 @@ async (...[x]?: string, a?) => {};
                     },
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -75,7 +77,7 @@ async (...[x]?: string, a?) => {};
                             "end": 17
                         },
                         "flags": 2097152,
-                        "start": 9,
+                        "start": 10,
                         "end": 17
                     },
                     "right": null,
@@ -154,6 +156,8 @@ async (...[x]?: string, a?) => {};
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -161,7 +165,7 @@ async (...[x]?: string, a?) => {};
                             "end": 45
                         },
                         "flags": 2097152,
-                        "start": 37,
+                        "start": 38,
                         "end": 45
                     },
                     "right": null,
@@ -248,6 +252,8 @@ async (...[x]?: string, a?) => {};
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -255,7 +261,7 @@ async (...[x]?: string, a?) => {};
                             "end": 76
                         },
                         "flags": 2097152,
-                        "start": 68,
+                        "start": 69,
                         "end": 76
                     },
                     "right": null,
@@ -342,6 +348,8 @@ async (...[x]?: string, a?) => {};
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -349,7 +357,7 @@ async (...[x]?: string, a?) => {};
                             "end": 107
                         },
                         "flags": 2097152,
-                        "start": 99,
+                        "start": 100,
                         "end": 107
                     },
                     "right": null,
@@ -371,6 +379,8 @@ async (...[x]?: string, a?) => {};
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
@@ -378,7 +388,7 @@ async (...[x]?: string, a?) => {};
                             "end": 118
                         },
                         "flags": 2097152,
-                        "start": 110,
+                        "start": 111,
                         "end": 118
                     },
                     "right": null,
@@ -462,6 +472,8 @@ async (...[x]?: string, a?) => {};
                     },
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -469,7 +481,7 @@ async (...[x]?: string, a?) => {};
                             "end": 147
                         },
                         "flags": 2097152,
-                        "start": 139,
+                        "start": 140,
                         "end": 147
                     },
                     "right": null,
@@ -561,6 +573,8 @@ async (...[x]?: string, a?) => {};
                     },
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -568,7 +582,7 @@ async (...[x]?: string, a?) => {};
                             "end": 179
                         },
                         "flags": 2097152,
-                        "start": 171,
+                        "start": 172,
                         "end": 179
                     },
                     "right": null,

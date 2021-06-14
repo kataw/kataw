@@ -53,6 +53,8 @@ var a?: number[][]
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 136,
                                 "type": {
@@ -72,7 +74,7 @@ var a?: number[][]
                                 "end": 18
                             },
                             "flags": 2097152,
-                            "start": 6,
+                            "start": 7,
                             "end": 18
                         },
                         "initializer": null,

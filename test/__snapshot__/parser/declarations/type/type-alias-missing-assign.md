@@ -43,15 +43,23 @@ type x
             "typeParameters": null,
             "assignToken": null,
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 6,
+                        "end": 6
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 6,
                     "end": 6
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 6,
                 "end": 6

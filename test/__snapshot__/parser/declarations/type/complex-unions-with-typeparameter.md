@@ -73,97 +73,121 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                 "end": 14
             },
             "type": {
-                "kind": 137,
-                "types": [
-                    {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "FieldExpr",
-                            "rawText": "FieldExpr",
-                            "flags": 96,
-                            "start": 14,
-                            "end": 24
-                        },
-                        "typeParameters": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 137,
+                    "types": [
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "FieldExpr",
+                                "rawText": "FieldExpr",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 24
+                            },
+                            "typeParameters": {
+                                "kind": 309,
+                                "parameters": [
+                                    {
+                                        "kind": 310,
+                                        "type": {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 25,
+                                                    "end": 26
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 25,
+                                                "end": 26
+                                            },
+                                            "flags": 2097152,
                                             "start": 25,
                                             "end": 26
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 25,
                                         "end": 26
-                                    },
-                                    "flags": 2097152,
-                                    "start": 25,
-                                    "end": 26
-                                }
-                            ],
+                                    }
+                                ],
+                                "flags": 2097152,
+                                "start": 24,
+                                "end": 27
+                            },
                             "flags": 2097152,
-                            "start": 24,
+                            "start": 14,
                             "end": 27
                         },
-                        "flags": 2097152,
-                        "start": 14,
-                        "end": 27
-                    },
-                    {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "LiteralExpr",
-                            "rawText": "LiteralExpr",
-                            "flags": 96,
-                            "start": 29,
-                            "end": 41
-                        },
-                        "typeParameters": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "LiteralExpr",
+                                "rawText": "LiteralExpr",
+                                "flags": 96,
+                                "start": 29,
+                                "end": 41
+                            },
+                            "typeParameters": {
+                                "kind": 309,
+                                "parameters": [
+                                    {
+                                        "kind": 310,
+                                        "type": {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 42,
+                                                    "end": 43
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 42,
+                                                "end": 43
+                                            },
+                                            "flags": 2097152,
                                             "start": 42,
                                             "end": 43
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 42,
                                         "end": 43
-                                    },
-                                    "flags": 2097152,
-                                    "start": 42,
-                                    "end": 43
-                                }
-                            ],
+                                    }
+                                ],
+                                "flags": 2097152,
+                                "start": 41,
+                                "end": 44
+                            },
                             "flags": 2097152,
-                            "start": 41,
+                            "start": 29,
                             "end": 44
-                        },
-                        "flags": 2097152,
-                        "start": 29,
-                        "end": 44
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 2097152,
+                    "start": 27,
+                    "end": 44
+                },
                 "flags": 2097152,
-                "start": 27,
+                "start": 14,
                 "end": 44
             },
             "flags": 2097152,
@@ -218,97 +242,121 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                 "end": 69
             },
             "type": {
-                "kind": 137,
-                "types": [
-                    {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Expr",
-                            "rawText": "Expr",
-                            "flags": 96,
-                            "start": 69,
-                            "end": 74
-                        },
-                        "typeParameters": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "Constant",
-                                            "rawText": "Constant",
-                                            "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 137,
+                    "types": [
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "Expr",
+                                "rawText": "Expr",
+                                "flags": 96,
+                                "start": 69,
+                                "end": 74
+                            },
+                            "typeParameters": {
+                                "kind": 309,
+                                "parameters": [
+                                    {
+                                        "kind": 310,
+                                        "type": {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "Constant",
+                                                    "rawText": "Constant",
+                                                    "flags": 96,
+                                                    "start": 75,
+                                                    "end": 83
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 75,
+                                                "end": 83
+                                            },
+                                            "flags": 2097152,
                                             "start": 75,
                                             "end": 83
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 75,
                                         "end": 83
-                                    },
-                                    "flags": 2097152,
-                                    "start": 75,
-                                    "end": 83
-                                }
-                            ],
+                                    }
+                                ],
+                                "flags": 2097152,
+                                "start": 74,
+                                "end": 84
+                            },
                             "flags": 2097152,
-                            "start": 74,
+                            "start": 69,
                             "end": 84
                         },
-                        "flags": 2097152,
-                        "start": 69,
-                        "end": 84
-                    },
-                    {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "LiteralExpr",
-                            "rawText": "LiteralExpr",
-                            "flags": 96,
-                            "start": 86,
-                            "end": 98
-                        },
-                        "typeParameters": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
+                        {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "LiteralExpr",
+                                "rawText": "LiteralExpr",
+                                "flags": 96,
+                                "start": 86,
+                                "end": 98
+                            },
+                            "typeParameters": {
+                                "kind": 309,
+                                "parameters": [
+                                    {
+                                        "kind": 310,
+                                        "type": {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 99,
+                                                    "end": 100
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 99,
+                                                "end": 100
+                                            },
+                                            "flags": 2097152,
                                             "start": 99,
                                             "end": 100
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 99,
                                         "end": 100
-                                    },
-                                    "flags": 2097152,
-                                    "start": 99,
-                                    "end": 100
-                                }
-                            ],
+                                    }
+                                ],
+                                "flags": 2097152,
+                                "start": 98,
+                                "end": 101
+                            },
                             "flags": 2097152,
-                            "start": 98,
+                            "start": 86,
                             "end": 101
-                        },
-                        "flags": 2097152,
-                        "start": 86,
-                        "end": 101
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 2097152,
+                    "start": 84,
+                    "end": 101
+                },
                 "flags": 2097152,
-                "start": 84,
+                "start": 69,
                 "end": 101
             },
             "flags": 2097153,

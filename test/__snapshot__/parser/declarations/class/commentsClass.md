@@ -685,6 +685,8 @@ class c9 {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -692,7 +694,7 @@ class c9 {
                                     "end": 492
                                 },
                                 "flags": 2097152,
-                                "start": 484,
+                                "start": 485,
                                 "end": 492
                             },
                             "initializer": null,
@@ -876,6 +878,8 @@ class c9 {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -883,7 +887,7 @@ class c9 {
                                     "end": 661
                                 },
                                 "flags": 2097152,
-                                "start": 653,
+                                "start": 654,
                                 "end": 661
                             },
                             "initializer": null,
@@ -1118,6 +1122,8 @@ class c9 {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -1125,7 +1131,7 @@ class c9 {
                                     "end": 883
                                 },
                                 "flags": 2097152,
-                                "start": 875,
+                                "start": 876,
                                 "end": 883
                             },
                             "initializer": null,
@@ -1360,6 +1366,8 @@ class c9 {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -1367,7 +1375,7 @@ class c9 {
                                     "end": 1072
                                 },
                                 "flags": 2097152,
-                                "start": 1064,
+                                "start": 1065,
                                 "end": 1072
                             },
                             "initializer": null,

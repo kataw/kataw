@@ -47,6 +47,8 @@ let x: Array<() => void>;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -63,28 +65,44 @@ let x: Array<() => void>;
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 288,
-                                                "arrowTypeParameterList": {
-                                                    "kind": 292,
-                                                    "parameters": [],
-                                                    "trailingComma": false,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 288,
+                                                    "arrowTypeParameterList": {
+                                                        "kind": 292,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 2097152,
+                                                        "start": 14,
+                                                        "end": 14
+                                                    },
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 15,
+                                                        "end": 18
+                                                    },
+                                                    "returnType": {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 138477615,
+                                                            "flags": 2097216,
+                                                            "start": 18,
+                                                            "end": 23
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 18,
+                                                        "end": 23
+                                                    },
+                                                    "typeParameters": null,
                                                     "flags": 2097152,
-                                                    "start": 14,
-                                                    "end": 14
-                                                },
-                                                "arrowToken": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 15,
-                                                    "end": 18
-                                                },
-                                                "returnType": {
-                                                    "kind": 138477615,
-                                                    "flags": 2097216,
-                                                    "start": 18,
+                                                    "start": 13,
                                                     "end": 23
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 13,
                                                 "end": 23
@@ -103,7 +121,7 @@ let x: Array<() => void>;
                                 "end": 24
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 24
                         },
                         "initializer": null,

@@ -69,6 +69,8 @@ var f = (x): (number) => 123 => 123;
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 290,
                                     "type": {
@@ -82,7 +84,7 @@ var f = (x): (number) => 123 => 123;
                                     "end": 21
                                 },
                                 "flags": 2097152,
-                                "start": 11,
+                                "start": 12,
                                 "end": 21
                             },
                             "contents": {

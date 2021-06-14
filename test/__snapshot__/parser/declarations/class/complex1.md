@@ -124,6 +124,8 @@ class D<T> {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -140,7 +142,7 @@ class D<T> {
                                     "end": 22
                                 },
                                 "flags": 2097152,
-                                "start": 19,
+                                "start": 20,
                                 "end": 22
                             },
                             "initializer": null,
@@ -191,6 +193,8 @@ class D<T> {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -207,7 +211,7 @@ class D<T> {
                                                     "end": 42
                                                 },
                                                 "flags": 2097152,
-                                                "start": 39,
+                                                "start": 40,
                                                 "end": 42
                                             },
                                             "right": null,
@@ -321,6 +325,8 @@ class D<T> {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -337,7 +343,7 @@ class D<T> {
                                         "end": 76
                                     },
                                     "flags": 2097152,
-                                    "start": 73,
+                                    "start": 74,
                                     "end": 76
                                 },
                                 "contents": {
@@ -425,6 +431,8 @@ class D<T> {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -441,7 +449,7 @@ class D<T> {
                                         "end": 116
                                     },
                                     "flags": 2097152,
-                                    "start": 113,
+                                    "start": 114,
                                     "end": 116
                                 },
                                 "contents": {
@@ -577,6 +585,8 @@ class D<T> {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -593,7 +603,7 @@ class D<T> {
                                     "end": 164
                                 },
                                 "flags": 2097152,
-                                "start": 161,
+                                "start": 162,
                                 "end": 164
                             },
                             "initializer": null,
@@ -667,6 +677,8 @@ class D<T> {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -683,7 +695,7 @@ class D<T> {
                                                     "end": 177
                                                 },
                                                 "flags": 2097152,
-                                                "start": 174,
+                                                "start": 175,
                                                 "end": 177
                                             },
                                             "right": null,
@@ -705,6 +717,8 @@ class D<T> {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -721,7 +735,7 @@ class D<T> {
                                                     "end": 183
                                                 },
                                                 "flags": 2097152,
-                                                "start": 180,
+                                                "start": 181,
                                                 "end": 183
                                             },
                                             "right": null,
@@ -737,6 +751,8 @@ class D<T> {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -753,7 +769,7 @@ class D<T> {
                                         "end": 187
                                     },
                                     "flags": 2097152,
-                                    "start": 184,
+                                    "start": 185,
                                     "end": 187
                                 },
                                 "contents": {

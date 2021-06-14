@@ -48,6 +48,8 @@ var a: (number)
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 290,
                                 "type": {
@@ -61,7 +63,7 @@ var a: (number)
                                 "end": 15
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 15
                         },
                         "initializer": null,

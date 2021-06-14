@@ -98,6 +98,8 @@ const f = (x?, y?:Object = {}) => {}
                                     },
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -114,7 +116,7 @@ const f = (x?, y?:Object = {}) => {}
                                             "end": 24
                                         },
                                         "flags": 2097152,
-                                        "start": 17,
+                                        "start": 18,
                                         "end": 24
                                     },
                                     "right": {

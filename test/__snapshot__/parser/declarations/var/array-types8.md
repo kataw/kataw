@@ -52,6 +52,8 @@ var a: typeof A[];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 136,
                                 "type": {
@@ -65,7 +67,7 @@ var a: typeof A[];
                                 "end": 15
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 15
                         },
                         "initializer": null,
@@ -107,6 +109,8 @@ var a: typeof A[];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -132,7 +136,7 @@ var a: typeof A[];
                                 "end": 33
                             },
                             "flags": 2097152,
-                            "start": 22,
+                            "start": 23,
                             "end": 33
                         },
                         "initializer": null,
@@ -174,22 +178,32 @@ var a: typeof A[];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 136,
                                 "type": {
                                     "kind": 290,
                                     "type": {
-                                        "kind": 134217970,
-                                        "nullableToken": {
-                                            "kind": 134217750,
-                                            "flags": 64,
-                                            "start": 43,
-                                            "end": 44
-                                        },
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
-                                            "start": 44,
+                                            "kind": 134217970,
+                                            "nullableToken": {
+                                                "kind": 134217750,
+                                                "flags": 64,
+                                                "start": 43,
+                                                "end": 44
+                                            },
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 44,
+                                                "end": 50
+                                            },
+                                            "flags": 2097152,
+                                            "start": 43,
                                             "end": 50
                                         },
                                         "flags": 2097152,
@@ -205,7 +219,7 @@ var a: typeof A[];
                                 "end": 53
                             },
                             "flags": 2097152,
-                            "start": 40,
+                            "start": 41,
                             "end": 53
                         },
                         "initializer": null,
@@ -247,6 +261,8 @@ var a: typeof A[];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -264,12 +280,20 @@ var a: typeof A[];
                                     "end": 67
                                 },
                                 "returnType": {
-                                    "kind": 136,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 136,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 67,
+                                            "end": 74
+                                        },
+                                        "flags": 2097152,
                                         "start": 67,
-                                        "end": 74
+                                        "end": 76
                                     },
                                     "flags": 2097152,
                                     "start": 67,
@@ -281,7 +305,7 @@ var a: typeof A[];
                                 "end": 76
                             },
                             "flags": 2097152,
-                            "start": 60,
+                            "start": 61,
                             "end": 76
                         },
                         "initializer": null,
@@ -323,6 +347,8 @@ var a: typeof A[];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 136,
                                 "type": {
@@ -357,7 +383,7 @@ var a: typeof A[];
                                 "end": 95
                             },
                             "flags": 2097152,
-                            "start": 83,
+                            "start": 84,
                             "end": 95
                         },
                         "initializer": null,

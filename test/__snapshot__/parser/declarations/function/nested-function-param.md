@@ -62,6 +62,8 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -78,7 +80,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "end": 33
                             },
                             "flags": 2097152,
-                            "start": 30,
+                            "start": 31,
                             "end": 33
                         },
                         "right": null,
@@ -100,6 +102,8 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -116,7 +120,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "end": 39
                             },
                             "flags": 2097152,
-                            "start": 36,
+                            "start": 37,
                             "end": 39
                         },
                         "right": null,
@@ -138,6 +142,8 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -154,7 +160,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "end": 45
                             },
                             "flags": 2097152,
-                            "start": 42,
+                            "start": 43,
                             "end": 45
                         },
                         "right": null,
@@ -358,6 +364,8 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -374,7 +382,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "end": 18
                             },
                             "flags": 2097152,
-                            "start": 15,
+                            "start": 16,
                             "end": 18
                         },
                         "defaultType": null,
@@ -394,6 +402,8 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -410,7 +420,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "end": 24
                             },
                             "flags": 2097152,
-                            "start": 21,
+                            "start": 22,
                             "end": 24
                         },
                         "defaultType": null,
@@ -441,17 +451,27 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "X",
-                        "rawText": "X",
-                        "flags": 96,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "X",
+                            "rawText": "X",
+                            "flags": 96,
+                            "start": 47,
+                            "end": 49
+                        },
+                        "typeParameters": null,
+                        "flags": 2097152,
                         "start": 47,
                         "end": 49
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 47,
                     "end": 49

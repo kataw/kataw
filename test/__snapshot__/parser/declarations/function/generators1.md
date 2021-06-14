@@ -145,58 +145,92 @@ function *infer_stmt() {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Generator",
-                        "rawText": "Generator",
-                        "flags": 96,
-                        "start": 23,
-                        "end": 33
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Generator",
+                            "rawText": "Generator",
+                            "flags": 96,
+                            "start": 23,
+                            "end": 33
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 34,
+                                            "end": 40
+                                        },
+                                        "flags": 2097152,
+                                        "start": 34,
+                                        "end": 40
+                                    },
+                                    "flags": 2097152,
                                     "start": 34,
                                     "end": 40
                                 },
-                                "flags": 2097152,
-                                "start": 34,
-                                "end": 40
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 138477615,
+                                            "flags": 2097216,
+                                            "start": 41,
+                                            "end": 46
+                                        },
+                                        "flags": 2097152,
+                                        "start": 41,
+                                        "end": 46
+                                    },
+                                    "flags": 2097152,
                                     "start": 41,
                                     "end": 46
                                 },
-                                "flags": 2097152,
-                                "start": 41,
-                                "end": 46
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 138477615,
+                                            "flags": 2097216,
+                                            "start": 47,
+                                            "end": 52
+                                        },
+                                        "flags": 2097152,
+                                        "start": 47,
+                                        "end": 52
+                                    },
+                                    "flags": 2097152,
                                     "start": 47,
                                     "end": 52
-                                },
-                                "flags": 2097152,
-                                "start": 47,
-                                "end": 52
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 33,
+                            "end": 53
+                        },
                         "flags": 2097152,
-                        "start": 33,
+                        "start": 23,
                         "end": 53
                     },
                     "flags": 2097152,
@@ -281,58 +315,92 @@ function *infer_stmt() {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Generator",
-                        "rawText": "Generator",
-                        "flags": 96,
-                        "start": 109,
-                        "end": 119
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Generator",
+                            "rawText": "Generator",
+                            "flags": 96,
+                            "start": 109,
+                            "end": 119
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 138477615,
+                                            "flags": 2097216,
+                                            "start": 120,
+                                            "end": 124
+                                        },
+                                        "flags": 2097152,
+                                        "start": 120,
+                                        "end": 124
+                                    },
+                                    "flags": 2097152,
                                     "start": 120,
                                     "end": 124
                                 },
-                                "flags": 2097152,
-                                "start": 120,
-                                "end": 124
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 125,
+                                            "end": 132
+                                        },
+                                        "flags": 2097152,
+                                        "start": 125,
+                                        "end": 132
+                                    },
+                                    "flags": 2097152,
                                     "start": 125,
                                     "end": 132
                                 },
-                                "flags": 2097152,
-                                "start": 125,
-                                "end": 132
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 138477615,
+                                            "flags": 2097216,
+                                            "start": 133,
+                                            "end": 138
+                                        },
+                                        "flags": 2097152,
+                                        "start": 133,
+                                        "end": 138
+                                    },
+                                    "flags": 2097152,
                                     "start": 133,
                                     "end": 138
-                                },
-                                "flags": 2097152,
-                                "start": 133,
-                                "end": 138
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 119,
+                            "end": 139
+                        },
                         "flags": 2097152,
-                        "start": 119,
+                        "start": 109,
                         "end": 139
                     },
                     "flags": 2097152,
@@ -417,58 +485,92 @@ function *infer_stmt() {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "Generator",
-                        "rawText": "Generator",
-                        "flags": 96,
-                        "start": 185,
-                        "end": 195
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                    "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "Generator",
+                            "rawText": "Generator",
+                            "flags": 96,
+                            "start": 185,
+                            "end": 195
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 138477615,
+                                            "flags": 2097216,
+                                            "start": 196,
+                                            "end": 200
+                                        },
+                                        "flags": 2097152,
+                                        "start": 196,
+                                        "end": 200
+                                    },
+                                    "flags": 2097152,
                                     "start": 196,
                                     "end": 200
                                 },
-                                "flags": 2097152,
-                                "start": 196,
-                                "end": 200
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 201,
+                                            "end": 208
+                                        },
+                                        "flags": 2097152,
+                                        "start": 201,
+                                        "end": 208
+                                    },
+                                    "flags": 2097152,
                                     "start": 201,
                                     "end": 208
                                 },
-                                "flags": 2097152,
-                                "start": 201,
-                                "end": 208
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                {
+                                    "kind": 310,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 138477615,
+                                            "flags": 2097216,
+                                            "start": 209,
+                                            "end": 214
+                                        },
+                                        "flags": 2097152,
+                                        "start": 209,
+                                        "end": 214
+                                    },
+                                    "flags": 2097152,
                                     "start": 209,
                                     "end": 214
-                                },
-                                "flags": 2097152,
-                                "start": 209,
-                                "end": 214
-                            }
-                        ],
+                                }
+                            ],
+                            "flags": 2097152,
+                            "start": 195,
+                            "end": 215
+                        },
                         "flags": 2097152,
-                        "start": 195,
+                        "start": 185,
                         "end": 215
                     },
                     "flags": 2097152,
@@ -546,6 +648,8 @@ function *infer_stmt() {
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134234254,
                                                 "flags": 2097216,
@@ -553,7 +657,7 @@ function *infer_stmt() {
                                                 "end": 275
                                             },
                                             "flags": 2097152,
-                                            "start": 266,
+                                            "start": 267,
                                             "end": 275
                                         },
                                         "initializer": {

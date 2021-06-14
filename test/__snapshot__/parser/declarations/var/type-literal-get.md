@@ -50,6 +50,8 @@ var obj: {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -84,8 +86,16 @@ var obj: {
                                                 "end": 21
                                             },
                                             "returnType": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 23,
+                                                    "end": 30
+                                                },
+                                                "flags": 2097152,
                                                 "start": 23,
                                                 "end": 30
                                             },
@@ -105,7 +115,7 @@ var obj: {
                                 "end": 33
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 33
                         },
                         "initializer": null,

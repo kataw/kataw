@@ -48,6 +48,8 @@ var a: ?string[]
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -73,7 +75,7 @@ var a: ?string[]
                                 "end": 16
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 16
                         },
                         "initializer": null,

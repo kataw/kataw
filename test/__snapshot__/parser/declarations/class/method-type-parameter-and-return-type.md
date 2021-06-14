@@ -127,6 +127,8 @@ class Foo7<T> {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -134,7 +136,7 @@ class Foo7<T> {
                                         "end": 33
                                     },
                                     "flags": 2097152,
-                                    "start": 26,
+                                    "start": 27,
                                     "end": 33
                                 },
                                 "contents": {

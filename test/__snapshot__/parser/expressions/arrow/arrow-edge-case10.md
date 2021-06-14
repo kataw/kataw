@@ -102,6 +102,8 @@ a ? <T>(b) : c => (d) : e => f;
                         "asyncKeyword": null,
                         "returnType": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -118,7 +120,7 @@ a ? <T>(b) : c => (d) : e => f;
                                 "end": 25
                             },
                             "flags": 2097152,
-                            "start": 21,
+                            "start": 23,
                             "end": 25
                         },
                         "contents": {

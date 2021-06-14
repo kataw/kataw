@@ -73,34 +73,52 @@ export function d(): Promise<boolean> {}
                 "typeParameters": null,
                 "returnType": {
                     "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
                     "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Promise",
-                            "rawText": "Promise",
-                            "flags": 96,
-                            "start": 20,
-                            "end": 28
-                        },
-                        "typeParameters": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
-                                        "kind": 134234254,
-                                        "flags": 2097216,
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "Promise",
+                                "rawText": "Promise",
+                                "flags": 96,
+                                "start": 20,
+                                "end": 28
+                            },
+                            "typeParameters": {
+                                "kind": 309,
+                                "parameters": [
+                                    {
+                                        "kind": 310,
+                                        "type": {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234254,
+                                                "flags": 2097216,
+                                                "start": 29,
+                                                "end": 36
+                                            },
+                                            "flags": 2097152,
+                                            "start": 29,
+                                            "end": 36
+                                        },
+                                        "flags": 2097152,
                                         "start": 29,
                                         "end": 36
-                                    },
-                                    "flags": 2097152,
-                                    "start": 29,
-                                    "end": 36
-                                }
-                            ],
+                                    }
+                                ],
+                                "flags": 2097152,
+                                "start": 28,
+                                "end": 37
+                            },
                             "flags": 2097152,
-                            "start": 28,
+                            "start": 20,
                             "end": 37
                         },
                         "flags": 2097152,

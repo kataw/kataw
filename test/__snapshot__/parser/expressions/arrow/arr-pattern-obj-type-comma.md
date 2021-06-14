@@ -77,6 +77,8 @@ x = (x, {}:string) => {} ;
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -84,7 +86,7 @@ x = (x, {}:string) => {} ;
                                     "end": 17
                                 },
                                 "flags": 2097152,
-                                "start": 10,
+                                "start": 11,
                                 "end": 17
                             },
                             "right": null,

@@ -76,16 +76,24 @@ declare class B {
                             },
                             "optionalToken": null,
                             "value": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 28,
+                                        "end": 30
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
                                     "start": 28,
                                     "end": 30
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 28,
                                 "end": 30

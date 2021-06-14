@@ -49,6 +49,8 @@ async ([a]:string)=>c;
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -56,7 +58,7 @@ async ([a]:string)=>c;
                             "end": 15
                         },
                         "flags": 2097152,
-                        "start": 8,
+                        "start": 9,
                         "end": 15
                     },
                     "right": null,
@@ -129,6 +131,8 @@ async ([a]:string)=>c;
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -136,7 +140,7 @@ async ([a]:string)=>c;
                             "end": 39
                         },
                         "flags": 2097152,
-                        "start": 32,
+                        "start": 33,
                         "end": 39
                     },
                     "right": null,

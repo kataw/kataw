@@ -50,6 +50,8 @@ const d: string | null = c?.c;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -71,7 +73,7 @@ const d: string | null = c?.c;
                                 "end": 19
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 19
                         },
                         "initializer": {
@@ -119,6 +121,8 @@ const d: string | null = c?.c;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -140,7 +144,7 @@ const d: string | null = c?.c;
                                 "end": 50
                             },
                             "flags": 2097152,
-                            "start": 35,
+                            "start": 36,
                             "end": 50
                         },
                         "initializer": {
@@ -221,6 +225,8 @@ const d: string | null = c?.c;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -240,7 +246,7 @@ const d: string | null = c?.c;
                                 "end": 72
                             },
                             "flags": 2097152,
-                            "start": 66,
+                            "start": 67,
                             "end": 72
                         },
                         "initializer": {
@@ -288,6 +294,8 @@ const d: string | null = c?.c;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -309,7 +317,7 @@ const d: string | null = c?.c;
                                 "end": 103
                             },
                             "flags": 2097152,
-                            "start": 88,
+                            "start": 89,
                             "end": 103
                         },
                         "initializer": {

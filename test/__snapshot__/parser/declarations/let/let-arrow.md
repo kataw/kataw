@@ -74,6 +74,8 @@ hello();
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
@@ -81,7 +83,7 @@ hello();
                                             "end": 28
                                         },
                                         "flags": 2097152,
-                                        "start": 21,
+                                        "start": 22,
                                         "end": 28
                                     },
                                     "right": {
@@ -100,6 +102,8 @@ hello();
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -107,7 +111,7 @@ hello();
                                     "end": 49
                                 },
                                 "flags": 2097152,
-                                "start": 40,
+                                "start": 42,
                                 "end": 49
                             },
                             "contents": {
