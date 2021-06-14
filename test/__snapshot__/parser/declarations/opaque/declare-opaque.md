@@ -188,7 +188,7 @@ declare var a: A;
 
 
 
-var a;
+var a: ;
 ```
 
 ### Diagnostics

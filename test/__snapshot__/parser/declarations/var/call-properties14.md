@@ -154,7 +154,7 @@ var d: { (): string } = (x) => "hi"
 
 ```javascript
 
-var d = (x) =>  "\"hi\"";
+var d:  = (x) =>  "\"hi\"";
 ```
 
 ### Diagnostics

@@ -89,7 +89,7 @@ var a: 123.0
 
 ```javascript
 
-var a;
+var a: ;
 ```
 
 ### Diagnostics

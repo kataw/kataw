@@ -504,7 +504,7 @@ class C {
   arr;
 
   foo(value) {
-    var entry = { value };
+    var entry:  = { value };
     this.arr.push(entry);
   }
 }

@@ -12547,21 +12547,21 @@ function logical2k(x) {
  * An expression on the left side of &&
  */
 function logical3a() {
-  var x = null;
+  var x:  = null;
   return  x != null && x > 10;
 }
 /**
  * An expression on the left side of &&
  */
 function logical3b() {
-  var x = null;
+  var x:  = null;
   return  x != null && x;
 }
 /**
  * An expression on the left side of &&
  */
 function logical3c() {
-  var x = null;
+  var x:  = null;
   return  x != undefined && x;
 }
 /**
@@ -12581,7 +12581,7 @@ function logical5a() {
  * A maybe variable on the left side of ||
  */
 function logical5b() {
-  var x = null;
+  var x:  = null;
   return  x || 0;
 }
 /**
@@ -12632,7 +12632,7 @@ function logical6f() {
  * A composite && and ||
  */
 function logical7a() {
-  var x = null;
+  var x:  = null;
   return  x != null && x || 0;
 }
 /**

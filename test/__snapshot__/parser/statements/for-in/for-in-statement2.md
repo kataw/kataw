@@ -235,7 +235,7 @@ function F<T>() {
 ```javascript
 
 function F() {
-  var expr;
+  var expr: ;
   for ( in expr)
     {}
 }

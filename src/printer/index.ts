@@ -68,6 +68,31 @@ function printStatements(node: any, printer: Printer, parentNode: any): any {
 function printStatementsWorker(node: any, printer: Printer, parentNode: any): any {
   const kind = node.kind;
 
+  if (node.flags & NodeFlags.IsTypeNode) {
+    switch (kind) {
+      case SyntaxKind.Multiply:
+      case SyntaxKind.ThisKeyword:
+      case SyntaxKind.AnyKeyword:
+      case SyntaxKind.NullKeyword:
+      case SyntaxKind.UnknownKeyword:
+      case SyntaxKind.UndefinedKeyword:
+      case SyntaxKind.ObjectKeyword:
+      case SyntaxKind.NeverKeyword:
+      case SyntaxKind.VoidKeyword:
+      case SyntaxKind.SymbolKeyword:
+      case SyntaxKind.MixedKeyword:
+      case SyntaxKind.NumberKeyword:
+      case SyntaxKind.StringKeyword:
+      case SyntaxKind.BooleanKeyword:
+      case SyntaxKind.EmptyKeyword:
+      case SyntaxKind.FalseKeyword:
+      case SyntaxKind.TrueKeyword:
+        return printKeyword(node, printer, node.start, node, /* separator */ false);
+      case SyntaxKind.TypeAnnotation:
+        return printTypeAnnotation(node, printer, node);
+    }
+  }
+
   switch (kind) {
     case SyntaxKind.RootNode:
       return printRootNode(node.statements, printer, node);
@@ -1335,7 +1360,7 @@ function printVariableDeclarationOrLexicalBinding(node: any, printer: Printer): 
     return group(
       chain([
         printStatements(node.binding, printer, node),
-        //node.type ? printTypeAnnotation(node.type, printer, node) : '',
+        node.type ? printTypeAnnotation(node.type, printer, node) : '',
         printer.space,
         '=',
         canBreak
@@ -1345,8 +1370,8 @@ function printVariableDeclarationOrLexicalBinding(node: any, printer: Printer): 
     );
   }
   return chain([
-    printStatements(node.binding, printer, node)
-    //    node.type ? printTypeAnnotation(node.type, printer, node) : ''
+    printStatements(node.binding, printer, node),
+    node.type ? printTypeAnnotation(node.type, printer, node) : ''
   ]);
 }
 
@@ -1940,5 +1965,15 @@ function printMemberAccessChain(node: any, printer: Printer): any {
     '[',
     printExpressions(node.expression, printer, node),
     ']'
+  ]);
+}
+
+function printTypeAnnotation(node: any, printer: Printer, parentNode: any): any {
+  return chain([
+    ':',
+    printer.space,
+    node.bitwiseOrToken ? printKeyword(node.bitwiseOrToken, printer, node.start, node, /* separator */ true) : '',
+    node.bitwiseAndToken ? printKeyword(node.bitwiseAndToken, printer, node.start, node, /* separator */ true) : '',
+    printStatements(node.type, printer, parentNode)
   ]);
 }

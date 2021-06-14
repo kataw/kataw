@@ -147,7 +147,7 @@ var a : A.B<T>
 
 ```javascript
 
-var a;
+var a: ;
 ```
 
 ### Diagnostics

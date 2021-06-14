@@ -727,8 +727,8 @@ var B = [...A];
 var C = [1, 2, 3];
 B.sort((a, b) =>  a - b);
 C.sort((a, b) =>  a - b);
-var x = ["'1'", "'2'"];
-var y = ["'3'", ...x];
+var x:  = ["'1'", "'2'"];
+var y:  = ["'3'", ...x];
 ```
 
 ### Diagnostics

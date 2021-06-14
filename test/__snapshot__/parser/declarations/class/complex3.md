@@ -1545,15 +1545,15 @@ var stringArr:Array<string> = ['a','b'];
 
 class Tag {
   constructor() {
-    var a1 = [];
-    var a2 = a1;
+    var a1:  = [];
+    var a2:  = a1;
   }
 }
 
 class Tag_ {
   constructor() {
-    var a1 = [new  Tag_()];
-    var a2 = a1;
+    var a1:  = [new  Tag_()];
+    var a2:  = a1;
   }
 }
 class C {
@@ -1571,8 +1571,8 @@ class D {
     return  this.content;
   }
 }
-var numberAndStringArr = [1, 2];
-var stringArr = ["'a'", "'b'"];
+var numberAndStringArr:  = [1, 2];
+var stringArr:  = ["'a'", "'b'"];
 ```
 
 ### Diagnostics

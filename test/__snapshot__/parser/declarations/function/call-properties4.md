@@ -294,7 +294,7 @@ var b: { (): string; (x: number): string } =
 
 ```javascript
 
-var b = function (x?) {
+var b:  = function (x?) {
   return  "\"hi\"";
 };
 ```

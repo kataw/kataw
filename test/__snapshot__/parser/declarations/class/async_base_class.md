@@ -492,7 +492,7 @@ async function foo() {
 ```javascript
 
 class C {}
-var P = new  Promise(function (resolve, reject) {
+var P:  = new  Promise(function (resolve, reject) {
   resolve(C);
 });
 async function foo() {

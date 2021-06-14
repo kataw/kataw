@@ -346,7 +346,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
 
 ```javascript
 
-var key = "\"key\"";
+var key: string = "\"key\"";
 var {
   [key]: val2
 } = { key: "\"val\"" };

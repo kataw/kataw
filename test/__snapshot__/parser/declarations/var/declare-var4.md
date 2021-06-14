@@ -251,9 +251,9 @@ declare var x2: X;
 
 ```javascript
 
-var x1;
-var x1;
-var x2;
+var x1: ;
+var x1: ;
+var x2: ;
 ```
 
 ### Diagnostics

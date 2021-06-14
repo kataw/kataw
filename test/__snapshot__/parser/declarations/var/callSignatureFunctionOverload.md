@@ -659,8 +659,8 @@ var foo2: {
 
 ```javascript
 
-var foo;
-var foo2;
+var foo: ;
+var foo2: ;
 ```
 
 ### Diagnostics

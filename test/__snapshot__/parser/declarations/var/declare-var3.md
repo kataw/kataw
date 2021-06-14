@@ -454,9 +454,9 @@ declare var tup: [{foo: string}, {bar: number}];
 
 ```javascript
 
-var arrOfObjs;
-var roArrOfObjs;
-var tup;
+var arrOfObjs: ;
+var roArrOfObjs: ;
+var tup: ;
 ```
 
 ### Diagnostics

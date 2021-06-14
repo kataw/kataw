@@ -1798,32 +1798,32 @@ var z : Object = (x) => "hi"
 ```javascript
 // Expecting properties that don't exist should be an error
 
-var a = function () {};
+var a:  = function () {};
 // Expecting properties that do exist should be fine
-var b = function () {};
+var b:  = function () {};
 // Expecting properties in the functions statics should be fine
 var f = function () {};
 f.myProp = 123;
-var c = f;
-var a = (x) =>  x.toString();
+var c:  = f;
+var a:  = (x) =>  x.toString();
 // ...and it should notice when the return type is wrong
-var b = (x) =>  "\"hi\"";
+var b:  = (x) =>  "\"hi\"";
 // ...or if the param type is wrong
-var c = (x) =>  x.toFixed();
+var c:  = (x) =>  x.toFixed();
 // ...or if the arity is wrong
-var d = (x) =>  "\"hi\"";
+var d:  = (x) =>  "\"hi\"";
 // ...but subtyping rules still apply
-var e = () =>  {}; // arity
+var e:  = () =>  {}; // arity
 
-var f = () =>  "\"hi\""; // return type
+var f:  = () =>  "\"hi\""; // return type
 
-var g = (x) =>  {
+var g:  = (x) =>  {
   x * 2;
 }; // param type (date < number)
 
 // A function can be an object
-var y = (x) =>  "\"hi\"";
-var z = (x) =>  "\"hi\"";
+var y:  = (x) =>  "\"hi\"";
+var z:  = (x) =>  "\"hi\"";
 ```
 
 ### Diagnostics

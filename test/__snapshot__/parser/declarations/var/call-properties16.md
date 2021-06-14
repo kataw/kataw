@@ -213,7 +213,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
 
 ```javascript
 
-var c = (x) =>  x.toFixed();
+var c:  = (x) =>  x.toFixed();
 ```
 
 ### Diagnostics

@@ -731,7 +731,7 @@ function * stmt_return_err() {
   return  "\"\"";
 }
 function * infer_stmt() {
-  var x = yield 0;
+  var x: boolean = yield 0;
   return  "\"\"";
 }
 ```
