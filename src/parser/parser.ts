@@ -7115,9 +7115,10 @@ function parseExportDefault(
 function parseTypeAnnotation(parser: ParserState, context: Context): TypeNode {
   const pos = parser.curPos;
   // A type annotation can either start with '|' or '&', and we will never
-  // know the correct location of this nodes because if they are just 'consumed'
-  // we will get wrong location if we try to collect a detached comment as
-  // as illustrated below:
+  // know the correct location of this nodes because if they are just 'consumed' because
+  // we end up with a wrong location if we try to collect a detached comment.
+  //
+  // This is illustrated below:
   //
   //   let x:
   //     |
