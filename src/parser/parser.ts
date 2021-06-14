@@ -7112,7 +7112,7 @@ function parseExportDefault(
   return createExportDefault(exportToken, defaultToken, declaration, pos, parser.curPos);
 }
 
-function parseTypeAnnotation(parser: ParserState, context: Context): any {
+function parseTypeAnnotation(parser: ParserState, context: Context): TypeNode {
   const pos = parser.curPos;
   return createTypeAnnotation(
     consumeOptToken(parser, context, SyntaxKind.BitwiseOr),
@@ -7145,7 +7145,7 @@ function parseTypeContinuation(parser: ParserState, context: Context, type: Type
   return type;
 }
 
-function parseType(parser: ParserState, context: Context): TypeAnnotation | null {
+function parseType(parser: ParserState, context: Context): TypeNode | null {
   return context & Context.OptionsAllowTypes && consumeOpt(parser, context, SyntaxKind.Colon)
     ? parseTypeAnnotation(parser, context)
     : null;
