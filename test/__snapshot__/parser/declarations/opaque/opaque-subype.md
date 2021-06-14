@@ -47,42 +47,58 @@ opaque type Counter: Box<T> = Container<T>;
             },
             "typeParameters": null,
             "superType": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "Box",
-                    "rawText": "Box",
-                    "flags": 96,
-                    "start": 20,
-                    "end": 24
-                },
-                "typeParameters": {
-                    "kind": 309,
-                    "parameters": [
-                        {
-                            "kind": 310,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "Box",
+                        "rawText": "Box",
+                        "flags": 96,
+                        "start": 20,
+                        "end": 24
+                    },
+                    "typeParameters": {
+                        "kind": 309,
+                        "parameters": [
+                            {
+                                "kind": 310,
+                                "type": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 25,
+                                            "end": 26
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
+                                        "start": 25,
+                                        "end": 26
+                                    },
+                                    "flags": 2097152,
                                     "start": 25,
                                     "end": 26
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 25,
                                 "end": 26
-                            },
-                            "flags": 2097152,
-                            "start": 25,
-                            "end": 26
-                        }
-                    ],
+                            }
+                        ],
+                        "flags": 2097152,
+                        "start": 24,
+                        "end": 27
+                    },
                     "flags": 2097152,
-                    "start": 24,
+                    "start": 20,
                     "end": 27
                 },
                 "flags": 2097152,
@@ -90,42 +106,58 @@ opaque type Counter: Box<T> = Container<T>;
                 "end": 27
             },
             "impltype": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "Container",
-                    "rawText": "Container",
-                    "flags": 96,
-                    "start": 29,
-                    "end": 39
-                },
-                "typeParameters": {
-                    "kind": 309,
-                    "parameters": [
-                        {
-                            "kind": 310,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "Container",
+                        "rawText": "Container",
+                        "flags": 96,
+                        "start": 29,
+                        "end": 39
+                    },
+                    "typeParameters": {
+                        "kind": 309,
+                        "parameters": [
+                            {
+                                "kind": 310,
+                                "type": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 40,
+                                            "end": 41
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
+                                        "start": 40,
+                                        "end": 41
+                                    },
+                                    "flags": 2097152,
                                     "start": 40,
                                     "end": 41
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 40,
                                 "end": 41
-                            },
-                            "flags": 2097152,
-                            "start": 40,
-                            "end": 41
-                        }
-                    ],
+                            }
+                        ],
+                        "flags": 2097152,
+                        "start": 39,
+                        "end": 42
+                    },
                     "flags": 2097152,
-                    "start": 39,
+                    "start": 29,
                     "end": 42
                 },
                 "flags": 2097152,

@@ -63,6 +63,8 @@ a ? (b) : c => d : (e) : f => g;
                     "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -79,7 +81,7 @@ a ? (b) : c => d : (e) : f => g;
                             "end": 11
                         },
                         "flags": 2097152,
-                        "start": 7,
+                        "start": 9,
                         "end": 11
                     },
                     "contents": {
@@ -122,6 +124,8 @@ a ? (b) : c => d : (e) : f => g;
                     "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -138,7 +142,7 @@ a ? (b) : c => d : (e) : f => g;
                             "end": 26
                         },
                         "flags": 2097152,
-                        "start": 22,
+                        "start": 24,
                         "end": 26
                     },
                     "contents": {

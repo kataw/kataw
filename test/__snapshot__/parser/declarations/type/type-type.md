@@ -71,42 +71,58 @@ type Foo<T> = Bar<T>
                 "end": 13
             },
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "Bar",
-                    "rawText": "Bar",
-                    "flags": 96,
-                    "start": 13,
-                    "end": 17
-                },
-                "typeParameters": {
-                    "kind": 309,
-                    "parameters": [
-                        {
-                            "kind": 310,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "Bar",
+                        "rawText": "Bar",
+                        "flags": 96,
+                        "start": 13,
+                        "end": 17
+                    },
+                    "typeParameters": {
+                        "kind": 309,
+                        "parameters": [
+                            {
+                                "kind": 310,
+                                "type": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 18,
+                                            "end": 19
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    "flags": 2097152,
                                     "start": 18,
                                     "end": 19
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 18,
                                 "end": 19
-                            },
-                            "flags": 2097152,
-                            "start": 18,
-                            "end": 19
-                        }
-                    ],
+                            }
+                        ],
+                        "flags": 2097152,
+                        "start": 17,
+                        "end": 20
+                    },
                     "flags": 2097152,
-                    "start": 17,
+                    "start": 13,
                     "end": 20
                 },
                 "flags": 2097152,

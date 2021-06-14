@@ -67,6 +67,8 @@ function g(x: () => any) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -74,7 +76,7 @@ function g(x: () => any) {
                                 "end": 17
                             },
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 13,
                             "end": 17
                         },
                         "right": null,
@@ -231,6 +233,8 @@ function g(x: () => any) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -248,8 +252,16 @@ function g(x: () => any) {
                                     "end": 67
                                 },
                                 "returnType": {
-                                    "kind": 134234252,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234252,
+                                        "flags": 2097216,
+                                        "start": 67,
+                                        "end": 71
+                                    },
+                                    "flags": 2097152,
                                     "start": 67,
                                     "end": 71
                                 },
@@ -259,7 +271,7 @@ function g(x: () => any) {
                                 "end": 71
                             },
                             "flags": 2097152,
-                            "start": 60,
+                            "start": 61,
                             "end": 71
                         },
                         "right": null,

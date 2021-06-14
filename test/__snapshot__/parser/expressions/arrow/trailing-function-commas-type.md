@@ -49,6 +49,8 @@
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -65,7 +67,7 @@
                                 "end": 17
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 17
                         },
                         "right": null,
@@ -77,6 +79,8 @@
                 "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
                     "type": {
                         "kind": 144,
                         "id": {
@@ -93,7 +97,7 @@
                         "end": 33
                     },
                     "flags": 2097152,
-                    "start": 20,
+                    "start": 22,
                     "end": 33
                 },
                 "contents": {

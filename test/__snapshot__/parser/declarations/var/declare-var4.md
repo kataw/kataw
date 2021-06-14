@@ -55,6 +55,8 @@ declare var x2: X;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -83,7 +85,7 @@ declare var x2: X;
                                 "end": 18
                             },
                             "flags": 2097152,
-                            "start": 14,
+                            "start": 15,
                             "end": 18
                         },
                         "initializer": null,
@@ -135,6 +137,8 @@ declare var x2: X;
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -151,7 +155,7 @@ declare var x2: X;
                                 "end": 38
                             },
                             "flags": 2097152,
-                            "start": 35,
+                            "start": 36,
                             "end": 38
                         },
                         "initializer": null,
@@ -198,6 +202,8 @@ declare var x2: X;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -214,7 +220,7 @@ declare var x2: X;
                                 "end": 57
                             },
                             "flags": 2097152,
-                            "start": 54,
+                            "start": 55,
                             "end": 57
                         },
                         "initializer": null,

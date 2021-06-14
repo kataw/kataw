@@ -82,8 +82,16 @@ declare class D extends C { }
                             },
                             "optionalToken": null,
                             "value": {
-                                "kind": 134234345,
-                                "flags": 2097216,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 31,
+                                    "end": 38
+                                },
+                                "flags": 2097152,
                                 "start": 31,
                                 "end": 38
                             },
@@ -129,8 +137,16 @@ declare class D extends C { }
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 57,
+                                                    "end": 64
+                                                },
+                                                "flags": 2097152,
                                                 "start": 57,
                                                 "end": 64
                                             },
@@ -145,8 +161,16 @@ declare class D extends C { }
                                     "end": 64
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 66,
+                                        "end": 71
+                                    },
+                                    "flags": 2097152,
                                     "start": 66,
                                     "end": 71
                                 },
@@ -192,8 +216,16 @@ declare class D extends C { }
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 92,
+                                                    "end": 99
+                                                },
+                                                "flags": 2097152,
                                                 "start": 92,
                                                 "end": 99
                                             },
@@ -208,8 +240,16 @@ declare class D extends C { }
                                     "end": 99
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 101,
+                                        "end": 106
+                                    },
+                                    "flags": 2097152,
                                     "start": 101,
                                     "end": 106
                                 },

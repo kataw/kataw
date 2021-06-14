@@ -48,53 +48,69 @@ type a = ((x)) => T;
                 "end": 8
             },
             "type": {
-                "kind": 288,
-                "arrowTypeParameterList": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 14,
-                    "end": 17
-                },
-                "arrowToken": {
-                    "kind": 292,
-                    "parameters": [
-                        {
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 288,
+                    "arrowTypeParameterList": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 14,
+                        "end": 17
+                    },
+                    "arrowToken": {
+                        "kind": 292,
+                        "parameters": [
+                            {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 11,
+                                    "end": 12
+                                },
+                                "typeParameters": null,
+                                "flags": 2097152,
+                                "start": 8,
+                                "end": 12
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 8,
+                        "end": 17
+                    },
+                    "returnType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
+                                "text": "T",
+                                "rawText": "T",
                                 "flags": 96,
-                                "start": 11,
-                                "end": 12
+                                "start": 17,
+                                "end": 19
                             },
                             "typeParameters": null,
                             "flags": 2097152,
-                            "start": 8,
-                            "end": 12
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 8,
-                    "end": 17
-                },
-                "returnType": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "T",
-                        "rawText": "T",
-                        "flags": 96,
+                            "start": 17,
+                            "end": 19
+                        },
+                        "flags": 2097152,
                         "start": 17,
                         "end": 19
                     },
                     "typeParameters": null,
                     "flags": 2097152,
-                    "start": 17,
+                    "start": 8,
                     "end": 19
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 8,
                 "end": 19

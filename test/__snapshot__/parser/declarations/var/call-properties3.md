@@ -77,6 +77,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -96,8 +98,16 @@ var z : Object = (x) => "hi"
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 79,
+                                                "end": 86
+                                            },
+                                            "flags": 2097152,
                                             "start": 79,
                                             "end": 86
                                         },
@@ -112,7 +122,7 @@ var z : Object = (x) => "hi"
                                 "end": 88
                             },
                             "flags": 2097152,
-                            "start": 65,
+                            "start": 67,
                             "end": 88
                         },
                         "initializer": {
@@ -192,6 +202,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -211,16 +223,24 @@ var z : Object = (x) => "hi"
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "Function",
-                                                "rawText": "Function",
-                                                "flags": 96,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "Function",
+                                                    "rawText": "Function",
+                                                    "flags": 96,
+                                                    "start": 177,
+                                                    "end": 186
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
                                                 "start": 177,
                                                 "end": 186
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 177,
                                             "end": 186
@@ -236,7 +256,7 @@ var z : Object = (x) => "hi"
                                 "end": 188
                             },
                             "flags": 2097152,
-                            "start": 166,
+                            "start": 168,
                             "end": 188
                         },
                         "initializer": {
@@ -440,6 +460,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -459,8 +481,16 @@ var z : Object = (x) => "hi"
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 329,
+                                                "end": 336
+                                            },
+                                            "flags": 2097152,
                                             "start": 329,
                                             "end": 336
                                         },
@@ -475,7 +505,7 @@ var z : Object = (x) => "hi"
                                 "end": 338
                             },
                             "flags": 2097152,
-                            "start": 317,
+                            "start": 319,
                             "end": 338
                         },
                         "initializer": {
@@ -524,6 +554,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -547,8 +579,16 @@ var z : Object = (x) => "hi"
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234345,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 357,
+                                                            "end": 364
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 357,
                                                         "end": 364
                                                     },
@@ -564,8 +604,16 @@ var z : Object = (x) => "hi"
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 366,
+                                                "end": 373
+                                            },
+                                            "flags": 2097152,
                                             "start": 366,
                                             "end": 373
                                         },
@@ -580,7 +628,7 @@ var z : Object = (x) => "hi"
                                 "end": 375
                             },
                             "flags": 2097152,
-                            "start": 350,
+                            "start": 351,
                             "end": 375
                         },
                         "initializer": {
@@ -682,6 +730,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -705,8 +755,16 @@ var z : Object = (x) => "hi"
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234345,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 468,
+                                                            "end": 475
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 468,
                                                         "end": 475
                                                     },
@@ -722,8 +780,16 @@ var z : Object = (x) => "hi"
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 477,
+                                                "end": 484
+                                            },
+                                            "flags": 2097152,
                                             "start": 477,
                                             "end": 484
                                         },
@@ -738,7 +804,7 @@ var z : Object = (x) => "hi"
                                 "end": 486
                             },
                             "flags": 2097152,
-                            "start": 461,
+                            "start": 462,
                             "end": 486
                         },
                         "initializer": {
@@ -812,6 +878,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -835,8 +903,16 @@ var z : Object = (x) => "hi"
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 550,
+                                                            "end": 557
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 550,
                                                         "end": 557
                                                     },
@@ -852,8 +928,16 @@ var z : Object = (x) => "hi"
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 559,
+                                                "end": 566
+                                            },
+                                            "flags": 2097152,
                                             "start": 559,
                                             "end": 566
                                         },
@@ -868,7 +952,7 @@ var z : Object = (x) => "hi"
                                 "end": 568
                             },
                             "flags": 2097152,
-                            "start": 543,
+                            "start": 544,
                             "end": 568
                         },
                         "initializer": {
@@ -970,6 +1054,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -987,8 +1073,16 @@ var z : Object = (x) => "hi"
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 634,
+                                                "end": 641
+                                            },
+                                            "flags": 2097152,
                                             "start": 634,
                                             "end": 641
                                         },
@@ -1003,7 +1097,7 @@ var z : Object = (x) => "hi"
                                 "end": 643
                             },
                             "flags": 2097152,
-                            "start": 627,
+                            "start": 628,
                             "end": 643
                         },
                         "initializer": {
@@ -1077,6 +1171,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -1100,8 +1196,16 @@ var z : Object = (x) => "hi"
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234252,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234252,
+                                                            "flags": 2097216,
+                                                            "start": 709,
+                                                            "end": 713
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 709,
                                                         "end": 713
                                                     },
@@ -1117,8 +1221,16 @@ var z : Object = (x) => "hi"
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 138477615,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 138477615,
+                                                "flags": 2097216,
+                                                "start": 715,
+                                                "end": 720
+                                            },
+                                            "flags": 2097152,
                                             "start": 715,
                                             "end": 720
                                         },
@@ -1133,7 +1245,7 @@ var z : Object = (x) => "hi"
                                 "end": 722
                             },
                             "flags": 2097152,
-                            "start": 702,
+                            "start": 703,
                             "end": 722
                         },
                         "initializer": {
@@ -1204,6 +1316,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -1221,16 +1335,24 @@ var z : Object = (x) => "hi"
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "mixed",
-                                                "rawText": "mixed",
-                                                "flags": 96,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "id": {
+                                                    "kind": 134299649,
+                                                    "text": "mixed",
+                                                    "rawText": "mixed",
+                                                    "flags": 96,
+                                                    "start": 756,
+                                                    "end": 762
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
                                                 "start": 756,
                                                 "end": 762
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 756,
                                             "end": 762
@@ -1246,7 +1368,7 @@ var z : Object = (x) => "hi"
                                 "end": 764
                             },
                             "flags": 2097152,
-                            "start": 749,
+                            "start": 750,
                             "end": 764
                         },
                         "initializer": {
@@ -1311,6 +1433,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -1334,16 +1458,24 @@ var z : Object = (x) => "hi"
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "Date",
-                                                            "rawText": "Date",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "Date",
+                                                                "rawText": "Date",
+                                                                "flags": 96,
+                                                                "start": 805,
+                                                                "end": 810
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 805,
                                                             "end": 810
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 805,
                                                         "end": 810
@@ -1360,8 +1492,16 @@ var z : Object = (x) => "hi"
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 138477615,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 138477615,
+                                                "flags": 2097216,
+                                                "start": 812,
+                                                "end": 817
+                                            },
+                                            "flags": 2097152,
                                             "start": 812,
                                             "end": 817
                                         },
@@ -1376,7 +1516,7 @@ var z : Object = (x) => "hi"
                                 "end": 819
                             },
                             "flags": 2097152,
-                            "start": 798,
+                            "start": 799,
                             "end": 819
                         },
                         "initializer": {
@@ -1491,6 +1631,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [],
@@ -1500,7 +1642,7 @@ var z : Object = (x) => "hi"
                                 "end": 911
                             },
                             "flags": 2097152,
-                            "start": 906,
+                            "start": 908,
                             "end": 911
                         },
                         "initializer": {
@@ -1574,6 +1716,8 @@ var z : Object = (x) => "hi"
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -1590,7 +1734,7 @@ var z : Object = (x) => "hi"
                                 "end": 940
                             },
                             "flags": 2097152,
-                            "start": 931,
+                            "start": 933,
                             "end": 940
                         },
                         "initializer": {

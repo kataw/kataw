@@ -71,6 +71,8 @@ async <T>(fn: () => T) => fn;
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 288,
                             "arrowTypeParameterList": {
@@ -88,16 +90,24 @@ async <T>(fn: () => T) => fn;
                                 "end": 19
                             },
                             "returnType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 19,
+                                        "end": 21
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
                                     "start": 19,
                                     "end": 21
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 19,
                                 "end": 21
@@ -108,7 +118,7 @@ async <T>(fn: () => T) => fn;
                             "end": 21
                         },
                         "flags": 2097152,
-                        "start": 12,
+                        "start": 13,
                         "end": 21
                     },
                     "right": null,

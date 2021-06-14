@@ -50,6 +50,8 @@ var z = x + x;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -57,7 +59,7 @@ var z = x + x;
                                 "end": 10
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 10
                         },
                         "initializer": null,

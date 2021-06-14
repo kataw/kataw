@@ -105,6 +105,8 @@ class A<TYPE> {
                                 "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -121,16 +123,24 @@ class A<TYPE> {
                                                 {
                                                     "kind": 310,
                                                     "type": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "TYPE",
-                                                            "rawText": "TYPE",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "TYPE",
+                                                                "rawText": "TYPE",
+                                                                "flags": 96,
+                                                                "start": 36,
+                                                                "end": 40
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 36,
                                                             "end": 40
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 36,
                                                         "end": 40
@@ -149,7 +159,7 @@ class A<TYPE> {
                                         "end": 41
                                     },
                                     "flags": 2097152,
-                                    "start": 26,
+                                    "start": 27,
                                     "end": 41
                                 },
                                 "contents": {
@@ -304,6 +314,8 @@ class A<TYPE> {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
                                         "id": {
@@ -320,16 +332,24 @@ class A<TYPE> {
                                                 {
                                                     "kind": 310,
                                                     "type": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "TYPE",
-                                                            "rawText": "TYPE",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "TYPE",
+                                                                "rawText": "TYPE",
+                                                                "flags": 96,
+                                                                "start": 112,
+                                                                "end": 116
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 112,
                                                             "end": 116
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 112,
                                                         "end": 116
@@ -348,7 +368,7 @@ class A<TYPE> {
                                         "end": 117
                                     },
                                     "flags": 2097152,
-                                    "start": 102,
+                                    "start": 103,
                                     "end": 117
                                 },
                                 "contents": {

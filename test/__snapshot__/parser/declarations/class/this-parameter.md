@@ -105,8 +105,16 @@ class two {
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 30,
+                                                    "end": 37
+                                                },
+                                                "flags": 2097152,
                                                 "start": 30,
                                                 "end": 37
                                             },
@@ -121,8 +129,16 @@ class two {
                                     "end": 37
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 39,
+                                        "end": 44
+                                    },
+                                    "flags": 2097152,
                                     "start": 39,
                                     "end": 44
                                 },
@@ -168,8 +184,16 @@ class two {
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 56,
+                                                    "end": 63
+                                                },
+                                                "flags": 2097152,
                                                 "start": 56,
                                                 "end": 63
                                             },
@@ -190,8 +214,16 @@ class two {
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 67,
+                                                    "end": 74
+                                                },
+                                                "flags": 2097152,
                                                 "start": 67,
                                                 "end": 74
                                             },
@@ -206,8 +238,16 @@ class two {
                                     "end": 74
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 76,
+                                        "end": 81
+                                    },
+                                    "flags": 2097152,
                                     "start": 76,
                                     "end": 81
                                 },
@@ -253,8 +293,16 @@ class two {
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 93,
+                                                    "end": 100
+                                                },
+                                                "flags": 2097152,
                                                 "start": 93,
                                                 "end": 100
                                             },
@@ -280,8 +328,16 @@ class two {
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234252,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234252,
+                                                    "flags": 2097216,
+                                                    "start": 107,
+                                                    "end": 111
+                                                },
+                                                "flags": 2097152,
                                                 "start": 107,
                                                 "end": 111
                                             },
@@ -296,8 +352,16 @@ class two {
                                     "end": 111
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 113,
+                                        "end": 118
+                                    },
+                                    "flags": 2097152,
                                     "start": 113,
                                     "end": 118
                                 },
@@ -343,16 +407,24 @@ class two {
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 133,
+                                                        "end": 135
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 133,
                                                     "end": 135
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 133,
                                                 "end": 135
@@ -368,8 +440,16 @@ class two {
                                     "end": 135
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 137,
+                                        "end": 142
+                                    },
+                                    "flags": 2097152,
                                     "start": 137,
                                     "end": 142
                                 },
@@ -481,6 +561,8 @@ class two {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -488,7 +570,7 @@ class two {
                                                     "end": 176
                                                 },
                                                 "flags": 2097152,
-                                                "start": 168,
+                                                "start": 169,
                                                 "end": 176
                                             },
                                             "right": null,
@@ -562,6 +644,8 @@ class two {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -569,7 +653,7 @@ class two {
                                                     "end": 199
                                                 },
                                                 "flags": 2097152,
-                                                "start": 191,
+                                                "start": 192,
                                                 "end": 199
                                             },
                                             "right": null,
@@ -651,6 +735,8 @@ class two {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -658,7 +744,7 @@ class two {
                                                     "end": 225
                                                 },
                                                 "flags": 2097152,
-                                                "start": 217,
+                                                "start": 218,
                                                 "end": 225
                                             },
                                             "right": null,
@@ -755,6 +841,8 @@ class two {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -762,7 +850,7 @@ class two {
                                                     "end": 254
                                                 },
                                                 "flags": 2097152,
-                                                "start": 246,
+                                                "start": 247,
                                                 "end": 254
                                             },
                                             "right": null,
@@ -898,6 +986,8 @@ class two {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -914,7 +1004,7 @@ class two {
                                                     "end": 287
                                                 },
                                                 "flags": 2097152,
-                                                "start": 284,
+                                                "start": 285,
                                                 "end": 287
                                             },
                                             "right": null,

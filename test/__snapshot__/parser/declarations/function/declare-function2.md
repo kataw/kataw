@@ -87,6 +87,8 @@ declare function foo(): void
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -94,7 +96,7 @@ declare function foo(): void
                     "end": 31
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 26,
                 "end": 31
             },
             "flags": 4112,
@@ -148,6 +150,8 @@ declare function foo(): void
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -155,7 +159,7 @@ declare function foo(): void
                                 "end": 64
                             },
                             "flags": 2097152,
-                            "start": 56,
+                            "start": 57,
                             "end": 64
                         },
                         "right": null,
@@ -177,6 +181,8 @@ declare function foo(): void
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -184,7 +190,7 @@ declare function foo(): void
                                 "end": 75
                             },
                             "flags": 2097152,
-                            "start": 67,
+                            "start": 68,
                             "end": 75
                         },
                         "right": null,
@@ -202,6 +208,8 @@ declare function foo(): void
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -209,7 +217,7 @@ declare function foo(): void
                     "end": 82
                 },
                 "flags": 2097152,
-                "start": 41,
+                "start": 77,
                 "end": 82
             },
             "flags": 4112,
@@ -258,6 +266,8 @@ declare function foo(): void
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -265,7 +275,7 @@ declare function foo(): void
                     "end": 113
                 },
                 "flags": 2097152,
-                "start": 92,
+                "start": 108,
                 "end": 113
             },
             "flags": 4112,

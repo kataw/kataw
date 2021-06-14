@@ -48,12 +48,20 @@ type Foo = (string)
                 "end": 10
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134234347,
-                    "flags": 64,
-                    "start": 12,
-                    "end": 18
+                    "kind": 290,
+                    "type": {
+                        "kind": 134234347,
+                        "flags": 64,
+                        "start": 12,
+                        "end": 18
+                    },
+                    "flags": 2097152,
+                    "start": 10,
+                    "end": 19
                 },
                 "flags": 2097152,
                 "start": 10,

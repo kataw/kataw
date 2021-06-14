@@ -93,6 +93,8 @@ class C {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -100,7 +102,7 @@ class C {
                                         "end": 54
                                     },
                                     "flags": 2097152,
-                                    "start": 46,
+                                    "start": 47,
                                     "end": 54
                                 },
                                 "contents": {

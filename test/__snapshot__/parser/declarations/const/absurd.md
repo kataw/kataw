@@ -91,6 +91,8 @@ const absurd = <T>(x: empty): T => {};
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -107,7 +109,7 @@ const absurd = <T>(x: empty): T => {};
                                             "end": 27
                                         },
                                         "flags": 2097152,
-                                        "start": 20,
+                                        "start": 21,
                                         "end": 27
                                     },
                                     "right": null,
@@ -119,6 +121,8 @@ const absurd = <T>(x: empty): T => {};
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -135,7 +139,7 @@ const absurd = <T>(x: empty): T => {};
                                     "end": 31
                                 },
                                 "flags": 2097152,
-                                "start": 28,
+                                "start": 29,
                                 "end": 31
                             },
                             "contents": {

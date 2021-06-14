@@ -63,6 +63,8 @@ var {x}: {x: string; } = { x: "hello" };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -82,8 +84,16 @@ var {x}: {x: string; } = { x: "hello" };
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 12,
+                                                "end": 19
+                                            },
+                                            "flags": 2097152,
                                             "start": 12,
                                             "end": 19
                                         },
@@ -98,7 +108,7 @@ var {x}: {x: string; } = { x: "hello" };
                                 "end": 22
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 22
                         },
                         "initializer": {

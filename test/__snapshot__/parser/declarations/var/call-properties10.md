@@ -48,6 +48,8 @@ var g: { (x: string): void } = function(x: mixed) { }
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -71,8 +73,16 @@ var g: { (x: string): void } = function(x: mixed) { }
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 12,
+                                                            "end": 19
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 12,
                                                         "end": 19
                                                     },
@@ -88,8 +98,16 @@ var g: { (x: string): void } = function(x: mixed) { }
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 138477615,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 138477615,
+                                                "flags": 2097216,
+                                                "start": 21,
+                                                "end": 26
+                                            },
+                                            "flags": 2097152,
                                             "start": 21,
                                             "end": 26
                                         },
@@ -104,7 +122,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                 "end": 28
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 28
                         },
                         "initializer": {
@@ -135,6 +153,8 @@ var g: { (x: string): void } = function(x: mixed) { }
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -151,7 +171,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                                 "end": 48
                                             },
                                             "flags": 2097152,
-                                            "start": 41,
+                                            "start": 42,
                                             "end": 48
                                         },
                                         "right": null,

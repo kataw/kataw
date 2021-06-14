@@ -97,12 +97,22 @@ let tests = [
                                                     "optionalToken": null,
                                                     "type": {
                                                         "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 147,
                                                             "elementTypes": [
                                                                 {
-                                                                    "kind": 134234345,
-                                                                    "flags": 2097216,
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 134234345,
+                                                                        "flags": 2097216,
+                                                                        "start": 29,
+                                                                        "end": 35
+                                                                    },
+                                                                    "flags": 2097152,
                                                                     "start": 29,
                                                                     "end": 35
                                                                 }
@@ -113,7 +123,7 @@ let tests = [
                                                             "end": 36
                                                         },
                                                         "flags": 2097152,
-                                                        "start": 26,
+                                                        "start": 27,
                                                         "end": 36
                                                     },
                                                     "right": null,
@@ -244,18 +254,36 @@ let tests = [
                                                     "optionalToken": null,
                                                     "type": {
                                                         "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 147,
                                                             "elementTypes": [
                                                                 {
-                                                                    "kind": 134234345,
-                                                                    "flags": 2097216,
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 134234345,
+                                                                        "flags": 2097216,
+                                                                        "start": 165,
+                                                                        "end": 171
+                                                                    },
+                                                                    "flags": 2097152,
                                                                     "start": 165,
                                                                     "end": 171
                                                                 },
                                                                 {
-                                                                    "kind": 134234347,
-                                                                    "flags": 2097216,
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 134234347,
+                                                                        "flags": 2097216,
+                                                                        "start": 172,
+                                                                        "end": 179
+                                                                    },
+                                                                    "flags": 2097152,
                                                                     "start": 172,
                                                                     "end": 179
                                                                 }
@@ -266,7 +294,7 @@ let tests = [
                                                             "end": 180
                                                         },
                                                         "flags": 2097152,
-                                                        "start": 162,
+                                                        "start": 163,
                                                         "end": 180
                                                     },
                                                     "right": null,
@@ -385,12 +413,22 @@ let tests = [
                                                     "optionalToken": null,
                                                     "type": {
                                                         "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 147,
                                                             "elementTypes": [
                                                                 {
-                                                                    "kind": 134234345,
-                                                                    "flags": 2097216,
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 134234345,
+                                                                        "flags": 2097216,
+                                                                        "start": 343,
+                                                                        "end": 349
+                                                                    },
+                                                                    "flags": 2097152,
                                                                     "start": 343,
                                                                     "end": 349
                                                                 }
@@ -401,7 +439,7 @@ let tests = [
                                                             "end": 350
                                                         },
                                                         "flags": 2097152,
-                                                        "start": 340,
+                                                        "start": 341,
                                                         "end": 350
                                                     },
                                                     "right": null,
@@ -569,20 +607,38 @@ let tests = [
                                                                     "optionalToken": null,
                                                                     "type": {
                                                                         "kind": 139,
+                                                                        "bitwiseOrToken": null,
+                                                                        "bitwiseAndToken": null,
                                                                         "type": {
                                                                             "kind": 147,
                                                                             "elementTypes": [
                                                                                 {
-                                                                                    "kind": 134217968,
-                                                                                    "text": 1,
-                                                                                    "flags": 2097216,
+                                                                                    "kind": 139,
+                                                                                    "bitwiseOrToken": null,
+                                                                                    "bitwiseAndToken": null,
+                                                                                    "type": {
+                                                                                        "kind": 134217968,
+                                                                                        "text": 1,
+                                                                                        "flags": 2097216,
+                                                                                        "start": 552,
+                                                                                        "end": 553
+                                                                                    },
+                                                                                    "flags": 2097152,
                                                                                     "start": 552,
                                                                                     "end": 553
                                                                                 },
                                                                                 {
-                                                                                    "kind": 134217968,
-                                                                                    "text": 2,
-                                                                                    "flags": 2097216,
+                                                                                    "kind": 139,
+                                                                                    "bitwiseOrToken": null,
+                                                                                    "bitwiseAndToken": null,
+                                                                                    "type": {
+                                                                                        "kind": 134217968,
+                                                                                        "text": 2,
+                                                                                        "flags": 2097216,
+                                                                                        "start": 554,
+                                                                                        "end": 556
+                                                                                    },
+                                                                                    "flags": 2097152,
                                                                                     "start": 554,
                                                                                     "end": 556
                                                                                 }
@@ -593,7 +649,7 @@ let tests = [
                                                                             "end": 557
                                                                         },
                                                                         "flags": 2097152,
-                                                                        "start": 549,
+                                                                        "start": 550,
                                                                         "end": 557
                                                                     },
                                                                     "right": null,
@@ -659,6 +715,8 @@ let tests = [
                                                         "typeParameters": null,
                                                         "returnType": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 134234347,
                                                                 "flags": 2097216,
@@ -666,7 +724,7 @@ let tests = [
                                                                 "end": 566
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 492,
+                                                            "start": 559,
                                                             "end": 566
                                                         },
                                                         "flags": 16,

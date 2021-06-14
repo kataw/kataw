@@ -88,12 +88,22 @@ const [selected] = ([true]: [boolean]);
                                 "optionalToken": null,
                                 "type": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 147,
                                         "elementTypes": [
                                             {
-                                                "kind": 134234254,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234254,
+                                                    "flags": 2097216,
+                                                    "start": 29,
+                                                    "end": 36
+                                                },
+                                                "flags": 2097152,
                                                 "start": 29,
                                                 "end": 36
                                             }
@@ -104,7 +114,7 @@ const [selected] = ([true]: [boolean]);
                                         "end": 37
                                     },
                                     "flags": 2097152,
-                                    "start": 26,
+                                    "start": 27,
                                     "end": 37
                                 },
                                 "right": null,

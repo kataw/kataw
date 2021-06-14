@@ -67,6 +67,8 @@ declare function four<T>(this: T): void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -74,7 +76,7 @@ declare function four<T>(this: T): void;
                                 "end": 33
                             },
                             "flags": 2097152,
-                            "start": 25,
+                            "start": 26,
                             "end": 33
                         },
                         "right": null,
@@ -92,6 +94,8 @@ declare function four<T>(this: T): void;
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -99,7 +103,7 @@ declare function four<T>(this: T): void;
                     "end": 40
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 35,
                 "end": 40
             },
             "flags": 4112,
@@ -153,6 +157,8 @@ declare function four<T>(this: T): void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -160,7 +166,7 @@ declare function four<T>(this: T): void;
                                 "end": 75
                             },
                             "flags": 2097152,
-                            "start": 67,
+                            "start": 68,
                             "end": 75
                         },
                         "right": null,
@@ -182,6 +188,8 @@ declare function four<T>(this: T): void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -189,7 +197,7 @@ declare function four<T>(this: T): void;
                                 "end": 86
                             },
                             "flags": 2097152,
-                            "start": 78,
+                            "start": 79,
                             "end": 86
                         },
                         "right": null,
@@ -207,6 +215,8 @@ declare function four<T>(this: T): void;
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -214,7 +224,7 @@ declare function four<T>(this: T): void;
                     "end": 93
                 },
                 "flags": 2097152,
-                "start": 49,
+                "start": 88,
                 "end": 93
             },
             "flags": 4112,
@@ -268,6 +278,8 @@ declare function four<T>(this: T): void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -275,7 +287,7 @@ declare function four<T>(this: T): void;
                                 "end": 130
                             },
                             "flags": 2097152,
-                            "start": 122,
+                            "start": 123,
                             "end": 130
                         },
                         "right": null,
@@ -302,6 +314,8 @@ declare function four<T>(this: T): void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -309,7 +323,7 @@ declare function four<T>(this: T): void;
                                 "end": 141
                             },
                             "flags": 2097152,
-                            "start": 136,
+                            "start": 137,
                             "end": 141
                         },
                         "right": null,
@@ -327,6 +341,8 @@ declare function four<T>(this: T): void;
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -334,7 +350,7 @@ declare function four<T>(this: T): void;
                     "end": 148
                 },
                 "flags": 2097152,
-                "start": 102,
+                "start": 143,
                 "end": 148
             },
             "flags": 4112,
@@ -388,6 +404,8 @@ declare function four<T>(this: T): void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -404,7 +422,7 @@ declare function four<T>(this: T): void;
                                 "end": 182
                             },
                             "flags": 2097152,
-                            "start": 179,
+                            "start": 180,
                             "end": 182
                         },
                         "right": null,
@@ -445,6 +463,8 @@ declare function four<T>(this: T): void;
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -452,7 +472,7 @@ declare function four<T>(this: T): void;
                     "end": 189
                 },
                 "flags": 2097152,
-                "start": 157,
+                "start": 184,
                 "end": 189
             },
             "flags": 4112,

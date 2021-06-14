@@ -59,8 +59,16 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "type": null,
                         "defaultType": {
-                            "kind": 134234347,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 11,
+                                "end": 18
+                            },
+                            "flags": 2097152,
                             "start": 11,
                             "end": 18
                         },
@@ -80,16 +88,24 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 21
             },
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "T",
-                    "rawText": "T",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 21,
+                        "end": 23
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 21,
                     "end": 23
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 21,
                 "end": 23
@@ -130,8 +146,16 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "type": null,
                         "defaultType": {
-                            "kind": 67143222,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 67143222,
+                                "flags": 2097216,
+                                "start": 36,
+                                "end": 38
+                            },
+                            "flags": 2097152,
                             "start": 36,
                             "end": 38
                         },
@@ -151,16 +175,24 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 41
             },
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "T",
-                    "rawText": "T",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 41,
+                        "end": 43
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 41,
                     "end": 43
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 41,
                 "end": 43
@@ -201,6 +233,8 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -220,12 +254,20 @@ type A5<S = number, T: ?string = string> = T;
                                 "end": 63
                             },
                             "flags": 2097152,
-                            "start": 54,
+                            "start": 55,
                             "end": 63
                         },
                         "defaultType": {
-                            "kind": 134234347,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 65,
+                                "end": 72
+                            },
+                            "flags": 2097152,
                             "start": 65,
                             "end": 72
                         },
@@ -245,16 +287,24 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 75
             },
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "T",
-                    "rawText": "T",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 75,
+                        "end": 77
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 75,
                     "end": 77
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 75,
                 "end": 77
@@ -311,6 +361,8 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -330,12 +382,20 @@ type A5<S = number, T: ?string = string> = T;
                                 "end": 100
                             },
                             "flags": 2097152,
-                            "start": 91,
+                            "start": 92,
                             "end": 100
                         },
                         "defaultType": {
-                            "kind": 134234347,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 102,
+                                "end": 109
+                            },
+                            "flags": 2097152,
                             "start": 102,
                             "end": 109
                         },
@@ -355,16 +415,24 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 112
             },
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "T",
-                    "rawText": "T",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 112,
+                        "end": 114
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 112,
                     "end": 114
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 112,
                 "end": 114
@@ -405,8 +473,16 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "type": null,
                         "defaultType": {
-                            "kind": 134234345,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234345,
+                                "flags": 2097216,
+                                "start": 127,
+                                "end": 134
+                            },
+                            "flags": 2097152,
                             "start": 127,
                             "end": 134
                         },
@@ -426,6 +502,8 @@ type A5<S = number, T: ?string = string> = T;
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -445,12 +523,20 @@ type A5<S = number, T: ?string = string> = T;
                                 "end": 146
                             },
                             "flags": 2097152,
-                            "start": 137,
+                            "start": 138,
                             "end": 146
                         },
                         "defaultType": {
-                            "kind": 134234347,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 148,
+                                "end": 155
+                            },
+                            "flags": 2097152,
                             "start": 148,
                             "end": 155
                         },
@@ -470,16 +556,24 @@ type A5<S = number, T: ?string = string> = T;
                 "end": 158
             },
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "T",
-                    "rawText": "T",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 158,
+                        "end": 160
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 158,
                     "end": 160
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 158,
                 "end": 160

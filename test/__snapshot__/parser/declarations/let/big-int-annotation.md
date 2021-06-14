@@ -47,6 +47,8 @@ let x: 1n;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 286,
                                 "text": "1",
@@ -56,7 +58,7 @@ let x: 1n;
                                 "end": 9
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 9
                         },
                         "initializer": null,

@@ -78,6 +78,8 @@ function foo():number{}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
@@ -85,7 +87,7 @@ function foo():number{}
                     "end": 21
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 15,
                 "end": 21
             },
             "flags": 16,

@@ -134,6 +134,8 @@ class Annotations {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -141,7 +143,7 @@ class Annotations {
                                     "end": 22
                                 },
                                 "flags": 2097152,
-                                "start": 14,
+                                "start": 15,
                                 "end": 22
                             },
                             "initializer": null,
@@ -166,6 +168,8 @@ class Annotations {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -173,7 +177,7 @@ class Annotations {
                                     "end": 35
                                 },
                                 "flags": 2097152,
-                                "start": 27,
+                                "start": 28,
                                 "end": 35
                             },
                             "initializer": null,
@@ -340,6 +344,8 @@ class Annotations {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -356,7 +362,7 @@ class Annotations {
                                                     "end": 127
                                                 },
                                                 "flags": 2097152,
-                                                "start": 124,
+                                                "start": 125,
                                                 "end": 127
                                             },
                                             "right": null,
@@ -476,6 +482,8 @@ class Annotations {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -483,7 +491,7 @@ class Annotations {
                                     "end": 227
                                 },
                                 "flags": 2097152,
-                                "start": 219,
+                                "start": 220,
                                 "end": 227
                             },
                             "initializer": null,
@@ -591,6 +599,8 @@ class Annotations {
                                                                                 "optionalToken": null,
                                                                                 "type": {
                                                                                     "kind": 139,
+                                                                                    "bitwiseOrToken": null,
+                                                                                    "bitwiseAndToken": null,
                                                                                     "type": {
                                                                                         "kind": 144,
                                                                                         "id": {
@@ -607,7 +617,7 @@ class Annotations {
                                                                                         "end": 289
                                                                                     },
                                                                                     "flags": 2097152,
-                                                                                    "start": 282,
+                                                                                    "start": 283,
                                                                                     "end": 289
                                                                                 },
                                                                                 "initializer": null,
@@ -1009,6 +1019,8 @@ class Annotations {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -1016,7 +1028,7 @@ class Annotations {
                                     "end": 653
                                 },
                                 "flags": 2097152,
-                                "start": 645,
+                                "start": 646,
                                 "end": 653
                             },
                             "initializer": null,
@@ -1108,6 +1120,8 @@ class Annotations {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -1115,7 +1129,7 @@ class Annotations {
                                     "end": 683
                                 },
                                 "flags": 2097152,
-                                "start": 675,
+                                "start": 676,
                                 "end": 683
                             },
                             "initializer": {
@@ -1153,6 +1167,8 @@ class Annotations {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -1160,7 +1176,7 @@ class Annotations {
                                     "end": 728
                                 },
                                 "flags": 2097152,
-                                "start": 720,
+                                "start": 721,
                                 "end": 728
                             },
                             "initializer": {
@@ -1203,6 +1219,8 @@ class Annotations {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -1210,7 +1228,7 @@ class Annotations {
                                     "end": 759
                                 },
                                 "flags": 2097152,
-                                "start": 751,
+                                "start": 752,
                                 "end": 759
                             },
                             "initializer": null,
@@ -1317,6 +1335,8 @@ class Annotations {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -1324,7 +1344,7 @@ class Annotations {
                                     "end": 813
                                 },
                                 "flags": 2097152,
-                                "start": 805,
+                                "start": 806,
                                 "end": 813
                             },
                             "initializer": {
@@ -1367,6 +1387,8 @@ class Annotations {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -1374,7 +1396,7 @@ class Annotations {
                                     "end": 866
                                 },
                                 "flags": 2097152,
-                                "start": 858,
+                                "start": 859,
                                 "end": 866
                             },
                             "initializer": {
@@ -1425,6 +1447,8 @@ class Annotations {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -1432,7 +1456,7 @@ class Annotations {
                                         "end": 894
                                     },
                                     "flags": 2097152,
-                                    "start": 886,
+                                    "start": 887,
                                     "end": 894
                                 },
                                 "contents": {
@@ -1519,6 +1543,8 @@ class Annotations {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -1526,7 +1552,7 @@ class Annotations {
                                         "end": 938
                                     },
                                     "flags": 2097152,
-                                    "start": 930,
+                                    "start": 931,
                                     "end": 938
                                 },
                                 "contents": {
@@ -1613,6 +1639,8 @@ class Annotations {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -1620,7 +1648,7 @@ class Annotations {
                                         "end": 1009
                                     },
                                     "flags": 2097152,
-                                    "start": 1001,
+                                    "start": 1002,
                                     "end": 1009
                                 },
                                 "contents": {
@@ -1709,6 +1737,8 @@ class Annotations {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -1716,7 +1746,7 @@ class Annotations {
                                         "end": 1061
                                     },
                                     "flags": 2097152,
-                                    "start": 1053,
+                                    "start": 1054,
                                     "end": 1061
                                 },
                                 "contents": {
@@ -1805,6 +1835,8 @@ class Annotations {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -1812,7 +1844,7 @@ class Annotations {
                                         "end": 1140
                                     },
                                     "flags": 2097152,
-                                    "start": 1132,
+                                    "start": 1133,
                                     "end": 1140
                                 },
                                 "contents": {
@@ -1899,6 +1931,8 @@ class Annotations {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
@@ -1906,7 +1940,7 @@ class Annotations {
                                         "end": 1184
                                     },
                                     "flags": 2097152,
-                                    "start": 1176,
+                                    "start": 1177,
                                     "end": 1184
                                 },
                                 "contents": {
@@ -2090,6 +2124,8 @@ class Annotations {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -2097,7 +2133,7 @@ class Annotations {
                                         "end": 1298
                                     },
                                     "flags": 2097152,
-                                    "start": 1290,
+                                    "start": 1291,
                                     "end": 1298
                                 },
                                 "contents": {
@@ -2186,6 +2222,8 @@ class Annotations {
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
@@ -2193,7 +2231,7 @@ class Annotations {
                                         "end": 1350
                                     },
                                     "flags": 2097152,
-                                    "start": 1342,
+                                    "start": 1343,
                                     "end": 1350
                                 },
                                 "contents": {

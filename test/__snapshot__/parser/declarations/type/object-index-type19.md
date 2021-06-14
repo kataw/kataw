@@ -59,6 +59,8 @@ function method(obj: { [key: string]: any }) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -75,14 +77,30 @@ function method(obj: { [key: string]: any }) {}
                                             "end": 27
                                         },
                                         "key": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 28,
+                                                "end": 35
+                                            },
+                                            "flags": 2097152,
                                             "start": 28,
                                             "end": 35
                                         },
                                         "type": {
-                                            "kind": 134234252,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234252,
+                                                "flags": 2097216,
+                                                "start": 37,
+                                                "end": 41
+                                            },
+                                            "flags": 2097152,
                                             "start": 37,
                                             "end": 41
                                         },
@@ -97,7 +115,7 @@ function method(obj: { [key: string]: any }) {}
                                 "end": 43
                             },
                             "flags": 2097152,
-                            "start": 19,
+                            "start": 20,
                             "end": 43
                         },
                         "right": null,

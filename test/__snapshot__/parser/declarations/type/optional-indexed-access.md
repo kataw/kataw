@@ -48,42 +48,58 @@ type x = a?.[b]
                 "end": 8
             },
             "type": {
-                "kind": 332,
-                "optionalIndexedToken": {
-                    "kind": 393240,
-                    "flags": 64,
-                    "start": 10,
-                    "end": 12
-                },
-                "objectType": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 332,
+                    "optionalIndexedToken": {
+                        "kind": 393240,
+                        "flags": 64,
+                        "start": 10,
+                        "end": 12
+                    },
+                    "objectType": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 8,
+                            "end": 10
+                        },
+                        "typeParameters": null,
+                        "flags": 2097152,
                         "start": 8,
                         "end": 10
                     },
-                    "typeParameters": null,
-                    "flags": 2097152,
-                    "start": 8,
-                    "end": 10
-                },
-                "indexType": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 134299649,
-                        "text": "b",
-                        "rawText": "b",
-                        "flags": 96,
+                    "indexType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 14
+                            },
+                            "typeParameters": null,
+                            "flags": 2097152,
+                            "start": 13,
+                            "end": 14
+                        },
+                        "flags": 2097152,
                         "start": 13,
                         "end": 14
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
-                    "start": 13,
-                    "end": 14
+                    "start": 8,
+                    "end": 15
                 },
                 "flags": 2097152,
                 "start": 8,

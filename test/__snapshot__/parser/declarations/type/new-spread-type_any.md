@@ -60,30 +60,46 @@ var o3: O3 = (0: mixed); // ok
                 "end": 9
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 11,
+                                "end": 14
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234252,
+                                    "flags": 2097216,
+                                    "start": 14,
+                                    "end": 17
+                                },
+                                "flags": 2097152,
+                                "start": 14,
+                                "end": 17
+                            },
+                            "staticToken": null,
+                            "flags": 2097152,
                             "start": 11,
-                            "end": 14
-                        },
-                        "type": {
-                            "kind": 134234252,
-                            "flags": 2097216,
-                            "start": 14,
                             "end": 17
-                        },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 11,
-                        "end": 17
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 9,
+                    "end": 18
+                },
                 "flags": 2097152,
                 "start": 9,
                 "end": 18
@@ -117,6 +133,8 @@ var o3: O3 = (0: mixed); // ok
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -133,7 +151,7 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 30
                             },
                             "flags": 2097152,
-                            "start": 26,
+                            "start": 27,
                             "end": 30
                         },
                         "initializer": {
@@ -201,6 +219,8 @@ var o3: O3 = (0: mixed); // ok
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -217,7 +237,7 @@ var o3: O3 = (0: mixed); // ok
                             "end": 61
                         },
                         "flags": 2097152,
-                        "start": 54,
+                        "start": 55,
                         "end": 61
                     },
                     "right": null,
@@ -258,39 +278,55 @@ var o3: O3 = (0: mixed); // ok
                 "end": 80
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 82,
-                            "end": 85
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "Object",
-                                "rawText": "Object",
-                                "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 82,
+                                "end": 85
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "Object",
+                                        "rawText": "Object",
+                                        "flags": 96,
+                                        "start": 85,
+                                        "end": 91
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 85,
+                                    "end": 91
+                                },
+                                "flags": 2097152,
                                 "start": 85,
                                 "end": 91
                             },
-                            "typeParameters": null,
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 85,
+                            "start": 82,
                             "end": 91
-                        },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 82,
-                        "end": 91
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 80,
+                    "end": 92
+                },
                 "flags": 2097152,
                 "start": 80,
                 "end": 92
@@ -324,6 +360,8 @@ var o3: O3 = (0: mixed); // ok
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -340,7 +378,7 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 104
                             },
                             "flags": 2097152,
-                            "start": 100,
+                            "start": 101,
                             "end": 104
                         },
                         "initializer": {
@@ -408,6 +446,8 @@ var o3: O3 = (0: mixed); // ok
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -424,7 +464,7 @@ var o3: O3 = (0: mixed); // ok
                             "end": 135
                         },
                         "flags": 2097152,
-                        "start": 128,
+                        "start": 129,
                         "end": 135
                     },
                     "right": null,
@@ -470,6 +510,8 @@ var o3: O3 = (0: mixed); // ok
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -477,7 +519,7 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 166
                             },
                             "flags": 2097152,
-                            "start": 161,
+                            "start": 162,
                             "end": 166
                         },
                         "initializer": null,
@@ -582,39 +624,55 @@ var o3: O3 = (0: mixed); // ok
                 "end": 215
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 247,
-                        "protoKeyword": null,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 217,
-                            "end": 220
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "Derived",
-                                "rawText": "Derived",
-                                "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 247,
+                            "protoKeyword": null,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 217,
+                                "end": 220
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "Derived",
+                                        "rawText": "Derived",
+                                        "flags": 96,
+                                        "start": 220,
+                                        "end": 227
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 220,
+                                    "end": 227
+                                },
+                                "flags": 2097152,
                                 "start": 220,
                                 "end": 227
                             },
-                            "typeParameters": null,
+                            "staticToken": null,
                             "flags": 2097152,
-                            "start": 220,
+                            "start": 217,
                             "end": 227
-                        },
-                        "staticToken": null,
-                        "flags": 2097152,
-                        "start": 217,
-                        "end": 227
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 215,
+                    "end": 228
+                },
                 "flags": 2097152,
                 "start": 215,
                 "end": 228
@@ -648,6 +706,8 @@ var o3: O3 = (0: mixed); // ok
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -664,7 +724,7 @@ var o3: O3 = (0: mixed); // ok
                                 "end": 240
                             },
                             "flags": 2097152,
-                            "start": 236,
+                            "start": 237,
                             "end": 240
                         },
                         "initializer": {
@@ -732,6 +792,8 @@ var o3: O3 = (0: mixed); // ok
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -748,7 +810,7 @@ var o3: O3 = (0: mixed); // ok
                             "end": 271
                         },
                         "flags": 2097152,
-                        "start": 264,
+                        "start": 265,
                         "end": 271
                     },
                     "right": null,

@@ -46,118 +46,150 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                 "end": 8
             },
             "type": {
-                "kind": 138,
-                "types": [
-                    {
-                        "kind": 136,
-                        "type": {
-                            "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 138,
+                    "types": [
+                        {
+                            "kind": 136,
                             "type": {
-                                "kind": 137,
-                                "types": [
-                                    {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "Record",
-                                            "rawText": "Record",
-                                            "flags": 96,
-                                            "start": 10,
-                                            "end": 16
-                                        },
-                                        "typeParameters": {
-                                            "kind": 309,
-                                            "parameters": [
-                                                {
-                                                    "kind": 310,
-                                                    "type": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
+                                "kind": 290,
+                                "type": {
+                                    "kind": 137,
+                                    "types": [
+                                        {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "Record",
+                                                "rawText": "Record",
+                                                "flags": 96,
+                                                "start": 10,
+                                                "end": 16
+                                            },
+                                            "typeParameters": {
+                                                "kind": 309,
+                                                "parameters": [
+                                                    {
+                                                        "kind": 310,
+                                                        "type": {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 134234347,
+                                                                "flags": 2097216,
+                                                                "start": 17,
+                                                                "end": 23
+                                                            },
+                                                            "flags": 2097152,
+                                                            "start": 17,
+                                                            "end": 23
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 17,
                                                         "end": 23
                                                     },
-                                                    "flags": 2097152,
-                                                    "start": 17,
-                                                    "end": 23
-                                                },
-                                                {
-                                                    "kind": 310,
-                                                    "type": {
-                                                        "kind": 134234252,
-                                                        "flags": 2097216,
+                                                    {
+                                                        "kind": 310,
+                                                        "type": {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 134234252,
+                                                                "flags": 2097216,
+                                                                "start": 24,
+                                                                "end": 28
+                                                            },
+                                                            "flags": 2097152,
+                                                            "start": 24,
+                                                            "end": 28
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 24,
                                                         "end": 28
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 24,
-                                                    "end": 28
-                                                }
-                                            ],
+                                                    }
+                                                ],
+                                                "flags": 2097152,
+                                                "start": 16,
+                                                "end": 29
+                                            },
                                             "flags": 2097152,
-                                            "start": 16,
+                                            "start": 8,
                                             "end": 29
                                         },
-                                        "flags": 2097152,
-                                        "start": 8,
-                                        "end": 29
-                                    },
-                                    {
-                                        "kind": 138477575,
-                                        "flags": 2097216,
-                                        "start": 31,
-                                        "end": 36
-                                    }
-                                ],
+                                        {
+                                            "kind": 138477575,
+                                            "flags": 2097216,
+                                            "start": 31,
+                                            "end": 36
+                                        }
+                                    ],
+                                    "flags": 2097152,
+                                    "start": 29,
+                                    "end": 36
+                                },
                                 "flags": 2097152,
-                                "start": 29,
-                                "end": 36
+                                "start": 8,
+                                "end": 37
                             },
                             "flags": 2097152,
                             "start": 8,
-                            "end": 37
+                            "end": 39
                         },
-                        "flags": 2097152,
-                        "start": 8,
-                        "end": 39
-                    },
-                    {
-                        "kind": 134234353,
-                        "properties": [
-                            {
-                                "kind": 193,
-                                "protoKeyword": null,
-                                "staticToken": null,
-                                "getKeyword": null,
-                                "setKeyword": null,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "length",
-                                    "rawText": "length",
-                                    "flags": 96,
+                        {
+                            "kind": 134234353,
+                            "properties": [
+                                {
+                                    "kind": 193,
+                                    "protoKeyword": null,
+                                    "staticToken": null,
+                                    "getKeyword": null,
+                                    "setKeyword": null,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "length",
+                                        "rawText": "length",
+                                        "flags": 96,
+                                        "start": 43,
+                                        "end": 50
+                                    },
+                                    "optionalToken": null,
+                                    "value": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134217968,
+                                            "text": 2,
+                                            "flags": 2097216,
+                                            "start": 51,
+                                            "end": 53
+                                        },
+                                        "flags": 2097152,
+                                        "start": 51,
+                                        "end": 53
+                                    },
+                                    "flags": 2097152,
                                     "start": 43,
-                                    "end": 50
-                                },
-                                "optionalToken": null,
-                                "value": {
-                                    "kind": 134217968,
-                                    "text": 2,
-                                    "flags": 2097216,
-                                    "start": 51,
-                                    "end": 53
-                                },
-                                "flags": 2097152,
-                                "start": 43,
-                                "end": 54
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "start": 41,
-                        "end": 56
-                    }
-                ],
+                                    "end": 54
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 41,
+                            "end": 56
+                        }
+                    ],
+                    "flags": 2097152,
+                    "start": 39,
+                    "end": 56
+                },
                 "flags": 2097152,
-                "start": 39,
+                "start": 8,
                 "end": 56
             },
             "flags": 2097152,

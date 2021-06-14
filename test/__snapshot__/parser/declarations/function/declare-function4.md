@@ -64,6 +64,8 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -80,36 +82,52 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234353,
-                                                "properties": [
-                                                    {
-                                                        "kind": 193,
-                                                        "protoKeyword": null,
-                                                        "staticToken": null,
-                                                        "getKeyword": null,
-                                                        "setKeyword": null,
-                                                        "key": {
-                                                            "kind": 134299649,
-                                                            "text": "foo",
-                                                            "rawText": "foo",
-                                                            "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234353,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 193,
+                                                            "protoKeyword": null,
+                                                            "staticToken": null,
+                                                            "getKeyword": null,
+                                                            "setKeyword": null,
+                                                            "key": {
+                                                                "kind": 134299649,
+                                                                "text": "foo",
+                                                                "rawText": "foo",
+                                                                "flags": 96,
+                                                                "start": 37,
+                                                                "end": 40
+                                                            },
+                                                            "optionalToken": null,
+                                                            "value": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 134217967,
+                                                                    "text": "a",
+                                                                    "flags": 2097216,
+                                                                    "start": 41,
+                                                                    "end": 45
+                                                                },
+                                                                "flags": 2097152,
+                                                                "start": 41,
+                                                                "end": 45
+                                                            },
+                                                            "flags": 2097152,
                                                             "start": 37,
-                                                            "end": 40
-                                                        },
-                                                        "optionalToken": null,
-                                                        "value": {
-                                                            "kind": 134217967,
-                                                            "text": "a",
-                                                            "flags": 2097216,
-                                                            "start": 41,
                                                             "end": 45
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 37,
-                                                        "end": 45
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 36,
+                                                    "end": 46
+                                                },
                                                 "flags": 2097152,
                                                 "start": 36,
                                                 "end": 46
@@ -128,7 +146,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                 "end": 47
                             },
                             "flags": 2097152,
-                            "start": 27,
+                            "start": 28,
                             "end": 47
                         },
                         "right": null,
@@ -146,6 +164,8 @@ declare function bar(config: Config<{foo: 'a'}>) : void
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -153,7 +173,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                     "end": 55
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 50,
                 "end": 55
             },
             "flags": 4112,

@@ -48,6 +48,8 @@ var a : A.B.C
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -92,7 +94,7 @@ var a : A.B.C
                                 "end": 13
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 7,
                             "end": 13
                         },
                         "initializer": null,

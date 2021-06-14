@@ -48,41 +48,49 @@ type X = (x.y<>);
                 "end": 8
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 145,
-                        "qualification": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 11
-                        },
+                    "kind": 290,
+                    "type": {
+                        "kind": 144,
                         "id": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
-                            "start": 12,
+                            "kind": 145,
+                            "qualification": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 11
+                            },
+                            "id": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 12,
+                                "end": 13
+                            },
+                            "flags": 2097152,
+                            "start": 8,
                             "end": 13
+                        },
+                        "typeParameters": {
+                            "kind": 309,
+                            "parameters": [],
+                            "flags": 2097152,
+                            "start": 13,
+                            "end": 15
                         },
                         "flags": 2097152,
                         "start": 8,
-                        "end": 13
-                    },
-                    "typeParameters": {
-                        "kind": 309,
-                        "parameters": [],
-                        "flags": 2097152,
-                        "start": 13,
                         "end": 15
                     },
                     "flags": 2097152,
                     "start": 8,
-                    "end": 15
+                    "end": 16
                 },
                 "flags": 2097152,
                 "start": 8,

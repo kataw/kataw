@@ -48,32 +48,48 @@ type X = (?await:string) => T;
                 "end": 8
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134217970,
-                    "nullableToken": {
-                        "kind": 134217750,
-                        "flags": 64,
-                        "start": 10,
-                        "end": 11
-                    },
+                    "kind": 290,
                     "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "await",
-                            "rawText": "await",
-                            "flags": 96,
-                            "start": 11,
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134217970,
+                            "nullableToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 10,
+                                "end": 11
+                            },
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 96,
+                                    "start": 11,
+                                    "end": 16
+                                },
+                                "typeParameters": null,
+                                "flags": 2097152,
+                                "start": 11,
+                                "end": 16
+                            },
+                            "flags": 2097152,
+                            "start": 10,
                             "end": 16
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
-                        "start": 11,
+                        "start": 10,
                         "end": 16
                     },
                     "flags": 2097152,
-                    "start": 10,
+                    "start": 8,
                     "end": 16
                 },
                 "flags": 2097152,

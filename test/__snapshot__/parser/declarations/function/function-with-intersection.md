@@ -59,6 +59,13 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": {
+                                "kind": 134251592,
+                                "flags": 64,
+                                "start": 13,
+                                "end": 15
+                            },
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -82,7 +89,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                 "end": 21
                             },
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 13,
                             "end": 21
                         },
                         "right": null,
@@ -104,6 +111,13 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": {
+                                "kind": 134252103,
+                                "flags": 64,
+                                "start": 25,
+                                "end": 27
+                            },
                             "type": {
                                 "kind": 138,
                                 "types": [
@@ -127,7 +141,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                 "end": 33
                             },
                             "flags": 2097152,
-                            "start": 24,
+                            "start": 25,
                             "end": 33
                         },
                         "right": null,
@@ -158,6 +172,8 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
@@ -165,7 +181,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                     "end": 42
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 35,
                 "end": 42
             },
             "flags": 16,

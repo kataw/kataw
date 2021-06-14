@@ -58,6 +58,8 @@ declare var union: Foo | null | void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -74,7 +76,7 @@ declare var union: Foo | null | void;
                                 "end": 18
                             },
                             "flags": 2097152,
-                            "start": 13,
+                            "start": 14,
                             "end": 18
                         },
                         "initializer": null,
@@ -121,6 +123,8 @@ declare var union: Foo | null | void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -137,7 +141,7 @@ declare var union: Foo | null | void;
                                 "end": 44
                             },
                             "flags": 2097152,
-                            "start": 37,
+                            "start": 38,
                             "end": 44
                         },
                         "initializer": null,
@@ -184,6 +188,8 @@ declare var union: Foo | null | void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -191,7 +197,7 @@ declare var union: Foo | null | void;
                                 "end": 66
                             },
                             "flags": 2097152,
-                            "start": 61,
+                            "start": 62,
                             "end": 66
                         },
                         "initializer": null,
@@ -238,6 +244,8 @@ declare var union: Foo | null | void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -254,7 +262,7 @@ declare var union: Foo | null | void;
                                 "end": 92
                             },
                             "flags": 2097152,
-                            "start": 85,
+                            "start": 86,
                             "end": 92
                         },
                         "initializer": null,
@@ -301,6 +309,8 @@ declare var union: Foo | null | void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -329,7 +339,7 @@ declare var union: Foo | null | void;
                                 "end": 117
                             },
                             "flags": 2097152,
-                            "start": 111,
+                            "start": 112,
                             "end": 117
                         },
                         "initializer": null,
@@ -376,6 +386,8 @@ declare var union: Foo | null | void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -412,7 +424,7 @@ declare var union: Foo | null | void;
                                 "end": 155
                             },
                             "flags": 2097152,
-                            "start": 136,
+                            "start": 137,
                             "end": 155
                         },
                         "initializer": null,

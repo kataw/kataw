@@ -48,26 +48,42 @@ type A = (string) => void
                 "end": 8
             },
             "type": {
-                "kind": 288,
-                "arrowTypeParameterList": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 17,
-                    "end": 20
-                },
-                "arrowToken": {
-                    "kind": 134234347,
-                    "flags": 64,
-                    "start": 10,
-                    "end": 16
-                },
-                "returnType": {
-                    "kind": 138477615,
-                    "flags": 2097216,
-                    "start": 20,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 288,
+                    "arrowTypeParameterList": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 17,
+                        "end": 20
+                    },
+                    "arrowToken": {
+                        "kind": 134234347,
+                        "flags": 64,
+                        "start": 10,
+                        "end": 16
+                    },
+                    "returnType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 138477615,
+                            "flags": 2097216,
+                            "start": 20,
+                            "end": 25
+                        },
+                        "flags": 2097152,
+                        "start": 20,
+                        "end": 25
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
+                    "start": 8,
                     "end": 25
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 8,
                 "end": 25

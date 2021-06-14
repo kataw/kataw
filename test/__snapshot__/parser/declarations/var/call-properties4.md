@@ -48,6 +48,8 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -71,8 +73,16 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234345,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 12,
+                                                            "end": 19
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 12,
                                                         "end": 19
                                                     },
@@ -88,8 +98,16 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 21,
+                                                "end": 28
+                                            },
+                                            "flags": 2097152,
                                             "start": 21,
                                             "end": 28
                                         },
@@ -104,7 +122,7 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                 "end": 30
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 30
                         },
                         "initializer": {
@@ -135,6 +153,8 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
@@ -142,7 +162,7 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                                 "end": 52
                                             },
                                             "flags": 2097152,
-                                            "start": 44,
+                                            "start": 45,
                                             "end": 52
                                         },
                                         "right": null,
@@ -194,6 +214,8 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                             "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -201,7 +223,7 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                     "end": 61
                                 },
                                 "flags": 2097152,
-                                "start": 53,
+                                "start": 54,
                                 "end": 61
                             },
                             "flags": 32,

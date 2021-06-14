@@ -48,23 +48,39 @@ type x = [-1];
                 "end": 8
             },
             "type": {
-                "kind": 147,
-                "elementTypes": [
-                    {
-                        "kind": 313,
-                        "subtractionToken": {
-                            "kind": 134318643,
-                            "flags": 64,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 147,
+                    "elementTypes": [
+                        {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 313,
+                                "subtractionToken": {
+                                    "kind": 134318643,
+                                    "flags": 64,
+                                    "start": 10,
+                                    "end": 11
+                                },
+                                "text": 1,
+                                "flags": 2097216,
+                                "start": 10,
+                                "end": 12
+                            },
+                            "flags": 2097152,
                             "start": 10,
-                            "end": 11
-                        },
-                        "text": 1,
-                        "flags": 2097216,
-                        "start": 10,
-                        "end": 12
-                    }
-                ],
-                "trailingComma": false,
+                            "end": 12
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 13
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 13

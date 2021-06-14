@@ -86,6 +86,8 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
@@ -93,7 +95,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                     "end": 41
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 34,
                 "end": 41
             },
             "flags": 16,

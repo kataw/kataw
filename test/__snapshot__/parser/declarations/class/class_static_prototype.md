@@ -72,6 +72,8 @@ class A {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -88,7 +90,7 @@ class A {
                                     "end": 36
                                 },
                                 "flags": 2097152,
-                                "start": 28,
+                                "start": 29,
                                 "end": 36
                             },
                             "initializer": null,

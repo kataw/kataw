@@ -487,6 +487,8 @@ var y: Array<string> = ['3', ...x];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -503,8 +505,16 @@ var y: Array<string> = ['3', ...x];
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 114,
+                                                    "end": 120
+                                                },
+                                                "flags": 2097152,
                                                 "start": 114,
                                                 "end": 120
                                             },
@@ -522,7 +532,7 @@ var y: Array<string> = ['3', ...x];
                                 "end": 121
                             },
                             "flags": 2097152,
-                            "start": 106,
+                            "start": 107,
                             "end": 121
                         },
                         "initializer": {
@@ -594,6 +604,8 @@ var y: Array<string> = ['3', ...x];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -610,8 +622,16 @@ var y: Array<string> = ['3', ...x];
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 149,
+                                                    "end": 155
+                                                },
+                                                "flags": 2097152,
                                                 "start": 149,
                                                 "end": 155
                                             },
@@ -629,7 +649,7 @@ var y: Array<string> = ['3', ...x];
                                 "end": 156
                             },
                             "flags": 2097152,
-                            "start": 141,
+                            "start": 142,
                             "end": 156
                         },
                         "initializer": {

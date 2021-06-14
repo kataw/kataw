@@ -48,51 +48,75 @@ type D = (Obj['bar'])['baz'];
                 "end": 8
             },
             "type": {
-                "kind": 311,
-                "objectType": {
-                    "kind": 290,
-                    "type": {
-                        "kind": 311,
-                        "objectType": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "Obj",
-                                "rawText": "Obj",
-                                "flags": 96,
-                                "start": 10,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 311,
+                    "objectType": {
+                        "kind": 290,
+                        "type": {
+                            "kind": 311,
+                            "objectType": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 134299649,
+                                    "text": "Obj",
+                                    "rawText": "Obj",
+                                    "flags": 96,
+                                    "start": 10,
+                                    "end": 13
+                                },
+                                "typeParameters": null,
+                                "flags": 2097152,
+                                "start": 8,
                                 "end": 13
                             },
-                            "typeParameters": null,
-                            "flags": 2097152,
-                            "start": 8,
-                            "end": 13
-                        },
-                        "indexType": {
-                            "kind": 134217967,
-                            "text": "bar",
-                            "flags": 2097216,
-                            "start": 14,
-                            "end": 19
+                            "indexType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134217967,
+                                    "text": "bar",
+                                    "flags": 2097216,
+                                    "start": 14,
+                                    "end": 19
+                                },
+                                "flags": 2097152,
+                                "start": 14,
+                                "end": 19
+                            },
+                            "flags": 0,
+                            "start": 13,
+                            "end": 21
                         },
                         "flags": 2097152,
-                        "start": 14,
+                        "start": 8,
                         "end": 21
                     },
-                    "flags": 2097152,
+                    "indexType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134217967,
+                            "text": "baz",
+                            "flags": 2097216,
+                            "start": 22,
+                            "end": 27
+                        },
+                        "flags": 2097152,
+                        "start": 22,
+                        "end": 27
+                    },
+                    "flags": 0,
                     "start": 8,
-                    "end": 21
+                    "end": 29
                 },
-                "indexType": {
-                    "kind": 134217967,
-                    "text": "baz",
-                    "flags": 2097216,
-                    "start": 22,
-                    "end": 27
-                },
-                "flags": 0,
+                "flags": 2097152,
                 "start": 8,
-                "end": 29
+                "end": 28
             },
             "flags": 2097152,
             "start": 0,

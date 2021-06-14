@@ -59,6 +59,8 @@ function one(this: number) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -66,7 +68,7 @@ function one(this: number) {}
                                 "end": 25
                             },
                             "flags": 2097152,
-                            "start": 17,
+                            "start": 18,
                             "end": 25
                         },
                         "right": null,

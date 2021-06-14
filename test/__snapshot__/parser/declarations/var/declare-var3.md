@@ -55,6 +55,8 @@ declare var tup: [{foo: string}, {bar: number}];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -71,35 +73,51 @@ declare var tup: [{foo: string}, {bar: number}];
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234353,
-                                                "properties": [
-                                                    {
-                                                        "kind": 193,
-                                                        "protoKeyword": null,
-                                                        "staticToken": null,
-                                                        "getKeyword": null,
-                                                        "setKeyword": null,
-                                                        "key": {
-                                                            "kind": 134299649,
-                                                            "text": "foo",
-                                                            "rawText": "foo",
-                                                            "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234353,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 193,
+                                                            "protoKeyword": null,
+                                                            "staticToken": null,
+                                                            "getKeyword": null,
+                                                            "setKeyword": null,
+                                                            "key": {
+                                                                "kind": 134299649,
+                                                                "text": "foo",
+                                                                "rawText": "foo",
+                                                                "flags": 96,
+                                                                "start": 30,
+                                                                "end": 34
+                                                            },
+                                                            "optionalToken": null,
+                                                            "value": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 134234347,
+                                                                    "flags": 2097216,
+                                                                    "start": 35,
+                                                                    "end": 42
+                                                                },
+                                                                "flags": 2097152,
+                                                                "start": 35,
+                                                                "end": 42
+                                                            },
+                                                            "flags": 2097152,
                                                             "start": 30,
-                                                            "end": 34
-                                                        },
-                                                        "optionalToken": null,
-                                                        "value": {
-                                                            "kind": 134234347,
-                                                            "flags": 2097216,
-                                                            "start": 35,
                                                             "end": 42
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 30,
-                                                        "end": 42
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 29,
+                                                    "end": 44
+                                                },
                                                 "flags": 2097152,
                                                 "start": 29,
                                                 "end": 44
@@ -118,7 +136,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                 "end": 45
                             },
                             "flags": 2097152,
-                            "start": 21,
+                            "start": 22,
                             "end": 45
                         },
                         "initializer": null,
@@ -165,6 +183,8 @@ declare var tup: [{foo: string}, {bar: number}];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -181,35 +201,51 @@ declare var tup: [{foo: string}, {bar: number}];
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234353,
-                                                "properties": [
-                                                    {
-                                                        "kind": 193,
-                                                        "protoKeyword": null,
-                                                        "staticToken": null,
-                                                        "getKeyword": null,
-                                                        "setKeyword": null,
-                                                        "key": {
-                                                            "kind": 134299649,
-                                                            "text": "foo",
-                                                            "rawText": "foo",
-                                                            "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234353,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 193,
+                                                            "protoKeyword": null,
+                                                            "staticToken": null,
+                                                            "getKeyword": null,
+                                                            "setKeyword": null,
+                                                            "key": {
+                                                                "kind": 134299649,
+                                                                "text": "foo",
+                                                                "rawText": "foo",
+                                                                "flags": 96,
+                                                                "start": 88,
+                                                                "end": 91
+                                                            },
+                                                            "optionalToken": null,
+                                                            "value": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 134234347,
+                                                                    "flags": 2097216,
+                                                                    "start": 92,
+                                                                    "end": 99
+                                                                },
+                                                                "flags": 2097152,
+                                                                "start": 92,
+                                                                "end": 99
+                                                            },
+                                                            "flags": 2097152,
                                                             "start": 88,
-                                                            "end": 91
-                                                        },
-                                                        "optionalToken": null,
-                                                        "value": {
-                                                            "kind": 134234347,
-                                                            "flags": 2097216,
-                                                            "start": 92,
                                                             "end": 99
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 88,
-                                                        "end": 99
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 87,
+                                                    "end": 100
+                                                },
                                                 "flags": 2097152,
                                                 "start": 87,
                                                 "end": 100
@@ -228,7 +264,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                 "end": 101
                             },
                             "flags": 2097152,
-                            "start": 70,
+                            "start": 71,
                             "end": 101
                         },
                         "initializer": null,
@@ -275,73 +311,107 @@ declare var tup: [{foo: string}, {bar: number}];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 147,
                                 "elementTypes": [
                                     {
-                                        "kind": 134234353,
-                                        "properties": [
-                                            {
-                                                "kind": 193,
-                                                "protoKeyword": null,
-                                                "staticToken": null,
-                                                "getKeyword": null,
-                                                "setKeyword": null,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "foo",
-                                                    "rawText": "foo",
-                                                    "flags": 96,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234353,
+                                            "properties": [
+                                                {
+                                                    "kind": 193,
+                                                    "protoKeyword": null,
+                                                    "staticToken": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "foo",
+                                                        "rawText": "foo",
+                                                        "flags": 96,
+                                                        "start": 122,
+                                                        "end": 125
+                                                    },
+                                                    "optionalToken": null,
+                                                    "value": {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 126,
+                                                            "end": 133
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 126,
+                                                        "end": 133
+                                                    },
+                                                    "flags": 2097152,
                                                     "start": 122,
-                                                    "end": 125
-                                                },
-                                                "optionalToken": null,
-                                                "value": {
-                                                    "kind": 134234347,
-                                                    "flags": 2097216,
-                                                    "start": 126,
                                                     "end": 133
-                                                },
-                                                "flags": 2097152,
-                                                "start": 122,
-                                                "end": 133
-                                            }
-                                        ],
-                                        "trailingComma": false,
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 121,
+                                            "end": 134
+                                        },
                                         "flags": 2097152,
                                         "start": 121,
                                         "end": 134
                                     },
                                     {
-                                        "kind": 134234353,
-                                        "properties": [
-                                            {
-                                                "kind": 193,
-                                                "protoKeyword": null,
-                                                "staticToken": null,
-                                                "getKeyword": null,
-                                                "setKeyword": null,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "bar",
-                                                    "rawText": "bar",
-                                                    "flags": 96,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234353,
+                                            "properties": [
+                                                {
+                                                    "kind": 193,
+                                                    "protoKeyword": null,
+                                                    "staticToken": null,
+                                                    "getKeyword": null,
+                                                    "setKeyword": null,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "bar",
+                                                        "rawText": "bar",
+                                                        "flags": 96,
+                                                        "start": 137,
+                                                        "end": 140
+                                                    },
+                                                    "optionalToken": null,
+                                                    "value": {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 141,
+                                                            "end": 148
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 141,
+                                                        "end": 148
+                                                    },
+                                                    "flags": 2097152,
                                                     "start": 137,
-                                                    "end": 140
-                                                },
-                                                "optionalToken": null,
-                                                "value": {
-                                                    "kind": 134234345,
-                                                    "flags": 2097216,
-                                                    "start": 141,
                                                     "end": 148
-                                                },
-                                                "flags": 2097152,
-                                                "start": 137,
-                                                "end": 148
-                                            }
-                                        ],
-                                        "trailingComma": false,
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 135,
+                                            "end": 149
+                                        },
                                         "flags": 2097152,
                                         "start": 135,
                                         "end": 149
@@ -353,7 +423,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                 "end": 150
                             },
                             "flags": 2097152,
-                            "start": 118,
+                            "start": 119,
                             "end": 150
                         },
                         "initializer": null,

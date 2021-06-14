@@ -62,6 +62,8 @@ async (): string => {}
                     },
                     "returnType": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
@@ -69,7 +71,7 @@ async (): string => {}
                             "end": 20
                         },
                         "flags": 2097152,
-                        "start": 12,
+                        "start": 13,
                         "end": 20
                     },
                     "contents": {
@@ -130,6 +132,8 @@ async (): string => {}
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234347,
                     "flags": 2097216,
@@ -137,7 +141,7 @@ async (): string => {}
                     "end": 51
                 },
                 "flags": 2097152,
-                "start": 43,
+                "start": 44,
                 "end": 51
             },
             "contents": {

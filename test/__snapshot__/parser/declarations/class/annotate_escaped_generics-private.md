@@ -172,6 +172,8 @@ class I<X> {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -188,7 +190,7 @@ class I<X> {
                                                     "end": 34
                                                 },
                                                 "flags": 2097152,
-                                                "start": 31,
+                                                "start": 32,
                                                 "end": 34
                                             },
                                             "right": null,
@@ -283,6 +285,8 @@ class I<X> {
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
                                                     "id": {
@@ -299,7 +303,7 @@ class I<X> {
                                                     "end": 64
                                                 },
                                                 "flags": 2097152,
-                                                "start": 61,
+                                                "start": 62,
                                                 "end": 64
                                             },
                                             "right": null,

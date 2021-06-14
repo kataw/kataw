@@ -59,6 +59,8 @@ function foo(numVal: any, otherVal: mixed){}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -66,7 +68,7 @@ function foo(numVal: any, otherVal: mixed){}
                                 "end": 24
                             },
                             "flags": 2097152,
-                            "start": 19,
+                            "start": 20,
                             "end": 24
                         },
                         "right": null,
@@ -88,6 +90,8 @@ function foo(numVal: any, otherVal: mixed){}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -104,7 +108,7 @@ function foo(numVal: any, otherVal: mixed){}
                                 "end": 41
                             },
                             "flags": 2097152,
-                            "start": 34,
+                            "start": 35,
                             "end": 41
                         },
                         "right": null,

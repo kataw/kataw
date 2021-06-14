@@ -87,6 +87,8 @@ function x8(a: false & false): false {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -94,7 +96,7 @@ function x8(a: false & false): false {
                                 "end": 21
                             },
                             "flags": 2097152,
-                            "start": 13,
+                            "start": 14,
                             "end": 21
                         },
                         "right": null,
@@ -158,6 +160,8 @@ function x8(a: false & false): false {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
@@ -165,7 +169,7 @@ function x8(a: false & false): false {
                     "end": 30
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 23,
                 "end": 30
             },
             "flags": 16,
@@ -208,6 +212,8 @@ function x8(a: false & false): false {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -215,7 +221,7 @@ function x8(a: false & false): false {
                                 "end": 106
                             },
                             "flags": 2097152,
-                            "start": 98,
+                            "start": 99,
                             "end": 106
                         },
                         "right": null,
@@ -279,6 +285,8 @@ function x8(a: false & false): false {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
@@ -286,7 +294,7 @@ function x8(a: false & false): false {
                     "end": 115
                 },
                 "flags": 2097152,
-                "start": 83,
+                "start": 108,
                 "end": 115
             },
             "flags": 16,
@@ -329,6 +337,8 @@ function x8(a: false & false): false {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -336,7 +346,7 @@ function x8(a: false & false): false {
                                 "end": 194
                             },
                             "flags": 2097152,
-                            "start": 186,
+                            "start": 187,
                             "end": 194
                         },
                         "right": null,
@@ -439,6 +449,8 @@ function x8(a: false & false): false {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -446,7 +458,7 @@ function x8(a: false & false): false {
                                 "end": 275
                             },
                             "flags": 2097152,
-                            "start": 267,
+                            "start": 268,
                             "end": 275
                         },
                         "right": null,
@@ -510,6 +522,8 @@ function x8(a: false & false): false {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234254,
                     "flags": 2097216,
@@ -517,7 +531,7 @@ function x8(a: false & false): false {
                     "end": 285
                 },
                 "flags": 2097152,
-                "start": 252,
+                "start": 277,
                 "end": 285
             },
             "flags": 16,
@@ -560,6 +574,8 @@ function x8(a: false & false): false {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -576,8 +592,16 @@ function x8(a: false & false): false {
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 205586437,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 205586437,
+                                                    "flags": 2097216,
+                                                    "start": 348,
+                                                    "end": 353
+                                                },
+                                                "flags": 2097152,
                                                 "start": 348,
                                                 "end": 353
                                             },
@@ -595,7 +619,7 @@ function x8(a: false & false): false {
                                 "end": 354
                             },
                             "flags": 2097152,
-                            "start": 344,
+                            "start": 345,
                             "end": 354
                         },
                         "right": null,
@@ -659,6 +683,8 @@ function x8(a: false & false): false {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 24752947,
                     "flags": 2097216,
@@ -666,7 +692,7 @@ function x8(a: false & false): false {
                     "end": 361
                 },
                 "flags": 2097152,
-                "start": 329,
+                "start": 356,
                 "end": 361
             },
             "flags": 16,
@@ -715,6 +741,8 @@ function x8(a: false & false): false {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -731,8 +759,16 @@ function x8(a: false & false): false {
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 205586437,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 205586437,
+                                                    "flags": 2097216,
+                                                    "start": 404,
+                                                    "end": 409
+                                                },
+                                                "flags": 2097152,
                                                 "start": 404,
                                                 "end": 409
                                             },
@@ -750,7 +786,7 @@ function x8(a: false & false): false {
                                 "end": 410
                             },
                             "flags": 2097152,
-                            "start": 400,
+                            "start": 401,
                             "end": 410
                         },
                         "right": null,
@@ -814,6 +850,8 @@ function x8(a: false & false): false {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 205586437,
                     "flags": 2097216,
@@ -821,7 +859,7 @@ function x8(a: false & false): false {
                     "end": 418
                 },
                 "flags": 2097152,
-                "start": 385,
+                "start": 412,
                 "end": 418
             },
             "flags": 16,
@@ -870,6 +908,8 @@ function x8(a: false & false): false {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 138,
                                 "types": [
@@ -891,7 +931,7 @@ function x8(a: false & false): false {
                                 "end": 490
                             },
                             "flags": 2097152,
-                            "start": 475,
+                            "start": 476,
                             "end": 490
                         },
                         "right": null,
@@ -955,6 +995,8 @@ function x8(a: false & false): false {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 24752947,
                     "flags": 2097216,
@@ -962,7 +1004,7 @@ function x8(a: false & false): false {
                     "end": 497
                 },
                 "flags": 2097152,
-                "start": 460,
+                "start": 492,
                 "end": 497
             },
             "flags": 16,
@@ -1011,6 +1053,8 @@ function x8(a: false & false): false {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 138,
                                 "types": [
@@ -1032,7 +1076,7 @@ function x8(a: false & false): false {
                                 "end": 551
                             },
                             "flags": 2097152,
-                            "start": 536,
+                            "start": 537,
                             "end": 551
                         },
                         "right": null,
@@ -1096,6 +1140,8 @@ function x8(a: false & false): false {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 205586437,
                     "flags": 2097216,
@@ -1103,7 +1149,7 @@ function x8(a: false & false): false {
                     "end": 559
                 },
                 "flags": 2097152,
-                "start": 521,
+                "start": 553,
                 "end": 559
             },
             "flags": 16,

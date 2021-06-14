@@ -282,6 +282,8 @@ interface TypeAlias <: TypeNode {
 ```js
 interface TypeAnnotation <: TypeNode {
   kind: NodeKind.TypeAnnotation;
+  bitwiseOrToken: SyntaxToken<TokenSyntaxKind> | null;
+  bitwiseAndToken: SyntaxToken<TokenSyntaxKind> | null;
   type: TypeNode;
 }
 ```

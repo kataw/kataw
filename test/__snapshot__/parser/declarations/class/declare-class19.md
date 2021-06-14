@@ -86,9 +86,17 @@ declare class x {
                                     "end": 37
                                 },
                                 "returnType": {
-                                    "kind": 134234353,
-                                    "properties": [],
-                                    "trailingComma": false,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234353,
+                                        "properties": [],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 39,
+                                        "end": 42
+                                    },
                                     "flags": 2097152,
                                     "start": 39,
                                     "end": 42

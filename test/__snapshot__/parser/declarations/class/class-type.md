@@ -140,6 +140,8 @@ type T = { [string]: Class<null> }
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -147,7 +149,7 @@ type T = { [string]: Class<null> }
                                                     "end": 37
                                                 },
                                                 "flags": 2097152,
-                                                "start": 30,
+                                                "start": 31,
                                                 "end": 37
                                             },
                                             "right": null,
@@ -163,6 +165,8 @@ type T = { [string]: Class<null> }
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
@@ -170,7 +174,7 @@ type T = { [string]: Class<null> }
                                         "end": 43
                                     },
                                     "flags": 2097152,
-                                    "start": 38,
+                                    "start": 39,
                                     "end": 43
                                 },
                                 "contents": {
@@ -244,6 +248,8 @@ type T = { [string]: Class<null> }
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -260,16 +266,24 @@ type T = { [string]: Class<null> }
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "A",
-                                                    "rawText": "A",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "A",
+                                                        "rawText": "A",
+                                                        "flags": 96,
+                                                        "start": 73,
+                                                        "end": 74
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 73,
                                                     "end": 74
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 73,
                                                 "end": 74
@@ -288,7 +302,7 @@ type T = { [string]: Class<null> }
                                 "end": 75
                             },
                             "flags": 2097152,
-                            "start": 65,
+                            "start": 66,
                             "end": 75
                         },
                         "right": null,
@@ -360,6 +374,8 @@ type T = { [string]: Class<null> }
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
                     "id": {
@@ -376,7 +392,7 @@ type T = { [string]: Class<null> }
                     "end": 79
                 },
                 "flags": 2097152,
-                "start": 49,
+                "start": 77,
                 "end": 79
             },
             "flags": 16,
@@ -445,6 +461,8 @@ type T = { [string]: Class<null> }
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234252,
                                                     "flags": 2097216,
@@ -452,7 +470,7 @@ type T = { [string]: Class<null> }
                                                     "end": 139
                                                 },
                                                 "flags": 2097152,
-                                                "start": 134,
+                                                "start": 135,
                                                 "end": 139
                                             },
                                             "right": null,
@@ -584,6 +602,8 @@ type T = { [string]: Class<null> }
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
@@ -591,7 +611,7 @@ type T = { [string]: Class<null> }
                                                     "end": 182
                                                 },
                                                 "flags": 2097152,
-                                                "start": 175,
+                                                "start": 176,
                                                 "end": 182
                                             },
                                             "right": null,
@@ -607,6 +627,8 @@ type T = { [string]: Class<null> }
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
@@ -614,7 +636,7 @@ type T = { [string]: Class<null> }
                                         "end": 188
                                     },
                                     "flags": 2097152,
-                                    "start": 183,
+                                    "start": 184,
                                     "end": 188
                                 },
                                 "contents": {
@@ -677,59 +699,83 @@ type T = { [string]: Class<null> }
                 "end": 204
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 195,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "name": null,
-                        "key": {
-                            "kind": 134234347,
-                            "flags": 64,
-                            "start": 208,
-                            "end": 214
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "Class",
-                                "rawText": "Class",
-                                "flags": 96,
-                                "start": 216,
-                                "end": 222
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 195,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "name": null,
+                            "key": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 208,
+                                "end": 214
                             },
-                            "typeParameters": {
-                                "kind": 309,
-                                "parameters": [
-                                    {
-                                        "kind": 310,
-                                        "type": {
-                                            "kind": 138477575,
-                                            "flags": 2097216,
-                                            "start": 223,
-                                            "end": 227
-                                        },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "Class",
+                                        "rawText": "Class",
+                                        "flags": 96,
+                                        "start": 216,
+                                        "end": 222
+                                    },
+                                    "typeParameters": {
+                                        "kind": 309,
+                                        "parameters": [
+                                            {
+                                                "kind": 310,
+                                                "type": {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 138477575,
+                                                        "flags": 2097216,
+                                                        "start": 223,
+                                                        "end": 227
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 223,
+                                                    "end": 227
+                                                },
+                                                "flags": 2097152,
+                                                "start": 223,
+                                                "end": 227
+                                            }
+                                        ],
                                         "flags": 2097152,
-                                        "start": 223,
-                                        "end": 227
-                                    }
-                                ],
+                                        "start": 222,
+                                        "end": 228
+                                    },
+                                    "flags": 2097152,
+                                    "start": 216,
+                                    "end": 228
+                                },
                                 "flags": 2097152,
-                                "start": 222,
+                                "start": 216,
                                 "end": 228
                             },
                             "flags": 2097152,
-                            "start": 216,
+                            "start": 206,
                             "end": 228
-                        },
-                        "flags": 2097152,
-                        "start": 206,
-                        "end": 228
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 204,
+                    "end": 230
+                },
                 "flags": 2097152,
                 "start": 204,
                 "end": 230

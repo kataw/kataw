@@ -45,6 +45,8 @@ const someObj: { id: number } = {};
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -64,8 +66,16 @@ const someObj: { id: number } = {};
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 20,
+                                                "end": 27
+                                            },
+                                            "flags": 2097152,
                                             "start": 20,
                                             "end": 27
                                         },
@@ -80,7 +90,7 @@ const someObj: { id: number } = {};
                                 "end": 29
                             },
                             "flags": 2097152,
-                            "start": 13,
+                            "start": 14,
                             "end": 29
                         },
                         "initializer": {

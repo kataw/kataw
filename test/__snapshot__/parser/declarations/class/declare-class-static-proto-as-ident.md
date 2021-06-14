@@ -86,8 +86,16 @@ declare class B {
                                     "end": 34
                                 },
                                 "returnType": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 36,
+                                        "end": 43
+                                    },
+                                    "flags": 2097152,
                                     "start": 36,
                                     "end": 43
                                 },

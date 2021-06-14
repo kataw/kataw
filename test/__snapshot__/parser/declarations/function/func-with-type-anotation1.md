@@ -59,6 +59,8 @@ function g(a:number=1, e:number=1) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -66,7 +68,7 @@ function g(a:number=1, e:number=1) {}
                                 "end": 19
                             },
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 13,
                             "end": 19
                         },
                         "right": {
@@ -95,6 +97,8 @@ function g(a:number=1, e:number=1) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -102,7 +106,7 @@ function g(a:number=1, e:number=1) {}
                                 "end": 31
                             },
                             "flags": 2097152,
-                            "start": 24,
+                            "start": 25,
                             "end": 31
                         },
                         "right": {

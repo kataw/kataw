@@ -60,6 +60,8 @@ function bar(x: X): B { return x; }
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -76,7 +78,7 @@ function bar(x: X): B { return x; }
                                 "end": 17
                             },
                             "flags": 2097152,
-                            "start": 14,
+                            "start": 15,
                             "end": 17
                         },
                         "right": null,
@@ -128,6 +130,8 @@ function bar(x: X): B { return x; }
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
                     "id": {
@@ -144,7 +148,7 @@ function bar(x: X): B { return x; }
                     "end": 21
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 19,
                 "end": 21
             },
             "flags": 16,
@@ -187,6 +191,8 @@ function bar(x: X): B { return x; }
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -203,7 +209,7 @@ function bar(x: X): B { return x; }
                                 "end": 53
                             },
                             "flags": 2097152,
-                            "start": 50,
+                            "start": 51,
                             "end": 53
                         },
                         "right": null,
@@ -255,6 +261,8 @@ function bar(x: X): B { return x; }
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
                     "id": {
@@ -271,7 +279,7 @@ function bar(x: X): B { return x; }
                     "end": 57
                 },
                 "flags": 2097152,
-                "start": 35,
+                "start": 55,
                 "end": 57
             },
             "flags": 16,

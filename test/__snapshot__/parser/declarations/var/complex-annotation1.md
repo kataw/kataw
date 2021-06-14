@@ -48,6 +48,8 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -67,8 +69,16 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 14,
+                                                "end": 20
+                                            },
+                                            "flags": 2097152,
                                             "start": 14,
                                             "end": 20
                                         },
@@ -92,8 +102,16 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 24,
+                                                "end": 30
+                                            },
+                                            "flags": 2097152,
                                             "start": 24,
                                             "end": 30
                                         },
@@ -117,8 +135,16 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234254,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234254,
+                                                "flags": 2097216,
+                                                "start": 34,
+                                                "end": 41
+                                            },
+                                            "flags": 2097152,
                                             "start": 34,
                                             "end": 41
                                         },
@@ -133,7 +159,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                 "end": 42
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 42
                         },
                         "initializer": {

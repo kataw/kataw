@@ -48,16 +48,24 @@
                             },
                             "type": null,
                             "defaultType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "B",
-                                    "rawText": "B",
-                                    "flags": 96,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "B",
+                                        "rawText": "B",
+                                        "flags": 96,
+                                        "start": 4,
+                                        "end": 6
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
                                     "start": 4,
                                     "end": 6
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 4,
                                 "end": 6

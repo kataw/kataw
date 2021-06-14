@@ -78,6 +78,8 @@ const bar9 = <T>(x) => {};
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -85,7 +87,7 @@ const bar9 = <T>(x) => {};
                                             "end": 23
                                         },
                                         "flags": 2097152,
-                                        "start": 15,
+                                        "start": 16,
                                         "end": 23
                                     },
                                     "right": null,
@@ -97,6 +99,8 @@ const bar9 = <T>(x) => {};
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -104,7 +108,7 @@ const bar9 = <T>(x) => {};
                                     "end": 32
                                 },
                                 "flags": 2097152,
-                                "start": 24,
+                                "start": 25,
                                 "end": 32
                             },
                             "contents": {
@@ -280,6 +284,8 @@ const bar9 = <T>(x) => {};
                                     },
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
@@ -287,7 +293,7 @@ const bar9 = <T>(x) => {};
                                             "end": 89
                                         },
                                         "flags": 2097152,
-                                        "start": 81,
+                                        "start": 82,
                                         "end": 89
                                     },
                                     "right": null,
@@ -389,6 +395,8 @@ const bar9 = <T>(x) => {};
                                     },
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
@@ -396,7 +404,7 @@ const bar9 = <T>(x) => {};
                                             "end": 125
                                         },
                                         "flags": 2097152,
-                                        "start": 117,
+                                        "start": 118,
                                         "end": 125
                                     },
                                     "right": null,
@@ -503,6 +511,8 @@ const bar9 = <T>(x) => {};
                                     },
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
@@ -510,7 +520,7 @@ const bar9 = <T>(x) => {};
                                             "end": 164
                                         },
                                         "flags": 2097152,
-                                        "start": 156,
+                                        "start": 157,
                                         "end": 164
                                     },
                                     "right": null,
@@ -670,6 +680,8 @@ const bar9 = <T>(x) => {};
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -677,7 +689,7 @@ const bar9 = <T>(x) => {};
                                     "end": 219
                                 },
                                 "flags": 2097152,
-                                "start": 211,
+                                "start": 212,
                                 "end": 219
                             },
                             "contents": {
@@ -758,6 +770,8 @@ const bar9 = <T>(x) => {};
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -765,7 +779,7 @@ const bar9 = <T>(x) => {};
                                             "end": 250
                                         },
                                         "flags": 2097152,
-                                        "start": 242,
+                                        "start": 243,
                                         "end": 250
                                     },
                                     "right": null,

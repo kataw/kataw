@@ -67,6 +67,8 @@ function foo(): {} {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234353,
                     "properties": [],
@@ -76,7 +78,7 @@ function foo(): {} {}
                     "end": 18
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 15,
                 "end": 18
             },
             "flags": 16,

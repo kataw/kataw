@@ -72,8 +72,16 @@ declare class A { static () : number }
                                 "end": 24
                             },
                             "returnType": {
-                                "kind": 134234345,
-                                "flags": 2097216,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 29,
+                                    "end": 36
+                                },
+                                "flags": 2097152,
                                 "start": 29,
                                 "end": 36
                             },

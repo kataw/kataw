@@ -59,6 +59,8 @@ function b(x: { (z: number): string }): (z: number) => number {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -82,8 +84,16 @@ function b(x: { (z: number): string }): (z: number) => number {
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234345,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 19,
+                                                            "end": 26
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 19,
                                                         "end": 26
                                                     },
@@ -99,8 +109,16 @@ function b(x: { (z: number): string }): (z: number) => number {
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 28,
+                                                "end": 35
+                                            },
+                                            "flags": 2097152,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -115,7 +133,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                 "end": 37
                             },
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 13,
                             "end": 37
                         },
                         "right": null,
@@ -167,6 +185,8 @@ function b(x: { (z: number): string }): (z: number) => number {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
                     "arrowTypeParameterList": {
@@ -191,8 +211,16 @@ function b(x: { (z: number): string }): (z: number) => number {
                                 },
                                 "optionalToken": null,
                                 "types": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 43,
+                                        "end": 50
+                                    },
+                                    "flags": 2097152,
                                     "start": 43,
                                     "end": 50
                                 },
@@ -207,8 +235,16 @@ function b(x: { (z: number): string }): (z: number) => number {
                         "end": 50
                     },
                     "returnType": {
-                        "kind": 134234345,
-                        "flags": 2097216,
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134234345,
+                            "flags": 2097216,
+                            "start": 54,
+                            "end": 61
+                        },
+                        "flags": 2097152,
                         "start": 54,
                         "end": 61
                     },
@@ -218,7 +254,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                     "end": 61
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 39,
                 "end": 61
             },
             "flags": 16,

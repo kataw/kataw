@@ -48,34 +48,50 @@ type E = Obj['bar'][];
                 "end": 8
             },
             "type": {
-                "kind": 136,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 311,
-                    "objectType": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "Obj",
-                            "rawText": "Obj",
-                            "flags": 96,
+                    "kind": 136,
+                    "type": {
+                        "kind": 311,
+                        "objectType": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "Obj",
+                                "rawText": "Obj",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 12
+                            },
+                            "typeParameters": null,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 12
                         },
-                        "typeParameters": null,
-                        "flags": 2097152,
+                        "indexType": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134217967,
+                                "text": "bar",
+                                "flags": 2097216,
+                                "start": 13,
+                                "end": 18
+                            },
+                            "flags": 2097152,
+                            "start": 13,
+                            "end": 18
+                        },
+                        "flags": 0,
                         "start": 8,
-                        "end": 12
+                        "end": 20
                     },
-                    "indexType": {
-                        "kind": 134217967,
-                        "text": "bar",
-                        "flags": 2097216,
-                        "start": 13,
-                        "end": 18
-                    },
-                    "flags": 0,
+                    "flags": 2097152,
                     "start": 8,
-                    "end": 20
+                    "end": 21
                 },
                 "flags": 2097152,
                 "start": 8,

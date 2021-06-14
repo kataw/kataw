@@ -56,6 +56,8 @@ class A<T: Foo> {}
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -72,7 +74,7 @@ class A<T: Foo> {}
                                 "end": 14
                             },
                             "flags": 2097152,
-                            "start": 9,
+                            "start": 10,
                             "end": 14
                         },
                         "defaultType": null,

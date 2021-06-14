@@ -53,6 +53,8 @@ declare var x3: ?(() => (() => number));
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -82,35 +84,51 @@ declare var x3: ?(() => (() => number));
                                             "end": 23
                                         },
                                         "returnType": {
-                                            "kind": 290,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
-                                                "kind": 288,
-                                                "arrowTypeParameterList": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 27,
-                                                    "end": 30
-                                                },
-                                                "arrowToken": {
-                                                    "kind": 292,
-                                                    "parameters": [
-                                                        []
-                                                    ],
-                                                    "trailingComma": false,
+                                                "kind": 290,
+                                                "type": {
+                                                    "kind": 288,
+                                                    "arrowTypeParameterList": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 27,
+                                                        "end": 30
+                                                    },
+                                                    "arrowToken": {
+                                                        "kind": 292,
+                                                        "parameters": [
+                                                            []
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 2097152,
+                                                        "start": 23,
+                                                        "end": 30
+                                                    },
+                                                    "returnType": {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234345,
+                                                            "flags": 2097216,
+                                                            "start": 30,
+                                                            "end": 37
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 30,
+                                                        "end": 37
+                                                    },
+                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "start": 23,
-                                                    "end": 30
-                                                },
-                                                "returnType": {
-                                                    "kind": 134234345,
-                                                    "flags": 2097216,
-                                                    "start": 30,
                                                     "end": 37
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 23,
-                                                "end": 37
+                                                "end": 38
                                             },
                                             "flags": 2097152,
                                             "start": 23,
@@ -130,7 +148,7 @@ declare var x3: ?(() => (() => number));
                                 "end": 39
                             },
                             "flags": 2097152,
-                            "start": 14,
+                            "start": 15,
                             "end": 39
                         },
                         "initializer": null,

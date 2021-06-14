@@ -64,6 +64,8 @@ function foo(...args: any) { }
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -71,7 +73,7 @@ function foo(...args: any) { }
                                 "end": 25
                             },
                             "flags": 2097152,
-                            "start": 20,
+                            "start": 21,
                             "end": 25
                         },
                         "right": null,

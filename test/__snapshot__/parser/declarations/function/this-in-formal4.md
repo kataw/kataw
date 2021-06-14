@@ -86,6 +86,8 @@ function one(this: number) {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
@@ -93,7 +95,7 @@ function one(this: number) {}
                     "end": 25
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 18,
                 "end": 25
             },
             "flags": 16,

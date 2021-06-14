@@ -59,6 +59,8 @@ declare function foo(): void
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -66,7 +68,7 @@ declare function foo(): void
                     "end": 28
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 23,
                 "end": 28
             },
             "flags": 4112,

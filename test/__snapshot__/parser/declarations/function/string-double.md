@@ -78,6 +78,8 @@ function createElement(tagName: "div"): HTMLDivElement {}
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134217967,
                     "text": "div",
@@ -86,7 +88,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                     "end": 37
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 31,
                 "end": 37
             },
             "flags": 16,

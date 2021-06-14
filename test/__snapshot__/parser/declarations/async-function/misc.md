@@ -273,6 +273,8 @@ function test1() {
                                                         "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
@@ -280,7 +282,7 @@ function test1() {
                                                                 "end": 131
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 123,
+                                                            "start": 124,
                                                             "end": 131
                                                         },
                                                         "initializer": {
@@ -329,6 +331,8 @@ function test1() {
                                                         "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 134234347,
                                                                 "flags": 2097216,
@@ -336,7 +340,7 @@ function test1() {
                                                                 "end": 163
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 155,
+                                                            "start": 156,
                                                             "end": 163
                                                         },
                                                         "initializer": {

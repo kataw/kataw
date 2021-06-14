@@ -85,6 +85,8 @@ async function f() {
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
                                                 "id": {
@@ -101,7 +103,7 @@ async function f() {
                                                 "end": 37
                                             },
                                             "flags": 2097152,
-                                            "start": 30,
+                                            "start": 31,
                                             "end": 37
                                         },
                                         "initializer": {

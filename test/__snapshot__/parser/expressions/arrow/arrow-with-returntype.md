@@ -38,6 +38,8 @@
                 "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
                     "type": {
                         "kind": 134234347,
                         "flags": 2097216,
@@ -45,7 +47,7 @@
                         "end": 10
                     },
                     "flags": 2097152,
-                    "start": 2,
+                    "start": 3,
                     "end": 10
                 },
                 "contents": {

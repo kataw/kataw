@@ -48,31 +48,47 @@ type a = (?!x) => T;
                 "end": 8
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 134217970,
-                    "nullableToken": {
-                        "kind": 134217750,
-                        "flags": 64,
+                    "kind": 290,
+                    "type": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134217970,
+                            "nullableToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 10,
+                                "end": 11
+                            },
+                            "type": {
+                                "kind": 144,
+                                "id": {
+                                    "kind": 16637,
+                                    "text": "",
+                                    "flags": 64,
+                                    "start": 11,
+                                    "end": 11
+                                },
+                                "typeParameters": null,
+                                "flags": 2097152,
+                                "start": 11,
+                                "end": 11
+                            },
+                            "flags": 2097152,
+                            "start": 10,
+                            "end": 11
+                        },
+                        "flags": 2097152,
                         "start": 10,
                         "end": 11
                     },
-                    "type": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 11,
-                            "end": 11
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
-                        "start": 11,
-                        "end": 11
-                    },
                     "flags": 2097152,
-                    "start": 10,
+                    "start": 8,
                     "end": 11
                 },
                 "flags": 2097152,

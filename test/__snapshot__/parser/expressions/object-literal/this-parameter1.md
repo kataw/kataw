@@ -96,6 +96,8 @@ let one = {
                                                         "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
@@ -103,7 +105,7 @@ let one = {
                                                                 "end": 29
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 21,
+                                                            "start": 22,
                                                             "end": 29
                                                         },
                                                         "right": null,
@@ -174,6 +176,8 @@ let one = {
                                                         "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
@@ -181,7 +185,7 @@ let one = {
                                                                 "end": 53
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 45,
+                                                            "start": 46,
                                                             "end": 53
                                                         },
                                                         "right": null,
@@ -260,6 +264,8 @@ let one = {
                                                         "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
@@ -267,7 +273,7 @@ let one = {
                                                                 "end": 80
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 72,
+                                                            "start": 73,
                                                             "end": 80
                                                         },
                                                         "right": null,
@@ -361,6 +367,8 @@ let one = {
                                                         "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
@@ -368,7 +376,7 @@ let one = {
                                                                 "end": 110
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 102,
+                                                            "start": 103,
                                                             "end": 110
                                                         },
                                                         "right": null,
@@ -501,6 +509,8 @@ let one = {
                                                         "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 144,
                                                                 "id": {
@@ -517,7 +527,7 @@ let one = {
                                                                 "end": 144
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 141,
+                                                            "start": 142,
                                                             "end": 144
                                                         },
                                                         "right": null,

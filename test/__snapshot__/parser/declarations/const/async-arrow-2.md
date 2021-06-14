@@ -131,6 +131,8 @@ const f = async <T, R, S>(
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -147,7 +149,7 @@ const f = async <T, R, S>(
                                             "end": 33
                                         },
                                         "flags": 2097152,
-                                        "start": 30,
+                                        "start": 31,
                                         "end": 33
                                     },
                                     "right": null,
@@ -169,6 +171,8 @@ const f = async <T, R, S>(
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -185,7 +189,7 @@ const f = async <T, R, S>(
                                             "end": 41
                                         },
                                         "flags": 2097152,
-                                        "start": 38,
+                                        "start": 39,
                                         "end": 41
                                     },
                                     "right": null,
@@ -207,6 +211,8 @@ const f = async <T, R, S>(
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -223,7 +229,7 @@ const f = async <T, R, S>(
                                             "end": 49
                                         },
                                         "flags": 2097152,
-                                        "start": 46,
+                                        "start": 47,
                                         "end": 49
                                     },
                                     "right": null,

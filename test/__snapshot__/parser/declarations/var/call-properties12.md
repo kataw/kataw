@@ -48,6 +48,8 @@ var z : Object = function (x: number): string { return "hi"; };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -64,7 +66,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                 "end": 14
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 7,
                             "end": 14
                         },
                         "initializer": {
@@ -95,6 +97,8 @@ var z : Object = function (x: number): string { return "hi"; };
                                         "optionalToken": null,
                                         "type": {
                                             "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
@@ -102,7 +106,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                                 "end": 36
                                             },
                                             "flags": 2097152,
-                                            "start": 28,
+                                            "start": 29,
                                             "end": 36
                                         },
                                         "right": null,
@@ -154,6 +158,8 @@ var z : Object = function (x: number): string { return "hi"; };
                             "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -161,7 +167,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                     "end": 45
                                 },
                                 "flags": 2097152,
-                                "start": 37,
+                                "start": 38,
                                 "end": 45
                             },
                             "flags": 32,

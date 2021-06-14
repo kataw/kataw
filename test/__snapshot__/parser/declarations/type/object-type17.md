@@ -48,33 +48,49 @@ type a = {():string};
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 196,
-                        "protoKeyword": null,
-                        "typeParameter": null,
-                        "value": {
-                            "kind": 282,
-                            "parameters": [],
-                            "trailingComma": false,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 196,
+                            "protoKeyword": null,
+                            "typeParameter": null,
+                            "value": {
+                                "kind": 282,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 11,
+                                "end": 11
+                            },
+                            "staticToken": null,
+                            "returnType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 13,
+                                    "end": 19
+                                },
+                                "flags": 2097152,
+                                "start": 13,
+                                "end": 19
+                            },
                             "flags": 2097152,
-                            "start": 11,
-                            "end": 11
-                        },
-                        "staticToken": null,
-                        "returnType": {
-                            "kind": 134234347,
-                            "flags": 2097216,
-                            "start": 13,
+                            "start": 10,
                             "end": 19
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 19
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 20
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 20

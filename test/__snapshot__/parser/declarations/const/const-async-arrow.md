@@ -70,6 +70,8 @@ const a = async (foo: string = "") => {}
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
@@ -77,7 +79,7 @@ const a = async (foo: string = "") => {}
                                             "end": 28
                                         },
                                         "flags": 2097152,
-                                        "start": 20,
+                                        "start": 21,
                                         "end": 28
                                     },
                                     "right": {

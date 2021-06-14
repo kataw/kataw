@@ -48,6 +48,8 @@ var obj: { [user_id: number]: string } = {};
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -64,14 +66,30 @@ var obj: { [user_id: number]: string } = {};
                                             "end": 19
                                         },
                                         "key": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 20,
+                                                "end": 27
+                                            },
+                                            "flags": 2097152,
                                             "start": 20,
                                             "end": 27
                                         },
                                         "type": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 29,
+                                                "end": 36
+                                            },
+                                            "flags": 2097152,
                                             "start": 29,
                                             "end": 36
                                         },
@@ -86,7 +104,7 @@ var obj: { [user_id: number]: string } = {};
                                 "end": 38
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 38
                         },
                         "initializer": {

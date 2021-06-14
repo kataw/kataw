@@ -48,6 +48,8 @@ var c: { (x: string): string } = (x) => x.toFixed()
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -71,8 +73,16 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 134234347,
-                                                        "flags": 2097216,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 134234347,
+                                                            "flags": 2097216,
+                                                            "start": 12,
+                                                            "end": 19
+                                                        },
+                                                        "flags": 2097152,
                                                         "start": 12,
                                                         "end": 19
                                                     },
@@ -88,8 +98,16 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 21,
+                                                "end": 28
+                                            },
+                                            "flags": 2097152,
                                             "start": 21,
                                             "end": 28
                                         },
@@ -104,7 +122,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                 "end": 30
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 30
                         },
                         "initializer": {

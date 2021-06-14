@@ -79,6 +79,8 @@ async function foo({x}: { x: string; }) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -98,8 +100,16 @@ async function foo({x}: { x: string; }) {}
                                         },
                                         "optionalToken": null,
                                         "value": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 28,
+                                                "end": 35
+                                            },
+                                            "flags": 2097152,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -114,7 +124,7 @@ async function foo({x}: { x: string; }) {}
                                 "end": 38
                             },
                             "flags": 2097152,
-                            "start": 22,
+                            "start": 23,
                             "end": 38
                         },
                         "right": null,

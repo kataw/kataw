@@ -48,61 +48,78 @@ type X = ((x?) => T);
                 "end": 8
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 144,
-                    "id": {
-                        "kind": 288,
-                        "arrowTypeParameterList": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 14,
-                            "end": 17
-                        },
-                        "arrowToken": {
-                            "kind": 292,
-                            "parameters": [
-                                {
-                                    "kind": 149,
-                                    "ellipsisToken": null,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 11,
-                                        "end": 12
-                                    },
-                                    "optionalToken": {
-                                        "kind": 134217750,
-                                        "flags": 64,
-                                        "start": 12,
+                    "kind": 290,
+                    "type": {
+                        "kind": 144,
+                        "id": {
+                            "kind": 288,
+                            "arrowTypeParameterList": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 14,
+                                "end": 17
+                            },
+                            "arrowToken": {
+                                "kind": 292,
+                                "parameters": [
+                                    {
+                                        "kind": 149,
+                                        "ellipsisToken": null,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 11,
+                                            "end": 12
+                                        },
+                                        "optionalToken": {
+                                            "kind": 134217750,
+                                            "flags": 64,
+                                            "start": 12,
+                                            "end": 13
+                                        },
+                                        "types": null,
+                                        "flags": 2097152,
+                                        "start": 8,
                                         "end": 13
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 8,
+                                "end": 13
+                            },
+                            "returnType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 17,
+                                        "end": 19
                                     },
-                                    "types": null,
+                                    "typeParameters": null,
                                     "flags": 2097152,
-                                    "start": 8,
-                                    "end": 13
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "start": 8,
-                            "end": 13
-                        },
-                        "returnType": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
+                                    "start": 17,
+                                    "end": 19
+                                },
+                                "flags": 2097152,
                                 "start": 17,
                                 "end": 19
                             },
                             "typeParameters": null,
                             "flags": 2097152,
-                            "start": 17,
+                            "start": 8,
                             "end": 19
                         },
                         "typeParameters": null,
@@ -110,10 +127,9 @@ type X = ((x?) => T);
                         "start": 8,
                         "end": 19
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
-                    "end": 19
+                    "end": 20
                 },
                 "flags": 2097152,
                 "start": 8,

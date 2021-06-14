@@ -456,6 +456,8 @@ export const [destructuredArrNumber2] = [1]
                 "typeParameters": null,
                 "returnType": {
                     "kind": 139,
+                    "bitwiseOrToken": null,
+                    "bitwiseAndToken": null,
                     "type": {
                         "kind": 134234345,
                         "flags": 2097216,
@@ -463,7 +465,7 @@ export const [destructuredArrNumber2] = [1]
                         "end": 307
                     },
                     "flags": 2097152,
-                    "start": 274,
+                    "start": 300,
                     "end": 307
                 },
                 "flags": 16,
@@ -547,6 +549,8 @@ export const [destructuredArrNumber2] = [1]
                                     },
                                     "returnType": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -554,7 +558,7 @@ export const [destructuredArrNumber2] = [1]
                                             "end": 378
                                         },
                                         "flags": 2097152,
-                                        "start": 370,
+                                        "start": 371,
                                         "end": 378
                                     },
                                     "contents": {

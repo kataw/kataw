@@ -72,6 +72,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -95,16 +97,24 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "TArguments",
-                                                    "rawText": "TArguments",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "TArguments",
+                                                        "rawText": "TArguments",
+                                                        "flags": 96,
+                                                        "start": 101,
+                                                        "end": 112
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 101,
                                                     "end": 112
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 101,
                                                 "end": 112
@@ -126,16 +136,24 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                     "end": 116
                                 },
                                 "returnType": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "TReturn",
-                                        "rawText": "TReturn",
-                                        "flags": 96,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "TReturn",
+                                            "rawText": "TReturn",
+                                            "flags": 96,
+                                            "start": 116,
+                                            "end": 124
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 116,
                                         "end": 124
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 116,
                                     "end": 124
@@ -146,7 +164,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 "end": 124
                             },
                             "flags": 2097152,
-                            "start": 90,
+                            "start": 91,
                             "end": 124
                         },
                         "right": null,
@@ -176,6 +194,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -192,36 +212,52 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234353,
-                                                "properties": [
-                                                    {
-                                                        "kind": 193,
-                                                        "protoKeyword": null,
-                                                        "staticToken": null,
-                                                        "getKeyword": null,
-                                                        "setKeyword": null,
-                                                        "key": {
-                                                            "kind": 134299649,
-                                                            "text": "foo",
-                                                            "rawText": "foo",
-                                                            "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234353,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 193,
+                                                            "protoKeyword": null,
+                                                            "staticToken": null,
+                                                            "getKeyword": null,
+                                                            "setKeyword": null,
+                                                            "key": {
+                                                                "kind": 134299649,
+                                                                "text": "foo",
+                                                                "rawText": "foo",
+                                                                "flags": 96,
+                                                                "start": 49,
+                                                                "end": 52
+                                                            },
+                                                            "optionalToken": null,
+                                                            "value": {
+                                                                "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
+                                                                "type": {
+                                                                    "kind": 134217967,
+                                                                    "text": "a",
+                                                                    "flags": 2097216,
+                                                                    "start": 53,
+                                                                    "end": 57
+                                                                },
+                                                                "flags": 2097152,
+                                                                "start": 53,
+                                                                "end": 57
+                                                            },
+                                                            "flags": 2097152,
                                                             "start": 49,
-                                                            "end": 52
-                                                        },
-                                                        "optionalToken": null,
-                                                        "value": {
-                                                            "kind": 134217967,
-                                                            "text": "a",
-                                                            "flags": 2097216,
-                                                            "start": 53,
                                                             "end": 57
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 49,
-                                                        "end": 57
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 48,
+                                                    "end": 58
+                                                },
                                                 "flags": 2097152,
                                                 "start": 48,
                                                 "end": 58
@@ -240,7 +276,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 "end": 59
                             },
                             "flags": 2097152,
-                            "start": 31,
+                            "start": 32,
                             "end": 59
                         },
                         "defaultType": null,
@@ -271,6 +307,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
                     "arrowTypeParameterList": {
@@ -294,16 +332,24 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 },
                                 "optionalToken": null,
                                 "types": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "TArguments",
-                                        "rawText": "TArguments",
-                                        "flags": 96,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "TArguments",
+                                            "rawText": "TArguments",
+                                            "flags": 96,
+                                            "start": 140,
+                                            "end": 151
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 140,
                                         "end": 151
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 140,
                                     "end": 151
@@ -325,16 +371,24 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                         "end": 155
                     },
                     "returnType": {
-                        "kind": 144,
-                        "id": {
-                            "kind": 134299649,
-                            "text": "TReturn",
-                            "rawText": "TReturn",
-                            "flags": 96,
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "TReturn",
+                                "rawText": "TReturn",
+                                "flags": 96,
+                                "start": 155,
+                                "end": 163
+                            },
+                            "typeParameters": null,
+                            "flags": 2097152,
                             "start": 155,
                             "end": 163
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
                         "start": 155,
                         "end": 163
@@ -345,7 +399,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                     "end": 163
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 130,
                 "end": 163
             },
             "flags": 4112,

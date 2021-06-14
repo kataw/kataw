@@ -85,8 +85,16 @@ a?.a?.a?.a?.<number>(y);
                                 {
                                     "kind": 310,
                                     "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 7,
+                                            "end": 13
+                                        },
+                                        "flags": 2097152,
                                         "start": 7,
                                         "end": 13
                                     },
@@ -260,8 +268,16 @@ a?.a?.a?.a?.<number>(y);
                                 {
                                     "kind": 310,
                                     "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 33,
+                                            "end": 39
+                                        },
+                                        "flags": 2097152,
                                         "start": 33,
                                         "end": 39
                                     },

@@ -97,6 +97,8 @@ x = {get this(this):number{}};
                                     },
                                     "returnType": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -104,7 +106,7 @@ x = {get this(this):number{}};
                                             "end": 26
                                         },
                                         "flags": 2097152,
-                                        "start": 19,
+                                        "start": 20,
                                         "end": 26
                                     },
                                     "contents": {

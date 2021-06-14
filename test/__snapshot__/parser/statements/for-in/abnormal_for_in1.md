@@ -79,6 +79,8 @@ function baz(x: boolean) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
@@ -86,7 +88,7 @@ function baz(x: boolean) {
                                 "end": 23
                             },
                             "flags": 2097152,
-                            "start": 14,
+                            "start": 15,
                             "end": 23
                         },
                         "right": null,
@@ -382,6 +384,8 @@ function baz(x: boolean) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
@@ -389,7 +393,7 @@ function baz(x: boolean) {
                                 "end": 157
                             },
                             "flags": 2097152,
-                            "start": 148,
+                            "start": 149,
                             "end": 157
                         },
                         "right": null,
@@ -544,6 +548,8 @@ function baz(x: boolean) {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
@@ -551,7 +557,7 @@ function baz(x: boolean) {
                                 "end": 228
                             },
                             "flags": 2097152,
-                            "start": 219,
+                            "start": 220,
                             "end": 228
                         },
                         "right": null,

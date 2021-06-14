@@ -48,6 +48,8 @@ var a: { id<T>(x: T): T; }
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -84,16 +86,24 @@ var a: { id<T>(x: T): T; }
                                                         },
                                                         "optionalToken": null,
                                                         "types": {
-                                                            "kind": 144,
-                                                            "id": {
-                                                                "kind": 134299649,
-                                                                "text": "T",
-                                                                "rawText": "T",
-                                                                "flags": 96,
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "id": {
+                                                                    "kind": 134299649,
+                                                                    "text": "T",
+                                                                    "rawText": "T",
+                                                                    "flags": 96,
+                                                                    "start": 17,
+                                                                    "end": 19
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
                                                                 "start": 17,
                                                                 "end": 19
                                                             },
-                                                            "typeParameters": null,
                                                             "flags": 2097152,
                                                             "start": 17,
                                                             "end": 19
@@ -109,16 +119,24 @@ var a: { id<T>(x: T): T; }
                                                 "end": 19
                                             },
                                             "returnType": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 21,
+                                                        "end": 23
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 21,
                                                     "end": 23
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 21,
                                                 "end": 23
@@ -162,7 +180,7 @@ var a: { id<T>(x: T): T; }
                                 "end": 26
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 26
                         },
                         "initializer": null,

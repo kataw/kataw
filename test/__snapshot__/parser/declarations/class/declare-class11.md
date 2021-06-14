@@ -94,16 +94,24 @@ declare class A<T> extends B<T> { x: number }
                             {
                                 "kind": 310,
                                 "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 29,
+                                            "end": 30
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 29,
                                         "end": 30
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 29,
                                     "end": 30
@@ -140,8 +148,16 @@ declare class A<T> extends B<T> { x: number }
                             },
                             "optionalToken": null,
                             "value": {
-                                "kind": 134234345,
-                                "flags": 2097216,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 36,
+                                    "end": 43
+                                },
+                                "flags": 2097152,
                                 "start": 36,
                                 "end": 43
                             },

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
-- From: kataw/test/__snapshot__/parser/declarations/function/async-generator/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/async-generator/gen/expression
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: expression
 > :: case: await (yield 10)
 ## Options

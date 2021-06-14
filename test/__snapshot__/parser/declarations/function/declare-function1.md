@@ -65,6 +65,8 @@ declare function aw<T>(p: Pr<T> | T): T;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -84,16 +86,24 @@ declare function aw<T>(p: Pr<T> | T): T;
                                                 {
                                                     "kind": 310,
                                                     "type": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "T",
-                                                            "rawText": "T",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "T",
+                                                                "rawText": "T",
+                                                                "flags": 96,
+                                                                "start": 29,
+                                                                "end": 30
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 29,
                                                             "end": 30
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 29,
                                                         "end": 30
@@ -132,7 +142,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                                 "end": 35
                             },
                             "flags": 2097152,
-                            "start": 24,
+                            "start": 25,
                             "end": 35
                         },
                         "right": null,
@@ -173,6 +183,8 @@ declare function aw<T>(p: Pr<T> | T): T;
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
                     "id": {
@@ -189,7 +201,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                     "end": 39
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 37,
                 "end": 39
             },
             "flags": 4112,

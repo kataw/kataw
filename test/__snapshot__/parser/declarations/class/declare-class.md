@@ -84,8 +84,16 @@ declare class A { static foo(): number; static x : string }
                                     "end": 29
                                 },
                                 "returnType": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 31,
+                                        "end": 38
+                                    },
+                                    "flags": 2097152,
                                     "start": 31,
                                     "end": 38
                                 },
@@ -119,8 +127,16 @@ declare class A { static foo(): number; static x : string }
                             },
                             "optionalToken": null,
                             "value": {
-                                "kind": 134234347,
-                                "flags": 2097216,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 50,
+                                    "end": 57
+                                },
+                                "flags": 2097152,
                                 "start": 50,
                                 "end": 57
                             },

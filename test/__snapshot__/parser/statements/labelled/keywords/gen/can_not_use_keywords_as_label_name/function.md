@@ -60,6 +60,8 @@ function: x
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
                     "id": {
@@ -76,7 +78,7 @@ function: x
                     "end": 11
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 9,
                 "end": 11
             },
             "flags": 16,

@@ -61,6 +61,8 @@ function g(x: any): string {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -68,7 +70,7 @@ function g(x: any): string {
                                 "end": 17
                             },
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 13,
                             "end": 17
                         },
                         "right": null,
@@ -140,6 +142,8 @@ function g(x: any): string {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 134234347,
                     "flags": 2097216,
@@ -147,7 +151,7 @@ function g(x: any): string {
                     "end": 26
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 19,
                 "end": 26
             },
             "flags": 16,

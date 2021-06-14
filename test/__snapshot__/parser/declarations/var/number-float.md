@@ -48,6 +48,8 @@ var a: 123.0
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217968,
                                 "text": 123,
@@ -56,7 +58,7 @@ var a: 123.0
                                 "end": 12
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 12
                         },
                         "initializer": null,

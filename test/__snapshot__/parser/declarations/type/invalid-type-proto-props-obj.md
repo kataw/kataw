@@ -48,44 +48,60 @@ type T = { proto p: string }
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "proto",
-                            "rawText": "proto",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 16
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 144,
-                            "id": {
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
                                 "kind": 134299649,
-                                "text": "p",
-                                "rawText": "p",
+                                "text": "proto",
+                                "rawText": "proto",
                                 "flags": 96,
+                                "start": 10,
+                                "end": 16
+                            },
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "p",
+                                        "rawText": "p",
+                                        "flags": 96,
+                                        "start": 16,
+                                        "end": 18
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 16,
+                                    "end": 18
+                                },
+                                "flags": 2097152,
                                 "start": 16,
                                 "end": 18
                             },
-                            "typeParameters": null,
                             "flags": 2097152,
-                            "start": 16,
+                            "start": 10,
                             "end": 18
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 18
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 18
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 18

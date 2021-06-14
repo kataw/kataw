@@ -48,50 +48,66 @@ type a = {function():string};
                 "end": 8
             },
             "type": {
-                "kind": 134234353,
-                "properties": [
-                    {
-                        "kind": 193,
-                        "protoKeyword": null,
-                        "staticToken": null,
-                        "getKeyword": null,
-                        "setKeyword": null,
-                        "key": {
-                            "kind": 134299649,
-                            "text": "function",
-                            "rawText": "function",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 18
-                        },
-                        "optionalToken": null,
-                        "value": {
-                            "kind": 148,
-                            "functionTypeParameterList": {
-                                "kind": 282,
-                                "parameters": [],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "start": 19,
-                                "end": 19
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234353,
+                    "properties": [
+                        {
+                            "kind": 193,
+                            "protoKeyword": null,
+                            "staticToken": null,
+                            "getKeyword": null,
+                            "setKeyword": null,
+                            "key": {
+                                "kind": 134299649,
+                                "text": "function",
+                                "rawText": "function",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 18
                             },
-                            "returnType": {
-                                "kind": 134234347,
-                                "flags": 2097216,
-                                "start": 21,
+                            "optionalToken": null,
+                            "value": {
+                                "kind": 148,
+                                "functionTypeParameterList": {
+                                    "kind": 282,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 19,
+                                    "end": 19
+                                },
+                                "returnType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 21,
+                                        "end": 27
+                                    },
+                                    "flags": 2097152,
+                                    "start": 21,
+                                    "end": 27
+                                },
+                                "typeParameters": null,
+                                "flags": 2097152,
+                                "start": 18,
                                 "end": 27
                             },
-                            "typeParameters": null,
                             "flags": 2097152,
-                            "start": 18,
+                            "start": 10,
                             "end": 27
-                        },
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 27
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 28
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 28

@@ -67,6 +67,8 @@ function five<T>(this: T) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -74,7 +76,7 @@ function five<T>(this: T) {}
                                 "end": 25
                             },
                             "flags": 2097152,
-                            "start": 17,
+                            "start": 18,
                             "end": 25
                         },
                         "right": null,
@@ -144,6 +146,8 @@ function five<T>(this: T) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -151,7 +155,7 @@ function five<T>(this: T) {}
                                 "end": 56
                             },
                             "flags": 2097152,
-                            "start": 48,
+                            "start": 49,
                             "end": 56
                         },
                         "right": null,
@@ -229,6 +233,8 @@ function five<T>(this: T) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -236,7 +242,7 @@ function five<T>(this: T) {}
                                 "end": 92
                             },
                             "flags": 2097152,
-                            "start": 84,
+                            "start": 85,
                             "end": 92
                         },
                         "right": null,
@@ -329,6 +335,8 @@ function five<T>(this: T) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -336,7 +344,7 @@ function five<T>(this: T) {}
                                 "end": 130
                             },
                             "flags": 2097152,
-                            "start": 122,
+                            "start": 123,
                             "end": 130
                         },
                         "right": null,
@@ -445,6 +453,8 @@ function five<T>(this: T) {}
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -461,7 +471,7 @@ function five<T>(this: T) {}
                                 "end": 172
                             },
                             "flags": 2097152,
-                            "start": 169,
+                            "start": 170,
                             "end": 172
                         },
                         "right": null,

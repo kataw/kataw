@@ -46,37 +46,53 @@ type x = [...aladdin];
                 "end": 8
             },
             "type": {
-                "kind": 147,
-                "elementTypes": [
-                    {
-                        "kind": 333,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 10,
-                            "end": 13
-                        },
-                        "type": {
-                            "kind": 144,
-                            "id": {
-                                "kind": 134299649,
-                                "text": "aladdin",
-                                "rawText": "aladdin",
-                                "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 147,
+                    "elementTypes": [
+                        {
+                            "kind": 333,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 10,
+                                "end": 13
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "aladdin",
+                                        "rawText": "aladdin",
+                                        "flags": 96,
+                                        "start": 13,
+                                        "end": 20
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 13,
+                                    "end": 20
+                                },
+                                "flags": 2097152,
                                 "start": 13,
                                 "end": 20
                             },
-                            "typeParameters": null,
-                            "flags": 2097152,
-                            "start": 13,
+                            "flags": 2097216,
+                            "start": 10,
                             "end": 20
-                        },
-                        "flags": 2097216,
-                        "start": 10,
-                        "end": 20
-                    }
-                ],
-                "trailingComma": false,
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 21
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 21

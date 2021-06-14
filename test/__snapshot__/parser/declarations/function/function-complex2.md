@@ -93,6 +93,8 @@ function d<X: [number, number]>(x: X): X {
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -109,8 +111,16 @@ function d<X: [number, number]>(x: X): X {
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 29,
+                                                    "end": 35
+                                                },
+                                                "flags": 2097152,
                                                 "start": 29,
                                                 "end": 35
                                             },
@@ -128,7 +138,7 @@ function d<X: [number, number]>(x: X): X {
                                 "end": 35
                             },
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 13,
                             "end": 35
                         },
                         "defaultType": null,
@@ -182,6 +192,8 @@ function d<X: [number, number]>(x: X): X {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -198,7 +210,7 @@ function d<X: [number, number]>(x: X): X {
                                     "end": 42
                                 },
                                 "flags": 2097152,
-                                "start": 39,
+                                "start": 40,
                                 "end": 42
                             },
                             "right": null,
@@ -210,6 +222,8 @@ function d<X: [number, number]>(x: X): X {
                     "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -226,7 +240,7 @@ function d<X: [number, number]>(x: X): X {
                             "end": 46
                         },
                         "flags": 2097152,
-                        "start": 43,
+                        "start": 44,
                         "end": 46
                     },
                     "contents": {
@@ -359,6 +373,8 @@ function d<X: [number, number]>(x: X): X {
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -375,8 +391,16 @@ function d<X: [number, number]>(x: X): X {
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 98,
+                                                    "end": 104
+                                                },
+                                                "flags": 2097152,
                                                 "start": 98,
                                                 "end": 104
                                             },
@@ -394,7 +418,7 @@ function d<X: [number, number]>(x: X): X {
                                 "end": 104
                             },
                             "flags": 2097152,
-                            "start": 81,
+                            "start": 82,
                             "end": 104
                         },
                         "defaultType": null,
@@ -448,6 +472,8 @@ function d<X: [number, number]>(x: X): X {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -464,7 +490,7 @@ function d<X: [number, number]>(x: X): X {
                                     "end": 111
                                 },
                                 "flags": 2097152,
-                                "start": 108,
+                                "start": 109,
                                 "end": 111
                             },
                             "right": null,
@@ -476,6 +502,8 @@ function d<X: [number, number]>(x: X): X {
                     "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -492,7 +520,7 @@ function d<X: [number, number]>(x: X): X {
                             "end": 115
                         },
                         "flags": 2097152,
-                        "start": 112,
+                        "start": 113,
                         "end": 115
                     },
                     "contents": {
@@ -645,6 +673,8 @@ function d<X: [number, number]>(x: X): X {
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -661,8 +691,16 @@ function d<X: [number, number]>(x: X): X {
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 209,
+                                                    "end": 215
+                                                },
+                                                "flags": 2097152,
                                                 "start": 209,
                                                 "end": 215
                                             },
@@ -680,7 +718,7 @@ function d<X: [number, number]>(x: X): X {
                                 "end": 215
                             },
                             "flags": 2097152,
-                            "start": 192,
+                            "start": 193,
                             "end": 215
                         },
                         "defaultType": null,
@@ -734,6 +772,8 @@ function d<X: [number, number]>(x: X): X {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -750,7 +790,7 @@ function d<X: [number, number]>(x: X): X {
                                     "end": 222
                                 },
                                 "flags": 2097152,
-                                "start": 219,
+                                "start": 220,
                                 "end": 222
                             },
                             "right": null,
@@ -762,6 +802,8 @@ function d<X: [number, number]>(x: X): X {
                     "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
                             "id": {
@@ -778,7 +820,7 @@ function d<X: [number, number]>(x: X): X {
                             "end": 226
                         },
                         "flags": 2097152,
-                        "start": 223,
+                        "start": 224,
                         "end": 226
                     },
                     "contents": {
@@ -899,6 +941,8 @@ function d<X: [number, number]>(x: X): X {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -915,7 +959,7 @@ function d<X: [number, number]>(x: X): X {
                                 "end": 298
                             },
                             "flags": 2097152,
-                            "start": 295,
+                            "start": 296,
                             "end": 298
                         },
                         "right": null,
@@ -1026,18 +1070,36 @@ function d<X: [number, number]>(x: X): X {
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 147,
                                 "elementTypes": [
                                     {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 277,
+                                            "end": 283
+                                        },
+                                        "flags": 2097152,
                                         "start": 277,
                                         "end": 283
                                     },
                                     {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 284,
+                                            "end": 291
+                                        },
+                                        "flags": 2097152,
                                         "start": 284,
                                         "end": 291
                                     }
@@ -1048,7 +1110,7 @@ function d<X: [number, number]>(x: X): X {
                                 "end": 292
                             },
                             "flags": 2097152,
-                            "start": 274,
+                            "start": 275,
                             "end": 292
                         },
                         "defaultType": null,
@@ -1063,6 +1125,8 @@ function d<X: [number, number]>(x: X): X {
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
                     "id": {
@@ -1079,7 +1143,7 @@ function d<X: [number, number]>(x: X): X {
                     "end": 302
                 },
                 "flags": 2097152,
-                "start": 260,
+                "start": 300,
                 "end": 302
             },
             "flags": 16,

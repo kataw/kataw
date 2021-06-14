@@ -111,9 +111,17 @@ declare class B {
                                     "end": 42
                                 },
                                 "returnType": {
-                                    "kind": 134234353,
-                                    "properties": [],
-                                    "trailingComma": false,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234353,
+                                        "properties": [],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 44,
+                                        "end": 47
+                                    },
                                     "flags": 2097152,
                                     "start": 44,
                                     "end": 47

@@ -46,22 +46,46 @@ type a = (["string"]);
                 "end": 8
             },
             "type": {
-                "kind": 290,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
-                    "kind": 147,
-                    "elementTypes": [
-                        {
-                            "kind": 134217967,
-                            "text": "string",
-                            "flags": 2097216,
-                            "start": 11,
-                            "end": 19
-                        }
-                    ],
-                    "trailingComma": false,
+                    "kind": 290,
+                    "type": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 147,
+                            "elementTypes": [
+                                {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134217967,
+                                        "text": "string",
+                                        "flags": 2097216,
+                                        "start": 11,
+                                        "end": 19
+                                    },
+                                    "flags": 2097152,
+                                    "start": 11,
+                                    "end": 19
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 10,
+                            "end": 20
+                        },
+                        "flags": 2097152,
+                        "start": 10,
+                        "end": 20
+                    },
                     "flags": 2097152,
-                    "start": 10,
-                    "end": 20
+                    "start": 8,
+                    "end": 21
                 },
                 "flags": 2097152,
                 "start": 8,

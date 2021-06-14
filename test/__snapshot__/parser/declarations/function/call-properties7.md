@@ -62,6 +62,8 @@ function e(x: {}): () => string {
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [],
@@ -71,7 +73,7 @@ function e(x: {}): () => string {
                                 "end": 16
                             },
                             "flags": 2097152,
-                            "start": 12,
+                            "start": 13,
                             "end": 16
                         },
                         "right": null,
@@ -123,6 +125,8 @@ function e(x: {}): () => string {
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
                     "arrowTypeParameterList": {
@@ -140,8 +144,16 @@ function e(x: {}): () => string {
                         "end": 24
                     },
                     "returnType": {
-                        "kind": 134234347,
-                        "flags": 2097216,
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 134234347,
+                            "flags": 2097216,
+                            "start": 24,
+                            "end": 31
+                        },
+                        "flags": 2097152,
                         "start": 24,
                         "end": 31
                     },
@@ -151,7 +163,7 @@ function e(x: {}): () => string {
                     "end": 31
                 },
                 "flags": 2097152,
-                "start": 0,
+                "start": 18,
                 "end": 31
             },
             "flags": 16,

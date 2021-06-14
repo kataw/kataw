@@ -69,6 +69,8 @@ var f = (x): (x: number) => 123 => 123;
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
                                     "arrowTypeParameterList": {
@@ -93,8 +95,16 @@ var f = (x): (x: number) => 123 => 123;
                                                 },
                                                 "optionalToken": null,
                                                 "types": {
-                                                    "kind": 134234345,
-                                                    "flags": 2097216,
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 134234345,
+                                                        "flags": 2097216,
+                                                        "start": 16,
+                                                        "end": 23
+                                                    },
+                                                    "flags": 2097152,
                                                     "start": 16,
                                                     "end": 23
                                                 },
@@ -109,9 +119,17 @@ var f = (x): (x: number) => 123 => 123;
                                         "end": 23
                                     },
                                     "returnType": {
-                                        "kind": 134217968,
-                                        "text": 123,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134217968,
+                                            "text": 123,
+                                            "flags": 2097216,
+                                            "start": 27,
+                                            "end": 31
+                                        },
+                                        "flags": 2097152,
                                         "start": 27,
                                         "end": 31
                                     },
@@ -121,7 +139,7 @@ var f = (x): (x: number) => 123 => 123;
                                     "end": 31
                                 },
                                 "flags": 2097152,
-                                "start": 11,
+                                "start": 12,
                                 "end": 31
                             },
                             "contents": {

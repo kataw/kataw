@@ -49,8 +49,16 @@ type T1 = number;
                 "end": 9
             },
             "type": {
-                "kind": 134234347,
-                "flags": 2097216,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234347,
+                    "flags": 2097216,
+                    "start": 9,
+                    "end": 16
+                },
+                "flags": 2097152,
                 "start": 9,
                 "end": 16
             },
@@ -83,8 +91,16 @@ type T1 = number;
                 "end": 27
             },
             "type": {
-                "kind": 134234345,
-                "flags": 2097216,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234345,
+                    "flags": 2097216,
+                    "start": 27,
+                    "end": 34
+                },
+                "flags": 2097152,
                 "start": 27,
                 "end": 34
             },

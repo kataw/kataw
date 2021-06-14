@@ -47,6 +47,8 @@ async (s: any) => x
                     "optionalToken": null,
                     "type": {
                         "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
                         "type": {
                             "kind": 134234252,
                             "flags": 2097216,
@@ -54,7 +56,7 @@ async (s: any) => x
                             "end": 13
                         },
                         "flags": 2097152,
-                        "start": 8,
+                        "start": 9,
                         "end": 13
                     },
                     "right": null,

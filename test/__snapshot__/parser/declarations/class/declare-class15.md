@@ -53,6 +53,8 @@ declare var string: any;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
@@ -60,7 +62,7 @@ declare var string: any;
                                 "end": 23
                             },
                             "flags": 2097152,
-                            "start": 18,
+                            "start": 19,
                             "end": 23
                         },
                         "initializer": null,

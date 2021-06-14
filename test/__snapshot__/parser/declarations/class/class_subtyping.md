@@ -93,6 +93,8 @@ class D extends C<O> {
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -109,7 +111,7 @@ class D extends C<O> {
                                     "end": 18
                                 },
                                 "flags": 2097152,
-                                "start": 15,
+                                "start": 16,
                                 "end": 18
                             },
                             "initializer": null,
@@ -179,16 +181,24 @@ class D extends C<O> {
                             {
                                 "kind": 310,
                                 "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "O",
-                                        "rawText": "O",
-                                        "flags": 96,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "O",
+                                            "rawText": "O",
+                                            "flags": 96,
+                                            "start": 41,
+                                            "end": 42
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 41,
                                         "end": 42
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 41,
                                     "end": 42

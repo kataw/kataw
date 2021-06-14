@@ -47,6 +47,8 @@ let x: [,] = y;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 147,
                                 "elementTypes": [],
@@ -56,7 +58,7 @@ let x: [,] = y;
                                 "end": 8
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 8
                         },
                         "initializer": null,

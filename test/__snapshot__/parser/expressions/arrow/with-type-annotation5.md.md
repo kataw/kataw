@@ -96,6 +96,8 @@
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -112,7 +114,7 @@
                                 "end": 12
                             },
                             "flags": 2097152,
-                            "start": 10,
+                            "start": 11,
                             "end": 12
                         },
                         "right": null,

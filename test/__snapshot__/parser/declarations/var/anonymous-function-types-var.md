@@ -71,6 +71,13 @@ var f = (): (number) => 123;
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": {
+                                    "kind": 134251592,
+                                    "flags": 64,
+                                    "start": 12,
+                                    "end": 14
+                                },
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 137,
                                     "types": [
@@ -94,7 +101,7 @@ var f = (): (number) => 123;
                                     "end": 20
                                 },
                                 "flags": 2097152,
-                                "start": 11,
+                                "start": 12,
                                 "end": 20
                             },
                             "contents": {
@@ -159,6 +166,8 @@ var f = (): (number) => 123;
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 290,
                                     "type": {
@@ -172,7 +181,7 @@ var f = (): (number) => 123;
                                     "end": 48
                                 },
                                 "flags": 2097152,
-                                "start": 38,
+                                "start": 39,
                                 "end": 48
                             },
                             "contents": {

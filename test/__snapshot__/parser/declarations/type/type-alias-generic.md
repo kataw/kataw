@@ -71,16 +71,24 @@ type T<U> = U;
                 "end": 11
             },
             "type": {
-                "kind": 144,
-                "id": {
-                    "kind": 134299649,
-                    "text": "U",
-                    "rawText": "U",
-                    "flags": 96,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "U",
+                        "rawText": "U",
+                        "flags": 96,
+                        "start": 11,
+                        "end": 13
+                    },
+                    "typeParameters": null,
+                    "flags": 2097152,
                     "start": 11,
                     "end": 13
                 },
-                "typeParameters": null,
                 "flags": 2097152,
                 "start": 11,
                 "end": 13

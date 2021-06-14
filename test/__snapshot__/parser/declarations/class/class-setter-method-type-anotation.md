@@ -90,6 +90,8 @@ class Foo {set fooProp(value:number){}}
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -97,7 +99,7 @@ class Foo {set fooProp(value:number){}}
                                                     "end": 35
                                                 },
                                                 "flags": 2097152,
-                                                "start": 28,
+                                                "start": 29,
                                                 "end": 35
                                             },
                                             "right": null,

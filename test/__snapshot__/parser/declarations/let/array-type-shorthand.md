@@ -47,6 +47,8 @@ let arr: number[] = [0, 1, 2, 3];
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 136,
                                 "type": {
@@ -60,7 +62,7 @@ let arr: number[] = [0, 1, 2, 3];
                                 "end": 17
                             },
                             "flags": 2097152,
-                            "start": 7,
+                            "start": 8,
                             "end": 17
                         },
                         "initializer": {

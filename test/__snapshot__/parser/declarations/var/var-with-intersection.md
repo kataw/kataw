@@ -52,6 +52,13 @@ var x:
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": {
+                                "kind": 134251592,
+                                "flags": 65,
+                                "start": 6,
+                                "end": 9
+                            },
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 137,
                                 "types": [
@@ -75,7 +82,7 @@ var x:
                                 "end": 16
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 16
                         },
                         "initializer": {

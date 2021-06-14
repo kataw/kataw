@@ -60,8 +60,16 @@ class A9<S = number, T: ?string = string> {}
                         },
                         "type": null,
                         "defaultType": {
-                            "kind": 134234347,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 12,
+                                "end": 19
+                            },
+                            "flags": 2097152,
                             "start": 12,
                             "end": 19
                         },
@@ -125,6 +133,8 @@ class A9<S = number, T: ?string = string> {}
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -144,12 +154,20 @@ class A9<S = number, T: ?string = string> {}
                                 "end": 43
                             },
                             "flags": 2097152,
-                            "start": 34,
+                            "start": 35,
                             "end": 43
                         },
                         "defaultType": {
-                            "kind": 134234347,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 45,
+                                "end": 52
+                            },
+                            "flags": 2097152,
                             "start": 45,
                             "end": 52
                         },
@@ -229,6 +247,8 @@ class A9<S = number, T: ?string = string> {}
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -248,12 +268,20 @@ class A9<S = number, T: ?string = string> {}
                                 "end": 79
                             },
                             "flags": 2097152,
-                            "start": 70,
+                            "start": 71,
                             "end": 79
                         },
                         "defaultType": {
-                            "kind": 134234347,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 81,
+                                "end": 88
+                            },
+                            "flags": 2097152,
                             "start": 81,
                             "end": 88
                         },
@@ -317,8 +345,16 @@ class A9<S = number, T: ?string = string> {}
                         },
                         "type": null,
                         "defaultType": {
-                            "kind": 134234345,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234345,
+                                "flags": 2097216,
+                                "start": 105,
+                                "end": 112
+                            },
+                            "flags": 2097152,
                             "start": 105,
                             "end": 112
                         },
@@ -338,6 +374,8 @@ class A9<S = number, T: ?string = string> {}
                         },
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -357,12 +395,20 @@ class A9<S = number, T: ?string = string> {}
                                 "end": 124
                             },
                             "flags": 2097152,
-                            "start": 115,
+                            "start": 116,
                             "end": 124
                         },
                         "defaultType": {
-                            "kind": 134234347,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 126,
+                                "end": 133
+                            },
+                            "flags": 2097152,
                             "start": 126,
                             "end": 133
                         },
@@ -429,8 +475,16 @@ class A9<S = number, T: ?string = string> {}
                                 },
                                 "type": null,
                                 "defaultType": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 152,
+                                        "end": 159
+                                    },
+                                    "flags": 2097152,
                                     "start": 152,
                                     "end": 159
                                 },

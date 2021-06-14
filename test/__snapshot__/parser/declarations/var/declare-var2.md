@@ -53,6 +53,8 @@ declare var C: Class<string>;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -69,8 +71,16 @@ declare var C: Class<string>;
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 21,
+                                                    "end": 27
+                                                },
+                                                "flags": 2097152,
                                                 "start": 21,
                                                 "end": 27
                                             },
@@ -88,7 +98,7 @@ declare var C: Class<string>;
                                 "end": 28
                             },
                             "flags": 2097152,
-                            "start": 13,
+                            "start": 14,
                             "end": 28
                         },
                         "initializer": null,

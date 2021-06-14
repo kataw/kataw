@@ -506,6 +506,8 @@ n4 = z2;
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -513,7 +515,7 @@ n4 = z2;
                                             "end": 960
                                         },
                                         "flags": 2097152,
-                                        "start": 952,
+                                        "start": 953,
                                         "end": 960
                                     },
                                     "right": null,
@@ -535,6 +537,8 @@ n4 = z2;
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
@@ -542,7 +546,7 @@ n4 = z2;
                                             "end": 971
                                         },
                                         "flags": 2097152,
-                                        "start": 963,
+                                        "start": 964,
                                         "end": 971
                                     },
                                     "right": null,
@@ -623,6 +627,8 @@ n4 = z2;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -647,8 +653,16 @@ n4 = z2;
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 1014,
+                                                    "end": 1021
+                                                },
+                                                "flags": 2097152,
                                                 "start": 1014,
                                                 "end": 1021
                                             },
@@ -663,8 +677,16 @@ n4 = z2;
                                     "end": 1021
                                 },
                                 "returnType": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 1025,
+                                        "end": 1032
+                                    },
+                                    "flags": 2097152,
                                     "start": 1025,
                                     "end": 1032
                                 },
@@ -674,7 +696,7 @@ n4 = z2;
                                 "end": 1032
                             },
                             "flags": 2097152,
-                            "start": 990,
+                            "start": 991,
                             "end": 1032
                         },
                         "initializer": null,
@@ -761,6 +783,8 @@ n4 = z2;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -785,8 +809,16 @@ n4 = z2;
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234345,
+                                                    "flags": 2097216,
+                                                    "start": 1060,
+                                                    "end": 1067
+                                                },
+                                                "flags": 2097152,
                                                 "start": 1060,
                                                 "end": 1067
                                             },
@@ -801,8 +833,16 @@ n4 = z2;
                                     "end": 1067
                                 },
                                 "returnType": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 1071,
+                                        "end": 1078
+                                    },
+                                    "flags": 2097152,
                                     "start": 1071,
                                     "end": 1078
                                 },
@@ -812,7 +852,7 @@ n4 = z2;
                                 "end": 1078
                             },
                             "flags": 2097152,
-                            "start": 1055,
+                            "start": 1056,
                             "end": 1078
                         },
                         "initializer": null,

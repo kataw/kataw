@@ -86,16 +86,24 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "Object",
-                                                    "rawText": "Object",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "Object",
+                                                        "rawText": "Object",
+                                                        "flags": 96,
+                                                        "start": 45,
+                                                        "end": 51
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 45,
                                                     "end": 51
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 45,
                                                 "end": 51
@@ -117,8 +125,16 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234347,
+                                                    "flags": 2097216,
+                                                    "start": 58,
+                                                    "end": 64
+                                                },
+                                                "flags": 2097152,
                                                 "start": 58,
                                                 "end": 64
                                             },
@@ -133,8 +149,16 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                     "end": 64
                                 },
                                 "returnType": {
-                                    "kind": 138477615,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 138477615,
+                                        "flags": 2097216,
+                                        "start": 67,
+                                        "end": 71
+                                    },
+                                    "flags": 2097152,
                                     "start": 67,
                                     "end": 71
                                 },

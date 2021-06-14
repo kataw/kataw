@@ -93,6 +93,8 @@ const identity = <T>(t: T): T => t;
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
                                             "id": {
@@ -109,7 +111,7 @@ const identity = <T>(t: T): T => t;
                                             "end": 25
                                         },
                                         "flags": 2097152,
-                                        "start": 22,
+                                        "start": 23,
                                         "end": 25
                                     },
                                     "right": null,
@@ -121,6 +123,8 @@ const identity = <T>(t: T): T => t;
                             "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
                                     "id": {
@@ -137,7 +141,7 @@ const identity = <T>(t: T): T => t;
                                     "end": 29
                                 },
                                 "flags": 2097152,
-                                "start": 26,
+                                "start": 27,
                                 "end": 29
                             },
                             "contents": {

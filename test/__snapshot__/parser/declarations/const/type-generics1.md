@@ -123,6 +123,8 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                             "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
+                                                                "bitwiseOrToken": null,
+                                                                "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
                                                                     "id": {
@@ -139,7 +141,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                     "end": 67
                                                                 },
                                                                 "flags": 2097152,
-                                                                "start": 64,
+                                                                "start": 65,
                                                                 "end": 67
                                                             },
                                                             "right": null,
@@ -151,6 +153,8 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                     "asyncKeyword": null,
                                                     "returnType": {
                                                         "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
                                                             "id": {
@@ -167,7 +171,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                             "end": 71
                                                         },
                                                         "flags": 2097152,
-                                                        "start": 68,
+                                                        "start": 69,
                                                         "end": 71
                                                     },
                                                     "contents": {

@@ -54,20 +54,38 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 136,
                                 "type": {
                                     "kind": 147,
                                     "elementTypes": [
                                         {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 21,
+                                                "end": 27
+                                            },
+                                            "flags": 2097152,
                                             "start": 21,
                                             "end": 27
                                         },
                                         {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 28,
+                                                "end": 35
+                                            },
+                                            "flags": 2097152,
                                             "start": 28,
                                             "end": 35
                                         }
@@ -82,7 +100,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                 "end": 38
                             },
                             "flags": 2097152,
-                            "start": 18,
+                            "start": 19,
                             "end": 38
                         },
                         "initializer": {
@@ -200,27 +218,53 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 136,
                                 "type": {
                                     "kind": 290,
                                     "type": {
-                                        "kind": 147,
-                                        "elementTypes": [
-                                            {
-                                                "kind": 134234345,
-                                                "flags": 2097216,
-                                                "start": 97,
-                                                "end": 103
-                                            },
-                                            {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
-                                                "start": 104,
-                                                "end": 111
-                                            }
-                                        ],
-                                        "trailingComma": false,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 147,
+                                            "elementTypes": [
+                                                {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 134234345,
+                                                        "flags": 2097216,
+                                                        "start": 97,
+                                                        "end": 103
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 97,
+                                                    "end": 103
+                                                },
+                                                {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 134234347,
+                                                        "flags": 2097216,
+                                                        "start": 104,
+                                                        "end": 111
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 104,
+                                                    "end": 111
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 96,
+                                            "end": 112
+                                        },
                                         "flags": 2097152,
                                         "start": 96,
                                         "end": 112
@@ -234,7 +278,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                 "end": 115
                             },
                             "flags": 2097152,
-                            "start": 93,
+                            "start": 94,
                             "end": 115
                         },
                         "initializer": {
@@ -283,6 +327,8 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -300,7 +346,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                         "end": 162
                                     },
                                     "flags": 2097152,
-                                    "start": 156,
+                                    "start": 162,
                                     "end": 164
                                 },
                                 "flags": 2097152,
@@ -308,7 +354,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                 "end": 164
                             },
                             "flags": 2097152,
-                            "start": 153,
+                            "start": 154,
                             "end": 164
                         },
                         "initializer": {
@@ -355,6 +401,8 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134217970,
                                 "nullableToken": {
@@ -374,7 +422,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                             "end": 209
                                         },
                                         "flags": 2097152,
-                                        "start": 210,
+                                        "start": 209,
                                         "end": 211
                                     },
                                     "flags": 2097152,
@@ -386,7 +434,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                 "end": 212
                             },
                             "flags": 2097152,
-                            "start": 199,
+                            "start": 200,
                             "end": 212
                         },
                         "initializer": {

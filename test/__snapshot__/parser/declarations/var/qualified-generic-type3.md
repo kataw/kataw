@@ -48,6 +48,8 @@ var a : A.B<T>
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
                                 "id": {
@@ -78,16 +80,24 @@ var a : A.B<T>
                                         {
                                             "kind": 310,
                                             "type": {
-                                                "kind": 144,
-                                                "id": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 144,
+                                                    "id": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 12,
+                                                        "end": 13
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
                                                     "start": 12,
                                                     "end": 13
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 12,
                                                 "end": 13
@@ -106,7 +116,7 @@ var a : A.B<T>
                                 "end": 14
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 7,
                             "end": 14
                         },
                         "initializer": null,

@@ -93,6 +93,8 @@ var p10 = ([{ value, done }]) => { };
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
@@ -100,7 +102,7 @@ var p10 = ([{ value, done }]) => { };
                                             "end": 18
                                         },
                                         "flags": 2097152,
-                                        "start": 10,
+                                        "start": 11,
                                         "end": 18
                                     },
                                     "right": null,
@@ -198,6 +200,8 @@ var p10 = ([{ value, done }]) => { };
                                     "optionalToken": null,
                                     "type": {
                                         "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
@@ -205,7 +209,7 @@ var p10 = ([{ value, done }]) => { };
                                             "end": 51
                                         },
                                         "flags": 2097152,
-                                        "start": 43,
+                                        "start": 44,
                                         "end": 51
                                     },
                                     "right": null,
@@ -499,6 +503,8 @@ var p10 = ([{ value, done }]) => { };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -506,7 +512,7 @@ var p10 = ([{ value, done }]) => { };
                                 "end": 151
                             },
                             "flags": 2097152,
-                            "start": 143,
+                            "start": 144,
                             "end": 151
                         },
                         "initializer": null,
@@ -726,6 +732,8 @@ var p10 = ([{ value, done }]) => { };
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
                                 "arrowTypeParameterList": {
@@ -750,8 +758,16 @@ var p10 = ([{ value, done }]) => { };
                                             },
                                             "optionalToken": null,
                                             "types": {
-                                                "kind": 134234252,
-                                                "flags": 2097216,
+                                                "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
+                                                "type": {
+                                                    "kind": 134234252,
+                                                    "flags": 2097216,
+                                                    "start": 205,
+                                                    "end": 209
+                                                },
+                                                "flags": 2097152,
                                                 "start": 205,
                                                 "end": 209
                                             },
@@ -766,8 +782,16 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 209
                                 },
                                 "returnType": {
-                                    "kind": 134234252,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234252,
+                                        "flags": 2097216,
+                                        "start": 213,
+                                        "end": 217
+                                    },
+                                    "flags": 2097152,
                                     "start": 213,
                                     "end": 217
                                 },
@@ -777,7 +801,7 @@ var p10 = ([{ value, done }]) => { };
                                 "end": 217
                             },
                             "flags": 2097152,
-                            "start": 200,
+                            "start": 201,
                             "end": 217
                         },
                         "initializer": null,

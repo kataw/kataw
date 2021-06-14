@@ -48,6 +48,8 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234353,
                                 "properties": [
@@ -71,16 +73,24 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                                     },
                                                     "optionalToken": null,
                                                     "types": {
-                                                        "kind": 144,
-                                                        "id": {
-                                                            "kind": 134299649,
-                                                            "text": "Date",
-                                                            "rawText": "Date",
-                                                            "flags": 96,
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "id": {
+                                                                "kind": 134299649,
+                                                                "text": "Date",
+                                                                "rawText": "Date",
+                                                                "flags": 96,
+                                                                "start": 12,
+                                                                "end": 17
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
                                                             "start": 12,
                                                             "end": 17
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 12,
                                                         "end": 17
@@ -97,8 +107,16 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                         },
                                         "staticToken": null,
                                         "returnType": {
-                                            "kind": 138477615,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 138477615,
+                                                "flags": 2097216,
+                                                "start": 19,
+                                                "end": 24
+                                            },
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 24
                                         },
@@ -113,7 +131,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                 "end": 26
                             },
                             "flags": 2097152,
-                            "start": 5,
+                            "start": 6,
                             "end": 26
                         },
                         "initializer": {

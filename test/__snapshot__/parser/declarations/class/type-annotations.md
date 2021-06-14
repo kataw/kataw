@@ -172,16 +172,24 @@ class Array { concat(items:number | string) {}; }
                             {
                                 "kind": 310,
                                 "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 43,
+                                            "end": 44
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 43,
                                         "end": 44
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 43,
                                     "end": 44
@@ -384,6 +392,8 @@ class Array { concat(items:number | string) {}; }
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -391,7 +401,7 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 125
                                                 },
                                                 "flags": 2097152,
-                                                "start": 117,
+                                                "start": 118,
                                                 "end": 125
                                             },
                                             "right": null,
@@ -508,6 +518,8 @@ class Array { concat(items:number | string) {}; }
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
@@ -515,7 +527,7 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 172
                                                 },
                                                 "flags": 2097152,
-                                                "start": 164,
+                                                "start": 165,
                                                 "end": 172
                                             },
                                             "right": null,
@@ -531,6 +543,8 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
@@ -538,7 +552,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 179
                                     },
                                     "flags": 2097152,
-                                    "start": 173,
+                                    "start": 174,
                                     "end": 179
                                 },
                                 "contents": {
@@ -636,6 +650,8 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "returnType": {
                                     "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
@@ -643,7 +659,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 221
                                     },
                                     "flags": 2097152,
-                                    "start": 213,
+                                    "start": 214,
                                     "end": 221
                                 },
                                 "contents": {
@@ -840,6 +856,8 @@ class Array { concat(items:number | string) {}; }
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -847,7 +865,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 294
                                 },
                                 "flags": 2097152,
-                                "start": 286,
+                                "start": 287,
                                 "end": 294
                             },
                             "initializer": null,
@@ -878,6 +896,8 @@ class Array { concat(items:number | string) {}; }
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -885,7 +905,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 311
                                 },
                                 "flags": 2097152,
-                                "start": 303,
+                                "start": 304,
                                 "end": 311
                             },
                             "initializer": null,
@@ -954,6 +974,8 @@ class Array { concat(items:number | string) {}; }
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -961,7 +983,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 345
                                 },
                                 "flags": 2097152,
-                                "start": 337,
+                                "start": 338,
                                 "end": 345
                             },
                             "initializer": null,
@@ -992,6 +1014,8 @@ class Array { concat(items:number | string) {}; }
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -999,7 +1023,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 362
                                 },
                                 "flags": 2097152,
-                                "start": 354,
+                                "start": 355,
                                 "end": 362
                             },
                             "initializer": null,
@@ -1088,6 +1112,8 @@ class Array { concat(items:number | string) {}; }
                                             "optionalToken": null,
                                             "type": {
                                                 "kind": 139,
+                                                "bitwiseOrToken": null,
+                                                "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 137,
                                                     "types": [
@@ -1109,7 +1135,7 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 408
                                                 },
                                                 "flags": 2097152,
-                                                "start": 392,
+                                                "start": 393,
                                                 "end": 408
                                             },
                                             "right": null,

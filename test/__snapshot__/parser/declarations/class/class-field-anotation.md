@@ -65,6 +65,8 @@ class Foo { prop1:string; prop2:number; }
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
@@ -72,7 +74,7 @@ class Foo { prop1:string; prop2:number; }
                                     "end": 24
                                 },
                                 "flags": 2097152,
-                                "start": 17,
+                                "start": 18,
                                 "end": 24
                             },
                             "initializer": null,
@@ -103,6 +105,8 @@ class Foo { prop1:string; prop2:number; }
                             "optionalToken": null,
                             "type": {
                                 "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
@@ -110,7 +114,7 @@ class Foo { prop1:string; prop2:number; }
                                     "end": 38
                                 },
                                 "flags": 2097152,
-                                "start": 31,
+                                "start": 32,
                                 "end": 38
                             },
                             "initializer": null,

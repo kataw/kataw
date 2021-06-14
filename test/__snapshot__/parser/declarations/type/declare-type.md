@@ -53,8 +53,16 @@ declare type bool = any;
                 "end": 19
             },
             "type": {
-                "kind": 134234252,
-                "flags": 2097216,
+                "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
+                "type": {
+                    "kind": 134234252,
+                    "flags": 2097216,
+                    "start": 19,
+                    "end": 23
+                },
+                "flags": 2097152,
                 "start": 19,
                 "end": 23
             },

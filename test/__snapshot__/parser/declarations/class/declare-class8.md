@@ -64,6 +64,8 @@ declare function foo(x: number, y: string): void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
@@ -71,7 +73,7 @@ declare function foo(x: number, y: string): void;
                                 "end": 30
                             },
                             "flags": 2097152,
-                            "start": 22,
+                            "start": 23,
                             "end": 30
                         },
                         "right": null,
@@ -93,6 +95,8 @@ declare function foo(x: number, y: string): void;
                         "optionalToken": null,
                         "type": {
                             "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
@@ -100,7 +104,7 @@ declare function foo(x: number, y: string): void;
                                 "end": 41
                             },
                             "flags": 2097152,
-                            "start": 33,
+                            "start": 34,
                             "end": 41
                         },
                         "right": null,
@@ -118,6 +122,8 @@ declare function foo(x: number, y: string): void;
             "typeParameters": null,
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
@@ -125,7 +131,7 @@ declare function foo(x: number, y: string): void;
                     "end": 48
                 },
                 "flags": 2097152,
-                "start": 7,
+                "start": 43,
                 "end": 48
             },
             "flags": 4112,

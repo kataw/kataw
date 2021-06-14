@@ -51,6 +51,8 @@ async (f)
             },
             "returnType": {
                 "kind": 139,
+                "bitwiseOrToken": null,
+                "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
                     "id": {
@@ -67,7 +69,7 @@ async (f)
                     "end": 13
                 },
                 "flags": 2097152,
-                "start": 9,
+                "start": 11,
                 "end": 13
             },
             "contents": {
