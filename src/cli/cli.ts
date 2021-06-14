@@ -14,10 +14,15 @@ export function cli(
   filename: string,
   isModule: boolean,
   onError: OnError,
-  options?: Options
+  _options?: Options // linter options
 ): RootNode {
   let context = Context.TopLevel;
   if (isModule) context |= Context.Module | Context.Strict | Context.AllowImportMeta;
   if (!isFunction(onError)) throw 'Require error callback!';
-  return parse(source, filename, context, isModule, onError, options);
+  return parse(source, filename, context, isModule, onError, {
+    // types is on by default in the CLI
+    allowTypes: true,
+    // allow 'ESNext' proposals
+    next: true
+  });
 }
