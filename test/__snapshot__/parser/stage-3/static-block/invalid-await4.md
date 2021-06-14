@@ -101,10 +101,21 @@ class C {
                                         {
                                             "kind": 120,
                                             "expression": {
-                                                "kind": 134299649,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 96,
+                                                "kind": 208,
+                                                "awaitKeyword": {
+                                                    "kind": 82196,
+                                                    "flags": 65,
+                                                    "start": 31,
+                                                    "end": 41
+                                                },
+                                                "expression": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "flags": 64,
+                                                    "start": 41,
+                                                    "end": 41
+                                                },
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 41
                                             },
@@ -152,15 +163,12 @@ class C {
 
 ```javascript
 
-let await;
-class C {
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 41, end: 42
+
 ```
 

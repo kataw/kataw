@@ -135,16 +135,13 @@ class C {
 ### Printed
 
 ```javascript
-// IdentifierReference may not be `await` within class static blocks
 
-class C {
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. Reserved word in strict mode - start: 102, end: 104
+
 ```
 

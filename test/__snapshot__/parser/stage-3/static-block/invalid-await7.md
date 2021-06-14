@@ -288,10 +288,21 @@ class C {
                                                             "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
-                                                                "kind": 134299649,
-                                                                "text": "await",
-                                                                "rawText": "await",
-                                                                "flags": 96,
+                                                                "kind": 208,
+                                                                "awaitKeyword": {
+                                                                    "kind": 82196,
+                                                                    "flags": 64,
+                                                                    "start": 222,
+                                                                    "end": 228
+                                                                },
+                                                                "expression": {
+                                                                    "kind": 16637,
+                                                                    "text": "",
+                                                                    "flags": 64,
+                                                                    "start": 228,
+                                                                    "end": 228
+                                                                },
+                                                                "flags": 32,
                                                                 "start": 222,
                                                                 "end": 228
                                                             },
@@ -314,10 +325,21 @@ class C {
                                                             "key": {
                                                                 "kind": 194,
                                                                 "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "await",
-                                                                    "rawText": "await",
-                                                                    "flags": 96,
+                                                                    "kind": 208,
+                                                                    "awaitKeyword": {
+                                                                        "kind": 82196,
+                                                                        "flags": 64,
+                                                                        "start": 296,
+                                                                        "end": 301
+                                                                    },
+                                                                    "expression": {
+                                                                        "kind": 16637,
+                                                                        "text": "",
+                                                                        "flags": 64,
+                                                                        "start": 301,
+                                                                        "end": 301
+                                                                    },
+                                                                    "flags": 32,
                                                                     "start": 296,
                                                                     "end": 301
                                                                 },
@@ -581,10 +603,21 @@ class C {
                                         {
                                             "kind": 163,
                                             "label": {
-                                                "kind": 134299649,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 96,
+                                                "kind": 208,
+                                                "awaitKeyword": {
+                                                    "kind": 82196,
+                                                    "flags": 65,
+                                                    "start": 703,
+                                                    "end": 768
+                                                },
+                                                "expression": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "flags": 64,
+                                                    "start": 768,
+                                                    "end": 768
+                                                },
+                                                "flags": 32,
                                                 "start": 703,
                                                 "end": 768
                                             },
@@ -665,6 +698,11 @@ class C {
 ```javascript
 ✖ Await expression cannot be used inside class static block. - start: 39, end: 45
 ✖ Duplicate identifier - start: 113, end: 115
+✖ Identifier expected - start: 228, end: 229
+✖ Identifier expected - start: 301, end: 302
+✖ Identifier expected - start: 768, end: 769
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal and cannot be used as an label - start: 703, end: 769
+✖ A 'break' statement can only jump to a label of an enclosing statement - start: 833, end: 834
 
 ```
 

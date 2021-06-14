@@ -144,14 +144,12 @@ class C {
 
 ```javascript
 
-class C {
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'new.target' only allowed within functions - start: 32, end: 44
+
 ```
 

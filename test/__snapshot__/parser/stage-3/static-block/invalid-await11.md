@@ -160,29 +160,27 @@ async function foo() {
                                                         {
                                                             "kind": 120,
                                                             "expression": {
-                                                                "kind": 134299649,
-                                                                "text": "await",
-                                                                "rawText": "await",
-                                                                "flags": 96,
+                                                                "kind": 208,
+                                                                "awaitKeyword": {
+                                                                    "kind": 82196,
+                                                                    "flags": 65,
+                                                                    "start": 67,
+                                                                    "end": 79
+                                                                },
+                                                                "expression": {
+                                                                    "kind": 201392130,
+                                                                    "text": 42,
+                                                                    "rawText": "42",
+                                                                    "flags": 96,
+                                                                    "start": 79,
+                                                                    "end": 82
+                                                                },
+                                                                "flags": 32,
                                                                 "start": 67,
-                                                                "end": 79
-                                                            },
-                                                            "flags": 16,
-                                                            "start": 67,
-                                                            "end": 79
-                                                        },
-                                                        {
-                                                            "kind": 120,
-                                                            "expression": {
-                                                                "kind": 201392130,
-                                                                "text": 42,
-                                                                "rawText": "42",
-                                                                "flags": 96,
-                                                                "start": 79,
                                                                 "end": 82
                                                             },
                                                             "flags": 16,
-                                                            "start": 79,
+                                                            "start": 67,
                                                             "end": 83
                                                         }
                                                     ],
@@ -240,12 +238,17 @@ async function foo() {
 
 ```javascript
 
+async function foo() {
+  class C {
+    static static foo() {}
+
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 79, end: 82
-
+✔ No errors
 ```
 

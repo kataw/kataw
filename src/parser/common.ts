@@ -44,7 +44,7 @@ export const enum Context {
   OptionsDisableWebCompat = 1 << 2,
   TopLevel = 1 << 3, // If node was parsed at the top level
   InBlock = 1 << 4, // If node was parsed in either 'BlockStatement' or 'FunctionStatementList'
-  InStaticBlock = 1 << 5, // If node was parsed in a static block.
+  ClassStaticBlockContext = 1 << 5, // If node was parsed in a static block.
   AllowRegExp = 1 << 6, // Allow parsing an regular expression
   DisallowInContext = 1 << 7, // If node was parsed in a context where 'in-expressions' are not allowed
   IsOutsideFnOrArrow = 1 << 8, // Disallows 'ReturnStatement' if outside either a function or arrow function
@@ -66,7 +66,7 @@ export const enum Context {
   AllowImportMeta = 1 << 25, // Allows parsing 'Import meta'. *Only* allowed for module goal
   LexicalContext = 1 << 26, // If node was parsed in a lexical context,
   DecoratorContext = 1 << 27,
-  aasfdasa = Context.InStaticBlock | 0b00000000000000000101100000000000
+  asdfsad = Context.YieldContext | Context.IsOutsideFnOrArrow | Context.InsideLoop | Context.InsideSwitch
 }
 
 export const enum DestructibleKind {

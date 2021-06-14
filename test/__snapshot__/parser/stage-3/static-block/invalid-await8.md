@@ -12,14 +12,10 @@
 let await;
 class C {
   static {
-
-    ({ [await]: 1 }); // illegal
     class D {
-      await = 1; // legal
-      x = await; // legal (initializers have an implicit function boundary)
-      [await] = 1; // illegal (computed property names are evaluated outside of a class body
+      await = 1;
+      x = await;
     };
-
   }
 }
 `````
@@ -106,78 +102,22 @@ class C {
                                     "kind": 249,
                                     "statements": [
                                         {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 121,
-                                                "expression": {
-                                                    "kind": 220,
-                                                    "propertyList": {
-                                                        "kind": 218,
-                                                        "properties": [
-                                                            {
-                                                                "kind": 219,
-                                                                "generatorToken": null,
-                                                                "left": {
-                                                                    "kind": 194,
-                                                                    "expression": {
-                                                                        "kind": 134299649,
-                                                                        "text": "await",
-                                                                        "rawText": "await",
-                                                                        "flags": 96,
-                                                                        "start": 41,
-                                                                        "end": 46
-                                                                    },
-                                                                    "flags": 32,
-                                                                    "start": 39,
-                                                                    "end": 47
-                                                                },
-                                                                "right": {
-                                                                    "kind": 201392130,
-                                                                    "text": 1,
-                                                                    "rawText": "1",
-                                                                    "flags": 96,
-                                                                    "start": 48,
-                                                                    "end": 50
-                                                                },
-                                                                "flags": 32,
-                                                                "start": 39,
-                                                                "end": 50
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 16,
-                                                        "start": 39,
-                                                        "end": 50
-                                                    },
-                                                    "flags": 48,
-                                                    "start": 38,
-                                                    "end": 52
-                                                },
-                                                "flags": 32,
-                                                "start": 31,
-                                                "end": 53
-                                            },
-                                            "flags": 16,
-                                            "start": 31,
-                                            "end": 54
-                                        },
-                                        {
                                             "kind": 178,
                                             "declareKeyword": null,
                                             "decorators": null,
                                             "classKeyword": {
                                                 "kind": 37822544,
                                                 "flags": 81,
-                                                "start": 54,
-                                                "end": 75
+                                                "start": 31,
+                                                "end": 41
                                             },
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "D",
                                                 "rawText": "D",
                                                 "flags": 96,
-                                                "start": 75,
-                                                "end": 77
+                                                "start": 41,
+                                                "end": 43
                                             },
                                             "typeParameters": null,
                                             "tail": {
@@ -197,8 +137,8 @@ class C {
                                                                 "text": "await",
                                                                 "rawText": "await",
                                                                 "flags": 96,
-                                                                "start": 79,
-                                                                "end": 91
+                                                                "start": 45,
+                                                                "end": 57
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
@@ -207,18 +147,18 @@ class C {
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
-                                                                "start": 93,
-                                                                "end": 95
+                                                                "start": 59,
+                                                                "end": 61
                                                             },
                                                             "flags": 32,
-                                                            "start": 79,
-                                                            "end": 95
+                                                            "start": 45,
+                                                            "end": 61
                                                         },
                                                         {
                                                             "kind": 317,
                                                             "flags": 96,
-                                                            "start": 95,
-                                                            "end": 96
+                                                            "start": 61,
+                                                            "end": 62
                                                         },
                                                         {
                                                             "kind": 280,
@@ -231,121 +171,92 @@ class C {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
-                                                                "start": 96,
-                                                                "end": 113
+                                                                "start": 62,
+                                                                "end": 70
                                                             },
                                                             "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
-                                                                "kind": 134299649,
-                                                                "text": "await",
-                                                                "rawText": "await",
-                                                                "flags": 96,
-                                                                "start": 115,
-                                                                "end": 121
-                                                            },
-                                                            "flags": 32,
-                                                            "start": 96,
-                                                            "end": 121
-                                                        },
-                                                        {
-                                                            "kind": 317,
-                                                            "flags": 96,
-                                                            "start": 121,
-                                                            "end": 122
-                                                        },
-                                                        {
-                                                            "kind": 280,
-                                                            "decorators": null,
-                                                            "declaredToken": null,
-                                                            "staticToken": null,
-                                                            "asyncKeyword": null,
-                                                            "key": {
-                                                                "kind": 194,
+                                                                "kind": 208,
+                                                                "awaitKeyword": {
+                                                                    "kind": 82196,
+                                                                    "flags": 64,
+                                                                    "start": 72,
+                                                                    "end": 78
+                                                                },
                                                                 "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "await",
-                                                                    "rawText": "await",
-                                                                    "flags": 96,
-                                                                    "start": 189,
-                                                                    "end": 194
+                                                                    "kind": 16637,
+                                                                    "text": "",
+                                                                    "flags": 64,
+                                                                    "start": 78,
+                                                                    "end": 78
                                                                 },
                                                                 "flags": 32,
-                                                                "start": 122,
-                                                                "end": 195
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "initializer": {
-                                                                "kind": 201392130,
-                                                                "text": 1,
-                                                                "rawText": "1",
-                                                                "flags": 96,
-                                                                "start": 197,
-                                                                "end": 199
+                                                                "start": 72,
+                                                                "end": 78
                                                             },
                                                             "flags": 32,
-                                                            "start": 122,
-                                                            "end": 199
+                                                            "start": 62,
+                                                            "end": 78
                                                         },
                                                         {
                                                             "kind": 317,
                                                             "flags": 96,
-                                                            "start": 199,
-                                                            "end": 200
+                                                            "start": 78,
+                                                            "end": 79
                                                         }
                                                     ],
                                                     "flags": 32,
-                                                    "start": 79,
-                                                    "end": 200
+                                                    "start": 45,
+                                                    "end": 79
                                                 },
-                                                "flags": 77,
+                                                "flags": 43,
                                                 "start": 32,
-                                                "end": 280
+                                                "end": 85
                                             },
                                             "flags": 17,
-                                            "start": 54,
-                                            "end": 280
+                                            "start": 31,
+                                            "end": 85
                                         },
                                         {
                                             "kind": 168,
                                             "flags": 16,
-                                            "start": 280,
-                                            "end": 281
+                                            "start": 85,
+                                            "end": 86
                                         }
                                     ],
                                     "flags": 17,
                                     "start": 31,
-                                    "end": 281
+                                    "end": 86
                                 },
                                 "flags": 20,
                                 "start": 0,
-                                "end": 286
+                                "end": 90
                             },
                             "flags": 32,
                             "start": 20,
-                            "end": 286
+                            "end": 90
                         }
                     ],
                     "flags": 32,
                     "start": 20,
-                    "end": 286
+                    "end": 90
                 },
                 "flags": 18,
                 "start": 32,
-                "end": 288
+                "end": 92
             },
             "flags": 17,
             "start": 10,
-            "end": 288
+            "end": 92
         }
     ],
     "isModule": false,
-    "source": "let await;\nclass C {\n  static {\n\n    ({ [await]: 1 }); // illegal\n    class D {\n      await = 1; // legal\n      x = await; // legal (initializers have an implicit function boundary)\n      [await] = 1; // illegal (computed property names are evaluated outside of a class body\n    };\n\n  }\n}",
+    "source": "let await;\nclass C {\n  static {\n    class D {\n      await = 1;\n      x = await;\n    };\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 288
+    "end": 92
 }
 ```
 
@@ -353,15 +264,12 @@ class C {
 
 ```javascript
 
-let await;
-class C {
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 78, end: 79
+
 ```
 

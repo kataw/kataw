@@ -179,10 +179,21 @@ class C {
                                                             "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
-                                                                "kind": 134299649,
-                                                                "text": "await",
-                                                                "rawText": "await",
-                                                                "flags": 96,
+                                                                "kind": 208,
+                                                                "awaitKeyword": {
+                                                                    "kind": 82196,
+                                                                    "flags": 64,
+                                                                    "start": 79,
+                                                                    "end": 85
+                                                                },
+                                                                "expression": {
+                                                                    "kind": 16637,
+                                                                    "text": "",
+                                                                    "flags": 64,
+                                                                    "start": 85,
+                                                                    "end": 85
+                                                                },
+                                                                "flags": 32,
                                                                 "start": 79,
                                                                 "end": 85
                                                             },
@@ -205,10 +216,21 @@ class C {
                                                             "key": {
                                                                 "kind": 194,
                                                                 "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "await",
-                                                                    "rawText": "await",
-                                                                    "flags": 96,
+                                                                    "kind": 208,
+                                                                    "awaitKeyword": {
+                                                                        "kind": 82196,
+                                                                        "flags": 64,
+                                                                        "start": 153,
+                                                                        "end": 158
+                                                                    },
+                                                                    "expression": {
+                                                                        "kind": 16637,
+                                                                        "text": "",
+                                                                        "flags": 64,
+                                                                        "start": 158,
+                                                                        "end": 158
+                                                                    },
+                                                                    "flags": 32,
                                                                     "start": 153,
                                                                     "end": 158
                                                                 },
@@ -295,15 +317,13 @@ class C {
 
 ```javascript
 
-let await;
-class C {
-
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 85, end: 86
+✖ Identifier expected - start: 158, end: 159
+
 ```
 

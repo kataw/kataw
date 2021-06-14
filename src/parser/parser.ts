@@ -1146,9 +1146,10 @@ function parseReturnStatement(parser: ParserState, context: Context): ReturnStat
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
       diagnosticMap[
-        context & Context.InStaticBlock ?
-        DiagnosticCode.A_return_statement_cannot_be_used_inside_class_static_block
-        :        DiagnosticCode.A_return_statement_can_only_be_used_within_a_function_body],
+        context & Context.ClassStaticBlockContext
+          ? DiagnosticCode.A_return_statement_cannot_be_used_inside_class_static_block
+          : DiagnosticCode.A_return_statement_can_only_be_used_within_a_function_body
+      ],
       pos,
       parser.pos
     );
@@ -1290,12 +1291,15 @@ function parseForStatement(
   let destructible!: DestructibleKind;
   const awaitKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.AwaitKeyword);
 
-  if (awaitKeyword && ((context & (Context.Module | Context.AwaitContext)) === 0 || context & Context.InStaticBlock)) {
+  if (
+    awaitKeyword &&
+    ((context & (Context.Module | Context.AwaitContext)) === 0 || context & Context.ClassStaticBlockContext)
+  ) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
       diagnosticMap[
-        context & Context.InStaticBlock
+        context & Context.ClassStaticBlockContext
           ? DiagnosticCode._For_await_loops_cannot_be_used_inside_class_static_block
           : DiagnosticCode.A_for_await_of_statement_is_only_allowed_within_an_async_function_or_async_generator
       ],
@@ -1678,14 +1682,14 @@ function parseBindingIdentifier(
         parser.pos
       );
     } else if (
-      context & (Context.Module | Context.InStaticBlock | Context.AwaitContext) &&
+      context & (Context.Module | Context.ClassStaticBlockContext | Context.AwaitContext) &&
       token === SyntaxKind.AwaitKeyword
     ) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[
-          context & Context.InStaticBlock
+          context & Context.ClassStaticBlockContext
             ? DiagnosticCode.Await_expression_cannot_be_used_inside_class_static_block
             : context & Context.Parameters
             ? DiagnosticCode._await_expression_cannot_be_used_in_function_parameters
@@ -9158,15 +9162,6 @@ function parseClassDeclaration(
   let name = null;
 
   if (parser.token !== SyntaxKind.ExtendsKeyword) {
-    if (context & Context.InStaticBlock && parser.token === SyntaxKind.AwaitKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.BindingIdentifier_may_not_be_await_within_class_static_blocks],
-        parser.curPos,
-        parser.pos
-      );
-    }
     if (isDefaultModifier) {
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
         name = parseBindingIdentifier(parser, context, scope, BindingType.Const);
@@ -9492,9 +9487,9 @@ export function parseClassElement(
       token === SyntaxKind.StaticKeyword &&
       parser.token === SyntaxKind.LeftBrace
     ) {
-      return parseStaticBlock(
+      return parseClassStaticBlockDeclaration(
         parser,
-        inheritedContext | Context.InStaticBlock,
+        inheritedContext,
         decorators,
         declareKeyword,
         staticKeyword,
@@ -9686,7 +9681,7 @@ export function parseClassElement(
 //   ClassStaticBlockBody :
 // ClassStaticBlockStatementList :
 //  `StatementList`
-export function parseStaticBlock(
+export function parseClassStaticBlockDeclaration(
   parser: ParserState,
   context: Context,
   decorators: DecoratorList | null,
@@ -9714,9 +9709,11 @@ export function parseStaticBlock(
       parser.pos
     );
   }
+  // A 'static block' should be parsed outside of 'YieldContext', but inside
+  // of 'AwaitContext'
   const block = parseBlock(
     parser,
-    (context | 0b01100000000000000111111100000000) ^ 0b01000000000000000101111100000000,
+    (context | 0b00000000000000000001111100100000) ^ 0b00000000000000000001101100000000,
     {
       kind: ScopeKind.Block,
       scope: {

@@ -101,33 +101,28 @@ class C {
                                         {
                                             "kind": 120,
                                             "expression": {
-                                                "kind": 131,
-                                                "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "await",
-                                                    "rawText": "await",
-                                                    "flags": 96,
+                                                "kind": 208,
+                                                "awaitKeyword": {
+                                                    "kind": 82196,
+                                                    "flags": 65,
                                                     "start": 31,
                                                     "end": 41
                                                 },
-                                                "argumentList": {
-                                                    "kind": 256,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 201392130,
-                                                            "text": 1,
-                                                            "rawText": "1",
-                                                            "flags": 96,
-                                                            "start": 42,
-                                                            "end": 43
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
+                                                "expression": {
+                                                    "kind": 121,
+                                                    "expression": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 42,
+                                                        "end": 43
+                                                    },
                                                     "flags": 32,
-                                                    "start": 42,
-                                                    "end": 43
+                                                    "start": 41,
+                                                    "end": 44
                                                 },
-                                                "flags": 268435488,
+                                                "flags": 32,
                                                 "start": 31,
                                                 "end": 44
                                             },
