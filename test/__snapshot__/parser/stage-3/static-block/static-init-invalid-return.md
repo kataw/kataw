@@ -168,7 +168,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ A return statement can only be used within a function_body - start: 39, end: 52
+✖ A 'return' statement cannot be used inside class static block. - start: 39, end: 52
 
 ```
 
