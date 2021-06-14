@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
+- Regenerated: 2021-06-14
 - From: kataw/test/__snapshot__/parser/expressions/call/trailing_comma/autogen.md
 - Path: kataw/test/__snapshot__/parser/expressions/call/trailing_comma/gen/one_arg
 > :: test: one arg

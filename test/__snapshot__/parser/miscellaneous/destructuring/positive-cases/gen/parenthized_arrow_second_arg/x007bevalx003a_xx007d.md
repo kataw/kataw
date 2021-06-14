@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
+- Regenerated: 2021-06-14
 - From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
 - Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/parenthized_arrow_second_arg
 > :: test: parenthized arrow second arg

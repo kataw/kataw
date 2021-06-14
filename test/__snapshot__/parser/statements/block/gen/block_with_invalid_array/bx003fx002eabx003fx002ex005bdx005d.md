@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
+- Regenerated: 2021-06-14
 - From: kataw/test/__snapshot__/parser/statements/block/autogen.md
 - Path: kataw/test/__snapshot__/parser/statements/block/gen/block_with_invalid_array
 > :: test: block with invalid array

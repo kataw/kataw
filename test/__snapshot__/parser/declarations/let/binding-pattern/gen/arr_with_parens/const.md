@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
+- Regenerated: 2021-06-14
 - From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
 - Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/arr_with_parens
 > :: test: arr with parens

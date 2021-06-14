@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
+- Regenerated: 2021-06-14
 - From: kataw/test/__snapshot__/parser/statements/for-await/mixed-cases/autogen.md
 - Path: kataw/test/__snapshot__/parser/statements/for-await/mixed-cases/gen/case
 > :: test: case

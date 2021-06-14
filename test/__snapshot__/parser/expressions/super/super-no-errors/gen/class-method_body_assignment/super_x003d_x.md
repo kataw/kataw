@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
+- Regenerated: 2021-06-14
 - From: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/autogen.md
 - Path: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/gen/class-method_body_assignment
 > :: test: class-method body assignment

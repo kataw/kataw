@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-11
+- Regenerated: 2021-06-14
 - From: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/autogen.md
 - Path: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/gen/3
 > :: test: 3
