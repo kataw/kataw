@@ -7118,7 +7118,7 @@ function parseType(parser: ParserState, context: Context): TypeNode {
   // - `x & y`
   consumeOpt(parser, context, SyntaxKind.BitwiseAnd);
 
-  return parseTypeContinuation(parser, context, parseNullableOrPostfixType(parser, context));
+  return parseTypeContinuation(parser, context, parseNullableType(parser, context));
 }
 
 function parseTypeContinuation(parser: ParserState, context: Context, type: TypeNode): TypeNode {
@@ -7152,19 +7152,19 @@ function parseTypeAnnotation(parser: ParserState, context: Context): TypeAnnotat
 
 function parseIntersectionType(parser: ParserState, context: Context): TypeNode {
   consumeOpt(parser, context, SyntaxKind.BitwiseAnd);
-  const type = parseNullableOrPostfixType(parser, context);
+  const type = parseNullableType(parser, context);
   if (parser.token === SyntaxKind.BitwiseAnd) {
     const pos = parser.curPos;
     const types = [type];
     while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
-      types.push(parseNullableOrPostfixType(parser, context));
+      types.push(parseNullableType(parser, context));
     }
     return createIntersectionType(types, pos, parser.curPos);
   }
   return type;
 }
 
-function parseNullableOrPostfixType(parser: ParserState, context: Context): NullableType | TypeNode {
+function parseNullableType(parser: ParserState, context: Context): NullableType | TypeNode {
   const pos = parser.curPos;
   return parser.token === SyntaxKind.QuestionMark
     ? createNullableType(
