@@ -45,56 +45,63 @@ type MyObject<A, B, C> = {
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "A",
-                            "rawText": "A",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 15
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 14,
                             "end": 15
                         },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 14,
-                        "end": 15
-                    },
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "B",
-                            "rawText": "B",
-                            "flags": 96,
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "B",
+                                "rawText": "B",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 18
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 16,
                             "end": 18
                         },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 16,
-                        "end": 18
-                    },
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "C",
-                            "rawText": "C",
-                            "flags": 96,
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "C",
+                                "rawText": "C",
+                                "flags": 96,
+                                "start": 19,
+                                "end": 21
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 19,
                             "end": 21
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 19,
-                        "end": 21
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 14,
+                    "end": 21
+                },
                 "flags": 2097152,
                 "start": 13,
                 "end": 22

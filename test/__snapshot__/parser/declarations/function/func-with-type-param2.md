@@ -76,40 +76,47 @@ a=function<T,S>() {}
                     },
                     "typeParameters": {
                         "kind": 307,
-                        "typeParameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                        "declarations": {
+                            "kind": 310,
+                            "parameters": [
+                                {
+                                    "kind": 146,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    "type": null,
+                                    "defaultType": null,
+                                    "flags": 2097152,
                                     "start": 11,
                                     "end": 12
                                 },
-                                "type": null,
-                                "defaultType": null,
-                                "flags": 2097152,
-                                "start": 11,
-                                "end": 12
-                            },
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "S",
-                                    "rawText": "S",
-                                    "flags": 96,
+                                {
+                                    "kind": 146,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "S",
+                                        "rawText": "S",
+                                        "flags": 96,
+                                        "start": 13,
+                                        "end": 14
+                                    },
+                                    "type": null,
+                                    "defaultType": null,
+                                    "flags": 2097152,
                                     "start": 13,
                                     "end": 14
-                                },
-                                "type": null,
-                                "defaultType": null,
-                                "flags": 2097152,
-                                "start": 13,
-                                "end": 14
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 11,
+                            "end": 14
+                        },
                         "flags": 2097152,
                         "start": 10,
                         "end": 15

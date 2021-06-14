@@ -470,24 +470,31 @@ let one = {
                                             },
                                             "typeParameters": {
                                                 "kind": 307,
-                                                "typeParameters": [
-                                                    {
-                                                        "kind": 146,
-                                                        "name": {
-                                                            "kind": 134299649,
-                                                            "text": "T",
-                                                            "rawText": "T",
-                                                            "flags": 96,
+                                                "declarations": {
+                                                    "kind": 310,
+                                                    "parameters": [
+                                                        {
+                                                            "kind": 146,
+                                                            "name": {
+                                                                "kind": 134299649,
+                                                                "text": "T",
+                                                                "rawText": "T",
+                                                                "flags": 96,
+                                                                "start": 134,
+                                                                "end": 135
+                                                            },
+                                                            "type": null,
+                                                            "defaultType": null,
+                                                            "flags": 2097152,
                                                             "start": 134,
                                                             "end": 135
-                                                        },
-                                                        "type": null,
-                                                        "defaultType": null,
-                                                        "flags": 2097152,
-                                                        "start": 134,
-                                                        "end": 135
-                                                    }
-                                                ],
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 134,
+                                                    "end": 135
+                                                },
                                                 "flags": 2097152,
                                                 "start": 133,
                                                 "end": 136

@@ -66,49 +66,56 @@ function bar<T: ?number>() {}
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
-                            "start": 13,
-                            "end": 14
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 14
+                            },
                             "type": {
-                                "kind": 134217970,
-                                "nullableToken": {
-                                    "kind": 134217750,
-                                    "flags": 64,
-                                    "start": 15,
-                                    "end": 17
-                                },
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
-                                    "kind": 134234345,
-                                    "flags": 2097216,
-                                    "start": 17,
+                                    "kind": 134217970,
+                                    "nullableToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 15,
+                                        "end": 17
+                                    },
+                                    "type": {
+                                        "kind": 134234345,
+                                        "flags": 2097216,
+                                        "start": 17,
+                                        "end": 23
+                                    },
+                                    "flags": 2097152,
+                                    "start": 15,
                                     "end": 23
                                 },
                                 "flags": 2097152,
                                 "start": 15,
                                 "end": 23
                             },
+                            "defaultType": null,
                             "flags": 2097152,
-                            "start": 15,
+                            "start": 13,
                             "end": 23
-                        },
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 13,
-                        "end": 23
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 13,
+                    "end": 23
+                },
                 "flags": 2097152,
                 "start": 12,
                 "end": 24

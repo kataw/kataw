@@ -62,11 +62,11 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                         "end": 14
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -151,24 +151,31 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         },
                                                         "typeParameters": {
                                                             "kind": 307,
-                                                            "typeParameters": [
-                                                                {
-                                                                    "kind": 146,
-                                                                    "name": {
-                                                                        "kind": 134299649,
-                                                                        "text": "T",
-                                                                        "rawText": "T",
-                                                                        "flags": 96,
+                                                            "declarations": {
+                                                                "kind": 310,
+                                                                "parameters": [
+                                                                    {
+                                                                        "kind": 146,
+                                                                        "name": {
+                                                                            "kind": 134299649,
+                                                                            "text": "T",
+                                                                            "rawText": "T",
+                                                                            "flags": 96,
+                                                                            "start": 17,
+                                                                            "end": 18
+                                                                        },
+                                                                        "type": null,
+                                                                        "defaultType": null,
+                                                                        "flags": 2097152,
                                                                         "start": 17,
                                                                         "end": 18
-                                                                    },
-                                                                    "type": null,
-                                                                    "defaultType": null,
-                                                                    "flags": 2097152,
-                                                                    "start": 17,
-                                                                    "end": 18
-                                                                }
-                                                            ],
+                                                                    }
+                                                                ],
+                                                                "trailingComma": false,
+                                                                "flags": 2097152,
+                                                                "start": 17,
+                                                                "end": 18
+                                                            },
                                                             "flags": 2097152,
                                                             "start": 16,
                                                             "end": 19
@@ -263,24 +270,31 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         },
                                                         "typeParameters": {
                                                             "kind": 307,
-                                                            "typeParameters": [
-                                                                {
-                                                                    "kind": 146,
-                                                                    "name": {
-                                                                        "kind": 134299649,
-                                                                        "text": "T",
-                                                                        "rawText": "T",
-                                                                        "flags": 96,
+                                                            "declarations": {
+                                                                "kind": 310,
+                                                                "parameters": [
+                                                                    {
+                                                                        "kind": 146,
+                                                                        "name": {
+                                                                            "kind": 134299649,
+                                                                            "text": "T",
+                                                                            "rawText": "T",
+                                                                            "flags": 96,
+                                                                            "start": 33,
+                                                                            "end": 34
+                                                                        },
+                                                                        "type": null,
+                                                                        "defaultType": null,
+                                                                        "flags": 2097152,
                                                                         "start": 33,
                                                                         "end": 34
-                                                                    },
-                                                                    "type": null,
-                                                                    "defaultType": null,
-                                                                    "flags": 2097152,
-                                                                    "start": 33,
-                                                                    "end": 34
-                                                                }
-                                                            ],
+                                                                    }
+                                                                ],
+                                                                "trailingComma": false,
+                                                                "flags": 2097152,
+                                                                "start": 33,
+                                                                "end": 34
+                                                            },
                                                             "flags": 2097152,
                                                             "start": 32,
                                                             "end": 35
@@ -306,13 +320,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                     "start": 15,
                                     "end": 44
                                 },
-                                "flags": 2097152,
-                                "start": 15,
-                                "end": 44
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -357,12 +365,13 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                     "flags": 2097152,
                                     "start": 45,
                                     "end": 51
-                                },
-                                "flags": 2097152,
-                                "start": 45,
-                                "end": 51
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 15,
+                            "end": 51
+                        },
                         "flags": 2097152,
                         "start": 14,
                         "end": 52

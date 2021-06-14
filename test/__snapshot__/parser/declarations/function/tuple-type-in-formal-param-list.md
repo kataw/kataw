@@ -85,11 +85,11 @@ function x({ y }: z<[string |Q]>) {}
                                     "end": 19
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -142,12 +142,13 @@ function x({ y }: z<[string |Q]>) {}
                                                 "flags": 2097152,
                                                 "start": 20,
                                                 "end": 31
-                                            },
-                                            "flags": 2097152,
-                                            "start": 20,
-                                            "end": 31
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 20,
+                                        "end": 31
+                                    },
                                     "flags": 2097152,
                                     "start": 19,
                                     "end": 32

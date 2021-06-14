@@ -120,7 +120,7 @@ var x:
 
 ```javascript
 
-var x = 2;
+var x: |  = 2;
 ```
 
 ### Diagnostics

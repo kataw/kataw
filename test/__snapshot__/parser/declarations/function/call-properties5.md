@@ -289,7 +289,7 @@ var c: { (): string; (x: number): string } =
 
 ```javascript
 
-var c = function (x) {
+var c:  = function (x) {
   return  "\"hi\"";
 };
 ```

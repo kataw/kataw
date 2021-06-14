@@ -944,9 +944,9 @@ var yy = /// value comment
 20;
 /** comment2 */
 var z = (/** lambda comment */ x, /** lambda comment */ y) =>  x + y;
-var z2;
+var z2: ;
 var x2 = z2;
-var n4;
+var n4: ;
 n4 = z2;
 ```
 

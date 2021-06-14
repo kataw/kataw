@@ -48,24 +48,31 @@ declare class A<T> extends B<T> { x: number }
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 17
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 16,
                             "end": 17
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 16,
-                        "end": 17
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 16,
+                    "end": 17
+                },
                 "flags": 2097152,
                 "start": 15,
                 "end": 18
@@ -89,11 +96,11 @@ declare class A<T> extends B<T> { x: number }
                         "end": 28
                     },
                     "typeParameter": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -115,12 +122,13 @@ declare class A<T> extends B<T> { x: number }
                                     "flags": 2097152,
                                     "start": 29,
                                     "end": 30
-                                },
-                                "flags": 2097152,
-                                "start": 29,
-                                "end": 30
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 29,
+                            "end": 30
+                        },
                         "flags": 2097152,
                         "start": 28,
                         "end": 31

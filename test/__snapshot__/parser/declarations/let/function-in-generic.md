@@ -60,11 +60,11 @@ let x: Array<() => void>;
                                     "end": 12
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -106,12 +106,13 @@ let x: Array<() => void>;
                                                 "flags": 2097152,
                                                 "start": 13,
                                                 "end": 23
-                                            },
-                                            "flags": 2097152,
-                                            "start": 13,
-                                            "end": 23
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 13,
+                                        "end": 23
+                                    },
                                     "flags": 2097152,
                                     "start": 12,
                                     "end": 24
@@ -152,7 +153,7 @@ let x: Array<() => void>;
 
 ```javascript
 
-let x;
+let x: ;
 ```
 
 ### Diagnostics

@@ -62,11 +62,11 @@ type F = $Call<Fn1, number, string>;
                         "end": 14
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -89,13 +89,7 @@ type F = $Call<Fn1, number, string>;
                                     "start": 15,
                                     "end": 18
                                 },
-                                "flags": 2097152,
-                                "start": 15,
-                                "end": 18
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -109,13 +103,7 @@ type F = $Call<Fn1, number, string>;
                                     "start": 19,
                                     "end": 26
                                 },
-                                "flags": 2097152,
-                                "start": 19,
-                                "end": 26
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -128,12 +116,13 @@ type F = $Call<Fn1, number, string>;
                                     "flags": 2097152,
                                     "start": 27,
                                     "end": 34
-                                },
-                                "flags": 2097152,
-                                "start": 27,
-                                "end": 34
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 15,
+                            "end": 34
+                        },
                         "flags": 2097152,
                         "start": 14,
                         "end": 35

@@ -84,11 +84,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 21
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -130,12 +130,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 22,
                                     "end": 34
-                                },
-                                "flags": 2097152,
-                                "start": 22,
-                                "end": 34
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 22,
+                            "end": 34
+                        },
                         "flags": 2097152,
                         "start": 21,
                         "end": 35
@@ -191,11 +192,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 69
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -268,12 +269,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 70,
                                     "end": 89
-                                },
-                                "flags": 2097152,
-                                "start": 70,
-                                "end": 89
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 70,
+                            "end": 89
+                        },
                         "flags": 2097152,
                         "start": 69,
                         "end": 90
@@ -329,11 +331,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 122
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -408,24 +410,31 @@ type T27 = ArgumentType<never>;  // any
                                                 },
                                                 "typeParameters": {
                                                     "kind": 307,
-                                                    "typeParameters": [
-                                                        {
-                                                            "kind": 146,
-                                                            "name": {
-                                                                "kind": 134299649,
-                                                                "text": "T",
-                                                                "rawText": "T",
-                                                                "flags": 96,
+                                                    "declarations": {
+                                                        "kind": 310,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 146,
+                                                                "name": {
+                                                                    "kind": 134299649,
+                                                                    "text": "T",
+                                                                    "rawText": "T",
+                                                                    "flags": 96,
+                                                                    "start": 125,
+                                                                    "end": 126
+                                                                },
+                                                                "type": null,
+                                                                "defaultType": null,
+                                                                "flags": 2097152,
                                                                 "start": 125,
                                                                 "end": 126
-                                                            },
-                                                            "type": null,
-                                                            "defaultType": null,
-                                                            "flags": 2097152,
-                                                            "start": 125,
-                                                            "end": 126
-                                                        }
-                                                    ],
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 2097152,
+                                                        "start": 125,
+                                                        "end": 126
+                                                    },
                                                     "flags": 2097152,
                                                     "start": 124,
                                                     "end": 127
@@ -445,12 +454,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 123,
                                     "end": 135
-                                },
-                                "flags": 2097152,
-                                "start": 123,
-                                "end": 135
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 123,
+                            "end": 135
+                        },
                         "flags": 2097152,
                         "start": 122,
                         "end": 136
@@ -506,11 +516,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 167
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -544,12 +554,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 168,
                                     "end": 177
-                                },
-                                "flags": 2097152,
-                                "start": 168,
-                                "end": 177
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 168,
+                            "end": 177
+                        },
                         "flags": 2097152,
                         "start": 167,
                         "end": 178
@@ -605,11 +616,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 231
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -643,12 +654,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 232,
                                     "end": 240
-                                },
-                                "flags": 2097152,
-                                "start": 232,
-                                "end": 240
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 232,
+                            "end": 240
+                        },
                         "flags": 2097152,
                         "start": 231,
                         "end": 241
@@ -704,11 +716,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 270
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -721,12 +733,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 271,
                                     "end": 274
-                                },
-                                "flags": 2097152,
-                                "start": 271,
-                                "end": 274
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 271,
+                            "end": 274
+                        },
                         "flags": 2097152,
                         "start": 270,
                         "end": 275
@@ -782,11 +795,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 307
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -799,12 +812,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 308,
                                     "end": 313
-                                },
-                                "flags": 2097152,
-                                "start": 308,
-                                "end": 313
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 308,
+                            "end": 313
+                        },
                         "flags": 2097152,
                         "start": 307,
                         "end": 314
@@ -860,11 +874,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 345
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -877,12 +891,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 346,
                                     "end": 352
-                                },
-                                "flags": 2097152,
-                                "start": 346,
-                                "end": 352
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 346,
+                            "end": 352
+                        },
                         "flags": 2097152,
                         "start": 345,
                         "end": 353
@@ -938,11 +953,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 386
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -964,12 +979,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 387,
                                     "end": 395
-                                },
-                                "flags": 2097152,
-                                "start": 387,
-                                "end": 395
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 387,
+                            "end": 395
+                        },
                         "flags": 2097152,
                         "start": 386,
                         "end": 396
@@ -1025,11 +1041,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 430
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -1071,12 +1087,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 431,
                                     "end": 441
-                                },
-                                "flags": 2097152,
-                                "start": 431,
-                                "end": 441
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 431,
+                            "end": 441
+                        },
                         "flags": 2097152,
                         "start": 430,
                         "end": 442
@@ -1132,11 +1149,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 477
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -1209,12 +1226,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 478,
                                     "end": 499
-                                },
-                                "flags": 2097152,
-                                "start": 478,
-                                "end": 499
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 478,
+                            "end": 499
+                        },
                         "flags": 2097152,
                         "start": 477,
                         "end": 500
@@ -1270,11 +1288,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 536
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -1352,12 +1370,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 537,
                                     "end": 559
-                                },
-                                "flags": 2097152,
-                                "start": 537,
-                                "end": 559
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 537,
+                            "end": 559
+                        },
                         "flags": 2097152,
                         "start": 536,
                         "end": 560
@@ -1413,11 +1432,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 608
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -1501,12 +1520,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 609,
                                     "end": 638
-                                },
-                                "flags": 2097152,
-                                "start": 609,
-                                "end": 638
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 609,
+                            "end": 638
+                        },
                         "flags": 2097152,
                         "start": 608,
                         "end": 639
@@ -1562,11 +1582,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 676
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -1588,12 +1608,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 677,
                                     "end": 685
-                                },
-                                "flags": 2097152,
-                                "start": 677,
-                                "end": 685
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 677,
+                            "end": 685
+                        },
                         "flags": 2097152,
                         "start": 676,
                         "end": 686
@@ -1649,11 +1670,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 721
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -1666,12 +1687,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 722,
                                     "end": 725
-                                },
-                                "flags": 2097152,
-                                "start": 722,
-                                "end": 725
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 722,
+                            "end": 725
+                        },
                         "flags": 2097152,
                         "start": 721,
                         "end": 726
@@ -1727,11 +1749,11 @@ type T27 = ArgumentType<never>;  // any
                         "end": 759
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -1744,12 +1766,13 @@ type T27 = ArgumentType<never>;  // any
                                     "flags": 2097152,
                                     "start": 760,
                                     "end": 765
-                                },
-                                "flags": 2097152,
-                                "start": 760,
-                                "end": 765
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 760,
+                            "end": 765
+                        },
                         "flags": 2097152,
                         "start": 759,
                         "end": 766

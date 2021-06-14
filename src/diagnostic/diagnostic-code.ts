@@ -245,7 +245,8 @@ export const enum DiagnosticCode {
   Await_expression_cannot_be_used_inside_class_static_block = 250,
   _For_await_loops_cannot_be_used_inside_class_static_block = 251,
   A_return_statement_cannot_be_used_inside_class_static_block = 252,
-  A_static_initialization_block_cannot_have_the_static_modifier = 253
+  A_static_initialization_block_cannot_have_the_static_modifier = 253,
+  Type_parameter_declaration_expected = 254
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -495,5 +496,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [250]: 'Await expression cannot be used inside class static block.',
   [251]: "'For await' loops cannot be used inside class static block.",
   [252]: "A 'return' statement cannot be used inside class static block.",
-  [253]: "A 'static {}' initialization block cannot have the 'static' modifier"
+  [253]: "A 'static {}' initialization block cannot have the 'static' modifier",
+  [254]: 'Type parameter declaration expected'
 };

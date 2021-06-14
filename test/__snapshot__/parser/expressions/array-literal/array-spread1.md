@@ -500,11 +500,11 @@ var y: Array<string> = ['3', ...x];
                                     "end": 113
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -517,12 +517,13 @@ var y: Array<string> = ['3', ...x];
                                                 "flags": 2097152,
                                                 "start": 114,
                                                 "end": 120
-                                            },
-                                            "flags": 2097152,
-                                            "start": 114,
-                                            "end": 120
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 114,
+                                        "end": 120
+                                    },
                                     "flags": 2097152,
                                     "start": 113,
                                     "end": 121
@@ -617,11 +618,11 @@ var y: Array<string> = ['3', ...x];
                                     "end": 148
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -634,12 +635,13 @@ var y: Array<string> = ['3', ...x];
                                                 "flags": 2097152,
                                                 "start": 149,
                                                 "end": 155
-                                            },
-                                            "flags": 2097152,
-                                            "start": 149,
-                                            "end": 155
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 149,
+                                        "end": 155
+                                    },
                                     "flags": 2097152,
                                     "start": 148,
                                     "end": 156
@@ -727,8 +729,8 @@ var B = [...A];
 var C = [1, 2, 3];
 B.sort((a, b) =>  a - b);
 C.sort((a, b) =>  a - b);
-var x = ["'1'", "'2'"];
-var y = ["'3'", ...x];
+var x:  = ["'1'", "'2'"];
+var y:  = ["'3'", ...x];
 ```
 
 ### Diagnostics

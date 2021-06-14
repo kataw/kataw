@@ -72,11 +72,11 @@ let x = (): Array<(string) => number> => []
                                         "end": 17
                                     },
                                     "typeParameters": {
-                                        "kind": 309,
-                                        "parameters": [
-                                            {
-                                                "kind": 310,
-                                                "type": {
+                                        "kind": 310,
+                                        "typeInstantiations": {
+                                            "kind": 309,
+                                            "types": [
+                                                {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -116,12 +116,13 @@ let x = (): Array<(string) => number> => []
                                                     "flags": 2097152,
                                                     "start": 18,
                                                     "end": 36
-                                                },
-                                                "flags": 2097152,
-                                                "start": 18,
-                                                "end": 36
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 18,
+                                            "end": 36
+                                        },
                                         "flags": 2097152,
                                         "start": 17,
                                         "end": 37

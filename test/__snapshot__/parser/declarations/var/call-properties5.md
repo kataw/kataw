@@ -257,7 +257,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var b = function (x) {
+var b:  = function (x) {
   return  "\"hi\"";
 };
 ```

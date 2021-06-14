@@ -75,11 +75,11 @@ var a : A.B<T>
                                     "end": 11
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -101,12 +101,13 @@ var a : A.B<T>
                                                 "flags": 2097152,
                                                 "start": 12,
                                                 "end": 13
-                                            },
-                                            "flags": 2097152,
-                                            "start": 12,
-                                            "end": 13
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 12,
+                                        "end": 13
+                                    },
                                     "flags": 2097152,
                                     "start": 11,
                                     "end": 14
@@ -147,7 +148,7 @@ var a : A.B<T>
 
 ```javascript
 
-var a;
+var a: ;
 ```
 
 ### Diagnostics

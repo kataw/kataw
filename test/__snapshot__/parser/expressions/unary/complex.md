@@ -587,11 +587,11 @@ function x8(a: false & false): false {
                                     "end": 347
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -604,12 +604,13 @@ function x8(a: false & false): false {
                                                 "flags": 2097152,
                                                 "start": 348,
                                                 "end": 353
-                                            },
-                                            "flags": 2097152,
-                                            "start": 348,
-                                            "end": 353
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 348,
+                                        "end": 353
+                                    },
                                     "flags": 2097152,
                                     "start": 347,
                                     "end": 354
@@ -754,11 +755,11 @@ function x8(a: false & false): false {
                                     "end": 403
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -771,12 +772,13 @@ function x8(a: false & false): false {
                                                 "flags": 2097152,
                                                 "start": 404,
                                                 "end": 409
-                                            },
-                                            "flags": 2097152,
-                                            "start": 404,
-                                            "end": 409
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 404,
+                                        "end": 409
+                                    },
                                     "flags": 2097152,
                                     "start": 403,
                                     "end": 410

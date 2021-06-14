@@ -115,11 +115,11 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "end": 24
                                                     },
                                                     "typeParameters": {
-                                                        "kind": 309,
-                                                        "parameters": [
-                                                            {
-                                                                "kind": 310,
-                                                                "type": {
+                                                        "kind": 310,
+                                                        "typeInstantiations": {
+                                                            "kind": 309,
+                                                            "types": [
+                                                                {
                                                                     "kind": 139,
                                                                     "bitwiseOrToken": null,
                                                                     "bitwiseAndToken": null,
@@ -141,12 +141,13 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "flags": 2097152,
                                                                     "start": 25,
                                                                     "end": 26
-                                                                },
-                                                                "flags": 2097152,
-                                                                "start": 25,
-                                                                "end": 26
-                                                            }
-                                                        ],
+                                                                }
+                                                            ],
+                                                            "trailingComma": false,
+                                                            "flags": 2097152,
+                                                            "start": 25,
+                                                            "end": 26
+                                                        },
                                                         "flags": 2097152,
                                                         "start": 24,
                                                         "end": 27
@@ -170,24 +171,31 @@ type C = (<T>(T) => $Foo<T>)[];
                                     },
                                     "typeParameters": {
                                         "kind": 307,
-                                        "typeParameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                        "declarations": {
+                                            "kind": 310,
+                                            "parameters": [
+                                                {
+                                                    "kind": 146,
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 11,
+                                                        "end": 12
+                                                    },
+                                                    "type": null,
+                                                    "defaultType": null,
+                                                    "flags": 2097152,
                                                     "start": 11,
                                                     "end": 12
-                                                },
-                                                "type": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
-                                                "start": 11,
-                                                "end": 12
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 11,
+                                            "end": 12
+                                        },
                                         "flags": 2097152,
                                         "start": 10,
                                         "end": 13
@@ -263,11 +271,11 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "end": 46
                                                     },
                                                     "typeParameters": {
-                                                        "kind": 309,
-                                                        "parameters": [
-                                                            {
-                                                                "kind": 310,
-                                                                "type": {
+                                                        "kind": 310,
+                                                        "typeInstantiations": {
+                                                            "kind": 309,
+                                                            "types": [
+                                                                {
                                                                     "kind": 139,
                                                                     "bitwiseOrToken": null,
                                                                     "bitwiseAndToken": null,
@@ -289,12 +297,13 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "flags": 2097152,
                                                                     "start": 47,
                                                                     "end": 48
-                                                                },
-                                                                "flags": 2097152,
-                                                                "start": 47,
-                                                                "end": 48
-                                                            }
-                                                        ],
+                                                                }
+                                                            ],
+                                                            "trailingComma": false,
+                                                            "flags": 2097152,
+                                                            "start": 47,
+                                                            "end": 48
+                                                        },
                                                         "flags": 2097152,
                                                         "start": 46,
                                                         "end": 49
@@ -318,24 +327,31 @@ type C = (<T>(T) => $Foo<T>)[];
                                     },
                                     "typeParameters": {
                                         "kind": 307,
-                                        "typeParameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                        "declarations": {
+                                            "kind": 310,
+                                            "parameters": [
+                                                {
+                                                    "kind": 146,
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 33,
+                                                        "end": 34
+                                                    },
+                                                    "type": null,
+                                                    "defaultType": null,
+                                                    "flags": 2097152,
                                                     "start": 33,
                                                     "end": 34
-                                                },
-                                                "type": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
-                                                "start": 33,
-                                                "end": 34
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 33,
+                                            "end": 34
+                                        },
                                         "flags": 2097152,
                                         "start": 32,
                                         "end": 35
@@ -455,11 +471,11 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "end": 76
                                                     },
                                                     "typeParameters": {
-                                                        "kind": 309,
-                                                        "parameters": [
-                                                            {
-                                                                "kind": 310,
-                                                                "type": {
+                                                        "kind": 310,
+                                                        "typeInstantiations": {
+                                                            "kind": 309,
+                                                            "types": [
+                                                                {
                                                                     "kind": 139,
                                                                     "bitwiseOrToken": null,
                                                                     "bitwiseAndToken": null,
@@ -481,12 +497,13 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "flags": 2097152,
                                                                     "start": 77,
                                                                     "end": 78
-                                                                },
-                                                                "flags": 2097152,
-                                                                "start": 77,
-                                                                "end": 78
-                                                            }
-                                                        ],
+                                                                }
+                                                            ],
+                                                            "trailingComma": false,
+                                                            "flags": 2097152,
+                                                            "start": 77,
+                                                            "end": 78
+                                                        },
                                                         "flags": 2097152,
                                                         "start": 76,
                                                         "end": 79
@@ -510,24 +527,31 @@ type C = (<T>(T) => $Foo<T>)[];
                                     },
                                     "typeParameters": {
                                         "kind": 307,
-                                        "typeParameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                        "declarations": {
+                                            "kind": 310,
+                                            "parameters": [
+                                                {
+                                                    "kind": 146,
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 63,
+                                                        "end": 64
+                                                    },
+                                                    "type": null,
+                                                    "defaultType": null,
+                                                    "flags": 2097152,
                                                     "start": 63,
                                                     "end": 64
-                                                },
-                                                "type": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
-                                                "start": 63,
-                                                "end": 64
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 63,
+                                            "end": 64
+                                        },
                                         "flags": 2097152,
                                         "start": 62,
                                         "end": 65
@@ -603,11 +627,11 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "end": 98
                                                     },
                                                     "typeParameters": {
-                                                        "kind": 309,
-                                                        "parameters": [
-                                                            {
-                                                                "kind": 310,
-                                                                "type": {
+                                                        "kind": 310,
+                                                        "typeInstantiations": {
+                                                            "kind": 309,
+                                                            "types": [
+                                                                {
                                                                     "kind": 139,
                                                                     "bitwiseOrToken": null,
                                                                     "bitwiseAndToken": null,
@@ -629,12 +653,13 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "flags": 2097152,
                                                                     "start": 99,
                                                                     "end": 100
-                                                                },
-                                                                "flags": 2097152,
-                                                                "start": 99,
-                                                                "end": 100
-                                                            }
-                                                        ],
+                                                                }
+                                                            ],
+                                                            "trailingComma": false,
+                                                            "flags": 2097152,
+                                                            "start": 99,
+                                                            "end": 100
+                                                        },
                                                         "flags": 2097152,
                                                         "start": 98,
                                                         "end": 101
@@ -658,24 +683,31 @@ type C = (<T>(T) => $Foo<T>)[];
                                     },
                                     "typeParameters": {
                                         "kind": 307,
-                                        "typeParameters": [
-                                            {
-                                                "kind": 146,
-                                                "name": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
+                                        "declarations": {
+                                            "kind": 310,
+                                            "parameters": [
+                                                {
+                                                    "kind": 146,
+                                                    "name": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 85,
+                                                        "end": 86
+                                                    },
+                                                    "type": null,
+                                                    "defaultType": null,
+                                                    "flags": 2097152,
                                                     "start": 85,
                                                     "end": 86
-                                                },
-                                                "type": null,
-                                                "defaultType": null,
-                                                "flags": 2097152,
-                                                "start": 85,
-                                                "end": 86
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 85,
+                                            "end": 86
+                                        },
                                         "flags": 2097152,
                                         "start": 84,
                                         "end": 87
@@ -794,11 +826,11 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "end": 128
                                                 },
                                                 "typeParameters": {
-                                                    "kind": 309,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 310,
-                                                            "type": {
+                                                    "kind": 310,
+                                                    "typeInstantiations": {
+                                                        "kind": 309,
+                                                        "types": [
+                                                            {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
                                                                 "bitwiseAndToken": null,
@@ -820,12 +852,13 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                 "flags": 2097152,
                                                                 "start": 129,
                                                                 "end": 130
-                                                            },
-                                                            "flags": 2097152,
-                                                            "start": 129,
-                                                            "end": 130
-                                                        }
-                                                    ],
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 2097152,
+                                                        "start": 129,
+                                                        "end": 130
+                                                    },
                                                     "flags": 2097152,
                                                     "start": 128,
                                                     "end": 131
@@ -849,24 +882,31 @@ type C = (<T>(T) => $Foo<T>)[];
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "typeParameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
+                                    "declarations": {
+                                        "kind": 310,
+                                        "parameters": [
+                                            {
+                                                "kind": 146,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 115,
+                                                    "end": 116
+                                                },
+                                                "type": null,
+                                                "defaultType": null,
+                                                "flags": 2097152,
                                                 "start": 115,
                                                 "end": 116
-                                            },
-                                            "type": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
-                                            "start": 115,
-                                            "end": 116
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 115,
+                                        "end": 116
+                                    },
                                     "flags": 2097152,
                                     "start": 114,
                                     "end": 117

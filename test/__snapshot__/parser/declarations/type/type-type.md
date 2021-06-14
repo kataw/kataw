@@ -42,24 +42,31 @@ type Foo<T> = Bar<T>
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 10
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 9,
                             "end": 10
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 9,
-                        "end": 10
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 9,
+                    "end": 10
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 11
@@ -85,11 +92,11 @@ type Foo<T> = Bar<T>
                         "end": 17
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -111,12 +118,13 @@ type Foo<T> = Bar<T>
                                     "flags": 2097152,
                                     "start": 18,
                                     "end": 19
-                                },
-                                "flags": 2097152,
-                                "start": 18,
-                                "end": 19
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 18,
+                            "end": 19
+                        },
                         "flags": 2097152,
                         "start": 17,
                         "end": 20

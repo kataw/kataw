@@ -325,24 +325,31 @@ var ident = <T>(x: T): T => x;
                             },
                             "typeParameters": {
                                 "kind": 307,
-                                "typeParameters": [
-                                    {
-                                        "kind": 146,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
+                                "declarations": {
+                                    "kind": 310,
+                                    "parameters": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
+                                                "start": 102,
+                                                "end": 103
+                                            },
+                                            "type": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
                                             "start": 102,
                                             "end": 103
-                                        },
-                                        "type": null,
-                                        "defaultType": null,
-                                        "flags": 2097152,
-                                        "start": 102,
-                                        "end": 103
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 102,
+                                    "end": 103
+                                },
                                 "flags": 2097152,
                                 "start": 100,
                                 "end": 104

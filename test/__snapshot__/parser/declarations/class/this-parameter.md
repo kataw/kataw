@@ -455,24 +455,31 @@ class two {
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "typeParameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
+                                    "declarations": {
+                                        "kind": 310,
+                                        "parameters": [
+                                            {
+                                                "kind": 146,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 125,
+                                                    "end": 126
+                                                },
+                                                "type": null,
+                                                "defaultType": null,
+                                                "flags": 2097152,
                                                 "start": 125,
                                                 "end": 126
-                                            },
-                                            "type": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
-                                            "start": 125,
-                                            "end": 126
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 125,
+                                        "end": 126
+                                    },
                                     "flags": 2097152,
                                     "start": 124,
                                     "end": 127
@@ -947,24 +954,31 @@ class two {
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "typeParameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
+                                    "declarations": {
+                                        "kind": 310,
+                                        "parameters": [
+                                            {
+                                                "kind": 146,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 277,
+                                                    "end": 278
+                                                },
+                                                "type": null,
+                                                "defaultType": null,
+                                                "flags": 2097152,
                                                 "start": 277,
                                                 "end": 278
-                                            },
-                                            "type": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
-                                            "start": 277,
-                                            "end": 278
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 277,
+                                        "end": 278
+                                    },
                                     "flags": 2097152,
                                     "start": 276,
                                     "end": 279

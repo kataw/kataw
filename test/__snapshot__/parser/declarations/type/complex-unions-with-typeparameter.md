@@ -44,24 +44,31 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 11
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 11
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 10,
-                        "end": 11
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 10,
+                    "end": 11
+                },
                 "flags": 2097152,
                 "start": 9,
                 "end": 12
@@ -90,11 +97,11 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "end": 24
                             },
                             "typeParameters": {
-                                "kind": 309,
-                                "parameters": [
-                                    {
-                                        "kind": 310,
-                                        "type": {
+                                "kind": 310,
+                                "typeInstantiations": {
+                                    "kind": 309,
+                                    "types": [
+                                        {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -116,12 +123,13 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                             "flags": 2097152,
                                             "start": 25,
                                             "end": 26
-                                        },
-                                        "flags": 2097152,
-                                        "start": 25,
-                                        "end": 26
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 25,
+                                    "end": 26
+                                },
                                 "flags": 2097152,
                                 "start": 24,
                                 "end": 27
@@ -141,11 +149,11 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "end": 41
                             },
                             "typeParameters": {
-                                "kind": 309,
-                                "parameters": [
-                                    {
-                                        "kind": 310,
-                                        "type": {
+                                "kind": 310,
+                                "typeInstantiations": {
+                                    "kind": 309,
+                                    "types": [
+                                        {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -167,12 +175,13 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                             "flags": 2097152,
                                             "start": 42,
                                             "end": 43
-                                        },
-                                        "flags": 2097152,
-                                        "start": 42,
-                                        "end": 43
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 42,
+                                    "end": 43
+                                },
                                 "flags": 2097152,
                                 "start": 41,
                                 "end": 44
@@ -213,24 +222,31 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 65,
+                                "end": 66
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 65,
                             "end": 66
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 65,
-                        "end": 66
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 65,
+                    "end": 66
+                },
                 "flags": 2097152,
                 "start": 64,
                 "end": 67
@@ -259,11 +275,11 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "end": 74
                             },
                             "typeParameters": {
-                                "kind": 309,
-                                "parameters": [
-                                    {
-                                        "kind": 310,
-                                        "type": {
+                                "kind": 310,
+                                "typeInstantiations": {
+                                    "kind": 309,
+                                    "types": [
+                                        {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -285,12 +301,13 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                             "flags": 2097152,
                                             "start": 75,
                                             "end": 83
-                                        },
-                                        "flags": 2097152,
-                                        "start": 75,
-                                        "end": 83
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 75,
+                                    "end": 83
+                                },
                                 "flags": 2097152,
                                 "start": 74,
                                 "end": 84
@@ -310,11 +327,11 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "end": 98
                             },
                             "typeParameters": {
-                                "kind": 309,
-                                "parameters": [
-                                    {
-                                        "kind": 310,
-                                        "type": {
+                                "kind": 310,
+                                "typeInstantiations": {
+                                    "kind": 309,
+                                    "types": [
+                                        {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -336,12 +353,13 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                             "flags": 2097152,
                                             "start": 99,
                                             "end": 100
-                                        },
-                                        "flags": 2097152,
-                                        "start": 99,
-                                        "end": 100
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 99,
+                                    "end": 100
+                                },
                                 "flags": 2097152,
                                 "start": 98,
                                 "end": 101

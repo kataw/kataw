@@ -35,46 +35,53 @@
                 },
                 "typeParameters": {
                     "kind": 307,
-                    "typeParameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 96,
-                                "start": 1,
-                                "end": 2
-                            },
-                            "type": null,
-                            "defaultType": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "B",
-                                        "rawText": "B",
-                                        "flags": 96,
+                    "declarations": {
+                        "kind": 310,
+                        "parameters": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "A",
+                                    "rawText": "A",
+                                    "flags": 96,
+                                    "start": 1,
+                                    "end": 2
+                                },
+                                "type": null,
+                                "defaultType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "B",
+                                            "rawText": "B",
+                                            "flags": 96,
+                                            "start": 4,
+                                            "end": 6
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 4,
                                         "end": 6
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 4,
                                     "end": 6
                                 },
                                 "flags": 2097152,
-                                "start": 4,
+                                "start": 1,
                                 "end": 6
-                            },
-                            "flags": 2097152,
-                            "start": 1,
-                            "end": 6
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 1,
+                        "end": 6
+                    },
                     "flags": 2097152,
                     "start": 0,
                     "end": 7

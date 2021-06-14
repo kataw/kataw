@@ -261,11 +261,11 @@ type T = { [string]: Class<null> }
                                     "end": 72
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -287,12 +287,13 @@ type T = { [string]: Class<null> }
                                                 "flags": 2097152,
                                                 "start": 73,
                                                 "end": 74
-                                            },
-                                            "flags": 2097152,
-                                            "start": 73,
-                                            "end": 74
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 73,
+                                        "end": 74
+                                    },
                                     "flags": 2097152,
                                     "start": 72,
                                     "end": 75
@@ -731,11 +732,11 @@ type T = { [string]: Class<null> }
                                         "end": 222
                                     },
                                     "typeParameters": {
-                                        "kind": 309,
-                                        "parameters": [
-                                            {
-                                                "kind": 310,
-                                                "type": {
+                                        "kind": 310,
+                                        "typeInstantiations": {
+                                            "kind": 309,
+                                            "types": [
+                                                {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -748,12 +749,13 @@ type T = { [string]: Class<null> }
                                                     "flags": 2097152,
                                                     "start": 223,
                                                     "end": 227
-                                                },
-                                                "flags": 2097152,
-                                                "start": 223,
-                                                "end": 227
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 223,
+                                            "end": 227
+                                        },
                                         "flags": 2097152,
                                         "start": 222,
                                         "end": 228

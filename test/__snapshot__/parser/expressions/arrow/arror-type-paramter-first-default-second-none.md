@@ -35,62 +35,69 @@
                 },
                 "typeParameters": {
                     "kind": 307,
-                    "typeParameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 96,
-                                "start": 1,
-                                "end": 2
-                            },
-                            "type": null,
-                            "defaultType": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
+                    "declarations": {
+                        "kind": 310,
+                        "parameters": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "A",
+                                    "rawText": "A",
+                                    "flags": 96,
+                                    "start": 1,
+                                    "end": 2
+                                },
+                                "type": null,
+                                "defaultType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 3,
+                                            "end": 4
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 3,
                                         "end": 4
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 3,
                                     "end": 4
                                 },
                                 "flags": 2097152,
-                                "start": 3,
+                                "start": 1,
                                 "end": 4
                             },
-                            "flags": 2097152,
-                            "start": 1,
-                            "end": 4
-                        },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 5,
+                                    "end": 7
+                                },
+                                "type": null,
+                                "defaultType": null,
+                                "flags": 2097152,
                                 "start": 5,
                                 "end": 7
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 5,
-                            "end": 7
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 1,
+                        "end": 7
+                    },
                     "flags": 2097152,
                     "start": 0,
                     "end": 8
@@ -143,12 +150,12 @@
 
 ```javascript
 
+(x) =>  {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Type parameter declaration needs a default, since a preceding type parameter declaration has a default - start: 7, end: 8
-
+✔ No errors
 ```
 

@@ -35,24 +35,31 @@
                 },
                 "typeParameters": {
                     "kind": 307,
-                    "typeParameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
+                    "declarations": {
+                        "kind": 310,
+                        "parameters": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 1,
+                                    "end": 2
+                                },
+                                "type": null,
+                                "defaultType": null,
+                                "flags": 2097152,
                                 "start": 1,
                                 "end": 2
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 1,
-                            "end": 2
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 1,
+                        "end": 2
+                    },
                     "flags": 2097152,
                     "start": 0,
                     "end": 3

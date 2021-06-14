@@ -77,11 +77,11 @@ type A = (...Array<string>) => void
                                         "end": 18
                                     },
                                     "typeParameters": {
-                                        "kind": 309,
-                                        "parameters": [
-                                            {
-                                                "kind": 310,
-                                                "type": {
+                                        "kind": 310,
+                                        "typeInstantiations": {
+                                            "kind": 309,
+                                            "types": [
+                                                {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -94,12 +94,13 @@ type A = (...Array<string>) => void
                                                     "flags": 2097152,
                                                     "start": 19,
                                                     "end": 25
-                                                },
-                                                "flags": 2097152,
-                                                "start": 19,
-                                                "end": 25
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 19,
+                                            "end": 25
+                                        },
                                         "flags": 2097152,
                                         "start": 18,
                                         "end": 26

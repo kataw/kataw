@@ -42,24 +42,31 @@ type foo<number> = string;
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "number",
-                            "rawText": "number",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "number",
+                                "rawText": "number",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 15
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 9,
                             "end": 15
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 9,
-                        "end": 15
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 9,
+                    "end": 15
+                },
                 "flags": 2097152,
                 "start": 8,
                 "end": 16

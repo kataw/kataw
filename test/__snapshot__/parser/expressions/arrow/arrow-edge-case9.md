@@ -90,24 +90,31 @@ a ? (b) : c => <T>(d) : e => f;
                         },
                         "typeParameters": {
                             "kind": 307,
-                            "typeParameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
+                            "declarations": {
+                                "kind": 310,
+                                "parameters": [
+                                    {
+                                        "kind": 146,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 16,
+                                            "end": 17
+                                        },
+                                        "type": null,
+                                        "defaultType": null,
+                                        "flags": 2097152,
                                         "start": 16,
                                         "end": 17
-                                    },
-                                    "type": null,
-                                    "defaultType": null,
-                                    "flags": 2097152,
-                                    "start": 16,
-                                    "end": 17
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 16,
+                                "end": 17
+                            },
                             "flags": 2097152,
                             "start": 14,
                             "end": 18

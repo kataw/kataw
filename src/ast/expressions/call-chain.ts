@@ -2,20 +2,20 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { IndexExpressionChain } from './index-expr-chain';
 import { MemberAccessChain } from './member-access-chain';
 import { ArgumentList } from './argument-list';
-import { TypeParameterInstantiationList } from '../types/type-parameter-instantiation-list';
+import { TypeParameterInstantiation } from '../types/type-parameter-instantiation';
 
 /**
  * Call chain expression.
  */
 export interface CallChain extends SyntaxNode {
   readonly chain: MemberAccessChain | IndexExpressionChain | CallChain | null;
-  readonly typeArguments: TypeParameterInstantiationList | null;
+  readonly typeArguments: TypeParameterInstantiation | null;
   readonly argumentList: ArgumentList | null;
 }
 
 export function createCallChain(
   chain: MemberAccessChain | IndexExpressionChain | CallChain | null,
-  typeArguments: TypeParameterInstantiationList | null,
+  typeArguments: TypeParameterInstantiation | null,
   argumentList: ArgumentList,
   start: number,
   end: number

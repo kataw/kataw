@@ -1291,8 +1291,8 @@ function for_scope_var() {
 ```javascript
 
 function block_scope() {
-  let a = 0;
-  var b = 0;
+  let a: number = 0;
+  var b: number = 0;
   {
     let a = "\"\"";
     var b = "\"\"";
@@ -1319,12 +1319,12 @@ function default_param_2() {
   }
 }
 function for_scope_let() {
-  let a = 0;
+  let a: number = 0;
   for (const; ; )
     {}
 }
 function for_scope_var() {
-  var a = 0;
+  var a: number = 0;
   for ( /* error: string ~> number */; ; )
     {}
 }

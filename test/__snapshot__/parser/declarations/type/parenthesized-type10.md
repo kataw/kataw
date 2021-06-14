@@ -90,11 +90,11 @@ type X = (?x.y<z>);
                                     "end": 14
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -116,12 +116,13 @@ type X = (?x.y<z>);
                                                 "flags": 2097152,
                                                 "start": 15,
                                                 "end": 16
-                                            },
-                                            "flags": 2097152,
-                                            "start": 15,
-                                            "end": 16
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 15,
+                                        "end": 16
+                                    },
                                     "flags": 2097152,
                                     "start": 14,
                                     "end": 17

@@ -242,5 +242,6 @@
   "Await expression cannot be used inside class static block.": 250,
   "'For await' loops cannot be used inside class static block.": 251,
   "A 'return' statement cannot be used inside class static block.": 252,
-  "A 'static {}' initialization block cannot have the 'static' modifier": 253
+  "A 'static {}' initialization block cannot have the 'static' modifier": 253,
+  "Type parameter declaration expected": 254
 }

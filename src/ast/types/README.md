@@ -293,25 +293,36 @@ interface TypeAnnotation <: TypeNode {
 ```js
 interface TypeParameterDeclaration <: TypeNode {
   kind: NodeKind.TypeParameterDeclaration;
-  typeParameters: TypeParameter[];
+  declarations: ParameterDeclarations;
+}
+```
+
+### ParameterDeclarations
+
+```js
+interface ParameterDeclarations <: TypeNode {
+  kind: NodeKind.ParameterDeclarations;
+  parameters: TypeParameter[];
+  trailingComma: boolean;
+}
+```
+
+### TypeInstantiations
+
+```js
+interface TypeInstantiations <: TypeNode {
+  kind: NodeKind.TypeInstantiations;
+  types: [TypeNode];
+  trailingComma: boolean;
 }
 ```
 
 ### TypeParameterInstantiation
 
 ```js
-interface TypeParameterInstantiation <: TypeNode {
+interface TypeParameterInstantiation  <: TypeNode {
   kind: NodeKind.TypeParameterInstantiation;
-  type: TypeNode | null;
-}
-```
-
-### TypeParameterInstantiationList
-
-```js
-interface TypeParameterInstantiationList  <: TypeNode {
-  kind: NodeKind.TypeParameterInstantiationList ;
-  parameters: TypeParameterInstantiation[];
+  typeInstantiations: TypeInstantiations;
 }
 ```
 

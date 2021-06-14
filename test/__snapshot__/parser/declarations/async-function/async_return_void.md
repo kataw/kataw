@@ -110,11 +110,11 @@ async function foo3(): Promise<string> {
                         "end": 30
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -127,12 +127,13 @@ async function foo3(): Promise<string> {
                                     "flags": 2097152,
                                     "start": 31,
                                     "end": 37
-                                },
-                                "flags": 2097152,
-                                "start": 31,
-                                "end": 37
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 31,
+                            "end": 37
+                        },
                         "flags": 2097152,
                         "start": 30,
                         "end": 38
@@ -232,11 +233,11 @@ async function foo3(): Promise<string> {
                         "end": 84
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -249,12 +250,13 @@ async function foo3(): Promise<string> {
                                     "flags": 2097152,
                                     "start": 85,
                                     "end": 91
-                                },
-                                "flags": 2097152,
-                                "start": 85,
-                                "end": 91
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 85,
+                            "end": 91
+                        },
                         "flags": 2097152,
                         "start": 84,
                         "end": 92
@@ -415,11 +417,11 @@ async function foo3(): Promise<string> {
                         "end": 148
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -432,12 +434,13 @@ async function foo3(): Promise<string> {
                                     "flags": 2097152,
                                     "start": 149,
                                     "end": 155
-                                },
-                                "flags": 2097152,
-                                "start": 149,
-                                "end": 155
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 149,
+                            "end": 155
+                        },
                         "flags": 2097152,
                         "start": 148,
                         "end": 156

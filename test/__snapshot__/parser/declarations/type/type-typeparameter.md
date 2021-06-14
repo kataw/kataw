@@ -56,62 +56,69 @@ type B = Foo<
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
-                            "start": 8,
-                            "end": 9
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 9
+                            },
                             "type": {
-                                "kind": 134217970,
-                                "nullableToken": {
-                                    "kind": 134217750,
-                                    "flags": 64,
-                                    "start": 10,
-                                    "end": 12
-                                },
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
-                                    "start": 12,
+                                    "kind": 134217970,
+                                    "nullableToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 10,
+                                        "end": 12
+                                    },
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 12,
+                                        "end": 18
+                                    },
+                                    "flags": 2097152,
+                                    "start": 10,
                                     "end": 18
                                 },
                                 "flags": 2097152,
                                 "start": 10,
                                 "end": 18
                             },
-                            "flags": 2097152,
-                            "start": 10,
-                            "end": 18
-                        },
-                        "defaultType": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 2097216,
+                            "defaultType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 20,
+                                    "end": 27
+                                },
+                                "flags": 2097152,
                                 "start": 20,
                                 "end": 27
                             },
                             "flags": 2097152,
-                            "start": 20,
+                            "start": 8,
                             "end": 27
-                        },
-                        "flags": 2097152,
-                        "start": 8,
-                        "end": 27
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 27
+                },
                 "flags": 2097152,
                 "start": 7,
                 "end": 28
@@ -168,78 +175,85 @@ type B = Foo<
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "S",
-                            "rawText": "S",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "S",
+                                "rawText": "S",
+                                "flags": 96,
+                                "start": 43,
+                                "end": 44
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 43,
                             "end": 44
                         },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 43,
-                        "end": 44
-                    },
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
-                            "start": 45,
-                            "end": 47
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 45,
+                                "end": 47
+                            },
                             "type": {
-                                "kind": 134217970,
-                                "nullableToken": {
-                                    "kind": 134217750,
-                                    "flags": 64,
-                                    "start": 48,
-                                    "end": 50
-                                },
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
-                                    "start": 50,
+                                    "kind": 134217970,
+                                    "nullableToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 48,
+                                        "end": 50
+                                    },
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 50,
+                                        "end": 56
+                                    },
+                                    "flags": 2097152,
+                                    "start": 48,
                                     "end": 56
                                 },
                                 "flags": 2097152,
                                 "start": 48,
                                 "end": 56
                             },
-                            "flags": 2097152,
-                            "start": 48,
-                            "end": 56
-                        },
-                        "defaultType": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 2097216,
+                            "defaultType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 58,
+                                    "end": 65
+                                },
+                                "flags": 2097152,
                                 "start": 58,
                                 "end": 65
                             },
                             "flags": 2097152,
-                            "start": 58,
+                            "start": 45,
                             "end": 65
-                        },
-                        "flags": 2097152,
-                        "start": 45,
-                        "end": 65
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 43,
+                    "end": 65
+                },
                 "flags": 2097152,
                 "start": 42,
                 "end": 66
@@ -296,91 +310,98 @@ type B = Foo<
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "S",
-                            "rawText": "S",
-                            "flags": 96,
-                            "start": 81,
-                            "end": 82
-                        },
-                        "type": null,
-                        "defaultType": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 134234345,
-                                "flags": 2097216,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "S",
+                                "rawText": "S",
+                                "flags": 96,
+                                "start": 81,
+                                "end": 82
+                            },
+                            "type": null,
+                            "defaultType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 84,
+                                    "end": 91
+                                },
+                                "flags": 2097152,
                                 "start": 84,
                                 "end": 91
                             },
                             "flags": 2097152,
-                            "start": 84,
+                            "start": 81,
                             "end": 91
                         },
-                        "flags": 2097152,
-                        "start": 81,
-                        "end": 91
-                    },
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
-                            "start": 92,
-                            "end": 94
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 92,
+                                "end": 94
+                            },
                             "type": {
-                                "kind": 134217970,
-                                "nullableToken": {
-                                    "kind": 134217750,
-                                    "flags": 64,
-                                    "start": 95,
-                                    "end": 97
-                                },
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
                                 "type": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
-                                    "start": 97,
+                                    "kind": 134217970,
+                                    "nullableToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 95,
+                                        "end": 97
+                                    },
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 97,
+                                        "end": 103
+                                    },
+                                    "flags": 2097152,
+                                    "start": 95,
                                     "end": 103
                                 },
                                 "flags": 2097152,
                                 "start": 95,
                                 "end": 103
                             },
-                            "flags": 2097152,
-                            "start": 95,
-                            "end": 103
-                        },
-                        "defaultType": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 134234347,
-                                "flags": 2097216,
+                            "defaultType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 105,
+                                    "end": 112
+                                },
+                                "flags": 2097152,
                                 "start": 105,
                                 "end": 112
                             },
                             "flags": 2097152,
-                            "start": 105,
+                            "start": 92,
                             "end": 112
-                        },
-                        "flags": 2097152,
-                        "start": 92,
-                        "end": 112
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 81,
+                    "end": 112
+                },
                 "flags": 2097152,
                 "start": 80,
                 "end": 113
@@ -457,11 +478,11 @@ type B = Foo<
                         "end": 132
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": {
                                         "kind": 134251592,
@@ -567,12 +588,13 @@ type B = Foo<
                                     "flags": 2097152,
                                     "start": 133,
                                     "end": 165
-                                },
-                                "flags": 2097152,
-                                "start": 133,
-                                "end": 165
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 133,
+                            "end": 165
+                        },
                         "flags": 2097152,
                         "start": 132,
                         "end": 167
@@ -628,11 +650,11 @@ type B = Foo<
                         "end": 182
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": {
@@ -738,12 +760,13 @@ type B = Foo<
                                     "flags": 2097152,
                                     "start": 183,
                                     "end": 215
-                                },
-                                "flags": 2097152,
-                                "start": 183,
-                                "end": 215
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 183,
+                            "end": 215
+                        },
                         "flags": 2097152,
                         "start": 182,
                         "end": 217

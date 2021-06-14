@@ -45,11 +45,11 @@ a?.<number>(y)
                         "kind": 204,
                         "chain": null,
                         "typeArguments": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
+                            "kind": 310,
+                            "typeInstantiations": {
+                                "kind": 309,
+                                "types": [
+                                    {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -62,12 +62,13 @@ a?.<number>(y)
                                         "flags": 2097152,
                                         "start": 4,
                                         "end": 10
-                                    },
-                                    "flags": 2097152,
-                                    "start": 4,
-                                    "end": 10
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 4,
+                                "end": 10
+                            },
                             "flags": 2097152,
                             "start": 3,
                             "end": 11

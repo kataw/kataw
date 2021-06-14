@@ -25,7 +25,6 @@ export const enum Constants {
   ArgumentList = 0b00000000101010111100000000000000,
   IsType = 0b00111000100000000100000000000000,
   IsTypeParameter = 0b00111000100000000100000000000000
-
 }
 
 export const enum ExportKind {
@@ -104,6 +103,7 @@ export enum SyntaxKind {
   RestType = 333,
   OptionalType = 334,
   OptionalIndexedAccess = 332,
+  ParameterDeclarations = 337,
   Block = 249,
   BlockStatement = 124,
   BooleanKeyword = 134234254,
@@ -389,7 +389,7 @@ export enum SyntaxKind {
   StaticBlock = 305,
   FunctionAnnotation = 306,
   TypeParameterDeclaration = 307,
-  TypeParameterInstantiationList = 309,
+  TypeInstantiations = 309,
   TypeParameterInstantiation = 310,
   IndexedAccessType = 311,
   OpaqueType = 312,

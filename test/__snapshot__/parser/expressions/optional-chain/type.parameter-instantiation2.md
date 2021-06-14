@@ -80,11 +80,11 @@ a?.a?.a?.a?.<number>(y);
                         "kind": 204,
                         "chain": null,
                         "typeArguments": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
+                            "kind": 310,
+                            "typeInstantiations": {
+                                "kind": 309,
+                                "types": [
+                                    {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -97,12 +97,13 @@ a?.a?.a?.a?.<number>(y);
                                         "flags": 2097152,
                                         "start": 7,
                                         "end": 13
-                                    },
-                                    "flags": 2097152,
-                                    "start": 7,
-                                    "end": 13
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 7,
+                                "end": 13
+                            },
                             "flags": 2097152,
                             "start": 6,
                             "end": 14
@@ -263,11 +264,11 @@ a?.a?.a?.a?.<number>(y);
                         "kind": 204,
                         "chain": null,
                         "typeArguments": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
+                            "kind": 310,
+                            "typeInstantiations": {
+                                "kind": 309,
+                                "types": [
+                                    {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -280,12 +281,13 @@ a?.a?.a?.a?.<number>(y);
                                         "flags": 2097152,
                                         "start": 33,
                                         "end": 39
-                                    },
-                                    "flags": 2097152,
-                                    "start": 33,
-                                    "end": 39
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 33,
+                                "end": 39
+                            },
                             "flags": 2097152,
                             "start": 32,
                             "end": 40

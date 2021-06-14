@@ -62,11 +62,11 @@ type D = $Call<Fn1>;
                         "end": 14
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -88,12 +88,13 @@ type D = $Call<Fn1>;
                                     "flags": 2097152,
                                     "start": 15,
                                     "end": 18
-                                },
-                                "flags": 2097152,
-                                "start": 15,
-                                "end": 18
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 15,
+                            "end": 18
+                        },
                         "flags": 2097152,
                         "start": 14,
                         "end": 19

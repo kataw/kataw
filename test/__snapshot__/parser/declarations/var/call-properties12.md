@@ -201,7 +201,7 @@ var z : Object = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var z = function (x) {
+var z:  = function (x) {
   return  "\"hi\"";
 };
 ```

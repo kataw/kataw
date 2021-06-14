@@ -1791,10 +1791,10 @@ var b = j =>  {
 var b = (j) =>  {
   return  0;
 };
-var c;
+var c: number;
 var d = n =>  c = n;
 var d = (n) =>  c = n;
-var d;
+var d: ;
 var p1 = ([a]) =>  {};
 var p2 = ([]) =>  {};
 var p3 = ([a, ]) =>  {};

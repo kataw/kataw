@@ -70,11 +70,11 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                                 "end": 16
                                             },
                                             "typeParameters": {
-                                                "kind": 309,
-                                                "parameters": [
-                                                    {
-                                                        "kind": 310,
-                                                        "type": {
+                                                "kind": 310,
+                                                "typeInstantiations": {
+                                                    "kind": 309,
+                                                    "types": [
+                                                        {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
                                                             "bitwiseAndToken": null,
@@ -88,13 +88,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                                             "start": 17,
                                                             "end": 23
                                                         },
-                                                        "flags": 2097152,
-                                                        "start": 17,
-                                                        "end": 23
-                                                    },
-                                                    {
-                                                        "kind": 310,
-                                                        "type": {
+                                                        {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
                                                             "bitwiseAndToken": null,
@@ -107,12 +101,13 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                                             "flags": 2097152,
                                                             "start": 24,
                                                             "end": 28
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 24,
-                                                        "end": 28
-                                                    }
-                                                ],
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 17,
+                                                    "end": 28
+                                                },
                                                 "flags": 2097152,
                                                 "start": 16,
                                                 "end": 29

@@ -62,56 +62,63 @@ const f = async <T, R, S>(
                             },
                             "typeParameters": {
                                 "kind": 307,
-                                "typeParameters": [
-                                    {
-                                        "kind": 146,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
+                                "declarations": {
+                                    "kind": 310,
+                                    "parameters": [
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
+                                                "start": 17,
+                                                "end": 18
+                                            },
+                                            "type": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
                                             "start": 17,
                                             "end": 18
                                         },
-                                        "type": null,
-                                        "defaultType": null,
-                                        "flags": 2097152,
-                                        "start": 17,
-                                        "end": 18
-                                    },
-                                    {
-                                        "kind": 146,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "R",
-                                            "rawText": "R",
-                                            "flags": 96,
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "R",
+                                                "rawText": "R",
+                                                "flags": 96,
+                                                "start": 19,
+                                                "end": 21
+                                            },
+                                            "type": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 21
                                         },
-                                        "type": null,
-                                        "defaultType": null,
-                                        "flags": 2097152,
-                                        "start": 19,
-                                        "end": 21
-                                    },
-                                    {
-                                        "kind": 146,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "S",
-                                            "rawText": "S",
-                                            "flags": 96,
+                                        {
+                                            "kind": 146,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "S",
+                                                "rawText": "S",
+                                                "flags": 96,
+                                                "start": 22,
+                                                "end": 24
+                                            },
+                                            "type": null,
+                                            "defaultType": null,
+                                            "flags": 2097152,
                                             "start": 22,
                                             "end": 24
-                                        },
-                                        "type": null,
-                                        "defaultType": null,
-                                        "flags": 2097152,
-                                        "start": 22,
-                                        "end": 24
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 17,
+                                    "end": 24
+                                },
                                 "flags": 2097152,
                                 "start": 15,
                                 "end": 25

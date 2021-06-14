@@ -43,46 +43,53 @@ class A<T: Foo> {}
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
-                            "start": 8,
-                            "end": 9
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 9
+                            },
                             "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "Foo",
-                                    "rawText": "Foo",
-                                    "flags": 96,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "Foo",
+                                        "rawText": "Foo",
+                                        "flags": 96,
+                                        "start": 10,
+                                        "end": 14
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
                                     "start": 10,
                                     "end": 14
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 10,
                                 "end": 14
                             },
+                            "defaultType": null,
                             "flags": 2097152,
-                            "start": 10,
+                            "start": 8,
                             "end": 14
-                        },
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 8,
-                        "end": 14
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 14
+                },
                 "flags": 2097152,
                 "start": 7,
                 "end": 15

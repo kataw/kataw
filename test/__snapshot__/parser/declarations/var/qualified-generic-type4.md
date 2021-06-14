@@ -83,11 +83,11 @@ var a : typeof A.B<T>
                                         "end": 18
                                     },
                                     "typeParameters": {
-                                        "kind": 309,
-                                        "parameters": [
-                                            {
-                                                "kind": 310,
-                                                "type": {
+                                        "kind": 310,
+                                        "typeInstantiations": {
+                                            "kind": 309,
+                                            "types": [
+                                                {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -109,12 +109,13 @@ var a : typeof A.B<T>
                                                     "flags": 2097152,
                                                     "start": 19,
                                                     "end": 20
-                                                },
-                                                "flags": 2097152,
-                                                "start": 19,
-                                                "end": 20
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 19,
+                                            "end": 20
+                                        },
                                         "flags": 2097152,
                                         "start": 18,
                                         "end": 21
@@ -159,7 +160,7 @@ var a : typeof A.B<T>
 
 ```javascript
 
-var a;
+var a: ;
 ```
 
 ### Diagnostics

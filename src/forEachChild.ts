@@ -316,9 +316,13 @@ export function forEachChild(node: any, visitor: any): any {
       return visitNodes(node.types, node, visitor);
     case SyntaxKind.TypeParameter:
       return visitNode(node.type, node, visitor) && visitNode(node.defaultType, node, visitor);
+    case SyntaxKind.TypeInstantiations:
+      return visitNodes(node.types, node, visitor) && visitNode(node.defaultType, node, visitor);
     case SyntaxKind.TypeParameterDeclaration:
-      return visitNodes(node.typeParameters, node, visitor);
-    case SyntaxKind.TypeParameterInstantiationList:
+      return visitNode(node.declarations, node, visitor);
+    case SyntaxKind.TypeParameterDeclaration:
+      return visitNode(node.declarations, node, visitor);
+    case SyntaxKind.ParameterDeclarations:
       return visitNodes(node.parameters, node, visitor);
     case SyntaxKind.FunctionType:
       return (

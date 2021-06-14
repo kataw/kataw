@@ -213,7 +213,7 @@ var a: { (x: number): string } = (x) => x.toString()
 
 ```javascript
 
-var a = (x) =>  x.toString();
+var a:  = (x) =>  x.toString();
 ```
 
 ### Diagnostics

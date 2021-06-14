@@ -551,11 +551,11 @@ var c: { (): string; (x: number): string } =
 ```javascript
 // It should be fine when a function satisfies them all
 
-var b = function (x?) {
+var b:  = function (x?) {
   return  "\"hi\"";
 };
 // ...but should notice when a function doesn't satisfy them all
-var c = function (x) {
+var c:  = function (x) {
   return  "\"hi\"";
 };
 ```

@@ -194,7 +194,7 @@ var y : {} = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var y = function (x) {
+var y:  = function (x) {
   return  "\"hi\"";
 };
 ```

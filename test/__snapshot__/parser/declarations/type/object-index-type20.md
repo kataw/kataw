@@ -42,24 +42,31 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "Type",
-                            "rawText": "Type",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "Type",
+                                "rawText": "Type",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 20
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 16,
                             "end": 20
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 16,
-                        "end": 20
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 16,
+                    "end": 20
+                },
                 "flags": 2097152,
                 "start": 15,
                 "end": 21
@@ -125,11 +132,11 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                                 "end": 49
                                             },
                                             "typeParameters": {
-                                                "kind": 309,
-                                                "parameters": [
-                                                    {
-                                                        "kind": 310,
-                                                        "type": {
+                                                "kind": 310,
+                                                "typeInstantiations": {
+                                                    "kind": 309,
+                                                    "types": [
+                                                        {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
                                                             "bitwiseAndToken": null,
@@ -151,12 +158,13 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                                             "flags": 2097152,
                                                             "start": 50,
                                                             "end": 54
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 50,
-                                                        "end": 54
-                                                    }
-                                                ],
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 50,
+                                                    "end": 54
+                                                },
                                                 "flags": 2097152,
                                                 "start": 49,
                                                 "end": 55

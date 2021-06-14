@@ -210,7 +210,7 @@ var obj: {
 
 ```javascript
 
-var obj = { size: 0 };
+var obj:  = { size: 0 };
 ```
 
 ### Diagnostics

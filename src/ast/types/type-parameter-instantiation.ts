@@ -1,19 +1,20 @@
-import { TypeNode } from '.';
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { TypeInstantiations } from './type-instantiations';
 
 export interface TypeParameterInstantiation extends SyntaxNode {
-  readonly type: TypeNode | null;
+  readonly typeInstantiations: TypeInstantiations;
 }
 
 export function createTypeParameterInstantiation(
-  type: TypeNode | null,
+  typeInstantiations: TypeInstantiations,
+  flags: NodeFlags,
   start: number,
   end: number
 ): TypeParameterInstantiation {
   return {
     kind: SyntaxKind.TypeParameterInstantiation,
-    type,
-    flags: NodeFlags.IsTypeNode,
+    typeInstantiations,
+    flags,
     start,
     end
   };

@@ -58,24 +58,31 @@ class C2<X, Y> {
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "X",
-                            "rawText": "X",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "X",
+                                "rawText": "X",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 9
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 9
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 8,
-                        "end": 9
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 9
+                },
                 "flags": 2097152,
                 "start": 7,
                 "end": 10
@@ -99,11 +106,11 @@ class C2<X, Y> {
                         "end": 20
                     },
                     "typeParameter": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -126,13 +133,7 @@ class C2<X, Y> {
                                     "start": 21,
                                     "end": 22
                                 },
-                                "flags": 2097152,
-                                "start": 21,
-                                "end": 22
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -145,12 +146,13 @@ class C2<X, Y> {
                                     "flags": 2097152,
                                     "start": 23,
                                     "end": 30
-                                },
-                                "flags": 2097152,
-                                "start": 23,
-                                "end": 30
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 21,
+                            "end": 30
+                        },
                         "flags": 2097152,
                         "start": 20,
                         "end": 31
@@ -484,40 +486,47 @@ class C2<X, Y> {
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "X",
-                            "rawText": "X",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "X",
+                                "rawText": "X",
+                                "flags": 96,
+                                "start": 154,
+                                "end": 155
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 154,
                             "end": 155
                         },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 154,
-                        "end": 155
-                    },
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "Y",
-                            "rawText": "Y",
-                            "flags": 96,
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "Y",
+                                "rawText": "Y",
+                                "flags": 96,
+                                "start": 156,
+                                "end": 158
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 156,
                             "end": 158
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 156,
-                        "end": 158
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 154,
+                    "end": 158
+                },
                 "flags": 2097152,
                 "start": 153,
                 "end": 159
@@ -656,11 +665,11 @@ class C2<X, Y> {
                                             "end": 186
                                         },
                                         "typeParameters": {
-                                            "kind": 309,
-                                            "parameters": [
-                                                {
-                                                    "kind": 310,
-                                                    "type": {
+                                            "kind": 310,
+                                            "typeInstantiations": {
+                                                "kind": 309,
+                                                "types": [
+                                                    {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -683,13 +692,7 @@ class C2<X, Y> {
                                                         "start": 187,
                                                         "end": 188
                                                     },
-                                                    "flags": 2097152,
-                                                    "start": 187,
-                                                    "end": 188
-                                                },
-                                                {
-                                                    "kind": 310,
-                                                    "type": {
+                                                    {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -711,12 +714,13 @@ class C2<X, Y> {
                                                         "flags": 2097152,
                                                         "start": 189,
                                                         "end": 191
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 189,
-                                                    "end": 191
-                                                }
-                                            ],
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 2097152,
+                                                "start": 187,
+                                                "end": 191
+                                            },
                                             "flags": 2097152,
                                             "start": 186,
                                             "end": 192

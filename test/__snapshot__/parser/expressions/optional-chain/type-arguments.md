@@ -61,11 +61,11 @@ example.inner?.<string>()
                         "kind": 204,
                         "chain": null,
                         "typeArguments": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
+                            "kind": 310,
+                            "typeInstantiations": {
+                                "kind": 309,
+                                "types": [
+                                    {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -78,12 +78,13 @@ example.inner?.<string>()
                                         "flags": 2097152,
                                         "start": 16,
                                         "end": 22
-                                    },
-                                    "flags": 2097152,
-                                    "start": 16,
-                                    "end": 22
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 16,
+                                "end": 22
+                            },
                             "flags": 2097152,
                             "start": 15,
                             "end": 23

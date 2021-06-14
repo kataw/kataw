@@ -40,24 +40,31 @@ type x<y> = z<<q>(r) => s>
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 7,
+                                "end": 8
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 7,
                             "end": 8
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 7,
-                        "end": 8
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 7,
+                    "end": 8
+                },
                 "flags": 2097152,
                 "start": 6,
                 "end": 9
@@ -83,11 +90,11 @@ type x<y> = z<<q>(r) => s>
                         "end": 13
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -163,24 +170,31 @@ type x<y> = z<<q>(r) => s>
                                         },
                                         "typeParameters": {
                                             "kind": 307,
-                                            "typeParameters": [
-                                                {
-                                                    "kind": 146,
-                                                    "name": {
-                                                        "kind": 134299649,
-                                                        "text": "q",
-                                                        "rawText": "q",
-                                                        "flags": 96,
+                                            "declarations": {
+                                                "kind": 310,
+                                                "parameters": [
+                                                    {
+                                                        "kind": 146,
+                                                        "name": {
+                                                            "kind": 134299649,
+                                                            "text": "q",
+                                                            "rawText": "q",
+                                                            "flags": 96,
+                                                            "start": 15,
+                                                            "end": 16
+                                                        },
+                                                        "type": null,
+                                                        "defaultType": null,
+                                                        "flags": 2097152,
                                                         "start": 15,
                                                         "end": 16
-                                                    },
-                                                    "type": null,
-                                                    "defaultType": null,
-                                                    "flags": 2097152,
-                                                    "start": 15,
-                                                    "end": 16
-                                                }
-                                            ],
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 2097152,
+                                                "start": 15,
+                                                "end": 16
+                                            },
                                             "flags": 2097152,
                                             "start": 14,
                                             "end": 17
@@ -192,12 +206,13 @@ type x<y> = z<<q>(r) => s>
                                     "flags": 2097152,
                                     "start": 14,
                                     "end": 25
-                                },
-                                "flags": 2097152,
-                                "start": 14,
-                                "end": 25
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 14,
+                            "end": 25
+                        },
                         "flags": 2097152,
                         "start": 13,
                         "end": 26

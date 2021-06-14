@@ -77,11 +77,11 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                     "end": 35
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -131,12 +131,13 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                 "flags": 2097152,
                                                 "start": 36,
                                                 "end": 46
-                                            },
-                                            "flags": 2097152,
-                                            "start": 36,
-                                            "end": 46
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 36,
+                                        "end": 46
+                                    },
                                     "flags": 2097152,
                                     "start": 35,
                                     "end": 47

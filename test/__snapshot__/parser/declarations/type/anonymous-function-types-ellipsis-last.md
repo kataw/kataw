@@ -76,11 +76,11 @@ type A = (Array<string>, ...Array<string>) => void
                                         "end": 15
                                     },
                                     "typeParameters": {
-                                        "kind": 309,
-                                        "parameters": [
-                                            {
-                                                "kind": 310,
-                                                "type": {
+                                        "kind": 310,
+                                        "typeInstantiations": {
+                                            "kind": 309,
+                                            "types": [
+                                                {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -93,12 +93,13 @@ type A = (Array<string>, ...Array<string>) => void
                                                     "flags": 2097152,
                                                     "start": 16,
                                                     "end": 22
-                                                },
-                                                "flags": 2097152,
-                                                "start": 16,
-                                                "end": 22
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 16,
+                                            "end": 22
+                                        },
                                         "flags": 2097152,
                                         "start": 15,
                                         "end": 23
@@ -134,11 +135,11 @@ type A = (Array<string>, ...Array<string>) => void
                                         "end": 33
                                     },
                                     "typeParameters": {
-                                        "kind": 309,
-                                        "parameters": [
-                                            {
-                                                "kind": 310,
-                                                "type": {
+                                        "kind": 310,
+                                        "typeInstantiations": {
+                                            "kind": 309,
+                                            "types": [
+                                                {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -151,12 +152,13 @@ type A = (Array<string>, ...Array<string>) => void
                                                     "flags": 2097152,
                                                     "start": 34,
                                                     "end": 40
-                                                },
-                                                "flags": 2097152,
-                                                "start": 34,
-                                                "end": 40
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 34,
+                                            "end": 40
+                                        },
                                         "flags": 2097152,
                                         "start": 33,
                                         "end": 41

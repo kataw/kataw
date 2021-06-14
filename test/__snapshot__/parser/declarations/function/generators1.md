@@ -158,11 +158,11 @@ function *infer_stmt() {
                         "end": 33
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -176,13 +176,7 @@ function *infer_stmt() {
                                     "start": 34,
                                     "end": 40
                                 },
-                                "flags": 2097152,
-                                "start": 34,
-                                "end": 40
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -196,13 +190,7 @@ function *infer_stmt() {
                                     "start": 41,
                                     "end": 46
                                 },
-                                "flags": 2097152,
-                                "start": 41,
-                                "end": 46
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -215,12 +203,13 @@ function *infer_stmt() {
                                     "flags": 2097152,
                                     "start": 47,
                                     "end": 52
-                                },
-                                "flags": 2097152,
-                                "start": 47,
-                                "end": 52
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 34,
+                            "end": 52
+                        },
                         "flags": 2097152,
                         "start": 33,
                         "end": 53
@@ -320,11 +309,11 @@ function *infer_stmt() {
                         "end": 119
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -338,13 +327,7 @@ function *infer_stmt() {
                                     "start": 120,
                                     "end": 124
                                 },
-                                "flags": 2097152,
-                                "start": 120,
-                                "end": 124
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -358,13 +341,7 @@ function *infer_stmt() {
                                     "start": 125,
                                     "end": 132
                                 },
-                                "flags": 2097152,
-                                "start": 125,
-                                "end": 132
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -377,12 +354,13 @@ function *infer_stmt() {
                                     "flags": 2097152,
                                     "start": 133,
                                     "end": 138
-                                },
-                                "flags": 2097152,
-                                "start": 133,
-                                "end": 138
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 120,
+                            "end": 138
+                        },
                         "flags": 2097152,
                         "start": 119,
                         "end": 139
@@ -482,11 +460,11 @@ function *infer_stmt() {
                         "end": 195
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -500,13 +478,7 @@ function *infer_stmt() {
                                     "start": 196,
                                     "end": 200
                                 },
-                                "flags": 2097152,
-                                "start": 196,
-                                "end": 200
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -520,13 +492,7 @@ function *infer_stmt() {
                                     "start": 201,
                                     "end": 208
                                 },
-                                "flags": 2097152,
-                                "start": 201,
-                                "end": 208
-                            },
-                            {
-                                "kind": 310,
-                                "type": {
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -539,12 +505,13 @@ function *infer_stmt() {
                                     "flags": 2097152,
                                     "start": 209,
                                     "end": 214
-                                },
-                                "flags": 2097152,
-                                "start": 209,
-                                "end": 214
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 196,
+                            "end": 214
+                        },
                         "flags": 2097152,
                         "start": 195,
                         "end": 215
@@ -731,7 +698,7 @@ function * stmt_return_err() {
   return  "\"\"";
 }
 function * infer_stmt() {
-  var x = yield 0;
+  var x: boolean = yield 0;
   return  "\"\"";
 }
 ```

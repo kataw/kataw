@@ -185,7 +185,7 @@ var b: { (x: number): number } = (x) => "hi"
 
 ```javascript
 
-var b = (x) =>  "\"hi\"";
+var b:  = (x) =>  "\"hi\"";
 ```
 
 ### Diagnostics

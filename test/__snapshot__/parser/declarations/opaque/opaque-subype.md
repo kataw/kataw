@@ -61,11 +61,11 @@ opaque type Counter: Box<T> = Container<T>;
                         "end": 24
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -87,12 +87,13 @@ opaque type Counter: Box<T> = Container<T>;
                                     "flags": 2097152,
                                     "start": 25,
                                     "end": 26
-                                },
-                                "flags": 2097152,
-                                "start": 25,
-                                "end": 26
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 25,
+                            "end": 26
+                        },
                         "flags": 2097152,
                         "start": 24,
                         "end": 27
@@ -120,11 +121,11 @@ opaque type Counter: Box<T> = Container<T>;
                         "end": 39
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -146,12 +147,13 @@ opaque type Counter: Box<T> = Container<T>;
                                     "flags": 2097152,
                                     "start": 40,
                                     "end": 41
-                                },
-                                "flags": 2097152,
-                                "start": 40,
-                                "end": 41
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 40,
+                            "end": 41
+                        },
                         "flags": 2097152,
                         "start": 39,
                         "end": 42

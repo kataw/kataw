@@ -78,8 +78,15 @@ type X = (x.y<>);
                             "end": 13
                         },
                         "typeParameters": {
-                            "kind": 309,
-                            "parameters": [],
+                            "kind": 310,
+                            "typeInstantiations": {
+                                "kind": 309,
+                                "types": [],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 14,
+                                "end": 14
+                            },
                             "flags": 2097152,
                             "start": 13,
                             "end": 15

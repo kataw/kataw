@@ -66,24 +66,31 @@ class Array { concat(items:number | string) {}; }
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 12
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 11,
                             "end": 12
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 11,
-                        "end": 12
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 11,
+                    "end": 12
+                },
                 "flags": 2097152,
                 "start": 10,
                 "end": 13
@@ -126,24 +133,31 @@ class Array { concat(items:number | string) {}; }
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 28,
+                                "end": 29
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 28,
                             "end": 29
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 28,
-                        "end": 29
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 28,
+                    "end": 29
+                },
                 "flags": 2097152,
                 "start": 27,
                 "end": 30
@@ -167,11 +181,11 @@ class Array { concat(items:number | string) {}; }
                         "end": 42
                     },
                     "typeParameter": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -193,12 +207,13 @@ class Array { concat(items:number | string) {}; }
                                     "flags": 2097152,
                                     "start": 43,
                                     "end": 44
-                                },
-                                "flags": 2097152,
-                                "start": 43,
-                                "end": 44
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 43,
+                            "end": 44
+                        },
                         "flags": 2097152,
                         "start": 42,
                         "end": 45
@@ -242,24 +257,31 @@ class Array { concat(items:number | string) {}; }
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 60,
+                                "end": 61
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 60,
                             "end": 61
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 60,
-                        "end": 61
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 60,
+                    "end": 61
+                },
                 "flags": 2097152,
                 "start": 59,
                 "end": 62
@@ -743,24 +765,31 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "typeParameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
+                                    "declarations": {
+                                        "kind": 310,
+                                        "parameters": [
+                                            {
+                                                "kind": 146,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 248,
+                                                    "end": 249
+                                                },
+                                                "type": null,
+                                                "defaultType": null,
+                                                "flags": 2097152,
                                                 "start": 248,
                                                 "end": 249
-                                            },
-                                            "type": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
-                                            "start": 248,
-                                            "end": 249
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 248,
+                                        "end": 249
+                                    },
                                     "flags": 2097152,
                                     "start": 247,
                                     "end": 250

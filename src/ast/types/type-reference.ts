@@ -1,16 +1,16 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { TypeParameterInstantiationList } from './type-parameter-instantiation-list';
+import { TypeParameterInstantiation } from './type-parameter-instantiation';
 import { DummyIdentifier } from '../internal/dummy-identifier';
 import { Identifier } from '../expressions/identifier-expr';
 
 export interface TypeReference extends SyntaxNode {
   readonly id: Identifier | DummyIdentifier;
-  readonly typeParameters: TypeParameterInstantiationList | null;
+  readonly typeParameters: TypeParameterInstantiation | null;
 }
 
 export function createTypeReference(
   id: Identifier | DummyIdentifier,
-  typeParameters: TypeParameterInstantiationList | null,
+  typeParameters: TypeParameterInstantiation | null,
   start: number,
   end: number
 ): TypeReference {

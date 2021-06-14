@@ -6824,11 +6824,11 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "end": 5429
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -6841,12 +6841,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "flags": 2097152,
                                     "start": 5430,
                                     "end": 5433
-                                },
-                                "flags": 2097152,
-                                "start": 5430,
-                                "end": 5433
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 5430,
+                            "end": 5433
+                        },
                         "flags": 2097152,
                         "start": 5429,
                         "end": 5434
@@ -7042,11 +7043,11 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "end": 5573
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -7059,12 +7060,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "flags": 2097152,
                                     "start": 5574,
                                     "end": 5577
-                                },
-                                "flags": 2097152,
-                                "start": 5574,
-                                "end": 5577
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 5574,
+                            "end": 5577
+                        },
                         "flags": 2097152,
                         "start": 5573,
                         "end": 5578
@@ -8839,11 +8841,11 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "end": 6369
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -8892,12 +8894,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "flags": 2097152,
                                     "start": 6370,
                                     "end": 6381
-                                },
-                                "flags": 2097152,
-                                "start": 6370,
-                                "end": 6381
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 6370,
+                            "end": 6381
+                        },
                         "flags": 2097152,
                         "start": 6369,
                         "end": 6382
@@ -9485,11 +9488,11 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                         "end": 6688
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -9538,12 +9541,13 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "flags": 2097152,
                                     "start": 6689,
                                     "end": 6700
-                                },
-                                "flags": 2097152,
-                                "start": 6689,
-                                "end": 6700
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 6689,
+                            "end": 6700
+                        },
                         "flags": 2097152,
                         "start": 6688,
                         "end": 6701
@@ -12547,21 +12551,21 @@ function logical2k(x) {
  * An expression on the left side of &&
  */
 function logical3a() {
-  var x = null;
+  var x:  = null;
   return  x != null && x > 10;
 }
 /**
  * An expression on the left side of &&
  */
 function logical3b() {
-  var x = null;
+  var x:  = null;
   return  x != null && x;
 }
 /**
  * An expression on the left side of &&
  */
 function logical3c() {
-  var x = null;
+  var x:  = null;
   return  x != undefined && x;
 }
 /**
@@ -12581,7 +12585,7 @@ function logical5a() {
  * A maybe variable on the left side of ||
  */
 function logical5b() {
-  var x = null;
+  var x:  = null;
   return  x || 0;
 }
 /**
@@ -12632,7 +12636,7 @@ function logical6f() {
  * A composite && and ||
  */
 function logical7a() {
-  var x = null;
+  var x:  = null;
   return  x != null && x || 0;
 }
 /**

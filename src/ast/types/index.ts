@@ -22,6 +22,8 @@ import { TypeofType } from './typeof-type';
 import { FunctionTypeParameterList } from './function-type-parameter-list';
 import { TypeParameterDeclaration } from './type-parameter-declaration';
 import { TypeParameter } from './type-parameter';
+import { TypeParameterInstantiation } from './type-parameter-instantiation';
+import { ParameterDeclarations } from './parameter-declarations';
 import { IndexedAccessType } from './indexed-access-type';
 import { SubtractionType } from './subtraction-type';
 import { ArrowTypeParameterList } from './arrow-type-parameter-list';
@@ -38,6 +40,8 @@ export type TypeNode =
   | TypeofType
   | ArrowTypeParameterList
   | ArrowFunctionType
+  | ParameterDeclarations
+  | TypeParameterInstantiation
   | OptionalIndexedAccess
   | RestType
   | OptionalType

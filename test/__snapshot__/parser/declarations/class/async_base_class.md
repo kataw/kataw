@@ -113,11 +113,11 @@ async function foo() {
                                     "end": 27
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -132,11 +132,11 @@ async function foo() {
                                                         "end": 33
                                                     },
                                                     "typeParameters": {
-                                                        "kind": 309,
-                                                        "parameters": [
-                                                            {
-                                                                "kind": 310,
-                                                                "type": {
+                                                        "kind": 310,
+                                                        "typeInstantiations": {
+                                                            "kind": 309,
+                                                            "types": [
+                                                                {
                                                                     "kind": 139,
                                                                     "bitwiseOrToken": null,
                                                                     "bitwiseAndToken": null,
@@ -158,12 +158,13 @@ async function foo() {
                                                                     "flags": 2097152,
                                                                     "start": 34,
                                                                     "end": 35
-                                                                },
-                                                                "flags": 2097152,
-                                                                "start": 34,
-                                                                "end": 35
-                                                            }
-                                                        ],
+                                                                }
+                                                            ],
+                                                            "trailingComma": false,
+                                                            "flags": 2097152,
+                                                            "start": 34,
+                                                            "end": 35
+                                                        },
                                                         "flags": 2097152,
                                                         "start": 33,
                                                         "end": 36
@@ -175,12 +176,13 @@ async function foo() {
                                                 "flags": 2097152,
                                                 "start": 28,
                                                 "end": 36
-                                            },
-                                            "flags": 2097152,
-                                            "start": 28,
-                                            "end": 36
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 28,
+                                        "end": 36
+                                    },
                                     "flags": 2097152,
                                     "start": 27,
                                     "end": 37
@@ -492,7 +494,7 @@ async function foo() {
 ```javascript
 
 class C {}
-var P = new  Promise(function (resolve, reject) {
+var P:  = new  Promise(function (resolve, reject) {
   resolve(C);
 });
 async function foo() {

@@ -62,11 +62,11 @@ type T = Array<(string) => number>
                         "end": 14
                     },
                     "typeParameters": {
-                        "kind": 309,
-                        "parameters": [
-                            {
-                                "kind": 310,
-                                "type": {
+                        "kind": 310,
+                        "typeInstantiations": {
+                            "kind": 309,
+                            "types": [
+                                {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
                                     "bitwiseAndToken": null,
@@ -106,12 +106,13 @@ type T = Array<(string) => number>
                                     "flags": 2097152,
                                     "start": 15,
                                     "end": 33
-                                },
-                                "flags": 2097152,
-                                "start": 15,
-                                "end": 33
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 15,
+                            "end": 33
+                        },
                         "flags": 2097152,
                         "start": 14,
                         "end": 34

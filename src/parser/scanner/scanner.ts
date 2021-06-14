@@ -414,7 +414,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
       // `<`, `<=`, `<<`, `<<=`, `</`, `<!--`
       case SyntaxKind.LessThan:
         cp = source.charCodeAt(++parser.pos);
-        if (context & Context.ArrowOrigin) return SyntaxKind.LessThan;
+        if (context & Context.InType) return SyntaxKind.LessThan;
         if (cp === Char.EqualSign) {
           parser.pos++;
           return SyntaxKind.LessThanOrEqual;
@@ -469,7 +469,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
       // `>`, `>=`, `>>`, `>>>`, `>>=`, `>>>=`
       case SyntaxKind.GreaterThan:
         cp = source.charCodeAt(++parser.pos);
-        if (context & Context.ArrowOrigin) return SyntaxKind.GreaterThan;
+        if (context & Context.InType) return SyntaxKind.GreaterThan;
         if (cp === Char.EqualSign) {
           parser.pos++;
           return SyntaxKind.GreaterThanOrEqual;

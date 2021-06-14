@@ -48,24 +48,31 @@ class A<TYPE> {
             },
             "typeParameters": {
                 "kind": 307,
-                "typeParameters": [
-                    {
-                        "kind": 146,
-                        "name": {
-                            "kind": 134299649,
-                            "text": "TYPE",
-                            "rawText": "TYPE",
-                            "flags": 96,
+                "declarations": {
+                    "kind": 310,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "TYPE",
+                                "rawText": "TYPE",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 12
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
                             "start": 8,
                             "end": 12
-                        },
-                        "type": null,
-                        "defaultType": null,
-                        "flags": 2097152,
-                        "start": 8,
-                        "end": 12
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 8,
+                    "end": 12
+                },
                 "flags": 2097152,
                 "start": 7,
                 "end": 13
@@ -118,11 +125,11 @@ class A<TYPE> {
                                             "end": 35
                                         },
                                         "typeParameters": {
-                                            "kind": 309,
-                                            "parameters": [
-                                                {
-                                                    "kind": 310,
-                                                    "type": {
+                                            "kind": 310,
+                                            "typeInstantiations": {
+                                                "kind": 309,
+                                                "types": [
+                                                    {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -144,12 +151,13 @@ class A<TYPE> {
                                                         "flags": 2097152,
                                                         "start": 36,
                                                         "end": 40
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 36,
-                                                    "end": 40
-                                                }
-                                            ],
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 2097152,
+                                                "start": 36,
+                                                "end": 40
+                                            },
                                             "flags": 2097152,
                                             "start": 35,
                                             "end": 41
@@ -327,11 +335,11 @@ class A<TYPE> {
                                             "end": 111
                                         },
                                         "typeParameters": {
-                                            "kind": 309,
-                                            "parameters": [
-                                                {
-                                                    "kind": 310,
-                                                    "type": {
+                                            "kind": 310,
+                                            "typeInstantiations": {
+                                                "kind": 309,
+                                                "types": [
+                                                    {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -353,12 +361,13 @@ class A<TYPE> {
                                                         "flags": 2097152,
                                                         "start": 112,
                                                         "end": 116
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 112,
-                                                    "end": 116
-                                                }
-                                            ],
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 2097152,
+                                                "start": 112,
+                                                "end": 116
+                                            },
                                             "flags": 2097152,
                                             "start": 111,
                                             "end": 117

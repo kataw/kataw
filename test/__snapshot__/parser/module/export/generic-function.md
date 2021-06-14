@@ -86,11 +86,11 @@ export function d(): Promise<boolean> {}
                             "end": 28
                         },
                         "typeParameters": {
-                            "kind": 309,
-                            "parameters": [
-                                {
-                                    "kind": 310,
-                                    "type": {
+                            "kind": 310,
+                            "typeInstantiations": {
+                                "kind": 309,
+                                "types": [
+                                    {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -103,12 +103,13 @@ export function d(): Promise<boolean> {}
                                         "flags": 2097152,
                                         "start": 29,
                                         "end": 36
-                                    },
-                                    "flags": 2097152,
-                                    "start": 29,
-                                    "end": 36
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 29,
+                                "end": 36
+                            },
                             "flags": 2097152,
                             "start": 28,
                             "end": 37

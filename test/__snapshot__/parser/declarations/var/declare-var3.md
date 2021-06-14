@@ -68,11 +68,11 @@ declare var tup: [{foo: string}, {bar: number}];
                                     "end": 28
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -121,12 +121,13 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "flags": 2097152,
                                                 "start": 29,
                                                 "end": 44
-                                            },
-                                            "flags": 2097152,
-                                            "start": 29,
-                                            "end": 44
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 29,
+                                        "end": 44
+                                    },
                                     "flags": 2097152,
                                     "start": 28,
                                     "end": 45
@@ -196,11 +197,11 @@ declare var tup: [{foo: string}, {bar: number}];
                                     "end": 86
                                 },
                                 "typeParameters": {
-                                    "kind": 309,
-                                    "parameters": [
-                                        {
-                                            "kind": 310,
-                                            "type": {
+                                    "kind": 310,
+                                    "typeInstantiations": {
+                                        "kind": 309,
+                                        "types": [
+                                            {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -249,12 +250,13 @@ declare var tup: [{foo: string}, {bar: number}];
                                                 "flags": 2097152,
                                                 "start": 87,
                                                 "end": 100
-                                            },
-                                            "flags": 2097152,
-                                            "start": 87,
-                                            "end": 100
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 87,
+                                        "end": 100
+                                    },
                                     "flags": 2097152,
                                     "start": 86,
                                     "end": 101
@@ -454,9 +456,9 @@ declare var tup: [{foo: string}, {bar: number}];
 
 ```javascript
 
-var arrOfObjs;
-var roArrOfObjs;
-var tup;
+var arrOfObjs: ;
+var roArrOfObjs: ;
+var tup: ;
 ```
 
 ### Diagnostics

@@ -78,11 +78,11 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 15
                                     },
                                     "typeParameters": {
-                                        "kind": 309,
-                                        "parameters": [
-                                            {
-                                                "kind": 310,
-                                                "type": {
+                                        "kind": 310,
+                                        "typeInstantiations": {
+                                            "kind": 309,
+                                            "types": [
+                                                {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -107,12 +107,13 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                     "flags": 2097152,
                                                     "start": 16,
                                                     "end": 23
-                                                },
-                                                "flags": 2097152,
-                                                "start": 16,
-                                                "end": 23
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 16,
+                                            "end": 23
+                                        },
                                         "flags": 2097152,
                                         "start": 15,
                                         "end": 24
@@ -275,24 +276,31 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "typeParameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
+                                    "declarations": {
+                                        "kind": 310,
+                                        "parameters": [
+                                            {
+                                                "kind": 146,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 42,
+                                                    "end": 43
+                                                },
+                                                "type": null,
+                                                "defaultType": null,
+                                                "flags": 2097152,
                                                 "start": 42,
                                                 "end": 43
-                                            },
-                                            "type": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
-                                            "start": 42,
-                                            "end": 43
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 42,
+                                        "end": 43
+                                    },
                                     "flags": 2097152,
                                     "start": 40,
                                     "end": 44
@@ -501,24 +509,31 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 },
                                 "typeParameters": {
                                     "kind": 307,
-                                    "typeParameters": [
-                                        {
-                                            "kind": 146,
-                                            "name": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
+                                    "declarations": {
+                                        "kind": 310,
+                                        "parameters": [
+                                            {
+                                                "kind": 146,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 72,
+                                                    "end": 73
+                                                },
+                                                "type": null,
+                                                "defaultType": null,
+                                                "flags": 2097152,
                                                 "start": 72,
                                                 "end": 73
-                                            },
-                                            "type": null,
-                                            "defaultType": null,
-                                            "flags": 2097152,
-                                            "start": 72,
-                                            "end": 73
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 72,
+                                        "end": 73
+                                    },
                                     "flags": 2097152,
                                     "start": 70,
                                     "end": 74
@@ -711,11 +726,11 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 149
                                     },
                                     "typeParameters": {
-                                        "kind": 309,
-                                        "parameters": [
-                                            {
-                                                "kind": 310,
-                                                "type": {
+                                        "kind": 310,
+                                        "typeInstantiations": {
+                                            "kind": 309,
+                                            "types": [
+                                                {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -737,12 +752,13 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                     "flags": 2097152,
                                                     "start": 150,
                                                     "end": 154
-                                                },
-                                                "flags": 2097152,
-                                                "start": 150,
-                                                "end": 154
-                                            }
-                                        ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 150,
+                                            "end": 154
+                                        },
                                         "flags": 2097152,
                                         "start": 149,
                                         "end": 155
@@ -1228,18 +1244,18 @@ var {x5}: {x5: string; } = { x5: "hello" };
 
 ```javascript
 
-var a21;
-var identity1;
-var identity2;
-var a17;
-var a18;
-var a19;
-var x2 = fn;
-var x3 = Y;
-var x4 = Y;
+var a21: ;
+var identity1: ;
+var identity2: ;
+var a17: ;
+var a18: ;
+var a19: ;
+var x2:  = fn;
+var x3:  = Y;
+var x4:  = Y;
 var {
   x5
-} = { x5: "\"hello\"" };
+}:  = { x5: "\"hello\"" };
 ```
 
 ### Diagnostics

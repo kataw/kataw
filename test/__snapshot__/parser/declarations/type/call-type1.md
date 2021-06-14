@@ -188,40 +188,47 @@ type Fn2 = <A, B>(A, B) => A | B;
                     },
                     "typeParameters": {
                         "kind": 307,
-                        "typeParameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "A",
-                                    "rawText": "A",
-                                    "flags": 96,
+                        "declarations": {
+                            "kind": 310,
+                            "parameters": [
+                                {
+                                    "kind": 146,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "A",
+                                        "rawText": "A",
+                                        "flags": 96,
+                                        "start": 12,
+                                        "end": 13
+                                    },
+                                    "type": null,
+                                    "defaultType": null,
+                                    "flags": 2097152,
                                     "start": 12,
                                     "end": 13
                                 },
-                                "type": null,
-                                "defaultType": null,
-                                "flags": 2097152,
-                                "start": 12,
-                                "end": 13
-                            },
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "B",
-                                    "rawText": "B",
-                                    "flags": 96,
+                                {
+                                    "kind": 146,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "B",
+                                        "rawText": "B",
+                                        "flags": 96,
+                                        "start": 14,
+                                        "end": 16
+                                    },
+                                    "type": null,
+                                    "defaultType": null,
+                                    "flags": 2097152,
                                     "start": 14,
                                     "end": 16
-                                },
-                                "type": null,
-                                "defaultType": null,
-                                "flags": 2097152,
-                                "start": 14,
-                                "end": 16
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2097152,
+                            "start": 12,
+                            "end": 16
+                        },
                         "flags": 2097152,
                         "start": 10,
                         "end": 17
