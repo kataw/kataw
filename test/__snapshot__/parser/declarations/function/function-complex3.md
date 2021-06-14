@@ -427,7 +427,7 @@ function b1<A: 'a', B: A>(b: B): void {
                             "typeParameters": {
                                 "kind": 307,
                                 "declarations": {
-                                    "kind": 310,
+                                    "kind": 337,
                                     "parameters": [
                                         {
                                             "kind": 146,
@@ -499,7 +499,7 @@ function b1<A: 'a', B: A>(b: B): void {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,
@@ -695,7 +695,7 @@ function b1<A: 'a', B: A>(b: B): void {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,

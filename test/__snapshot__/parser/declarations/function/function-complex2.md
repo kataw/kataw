@@ -170,7 +170,7 @@ function d<X: [number, number]>(x: X): X {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,
@@ -428,7 +428,7 @@ function d<X: [number, number]>(x: X): X {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,
@@ -674,7 +674,7 @@ function d<X: [number, number]>(x: X): X {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,
@@ -932,7 +932,7 @@ function d<X: [number, number]>(x: X): X {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,

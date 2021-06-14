@@ -47,7 +47,7 @@ class Foo7<T> {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,
@@ -103,7 +103,7 @@ class Foo7<T> {
                                 "typeParameters": {
                                     "kind": 307,
                                     "declarations": {
-                                        "kind": 310,
+                                        "kind": 337,
                                         "parameters": [
                                             {
                                                 "kind": 146,

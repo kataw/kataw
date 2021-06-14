@@ -46,7 +46,7 @@ type MyObject<A, B, C> = {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,

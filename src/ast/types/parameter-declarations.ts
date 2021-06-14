@@ -13,7 +13,7 @@ export function createParameterDeclarations(
   end: number
 ): ParameterDeclarations {
   return {
-    kind: SyntaxKind.TypeParameterInstantiation,
+    kind: SyntaxKind.ParameterDeclarations,
     parameters,
     trailingComma,
     flags: NodeFlags.IsTypeNode,

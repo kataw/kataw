@@ -59,7 +59,7 @@ const processArgs =
                             "typeParameters": {
                                 "kind": 307,
                                 "declarations": {
-                                    "kind": 310,
+                                    "kind": 337,
                                     "parameters": [
                                         {
                                             "kind": 146,
@@ -257,7 +257,7 @@ const processArgs =
                                 "typeParameters": {
                                     "kind": 307,
                                     "declarations": {
-                                        "kind": 310,
+                                        "kind": 337,
                                         "parameters": [
                                             {
                                                 "kind": 146,

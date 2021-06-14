@@ -277,7 +277,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "typeParameters": {
                                     "kind": 307,
                                     "declarations": {
-                                        "kind": 310,
+                                        "kind": 337,
                                         "parameters": [
                                             {
                                                 "kind": 146,
@@ -510,7 +510,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "typeParameters": {
                                     "kind": 307,
                                     "declarations": {
-                                        "kind": 310,
+                                        "kind": 337,
                                         "parameters": [
                                             {
                                                 "kind": 146,

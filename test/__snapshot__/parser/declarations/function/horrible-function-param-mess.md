@@ -196,7 +196,7 @@ function processArgs<A1: {}, A2: {}>(
                                 "typeParameters": {
                                     "kind": 307,
                                     "declarations": {
-                                        "kind": 310,
+                                        "kind": 337,
                                         "parameters": [
                                             {
                                                 "kind": 146,
@@ -930,7 +930,7 @@ function processArgs<A1: {}, A2: {}>(
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,
@@ -1372,7 +1372,7 @@ function processArgs<A1: {}, A2: {}>(
                     "typeParameters": {
                         "kind": 307,
                         "declarations": {
-                            "kind": 310,
+                            "kind": 337,
                             "parameters": [
                                 {
                                     "kind": 146,

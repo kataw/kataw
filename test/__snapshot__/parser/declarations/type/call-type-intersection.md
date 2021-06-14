@@ -152,7 +152,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         "typeParameters": {
                                                             "kind": 307,
                                                             "declarations": {
-                                                                "kind": 310,
+                                                                "kind": 337,
                                                                 "parameters": [
                                                                     {
                                                                         "kind": 146,
@@ -271,7 +271,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                         "typeParameters": {
                                                             "kind": 307,
                                                             "declarations": {
-                                                                "kind": 310,
+                                                                "kind": 337,
                                                                 "parameters": [
                                                                     {
                                                                         "kind": 146,

@@ -462,7 +462,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,
@@ -1039,7 +1039,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
-                    "kind": 310,
+                    "kind": 337,
                     "parameters": [
                         {
                             "kind": 146,

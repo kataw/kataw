@@ -189,7 +189,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                     "typeParameters": {
                         "kind": 307,
                         "declarations": {
-                            "kind": 310,
+                            "kind": 337,
                             "parameters": [
                                 {
                                     "kind": 146,
