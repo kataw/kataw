@@ -120,8 +120,8 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                             "start": 13,
                                             "end": 17
                                         },
-                                        "flags": 2097152,
-                                        "start": 12,
+                                        "flags": 0,
+                                        "start": 11,
                                         "end": 19
                                     },
                                     "indexType": {
@@ -162,8 +162,8 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                         "start": 20,
                                         "end": 24
                                     },
-                                    "flags": 2097152,
-                                    "start": 19,
+                                    "flags": 0,
+                                    "start": 11,
                                     "end": 26
                                 },
                                 "indexType": {
@@ -215,16 +215,16 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                     "start": 26,
                                     "end": 38
                                 },
-                                "flags": 2097152,
-                                "start": 26,
+                                "flags": 0,
+                                "start": 11,
                                 "end": 40
                             },
                             "flags": 2097152,
-                            "start": 40,
+                            "start": 11,
                             "end": 41
                         },
                         "flags": 2097152,
-                        "start": 42,
+                        "start": 11,
                         "end": 43
                     },
                     "indexType": {
@@ -300,8 +300,8 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                     "start": 48,
                                                     "end": 52
                                                 },
-                                                "flags": 2097152,
-                                                "start": 47,
+                                                "flags": 0,
+                                                "start": 46,
                                                 "end": 54
                                             },
                                             "indexType": {
@@ -342,8 +342,8 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                 "start": 55,
                                                 "end": 59
                                             },
-                                            "flags": 2097152,
-                                            "start": 54,
+                                            "flags": 0,
+                                            "start": 46,
                                             "end": 61
                                         },
                                         "indexType": {
@@ -395,20 +395,20 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                             "start": 61,
                                             "end": 73
                                         },
-                                        "flags": 2097152,
-                                        "start": 61,
+                                        "flags": 0,
+                                        "start": 46,
                                         "end": 75
                                     },
                                     "flags": 2097152,
-                                    "start": 75,
+                                    "start": 46,
                                     "end": 76
                                 },
                                 "flags": 2097152,
-                                "start": 77,
+                                "start": 46,
                                 "end": 78
                             },
                             "flags": 2097152,
-                            "start": 79,
+                            "start": 46,
                             "end": 80
                         },
                         "returnType": {
@@ -431,8 +431,8 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                         "start": 44,
                         "end": 86
                     },
-                    "flags": 2097152,
-                    "start": 44,
+                    "flags": 0,
+                    "start": 11,
                     "end": 88
                 },
                 "returnType": {

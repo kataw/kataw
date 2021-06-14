@@ -93,8 +93,8 @@ type a = (bj[c] & a | b) => T;
                                         "start": 13,
                                         "end": 14
                                     },
-                                    "flags": 2097152,
-                                    "start": 13,
+                                    "flags": 0,
+                                    "start": 12,
                                     "end": 17
                                 },
                                 {

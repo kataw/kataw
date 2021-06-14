@@ -142,8 +142,8 @@ type a = (...b[([x])=> c] | d) => c;
                                             "start": 15,
                                             "end": 24
                                         },
-                                        "flags": 2097152,
-                                        "start": 15,
+                                        "flags": 0,
+                                        "start": 14,
                                         "end": 27
                                     },
                                     {

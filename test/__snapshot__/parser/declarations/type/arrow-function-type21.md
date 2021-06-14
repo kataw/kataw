@@ -84,7 +84,7 @@ type a = ({}[x]) => T;
                                 "end": 14
                             },
                             "flags": 0,
-                            "start": 10,
+                            "start": 12,
                             "end": 16
                         }
                     ],

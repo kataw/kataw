@@ -165,8 +165,8 @@ type X = (x | y & z, q[t]) => T;
                                     "start": 23,
                                     "end": 24
                                 },
-                                "flags": 2097152,
-                                "start": 23,
+                                "flags": 0,
+                                "start": 22,
                                 "end": 26
                             },
                             "flags": 2097152,

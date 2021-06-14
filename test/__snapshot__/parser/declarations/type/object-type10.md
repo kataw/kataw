@@ -101,15 +101,15 @@ type a = {function:y.z[][][]};
                                         "end": 22
                                     },
                                     "flags": 2097152,
-                                    "start": 19,
+                                    "start": 22,
                                     "end": 24
                                 },
                                 "flags": 2097152,
-                                "start": 19,
+                                "start": 22,
                                 "end": 26
                             },
                             "flags": 2097152,
-                            "start": 19,
+                            "start": 22,
                             "end": 28
                         },
                         "flags": 2097152,

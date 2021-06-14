@@ -95,19 +95,19 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                                     "end": 18
                                                                 },
                                                                 "flags": 2097152,
-                                                                "start": 19,
+                                                                "start": 18,
                                                                 "end": 20
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 21,
+                                                            "start": 18,
                                                             "end": 22
                                                         },
                                                         "flags": 2097152,
-                                                        "start": 23,
+                                                        "start": 18,
                                                         "end": 24
                                                     },
                                                     "flags": 2097152,
-                                                    "start": 25,
+                                                    "start": 18,
                                                     "end": 26
                                                 },
                                                 {

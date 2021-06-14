@@ -97,8 +97,8 @@ type a = ((bj[c] | e) => T);
                                             "start": 14,
                                             "end": 15
                                         },
-                                        "flags": 2097152,
-                                        "start": 14,
+                                        "flags": 0,
+                                        "start": 13,
                                         "end": 18
                                     },
                                     {
@@ -227,8 +227,8 @@ type a = ((bj[c] | e) => T);
                                             "start": 44,
                                             "end": 45
                                         },
-                                        "flags": 2097152,
-                                        "start": 44,
+                                        "flags": 0,
+                                        "start": 43,
                                         "end": 48
                                     },
                                     {

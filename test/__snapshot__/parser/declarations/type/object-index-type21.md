@@ -106,7 +106,7 @@ type x = { [y]: z[q] | null };
                                         "end": 19
                                     },
                                     "flags": 0,
-                                    "start": 15,
+                                    "start": 17,
                                     "end": 22
                                 },
                                 {

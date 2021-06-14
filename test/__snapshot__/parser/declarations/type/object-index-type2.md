@@ -93,8 +93,8 @@ type X = {[bj[c] & a | b]: string};
                                                 "start": 14,
                                                 "end": 15
                                             },
-                                            "flags": 2097152,
-                                            "start": 14,
+                                            "flags": 0,
+                                            "start": 13,
                                             "end": 18
                                         },
                                         {

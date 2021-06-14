@@ -102,8 +102,8 @@ type a = (x,symbol['string']) => T;
                                     "start": 19,
                                     "end": 27
                                 },
-                                "flags": 2097152,
-                                "start": 19,
+                                "flags": 0,
+                                "start": 18,
                                 "end": 29
                             },
                             "flags": 2097152,

@@ -107,7 +107,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                                 "end": 26
                                             },
                                             "flags": 2097152,
-                                            "start": 20,
+                                            "start": 26,
                                             "end": 28
                                         },
                                         "indexType": {
@@ -149,7 +149,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                             "end": 32
                                         },
                                         "flags": 0,
-                                        "start": 20,
+                                        "start": 26,
                                         "end": 34
                                     }
                                 ],

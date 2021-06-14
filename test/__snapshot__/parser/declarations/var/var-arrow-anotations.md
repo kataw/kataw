@@ -99,7 +99,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 13
                                 },
                                 "flags": 2097152,
-                                "start": 6,
+                                "start": 13,
                                 "end": 15
                             },
                             "flags": 2097152,

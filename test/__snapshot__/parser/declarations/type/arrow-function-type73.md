@@ -126,20 +126,20 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                     "start": 19,
                                                                     "end": 30
                                                                 },
-                                                                "flags": 2097152,
-                                                                "start": 19,
+                                                                "flags": 0,
+                                                                "start": 18,
                                                                 "end": 32
                                                             },
                                                             "flags": 2097152,
-                                                            "start": 32,
+                                                            "start": 18,
                                                             "end": 33
                                                         },
                                                         "flags": 2097152,
-                                                        "start": 34,
+                                                        "start": 18,
                                                         "end": 35
                                                     },
                                                     "flags": 2097152,
-                                                    "start": 36,
+                                                    "start": 18,
                                                     "end": 37
                                                 },
                                                 {

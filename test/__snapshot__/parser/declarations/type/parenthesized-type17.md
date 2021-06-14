@@ -83,8 +83,8 @@ type a = (bj[c])[d];
                             "start": 13,
                             "end": 14
                         },
-                        "flags": 2097152,
-                        "start": 13,
+                        "flags": 0,
+                        "start": 12,
                         "end": 16
                     },
                     "flags": 2097152,
@@ -107,7 +107,7 @@ type a = (bj[c])[d];
                     "end": 18
                 },
                 "flags": 0,
-                "start": 8,
+                "start": 16,
                 "end": 20
             },
             "flags": 2097152,

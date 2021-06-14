@@ -89,12 +89,12 @@ type a = (a[b][]) => T;
                             "start": 12,
                             "end": 13
                         },
-                        "flags": 2097152,
-                        "start": 12,
+                        "flags": 0,
+                        "start": 11,
                         "end": 15
                     },
                     "flags": 2097152,
-                    "start": 15,
+                    "start": 11,
                     "end": 16
                 },
                 "returnType": {

@@ -88,8 +88,8 @@ type a = (|1,symbol['string']) => T;
                                     "start": 20,
                                     "end": 28
                                 },
-                                "flags": 2097152,
-                                "start": 20,
+                                "flags": 0,
+                                "start": 19,
                                 "end": 30
                             },
                             "flags": 2097152,

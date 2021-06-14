@@ -78,7 +78,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                     "end": 36
                                 },
                                 "flags": 2097152,
-                                "start": 19,
+                                "start": 36,
                                 "end": 38
                             },
                             "flags": 2097152,
@@ -230,7 +230,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                     "end": 113
                                 },
                                 "flags": 2097152,
-                                "start": 94,
+                                "start": 113,
                                 "end": 115
                             },
                             "flags": 2097152,
@@ -300,7 +300,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                         "end": 162
                                     },
                                     "flags": 2097152,
-                                    "start": 156,
+                                    "start": 162,
                                     "end": 164
                                 },
                                 "flags": 2097152,
@@ -374,7 +374,7 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                                             "end": 209
                                         },
                                         "flags": 2097152,
-                                        "start": 210,
+                                        "start": 209,
                                         "end": 211
                                     },
                                     "flags": 2097152,

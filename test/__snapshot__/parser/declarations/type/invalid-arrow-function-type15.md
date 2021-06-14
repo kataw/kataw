@@ -249,8 +249,8 @@ type a = (((symbol[ | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
                                                 "start": 21,
                                                 "end": 52
                                             },
-                                            "flags": 2097152,
-                                            "start": 19,
+                                            "flags": 0,
+                                            "start": 18,
                                             "end": 53
                                         },
                                         "returnType": {

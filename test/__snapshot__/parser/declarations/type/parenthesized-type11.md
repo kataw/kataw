@@ -117,7 +117,7 @@ type X = (?x.y<z>[]);
                             "end": 17
                         },
                         "flags": 2097152,
-                        "start": 11,
+                        "start": 17,
                         "end": 19
                     },
                     "flags": 2097152,

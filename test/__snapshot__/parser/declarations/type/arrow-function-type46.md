@@ -131,7 +131,7 @@ type a = (a[a & b[a]][c][-1][][]) => T;
                                                     "end": 19
                                                 },
                                                 "flags": 0,
-                                                "start": 15,
+                                                "start": 17,
                                                 "end": 21
                                             }
                                         ],
@@ -139,8 +139,8 @@ type a = (a[a & b[a]][c][-1][][]) => T;
                                         "start": 13,
                                         "end": 20
                                     },
-                                    "flags": 2097152,
-                                    "start": 12,
+                                    "flags": 0,
+                                    "start": 11,
                                     "end": 22
                                 },
                                 "indexType": {
@@ -158,8 +158,8 @@ type a = (a[a & b[a]][c][-1][][]) => T;
                                     "start": 22,
                                     "end": 23
                                 },
-                                "flags": 2097152,
-                                "start": 22,
+                                "flags": 0,
+                                "start": 11,
                                 "end": 25
                             },
                             "indexType": {
@@ -175,16 +175,16 @@ type a = (a[a & b[a]][c][-1][][]) => T;
                                 "start": 25,
                                 "end": 27
                             },
-                            "flags": 2097152,
-                            "start": 25,
+                            "flags": 0,
+                            "start": 11,
                             "end": 29
                         },
                         "flags": 2097152,
-                        "start": 29,
+                        "start": 11,
                         "end": 30
                     },
                     "flags": 2097152,
-                    "start": 31,
+                    "start": 11,
                     "end": 32
                 },
                 "returnType": {

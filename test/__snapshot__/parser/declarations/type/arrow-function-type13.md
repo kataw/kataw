@@ -120,28 +120,28 @@ type a = (a[a & b][][][][][]) => T;
                                             "start": 13,
                                             "end": 17
                                         },
-                                        "flags": 2097152,
-                                        "start": 12,
+                                        "flags": 0,
+                                        "start": 11,
                                         "end": 19
                                     },
                                     "flags": 2097152,
-                                    "start": 19,
+                                    "start": 11,
                                     "end": 20
                                 },
                                 "flags": 2097152,
-                                "start": 21,
+                                "start": 11,
                                 "end": 22
                             },
                             "flags": 2097152,
-                            "start": 23,
+                            "start": 11,
                             "end": 24
                         },
                         "flags": 2097152,
-                        "start": 25,
+                        "start": 11,
                         "end": 26
                     },
                     "flags": 2097152,
-                    "start": 27,
+                    "start": 11,
                     "end": 28
                 },
                 "returnType": {

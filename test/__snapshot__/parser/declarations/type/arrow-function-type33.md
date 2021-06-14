@@ -120,8 +120,8 @@ type a = (a[a & b][c | d][][][][]) => T;
                                             "start": 13,
                                             "end": 17
                                         },
-                                        "flags": 2097152,
-                                        "start": 12,
+                                        "flags": 0,
+                                        "start": 11,
                                         "end": 19
                                     },
                                     "indexType": {
@@ -162,24 +162,24 @@ type a = (a[a & b][c | d][][][][]) => T;
                                         "start": 20,
                                         "end": 24
                                     },
-                                    "flags": 2097152,
-                                    "start": 19,
+                                    "flags": 0,
+                                    "start": 11,
                                     "end": 26
                                 },
                                 "flags": 2097152,
-                                "start": 26,
+                                "start": 11,
                                 "end": 27
                             },
                             "flags": 2097152,
-                            "start": 28,
+                            "start": 11,
                             "end": 29
                         },
                         "flags": 2097152,
-                        "start": 30,
+                        "start": 11,
                         "end": 31
                     },
                     "flags": 2097152,
-                    "start": 32,
+                    "start": 11,
                     "end": 33
                 },
                 "returnType": {

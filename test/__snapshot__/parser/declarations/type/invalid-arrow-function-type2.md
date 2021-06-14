@@ -120,8 +120,8 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                             "start": 13,
                                             "end": 17
                                         },
-                                        "flags": 2097152,
-                                        "start": 12,
+                                        "flags": 0,
+                                        "start": 11,
                                         "end": 19
                                     },
                                     "indexType": {
@@ -162,8 +162,8 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                         "start": 20,
                                         "end": 24
                                     },
-                                    "flags": 2097152,
-                                    "start": 19,
+                                    "flags": 0,
+                                    "start": 11,
                                     "end": 26
                                 },
                                 "indexType": {
@@ -209,20 +209,20 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                     "start": 26,
                                     "end": 34
                                 },
-                                "flags": 2097152,
-                                "start": 26,
+                                "flags": 0,
+                                "start": 11,
                                 "end": 36
                             },
                             "flags": 2097152,
-                            "start": 36,
+                            "start": 11,
                             "end": 37
                         },
                         "flags": 2097152,
-                        "start": 38,
+                        "start": 11,
                         "end": 39
                     },
                     "flags": 2097152,
-                    "start": 40,
+                    "start": 11,
                     "end": 41
                 },
                 "returnType": {

@@ -87,8 +87,8 @@ type a = (bj[c]) => T;
                         "start": 13,
                         "end": 14
                     },
-                    "flags": 2097152,
-                    "start": 13,
+                    "flags": 0,
+                    "start": 12,
                     "end": 16
                 },
                 "returnType": {

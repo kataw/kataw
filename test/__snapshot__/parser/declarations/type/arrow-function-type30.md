@@ -83,27 +83,27 @@ type a = (a[][][][][][]) => T;
                                             "end": 11
                                         },
                                         "flags": 2097152,
-                                        "start": 12,
+                                        "start": 11,
                                         "end": 13
                                     },
                                     "flags": 2097152,
-                                    "start": 14,
+                                    "start": 11,
                                     "end": 15
                                 },
                                 "flags": 2097152,
-                                "start": 16,
+                                "start": 11,
                                 "end": 17
                             },
                             "flags": 2097152,
-                            "start": 18,
+                            "start": 11,
                             "end": 19
                         },
                         "flags": 2097152,
-                        "start": 20,
+                        "start": 11,
                         "end": 21
                     },
                     "flags": 2097152,
-                    "start": 22,
+                    "start": 11,
                     "end": 23
                 },
                 "returnType": {

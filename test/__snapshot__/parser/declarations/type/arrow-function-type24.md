@@ -98,7 +98,7 @@ type a = (1 | 1[symbol & string]) => T;
                                         "end": 31
                                     },
                                     "flags": 0,
-                                    "start": 13,
+                                    "start": 15,
                                     "end": 33
                                 }
                             ],

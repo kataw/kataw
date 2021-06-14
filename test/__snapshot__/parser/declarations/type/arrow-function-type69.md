@@ -133,8 +133,8 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                     "start": 19,
                                                                     "end": 31
                                                                 },
-                                                                "flags": 2097152,
-                                                                "start": 19,
+                                                                "flags": 0,
+                                                                "start": 18,
                                                                 "end": 33
                                                             },
                                                             "indexType": {
@@ -223,20 +223,20 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                     "start": 43,
                                                                                                                     "end": 55
                                                                                                                 },
-                                                                                                                "flags": 2097152,
-                                                                                                                "start": 43,
+                                                                                                                "flags": 0,
+                                                                                                                "start": 42,
                                                                                                                 "end": 57
                                                                                                             },
                                                                                                             "flags": 2097152,
-                                                                                                            "start": 57,
+                                                                                                            "start": 42,
                                                                                                             "end": 58
                                                                                                         },
                                                                                                         "flags": 2097152,
-                                                                                                        "start": 59,
+                                                                                                        "start": 42,
                                                                                                         "end": 60
                                                                                                     },
                                                                                                     "flags": 2097152,
-                                                                                                    "start": 61,
+                                                                                                    "start": 42,
                                                                                                     "end": 62
                                                                                                 },
                                                                                                 {
@@ -480,16 +480,16 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                 "start": 33,
                                                                 "end": 113
                                                             },
-                                                            "flags": 2097152,
-                                                            "start": 33,
+                                                            "flags": 0,
+                                                            "start": 18,
                                                             "end": 115
                                                         },
                                                         "flags": 2097152,
-                                                        "start": 115,
+                                                        "start": 18,
                                                         "end": 116
                                                     },
                                                     "flags": 2097152,
-                                                    "start": 117,
+                                                    "start": 18,
                                                     "end": 118
                                                 },
                                                 {

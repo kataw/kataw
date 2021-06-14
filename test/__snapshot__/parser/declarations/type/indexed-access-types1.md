@@ -72,7 +72,7 @@ type A = Obj['a'];
                     "end": 16
                 },
                 "flags": 0,
-                "start": 8,
+                "start": 12,
                 "end": 18
             },
             "flags": 2097152,

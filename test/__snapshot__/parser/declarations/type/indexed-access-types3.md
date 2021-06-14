@@ -75,8 +75,8 @@ type D = (Obj['bar'])['baz'];
                             "start": 14,
                             "end": 19
                         },
-                        "flags": 2097152,
-                        "start": 14,
+                        "flags": 0,
+                        "start": 13,
                         "end": 21
                     },
                     "flags": 2097152,
@@ -91,7 +91,7 @@ type D = (Obj['bar'])['baz'];
                     "end": 27
                 },
                 "flags": 0,
-                "start": 8,
+                "start": 21,
                 "end": 29
             },
             "flags": 2097152,

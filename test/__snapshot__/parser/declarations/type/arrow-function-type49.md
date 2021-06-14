@@ -93,8 +93,8 @@ type a = (a[b][x][][]) => T;
                                     "start": 12,
                                     "end": 13
                                 },
-                                "flags": 2097152,
-                                "start": 12,
+                                "flags": 0,
+                                "start": 11,
                                 "end": 15
                             },
                             "indexType": {
@@ -112,16 +112,16 @@ type a = (a[b][x][][]) => T;
                                 "start": 15,
                                 "end": 16
                             },
-                            "flags": 2097152,
-                            "start": 15,
+                            "flags": 0,
+                            "start": 11,
                             "end": 18
                         },
                         "flags": 2097152,
-                        "start": 18,
+                        "start": 11,
                         "end": 19
                     },
                     "flags": 2097152,
-                    "start": 20,
+                    "start": 11,
                     "end": 21
                 },
                 "returnType": {

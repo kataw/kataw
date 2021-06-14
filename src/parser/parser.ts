@@ -7103,9 +7103,9 @@ function parseExportDefault(
       declaration = parseClassDeclaration(parser, context, scope, /* isDefaultModifier */ true, null);
       break;
     default:
-      // export default {};
-      // export default [];
-      // export default (1 + 2);
+      // - `export default {};`
+      // - `export default [];`
+      // - `export default (1 + 2);`
       declaration = parseExpression(parser, context);
       parseSemicolon(parser, context);
   }
@@ -7113,7 +7113,34 @@ function parseExportDefault(
 }
 
 function parseType(parser: ParserState, context: Context): TypeNode {
-  return parseUnionType(parser, context);
+  // - `x | y`
+  consumeOpt(parser, context, SyntaxKind.BitwiseOr);
+  // - `x & y`
+  consumeOpt(parser, context, SyntaxKind.BitwiseAnd);
+
+  return parseTypeContinuation(parser, context, parseNullableOrPostfixType(parser, context));
+}
+
+function parseTypeContinuation(parser: ParserState, context: Context, type: TypeNode): TypeNode {
+  if (parser.token === SyntaxKind.BitwiseAnd) {
+    const pos = parser.curPos;
+    const types = [type];
+    while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
+      types.push(parsePostfixType(parser, context, parsePrimaryType(parser, context), parser.curPos));
+    }
+    type = createIntersectionType(types, pos, parser.curPos);
+  }
+
+  if (parser.token === SyntaxKind.BitwiseOr) {
+    const pos = parser.curPos;
+    const types = [type];
+    while (consumeOpt(parser, context, SyntaxKind.BitwiseOr)) {
+      types.push(parseIntersectionType(parser, context));
+    }
+    type = createUnionType(types, pos, parser.curPos);
+  }
+
+  return type;
 }
 
 function parseTypeAnnotation(parser: ParserState, context: Context): TypeAnnotation | null {
@@ -7123,53 +7150,33 @@ function parseTypeAnnotation(parser: ParserState, context: Context): TypeAnnotat
     : null;
 }
 
-function parseUnionType(parser: ParserState, context: Context): TypeNode {
-  consumeOpt(parser, context, SyntaxKind.BitwiseOr);
-  const type = parseIntersectionType(parser, context);
-  if (parser.token === SyntaxKind.BitwiseOr) {
-    const pos = parser.curPos;
-    const types = [type];
-    while (consumeOpt(parser, context, SyntaxKind.BitwiseOr)) {
-      types.push(parseIntersectionType(parser, context));
-    }
-    return createUnionType(types, pos, parser.curPos);
-  }
-  return type;
-}
-
 function parseIntersectionType(parser: ParserState, context: Context): TypeNode {
   consumeOpt(parser, context, SyntaxKind.BitwiseAnd);
-  const type = parsePrefixType(parser, context);
+  const type = parseNullableOrPostfixType(parser, context);
   if (parser.token === SyntaxKind.BitwiseAnd) {
     const pos = parser.curPos;
     const types = [type];
     while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
-      types.push(parsePrefixType(parser, context));
+      types.push(parseNullableOrPostfixType(parser, context));
     }
     return createIntersectionType(types, pos, parser.curPos);
   }
   return type;
 }
 
-function parsePrefixType(parser: ParserState, context: Context): TypeNode {
+function parseNullableOrPostfixType(parser: ParserState, context: Context): NullableType | TypeNode {
+  const pos = parser.curPos;
   return parser.token === SyntaxKind.QuestionMark
-    ? parseNullableType(parser, context)
-    : parsePostfixType(parser, context);
+    ? createNullableType(
+        consumeOptToken(parser, context, SyntaxKind.QuestionMark),
+        parsePostfixType(parser, context, parsePrimaryType(parser, context), parser.curPos),
+        pos,
+        parser.curPos
+      )
+    : parsePostfixType(parser, context, parsePrimaryType(parser, context), pos);
 }
 
-function parseNullableType(parser: ParserState, context: Context): NullableType {
-  const pos = parser.curPos;
-  return createNullableType(
-    consumeOptToken(parser, context, SyntaxKind.QuestionMark),
-    parsePostfixType(parser, context),
-    pos,
-    parser.curPos
-  );
-}
-
-function parsePostfixType(parser: ParserState, context: Context): TypeNode {
-  const pos = parser.curPos;
-  let type = parsePrimaryType(parser, context);
+function parsePostfixType(parser: ParserState, context: Context, type: TypeNode, pos: number): TypeNode {
   let optionalIndexedToken = null;
   while ((parser.nodeFlags & NodeFlags.NewLine) === 0) {
     switch (parser.token) {
@@ -7241,7 +7248,7 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode | Syn
 function parseSubtractionType(parser: ParserState, context: Context): SubtractionType | TypeReference {
   const pos = parser.curPos;
   const subtractionToken = consumeToken(parser, context, SyntaxKind.Subtract);
-  if (parser.token === SyntaxKind.NumericLiteral) {
+  if (parser.token === SyntaxKind.NumericLiteral || parser.token === SyntaxKind.BigIntLiteral) {
     const value = parser.tokenValue;
     nextToken(parser, context);
     return createSubtractionType(subtractionToken, value, pos, parser.curPos);
@@ -7417,7 +7424,11 @@ function parseFunctionTypeParameter(parser: ParserState, context: Context): Func
       );
     }
 
-    type = parsePrimaryTypeRest(parser, context, token, type, pos);
+    type = parseTypeContinuation(
+      parser,
+      context,
+      parsePostfixType(parser, context, convertToPrimaryType(parser, context, token, type, pos), parser.curPos)
+    );
   } else {
     type = parseType(parser, context);
   }
@@ -7444,7 +7455,11 @@ function parseArrowTypeParameter(parser: ParserState, context: Context): Functio
       );
     }
 
-    type = parsePrimaryTypeRest(parser, context, token, type, pos);
+    type = parseTypeContinuation(
+      parser,
+      context,
+      parsePostfixType(parser, context, convertToPrimaryType(parser, context, token, type, pos), parser.curPos)
+    );
   } else {
     type = parseType(parser, context);
   }
@@ -7581,7 +7596,11 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     // - `type X = (x.y);`
     // - `type X = (x.y<>);`
     // - `type X = (x.y<z>);`
-    arg = parsePrimaryTypeRest(parser, context, token, arg, pos);
+    arg = parseTypeContinuation(
+      parser,
+      context,
+      parsePostfixType(parser, context, convertToPrimaryType(parser, context, token, arg, pos), parser.curPos)
+    );
 
     // A comma delimited list is only alowed if this is an arrow, but we don't know this yet.
     // That's okay because we allow a comma delimited list in a 'ParenthesizedType' for error
@@ -7711,7 +7730,11 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
         // - `type a = ((bj[c] & a | b) => T);`
         // - `type X = ((x | y));`
         // - `type X = ((x | y) => T);`
-        type = parsePrimaryTypeRest(parser, context, token, type, pos);
+        type = parseTypeContinuation(
+          parser,
+          context,
+          parsePostfixType(parser, context, convertToPrimaryType(parser, context, token, type, pos), parser.curPos)
+        );
 
         // A comma delimited list is only alowed if this is an arrow, but we don't know this yet.
         // That's okay because we allow a comma delimited list in a 'ParenthesizedType' for error
@@ -8724,7 +8747,11 @@ function parseObjectTypeIndexer(
       consume(parser, context, SyntaxKind.Colon);
       key = parseType(parser, context);
     } else {
-      key = parsePrimaryTypeRest(parser, context, token, key, pos);
+      key = parseTypeContinuation(
+        parser,
+        context,
+        parsePostfixType(parser, context, convertToPrimaryType(parser, context, token, key, pos), parser.curPos)
+      );
     }
   } else {
     key = parseType(parser, context);
@@ -8734,48 +8761,6 @@ function parseObjectTypeIndexer(
   const type = parseReturnType(parser, context);
   parseTypeMemberSemicolon(parser, context);
   return createObjectTypeIndexer(protoKeyword, staticKeyword, name, key, type, pos, parser.curPos);
-}
-
-function parsePrimaryTypeRest(
-  parser: ParserState,
-  context: Context,
-  token: SyntaxKind,
-  type: any,
-  pos: number
-): TypeNode {
-  type = convertToPrimaryType(parser, context, token, type, pos);
-  if (parser.token === SyntaxKind.LeftBracket) {
-    while ((parser.nodeFlags & NodeFlags.NewLine) < 1 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
-      const pos = parser.curPos;
-      if (parser.token & Constants.IsType) {
-        const indexType = parseType(parser, context);
-        consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-        type = createIndexedAccessType(type, indexType, parser.nodeFlags | NodeFlags.IsTypeNode, pos, parser.pos);
-      } else {
-        consume(parser, context, SyntaxKind.RightBracket, DiagnosticCode.Type_expected);
-        type = createArrayType(type, pos, parser.curPos);
-      }
-    }
-  }
-
-  if (parser.token === SyntaxKind.BitwiseAnd) {
-    const pos = parser.curPos;
-    const types = [type];
-    while (consumeOpt(parser, context, SyntaxKind.BitwiseAnd)) {
-      types.push(parsePrefixType(parser, context));
-    }
-    type = createIntersectionType(types, pos, parser.curPos);
-  }
-
-  if (parser.token === SyntaxKind.BitwiseOr) {
-    const pos = parser.curPos;
-    const types = [type];
-    while (consumeOpt(parser, context, SyntaxKind.BitwiseOr)) {
-      types.push(parseIntersectionType(parser, context));
-    }
-    type = createUnionType(types, pos, parser.curPos);
-  }
-  return type;
 }
 
 function parseReturnType(parser: ParserState, context: Context): TypeNode {
@@ -9690,6 +9675,18 @@ export function parseClassStaticBlockDeclaration(
   nodeFlags: NodeFlags,
   pos: number
 ): StaticBlock {
+  // - `class q { static static {} }`
+  if (staticKeyword) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error | DiagnosticKind.EarlyError,
+      diagnosticMap[DiagnosticCode.A_static_initialization_block_cannot_have_the_static_modifier],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
+  // - `@foo class q { static {} }`
   if (decorators) {
     parser.onError(
       DiagnosticSource.Parser,

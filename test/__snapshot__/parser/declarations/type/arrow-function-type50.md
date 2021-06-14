@@ -85,8 +85,8 @@ type a = (a[-1]) => T;
                         "start": 12,
                         "end": 14
                     },
-                    "flags": 2097152,
-                    "start": 12,
+                    "flags": 0,
+                    "start": 11,
                     "end": 16
                 },
                 "returnType": {

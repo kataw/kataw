@@ -201,7 +201,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                         "end": 27
                                                     },
                                                     "flags": 0,
-                                                    "start": 15,
+                                                    "start": 17,
                                                     "end": 29
                                                 }
                                             ],
@@ -209,8 +209,8 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                             "start": 13,
                                             "end": 28
                                         },
-                                        "flags": 2097152,
-                                        "start": 12,
+                                        "flags": 0,
+                                        "start": 11,
                                         "end": 30
                                     },
                                     "indexType": {
@@ -251,8 +251,8 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                         "start": 31,
                                         "end": 35
                                     },
-                                    "flags": 2097152,
-                                    "start": 30,
+                                    "flags": 0,
+                                    "start": 11,
                                     "end": 37
                                 },
                                 "indexType": {
@@ -298,8 +298,8 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                     "start": 37,
                                     "end": 45
                                 },
-                                "flags": 2097152,
-                                "start": 37,
+                                "flags": 0,
+                                "start": 11,
                                 "end": 47
                             },
                             "indexType": {
@@ -315,8 +315,8 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                 "start": 47,
                                 "end": 49
                             },
-                            "flags": 2097152,
-                            "start": 47,
+                            "flags": 0,
+                            "start": 11,
                             "end": 51
                         },
                         "indexType": {
@@ -357,12 +357,12 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                             "start": 51,
                             "end": 57
                         },
-                        "flags": 2097152,
-                        "start": 51,
+                        "flags": 0,
+                        "start": 11,
                         "end": 59
                     },
                     "flags": 2097152,
-                    "start": 59,
+                    "start": 11,
                     "end": 60
                 },
                 "returnType": {

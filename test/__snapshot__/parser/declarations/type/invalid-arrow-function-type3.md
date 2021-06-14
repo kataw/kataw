@@ -118,7 +118,7 @@ type a = (a[a & b[]][c | d][(x) => T][][][]) => T;
                                                         "end": 17
                                                     },
                                                     "flags": 2097152,
-                                                    "start": 15,
+                                                    "start": 17,
                                                     "end": 19
                                                 }
                                             ],
@@ -126,8 +126,8 @@ type a = (a[a & b[]][c | d][(x) => T][][][]) => T;
                                             "start": 13,
                                             "end": 19
                                         },
-                                        "flags": 2097152,
-                                        "start": 12,
+                                        "flags": 0,
+                                        "start": 11,
                                         "end": 21
                                     },
                                     "indexType": {
@@ -168,8 +168,8 @@ type a = (a[a & b[]][c | d][(x) => T][][][]) => T;
                                         "start": 22,
                                         "end": 26
                                     },
-                                    "flags": 2097152,
-                                    "start": 21,
+                                    "flags": 0,
+                                    "start": 11,
                                     "end": 28
                                 },
                                 "indexType": {
@@ -215,20 +215,20 @@ type a = (a[a & b[]][c | d][(x) => T][][][]) => T;
                                     "start": 28,
                                     "end": 36
                                 },
-                                "flags": 2097152,
-                                "start": 28,
+                                "flags": 0,
+                                "start": 11,
                                 "end": 38
                             },
                             "flags": 2097152,
-                            "start": 38,
+                            "start": 11,
                             "end": 39
                         },
                         "flags": 2097152,
-                        "start": 40,
+                        "start": 11,
                         "end": 41
                     },
                     "flags": 2097152,
-                    "start": 42,
+                    "start": 11,
                     "end": 43
                 },
                 "returnType": {

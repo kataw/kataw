@@ -76,7 +76,7 @@ type C = Obj['bar'][foo]['boz'];
                             "end": 18
                         },
                         "flags": 0,
-                        "start": 8,
+                        "start": 12,
                         "end": 20
                     },
                     "indexType": {
@@ -95,7 +95,7 @@ type C = Obj['bar'][foo]['boz'];
                         "end": 23
                     },
                     "flags": 0,
-                    "start": 8,
+                    "start": 12,
                     "end": 25
                 },
                 "indexType": {
@@ -106,7 +106,7 @@ type C = Obj['bar'][foo]['boz'];
                     "end": 30
                 },
                 "flags": 0,
-                "start": 8,
+                "start": 12,
                 "end": 32
             },
             "flags": 2097152,
