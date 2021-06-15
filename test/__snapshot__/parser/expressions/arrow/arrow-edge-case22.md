@@ -26,77 +26,83 @@
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 15,
-                "end": 18
-            },
-            "typeParameters": null,
-            "parameters": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 1,
-                        "end": 2
-                    },
-                    "optionalToken": {
-                        "kind": 134217750,
-                        "flags": 64,
-                        "start": 2,
-                        "end": 3
-                    },
-                    "type": {
-                        "kind": 139,
-                        "bitwiseOrToken": null,
-                        "bitwiseAndToken": null,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 15,
+                    "end": 18
+                },
+                "typeParameters": null,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 1,
+                            "end": 2
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 2,
+                            "end": 3
+                        },
                         "type": {
-                            "kind": 134234345,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234345,
+                                "flags": 2097216,
+                                "start": 4,
+                                "end": 11
+                            },
+                            "flags": 2097152,
                             "start": 4,
                             "end": 11
                         },
-                        "flags": 2097152,
-                        "start": 4,
+                        "right": null,
+                        "flags": 32,
+                        "start": 0,
                         "end": 11
                     },
-                    "right": null,
+                    {
+                        "kind": 134299649,
+                        "text": "b",
+                        "rawText": "b",
+                        "flags": 96,
+                        "start": 12,
+                        "end": 14
+                    }
+                ],
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 20,
+                        "end": 20
+                    },
                     "flags": 32,
-                    "start": 0,
-                    "end": 11
-                },
-                {
-                    "kind": 134299649,
-                    "text": "b",
-                    "rawText": "b",
-                    "flags": 96,
-                    "start": 12,
-                    "end": 14
-                }
-            ],
-            "asyncKeyword": null,
-            "returnType": null,
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 20,
-                    "end": 20
+                    "start": 18,
+                    "end": 21
                 },
                 "flags": 32,
-                "start": 18,
+                "start": 0,
                 "end": 21
             },
-            "flags": 32,
+            "flags": 16,
             "start": 0,
             "end": 21
         },
@@ -203,7 +209,7 @@
 
 ```javascript
 
-(a?, b) =>  {}
+(a?, b) =>  {};
 (x, a?, b) =>  {};
 ```
 

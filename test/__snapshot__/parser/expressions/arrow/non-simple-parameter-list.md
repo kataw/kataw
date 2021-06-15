@@ -22,67 +22,73 @@
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 9,
-                "end": 12
-            },
-            "typeParameters": null,
-            "parameters": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 1,
-                        "end": 3
-                    },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "start": 5,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 9,
+                    "end": 12
+                },
+                "typeParameters": null,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 1,
+                            "end": 3
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 5,
+                            "end": 7
+                        },
+                        "flags": 32,
+                        "start": 0,
                         "end": 7
+                    }
+                ],
+                "asyncKeyword": null,
+                "returnType": null,
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [
+                            {
+                                "kind": 201392131,
+                                "text": "use strict",
+                                "rawText": "'use strict'",
+                                "flags": 4194401,
+                                "start": 14,
+                                "end": 29
+                            }
+                        ],
+                        "statements": [],
+                        "flags": 4194337,
+                        "start": 14,
+                        "end": 30
                     },
                     "flags": 32,
-                    "start": 0,
-                    "end": 7
-                }
-            ],
-            "asyncKeyword": null,
-            "returnType": null,
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [
-                        {
-                            "kind": 201392131,
-                            "text": "use strict",
-                            "rawText": "'use strict'",
-                            "flags": 4194401,
-                            "start": 14,
-                            "end": 29
-                        }
-                    ],
-                    "statements": [],
-                    "flags": 4194337,
-                    "start": 14,
-                    "end": 30
+                    "start": 12,
+                    "end": 32
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 34,
+                "start": 0,
                 "end": 32
             },
-            "flags": 34,
+            "flags": 16,
             "start": 0,
             "end": 32
         },

@@ -1630,7 +1630,7 @@ export function parseExpressionOrLabelledStatement(
     expr.kind === SyntaxKind.ArrowFunction &&
     parser.token === SyntaxKind.LeftParen
   ) {
-    return expr;
+    return parseExpressionStatement(parser, context, expr, curPos);
   }
 
   return token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier) && parser.token === SyntaxKind.Colon
