@@ -119,6 +119,7 @@ function* g() {
                 "start": 32,
                 "end": 34
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -417,7 +418,6 @@ function* g() {
                 "start": 36,
                 "end": 155
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 22,

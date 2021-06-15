@@ -41,6 +41,7 @@ while (function* () {} === x);
                         "end": 16
                     },
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -63,7 +64,6 @@ while (function* () {} === x);
                         "start": 19,
                         "end": 22
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 7,

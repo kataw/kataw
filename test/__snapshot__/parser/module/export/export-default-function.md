@@ -47,6 +47,7 @@ export default function () {}
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -69,7 +70,6 @@ export default function () {}
                     "start": 26,
                     "end": 29
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 14,

@@ -124,6 +124,7 @@ function targetKey() {
                 "start": 24,
                 "end": 31
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -330,7 +331,6 @@ function targetKey() {
                 "start": 33,
                 "end": 138
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 14,
@@ -355,6 +355,7 @@ function targetKey() {
                 "start": 147,
                 "end": 154
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -570,7 +571,6 @@ function targetKey() {
                 "start": 156,
                 "end": 262
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 138,
@@ -595,6 +595,7 @@ function targetKey() {
                 "start": 271,
                 "end": 281
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -695,6 +696,7 @@ function targetKey() {
                                                 },
                                                 "generatorToken": null,
                                                 "name": null,
+                                                "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -789,7 +791,6 @@ function targetKey() {
                                                     "start": 355,
                                                     "end": 436
                                                 },
-                                                "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 32,
                                                 "start": 344,
@@ -822,7 +823,6 @@ function targetKey() {
                 "start": 283,
                 "end": 445
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 262,
@@ -847,6 +847,7 @@ function targetKey() {
                 "start": 454,
                 "end": 464
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -947,6 +948,7 @@ function targetKey() {
                                                 },
                                                 "generatorToken": null,
                                                 "name": null,
+                                                "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -1041,7 +1043,6 @@ function targetKey() {
                                                     "start": 538,
                                                     "end": 619
                                                 },
-                                                "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 32,
                                                 "start": 527,
@@ -1074,7 +1075,6 @@ function targetKey() {
                 "start": 466,
                 "end": 628
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 445,

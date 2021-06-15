@@ -80,6 +80,7 @@ switch (0) { case 1: async function* f() {} default: var f }
                                     "start": 36,
                                     "end": 38
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -102,7 +103,6 @@ switch (0) { case 1: async function* f() {} default: var f }
                                     "start": 40,
                                     "end": 43
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 400,
                                 "start": 20,

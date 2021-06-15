@@ -199,6 +199,7 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -221,7 +222,6 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                                             "start": 51,
                                             "end": 54
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 160,
                                         "start": 34,

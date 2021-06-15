@@ -42,6 +42,7 @@ function not_gen() { function foo(yield) { }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -75,6 +76,7 @@ function not_gen() { function foo(yield) { }}
                                 "start": 29,
                                 "end": 33
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -106,7 +108,6 @@ function not_gen() { function foo(yield) { }}
                                 "start": 40,
                                 "end": 44
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 20,
@@ -121,7 +122,6 @@ function not_gen() { function foo(yield) { }}
                 "start": 18,
                 "end": 45
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

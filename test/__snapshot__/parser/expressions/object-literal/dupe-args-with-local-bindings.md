@@ -274,6 +274,7 @@ class o {f([b, a], ...b) {}}
                                         "start": 55,
                                         "end": 57
                                     },
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -296,7 +297,6 @@ class o {f([b, a], ...b) {}}
                                         "start": 59,
                                         "end": 62
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 16,
                                     "start": 46,

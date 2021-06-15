@@ -114,6 +114,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -157,7 +158,6 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                 "start": 41,
                                 "end": 57
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -203,7 +203,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
 
 ```javascript
 
-var f:  = function () {
+var f:  = function (): string {
   return  "\"hi\"";
 }; // return types
 ```

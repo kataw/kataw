@@ -46,6 +46,7 @@ function relativeComplement() {
                 "start": 8,
                 "end": 27
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -597,7 +598,6 @@ function relativeComplement() {
                 "start": 29,
                 "end": 358
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

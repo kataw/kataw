@@ -54,6 +54,7 @@ while(y)
                         },
                         "generatorToken": null,
                         "name": null,
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -76,7 +77,6 @@ while(y)
                             "start": 16,
                             "end": 18
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 32,
                         "start": 6,

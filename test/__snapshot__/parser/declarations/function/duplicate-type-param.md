@@ -40,28 +40,6 @@ function foo<T><T>() {}
                 "start": 8,
                 "end": 12
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 15,
-                "end": 15
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 15,
-                    "end": 15
-                },
-                "flags": 32,
-                "start": 15,
-                "end": 15
-            },
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
@@ -91,6 +69,28 @@ function foo<T><T>() {}
                 },
                 "flags": 2097152,
                 "start": 12,
+                "end": 15
+            },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 15,
+                "end": 15
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 15,
+                    "end": 15
+                },
+                "flags": 32,
+                "start": 15,
                 "end": 15
             },
             "returnType": null,

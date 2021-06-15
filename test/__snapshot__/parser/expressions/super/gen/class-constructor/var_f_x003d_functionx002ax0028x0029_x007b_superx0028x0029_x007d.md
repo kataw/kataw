@@ -123,6 +123,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                     "end": 43
                                                                 },
                                                                 "name": null,
+                                                                "typeParameters": null,
                                                                 "formalParameters": {
                                                                     "kind": 214,
                                                                     "formalParameterList": [],
@@ -178,7 +179,6 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                     "start": 45,
                                                                     "end": 58
                                                                 },
-                                                                "typeParameters": null,
                                                                 "returnType": null,
                                                                 "flags": 288,
                                                                 "start": 33,

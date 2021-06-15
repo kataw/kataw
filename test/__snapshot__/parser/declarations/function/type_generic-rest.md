@@ -46,6 +46,53 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 "start": 8,
                 "end": 15
             },
+            "typeParameters": {
+                "kind": 307,
+                "declarations": {
+                    "kind": 337,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A",
+                                "rawText": "A",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 17
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "start": 16,
+                            "end": 17
+                        },
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "B",
+                                "rawText": "B",
+                                "flags": 96,
+                                "start": 18,
+                                "end": 20
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "start": 18,
+                            "end": 20
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 16,
+                    "end": 20
+                },
+                "flags": 2097152,
+                "start": 15,
+                "end": 21
+            },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -235,53 +282,6 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 "start": 50,
                 "end": 94
             },
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "A",
-                                "rawText": "A",
-                                "flags": 96,
-                                "start": 16,
-                                "end": 17
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 16,
-                            "end": 17
-                        },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 96,
-                                "start": 18,
-                                "end": 20
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 18,
-                            "end": 20
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 16,
-                    "end": 20
-                },
-                "flags": 2097152,
-                "start": 15,
-                "end": 21
-            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -459,7 +459,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
 
 ```javascript
 
-function remove(a) {
+function  <A, B >remove(a):  [: , :  ] {
   const {
     p,
     ...o

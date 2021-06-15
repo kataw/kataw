@@ -47,6 +47,7 @@ function* a(b,c,d,) {}
                 "start": 9,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -94,7 +95,6 @@ function* a(b,c,d,) {}
                 "start": 19,
                 "end": 22
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

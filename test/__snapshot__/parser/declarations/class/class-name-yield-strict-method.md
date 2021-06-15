@@ -55,6 +55,7 @@ function *f() {
                 "start": 22,
                 "end": 24
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -167,7 +168,6 @@ function *f() {
                 "start": 26,
                 "end": 61
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 13,
@@ -211,6 +211,7 @@ function *f() {
                 "start": 87,
                 "end": 88
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -323,7 +324,6 @@ function *f() {
                 "start": 90,
                 "end": 125
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 76,

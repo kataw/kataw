@@ -51,6 +51,7 @@ function * g() {
                 "start": 10,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -149,7 +150,6 @@ function * g() {
                 "start": 14,
                 "end": 66
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

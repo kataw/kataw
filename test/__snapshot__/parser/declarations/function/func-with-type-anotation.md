@@ -42,6 +42,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -237,7 +238,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 65,
                 "end": 67
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

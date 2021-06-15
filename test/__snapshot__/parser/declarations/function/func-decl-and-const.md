@@ -34,6 +34,7 @@ function f(){ function x(){} const x = y; }
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -67,6 +68,7 @@ function f(){ function x(){} const x = y; }
                                 "start": 22,
                                 "end": 24
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -89,7 +91,6 @@ function f(){ function x(){} const x = y; }
                                 "start": 26,
                                 "end": 28
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 13,
@@ -148,7 +149,6 @@ function f(){ function x(){} const x = y; }
                 "start": 12,
                 "end": 43
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

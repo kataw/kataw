@@ -34,6 +34,7 @@ function f(x) { { const x = y } }
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -124,7 +125,6 @@ function f(x) { { const x = y } }
                 "start": 13,
                 "end": 33
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

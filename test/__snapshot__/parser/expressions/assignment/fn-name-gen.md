@@ -120,6 +120,7 @@ gen = function*() {};
                         "start": 32,
                         "end": 34
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -142,7 +143,6 @@ gen = function*() {};
                         "start": 36,
                         "end": 39
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 22,
@@ -190,6 +190,7 @@ gen = function*() {};
                         "end": 56
                     },
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -212,7 +213,6 @@ gen = function*() {};
                         "start": 58,
                         "end": 61
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 46,

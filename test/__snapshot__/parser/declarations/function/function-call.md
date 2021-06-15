@@ -40,6 +40,7 @@ function foo():any{return ""};
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -83,7 +84,6 @@ function foo():any{return ""};
                 "start": 18,
                 "end": 29
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -122,7 +122,7 @@ function foo():any{return ""};
 
 ```javascript
 
-function foo() {
+function foo(): any {
   return  "\"\"";
 }
 

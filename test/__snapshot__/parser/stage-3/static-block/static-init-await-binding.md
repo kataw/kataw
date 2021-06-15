@@ -82,6 +82,7 @@ class C {
                                                         "start": 34,
                                                         "end": 40
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [
@@ -113,7 +114,6 @@ class C {
                                                         "start": 47,
                                                         "end": 50
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 32,
                                                     "start": 26,

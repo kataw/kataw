@@ -41,6 +41,7 @@ function* wrap() {
                 "start": 9,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -133,7 +134,6 @@ function* wrap() {
                 "start": 16,
                 "end": 46
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

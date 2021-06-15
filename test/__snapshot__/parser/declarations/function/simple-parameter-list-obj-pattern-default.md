@@ -36,6 +36,7 @@ function a({ option1, option2 } = {}) {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -122,7 +123,6 @@ function a({ option1, option2 } = {}) {
                 "start": 37,
                 "end": 57
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

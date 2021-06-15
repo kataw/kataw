@@ -34,6 +34,20 @@ function foo<,>() {}
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": {
+                "kind": 307,
+                "declarations": {
+                    "kind": 337,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 13,
+                    "end": 13
+                },
+                "flags": 2097152,
+                "start": 12,
+                "end": 13
+            },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -54,20 +68,6 @@ function foo<,>() {}
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 13
-            },
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 13,
-                    "end": 13
-                },
-                "flags": 2097152,
-                "start": 12,
                 "end": 13
             },
             "returnType": null,

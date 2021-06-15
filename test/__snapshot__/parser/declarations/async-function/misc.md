@@ -52,6 +52,7 @@ function test1() {
                 "start": 8,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -90,6 +91,7 @@ function test1() {
                                 "start": 35,
                                 "end": 39
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -133,7 +135,6 @@ function test1() {
                                 "start": 41,
                                 "end": 62
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 18,
@@ -163,6 +164,7 @@ function test1() {
                                 "start": 80,
                                 "end": 84
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -373,7 +375,6 @@ function test1() {
                                 "start": 86,
                                 "end": 199
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 62,
@@ -388,7 +389,6 @@ function test1() {
                 "start": 16,
                 "end": 201
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

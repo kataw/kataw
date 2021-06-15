@@ -94,6 +94,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                         },
                                                         "generatorToken": null,
                                                         "name": null,
+                                                        "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
                                                             "formalParameterList": [
@@ -160,7 +161,6 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                             "start": 46,
                                                             "end": 48
                                                         },
-                                                        "typeParameters": null,
                                                         "returnType": null,
                                                         "flags": 160,
                                                         "start": 18,

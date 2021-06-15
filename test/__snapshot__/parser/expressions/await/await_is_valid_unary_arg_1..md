@@ -39,6 +39,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -72,6 +73,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                 "start": 31,
                                 "end": 33
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -216,7 +218,6 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                 "start": 64,
                                 "end": 66
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 19,
@@ -231,7 +232,6 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                 "start": 18,
                 "end": 71
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

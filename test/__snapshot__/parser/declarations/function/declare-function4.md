@@ -47,6 +47,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                 "start": 16,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -162,7 +163,6 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                 "end": 48
             },
             "contents": null,
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -195,7 +195,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
 
 ```javascript
 
-function bar(config);
+function bar(config): void;
 ```
 
 ### Diagnostics

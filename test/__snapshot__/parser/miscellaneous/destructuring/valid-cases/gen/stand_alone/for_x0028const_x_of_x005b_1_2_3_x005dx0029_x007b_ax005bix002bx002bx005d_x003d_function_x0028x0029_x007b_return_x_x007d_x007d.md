@@ -162,6 +162,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                     },
                                     "generatorToken": null,
                                     "name": null,
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -205,7 +206,6 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                         "start": 51,
                                         "end": 65
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 39,

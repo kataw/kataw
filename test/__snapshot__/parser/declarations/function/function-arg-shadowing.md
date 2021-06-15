@@ -231,6 +231,7 @@ class C {
                 "start": 52,
                 "end": 56
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -272,7 +273,6 @@ class C {
                 "start": 61,
                 "end": 61
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

@@ -53,6 +53,7 @@ function foo():number{}
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -75,7 +76,6 @@ function foo():number{}
                 "start": 21,
                 "end": 23
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -108,7 +108,7 @@ function foo():number{}
 
 ```javascript
 
-function foo() {}
+function foo(): number {}
 ```
 
 ### Diagnostics

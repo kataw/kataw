@@ -63,6 +63,7 @@ class x extends function {}
                         },
                         "generatorToken": null,
                         "name": null,
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -85,7 +86,6 @@ class x extends function {}
                             "start": 24,
                             "end": 27
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 32,
                         "start": 15,

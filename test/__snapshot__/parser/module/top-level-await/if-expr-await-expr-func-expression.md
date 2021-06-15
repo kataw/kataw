@@ -48,6 +48,7 @@ if (await function() {}) {}
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -70,7 +71,6 @@ if (await function() {}) {}
                         "start": 20,
                         "end": 23
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 9,

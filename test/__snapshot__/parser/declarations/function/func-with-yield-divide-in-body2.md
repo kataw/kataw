@@ -42,6 +42,7 @@ function f2() { yield /=2 /d }
                 "start": 8,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -119,7 +120,6 @@ function f2() { yield /=2 /d }
                 "start": 13,
                 "end": 30
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

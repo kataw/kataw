@@ -47,6 +47,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -243,7 +244,6 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                 "start": 18,
                 "end": 96
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

@@ -71,6 +71,7 @@ async (x = delete ((function) = f)) => {}
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -93,7 +94,6 @@ async (x = delete ((function) = f)) => {}
                                             "start": 28,
                                             "end": 28
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 20,

@@ -39,6 +39,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                 "start": 9,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -77,6 +78,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                 "start": 25,
                                 "end": 29
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -158,7 +160,6 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                 "start": 46,
                                 "end": 49
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 272,
                             "start": 15,
@@ -173,7 +174,6 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                 "start": 13,
                 "end": 51
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

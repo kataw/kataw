@@ -52,6 +52,7 @@ async function * f() { for await({a} = 1 of []){ } }
                 "start": 16,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -169,7 +170,6 @@ async function * f() { for await({a} = 1 of []){ } }
                 "start": 20,
                 "end": 52
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 0,

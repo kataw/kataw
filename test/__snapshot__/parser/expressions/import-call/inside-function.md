@@ -36,6 +36,7 @@ function loadImport(file) {
                 "start": 8,
                 "end": 19
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -130,7 +131,6 @@ function loadImport(file) {
                 "start": 25,
                 "end": 65
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

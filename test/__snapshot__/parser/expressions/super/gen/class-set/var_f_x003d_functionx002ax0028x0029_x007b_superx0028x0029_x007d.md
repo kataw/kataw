@@ -137,6 +137,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                     "end": 38
                                                                 },
                                                                 "name": null,
+                                                                "typeParameters": null,
                                                                 "formalParameters": {
                                                                     "kind": 214,
                                                                     "formalParameterList": [],
@@ -192,7 +193,6 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                     "start": 40,
                                                                     "end": 53
                                                                 },
-                                                                "typeParameters": null,
                                                                 "returnType": null,
                                                                 "flags": 288,
                                                                 "start": 28,

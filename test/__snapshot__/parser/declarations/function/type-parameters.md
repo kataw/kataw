@@ -285,6 +285,20 @@ type T = <
                 "start": 109,
                 "end": 113
             },
+            "typeParameters": {
+                "kind": 307,
+                "declarations": {
+                    "kind": 337,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 114,
+                    "end": 114
+                },
+                "flags": 2097152,
+                "start": 113,
+                "end": 128
+            },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -306,20 +320,6 @@ type T = <
                 "flags": 32,
                 "start": 130,
                 "end": 133
-            },
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 114,
-                    "end": 114
-                },
-                "flags": 2097152,
-                "start": 113,
-                "end": 128
             },
             "returnType": null,
             "flags": 16,
@@ -745,6 +745,20 @@ type T = <
                 "start": 340,
                 "end": 344
             },
+            "typeParameters": {
+                "kind": 307,
+                "declarations": {
+                    "kind": 337,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 345,
+                    "end": 345
+                },
+                "flags": 2097152,
+                "start": 344,
+                "end": 362
+            },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -766,20 +780,6 @@ type T = <
                 "flags": 32,
                 "start": 364,
                 "end": 367
-            },
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 345,
-                    "end": 345
-                },
-                "flags": 2097152,
-                "start": 344,
-                "end": 362
             },
             "returnType": null,
             "flags": 16,

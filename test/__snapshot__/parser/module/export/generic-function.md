@@ -48,6 +48,7 @@ export function d(): Promise<boolean> {}
                     "start": 15,
                     "end": 17
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -70,7 +71,6 @@ export function d(): Promise<boolean> {}
                     "start": 37,
                     "end": 40
                 },
-                "typeParameters": null,
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -148,7 +148,7 @@ export function d(): Promise<boolean> {}
 
 ```javascript
 
-export function d() {}
+export function d():  {}
 ```
 
 ### Diagnostics

@@ -44,6 +44,7 @@ await 0 }
                 "start": 10,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -131,7 +132,6 @@ await 0 }
                 "start": 15,
                 "end": 38
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
@@ -161,6 +161,7 @@ await 0 }
                 "start": 55,
                 "end": 59
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -246,7 +247,6 @@ await 0 }
                 "start": 61,
                 "end": 84
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 38,

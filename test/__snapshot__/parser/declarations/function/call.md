@@ -50,6 +50,7 @@ function g(x: () => any) {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -191,7 +192,6 @@ function g(x: () => any) {
                 "start": 18,
                 "end": 46
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -216,6 +216,7 @@ function g(x: () => any) {
                 "start": 56,
                 "end": 58
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -386,7 +387,6 @@ function g(x: () => any) {
                 "start": 72,
                 "end": 100
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 46,

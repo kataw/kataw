@@ -42,6 +42,7 @@ function f({ __proto__: x, __proto__: y}) {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -128,7 +129,6 @@ function f({ __proto__: x, __proto__: y}) {}
                 "start": 41,
                 "end": 44
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

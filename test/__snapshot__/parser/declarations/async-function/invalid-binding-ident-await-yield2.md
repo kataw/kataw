@@ -45,6 +45,7 @@ async function bar () {
                 "start": 14,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -113,7 +114,6 @@ async function bar () {
                 "start": 21,
                 "end": 42
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
@@ -143,6 +143,7 @@ async function bar () {
                 "start": 58,
                 "end": 62
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -210,7 +211,6 @@ async function bar () {
                 "start": 65,
                 "end": 86
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 42,

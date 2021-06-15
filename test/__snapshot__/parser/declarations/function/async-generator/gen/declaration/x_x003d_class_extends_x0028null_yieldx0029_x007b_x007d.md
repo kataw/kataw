@@ -53,6 +53,7 @@ async function * gen() {x = class extends (null, yield) { }}
                 "start": 16,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -178,7 +179,6 @@ async function * gen() {x = class extends (null, yield) { }}
                 "start": 22,
                 "end": 60
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 0,

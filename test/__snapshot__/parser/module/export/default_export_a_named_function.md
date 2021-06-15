@@ -54,6 +54,7 @@ export default function f(){}
                     "start": 23,
                     "end": 25
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -76,7 +77,6 @@ export default function f(){}
                     "start": 27,
                     "end": 29
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 14,

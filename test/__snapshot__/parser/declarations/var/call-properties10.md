@@ -136,6 +136,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -199,7 +200,6 @@ var g: { (x: string): void } = function(x: mixed) { }
                                 "start": 49,
                                 "end": 53
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 30,

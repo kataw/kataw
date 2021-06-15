@@ -47,28 +47,6 @@ export default function <T>() {}
                 },
                 "generatorToken": null,
                 "name": null,
-                "formalParameters": {
-                    "kind": 214,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 27,
-                    "end": 29
-                },
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 31,
-                        "end": 31
-                    },
-                    "flags": 32,
-                    "start": 29,
-                    "end": 32
-                },
                 "typeParameters": {
                     "kind": 307,
                     "declarations": {
@@ -100,6 +78,28 @@ export default function <T>() {}
                     "start": 23,
                     "end": 27
                 },
+                "formalParameters": {
+                    "kind": 214,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 27,
+                    "end": 29
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 31,
+                        "end": 31
+                    },
+                    "flags": 32,
+                    "start": 29,
+                    "end": 32
+                },
                 "returnType": null,
                 "flags": 16,
                 "start": 14,
@@ -123,7 +123,7 @@ export default function <T>() {}
 
 ```javascript
 
-export default function () {};
+export default function  <T >() {};
 ```
 
 ### Diagnostics

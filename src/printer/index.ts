@@ -90,6 +90,18 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
         return printKeyword(node, printer, node.start, node, /* separator */ false);
       case SyntaxKind.TypeAnnotation:
         return printTypeAnnotation(node, printer, node);
+      case SyntaxKind.ArrayType:
+        return printArrayType(node, printer, node);
+      case SyntaxKind.IndexedAccessType:
+        return printIndexedAccessType(node, printer, node);
+      case SyntaxKind.TupleType:
+       return printTupleType(node, printer, node);
+       case SyntaxKind.TypeParameterDeclaration:
+       return printTypeParameterDeclaration(node, printer, node);
+       case SyntaxKind.TypeParameterList:
+        return printTypeParameterList(node, printer, node);
+        case SyntaxKind.TypeParameter:
+          return printParameter(node, printer, node);
     }
   }
 
@@ -1644,13 +1656,17 @@ function printFunctionDeclarationOrExpression(node: any, printer: Printer): any 
       : ''
   ];
 
+  if (node.typeParameters) {
+    parts.push(printStatements(node.typeParameters, printer, node));
+  }
+
   if (node.name) {
     parts.push(printStatements(node.name, printer, node));
   }
 
   parts.push(
     group(
-      chain([printStatements(node.formalParameters, printer, node) /*printTypeAnnotation(node.type, printer, node)*/])
+      chain([printStatements(node.formalParameters, printer, node), node.returnType ? printTypeAnnotation(node.returnType, printer, node ): ''])
     ),
     printFunctionBody(node.contents, printer)
   );
@@ -1977,3 +1993,54 @@ function printTypeAnnotation(node: any, printer: Printer, parentNode: any): any 
     printStatements(node.type, printer, parentNode)
   ]);
 }
+
+function printArrayType(node: any, printer: Printer, parentNode: any): any {
+  return chain([
+    '[',
+    printer.space,
+    printStatements(node.type, printer, parentNode),
+    printer.space,
+    ']',
+  ]);
+}
+
+function printIndexedAccessType(node: any, printer: Printer, parentNode: any): any {
+  return chain([
+    '[',
+    printer.space,
+    printStatements(node.objectType, printer, parentNode),
+    printStatements(node.indexType, printer, parentNode),
+    printer.space,
+    ']',
+  ]);
+}
+
+function printTypeParameterDeclaration(node: any, printer: Printer, parentNode: any): any {
+  return printStatements(node.declarations, printer, node);
+}
+
+function printParameter(node: any, printer: Printer, parentNode: any): any {
+  return chain([
+    printStatements(node.name, printer, parentNode),
+    printStatements(node.defaultType, printer, parentNode),
+    printStatements(node.type, printer, parentNode),
+  ]);
+}
+
+function printTypeParameterList(node: any, printer: Printer, parentNode: any): any {
+  return chain([
+    printer.space,
+    '<',group(chain(printDelimitedList(node.parameters, printer, node, printStatements, ',', false))),printer.space,
+    '>',
+  ]);
+}
+
+function printTupleType(node: any, printer: Printer, parentNode: any): any {
+  return chain([
+    printer.space,
+    '[',group(chain(printDelimitedList(node.elementTypes, printer, node, printStatements, ',', false))),printer.space,
+    ']',
+  ]);
+}
+
+

@@ -37,6 +37,7 @@ function bar(a = v[1 + 1]) {
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -119,7 +120,6 @@ function bar(a = v[1 + 1]) {
                 "start": 26,
                 "end": 30
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -144,6 +144,7 @@ function bar(a = v[1 + 1]) {
                 "start": 40,
                 "end": 44
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -226,7 +227,6 @@ function bar(a = v[1 + 1]) {
                 "start": 58,
                 "end": 62
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 30,

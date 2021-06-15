@@ -52,6 +52,7 @@ export default async function() { };
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -74,7 +75,6 @@ export default async function() { };
                     "start": 31,
                     "end": 35
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 144,
                 "start": 14,

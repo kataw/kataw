@@ -123,6 +123,7 @@ s.map(// do something
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -145,7 +146,6 @@ s.map(// do something
                                 "start": 70,
                                 "end": 74
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 39,
@@ -180,7 +180,7 @@ s.map(// do something
 ```javascript
 //commment here
 
-var s: ;
+var s: [ string ];
 s.map(function () {});
 ```
 

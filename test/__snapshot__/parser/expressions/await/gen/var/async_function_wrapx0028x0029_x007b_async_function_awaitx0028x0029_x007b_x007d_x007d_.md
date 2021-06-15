@@ -103,6 +103,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -141,6 +142,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                     "start": 53,
                                                     "end": 58
                                                 },
+                                                "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -179,6 +181,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                     "start": 77,
                                                                     "end": 83
                                                                 },
+                                                                "typeParameters": null,
                                                                 "formalParameters": {
                                                                     "kind": 214,
                                                                     "formalParameterList": [],
@@ -201,7 +204,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                     "start": 85,
                                                                     "end": 89
                                                                 },
-                                                                "typeParameters": null,
                                                                 "returnType": null,
                                                                 "flags": 144,
                                                                 "start": 62,
@@ -216,7 +218,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                     "start": 60,
                                                     "end": 91
                                                 },
-                                                "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 144,
                                                 "start": 38,
@@ -237,7 +238,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                     "start": 36,
                                     "end": 94
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 20,

@@ -55,6 +55,7 @@ for (function(){ if (a in b); }.prop in x);
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -126,7 +127,6 @@ for (function(){ if (a in b); }.prop in x);
                         "start": 15,
                         "end": 31
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 5,

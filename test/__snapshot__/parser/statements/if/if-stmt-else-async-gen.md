@@ -70,6 +70,7 @@ if (false) ; else async function* f() {  }
                     "start": 33,
                     "end": 35
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -92,7 +93,6 @@ if (false) ; else async function* f() {  }
                     "start": 37,
                     "end": 42
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 400,
                 "start": 17,

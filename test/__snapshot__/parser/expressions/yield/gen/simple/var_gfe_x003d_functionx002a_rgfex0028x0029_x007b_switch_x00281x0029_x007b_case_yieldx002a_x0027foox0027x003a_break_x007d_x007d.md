@@ -70,6 +70,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "start": 19,
                                 "end": 24
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -175,7 +176,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "start": 26,
                                 "end": 71
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 288,
                             "start": 9,

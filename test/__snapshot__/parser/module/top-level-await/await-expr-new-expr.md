@@ -61,6 +61,7 @@ await new Promise(function(res, rej) { res(1); });
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [
@@ -138,7 +139,6 @@ await new Promise(function(res, rej) { res(1); });
                                     "start": 36,
                                     "end": 48
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 18,

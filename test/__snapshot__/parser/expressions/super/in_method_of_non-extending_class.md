@@ -94,6 +94,7 @@ class x { fo(){ return function() { super.foo; } }}
                                                     },
                                                     "generatorToken": null,
                                                     "name": null,
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -149,7 +150,6 @@ class x { fo(){ return function() { super.foo; } }}
                                                         "start": 33,
                                                         "end": 48
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 32,
                                                     "start": 22,

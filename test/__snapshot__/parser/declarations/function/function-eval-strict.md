@@ -36,6 +36,7 @@ function arguments() { "use strict"; }
                 "start": 8,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -67,7 +68,6 @@ function arguments() { "use strict"; }
                 "start": 15,
                 "end": 33
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -92,6 +92,7 @@ function arguments() { "use strict"; }
                 "start": 43,
                 "end": 53
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -123,7 +124,6 @@ function arguments() { "use strict"; }
                 "start": 55,
                 "end": 73
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 33,

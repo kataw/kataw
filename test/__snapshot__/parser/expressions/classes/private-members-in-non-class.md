@@ -82,6 +82,7 @@ class C { test() {get #a() { }}}
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -160,7 +161,6 @@ class C { test() {get #a() { }}}
                 "start": 20,
                 "end": 37
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 8,
@@ -178,6 +178,7 @@ class C { test() {get #a() { }}}
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -214,7 +215,6 @@ class C { test() {get #a() { }}}
                 "start": 49,
                 "end": 55
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 37,

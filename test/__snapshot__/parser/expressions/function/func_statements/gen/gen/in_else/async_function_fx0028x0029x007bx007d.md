@@ -84,6 +84,7 @@ else async function f(){}
                     "start": 29,
                     "end": 31
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -106,7 +107,6 @@ else async function f(){}
                     "start": 33,
                     "end": 35
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 144,
                 "start": 14,

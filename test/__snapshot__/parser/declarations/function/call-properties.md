@@ -50,6 +50,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "start": 62,
                 "end": 64
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -221,7 +222,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "start": 118,
                 "end": 134
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -288,6 +288,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "start": 176,
                 "end": 178
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -459,7 +460,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "start": 232,
                 "end": 248
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -522,11 +522,11 @@ function e(x: { (): string; (x: number): string }): () => number {
 ```javascript
 // Only one call property needs to match the function
 
-function d(x) {
+function d(x):  {
   return  x;
 }
 // ...but you need at least one
-function e(x) {
+function e(x):  {
   return  x;
 }
 ```

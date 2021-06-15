@@ -168,6 +168,7 @@ var x, y, z; for (x of x = { x: async function() {} } = z = {});
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -190,7 +191,6 @@ var x, y, z; for (x of x = { x: async function() {} } = z = {});
                                             "start": 48,
                                             "end": 51
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 160,
                                         "start": 31,

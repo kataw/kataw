@@ -42,6 +42,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -95,6 +96,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                 "end": 40
                                             },
                                             "name": null,
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -241,7 +243,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                 "start": 42,
                                                 "end": 91
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 288,
                                             "start": 30,
@@ -269,7 +270,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                 "start": 18,
                 "end": 94
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

@@ -42,6 +42,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -127,7 +128,6 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                 "start": 18,
                 "end": 56
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

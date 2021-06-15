@@ -52,6 +52,7 @@ for (async function *(){} in x) ;
                     "end": 21
                 },
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -74,7 +75,6 @@ for (async function *(){} in x) ;
                     "start": 23,
                     "end": 25
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 416,
                 "start": 5,

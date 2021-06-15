@@ -49,6 +49,7 @@ function *P(){
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -115,6 +116,7 @@ function *P(){
                                             "start": 47,
                                             "end": 49
                                         },
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -137,7 +139,6 @@ function *P(){
                                             "start": 51,
                                             "end": 53
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 160,
                                         "start": 32,
@@ -172,7 +173,6 @@ function *P(){
                 "start": 13,
                 "end": 58
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -48,6 +48,7 @@ async function f() { 'use strict'; for await
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -209,7 +210,6 @@ async function f() { 'use strict'; for await
                 "start": 18,
                 "end": 86
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

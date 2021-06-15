@@ -64,6 +64,7 @@ do throw function (v, h) {
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [
@@ -112,7 +113,6 @@ do throw function (v, h) {
                         "start": 24,
                         "end": 43
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 8,

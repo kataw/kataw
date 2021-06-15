@@ -70,6 +70,7 @@ var f = async function f(x = function() { let await = 0; }) {}
                                 "start": 22,
                                 "end": 24
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -97,6 +98,7 @@ var f = async function f(x = function() { let await = 0; }) {}
                                             },
                                             "generatorToken": null,
                                             "name": null,
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -164,7 +166,6 @@ var f = async function f(x = function() { let await = 0; }) {}
                                                 "start": 39,
                                                 "end": 58
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 32,
                                             "start": 28,
@@ -194,7 +195,6 @@ var f = async function f(x = function() { let await = 0; }) {}
                                 "start": 59,
                                 "end": 62
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 160,
                             "start": 7,

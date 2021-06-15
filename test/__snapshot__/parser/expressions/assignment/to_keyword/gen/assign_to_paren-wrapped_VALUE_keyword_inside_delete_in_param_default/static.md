@@ -47,6 +47,7 @@ function *f(x = delete ((static) = f)) {}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -139,7 +140,6 @@ function *f(x = delete ((static) = f)) {}
                 "start": 38,
                 "end": 41
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

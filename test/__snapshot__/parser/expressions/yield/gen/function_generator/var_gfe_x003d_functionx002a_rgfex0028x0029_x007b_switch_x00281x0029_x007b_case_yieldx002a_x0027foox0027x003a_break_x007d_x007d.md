@@ -47,6 +47,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -141,6 +143,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                 "start": 59,
                                                                 "end": 64
                                                             },
+                                                            "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
@@ -246,7 +249,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                 "start": 66,
                                                                 "end": 111
                                                             },
-                                                            "typeParameters": null,
                                                             "returnType": null,
                                                             "flags": 288,
                                                             "start": 49,
@@ -274,7 +276,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                 "start": 37,
                                 "end": 113
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -289,7 +290,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                 "start": 16,
                 "end": 114
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

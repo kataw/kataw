@@ -86,6 +86,7 @@ class A {
                 "start": 16,
                 "end": 26
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -282,7 +283,6 @@ class A {
                 "start": 30,
                 "end": 115
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 6,

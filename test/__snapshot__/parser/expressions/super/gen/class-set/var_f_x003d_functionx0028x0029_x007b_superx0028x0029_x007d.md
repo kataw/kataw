@@ -132,6 +132,7 @@ class C { set x(_) { var f = function() { super(); } } }
                                                                 },
                                                                 "generatorToken": null,
                                                                 "name": null,
+                                                                "typeParameters": null,
                                                                 "formalParameters": {
                                                                     "kind": 214,
                                                                     "formalParameterList": [],
@@ -187,7 +188,6 @@ class C { set x(_) { var f = function() { super(); } } }
                                                                     "start": 39,
                                                                     "end": 52
                                                                 },
-                                                                "typeParameters": null,
                                                                 "returnType": null,
                                                                 "flags": 32,
                                                                 "start": 28,

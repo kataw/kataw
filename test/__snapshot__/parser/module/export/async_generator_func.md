@@ -64,6 +64,7 @@ export default async function *f(){} foo
                     "start": 31,
                     "end": 32
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -86,7 +87,6 @@ export default async function *f(){} foo
                     "start": 34,
                     "end": 36
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 400,
                 "start": 14,

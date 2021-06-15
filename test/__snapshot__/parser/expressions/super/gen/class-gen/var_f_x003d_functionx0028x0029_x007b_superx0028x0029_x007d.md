@@ -123,6 +123,7 @@ class C { *method() { var f = function() { super(); } } }
                                                                 },
                                                                 "generatorToken": null,
                                                                 "name": null,
+                                                                "typeParameters": null,
                                                                 "formalParameters": {
                                                                     "kind": 214,
                                                                     "formalParameterList": [],
@@ -178,7 +179,6 @@ class C { *method() { var f = function() { super(); } } }
                                                                     "start": 40,
                                                                     "end": 53
                                                                 },
-                                                                "typeParameters": null,
                                                                 "returnType": null,
                                                                 "flags": 32,
                                                                 "start": 29,

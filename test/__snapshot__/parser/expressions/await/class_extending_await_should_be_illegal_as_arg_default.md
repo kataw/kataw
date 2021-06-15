@@ -39,6 +39,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -178,7 +179,6 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                 "start": 18,
                 "end": 73
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

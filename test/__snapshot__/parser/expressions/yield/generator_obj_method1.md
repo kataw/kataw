@@ -39,6 +39,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -276,7 +277,6 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                 "start": 18,
                 "end": 68
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

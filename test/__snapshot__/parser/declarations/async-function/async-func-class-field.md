@@ -58,6 +58,7 @@ async function f() { class C { aaa = await } }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -158,7 +159,6 @@ async function f() { class C { aaa = await } }
                 "start": 18,
                 "end": 46
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

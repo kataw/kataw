@@ -42,6 +42,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -182,7 +183,6 @@ function b(x: { (z: number): string }): (z: number) => number {
                 "start": 61,
                 "end": 77
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -275,7 +275,7 @@ function b(x: { (z: number): string }): (z: number) => number {
 
 ```javascript
 
-function b(x) {
+function b(x):  {
   return  x;
 }
 ```

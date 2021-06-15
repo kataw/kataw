@@ -64,6 +64,7 @@ do function foo() {} while (0);
                     "start": 11,
                     "end": 15
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -86,7 +87,6 @@ do function foo() {} while (0);
                     "start": 17,
                     "end": 20
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 2,

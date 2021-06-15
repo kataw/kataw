@@ -176,6 +176,7 @@ do while [catch] =! class function try while with foo!
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -198,7 +199,6 @@ do while [catch] =! class function try while with foo!
                 "start": 34,
                 "end": 34
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 25,

@@ -98,6 +98,7 @@ do do do function while while while while
                         },
                         "generatorToken": null,
                         "name": null,
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -120,7 +121,6 @@ do do do function while while while while
                             "start": 17,
                             "end": 17
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
                         "start": 8,

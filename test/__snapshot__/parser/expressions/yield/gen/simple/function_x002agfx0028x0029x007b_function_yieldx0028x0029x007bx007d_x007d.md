@@ -47,6 +47,7 @@ function *gf(){ function yield(){}; }
                 "start": 10,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function *gf(){ function yield(){}; }
                                 "start": 24,
                                 "end": 30
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -102,7 +104,6 @@ function *gf(){ function yield(){}; }
                                 "start": 32,
                                 "end": 34
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 15,
@@ -123,7 +124,6 @@ function *gf(){ function yield(){}; }
                 "start": 14,
                 "end": 37
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

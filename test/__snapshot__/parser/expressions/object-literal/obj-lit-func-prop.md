@@ -54,28 +54,6 @@
                                     },
                                     "generatorToken": null,
                                     "name": null,
-                                    "formalParameters": {
-                                        "kind": 214,
-                                        "formalParameterList": [],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 17,
-                                        "end": 19
-                                    },
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 21,
-                                            "end": 21
-                                        },
-                                        "flags": 32,
-                                        "start": 19,
-                                        "end": 22
-                                    },
                                     "typeParameters": {
                                         "kind": 307,
                                         "declarations": {
@@ -106,6 +84,28 @@
                                         "flags": 2097152,
                                         "start": 13,
                                         "end": 17
+                                    },
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 17,
+                                        "end": 19
+                                    },
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 21,
+                                            "end": 21
+                                        },
+                                        "flags": 32,
+                                        "start": 19,
+                                        "end": 22
                                     },
                                     "returnType": null,
                                     "flags": 32,
@@ -148,7 +148,7 @@
 
 ```javascript
 
-({ f: function () {} });
+({ f: function  <T >() {} });
 ```
 
 ### Diagnostics

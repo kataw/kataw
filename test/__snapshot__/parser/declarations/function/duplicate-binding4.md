@@ -35,6 +35,7 @@ function f() { { { var x } function x() {} }}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -125,6 +126,7 @@ function f() { { { var x } function x() {} }}
                                             "start": 35,
                                             "end": 37
                                         },
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -147,7 +149,6 @@ function f() { { { var x } function x() {} }}
                                             "start": 39,
                                             "end": 42
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 16,
                                         "start": 26,
@@ -171,7 +172,6 @@ function f() { { { var x } function x() {} }}
                 "start": 12,
                 "end": 45
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

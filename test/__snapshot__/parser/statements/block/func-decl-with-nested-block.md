@@ -34,6 +34,7 @@
                 "start": 9,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -147,7 +148,6 @@
                 "start": 13,
                 "end": 34
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

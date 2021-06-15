@@ -42,6 +42,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                 "start": 8,
                 "end": 19
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -158,7 +159,6 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                 "start": 29,
                 "end": 59
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

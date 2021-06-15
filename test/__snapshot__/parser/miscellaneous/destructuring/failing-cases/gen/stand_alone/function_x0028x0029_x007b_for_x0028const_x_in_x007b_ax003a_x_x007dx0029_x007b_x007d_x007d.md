@@ -35,6 +35,7 @@ function () { for (const x in { a: x }) { } }
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -152,7 +153,6 @@ function () { for (const x in { a: x }) { } }
                 "start": 11,
                 "end": 45
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

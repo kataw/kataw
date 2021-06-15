@@ -70,6 +70,7 @@ var f = async function f(x = function *await() {}) {}
                                 "start": 22,
                                 "end": 24
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -109,6 +110,7 @@ var f = async function f(x = function *await() {}) {}
                                                 "start": 39,
                                                 "end": 44
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -131,7 +133,6 @@ var f = async function f(x = function *await() {}) {}
                                                 "start": 46,
                                                 "end": 49
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 288,
                                             "start": 28,
@@ -161,7 +162,6 @@ var f = async function f(x = function *await() {}) {}
                                 "start": 50,
                                 "end": 53
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 160,
                             "start": 7,

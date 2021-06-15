@@ -40,6 +40,7 @@ async function a(options = {}) {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -103,7 +104,6 @@ async function a(options = {}) {
                 "start": 32,
                 "end": 52
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -133,6 +133,7 @@ async function a(options = {}) {
                 "start": 68,
                 "end": 70
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -196,7 +197,6 @@ async function a(options = {}) {
                 "start": 84,
                 "end": 104
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 52,

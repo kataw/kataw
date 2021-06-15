@@ -53,6 +53,7 @@ if (true) function* g() {  }
                     "start": 19,
                     "end": 21
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -75,7 +76,6 @@ if (true) function* g() {  }
                     "start": 23,
                     "end": 28
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 272,
                 "start": 9,

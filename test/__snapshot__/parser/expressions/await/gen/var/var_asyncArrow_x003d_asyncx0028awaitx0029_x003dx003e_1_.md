@@ -103,6 +103,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -233,7 +234,6 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                     "start": 36,
                                     "end": 76
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 20,

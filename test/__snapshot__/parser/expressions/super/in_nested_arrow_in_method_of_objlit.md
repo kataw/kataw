@@ -101,6 +101,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                             },
                                                             "generatorToken": null,
                                                             "name": null,
+                                                            "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
@@ -156,7 +157,6 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                 "start": 34,
                                                                 "end": 49
                                                             },
-                                                            "typeParameters": null,
                                                             "returnType": null,
                                                             "flags": 32,
                                                             "start": 23,

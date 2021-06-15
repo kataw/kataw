@@ -103,6 +103,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -141,6 +142,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                     "start": 53,
                                                     "end": 55
                                                 },
+                                                "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -340,7 +342,6 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                     "start": 57,
                                                     "end": 112
                                                 },
-                                                "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 144,
                                                 "start": 38,
@@ -355,7 +356,6 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                     "start": 36,
                                     "end": 114
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 20,

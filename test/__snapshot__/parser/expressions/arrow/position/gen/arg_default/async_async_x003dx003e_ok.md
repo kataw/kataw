@@ -42,6 +42,7 @@ function f(a = async async => ok) {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -118,7 +119,6 @@ function f(a = async async => ok) {}
                 "start": 33,
                 "end": 36
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

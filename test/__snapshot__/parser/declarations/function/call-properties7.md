@@ -45,6 +45,7 @@ function e(x: {}): () => string {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -122,7 +123,6 @@ function e(x: {}): () => string {
                 "start": 31,
                 "end": 47
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -184,7 +184,7 @@ function e(x: {}): () => string {
 
 ```javascript
 
-function e(x) {
+function e(x):  {
   return  x;
 }
 ```

@@ -63,6 +63,7 @@ var asyncFn = async function(await) {};
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -94,7 +95,6 @@ var asyncFn = async function(await) {};
                                 "start": 35,
                                 "end": 38
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 160,
                             "start": 13,

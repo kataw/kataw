@@ -42,6 +42,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -186,7 +187,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                 "start": 18,
                 "end": 61
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

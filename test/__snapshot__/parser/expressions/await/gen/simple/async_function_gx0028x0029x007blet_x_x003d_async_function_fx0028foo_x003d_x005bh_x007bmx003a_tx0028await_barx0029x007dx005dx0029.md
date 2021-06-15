@@ -47,6 +47,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -107,6 +108,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                                 "start": 41,
                                                 "end": 43
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [
@@ -243,7 +245,6 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                                 "start": 73,
                                                 "end": 75
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 160,
                                             "start": 26,
@@ -271,7 +272,6 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                 "start": 18,
                 "end": 80
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

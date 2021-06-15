@@ -1803,6 +1803,7 @@ let x = { foo(){ super(); } };
                                     },
                                     "generatorToken": null,
                                     "name": null,
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -1858,7 +1859,6 @@ let x = { foo(){ super(); } };
                                         "start": 512,
                                         "end": 526
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 501,
@@ -1922,6 +1922,7 @@ let x = { foo(){ super(); } };
                         "start": 539,
                         "end": 541
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [
@@ -1988,7 +1989,6 @@ let x = { foo(){ super(); } };
                         "start": 554,
                         "end": 557
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 531,
@@ -2054,6 +2054,7 @@ let x = { foo(){ super(); } };
                                         "start": 573,
                                         "end": 575
                                     },
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -2109,7 +2110,6 @@ let x = { foo(){ super(); } };
                                         "start": 577,
                                         "end": 588
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 564,
@@ -2284,6 +2284,7 @@ let x = { foo(){ super(); } };
                 "start": 630,
                 "end": 632
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2350,7 +2351,6 @@ let x = { foo(){ super(); } };
                 "start": 645,
                 "end": 648
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 621,
@@ -2381,6 +2381,7 @@ let x = { foo(){ super(); } };
                 "start": 658,
                 "end": 660
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -2436,7 +2437,6 @@ let x = { foo(){ super(); } };
                 "start": 662,
                 "end": 674
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 649,

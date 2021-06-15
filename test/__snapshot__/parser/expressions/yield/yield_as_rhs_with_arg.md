@@ -39,6 +39,7 @@ function *g() { function f(x = x + yield y) {}; }
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -72,6 +73,7 @@ function *g() { function f(x = x + yield y) {}; }
                                 "start": 24,
                                 "end": 26
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -148,7 +150,6 @@ function *g() { function f(x = x + yield y) {}; }
                                 "start": 43,
                                 "end": 46
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 15,
@@ -169,7 +170,6 @@ function *g() { function f(x = x + yield y) {}; }
                 "start": 13,
                 "end": 49
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

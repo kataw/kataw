@@ -57,6 +57,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -109,7 +110,6 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                                 "start": 78,
                                 "end": 118
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 7,

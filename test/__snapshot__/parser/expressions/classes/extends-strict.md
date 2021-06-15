@@ -109,6 +109,7 @@ class C extends (function B() {
                                     "start": 33,
                                     "end": 35
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -184,7 +185,6 @@ class C extends (function B() {
                                     "start": 37,
                                     "end": 66
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 25,

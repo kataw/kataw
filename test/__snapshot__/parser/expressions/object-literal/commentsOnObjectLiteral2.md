@@ -90,6 +90,7 @@ var Person = makeClass(
                                                         },
                                                         "generatorToken": null,
                                                         "name": null,
+                                                        "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
                                                             "formalParameterList": [
@@ -168,7 +169,6 @@ var Person = makeClass(
                                                             "start": 215,
                                                             "end": 255
                                                         },
-                                                        "typeParameters": null,
                                                         "returnType": null,
                                                         "flags": 32,
                                                         "start": 200,

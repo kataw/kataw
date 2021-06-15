@@ -43,6 +43,7 @@ function bar() { }
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -65,7 +66,6 @@ function bar() { }
                 "start": 14,
                 "end": 18
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -90,6 +90,7 @@ function bar() { }
                 "start": 27,
                 "end": 31
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -112,7 +113,6 @@ function bar() { }
                 "start": 33,
                 "end": 37
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 18,

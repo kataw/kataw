@@ -47,6 +47,7 @@ async function f() { for await ({[Symbol.iterator]: a = 1} = 1 of []) ; }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -212,7 +213,6 @@ async function f() { for await ({[Symbol.iterator]: a = 1} = 1 of []) ; }
                 "start": 18,
                 "end": 73
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

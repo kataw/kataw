@@ -39,6 +39,7 @@ function* bar() { yield class {} }
                 "start": 9,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -111,7 +112,6 @@ function* bar() { yield class {} }
                 "start": 15,
                 "end": 34
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

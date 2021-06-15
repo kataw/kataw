@@ -39,6 +39,7 @@ function* foo(a = {*bar() { yield b }}) {}
                 "start": 9,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -176,7 +177,6 @@ function* foo(a = {*bar() { yield b }}) {}
                 "start": 39,
                 "end": 42
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -48,6 +48,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -88,7 +89,6 @@ function f(x, ...y) { 'use strict' }
                 "start": 13,
                 "end": 30
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -113,6 +113,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 40,
                 "end": 42
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -168,7 +169,6 @@ function f(x, ...y) { 'use strict' }
                 "start": 47,
                 "end": 64
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 30,
@@ -193,6 +193,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 74,
                 "end": 76
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -248,7 +249,6 @@ function f(x, ...y) { 'use strict' }
                 "start": 81,
                 "end": 98
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 64,
@@ -273,6 +273,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 108,
                 "end": 110
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -330,7 +331,6 @@ function f(x, ...y) { 'use strict' }
                 "start": 117,
                 "end": 134
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 98,
@@ -355,6 +355,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 144,
                 "end": 146
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -418,7 +419,6 @@ function f(x, ...y) { 'use strict' }
                 "start": 155,
                 "end": 172
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 134,
@@ -439,6 +439,7 @@ function f(x, ...y) { 'use strict' }
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [
@@ -494,7 +495,6 @@ function f(x, ...y) { 'use strict' }
                         "start": 188,
                         "end": 205
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 175,
@@ -523,6 +523,7 @@ function f(x, ...y) { 'use strict' }
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [
@@ -580,7 +581,6 @@ function f(x, ...y) { 'use strict' }
                         "start": 225,
                         "end": 242
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 210,
@@ -609,6 +609,7 @@ function f(x, ...y) { 'use strict' }
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [
@@ -672,7 +673,6 @@ function f(x, ...y) { 'use strict' }
                         "start": 264,
                         "end": 281
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 247,

@@ -39,6 +39,7 @@ function *f() { 1 ? 2 : yield 3; }
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -124,7 +125,6 @@ function *f() { 1 ? 2 : yield 3; }
                 "start": 13,
                 "end": 34
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

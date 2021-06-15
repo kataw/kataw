@@ -103,6 +103,7 @@ var await; var f = (async function() { let [await f] = []; });
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -199,7 +200,6 @@ var await; var f = (async function() { let [await f] = []; });
                                     "start": 36,
                                     "end": 60
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 20,

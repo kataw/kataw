@@ -52,15 +52,6 @@ declare function foo(): void
                 "start": 16,
                 "end": 20
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 23,
-                "end": 25
-            },
-            "contents": null,
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
@@ -92,6 +83,15 @@ declare function foo(): void
                 "start": 20,
                 "end": 23
             },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 23,
+                "end": 25
+            },
+            "contents": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -140,6 +140,7 @@ declare function foo(): void
                 "start": 50,
                 "end": 54
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -212,7 +213,6 @@ declare function foo(): void
                 "end": 76
             },
             "contents": null,
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -261,6 +261,7 @@ declare function foo(): void
                 "start": 101,
                 "end": 105
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -270,7 +271,6 @@ declare function foo(): void
                 "end": 107
             },
             "contents": null,
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -303,9 +303,9 @@ declare function foo(): void
 
 ```javascript
 
-function foo();
-function foo(x, y);
-function foo();
+function  <T >foo(): void;
+function foo(x, y): void;
+function foo(): void;
 ```
 
 ### Diagnostics

@@ -62,6 +62,7 @@ function baz(x: boolean) {
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -342,7 +343,6 @@ function baz(x: boolean) {
                 "start": 24,
                 "end": 132
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -367,6 +367,7 @@ function baz(x: boolean) {
                 "start": 142,
                 "end": 146
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -506,7 +507,6 @@ function baz(x: boolean) {
                 "start": 158,
                 "end": 203
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 132,
@@ -531,6 +531,7 @@ function baz(x: boolean) {
                 "start": 213,
                 "end": 217
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -670,7 +671,6 @@ function baz(x: boolean) {
                 "start": 229,
                 "end": 276
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 203,

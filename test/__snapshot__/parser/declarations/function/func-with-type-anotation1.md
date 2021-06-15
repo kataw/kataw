@@ -42,6 +42,7 @@ function g(a:number=1, e:number=1) {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -141,7 +142,6 @@ function g(a:number=1, e:number=1) {}
                 "start": 34,
                 "end": 37
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

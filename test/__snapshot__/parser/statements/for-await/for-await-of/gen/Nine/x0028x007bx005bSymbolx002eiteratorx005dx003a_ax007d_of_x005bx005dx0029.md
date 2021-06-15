@@ -53,6 +53,7 @@ await ({[Symbol.iterator]: a} of []) { } }
                 "start": 16,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -185,7 +186,6 @@ await ({[Symbol.iterator]: a} of []) { } }
                 "start": 20,
                 "end": 69
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 0,

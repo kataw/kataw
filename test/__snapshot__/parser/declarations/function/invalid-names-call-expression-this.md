@@ -34,6 +34,7 @@ function fn() { (() => this)().#x }
                 "start": 8,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -118,7 +119,6 @@ function fn() { (() => this)().#x }
                 "start": 13,
                 "end": 35
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

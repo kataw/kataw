@@ -61,6 +61,7 @@ let x = function *f(foo = await){}
                                 "start": 18,
                                 "end": 19
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -109,7 +110,6 @@ let x = function *f(foo = await){}
                                 "start": 32,
                                 "end": 34
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 288,
                             "start": 7,

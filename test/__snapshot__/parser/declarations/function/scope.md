@@ -79,6 +79,7 @@ function for_scope_var() {
                 "start": 8,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -320,7 +321,6 @@ function for_scope_var() {
                 "start": 22,
                 "end": 108
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -345,6 +345,7 @@ function for_scope_var() {
                 "start": 117,
                 "end": 133
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -378,6 +379,7 @@ function for_scope_var() {
                                 "start": 195,
                                 "end": 197
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -489,7 +491,6 @@ function for_scope_var() {
                                 "start": 261,
                                 "end": 281
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -517,7 +518,6 @@ function for_scope_var() {
                 "start": 135,
                 "end": 283
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 108,
@@ -542,6 +542,7 @@ function for_scope_var() {
                 "start": 293,
                 "end": 309
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -619,6 +620,7 @@ function for_scope_var() {
                                 "start": 389,
                                 "end": 392
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -762,7 +764,6 @@ function for_scope_var() {
                                 "start": 413,
                                 "end": 477
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -800,6 +801,7 @@ function for_scope_var() {
                                 "start": 488,
                                 "end": 491
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -913,7 +915,6 @@ function for_scope_var() {
                                 "start": 536,
                                 "end": 571
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -941,7 +942,6 @@ function for_scope_var() {
                 "start": 311,
                 "end": 573
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 283,
@@ -966,6 +966,7 @@ function for_scope_var() {
                 "start": 583,
                 "end": 597
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1105,7 +1106,6 @@ function for_scope_var() {
                 "start": 599,
                 "end": 672
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 573,
@@ -1130,6 +1130,7 @@ function for_scope_var() {
                 "start": 682,
                 "end": 696
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1270,7 +1271,6 @@ function for_scope_var() {
                 "start": 698,
                 "end": 777
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 672,
@@ -1301,19 +1301,19 @@ function block_scope() {
 function default_param_1() {
   // function binding in scope in default expr
   function f(x = f // error: number ~> string
-  ) {
+  ): number {
     return  0;
   }
 }
 function default_param_2() {
   // fn body bindings not visible from param scope
   let a = "\"\"";
-  function f0(x = () =>  a) {
+  function f0(x = () =>  a): number {
     let a = 0;
     return  x(); // error: string ~> number
 
   }
-  function f1(x = b /* error: cannot resolve b */) {
+  function f1(x = b /* error: cannot resolve b */): number {
     let b = 0;
     return  x;
   }

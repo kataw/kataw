@@ -2465,7 +2465,7 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-var a: ;
+var a: [ number ];
 var a: ;
 var a: ;
 var x:  = Y;

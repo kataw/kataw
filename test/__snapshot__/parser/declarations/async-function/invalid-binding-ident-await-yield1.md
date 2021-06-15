@@ -53,6 +53,7 @@ function * bar1() {
                 "start": 14,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -121,7 +122,6 @@ function * bar1() {
                 "start": 21,
                 "end": 42
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
@@ -151,6 +151,7 @@ function * bar1() {
                 "start": 58,
                 "end": 62
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -218,7 +219,6 @@ function * bar1() {
                 "start": 65,
                 "end": 86
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 42,
@@ -248,6 +248,7 @@ function * bar1() {
                 "start": 98,
                 "end": 103
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -316,7 +317,6 @@ function * bar1() {
                 "start": 105,
                 "end": 126
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 86,
@@ -346,6 +346,7 @@ function * bar1() {
                 "start": 138,
                 "end": 143
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -413,7 +414,6 @@ function * bar1() {
                 "start": 145,
                 "end": 166
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 126,

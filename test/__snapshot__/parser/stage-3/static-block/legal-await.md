@@ -250,6 +250,7 @@ class C {
                                                         "start": 168,
                                                         "end": 174
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -272,7 +273,6 @@ class C {
                                                         "start": 176,
                                                         "end": 179
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 32,
                                                     "start": 160,
@@ -349,6 +349,7 @@ class C {
                                                     },
                                                     "generatorToken": null,
                                                     "name": null,
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -392,7 +393,6 @@ class C {
                                                         "start": 375,
                                                         "end": 393
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 32,
                                                     "start": 364,

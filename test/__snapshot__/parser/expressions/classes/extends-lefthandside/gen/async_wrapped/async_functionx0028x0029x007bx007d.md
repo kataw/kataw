@@ -49,6 +49,7 @@ async function p(){
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -108,6 +109,7 @@ async function p(){
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -130,7 +132,6 @@ async function p(){
                                             "start": 54,
                                             "end": 56
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 160,
                                         "start": 37,
@@ -165,7 +166,6 @@ async function p(){
                 "start": 18,
                 "end": 61
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

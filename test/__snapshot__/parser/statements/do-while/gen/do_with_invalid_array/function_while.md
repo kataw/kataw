@@ -129,6 +129,7 @@ do while [catch] function while
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -151,7 +152,6 @@ do while [catch] function while
                 "start": 25,
                 "end": 25
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 16,

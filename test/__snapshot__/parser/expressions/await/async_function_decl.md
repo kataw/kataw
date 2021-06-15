@@ -39,6 +39,7 @@ async function await(){}
                 "start": 14,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -61,7 +62,6 @@ async function await(){}
                 "start": 22,
                 "end": 24
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

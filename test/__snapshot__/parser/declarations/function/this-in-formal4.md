@@ -42,6 +42,7 @@ function one(this: number) {}
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -83,7 +84,6 @@ function one(this: number) {}
                 "start": 25,
                 "end": 25
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

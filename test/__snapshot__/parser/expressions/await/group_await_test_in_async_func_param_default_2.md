@@ -39,6 +39,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -77,6 +78,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                 "start": 37,
                                 "end": 39
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -163,7 +165,6 @@ async function f(){    async function g(x=(await z)=y){}   }
                                 "start": 54,
                                 "end": 56
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 19,
@@ -178,7 +179,6 @@ async function f(){    async function g(x=(await z)=y){}   }
                 "start": 18,
                 "end": 60
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

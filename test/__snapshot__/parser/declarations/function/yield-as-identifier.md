@@ -40,6 +40,7 @@ function *foo() { let x = {yield} }
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -118,7 +119,6 @@ function *foo() { let x = {yield} }
                 "start": 14,
                 "end": 32
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -143,6 +143,7 @@ function *foo() { let x = {yield} }
                 "start": 42,
                 "end": 46
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -225,7 +226,6 @@ function *foo() { let x = {yield} }
                 "start": 48,
                 "end": 68
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 32,
@@ -255,6 +255,7 @@ function *foo() { let x = {yield} }
                 "start": 80,
                 "end": 83
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -333,7 +334,6 @@ function *foo() { let x = {yield} }
                 "start": 85,
                 "end": 103
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 68,
@@ -363,6 +363,7 @@ function *foo() { let x = {yield} }
                 "start": 115,
                 "end": 118
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -445,7 +446,6 @@ function *foo() { let x = {yield} }
                 "start": 120,
                 "end": 140
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 103,

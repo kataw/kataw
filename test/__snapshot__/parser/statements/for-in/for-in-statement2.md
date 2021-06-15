@@ -44,6 +44,37 @@ function F<T>() {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": {
+                "kind": 307,
+                "declarations": {
+                    "kind": 337,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 12
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "start": 11,
+                            "end": 12
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 11,
+                    "end": 12
+                },
+                "flags": 2097152,
+                "start": 10,
+                "end": 13
+            },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -191,37 +222,6 @@ function F<T>() {
                 "start": 15,
                 "end": 62
             },
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "start": 11,
-                                "end": 12
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 11,
-                            "end": 12
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 11,
-                    "end": 12
-                },
-                "flags": 2097152,
-                "start": 10,
-                "end": 13
-            },
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -241,7 +241,7 @@ function F<T>() {
 
 ```javascript
 
-function F() {
+function  <T >F() {
   var expr: ;
   for ( in expr)
     {}

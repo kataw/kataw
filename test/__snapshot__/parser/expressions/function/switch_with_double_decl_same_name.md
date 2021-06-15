@@ -75,6 +75,7 @@ switch (0) {
                                     "start": 35,
                                     "end": 37
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -97,7 +98,6 @@ switch (0) {
                                     "start": 39,
                                     "end": 42
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 16,
                                 "start": 22,
@@ -136,6 +136,7 @@ switch (0) {
                                     "start": 66,
                                     "end": 68
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -158,7 +159,6 @@ switch (0) {
                                     "start": 70,
                                     "end": 73
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 16,
                                 "start": 53,

@@ -62,6 +62,7 @@ let gen = function*() {};
                                 "start": 20,
                                 "end": 22
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -84,7 +85,6 @@ let gen = function*() {};
                                 "start": 24,
                                 "end": 27
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 288,
                             "start": 10,
@@ -142,6 +142,7 @@ let gen = function*() {};
                                 "end": 48
                             },
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -164,7 +165,6 @@ let gen = function*() {};
                                 "start": 50,
                                 "end": 53
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 288,
                             "start": 38,

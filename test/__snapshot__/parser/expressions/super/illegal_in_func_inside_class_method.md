@@ -94,6 +94,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                     "start": 25,
                                                     "end": 27
                                                 },
+                                                "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -149,7 +150,6 @@ class x { foo(){ function f(){ super.foo; } }}
                                                     "start": 29,
                                                     "end": 43
                                                 },
-                                                "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 16,
                                                 "start": 16,

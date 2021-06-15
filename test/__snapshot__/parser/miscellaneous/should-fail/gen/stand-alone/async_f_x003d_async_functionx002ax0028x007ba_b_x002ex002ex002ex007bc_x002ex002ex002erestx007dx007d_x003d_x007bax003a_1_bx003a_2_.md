@@ -80,6 +80,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                             "end": 25
                         },
                         "name": null,
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [
@@ -339,7 +340,6 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                             "start": 83,
                             "end": 86
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 416,
                         "start": 9,

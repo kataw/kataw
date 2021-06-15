@@ -44,6 +44,7 @@ function a(f: { (): string; (x: number): string }): string {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -272,7 +273,6 @@ function a(f: { (): string; (x: number): string }): string {
                 "start": 58,
                 "end": 85
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -305,7 +305,7 @@ function a(f: { (): string; (x: number): string }): string {
 
 ```javascript
 
-function a(f) {
+function a(f): string {
   return  f() + f(123);
 }
 ```

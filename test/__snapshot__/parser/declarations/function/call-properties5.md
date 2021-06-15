@@ -168,6 +168,7 @@ var c: { (): string; (x: number): string } =
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -243,7 +244,6 @@ var c: { (): string; (x: number): string } =
                                 "start": 75,
                                 "end": 92
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -289,7 +289,7 @@ var c: { (): string; (x: number): string } =
 
 ```javascript
 
-var c:  = function (x) {
+var c:  = function (x): string {
   return  "\"hi\"";
 };
 ```

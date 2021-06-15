@@ -119,6 +119,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                     },
                                                     "generatorToken": null,
                                                     "name": null,
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [
@@ -185,7 +186,6 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                         "start": 70,
                                                         "end": 73
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 160,
                                                     "start": 41,

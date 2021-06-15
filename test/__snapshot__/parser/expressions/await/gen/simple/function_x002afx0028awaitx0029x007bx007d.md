@@ -47,6 +47,7 @@ function *f(await){}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -78,7 +79,6 @@ function *f(await){}
                 "start": 18,
                 "end": 20
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

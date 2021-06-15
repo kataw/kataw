@@ -68,6 +68,7 @@ switch (true) { default: function g() {} }
                                     "start": 33,
                                     "end": 35
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -90,7 +91,6 @@ switch (true) { default: function g() {} }
                                     "start": 37,
                                     "end": 40
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 16,
                                 "start": 24,

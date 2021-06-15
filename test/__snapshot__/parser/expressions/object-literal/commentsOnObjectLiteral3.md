@@ -105,6 +105,7 @@ var v = {
                                             },
                                             "generatorToken": null,
                                             "name": null,
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -127,7 +128,6 @@ var v = {
                                                 "start": 117,
                                                 "end": 122
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 32,
                                             "start": 105,

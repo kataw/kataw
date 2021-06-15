@@ -109,6 +109,7 @@ fn = function() {};
                         "start": 28,
                         "end": 30
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -131,7 +132,6 @@ fn = function() {};
                         "start": 32,
                         "end": 35
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 19,
@@ -174,6 +174,7 @@ fn = function() {};
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -196,7 +197,6 @@ fn = function() {};
                         "start": 52,
                         "end": 55
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 41,

@@ -39,6 +39,7 @@ function *g(){ return x + (yield f); }
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -122,7 +123,6 @@ function *g(){ return x + (yield f); }
                 "start": 13,
                 "end": 38
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -34,6 +34,7 @@ function fn(yield) {}
                 "start": 8,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -65,7 +66,6 @@ function fn(yield) {}
                 "start": 18,
                 "end": 21
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

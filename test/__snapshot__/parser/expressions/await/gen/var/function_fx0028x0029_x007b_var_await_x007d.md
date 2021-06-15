@@ -103,6 +103,7 @@ var await; var f = (async function() { function f() { var await; } });
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -136,6 +137,7 @@ var await; var f = (async function() { function f() { var await; } });
                                                     "start": 47,
                                                     "end": 49
                                                 },
+                                                "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -197,7 +199,6 @@ var await; var f = (async function() { function f() { var await; } });
                                                     "start": 51,
                                                     "end": 66
                                                 },
-                                                "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 16,
                                                 "start": 38,
@@ -212,7 +213,6 @@ var await; var f = (async function() { function f() { var await; } });
                                     "start": 36,
                                     "end": 68
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 20,

@@ -1655,6 +1655,7 @@ async ([a]:string)=>c;
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1746,7 +1747,6 @@ async ([a]:string)=>c;
                 "start": 604,
                 "end": 631
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 592,

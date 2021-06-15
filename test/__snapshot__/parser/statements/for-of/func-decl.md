@@ -53,6 +53,7 @@ function x(a, [x]) {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -107,7 +108,6 @@ function x(a, [x]) {}
                 "start": 18,
                 "end": 21
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

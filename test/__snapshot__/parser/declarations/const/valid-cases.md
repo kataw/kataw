@@ -77,6 +77,7 @@ const { async = true } = x;
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -138,7 +139,6 @@ const { async = true } = x;
                                 "start": 36,
                                 "end": 39
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 9,
@@ -191,6 +191,7 @@ const { async = true } = x;
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -253,7 +254,6 @@ const { async = true } = x;
                                 "start": 76,
                                 "end": 79
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 51,
@@ -588,6 +588,7 @@ const { async = true } = x;
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -677,7 +678,6 @@ const { async = true } = x;
                                 "start": 233,
                                 "end": 250
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 160,
                             "start": 202,
@@ -735,6 +735,7 @@ const { async = true } = x;
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -825,7 +826,6 @@ const { async = true } = x;
                                 "start": 294,
                                 "end": 311
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 160,
                             "start": 262,

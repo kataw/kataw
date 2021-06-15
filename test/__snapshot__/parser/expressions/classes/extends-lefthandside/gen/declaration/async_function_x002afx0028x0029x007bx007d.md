@@ -80,6 +80,7 @@ class A extends async function *f(){} {}
                             "start": 32,
                             "end": 33
                         },
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -102,7 +103,6 @@ class A extends async function *f(){} {}
                             "start": 35,
                             "end": 37
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 416,
                         "start": 15,

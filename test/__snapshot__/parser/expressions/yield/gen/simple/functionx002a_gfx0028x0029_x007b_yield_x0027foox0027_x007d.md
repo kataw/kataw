@@ -47,6 +47,7 @@ function* gf() { yield 'foo' }
                 "start": 9,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -98,7 +99,6 @@ function* gf() { yield 'foo' }
                 "start": 14,
                 "end": 30
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -34,6 +34,7 @@ function call(foo=await bar=10){}
                 "start": 8,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -107,7 +108,6 @@ function call(foo=await bar=10){}
                 "start": 31,
                 "end": 33
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

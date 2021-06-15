@@ -49,6 +49,7 @@ for (function f(){} in x) ;
                     "start": 13,
                     "end": 15
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -71,7 +72,6 @@ for (function f(){} in x) ;
                     "start": 17,
                     "end": 19
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 32,
                 "start": 5,

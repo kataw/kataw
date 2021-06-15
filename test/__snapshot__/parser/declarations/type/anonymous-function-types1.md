@@ -47,6 +47,7 @@ declare function foo(x: number, string): void;
                 "start": 16,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -96,7 +97,6 @@ declare function foo(x: number, string): void;
                 "end": 39
             },
             "contents": null,
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -135,7 +135,7 @@ declare function foo(x: number, string): void;
 
 ```javascript
 
-function foo(x, string);
+function foo(x, string): void;
 
 ```
 

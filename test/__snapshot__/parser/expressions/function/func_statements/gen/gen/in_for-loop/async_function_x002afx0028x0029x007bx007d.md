@@ -63,6 +63,7 @@ for (;;) async function *f(){}
                     "start": 25,
                     "end": 26
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -85,7 +86,6 @@ for (;;) async function *f(){}
                     "start": 28,
                     "end": 30
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 400,
                 "start": 8,

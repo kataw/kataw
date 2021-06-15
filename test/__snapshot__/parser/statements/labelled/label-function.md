@@ -43,6 +43,7 @@ foo: function() {}
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -65,7 +66,6 @@ foo: function() {}
                     "start": 15,
                     "end": 18
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 4,

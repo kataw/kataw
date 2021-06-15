@@ -34,6 +34,7 @@ function fn(x = async function () { await 1 }) {}
                 "start": 8,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -66,6 +67,7 @@ function fn(x = async function () { await 1 }) {}
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -115,7 +117,6 @@ function fn(x = async function () { await 1 }) {}
                                 "start": 33,
                                 "end": 45
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 160,
                             "start": 15,
@@ -145,7 +146,6 @@ function fn(x = async function () { await 1 }) {}
                 "start": 46,
                 "end": 49
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

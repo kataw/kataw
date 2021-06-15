@@ -54,6 +54,7 @@ for (async function f(){} in x) ;
                     "start": 19,
                     "end": 21
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -76,7 +77,6 @@ for (async function f(){} in x) ;
                     "start": 23,
                     "end": 25
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 160,
                 "start": 5,

@@ -34,6 +34,7 @@ function f(a, a) {"use strict"}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -82,7 +83,6 @@ function f(a, a) {"use strict"}
                 "start": 16,
                 "end": 31
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

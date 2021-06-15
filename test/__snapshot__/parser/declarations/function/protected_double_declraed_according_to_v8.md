@@ -41,6 +41,7 @@ const protected = x, function arguments(){}
                 "start": 8,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -120,7 +121,6 @@ const protected = x, function arguments(){}
                 "start": 20,
                 "end": 69
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -189,6 +189,7 @@ const protected = x, function arguments(){}
                 "start": 100,
                 "end": 110
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -211,7 +212,6 @@ const protected = x, function arguments(){}
                 "start": 112,
                 "end": 114
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 91,

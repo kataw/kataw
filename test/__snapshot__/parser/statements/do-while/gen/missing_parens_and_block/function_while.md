@@ -56,6 +56,7 @@ do function while while
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -78,7 +79,6 @@ do function while while
                     "start": 11,
                     "end": 11
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 2,

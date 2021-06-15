@@ -47,6 +47,7 @@ function *f(x = delete ((catch) = f)) {}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -118,7 +119,6 @@ function *f(x = delete ((catch) = f)) {}
                 "start": 25,
                 "end": 25
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

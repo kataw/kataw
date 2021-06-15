@@ -47,6 +47,7 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -118,6 +120,7 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                 "start": 50,
                                                 "end": 52
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -151,6 +154,7 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                                 "start": 64,
                                                                 "end": 70
                                                             },
+                                                            "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
@@ -173,7 +177,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                                 "start": 72,
                                                                 "end": 74
                                                             },
-                                                            "typeParameters": null,
                                                             "returnType": null,
                                                             "flags": 16,
                                                             "start": 55,
@@ -194,7 +197,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                 "start": 54,
                                                 "end": 77
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 272,
                                             "start": 39,
@@ -209,7 +211,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                 "start": 37,
                                 "end": 79
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -224,7 +225,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                 "start": 16,
                 "end": 80
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

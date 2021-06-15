@@ -66,6 +66,7 @@ o.attr = function() {};
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -88,7 +89,6 @@ o.attr = function() {};
                         "start": 20,
                         "end": 23
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 9,

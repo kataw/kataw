@@ -47,6 +47,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -224,7 +226,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                 "start": 37,
                                 "end": 80
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -239,7 +240,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                 "start": 16,
                 "end": 81
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

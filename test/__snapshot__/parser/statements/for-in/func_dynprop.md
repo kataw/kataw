@@ -55,6 +55,7 @@ for (function(){ }[foo] in x);
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -77,7 +78,6 @@ for (function(){ }[foo] in x);
                         "start": 15,
                         "end": 18
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 5,

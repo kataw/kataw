@@ -47,6 +47,7 @@ function* g() { var f = async yield => 1; }
                 "start": 9,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -143,7 +144,6 @@ function* g() { var f = async yield => 1; }
                 "start": 13,
                 "end": 43
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -37,6 +37,7 @@ function bar(a = [1 + 1]) {
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -120,7 +121,6 @@ function bar(a = [1 + 1]) {
                 "start": 25,
                 "end": 29
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -145,6 +145,7 @@ function bar(a = [1 + 1]) {
                 "start": 39,
                 "end": 43
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -228,7 +229,6 @@ function bar(a = [1 + 1]) {
                 "start": 56,
                 "end": 60
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 29,

@@ -57,6 +57,7 @@ a = async function() { g(await) }
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -128,7 +129,6 @@ a = async function() { g(await) }
                         "start": 20,
                         "end": 33
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 160,
                     "start": 3,

@@ -47,6 +47,7 @@ function * gen() { (yield) ? yield : yield }
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -145,7 +146,6 @@ function * gen() { (yield) ? yield : yield }
                 "start": 16,
                 "end": 44
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

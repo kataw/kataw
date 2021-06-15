@@ -54,6 +54,7 @@ new async function *(){}
                         "end": 20
                     },
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -76,7 +77,6 @@ new async function *(){}
                         "start": 22,
                         "end": 24
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 416,
                     "start": 3,

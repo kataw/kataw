@@ -37,6 +37,7 @@ function bar(a = ``) {
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -85,7 +86,6 @@ function bar(a = ``) {
                 "start": 20,
                 "end": 24
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -110,6 +110,7 @@ function bar(a = ``) {
                 "start": 34,
                 "end": 38
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -158,7 +159,6 @@ function bar(a = ``) {
                 "start": 46,
                 "end": 50
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 24,

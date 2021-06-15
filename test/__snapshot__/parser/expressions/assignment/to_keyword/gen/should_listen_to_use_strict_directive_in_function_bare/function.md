@@ -45,6 +45,7 @@ function f() {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function f() {
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -102,7 +104,6 @@ function f() {
                                 "start": 41,
                                 "end": 41
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 30,
@@ -117,7 +118,6 @@ function f() {
                 "start": 12,
                 "end": 41
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

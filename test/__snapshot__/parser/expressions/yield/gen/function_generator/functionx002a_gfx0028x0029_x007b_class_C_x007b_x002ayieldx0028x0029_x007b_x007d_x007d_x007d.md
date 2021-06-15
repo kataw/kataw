@@ -47,6 +47,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -118,6 +120,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                 "start": 49,
                                                 "end": 52
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -235,7 +238,6 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                 "start": 54,
                                                 "end": 83
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 272,
                                             "start": 39,
@@ -250,7 +252,6 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                 "start": 37,
                                 "end": 85
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -265,7 +266,6 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                 "start": 16,
                 "end": 86
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -47,6 +47,7 @@ function getSecurity(level) {
                 "start": 8,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -309,7 +310,6 @@ function getSecurity(level) {
                 "start": 27,
                 "end": 312
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

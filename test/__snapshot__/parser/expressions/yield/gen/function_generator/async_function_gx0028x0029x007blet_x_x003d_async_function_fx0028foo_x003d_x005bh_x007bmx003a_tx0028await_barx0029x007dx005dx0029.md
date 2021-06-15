@@ -47,6 +47,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -118,6 +120,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                 "start": 54,
                                                 "end": 56
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -178,6 +181,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                 "start": 81,
                                                                                 "end": 83
                                                                             },
+                                                                            "typeParameters": null,
                                                                             "formalParameters": {
                                                                                 "kind": 214,
                                                                                 "formalParameterList": [
@@ -314,7 +318,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                 "start": 113,
                                                                                 "end": 115
                                                                             },
-                                                                            "typeParameters": null,
                                                                             "returnType": null,
                                                                             "flags": 160,
                                                                             "start": 66,
@@ -342,7 +345,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                 "start": 58,
                                                 "end": 120
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 144,
                                             "start": 39,
@@ -357,7 +359,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                 "start": 37,
                                 "end": 122
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -372,7 +373,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                 "start": 16,
                 "end": 123
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

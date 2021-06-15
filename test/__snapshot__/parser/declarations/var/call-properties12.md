@@ -80,6 +80,7 @@ var z : Object = function (x: number): string { return "hi"; };
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -155,7 +156,6 @@ var z : Object = function (x: number): string { return "hi"; };
                                 "start": 45,
                                 "end": 62
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -201,7 +201,7 @@ var z : Object = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var z:  = function (x) {
+var z:  = function (x): string {
   return  "\"hi\"";
 };
 ```

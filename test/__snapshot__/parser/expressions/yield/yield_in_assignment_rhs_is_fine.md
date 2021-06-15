@@ -39,6 +39,7 @@ function* g() { let x = yield 3; }
                 "start": 9,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -120,7 +121,6 @@ function* g() { let x = yield 3; }
                 "start": 13,
                 "end": 34
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

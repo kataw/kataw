@@ -70,6 +70,7 @@ switch(0) { default: function f(){ break; } }
                                     "start": 29,
                                     "end": 31
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -106,7 +107,6 @@ switch(0) { default: function f(){ break; } }
                                     "start": 33,
                                     "end": 43
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 16,
                                 "start": 20,

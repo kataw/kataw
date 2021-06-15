@@ -53,6 +53,7 @@ async function * gen() {yield 3 + (yield 4);}
                 "start": 16,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -144,7 +145,6 @@ async function * gen() {yield 3 + (yield 4);}
                 "start": 22,
                 "end": 45
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 0,

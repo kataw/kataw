@@ -98,6 +98,7 @@ or (;false;) label: function foo() {}
                     "start": 28,
                     "end": 32
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -120,7 +121,6 @@ or (;false;) label: function foo() {}
                     "start": 34,
                     "end": 37
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 19,

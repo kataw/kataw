@@ -39,6 +39,7 @@ function* bar() { yield /re/ }
                 "start": 9,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -89,7 +90,6 @@ function* bar() { yield /re/ }
                 "start": 15,
                 "end": 30
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -103,6 +103,7 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -151,6 +152,7 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                                         },
                                                         "generatorToken": null,
                                                         "name": null,
+                                                        "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
                                                             "formalParameterList": [],
@@ -222,7 +224,6 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                                             "start": 59,
                                                             "end": 72
                                                         },
-                                                        "typeParameters": null,
                                                         "returnType": null,
                                                         "flags": 160,
                                                         "start": 42,
@@ -245,7 +246,6 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                     "start": 36,
                                     "end": 74
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 20,

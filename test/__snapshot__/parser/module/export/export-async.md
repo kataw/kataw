@@ -53,6 +53,7 @@ export async function foo() { };
                     "start": 21,
                     "end": 25
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -75,7 +76,6 @@ export async function foo() { };
                     "start": 27,
                     "end": 31
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 144,
                 "start": 6,

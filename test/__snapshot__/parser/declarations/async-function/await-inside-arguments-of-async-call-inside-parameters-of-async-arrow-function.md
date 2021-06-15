@@ -49,6 +49,7 @@ async function fn() {
                 "start": 14,
                 "end": 17
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -194,7 +195,6 @@ async function fn() {
                 "start": 19,
                 "end": 63
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

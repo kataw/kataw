@@ -47,6 +47,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "start": 9,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -194,7 +195,6 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "start": 15,
                 "end": 59
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

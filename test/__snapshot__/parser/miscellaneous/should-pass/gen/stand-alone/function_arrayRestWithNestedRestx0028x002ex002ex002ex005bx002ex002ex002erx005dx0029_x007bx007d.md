@@ -42,6 +42,7 @@ function arrayRestWithNestedRest(...[...r]) {}
                 "start": 8,
                 "end": 32
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -118,7 +119,6 @@ function arrayRestWithNestedRest(...[...r]) {}
                 "start": 43,
                 "end": 46
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

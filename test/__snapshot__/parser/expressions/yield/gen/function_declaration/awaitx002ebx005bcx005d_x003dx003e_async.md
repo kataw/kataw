@@ -42,6 +42,7 @@ function not_gen() { await.b[c] => async }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -107,7 +108,6 @@ function not_gen() { await.b[c] => async }}
                 "start": 18,
                 "end": 31
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

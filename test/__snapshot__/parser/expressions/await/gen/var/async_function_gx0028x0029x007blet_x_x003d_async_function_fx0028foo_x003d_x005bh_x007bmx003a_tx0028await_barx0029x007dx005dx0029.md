@@ -103,6 +103,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -141,6 +142,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                     "start": 53,
                                                     "end": 55
                                                 },
+                                                "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -201,6 +203,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                     "start": 80,
                                                                                     "end": 82
                                                                                 },
+                                                                                "typeParameters": null,
                                                                                 "formalParameters": {
                                                                                     "kind": 214,
                                                                                     "formalParameterList": [
@@ -337,7 +340,6 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                     "start": 112,
                                                                                     "end": 114
                                                                                 },
-                                                                                "typeParameters": null,
                                                                                 "returnType": null,
                                                                                 "flags": 160,
                                                                                 "start": 65,
@@ -365,7 +367,6 @@ var await; var f = (async function() { async function g(){let x = async function
                                                     "start": 57,
                                                     "end": 119
                                                 },
-                                                "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 144,
                                                 "start": 38,
@@ -380,7 +381,6 @@ var await; var f = (async function() { async function g(){let x = async function
                                     "start": 36,
                                     "end": 121
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 20,

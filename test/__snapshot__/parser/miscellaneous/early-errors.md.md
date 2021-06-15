@@ -4099,6 +4099,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4494,
                         "end": 4496
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -4121,7 +4122,6 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4498,
                         "end": 4500
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 16,
                     "start": 4485,
@@ -4204,6 +4204,7 @@ try {} catch(e) { for(var e of 0); };
                             "start": 4531,
                             "end": 4533
                         },
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -4226,7 +4227,6 @@ try {} catch(e) { for(var e of 0); };
                             "start": 4535,
                             "end": 4537
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
                         "start": 4522,
@@ -4297,6 +4297,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4559,
                         "end": 4561
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -4319,7 +4320,6 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4563,
                         "end": 4565
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 16,
                     "start": 4550,
@@ -4408,6 +4408,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4601,
                         "end": 4603
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -4430,7 +4431,6 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4605,
                         "end": 4607
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 16,
                     "start": 4592,
@@ -4468,6 +4468,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4705,
                 "end": 4707
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -4554,7 +4555,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4709,
                 "end": 4730
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 4607,
@@ -4590,6 +4590,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4741,
                 "end": 4743
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -4683,7 +4684,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4745,
                 "end": 4768
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 4731,
@@ -4719,6 +4719,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4779,
                 "end": 4781
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -4817,7 +4818,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4783,
                 "end": 4807
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 4769,
@@ -4853,6 +4853,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4818,
                 "end": 4820
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -4982,7 +4983,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4822,
                 "end": 4850
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 4808,
@@ -5018,6 +5018,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4861,
                 "end": 4863
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -5124,7 +5125,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4865,
                 "end": 4889
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 4851,
@@ -5160,6 +5160,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4900,
                 "end": 4902
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -5261,7 +5262,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4904,
                 "end": 4927
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 4890,
@@ -5297,6 +5297,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4938,
                 "end": 4940
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -5398,7 +5399,6 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4942,
                 "end": 4965
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 4928,
@@ -5629,6 +5629,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 5292,
                                     "end": 5294
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -5651,7 +5652,6 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 5296,
                                     "end": 5298
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 16,
                                 "start": 5283,

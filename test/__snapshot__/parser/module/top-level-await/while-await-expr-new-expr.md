@@ -67,6 +67,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [
@@ -144,7 +145,6 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                     "start": 43,
                                     "end": 55
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 25,

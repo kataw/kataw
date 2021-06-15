@@ -47,6 +47,7 @@ function *f(x = (let) = f) {}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -121,7 +122,6 @@ function *f(x = (let) = f) {}
                 "start": 26,
                 "end": 29
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

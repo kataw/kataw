@@ -152,6 +152,7 @@ var x, y, z; for (x of { x: async function() {} } = {});
                                     },
                                     "generatorToken": null,
                                     "name": null,
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -174,7 +175,6 @@ var x, y, z; for (x of { x: async function() {} } = {});
                                         "start": 44,
                                         "end": 47
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 160,
                                     "start": 27,

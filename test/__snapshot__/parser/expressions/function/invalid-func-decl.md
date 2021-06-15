@@ -59,6 +59,7 @@ async function f(){}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -81,7 +82,6 @@ async function f(){}
                 "start": 11,
                 "end": 11
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -106,6 +106,7 @@ async function f(){}
                 "start": 21,
                 "end": 23
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -139,6 +140,7 @@ async function f(){}
                                 "start": 36,
                                 "end": 38
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -172,6 +174,7 @@ async function f(){}
                                                 "start": 51,
                                                 "end": 53
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [
@@ -209,7 +212,6 @@ async function f(){}
                                                 "start": 56,
                                                 "end": 56
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 16,
                                             "start": 41,
@@ -234,6 +236,7 @@ async function f(){}
                                                 "start": 65,
                                                 "end": 67
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -256,7 +259,6 @@ async function f(){}
                                                 "start": 69,
                                                 "end": 71
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 16,
                                             "start": 56,
@@ -286,6 +288,7 @@ async function f(){}
                                                 "start": 87,
                                                 "end": 89
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -308,7 +311,6 @@ async function f(){}
                                                 "start": 91,
                                                 "end": 93
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 144,
                                             "start": 71,
@@ -326,6 +328,7 @@ async function f(){}
                                             },
                                             "generatorToken": null,
                                             "name": null,
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -348,7 +351,6 @@ async function f(){}
                                                 "start": 104,
                                                 "end": 104
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 16,
                                             "start": 93,
@@ -426,6 +428,7 @@ async function f(){}
                                                 "start": 123,
                                                 "end": 125
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -448,7 +451,6 @@ async function f(){}
                                                 "start": 126,
                                                 "end": 126
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 16,
                                             "start": 111,
@@ -505,6 +507,7 @@ async function f(){}
                                                 "start": 139,
                                                 "end": 141
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -527,7 +530,6 @@ async function f(){}
                                                 "start": 142,
                                                 "end": 142
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 16,
                                             "start": 129,
@@ -699,7 +701,6 @@ async function f(){}
                                 "start": 40,
                                 "end": 176
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 26,
@@ -724,6 +725,7 @@ async function f(){}
                                 "start": 186,
                                 "end": 188
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -766,6 +768,7 @@ async function f(){}
                                                         "start": 202,
                                                         "end": 204
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -788,7 +791,6 @@ async function f(){}
                                                         "start": 206,
                                                         "end": 208
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 32,
                                                     "start": 192,
@@ -821,6 +823,7 @@ async function f(){}
                                                 "start": 218,
                                                 "end": 220
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -843,7 +846,6 @@ async function f(){}
                                                 "start": 222,
                                                 "end": 222
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 16,
                                             "start": 208,
@@ -868,6 +870,7 @@ async function f(){}
                                                 },
                                                 "generatorToken": null,
                                                 "name": null,
+                                                "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -890,7 +893,6 @@ async function f(){}
                                                     "start": 237,
                                                     "end": 237
                                                 },
-                                                "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 32,
                                                 "start": 228,
@@ -916,7 +918,6 @@ async function f(){}
                                 "start": 190,
                                 "end": 237
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 176,
@@ -931,7 +932,6 @@ async function f(){}
                 "start": 25,
                 "end": 237
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 11,

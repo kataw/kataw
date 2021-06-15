@@ -64,6 +64,7 @@ async x => (function) = 1
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -86,7 +87,6 @@ async x => (function) = 1
                                 "start": 20,
                                 "end": 20
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 12,

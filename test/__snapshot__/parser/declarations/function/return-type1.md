@@ -42,6 +42,7 @@ function x(): | a {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -64,7 +65,6 @@ function x(): | a {}
                 "start": 17,
                 "end": 20
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": {
@@ -111,7 +111,7 @@ function x(): | a {}
 
 ```javascript
 
-function x() {}
+function x(): |  {}
 ```
 
 ### Diagnostics

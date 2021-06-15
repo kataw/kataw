@@ -42,6 +42,7 @@ function inner2({a} = {a: my_var}) { }
                 "start": 8,
                 "end": 15
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -135,7 +136,6 @@ function inner2({a} = {a: my_var}) { }
                 "start": 34,
                 "end": 38
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

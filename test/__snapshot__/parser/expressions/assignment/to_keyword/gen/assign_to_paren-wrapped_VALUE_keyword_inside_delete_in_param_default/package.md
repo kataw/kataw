@@ -47,6 +47,7 @@ function *f(x = delete ((package) = f)) {}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -139,7 +140,6 @@ function *f(x = delete ((package) = f)) {}
                 "start": 39,
                 "end": 42
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -190,6 +190,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 48,
                     "end": 50
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -212,7 +213,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 52,
                     "end": 55
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 272,
                 "start": 37,
@@ -505,6 +505,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 154,
                     "end": 156
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -527,7 +528,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 158,
                     "end": 160
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 144,
                 "start": 139,
@@ -585,6 +585,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 180,
                     "end": 181
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -607,7 +608,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 183,
                     "end": 185
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 272,
                 "start": 169,
@@ -873,6 +873,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 292,
                     "end": 294
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -895,7 +896,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 296,
                     "end": 301
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 144,
                 "start": 277,
@@ -931,6 +931,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 321,
                     "end": 324
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -953,7 +954,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 326,
                     "end": 329
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 144,
                 "start": 306,

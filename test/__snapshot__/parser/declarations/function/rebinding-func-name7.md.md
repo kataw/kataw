@@ -34,6 +34,7 @@ function g() {  function f(){} function f(){} }
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -67,6 +68,7 @@ function g() {  function f(){} function f(){} }
                                 "start": 24,
                                 "end": 26
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -89,7 +91,6 @@ function g() {  function f(){} function f(){} }
                                 "start": 28,
                                 "end": 30
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 14,
@@ -114,6 +115,7 @@ function g() {  function f(){} function f(){} }
                                 "start": 39,
                                 "end": 41
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -136,7 +138,6 @@ function g() {  function f(){} function f(){} }
                                 "start": 43,
                                 "end": 45
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 30,
@@ -151,7 +152,6 @@ function g() {  function f(){} function f(){} }
                 "start": 12,
                 "end": 47
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

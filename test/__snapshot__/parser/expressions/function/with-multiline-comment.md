@@ -33,6 +33,7 @@ x; })
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -76,7 +77,6 @@ x; })
                         "start": 11,
                         "end": 47
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 1,
@@ -105,6 +105,7 @@ x; })
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -155,7 +156,6 @@ x; })
                         "start": 62,
                         "end": 86
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 52,

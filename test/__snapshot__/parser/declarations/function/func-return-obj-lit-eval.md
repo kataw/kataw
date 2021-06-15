@@ -34,6 +34,7 @@ function foo() { return {eval} }
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -92,7 +93,6 @@ function foo() { return {eval} }
                 "start": 14,
                 "end": 32
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

@@ -225,6 +225,7 @@ L: let
                 "start": 58,
                 "end": 62
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -247,7 +248,6 @@ L: let
                 "start": 64,
                 "end": 68
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 48,
@@ -275,6 +275,7 @@ L: let
                         "start": 79,
                         "end": 83
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -297,7 +298,6 @@ L: let
                         "start": 85,
                         "end": 89
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 71,
@@ -330,6 +330,7 @@ L: let
                 "start": 100,
                 "end": 104
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -361,7 +362,6 @@ L: let
                 "start": 109,
                 "end": 113
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 90,
@@ -386,6 +386,7 @@ L: let
                 "start": 123,
                 "end": 127
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -425,7 +426,6 @@ L: let
                 "start": 137,
                 "end": 141
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 113,
@@ -638,6 +638,7 @@ L: let
                         "start": 208,
                         "end": 210
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -695,7 +696,6 @@ L: let
                         "start": 212,
                         "end": 224
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 200,
@@ -728,6 +728,7 @@ L: let
                 "start": 236,
                 "end": 240
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -860,7 +861,6 @@ L: let
                 "start": 245,
                 "end": 273
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 226,

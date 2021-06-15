@@ -48,6 +48,7 @@ label: async function () {}
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -70,7 +71,6 @@ label: async function () {}
                     "start": 24,
                     "end": 27
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 144,
                 "start": 6,

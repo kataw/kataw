@@ -42,6 +42,7 @@ function x(y: | z): | /* comment */ () => number {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -110,7 +111,6 @@ function x(y: | z): | /* comment */ () => number {}
                 "start": 48,
                 "end": 51
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": {
@@ -177,7 +177,7 @@ function x(y: | z): | /* comment */ () => number {}
 
 ```javascript
 
-function x(y) {}
+function x(y): | /* comment */  {}
 ```
 
 ### Diagnostics

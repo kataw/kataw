@@ -36,6 +36,7 @@ function failsParse() {
                 "start": 8,
                 "end": 19
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -118,7 +119,6 @@ function failsParse() {
                 "start": 21,
                 "end": 49
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

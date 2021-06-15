@@ -42,6 +42,7 @@ function not_gen() { async function f(){ await await foo; } }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "start": 35,
                                 "end": 37
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -141,7 +143,6 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "start": 39,
                                 "end": 59
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 20,
@@ -156,7 +157,6 @@ function not_gen() { async function f(){ await await foo; } }}
                 "start": 18,
                 "end": 61
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

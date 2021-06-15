@@ -39,6 +39,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -77,6 +78,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                 "start": 36,
                                 "end": 38
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -158,7 +160,6 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                 "start": 53,
                                 "end": 71
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 19,
@@ -173,7 +174,6 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                 "start": 18,
                 "end": 74
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

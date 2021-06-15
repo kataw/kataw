@@ -54,6 +54,7 @@ if (true) function f() {  }
                     "start": 18,
                     "end": 20
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -76,7 +77,6 @@ if (true) function f() {  }
                     "start": 22,
                     "end": 27
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 9,

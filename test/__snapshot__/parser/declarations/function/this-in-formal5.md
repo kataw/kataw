@@ -50,6 +50,7 @@ function five<T>(this: T) {}
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -104,7 +105,6 @@ function five<T>(this: T) {}
                 "start": 26,
                 "end": 29
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -129,6 +129,7 @@ function five<T>(this: T) {}
                 "start": 39,
                 "end": 43
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -191,7 +192,6 @@ function five<T>(this: T) {}
                 "start": 60,
                 "end": 63
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 29,
@@ -216,6 +216,7 @@ function five<T>(this: T) {}
                 "start": 73,
                 "end": 79
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -293,7 +294,6 @@ function five<T>(this: T) {}
                 "start": 99,
                 "end": 102
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 63,
@@ -318,6 +318,7 @@ function five<T>(this: T) {}
                 "start": 112,
                 "end": 117
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -411,7 +412,6 @@ function five<T>(this: T) {}
                 "start": 143,
                 "end": 146
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 102,
@@ -435,6 +435,37 @@ function five<T>(this: T) {}
                 "flags": 96,
                 "start": 156,
                 "end": 161
+            },
+            "typeParameters": {
+                "kind": 307,
+                "declarations": {
+                    "kind": 337,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 162,
+                                "end": 163
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "start": 162,
+                            "end": 163
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 162,
+                    "end": 163
+                },
+                "flags": 2097152,
+                "start": 161,
+                "end": 164
             },
             "formalParameters": {
                 "kind": 214,
@@ -499,37 +530,6 @@ function five<T>(this: T) {}
                 "start": 173,
                 "end": 176
             },
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "start": 162,
-                                "end": 163
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 162,
-                            "end": 163
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 162,
-                    "end": 163
-                },
-                "flags": 2097152,
-                "start": 161,
-                "end": 164
-            },
             "returnType": null,
             "flags": 16,
             "start": 146,
@@ -553,7 +553,7 @@ function one(this) {}
 function two(this, a) {}
 function three(this, ...a) {}
 function four(this, a, b, ...c) {}
-function five(this) {}
+function  <T >five(this) {}
 ```
 
 ### Diagnostics

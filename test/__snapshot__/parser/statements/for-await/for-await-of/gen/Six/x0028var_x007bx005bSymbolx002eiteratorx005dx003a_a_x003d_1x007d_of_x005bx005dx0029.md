@@ -52,6 +52,7 @@ async function * f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} o
                 "start": 16,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -218,7 +219,6 @@ async function * f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} o
                 "start": 20,
                 "end": 92
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 0,

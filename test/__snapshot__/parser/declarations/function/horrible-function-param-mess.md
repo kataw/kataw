@@ -53,6 +53,83 @@ function processArgs<A1: {}, A2: {}>(
                 "start": 8,
                 "end": 20
             },
+            "typeParameters": {
+                "kind": 307,
+                "declarations": {
+                    "kind": 337,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A1",
+                                "rawText": "A1",
+                                "flags": 96,
+                                "start": 21,
+                                "end": 23
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234353,
+                                    "properties": [],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 24,
+                                    "end": 27
+                                },
+                                "flags": 2097152,
+                                "start": 24,
+                                "end": 27
+                            },
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "start": 21,
+                            "end": 27
+                        },
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "A2",
+                                "rawText": "A2",
+                                "flags": 96,
+                                "start": 28,
+                                "end": 31
+                            },
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234353,
+                                    "properties": [],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 32,
+                                    "end": 35
+                                },
+                                "flags": 2097152,
+                                "start": 32,
+                                "end": 35
+                            },
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "start": 28,
+                            "end": 35
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 21,
+                    "end": 35
+                },
+                "flags": 2097152,
+                "start": 20,
+                "end": 36
+            },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -927,83 +1004,6 @@ function processArgs<A1: {}, A2: {}>(
                 "start": 149,
                 "end": 373
             },
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "A1",
-                                "rawText": "A1",
-                                "flags": 96,
-                                "start": 21,
-                                "end": 23
-                            },
-                            "type": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 134234353,
-                                    "properties": [],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "start": 24,
-                                    "end": 27
-                                },
-                                "flags": 2097152,
-                                "start": 24,
-                                "end": 27
-                            },
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 21,
-                            "end": 27
-                        },
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "A2",
-                                "rawText": "A2",
-                                "flags": 96,
-                                "start": 28,
-                                "end": 31
-                            },
-                            "type": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 134234353,
-                                    "properties": [],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "start": 32,
-                                    "end": 35
-                                },
-                                "flags": 2097152,
-                                "start": 32,
-                                "end": 35
-                            },
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 28,
-                            "end": 35
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 21,
-                    "end": 35
-                },
-                "flags": 2097152,
-                "start": 20,
-                "end": 36
-            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -1474,7 +1474,7 @@ function processArgs<A1: {}, A2: {}>(
 
 ```javascript
 
-function processArgs(process) {
+function  <A1: , A2:  >processArgs(process):  {
   return  (resolver) =>  (src, args, appContext, info) =>
     resolver(src, process(args), appContext, info);
 }

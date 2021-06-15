@@ -42,6 +42,7 @@ function x() {function () { for (const x in { a: x }) { } }}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -68,6 +69,7 @@ function x() {function () { for (const x in { a: x }) { } }}
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -185,7 +187,6 @@ function x() {function () { for (const x in { a: x }) { } }}
                                 "start": 25,
                                 "end": 59
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 14,
@@ -200,7 +201,6 @@ function x() {function () { for (const x in { a: x }) { } }}
                 "start": 12,
                 "end": 60
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

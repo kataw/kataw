@@ -42,6 +42,7 @@ function f({eval: x}) {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -104,7 +105,6 @@ function f({eval: x}) {}
                 "start": 21,
                 "end": 24
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

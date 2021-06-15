@@ -58,6 +58,7 @@ function *f(){   for (yield in y);   }
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -128,7 +129,6 @@ function *f(){   for (yield in y);   }
                 "start": 13,
                 "end": 38
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

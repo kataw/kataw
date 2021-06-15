@@ -699,6 +699,7 @@ x((y ?? z) ?? 1);
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -721,7 +722,6 @@ x((y ?? z) ?? 1);
                                     "start": 138,
                                     "end": 141
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 128,

@@ -53,6 +53,7 @@ async function * gen() {function await() { }}
                 "start": 16,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -86,6 +87,7 @@ async function * gen() {function await() { }}
                                 "start": 32,
                                 "end": 38
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -108,7 +110,6 @@ async function * gen() {function await() { }}
                                 "start": 40,
                                 "end": 44
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 24,
@@ -123,7 +124,6 @@ async function * gen() {function await() { }}
                 "start": 22,
                 "end": 45
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 0,

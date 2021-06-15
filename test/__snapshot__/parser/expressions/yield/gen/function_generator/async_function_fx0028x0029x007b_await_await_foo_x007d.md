@@ -47,6 +47,7 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -118,6 +120,7 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                                 "start": 54,
                                                 "end": 56
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -179,7 +182,6 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                                 "start": 58,
                                                 "end": 78
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 144,
                                             "start": 39,
@@ -194,7 +196,6 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                 "start": 37,
                                 "end": 80
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -209,7 +210,6 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                 "start": 16,
                 "end": 81
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

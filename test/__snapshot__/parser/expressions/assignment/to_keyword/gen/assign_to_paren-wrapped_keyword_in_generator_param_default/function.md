@@ -47,6 +47,7 @@ function *f(x = (function) = f) {}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -78,6 +79,7 @@ function *f(x = (function) = f) {}
                                     },
                                     "generatorToken": null,
                                     "name": null,
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -100,7 +102,6 @@ function *f(x = (function) = f) {}
                                         "start": 25,
                                         "end": 25
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 17,
@@ -152,7 +153,6 @@ function *f(x = (function) = f) {}
                 "start": 31,
                 "end": 34
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

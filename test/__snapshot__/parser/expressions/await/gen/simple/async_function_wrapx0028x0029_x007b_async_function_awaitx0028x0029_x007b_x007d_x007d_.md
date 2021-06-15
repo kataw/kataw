@@ -47,6 +47,7 @@ async function wrap() { async function await() { } };
                 "start": 14,
                 "end": 19
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -85,6 +86,7 @@ async function wrap() { async function await() { } };
                                 "start": 38,
                                 "end": 44
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -107,7 +109,6 @@ async function wrap() { async function await() { } };
                                 "start": 46,
                                 "end": 50
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 23,
@@ -122,7 +123,6 @@ async function wrap() { async function await() { } };
                 "start": 21,
                 "end": 52
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

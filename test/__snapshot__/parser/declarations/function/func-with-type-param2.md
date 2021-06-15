@@ -52,28 +52,6 @@ a=function<T,S>() {}
                     },
                     "generatorToken": null,
                     "name": null,
-                    "formalParameters": {
-                        "kind": 214,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 15,
-                        "end": 17
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "flags": 32,
-                            "start": 19,
-                            "end": 19
-                        },
-                        "flags": 32,
-                        "start": 17,
-                        "end": 20
-                    },
                     "typeParameters": {
                         "kind": 307,
                         "declarations": {
@@ -121,6 +99,28 @@ a=function<T,S>() {}
                         "start": 10,
                         "end": 15
                     },
+                    "formalParameters": {
+                        "kind": 214,
+                        "formalParameterList": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "directives": [],
+                            "statements": [],
+                            "flags": 32,
+                            "start": 19,
+                            "end": 19
+                        },
+                        "flags": 32,
+                        "start": 17,
+                        "end": 20
+                    },
                     "returnType": null,
                     "flags": 32,
                     "start": 2,
@@ -148,7 +148,7 @@ a=function<T,S>() {}
 
 ```javascript
 
-a = function () {};
+a = function  <T, S >() {};
 ```
 
 ### Diagnostics

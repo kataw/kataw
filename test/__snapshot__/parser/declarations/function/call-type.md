@@ -43,6 +43,7 @@ function bar(x: X): B { return x; }
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -127,7 +128,6 @@ function bar(x: X): B { return x; }
                 "start": 21,
                 "end": 35
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -174,6 +174,7 @@ function bar(x: X): B { return x; }
                 "start": 44,
                 "end": 48
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -258,7 +259,6 @@ function bar(x: X): B { return x; }
                 "start": 57,
                 "end": 71
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -300,10 +300,10 @@ function bar(x: X): B { return x; }
 
 ```javascript
 
-function foo(x) {
+function foo(x):  {
   return  x;
 }
-function bar(x) {
+function bar(x):  {
   return  x;
 }
 ```

@@ -35,6 +35,7 @@ function: x
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -57,7 +58,6 @@ function: x
                 "start": 11,
                 "end": 11
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

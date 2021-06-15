@@ -55,6 +55,7 @@ while (1) async function foo(){}
                     "start": 24,
                     "end": 28
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -77,7 +78,6 @@ while (1) async function foo(){}
                     "start": 30,
                     "end": 32
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 144,
                 "start": 9,

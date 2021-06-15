@@ -136,6 +136,7 @@ var z : Object = (x) => "hi"
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -158,7 +159,6 @@ var z : Object = (x) => "hi"
                                 "start": 102,
                                 "end": 105
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 90,
@@ -270,6 +270,7 @@ var z : Object = (x) => "hi"
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -292,7 +293,6 @@ var z : Object = (x) => "hi"
                                 "start": 202,
                                 "end": 205
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 190,
@@ -346,6 +346,7 @@ var z : Object = (x) => "hi"
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -368,7 +369,6 @@ var z : Object = (x) => "hi"
                                 "start": 291,
                                 "end": 294
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 279,

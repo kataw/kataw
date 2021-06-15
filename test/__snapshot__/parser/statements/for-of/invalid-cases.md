@@ -1018,6 +1018,7 @@ for ({a: b.c}-- of d) e;
                     "start": 267,
                     "end": 269
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -1040,7 +1041,6 @@ for ({a: b.c}-- of d) e;
                     "start": 271,
                     "end": 274
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 258,
@@ -1134,6 +1134,7 @@ for ({a: b.c}-- of d) e;
                     "start": 304,
                     "end": 306
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -1156,7 +1157,6 @@ for ({a: b.c}-- of d) e;
                     "start": 308,
                     "end": 311
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 272,
                 "start": 294,

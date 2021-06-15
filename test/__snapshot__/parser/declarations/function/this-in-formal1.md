@@ -42,6 +42,7 @@ function one(this: number) {}
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -96,7 +97,6 @@ function one(this: number) {}
                 "start": 26,
                 "end": 29
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

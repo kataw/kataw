@@ -58,6 +58,7 @@ function *f(){   for (yield x in y in z);   }
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -155,7 +156,6 @@ function *f(){   for (yield x in y in z);   }
                 "start": 13,
                 "end": 45
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

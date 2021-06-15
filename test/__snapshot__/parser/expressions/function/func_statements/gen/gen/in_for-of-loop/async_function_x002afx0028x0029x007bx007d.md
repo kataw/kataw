@@ -83,6 +83,7 @@ for (a of b) async function *f(){}
                     "start": 29,
                     "end": 30
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -105,7 +106,6 @@ for (a of b) async function *f(){}
                     "start": 32,
                     "end": 34
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 400,
                 "start": 12,

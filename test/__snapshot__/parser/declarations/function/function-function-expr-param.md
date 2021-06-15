@@ -39,6 +39,7 @@ function* foo(a = function* foo() { yield b }) {}
                 "start": 9,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -78,6 +79,7 @@ function* foo(a = function* foo() { yield b }) {}
                                 "start": 27,
                                 "end": 31
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -129,7 +131,6 @@ function* foo(a = function* foo() { yield b }) {}
                                 "start": 33,
                                 "end": 45
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 288,
                             "start": 17,
@@ -159,7 +160,6 @@ function* foo(a = function* foo() { yield b }) {}
                 "start": 46,
                 "end": 49
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

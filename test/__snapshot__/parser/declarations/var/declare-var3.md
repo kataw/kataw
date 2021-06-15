@@ -458,7 +458,7 @@ declare var tup: [{foo: string}, {bar: number}];
 
 var arrOfObjs: ;
 var roArrOfObjs: ;
-var tup: ;
+var tup:  [: , :  ];
 ```
 
 ### Diagnostics

@@ -47,6 +47,7 @@ async function f() { for await (var x of xs); }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -133,7 +134,6 @@ async function f() { for await (var x of xs); }
                 "start": 18,
                 "end": 47
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

@@ -44,6 +44,7 @@ x = function(){ super.foo; }
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -99,7 +100,6 @@ x = function(){ super.foo; }
                         "start": 14,
                         "end": 28
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 3,

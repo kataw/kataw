@@ -42,6 +42,7 @@ function fn3([a,, b,]) {}
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -102,7 +103,6 @@ function fn3([a,, b,]) {}
                 "start": 22,
                 "end": 25
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

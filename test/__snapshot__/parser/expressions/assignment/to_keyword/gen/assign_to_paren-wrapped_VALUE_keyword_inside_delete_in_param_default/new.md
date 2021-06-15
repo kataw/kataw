@@ -47,6 +47,7 @@ function *f(x = delete ((new) = f)) {}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -151,7 +152,6 @@ function *f(x = delete ((new) = f)) {}
                 "start": 35,
                 "end": 38
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

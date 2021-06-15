@@ -39,6 +39,7 @@ async function f(){   function fh([+ await x]) { }   }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -72,6 +73,7 @@ async function f(){   function fh([+ await x]) { }   }
                                 "start": 30,
                                 "end": 33
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -109,7 +111,6 @@ async function f(){   function fh([+ await x]) { }   }
                                 "start": 35,
                                 "end": 35
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 19,
@@ -162,7 +163,6 @@ async function f(){   function fh([+ await x]) { }   }
                 "start": 18,
                 "end": 44
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

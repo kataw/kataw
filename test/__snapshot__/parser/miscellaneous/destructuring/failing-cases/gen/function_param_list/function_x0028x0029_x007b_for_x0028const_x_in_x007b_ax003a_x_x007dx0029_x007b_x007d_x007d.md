@@ -42,6 +42,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -64,7 +65,6 @@ function x(function () { for (const x in { a: x }) { } }) {}
                 "start": 11,
                 "end": 11
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -82,6 +82,7 @@ function x(function () { for (const x in { a: x }) { } }) {}
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -199,7 +200,6 @@ function x(function () { for (const x in { a: x }) { } }) {}
                 "start": 22,
                 "end": 56
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 11,

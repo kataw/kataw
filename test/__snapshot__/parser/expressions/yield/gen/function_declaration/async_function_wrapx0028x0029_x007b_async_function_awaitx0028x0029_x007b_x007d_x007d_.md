@@ -42,6 +42,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                 "start": 35,
                                 "end": 40
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -118,6 +120,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                 "start": 59,
                                                 "end": 65
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -140,7 +143,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                 "start": 67,
                                                 "end": 71
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 144,
                                             "start": 44,
@@ -155,7 +157,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                 "start": 42,
                                 "end": 73
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 20,
@@ -176,7 +177,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                 "start": 18,
                 "end": 76
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

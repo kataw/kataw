@@ -146,6 +146,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                         "start": 43,
                         "end": 45
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -168,7 +169,6 @@ for (var i = 0; i < 1; i++) label: function f() { };
                         "start": 47,
                         "end": 51
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 16,
                     "start": 34,

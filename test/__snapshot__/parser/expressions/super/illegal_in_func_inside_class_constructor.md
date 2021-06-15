@@ -94,6 +94,7 @@ class x { constructor(){ function f(){ super[bar]; } }}
                                                     "start": 33,
                                                     "end": 35
                                                 },
+                                                "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
                                                     "formalParameterList": [],
@@ -149,7 +150,6 @@ class x { constructor(){ function f(){ super[bar]; } }}
                                                     "start": 37,
                                                     "end": 52
                                                 },
-                                                "typeParameters": null,
                                                 "returnType": null,
                                                 "flags": 16,
                                                 "start": 24,

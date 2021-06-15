@@ -503,6 +503,7 @@ export const [destructuredArrNumber] = [1]
                     "start": 338,
                     "end": 351
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -546,7 +547,6 @@ export const [destructuredArrNumber] = [1]
                     "start": 361,
                     "end": 376
                 },
-                "typeParameters": null,
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -1026,7 +1026,7 @@ export { specifierNumber1 };
 export { specifierNumber2 as specifierNumber2Renamed };
 export { specifierNumber3 };
 export { groupedSpecifierNumber1, groupedSpecifierNumber2 };
-export function givesANumber() {
+export function givesANumber(): number {
   return  42;
 }
 export class NumberGenerator {

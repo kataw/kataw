@@ -640,6 +640,7 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 118,
                                                         "end": 120
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -662,7 +663,6 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 122,
                                                         "end": 124
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 16,
                                                     "start": 109,
@@ -821,6 +821,7 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 161,
                                                         "end": 163
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -843,7 +844,6 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 165,
                                                         "end": 167
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 16,
                                                     "start": 152,
@@ -958,6 +958,7 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 191,
                                                         "end": 193
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -980,7 +981,6 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 195,
                                                         "end": 197
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 16,
                                                     "start": 182,
@@ -1139,6 +1139,7 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 234,
                                                         "end": 236
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -1161,7 +1162,6 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 238,
                                                         "end": 240
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 16,
                                                     "start": 225,

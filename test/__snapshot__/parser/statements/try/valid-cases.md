@@ -114,6 +114,7 @@ try { var e } catch (e) {}
                                         "start": 41,
                                         "end": 43
                                     },
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -136,7 +137,6 @@ try { var e } catch (e) {}
                                         "start": 45,
                                         "end": 48
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 16,
                                     "start": 32,
@@ -242,6 +242,7 @@ try { var e } catch (e) {}
                                         "start": 86,
                                         "end": 88
                                     },
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -264,7 +265,6 @@ try { var e } catch (e) {}
                                         "start": 90,
                                         "end": 93
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 16,
                                     "start": 77,
@@ -372,6 +372,7 @@ try { var e } catch (e) {}
                                         "start": 131,
                                         "end": 133
                                     },
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -394,7 +395,6 @@ try { var e } catch (e) {}
                                         "start": 135,
                                         "end": 138
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 16,
                                     "start": 122,
@@ -491,6 +491,7 @@ try { var e } catch (e) {}
                                                 "start": 171,
                                                 "end": 173
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -513,7 +514,6 @@ try { var e } catch (e) {}
                                                 "start": 175,
                                                 "end": 178
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 16,
                                             "start": 162,
@@ -613,6 +613,7 @@ try { var e } catch (e) {}
                                                 "start": 213,
                                                 "end": 215
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -635,7 +636,6 @@ try { var e } catch (e) {}
                                                 "start": 217,
                                                 "end": 220
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 16,
                                             "start": 204,

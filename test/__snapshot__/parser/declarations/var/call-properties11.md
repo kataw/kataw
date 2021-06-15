@@ -73,6 +73,7 @@ var y : {} = function (x: number): string { return "hi"; };
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -148,7 +149,6 @@ var y : {} = function (x: number): string { return "hi"; };
                                 "start": 41,
                                 "end": 58
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -194,7 +194,7 @@ var y : {} = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var y:  = function (x) {
+var y:  = function (x): string {
   return  "\"hi\"";
 };
 ```

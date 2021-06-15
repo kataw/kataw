@@ -366,6 +366,7 @@ try {} catch({ x: "str" }) {}
                                 "start": 97,
                                 "end": 99
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -586,7 +587,6 @@ try {} catch({ x: "str" }) {}
                                 "start": 101,
                                 "end": 147
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 87,
@@ -1416,6 +1416,7 @@ try {} catch({ x: "str" }) {}
                         "end": 377
                     },
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -1438,7 +1439,6 @@ try {} catch({ x: "str" }) {}
                         "start": 379,
                         "end": 382
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 368,
@@ -1565,6 +1565,7 @@ try {} catch({ x: "str" }) {}
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -1587,7 +1588,6 @@ try {} catch({ x: "str" }) {}
                         "start": 413,
                         "end": 416
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 403,
@@ -1839,6 +1839,7 @@ try {} catch({ x: "str" }) {}
                             "start": 500,
                             "end": 502
                         },
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -1914,6 +1915,7 @@ try {} catch({ x: "str" }) {}
                                                                 "start": 535,
                                                                 "end": 537
                                                             },
+                                                            "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
@@ -1936,7 +1938,6 @@ try {} catch({ x: "str" }) {}
                                                                 "start": 539,
                                                                 "end": 541
                                                             },
-                                                            "typeParameters": null,
                                                             "returnType": null,
                                                             "flags": 16,
                                                             "start": 526,
@@ -1970,7 +1971,6 @@ try {} catch({ x: "str" }) {}
                             "start": 504,
                             "end": 544
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
                         "start": 490,
@@ -2999,6 +2999,7 @@ try {} catch({ x: "str" }) {}
                         "end": 843
                     },
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -3021,7 +3022,6 @@ try {} catch({ x: "str" }) {}
                         "start": 845,
                         "end": 848
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 834,
@@ -3153,6 +3153,7 @@ try {} catch({ x: "str" }) {}
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -3175,7 +3176,6 @@ try {} catch({ x: "str" }) {}
                         "start": 886,
                         "end": 889
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 876,

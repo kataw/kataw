@@ -39,6 +39,7 @@ function *a(){({yi\u0065ld: 0})}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -112,7 +113,6 @@ function *a(){({yi\u0065ld: 0})}
                 "start": 13,
                 "end": 32
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

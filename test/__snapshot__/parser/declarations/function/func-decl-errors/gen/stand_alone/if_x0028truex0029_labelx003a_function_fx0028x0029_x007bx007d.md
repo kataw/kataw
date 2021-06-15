@@ -72,6 +72,7 @@ if (true) label: function f() {}
                         "start": 25,
                         "end": 27
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -94,7 +95,6 @@ if (true) label: function f() {}
                         "start": 29,
                         "end": 32
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 16,
                     "start": 16,

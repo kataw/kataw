@@ -70,6 +70,7 @@ switch (0) { case 1: function f() {} default: const f = 0 }
                                     "start": 29,
                                     "end": 31
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -92,7 +93,6 @@ switch (0) { case 1: function f() {} default: const f = 0 }
                                     "start": 33,
                                     "end": 36
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 16,
                                 "start": 20,

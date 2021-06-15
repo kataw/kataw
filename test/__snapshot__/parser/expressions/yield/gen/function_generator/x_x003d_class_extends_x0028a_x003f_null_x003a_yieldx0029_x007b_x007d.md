@@ -47,6 +47,7 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -216,7 +218,6 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                 "start": 37,
                                 "end": 82
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -231,7 +232,6 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                 "start": 16,
                 "end": 83
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

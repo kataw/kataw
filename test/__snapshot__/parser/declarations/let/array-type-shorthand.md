@@ -139,7 +139,7 @@ let arr: number[] = [0, 1, 2, 3];
 
 ```javascript
 
-let arr:  = [0, 1, 2, 3];
+let arr: [ number ] = [0, 1, 2, 3];
 ```
 
 ### Diagnostics

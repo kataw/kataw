@@ -53,6 +53,7 @@ for (;;) function f(){}
                     "start": 17,
                     "end": 19
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -75,7 +76,6 @@ for (;;) function f(){}
                     "start": 21,
                     "end": 23
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 8,

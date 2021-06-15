@@ -39,6 +39,7 @@ async function f(){ let y = x => await x; }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -146,7 +147,6 @@ async function f(){ let y = x => await x; }
                 "start": 18,
                 "end": 43
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

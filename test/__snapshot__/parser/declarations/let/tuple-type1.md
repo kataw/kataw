@@ -126,7 +126,7 @@ let tuple1: [number] = [1];
 
 ```javascript
 
-let tuple1:  = [1];
+let tuple1:  [: number ] = [1];
 ```
 
 ### Diagnostics

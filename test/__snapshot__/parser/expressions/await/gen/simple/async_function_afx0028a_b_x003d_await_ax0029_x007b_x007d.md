@@ -47,6 +47,7 @@ async function af(a, b = await a) { }
                 "start": 14,
                 "end": 17
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -115,7 +116,6 @@ async function af(a, b = await a) { }
                 "start": 33,
                 "end": 37
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

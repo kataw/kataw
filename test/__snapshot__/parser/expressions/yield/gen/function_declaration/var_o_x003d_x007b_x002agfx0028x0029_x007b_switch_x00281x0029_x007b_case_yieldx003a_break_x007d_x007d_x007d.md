@@ -42,6 +42,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -241,7 +242,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                 "start": 18,
                 "end": 78
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

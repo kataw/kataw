@@ -23,10 +23,10 @@ export type MethodName =
   | PrivateIdentifier;
 
 export interface MethodDefinition extends SyntaxNode {
+  readonly typeParameters: TypeParameterDeclaration | null;
   readonly formalParameters: FormalParameterList;
   readonly name: MethodName;
   readonly contents: FunctionBody;
-  readonly typeParameters: TypeParameterDeclaration | null;
   readonly returnType: TypeNode | null;
 }
 

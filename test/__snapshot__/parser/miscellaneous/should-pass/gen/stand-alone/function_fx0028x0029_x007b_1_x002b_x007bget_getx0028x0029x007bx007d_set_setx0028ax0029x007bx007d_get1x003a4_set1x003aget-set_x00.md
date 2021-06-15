@@ -42,6 +42,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -287,7 +288,6 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                 "start": 12,
                 "end": 72
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

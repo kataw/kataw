@@ -231,6 +231,7 @@ type T = { [string]: Class<null> }
                 "start": 59,
                 "end": 63
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -372,7 +373,6 @@ type T = { [string]: Class<null> }
                 "start": 79,
                 "end": 107
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

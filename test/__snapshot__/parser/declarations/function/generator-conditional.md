@@ -49,6 +49,7 @@ function* fn() {
                 "start": 9,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -127,7 +128,6 @@ function* fn() {
                 "start": 14,
                 "end": 34
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

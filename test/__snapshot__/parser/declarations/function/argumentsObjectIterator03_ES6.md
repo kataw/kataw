@@ -38,6 +38,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "start": 8,
                 "end": 24
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -79,7 +80,6 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "start": 34,
                 "end": 34
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

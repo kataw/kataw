@@ -96,6 +96,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -138,6 +139,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "start": 25,
                                 "end": 27
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -198,7 +200,6 @@ function f({x:arg = (arg = 2)}) {}
                                 "start": 29,
                                 "end": 40
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 17,
@@ -247,7 +248,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 15,
                 "end": 46
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -272,6 +272,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 56,
                 "end": 58
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -358,7 +359,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 65,
                 "end": 74
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 46,
@@ -383,6 +383,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 84,
                 "end": 86
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -545,7 +546,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 102,
                 "end": 138
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 74,
@@ -570,6 +570,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 148,
                 "end": 150
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -739,7 +740,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 158,
                 "end": 194
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 138,
@@ -764,6 +764,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 204,
                 "end": 206
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -904,7 +905,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 211,
                 "end": 238
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 194,
@@ -929,6 +929,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 248,
                 "end": 250
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -1072,7 +1073,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 255,
                 "end": 290
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 238,
@@ -1097,6 +1097,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 300,
                 "end": 302
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -1248,7 +1249,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 307,
                 "end": 338
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 290,
@@ -1273,6 +1273,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 348,
                 "end": 350
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -1438,7 +1439,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 360,
                 "end": 387
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 338,
@@ -1463,6 +1463,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 397,
                 "end": 399
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -1626,7 +1627,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 410,
                 "end": 437
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 387,
@@ -1651,6 +1651,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 447,
                 "end": 449
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -1808,7 +1809,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 456,
                 "end": 483
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 437,
@@ -1833,6 +1833,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 493,
                 "end": 495
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -1982,7 +1983,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 500,
                 "end": 541
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 483,
@@ -2007,6 +2007,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 551,
                 "end": 553
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2181,7 +2182,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 580,
                 "end": 589
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 541,
@@ -2206,6 +2206,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 599,
                 "end": 601
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2292,6 +2293,7 @@ function f({x:arg = (arg = 2)}) {}
                                             },
                                             "generatorToken": null,
                                             "name": null,
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -2349,7 +2351,6 @@ function f({x:arg = (arg = 2)}) {}
                                                 "start": 628,
                                                 "end": 639
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 32,
                                             "start": 618,
@@ -2415,7 +2416,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 606,
                 "end": 649
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 589,
@@ -2440,6 +2440,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 659,
                 "end": 661
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2619,7 +2620,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 666,
                 "end": 702
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 649,
@@ -2644,6 +2644,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 712,
                 "end": 714
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2826,7 +2827,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 719,
                 "end": 763
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 702,
@@ -2851,6 +2851,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 773,
                 "end": 775
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -3009,7 +3010,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 783,
                 "end": 818
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 763,
@@ -3034,6 +3034,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 828,
                 "end": 830
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -3188,7 +3189,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 835,
                 "end": 871
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 818,
@@ -3213,6 +3213,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 881,
                 "end": 883
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -3356,7 +3357,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 888,
                 "end": 919
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 871,
@@ -3381,6 +3381,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 929,
                 "end": 931
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -3524,7 +3525,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 936,
                 "end": 980
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 919,
@@ -3549,6 +3549,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 990,
                 "end": 992
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -3742,7 +3743,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 997,
                 "end": 1042
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 980,
@@ -3767,6 +3767,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 1052,
                 "end": 1054
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -3908,7 +3909,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 1082,
                 "end": 1085
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 1042,
@@ -3933,6 +3933,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 1095,
                 "end": 1097
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -4028,7 +4029,6 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 1118,
                 "end": 1121
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 1085,

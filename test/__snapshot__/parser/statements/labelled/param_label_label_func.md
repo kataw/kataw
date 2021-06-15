@@ -34,6 +34,7 @@ function w(casecase){y:j:function casecase(){}}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -108,6 +109,7 @@ function w(casecase){y:j:function casecase(){}}
                                         "start": 33,
                                         "end": 42
                                     },
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -130,7 +132,6 @@ function w(casecase){y:j:function casecase(){}}
                                         "start": 44,
                                         "end": 46
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 16,
                                     "start": 25,
@@ -153,7 +154,6 @@ function w(casecase){y:j:function casecase(){}}
                 "start": 20,
                 "end": 47
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

@@ -70,6 +70,7 @@ function x8(a: false & false): false {
                 "start": 8,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -157,7 +158,6 @@ function x8(a: false & false): false {
                 "start": 30,
                 "end": 83
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -195,6 +195,7 @@ function x8(a: false & false): false {
                 "start": 93,
                 "end": 96
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -282,7 +283,6 @@ function x8(a: false & false): false {
                 "start": 115,
                 "end": 171
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -320,6 +320,7 @@ function x8(a: false & false): false {
                 "start": 181,
                 "end": 184
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -407,7 +408,6 @@ function x8(a: false & false): false {
                 "start": 195,
                 "end": 252
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 171,
@@ -432,6 +432,7 @@ function x8(a: false & false): false {
                 "start": 262,
                 "end": 265
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -519,7 +520,6 @@ function x8(a: false & false): false {
                 "start": 285,
                 "end": 329
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -557,6 +557,7 @@ function x8(a: false & false): false {
                 "start": 339,
                 "end": 342
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -681,7 +682,6 @@ function x8(a: false & false): false {
                 "start": 361,
                 "end": 384
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -725,6 +725,7 @@ function x8(a: false & false): false {
                 "start": 395,
                 "end": 398
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -849,7 +850,6 @@ function x8(a: false & false): false {
                 "start": 418,
                 "end": 459
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -893,6 +893,7 @@ function x8(a: false & false): false {
                 "start": 470,
                 "end": 473
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -994,7 +995,6 @@ function x8(a: false & false): false {
                 "start": 497,
                 "end": 520
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -1038,6 +1038,7 @@ function x8(a: false & false): false {
                 "start": 531,
                 "end": 534
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -1139,7 +1140,6 @@ function x8(a: false & false): false {
                 "start": 559,
                 "end": 600
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -1178,11 +1178,11 @@ function x8(a: false & false): false {
 
 ```javascript
 
-function x0(y) {
+function x0(y): number {
   return  +y; // ok, + exists solely for coercion
 
 }
-function x1(y) {
+function x1(y): number {
   return  -y; // error, we don't allow coercion here
 
 }
@@ -1190,23 +1190,23 @@ function x3(y) {
   return  ~y; // error, we don't allow coercion here
 
 }
-function x4(y) {
+function x4(y): boolean {
   return  !y; // ok, coercion is allowed
 
 }
-function x5(a) {
+function x5(a): true {
   return  !a; // ok
 
 }
-function x6(a) {
+function x6(a): false {
   return  !a; // error, true ~> false
 
 }
-function x7(a) {
+function x7(a): true {
   return  !a; // ok
 
 }
-function x8(a) {
+function x8(a): false {
   return  !a; // error, true ~> false
 
 }

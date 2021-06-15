@@ -47,6 +47,7 @@ async function foo(a = {async bar() { await b }}) {};
                 "start": 14,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -182,7 +183,6 @@ async function foo(a = {async bar() { await b }}) {};
                 "start": 49,
                 "end": 52
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

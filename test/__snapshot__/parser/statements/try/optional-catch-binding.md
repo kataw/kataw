@@ -1073,6 +1073,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "start": 335,
                 "end": 337
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1280,7 +1281,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "start": 339,
                 "end": 394
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 325,

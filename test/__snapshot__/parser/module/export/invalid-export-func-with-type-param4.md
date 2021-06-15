@@ -47,28 +47,6 @@ export default function <T><T>() {}
                 },
                 "generatorToken": null,
                 "name": null,
-                "formalParameters": {
-                    "kind": 214,
-                    "formalParameterList": [],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 27,
-                    "end": 27
-                },
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 27,
-                        "end": 27
-                    },
-                    "flags": 32,
-                    "start": 27,
-                    "end": 27
-                },
                 "typeParameters": {
                     "kind": 307,
                     "declarations": {
@@ -98,6 +76,28 @@ export default function <T><T>() {}
                     },
                     "flags": 2097152,
                     "start": 23,
+                    "end": 27
+                },
+                "formalParameters": {
+                    "kind": 214,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 27,
+                    "end": 27
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 27,
+                        "end": 27
+                    },
+                    "flags": 32,
+                    "start": 27,
                     "end": 27
                 },
                 "returnType": null,

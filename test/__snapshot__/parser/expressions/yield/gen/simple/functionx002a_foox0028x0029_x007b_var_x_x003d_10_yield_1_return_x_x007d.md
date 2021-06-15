@@ -47,6 +47,7 @@ function* foo() { var x = 10; yield 1; return x; }
                 "start": 9,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -163,7 +164,6 @@ function* foo() { var x = 10; yield 1; return x; }
                 "start": 15,
                 "end": 50
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

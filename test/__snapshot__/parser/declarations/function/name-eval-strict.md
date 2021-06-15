@@ -42,6 +42,7 @@ function eval() { }
                 "start": 8,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -64,7 +65,6 @@ function eval() { }
                 "start": 15,
                 "end": 19
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

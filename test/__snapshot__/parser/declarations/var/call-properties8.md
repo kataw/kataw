@@ -136,6 +136,7 @@ var e: { (x: any): void } = function() { } // arity
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -158,7 +159,6 @@ var e: { (x: any): void } = function() { } // arity
                                 "start": 38,
                                 "end": 42
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 27,

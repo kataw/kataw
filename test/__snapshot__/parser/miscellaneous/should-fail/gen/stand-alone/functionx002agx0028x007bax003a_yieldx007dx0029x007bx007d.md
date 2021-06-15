@@ -47,6 +47,7 @@ function*g({a: yield}){}
                 "start": 9,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -109,7 +110,6 @@ function*g({a: yield}){}
                 "start": 22,
                 "end": 24
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

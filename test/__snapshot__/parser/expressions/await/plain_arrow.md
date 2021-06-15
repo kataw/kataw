@@ -39,6 +39,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -224,7 +225,6 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                 "start": 18,
                 "end": 67
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

@@ -42,6 +42,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                 "start": 8,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -174,7 +175,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                 "start": 21,
                 "end": 58
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

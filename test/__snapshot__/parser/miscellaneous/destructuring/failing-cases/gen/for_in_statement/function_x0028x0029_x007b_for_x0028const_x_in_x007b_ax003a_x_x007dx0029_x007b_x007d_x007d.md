@@ -42,6 +42,7 @@ for(function () { for (const x in { a: x }) { } } in y);
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -159,7 +160,6 @@ for(function () { for (const x in { a: x }) { } } in y);
                     "start": 15,
                     "end": 49
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 32,
                 "start": 4,

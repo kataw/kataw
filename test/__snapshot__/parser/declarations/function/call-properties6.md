@@ -44,6 +44,7 @@ function d(x: { (z: number): string }): () => string {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -184,7 +185,6 @@ function d(x: { (z: number): string }): () => string {
                 "start": 52,
                 "end": 68
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -246,7 +246,7 @@ function d(x: { (z: number): string }): () => string {
 
 ```javascript
 
-function d(x) {
+function d(x):  {
   return  x;
 }
 ```

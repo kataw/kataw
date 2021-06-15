@@ -247,6 +247,7 @@ FooBar.bar = 1;
                             "start": 75,
                             "end": 82
                         },
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -269,7 +270,6 @@ FooBar.bar = 1;
                             "start": 84,
                             "end": 87
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
                         "start": 65,

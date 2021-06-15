@@ -110,6 +110,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -361,7 +362,6 @@ let tests = [
                                             "start": 46,
                                             "end": 142
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 13,
@@ -378,6 +378,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -539,7 +540,6 @@ let tests = [
                                             "start": 176,
                                             "end": 238
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 143,
@@ -556,6 +556,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -717,7 +718,6 @@ let tests = [
                                             "start": 283,
                                             "end": 355
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 239,
@@ -734,6 +734,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -927,7 +928,6 @@ let tests = [
                                             "start": 393,
                                             "end": 521
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 356,
@@ -944,6 +944,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -1217,7 +1218,6 @@ let tests = [
                                             "start": 560,
                                             "end": 700
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 522,
@@ -1234,6 +1234,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -1464,7 +1465,6 @@ let tests = [
                                             "start": 734,
                                             "end": 856
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 701,
@@ -1481,6 +1481,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [
@@ -1665,7 +1666,6 @@ let tests = [
                                             "start": 914,
                                             "end": 971
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 857,

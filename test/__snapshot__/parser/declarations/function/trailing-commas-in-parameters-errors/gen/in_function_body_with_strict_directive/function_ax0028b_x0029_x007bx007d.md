@@ -42,6 +42,7 @@ function foo() {'use strict'; function  a(b,,) {} }
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -84,6 +85,7 @@ function foo() {'use strict'; function  a(b,,) {} }
                                 "start": 38,
                                 "end": 41
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -115,7 +117,6 @@ function foo() {'use strict'; function  a(b,,) {} }
                                 "start": 44,
                                 "end": 44
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 29,
@@ -130,7 +131,6 @@ function foo() {'use strict'; function  a(b,,) {} }
                 "start": 14,
                 "end": 44
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

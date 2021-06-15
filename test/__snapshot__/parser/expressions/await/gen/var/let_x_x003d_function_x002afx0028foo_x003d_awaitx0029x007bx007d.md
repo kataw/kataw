@@ -103,6 +103,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -163,6 +164,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                     "start": 57,
                                                                     "end": 58
                                                                 },
+                                                                "typeParameters": null,
                                                                 "formalParameters": {
                                                                     "kind": 214,
                                                                     "formalParameterList": [
@@ -211,7 +213,6 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                     "start": 71,
                                                                     "end": 73
                                                                 },
-                                                                "typeParameters": null,
                                                                 "returnType": null,
                                                                 "flags": 288,
                                                                 "start": 46,
@@ -239,7 +240,6 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                     "start": 36,
                                     "end": 75
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 20,

@@ -48,6 +48,37 @@ declare function aw<T>(p: Pr<T> | T): T;
                 "start": 16,
                 "end": 19
             },
+            "typeParameters": {
+                "kind": 307,
+                "declarations": {
+                    "kind": 337,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 20,
+                                "end": 21
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "start": 20,
+                            "end": 21
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 20,
+                    "end": 21
+                },
+                "flags": 2097152,
+                "start": 19,
+                "end": 22
+            },
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -158,37 +189,6 @@ declare function aw<T>(p: Pr<T> | T): T;
                 "end": 36
             },
             "contents": null,
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "start": 20,
-                                "end": 21
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 20,
-                            "end": 21
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 20,
-                    "end": 21
-                },
-                "flags": 2097152,
-                "start": 19,
-                "end": 22
-            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -236,7 +236,7 @@ declare function aw<T>(p: Pr<T> | T): T;
 
 ```javascript
 
-function aw(p);
+function  <T >aw(p): ;
 
 ```
 

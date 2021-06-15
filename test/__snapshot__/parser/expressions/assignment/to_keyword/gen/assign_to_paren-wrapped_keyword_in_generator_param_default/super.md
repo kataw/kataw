@@ -47,6 +47,7 @@ function *f(x = (super) = f) {}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -138,7 +139,6 @@ function *f(x = (super) = f) {}
                 "start": 28,
                 "end": 31
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

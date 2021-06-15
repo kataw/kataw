@@ -42,6 +42,7 @@ function argsLengthRestObject(...{a}) {}
                 "start": 8,
                 "end": 29
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -103,7 +104,6 @@ function argsLengthRestObject(...{a}) {}
                 "start": 37,
                 "end": 40
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

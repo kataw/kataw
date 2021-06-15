@@ -50,6 +50,7 @@ typeof await function() {};
                         },
                         "generatorToken": null,
                         "name": null,
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -72,7 +73,6 @@ typeof await function() {};
                             "start": 23,
                             "end": 26
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 32,
                         "start": 12,

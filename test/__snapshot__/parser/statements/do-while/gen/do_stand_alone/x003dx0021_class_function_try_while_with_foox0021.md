@@ -42,6 +42,7 @@ do =! class function try while with foo!
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -64,7 +65,6 @@ do =! class function try while with foo!
                     "start": 20,
                     "end": 20
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 32,
                 "start": 11,

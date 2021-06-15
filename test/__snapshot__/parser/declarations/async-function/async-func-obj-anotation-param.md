@@ -47,6 +47,7 @@ async function foo({x}: { x: string; }) {}
                 "start": 14,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -152,7 +153,6 @@ async function foo({x}: { x: string; }) {}
                 "start": 39,
                 "end": 42
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

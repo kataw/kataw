@@ -47,6 +47,7 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -118,6 +120,7 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                                 "start": 50,
                                                 "end": 54
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -216,7 +219,6 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                                 "start": 56,
                                                 "end": 84
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 272,
                                             "start": 39,
@@ -231,7 +233,6 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                 "start": 37,
                                 "end": 86
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -246,7 +247,6 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                 "start": 16,
                 "end": 87
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -43,6 +43,7 @@ function f2() {
                 "start": 8,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -174,7 +175,6 @@ function f2() {
                 "start": 13,
                 "end": 49
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -199,6 +199,7 @@ function f2() {
                 "start": 58,
                 "end": 61
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -330,7 +331,6 @@ function f2() {
                 "start": 63,
                 "end": 99
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 49,

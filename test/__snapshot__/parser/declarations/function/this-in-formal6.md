@@ -50,6 +50,7 @@ declare function four<T>(this: T): void;
                 "start": 16,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -91,7 +92,6 @@ declare function four<T>(this: T): void;
                 "end": 34
             },
             "contents": null,
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -140,6 +140,7 @@ declare function four<T>(this: T): void;
                 "start": 58,
                 "end": 62
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -212,7 +213,6 @@ declare function four<T>(this: T): void;
                 "end": 87
             },
             "contents": null,
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -261,6 +261,7 @@ declare function four<T>(this: T): void;
                 "start": 111,
                 "end": 117
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -338,7 +339,6 @@ declare function four<T>(this: T): void;
                 "end": 142
             },
             "contents": null,
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -386,6 +386,37 @@ declare function four<T>(this: T): void;
                 "flags": 96,
                 "start": 166,
                 "end": 171
+            },
+            "typeParameters": {
+                "kind": 307,
+                "declarations": {
+                    "kind": 337,
+                    "parameters": [
+                        {
+                            "kind": 146,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 96,
+                                "start": 172,
+                                "end": 173
+                            },
+                            "type": null,
+                            "defaultType": null,
+                            "flags": 2097152,
+                            "start": 172,
+                            "end": 173
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2097152,
+                    "start": 172,
+                    "end": 173
+                },
+                "flags": 2097152,
+                "start": 171,
+                "end": 174
             },
             "formalParameters": {
                 "kind": 214,
@@ -437,37 +468,6 @@ declare function four<T>(this: T): void;
                 "end": 183
             },
             "contents": null,
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "start": 172,
-                                "end": 173
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 172,
-                            "end": 173
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 172,
-                    "end": 173
-                },
-                "flags": 2097152,
-                "start": 171,
-                "end": 174
-            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -506,10 +506,10 @@ declare function four<T>(this: T): void;
 
 ```javascript
 
-function one(this);
-function two(this, a);
-function three(this, ...a);
-function four(this);
+function one(this): void;
+function two(this, a): void;
+function three(this, ...a): void;
+function  <T >four(this): void;
 
 ```
 

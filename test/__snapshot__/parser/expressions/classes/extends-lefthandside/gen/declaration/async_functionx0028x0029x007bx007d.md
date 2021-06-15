@@ -68,6 +68,7 @@ class A extends async function(){} {}
                         },
                         "generatorToken": null,
                         "name": null,
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -90,7 +91,6 @@ class A extends async function(){} {}
                             "start": 32,
                             "end": 34
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 160,
                         "start": 15,

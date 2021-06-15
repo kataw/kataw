@@ -81,6 +81,7 @@ if (x) x;
                     "start": 35,
                     "end": 36
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -103,7 +104,6 @@ if (x) x;
                     "start": 38,
                     "end": 40
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 400,
                 "start": 18,

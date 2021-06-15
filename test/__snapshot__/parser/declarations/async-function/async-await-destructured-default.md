@@ -49,6 +49,7 @@ async function wrap() {
                 "start": 14,
                 "end": 19
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -153,7 +154,6 @@ async function wrap() {
                 "start": 21,
                 "end": 51
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

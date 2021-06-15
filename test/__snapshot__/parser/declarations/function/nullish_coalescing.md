@@ -44,6 +44,7 @@ function g(x: any): string {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -139,7 +140,6 @@ function g(x: any): string {
                 "start": 26,
                 "end": 47
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -172,7 +172,7 @@ function g(x: any): string {
 
 ```javascript
 
-function g(x) {
+function g(x): string {
   return  x ?? 1;
 }
 ```

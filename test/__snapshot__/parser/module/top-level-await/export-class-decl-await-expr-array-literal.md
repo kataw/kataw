@@ -44,6 +44,7 @@ export class C extends fn(await []) {};
                 "start": 8,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -77,6 +78,7 @@ export class C extends fn(await []) {};
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -99,7 +101,6 @@ export class C extends fn(await []) {};
                                     "start": 35,
                                     "end": 38
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 24,
@@ -118,7 +119,6 @@ export class C extends fn(await []) {};
                 "start": 13,
                 "end": 41
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

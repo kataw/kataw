@@ -75,6 +75,7 @@ switch (0) { case 1: async function f() {} default: function* f() {} }
                                     "start": 35,
                                     "end": 37
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -97,7 +98,6 @@ switch (0) { case 1: async function f() {} default: function* f() {} }
                                     "start": 39,
                                     "end": 42
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 144,
                                 "start": 20,
@@ -141,6 +141,7 @@ switch (0) { case 1: async function f() {} default: function* f() {} }
                                     "start": 61,
                                     "end": 63
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -163,7 +164,6 @@ switch (0) { case 1: async function f() {} default: function* f() {} }
                                     "start": 65,
                                     "end": 68
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 272,
                                 "start": 51,

@@ -34,6 +34,7 @@ function x () {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -56,7 +57,6 @@ function x () {}
                 "start": 13,
                 "end": 16
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

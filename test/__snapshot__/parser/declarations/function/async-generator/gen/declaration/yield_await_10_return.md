@@ -53,6 +53,7 @@ async function * gen() {yield await 10; return}
                 "start": 16,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -129,7 +130,6 @@ async function * gen() {yield await 10; return}
                 "start": 22,
                 "end": 47
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 0,

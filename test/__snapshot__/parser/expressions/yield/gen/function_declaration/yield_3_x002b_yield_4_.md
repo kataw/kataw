@@ -42,6 +42,7 @@ function not_gen() { yield 3 + yield 4; }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -127,7 +128,6 @@ function not_gen() { yield 3 + yield 4; }}
                 "start": 18,
                 "end": 41
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

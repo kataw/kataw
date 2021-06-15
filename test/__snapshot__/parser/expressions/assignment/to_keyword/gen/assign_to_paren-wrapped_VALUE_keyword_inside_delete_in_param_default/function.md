@@ -47,6 +47,7 @@ function *f(x = delete ((function) = f)) {}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -88,6 +89,7 @@ function *f(x = delete ((function) = f)) {}
                                             },
                                             "generatorToken": null,
                                             "name": null,
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -110,7 +112,6 @@ function *f(x = delete ((function) = f)) {}
                                                 "start": 33,
                                                 "end": 33
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 32,
                                             "start": 25,
@@ -170,7 +171,6 @@ function *f(x = delete ((function) = f)) {}
                 "start": 40,
                 "end": 43
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

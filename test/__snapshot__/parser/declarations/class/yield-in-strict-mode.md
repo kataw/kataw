@@ -48,6 +48,7 @@ function* f() { class C { aaa = yield } }
                 "start": 9,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -144,7 +145,6 @@ function* f() { class C { aaa = yield } }
                 "start": 13,
                 "end": 41
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

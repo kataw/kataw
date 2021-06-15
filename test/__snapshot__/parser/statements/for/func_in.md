@@ -53,6 +53,7 @@ for (function(){ a in b; };;);
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -110,7 +111,6 @@ for (function(){ a in b; };;);
                     "start": 15,
                     "end": 26
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 32,
                 "start": 5,

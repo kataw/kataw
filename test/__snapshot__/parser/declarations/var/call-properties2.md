@@ -173,6 +173,7 @@ var c: { (): string; (x: number): string } =
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -253,7 +254,6 @@ var c: { (): string; (x: number): string } =
                                 "start": 132,
                                 "end": 149
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -429,6 +429,7 @@ var c: { (): string; (x: number): string } =
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -504,7 +505,6 @@ var c: { (): string; (x: number): string } =
                                 "start": 292,
                                 "end": 309
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -551,11 +551,11 @@ var c: { (): string; (x: number): string } =
 ```javascript
 // It should be fine when a function satisfies them all
 
-var b:  = function (x?) {
+var b:  = function (x?): string {
   return  "\"hi\"";
 };
 // ...but should notice when a function doesn't satisfy them all
-var c:  = function (x) {
+var c:  = function (x): string {
   return  "\"hi\"";
 };
 ```

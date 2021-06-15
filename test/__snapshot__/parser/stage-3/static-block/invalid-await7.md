@@ -408,6 +408,7 @@ class C {
                                                         "start": 402,
                                                         "end": 408
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -430,7 +431,6 @@ class C {
                                                         "start": 410,
                                                         "end": 413
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 32,
                                                     "start": 394,
@@ -507,6 +507,7 @@ class C {
                                                     },
                                                     "generatorToken": null,
                                                     "name": null,
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -550,7 +551,6 @@ class C {
                                                         "start": 609,
                                                         "end": 627
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 32,
                                                     "start": 598,

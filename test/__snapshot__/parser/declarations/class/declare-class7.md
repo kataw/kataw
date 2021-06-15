@@ -47,15 +47,6 @@ declare function foo<T>(): void;
                 "start": 16,
                 "end": 20
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 23,
-                "end": 25
-            },
-            "contents": null,
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
@@ -87,6 +78,15 @@ declare function foo<T>(): void;
                 "start": 20,
                 "end": 23
             },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 23,
+                "end": 25
+            },
+            "contents": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -125,7 +125,7 @@ declare function foo<T>(): void;
 
 ```javascript
 
-function foo();
+function  <T >foo(): void;
 
 ```
 

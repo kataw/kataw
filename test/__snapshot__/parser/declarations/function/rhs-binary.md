@@ -52,6 +52,7 @@ function z() {
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -303,7 +304,6 @@ function z() {
                 "start": 12,
                 "end": 106
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -328,6 +328,7 @@ function z() {
                 "start": 133,
                 "end": 135
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -489,7 +490,6 @@ function z() {
                 "start": 137,
                 "end": 197
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 106,
@@ -514,6 +514,7 @@ function z() {
                 "start": 235,
                 "end": 237
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -675,7 +676,6 @@ function z() {
                 "start": 239,
                 "end": 309
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 197,

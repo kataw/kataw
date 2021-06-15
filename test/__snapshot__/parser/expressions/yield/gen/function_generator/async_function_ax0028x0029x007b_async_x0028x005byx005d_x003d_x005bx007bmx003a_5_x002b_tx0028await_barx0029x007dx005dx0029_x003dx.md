@@ -47,6 +47,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -118,6 +120,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                 "start": 54,
                                                 "end": 56
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -317,7 +320,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                 "start": 58,
                                                 "end": 113
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 144,
                                             "start": 39,
@@ -332,7 +334,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                 "start": 37,
                                 "end": 115
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -347,7 +348,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                 "start": 16,
                 "end": 116
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

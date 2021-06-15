@@ -95,6 +95,7 @@ for (var x in {}) function foo() {}
                     "start": 26,
                     "end": 30
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -117,7 +118,6 @@ for (var x in {}) function foo() {}
                     "start": 32,
                     "end": 35
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 16,
                 "start": 17,

@@ -73,6 +73,7 @@ switch (x) {
                                     "start": 36,
                                     "end": 38
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -95,7 +96,6 @@ switch (x) {
                                     "start": 40,
                                     "end": 42
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 16,
                                 "start": 23,

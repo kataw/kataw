@@ -42,28 +42,6 @@ function bar<T: ?number>() {}
                 "start": 8,
                 "end": 12
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 24,
-                "end": 26
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 28,
-                    "end": 28
-                },
-                "flags": 32,
-                "start": 26,
-                "end": 29
-            },
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
@@ -120,6 +98,28 @@ function bar<T: ?number>() {}
                 "start": 12,
                 "end": 24
             },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 24,
+                "end": 26
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 28,
+                    "end": 28
+                },
+                "flags": 32,
+                "start": 26,
+                "end": 29
+            },
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -139,7 +139,7 @@ function bar<T: ?number>() {}
 
 ```javascript
 
-function bar() {}
+function  <T:  >bar() {}
 ```
 
 ### Diagnostics

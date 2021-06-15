@@ -80,6 +80,7 @@ class Foo { static x = function() { return this } }
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -121,7 +122,6 @@ class Foo { static x = function() { return this } }
                                     "start": 33,
                                     "end": 49
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 22,

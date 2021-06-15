@@ -39,6 +39,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -61,7 +62,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 33,
                 "end": 35
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -168,6 +168,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 45,
                 "end": 49
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -209,7 +210,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 90,
                 "end": 90
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -359,6 +359,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 103,
                 "end": 107
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -400,7 +401,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 159,
                 "end": 159
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

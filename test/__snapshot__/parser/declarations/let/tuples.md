@@ -80,6 +80,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [
@@ -220,7 +221,6 @@ let tests = [
                                             "start": 37,
                                             "end": 112
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 13,
@@ -237,6 +237,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [
@@ -379,7 +380,6 @@ let tests = [
                                             "start": 181,
                                             "end": 302
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 113,
@@ -396,6 +396,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [
@@ -540,7 +541,6 @@ let tests = [
                                             "start": 351,
                                             "end": 411
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 303,
@@ -557,6 +557,7 @@ let tests = [
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -590,6 +591,7 @@ let tests = [
                                                             "start": 545,
                                                             "end": 547
                                                         },
+                                                        "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
                                                             "formalParameterList": [
@@ -712,7 +714,6 @@ let tests = [
                                                             "start": 566,
                                                             "end": 587
                                                         },
-                                                        "typeParameters": null,
                                                         "returnType": {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
@@ -740,7 +741,6 @@ let tests = [
                                             "start": 490,
                                             "end": 591
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 412,
@@ -802,7 +802,7 @@ let tests = [function (t) {
   }, // Return length from a function with mismatched return type.
   function () {
     // error: tuple length 2 !~> string
-    function a(x) {
+    function a(x): string {
       return  x.length;
     }
   },];

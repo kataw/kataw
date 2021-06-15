@@ -38,6 +38,7 @@
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -219,6 +220,7 @@
                                                         "start": 64,
                                                         "end": 68
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [
@@ -337,7 +339,6 @@
                                                         "start": 91,
                                                         "end": 94
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 16,
                                                     "start": 55,
@@ -365,7 +366,6 @@
                         "start": 11,
                         "end": 94
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 1,

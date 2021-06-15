@@ -207,6 +207,7 @@ var callCount = 0;
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -761,7 +762,6 @@ var callCount = 0;
                                 "start": 68,
                                 "end": 352
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 58,

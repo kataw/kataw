@@ -103,6 +103,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -139,6 +140,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                             "start": 48,
                                                             "end": 53
                                                         },
+                                                        "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
                                                             "formalParameterList": [
@@ -187,7 +189,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                             "start": 64,
                                                             "end": 66
                                                         },
-                                                        "typeParameters": null,
                                                         "returnType": null,
                                                         "flags": 32,
                                                         "start": 40,
@@ -210,7 +211,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                     "start": 36,
                                     "end": 69
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 20,

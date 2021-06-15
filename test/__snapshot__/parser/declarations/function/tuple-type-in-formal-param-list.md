@@ -40,6 +40,7 @@ function x({ y }: z<[string |Q]>) {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -186,7 +187,6 @@ function x({ y }: z<[string |Q]>) {}
                 "start": 33,
                 "end": 36
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

@@ -225,6 +225,7 @@ async function foo() {
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [
@@ -302,7 +303,6 @@ async function foo() {
                                             "start": 78,
                                             "end": 96
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 52,
@@ -355,6 +355,7 @@ async function foo() {
                 "start": 114,
                 "end": 118
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -473,7 +474,6 @@ async function foo() {
                 "start": 120,
                 "end": 172
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 98,

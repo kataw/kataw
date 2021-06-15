@@ -55,6 +55,7 @@ label: function * x (){}
                     "start": 17,
                     "end": 19
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -77,7 +78,6 @@ label: function * x (){}
                     "start": 22,
                     "end": 24
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 272,
                 "start": 6,

@@ -120,7 +120,7 @@ let x: [string[]?]
 
 ```javascript
 
-let x: ;
+let x:  [ ];
 ```
 
 ### Diagnostics

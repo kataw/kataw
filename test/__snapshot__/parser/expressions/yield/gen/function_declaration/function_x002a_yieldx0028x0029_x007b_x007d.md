@@ -42,6 +42,7 @@ function not_gen() { function * yield() { } }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function not_gen() { function * yield() { } }}
                                 "start": 31,
                                 "end": 37
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -102,7 +104,6 @@ function not_gen() { function * yield() { } }}
                                 "start": 39,
                                 "end": 43
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 272,
                             "start": 20,
@@ -117,7 +118,6 @@ function not_gen() { function * yield() { } }}
                 "start": 18,
                 "end": 45
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

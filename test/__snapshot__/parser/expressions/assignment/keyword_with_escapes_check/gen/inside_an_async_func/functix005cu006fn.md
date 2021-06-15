@@ -58,6 +58,7 @@ async () => {  functi\u006fn = x  }
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -80,7 +81,6 @@ async () => {  functi\u006fn = x  }
                                 "start": 28,
                                 "end": 28
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 13,

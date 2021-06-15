@@ -42,28 +42,6 @@ function foo<T>() {}
                 "start": 8,
                 "end": 12
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 15,
-                "end": 17
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 19,
-                    "end": 19
-                },
-                "flags": 32,
-                "start": 17,
-                "end": 20
-            },
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
@@ -95,6 +73,28 @@ function foo<T>() {}
                 "start": 12,
                 "end": 15
             },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 15,
+                "end": 17
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 19,
+                    "end": 19
+                },
+                "flags": 32,
+                "start": 17,
+                "end": 20
+            },
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -114,7 +114,7 @@ function foo<T>() {}
 
 ```javascript
 
-function foo() {}
+function  <T >foo() {}
 ```
 
 ### Diagnostics

@@ -47,6 +47,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                 "start": 14,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -173,7 +174,6 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                 "start": 65,
                 "end": 68
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

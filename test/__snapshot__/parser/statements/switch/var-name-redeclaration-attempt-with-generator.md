@@ -127,6 +127,7 @@ switch (0) { case 1: var f; default: function* f() {} }
                                     "start": 46,
                                     "end": 48
                                 },
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -149,7 +150,6 @@ switch (0) { case 1: var f; default: function* f() {} }
                                     "start": 50,
                                     "end": 53
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 272,
                                 "start": 36,

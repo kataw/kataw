@@ -39,6 +39,7 @@ function *f() {  return delete yield;  }
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -101,7 +102,6 @@ function *f() {  return delete yield;  }
                 "start": 13,
                 "end": 40
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

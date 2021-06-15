@@ -67,6 +67,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 22,
                 "end": 30
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -145,7 +146,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 32,
                 "end": 52
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 13,
@@ -184,6 +184,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 76,
                 "end": 84
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -267,7 +268,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 86,
                 "end": 116
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 67,
@@ -306,6 +306,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 140,
                 "end": 148
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -339,6 +340,7 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 161,
                                 "end": 167
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -361,7 +363,6 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 169,
                                 "end": 173
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 152,
@@ -376,7 +377,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 150,
                 "end": 175
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 131,
@@ -415,6 +415,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 198,
                 "end": 206
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -451,6 +452,7 @@ function * x() { "use strict";  yield: 34; }
                                         "start": 220,
                                         "end": 226
                                     },
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -473,7 +475,6 @@ function * x() { "use strict";  yield: 34; }
                                         "start": 228,
                                         "end": 232
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 212,
@@ -496,7 +497,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 208,
                 "end": 235
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 189,
@@ -535,6 +535,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 258,
                 "end": 266
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -568,6 +569,7 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 279,
                                 "end": 283
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -599,7 +601,6 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 290,
                                 "end": 294
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 270,
@@ -614,7 +615,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 268,
                 "end": 296
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 249,
@@ -653,6 +653,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 319,
                 "end": 327
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -686,6 +687,7 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 340,
                                 "end": 344
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -725,7 +727,6 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 356,
                                 "end": 360
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 331,
@@ -740,7 +741,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 329,
                 "end": 362
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 310,
@@ -779,6 +779,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 385,
                 "end": 393
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -817,6 +818,7 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 408,
                                 "end": 414
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -839,7 +841,6 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 416,
                                 "end": 420
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 272,
                             "start": 397,
@@ -854,7 +855,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 395,
                 "end": 422
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 376,
@@ -893,6 +893,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 445,
                 "end": 453
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -934,6 +935,7 @@ function * x() { "use strict";  yield: 34; }
                                         "start": 469,
                                         "end": 475
                                     },
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -956,7 +958,6 @@ function * x() { "use strict";  yield: 34; }
                                         "start": 477,
                                         "end": 481
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 288,
                                     "start": 459,
@@ -979,7 +980,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 455,
                 "end": 484
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 436,
@@ -1018,6 +1018,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 507,
                 "end": 515
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1075,7 +1076,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 517,
                 "end": 532
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 498,
@@ -1114,6 +1114,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 555,
                 "end": 563
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1202,7 +1203,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 565,
                 "end": 590
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 546,
@@ -1241,6 +1241,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 613,
                 "end": 621
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1290,7 +1291,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 623,
                 "end": 636
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 604,
@@ -1315,6 +1315,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 646,
                 "end": 654
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1373,7 +1374,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 656,
                 "end": 683
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 636,
@@ -1398,6 +1398,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 692,
                 "end": 700
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1464,7 +1465,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 702,
                 "end": 732
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 683,
@@ -1494,6 +1494,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 744,
                 "end": 746
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1565,7 +1566,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 748,
                 "end": 775
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 732,
@@ -1595,6 +1595,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 786,
                 "end": 788
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1668,7 +1669,6 @@ function * x() { "use strict";  yield: 34; }
                 "start": 790,
                 "end": 820
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 775,

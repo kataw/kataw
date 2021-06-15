@@ -34,6 +34,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "start": 8,
                 "end": 22
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -75,7 +76,6 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "start": 37,
                 "end": 37
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

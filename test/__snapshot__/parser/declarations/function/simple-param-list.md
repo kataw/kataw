@@ -60,6 +60,7 @@ function x({x}) { "use strict"; }
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -117,7 +118,6 @@ function x({x}) { "use strict"; }
                 "start": 17,
                 "end": 35
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -142,6 +142,7 @@ function x({x}) { "use strict"; }
                 "start": 45,
                 "end": 47
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -197,7 +198,6 @@ function x({x}) { "use strict"; }
                 "start": 53,
                 "end": 71
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 35,
@@ -222,6 +222,7 @@ function x({x}) { "use strict"; }
                 "start": 81,
                 "end": 83
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -277,7 +278,6 @@ function x({x}) { "use strict"; }
                 "start": 88,
                 "end": 106
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 71,
@@ -302,6 +302,7 @@ function x({x}) { "use strict"; }
                 "start": 116,
                 "end": 118
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -357,7 +358,6 @@ function x({x}) { "use strict"; }
                 "start": 123,
                 "end": 141
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 106,

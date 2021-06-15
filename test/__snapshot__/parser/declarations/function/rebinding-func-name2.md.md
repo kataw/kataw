@@ -51,6 +51,7 @@ x=function f(){ var f }
                         "start": 10,
                         "end": 12
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -112,7 +113,6 @@ x=function f(){ var f }
                         "start": 14,
                         "end": 23
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 32,
                     "start": 2,

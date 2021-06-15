@@ -39,6 +39,7 @@ function *foo() { (x = \u0079ield) }
                 "start": 10,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -109,7 +110,6 @@ function *foo() { (x = \u0079ield) }
                 "start": 15,
                 "end": 36
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

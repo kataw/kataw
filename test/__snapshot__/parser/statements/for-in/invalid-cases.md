@@ -1782,6 +1782,7 @@ for ({}.bar = x in obj);
                         "start": 490,
                         "end": 492
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -1804,7 +1805,6 @@ for ({}.bar = x in obj);
                         "start": 494,
                         "end": 496
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 16,
                     "start": 481,
@@ -2856,6 +2856,7 @@ for ({}.bar = x in obj);
                             "start": 807,
                             "end": 809
                         },
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -2878,7 +2879,6 @@ for ({}.bar = x in obj);
                             "start": 811,
                             "end": 814
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
                         "start": 798,
@@ -3951,6 +3951,7 @@ for ({}.bar = x in obj);
                 "start": 1073,
                 "end": 1074
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -4048,7 +4049,6 @@ for ({}.bar = x in obj);
                 "start": 1076,
                 "end": 1108
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 1061,

@@ -53,6 +53,7 @@ for(function(){};;)x
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -75,7 +76,6 @@ for(function(){};;)x
                     "start": 14,
                     "end": 16
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 32,
                 "start": 4,

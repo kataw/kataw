@@ -75,6 +75,7 @@ while (x);
                     "start": 19,
                     "end": 20
                 },
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -97,7 +98,6 @@ while (x);
                     "start": 22,
                     "end": 24
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 400,
                 "start": 2,

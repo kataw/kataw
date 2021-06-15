@@ -98,6 +98,7 @@ o = {f(x) { function x() {} }}
                                                         "start": 20,
                                                         "end": 22
                                                     },
+                                                    "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
                                                         "formalParameterList": [],
@@ -120,7 +121,6 @@ o = {f(x) { function x() {} }}
                                                         "start": 24,
                                                         "end": 27
                                                     },
-                                                    "typeParameters": null,
                                                     "returnType": null,
                                                     "flags": 16,
                                                     "start": 11,

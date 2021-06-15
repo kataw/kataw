@@ -133,6 +133,7 @@ var x, y, z; ({ x: async function() {} } = {});
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -155,7 +156,6 @@ var x, y, z; ({ x: async function() {} } = {});
                                             "start": 35,
                                             "end": 38
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 160,
                                         "start": 18,

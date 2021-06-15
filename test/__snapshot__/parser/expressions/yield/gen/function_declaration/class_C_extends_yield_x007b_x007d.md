@@ -42,6 +42,7 @@ function not_gen() { class C extends yield { } }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -122,7 +123,6 @@ function not_gen() { class C extends yield { } }}
                 "start": 18,
                 "end": 48
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

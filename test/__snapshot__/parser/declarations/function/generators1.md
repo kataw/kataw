@@ -63,6 +63,7 @@ function *infer_stmt() {
                 "start": 10,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -142,7 +143,6 @@ function *infer_stmt() {
                 "start": 53,
                 "end": 80
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -250,6 +250,7 @@ function *infer_stmt() {
                 "start": 92,
                 "end": 106
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -293,7 +294,6 @@ function *infer_stmt() {
                 "start": 139,
                 "end": 155
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -401,6 +401,7 @@ function *infer_stmt() {
                 "start": 167,
                 "end": 182
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -444,7 +445,6 @@ function *infer_stmt() {
                 "start": 215,
                 "end": 232
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -552,6 +552,7 @@ function *infer_stmt() {
                 "start": 244,
                 "end": 254
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -667,7 +668,6 @@ function *infer_stmt() {
                 "start": 256,
                 "end": 301
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 232,
@@ -687,14 +687,14 @@ function *infer_stmt() {
 
 ```javascript
 
-function * stmt_yield() {
+function * stmt_yield():  {
   yield 0;
   yield "\"\"";
 }
-function * stmt_return_ok() {
+function * stmt_return_ok():  {
   return  0;
 }
-function * stmt_return_err() {
+function * stmt_return_err():  {
   return  "\"\"";
 }
 function * infer_stmt() {

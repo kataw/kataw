@@ -71,6 +71,7 @@ class function {}
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -93,7 +94,6 @@ class function {}
                 "start": 14,
                 "end": 17
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 5,

@@ -63,6 +63,7 @@ do h(function(){});while(x)
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -85,7 +86,6 @@ do h(function(){});while(x)
                                     "start": 15,
                                     "end": 17
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 5,

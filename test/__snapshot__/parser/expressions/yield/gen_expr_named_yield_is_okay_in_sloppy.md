@@ -62,6 +62,7 @@ var g = function* yield() {};
                                 "start": 17,
                                 "end": 23
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -84,7 +85,6 @@ var g = function* yield() {};
                                 "start": 25,
                                 "end": 28
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 288,
                             "start": 7,

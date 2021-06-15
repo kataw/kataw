@@ -39,6 +39,7 @@ function *f(){  ({yield} = x)  }
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -117,7 +118,6 @@ function *f(){  ({yield} = x)  }
                 "start": 13,
                 "end": 32
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

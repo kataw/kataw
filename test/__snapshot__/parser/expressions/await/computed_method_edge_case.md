@@ -39,6 +39,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -77,6 +78,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                 "start": 37,
                                 "end": 39
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -277,7 +279,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                 "start": 41,
                                 "end": 87
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 19,
@@ -292,7 +293,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                 "start": 18,
                 "end": 92
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

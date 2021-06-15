@@ -47,6 +47,7 @@ function *a(){yield 2e308}
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -98,7 +99,6 @@ function *a(){yield 2e308}
                 "start": 13,
                 "end": 26
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

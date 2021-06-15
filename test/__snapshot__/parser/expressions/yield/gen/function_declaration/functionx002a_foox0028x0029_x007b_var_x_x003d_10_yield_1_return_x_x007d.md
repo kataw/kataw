@@ -42,6 +42,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                 "start": 30,
                                 "end": 34
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -196,7 +198,6 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                 "start": 36,
                                 "end": 71
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 272,
                             "start": 20,
@@ -211,7 +212,6 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                 "start": 18,
                 "end": 73
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

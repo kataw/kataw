@@ -42,6 +42,7 @@ function not_gen() { yield * }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -98,7 +99,6 @@ function not_gen() { yield * }}
                 "start": 18,
                 "end": 30
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

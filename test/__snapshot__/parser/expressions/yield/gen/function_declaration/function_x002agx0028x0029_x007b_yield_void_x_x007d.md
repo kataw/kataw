@@ -42,6 +42,7 @@ function not_gen() { function *g() { yield void x } }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function not_gen() { function *g() { yield void x } }}
                                 "start": 31,
                                 "end": 32
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -143,7 +145,6 @@ function not_gen() { function *g() { yield void x } }}
                                 "start": 34,
                                 "end": 51
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 272,
                             "start": 20,
@@ -158,7 +159,6 @@ function not_gen() { function *g() { yield void x } }}
                 "start": 18,
                 "end": 53
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

@@ -42,6 +42,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -134,7 +135,6 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                 "start": 12,
                 "end": 68
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

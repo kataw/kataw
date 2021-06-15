@@ -47,6 +47,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -118,6 +120,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                 "start": 49,
                                                 "end": 52
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -174,6 +177,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                                                 "start": 74,
                                                                                 "end": 80
                                                                             },
+                                                                            "typeParameters": null,
                                                                             "formalParameters": {
                                                                                 "kind": 214,
                                                                                 "formalParameterList": [],
@@ -196,7 +200,6 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                                                 "start": 82,
                                                                                 "end": 86
                                                                             },
-                                                                            "typeParameters": null,
                                                                             "returnType": null,
                                                                             "flags": 32,
                                                                             "start": 65,
@@ -224,7 +227,6 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                 "start": 54,
                                                 "end": 88
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 272,
                                             "start": 39,
@@ -239,7 +241,6 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                 "start": 37,
                                 "end": 90
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -254,7 +255,6 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                 "start": 16,
                 "end": 91
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

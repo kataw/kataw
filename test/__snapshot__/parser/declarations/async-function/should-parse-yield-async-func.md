@@ -71,6 +71,7 @@ const f = async function * (source, block, opts) {
                                 "end": 26
                             },
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -196,6 +197,7 @@ const f = async function * (source, block, opts) {
                                                                     },
                                                                     "generatorToken": null,
                                                                     "name": null,
+                                                                    "typeParameters": null,
                                                                     "formalParameters": {
                                                                         "kind": 214,
                                                                         "formalParameterList": [],
@@ -553,7 +555,6 @@ const f = async function * (source, block, opts) {
                                                                         "start": 124,
                                                                         "end": 380
                                                                     },
-                                                                    "typeParameters": null,
                                                                     "returnType": null,
                                                                     "flags": 160,
                                                                     "start": 106,
@@ -589,7 +590,6 @@ const f = async function * (source, block, opts) {
                                 "start": 48,
                                 "end": 394
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 416,
                             "start": 9,

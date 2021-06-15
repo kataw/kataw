@@ -37,6 +37,7 @@ function bar(a = console.log) {
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -99,7 +100,6 @@ function bar(a = console.log) {
                 "start": 29,
                 "end": 33
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -124,6 +124,7 @@ function bar(a = console.log) {
                 "start": 43,
                 "end": 47
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -186,7 +187,6 @@ function bar(a = console.log) {
                 "start": 64,
                 "end": 68
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 33,

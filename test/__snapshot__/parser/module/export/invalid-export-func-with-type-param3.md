@@ -47,6 +47,20 @@ export default function <,>() {}
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": {
+                    "kind": 307,
+                    "declarations": {
+                        "kind": 337,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 25,
+                        "end": 25
+                    },
+                    "flags": 2097152,
+                    "start": 23,
+                    "end": 25
+                },
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -67,20 +81,6 @@ export default function <,>() {}
                     },
                     "flags": 32,
                     "start": 25,
-                    "end": 25
-                },
-                "typeParameters": {
-                    "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "start": 25,
-                        "end": 25
-                    },
-                    "flags": 2097152,
-                    "start": 23,
                     "end": 25
                 },
                 "returnType": null,

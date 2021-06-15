@@ -2565,9 +2565,17 @@ function parseCommaOperator(
 }
 
 function parseExpressionRest(parser: ParserState, context: Context, expr: ExpressionNode, pos: number): ExpressionNode {
-  expr = parseMemberExpression(parser, context, expr, SyntaxKind.IsPropertyOrCall, pos);
-  expr = parseAssignmentExpression(parser, context, expr, pos);
-  return parseCommaOperator(parser, context, expr, pos);
+  return parseCommaOperator(
+    parser,
+    context,
+    parseAssignmentExpression(
+      parser,
+      context,
+      parseMemberExpression(parser, context, expr, SyntaxKind.IsPropertyOrCall, pos),
+      pos
+    ),
+    pos
+  );
 }
 
 // PrimaryExpression :

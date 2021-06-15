@@ -35,6 +35,7 @@ function = x
             },
             "generatorToken": null,
             "name": null,
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -57,7 +58,6 @@ function = x
                 "start": 8,
                 "end": 8
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

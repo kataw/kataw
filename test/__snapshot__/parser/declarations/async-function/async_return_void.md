@@ -58,6 +58,7 @@ async function foo3(): Promise<string> {
                 "start": 14,
                 "end": 19
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -94,7 +95,6 @@ async function foo3(): Promise<string> {
                 "start": 38,
                 "end": 52
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -174,6 +174,7 @@ async function foo3(): Promise<string> {
                 "start": 68,
                 "end": 73
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -217,7 +218,6 @@ async function foo3(): Promise<string> {
                 "start": 92,
                 "end": 116
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -297,6 +297,7 @@ async function foo3(): Promise<string> {
                 "start": 132,
                 "end": 137
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -330,6 +331,7 @@ async function foo3(): Promise<string> {
                                 "start": 169,
                                 "end": 173
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -352,7 +354,6 @@ async function foo3(): Promise<string> {
                                 "start": 175,
                                 "end": 179
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 158,
@@ -401,7 +402,6 @@ async function foo3(): Promise<string> {
                 "start": 156,
                 "end": 197
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -471,13 +471,13 @@ async function foo3(): Promise<string> {
 
 ```javascript
 
-async function foo1() {
+async function foo1():  {
   return ;
 }
-async function foo2() {
+async function foo2():  {
   return  undefined;
 }
-async function foo3() {
+async function foo3():  {
   function bar() {}
   return  bar();
 }

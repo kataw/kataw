@@ -42,6 +42,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -103,6 +104,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                 "start": 40,
                                                 "end": 45
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -208,7 +210,6 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                 "start": 47,
                                                 "end": 92
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 288,
                                             "start": 30,
@@ -236,7 +237,6 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                 "start": 18,
                 "end": 94
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

@@ -128,6 +128,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                                     "end": 39
                                                                 },
                                                                 "name": null,
+                                                                "typeParameters": null,
                                                                 "formalParameters": {
                                                                     "kind": 214,
                                                                     "formalParameterList": [],
@@ -183,7 +184,6 @@ class C { *method() { var f = function*() { super(); } } }
                                                                     "start": 41,
                                                                     "end": 54
                                                                 },
-                                                                "typeParameters": null,
                                                                 "returnType": null,
                                                                 "flags": 288,
                                                                 "start": 29,

@@ -63,6 +63,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 8,
                 "end": 13
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -117,7 +118,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 26,
                 "end": 29
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
@@ -142,6 +142,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 38,
                 "end": 43
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -196,7 +197,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 59,
                 "end": 62
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 29,
@@ -221,6 +221,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 71,
                 "end": 76
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -306,7 +307,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 108,
                 "end": 111
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 62,
@@ -331,6 +331,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 120,
                 "end": 125
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -393,7 +394,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 153,
                 "end": 156
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 111,
@@ -418,6 +418,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 165,
                 "end": 170
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -480,7 +481,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 198,
                 "end": 201
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 156,
@@ -505,6 +505,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 210,
                 "end": 215
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -571,7 +572,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 237,
                 "end": 240
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 201,
@@ -596,6 +596,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 249,
                 "end": 254
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -679,7 +680,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 276,
                 "end": 279
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 240,
@@ -704,6 +704,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 288,
                 "end": 293
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -787,7 +788,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 317,
                 "end": 320
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 279,
@@ -812,6 +812,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 329,
                 "end": 334
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -935,7 +936,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 365,
                 "end": 368
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 320,
@@ -960,6 +960,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 377,
                 "end": 383
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -1113,7 +1114,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 427,
                 "end": 430
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 368,
@@ -1138,6 +1138,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 439,
                 "end": 445
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -1333,7 +1334,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 500,
                 "end": 503
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 430,
@@ -1358,6 +1358,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 512,
                 "end": 518
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1380,7 +1381,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 528,
                 "end": 530
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -1418,6 +1418,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 539,
                 "end": 545
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1440,7 +1441,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 558,
                 "end": 561
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -1507,6 +1507,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 570,
                 "end": 576
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1529,7 +1530,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 597,
                 "end": 599
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -1636,6 +1636,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 608,
                 "end": 614
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1658,7 +1659,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 636,
                 "end": 638
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -1770,6 +1770,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 647,
                 "end": 653
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -1792,7 +1793,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 659,
                 "end": 662
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -1832,28 +1832,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 671,
                 "end": 677
             },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 680,
-                "end": 682
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 684,
-                    "end": 684
-                },
-                "flags": 32,
-                "start": 682,
-                "end": 685
-            },
             "typeParameters": {
                 "kind": 307,
                 "declarations": {
@@ -1885,6 +1863,28 @@ function foo28(numVal?: number = 2) {}
                 "start": 677,
                 "end": 680
             },
+            "formalParameters": {
+                "kind": 214,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 680,
+                "end": 682
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
+                    "start": 684,
+                    "end": 684
+                },
+                "flags": 32,
+                "start": 682,
+                "end": 685
+            },
             "returnType": null,
             "flags": 16,
             "start": 662,
@@ -1909,6 +1909,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 694,
                 "end": 700
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2014,7 +2015,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 721,
                 "end": 724
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 685,
@@ -2039,6 +2039,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 733,
                 "end": 739
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2145,7 +2146,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 759,
                 "end": 762
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 724,
@@ -2170,6 +2170,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 771,
                 "end": 777
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2266,7 +2267,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 801,
                 "end": 804
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 762,
@@ -2291,6 +2291,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 813,
                 "end": 819
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2352,7 +2353,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 839,
                 "end": 842
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 804,
@@ -2377,6 +2377,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 851,
                 "end": 857
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -2443,7 +2444,6 @@ function foo28(numVal?: number = 2) {}
                 "start": 878,
                 "end": 881
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 842,
@@ -2474,12 +2474,12 @@ function foo8(callback) {}
 function foo9(callback) {}
 function foo10(callback) {}
 function foo11(callback) {}
-function foo12() {}
-function foo13() {}
-function foo14() {}
-function foo15() {}
-function foo16() {}
-function foo17() {}
+function foo12(): number {}
+function foo13():  {}
+function foo14():  {}
+function foo15():  {}
+function foo16():  {}
+function  <T >foo17() {}
 function foo21({
   x
 }) {}

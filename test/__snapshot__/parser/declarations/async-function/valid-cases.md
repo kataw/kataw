@@ -59,6 +59,7 @@ new async function() { await 0 }.x
                             "start": 15,
                             "end": 19
                         },
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -108,7 +109,6 @@ new async function() { await 0 }.x
                             "start": 21,
                             "end": 33
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 160,
                         "start": 1,
@@ -140,6 +140,7 @@ new async function() { await 0 }.x
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -189,7 +190,6 @@ new async function() { await 0 }.x
                         "start": 51,
                         "end": 63
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 160,
                     "start": 35,
@@ -244,6 +244,7 @@ new async function() { await 0 }.x
                         "start": 82,
                         "end": 86
                     },
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -293,7 +294,6 @@ new async function() { await 0 }.x
                         "start": 88,
                         "end": 100
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 160,
                     "start": 67,
@@ -349,6 +349,7 @@ new async function() { await 0 }.x
                                     },
                                     "generatorToken": null,
                                     "name": null,
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -398,7 +399,6 @@ new async function() { await 0 }.x
                                         "start": 121,
                                         "end": 133
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 160,
                                     "start": 104,
@@ -430,6 +430,7 @@ new async function() { await 0 }.x
                                                 "start": 149,
                                                 "end": 153
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -479,7 +480,6 @@ new async function() { await 0 }.x
                                                 "start": 155,
                                                 "end": 167
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 160,
                                             "start": 135,
@@ -514,6 +514,7 @@ new async function() { await 0 }.x
                                         },
                                         "generatorToken": null,
                                         "name": null,
+                                        "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
                                             "formalParameterList": [],
@@ -563,7 +564,6 @@ new async function() { await 0 }.x
                                             "start": 186,
                                             "end": 198
                                         },
-                                        "typeParameters": null,
                                         "returnType": null,
                                         "flags": 160,
                                         "start": 170,
@@ -613,6 +613,7 @@ new async function() { await 0 }.x
                                         "start": 218,
                                         "end": 222
                                     },
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -662,7 +663,6 @@ new async function() { await 0 }.x
                                         "start": 224,
                                         "end": 236
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 160,
                                     "start": 203,
@@ -705,6 +705,7 @@ new async function() { await 0 }.x
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -754,7 +755,6 @@ new async function() { await 0 }.x
                                     "start": 258,
                                     "end": 270
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 160,
                                 "start": 241,
@@ -804,6 +804,7 @@ new async function() { await 0 }.x
                     },
                     "generatorToken": null,
                     "name": null,
+                    "typeParameters": null,
                     "formalParameters": {
                         "kind": 214,
                         "formalParameterList": [],
@@ -853,7 +854,6 @@ new async function() { await 0 }.x
                         "start": 292,
                         "end": 304
                     },
-                    "typeParameters": null,
                     "returnType": null,
                     "flags": 160,
                     "start": 275,
@@ -896,6 +896,7 @@ new async function() { await 0 }.x
                         },
                         "generatorToken": null,
                         "name": null,
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -945,7 +946,6 @@ new async function() { await 0 }.x
                             "start": 325,
                             "end": 337
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 160,
                         "start": 308,

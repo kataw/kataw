@@ -52,6 +52,7 @@ foo(function*(){})
                                 "end": 13
                             },
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -74,7 +75,6 @@ foo(function*(){})
                                 "start": 15,
                                 "end": 17
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 288,
                             "start": 4,

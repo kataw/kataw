@@ -87,6 +87,7 @@ class C {
                                                         },
                                                         "generatorToken": null,
                                                         "name": null,
+                                                        "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
                                                             "formalParameterList": [
@@ -205,7 +206,6 @@ class C {
                                                             "start": 67,
                                                             "end": 97
                                                         },
-                                                        "typeParameters": null,
                                                         "returnType": null,
                                                         "flags": 32,
                                                         "start": 26,
@@ -266,6 +266,7 @@ class C {
                                                                     "end": 128
                                                                 },
                                                                 "name": null,
+                                                                "typeParameters": null,
                                                                 "formalParameters": {
                                                                     "kind": 214,
                                                                     "formalParameterList": [
@@ -384,7 +385,6 @@ class C {
                                                                     "start": 163,
                                                                     "end": 194
                                                                 },
-                                                                "typeParameters": null,
                                                                 "returnType": null,
                                                                 "flags": 288,
                                                                 "start": 118,
@@ -465,6 +465,7 @@ class C {
                                                         },
                                                         "generatorToken": null,
                                                         "name": null,
+                                                        "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
                                                             "formalParameterList": [
@@ -583,7 +584,6 @@ class C {
                                                             "start": 285,
                                                             "end": 320
                                                         },
-                                                        "typeParameters": null,
                                                         "returnType": null,
                                                         "flags": 160,
                                                         "start": 232,

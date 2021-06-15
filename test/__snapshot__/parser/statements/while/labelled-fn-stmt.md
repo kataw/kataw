@@ -80,6 +80,7 @@ while (false) label1: label2: function f() {}
                             "start": 38,
                             "end": 40
                         },
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -102,7 +103,6 @@ while (false) label1: label2: function f() {}
                             "start": 42,
                             "end": 45
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 16,
                         "start": 29,

@@ -42,6 +42,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                 "start": 35,
                                 "end": 37
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -279,7 +281,6 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                 "start": 39,
                                 "end": 94
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 20,
@@ -294,7 +295,6 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                 "start": 18,
                 "end": 96
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

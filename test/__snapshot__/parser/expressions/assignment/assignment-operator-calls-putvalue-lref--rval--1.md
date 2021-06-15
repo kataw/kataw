@@ -264,6 +264,7 @@ Object.defineProperty(this, "x", {
                         },
                         "generatorToken": null,
                         "name": null,
+                        "typeParameters": null,
                         "formalParameters": {
                             "kind": 214,
                             "formalParameterList": [],
@@ -538,7 +539,6 @@ Object.defineProperty(this, "x", {
                             "start": 119,
                             "end": 252
                         },
-                        "typeParameters": null,
                         "returnType": null,
                         "flags": 32,
                         "start": 109,

@@ -47,6 +47,7 @@ f(await 1);
                 "start": 14,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -99,7 +100,6 @@ f(await 1);
                 "start": 19,
                 "end": 33
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

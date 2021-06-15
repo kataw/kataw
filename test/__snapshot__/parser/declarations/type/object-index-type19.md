@@ -42,6 +42,7 @@ function method(obj: { [key: string]: any }) {}
                 "start": 8,
                 "end": 15
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -143,7 +144,6 @@ function method(obj: { [key: string]: any }) {}
                 "start": 44,
                 "end": 47
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

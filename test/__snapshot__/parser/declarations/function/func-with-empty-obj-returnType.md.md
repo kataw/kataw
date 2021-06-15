@@ -42,6 +42,7 @@ function foo(): {} {}
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -64,7 +65,6 @@ function foo(): {} {}
                 "start": 18,
                 "end": 21
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -99,7 +99,7 @@ function foo(): {} {}
 
 ```javascript
 
-function foo() {}
+function foo():  {}
 ```
 
 ### Diagnostics

@@ -62,6 +62,7 @@ function foo() {
                 "start": 14,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -91,7 +92,6 @@ function foo() {
                 "start": 20,
                 "end": 25
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 5,

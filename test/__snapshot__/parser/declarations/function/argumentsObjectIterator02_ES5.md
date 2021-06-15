@@ -42,6 +42,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "start": 8,
                 "end": 31
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -83,7 +84,6 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "start": 41,
                 "end": 41
             },
-            "typeParameters": null,
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

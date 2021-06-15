@@ -47,6 +47,7 @@ for (async function(){} in x) ;
                 },
                 "generatorToken": null,
                 "name": null,
+                "typeParameters": null,
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
@@ -69,7 +70,6 @@ for (async function(){} in x) ;
                     "start": 21,
                     "end": 23
                 },
-                "typeParameters": null,
                 "returnType": null,
                 "flags": 160,
                 "start": 5,

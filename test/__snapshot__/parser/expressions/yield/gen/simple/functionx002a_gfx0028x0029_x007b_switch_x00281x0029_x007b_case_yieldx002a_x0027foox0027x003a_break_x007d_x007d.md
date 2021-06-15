@@ -47,6 +47,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                 "start": 9,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -152,7 +153,6 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                 "start": 14,
                 "end": 59
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

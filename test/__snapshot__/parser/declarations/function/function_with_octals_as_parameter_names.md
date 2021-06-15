@@ -34,6 +34,7 @@ function foo(001, 003) { "use strict"; }
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -56,7 +57,6 @@ function foo(001, 003) { "use strict"; }
                 "start": 13,
                 "end": 13
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

@@ -39,6 +39,7 @@ function* test () { yield *v }
                 "start": 9,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -95,7 +96,6 @@ function* test () { yield *v }
                 "start": 17,
                 "end": 30
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

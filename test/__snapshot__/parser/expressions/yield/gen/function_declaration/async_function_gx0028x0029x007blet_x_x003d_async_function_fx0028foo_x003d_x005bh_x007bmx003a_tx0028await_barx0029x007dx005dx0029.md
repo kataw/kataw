@@ -42,6 +42,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                 "start": 35,
                                 "end": 37
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -140,6 +142,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                 "start": 62,
                                                                 "end": 64
                                                             },
+                                                            "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
                                                                 "formalParameterList": [
@@ -276,7 +279,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                 "start": 94,
                                                                 "end": 96
                                                             },
-                                                            "typeParameters": null,
                                                             "returnType": null,
                                                             "flags": 160,
                                                             "start": 47,
@@ -304,7 +306,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                 "start": 39,
                                 "end": 101
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 144,
                             "start": 20,
@@ -319,7 +320,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                 "start": 18,
                 "end": 103
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

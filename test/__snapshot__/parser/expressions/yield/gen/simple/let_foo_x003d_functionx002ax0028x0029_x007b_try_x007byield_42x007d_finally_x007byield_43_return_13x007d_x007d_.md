@@ -62,6 +62,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                 "end": 19
                             },
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -208,7 +209,6 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                 "start": 21,
                                 "end": 70
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 288,
                             "start": 9,

@@ -136,6 +136,7 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -211,7 +212,6 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                 "start": 61,
                                 "end": 78
                             },
-                            "typeParameters": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -257,7 +257,7 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var a:  = function (x) {
+var a:  = function (x): string {
   return  "\"hi\"";
 };
 ```

@@ -70,6 +70,7 @@ var asyncFn = async function await() {};
                                 "start": 28,
                                 "end": 34
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -92,7 +93,6 @@ var asyncFn = async function await() {};
                                 "start": 36,
                                 "end": 39
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 160,
                             "start": 13,

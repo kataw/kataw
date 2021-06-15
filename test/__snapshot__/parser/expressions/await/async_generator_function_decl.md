@@ -44,6 +44,7 @@ async function *f(await){}
                 "start": 16,
                 "end": 17
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -75,7 +76,6 @@ async function *f(await){}
                 "start": 24,
                 "end": 26
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 0,

@@ -47,6 +47,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                 "start": 10,
                 "end": 14
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                 "start": 27,
                                 "end": 35
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -118,6 +120,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                 "start": 54,
                                                 "end": 59
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -156,6 +159,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                                 "start": 78,
                                                                 "end": 84
                                                             },
+                                                            "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
                                                                 "formalParameterList": [],
@@ -178,7 +182,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                                 "start": 86,
                                                                 "end": 90
                                                             },
-                                                            "typeParameters": null,
                                                             "returnType": null,
                                                             "flags": 144,
                                                             "start": 63,
@@ -193,7 +196,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                 "start": 61,
                                                 "end": 92
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 144,
                                             "start": 39,
@@ -214,7 +216,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                 "start": 37,
                                 "end": 95
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
@@ -229,7 +230,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                 "start": 16,
                 "end": 96
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

@@ -47,6 +47,7 @@ function *g() { yield void x }
                 "start": 10,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -110,7 +111,6 @@ function *g() { yield void x }
                 "start": 13,
                 "end": 30
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

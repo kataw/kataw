@@ -129,6 +129,7 @@ for await (let binding of [await function() {}]) {
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -151,7 +152,6 @@ for await (let binding of [await function() {}]) {
                                     "start": 215,
                                     "end": 218
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 204,
@@ -197,6 +197,7 @@ for await (let binding of [await function() {}]) {
                                     },
                                     "generatorToken": null,
                                     "name": null,
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -219,7 +220,6 @@ for await (let binding of [await function() {}]) {
                                         "start": 241,
                                         "end": 244
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 230,
@@ -328,6 +328,7 @@ for await (let binding of [await function() {}]) {
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -350,7 +351,6 @@ for await (let binding of [await function() {}]) {
                                     "start": 437,
                                     "end": 440
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 426,
@@ -396,6 +396,7 @@ for await (let binding of [await function() {}]) {
                                     },
                                     "generatorToken": null,
                                     "name": null,
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -418,7 +419,6 @@ for await (let binding of [await function() {}]) {
                                         "start": 463,
                                         "end": 466
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 452,
@@ -527,6 +527,7 @@ for await (let binding of [await function() {}]) {
                                 },
                                 "generatorToken": null,
                                 "name": null,
+                                "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
                                     "formalParameterList": [],
@@ -549,7 +550,6 @@ for await (let binding of [await function() {}]) {
                                     "start": 659,
                                     "end": 662
                                 },
-                                "typeParameters": null,
                                 "returnType": null,
                                 "flags": 32,
                                 "start": 648,
@@ -595,6 +595,7 @@ for await (let binding of [await function() {}]) {
                                     },
                                     "generatorToken": null,
                                     "name": null,
+                                    "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
                                         "formalParameterList": [],
@@ -617,7 +618,6 @@ for await (let binding of [await function() {}]) {
                                         "start": 685,
                                         "end": 688
                                     },
-                                    "typeParameters": null,
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 674,

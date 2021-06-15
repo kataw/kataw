@@ -39,6 +39,7 @@ async function foo(a = class extends (await b) {}) {};
                 "start": 14,
                 "end": 18
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -146,7 +147,6 @@ async function foo(a = class extends (await b) {}) {};
                 "start": 50,
                 "end": 53
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,

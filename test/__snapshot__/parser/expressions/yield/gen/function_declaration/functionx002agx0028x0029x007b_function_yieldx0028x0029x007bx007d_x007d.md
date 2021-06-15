@@ -42,6 +42,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                 "start": 8,
                 "end": 16
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -80,6 +81,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                                 "start": 30,
                                 "end": 31
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -113,6 +115,7 @@ function not_gen() { function*g(){ function yield(){}; } }}
                                                 "start": 43,
                                                 "end": 49
                                             },
+                                            "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
                                                 "formalParameterList": [],
@@ -135,7 +138,6 @@ function not_gen() { function*g(){ function yield(){}; } }}
                                                 "start": 51,
                                                 "end": 53
                                             },
-                                            "typeParameters": null,
                                             "returnType": null,
                                             "flags": 16,
                                             "start": 34,
@@ -156,7 +158,6 @@ function not_gen() { function*g(){ function yield(){}; } }}
                                 "start": 33,
                                 "end": 56
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 272,
                             "start": 20,
@@ -171,7 +172,6 @@ function not_gen() { function*g(){ function yield(){}; } }}
                 "start": 18,
                 "end": 58
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

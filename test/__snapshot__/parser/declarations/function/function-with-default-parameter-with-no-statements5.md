@@ -35,6 +35,7 @@ function foo(x = 0) {
                 "start": 8,
                 "end": 12
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -83,7 +84,6 @@ function foo(x = 0) {
                 "start": 19,
                 "end": 23
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

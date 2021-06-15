@@ -39,6 +39,7 @@ function* g( x = function() { async(yield) }) {};
                 "start": 9,
                 "end": 11
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -66,6 +67,7 @@ function* g( x = function() { async(yield) }) {};
                             },
                             "generatorToken": null,
                             "name": null,
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
@@ -120,7 +122,6 @@ function* g( x = function() { async(yield) }) {};
                                 "start": 27,
                                 "end": 44
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 32,
                             "start": 16,
@@ -150,7 +151,6 @@ function* g( x = function() { async(yield) }) {};
                 "start": 45,
                 "end": 48
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,

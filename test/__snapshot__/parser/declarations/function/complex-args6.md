@@ -34,6 +34,7 @@ function f([b, a], {b}) {}
                 "start": 8,
                 "end": 10
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [
@@ -111,7 +112,6 @@ function f([b, a], {b}) {}
                 "start": 23,
                 "end": 26
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,

@@ -53,6 +53,7 @@ async function * gen() {async function * foo(yield) { }}
                 "start": 16,
                 "end": 20
             },
+            "typeParameters": null,
             "formalParameters": {
                 "kind": 214,
                 "formalParameterList": [],
@@ -96,6 +97,7 @@ async function * gen() {async function * foo(yield) { }}
                                 "start": 40,
                                 "end": 44
                             },
+                            "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [
@@ -127,7 +129,6 @@ async function * gen() {async function * foo(yield) { }}
                                 "start": 51,
                                 "end": 55
                             },
-                            "typeParameters": null,
                             "returnType": null,
                             "flags": 400,
                             "start": 24,
@@ -142,7 +143,6 @@ async function * gen() {async function * foo(yield) { }}
                 "start": 22,
                 "end": 56
             },
-            "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 0,
