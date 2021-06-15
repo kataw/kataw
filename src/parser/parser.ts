@@ -1610,7 +1610,7 @@ export function parseExpressionOrLabelledStatement(
   ownLabels: any
 ): LabelledStatement | ExpressionStatement {
   const { token, curPos, nodeFlags } = parser;
-  const expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
+  const expr: any = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
   // 'let' followed by '[' means a lexical declaration, which should not appear here.
   if (token === SyntaxKind.LetKeyword && parser.token === SyntaxKind.LeftBracket) {
@@ -1621,6 +1621,16 @@ export function parseExpressionOrLabelledStatement(
       curPos,
       parser.curPos
     );
+  }
+
+  // - `() => {}
+  //    () => {}`
+  if (
+    parser.nodeFlags & NodeFlags.NewLine &&
+    expr.kind === SyntaxKind.ArrowFunction &&
+    parser.token === SyntaxKind.LeftParen
+  ) {
+    return expr;
   }
 
   return token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier) && parser.token === SyntaxKind.Colon
