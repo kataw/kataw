@@ -1,12 +1,12 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { ParameterDeclarations } from './parameter-declarations';
+import { TypeParameterList } from './type-parameter-list';
 
 export interface TypeParameterDeclaration extends SyntaxNode {
-  readonly declarations: ParameterDeclarations;
+  readonly declarations: TypeParameterList;
 }
 
 export function createTypeParameterDeclaration(
-  declarations: ParameterDeclarations,
+  declarations: TypeParameterList,
   flags: NodeFlags,
   start: number,
   end: number

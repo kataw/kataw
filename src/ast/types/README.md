@@ -293,15 +293,15 @@ interface TypeAnnotation <: TypeNode {
 ```js
 interface TypeParameterDeclaration <: TypeNode {
   kind: NodeKind.TypeParameterDeclaration;
-  declarations: ParameterDeclarations;
+  declarations: TypeParameterList;
 }
 ```
 
-### ParameterDeclarations
+### TypeParameterList
 
 ```js
-interface ParameterDeclarations <: TypeNode {
-  kind: NodeKind.ParameterDeclarations;
+interface TypeParameterList <: TypeNode {
+  kind: NodeKind.TypeParameterList;
   parameters: TypeParameter[];
   trailingComma: boolean;
 }

@@ -322,7 +322,7 @@ export function forEachChild(node: any, visitor: any): any {
       return visitNode(node.declarations, node, visitor);
     case SyntaxKind.TypeParameterDeclaration:
       return visitNode(node.declarations, node, visitor);
-    case SyntaxKind.ParameterDeclarations:
+    case SyntaxKind.TypeParameterList:
       return visitNodes(node.parameters, node, visitor);
     case SyntaxKind.FunctionType:
       return (

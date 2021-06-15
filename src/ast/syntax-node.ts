@@ -103,7 +103,7 @@ export enum SyntaxKind {
   RestType = 333,
   OptionalType = 334,
   OptionalIndexedAccess = 332,
-  ParameterDeclarations = 337,
+  TypeParameterList = 337,
   Block = 249,
   BlockStatement = 124,
   BooleanKeyword = 134234254,

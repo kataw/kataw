@@ -129,7 +129,7 @@ import { createTypeAnnotation } from '../ast/types/type-annotation';
 import { createQualifiedType } from '../ast/types/qualified-type';
 import { createTypeReference, TypeReference } from '../ast/types/type-reference';
 import { createTypeParameter, TypeParameter } from '../ast/types/type-parameter';
-import { createParameterDeclarations, ParameterDeclarations } from '../ast/types/parameter-declarations';
+import { createTypeParameterList, TypeParameterList } from '../ast/types/type-parameter-list';
 import { createTypeInstantiations, TypeInstantiations } from '../ast/types/type-instantiations';
 import { createTupleType, TupleType } from '../ast/types/tuple-type';
 import { createArrowFunctionType, ArrowFunctionType } from '../ast/types/arrow-function-type';
@@ -7908,14 +7908,24 @@ function parseTypeParameterDeclaration(parser: ParserState, context: Context): T
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
   if (consumeOpt(parser, context, SyntaxKind.LessThan)) {
-    const declarations = parseParameterDeclarations(parser, context | Context.InType);
+    if (parser.token === SyntaxKind.GreaterThan) {
+      parser.previousErrorPos = parser.pos;
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Identifier_expected],
+        parser.curPos,
+        parser.pos
+      );
+    }
+    const declarations = parseTypeParameterList(parser, context | Context.InType);
     consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expected_to_find_a_to_match_the_token_here);
     return createTypeParameterDeclaration(declarations, nodeFlags, pos, parser.curPos);
   }
   return null;
 }
 
-function parseParameterDeclarations(parser: ParserState, context: Context): ParameterDeclarations {
+function parseTypeParameterList(parser: ParserState, context: Context): TypeParameterList {
   const start = parser.curPos;
   const types = [];
   let requireDefault = false;
@@ -7932,7 +7942,7 @@ function parseParameterDeclarations(parser: ParserState, context: Context): Para
       }
     }
   }
-  return createParameterDeclarations(types, trailingComma, start, parser.curPos);
+  return createTypeParameterList(types, trailingComma, start, parser.curPos);
 }
 
 function parseTypeParameterInstantiation(parser: ParserState, context: Context): TypeParameterInstantiation | null {
