@@ -94,6 +94,30 @@ All keywords in Kataw is it's own CST node, and you create them in almost the sa
 kataw.createToken(kataw.SyntaxKind.ForKeyword, Kataw.NodeFlags.ChildLess, /* start */ 1,  /* end */ 5);
 ```
 
+## ESNext
+
+`Stage 3` proposals can be parsed if the `next` options are enabled.
+
+`Stage 1` and `stage 2` proposals are not supported because the specs drafts are changing all the time.
+
+
+## Types
+
+Kataw has it's own type system that is an improvement over `Typescript` and `Flow`, and it
+conform to the `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
+
+As everything else - it's developed for high performance and it consumes less memory.
+
+It allows you to parse syntax like `function x(y: string, z: number): string | number {}` and other
+similiar syntax.
+
+The type system is still `WIP` and will be enabled by default in the `CLI` together with
+Kataw's own type checker.
+
+You can manually enable this if you enable the `allowTypes` option. It will then parse the types but it
+will not do any type checking.
+
+
 ## Comments
 
 Leading and trailing comments can be extracted at correct position with `kataw.getLeadingComments` and `kataw.getTrailingComments`.
@@ -121,30 +145,6 @@ while (true) {}
 ```
 
 You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
-
-## ESNext
-
-`Stage 3` proposals can be parsed if the `next` options are enabled.
-
-`Stage 1` and `stage 2` proposals are not supported because the specs drafts are changing all the time.
-
-
-## Type annotations
-
-Kataw has it's own type system that is an improvement over `Typescript` and `Flow`, and it
-conform to the `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
-
-As everything else - it's developed for high performance and it consumes less memory than
-`Typescript` and `Flow`.
-
-It allows you to parse syntax like `function x(y: string, z: number): string | number {}` and other
-similiar syntax.
-
-The type system is still `WIP` and will be enabled by default in the `CLI` together with
-Kataw's own type checker.
-
-You can manually enable this if you enable the `allowTypes` option. It will then parse the types but it
-will not do any type checking.
 
 
 ## CST parser features
