@@ -166,7 +166,7 @@ Changing the `NodeFlags` allow you to change how the CST node should behave.
 
 All this things gives a you better control over transformation of each CST node compared to `Babel` and `Rome`.
 
-Here is an example on an simple transformer that replace all identifiers with an `NumericLiteral`.
+Here is an example on an simple transformer that will replace all identifiers with an `NumericLiteral`.
 
 ```ts
 export function swapIdentifierWithNumeric(transform) {
