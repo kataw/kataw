@@ -125,7 +125,14 @@ import { createImportsList } from '../ast/module/imports-list';
 import { createNamedExports } from '../ast/module/named-exports';
 import { createNamedImports } from '../ast/module/named-imports';
 import { createSpreadElement } from '../ast/expressions/spread-element';
-import { Transform, createNodeArray, extractSingleNode, startLexicalEnvironment } from './core';
+import {
+  Transform,
+  LexicalEnvironmentFlags,
+  createNodeArray,
+  extractSingleNode,
+  startLexicalEnvironment,
+  concatenate
+} from './core';
 
 export function visitEachChild(transform: Transform, node: any, visitor: (node: SyntaxKind) => SyntaxKind): any {
   const kind = node.kind;
@@ -787,7 +794,7 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
         : node;
 
     case SyntaxKind.FormalParameterList:
-      return node.formalParameterList !== visitNodes(node.formalParameterList, visitor)
+      return node.formalParameterList !== visitParameterList(transform, node.formalParameterList, visitor)
         ? createFormalParameterList(node.formalParameterList, node.trailingComma, node.flags, node.start, node.end)
         : node;
 
@@ -1222,4 +1229,28 @@ export function visitNodes(nodes: any, visitor: any, start?: number, count?: num
     }
   }
   return updated || nodes;
+}
+
+export function visitParameterList(transform: Transform, nodes: any, visitor: any): any {
+  startLexicalEnvironment(transform);
+  let updated: any;
+  if (nodes) {
+    updated = visitNodes(nodes, visitor);
+    transform.lexicalEnvironmentFlags = transform.lexicalEnvironmentFlags & ~LexicalEnvironmentFlags.InParameters;
+  }
+  transform.lexicalEnvironmentSuspended = true;
+  return updated;
+}
+
+export function visitLexicalEnvironment(
+  transform: Transform,
+  statements: any,
+  visitor: any,
+  start?: number,
+  _ensureUseStrict?: boolean
+) {
+  startLexicalEnvironment(transform);
+  statements = visitNodes(statements, visitor, start);
+  const declarations = endLexicalEnvironment(transform);
+  return createNodeArray(concatenate(declarations, statements));
 }
