@@ -78,7 +78,7 @@ const f = async <T, R, S>(
                                             "type": null,
                                             "defaultType": null,
                                             "flags": 2097152,
-                                            "start": 17,
+                                            "start": 9,
                                             "end": 18
                                         },
                                         {
@@ -116,11 +116,11 @@ const f = async <T, R, S>(
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
-                                    "start": 17,
+                                    "start": 9,
                                     "end": 24
                                 },
                                 "flags": 2097152,
-                                "start": 15,
+                                "start": 9,
                                 "end": 25
                             },
                             "parameters": [
@@ -249,7 +249,7 @@ const f = async <T, R, S>(
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 9,
-                                "end": 15
+                                "end": 25
                             },
                             "returnType": null,
                             "contents": {

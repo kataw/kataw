@@ -268,7 +268,7 @@ function foo8_c(x) {
                                         "end": 33
                                     }
                                 ],
-                                "flags": 16777232,
+                                "flags": 16,
                                 "start": 31,
                                 "end": 33
                             },
@@ -602,7 +602,7 @@ function foo8_c(x) {
                                         "end": 183
                                     }
                                 ],
-                                "flags": 16777232,
+                                "flags": 16,
                                 "start": 181,
                                 "end": 183
                             },
@@ -943,7 +943,7 @@ function foo8_c(x) {
                                         "end": 335
                                     }
                                 ],
-                                "flags": 16777232,
+                                "flags": 16,
                                 "start": 329,
                                 "end": 335
                             },
@@ -1989,7 +1989,7 @@ function foo8_c(x) {
                                         "end": 803
                                     }
                                 ],
-                                "flags": 16777232,
+                                "flags": 16,
                                 "start": 797,
                                 "end": 803
                             },
@@ -2426,7 +2426,7 @@ function foo8_c(x) {
                                         "end": 987
                                     }
                                 ],
-                                "flags": 16777232,
+                                "flags": 16,
                                 "start": 974,
                                 "end": 987
                             },
@@ -3663,7 +3663,7 @@ function foo8_c(x) {
                                         "end": 1502
                                     }
                                 ],
-                                "flags": 16777232,
+                                "flags": 16,
                                 "start": 1496,
                                 "end": 1502
                             },
@@ -7853,7 +7853,7 @@ function foo8_c(x) {
 ```javascript
 
 function foo0(x) {
-  for (const of [])
+  for (let of [])
     {
       let a = arguments.length;
       (function () {
@@ -7863,11 +7863,11 @@ function foo0(x) {
     }
 }
 function foo0_1(x) {
-  for (const in [])
+  for (let in [])
     {}
 }
 function foo1(x) {
-  for (const; ++x; x  < 1)
+  for (let; ++x; x  < 1)
     {}
 }
 function foo2(x) {
@@ -7878,11 +7878,11 @@ function foo3(x) {
   while (1 === 1);
 }
 function foo4(x) {
-  for (const; ++y; y  < 1)
+  for (let; ++y; y  < 1)
     {}
 }
 function foo5(x) {
-  for (const; ++x; x  < 1)
+  for (let; ++x; x  < 1)
     {}
 }
 function foo6(x) {
@@ -7893,7 +7893,7 @@ function foo7(x) {
   while (1 === 1);
 }
 function foo8(x) {
-  for (const; ++y; y  < 1)
+  for (let; ++y; y  < 1)
     {}
 }
 ///=======const

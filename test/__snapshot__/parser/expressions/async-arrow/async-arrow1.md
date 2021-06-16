@@ -25,138 +25,138 @@ async <T>(fn: () => T) => fn;
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 22,
-                "end": 25
-            },
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "start": 7,
-                                "end": 8
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 7,
-                            "end": 8
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 7,
-                    "end": 8
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 22,
+                    "end": 25
                 },
-                "flags": 2097152,
-                "start": 5,
-                "end": 9
-            },
-            "parameters": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "fn",
-                        "rawText": "fn",
-                        "flags": 96,
-                        "start": 10,
-                        "end": 12
-                    },
-                    "optionalToken": null,
-                    "type": {
-                        "kind": 139,
-                        "bitwiseOrToken": null,
-                        "bitwiseAndToken": null,
-                        "type": {
-                            "kind": 288,
-                            "arrowTypeParameterList": {
-                                "kind": 292,
-                                "parameters": [],
-                                "trailingComma": false,
+                "typeParameters": {
+                    "kind": 307,
+                    "declarations": {
+                        "kind": 337,
+                        "parameters": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "start": 7,
+                                    "end": 8
+                                },
+                                "type": null,
+                                "defaultType": null,
                                 "flags": 2097152,
-                                "start": 15,
-                                "end": 15
-                            },
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 19
-                            },
-                            "returnType": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 144,
-                                    "id": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
+                                "start": 7,
+                                "end": 28
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 0,
+                        "end": 28
+                    },
+                    "flags": 2097152,
+                    "start": 0,
+                    "end": 28
+                },
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "fn",
+                            "rawText": "fn",
+                            "flags": 96,
+                            "start": 10,
+                            "end": 12
+                        },
+                        "optionalToken": null,
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 288,
+                                "arrowTypeParameterList": {
+                                    "kind": 292,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 15,
+                                    "end": 15
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 16,
+                                    "end": 19
+                                },
+                                "returnType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 19,
+                                            "end": 21
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 19,
                                         "end": 21
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 19,
                                     "end": 21
                                 },
+                                "typeParameters": null,
                                 "flags": 2097152,
-                                "start": 19,
+                                "start": 13,
                                 "end": 21
                             },
-                            "typeParameters": null,
                             "flags": 2097152,
                             "start": 13,
                             "end": 21
                         },
-                        "flags": 2097152,
-                        "start": 13,
+                        "right": null,
+                        "flags": 32,
+                        "start": 10,
                         "end": 21
-                    },
-                    "right": null,
-                    "flags": 32,
-                    "start": 10,
-                    "end": 21
-                }
-            ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
+                    }
+                ],
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 9
+                },
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "fn",
+                    "rawText": "fn",
+                    "flags": 96,
+                    "start": 25,
+                    "end": 28
+                },
+                "flags": 288,
                 "start": 0,
-                "end": 5
-            },
-            "returnType": null,
-            "contents": {
-                "kind": 134299649,
-                "text": "fn",
-                "rawText": "fn",
-                "flags": 96,
-                "start": 25,
                 "end": 28
             },
-            "flags": 288,
-            "start": 0,
-            "end": 28
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 28,
+            "start": 0,
             "end": 29
         }
     ],
@@ -173,8 +173,7 @@ async <T>(fn: () => T) => fn;
 
 ```javascript
 
-async (fn) =>  fn
-
+async (fn) =>  fn;
 ```
 
 ### Diagnostics

@@ -59,7 +59,7 @@ for (let x = 42 in list) process(x);
                         "end": 15
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 15
             },

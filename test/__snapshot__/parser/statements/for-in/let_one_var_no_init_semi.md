@@ -44,7 +44,7 @@ for (let foo in x);
                         "end": 12
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 12
             },
@@ -86,7 +86,7 @@ for (let foo in x);
 
 ```javascript
 
-for (const in x);
+for (let in x);
 ```
 
 ### Diagnostics

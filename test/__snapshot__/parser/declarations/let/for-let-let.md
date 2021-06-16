@@ -90,7 +90,7 @@ for (let {x: y = let};;) {}
                         "end": 21
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 21
             },
@@ -127,13 +127,12 @@ for (let {x: y = let};;) {}
 
 ```javascript
 
-for (const; ; )
-  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Missing initializer in destructuring declaration - start: 21, end: 22
+
 ```
 

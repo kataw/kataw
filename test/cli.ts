@@ -93,7 +93,7 @@ function showHelp() {
   process.exit(0);
 }
 
-function setTiming(opts) {
+function setTiming(opts: any) {
   const msg = `${ColorCodes.GREEN}Ran ${ColorCodes.RESET}${opts.files.length}  test cases.${ColorCodes.yellow} Total time${ColorCodes.RESET}`;
 
   console.time(msg);

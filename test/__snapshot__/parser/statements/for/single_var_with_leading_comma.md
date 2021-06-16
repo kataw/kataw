@@ -67,7 +67,7 @@ for (let {,x} = obj;;);
                         "end": 12
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 12
             },
@@ -148,6 +148,7 @@ for (let {,x} = obj;;);
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 11
+✖ Missing initializer in destructuring declaration - start: 10, end: 11
 ✖ Identifier expected - start: 12, end: 13
 ✖ Declaration or statement expected - start: 13, end: 15
 ✖ Declaration or statement expected - start: 21, end: 22

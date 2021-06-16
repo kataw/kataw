@@ -92,7 +92,7 @@ async function f() {
                                         "end": 43
                                     }
                                 ],
-                                "flags": 16777232,
+                                "flags": 16,
                                 "start": 37,
                                 "end": 43
                             },
@@ -142,7 +142,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  for (const; ; false);
+  for (let; ; false);
 }
 ```
 

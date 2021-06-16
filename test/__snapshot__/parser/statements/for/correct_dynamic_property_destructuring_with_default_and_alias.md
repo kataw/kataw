@@ -95,7 +95,7 @@ for (let {[x]: y = z} = a);
                         "end": 25
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 25
             },

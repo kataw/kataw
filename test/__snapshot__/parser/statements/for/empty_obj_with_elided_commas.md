@@ -50,7 +50,7 @@ for (let {,,} = obj;;);
                         "end": 10
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 11
             },
@@ -146,6 +146,7 @@ for (let {,,} = obj;;);
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 11
+✖ Missing initializer in destructuring declaration - start: 10, end: 11
 ✖ Trailing comma not allowed. - start: 11, end: 12
 ✖ Identifier expected - start: 12, end: 13
 ✖ Declaration or statement expected - start: 13, end: 15

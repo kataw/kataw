@@ -90,7 +90,7 @@ for (let foo = arr, [bar] = arr2;;);
                         "end": 32
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 32
             },
@@ -120,7 +120,7 @@ for (let foo = arr, [bar] = arr2;;);
 
 ```javascript
 
-for (const; ; );
+for (let; ; );
 ```
 
 ### Diagnostics

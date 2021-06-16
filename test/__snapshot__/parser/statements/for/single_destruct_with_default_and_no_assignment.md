@@ -76,7 +76,7 @@ for (let {x=y};;);
                         "end": 14
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 14
             },
@@ -106,12 +106,12 @@ for (let {x=y};;);
 
 ```javascript
 
-for (const; ; );
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Missing initializer in destructuring declaration - start: 14, end: 15
+
 ```
 

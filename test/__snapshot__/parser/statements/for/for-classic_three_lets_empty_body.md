@@ -77,7 +77,7 @@ for (let a,b,c;;);
                         "end": 14
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 14
             },
@@ -107,7 +107,7 @@ for (let a,b,c;;);
 
 ```javascript
 
-for (const; ; );
+for (let; ; );
 ```
 
 ### Diagnostics

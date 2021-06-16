@@ -24,78 +24,78 @@ async <T>() => await null;
     "directives": [],
     "statements": [
         {
-            "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 11,
-                "end": 14
-            },
-            "typeParameters": {
-                "kind": 307,
-                "declarations": {
-                    "kind": 337,
-                    "parameters": [
-                        {
-                            "kind": 146,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "T",
-                                "rawText": "T",
-                                "flags": 96,
-                                "start": 7,
-                                "end": 8
-                            },
-                            "type": null,
-                            "defaultType": null,
-                            "flags": 2097152,
-                            "start": 7,
-                            "end": 8
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 2097152,
-                    "start": 7,
-                    "end": 8
-                },
-                "flags": 2097152,
-                "start": 5,
-                "end": 9
-            },
-            "parameters": [],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
-            "returnType": null,
-            "contents": {
-                "kind": 208,
-                "awaitKeyword": {
-                    "kind": 82196,
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
                     "flags": 64,
-                    "start": 14,
-                    "end": 20
+                    "start": 11,
+                    "end": 14
                 },
-                "expression": {
-                    "kind": 138477575,
-                    "flags": 96,
-                    "start": 20,
+                "typeParameters": {
+                    "kind": 307,
+                    "declarations": {
+                        "kind": 337,
+                        "parameters": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "start": 7,
+                                    "end": 8
+                                },
+                                "type": null,
+                                "defaultType": null,
+                                "flags": 2097152,
+                                "start": 7,
+                                "end": 25
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 0,
+                        "end": 25
+                    },
+                    "flags": 2097152,
+                    "start": 0,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 14,
+                "parameters": [],
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 9
+                },
+                "returnType": null,
+                "contents": {
+                    "kind": 208,
+                    "awaitKeyword": {
+                        "kind": 82196,
+                        "flags": 64,
+                        "start": 14,
+                        "end": 20
+                    },
+                    "expression": {
+                        "kind": 138477575,
+                        "flags": 96,
+                        "start": 20,
+                        "end": 25
+                    },
+                    "flags": 32,
+                    "start": 14,
+                    "end": 25
+                },
+                "flags": 288,
+                "start": 0,
                 "end": 25
             },
-            "flags": 288,
-            "start": 0,
-            "end": 25
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 25,
+            "start": 0,
             "end": 26
         }
     ],
@@ -112,8 +112,7 @@ async <T>() => await null;
 
 ```javascript
 
-async () =>  await null
-
+async () =>  await null;
 ```
 
 ### Diagnostics

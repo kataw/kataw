@@ -76,7 +76,7 @@ for (let [foo = x]);
                         "end": 18
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 18
             },
@@ -117,6 +117,7 @@ for (let [foo = x]);
 ### Diagnostics
 
 ```javascript
+✖ Missing initializer in destructuring declaration - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
 ✖ Identifier expected - start: 18, end: 19
 

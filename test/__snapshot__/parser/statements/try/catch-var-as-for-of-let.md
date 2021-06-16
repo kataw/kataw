@@ -93,7 +93,7 @@ try {} catch (e) { for (let e of y) {} }
                                             "end": 29
                                         }
                                     ],
-                                    "flags": 16777232,
+                                    "flags": 16,
                                     "start": 27,
                                     "end": 29
                                 },
@@ -163,7 +163,7 @@ try {} catch (e) { for (let e of y) {} }
 
 try {
 } catch (e) {
-  for (const of y)
+  for (let of y)
     {
     }
 }

@@ -119,7 +119,7 @@ label: for (let x = 0; x < 10;) {
                             "end": 36
                         }
                     ],
-                    "flags": 16777232,
+                    "flags": 16,
                     "start": 30,
                     "end": 36
                 },
@@ -293,7 +293,7 @@ label: for (let x = 0; x < 10;) {
 ```javascript
 
 var count = 0;
-label: for (const; ; x  < 10)
+label: for (let; ; x  < 10)
   {}
 ```
 

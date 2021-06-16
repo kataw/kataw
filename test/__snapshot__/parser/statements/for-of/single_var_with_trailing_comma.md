@@ -60,7 +60,7 @@ for (let {x,} of obj);
                         "end": 13
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 13
             },
@@ -102,7 +102,7 @@ for (let {x,} of obj);
 
 ```javascript
 
-for (const of obj);
+for (let of obj);
 ```
 
 ### Diagnostics

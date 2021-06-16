@@ -83,7 +83,7 @@ for (let {x : y = z} of obj);
                         "end": 20
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 20
             },
@@ -125,7 +125,7 @@ for (let {x : y = z} of obj);
 
 ```javascript
 
-for (const of obj);
+for (let of obj);
 ```
 
 ### Diagnostics

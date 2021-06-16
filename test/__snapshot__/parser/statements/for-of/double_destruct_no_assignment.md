@@ -92,7 +92,7 @@ for (let {x}, {y} of z);
                         "end": 17
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 17
             },
@@ -139,6 +139,7 @@ for (let {x}, {y} of z);
 ### Diagnostics
 
 ```javascript
+✖ Missing initializer in destructuring declaration - start: 12, end: 13
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 17, end: 20
 
 ```

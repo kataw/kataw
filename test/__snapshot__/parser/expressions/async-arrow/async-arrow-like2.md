@@ -30,32 +30,12 @@
                 "expression": {
                     "kind": 198,
                     "left": {
-                        "kind": 198,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "async",
-                            "rawText": "async",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 6
-                        },
-                        "operatorToken": {
-                            "kind": 536971330,
-                            "flags": 96,
-                            "start": 6,
-                            "end": 8
-                        },
-                        "right": {
-                            "kind": 134299649,
-                            "text": "T",
-                            "rawText": "T",
-                            "flags": 96,
-                            "start": 8,
-                            "end": 9
-                        },
-                        "flags": 32,
-                        "start": 0,
-                        "end": 9
+                        "kind": 134299649,
+                        "text": "async",
+                        "rawText": "async",
+                        "flags": 96,
+                        "start": 1,
+                        "end": 6
                     },
                     "operatorToken": {
                         "kind": 99634,
@@ -201,7 +181,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected to find a '>' to match the '<' token here. - start: 10, end: 11
 ✖ Expected a `;` - start: 21, end: 22
 
 ```

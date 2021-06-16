@@ -44,7 +44,7 @@ for (let a;;) { let a; }
                         "end": 10
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 10
             },
@@ -119,7 +119,7 @@ for (let a;;) { let a; }
 
 ```javascript
 
-for (const; ; )
+for (let; ; )
   {}
 ```
 

@@ -74,7 +74,7 @@ a => {
                                             "end": 19
                                         }
                                     ],
-                                    "flags": 16777232,
+                                    "flags": 16,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -142,7 +142,7 @@ a => {
 ```javascript
 
 a =>  {
-  for (const of b)
+  for (let of b)
     c;
 };
 ```

@@ -64,7 +64,7 @@ for (let x of a,b) c
                         "end": 10
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 10
             },

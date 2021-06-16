@@ -96,7 +96,7 @@ for (let {a, [x]: y} = a;;);
                         "end": 24
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 24
             },
@@ -126,7 +126,7 @@ for (let {a, [x]: y} = a;;);
 
 ```javascript
 
-for (const; ; );
+for (let; ; );
 ```
 
 ### Diagnostics
