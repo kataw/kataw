@@ -5800,7 +5800,7 @@ function parseFunctionExpression(
               }
 
               expression.typeParameters = createTypeParameterDeclaration(
-                createTypeParameterList(types, /* trailingComma */ false, expression.start, parser.curPos),
+                createTypeParameterList(types, trailingComma, expression.start, parser.curPos),
                 NodeFlags.IsTypeNode,
                 pos,
                 parser.curPos
@@ -6280,7 +6280,6 @@ function parseFunctionDeclaration(
                 // - `async <T, U>(x)`
                 // - `async <T, U>(x) => y`
               } else if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
-
                 if (
                   speculate(
                     parser,
@@ -10447,20 +10446,12 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   let state = Tristate.False;
   let trailingComma = false;
-  const asyncToken = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, parser.curPos);
+
   const scope = {
     kind: ScopeKind.ArrowParams,
     scope: { kind: ScopeKind.Block, scope: null, flags: ScopeFlags.None },
     flags: ScopeFlags.None
   };
-  if (parser.token === SyntaxKind.LessThan) {
-    if ((context & Context.OptionsAllowTypes) < 1) return expr;
-    if (speculate(parser, context, nextTokenIsLeftParen, true)) {
-      return expr;
-    }
-    state = Tristate.True;
-    typeParameters = parseTypeParameterDeclaration(parser, context);
-  }
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
@@ -10492,7 +10483,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         typeParameters,
         parseType(parser, context),
         [],
-        asyncToken,
+        createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, expr.end),
         /* nodeFlags */ NodeFlags.Async,
         start
       );
@@ -11019,7 +11010,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         typeParameters,
         parseType(parser, context),
         arrowParams,
-        asyncToken,
+        createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, expr.end),
         /* nodeFlags */ flags | NodeFlags.Async,
         start
       );
