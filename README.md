@@ -153,7 +153,7 @@ You can use `kataw.visitEachChild` to traverse the entire CST tree. `kataw.visit
 
 **Note:** `kataw.visitNodes` should only be used on *lists*. Performance is maintained that way.
 
-All CST nodes will be updated automatically if any changes has bee detacted.
+All CST nodes will be updated automatically if any changes has bee detected.
 
 Here is an example on an simple transformer that replace all identifiers with an `NumericLiteral`.
 
