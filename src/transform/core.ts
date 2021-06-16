@@ -27,6 +27,14 @@ export function createNodeArray(elements?: any): any {
   return elements;
 }
 
+export function extractSingleNode(nodes: any[]): Node {
+  return singleOrUndefined(nodes);
+}
+
+export function singleOrUndefined(array: any[]): any {
+  return array && array.length === 1 ? array[0] : undefined;
+}
+
 export interface Transform {
   lexicalEnvironmentVariableDeclarations: any; //[] | undefined;
   lexicalEnvironmentFunctionDeclarations: FunctionDeclaration[] | undefined;
