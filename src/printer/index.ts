@@ -128,8 +128,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printImportDeclaration(node, printer);
     case SyntaxKind.FormalParameterList:
       return printFormalParameterList(node, printer);
-    case SyntaxKind.SingleNameBinding:
-      return printSingleNameBinding(node, printer);
     case SyntaxKind.BindingProperty:
       return printBindingProperty(node, printer);
     case SyntaxKind.ClassTail:
@@ -1183,15 +1181,6 @@ function printForBinding(node: any, printer: Printer, parentNode: any): any {
     return chain([node.flags & NodeFlags.Const ? 'const' : 'let', printBindingList(node.bindingList, printer)]);
   }
   return printStatements(node, printer, parentNode);
-}
-
-function printSingleNameBinding(node: any, printer: Printer): any {
-  return chain([
-    printKeyword(node.ellipsisToken, printer, node.start, node, /* separator */ false),
-    ,
-    printExpressions(node.left, printer, node),
-    printInitializer(node.right, printer, node)
-  ]);
 }
 
 function printBindingElement(node: any, printer: Printer): any {
