@@ -52,60 +52,7 @@ async <T = U>(x)
                 },
                 "flags": 268435488,
                 "start": 0,
-                "end": 16,
-                "typeParameters": {
-                    "kind": 307,
-                    "declarations": {
-                        "kind": 337,
-                        "parameters": [
-                            {
-                                "kind": 146,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
-                                    "start": 7,
-                                    "end": 8
-                                },
-                                "type": null,
-                                "defaultType": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "U",
-                                            "rawText": "U",
-                                            "flags": 96,
-                                            "start": 10,
-                                            "end": 12
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
-                                        "start": 10,
-                                        "end": 12
-                                    },
-                                    "flags": 2097152,
-                                    "start": 10,
-                                    "end": 12
-                                },
-                                "flags": 2097152,
-                                "start": 0,
-                                "end": 12
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "start": 0,
-                        "end": 16
-                    },
-                    "flags": 2097152,
-                    "start": 0,
-                    "end": 16
-                }
+                "end": 16
             },
             "flags": 16,
             "start": 0,

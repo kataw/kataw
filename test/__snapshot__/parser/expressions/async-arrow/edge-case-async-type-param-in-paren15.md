@@ -82,11 +82,11 @@ async <T = U>(x) => y;
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 0,
-                        "end": 21
+                        "end": 13
                     },
                     "flags": 2097152,
                     "start": 0,
-                    "end": 21
+                    "end": 13
                 },
                 "parameters": [
                     {
@@ -180,11 +180,11 @@ async <T = U>(x) => y;
                             "trailingComma": false,
                             "flags": 2097152,
                             "start": 25,
-                            "end": 46
+                            "end": 38
                         },
                         "flags": 2097152,
                         "start": 25,
-                        "end": 46
+                        "end": 38
                     },
                     "parameters": [
                         {

@@ -38,19 +38,31 @@
                         "end": 6
                     },
                     "operatorToken": {
-                        "kind": 99634,
+                        "kind": 536971330,
                         "flags": 96,
-                        "start": 9,
-                        "end": 11
+                        "start": 6,
+                        "end": 8
                     },
                     "right": {
                         "kind": 198,
                         "left": {
-                            "kind": 134299649,
-                            "text": "U",
-                            "rawText": "U",
-                            "flags": 96,
-                            "start": 11,
+                            "kind": 126,
+                            "operandToken": {
+                                "kind": 99634,
+                                "flags": 96,
+                                "start": 9,
+                                "end": 11
+                            },
+                            "operand": {
+                                "kind": 134299649,
+                                "text": "U",
+                                "rawText": "U",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 13
+                            },
+                            "flags": 32,
+                            "start": 9,
                             "end": 13
                         },
                         "operatorToken": {
@@ -151,7 +163,7 @@
                         "end": 30
                     },
                     "flags": 32,
-                    "start": 0,
+                    "start": 1,
                     "end": 30
                 },
                 "flags": 32,

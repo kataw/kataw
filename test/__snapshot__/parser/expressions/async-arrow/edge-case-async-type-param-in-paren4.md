@@ -82,11 +82,11 @@
                             "trailingComma": false,
                             "flags": 2097152,
                             "start": 1,
-                            "end": 22
+                            "end": 14
                         },
                         "flags": 2097152,
                         "start": 1,
-                        "end": 22
+                        "end": 14
                     },
                     "parameters": [
                         {

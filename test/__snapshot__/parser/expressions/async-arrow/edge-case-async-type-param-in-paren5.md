@@ -56,60 +56,7 @@
                     },
                     "flags": 268435488,
                     "start": 1,
-                    "end": 17,
-                    "typeParameters": {
-                        "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
-                                        "start": 8,
-                                        "end": 9
-                                    },
-                                    "type": null,
-                                    "defaultType": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "U",
-                                                "rawText": "U",
-                                                "flags": 96,
-                                                "start": 11,
-                                                "end": 13
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
-                                            "start": 11,
-                                            "end": 13
-                                        },
-                                        "flags": 2097152,
-                                        "start": 11,
-                                        "end": 13
-                                    },
-                                    "flags": 2097152,
-                                    "start": 1,
-                                    "end": 13
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "start": 1,
-                            "end": 17
-                        },
-                        "flags": 2097152,
-                        "start": 1,
-                        "end": 17
-                    }
+                    "end": 17
                 },
                 "flags": 32,
                 "start": 0,

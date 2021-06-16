@@ -88,171 +88,52 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
                         "initializer": {
                             "kind": 121,
                             "expression": {
-                                "kind": 177,
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 20,
-                                    "end": 25
-                                },
-                                "functionKeyword": {
-                                    "kind": 37822554,
-                                    "flags": 64,
-                                    "start": 25,
-                                    "end": 34
-                                },
-                                "generatorToken": null,
-                                "name": null,
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 34,
-                                    "end": 36
-                                },
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [
-                                            {
-                                                "kind": 155,
-                                                "declareKeyword": null,
-                                                "varKeyword": {
-                                                    "kind": 37757002,
-                                                    "flags": 80,
-                                                    "start": 38,
-                                                    "end": 42
-                                                },
-                                                "declarationList": {
-                                                    "kind": 156,
-                                                    "declarations": [
-                                                        {
-                                                            "kind": 157,
-                                                            "binding": {
-                                                                "kind": 134299649,
-                                                                "text": "asyncArrow",
-                                                                "rawText": "asyncArrow",
-                                                                "flags": 96,
-                                                                "start": 42,
-                                                                "end": 53
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "initializer": {
-                                                                "kind": 271,
-                                                                "arrowToken": {
-                                                                    "kind": 10,
-                                                                    "flags": 64,
-                                                                    "start": 71,
-                                                                    "end": 74
-                                                                },
-                                                                "typeParameters": null,
-                                                                "parameters": {
-                                                                    "kind": 131,
-                                                                    "expression": {
-                                                                        "kind": 134299649,
-                                                                        "text": "async",
-                                                                        "rawText": "async",
-                                                                        "flags": 96,
-                                                                        "start": 55,
-                                                                        "end": 61
-                                                                    },
-                                                                    "argumentList": {
-                                                                        "kind": 256,
-                                                                        "elements": [
-                                                                            {
-                                                                                "kind": 223,
-                                                                                "ellipsisToken": {
-                                                                                    "kind": 524302,
-                                                                                    "flags": 64,
-                                                                                    "start": 62,
-                                                                                    "end": 65
-                                                                                },
-                                                                                "flags": 32,
-                                                                                "start": 62,
-                                                                                "end": 70
-                                                                            }
-                                                                        ],
-                                                                        "trailingComma": false,
-                                                                        "flags": 32,
-                                                                        "start": 55,
-                                                                        "end": 55
-                                                                    },
-                                                                    "flags": 268435490,
-                                                                    "start": 55,
-                                                                    "end": 71
-                                                                },
-                                                                "asyncKeyword": {
-                                                                    "kind": 82031,
-                                                                    "flags": 64,
-                                                                    "start": 55,
-                                                                    "end": 61
-                                                                },
-                                                                "returnType": null,
-                                                                "contents": {
-                                                                    "kind": 216,
-                                                                    "functionStatementList": {
-                                                                        "kind": 217,
-                                                                        "directives": [],
-                                                                        "statements": [],
-                                                                        "flags": 32,
-                                                                        "start": 76,
-                                                                        "end": 76
-                                                                    },
-                                                                    "flags": 32,
-                                                                    "start": 74,
-                                                                    "end": 77
-                                                                },
-                                                                "flags": 32,
-                                                                "start": 55,
-                                                                "end": 77
-                                                            },
-                                                            "flags": 16,
-                                                            "start": 42,
-                                                            "end": 77
-                                                        }
-                                                    ],
-                                                    "flags": 16,
-                                                    "start": 42,
-                                                    "end": 77
-                                                },
-                                                "flags": 16,
-                                                "start": 38,
-                                                "end": 78
-                                            }
-                                        ],
-                                        "flags": 32,
-                                        "start": 38,
-                                        "end": 78
-                                    },
-                                    "flags": 32,
-                                    "start": 36,
-                                    "end": 80
-                                },
-                                "returnType": null,
-                                "flags": 160,
-                                "start": 20,
-                                "end": 80
+                                "kind": 132,
+                                "expressions": [],
+                                "flags": 32,
+                                "start": 18,
+                                "end": 71
                             },
                             "flags": 32,
                             "start": 18,
-                            "end": 81
+                            "end": 71
                         },
                         "flags": 16,
                         "start": 14,
-                        "end": 81
+                        "end": 71
                     }
                 ],
                 "flags": 16,
                 "start": 14,
-                "end": 81
+                "end": 71
             },
             "flags": 16,
             "start": 10,
+            "end": 71
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [],
+                "flags": 16,
+                "start": 76,
+                "end": 76
+            },
+            "flags": 16,
+            "start": 74,
+            "end": 77
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 77,
+            "end": 78
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 81,
             "end": 82
         }
     ],
@@ -275,6 +156,11 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
 
 ```javascript
 ✖ Identifier expected - start: 70, end: 71
+✖ ',' expected - start: 71, end: 74
+✖ Expected a `;` - start: 71, end: 74
+✖ ',' expected - start: 71, end: 74
+✖ Declaration or statement expected - start: 78, end: 80
+✖ Declaration or statement expected - start: 80, end: 81
 
 ```
 

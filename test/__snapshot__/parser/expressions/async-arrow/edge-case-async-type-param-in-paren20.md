@@ -120,11 +120,11 @@ async <A = B, C = D,>(x) => y;
                         "trailingComma": true,
                         "flags": 2097152,
                         "start": 0,
-                        "end": 29
+                        "end": 21
                     },
                     "flags": 2097152,
                     "start": 0,
-                    "end": 29
+                    "end": 21
                 },
                 "parameters": [
                     {

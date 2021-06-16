@@ -52,17 +52,17 @@ async <T>() => await null;
                                 "defaultType": null,
                                 "flags": 2097152,
                                 "start": 7,
-                                "end": 25
+                                "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 0,
-                        "end": 25
+                        "end": 9
                     },
                     "flags": 2097152,
                     "start": 0,
-                    "end": 25
+                    "end": 9
                 },
                 "parameters": [],
                 "asyncKeyword": {

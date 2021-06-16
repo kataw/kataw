@@ -102,17 +102,17 @@ async () => {
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 37,
-                                                "end": 49
+                                                "end": 39
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
                                         "start": 27,
-                                        "end": 49
+                                        "end": 39
                                     },
                                     "flags": 2097152,
                                     "start": 27,
-                                    "end": 49
+                                    "end": 39
                                 },
                                 "parameters": [],
                                 "asyncKeyword": {

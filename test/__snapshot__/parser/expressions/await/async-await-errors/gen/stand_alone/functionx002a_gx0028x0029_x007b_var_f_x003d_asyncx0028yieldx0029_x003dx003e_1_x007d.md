@@ -87,97 +87,83 @@ function* g() { var f = async(yield) => 1; }
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 271,
-                                            "arrowToken": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 36,
-                                                "end": 39
-                                            },
-                                            "typeParameters": null,
-                                            "parameters": {
-                                                "kind": 131,
-                                                "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "async",
-                                                    "rawText": "async",
-                                                    "flags": 96,
-                                                    "start": 23,
-                                                    "end": 29
-                                                },
-                                                "argumentList": {
-                                                    "kind": 256,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 229,
-                                                            "yieldKeyword": {
-                                                                "kind": 8454253,
-                                                                "flags": 64,
-                                                                "start": 30,
-                                                                "end": 35
-                                                            },
-                                                            "delegate": false,
-                                                            "asteriskToken": null,
-                                                            "expression": null,
-                                                            "flags": 32,
-                                                            "start": 30,
-                                                            "end": 35
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
-                                                    "start": 23,
-                                                    "end": 23
-                                                },
-                                                "flags": 268435488,
-                                                "start": 23,
-                                                "end": 36
-                                            },
-                                            "asyncKeyword": {
-                                                "kind": 82031,
-                                                "flags": 64,
+                                            "kind": 131,
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "async",
+                                                "rawText": "async",
+                                                "flags": 96,
                                                 "start": 23,
                                                 "end": 29
                                             },
-                                            "returnType": null,
-                                            "contents": {
-                                                "kind": 201392130,
-                                                "text": 1,
-                                                "rawText": "1",
-                                                "flags": 96,
-                                                "start": 39,
-                                                "end": 41
+                                            "argumentList": {
+                                                "kind": 256,
+                                                "elements": [
+                                                    {
+                                                        "kind": 229,
+                                                        "yieldKeyword": {
+                                                            "kind": 8454253,
+                                                            "flags": 64,
+                                                            "start": 30,
+                                                            "end": 35
+                                                        },
+                                                        "delegate": false,
+                                                        "asteriskToken": null,
+                                                        "expression": null,
+                                                        "flags": 32,
+                                                        "start": 30,
+                                                        "end": 35
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 32,
+                                                "start": 23,
+                                                "end": 23
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 23,
-                                            "end": 41
+                                            "end": 36
                                         },
                                         "flags": 16,
                                         "start": 19,
-                                        "end": 41
+                                        "end": 36
                                     }
                                 ],
                                 "flags": 16,
                                 "start": 19,
-                                "end": 41
+                                "end": 36
                             },
                             "flags": 16,
                             "start": 15,
-                            "end": 42
+                            "end": 36
                         }
                     ],
                     "flags": 32,
                     "start": 15,
-                    "end": 42
+                    "end": 36
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 44
+                "end": 36
             },
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 44
+            "end": 36
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392130,
+                "text": 1,
+                "rawText": "1",
+                "flags": 96,
+                "start": 39,
+                "end": 41
+            },
+            "flags": 16,
+            "start": 39,
+            "end": 42
         }
     ],
     "isModule": false,
@@ -193,14 +179,14 @@ function* g() { var f = async(yield) => 1; }
 
 ```javascript
 
-function * g() {
-  var f = async async( yield) =>  1;
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 36, end: 39
+✖ Expected a `;` - start: 36, end: 39
+✖ Declaration or statement expected - start: 42, end: 44
+
 ```
 

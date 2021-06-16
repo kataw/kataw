@@ -88,153 +88,52 @@ var await; var f = (async function() { return async (await) => {}; });
                         "initializer": {
                             "kind": 121,
                             "expression": {
-                                "kind": 177,
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 20,
-                                    "end": 25
-                                },
-                                "functionKeyword": {
-                                    "kind": 37822554,
-                                    "flags": 64,
-                                    "start": 25,
-                                    "end": 34
-                                },
-                                "generatorToken": null,
-                                "name": null,
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 34,
-                                    "end": 36
-                                },
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [
-                                            {
-                                                "kind": 161,
-                                                "returnKeyword": {
-                                                    "kind": 37757022,
-                                                    "flags": 80,
-                                                    "start": 38,
-                                                    "end": 45
-                                                },
-                                                "expression": {
-                                                    "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 59,
-                                                        "end": 62
-                                                    },
-                                                    "typeParameters": null,
-                                                    "parameters": {
-                                                        "kind": 131,
-                                                        "expression": {
-                                                            "kind": 134299649,
-                                                            "text": "async",
-                                                            "rawText": "async",
-                                                            "flags": 96,
-                                                            "start": 45,
-                                                            "end": 51
-                                                        },
-                                                        "argumentList": {
-                                                            "kind": 256,
-                                                            "elements": [
-                                                                {
-                                                                    "kind": 208,
-                                                                    "awaitKeyword": {
-                                                                        "kind": 82196,
-                                                                        "flags": 64,
-                                                                        "start": 53,
-                                                                        "end": 58
-                                                                    },
-                                                                    "expression": {
-                                                                        "kind": 16637,
-                                                                        "text": "",
-                                                                        "flags": 64,
-                                                                        "start": 58,
-                                                                        "end": 58
-                                                                    },
-                                                                    "flags": 32,
-                                                                    "start": 53,
-                                                                    "end": 58
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 32,
-                                                            "start": 45,
-                                                            "end": 45
-                                                        },
-                                                        "flags": 268435488,
-                                                        "start": 45,
-                                                        "end": 59
-                                                    },
-                                                    "asyncKeyword": {
-                                                        "kind": 82031,
-                                                        "flags": 64,
-                                                        "start": 45,
-                                                        "end": 51
-                                                    },
-                                                    "returnType": null,
-                                                    "contents": {
-                                                        "kind": 216,
-                                                        "functionStatementList": {
-                                                            "kind": 217,
-                                                            "directives": [],
-                                                            "statements": [],
-                                                            "flags": 32,
-                                                            "start": 64,
-                                                            "end": 64
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 62,
-                                                        "end": 65
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 45,
-                                                    "end": 65
-                                                },
-                                                "flags": 80,
-                                                "start": 38,
-                                                "end": 66
-                                            }
-                                        ],
-                                        "flags": 32,
-                                        "start": 38,
-                                        "end": 66
-                                    },
-                                    "flags": 32,
-                                    "start": 36,
-                                    "end": 68
-                                },
-                                "returnType": null,
-                                "flags": 160,
-                                "start": 20,
-                                "end": 68
+                                "kind": 132,
+                                "expressions": [],
+                                "flags": 32,
+                                "start": 18,
+                                "end": 59
                             },
                             "flags": 32,
                             "start": 18,
-                            "end": 69
+                            "end": 59
                         },
                         "flags": 16,
                         "start": 14,
-                        "end": 69
+                        "end": 59
                     }
                 ],
                 "flags": 16,
                 "start": 14,
-                "end": 69
+                "end": 59
             },
             "flags": 16,
             "start": 10,
+            "end": 59
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [],
+                "flags": 16,
+                "start": 64,
+                "end": 64
+            },
+            "flags": 16,
+            "start": 62,
+            "end": 65
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 65,
+            "end": 66
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 69,
             "end": 70
         }
     ],
@@ -257,6 +156,10 @@ var await; var f = (async function() { return async (await) => {}; });
 
 ```javascript
 ✖ Identifier expected - start: 58, end: 59
+✖ Expected a `;` - start: 59, end: 62
+✖ ',' expected - start: 59, end: 62
+✖ Declaration or statement expected - start: 66, end: 68
+✖ Declaration or statement expected - start: 68, end: 69
 
 ```
 

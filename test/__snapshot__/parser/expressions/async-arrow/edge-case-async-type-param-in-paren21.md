@@ -120,11 +120,11 @@ async <A = B, C = D>(x) => y;
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 0,
-                        "end": 28
+                        "end": 20
                     },
                     "flags": 2097152,
                     "start": 0,
-                    "end": 28
+                    "end": 20
                 },
                 "parameters": [
                     {
@@ -256,11 +256,11 @@ async <A = B, C = D>(x) => y;
                             "trailingComma": false,
                             "flags": 2097152,
                             "start": 32,
-                            "end": 60
+                            "end": 52
                         },
                         "flags": 2097152,
                         "start": 32,
-                        "end": 60
+                        "end": 52
                     },
                     "parameters": [
                         {
