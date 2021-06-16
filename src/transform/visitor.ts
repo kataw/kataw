@@ -8,9 +8,8 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
     case SyntaxKind.RootNode:
       startLexicalEnvironment(transform);
       if (node.statements !== visitNodes(node.statements, visitor)) {
-        updateNode(createRootNode(node.directives, node.source, node.isModule, node.source, node.fuleName), node);
+        updateNode(createRootNode(node.directives, node.statements, node.isModule, node.source, node.fuleName), node);
       }
-
       return node;
   }
 }
