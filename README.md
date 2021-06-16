@@ -151,9 +151,12 @@ will not do any type checking.
 You can use `kataw.visitEachChild` to traverse the entire CST tree. `kataw.visitNode`can be used to traverse a single node, and
 `kataw.visitNodes` to visit an array of CST nodes. No need to use for example `Array.Array` to verify if it's an array.
 
-**Note:** `kataw.visitNodes` should only be used on *lists*. Performance is maintained that way.
+`kataw.visitNodes` should only be used on *lists*. CST nodes that is **known* to contain an array. Performance is maintained that way.
 
 All CST nodes will be updated automatically if any changes has bee detected.
+
+Keywords can also be swapped around and the same with `AssignmentExpression`, `BinaryExpression`, `UnaryExpression` and
+`UpdateExpression` operands. For example `!==` can be changed to `===`.
 
 Here is an example on an simple transformer that replace all identifiers with an `NumericLiteral`.
 
@@ -167,7 +170,7 @@ export function swapIdentifierWithNumeric(transform) {
         return kataw.createNumericLiteral(
           123,
           "123",
-          kataw.nodeFlags.ExpressionNode | kataw.nodeFlags.NodeFlags.ChildLess,
+          kataw.NodeFlags.ExpressionNode | kataw.NodeFlags.ChildLess,
           /* start */ 1,
           /* end */ 3
         );
