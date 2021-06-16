@@ -164,6 +164,7 @@ async <T>(fn: () => T);
 
 ```javascript
 ✖ Expected '=>' - start: 22, end: 23
+✖ Expected '=>' - start: 22, end: 23
 
 ```
 
