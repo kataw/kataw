@@ -59,8 +59,6 @@ export function forEachChild(node: any, visitor: any): any {
       );
     case SyntaxKind.ArgumentList:
       return visitNodes(node.elements, node, visitor);
-    case SyntaxKind.SingleNameBinding:
-      return visitNode(node.left, node, visitor) && visitNode(node.right, node, visitor);
     case SyntaxKind.ObjectBindingPattern:
       return visitNode(node.propertyList, node, visitor);
     case SyntaxKind.NewExpression:
