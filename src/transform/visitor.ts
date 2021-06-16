@@ -26,13 +26,11 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
         ? updateNode(createExpressionStatement(node.expression, node.start, node.end), node)
         : node;
     case SyntaxKind.ElementList:
-      return node.elements !== visitNode(node.elements, visitor) ||
-        node.trailingComma !== visitNode(node.trailingComma, visitor) ||
-        node.flags !== visitNode(node.flags, visitor)
+      return node.elements !== visitNode(node.elements, visitor)
         ? createElementList(node.elements, node.trailingComma, node.flags, node.start, node.end)
         : node;
     case SyntaxKind.ArrayLiteral:
-      return node.elementList !== visitNode(node.elementList, visitor) || node.flags !== visitNode(node.flags, visitor)
+      return node.elementList !== visitNode(node.elementList, visitor)
         ? createArrayLiteral(node.elementList, node.flags, node.start, node.end)
         : node;
   }
