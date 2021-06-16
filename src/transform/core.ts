@@ -10,6 +10,23 @@ export const enum LexicalEnvironmentFlags {
   VariablesHoistedInParameters = 1 << 1
 }
 
+export function updateNode(node: any, original: any): any {
+  if (node !== original) node.original = original;
+  return node;
+}
+
+export function createNodeArray(elements?: any): any {
+  if (elements) {
+    if (elements.length !== 0) {
+      // Bitwise masks!
+      return elements;
+    }
+  } else {
+    elements = [];
+  }
+  return elements;
+}
+
 export interface Transform {
   lexicalEnvironmentVariableDeclarations: any; //[] | undefined;
   lexicalEnvironmentFunctionDeclarations: FunctionDeclaration[] | undefined;
