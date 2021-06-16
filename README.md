@@ -158,6 +158,8 @@ All CST nodes will be updated automatically if any changes has bee detected.
 Keywords can also be swapped around and the same with `AssignmentExpression`, `BinaryExpression`, `UnaryExpression` and
 `UpdateExpression` operands. For example `!==` can be changed to `===`.
 
+A `WithStatement` can be transformed into a `WhileStatement` simply by changing the value of the `TokenNode`.
+
 Here is an example on an simple transformer that replace all identifiers with an `NumericLiteral`.
 
 ```ts
