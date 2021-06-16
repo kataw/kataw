@@ -5681,13 +5681,13 @@ function parseFunctionExpression(
         );
       }
 
-      // - `async<T>()`
+      // - `(async<T>())`
       else if (parser.token === SyntaxKind.LessThan && context & Context.OptionsAllowTypes) {
         const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
           const name: any = parseIdentifier(parser, context, Constants.Identifier);
           let asyncIdent = expression;
-          // - `async <T>(x);`
+          // - `(async <T>(x));`
           if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) {
             if (
               speculate(
@@ -5739,9 +5739,9 @@ function parseFunctionExpression(
             }
             // We haven't seen the `>` yet...
           } else {
-            // - `async <T, U>(x) => y`
-            // - `async <T: U>(x) => y`
-            // - `async <T = U>(x) => y`
+            // - `(async <T, U>(x) => y)`
+            // - `(async <T: U>(x) => y)`
+            // - `(async <T = U>(x) => y)`
             if (
               (parser.token as SyntaxKind) === SyntaxKind.Colon ||
               (parser.token as SyntaxKind) === SyntaxKind.Assign
@@ -5751,6 +5751,29 @@ function parseFunctionExpression(
                 ? parseTypeAnnotation(parser, context)
                 : null;
               const types = [createTypeParameter(name, type, defaultType, asyncIdent.start, parser.curPos)];
+              let trailingComma = false;
+              let requireDefault = (parser.token as SyntaxKind) === SyntaxKind.Assign;
+              if (consumeOpt(parser, context, SyntaxKind.Comma)) {
+                if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) {
+                  trailingComma = true;
+                } else {
+                  while (parser.token & Constants.IsTypeParameter) {
+                    const type = parseTypeParameter(parser, context, requireDefault);
+                    types.push(type);
+                    if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
+                    if (type.defaultType) requireDefault = true;
+                    if (consumeOpt(parser, context, SyntaxKind.Comma)) {
+                      if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) {
+                        trailingComma = true;
+                        break;
+                      }
+                    }
+                  }
+                }
+              }
+
+              consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expression_expected);
+
               expression = parseCoverCallExpressionAndAsyncArrowHead(
                 parser,
                 context,
@@ -5784,8 +5807,8 @@ function parseFunctionExpression(
               );
 
               return expression;
-              // - `async <T, U>(x)`
-              // - `async <T, U>(x) => y`
+              // - `(async <T, U>(x))`
+              // - `(async <T, U>(x) => y)`
             } else if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
               if (
                 speculate(
@@ -5842,8 +5865,8 @@ function parseFunctionExpression(
               ) {
                 return expression;
               }
-              // - `async  <T, U>(x) >> y - z;`
-              // - `async  < T, U > (x);`
+              // - `(async  <T, U>(x) >> y - z);`
+              // - `(async  < T, U > (x));`
               return createBinaryExpression(
                 asyncIdent,
                 operatorToken,
@@ -5861,8 +5884,8 @@ function parseFunctionExpression(
             }
           }
         } else {
-          // - `async<{}>(x);`
-          // - `async <{}>(x) >> y + z`
+          // - `(async<{}>(x));`
+          // - `(async <{}>(x) >> y + z);`
           return createBinaryExpression(
             expression,
             operatorToken,
@@ -5879,7 +5902,7 @@ function parseFunctionExpression(
           ) as any;
         }
       }
-      // "async => {}"
+      // - `(async => {})`
       if (parser.token === SyntaxKind.Arrow) {
         const scope = {
           kind: ScopeKind.ArrowParams,
@@ -5903,8 +5926,8 @@ function parseFunctionExpression(
       }
       parser.assignable = true;
 
-      // "async"
-      // "async + 1"
+      // - `async`
+      // - `async + 1`
       return expression;
     }
     if (asyncToken.flags & Constants.IsEscaped) {
@@ -6144,6 +6167,7 @@ function parseFunctionDeclaration(
                   context,
                   function () {
                     nextToken(parser, context); // skips: '>'
+                    // - `async <T>[(x)]`
                     if ((parser.token as SyntaxKind) !== SyntaxKind.LeftParen) return false;
                     expression = parseCoverCallExpressionAndAsyncArrowHead(
                       parser,
@@ -6199,6 +6223,29 @@ function parseFunctionDeclaration(
                   ? parseTypeAnnotation(parser, context)
                   : null;
                 const types = [createTypeParameter(name, type, defaultType, asyncIdent.start, parser.curPos)];
+                let trailingComma = false;
+                let requireDefault = (parser.token as SyntaxKind) === SyntaxKind.Assign;
+                if (consumeOpt(parser, context, SyntaxKind.Comma)) {
+                  if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) {
+                    trailingComma = true;
+                  } else {
+                    while (parser.token & Constants.IsTypeParameter) {
+                      const type = parseTypeParameter(parser, context, requireDefault);
+                      types.push(type);
+                      if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) break;
+                      if (type.defaultType) requireDefault = true;
+                      if (consumeOpt(parser, context, SyntaxKind.Comma)) {
+                        if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) {
+                          trailingComma = true;
+                          break;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                consume(parser, context, SyntaxKind.GreaterThan, DiagnosticCode.Expression_expected);
+
                 expression = parseCoverCallExpressionAndAsyncArrowHead(
                   parser,
                   context,
@@ -6225,7 +6272,7 @@ function parseFunctionDeclaration(
                 }
 
                 expression.typeParameters = createTypeParameterDeclaration(
-                  createTypeParameterList(types, /* trailingComma */ false, expression.start, parser.curPos),
+                  createTypeParameterList(types, trailingComma, expression.start, parser.curPos),
                   NodeFlags.IsTypeNode,
                   pos,
                   parser.curPos
@@ -6233,13 +6280,13 @@ function parseFunctionDeclaration(
                 // - `async <T, U>(x)`
                 // - `async <T, U>(x) => y`
               } else if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
+
                 if (
                   speculate(
                     parser,
                     context,
                     function () {
-                      let requireDefault = false;
-                      let types: any = [
+                      const types = [
                         createTypeParameter(
                           name,
                           /* type */ null,
@@ -6249,6 +6296,7 @@ function parseFunctionDeclaration(
                         )
                       ];
                       let trailingComma = false;
+                      let requireDefault = false;
                       nextToken(parser, context); // skips: ','
                       while (parser.token & Constants.IsTypeParameter) {
                         const type = parseTypeParameter(parser, context, requireDefault);
@@ -6373,16 +6421,6 @@ function parseFunctionDeclaration(
       // "async + 1"
       parser.assignable = true;
       return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expression, pos), pos);
-    }
-
-    if (asyncToken.flags & Constants.IsEscaped) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-        parser.curPos,
-        parser.pos
-      );
     }
   }
 

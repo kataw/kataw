@@ -24,105 +24,88 @@ async <T = U>(x)
         {
             "kind": 120,
             "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 131,
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 96,
-                        "start": 0,
-                        "end": 5
-                    },
-                    "argumentList": {
-                        "kind": 256,
-                        "elements": [],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 0,
-                        "end": 0
-                    },
-                    "flags": 268435488,
+                "kind": 131,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
                     "start": 0,
-                    "end": 12,
-                    "typeParameters": {
-                        "kind": 307,
-                        "declarations": {
-                            "kind": 337,
-                            "parameters": [
-                                {
-                                    "kind": 146,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
-                                        "start": 7,
-                                        "end": 8
-                                    },
-                                    "type": null,
-                                    "defaultType": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 144,
-                                            "id": {
-                                                "kind": 134299649,
-                                                "text": "U",
-                                                "rawText": "U",
-                                                "flags": 96,
-                                                "start": 10,
-                                                "end": 12
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
+                    "end": 5
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 14,
+                            "end": 15
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 0
+                },
+                "flags": 268435488,
+                "start": 0,
+                "end": 16,
+                "typeParameters": {
+                    "kind": 307,
+                    "declarations": {
+                        "kind": 337,
+                        "parameters": [
+                            {
+                                "kind": 146,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 96,
+                                    "start": 7,
+                                    "end": 8
+                                },
+                                "type": null,
+                                "defaultType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "id": {
+                                            "kind": 134299649,
+                                            "text": "U",
+                                            "rawText": "U",
+                                            "flags": 96,
                                             "start": 10,
                                             "end": 12
                                         },
+                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 10,
                                         "end": 12
                                     },
                                     "flags": 2097152,
-                                    "start": 0,
+                                    "start": 10,
                                     "end": 12
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "start": 0,
-                            "end": 12
-                        },
+                                },
+                                "flags": 2097152,
+                                "start": 0,
+                                "end": 12
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 2097152,
                         "start": 0,
-                        "end": 12
-                    }
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 96,
-                    "start": 12,
-                    "end": 13
-                },
-                "right": {
-                    "kind": 121,
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 14,
-                        "end": 15
+                        "end": 16
                     },
-                    "flags": 32,
-                    "start": 13,
+                    "flags": 2097152,
+                    "start": 0,
                     "end": 16
-                },
-                "flags": 32,
-                "start": 0,
-                "end": 16
+                }
             },
             "flags": 16,
             "start": 0,
@@ -147,7 +130,7 @@ async <T = U>(x)
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side must be a variable or a property access. - start: 0, end: 12
+✖ The left-hand side must be a variable or a property access. - start: 0, end: 16
 
 ```
 
