@@ -96,9 +96,9 @@ import { createImportSpecifier } from '../ast/module/import-specifier';
 import { createImportsList } from '../ast/module/imports-list';
 import { createNamedExports } from '../ast/module/named-exports';
 import { createNamedImports } from '../ast/module/named-imports';
-
+import { createSpreadElement } from '../ast/expressions/spread-element';
 import { Transform, createNodeArray, extractSingleNode, startLexicalEnvironment } from './core';
-import { createSpreadElement } from 'ast/expressions/spread-element';
+
 
 export function visitEachChild(transform: Transform, node: any, visitor: (node: SyntaxKind) => SyntaxKind): any {
   const kind = node.kind;
