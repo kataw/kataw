@@ -164,7 +164,7 @@ The location of the CST node in the CST tree can also be changed if you change t
 
 Changing the `NodeFlags` allow you to change how the CST node should behave.
 
-All this things gives gives you better control over transformation of each CST node compared to `Babel`.
+All this things gives gives you better control over transformation of each CST node compared to `Babel` and `Rome`.
 
 Here is an example on an simple transformer that replace all identifiers with an `NumericLiteral`.
 
