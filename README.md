@@ -160,6 +160,8 @@ Keywords can also be swapped around and the same with `AssignmentExpression`, `B
 
 A `WithStatement` can be transformed into a `WhileStatement` simply by changing the value of the `TokenNode`.
 
+The location of the CST node in the CST tree can also be changed if you change the values of `start` and `end` on the CST node.
+
 Here is an example on an simple transformer that replace all identifiers with an `NumericLiteral`.
 
 ```ts
