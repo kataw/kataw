@@ -102,7 +102,7 @@ async <T = U>(x) => y;
                     "kind": 82031,
                     "flags": 64,
                     "start": 0,
-                    "end": 13
+                    "end": 5
                 },
                 "returnType": null,
                 "contents": {
@@ -200,7 +200,7 @@ async <T = U>(x) => y;
                         "kind": 82031,
                         "flags": 64,
                         "start": 25,
-                        "end": 38
+                        "end": 30
                     },
                     "returnType": null,
                     "contents": {

@@ -119,7 +119,7 @@ async () => {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 27,
-                                    "end": 39
+                                    "end": 35
                                 },
                                 "returnType": null,
                                 "contents": {

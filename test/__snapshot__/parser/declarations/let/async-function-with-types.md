@@ -247,7 +247,7 @@ const f = async <T, R, S>(
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 9,
-                                "end": 25
+                                "end": 15
                             },
                             "returnType": null,
                             "contents": {

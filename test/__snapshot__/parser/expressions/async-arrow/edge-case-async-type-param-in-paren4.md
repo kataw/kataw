@@ -102,7 +102,7 @@
                         "kind": 82031,
                         "flags": 64,
                         "start": 1,
-                        "end": 14
+                        "end": 6
                     },
                     "returnType": null,
                     "contents": {

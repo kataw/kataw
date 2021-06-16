@@ -110,7 +110,7 @@ async <T>(a: T): T => a;
                     "kind": 82031,
                     "flags": 64,
                     "start": 0,
-                    "end": 9
+                    "end": 5
                 },
                 "returnType": {
                     "kind": 139,

@@ -90,7 +90,7 @@ async <T, U>(x)=>y
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
-                "end": 12
+                "end": 5
             },
             "returnType": null,
             "contents": {

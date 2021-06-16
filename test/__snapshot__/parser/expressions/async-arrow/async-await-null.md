@@ -69,7 +69,7 @@ async <T>() => await null;
                     "kind": 82031,
                     "flags": 64,
                     "start": 0,
-                    "end": 9
+                    "end": 5
                 },
                 "returnType": null,
                 "contents": {

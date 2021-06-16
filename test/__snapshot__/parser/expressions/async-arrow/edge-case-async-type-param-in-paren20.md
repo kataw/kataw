@@ -140,7 +140,7 @@ async <A = B, C = D,>(x) => y;
                     "kind": 82031,
                     "flags": 64,
                     "start": 0,
-                    "end": 21
+                    "end": 5
                 },
                 "returnType": null,
                 "contents": {
