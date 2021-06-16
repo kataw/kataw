@@ -6294,7 +6294,7 @@ function parseFunctionDeclaration(
                 speculate(
                   parser,
                   context,
-                  function () {
+                  () => {
                     const types = [
                       createTypeParameter(
                         name,
@@ -10556,7 +10556,8 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           state = Tristate.False;
           parser.assignable = false;
         }
-        // - `(a: string) => {}"
+        // - `(a: string) => {}`
+        // - `async <T>(fn: () => T);`
       } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
 
@@ -11029,12 +11030,14 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     }
   }
 
-  if (destructible & DestructibleKind.MustDestruct) {
+  if (destructible & DestructibleKind.MustDestruct || state === Tristate.True) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+        state === Tristate.True
+          ? DiagnosticCode.Expected
+          : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
       ],
       parser.curPos,
       parser.pos
