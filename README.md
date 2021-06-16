@@ -162,6 +162,10 @@ A `WithStatement` can be transformed into a `WhileStatement` simply by changing 
 
 The location of the CST node in the CST tree can also be changed if you change the values of `start` and `end` on the CST node.
 
+Changing the `NodeFlags` allow you to change how the CST node should behave.
+
+All this things gives gives you better control over transformation of each CST node compared to `Babel`.
+
 Here is an example on an simple transformer that replace all identifiers with an `NumericLiteral`.
 
 ```ts
