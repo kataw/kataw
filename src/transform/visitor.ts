@@ -85,9 +85,9 @@ import { createUnionType } from '../ast/types/union-type';
 import { createDecoratorList } from '../ast/expressions/decorator-list';
 import { createDecorator } from '../ast/expressions/decorators';
 import { createFormalParameterList } from '../ast/expressions/formal-parameter-list';
-import { createImportClause, ImportClause } from '../ast/module/import-clause';
+import { createImportClause } from '../ast/module/import-clause';
 import { createExportDefault } from '../ast/module/export-default';
-import { createExportDeclaration, ExportDeclaration } from '../ast/module/export-declaration';
+import { createExportDeclaration } from '../ast/module/export-declaration';
 import { createExportFromClause } from '../ast/module/export-from-clause';
 import { createExportSpecifier } from '../ast/module/export-specifier';
 import { createExportsList } from '../ast/module/exports-list';
@@ -828,6 +828,83 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
     case SyntaxKind.NamedImports:
       return node.importsList !== visitNode(node.importsList, visitor)
         ? createNamedImports(node.importsList, node.start, node.end)
+        : node;
+
+    case SyntaxKind.CallChain:
+      return node.chain !== visitNode(node.chain, visitor) ||
+        node.typeArguments !== visitNode(node.typeArguments, visitor) ||
+        node.argumentList !== visitNode(node.argumentList, visitor)
+        ? createCallChain(node.chain, node.typeArguments, node.argumentList, node.start, node.end)
+        : node;
+
+    case SyntaxKind.FieldDefinition:
+      return node.decorators !== visitNode(node.decorators, visitor) ||
+        node.declaredToken !== visitNode(node.declaredToken, visitor) ||
+        node.staticToken !== visitNode(node.staticToken, visitor) ||
+        node.asyncKeyword !== visitNode(node.asyncKeyword, visitor) ||
+        node.key !== visitNode(node.key, visitor) ||
+        node.optionalToken !== visitNode(node.optionalToken, visitor) ||
+        node.type !== visitNode(node.type, visitor) ||
+        node.initializer !== visitNode(node.initializer, visitor)
+        ? createFieldDefinition(
+            node.decorators,
+            node.declaredToken,
+            node.staticToken,
+            node.asyncKeyword,
+            node.key,
+            node.optionalToken,
+            node.type,
+            node.initializer,
+            node.start,
+            node.end
+          )
+        : node;
+
+    case SyntaxKind.UnaryExpression:
+      return node.operandToken !== visitNode(node.operandToken, visitor) ||
+        node.operand !== visitNode(node.operand, visitor)
+        ? createUnaryExpression(node.operandToken, node.operand, node.start, node.end)
+        : node;
+
+    case SyntaxKind.FunctionStatementList:
+      return node.directives !== visitNodes(node.directives, visitor) ||
+        node.statements !== visitNodes(node.statements, visitor)
+        ? createFunctionStatementList(node.directives, node.statements, node.flags, node.start, node.end)
+        : node;
+
+    case SyntaxKind.FunctionBody:
+      return node.functionStatementList !== visitNode(node.functionStatementList, visitor)
+        ? createFunctionBody(node.functionStatementList, node.start, node.end)
+        : node;
+
+    case SyntaxKind.ImportCall:
+      return node.importKeyword !== visitNode(node.importKeyword, visitor) ||
+        node.expression !== visitNode(node.expression, visitor)
+        ? createImportCall(node.importKeyword, node.expression, node.start, node.end)
+        : node;
+
+    case SyntaxKind.ThrowKeyword:
+      return node.throwKeyword !== visitNode(node.throwKeyword, visitor) ||
+        node.expression !== visitNode(node.expression, visitor)
+        ? createThrowStatement(node.throwKeyword, node.expression, node.flags, node.start, node.end)
+        : node;
+
+    case SyntaxKind.MethodDefinition:
+      return node.name !== visitNode(node.name, visitor) ||
+        node.typeParameters !== visitNode(node.typeParameters, visitor) ||
+        node.formalParameters !== visitNode(node.formalParameters, visitor) ||
+        node.returnType !== visitNode(node.returnType, visitor) ||
+        node.contents !== visitNode(node.contents, visitor)
+        ? createMethodDefinition(
+            node.name,
+            node.typeParameters,
+            node.formalParameters,
+            node.returnType,
+            node.contents,
+            node.flags,
+            node.start,
+            node.end
+          )
         : node;
   }
 }
