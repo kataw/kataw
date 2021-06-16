@@ -69,7 +69,7 @@ for(let a, let;;);
                         "end": 14
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 7,
                 "end": 14
             },

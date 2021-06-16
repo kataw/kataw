@@ -368,7 +368,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                     "end": 174
                                 }
                             ],
-                            "flags": 16777232,
+                            "flags": 16,
                             "start": 170,
                             "end": 174
                         },

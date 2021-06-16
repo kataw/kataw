@@ -64,7 +64,7 @@ for (let a of b);
                         "end": 10
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 10
             },
@@ -106,7 +106,7 @@ for (let a of b);
 
 ```javascript
 
-for (const of b);
+for (let of b);
 ```
 
 ### Diagnostics

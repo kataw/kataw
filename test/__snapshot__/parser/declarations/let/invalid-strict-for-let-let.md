@@ -85,7 +85,7 @@
                         "end": 32
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 22,
                 "end": 32
             },
@@ -128,6 +128,7 @@
 
 ```javascript
 ✖ Identifier expected. Reserved word in strict mode - start: 27, end: 31
+✖ Missing initializer in destructuring declaration - start: 32, end: 33
 
 ```
 

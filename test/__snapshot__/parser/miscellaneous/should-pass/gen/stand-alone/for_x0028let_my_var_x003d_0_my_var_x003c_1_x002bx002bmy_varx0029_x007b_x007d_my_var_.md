@@ -59,7 +59,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                         "end": 19
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 19
             },
@@ -156,7 +156,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
 
 ```javascript
 
-for (const; ++my_var; my_var  < 1)
+for (let; ++my_var; my_var  < 1)
   {}
 my_var;
 ```

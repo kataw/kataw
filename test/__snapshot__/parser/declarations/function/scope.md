@@ -1074,7 +1074,7 @@ function for_scope_var() {
                                         "end": 640
                                     }
                                 ],
-                                "flags": 16777232,
+                                "flags": 16,
                                 "start": 633,
                                 "end": 640
                             },
@@ -1320,7 +1320,7 @@ function default_param_2() {
 }
 function for_scope_let() {
   let a: number = 0;
-  for (const; ; )
+  for (let; ; )
     {}
 }
 function for_scope_var() {

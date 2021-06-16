@@ -493,7 +493,7 @@ for await (let binding of [await function() {}]) {
                         "end": 638
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 630,
                 "end": 638
             },
@@ -685,7 +685,7 @@ for await ( of [await function () {}])
     break;
   }
 // [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (const of [await function () {}])
+for await (let of [await function () {}])
   {
     await function () {};
     break;

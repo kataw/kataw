@@ -496,7 +496,7 @@ for ({a: b.c}-- of d) e;
                         "end": 104
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 98,
                 "end": 104
             },
@@ -1294,7 +1294,7 @@ for ({a: b.c}-- of d) e;
                         "end": 351
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 349,
                 "end": 351
             },
@@ -1715,7 +1715,7 @@ for ({a: b.c}-- of d) e;
                         "end": 466
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 462,
                 "end": 466
             },
@@ -2629,7 +2629,7 @@ for ({a: b.c}-- of d) e;
                         "end": 728
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 724,
                 "end": 729
             },
@@ -2747,7 +2747,7 @@ for ({a: b.c}-- of d) e;
                         "end": 760
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 749,
                 "end": 760
             },
@@ -3483,7 +3483,7 @@ for ({a: b.c}-- of d) e;
                         "end": 946
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 935,
                 "end": 946
             },
@@ -3580,7 +3580,7 @@ for ({a: b.c}-- of d) e;
                         "end": 978
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 965,
                 "end": 978
             },
@@ -4013,7 +4013,7 @@ for ({a: b.c}-- of d) e;
                         "end": 1108
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 1103,
                 "end": 1108
             },
@@ -4107,7 +4107,7 @@ for ({a: b.c}-- of d) e;
                         "end": 1134
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 1129,
                 "end": 1134
             },
@@ -4233,7 +4233,7 @@ for ({a: b.c}-- of d) e;
                         "end": 1171
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 1162,
                 "end": 1171
             },
@@ -4327,7 +4327,7 @@ for ({a: b.c}-- of d) e;
                         "end": 1197
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 1192,
                 "end": 1197
             },
@@ -4431,7 +4431,7 @@ for ({a: b.c}-- of d) e;
                         "end": 1222
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 1213,
                 "end": 1222
             },
@@ -4521,7 +4521,7 @@ for ({a: b.c}-- of d) e;
                             "end": 1253
                         }
                     ],
-                    "flags": 16777232,
+                    "flags": 16,
                     "start": 1239,
                     "end": 1253
                 },
@@ -5107,7 +5107,7 @@ for ({a: b.c}-- of d) e;
                         "end": 1437
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 1434,
                 "end": 1437
             },
@@ -5361,6 +5361,7 @@ for ({a: b.c}-- of d) e;
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 69, end: 71
 ✖ The left-hand side of a for-of loop cannot start with 'let' - start: 76, end: 79
 ✖ ',' expected - start: 101, end: 103
+✖ Missing initializer in destructuring declaration - start: 104, end: 106
 ✖ ',' expected - start: 104, end: 106
 ✖ Identifier expected - start: 104, end: 106
 ✖ Binding identifier expected - start: 126, end: 127
@@ -5390,6 +5391,7 @@ for ({a: b.c}-- of d) e;
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 696, end: 698
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 710, end: 712
 ✖ The parser expected to find a '}' to match the '{' token here - start: 728, end: 729
+✖ Missing initializer in destructuring declaration - start: 728, end: 729
 ✖ Trailing comma not allowed. - start: 729, end: 730
 ✖ Expected a `;` - start: 733, end: 737
 ✖ Expected a `;` - start: 737, end: 738
@@ -5423,6 +5425,7 @@ for ({a: b.c}-- of d) e;
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1355, end: 1358
 ✖ The lexical declaration of a 'for...in or of' statement cannot have an initializer. - start: 1381, end: 1392
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 1392, end: 1395
+✖ Missing initializer in destructuring declaration - start: 1437, end: 1438
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 1522, end: 1524
 
 ```

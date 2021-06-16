@@ -50,7 +50,7 @@ for (let [.x] of obj);
                         "end": 10
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 10
             },
@@ -153,6 +153,7 @@ for (let [.x] of obj);
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 11
+✖ Missing initializer in destructuring declaration - start: 10, end: 11
 ✖ ',' expected - start: 10, end: 11
 ✖ Identifier expected - start: 12, end: 13
 ✖ Expected a `;` - start: 16, end: 20

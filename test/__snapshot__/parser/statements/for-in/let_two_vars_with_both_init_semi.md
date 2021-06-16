@@ -75,7 +75,7 @@ for (let foo = bar, zoo = boo in x);
                         "end": 29
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 29
             },

@@ -156,7 +156,7 @@ for (let {...a.b} in c);
                         "end": 36
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 30,
                 "end": 36
             },
@@ -265,6 +265,7 @@ for (let {...a.b} in c);
 ```javascript
 ✖ ',' expected - start: 36, end: 37
 ✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 37
+✖ Missing initializer in destructuring declaration - start: 36, end: 37
 ✖ ',' expected - start: 36, end: 37
 ✖ Identifier expected - start: 38, end: 39
 ✖ Identifier expected - start: 39, end: 42

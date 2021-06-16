@@ -138,7 +138,7 @@ for (let {x:y=z}, {a:b=c} of obj);
                         "end": 25
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 25
             },
@@ -185,6 +185,7 @@ for (let {x:y=z}, {a:b=c} of obj);
 ### Diagnostics
 
 ```javascript
+✖ Missing initializer in destructuring declaration - start: 16, end: 17
 ✖ Invalid left-hand side: Must have a single binding in a 'for...of' statement. - start: 25, end: 28
 
 ```

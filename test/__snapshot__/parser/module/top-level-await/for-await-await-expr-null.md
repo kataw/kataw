@@ -361,7 +361,7 @@ for await (let binding of [await null]) {
                         "end": 602
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 594,
                 "end": 602
             },
@@ -487,7 +487,7 @@ for await ( of [await null])
     break;
   }
 // [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (const of [await null])
+for await (let of [await null])
   {
     await null;
     break;

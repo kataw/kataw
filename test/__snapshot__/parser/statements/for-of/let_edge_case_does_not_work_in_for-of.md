@@ -80,7 +80,7 @@ for (let of x) y
                         "end": 13
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 13
             },

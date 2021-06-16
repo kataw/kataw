@@ -104,7 +104,7 @@ for (let x = 0; x < 10;) {
                         "end": 29
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 23,
                 "end": 29
             },
@@ -204,7 +204,7 @@ for (let x = 0; x < 10;) {
                                         "end": 65
                                     }
                                 ],
-                                "flags": 16777232,
+                                "flags": 16,
                                 "start": 59,
                                 "end": 65
                             },
@@ -348,7 +348,7 @@ for (let x = 0; x < 10;) {
 ```javascript
 
 var count = 0;
-for (const; ; x  < 10)
+for (let; ; x  < 10)
   {}
 ```
 

@@ -57,7 +57,7 @@ for (let [] = x;;);
                         "end": 15
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 15
             },
@@ -87,7 +87,7 @@ for (let [] = x;;);
 
 ```javascript
 
-for (const; ; );
+for (let; ; );
 ```
 
 ### Diagnostics

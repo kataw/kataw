@@ -82,7 +82,7 @@ for (let [...bar = foo] of obj);
                         "end": 23
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 23
             },

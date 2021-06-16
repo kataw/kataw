@@ -144,7 +144,7 @@ for (let {x:y=z} = obj, {a:b=c});
                         "end": 31
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 31
             },
@@ -185,6 +185,7 @@ for (let {x:y=z} = obj, {a:b=c});
 ### Diagnostics
 
 ```javascript
+✖ Missing initializer in destructuring declaration - start: 31, end: 32
 ✖ ',' expected - start: 31, end: 32
 ✖ Identifier expected - start: 31, end: 32
 

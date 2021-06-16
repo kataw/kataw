@@ -45,7 +45,7 @@ for (let let of x) ;
                         "end": 12
                     }
                 ],
-                "flags": 16777232,
+                "flags": 16,
                 "start": 8,
                 "end": 12
             },

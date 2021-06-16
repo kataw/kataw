@@ -92,7 +92,7 @@ try {} catch (e) { for (let e in y) {} }
                                             "end": 29
                                         }
                                     ],
-                                    "flags": 16777232,
+                                    "flags": 16,
                                     "start": 27,
                                     "end": 29
                                 },
@@ -162,7 +162,7 @@ try {} catch (e) { for (let e in y) {} }
 
 try {
 } catch (e) {
-  for (const in y)
+  for (let in y)
     {}
 }
 ```
