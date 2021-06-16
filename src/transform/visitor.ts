@@ -1,6 +1,5 @@
-import { VariableStatement } from './../../dist/ast/statements/variable-stmt.d';
-import { SyntaxKind } from '.../ast/syntax-node';
-import { createRootNode } from '.../ast/rootNode';
+import { SyntaxKind } from '../ast/syntax-node';
+import { createRootNode } from '../ast/rootNode';
 import { createAssignmentExpression } from '../ast/expressions/assignment-expr';
 import { createExpressionStatement } from '../ast/statements/expression-stmt';
 import { createArrayLiteral } from '../ast/expressions/array-literal';
@@ -64,7 +63,6 @@ import { createSwitchStatement } from '../ast/statements/switch-stmt';
 import { createThrowStatement } from '../ast/statements/throw-stmt';
 import { createCaseBlock } from '../ast/statements/case-block';
 import { createTryStatement } from '../ast/statements/try-stmt';
-import { createVariableStatement } from '../ast/statements/variable-stmt';
 import { createVariableDeclaration } from '../ast/statements/variable-declaration';
 import { createVariableDeclarationList } from '../ast/statements/variable-declarationList';
 import { createWhileStatement } from '../ast/statements/while-stmt';
