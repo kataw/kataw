@@ -90,7 +90,7 @@ declare class C { static [[foo]]: T }
                             "optionalToken": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 64,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 24
                             },

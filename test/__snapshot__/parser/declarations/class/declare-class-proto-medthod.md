@@ -57,7 +57,7 @@ declare class C { proto m(): void }
                             "kind": 193,
                             "protoKeyword": {
                                 "kind": 16873,
-                                "flags": 64,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 23
                             },

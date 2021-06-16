@@ -67,7 +67,7 @@ declare class A { static () : number }
                             },
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 64,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 24
                             },

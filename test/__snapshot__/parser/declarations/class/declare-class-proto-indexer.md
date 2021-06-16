@@ -57,7 +57,7 @@ declare class C { proto [K]: V }
                             "kind": 195,
                             "protoKeyword": {
                                 "kind": 16873,
-                                "flags": 64,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 23
                             },
@@ -133,12 +133,12 @@ declare class C { proto [K]: V }
 
 ```javascript
 
+declare class C TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Type expected - start: 17, end: 26
-
+✔ No errors
 ```
 

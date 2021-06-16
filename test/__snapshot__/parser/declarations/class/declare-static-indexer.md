@@ -58,7 +58,7 @@ declare class A { static [ indexer: number]: string }
                             "protoKeyword": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 64,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 24
                             },

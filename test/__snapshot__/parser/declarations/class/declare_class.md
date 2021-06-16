@@ -66,7 +66,7 @@ declare class D extends C { }
                             "protoKeyword": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 65,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 28
                             },
@@ -104,7 +104,7 @@ declare class D extends C { }
                             "protoKeyword": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 65,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 50
                             },

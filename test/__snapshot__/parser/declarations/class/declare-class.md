@@ -58,7 +58,7 @@ declare class A { static foo(): number; static x : string }
                             "protoKeyword": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 64,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 24
                             },
@@ -111,7 +111,7 @@ declare class A { static foo(): number; static x : string }
                             "protoKeyword": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 64,
+                                "flags": 32,
                                 "start": 39,
                                 "end": 46
                             },

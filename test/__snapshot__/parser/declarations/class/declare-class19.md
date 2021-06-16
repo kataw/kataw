@@ -60,7 +60,7 @@ declare class x {
                             "protoKeyword": null,
                             "staticToken": {
                                 "kind": 8388716,
-                                "flags": 65,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 26
                             },

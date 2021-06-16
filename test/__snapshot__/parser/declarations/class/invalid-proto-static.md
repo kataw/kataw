@@ -59,25 +59,20 @@ declare class C {
                             "kind": 193,
                             "protoKeyword": {
                                 "kind": 16873,
-                                "flags": 65,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 25
                             },
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 64,
-                                "start": 25,
-                                "end": 32
-                            },
+                            "staticToken": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
                                 "kind": 134299649,
-                                "text": "p",
-                                "rawText": "p",
+                                "text": "static",
+                                "rawText": "static",
                                 "flags": 96,
-                                "start": 32,
-                                "end": 34
+                                "start": 25,
+                                "end": 32
                             },
                             "optionalToken": null,
                             "value": {
@@ -88,38 +83,52 @@ declare class C {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
+                                        "text": "p",
+                                        "rawText": "p",
                                         "flags": 96,
-                                        "start": 35,
-                                        "end": 37
+                                        "start": 32,
+                                        "end": 34
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
-                                    "start": 35,
-                                    "end": 37
+                                    "start": 32,
+                                    "end": 34
                                 },
                                 "flags": 2097152,
-                                "start": 35,
-                                "end": 37
+                                "start": 32,
+                                "end": 34
                             },
                             "flags": 2097152,
                             "start": 17,
-                            "end": 38
+                            "end": 34
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
                     "start": 15,
-                    "end": 40
+                    "end": 34
                 },
                 "flags": 4128,
                 "start": 15,
-                "end": 40
+                "end": 34
             },
             "flags": 16,
             "start": 0,
-            "end": 40
+            "end": 34
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "T",
+                "rawText": "T",
+                "flags": 96,
+                "start": 35,
+                "end": 37
+            },
+            "flags": 16,
+            "start": 35,
+            "end": 38
         }
     ],
     "isModule": false,
@@ -135,12 +144,13 @@ declare class C {
 
 ```javascript
 
-declare class C TODO!
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 34, end: 35
+✖ Declaration or statement expected - start: 38, end: 40
+
 ```
 

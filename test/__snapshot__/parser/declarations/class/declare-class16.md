@@ -59,7 +59,7 @@ declare class B {
                             "kind": 193,
                             "protoKeyword": {
                                 "kind": 16873,
-                                "flags": 65,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 25
                             },
