@@ -1,4 +1,4 @@
-import { SyntaxKind } from '../ast/syntax-node';
+import { SyntaxKind, NodeFlags } from '../ast/syntax-node';
 import { createRootNode } from '../ast/rootNode';
 import { StatementNode } from '../ast/statements';
 import { createAssignmentExpression } from '../ast/expressions/assignment-expr';
@@ -128,9 +128,9 @@ import { createNamedImports } from '../ast/module/named-imports';
 import { createSpreadElement } from '../ast/expressions/spread-element';
 import {
   Transform,
-  LexicalEnvironmentFlags,
   createNodeArray,
   extractSingleNode,
+  some,
   startLexicalEnvironment,
   endLexicalEnvironment,
   concatenate
@@ -140,8 +140,7 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
   const kind = node.kind;
   switch (kind) {
     case SyntaxKind.RootNode:
-      startLexicalEnvironment(transform);
-      return node.statements !== visitNodes(node.statements, visitor)
+      return node.statements !== visitLexicalEnvironment(transform, node.statements, visitor)
         ? createRootNode(node.directives, node.statements, node.isModule, node.source, node.fileName)
         : node;
     case SyntaxKind.AssignmentExpression:
@@ -266,7 +265,7 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
         node.parameters !== visitNode(node.parameters, visitor) ||
         node.asyncKeyword !== visitNode(node.asyncKeyword, visitor) ||
         node.returnType !== visitNode(node.returnType, visitor) ||
-        node.contents !== visitNode(node.contents, visitor)
+        node.contents !== visitFunctionBody(transform, node.contents, visitor)
         ? createArrowFunction(
             node.arrowToken,
             node.typeParameters,
@@ -680,11 +679,9 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
     case SyntaxKind.FunctionDeclaration:
       return node.declareKeyword !== visitNode(node.declareKeyword, visitor) ||
         node.asyncKeyword !== visitNode(node.asyncKeyword, visitor) ||
-        node.functionKeyword !== visitNode(node.functionKeyword, visitor) ||
         node.generatorToken !== visitNode(node.generatorToken, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
         node.formalParameters !== visitNode(node.formalParameters, visitor) ||
-        node.contents !== visitNode(node.contents, visitor) ||
+        node.contents !== visitFunctionBody(transform, node.contents, visitor) ||
         node.typeParameters !== visitNode(node.typeParameters, visitor) ||
         node.returnType !== visitNode(node.returnType, visitor)
         ? createFunctionDeclaration(
@@ -709,7 +706,7 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
         node.generatorToken !== visitNode(node.generatorToken, visitor) ||
         node.name !== visitNode(node.name, visitor) ||
         node.formalParameters !== visitNode(node.formalParameters, visitor) ||
-        node.contents !== visitNode(node.contents, visitor) ||
+        node.contents !== visitFunctionBody(transform, node.contents, visitor) ||
         node.typeParameters !== visitNode(node.typeParameters, visitor) ||
         node.returnType !== visitNode(node.returnType, visitor)
         ? createFunctionExpression(
@@ -1152,7 +1149,7 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
         node.typeParameters !== visitNode(node.typeParameters, visitor) ||
         node.formalParameters !== visitNode(node.formalParameters, visitor) ||
         node.returnType !== visitNode(node.returnType, visitor) ||
-        node.contents !== visitNode(node.contents, visitor)
+        node.contents !== visitFunctionBody(transform, node.contents, visitor)
         ? createMethodDefinition(
             node.name,
             node.typeParameters,
@@ -1167,11 +1164,11 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
   }
 }
 
-export function visitNode(node: Node, visitor: (node: any) => any, lift?: any): any | undefined {
+export function visitNode(node: any, visitor: (node: any) => any, lift?: any): any | undefined {
   if (node === null || visitor === null) {
     return node;
   }
-
+  //if (node.flags & NodeFlags.ChildLess) return node;
   const visited = visitor(node);
 
   if (visited === node) return node;
@@ -1236,11 +1233,7 @@ export function visitNodes(nodes: any, visitor: any, start?: number, count?: num
 
 export function visitParameterList(transform: Transform, nodes: any, visitor: any): any {
   startLexicalEnvironment(transform);
-  let updated: any;
-  if (nodes) {
-    updated = visitNodes(nodes, visitor);
-    transform.lexicalEnvironmentFlags = transform.lexicalEnvironmentFlags & ~LexicalEnvironmentFlags.InParameters;
-  }
+  const updated = visitNodes(nodes, visitor);
   transform.lexicalEnvironmentSuspended = true;
   return updated;
 }
@@ -1254,6 +1247,18 @@ export function visitLexicalEnvironment(
 ) {
   startLexicalEnvironment(transform);
   statements = visitNodes(statements, visitor, start);
+  //  if (ensureUseStrict) statements = context.factory.ensureUseStrict(statements);
   const declarations = endLexicalEnvironment(transform);
   return createNodeArray(concatenate(declarations as StatementNode[], statements));
+}
+
+export function visitFunctionBody(transform: Transform, node: any | undefined, visitor: any): any | undefined {
+  console.log('aa');
+  transform.lexicalEnvironmentSuspended = true;
+  const updated = visitNode(node, visitor);
+  const declarations = endLexicalEnvironment(transform);
+  if (some(declarations)) {
+    console.log('Naa declarations');
+  }
+  return updated;
 }
