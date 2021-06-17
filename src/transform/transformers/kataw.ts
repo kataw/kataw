@@ -72,7 +72,8 @@ export function transformKataw(transform: Transform): (node: any) => Node {
         node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         return node;
       case SyntaxKind.ClassDeclaration:
-        node.declareKeyword = null;
+        // Return 'null' for declared class
+        if (node.declareKeyword) return null;
       case SyntaxKind.ClassExpression:
         node.typeParameters = null;
         node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
