@@ -147,6 +147,7 @@ export { createObjectTypeProperty } from './ast/types/object-type-property';
 export { createFunctionDeclaration } from './ast/statements/function-declaration';
 export { createDummyIdentifier } from './ast/internal/dummy-identifier';
 export { getLeadingComments, getTrailingComments } from './parser/scanner/comments';
+export { visitEachChild, visitNodes, visitNode } from './visitor';
 export {
   isStatementNode,
   isExpressionNode,

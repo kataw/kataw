@@ -1,6 +1,6 @@
 import { Transform } from './../core';
 import { SyntaxKind, NodeFlags } from '../../ast/syntax-node';
-import { visitEachChild } from '../visitor';
+import { visitEachChild } from '../../visitor';
 
 // Rip of types in Kataw
 
