@@ -17,27 +17,17 @@ export function transformKataw(transform: Transform): (node: any) => Node {
       case SyntaxKind.TupleType:
       case SyntaxKind.Multiply:
       case SyntaxKind.TypeAlias:
-      case SyntaxKind.ThisKeyword:
       case SyntaxKind.AnyKeyword:
-      case SyntaxKind.NullKeyword:
       case SyntaxKind.UnknownKeyword:
       case SyntaxKind.UndefinedKeyword:
       case SyntaxKind.ObjectKeyword:
       case SyntaxKind.NeverKeyword:
-      case SyntaxKind.VoidKeyword:
       case SyntaxKind.SymbolKeyword:
       case SyntaxKind.MixedKeyword:
       case SyntaxKind.NumberKeyword:
       case SyntaxKind.StringKeyword:
       case SyntaxKind.BooleanKeyword:
       case SyntaxKind.EmptyKeyword:
-      case SyntaxKind.FalseKeyword:
-      case SyntaxKind.TrueKeyword:
-      case SyntaxKind.TypeParameter:
-      case SyntaxKind.ArrowFunctionType:
-      case SyntaxKind.FunctionType:
-      case SyntaxKind.TypeReference:
-      case SyntaxKind.UnionType:
       case SyntaxKind.OpaqueType:
         return null;
       case SyntaxKind.LexicalBinding:
