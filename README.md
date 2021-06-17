@@ -190,7 +190,7 @@ export function swapIdentifierWithNumeric(transform) {
   function visitor() {
     switch (node.kind) {
       default:
-        return kataw.visitEachChild(node, visitor, context);
+        return kataw.visitEachChild(transform, node, visitor);
     }
   }
 }
