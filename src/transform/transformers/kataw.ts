@@ -34,59 +34,48 @@ export function transformKataw(transform: Transform): (node: any) => Node {
       case SyntaxKind.VariableDeclaration:
         node.optionalToken = null;
         node.type = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.MethodDefinition:
         node.typeParameters = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.FieldDefinition:
         node.declaredToken = null;
         node.optionalToken = null;
         node.type = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.CallChain:
         node.typeArguments = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.ImportDeclaration:
         node.typeofKeyword = null;
       case SyntaxKind.ImportSpecifier:
         node.typeKeyword = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.ArrowFunction:
         node.typeParameters = null;
         node.returnType = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.ClassDeclaration:
         // Return 'null' for declared class
         if (node.declareKeyword) return null;
       case SyntaxKind.ClassExpression:
         node.typeParameters = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.ClassHeritage:
         node.typeParameter = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.BindingElement:
         node.optionalToken = null;
         node.type = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.VariableStatement:
         node.declareKeyword = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
       case SyntaxKind.FunctionDeclaration:
         node.declareKeyword = null;
       case SyntaxKind.FunctionExpression:
         node.typeParameters = null;
         node.returnType = null;
-        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         break;
     }
 

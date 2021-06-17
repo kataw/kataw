@@ -193,3 +193,4 @@ export function dispose(transform: Transform) {
 export function transform(root: RootNode, transformers: any) {
   return transformers(createTransform())(root);
 }
+

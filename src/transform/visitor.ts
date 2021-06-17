@@ -677,7 +677,7 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
         : node;
 
     case SyntaxKind.FunctionDeclaration:
-      return node.declareKeyword !== visitNode(node.declareKeyword, visitor) ||
+        return node.declareKeyword !== visitNode(node.declareKeyword, visitor) ||
         node.asyncKeyword !== visitNode(node.asyncKeyword, visitor) ||
         node.generatorToken !== visitNode(node.generatorToken, visitor) ||
         node.formalParameters !== visitNode(node.formalParameters, visitor) ||
@@ -1165,6 +1165,7 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
 }
 
 export function visitNode(node: any, visitor: (node: any) => any, lift?: any): any | undefined {
+
   if (node === null || visitor === null) {
     return node;
   }
@@ -1253,12 +1254,10 @@ export function visitLexicalEnvironment(
 }
 
 export function visitFunctionBody(transform: Transform, node: any | undefined, visitor: any): any | undefined {
-  console.log('aa');
   transform.lexicalEnvironmentSuspended = true;
   const updated = visitNode(node, visitor);
   const declarations = endLexicalEnvironment(transform);
   if (some(declarations)) {
-    console.log('Naa declarations');
   }
   return updated;
 }
