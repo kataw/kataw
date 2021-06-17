@@ -1,5 +1,6 @@
 import { SyntaxKind } from '../ast/syntax-node';
 import { createRootNode } from '../ast/rootNode';
+import { StatementNode } from '../ast/statements';
 import { createAssignmentExpression } from '../ast/expressions/assignment-expr';
 import { createExpressionStatement } from '../ast/statements/expression-stmt';
 import { createArrayLiteral } from '../ast/expressions/array-literal';
@@ -131,6 +132,7 @@ import {
   createNodeArray,
   extractSingleNode,
   startLexicalEnvironment,
+  endLexicalEnvironment,
   concatenate
 } from './core';
 
@@ -140,7 +142,7 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
     case SyntaxKind.RootNode:
       startLexicalEnvironment(transform);
       return node.statements !== visitNodes(node.statements, visitor)
-        ? createRootNode(node.directives, node.statements, node.isModule, node.source, node.fuleName)
+        ? createRootNode(node.directives, node.statements, node.isModule, node.source, node.fileName)
         : node;
     case SyntaxKind.AssignmentExpression:
       return node.left !== visitNode(node.left, visitor) ||
@@ -1252,5 +1254,5 @@ export function visitLexicalEnvironment(
   startLexicalEnvironment(transform);
   statements = visitNodes(statements, visitor, start);
   const declarations = endLexicalEnvironment(transform);
-  return createNodeArray(concatenate(declarations, statements));
+  return createNodeArray(concatenate(declarations as StatementNode[], statements));
 }

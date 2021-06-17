@@ -1,6 +1,6 @@
 import { RootNode } from '../ast/rootNode';
 import { NodeFlags, SyntaxKind } from '../ast/syntax-node';
-import { createToken, SyntaxKind } from '../ast/token';
+import { createToken } from '../ast/token';
 import { StatementNode } from '../ast/statements';
 import { VariableDeclaration } from '../ast/statements/variable-declaration';
 import { FunctionDeclaration } from '../ast/statements/function-declaration';

@@ -1,13 +1,14 @@
-import { SyntaxKind } from '../../ast/syntax-node';
+import { Transform } from './../core';
+import { SyntaxKind, NodeFlags } from '../../ast/syntax-node';
 import { visitEachChild } from '../visitor';
 
 // Rip of types in Kataw
 
-export function transformKataw(context: any): (node: any) => Node {
+export function transformKataw(transform: Transform): (node: any) => Node {
   return transformSourceFile;
 
   function transformSourceFile(root: any) {
-    return visitEachChild(context, root, visitor);
+    return visitEachChild(transform, root, visitor);
   }
 
   function visitor(node: any): any {
@@ -37,7 +38,18 @@ export function transformKataw(context: any): (node: any) => Node {
       case SyntaxKind.FunctionType:
       case SyntaxKind.TypeReference:
       case SyntaxKind.UnionType:
+      case SyntaxKind.OpaqueType:
         return null;
+      case SyntaxKind.FunctionDeclaration:
+        node.declareKeyword = null;
+      case SyntaxKind.FunctionExpression:
+        node.typeParameters = null;
+        node.returnType = null;
+        // Unset type related flags now to avoid conflicts
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
     }
+
+    return visitEachChild(transform, node, visitor);
   }
 }
