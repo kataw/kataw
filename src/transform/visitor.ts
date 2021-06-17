@@ -288,7 +288,8 @@ export function visitEachChild(transform: Transform, node: any, visitor: (node: 
       return node.ellipsisToken !== visitNode(node.ellipsisToken, visitor) ||
         node.left !== visitNode(node.left, visitor) ||
         node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.type !== visitNode(node.type, visitor)
+        node.type !== visitNode(node.type, visitor) ||
+        node.right !== visitNode(node.right, visitor)
         ? createBindingElement(
             node.ellipsisToken,
             node.left,

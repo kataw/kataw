@@ -40,16 +40,67 @@ export function transformKataw(transform: Transform): (node: any) => Node {
       case SyntaxKind.UnionType:
       case SyntaxKind.OpaqueType:
         return null;
+      case SyntaxKind.LexicalBinding:
+      case SyntaxKind.VariableDeclaration:
+        node.optionalToken = null;
+        node.type = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
+      case SyntaxKind.MethodDefinition:
+        node.typeParameters = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
+      case SyntaxKind.FieldDefinition:
+        node.declaredToken = null;
+        node.optionalToken = null;
+        node.type = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
+      case SyntaxKind.CallChain:
+        node.typeArguments = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
+      case SyntaxKind.ImportDeclaration:
+        node.typeofKeyword = null;
+      case SyntaxKind.ImportSpecifier:
+        node.typeKeyword = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
+      case SyntaxKind.ArrowFunction:
+        node.typeParameters = null;
+        node.returnType = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
+      case SyntaxKind.ClassDeclaration:
+        node.declareKeyword = null;
+      case SyntaxKind.ClassExpression:
+        node.typeParameters = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
+      case SyntaxKind.ClassHeritage:
+        node.typeParameter = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
+      case SyntaxKind.BindingElement:
+        node.optionalToken = null;
+        node.type = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
+      case SyntaxKind.VariableStatement:
+        node.declareKeyword = null;
+        node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
+        return node;
       case SyntaxKind.FunctionDeclaration:
         node.declareKeyword = null;
       case SyntaxKind.FunctionExpression:
         node.typeParameters = null;
         node.returnType = null;
-        // Unset type related flags now to avoid conflicts
         node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
         return node;
     }
 
+    // Unset type related flags to avoid conflicts
+    node.flags = node.flags & ~(NodeFlags.IsTypeNode | NodeFlags.Declared);
     return visitEachChild(transform, node, visitor);
   }
 }
