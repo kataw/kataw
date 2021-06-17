@@ -1,11 +1,11 @@
-import { SyntaxKind, NodeFlags } from './ast/syntax-node';
-import { createRootNode } from './ast/rootNode';
+import { SyntaxKind, NodeFlags, SyntaxNode } from './ast/syntax-node';
+import { createRootNode, RootNode } from './ast/rootNode';
 import { StatementNode } from './ast/statements';
-import { createAssignmentExpression } from './ast/expressions/assignment-expr';
-import { createExpressionStatement } from './ast/statements/expression-stmt';
-import { createArrayLiteral } from './ast/expressions/array-literal';
-import { createBinaryExpression } from './ast/expressions/binary-expr';
-import { createArgumentList } from './ast/expressions/argument-list';
+import { createAssignmentExpression, AssignmentExpression } from './ast/expressions/assignment-expr';
+import { createExpressionStatement, ExpressionStatement } from './ast/statements/expression-stmt';
+import { createArrayLiteral, ArrayLiteral } from './ast/expressions/array-literal';
+import { createBinaryExpression, BinaryExpression } from './ast/expressions/binary-expr';
+import { createArgumentList, ArgumentList } from './ast/expressions/argument-list';
 import { createArrayBindingPattern } from './ast/expressions/array-binding-pattern';
 import { createArrowFunction } from './ast/expressions/arrow-function';
 import { createAwaitExpression } from './ast/expressions/await-expr';
@@ -33,7 +33,7 @@ import { createClassHeritage } from './ast/expressions/class-heritage';
 import { createComputedPropertyName } from './ast/expressions/computed-property-name';
 import { createConditionalExpression } from './ast/expressions/conditional-expr';
 import { createCoverInitializedName } from './ast/expressions/cover-initialized-name';
-import { createElementList } from './ast/expressions/element-list';
+import { createElementList, ElementList } from './ast/expressions/element-list';
 import { createFieldDefinition } from './ast/expressions/field-definition';
 import { createTaggedTemplate } from './ast/expressions/tagged-template';
 import { createFunctionExpression } from './ast/expressions/function-expr';
@@ -45,7 +45,7 @@ import { createMethodDefinition } from './ast/expressions/method-definition';
 import { createNewExpression } from './ast/expressions/new-expr';
 import { createObjectBindingPattern } from './ast/expressions/object-binding-pattern';
 import { createObjectLiteral } from './ast/expressions/object-literal';
-import { createParenthesizedExpression } from './ast/expressions/parenthesized-expr';
+import { createParenthesizedExpression, ParenthesizedExpression } from './ast/expressions/parenthesized-expr';
 import { createPostfixUpdateExpression } from './ast/expressions/postfix-update-expr';
 import { createPrefixUpdateExpression } from './ast/expressions/prefix-update-expr';
 import { createPropertyDefinition } from './ast/expressions/property-definition';
@@ -136,1040 +136,1370 @@ import {
   concatenate
 } from './transform/core';
 
-export function visitEachChild(transform: Transform, node: any, visitor: (node: SyntaxKind) => SyntaxKind): any {
-  const kind = node.kind;
+export function visitEachChild(
+  transform: Transform,
+  node: SyntaxNode,
+  visitor: (node: StatementNode) => SyntaxKind
+): any {
+  const kind = (<any>node).kind;
   switch (kind) {
     case SyntaxKind.RootNode:
-      return node.statements !== visitLexicalEnvironment(transform, node.statements, visitor)
-        ? createRootNode(node.directives, node.statements, node.isModule, node.source, node.fileName)
+      return (<RootNode>node).statements !== visitLexicalEnvironment(transform, (<RootNode>node).statements, visitor)
+        ? createRootNode(
+            (<RootNode>node).directives,
+            (<RootNode>node).statements,
+            (<RootNode>node).isModule,
+            (<RootNode>node).source,
+            (<RootNode>node).fileName
+          )
         : node;
     case SyntaxKind.AssignmentExpression:
-      return node.left !== visitNode(node.left, visitor) ||
-        node.operatorToken !== visitNode(node.operatorToken, visitor) ||
-        node.right !== visitNode(node.right, visitor)
-        ? createAssignmentExpression(node.left, node.operatorToken, node.right, node.start, node.end)
+      return (<AssignmentExpression>node).left !== visitNode((<AssignmentExpression>node).left, visitor) ||
+        (<AssignmentExpression>node).operatorToken !== visitNode((<any>node).operatorToken, visitor) ||
+        (<AssignmentExpression>node).right !== visitNode((<AssignmentExpression>node).right, visitor)
+        ? createAssignmentExpression(
+            (<AssignmentExpression>node).left,
+            (<any>node).operatorToken,
+            (<AssignmentExpression>node).right,
+            (<AssignmentExpression>node).start,
+            (<AssignmentExpression>node).end
+          )
         : node;
 
     case SyntaxKind.ExpressionStatement:
-      return node.expression !== visitNode(node.expression, visitor)
-        ? createExpressionStatement(node.expression, node.start, node.end)
+      return (<ExpressionStatement>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createExpressionStatement(
+            (<ExpressionStatement>node).expression,
+            (<ExpressionStatement>node).start,
+            (<ExpressionStatement>node).end
+          )
         : node;
     case SyntaxKind.ElementList:
-      return node.elements !== visitNode(node.elements, visitor)
-        ? createElementList(node.elements, node.trailingComma, node.flags, node.start, node.end)
+      return (<ElementList>node).elements !== visitNode((<ElementList>node).elements, visitor)
+        ? createElementList(
+            (<ElementList>node).elements,
+            (<ElementList>node).trailingComma,
+            (<ElementList>node).flags,
+            (<ElementList>node).start,
+            (<ElementList>node).end
+          )
         : node;
     case SyntaxKind.ArrayLiteral:
-      return node.elementList !== visitNode(node.elementList, visitor)
-        ? createArrayLiteral(node.elementList, node.flags, node.start, node.end)
+      return (<ArrayLiteral>node).elementList !== visitNode((<ArrayLiteral>node).elementList, visitor)
+        ? createArrayLiteral(
+            (<ArrayLiteral>node).elementList,
+            (<ArrayLiteral>node).flags,
+            (<ArrayLiteral>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.ParenthesizedExpression:
-      return node.expression !== visitNode(node.expression, visitor)
-        ? createParenthesizedExpression(node.expression, node.start, node.end)
+      return (<ParenthesizedExpression>node).expression !==
+        visitNode((<ParenthesizedExpression>node).expression, visitor)
+        ? createParenthesizedExpression(
+            (<ParenthesizedExpression>node).expression,
+            (<ParenthesizedExpression>node).start,
+            (<ParenthesizedExpression>node).end
+          )
         : node;
     case SyntaxKind.BinaryExpression:
-      return node.left !== visitNode(node.left, visitor) ||
-        node.operatorToken !== visitNode(node.operatorToken, visitor) ||
-        node.right !== visitNode(node.right, visitor)
-        ? createBinaryExpression(node.left, node.operatorToken, node.right, node.start, node.end)
+      return (<BinaryExpression>node).left !== visitNode((<BinaryExpression>node).left, visitor) ||
+        (<BinaryExpression>node).operatorToken !== visitNode((<BinaryExpression>node).operatorToken, visitor) ||
+        (<BinaryExpression>node).right !== visitNode((<BinaryExpression>node).right, visitor)
+        ? createBinaryExpression(
+            (<BinaryExpression>node).left,
+            (<any>node).operatorToken,
+            (<BinaryExpression>node).right,
+            (<BinaryExpression>node).start,
+            (<BinaryExpression>node).end
+          )
         : node;
     case SyntaxKind.ObjectLiteral:
-      return node.propertyList !== visitNode(node.propertyList, visitor)
-        ? createObjectLiteral(node.propertyList, node.flags, node.start, node.end)
+      return (<any>node).propertyList !== visitNode((<any>node).propertyList, visitor)
+        ? createObjectLiteral((<any>node).propertyList, (<any>node).flags, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.PropertyDefinitionList:
-      return node.properties !== visitNodes(node.properties, visitor)
-        ? createPropertyDefinitionList(node.properties, node.trailingComma, node.flags, node.start, node.end)
+      return (<any>node).properties !== visitNodes((<any>node).properties, visitor)
+        ? createPropertyDefinitionList(
+            (<any>node).properties,
+            (<any>node).trailingComma,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.PropertyDefinition:
-      return node.generatorToken !== visitNode(node.generatorToken, visitor) ||
-        node.left !== visitNode(node.left, visitor) ||
-        node.right !== visitNode(node.right, visitor)
-        ? createPropertyDefinition(node.generatorToken, node.left, node.right, node.flags, node.start, node.end)
+      return (<any>node).generatorToken !== visitNode((<any>node).generatorToken, visitor) ||
+        (<any>node).left !== visitNode((<any>node).left, visitor) ||
+        (<any>node).right !== visitNode((<any>node).right, visitor)
+        ? createPropertyDefinition(
+            (<any>node).generatorToken,
+            (<any>node).left,
+            (<any>node).right,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.ArgumentList:
-      return node.elements !== visitNodes(node.elements, visitor)
-        ? createArgumentList(node.elements, node.trailingComma, node.start, node.end)
+      return (<ArgumentList>node).elements !== visitNodes((<ArgumentList>node).elements, visitor)
+        ? createArgumentList(
+            (<ArgumentList>node).elements,
+            (<ArgumentList>node).trailingComma,
+            (<ArgumentList>node).start,
+            (<ArgumentList>node).end
+          )
         : node;
     case SyntaxKind.Block:
-      return node.statements !== visitNodes(node.statements, visitor)
-        ? createBlock(node.statements, node.flags, node.start, node.end)
+      return (<any>node).statements !== visitNodes((<any>node).statements, visitor)
+        ? createBlock((<any>node).statements, (<any>node).flags, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ObjectBindingPattern:
-      return node.propertyList !== visitNodes(node.propertyList, visitor)
-        ? createObjectBindingPattern(node.propertyList, node.flags, node.start, node.end)
+      return (<any>node).propertyList !== visitNodes((<any>node).propertyList, visitor)
+        ? createObjectBindingPattern((<any>node).propertyList, (<any>node).flags, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.CallExpression:
-      return node.expression !== visitNode(node.expression, visitor) ||
-        node.argumentList !== visitNode(node.argumentList, visitor)
-        ? createCallExpression(node.expression, node.argumentList, node.flags, node.start, node.end)
+      return (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).argumentList !== visitNode((<any>node).argumentList, visitor)
+        ? createCallExpression(
+            (<any>node).expression,
+            (<any>node).argumentList,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.BindingElementList:
-      return node.elements !== visitNodes(node.elements, visitor)
-        ? createBindingElementList(node.elements, node.trailingComma, node.flags, node.start, node.end)
+      return (<any>node).elements !== visitNodes((<any>node).elements, visitor)
+        ? createBindingElementList(
+            (<any>node).elements,
+            (<any>node).trailingComma,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.VariableStatement:
-      return node.declareKeyword !== visitNode(node.declareKeyword, visitor) ||
-        node.varKeyword !== visitNode(node.varKeyword, visitor) ||
-        node.declarationList !== visitNode(node.declarationList, visitor)
+      return (<any>node).declareKeyword !== visitNode((<any>node).declareKeyword, visitor) ||
+        (<any>node).varKeyword !== visitNode((<any>node).varKeyword, visitor) ||
+        (<any>node).declarationList !== visitNode((<any>node).declarationList, visitor)
         ? createVariableStatement(
-            node.declareKeyword,
-            node.varKeyword,
-            node.declarationList,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).declareKeyword,
+            (<any>node).varKeyword,
+            (<any>node).declarationList,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.VariableDeclaration:
-      return node.binding !== visitNode(node.binding, visitor) ||
-        node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.type !== visitNode(node.type, visitor) ||
-        node.initializer !== visitNode(node.initializer, visitor)
-        ? createVariableDeclaration(node.binding, node.optionalToken, node.type, node.initializer, node.start, node.end)
+      return (<any>node).binding !== visitNode((<any>node).binding, visitor) ||
+        (<any>node).optionalToken !== visitNode((<any>node).optionalToken, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor) ||
+        (<any>node).initializer !== visitNode((<any>node).initializer, visitor)
+        ? createVariableDeclaration(
+            (<any>node).binding,
+            (<any>node).optionalToken,
+            (<any>node).type,
+            (<any>node).initializer,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.VariableDeclarationList:
-      return node.declarations !== visitNodes(node.declarations, visitor)
-        ? createVariableDeclarationList(node.declarations, node.start, node.end)
+      return (<any>node).declarations !== visitNodes((<any>node).declarations, visitor)
+        ? createVariableDeclarationList((<any>node).declarations, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.LexicalDeclaration:
-      return node.lexicalKeyword !== visitNode(node.lexicalKeyword, visitor) ||
-        node.binding !== visitNode(node.binding, visitor)
-        ? createLexicalDeclaration(node.lexicalKeyword, node.binding, node.start, node.end)
+      return (<any>node).lexicalKeyword !== visitNode((<any>node).lexicalKeyword, visitor) ||
+        (<any>node).binding !== visitNode((<any>node).binding, visitor)
+        ? createLexicalDeclaration((<any>node).lexicalKeyword, (<any>node).binding, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ArrayBindingPattern:
-      return node.elementList !== visitNodes(node.elementList, visitor)
-        ? createArrayBindingPattern(node.elementList, node.flags, node.start, node.end)
+      return (<any>node).elementList !== visitNodes((<any>node).elementList, visitor)
+        ? createArrayBindingPattern((<any>node).elementList, (<any>node).flags, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.LexicalBinding:
-      return node.binding !== visitNode(node.binding, visitor) ||
-        node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.type !== visitNode(node.type, visitor) ||
-        node.initializer !== visitNode(node.initializer, visitor)
-        ? createLexicalBinding(node.binding, node.optionalToken, node.type, node.initializer, node.start, node.end)
+      return (<any>node).binding !== visitNode((<any>node).binding, visitor) ||
+        (<any>node).optionalToken !== visitNode((<any>node).optionalToken, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor) ||
+        (<any>node).initializer !== visitNode((<any>node).initializer, visitor)
+        ? createLexicalBinding(
+            (<any>node).binding,
+            (<any>node).optionalToken,
+            (<any>node).type,
+            (<any>node).initializer,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.BindingList:
-      return node.bindingList !== visitNodes(node.bindingList, visitor)
-        ? createBindingList(node.bindingList, node.flags, node.start, node.end)
+      return (<any>node).bindingList !== visitNodes((<any>node).bindingList, visitor)
+        ? createBindingList((<any>node).bindingList, (<any>node).flags, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.BindingPropertyList:
-      return node.properties !== visitNodes(node.properties, visitor)
-        ? createBindingPropertyList(node.properties, node.flags, node.trailingComma, node.start, node.end)
+      return (<any>node).properties !== visitNodes((<any>node).properties, visitor)
+        ? createBindingPropertyList(
+            (<any>node).properties,
+            (<any>node).flags,
+            (<any>node).trailingComma,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.BlockStatement:
-      return node.block !== visitNode(node.block, visitor)
-        ? createBlockStatement(node.block, node.flags, node.start, node.end)
+      return (<any>node).block !== visitNode((<any>node).block, visitor)
+        ? createBlockStatement((<any>node).block, (<any>node).flags, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ArrowFunction:
-      return node.arrowToken !== visitNode(node.arrowToken, visitor) ||
-        node.typeParameters !== visitNode(node.typeParameters, visitor) ||
-        node.parameters !== visitNode(node.parameters, visitor) ||
-        node.asyncKeyword !== visitNode(node.asyncKeyword, visitor) ||
-        node.returnType !== visitNode(node.returnType, visitor) ||
-        node.contents !== visitFunctionBody(transform, node.contents, visitor)
+      return (<any>node).arrowToken !== visitNode((<any>node).arrowToken, visitor) ||
+        (<any>node).typeParameters !== visitNode((<any>node).typeParameters, visitor) ||
+        (<any>node).parameters !== visitNode((<any>node).parameters, visitor) ||
+        (<any>node).asyncKeyword !== visitNode((<any>node).asyncKeyword, visitor) ||
+        (<any>node).returnType !== visitNode((<any>node).returnType, visitor) ||
+        (<any>node).contents !== visitFunctionBody(transform, (<any>node).contents, visitor)
         ? createArrowFunction(
-            node.arrowToken,
-            node.typeParameters,
-            node.parameters,
-            node.asyncKeyword,
-            node.returnType,
-            node.contents,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).arrowToken,
+            (<any>node).typeParameters,
+            (<any>node).parameters,
+            (<any>node).asyncKeyword,
+            (<any>node).returnType,
+            (<any>node).contents,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.AwaitExpression:
-      return node.awaitKeyword !== visitNode(node.awaitKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor)
-        ? createAwaitExpression(node.awaitKeyword, node.expression, node.start, node.end)
+      return (<any>node).awaitKeyword !== visitNode((<any>node).awaitKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createAwaitExpression((<any>node).awaitKeyword, (<any>node).expression, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.BindingElement:
-      return node.ellipsisToken !== visitNode(node.ellipsisToken, visitor) ||
-        node.left !== visitNode(node.left, visitor) ||
-        node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.type !== visitNode(node.type, visitor) ||
-        node.right !== visitNode(node.right, visitor)
+      return (<any>node).ellipsisToken !== visitNode((<any>node).ellipsisToken, visitor) ||
+        (<any>node).left !== visitNode((<any>node).left, visitor) ||
+        (<any>node).optionalToken !== visitNode((<any>node).optionalToken, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor) ||
+        (<any>node).right !== visitNode((<any>node).right, visitor)
         ? createBindingElement(
-            node.ellipsisToken,
-            node.left,
-            node.optionalToken,
-            node.type,
-            node.right,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).ellipsisToken,
+            (<any>node).left,
+            (<any>node).optionalToken,
+            (<any>node).type,
+            (<any>node).right,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.BindingProperty:
-      return node.ellipsisToken !== visitNode(node.ellipsisToken, visitor) ||
-        node.key !== visitNode(node.key, visitor) ||
-        node.value !== visitNode(node.value, visitor) ||
-        node.initializer !== visitNode(node.initializer, visitor)
-        ? createBindingProperty(node.ellipsisToken, node.key, node.value, node.initializer, node.start, node.end)
+      return (<any>node).ellipsisToken !== visitNode((<any>node).ellipsisToken, visitor) ||
+        (<any>node).key !== visitNode((<any>node).key, visitor) ||
+        (<any>node).value !== visitNode((<any>node).value, visitor) ||
+        (<any>node).initializer !== visitNode((<any>node).initializer, visitor)
+        ? createBindingProperty(
+            (<any>node).ellipsisToken,
+            (<any>node).key,
+            (<any>node).value,
+            (<any>node).initializer,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.OptionalExpression:
-      return node.chainToken !== visitNode(node.chainToken, visitor) ||
-        node.member !== visitNode(node.member, visitor) ||
-        node.chain !== visitNode(node.chain, visitor)
-        ? createOptionalExpression(node.chainToken, node.member, node.chain, node.start, node.end)
+      return (<any>node).chainToken !== visitNode((<any>node).chainToken, visitor) ||
+        (<any>node).member !== visitNode((<any>node).member, visitor) ||
+        (<any>node).chain !== visitNode((<any>node).chain, visitor)
+        ? createOptionalExpression(
+            (<any>node).chainToken,
+            (<any>node).member,
+            (<any>node).chain,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.OptionalChain:
-      return node.chain !== visitNode(node.chain, visitor)
-        ? createOptionalChain(node.chain, node.start, node.end)
+      return (<any>node).chain !== visitNode((<any>node).chain, visitor)
+        ? createOptionalChain((<any>node).chain, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ClassHeritage:
-      return node.extendsKeyword !== visitNode(node.extendsKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.typeParameter !== visitNode(node.typeParameter, visitor)
-        ? createClassHeritage(node.extendsKeyword, node.expression, node.typeParameter, node.start, node.end)
+      return (<any>node).extendsKeyword !== visitNode((<any>node).extendsKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).typeParameter !== visitNode((<any>node).typeParameter, visitor)
+        ? createClassHeritage(
+            (<any>node).extendsKeyword,
+            (<any>node).expression,
+            (<any>node).typeParameter,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.ClassBody:
-      return node.elements !== visitNodes(node.elements, visitor)
-        ? createClassBody(node.elements, node.start, node.end)
+      return (<any>node).elements !== visitNodes((<any>node).elements, visitor)
+        ? createClassBody((<any>node).elements, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ClassTail:
-      return node.classHeritage !== visitNode(node.classHeritage, visitor) ||
-        node.body !== visitNode(node.body, visitor)
-        ? createClassTail(node.classHeritage, node.body, node.flags, node.start, node.end)
+      return (<any>node).classHeritage !== visitNode((<any>node).classHeritage, visitor) ||
+        (<any>node).body !== visitNode((<any>node).body, visitor)
+        ? createClassTail(
+            (<any>node).classHeritage,
+            (<any>node).body,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.ClassDeclaration:
-      return node.declareKeyword !== visitNode(node.declareKeyword, visitor) ||
-        node.decorators !== visitNode(node.decorators, visitor) ||
-        node.classKeyword !== visitNode(node.classKeyword, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
-        node.typeParameters !== visitNode(node.typeParameters, visitor) ||
-        node.tail !== visitNode(node.tail, visitor)
+      return (<any>node).declareKeyword !== visitNode((<any>node).declareKeyword, visitor) ||
+        (<any>node).decorators !== visitNode((<any>node).decorators, visitor) ||
+        (<any>node).classKeyword !== visitNode((<any>node).classKeyword, visitor) ||
+        (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).typeParameters !== visitNode((<any>node).typeParameters, visitor) ||
+        (<any>node).tail !== visitNode((<any>node).tail, visitor)
         ? createClassDeclaration(
-            node.declareKeyword,
-            node.decorators,
-            node.classKeyword,
-            node.name,
-            node.typeParameters,
-            node.tail,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).declareKeyword,
+            (<any>node).decorators,
+            (<any>node).classKeyword,
+            (<any>node).name,
+            (<any>node).typeParameters,
+            (<any>node).tail,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.CommaOperator:
-      return node.expressions !== visitNodes(node.expressions, visitor)
-        ? createCommaOperator(node.expressions, node.start, node.end)
+      return (<any>node).expressions !== visitNodes((<any>node).expressions, visitor)
+        ? createCommaOperator((<any>node).expressions, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ComputedPropertyName:
-      return node.expression !== visitNode(node.expression, visitor)
-        ? createComputedPropertyName(node.expression, node.start, node.end)
+      return (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createComputedPropertyName((<any>node).expression, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ConditionalExpression:
-      return node.shortCircuit !== visitNode(node.shortCircuit, visitor) ||
-        node.questionToken !== visitNode(node.questionToken, visitor) ||
-        node.colonToken !== visitNode(node.colonToken, visitor) ||
-        node.alternate !== visitNode(node.alternate, visitor)
+      return (<any>node).shortCircuit !== visitNode((<any>node).shortCircuit, visitor) ||
+        (<any>node).questionToken !== visitNode((<any>node).questionToken, visitor) ||
+        (<any>node).colonToken !== visitNode((<any>node).colonToken, visitor) ||
+        (<any>node).alternate !== visitNode((<any>node).alternate, visitor)
         ? createConditionalExpression(
-            node.shortCircuit,
-            node.questionToken,
-            node.consequent,
-            node.colonToken,
-            node.alternate,
-            node.start,
-            node.end
+            (<any>node).shortCircuit,
+            (<any>node).questionToken,
+            (<any>node).consequent,
+            (<any>node).colonToken,
+            (<any>node).alternate,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.CoverInitializedName:
-      return node.left !== visitNode(node.left, visitor) || node.right !== visitNode(node.right, visitor)
-        ? createCoverInitializedName(node.left, node.right, node.start, node.end)
+      return (<any>node).left !== visitNode((<any>node).left, visitor) ||
+        (<any>node).right !== visitNode((<any>node).right, visitor)
+        ? createCoverInitializedName((<any>node).left, (<any>node).right, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ReturnStatement:
-      return node.returnKeyword !== visitNode(node.returnKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor)
-        ? createReturnStatement(node.returnKeyword, node.expression, node.flags, node.start, node.end)
+      return (<any>node).returnKeyword !== visitNode((<any>node).returnKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createReturnStatement(
+            (<any>node).returnKeyword,
+            (<any>node).expression,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.UnaryExpression:
-      return node.operandToken !== visitNode(node.operandToken, visitor) ||
-        node.operand !== visitNode(node.operand, visitor)
-        ? createUnaryExpression(node.operandToken, node.operand, node.start, node.end)
+      return (<any>node).operandToken !== visitNode((<any>node).operandToken, visitor) ||
+        (<any>node).operand !== visitNode((<any>node).operand, visitor)
+        ? createUnaryExpression((<any>node).operandToken, (<any>node).operand, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.PostfixUpdateExpression:
-      return node.operandToken !== visitNode(node.operandToken, visitor) ||
-        node.operand !== visitNode(node.operand, visitor)
-        ? createPostfixUpdateExpression(node.operandToken, node.operand, node.start, node.end)
+      return (<any>node).operandToken !== visitNode((<any>node).operandToken, visitor) ||
+        (<any>node).operand !== visitNode((<any>node).operand, visitor)
+        ? createPostfixUpdateExpression(
+            (<any>node).operandToken,
+            (<any>node).operand,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.PrefixUpdateExpression:
-      return node.operandToken !== visitNode(node.operandToken, visitor) ||
-        node.operand !== visitNode(node.operand, visitor)
-        ? createPrefixUpdateExpression(node.operandToken, node.operand, node.start, node.end)
+      return (<any>node).operandToken !== visitNode((<any>node).operandToken, visitor) ||
+        (<any>node).operand !== visitNode((<any>node).operand, visitor)
+        ? createPrefixUpdateExpression(
+            (<any>node).operandToken,
+            (<any>node).operand,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.NewExpression:
-      return node.newKeyword !== visitNode(node.newKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.argumentList !== visitNode(node.argumentList, visitor)
-        ? createNewExpression(node.newKeyword, node.expression, node.argumentList, node.flags, node.start, node.end)
+      return (<any>node).newKeyword !== visitNode((<any>node).newKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).argumentList !== visitNode((<any>node).argumentList, visitor)
+        ? createNewExpression(
+            (<any>node).newKeyword,
+            (<any>node).expression,
+            (<any>node).argumentList,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.SpreadProperty:
-      return node.ellipsisToken !== visitNode(node.ellipsisToken, visitor) ||
-        node.argument !== visitNode(node.argument, visitor)
-        ? createSpreadProperty(node.ellipsisToken, node.argument, node.start, node.end)
+      return (<any>node).ellipsisToken !== visitNode((<any>node).ellipsisToken, visitor) ||
+        (<any>node).argument !== visitNode((<any>node).argument, visitor)
+        ? createSpreadProperty((<any>node).ellipsisToken, (<any>node).argument, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ForInStatement:
-      return node.forKeyword !== visitNode(node.forKeyword, visitor) ||
-        node.infKeyword !== visitNode(node.inKeyword, visitor) ||
-        node.initializer !== visitNode(node.initializer, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.statement !== visitNode(node.statement, visitor)
+      return (<any>node).forKeyword !== visitNode((<any>node).forKeyword, visitor) ||
+        (<any>node).infKeyword !== visitNode((<any>node).inKeyword, visitor) ||
+        (<any>node).initializer !== visitNode((<any>node).initializer, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).statement !== visitNode((<any>node).statement, visitor)
         ? createForInStatement(
-            node.forKeyword,
-            node.inKeyword,
-            node.initializer,
-            node.expression,
-            node.statement,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).forKeyword,
+            (<any>node).inKeyword,
+            (<any>node).initializer,
+            (<any>node).expression,
+            (<any>node).statement,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.ForOfStatement:
-      return node.forKeyword !== visitNode(node.forKeyword, visitor) ||
-        node.ofKeyword !== visitNode(node.ofKeyword, visitor) ||
-        node.initializer !== visitNode(node.initializer, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.statement !== visitNode(node.statement, visitor) ||
-        node.awaitKeyword !== visitNode(node.awaitKeyword, visitor)
+      return (<any>node).forKeyword !== visitNode((<any>node).forKeyword, visitor) ||
+        (<any>node).ofKeyword !== visitNode((<any>node).ofKeyword, visitor) ||
+        (<any>node).initializer !== visitNode((<any>node).initializer, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).statement !== visitNode((<any>node).statement, visitor) ||
+        (<any>node).awaitKeyword !== visitNode((<any>node).awaitKeyword, visitor)
         ? createForOfStatement(
-            node.forKeyword,
-            node.ofKeyword,
-            node.initializer,
-            node.expression,
-            node.statement,
-            node.awaitKeyword,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).forKeyword,
+            (<any>node).ofKeyword,
+            (<any>node).initializer,
+            (<any>node).expression,
+            (<any>node).statement,
+            (<any>node).awaitKeyword,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.ForStatement:
-      return node.forKeyword !== visitNode(node.forKeyword, visitor) ||
-        node.initializer !== visitNode(node.initializer, visitor) ||
-        node.condition !== visitNode(node.condition, visitor) ||
-        node.incrementor !== visitNode(node.incrementor, visitor) ||
-        node.statement !== visitNode(node.statement, visitor)
+      return (<any>node).forKeyword !== visitNode((<any>node).forKeyword, visitor) ||
+        (<any>node).initializer !== visitNode((<any>node).initializer, visitor) ||
+        (<any>node).condition !== visitNode((<any>node).condition, visitor) ||
+        (<any>node).incrementor !== visitNode((<any>node).incrementor, visitor) ||
+        (<any>node).statement !== visitNode((<any>node).statement, visitor)
         ? createForStatement(
-            node.forKeyword,
-            node.initializer,
-            node.condition,
-            node.incrementor,
-            node.statement,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).forKeyword,
+            (<any>node).initializer,
+            (<any>node).condition,
+            (<any>node).incrementor,
+            (<any>node).statement,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.TaggedTemplate:
-      return node.member !== visitNode(node.member, visitor) || node.template !== visitNode(node.template, visitor)
-        ? createTaggedTemplate(node.member, node.template, node.start, node.end)
+      return (<any>node).member !== visitNode((<any>node).member, visitor) ||
+        (<any>node).template !== visitNode((<any>node).template, visitor)
+        ? createTaggedTemplate((<any>node).member, (<any>node).template, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.SpreadElement:
-      return node.ellipsisToken !== visitNode(node.ellipsisToken, visitor) ||
-        node.argument !== visitNode(node.argument, visitor)
-        ? createSpreadElement(node.ellipsisToken, node.argument, node.start, node.end)
+      return (<any>node).ellipsisToken !== visitNode((<any>node).ellipsisToken, visitor) ||
+        (<any>node).argument !== visitNode((<any>node).argument, visitor)
+        ? createSpreadElement((<any>node).ellipsisToken, (<any>node).argument, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.TemplateExpression:
-      return node.spans !== visitNodes(node.spans, visitor) || node.tail !== visitNode(node.tail, visitor)
-        ? createTemplateExpression(node.spans, node.tail, node.flags, node.start, node.end)
+      return (<any>node).spans !== visitNodes((<any>node).spans, visitor) ||
+        (<any>node).tail !== visitNode((<any>node).tail, visitor)
+        ? createTemplateExpression(
+            (<any>node).spans,
+            (<any>node).tail,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.TemplateSpan:
-      return node.expression !== visitNode(node.expression, visitor)
-        ? createTemplateSpan(node.rawText, node.text, node.expression, node.start, node.end)
+      return (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createTemplateSpan(
+            (<any>node).rawText,
+            (<any>node).text,
+            (<any>node).expression,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.ClassElement:
-      return node.declareToken !== visitNode(node.declareToken, visitor) ||
-        node.decorators !== visitNode(node.decorators, visitor) ||
-        node.generatorToken !== visitNode(node.generatorToken, visitor) ||
-        node.staticKeyword !== visitNode(node.staticKeyword, visitor) ||
-        node.asyncKeyword !== visitNode(node.asyncKeyword, visitor) ||
-        node.setKeyword !== visitNode(node.setKeyword, visitor) ||
-        node.getKeyword !== visitNode(node.getKeyword, visitor) ||
-        node.method !== visitNode(node.method, visitor)
+      return (<any>node).declareToken !== visitNode((<any>node).declareToken, visitor) ||
+        (<any>node).decorators !== visitNode((<any>node).decorators, visitor) ||
+        (<any>node).generatorToken !== visitNode((<any>node).generatorToken, visitor) ||
+        (<any>node).staticKeyword !== visitNode((<any>node).staticKeyword, visitor) ||
+        (<any>node).asyncKeyword !== visitNode((<any>node).asyncKeyword, visitor) ||
+        (<any>node).setKeyword !== visitNode((<any>node).setKeyword, visitor) ||
+        (<any>node).getKeyword !== visitNode((<any>node).getKeyword, visitor) ||
+        (<any>node).method !== visitNode((<any>node).method, visitor)
         ? createClassElement(
-            node.declareToken,
-            node.decorators,
-            node.generatorToken,
-            node.staticKeyword,
-            node.asyncKeyword,
-            node.setKeyword,
-            node.getKeyword,
-            node.method,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).declareToken,
+            (<any>node).decorators,
+            (<any>node).generatorToken,
+            (<any>node).staticKeyword,
+            (<any>node).asyncKeyword,
+            (<any>node).setKeyword,
+            (<any>node).getKeyword,
+            (<any>node).method,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.ClassExpression:
-      return node.decorators !== visitNode(node.decorators, visitor) ||
-        node.classKeyword !== visitNode(node.classKeyword, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
-        node.typeParameters !== visitNode(node.typeParameters, visitor) ||
-        node.tail !== visitNode(node.tail, visitor)
+      return (<any>node).decorators !== visitNode((<any>node).decorators, visitor) ||
+        (<any>node).classKeyword !== visitNode((<any>node).classKeyword, visitor) ||
+        (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).typeParameters !== visitNode((<any>node).typeParameters, visitor) ||
+        (<any>node).tail !== visitNode((<any>node).tail, visitor)
         ? createClassExpression(
-            node.decorators,
-            node.classKeyword,
-            node.name,
-            node.typeParameters,
-            node.tail,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).decorators,
+            (<any>node).classKeyword,
+            (<any>node).name,
+            (<any>node).typeParameters,
+            (<any>node).tail,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.BreakStatement:
-      return node.continueKeyword !== visitNode(node.continueKeyword, visitor) ||
-        node.label !== visitNode(node.label, visitor)
-        ? createBreakStatement(node.continueKeyword, node.label, node.start, node.end)
+      return (<any>node).continueKeyword !== visitNode((<any>node).continueKeyword, visitor) ||
+        (<any>node).label !== visitNode((<any>node).label, visitor)
+        ? createBreakStatement((<any>node).continueKeyword, (<any>node).label, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ContinueStatement:
-      return node.continueKeyword !== visitNode(node.continueKeyword, visitor) ||
-        node.label !== visitNode(node.label, visitor)
-        ? createContinueStatement(node.continueKeyword, node.label, node.start, node.end)
+      return (<any>node).continueKeyword !== visitNode((<any>node).continueKeyword, visitor) ||
+        (<any>node).label !== visitNode((<any>node).label, visitor)
+        ? createContinueStatement((<any>node).continueKeyword, (<any>node).label, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.CaseClause:
-      return node.caseKeyword !== visitNode(node.caseKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.statements !== visitNodes(node.statements, visitor)
-        ? createCaseClause(node.caseKeyword, node.expression, node.statements, node.start, node.end)
+      return (<any>node).caseKeyword !== visitNode((<any>node).caseKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).statements !== visitNodes((<any>node).statements, visitor)
+        ? createCaseClause(
+            (<any>node).caseKeyword,
+            (<any>node).expression,
+            (<any>node).statements,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.DefaultClause:
-      return node.defaultKeyword !== visitNode(node.defaultKeyword, visitor) ||
-        node.statements !== visitNodes(node.statements, visitor)
-        ? createDefaultClause(node.defaultKeyword, node.statements, node.start, node.end)
+      return (<any>node).defaultKeyword !== visitNode((<any>node).defaultKeyword, visitor) ||
+        (<any>node).statements !== visitNodes((<any>node).statements, visitor)
+        ? createDefaultClause((<any>node).defaultKeyword, (<any>node).statements, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.Catch:
-      return node.catchKeyword !== visitNode(node.catchKeyword, visitor) ||
-        node.catchParameter !== visitNode(node.catchParameter, visitor) ||
-        node.block !== visitNode(node.block, visitor)
-        ? createCatch(node.catchKeyword, node.catchParameter, node.block, node.flags, node.start, node.end)
+      return (<any>node).catchKeyword !== visitNode((<any>node).catchKeyword, visitor) ||
+        (<any>node).catchParameter !== visitNode((<any>node).catchParameter, visitor) ||
+        (<any>node).block !== visitNode((<any>node).block, visitor)
+        ? createCatch(
+            (<any>node).catchKeyword,
+            (<any>node).catchParameter,
+            (<any>node).block,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.DoWhileStatement:
-      return node.doKeyword !== visitNode(node.doKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.whileKeyword !== visitNode(node.whileKeyword, visitor) ||
-        node.statement !== visitNode(node.statement, visitor) ||
-        node.statement !== visitNode(node.statement, visitor)
+      return (<any>node).doKeyword !== visitNode((<any>node).doKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).whileKeyword !== visitNode((<any>node).whileKeyword, visitor) ||
+        (<any>node).statement !== visitNode((<any>node).statement, visitor) ||
+        (<any>node).statement !== visitNode((<any>node).statement, visitor)
         ? createDoWhileStatement(
-            node.doKeyword,
-            node.expression,
-            node.whileKeyword,
-            node.statement,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).doKeyword,
+            (<any>node).expression,
+            (<any>node).whileKeyword,
+            (<any>node).statement,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.IfStatement:
-      return node.ifKeyword !== visitNode(node.ifKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.consequent !== visitNode(node.consequent, visitor) ||
-        node.elseKeyword !== visitNode(node.elseKeyword, visitor) ||
-        node.alternate !== visitNode(node.alternate, visitor)
+      return (<any>node).ifKeyword !== visitNode((<any>node).ifKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).consequent !== visitNode((<any>node).consequent, visitor) ||
+        (<any>node).elseKeyword !== visitNode((<any>node).elseKeyword, visitor) ||
+        (<any>node).alternate !== visitNode((<any>node).alternate, visitor)
         ? createIfStatement(
-            node.ifKeyword,
-            node.expression,
-            node.consequent,
-            node.elseKeyword,
-            node.alternate,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).ifKeyword,
+            (<any>node).expression,
+            (<any>node).consequent,
+            (<any>node).elseKeyword,
+            (<any>node).alternate,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.LabelledStatement:
-      return node.label !== visitNode(node.label, visitor) ||
-        node.colonToken !== visitNode(node.colonToken, visitor) ||
-        node.statement !== visitNode(node.statement, visitor)
-        ? createLabelledStatement(node.label, node.colonToken, node.statement, node.flags, node.start, node.end)
+      return (<any>node).label !== visitNode((<any>node).label, visitor) ||
+        (<any>node).colonToken !== visitNode((<any>node).colonToken, visitor) ||
+        (<any>node).statement !== visitNode((<any>node).statement, visitor)
+        ? createLabelledStatement(
+            (<any>node).label,
+            (<any>node).colonToken,
+            (<any>node).statement,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.SwitchStatement:
-      return node.switchKeyword !== visitNode(node.switchKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.caseBlock !== visitNode(node.caseBlock, visitor)
-        ? createSwitchStatement(node.switchKeyword, node.expression, node.caseBlock, node.flags, node.start, node.end)
+      return (<any>node).switchKeyword !== visitNode((<any>node).switchKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).caseBlock !== visitNode((<any>node).caseBlock, visitor)
+        ? createSwitchStatement(
+            (<any>node).switchKeyword,
+            (<any>node).expression,
+            (<any>node).caseBlock,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.ThrowStatement:
-      return node.catchKeyword !== visitNode(node.catchKeyword, visitor) ||
-        node.catchParameter !== visitNode(node.catchParameter, visitor) ||
-        node.block !== visitNode(node.block, visitor)
-        ? createCatch(node.catchKeyword, node.catchParameter, node.block, node.flags, node.start, node.end)
+      return (<any>node).catchKeyword !== visitNode((<any>node).catchKeyword, visitor) ||
+        (<any>node).catchParameter !== visitNode((<any>node).catchParameter, visitor) ||
+        (<any>node).block !== visitNode((<any>node).block, visitor)
+        ? createCatch(
+            (<any>node).catchKeyword,
+            (<any>node).catchParameter,
+            (<any>node).block,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.CaseBlock:
-      return node.clauses !== visitNodes(node.clauses, visitor)
-        ? createCaseBlock(node.clauses, node.start, node.end)
+      return (<any>node).clauses !== visitNodes((<any>node).clauses, visitor)
+        ? createCaseBlock((<any>node).clauses, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.IndexExpression:
-      return node.member !== visitNode(node.member, visitor) || node.expression !== visitNode(node.expression, visitor)
-        ? createIndexExpression(node.member, node.expression, node.start, node.end)
+      return (<any>node).member !== visitNode((<any>node).member, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createIndexExpression((<any>node).member, (<any>node).expression, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.IndexExpressionChain:
-      return node.chain !== visitNode(node.chain, visitor) || node.expression !== visitNode(node.expression, visitor)
-        ? createIndexExpressionChain(node.chain, node.expression, node.start, node.end)
+      return (<any>node).chain !== visitNode((<any>node).chain, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createIndexExpressionChain((<any>node).chain, (<any>node).expression, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.MemberAccessChain:
-      return node.chain !== visitNode(node.chain, visitor) || node.expression !== visitNode(node.expression, visitor)
-        ? createMemberAccessChain(node.chain, node.expression, node.start, node.end)
+      return (<any>node).chain !== visitNode((<any>node).chain, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createMemberAccessChain((<any>node).chain, (<any>node).expression, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.MemberAccessExpression:
-      return node.catchKeyword !== visitNode(node.catchKeyword, visitor) ||
-        node.catchParameter !== visitNode(node.catchParameter, visitor) ||
-        node.block !== visitNode(node.block, visitor)
-        ? createMemberAccessExpression(node.member, node.expression, node.start, node.end)
+      return (<any>node).catchKeyword !== visitNode((<any>node).catchKeyword, visitor) ||
+        (<any>node).catchParameter !== visitNode((<any>node).catchParameter, visitor) ||
+        (<any>node).block !== visitNode((<any>node).block, visitor)
+        ? createMemberAccessExpression((<any>node).member, (<any>node).expression, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.StaticBlock:
-      return node.decorators !== visitNode(node.decorators, visitor) ||
-        node.declaredKeyword !== visitNode(node.declaredKeyword, visitor) ||
-        node.block !== visitNode(node.block, visitor)
-        ? createStaticBlock(node.decorators, node.declaredKeyword, node.staticKeyword, node.block, node.start, node.end)
+      return (<any>node).decorators !== visitNode((<any>node).decorators, visitor) ||
+        (<any>node).declaredKeyword !== visitNode((<any>node).declaredKeyword, visitor) ||
+        (<any>node).block !== visitNode((<any>node).block, visitor)
+        ? createStaticBlock(
+            (<any>node).decorators,
+            (<any>node).declaredKeyword,
+            (<any>node).staticKeyword,
+            (<any>node).block,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.YieldExpression:
-      return node.yieldKeyword !== visitNode(node.yieldKeyword, visitor) ||
-        node.asteriskToken !== visitNode(node.asteriskToken, visitor) ||
-        node.expression !== visitNode(node.expression, visitor)
+      return (<any>node).yieldKeyword !== visitNode((<any>node).yieldKeyword, visitor) ||
+        (<any>node).asteriskToken !== visitNode((<any>node).asteriskToken, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor)
         ? createYieldExpression(
-            node.yieldKeyword,
-            node.delegate,
-            node.asteriskToken,
-            node.expression,
-            node.start,
-            node.end
+            (<any>node).yieldKeyword,
+            (<any>node).delegate,
+            (<any>node).asteriskToken,
+            (<any>node).expression,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.TryStatement:
-      return node.tryKeyword !== visitNode(node.tryKeyword, visitor) ||
-        node.block !== visitNode(node.block, visitor) ||
-        node.catchClause !== visitNode(node.catchClause, visitor) ||
-        node.finallyKeyword !== visitNode(node.finallyKeyword, visitor) ||
-        node.finallyBlock !== visitNode(node.finallyBlock, visitor)
+      return (<any>node).tryKeyword !== visitNode((<any>node).tryKeyword, visitor) ||
+        (<any>node).block !== visitNode((<any>node).block, visitor) ||
+        (<any>node).catchClause !== visitNode((<any>node).catchClause, visitor) ||
+        (<any>node).finallyKeyword !== visitNode((<any>node).finallyKeyword, visitor) ||
+        (<any>node).finallyBlock !== visitNode((<any>node).finallyBlock, visitor)
         ? createTryStatement(
-            node.tryKeyword,
-            node.block,
-            node.catchClause,
-            node.finallyKeyword,
-            node.finallyBlock,
-            node.start,
-            node.end
+            (<any>node).tryKeyword,
+            (<any>node).block,
+            (<any>node).catchClause,
+            (<any>node).finallyKeyword,
+            (<any>node).finallyBlock,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.WhileStatement:
-      return node.whileKeyword !== visitNode(node.whileKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.statement !== visitNode(node.statement, visitor)
-        ? createWhileStatement(node.whileKeyword, node.expression, node.statement, node.flags, node.start, node.end)
+      return (<any>node).whileKeyword !== visitNode((<any>node).whileKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).statement !== visitNode((<any>node).statement, visitor)
+        ? createWhileStatement(
+            (<any>node).whileKeyword,
+            (<any>node).expression,
+            (<any>node).statement,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.WithStatement:
-      return node.withKeyword !== visitNode(node.whileKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor) ||
-        node.statement !== visitNode(node.statement, visitor)
-        ? createWithStatement(node.withKeyword, node.expression, node.statement, node.flags, node.start, node.end)
+      return (<any>node).withKeyword !== visitNode((<any>node).whileKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
+        (<any>node).statement !== visitNode((<any>node).statement, visitor)
+        ? createWithStatement(
+            (<any>node).withKeyword,
+            (<any>node).expression,
+            (<any>node).statement,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.FunctionDeclaration:
-        return node.declareKeyword !== visitNode(node.declareKeyword, visitor) ||
-        node.asyncKeyword !== visitNode(node.asyncKeyword, visitor) ||
-        node.generatorToken !== visitNode(node.generatorToken, visitor) ||
-        node.formalParameters !== visitNode(node.formalParameters, visitor) ||
-        node.contents !== visitFunctionBody(transform, node.contents, visitor) ||
-        node.typeParameters !== visitNode(node.typeParameters, visitor) ||
-        node.returnType !== visitNode(node.returnType, visitor)
+      return (<any>node).declareKeyword !== visitNode((<any>node).declareKeyword, visitor) ||
+        (<any>node).asyncKeyword !== visitNode((<any>node).asyncKeyword, visitor) ||
+        (<any>node).generatorToken !== visitNode((<any>node).generatorToken, visitor) ||
+        (<any>node).formalParameters !== visitNode((<any>node).formalParameters, visitor) ||
+        (<any>node).contents !== visitFunctionBody(transform, (<any>node).contents, visitor) ||
+        (<any>node).typeParameters !== visitNode((<any>node).typeParameters, visitor) ||
+        (<any>node).returnType !== visitNode((<any>node).returnType, visitor)
         ? createFunctionDeclaration(
-            node.declareKeyword,
-            node.asyncKeyword,
-            node.functionKeyword,
-            node.generatorToken,
-            node.name,
-            node.formalParameters,
-            node.contents,
-            node.typeParameters,
-            node.returnType,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).declareKeyword,
+            (<any>node).asyncKeyword,
+            (<any>node).functionKeyword,
+            (<any>node).generatorToken,
+            (<any>node).name,
+            (<any>node).formalParameters,
+            (<any>node).contents,
+            (<any>node).typeParameters,
+            (<any>node).returnType,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.FunctionExpression:
-      return node.asyncKeyword !== visitNode(node.asyncKeyword, visitor) ||
-        node.functionKeyword !== visitNode(node.functionKeyword, visitor) ||
-        node.generatorToken !== visitNode(node.generatorToken, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
-        node.formalParameters !== visitNode(node.formalParameters, visitor) ||
-        node.contents !== visitFunctionBody(transform, node.contents, visitor) ||
-        node.typeParameters !== visitNode(node.typeParameters, visitor) ||
-        node.returnType !== visitNode(node.returnType, visitor)
+      return (<any>node).asyncKeyword !== visitNode((<any>node).asyncKeyword, visitor) ||
+        (<any>node).functionKeyword !== visitNode((<any>node).functionKeyword, visitor) ||
+        (<any>node).generatorToken !== visitNode((<any>node).generatorToken, visitor) ||
+        (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).formalParameters !== visitNode((<any>node).formalParameters, visitor) ||
+        (<any>node).contents !== visitFunctionBody(transform, (<any>node).contents, visitor) ||
+        (<any>node).typeParameters !== visitNode((<any>node).typeParameters, visitor) ||
+        (<any>node).returnType !== visitNode((<any>node).returnType, visitor)
         ? createFunctionExpression(
-            node.asyncKeyword,
-            node.functionKeyword,
-            node.generatorToken,
-            node.name,
-            node.formalParameters,
-            node.contents,
-            node.typeParameters,
-            node.returnType,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).asyncKeyword,
+            (<any>node).functionKeyword,
+            (<any>node).generatorToken,
+            (<any>node).name,
+            (<any>node).formalParameters,
+            (<any>node).contents,
+            (<any>node).typeParameters,
+            (<any>node).returnType,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.ArrayType:
-      return node.type !== visitNode(node.type, visitor) ? createArrayType(node.type, node.start, node.end) : node;
+      return (<any>node).type !== visitNode((<any>node).type, visitor)
+        ? createArrayType((<any>node).type, (<any>node).start, (<any>node).end)
+        : node;
 
     case SyntaxKind.TypeReference:
-      return node.id !== visitNode(node.id, visitor) || node.typeParameters !== visitNode(node.typeParameters, visitor)
-        ? createTypeReference(node.id, node.typeParameters, node.start, node.end)
+      return (<any>node).id !== visitNode((<any>node).id, visitor) ||
+        (<any>node).typeParameters !== visitNode((<any>node).typeParameters, visitor)
+        ? createTypeReference((<any>node).id, (<any>node).typeParameters, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.FunctionType:
-      return node.functionTypeParameterList !== visitNode(node.functionTypeParameterList, visitor) ||
-        node.returnType !== visitNode(node.returnType, visitor) ||
-        node.typeParameters !== visitNode(node.typeParameters, visitor)
-        ? createFunctionType(node.functionTypeParameterList, node.returnType, node.typeParameters, node.start, node.end)
+      return (<any>node).functionTypeParameterList !== visitNode((<any>node).functionTypeParameterList, visitor) ||
+        (<any>node).returnType !== visitNode((<any>node).returnType, visitor) ||
+        (<any>node).typeParameters !== visitNode((<any>node).typeParameters, visitor)
+        ? createFunctionType(
+            (<any>node).functionTypeParameterList,
+            (<any>node).returnType,
+            (<any>node).typeParameters,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.IndexedAccessType:
-      return node.objectType !== visitNode(node.objectType, visitor) ||
-        node.indexType !== visitNode(node.indexType, visitor)
-        ? createIndexedAccessType(node.objectType, node.indexType, node.flags, node.start, node.end)
+      return (<any>node).objectType !== visitNode((<any>node).objectType, visitor) ||
+        (<any>node).indexType !== visitNode((<any>node).indexType, visitor)
+        ? createIndexedAccessType(
+            (<any>node).objectType,
+            (<any>node).indexType,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.IntersectionType:
-      return node.types !== visitNodes(node.types, visitor)
-        ? createIntersectionType(node.types, node.start, node.end)
+      return (<any>node).types !== visitNodes((<any>node).types, visitor)
+        ? createIntersectionType((<any>node).types, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.OptionalType:
-      return node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.type !== visitNode(node.type, visitor)
-        ? createOptionalType(node.optionalToken, node.type, node.start, node.end)
+      return (<any>node).optionalToken !== visitNode((<any>node).optionalToken, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor)
+        ? createOptionalType((<any>node).optionalToken, (<any>node).type, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.ParenthesizedType:
-      return node.type !== visitNode(node.type, visitor)
-        ? createParenthesizedType(node.type, node.start, node.end)
+      return (<any>node).type !== visitNode((<any>node).type, visitor)
+        ? createParenthesizedType((<any>node).type, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.RestType:
-      return node.ellipsisToken !== visitNode(node.ellipsisToken, visitor) ||
-        node.type !== visitNode(node.type, visitor)
-        ? createRestType(node.ellipsisToken, node.type, node.start, node.end)
+      return (<any>node).ellipsisToken !== visitNode((<any>node).ellipsisToken, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor)
+        ? createRestType((<any>node).ellipsisToken, (<any>node).type, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.TupleType:
-      return node.elemmentTypes !== visitNodes(node.elemmentTypes, visitor)
-        ? createTupleType(node.elemmentTypes, node.trailingComma, node.flags, node.start, node.end)
+      return (<any>node).elemmentTypes !== visitNodes((<any>node).elemmentTypes, visitor)
+        ? createTupleType(
+            (<any>node).elemmentTypes,
+            (<any>node).trailingComma,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.TypeParameter:
-      return node.name !== visitNode(node.name, visitor) ||
-        node.type !== visitNode(node.type, visitor) ||
-        node.defaultType !== visitNode(node.defaultType, visitor)
-        ? createTypeParameter(node.name, node.type, node.defaultType, node.start, node.end)
+      return (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor) ||
+        (<any>node).defaultType !== visitNode((<any>node).defaultType, visitor)
+        ? createTypeParameter(
+            (<any>node).name,
+            (<any>node).type,
+            (<any>node).defaultType,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.UnionType:
-      return node.types !== visitNodes(node.types, visitor) ? createUnionType(node.types, node.start, node.end) : node;
+      return (<any>node).types !== visitNodes((<any>node).types, visitor)
+        ? createUnionType((<any>node).types, (<any>node).start, (<any>node).end)
+        : node;
 
     case SyntaxKind.DecoratorList:
-      return node.elements !== visitNodes(node.elements, visitor)
-        ? createDecoratorList(node.elements, node.start, node.end)
+      return (<any>node).elements !== visitNodes((<any>node).elements, visitor)
+        ? createDecoratorList((<any>node).elements, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.Decorator:
-      return node.decoratorToken !== visitNode(node.decoratorToken, visitor) ||
-        node.expression !== visitNode(node.expression, visitor)
-        ? createDecorator(node.decoratorToken, node.expression, node.flags, node.start, node.end)
+      return (<any>node).decoratorToken !== visitNode((<any>node).decoratorToken, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createDecorator(
+            (<any>node).decoratorToken,
+            (<any>node).expression,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.FormalParameterList:
-      return node.formalParameterList !== visitParameterList(transform, node.formalParameterList, visitor)
-        ? createFormalParameterList(node.formalParameterList, node.trailingComma, node.flags, node.start, node.end)
+      return (<any>node).formalParameterList !== visitParameterList(transform, (<any>node).formalParameterList, visitor)
+        ? createFormalParameterList(
+            (<any>node).formalParameterList,
+            (<any>node).trailingComma,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.ImportClause:
-      return node.defaultBinding !== visitNode(node.defaultBinding, visitor) ||
-        node.nameSpaceImport !== visitNode(node.nameSpaceImport, visitor) ||
-        node.namedImports !== visitNode(node.namedImports, visitor)
-        ? createImportClause(node.defaultBinding, node.nameSpaceImport, node.namedImports, node.start, node.end)
+      return (<any>node).defaultBinding !== visitNode((<any>node).defaultBinding, visitor) ||
+        (<any>node).nameSpaceImport !== visitNode((<any>node).nameSpaceImport, visitor) ||
+        (<any>node).namedImports !== visitNode((<any>node).namedImports, visitor)
+        ? createImportClause(
+            (<any>node).defaultBinding,
+            (<any>node).nameSpaceImport,
+            (<any>node).namedImports,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.ExportDefault:
-      return node.exportKeyword !== visitNode(node.exportKeyword, visitor) ||
-        node.defaultKeyword !== visitNode(node.defaultKeyword, visitor) ||
-        node.declaration !== visitNode(node.declaration, visitor)
-        ? createExportDefault(node.exportKeyword, node.defaultKeyword, node.declaration, node.start, node.end)
+      return (<any>node).exportKeyword !== visitNode((<any>node).exportKeyword, visitor) ||
+        (<any>node).defaultKeyword !== visitNode((<any>node).defaultKeyword, visitor) ||
+        (<any>node).declaration !== visitNode((<any>node).declaration, visitor)
+        ? createExportDefault(
+            (<any>node).exportKeyword,
+            (<any>node).defaultKeyword,
+            (<any>node).declaration,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.NamespaceExportDeclaration:
-      return node.name !== visitNode(node.name, visitor)
-        ? createNamespaceExportDeclaration(node.name, node.flags, node.start, node.end)
+      return (<any>node).name !== visitNode((<any>node).name, visitor)
+        ? createNamespaceExportDeclaration((<any>node).name, (<any>node).flags, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.NameSpaceImport:
-      return node.asteriskToken !== visitNode(node.asteriskToken, visitor) ||
-        node.asKeyword !== visitNode(node.asKeyword, visitor) ||
-        node.binding !== visitNode(node.binding, visitor)
-        ? createNameSpaceImport(node.asteriskToken, node.asKeyword, node.binding, node.start, node.end)
+      return (<any>node).asteriskToken !== visitNode((<any>node).asteriskToken, visitor) ||
+        (<any>node).asKeyword !== visitNode((<any>node).asKeyword, visitor) ||
+        (<any>node).binding !== visitNode((<any>node).binding, visitor)
+        ? createNameSpaceImport(
+            (<any>node).asteriskToken,
+            (<any>node).asKeyword,
+            (<any>node).binding,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.ExportDeclaration:
-      return node.exportKeyword !== visitNode(node.exportKeyword, visitor) ||
-        node.declaration !== visitNode(node.declaration, visitor) ||
-        node.namedExports !== visitNode(node.namedExports, visitor) ||
-        node.fromClause !== visitNode(node.fromClause, visitor) ||
-        node.exportFromClause !== visitNode(node.exportFromClause, visitor)
+      return (<any>node).exportKeyword !== visitNode((<any>node).exportKeyword, visitor) ||
+        (<any>node).declaration !== visitNode((<any>node).declaration, visitor) ||
+        (<any>node).namedExports !== visitNode((<any>node).namedExports, visitor) ||
+        (<any>node).fromClause !== visitNode((<any>node).fromClause, visitor) ||
+        (<any>node).exportFromClause !== visitNode((<any>node).exportFromClause, visitor)
         ? createExportDeclaration(
-            node.exportKeyword,
-            node.declaration,
-            node.namedExports,
-            node.fromClause,
-            node.exportFromClause,
-            node.exportKind,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).exportKeyword,
+            (<any>node).declaration,
+            (<any>node).namedExports,
+            (<any>node).fromClause,
+            (<any>node).exportFromClause,
+            (<any>node).exportKind,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.ExportFromClause:
-      return node.asteriskToken !== visitNode(node.asteriskToken, visitor) ||
-        node.asKeyword !== visitNode(node.asKeyword, visitor) ||
-        node.namedBinding !== visitNode(node.namedBinding, visitor) ||
-        node.moduleExportName !== visitNode(node.moduleExportName, visitor)
+      return (<any>node).asteriskToken !== visitNode((<any>node).asteriskToken, visitor) ||
+        (<any>node).asKeyword !== visitNode((<any>node).asKeyword, visitor) ||
+        (<any>node).namedBinding !== visitNode((<any>node).namedBinding, visitor) ||
+        (<any>node).moduleExportName !== visitNode((<any>node).moduleExportName, visitor)
         ? createExportFromClause(
-            node.asteriskToken,
-            node.asKeyword,
-            node.namedBinding,
-            node.moduleExportName,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).asteriskToken,
+            (<any>node).asKeyword,
+            (<any>node).namedBinding,
+            (<any>node).moduleExportName,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.ExportSpecifier:
-      return node.moduleExportName !== visitNode(node.moduleExportName, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
-        node.binding !== visitNode(node.binding, visitor)
-        ? createExportSpecifier(node.moduleExportName, node.name, node.asKeyword, node.binding, node.start, node.end)
+      return (<any>node).moduleExportName !== visitNode((<any>node).moduleExportName, visitor) ||
+        (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).binding !== visitNode((<any>node).binding, visitor)
+        ? createExportSpecifier(
+            (<any>node).moduleExportName,
+            (<any>node).name,
+            (<any>node).asKeyword,
+            (<any>node).binding,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.ExportsList:
-      return node.specifiers !== visitNodes(node.specifiers, visitor)
-        ? createExportsList(node.specifiers, node.start, node.end)
+      return (<any>node).specifiers !== visitNodes((<any>node).specifiers, visitor)
+        ? createExportsList((<any>node).specifiers, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.ImportDeclaration:
-      return node.importKeyword !== visitNode(node.importKeyword, visitor) ||
-        node.typeKeyword !== visitNode(node.typeKeyword, visitor) ||
-        node.fromClause !== visitNode(node.fromClause, visitor) ||
-        node.moduleSpecifier !== visitNode(node.moduleSpecifier, visitor) ||
-        node.importClause !== visitNode(node.importClause, visitor)
+      return (<any>node).importKeyword !== visitNode((<any>node).importKeyword, visitor) ||
+        (<any>node).typeKeyword !== visitNode((<any>node).typeKeyword, visitor) ||
+        (<any>node).fromClause !== visitNode((<any>node).fromClause, visitor) ||
+        (<any>node).moduleSpecifier !== visitNode((<any>node).moduleSpecifier, visitor) ||
+        (<any>node).importClause !== visitNode((<any>node).importClause, visitor)
         ? createImportDeclaration(
-            node.importKeyword,
-            node.typeKeyword,
-            node.typeofKeyword,
-            node.fromClause,
-            node.moduleSpecifier,
-            node.importClause,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).importKeyword,
+            (<any>node).typeKeyword,
+            (<any>node).typeofKeyword,
+            (<any>node).fromClause,
+            (<any>node).moduleSpecifier,
+            (<any>node).importClause,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.ImportSpecifier:
-      return node.typeKeyword !== visitNode(node.typeKeyword, visitor) ||
-        node.moduleExportName !== visitNode(node.moduleExportName, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
-        node.asKeyword !== visitNode(node.asKeyword, visitor) ||
-        node.binding !== visitNode(node.binding, visitor)
+      return (<any>node).typeKeyword !== visitNode((<any>node).typeKeyword, visitor) ||
+        (<any>node).moduleExportName !== visitNode((<any>node).moduleExportName, visitor) ||
+        (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).asKeyword !== visitNode((<any>node).asKeyword, visitor) ||
+        (<any>node).binding !== visitNode((<any>node).binding, visitor)
         ? createImportSpecifier(
-            node.typeKeyword,
-            node.moduleExportName,
-            node.name,
-            node.asKeyword,
-            node.binding,
-            node.start,
-            node.end
+            (<any>node).typeKeyword,
+            (<any>node).moduleExportName,
+            (<any>node).name,
+            (<any>node).asKeyword,
+            (<any>node).binding,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.ImportsList:
-      return node.specifiers !== visitNodes(node.specifiers, visitor)
-        ? createImportsList(node.specifiers, node.flags, node.start, node.end)
+      return (<any>node).specifiers !== visitNodes((<any>node).specifiers, visitor)
+        ? createImportsList((<any>node).specifiers, (<any>node).flags, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.NamedExports:
-      return node.exportsList !== visitNode(node.exportsList, visitor)
-        ? createNamedExports(node.exportsList, node.flags, node.start, node.end)
+      return (<any>node).exportsList !== visitNode((<any>node).exportsList, visitor)
+        ? createNamedExports((<any>node).exportsList, (<any>node).flags, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.NamedImports:
-      return node.importsList !== visitNode(node.importsList, visitor)
-        ? createNamedImports(node.importsList, node.start, node.end)
+      return (<any>node).importsList !== visitNode((<any>node).importsList, visitor)
+        ? createNamedImports((<any>node).importsList, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.CallChain:
-      return node.chain !== visitNode(node.chain, visitor) ||
-        node.typeArguments !== visitNode(node.typeArguments, visitor) ||
-        node.argumentList !== visitNode(node.argumentList, visitor)
-        ? createCallChain(node.chain, node.typeArguments, node.argumentList, node.start, node.end)
+      return (<any>node).chain !== visitNode((<any>node).chain, visitor) ||
+        (<any>node).typeArguments !== visitNode((<any>node).typeArguments, visitor) ||
+        (<any>node).argumentList !== visitNode((<any>node).argumentList, visitor)
+        ? createCallChain(
+            (<any>node).chain,
+            (<any>node).typeArguments,
+            (<any>node).argumentList,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.ArrowFunctionType:
-      return node.arrowTypeParameterList !== visitNode(node.arrowTypeParameterList, visitor) ||
-        node.arrowToken !== visitNode(node.arrowToken, visitor) ||
-        node.returnType !== visitNode(node.returnType, visitor) ||
-        node.typeParameters !== visitNode(node.typeParameters, visitor)
+      return (<any>node).arrowTypeParameterList !== visitNode((<any>node).arrowTypeParameterList, visitor) ||
+        (<any>node).arrowToken !== visitNode((<any>node).arrowToken, visitor) ||
+        (<any>node).returnType !== visitNode((<any>node).returnType, visitor) ||
+        (<any>node).typeParameters !== visitNode((<any>node).typeParameters, visitor)
         ? createArrowFunctionType(
-            node.arrowTypeParameterList,
-            node.arrowToken,
-            node.returnType,
-            node.typeParameters,
-            node.start,
-            node.end
+            (<any>node).arrowTypeParameterList,
+            (<any>node).arrowToken,
+            (<any>node).returnType,
+            (<any>node).typeParameters,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.ArrowTypeParameter:
-      return node.ellipsisToken !== visitNode(node.ellipsisToken, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
-        node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.types !== visitNode(node.types, visitor)
-        ? createArrowTypeParameter(node.ellipsisToken, node.name, node.optionalToken, node.types, node.start, node.end)
+      return (<any>node).ellipsisToken !== visitNode((<any>node).ellipsisToken, visitor) ||
+        (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).optionalToken !== visitNode((<any>node).optionalToken, visitor) ||
+        (<any>node).types !== visitNode((<any>node).types, visitor)
+        ? createArrowTypeParameter(
+            (<any>node).ellipsisToken,
+            (<any>node).name,
+            (<any>node).optionalToken,
+            (<any>node).types,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.ArrowTypeParameterList:
-      return node.parameters !== visitNodes(node.parameters, visitor)
-        ? createArrowTypeParameterList(node.parameters, node.trailinComma, node.start, node.end)
+      return (<any>node).parameters !== visitNodes((<any>node).parameters, visitor)
+        ? createArrowTypeParameterList(
+            (<any>node).parameters,
+            (<any>node).trailinComma,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.FunctionTypeParameterList:
-      return node.parameters !== visitNodes(node.parameters, visitor)
-        ? createFunctionTypeParameterList(node.parameters, node.trailinComma, node.start, node.end)
+      return (<any>node).parameters !== visitNodes((<any>node).parameters, visitor)
+        ? createFunctionTypeParameterList(
+            (<any>node).parameters,
+            (<any>node).trailinComma,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.FunctionTypeParameter:
-      return node.ellipsisToken !== visitNode(node.ellipsisToken, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
-        node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.types !== visitNode(node.types, visitor)
+      return (<any>node).ellipsisToken !== visitNode((<any>node).ellipsisToken, visitor) ||
+        (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).optionalToken !== visitNode((<any>node).optionalToken, visitor) ||
+        (<any>node).types !== visitNode((<any>node).types, visitor)
         ? createFunctionTypeParameters(
-            node.ellipsisToken,
-            node.name,
-            node.optionalToken,
-            node.types,
-            node.start,
-            node.end
+            (<any>node).ellipsisToken,
+            (<any>node).name,
+            (<any>node).optionalToken,
+            (<any>node).types,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.NullableType:
-      return node.nullableToken !== visitNode(node.nullableToken, visitor) ||
-        node.type !== visitNode(node.type, visitor)
-        ? createNullableType(node.nullableToken, node.type, node.start, node.end)
+      return (<any>node).nullableToken !== visitNode((<any>node).nullableToken, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor)
+        ? createNullableType((<any>node).nullableToken, (<any>node).type, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.ObjectTypeCallProperty:
-      return node.protoKeyword !== visitNode(node.protoKeyword, visitor) ||
-        node.typeParameter !== visitNode(node.typeParameter, visitor) ||
-        node.value !== visitNode(node.value, visitor) ||
-        node.staticToken !== visitNode(node.staticToken, visitor) ||
-        node.returnTYpe !== visitNode(node.returnTYpe, visitor)
+      return (<any>node).protoKeyword !== visitNode((<any>node).protoKeyword, visitor) ||
+        (<any>node).typeParameter !== visitNode((<any>node).typeParameter, visitor) ||
+        (<any>node).value !== visitNode((<any>node).value, visitor) ||
+        (<any>node).staticToken !== visitNode((<any>node).staticToken, visitor) ||
+        (<any>node).returnTYpe !== visitNode((<any>node).returnTYpe, visitor)
         ? createObjectTypeCallProperty(
-            node.protoKeyword,
-            node.typeParameter,
-            node.value,
-            node.staticToken,
-            node.returnTYpe,
-            node.start,
-            node.end
+            (<any>node).protoKeyword,
+            (<any>node).typeParameter,
+            (<any>node).value,
+            (<any>node).staticToken,
+            (<any>node).returnTYpe,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.ObjectTypeIndexer:
-      return node.protoKeyword !== visitNode(node.protoKeyword, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
-        node.key !== visitNode(node.key, visitor) ||
-        node.staticToken !== visitNode(node.staticToken, visitor) ||
-        node.type !== visitNode(node.type, visitor)
+      return (<any>node).protoKeyword !== visitNode((<any>node).protoKeyword, visitor) ||
+        (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).key !== visitNode((<any>node).key, visitor) ||
+        (<any>node).staticToken !== visitNode((<any>node).staticToken, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor)
         ? createObjectTypeIndexer(
-            node.protoKeyword,
-            node.staticToken,
-            node.name,
-            node.key,
-            node.type,
-            node.start,
-            node.end
+            (<any>node).protoKeyword,
+            (<any>node).staticToken,
+            (<any>node).name,
+            (<any>node).key,
+            (<any>node).type,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.ObjectTypeInternalSlot:
-      return node.protoKeyword !== visitNode(node.protoKeyword, visitor) ||
-        node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.staticToken !== visitNode(node.staticToken, visitor) ||
-        node.value !== visitNode(node.value, visitor)
+      return (<any>node).protoKeyword !== visitNode((<any>node).protoKeyword, visitor) ||
+        (<any>node).optionalToken !== visitNode((<any>node).optionalToken, visitor) ||
+        (<any>node).staticToken !== visitNode((<any>node).staticToken, visitor) ||
+        (<any>node).value !== visitNode((<any>node).value, visitor)
         ? createObjectTypeInternalSlot(
-            node.protoKeyword,
-            node.name,
-            node.optionalToken,
-            node.staticToken,
-            node.value,
-            node.start,
-            node.end
+            (<any>node).protoKeyword,
+            (<any>node).name,
+            (<any>node).optionalToken,
+            (<any>node).staticToken,
+            (<any>node).value,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.ObjectTypeProperty:
-      return node.getKeyword !== visitNode(node.getKeyword, visitor) ||
-        node.setKeyword !== visitNode(node.setKeyword, visitor) ||
-        node.key !== visitNode(node.key, visitor) ||
-        node.value !== visitNode(node.value, visitor) ||
-        node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.staticToken !== visitNode(node.staticToken, visitor) ||
-        node.protoKeyword !== visitNode(node.protoKeyword, visitor)
+      return (<any>node).getKeyword !== visitNode((<any>node).getKeyword, visitor) ||
+        (<any>node).setKeyword !== visitNode((<any>node).setKeyword, visitor) ||
+        (<any>node).key !== visitNode((<any>node).key, visitor) ||
+        (<any>node).value !== visitNode((<any>node).value, visitor) ||
+        (<any>node).optionalToken !== visitNode((<any>node).optionalToken, visitor) ||
+        (<any>node).staticToken !== visitNode((<any>node).staticToken, visitor) ||
+        (<any>node).protoKeyword !== visitNode((<any>node).protoKeyword, visitor)
         ? createObjectTypeProperty(
-            node.getKeyword,
-            node.setKeyword,
-            node.key,
-            node.value,
-            node.optionalToken,
-            node.staticToken,
-            node.protoKeyword,
-            node.start,
-            node.end
+            (<any>node).getKeyword,
+            (<any>node).setKeyword,
+            (<any>node).key,
+            (<any>node).value,
+            (<any>node).optionalToken,
+            (<any>node).staticToken,
+            (<any>node).protoKeyword,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.OpaqueType:
-      return node.declareToken !== visitNode(node.declareToken, visitor) ||
-        node.opaqueToken !== visitNode(node.opaqueToken, visitor) ||
-        node.typeToken !== visitNode(node.typeToken, visitor) ||
-        node.name !== visitNode(node.name, visitor) ||
-        node.typeParamters !== visitNode(node.typeParamters, visitor) ||
-        node.superType !== visitNode(node.superType, visitor) ||
-        node.impltype !== visitNode(node.impltype, visitor)
+      return (<any>node).declareToken !== visitNode((<any>node).declareToken, visitor) ||
+        (<any>node).opaqueToken !== visitNode((<any>node).opaqueToken, visitor) ||
+        (<any>node).typeToken !== visitNode((<any>node).typeToken, visitor) ||
+        (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).typeParamters !== visitNode((<any>node).typeParamters, visitor) ||
+        (<any>node).superType !== visitNode((<any>node).superType, visitor) ||
+        (<any>node).impltype !== visitNode((<any>node).impltype, visitor)
         ? createOpaqueType(
-            node.declareToken,
-            node.opaqueToken,
-            node.typeToken,
-            node.name,
-            node.typeParamters,
-            node.superType,
-            node.impltype,
-            node.start,
-            node.end
+            (<any>node).declareToken,
+            (<any>node).opaqueToken,
+            (<any>node).typeToken,
+            (<any>node).name,
+            (<any>node).typeParamters,
+            (<any>node).superType,
+            (<any>node).impltype,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
     case SyntaxKind.QualifiedType:
-      return node.qualification !== visitNode(node.qualification, visitor) || node.id !== visitNode(node.id, visitor)
-        ? createQualifiedType(node.qualification, node.id, node.start, node.end)
+      return (<any>node).qualification !== visitNode((<any>node).qualification, visitor) ||
+        (<any>node).id !== visitNode((<any>node).id, visitor)
+        ? createQualifiedType((<any>node).qualification, (<any>node).id, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.TypeInstantiations:
-      return node.types !== visitNodes(node.types, visitor)
-        ? createTypeInstantiations(node.types, node.trailingComma, node.start, node.end)
+      return (<any>node).types !== visitNodes((<any>node).types, visitor)
+        ? createTypeInstantiations((<any>node).types, (<any>node).trailingComma, (<any>node).start, (<any>node).end)
         : node;
     case SyntaxKind.TypeAnnotation:
-      return node.bitwiseOrToken !== visitNode(node.bitwiseOrToken, visitor) ||
-        node.bitwiseAndToken !== visitNode(node.bitwiseAndToken, visitor) ||
-        node.type !== visitNode(node.type, visitor)
-        ? createTypeAnnotation(node.bitwiseOrToken, node.bitwiseAndToken, node.type, node.start, node.end)
+      return (<any>node).bitwiseOrToken !== visitNode((<any>node).bitwiseOrToken, visitor) ||
+        (<any>node).bitwiseAndToken !== visitNode((<any>node).bitwiseAndToken, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor)
+        ? createTypeAnnotation(
+            (<any>node).bitwiseOrToken,
+            (<any>node).bitwiseAndToken,
+            (<any>node).type,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
     case SyntaxKind.TypeParameterDeclaration:
-      return node.declarations !== visitNode(node.declarations, visitor)
-        ? createTypeParameterDeclaration(node.declarations, node.flags, node.start, node.end)
+      return (<any>node).declarations !== visitNode((<any>node).declarations, visitor)
+        ? createTypeParameterDeclaration(
+            (<any>node).declarations,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.TypeParameterInstantiation:
-      return node.typeInstantiations !== visitNode(node.typeInstantiations, visitor)
-        ? createTypeParameterInstantiation(node.typeInstantiations, node.flags, node.start, node.end)
+      return (<any>node).typeInstantiations !== visitNode((<any>node).typeInstantiations, visitor)
+        ? createTypeParameterInstantiation(
+            (<any>node).typeInstantiations,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.TypeParameterList:
-      return node.parameters !== visitNodes(node.parameters, visitor)
-        ? createTypeParameterList(node.parameters, node.trailingComma, node.start, node.end)
+      return (<any>node).parameters !== visitNodes((<any>node).parameters, visitor)
+        ? createTypeParameterList((<any>node).parameters, (<any>node).trailingComma, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.TypeofType:
-      return node.typeOfKeyword !== visitNode(node.typeOfKeyword, visitor) ||
-        node.type !== visitNode(node.type, visitor) ||
-        node.start !== visitNode(node.start, visitor)
-        ? createTypeofType(node.typeOfKeyword, node.type, node.start, node.end)
+      return (<any>node).typeOfKeyword !== visitNode((<any>node).typeOfKeyword, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor) ||
+        (<any>node).start !== visitNode((<any>node).start, visitor)
+        ? createTypeofType((<any>node).typeOfKeyword, (<any>node).type, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.FieldDefinition:
-      return node.decorators !== visitNode(node.decorators, visitor) ||
-        node.declaredToken !== visitNode(node.declaredToken, visitor) ||
-        node.staticToken !== visitNode(node.staticToken, visitor) ||
-        node.asyncKeyword !== visitNode(node.asyncKeyword, visitor) ||
-        node.key !== visitNode(node.key, visitor) ||
-        node.optionalToken !== visitNode(node.optionalToken, visitor) ||
-        node.type !== visitNode(node.type, visitor) ||
-        node.initializer !== visitNode(node.initializer, visitor)
+      return (<any>node).decorators !== visitNode((<any>node).decorators, visitor) ||
+        (<any>node).declaredToken !== visitNode((<any>node).declaredToken, visitor) ||
+        (<any>node).staticToken !== visitNode((<any>node).staticToken, visitor) ||
+        (<any>node).asyncKeyword !== visitNode((<any>node).asyncKeyword, visitor) ||
+        (<any>node).key !== visitNode((<any>node).key, visitor) ||
+        (<any>node).optionalToken !== visitNode((<any>node).optionalToken, visitor) ||
+        (<any>node).type !== visitNode((<any>node).type, visitor) ||
+        (<any>node).initializer !== visitNode((<any>node).initializer, visitor)
         ? createFieldDefinition(
-            node.decorators,
-            node.declaredToken,
-            node.staticToken,
-            node.asyncKeyword,
-            node.key,
-            node.optionalToken,
-            node.type,
-            node.initializer,
-            node.start,
-            node.end
+            (<any>node).decorators,
+            (<any>node).declaredToken,
+            (<any>node).staticToken,
+            (<any>node).asyncKeyword,
+            (<any>node).key,
+            (<any>node).optionalToken,
+            (<any>node).type,
+            (<any>node).initializer,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
 
     case SyntaxKind.FunctionStatementList:
-      return node.directives !== visitNodes(node.directives, visitor) ||
-        node.statements !== visitNodes(node.statements, visitor)
-        ? createFunctionStatementList(node.directives, node.statements, node.flags, node.start, node.end)
+      return (<any>node).directives !== visitNodes((<any>node).directives, visitor) ||
+        (<any>node).statements !== visitNodes((<any>node).statements, visitor)
+        ? createFunctionStatementList(
+            (<any>node).directives,
+            (<any>node).statements,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.FunctionBody:
-      return node.functionStatementList !== visitNode(node.functionStatementList, visitor)
-        ? createFunctionBody(node.functionStatementList, node.start, node.end)
+      return (<any>node).functionStatementList !== visitNode((<any>node).functionStatementList, visitor)
+        ? createFunctionBody((<any>node).functionStatementList, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.ImportCall:
-      return node.importKeyword !== visitNode(node.importKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor)
-        ? createImportCall(node.importKeyword, node.expression, node.start, node.end)
+      return (<any>node).importKeyword !== visitNode((<any>node).importKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createImportCall((<any>node).importKeyword, (<any>node).expression, (<any>node).start, (<any>node).end)
         : node;
 
     case SyntaxKind.ThrowKeyword:
-      return node.throwKeyword !== visitNode(node.throwKeyword, visitor) ||
-        node.expression !== visitNode(node.expression, visitor)
-        ? createThrowStatement(node.throwKeyword, node.expression, node.flags, node.start, node.end)
+      return (<any>node).throwKeyword !== visitNode((<any>node).throwKeyword, visitor) ||
+        (<any>node).expression !== visitNode((<any>node).expression, visitor)
+        ? createThrowStatement(
+            (<any>node).throwKeyword,
+            (<any>node).expression,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
+          )
         : node;
 
     case SyntaxKind.MethodDefinition:
-      return node.name !== visitNode(node.name, visitor) ||
-        node.typeParameters !== visitNode(node.typeParameters, visitor) ||
-        node.formalParameters !== visitNode(node.formalParameters, visitor) ||
-        node.returnType !== visitNode(node.returnType, visitor) ||
-        node.contents !== visitFunctionBody(transform, node.contents, visitor)
+      return (<any>node).name !== visitNode((<any>node).name, visitor) ||
+        (<any>node).typeParameters !== visitNode((<any>node).typeParameters, visitor) ||
+        (<any>node).formalParameters !== visitNode((<any>node).formalParameters, visitor) ||
+        (<any>node).returnType !== visitNode((<any>node).returnType, visitor) ||
+        (<any>node).contents !== visitFunctionBody(transform, (<any>node).contents, visitor)
         ? createMethodDefinition(
-            node.name,
-            node.typeParameters,
-            node.formalParameters,
-            node.returnType,
-            node.contents,
-            node.flags,
-            node.start,
-            node.end
+            (<any>node).name,
+            (<any>node).typeParameters,
+            (<any>node).formalParameters,
+            (<any>node).returnType,
+            (<any>node).contents,
+            (<any>node).flags,
+            (<any>node).start,
+            (<any>node).end
           )
         : node;
   }
 }
 
 export function visitNode(node: any, visitor: (node: any) => any, lift?: any): any | undefined {
-
   if (node === null || visitor === null) {
     return node;
   }
-  //if (node.flags & NodeFlags.ChildLess) return node;
+  //if ((<any>node).flags & NodeFlags.ChildLess) return node;
   const visited = visitor(node);
 
   if (visited === node) return node;
@@ -1258,7 +1588,7 @@ export function visitFunctionBody(transform: Transform, node: any | undefined, v
   const updated = visitNode(node, visitor);
   const declarations = endLexicalEnvironment(transform);
   if (some(declarations)) {
-    console.log('Naa declarations')
+    console.log('Naa declarations');
   }
   return updated;
 }
