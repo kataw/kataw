@@ -18,3 +18,5 @@ interface UniqueIdentifier <: SyntaxNode {
   uniqueId: number;
 }
 ```
+
+This node is `unique` and used to create generated identifier names.
