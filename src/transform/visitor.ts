@@ -1,4 +1,4 @@
-import { SyntaxKind, NodeFlags } from '../ast/syntax-node';
+import { SyntaxKind } from '../ast/syntax-node';
 import { createRootNode } from '../ast/rootNode';
 import { StatementNode } from '../ast/statements';
 import { createAssignmentExpression } from '../ast/expressions/assignment-expr';
