@@ -80,7 +80,7 @@ class x {static get yield(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 26,
@@ -137,7 +137,7 @@ class x {static get yield(){}}
 ```javascript
 
 class x {
-  static get static yield() {}
+  static get static yield {}
 }
 ```
 

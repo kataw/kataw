@@ -84,7 +84,7 @@ class A {async
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 21,
@@ -148,7 +148,7 @@ class A {async
 
 class A {
   async;
-  foo() {}
+  foo {}
 }
 
 ```

@@ -80,7 +80,7 @@ class x {async * import(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 24,
@@ -137,7 +137,7 @@ class x {async * import(){}}
 ```javascript
 
 class x {
-  async import() {}
+  async import {}
 }
 ```
 

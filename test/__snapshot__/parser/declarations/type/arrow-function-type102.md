@@ -66,7 +66,7 @@ type a = ((x?:string )=> T) => T;
                             "parameters": [
                                 {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 288,
                                         "arrowTypeParameterList": {
                                             "kind": 10,
@@ -124,7 +124,7 @@ type a = ((x?:string )=> T) => T;
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -163,7 +163,7 @@ type a = ((x?:string )=> T) => T;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "T",
                                     "rawText": "T",

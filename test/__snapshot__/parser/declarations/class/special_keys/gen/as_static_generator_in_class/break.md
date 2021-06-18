@@ -80,7 +80,7 @@ class x {static * break(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 24,
@@ -137,7 +137,7 @@ class x {static * break(){}}
 ```javascript
 
 class x {
-  static static break() {}
+  static static break {}
 }
 ```
 

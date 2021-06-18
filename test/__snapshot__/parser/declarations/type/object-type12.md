@@ -61,7 +61,7 @@ type a = {[x]:string};
                             "name": null,
                             "key": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",

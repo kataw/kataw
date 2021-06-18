@@ -71,9 +71,9 @@ var f = async function f(x = function() { let await = 0; }) {}
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -99,9 +99,9 @@ var f = async function f(x = function() { let await = 0; }) {}
                                             "generatorToken": null,
                                             "name": null,
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 37,
@@ -227,9 +227,7 @@ var f = async function f(x = function() { let await = 0; }) {}
 
 ```javascript
 
-var f = async function f(x = function () {
-  let await = 0;
-}) {};
+var f = async function f() {};
 ```
 
 ### Diagnostics

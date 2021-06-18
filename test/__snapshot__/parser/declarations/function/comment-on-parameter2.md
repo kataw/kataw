@@ -50,9 +50,9 @@ b
                 "end": 28
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "a",
@@ -108,8 +108,7 @@ b
 
 ```javascript
 
-function commentedParameters(/* Parameter a */
-  a /* End of parameter a */, b) {}
+function commentedParameters() {}
 ```
 
 ### Diagnostics

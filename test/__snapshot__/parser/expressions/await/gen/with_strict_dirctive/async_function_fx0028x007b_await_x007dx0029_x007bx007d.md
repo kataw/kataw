@@ -57,9 +57,9 @@
                 "end": 30
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 212,
                         "propertyList": {
@@ -122,9 +122,7 @@
 
 ```javascript
 
-async function f({
-  await
-}) {}
+async function f() {}
 ```
 
 ### Diagnostics

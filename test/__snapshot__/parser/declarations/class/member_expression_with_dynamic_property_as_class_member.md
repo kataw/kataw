@@ -97,7 +97,7 @@ class w {  t[x](){}  }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 16,
@@ -155,7 +155,7 @@ class w {  t[x](){}  }
 
 class w {
   t;
-  [x]() {}
+  [x] {}
 }
 ```
 

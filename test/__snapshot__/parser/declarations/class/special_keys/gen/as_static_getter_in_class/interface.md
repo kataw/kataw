@@ -80,7 +80,7 @@ class x {static get interface(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 30,
@@ -137,7 +137,7 @@ class x {static get interface(){}}
 ```javascript
 
 class x {
-  static get static interface() {}
+  static get static interface {}
 }
 ```
 

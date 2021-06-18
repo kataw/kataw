@@ -137,9 +137,9 @@ var g: { (x: string): void } = function(x: mixed) { }
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -158,7 +158,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "mixed",
                                                     "rawText": "mixed",
@@ -232,7 +232,7 @@ var g: { (x: string): void } = function(x: mixed) { }
 
 ```javascript
 
-var g:  = function (x) {};
+var g:  = function () {};
 ```
 
 ### Diagnostics

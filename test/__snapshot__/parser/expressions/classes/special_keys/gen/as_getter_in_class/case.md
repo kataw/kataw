@@ -75,7 +75,7 @@ class x {get case(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 18,
@@ -132,7 +132,7 @@ class x {get case(){}}
 ```javascript
 
 class x {
-  get case() {}
+  get case {}
 }
 ```
 

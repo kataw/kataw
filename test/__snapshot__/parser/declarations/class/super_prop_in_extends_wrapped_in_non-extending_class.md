@@ -81,7 +81,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 14,
@@ -214,7 +214,7 @@ class a { foo(){      class x extends super.foo {}    }}
 ```javascript
 
 class a {
-  foo() {
+  foo {
     class x  {}
   }
 }

@@ -78,7 +78,7 @@ class x { async *[y](){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 21,
@@ -135,7 +135,7 @@ class x { async *[y](){}}
 ```javascript
 
 class x {
-  async [y]() {}
+  async [y] {}
 }
 ```
 

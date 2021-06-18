@@ -97,7 +97,7 @@ class x { static *[expr](){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 25,
@@ -154,7 +154,7 @@ class x { static *[expr](){} }
 ```javascript
 
 class x {
-  static static [expr]() {}
+  static static [expr] {}
 }
 ```
 

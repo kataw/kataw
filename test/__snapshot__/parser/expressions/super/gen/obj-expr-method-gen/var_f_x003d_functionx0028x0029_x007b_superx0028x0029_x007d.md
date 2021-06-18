@@ -56,7 +56,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 11,
@@ -105,9 +105,9 @@
                                                                     "generatorToken": null,
                                                                     "name": null,
                                                                     "typeParameters": null,
-                                                                    "formalParameters": {
+                                                                    "formalParameterList": {
                                                                         "kind": 214,
-                                                                        "formalParameterList": [],
+                                                                        "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
                                                                         "start": 31,

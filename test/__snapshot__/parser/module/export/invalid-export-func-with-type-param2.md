@@ -61,9 +61,9 @@ export default function <>() {}
                     "start": 23,
                     "end": 26
                 },
-                "formalParameters": {
+                "formalParameterList": {
                     "kind": 214,
-                    "formalParameterList": [],
+                    "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 26,

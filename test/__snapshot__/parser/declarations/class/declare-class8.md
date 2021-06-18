@@ -48,9 +48,9 @@ declare function foo(x: number, y: string): void;
                 "end": 20
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -158,7 +158,7 @@ declare function foo(x: number, y: string): void;
 
 ```javascript
 
-function foo(x, y): void;
+function foo(): void;
 
 ```
 

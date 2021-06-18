@@ -75,7 +75,7 @@ class x {async switch(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 22,
@@ -132,7 +132,7 @@ class x {async switch(){}}
 ```javascript
 
 class x {
-  async switch() {}
+  async switch {}
 }
 ```
 

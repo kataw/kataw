@@ -60,7 +60,7 @@ x = {
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 33,
                                         "start": 17,
@@ -121,7 +121,7 @@ x = {
 
 ```javascript
 
-x = { method() {} };
+x = { method {} };
 ```
 
 ### Diagnostics

@@ -43,9 +43,9 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,
@@ -82,9 +82,9 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "end": 33
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 33,

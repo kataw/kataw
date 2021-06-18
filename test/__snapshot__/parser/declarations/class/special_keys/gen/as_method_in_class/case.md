@@ -70,7 +70,7 @@ class x {case(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 14,
@@ -127,7 +127,7 @@ class x {case(){}}
 ```javascript
 
 class x {
-  case() {}
+  case {}
 }
 ```
 

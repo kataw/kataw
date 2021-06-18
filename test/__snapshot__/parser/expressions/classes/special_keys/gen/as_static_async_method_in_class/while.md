@@ -80,7 +80,7 @@ class x {static async while(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 28,
@@ -137,7 +137,7 @@ class x {static async while(){}}
 ```javascript
 
 class x {
-  async static static while() {}
+  async static static while {}
 }
 ```
 

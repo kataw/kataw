@@ -100,7 +100,7 @@ a={*id<T>(x: T): T {}}
                                     },
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 281,
                                                 "ellipsisToken": null,
@@ -119,7 +119,7 @@ a={*id<T>(x: T): T {}}
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "T",
                                                             "rawText": "T",
@@ -153,7 +153,7 @@ a={*id<T>(x: T): T {}}
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "T",
                                                 "rawText": "T",
@@ -224,7 +224,7 @@ a={*id<T>(x: T): T {}}
 
 ```javascript
 
-a = { * id(x) {} };
+a = { * id {} };
 ```
 
 ### Diagnostics

@@ -43,9 +43,9 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,
@@ -82,9 +82,9 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                                 "end": 33
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 33,
@@ -139,9 +139,9 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                                                                 "end": 61
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
                                                                 "start": 61,

@@ -48,9 +48,9 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "end": 13
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 13,

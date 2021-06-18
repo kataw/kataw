@@ -80,7 +80,7 @@ class x {static get instanceof(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 31,
@@ -137,7 +137,7 @@ class x {static get instanceof(){}}
 ```javascript
 
 class x {
-  static get static instanceof() {}
+  static get static instanceof {}
 }
 ```
 

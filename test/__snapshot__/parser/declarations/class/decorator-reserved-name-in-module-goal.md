@@ -98,7 +98,7 @@ class C2 {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 35,
@@ -156,7 +156,7 @@ class C2 {
 
 @package
 class C2 {
-  method() {}
+  method {}
 }
 ```
 

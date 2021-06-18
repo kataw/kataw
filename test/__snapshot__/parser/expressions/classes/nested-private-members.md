@@ -480,7 +480,7 @@
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
                                                                 "start": 122,
@@ -627,7 +627,7 @@
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 1024,
                                                                 "start": 160,
@@ -774,7 +774,7 @@
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [
+                                                                "formalParameters": [
                                                                     {
                                                                         "kind": 134299649,
                                                                         "text": "foo",
@@ -930,7 +930,7 @@
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
                                                                 "start": 236,
@@ -1077,7 +1077,7 @@
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 256,
                                                                 "start": 276,
@@ -1229,7 +1229,7 @@
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 384,
                                                                 "start": 317,
@@ -1327,32 +1327,32 @@
   });
 (class  {
     a = class  {
-        #a() {}
+        #a {}
       };
   });
 (class  {
     a = class  {
-        get #a() {}
+        get #a {}
       };
   });
 (class  {
     a = class  {
-        set #a(foo) {}
+        set #a {}
       };
   });
 (class  {
     a = class  {
-        #a() {}
+        #a {}
       };
   });
 (class  {
     a = class  {
-        async #a() {}
+        async #a {}
       };
   });
 (class  {
     a = class  {
-        async #a() {}
+        async #a {}
       };
   });
 ```

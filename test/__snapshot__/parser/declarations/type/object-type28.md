@@ -166,7 +166,7 @@ type a = {[((({a([][]):foo}) => [c|d]))]:string, x:string};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",

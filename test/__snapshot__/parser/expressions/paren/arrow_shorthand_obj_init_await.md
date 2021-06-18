@@ -31,9 +31,9 @@
                     "generatorToken": null,
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [
+                        "formalParameters": [
                             {
                                 "kind": 212,
                                 "propertyList": {
@@ -127,10 +127,7 @@
 
 ```javascript
 
-(function ({
-    x,
-    ...y
-  }) {});
+(function () {});
 ```
 
 ### Diagnostics

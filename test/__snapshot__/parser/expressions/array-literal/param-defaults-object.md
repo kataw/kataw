@@ -54,9 +54,9 @@ function a({x = 10}) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 212,
                         "propertyList": {
@@ -136,9 +136,7 @@ function a({x = 10}) {}
 
 ```javascript
 
-function a({
-  x = 10
-}) {}
+function a() {}
 ```
 
 ### Diagnostics

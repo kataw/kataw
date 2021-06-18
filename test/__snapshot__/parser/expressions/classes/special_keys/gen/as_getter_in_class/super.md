@@ -75,7 +75,7 @@ class x {get super(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 19,
@@ -132,7 +132,7 @@ class x {get super(){}}
 ```javascript
 
 class x {
-  get super() {}
+  get super {}
 }
 ```
 

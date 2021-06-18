@@ -48,9 +48,9 @@ function *f(x = (null) = f) {}
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -139,7 +139,7 @@ function *f(x = (null) = f) {}
 
 ```javascript
 
-function * f(x = (null) = f) {}
+function * f() {}
 ```
 
 ### Diagnostics

@@ -48,9 +48,9 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
@@ -82,9 +82,9 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                 "end": 35
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 35,
@@ -116,9 +116,9 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                 "end": 54
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 134299649,
                                                         "text": "yield",
@@ -297,7 +297,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
 
 function * gen() {
   function not_gen() {
-    function yield(yield) {
+    function yield() {
       yield: yield(yield + yield(0));
     }
   }

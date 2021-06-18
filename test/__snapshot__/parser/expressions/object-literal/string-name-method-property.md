@@ -68,7 +68,7 @@ var x = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 33,
                                                 "start": 20,
@@ -155,7 +155,7 @@ var x = {
 
 ```javascript
 
-var x = { "\"foo\""() {
+var x = { "\"foo\"" {
     return  bar;
   } };
 ```

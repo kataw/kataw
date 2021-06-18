@@ -91,7 +91,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "Object",
                                                         "rawText": "Object",

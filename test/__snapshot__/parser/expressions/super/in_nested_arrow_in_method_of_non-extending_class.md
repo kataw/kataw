@@ -82,7 +82,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 24,
@@ -210,7 +210,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
 ```javascript
 
 class x  {
-  foo() {
+  foo {
     return  () =>  () =>  super.foo;
   }
 }

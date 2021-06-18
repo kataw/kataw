@@ -51,9 +51,9 @@ function getSecurity(level) {
                 "end": 20
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "level",
@@ -332,7 +332,7 @@ function getSecurity(level) {
 
 ```javascript
 
-function getSecurity(level) {
+function getSecurity() {
   switch(level) {
     case 0:
        // Zero

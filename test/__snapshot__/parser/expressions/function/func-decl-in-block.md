@@ -49,9 +49,9 @@
                         "generatorToken": null,
                         "name": null,
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 12,
@@ -115,9 +115,9 @@
                             "end": 35
                         },
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 35,
@@ -186,9 +186,9 @@
                             "end": 64
                         },
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 64,

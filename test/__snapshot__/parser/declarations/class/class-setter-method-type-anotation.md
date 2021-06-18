@@ -75,7 +75,7 @@ class Foo {set fooProp(value:number){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -164,7 +164,7 @@ class Foo {set fooProp(value:number){}}
 ```javascript
 
 class Foo {
-  set fooProp(value) {}
+  set fooProp {}
 }
 ```
 

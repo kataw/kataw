@@ -57,7 +57,7 @@ x = {0o730(){}}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 262176,
                                         "start": 11,
@@ -118,7 +118,7 @@ x = {0o730(){}}
 
 ```javascript
 
-x = { 0o730() {} };
+x = { 0o730 {} };
 ```
 
 ### Diagnostics

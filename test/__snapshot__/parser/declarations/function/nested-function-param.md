@@ -82,7 +82,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -120,7 +120,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "Y",
                                         "rawText": "Y",
@@ -168,9 +168,9 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                 "start": 10,
                 "end": 28
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -189,7 +189,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "Y",
                                     "rawText": "Y",
@@ -229,7 +229,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -269,7 +269,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "W",
                                     "rawText": "W",
@@ -462,7 +462,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
@@ -497,7 +497,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
 
 ```javascript
 
-function  <X, Y: , Z: , W >f(y, z, w):  {
+function  <X, Y: , Z: , W >f():  {
   if (n === 0) return  y;
   if (n === 1) return  z;
   return  w; // nope

@@ -48,9 +48,9 @@ function* gf() { class C { *yield() { } } }
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 12,
@@ -114,7 +114,7 @@ function* gf() { class C { *yield() { } } }
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
                                                     "start": 34,
@@ -186,7 +186,7 @@ function* gf() { class C { *yield() { } } }
 
 function * gf() {
   class C {
-    yield() {}
+    yield {}
   }
 }
 ```

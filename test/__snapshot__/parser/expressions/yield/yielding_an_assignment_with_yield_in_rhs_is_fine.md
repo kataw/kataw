@@ -40,9 +40,9 @@ function* g(x) { yield x = yield 3; }
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -153,7 +153,7 @@ function* g(x) { yield x = yield 3; }
 
 ```javascript
 
-function * g(x) {
+function * g() {
   yield x = yield 3;
 }
 ```

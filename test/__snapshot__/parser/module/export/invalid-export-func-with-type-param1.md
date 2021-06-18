@@ -78,9 +78,9 @@ export default function <T>() {}
                     "start": 23,
                     "end": 27
                 },
-                "formalParameters": {
+                "formalParameterList": {
                     "kind": 214,
-                    "formalParameterList": [],
+                    "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 27,

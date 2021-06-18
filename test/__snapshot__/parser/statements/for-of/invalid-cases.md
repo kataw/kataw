@@ -1019,9 +1019,9 @@ for ({a: b.c}-- of d) e;
                     "end": 269
                 },
                 "typeParameters": null,
-                "formalParameters": {
+                "formalParameterList": {
                     "kind": 214,
-                    "formalParameterList": [],
+                    "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 269,
@@ -1135,9 +1135,9 @@ for ({a: b.c}-- of d) e;
                     "end": 306
                 },
                 "typeParameters": null,
-                "formalParameters": {
+                "formalParameterList": {
                     "kind": 214,
-                    "formalParameterList": [],
+                    "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 306,

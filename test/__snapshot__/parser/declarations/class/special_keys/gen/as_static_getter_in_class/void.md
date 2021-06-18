@@ -80,7 +80,7 @@ class x {static get void(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 25,
@@ -137,7 +137,7 @@ class x {static get void(){}}
 ```javascript
 
 class x {
-  static get static void() {}
+  static get static void {}
 }
 ```
 

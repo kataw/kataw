@@ -367,9 +367,9 @@ try {} catch({ x: "str" }) {}
                                 "end": 99
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 99,
@@ -1417,9 +1417,9 @@ try {} catch({ x: "str" }) {}
                     },
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 377,
@@ -1566,9 +1566,9 @@ try {} catch({ x: "str" }) {}
                     "generatorToken": null,
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 411,
@@ -1840,9 +1840,9 @@ try {} catch({ x: "str" }) {}
                             "end": 502
                         },
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 502,
@@ -1916,9 +1916,9 @@ try {} catch({ x: "str" }) {}
                                                                 "end": 537
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
                                                                 "start": 537,
@@ -3000,9 +3000,9 @@ try {} catch({ x: "str" }) {}
                     },
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 843,
@@ -3154,9 +3154,9 @@ try {} catch({ x: "str" }) {}
                     "generatorToken": null,
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 884,

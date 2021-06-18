@@ -85,7 +85,7 @@ class x {static async * protected(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 34,
@@ -142,7 +142,7 @@ class x {static async * protected(){}}
 ```javascript
 
 class x {
-  async static static protected() {}
+  async static static protected {}
 }
 ```
 

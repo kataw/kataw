@@ -62,9 +62,9 @@ await new Promise(function(res, rej) { res(1); });
                                 "generatorToken": null,
                                 "name": null,
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "res",
@@ -176,7 +176,7 @@ await new Promise(function(res, rej) { res(1); });
 
 ```javascript
 
-await new  Promise(function (res, rej) {
+await new  Promise(function () {
   res(1);
 });
 ```

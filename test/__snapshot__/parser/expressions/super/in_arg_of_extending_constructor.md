@@ -82,7 +82,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 32,
@@ -220,7 +220,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 ```javascript
 
 class x  {
-  constructor() {
+  constructor {
     return  (a = super.foo) =>  a;
   }
 }

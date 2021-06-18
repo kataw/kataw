@@ -49,9 +49,9 @@ function f(x, ...y) { 'use strict' }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -114,9 +114,9 @@ function f(x, ...y) { 'use strict' }
                 "end": 42
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 201,
                         "elementList": {
@@ -194,9 +194,9 @@ function f(x, ...y) { 'use strict' }
                 "end": 76
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 212,
                         "propertyList": {
@@ -274,9 +274,9 @@ function f(x, ...y) { 'use strict' }
                 "end": 110
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -356,9 +356,9 @@ function f(x, ...y) { 'use strict' }
                 "end": 146
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -440,9 +440,9 @@ function f(x, ...y) { 'use strict' }
                     "generatorToken": null,
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [
+                        "formalParameters": [
                             {
                                 "kind": 201,
                                 "elementList": {
@@ -524,9 +524,9 @@ function f(x, ...y) { 'use strict' }
                     "generatorToken": null,
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [
+                        "formalParameters": [
                             {
                                 "kind": 281,
                                 "ellipsisToken": null,
@@ -610,9 +610,9 @@ function f(x, ...y) { 'use strict' }
                     "generatorToken": null,
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [
+                        "formalParameters": [
                             {
                                 "kind": 134299649,
                                 "text": "x",

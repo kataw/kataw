@@ -45,9 +45,9 @@ function d(x: { (z: number): string }): () => string {
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -246,7 +246,7 @@ function d(x: { (z: number): string }): () => string {
 
 ```javascript
 
-function d(x):  {
+function d():  {
   return  x;
 }
 ```

@@ -74,7 +74,7 @@ class A {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 27,
@@ -125,7 +125,7 @@ class A {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 39,
@@ -313,8 +313,8 @@ class A {
 ```javascript
 
 class A {
-  static static #method() {}
-  run() {
+  static static #method {}
+  run {
     A.#method = 2;
     ([A.#method] = [2]);
   }

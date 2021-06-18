@@ -43,9 +43,9 @@ function not_gen() { (class { static async method(...await) {} }) }}
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,
@@ -110,7 +110,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                         "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
-                                                            "formalParameterList": [
+                                                            "formalParameters": [
                                                                 {
                                                                     "kind": 281,
                                                                     "ellipsisToken": {

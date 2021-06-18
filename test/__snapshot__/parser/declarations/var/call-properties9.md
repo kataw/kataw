@@ -72,7 +72,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "mixed",
                                                     "rawText": "mixed",
@@ -115,9 +115,9 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 31,

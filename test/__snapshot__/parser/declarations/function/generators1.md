@@ -64,9 +64,9 @@ function *infer_stmt() {
                 "end": 20
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 20,
@@ -149,7 +149,7 @@ function *infer_stmt() {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Generator",
                         "rawText": "Generator",
@@ -251,9 +251,9 @@ function *infer_stmt() {
                 "end": 106
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 106,
@@ -300,7 +300,7 @@ function *infer_stmt() {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Generator",
                         "rawText": "Generator",
@@ -402,9 +402,9 @@ function *infer_stmt() {
                 "end": 182
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 182,
@@ -451,7 +451,7 @@ function *infer_stmt() {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Generator",
                         "rawText": "Generator",
@@ -553,9 +553,9 @@ function *infer_stmt() {
                 "end": 254
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 254,

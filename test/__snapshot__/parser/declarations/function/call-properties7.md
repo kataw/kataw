@@ -46,9 +46,9 @@ function e(x: {}): () => string {
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -184,7 +184,7 @@ function e(x: {}): () => string {
 
 ```javascript
 
-function e(x):  {
+function e():  {
   return  x;
 }
 ```

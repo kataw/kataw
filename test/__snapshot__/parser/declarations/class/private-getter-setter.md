@@ -101,7 +101,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 22,
@@ -189,7 +189,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "val",
@@ -300,7 +300,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 89,
@@ -388,7 +388,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "val",
@@ -495,7 +495,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "fn",
@@ -760,7 +760,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "fn",
@@ -1033,7 +1033,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "fn",
@@ -2076,31 +2076,31 @@ class Foo {
 ```javascript
 
 class Foo {
-  get #foo() {
+  get #foo {
     return  this.foo;
   }
-  set #bar(val) {
+  set #bar {
     this.bar = val;
   }
-  get #prop() {
+  get #prop {
     return  this.prop;
   }
-  set #prop(val) {
+  set #prop {
     this.prop = val;
   }
-  foo(fn) {
+  foo {
     fn().#foo;
     fn().#bar = 1;
     fn().#prop;
     fn().#prop = 2;
   }
-  unary(fn) {
+  unary {
     fn().#prop++;
     fn().#prop--;
     ++fn().#prop;
     --fn().#prop;
   }
-  binary(fn) {
+  binary {
     fn().#prop = 1;
     fn().#prop += 1;
     fn().#prop -= 1;

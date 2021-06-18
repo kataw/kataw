@@ -54,7 +54,7 @@ wrap({foo(a,b,c){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -146,7 +146,7 @@ wrap({foo(a,b,c){}});
 
 ```javascript
 
-wrap({ foo(a, b, c) {} });
+wrap({ foo {} });
 ```
 
 ### Diagnostics

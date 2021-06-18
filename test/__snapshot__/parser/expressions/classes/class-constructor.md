@@ -81,7 +81,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 2048,
                                             "start": 24,
@@ -186,7 +186,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 2048,
                                             "start": 64,
@@ -296,7 +296,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 3072,
                                             "start": 108,
@@ -406,7 +406,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "_",
@@ -525,7 +525,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 194,
@@ -590,19 +590,19 @@
 ```javascript
 
 (class C {
-    constructor() {}
+    constructor {}
   });
 (class C {
-    static static constructor() {}
+    static static constructor {}
   });
 (class C {
-    static get static constructor() {}
+    static get static constructor {}
   });
 (class C {
-    static set static constructor(_) {}
+    static set static constructor {}
   });
 (class C {
-    static static constructor() {}
+    static static constructor {}
   });
 ```
 

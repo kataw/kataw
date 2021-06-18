@@ -57,7 +57,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 9,
@@ -199,7 +199,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
 
 ```javascript
 
-x = { dsda() {
+x = { dsda {
     return  (a = ) =>  a;
   } };
 ```

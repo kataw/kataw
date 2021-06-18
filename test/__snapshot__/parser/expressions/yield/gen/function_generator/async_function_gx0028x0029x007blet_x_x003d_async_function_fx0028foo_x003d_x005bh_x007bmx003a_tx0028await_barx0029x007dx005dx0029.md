@@ -48,9 +48,9 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
@@ -82,9 +82,9 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                 "end": 35
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 35,
@@ -121,9 +121,9 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                 "end": 56
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 56,
@@ -182,9 +182,9 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                 "end": 83
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
-                                                                                "formalParameterList": [
+                                                                                "formalParameters": [
                                                                                     {
                                                                                         "kind": 281,
                                                                                         "ellipsisToken": null,

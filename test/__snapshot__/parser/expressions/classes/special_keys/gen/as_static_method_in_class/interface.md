@@ -75,7 +75,7 @@ class x {static interface(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 26,
@@ -132,7 +132,7 @@ class x {static interface(){}}
 ```javascript
 
 class x {
-  static static interface() {}
+  static static interface {}
 }
 ```
 

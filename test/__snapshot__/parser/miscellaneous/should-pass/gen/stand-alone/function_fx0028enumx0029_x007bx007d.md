@@ -43,9 +43,9 @@ function f(enum) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "enum",
@@ -93,7 +93,7 @@ function f(enum) {}
 
 ```javascript
 
-function f(enum) {}
+function f() {}
 ```
 
 ### Diagnostics

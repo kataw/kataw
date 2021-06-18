@@ -96,7 +96,7 @@ for (class x { [a](){} }.x in c);
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 19,
@@ -189,7 +189,7 @@ for (class x { [a](){} }.x in c);
 ```javascript
 
 for (class x {
-  [a]() {}
+  [a] {}
 }.x in c);
 ```
 

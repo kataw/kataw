@@ -48,9 +48,9 @@ function *f(x = (protected) = f) {}
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -141,7 +141,7 @@ function *f(x = (protected) = f) {}
 
 ```javascript
 
-function * f(x = (protected) = f) {}
+function * f() {}
 ```
 
 ### Diagnostics

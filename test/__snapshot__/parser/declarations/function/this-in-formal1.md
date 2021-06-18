@@ -43,9 +43,9 @@ function one(this: number) {}
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -116,7 +116,7 @@ function one(this: number) {}
 
 ```javascript
 
-function one(this) {}
+function one() {}
 ```
 
 ### Diagnostics

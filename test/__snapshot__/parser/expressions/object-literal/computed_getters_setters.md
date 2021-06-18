@@ -87,7 +87,7 @@ var f = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1057,
                                                 "start": 22,
@@ -167,7 +167,7 @@ var f = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 281,
                                                         "ellipsisToken": null,
@@ -252,7 +252,7 @@ var f = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 281,
                                                         "ellipsisToken": null,
@@ -337,7 +337,7 @@ var f = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1057,
                                                 "start": 130,
@@ -437,9 +437,9 @@ var f = {
 
 ```javascript
 
-var f = { get ["'d'"]() {
+var f = { get ["'d'"] {
     return  "'foo'";
-  }, set ["'d'"](x) {}, set "\"stringLiteral\""(x) {}, get "\"stringLiteral\""() {
+  }, set ["'d'"] {}, set "\"stringLiteral\"" {}, get "\"stringLiteral\"" {
     return  4;
   } };
 ```

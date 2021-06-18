@@ -66,7 +66,7 @@ type x = [...aladdin];
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "aladdin",
                                         "rawText": "aladdin",

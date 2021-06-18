@@ -75,7 +75,7 @@ class x {async in(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 18,
@@ -132,7 +132,7 @@ class x {async in(){}}
 ```javascript
 
 class x {
-  async in() {}
+  async in {}
 }
 ```
 

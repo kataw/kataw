@@ -142,7 +142,7 @@ const f = async <T, R, S>(
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "T",
                                                 "rawText": "T",
@@ -182,7 +182,7 @@ const f = async <T, R, S>(
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "R",
                                                 "rawText": "R",
@@ -222,7 +222,7 @@ const f = async <T, R, S>(
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "S",
                                                 "rawText": "S",

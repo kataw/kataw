@@ -641,7 +641,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Foo",
                                                     "rawText": "Foo",
@@ -660,7 +660,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "T",
                                                                         "rawText": "T",
@@ -785,7 +785,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 145,
                                     "qualification": {
                                         "kind": 134299649,
@@ -795,7 +795,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "start": 196,
                                         "end": 198
                                     },
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
@@ -818,7 +818,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 145,
                                                         "qualification": {
                                                             "kind": 134299649,
@@ -828,7 +828,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "start": 201,
                                                             "end": 202
                                                         },
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "Y",
                                                             "rawText": "Y",
@@ -909,7 +909,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 145,
                                     "qualification": {
                                         "kind": 134299649,
@@ -919,7 +919,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "start": 217,
                                         "end": 219
                                     },
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
@@ -942,7 +942,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 145,
                                                         "qualification": {
                                                             "kind": 134299649,
@@ -952,7 +952,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "start": 222,
                                                             "end": 223
                                                         },
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "Y",
                                                             "rawText": "Y",
@@ -1040,7 +1040,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 145,
                                     "qualification": {
                                         "kind": 134299649,
@@ -1050,7 +1050,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "start": 239,
                                         "end": 241
                                     },
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
@@ -1073,7 +1073,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 145,
                                                         "qualification": {
                                                             "kind": 134299649,
@@ -1083,7 +1083,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "start": 244,
                                                             "end": 245
                                                         },
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "Y",
                                                             "rawText": "Y",
@@ -1106,7 +1106,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "id": {
+                                                                        "name": {
                                                                             "kind": 134299649,
                                                                             "text": "Z",
                                                                             "rawText": "Z",
@@ -1201,7 +1201,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 145,
                                     "qualification": {
                                         "kind": 134299649,
@@ -1211,7 +1211,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "start": 265,
                                         "end": 267
                                     },
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
@@ -1234,7 +1234,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 145,
                                                         "qualification": {
                                                             "kind": 134299649,
@@ -1244,7 +1244,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "start": 270,
                                                             "end": 271
                                                         },
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "Y",
                                                             "rawText": "Y",
@@ -1267,7 +1267,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "id": {
+                                                                        "name": {
                                                                             "kind": 134299649,
                                                                             "text": "Z",
                                                                             "rawText": "Z",
@@ -1369,7 +1369,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 145,
                                     "qualification": {
                                         "kind": 134299649,
@@ -1379,7 +1379,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "start": 295,
                                         "end": 297
                                     },
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
@@ -1402,7 +1402,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 145,
                                                         "qualification": {
                                                             "kind": 134299649,
@@ -1412,7 +1412,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "start": 300,
                                                             "end": 301
                                                         },
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "Y",
                                                             "rawText": "Y",
@@ -1435,7 +1435,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "id": {
+                                                                        "name": {
                                                                             "kind": 134299649,
                                                                             "text": "Z",
                                                                             "rawText": "Z",
@@ -1454,7 +1454,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                                         "bitwiseAndToken": null,
                                                                                         "type": {
                                                                                             "kind": 144,
-                                                                                            "id": {
+                                                                                            "name": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "T",
                                                                                                 "rawText": "T",
@@ -1567,7 +1567,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 145,
                                     "qualification": {
                                         "kind": 134299649,
@@ -1577,7 +1577,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "start": 326,
                                         "end": 328
                                     },
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
@@ -1600,7 +1600,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 145,
                                                         "qualification": {
                                                             "kind": 134299649,
@@ -1610,7 +1610,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "start": 331,
                                                             "end": 332
                                                         },
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "Y",
                                                             "rawText": "Y",
@@ -1633,7 +1633,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "id": {
+                                                                        "name": {
                                                                             "kind": 134299649,
                                                                             "text": "Z",
                                                                             "rawText": "Z",
@@ -1652,7 +1652,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                                         "bitwiseAndToken": null,
                                                                                         "type": {
                                                                                             "kind": 144,
-                                                                                            "id": {
+                                                                                            "name": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "T",
                                                                                                 "rawText": "T",
@@ -1763,7 +1763,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                     "bitwiseAndToken": null,
                     "type": {
                         "kind": 144,
-                        "id": {
+                        "name": {
                             "kind": 134299649,
                             "text": "A",
                             "rawText": "A",
@@ -1782,7 +1782,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "T",
                                                 "rawText": "T",
@@ -1852,7 +1852,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                     "bitwiseAndToken": null,
                     "type": {
                         "kind": 144,
-                        "id": {
+                        "name": {
                             "kind": 134299649,
                             "text": "A",
                             "rawText": "A",
@@ -1871,7 +1871,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "B",
                                                 "rawText": "B",
@@ -1890,7 +1890,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 144,
-                                                                "id": {
+                                                                "name": {
                                                                     "kind": 134299649,
                                                                     "text": "T",
                                                                     "rawText": "T",
@@ -1978,7 +1978,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                     "bitwiseAndToken": null,
                     "type": {
                         "kind": 144,
-                        "id": {
+                        "name": {
                             "kind": 134299649,
                             "text": "A",
                             "rawText": "A",
@@ -1997,7 +1997,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "B",
                                                 "rawText": "B",
@@ -2016,7 +2016,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 144,
-                                                                "id": {
+                                                                "name": {
                                                                     "kind": 134299649,
                                                                     "text": "C",
                                                                     "rawText": "C",
@@ -2035,7 +2035,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                                 "bitwiseAndToken": null,
                                                                                 "type": {
                                                                                     "kind": 144,
-                                                                                    "id": {
+                                                                                    "name": {
                                                                                         "kind": 134299649,
                                                                                         "text": "T",
                                                                                         "rawText": "T",

@@ -90,7 +90,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "test",
@@ -164,7 +164,7 @@
 ```javascript
 
 (class   {
-    set #await(test) {}
+    set #await {}
   });
 ```
 

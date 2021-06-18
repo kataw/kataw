@@ -101,7 +101,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Pr",
                                                     "rawText": "Pr",
@@ -120,7 +120,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "Return",
                                                                         "rawText": "Return",
@@ -172,7 +172,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "Return",
                                         "rawText": "Return",

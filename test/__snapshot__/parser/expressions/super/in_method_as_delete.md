@@ -57,7 +57,7 @@ x = { foo(){ delete super[foo]; }}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 10,
@@ -163,7 +163,7 @@ x = { foo(){ delete super[foo]; }}
 
 ```javascript
 
-x = { foo() {
+x = { foo {
     delete ;
   } };
 ```

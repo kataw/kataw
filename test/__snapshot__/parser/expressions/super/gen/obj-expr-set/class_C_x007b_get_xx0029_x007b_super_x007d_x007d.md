@@ -56,7 +56,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "_",
@@ -130,7 +130,7 @@
                                                                         "typeParameters": null,
                                                                         "formalParameters": {
                                                                             "kind": 214,
-                                                                            "formalParameterList": [],
+                                                                            "formalParameters": [],
                                                                             "trailingComma": false,
                                                                             "flags": 1024,
                                                                             "start": 29,

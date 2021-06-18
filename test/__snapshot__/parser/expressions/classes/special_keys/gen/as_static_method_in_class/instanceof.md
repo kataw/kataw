@@ -75,7 +75,7 @@ class x {static instanceof(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 27,
@@ -132,7 +132,7 @@ class x {static instanceof(){}}
 ```javascript
 
 class x {
-  static static instanceof() {}
+  static static instanceof {}
 }
 ```
 

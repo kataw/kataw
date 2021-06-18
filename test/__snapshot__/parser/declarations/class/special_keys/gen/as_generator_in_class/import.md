@@ -75,7 +75,7 @@ class x {* import(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 18,
@@ -132,7 +132,7 @@ class x {* import(){}}
 ```javascript
 
 class x {
-  import() {}
+  import {}
 }
 ```
 

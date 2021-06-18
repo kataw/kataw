@@ -61,7 +61,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                     "types": [
                                         {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "Record",
                                                 "rawText": "Record",

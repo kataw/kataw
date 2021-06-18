@@ -58,9 +58,9 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "x",
@@ -142,7 +142,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
 
 ```javascript
 
-let g = function /* a */ (/* b */ x /* c */, /* d */ y /* e */) /* f */ {
+let g = function /* a */ () /* f */ {
 
 } /* after */;
 ```

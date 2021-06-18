@@ -104,7 +104,7 @@ class A {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "_val",
@@ -171,7 +171,7 @@ class A {
 
 class A {
   @foo
-  set setter(_val) {}
+  set setter {}
 }
 ```
 

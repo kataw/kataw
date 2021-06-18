@@ -43,9 +43,9 @@ function x(y: | z): | /* comment */ () => number {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -69,7 +69,7 @@ function x(y: | z): | /* comment */ () => number {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
@@ -177,7 +177,7 @@ function x(y: | z): | /* comment */ () => number {}
 
 ```javascript
 
-function x(y): | /* comment */  {}
+function x(): | /* comment */  {}
 ```
 
 ### Diagnostics

@@ -133,9 +133,9 @@ async function * gen() {class C extends await { }}
                             "end": 36
                         },
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 36,
@@ -238,9 +238,9 @@ async function * gen() {class C extends await { }}
                 "end": 72
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 72,
@@ -351,9 +351,9 @@ async function * gen() {class C extends await { }}
                 "end": 113
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 113,
@@ -464,9 +464,9 @@ async function * gen() {class C extends await { }}
                 "end": 154
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 154,
@@ -582,9 +582,9 @@ async function * gen() {class C extends await { }}
                 "end": 205
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 205,
@@ -700,9 +700,9 @@ async function * gen() {class C extends await { }}
                 "end": 256
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 256,
@@ -734,9 +734,9 @@ async function * gen() {class C extends await { }}
                                 "end": 274
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 274,
@@ -805,9 +805,9 @@ async function * gen() {class C extends await { }}
                 "end": 302
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 302,
@@ -839,9 +839,9 @@ async function * gen() {class C extends await { }}
                                 "end": 320
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 320,
@@ -910,9 +910,9 @@ async function * gen() {class C extends await { }}
                 "end": 465
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 465,
@@ -957,9 +957,9 @@ async function * gen() {class C extends await { }}
                                         "end": 492
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 492,
@@ -1036,9 +1036,9 @@ async function * gen() {class C extends await { }}
                 "end": 521
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 521,
@@ -1083,9 +1083,9 @@ async function * gen() {class C extends await { }}
                                         "end": 548
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 548,
@@ -1162,9 +1162,9 @@ async function * gen() {class C extends await { }}
                 "end": 651
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 651,
@@ -1206,9 +1206,9 @@ async function * gen() {class C extends await { }}
                                 "end": 675
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "yield",
@@ -1286,9 +1286,9 @@ async function * gen() {class C extends await { }}
                 "end": 708
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 708,
@@ -1333,9 +1333,9 @@ async function * gen() {class C extends await { }}
                                         "end": 733
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "yield",
@@ -1421,9 +1421,9 @@ async function * gen() {class C extends await { }}
                 "end": 767
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 767,
@@ -1465,9 +1465,9 @@ async function * gen() {class C extends await { }}
                                 "end": 791
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "await",
@@ -1545,9 +1545,9 @@ async function * gen() {class C extends await { }}
                 "end": 824
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 824,
@@ -1592,9 +1592,9 @@ async function * gen() {class C extends await { }}
                                         "end": 849
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "await",
@@ -1680,9 +1680,9 @@ async function * gen() {class C extends await { }}
                 "end": 883
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 883,
@@ -1779,9 +1779,9 @@ async function * gen() {class C extends await { }}
                 "end": 919
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 919,
@@ -1882,9 +1882,9 @@ async function * gen() {class C extends await { }}
                 "end": 955
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 955,
@@ -2012,9 +2012,9 @@ async function * gen() {class C extends await { }}
                 "end": 1001
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1001,
@@ -2146,9 +2146,9 @@ async function * gen() {class C extends await { }}
                 "end": 1047
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1047,
@@ -2237,9 +2237,9 @@ async function * gen() {class C extends await { }}
                 "end": 1081
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1081,
@@ -2332,9 +2332,9 @@ async function * gen() {class C extends await { }}
                 "end": 1115
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1115,
@@ -2429,9 +2429,9 @@ async function * gen() {class C extends await { }}
                 "end": 1149
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1149,
@@ -2524,9 +2524,9 @@ async function * gen() {class C extends await { }}
                 "end": 1183
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1183,
@@ -2614,9 +2614,9 @@ async function * gen() {class C extends await { }}
                 "end": 1216
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1216,
@@ -2710,9 +2710,9 @@ async function * gen() {class C extends await { }}
                 "end": 1349
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1349,
@@ -2830,9 +2830,9 @@ async function * gen() {class C extends await { }}
                 "end": 1393
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1393,
@@ -2929,9 +2929,9 @@ async function * gen() {class C extends await { }}
                 "end": 1428
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1428,
@@ -3042,9 +3042,9 @@ async function * gen() {class C extends await { }}
                 "end": 1510
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1510,
@@ -3113,9 +3113,9 @@ async function * gen() {class C extends await { }}
                                 "end": 1549
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 1549,
@@ -3204,9 +3204,9 @@ async function * gen() {class C extends await { }}
                                 "end": 1582
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 1582,
@@ -3302,9 +3302,9 @@ async function * gen() {class C extends await { }}
                                 "end": 1674
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 1674,
@@ -3429,9 +3429,9 @@ async function * gen() {class C extends await { }}
                 "end": 1845
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1845,
@@ -3570,9 +3570,9 @@ async function * gen() {class C extends await { }}
                 "end": 1889
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1889,
@@ -3711,9 +3711,9 @@ async function * gen() {class C extends await { }}
                 "end": 1948
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1948,
@@ -3766,9 +3766,9 @@ async function * gen() {class C extends await { }}
                                         "end": 2067
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 2067,
@@ -3907,9 +3907,9 @@ async function * gen() {class C extends await { }}
                                 "end": 2112
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 2112,
@@ -4040,9 +4040,9 @@ async function * gen() {class C extends await { }}
                                 "end": 2157
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 2157,
@@ -4204,9 +4204,9 @@ async function * gen() {class C extends await { }}
                                 "end": 2210
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 2210,
@@ -4368,9 +4368,9 @@ async function * gen() {class C extends await { }}
                                 "end": 2263
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 2263,
@@ -4497,9 +4497,9 @@ async function * gen() {class C extends await { }}
                                 "end": 2304
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 2304,
@@ -4630,9 +4630,9 @@ async function * gen() {class C extends await { }}
                                 "end": 2345
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 2345,
@@ -4795,9 +4795,9 @@ async function * gen() {class C extends await { }}
                                 "end": 2394
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 2394,
@@ -4964,9 +4964,9 @@ async function * gen() {class C extends await { }}
                                 "end": 2500
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 2500,
@@ -5132,9 +5132,9 @@ async function * gen() {class C extends await { }}
                 "end": 2548
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2548,
@@ -5286,9 +5286,9 @@ async function * gen() {class C extends await { }}
                 "end": 2596
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2596,
@@ -5473,9 +5473,9 @@ async function * gen() {class C extends await { }}
                 "end": 2652
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2652,
@@ -5660,9 +5660,9 @@ async function * gen() {class C extends await { }}
                 "end": 2708
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2708,
@@ -5796,9 +5796,9 @@ async function * gen() {class C extends await { }}
                 "end": 2752
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2752,
@@ -5930,9 +5930,9 @@ async function * gen() {class C extends await { }}
                 "end": 2796
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2796,
@@ -6102,9 +6102,9 @@ async function * gen() {class C extends await { }}
                 "end": 2848
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2848,
@@ -6272,9 +6272,9 @@ async function * gen() {class C extends await { }}
                 "end": 2900
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2900,
@@ -6390,9 +6390,9 @@ async function * gen() {class C extends await { }}
                 "end": 2948
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2948,
@@ -6506,9 +6506,9 @@ async function * gen() {class C extends await { }}
                 "end": 2996
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 2996,
@@ -6625,9 +6625,9 @@ async function * gen() {class C extends await { }}
                 "end": 3044
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 3044,
@@ -6742,9 +6742,9 @@ async function * gen() {class C extends await { }}
                 "end": 3092
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 3092,
@@ -6886,9 +6886,9 @@ async function * gen() {class C extends await { }}
                 "end": 3146
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 3146,
@@ -7028,9 +7028,9 @@ async function * gen() {class C extends await { }}
                 "end": 3200
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 3200,
@@ -7173,9 +7173,9 @@ async function * gen() {class C extends await { }}
                 "end": 3254
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 3254,
@@ -7316,9 +7316,9 @@ async function * gen() {class C extends await { }}
                 "end": 3308
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 3308,
@@ -7451,9 +7451,9 @@ async function * gen() {class C extends await { }}
                 "end": 3359
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 3359,

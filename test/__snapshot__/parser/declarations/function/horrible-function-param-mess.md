@@ -130,9 +130,9 @@ function processArgs<A1: {}, A2: {}>(
                 "start": 20,
                 "end": 36
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -178,7 +178,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "A1",
                                                         "rawText": "A1",
@@ -211,7 +211,7 @@ function processArgs<A1: {}, A2: {}>(
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "A2",
                                             "rawText": "A2",
@@ -368,7 +368,7 @@ function processArgs<A1: {}, A2: {}>(
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Resolver",
                                                     "rawText": "Resolver",
@@ -387,7 +387,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "S",
                                                                         "rawText": "S",
@@ -410,7 +410,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "A2",
                                                                         "rawText": "A2",
@@ -433,7 +433,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "C",
                                                                         "rawText": "C",
@@ -456,7 +456,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "I",
                                                                         "rawText": "I",
@@ -479,7 +479,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "R",
                                                                         "rawText": "R",
@@ -527,7 +527,7 @@ function processArgs<A1: {}, A2: {}>(
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "Resolver",
                                             "rawText": "Resolver",
@@ -546,7 +546,7 @@ function processArgs<A1: {}, A2: {}>(
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "S",
                                                                 "rawText": "S",
@@ -569,7 +569,7 @@ function processArgs<A1: {}, A2: {}>(
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "A1",
                                                                 "rawText": "A1",
@@ -592,7 +592,7 @@ function processArgs<A1: {}, A2: {}>(
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "C",
                                                                 "rawText": "C",
@@ -615,7 +615,7 @@ function processArgs<A1: {}, A2: {}>(
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "I",
                                                                 "rawText": "I",
@@ -638,7 +638,7 @@ function processArgs<A1: {}, A2: {}>(
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "R",
                                                                 "rawText": "R",
@@ -701,7 +701,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "S",
                                                         "rawText": "S",
@@ -741,7 +741,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "A1",
                                                         "rawText": "A1",
@@ -781,7 +781,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "C",
                                                         "rawText": "C",
@@ -821,7 +821,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "I",
                                                         "rawText": "I",
@@ -851,7 +851,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "Promise",
                                                 "rawText": "Promise",
@@ -870,7 +870,7 @@ function processArgs<A1: {}, A2: {}>(
                                                             "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 144,
-                                                                "id": {
+                                                                "name": {
                                                                     "kind": 134299649,
                                                                     "text": "R",
                                                                     "rawText": "R",
@@ -1052,7 +1052,7 @@ function processArgs<A1: {}, A2: {}>(
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Resolver",
                                                     "rawText": "Resolver",
@@ -1071,7 +1071,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "S",
                                                                         "rawText": "S",
@@ -1094,7 +1094,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "A2",
                                                                         "rawText": "A2",
@@ -1117,7 +1117,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "C",
                                                                         "rawText": "C",
@@ -1140,7 +1140,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "I",
                                                                         "rawText": "I",
@@ -1163,7 +1163,7 @@ function processArgs<A1: {}, A2: {}>(
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "R",
                                                                         "rawText": "R",
@@ -1214,7 +1214,7 @@ function processArgs<A1: {}, A2: {}>(
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "Resolver",
                                         "rawText": "Resolver",
@@ -1233,7 +1233,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "S",
                                                             "rawText": "S",
@@ -1256,7 +1256,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "A1",
                                                             "rawText": "A1",
@@ -1279,7 +1279,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "C",
                                                             "rawText": "C",
@@ -1302,7 +1302,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "I",
                                                             "rawText": "I",
@@ -1325,7 +1325,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "R",
                                                             "rawText": "R",
@@ -1474,7 +1474,7 @@ function processArgs<A1: {}, A2: {}>(
 
 ```javascript
 
-function  <A1: , A2:  >processArgs(process):  {
+function  <A1: , A2:  >processArgs():  {
   return  (resolver) =>  (src, args, appContext, info) =>
     resolver(src, process(args), appContext, info);
 }

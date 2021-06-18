@@ -45,9 +45,9 @@ function a(f: { (): string; (x: number): string }): string {
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -305,7 +305,7 @@ function a(f: { (): string; (x: number): string }): string {
 
 ```javascript
 
-function a(f): string {
+function a(): string {
   return  f() + f(123);
 }
 ```

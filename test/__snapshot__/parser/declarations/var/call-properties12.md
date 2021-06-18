@@ -52,7 +52,7 @@ var z : Object = function (x: number): string { return "hi"; };
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "Object",
                                     "rawText": "Object",
@@ -81,9 +81,9 @@ var z : Object = function (x: number): string { return "hi"; };
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -201,7 +201,7 @@ var z : Object = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var z:  = function (x): string {
+var z:  = function (): string {
   return  "\"hi\"";
 };
 ```

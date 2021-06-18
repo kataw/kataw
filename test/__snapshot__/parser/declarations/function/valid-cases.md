@@ -97,9 +97,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -140,9 +140,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "end": 27
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 27,
@@ -273,9 +273,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 58
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -384,9 +384,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 86
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -571,9 +571,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 150
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": {
@@ -765,9 +765,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 206
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -930,9 +930,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 250
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -1098,9 +1098,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 302
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -1274,9 +1274,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 350
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -1464,9 +1464,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 399
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -1652,9 +1652,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 449
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -1834,9 +1834,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 495
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -2008,9 +2008,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 553
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -2207,9 +2207,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 601
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -2294,9 +2294,9 @@ function f({x:arg = (arg = 2)}) {}
                                             "generatorToken": null,
                                             "name": null,
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 626,
@@ -2441,9 +2441,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 661
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -2645,9 +2645,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 714
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -2852,9 +2852,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 775
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": {
@@ -3035,9 +3035,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 830
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -3214,9 +3214,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 883
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -3382,9 +3382,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 931
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -3550,9 +3550,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 992
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "arg",
@@ -3768,9 +3768,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 1054
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 212,
                         "propertyList": {
@@ -3934,9 +3934,9 @@ function f({x:arg = (arg = 2)}) {}
                 "end": 1097
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 212,
                         "propertyList": {
@@ -4048,115 +4048,107 @@ function f({x:arg = (arg = 2)}) {}
 
 ```javascript
 
-function f(arg) {
+function f() {
   function h() {
     g(arg);
   }
   h();
 }
-function f(arg = 1) {
+function f() {
   g(arg);
 }
-function f(arg, arguments) {
+function f() {
   g(arg);
    = 42;
   g(arg);
 }
-function f(...arg) {
+function f() {
   g(arg);
    = 42;
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   arg = 42;
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   eval("'arg = 42'");
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   var arg = 42;
   g(arg);
 }
-function f(arg, x = 1) {
+function f() {
   g(arg);
   arg = 42;
   g(arg);
 }
-function f(arg, ...x) {
+function f() {
   g(arg);
   arg = 42;
   g(arg);
 }
-function f(arg = 1) {
+function f() {
   g(arg);
   arg = 42;
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   arg = 42;
   g(arg);
 }
-function f(arg, {
-    a = (g(arg), arg = 42)
-  }) {
+function f() {
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   g(function () {
     arg = 42;
   });
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   g(() =>  arg = 42);
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   g(() =>  eval("'arg = 42'"));
   g(arg);
 }
-function f(...arg) {
+function f() {
   g(arg);
   eval("'arg = 42'");
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
    = 42;
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   h(arguments);
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   eval("'arguments[0] = 42'");
   g(arg);
 }
-function f(arg) {
+function f() {
   g(arg);
   g(() =>   = 42);
   g(arg);
 }
-function f({
-    x: arg = 1
-  }, {
-    y: b = (arg = 2)
-  }) {}
-function f({
-  x: arg = (arg = 2)
-}) {}
+function f() {}
+function f() {}
 ```
 
 ### Diagnostics

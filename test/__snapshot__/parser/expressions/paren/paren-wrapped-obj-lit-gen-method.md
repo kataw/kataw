@@ -81,7 +81,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 10,
@@ -178,7 +178,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 26,
@@ -275,7 +275,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 42,
@@ -372,7 +372,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
                                                 "start": 63,
@@ -420,7 +420,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 72,
@@ -512,7 +512,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 87,
@@ -565,7 +565,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
                                                 "start": 102,
@@ -662,7 +662,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
                                                 "start": 125,
@@ -765,7 +765,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
                                                 "start": 148,
@@ -857,7 +857,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 163,
@@ -910,7 +910,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 173,
@@ -1007,7 +1007,7 @@ x({*foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 189,
@@ -1074,15 +1074,15 @@ x({*foo(){}});
 
 ```javascript
 
-x({ * [foo]() {} });
-x({ * get() {} });
-x({ * 123() {} });
-x({ async foo() {}, bar() {} });
-x({ foo() {}, async bar() {} });
-x({ async "\"foo\""() {} });
-x({ async [foo]() {} });
-x({ foo() {}, * bar() {} });
-x({ * foo() {} });
+x({ * [foo] {} });
+x({ * get {} });
+x({ * 123 {} });
+x({ async foo {}, bar {} });
+x({ foo {}, async bar {} });
+x({ async "\"foo\"" {} });
+x({ async [foo] {} });
+x({ foo {}, * bar {} });
+x({ * foo {} });
 ```
 
 ### Diagnostics

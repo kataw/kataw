@@ -104,9 +104,9 @@ var await; var f = (async function() { async function g(){let x = async function
                                 "generatorToken": null,
                                 "name": null,
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 34,
@@ -143,9 +143,9 @@ var await; var f = (async function() { async function g(){let x = async function
                                                     "end": 55
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 55,
@@ -204,9 +204,9 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                     "end": 82
                                                                                 },
                                                                                 "typeParameters": null,
-                                                                                "formalParameters": {
+                                                                                "formalParameterList": {
                                                                                     "kind": 214,
-                                                                                    "formalParameterList": [
+                                                                                    "formalParameters": [
                                                                                         {
                                                                                             "kind": 281,
                                                                                             "ellipsisToken": null,

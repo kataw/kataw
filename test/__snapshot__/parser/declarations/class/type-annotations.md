@@ -191,7 +191,7 @@ class Array { concat(items:number | string) {}; }
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -399,7 +399,7 @@ class Array { concat(items:number | string) {}; }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -525,7 +525,7 @@ class Array { concat(items:number | string) {}; }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -664,7 +664,7 @@ class Array { concat(items:number | string) {}; }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 212,
@@ -796,7 +796,7 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 251,
@@ -1126,7 +1126,7 @@ class Array { concat(items:number | string) {}; }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -1238,16 +1238,16 @@ class Foo4 {}
 class Foo5  {}
 class Foo6  {}
 class Foo1 {
-  set fooProp(value) {}
+  set fooProp {}
 }
 class Foo2 {
-  set fooProp(value) {}
+  set fooProp {}
 }
 class Foo3 {
-  get fooProp() {}
+  get fooProp {}
 }
 class Foo8 {
-  "\"bar\""() {}
+  "\"bar\"" {}
 }
 class Foo10 {
   static prop1;
@@ -1262,7 +1262,7 @@ class Foo11 {
 
 }
 class Array {
-  concat(items) {}
+  concat {}
 
 }
 ```

@@ -97,7 +97,7 @@ class x{[yield](a){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "a",
@@ -163,7 +163,7 @@ class x{[yield](a){}}
 ```javascript
 
 class x {
-  [yield](a) {}
+  [yield] {}
 }
 ```
 

@@ -71,7 +71,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 34,
@@ -124,7 +124,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -267,7 +267,7 @@
 
 ```javascript
 
-({ __proto__: null, get __proto__() {}, set __proto__(x) {} });
+({ __proto__: null, get __proto__ {}, set __proto__ {} });
 ({ 1: "\"__proto__\"", 1: "\"__proto__\"" });
 ```
 

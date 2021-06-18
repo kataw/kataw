@@ -35,9 +35,9 @@ function fn(yield) {}
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "yield",
@@ -85,7 +85,7 @@ function fn(yield) {}
 
 ```javascript
 
-function fn(yield) {}
+function fn() {}
 ```
 
 ### Diagnostics

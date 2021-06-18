@@ -52,9 +52,9 @@ declare function three(value :mixed) :boolean;
                 "end": 20
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -142,9 +142,9 @@ declare function three(value :mixed) :boolean;
                 "end": 63
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -232,9 +232,9 @@ declare function three(value :mixed) :boolean;
                 "end": 108
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -253,7 +253,7 @@ declare function three(value :mixed) :boolean;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "mixed",
                                     "rawText": "mixed",
@@ -320,9 +320,9 @@ declare function three(value :mixed) :boolean;
 
 ```javascript
 
-function one(value): false;
-function two(value): false;
-function three(value): boolean;
+function one(): false;
+function two(): false;
+function three(): boolean;
 
 ```
 

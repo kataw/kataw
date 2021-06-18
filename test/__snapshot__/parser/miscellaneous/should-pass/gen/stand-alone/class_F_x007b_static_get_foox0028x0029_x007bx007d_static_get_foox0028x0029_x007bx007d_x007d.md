@@ -80,7 +80,7 @@ class F { static get foo() {} static get foo() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 25,
@@ -141,7 +141,7 @@ class F { static get foo() {} static get foo() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 45,
@@ -198,8 +198,8 @@ class F { static get foo() {} static get foo() {} }
 ```javascript
 
 class F {
-  static get static foo() {}
-  static get static foo() {}
+  static get static foo {}
+  static get static foo {}
 }
 ```
 

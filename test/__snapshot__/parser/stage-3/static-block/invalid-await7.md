@@ -409,9 +409,9 @@ class C {
                                                         "end": 408
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 408,
@@ -508,9 +508,9 @@ class C {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 606,

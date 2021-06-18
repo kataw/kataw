@@ -101,7 +101,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 28,
@@ -143,7 +143,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "Array",
                                                                         "rawText": "Array",
@@ -165,7 +165,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                         "types": [
                                                                                             {
                                                                                                 "kind": 144,
-                                                                                                "id": {
+                                                                                                "name": {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "Tag",
                                                                                                     "rawText": "Tag",
@@ -267,7 +267,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "Array",
                                                                         "rawText": "Array",
@@ -289,7 +289,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                         "types": [
                                                                                             {
                                                                                                 "kind": 144,
-                                                                                                "id": {
+                                                                                                "name": {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "Tag",
                                                                                                     "rawText": "Tag",
@@ -419,7 +419,7 @@ var stringArr:Array<string> = ['a','b'];
                     "types": [
                         {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "Tag_",
                                 "rawText": "Tag_",
@@ -498,7 +498,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 177,
@@ -540,7 +540,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "Array",
                                                                         "rawText": "Array",
@@ -559,7 +559,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                     "bitwiseAndToken": null,
                                                                                     "type": {
                                                                                         "kind": 144,
-                                                                                        "id": {
+                                                                                        "name": {
                                                                                             "kind": 134299649,
                                                                                             "text": "Node",
                                                                                             "rawText": "Node",
@@ -672,7 +672,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "Array",
                                                                         "rawText": "Array",
@@ -691,7 +691,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                     "bitwiseAndToken": null,
                                                                                     "type": {
                                                                                         "kind": 144,
-                                                                                        "id": {
+                                                                                        "name": {
                                                                                             "kind": 134299649,
                                                                                             "text": "Node",
                                                                                             "rawText": "Node",
@@ -890,7 +890,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 315,
@@ -1032,7 +1032,7 @@ var stringArr:Array<string> = ['a','b'];
                                         },
                                         {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "C",
                                                 "rawText": "C",
@@ -1087,7 +1087,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -1106,7 +1106,7 @@ var stringArr:Array<string> = ['a','b'];
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "C",
                                                         "rawText": "C",
@@ -1149,7 +1149,7 @@ var stringArr:Array<string> = ['a','b'];
                                             },
                                             {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "C",
                                                     "rawText": "C",
@@ -1314,7 +1314,7 @@ var stringArr:Array<string> = ['a','b'];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -1446,7 +1446,7 @@ var stringArr:Array<string> = ['a','b'];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -1550,14 +1550,14 @@ var stringArr:Array<string> = ['a','b'];
 ```javascript
 
 class Tag {
-  constructor() {
+  constructor {
     var a1:  = [];
     var a2:  = a1;
   }
 }
 
 class Tag_ {
-  constructor() {
+  constructor {
     var a1:  = [new  Tag_()];
     var a2:  = a1;
   }
@@ -1565,14 +1565,14 @@ class Tag_ {
 class C {
   x;
 
-  constructor() {
+  constructor {
     this.x = null;
   }
 }
 class D {
   content;
 
-  copyContent(content) {
+  copyContent {
     this.content = content;
     return  this.content;
   }

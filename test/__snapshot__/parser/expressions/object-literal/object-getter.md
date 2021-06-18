@@ -70,7 +70,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 9,
@@ -123,7 +123,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 18,
@@ -221,7 +221,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 34,
@@ -280,7 +280,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 49,
@@ -383,7 +383,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 69,
@@ -486,7 +486,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 89,
@@ -545,7 +545,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 104,
@@ -642,7 +642,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 122,
@@ -739,7 +739,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 140,
@@ -792,7 +792,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 153,
@@ -889,7 +889,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 173,
@@ -986,7 +986,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 189,
@@ -1083,7 +1083,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 212,
@@ -1180,7 +1180,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 232,
@@ -1277,7 +1277,7 @@ x({get 0o4567(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 253,
@@ -1344,17 +1344,17 @@ x({get 0o4567(){}});
 
 ```javascript
 
-x({ * foo() {}, * bar() {} });
-x({ [foo]() {}, get [bar]() {} });
-x({ get [foo]() {} });
-x({ get [foo]() {}, get [bar]() {} });
-x({ get foo() {} });
-x({ get foo() {}, get bar() {} });
-x({ get "\"foo\""() {} });
-x({ get 1() {} });
-x({ get 0x234241() {} });
-x({ get 0b001() {} });
-x({ get 0o4567() {} });
+x({ * foo {}, * bar {} });
+x({ [foo] {}, get [bar] {} });
+x({ get [foo] {} });
+x({ get [foo] {}, get [bar] {} });
+x({ get foo {} });
+x({ get foo {}, get bar {} });
+x({ get "\"foo\"" {} });
+x({ get 1 {} });
+x({ get 0x234241 {} });
+x({ get 0b001 {} });
+x({ get 0o4567 {} });
 ```
 
 ### Diagnostics

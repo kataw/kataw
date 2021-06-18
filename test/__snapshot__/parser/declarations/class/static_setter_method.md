@@ -91,7 +91,7 @@ class A {static set 10(x){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -157,7 +157,7 @@ class A {static set 10(x){}}
 ```javascript
 
 class A {
-  static set static 10(x) {}
+  static set static 10 {}
 }
 ```
 

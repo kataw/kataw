@@ -80,7 +80,7 @@ class x {async * enum(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 22,
@@ -137,7 +137,7 @@ class x {async * enum(){}}
 ```javascript
 
 class x {
-  async enum() {}
+  async enum {}
 }
 ```
 

@@ -1727,9 +1727,9 @@
                                     "generatorToken": null,
                                     "name": null,
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 366,
@@ -2863,7 +2863,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
                                         "start": 620,
@@ -2943,7 +2943,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
                                         "start": 640,
@@ -3029,7 +3029,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
                                         "start": 664,
@@ -3109,7 +3109,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 684,
@@ -3189,7 +3189,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "b",
@@ -3284,7 +3284,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "d",
@@ -3951,12 +3951,12 @@
 ({ ... } = (x) = (y));
 ({ ... } = x);
 ({ ... } = x);
-({ async x() {} });
-({ async x() {} });
-({ async [foo]() {} });
-({ get 500() {} });
-({ set 500(b) {} });
-({ set [foo](d) {} });
+({ async x {} });
+({ async x {} });
+({ async [foo] {} });
+({ get 500 {} });
+({ set 500 {} });
+({ set [foo] {} });
 ({ ... } = {});
 ({ ...{ b: 0 }.x } = {});
 ([] = x);

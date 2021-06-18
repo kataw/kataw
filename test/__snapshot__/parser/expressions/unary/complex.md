@@ -71,9 +71,9 @@ function x8(a: false & false): false {
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -196,9 +196,9 @@ function x8(a: false & false): false {
                 "end": 96
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -321,9 +321,9 @@ function x8(a: false & false): false {
                 "end": 184
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -433,9 +433,9 @@ function x8(a: false & false): false {
                 "end": 265
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -558,9 +558,9 @@ function x8(a: false & false): false {
                 "end": 342
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -579,7 +579,7 @@ function x8(a: false & false): false {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -726,9 +726,9 @@ function x8(a: false & false): false {
                 "end": 398
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -747,7 +747,7 @@ function x8(a: false & false): false {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -894,9 +894,9 @@ function x8(a: false & false): false {
                 "end": 473
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -1039,9 +1039,9 @@ function x8(a: false & false): false {
                 "end": 534
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -1178,35 +1178,35 @@ function x8(a: false & false): false {
 
 ```javascript
 
-function x0(y): number {
+function x0(): number {
   return  +y; // ok, + exists solely for coercion
 
 }
-function x1(y): number {
+function x1(): number {
   return  -y; // error, we don't allow coercion here
 
 }
-function x3(y) {
+function x3() {
   return  ~y; // error, we don't allow coercion here
 
 }
-function x4(y): boolean {
+function x4(): boolean {
   return  !y; // ok, coercion is allowed
 
 }
-function x5(a): true {
+function x5(): true {
   return  !a; // ok
 
 }
-function x6(a): false {
+function x6(): false {
   return  !a; // error, true ~> false
 
 }
-function x7(a): true {
+function x7(): true {
   return  !a; // ok
 
 }
-function x8(a): false {
+function x8(): false {
   return  !a; // error, true ~> false
 
 }

@@ -85,7 +85,7 @@ class x {static async * catch(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 30,
@@ -142,7 +142,7 @@ class x {static async * catch(){}}
 ```javascript
 
 class x {
-  async static static catch() {}
+  async static static catch {}
 }
 ```
 

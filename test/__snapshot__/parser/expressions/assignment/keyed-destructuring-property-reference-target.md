@@ -125,9 +125,9 @@ function targetKey() {
                 "end": 31
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 31,
@@ -227,7 +227,7 @@ function targetKey() {
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 1057,
                                                     "start": 87,
@@ -356,9 +356,9 @@ function targetKey() {
                 "end": 154
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 154,
@@ -458,7 +458,7 @@ function targetKey() {
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [
+                                                    "formalParameters": [
                                                         {
                                                             "kind": 134299649,
                                                             "text": "v",
@@ -596,9 +596,9 @@ function targetKey() {
                 "end": 281
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 281,
@@ -697,9 +697,9 @@ function targetKey() {
                                                 "generatorToken": null,
                                                 "name": null,
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 353,
@@ -848,9 +848,9 @@ function targetKey() {
                 "end": 464
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 464,
@@ -949,9 +949,9 @@ function targetKey() {
                                                 "generatorToken": null,
                                                 "name": null,
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 536,
@@ -1243,13 +1243,13 @@ function targetKey() {
 var log = [];
 function source() {
   log.push("\"source\"");
-  return  { get p() {
+  return  { get p {
       log.push("\"get\"");
     } };
 }
 function target() {
   log.push("\"target\"");
-  return  { set q(v) {
+  return  { set q {
       log.push("\"set\"");
     } };
 }

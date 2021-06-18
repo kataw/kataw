@@ -81,7 +81,7 @@ let one = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 281,
                                                         "ellipsisToken": null,
@@ -161,7 +161,7 @@ let one = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 281,
                                                         "ellipsisToken": null,
@@ -249,7 +249,7 @@ let one = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 281,
                                                         "ellipsisToken": null,
@@ -352,7 +352,7 @@ let one = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 281,
                                                         "ellipsisToken": null,
@@ -501,7 +501,7 @@ let one = {
                                             },
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 281,
                                                         "ellipsisToken": null,
@@ -520,7 +520,7 @@ let one = {
                                                             "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 144,
-                                                                "id": {
+                                                                "name": {
                                                                     "kind": 134299649,
                                                                     "text": "T",
                                                                     "rawText": "T",
@@ -608,13 +608,7 @@ let one = {
 
 ```javascript
 
-let one = {
-  m1(this) {},
-  m2(this, a) {},
-  m3(this, ...a) {},
-  m4(this, a, b, ...c) {},
-  m5(this) {}
-};
+let one = { m1 {}, m2 {}, m3 {}, m4 {}, m5 {} };
 ```
 
 ### Diagnostics

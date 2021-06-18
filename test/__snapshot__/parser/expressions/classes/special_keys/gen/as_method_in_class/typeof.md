@@ -70,7 +70,7 @@ class x {typeof(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 16,
@@ -127,7 +127,7 @@ class x {typeof(){}}
 ```javascript
 
 class x {
-  typeof() {}
+  typeof {}
 }
 ```
 

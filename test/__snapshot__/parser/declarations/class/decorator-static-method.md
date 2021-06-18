@@ -70,7 +70,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 32,
@@ -127,7 +127,7 @@ class Foo {
 ```javascript
 
 class Foo {
-  static static bar() {}
+  static static bar {}
 }
 ```
 

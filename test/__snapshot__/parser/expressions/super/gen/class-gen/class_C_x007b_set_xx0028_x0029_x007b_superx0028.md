@@ -75,7 +75,7 @@ class C { *method() { class C { set x(_) { super( } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 18,
@@ -140,7 +140,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                                     "typeParameters": null,
                                                                     "formalParameters": {
                                                                         "kind": 214,
-                                                                        "formalParameterList": [
+                                                                        "formalParameters": [
                                                                             {
                                                                                 "kind": 134299649,
                                                                                 "text": "_",

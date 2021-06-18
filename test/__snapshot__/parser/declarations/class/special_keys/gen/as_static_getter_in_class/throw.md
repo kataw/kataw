@@ -80,7 +80,7 @@ class x {static get throw(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 26,
@@ -137,7 +137,7 @@ class x {static get throw(){}}
 ```javascript
 
 class x {
-  static get static throw() {}
+  static get static throw {}
 }
 ```
 

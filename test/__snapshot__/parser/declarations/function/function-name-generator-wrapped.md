@@ -42,9 +42,9 @@ function* wrap() {
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
@@ -89,7 +89,7 @@ function* wrap() {
                                                     "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 160,
                                                         "start": 32,
@@ -165,7 +165,7 @@ function* wrap() {
 ```javascript
 
 function * wrap() {
-  ({ * yield() {} });
+  ({ * yield {} });
 }
 ```
 

@@ -80,7 +80,7 @@ class x {static get implements(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 31,
@@ -137,7 +137,7 @@ class x {static get implements(){}}
 ```javascript
 
 class x {
-  static get static implements() {}
+  static get static implements {}
 }
 ```
 

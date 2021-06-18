@@ -76,7 +76,7 @@ class C { static async*#aaa(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 28,
@@ -133,7 +133,7 @@ class C { static async*#aaa(){} }
 ```javascript
 
 class C {
-  async static static #aaa() {}
+  async static static #aaa {}
 }
 ```
 

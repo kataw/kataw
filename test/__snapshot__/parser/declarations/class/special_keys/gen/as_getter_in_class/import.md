@@ -75,7 +75,7 @@ class x {get import(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 20,
@@ -132,7 +132,7 @@ class x {get import(){}}
 ```javascript
 
 class x {
-  get import() {}
+  get import {}
 }
 ```
 

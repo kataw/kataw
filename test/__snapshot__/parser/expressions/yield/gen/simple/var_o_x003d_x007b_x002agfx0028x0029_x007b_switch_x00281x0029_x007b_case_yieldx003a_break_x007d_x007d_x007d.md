@@ -76,7 +76,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 14,
@@ -213,7 +213,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 
 ```javascript
 
-var o = { * gf() {
+var o = { * gf {
     switch(1) {
       case  yield:
         break;

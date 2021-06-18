@@ -215,9 +215,9 @@ function foo8_c(x) {
                 "end": 13
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -371,9 +371,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 94,
@@ -550,9 +550,9 @@ function foo8_c(x) {
                 "end": 163
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -705,9 +705,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 244,
@@ -884,9 +884,9 @@ function foo8_c(x) {
                 "end": 311
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -1074,9 +1074,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 402,
@@ -1253,9 +1253,9 @@ function foo8_c(x) {
                 "end": 469
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -1391,9 +1391,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 548,
@@ -1570,9 +1570,9 @@ function foo8_c(x) {
                 "end": 615
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -1751,9 +1751,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 696,
@@ -1930,9 +1930,9 @@ function foo8_c(x) {
                 "end": 779
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -2164,9 +2164,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 889,
@@ -2343,9 +2343,9 @@ function foo8_c(x) {
                 "end": 956
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -2557,9 +2557,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 1054,
@@ -2776,9 +2776,9 @@ function foo8_c(x) {
                 "end": 1130
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -2968,9 +2968,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 1227,
@@ -3187,9 +3187,9 @@ function foo8_c(x) {
                 "end": 1302
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -3385,9 +3385,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 1386,
@@ -3604,9 +3604,9 @@ function foo8_c(x) {
                 "end": 1478
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -3838,9 +3838,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 1588,
@@ -4057,9 +4057,9 @@ function foo8_c(x) {
                 "end": 1680
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -4213,9 +4213,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 1765,
@@ -4392,9 +4392,9 @@ function foo8_c(x) {
                 "end": 1836
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -4547,9 +4547,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 1921,
@@ -4726,9 +4726,9 @@ function foo8_c(x) {
                 "end": 1990
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -4897,9 +4897,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 2081,
@@ -5076,9 +5076,9 @@ function foo8_c(x) {
                 "end": 2150
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -5214,9 +5214,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 2231,
@@ -5393,9 +5393,9 @@ function foo8_c(x) {
                 "end": 2300
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -5581,9 +5581,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 2389,
@@ -5760,9 +5760,9 @@ function foo8_c(x) {
                 "end": 2474
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -5975,9 +5975,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 2586,
@@ -6154,9 +6154,9 @@ function foo8_c(x) {
                 "end": 2655
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -6349,9 +6349,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 2753,
@@ -6568,9 +6568,9 @@ function foo8_c(x) {
                 "end": 2831
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -6774,9 +6774,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 2940,
@@ -6993,9 +6993,9 @@ function foo8_c(x) {
                 "end": 3017
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -7205,9 +7205,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 3113,
@@ -7424,9 +7424,9 @@ function foo8_c(x) {
                 "end": 3207
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -7639,9 +7639,9 @@ function foo8_c(x) {
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 3319,
@@ -7852,7 +7852,7 @@ function foo8_c(x) {
 
 ```javascript
 
-function foo0(x) {
+function foo0() {
   for (let of [])
     {
       let a = arguments.length;
@@ -7862,42 +7862,42 @@ function foo0(x) {
       (() =>  x + a);
     }
 }
-function foo0_1(x) {
+function foo0_1() {
   for (let in [])
     {}
 }
-function foo1(x) {
+function foo1() {
   for (let; ++x; x  < 1)
     {}
 }
-function foo2(x) {
+function foo2() {
   while (1 === 1) {}
 }
-function foo3(x) {
+function foo3() {
   do {}
   while (1 === 1);
 }
-function foo4(x) {
+function foo4() {
   for (let; ++y; y  < 1)
     {}
 }
-function foo5(x) {
+function foo5() {
   for (let; ++x; x  < 1)
     {}
 }
-function foo6(x) {
+function foo6() {
   while (1 === 1) {}
 }
-function foo7(x) {
+function foo7() {
   do {}
   while (1 === 1);
 }
-function foo8(x) {
+function foo8() {
   for (let; ++y; y  < 1)
     {}
 }
 ///=======const
-function foo0_c(x) {
+function foo0_c() {
   for (const of [])
     {
       const a = arguments.length;
@@ -7907,37 +7907,37 @@ function foo0_c(x) {
       (() =>  x + a);
     }
 }
-function foo0_1_c(x) {
+function foo0_1_c() {
   for (const in [])
     {}
 }
-function foo1_c(x) {
+function foo1_c() {
   for (const; ; x  < 1)
     {}
 }
-function foo2_c(x) {
+function foo2_c() {
   while (1 === 1) {}
 }
-function foo3_c(x) {
+function foo3_c() {
   do {}
   while (1 === 1);
 }
-function foo4_c(x) {
+function foo4_c() {
   for (const; ; y  < 1)
     {}
 }
-function foo5_c(x) {
+function foo5_c() {
   for (const; ; x  < 1)
     {}
 }
-function foo6_c(x) {
+function foo6_c() {
   while (1 === 1) {}
 }
-function foo7_c(x) {
+function foo7_c() {
   do {}
   while (1 === 1);
 }
-function foo8_c(x) {
+function foo8_c() {
   for (const; ; y  < 1)
     {}
 }

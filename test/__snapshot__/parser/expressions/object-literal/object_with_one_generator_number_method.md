@@ -59,7 +59,7 @@ wrap({*123(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 11,
@@ -126,7 +126,7 @@ wrap({*123(){}});
 
 ```javascript
 
-wrap({ * 123() {} });
+wrap({ * 123 {} });
 ```
 
 ### Diagnostics

@@ -35,9 +35,9 @@ function c(eval){ }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "eval",
@@ -85,7 +85,7 @@ function c(eval){ }
 
 ```javascript
 
-function c(eval) {}
+function c() {}
 ```
 
 ### Diagnostics

@@ -72,7 +72,7 @@ class x { async *prot\u006ftype(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 32,
@@ -129,7 +129,7 @@ class x { async *prot\u006ftype(){} }
 ```javascript
 
 class x {
-  async prototype() {}
+  async prototype {}
 }
 ```
 

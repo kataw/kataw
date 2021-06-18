@@ -75,7 +75,7 @@ class x {get in(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 16,
@@ -132,7 +132,7 @@ class x {get in(){}}
 ```javascript
 
 class x {
-  get in() {}
+  get in {}
 }
 ```
 

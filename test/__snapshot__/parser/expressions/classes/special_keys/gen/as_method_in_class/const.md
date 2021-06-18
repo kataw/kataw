@@ -70,7 +70,7 @@ class x {const(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 15,
@@ -127,7 +127,7 @@ class x {const(){}}
 ```javascript
 
 class x {
-  const() {}
+  const {}
 }
 ```
 

@@ -45,9 +45,9 @@ function foo(value: AOrString) {
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -66,7 +66,7 @@ function foo(value: AOrString) {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "AOrString",
                                     "rawText": "AOrString",
@@ -185,7 +185,7 @@ function foo(value: AOrString) {
 
 ```javascript
 
-function foo(value) {
+function foo() {
   invariant(value inctanceof B);
 }
 ```

@@ -133,7 +133,7 @@ class Foo7<T> {
                                 },
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 25,
@@ -224,7 +224,7 @@ class Foo7<T> {
 ```javascript
 
 class Foo7 {
-  bar() {
+  bar {
     return  42;
   }
 }

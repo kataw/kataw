@@ -81,9 +81,9 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                         },
                         "name": null,
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [
+                            "formalParameters": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,

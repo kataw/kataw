@@ -847,7 +847,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
                                         "start": 187,
@@ -992,7 +992,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -1084,7 +1084,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 239,
@@ -1187,7 +1187,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 259,
@@ -1240,7 +1240,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 271,
@@ -2036,7 +2036,7 @@ a = { y: x = 1 } = b;
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -2249,7 +2249,7 @@ a = { y: x = 1 } = b;
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 500,
@@ -2302,7 +2302,7 @@ a = { y: x = 1 } = b;
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 510,
@@ -2576,7 +2576,7 @@ a = { y: x = 1 } = b;
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 576,
@@ -2673,7 +2673,7 @@ a = { y: x = 1 } = b;
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 593,
@@ -3123,7 +3123,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -3333,7 +3333,7 @@ a = { y: x = 1 } = b;
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [
+                                                    "formalParameters": [
                                                         {
                                                             "kind": 134299649,
                                                             "text": "v",
@@ -3432,7 +3432,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 790,
@@ -3512,7 +3512,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 809,
@@ -3592,7 +3592,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 827,
@@ -3772,7 +3772,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 870,
@@ -3866,7 +3866,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 891,
@@ -3960,7 +3960,7 @@ a = { y: x = 1 } = b;
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -4534,11 +4534,11 @@ a = { y: x = 1 } = b;
 ({ [a]: +b });
 ({ a: +b });
 ({ async: (await) ? yield : foo });
-({ async 100() {} });
+({ async 100 {} });
 ({ key: bar = x });
-({ typeof(x, y) {} });
-({ x() {}, x: 1 });
-({ * x() {}, get x() {} });
+({ typeof {} });
+({ x {}, x: 1 });
+({ * x {}, get x {} });
 ({ "\"x\"": y + z });
 ({
   "\"x\"": [y]
@@ -4550,28 +4550,28 @@ a = { "\"b\"": c = d };
 ({ x: let });
 ({ x: let } = null);
 s = { "\"foo\"": this };
-x({ set "\"foo\""(a) {} });
+x({ set "\"foo\"" {} });
 ({ a = 42, [b]: c.d } = e);
-x({ foo() {}, * bar() {} });
+x({ foo {}, * bar {} });
 ({ ...[a, b] });
 x = { a: 1, ...y, b: 1 };
-x({ get 0x234241() {} });
-x({ get 1() {} });
+x({ get 0x234241 {} });
+x({ get 1 {} });
 ({ [left()]: y, ...x } = right());
 ({ topLeft: { x: x1, y: y1 }, bottomRight: { x: x2, y: y2 } } = rect);
 ({ y });
-({ set [0](x) {
+({ set [0] {
     super.m("\"1\"", v);
   } });
-x = { async: b }({ set foo(v) {} });
-({ * set() {} });
-({ * static() {} });
-({ * async() {} });
+x = { async: b }({ set foo {} });
+({ * set {} });
+({ * static {} });
+({ * async {} });
 ({ get: 0 });
 ({ if: 4 });
-({ * await() {} });
-x = { * "\"foo\""() {} };
-x = { set get(a) {} };
+({ * await {} });
+x = { * "\"foo\"" {} };
+x = { set get {} };
 x = { foo: typeof x };
 x = { "\"x\"": { a: y + x } };
 a = { w, a: x } = b;

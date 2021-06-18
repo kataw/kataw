@@ -82,7 +82,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 25,
@@ -220,7 +220,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
 ```javascript
 
 class x  {
-  dsda() {
+  dsda {
     return  (a = ) =>  a;
   }
 }

@@ -39,9 +39,9 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "end": 24
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,

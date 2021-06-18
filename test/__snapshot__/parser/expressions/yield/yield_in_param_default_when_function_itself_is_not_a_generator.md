@@ -40,9 +40,9 @@ function *g() { function f(x = yield) {}; }
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 11,
@@ -74,9 +74,9 @@ function *g() { function f(x = yield) {}; }
                                 "end": 26
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -162,7 +162,7 @@ function *g() { function f(x = yield) {}; }
 ```javascript
 
 function * g() {
-  function f(x = yield) {}
+  function f() {}
 
 }
 ```

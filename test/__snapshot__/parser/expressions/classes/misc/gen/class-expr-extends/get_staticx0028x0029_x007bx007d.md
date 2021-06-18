@@ -91,7 +91,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 32,
@@ -156,7 +156,7 @@
 ```javascript
 
 (class   {
-    get static() {}
+    get static {}
   });
 ```
 

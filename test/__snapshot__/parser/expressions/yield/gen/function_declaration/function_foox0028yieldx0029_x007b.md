@@ -43,9 +43,9 @@ function not_gen() { function foo(yield) { }}
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,
@@ -77,9 +77,9 @@ function not_gen() { function foo(yield) { }}
                                 "end": 33
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "yield",
@@ -142,7 +142,7 @@ function not_gen() { function foo(yield) { }}
 ```javascript
 
 function not_gen() {
-  function foo(yield) {}
+  function foo() {}
 }
 ```
 

@@ -141,7 +141,7 @@ type MyObject<A, B, C> = {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "A",
                                         "rawText": "A",
@@ -183,7 +183,7 @@ type MyObject<A, B, C> = {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
@@ -225,7 +225,7 @@ type MyObject<A, B, C> = {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "C",
                                         "rawText": "C",

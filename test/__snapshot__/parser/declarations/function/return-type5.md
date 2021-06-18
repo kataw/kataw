@@ -44,9 +44,9 @@ function x(y: | /* comment 1 */ z):
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -70,7 +70,7 @@ function x(y: | /* comment 1 */ z):
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
@@ -178,7 +178,7 @@ function x(y: | /* comment 1 */ z):
 
 ```javascript
 
-function x(y): | /* comment 2 */
+function x(): | /* comment 2 */
  {}
 ```
 

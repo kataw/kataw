@@ -108,7 +108,7 @@ let x = (y: any): ([a,[b]]) => {} => { };
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
@@ -138,7 +138,7 @@ let x = (y: any): ([a,[b]]) => {} => { };
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "b",
                                                                         "rawText": "b",

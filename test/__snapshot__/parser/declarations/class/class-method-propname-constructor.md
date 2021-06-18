@@ -64,7 +64,7 @@ class A {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 24,
@@ -121,7 +121,7 @@ class A {
 ```javascript
 
 class A {
-  constructor() {}
+  constructor {}
 }
 ```
 

@@ -68,7 +68,7 @@ var x = { *test () { yield *v } };
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 17,
@@ -168,7 +168,7 @@ var x = { *test () { yield *v } };
 
 ```javascript
 
-var x = { * test() {
+var x = { * test {
     yield * v;
   } };
 ```

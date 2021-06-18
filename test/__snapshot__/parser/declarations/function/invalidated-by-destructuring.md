@@ -35,9 +35,9 @@ function f(b, a, b, a, [fine]) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "b",
@@ -132,7 +132,7 @@ function f(b, a, b, a, [fine]) {}
 
 ```javascript
 
-function f(b, a, b, a, [fine]) {}
+function f() {}
 ```
 
 ### Diagnostics

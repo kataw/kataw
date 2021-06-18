@@ -43,9 +43,9 @@ function f() { class C { yield() { } } }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 10,
@@ -104,7 +104,7 @@ function f() { class C { yield() { } } }
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
                                                     "start": 31,
@@ -176,7 +176,7 @@ function f() { class C { yield() { } } }
 
 function f() {
   class C {
-    yield() {}
+    yield {}
   }
 }
 ```

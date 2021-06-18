@@ -57,7 +57,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 9,
@@ -95,9 +95,9 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                         "generatorToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
-                                                            "formalParameterList": [
+                                                            "formalParameters": [
                                                                 {
                                                                     "kind": 281,
                                                                     "ellipsisToken": null,

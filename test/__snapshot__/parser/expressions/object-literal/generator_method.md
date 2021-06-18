@@ -79,7 +79,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 416,
                                         "start": 20,
@@ -140,7 +140,7 @@
 
 ```javascript
 
-({ * async [ha + ha]() {} });
+({ * async [ha + ha] {} });
 ```
 
 ### Diagnostics

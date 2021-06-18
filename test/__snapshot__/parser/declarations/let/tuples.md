@@ -81,9 +81,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 281,
                                                     "ellipsisToken": null,
@@ -238,9 +238,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 281,
                                                     "ellipsisToken": null,
@@ -397,9 +397,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 281,
                                                     "ellipsisToken": null,
@@ -558,9 +558,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 487,
@@ -592,9 +592,9 @@ let tests = [
                                                             "end": 547
                                                         },
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
-                                                            "formalParameterList": [
+                                                            "formalParameters": [
                                                                 {
                                                                     "kind": 281,
                                                                     "ellipsisToken": null,
@@ -783,26 +783,26 @@ let tests = [
 
 ```javascript
 
-let tests = [function (t) {
+let tests = [function () {
     ; // error, out of bounds
 
     ; // error, out of bounds
 
   }, // toString's to an invalid index
-  function (t) {
+  function () {
     ; // error: index out of bounds
 
     ; // error: index ("1e-22") out of bounds
 
   }, // through a variable
-  function (t) {
+  function () {
     const x = 0.5;
     ; // error, not an integer
 
   }, // Return length from a function with mismatched return type.
   function () {
     // error: tuple length 2 !~> string
-    function a(x): string {
+    function a(): string {
       return  x.length;
     }
   },];

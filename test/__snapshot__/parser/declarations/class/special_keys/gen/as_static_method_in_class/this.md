@@ -75,7 +75,7 @@ class x {static this(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 21,
@@ -132,7 +132,7 @@ class x {static this(){}}
 ```javascript
 
 class x {
-  static static this() {}
+  static static this {}
 }
 ```
 

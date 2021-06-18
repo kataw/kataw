@@ -43,9 +43,9 @@ function f(argument1, [a,b,...rest]) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "argument1",
@@ -147,7 +147,7 @@ function f(argument1, [a,b,...rest]) {}
 
 ```javascript
 
-function f(argument1, [a, b, ...rest]) {}
+function f() {}
 ```
 
 ### Diagnostics

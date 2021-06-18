@@ -95,7 +95,7 @@ class C extends Base { static static() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 37,
@@ -152,7 +152,7 @@ class C extends Base { static static() {} }
 ```javascript
 
 class C  {
-  static static static() {}
+  static static static {}
 }
 ```
 

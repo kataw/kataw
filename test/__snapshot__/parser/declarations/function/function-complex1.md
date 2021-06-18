@@ -129,9 +129,9 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 "start": 10,
                 "end": 31
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -150,7 +150,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -226,7 +226,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "A",
                                                     "rawText": "A",
@@ -579,7 +579,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "Array",
                                         "rawText": "Array",
@@ -639,9 +639,9 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 "start": 168,
                 "end": 186
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -660,7 +660,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -736,7 +736,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "A",
                                                     "rawText": "A",
@@ -1136,7 +1136,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
 
 ```javascript
 
-function  <A:  [: number, : number ] >w(x, f) {
+function  <A:  [: number, : number ] >w() {
   f(...x); // nope
 
   f(42, 42, 42); // nope
@@ -1145,7 +1145,7 @@ function  <A:  [: number, : number ] >w(x, f) {
   f(42, ...x, ...x); // nope
 
 }
-function  <A:  >w2(x, f) {
+function  <A:  >w2() {
   f(...x);
   f(42, 42, 42); // nope
 

@@ -69,7 +69,7 @@ class A {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 24,
@@ -167,7 +167,7 @@ class A {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 67,
@@ -277,10 +277,10 @@ class A {
 ```javascript
 
 class A {
-  constructor() {
+  constructor {
     super.toString();
   }
-  dontDoThis() {
+  dontDoThis {
     super.makeBugs = 1;
   }
 }

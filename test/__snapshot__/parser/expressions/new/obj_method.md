@@ -54,7 +54,7 @@ foo({bar(){ new.target }})
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 9,
@@ -146,7 +146,7 @@ foo({bar(){ new.target }})
 
 ```javascript
 
-foo({ bar() {
+foo({ bar {
     new.target;
   } });
 ```

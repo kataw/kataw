@@ -80,7 +80,7 @@ class x {static async if(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 25,
@@ -137,7 +137,7 @@ class x {static async if(){}}
 ```javascript
 
 class x {
-  async static static if() {}
+  async static static if {}
 }
 ```
 

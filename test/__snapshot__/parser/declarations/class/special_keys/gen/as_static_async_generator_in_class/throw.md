@@ -85,7 +85,7 @@ class x {static async * throw(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 30,
@@ -142,7 +142,7 @@ class x {static async * throw(){}}
 ```javascript
 
 class x {
-  async static static throw() {}
+  async static static throw {}
 }
 ```
 

@@ -43,9 +43,9 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 12,
@@ -91,9 +91,9 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                                 "end": 41
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "b",
@@ -172,7 +172,7 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
 ```javascript
 
 function foo() {
-  function * a(b, c, d) {}
+  function * a() {}
 }
 ```
 

@@ -78,9 +78,9 @@ const { async = true } = x;
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 212,
                                         "propertyList": {
@@ -192,9 +192,9 @@ const { async = true } = x;
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 212,
                                         "propertyList": {
@@ -589,9 +589,9 @@ const { async = true } = x;
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 212,
                                         "propertyList": {
@@ -736,9 +736,9 @@ const { async = true } = x;
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 212,
                                         "propertyList": {
@@ -932,12 +932,8 @@ const { async = true } = x;
 
 ```javascript
 
-const a = function ({
-  async = true
-}) {};
-const b = function ({
-  async: bar
-}) {};
+const a = function () {};
+const b = function () {};
 const c = async ({
   async: bar
 }) =>  {
@@ -948,14 +944,10 @@ const d = async ({
 }) =>  {
   await baz;
 };
-const e = async function ({
-  async: bar
-}) {
+const e = async function () {
   await baz;
 };
-const f = async function ({
-  async = bar
-}) {
+const f = async function () {
   await baz;
 };
 const {

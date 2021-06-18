@@ -135,7 +135,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "T",
                         "rawText": "T",
@@ -270,7 +270,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "T",
                         "rawText": "T",
@@ -418,7 +418,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "T",
                         "rawText": "T",
@@ -469,7 +469,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Foo",
                         "rawText": "Foo",
@@ -641,7 +641,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Foo",
                         "rawText": "Foo",

@@ -75,7 +75,7 @@ class x {static enum(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 21,
@@ -132,7 +132,7 @@ class x {static enum(){}}
 ```javascript
 
 class x {
-  static static enum() {}
+  static static enum {}
 }
 ```
 

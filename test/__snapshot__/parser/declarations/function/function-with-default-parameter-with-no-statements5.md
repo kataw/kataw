@@ -36,9 +36,9 @@ function foo(x = 0) {
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -103,7 +103,7 @@ function foo(x = 0) {
 
 ```javascript
 
-function foo(x = 0) {}
+function foo() {}
 ```
 
 ### Diagnostics

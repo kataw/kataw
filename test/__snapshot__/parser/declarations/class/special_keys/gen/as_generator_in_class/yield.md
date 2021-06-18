@@ -75,7 +75,7 @@ class x {* yield(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 17,
@@ -132,7 +132,7 @@ class x {* yield(){}}
 ```javascript
 
 class x {
-  yield() {}
+  yield {}
 }
 ```
 

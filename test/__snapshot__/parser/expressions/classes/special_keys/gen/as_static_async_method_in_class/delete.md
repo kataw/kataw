@@ -80,7 +80,7 @@ class x {static async delete(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 29,
@@ -137,7 +137,7 @@ class x {static async delete(){}}
 ```javascript
 
 class x {
-  async static static delete() {}
+  async static static delete {}
 }
 ```
 

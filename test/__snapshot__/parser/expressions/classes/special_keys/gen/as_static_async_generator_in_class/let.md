@@ -85,7 +85,7 @@ class x {static async * let(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 28,
@@ -142,7 +142,7 @@ class x {static async * let(){}}
 ```javascript
 
 class x {
-  async static static let() {}
+  async static static let {}
 }
 ```
 

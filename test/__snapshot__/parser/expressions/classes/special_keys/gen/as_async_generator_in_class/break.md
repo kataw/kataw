@@ -80,7 +80,7 @@ class x {async * break(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 23,
@@ -137,7 +137,7 @@ class x {async * break(){}}
 ```javascript
 
 class x {
-  async break() {}
+  async break {}
 }
 ```
 

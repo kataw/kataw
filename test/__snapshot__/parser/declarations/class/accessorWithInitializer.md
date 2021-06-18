@@ -78,7 +78,7 @@ class C {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -165,7 +165,7 @@ class C {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -248,8 +248,8 @@ class C {
 ```javascript
 
 class C {
-  set X(v = 0) {}
-  static set static X(v2 = 0) {}
+  set X {}
+  static set static X {}
 }
 ```
 

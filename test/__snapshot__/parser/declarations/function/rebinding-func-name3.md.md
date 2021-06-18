@@ -57,7 +57,7 @@ x={f(){ var f }}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 5,
@@ -157,7 +157,7 @@ x={f(){ var f }}
 
 ```javascript
 
-x = { f() {
+x = { f {
     var f;
   } };
 ```

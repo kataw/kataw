@@ -75,7 +75,7 @@ class x {static continue(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 25,
@@ -132,7 +132,7 @@ class x {static continue(){}}
 ```javascript
 
 class x {
-  static static continue() {}
+  static static continue {}
 }
 ```
 

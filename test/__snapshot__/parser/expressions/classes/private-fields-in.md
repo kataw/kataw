@@ -106,7 +106,7 @@ class C {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 31,
@@ -161,7 +161,7 @@ class C {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 51,
@@ -217,7 +217,7 @@ class C {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "obj",
@@ -403,9 +403,9 @@ class C {
 class C {
   #brand;
 
-  #method() {}
-  get #getter() {}
-  static static isC(obj) {
+  #method {}
+  get #getter {}
+  static static isC {
     return  #brand in obj && #method in obj && #getter in obj;
   }
 }

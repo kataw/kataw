@@ -77,7 +77,7 @@ function d<X: [number, number]>(x: X): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "$ReadOnlyArray",
                                         "rawText": "$ReadOnlyArray",
@@ -137,9 +137,9 @@ function d<X: [number, number]>(x: X): X {
                 "start": 10,
                 "end": 37
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -158,7 +158,7 @@ function d<X: [number, number]>(x: X): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -254,7 +254,7 @@ function d<X: [number, number]>(x: X): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
@@ -315,7 +315,7 @@ function d<X: [number, number]>(x: X): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "$ReadOnlyArray",
                                         "rawText": "$ReadOnlyArray",
@@ -375,9 +375,9 @@ function d<X: [number, number]>(x: X): X {
                 "start": 79,
                 "end": 106
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -396,7 +396,7 @@ function d<X: [number, number]>(x: X): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -512,7 +512,7 @@ function d<X: [number, number]>(x: X): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
@@ -573,7 +573,7 @@ function d<X: [number, number]>(x: X): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "$ReadOnlyArray",
                                         "rawText": "$ReadOnlyArray",
@@ -633,9 +633,9 @@ function d<X: [number, number]>(x: X): X {
                 "start": 190,
                 "end": 217
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -654,7 +654,7 @@ function d<X: [number, number]>(x: X): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -758,7 +758,7 @@ function d<X: [number, number]>(x: X): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
@@ -873,9 +873,9 @@ function d<X: [number, number]>(x: X): X {
                 "start": 272,
                 "end": 293
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -894,7 +894,7 @@ function d<X: [number, number]>(x: X): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -1010,7 +1010,7 @@ function d<X: [number, number]>(x: X): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
@@ -1045,18 +1045,18 @@ function d<X: [number, number]>(x: X): X {
 
 ```javascript
 
-function  <X:  >a(x):  {
+function  <X:  >a():  {
   return  [...x];
 }
-function  <X:  >b(x):  {
+function  <X:  >b():  {
   return  [...x, ...x]; // nope, because X could be a tuple
 
 }
-function  <X:  >c(x):  {
+function  <X:  >c():  {
   return  [42, ...x]; // error
 
 }
-function  <X:  [: number, : number ] >d(x):  {
+function  <X:  [: number, : number ] >d():  {
   return  [...x, ...x]; // error
 
 }

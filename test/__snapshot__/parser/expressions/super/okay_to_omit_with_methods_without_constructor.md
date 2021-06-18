@@ -82,7 +82,7 @@ class x extends y { f(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 22,
@@ -139,7 +139,7 @@ class x extends y { f(){} }
 ```javascript
 
 class x  {
-  f() {}
+  f {}
 }
 ```
 

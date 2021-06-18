@@ -74,7 +74,7 @@ class C { set #arguments(test) {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "test",
@@ -140,7 +140,7 @@ class C { set #arguments(test) {} }
 ```javascript
 
 class C {
-  set #arguments(test) {}
+  set #arguments {}
 }
 ```
 

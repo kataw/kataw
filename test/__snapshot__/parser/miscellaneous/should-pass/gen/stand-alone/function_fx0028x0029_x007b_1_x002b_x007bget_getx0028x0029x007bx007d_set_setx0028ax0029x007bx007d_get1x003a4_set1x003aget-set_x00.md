@@ -43,9 +43,9 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 10,
@@ -104,7 +104,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                     "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 1056,
                                                         "start": 28,
@@ -157,7 +157,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                     "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
-                                                        "formalParameterList": [
+                                                        "formalParameters": [
                                                             {
                                                                 "kind": 134299649,
                                                                 "text": "a",
@@ -308,7 +308,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
 ```javascript
 
 function f() {
-  1 + { get get() {}, set set(a) {}, get1: 4, set1: get - set };
+  1 + { get get {}, set set {}, get1: 4, set1: get - set };
 }
 ```
 

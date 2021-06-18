@@ -75,7 +75,7 @@ class x {async set(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 19,
@@ -132,7 +132,7 @@ class x {async set(){}}
 ```javascript
 
 class x {
-  async set() {}
+  async set {}
 }
 ```
 

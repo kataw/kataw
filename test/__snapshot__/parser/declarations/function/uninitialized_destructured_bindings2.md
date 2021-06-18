@@ -57,9 +57,9 @@ var x = function({ foo }) {}
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 212,
                                         "propertyList": {
@@ -135,9 +135,7 @@ var x = function({ foo }) {}
 
 ```javascript
 
-var x = function ({
-  foo
-}) {};
+var x = function () {};
 ```
 
 ### Diagnostics

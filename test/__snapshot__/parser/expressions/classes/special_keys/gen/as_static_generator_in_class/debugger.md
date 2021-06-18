@@ -80,7 +80,7 @@ class x {static * debugger(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 27,
@@ -137,7 +137,7 @@ class x {static * debugger(){}}
 ```javascript
 
 class x {
-  static static debugger() {}
+  static static debugger {}
 }
 ```
 

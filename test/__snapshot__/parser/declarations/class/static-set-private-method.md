@@ -71,7 +71,7 @@ class C { static set #aaa(x){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -137,7 +137,7 @@ class C { static set #aaa(x){} }
 ```javascript
 
 class C {
-  static set static #aaa(x) {}
+  static set static #aaa {}
 }
 ```
 

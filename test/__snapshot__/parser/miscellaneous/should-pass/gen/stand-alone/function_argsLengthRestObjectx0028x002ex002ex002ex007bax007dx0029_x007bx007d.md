@@ -43,9 +43,9 @@ function argsLengthRestObject(...{a}) {}
                 "end": 29
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": {
@@ -123,9 +123,7 @@ function argsLengthRestObject(...{a}) {}
 
 ```javascript
 
-function argsLengthRestObject(...{
-  a
-}) {}
+function argsLengthRestObject() {}
 ```
 
 ### Diagnostics

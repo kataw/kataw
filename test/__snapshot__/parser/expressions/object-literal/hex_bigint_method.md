@@ -57,7 +57,7 @@ x = {0xeban(){}}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 12,
@@ -118,7 +118,7 @@ x = {0xeban(){}}
 
 ```javascript
 
-x = { 0xebann() {} };
+x = { 0xebann {} };
 ```
 
 ### Diagnostics

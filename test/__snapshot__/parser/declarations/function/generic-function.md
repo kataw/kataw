@@ -82,9 +82,9 @@ function from<T>(arg: any): Query<T> {
                 "start": 21,
                 "end": 24
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -129,7 +129,7 @@ function from<T>(arg: any): Query<T> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Query",
                         "rawText": "Query",
@@ -148,7 +148,7 @@ function from<T>(arg: any): Query<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -243,9 +243,9 @@ function from<T>(arg: any): Query<T> {
                 "start": 63,
                 "end": 66
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -324,7 +324,7 @@ function from<T>(arg: any): Query<T> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Query",
                         "rawText": "Query",
@@ -343,7 +343,7 @@ function from<T>(arg: any): Query<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -396,8 +396,8 @@ function from<T>(arg: any): Query<T> {
 
 ```javascript
 
-function  <T >from(arg): ;
-function  <T >from(arg):  {
+function  <T >from(): ;
+function  <T >from():  {
   return  undefined;
 }
 ```

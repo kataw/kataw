@@ -87,7 +87,7 @@ class B extends A {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 36,
@@ -255,7 +255,7 @@ class B extends A {
 ```javascript
 
 class B  {
-  constructor() {
+  constructor {
     super();
     this.initializer = this.initializer + 1;
   }

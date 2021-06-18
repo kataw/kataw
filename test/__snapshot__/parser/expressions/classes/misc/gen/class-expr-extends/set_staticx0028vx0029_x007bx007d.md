@@ -91,7 +91,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "v",
@@ -165,7 +165,7 @@
 ```javascript
 
 (class   {
-    set static(v) {}
+    set static {}
   });
 ```
 

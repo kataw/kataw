@@ -82,7 +82,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 32,
@@ -115,9 +115,9 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                     "generatorToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 50,

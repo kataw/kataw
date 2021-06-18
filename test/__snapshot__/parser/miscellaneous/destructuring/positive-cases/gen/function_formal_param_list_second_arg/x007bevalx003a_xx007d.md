@@ -43,9 +43,9 @@ function f(argument1, {eval: x}) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "argument1",
@@ -132,9 +132,7 @@ function f(argument1, {eval: x}) {}
 
 ```javascript
 
-function f(argument1, {
-    eval: x
-  }) {}
+function f() {}
 ```
 
 ### Diagnostics

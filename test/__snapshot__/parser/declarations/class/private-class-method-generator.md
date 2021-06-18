@@ -66,7 +66,7 @@ class C { *#aaa(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 16,
@@ -123,7 +123,7 @@ class C { *#aaa(){} }
 ```javascript
 
 class C {
-  #aaa() {}
+  #aaa {}
 }
 ```
 

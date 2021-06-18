@@ -80,7 +80,7 @@ class x {async * yield(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 23,
@@ -137,7 +137,7 @@ class x {async * yield(){}}
 ```javascript
 
 class x {
-  async yield() {}
+  async yield {}
 }
 ```
 

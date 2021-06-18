@@ -48,9 +48,9 @@ async function foo(a, b) { await a + await b };
                 "end": 18
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "a",
@@ -171,7 +171,7 @@ async function foo(a, b) { await a + await b };
 
 ```javascript
 
-async function foo(a, b) {
+async function foo() {
   await a + await b;
 }
 

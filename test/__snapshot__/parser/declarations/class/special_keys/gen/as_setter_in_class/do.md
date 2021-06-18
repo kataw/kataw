@@ -75,7 +75,7 @@ class x {set do(x){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -141,7 +141,7 @@ class x {set do(x){}}
 ```javascript
 
 class x {
-  set do(x) {}
+  set do {}
 }
 ```
 

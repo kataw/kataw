@@ -35,9 +35,9 @@ function w(casecase){y:j:function casecase(){}}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "casecase",
@@ -110,9 +110,9 @@ function w(casecase){y:j:function casecase(){}}
                                         "end": 42
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 42,
@@ -173,7 +173,7 @@ function w(casecase){y:j:function casecase(){}}
 
 ```javascript
 
-function w(casecase) {
+function w() {
   y: j: function casecase() {}
 }
 ```

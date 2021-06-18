@@ -55,7 +55,7 @@ await { function() {} };
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 17,
@@ -116,7 +116,7 @@ await { function() {} };
 
 ```javascript
 
-await { function() {} };
+await { function {} };
 ```
 
 ### Diagnostics

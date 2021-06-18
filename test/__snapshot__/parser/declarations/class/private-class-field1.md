@@ -207,7 +207,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 50,
@@ -329,7 +329,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -348,7 +348,7 @@ class Annotations {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "C",
                                                         "rawText": "C",
@@ -521,7 +521,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 241,
@@ -603,7 +603,7 @@ class Annotations {
                                                                                     "bitwiseAndToken": null,
                                                                                     "type": {
                                                                                         "kind": 144,
-                                                                                        "id": {
+                                                                                        "name": {
                                                                                             "kind": 134299649,
                                                                                             "text": "Outer",
                                                                                             "rawText": "Outer",
@@ -647,7 +647,7 @@ class Annotations {
                                                                                     "typeParameters": null,
                                                                                     "formalParameters": {
                                                                                         "kind": 214,
-                                                                                        "formalParameterList": [],
+                                                                                        "formalParameters": [],
                                                                                         "trailingComma": false,
                                                                                         "flags": 2048,
                                                                                         "start": 308,
@@ -1439,7 +1439,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 885,
@@ -1535,7 +1535,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 929,
@@ -1631,7 +1631,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 1000,
@@ -1729,7 +1729,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 1052,
@@ -1827,7 +1827,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 1131,
@@ -1923,7 +1923,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 1175,
@@ -2019,7 +2019,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 1256,
@@ -2116,7 +2116,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 1289,
@@ -2214,7 +2214,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 1341,
@@ -2312,7 +2312,7 @@ class Annotations {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 1430,
@@ -2419,23 +2419,23 @@ class Annotations {
 class C {
   #p;
   #q;
-  constructor() {
+  constructor {
     this.#p = 0; // in scope
 
     this.#q; // in scope
 
   }
-  test(other) {
+  test {
     other.#q; // in lexical scope, object has the property.
 
   }
 }
 class Outer {
   #outer;
-  constructor() {
+  constructor {
     var Inner = class A {
       #inner;
-      constructor() {
+      constructor {
         this.#inner = new  Outer();
         var x = new  Outer();
         x.#outer = 0; // Both inner and outer should be visible here!
@@ -2470,38 +2470,38 @@ class Annotations {
 
   static #st = "\"yay!\"";
 
-  test1() {
+  test1 {
     return  this.#p;
   }
-  test2() {
+  test2 {
     return  this.#t; // Error, string ~> number
 
   }
-  test3() {
+  test3 {
     return  Annotations.#sp;
   }
-  test4() {
+  test4 {
     return  Annotations.#st; // Error, string ~> number
 
   }
-  test5() {
+  test5 {
     return  this.#r;
   }
-  test6() {
+  test6 {
     return  this.#r; // Error, number ~> string
 
   }
-  test5And6Helper() {
+  test5And6Helper {
     this.#r = 3;
   }
-  test7() {
+  test7 {
     return  Annotations.#sr;
   }
-  test8() {
+  test8 {
     return  Annotations.#sr; // Error, number ~> string
 
   }
-  test7And9Helper() {
+  test7And9Helper {
     Annotations.#sr = 3;
   }
 }

@@ -75,7 +75,7 @@ class x {get do(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 16,
@@ -132,7 +132,7 @@ class x {get do(){}}
 ```javascript
 
 class x {
-  get do() {}
+  get do {}
 }
 ```
 

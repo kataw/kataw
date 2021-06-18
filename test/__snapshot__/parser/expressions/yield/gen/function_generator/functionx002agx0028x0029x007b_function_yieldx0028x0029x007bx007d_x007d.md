@@ -48,9 +48,9 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
@@ -82,9 +82,9 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                                 "end": 35
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 35,
@@ -121,9 +121,9 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                                                 "end": 50
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 50,
@@ -155,9 +155,9 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                                                                 "end": 68
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
                                                                 "start": 68,

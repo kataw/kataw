@@ -80,7 +80,7 @@ class x {static get set(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 24,
@@ -137,7 +137,7 @@ class x {static get set(){}}
 ```javascript
 
 class x {
-  static get static set() {}
+  static get static set {}
 }
 ```
 

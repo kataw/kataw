@@ -76,9 +76,9 @@ switch (0) { case 1: async function f() {} default: class f {} }
                                     "end": 37
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 37,

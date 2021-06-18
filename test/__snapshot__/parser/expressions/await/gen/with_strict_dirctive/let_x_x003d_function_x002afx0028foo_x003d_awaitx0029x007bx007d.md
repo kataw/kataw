@@ -79,9 +79,9 @@
                                 "end": 33
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -159,7 +159,7 @@
 
 ```javascript
 
-let x = function * f(foo = await) {};
+let x = function * f() {};
 ```
 
 ### Diagnostics

@@ -116,7 +116,7 @@ class C2<X, Y> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "X",
                                             "rawText": "X",
@@ -186,7 +186,7 @@ class C2<X, Y> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -205,7 +205,7 @@ class C2<X, Y> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -239,7 +239,7 @@ class C2<X, Y> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "X",
                                             "rawText": "X",
@@ -580,7 +580,7 @@ class C2<X, Y> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "Y",
                                                         "rawText": "Y",
@@ -644,7 +644,7 @@ class C2<X, Y> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 181,
@@ -656,7 +656,7 @@ class C2<X, Y> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "D2",
                                             "rawText": "D2",
@@ -675,7 +675,7 @@ class C2<X, Y> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "X",
                                                                 "rawText": "X",
@@ -698,7 +698,7 @@ class C2<X, Y> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "Y",
                                                                 "rawText": "Y",
@@ -816,7 +816,7 @@ class C2<X, Y> {
 ```javascript
 
 class E  {
-  set(x) {
+  set {
     this.x = x;
     if (x) {
         return  this.get_bad();
@@ -827,7 +827,7 @@ class E  {
 class C2 {
   x;
 
-  foo() {
+  foo {
     return  this.x;
   }
 }

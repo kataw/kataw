@@ -205,7 +205,7 @@ x = class {y = 1; 'z' = 2}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 41,
@@ -262,7 +262,7 @@ x = class {y = 1; 'z' = 2}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 51,
@@ -374,7 +374,7 @@ x = class {y = 1; 'z' = 2}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 75,
@@ -436,7 +436,7 @@ x = class {y = 1; 'z' = 2}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "z",
@@ -557,7 +557,7 @@ x = class {y = 1; 'z' = 2}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 114,
@@ -619,7 +619,7 @@ x = class {y = 1; 'z' = 2}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "z",
@@ -816,19 +816,19 @@ x = class  {
   "'z'" = 2;
 };
 x = class  {
-  y() {}
+  y {}
 
-  "'z'"() {}
+  "'z'" {}
 };
 x = class  {
-  get y() {}
+  get y {}
 
-  set "'z'"(z) {}
+  set "'z'" {}
 };
 x = class  {
-  get y() {}
+  get y {}
 
-  set "'z'"(z) {}
+  set "'z'" {}
 };
 x = class  {
   y = 1;

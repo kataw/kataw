@@ -48,9 +48,9 @@ function *f(x = delete ((let) = f)) {}
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -159,7 +159,7 @@ function *f(x = delete ((let) = f)) {}
 
 ```javascript
 
-function * f(x = delete ((let) = f)) {}
+function * f() {}
 ```
 
 ### Diagnostics

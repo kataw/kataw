@@ -81,7 +81,7 @@ type a = {await:y.z[][][]};
                                             "kind": 136,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 145,
                                                     "qualification": {
                                                         "kind": 134299649,
@@ -91,7 +91,7 @@ type a = {await:y.z[][][]};
                                                         "start": 16,
                                                         "end": 17
                                                     },
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "z",
                                                         "rawText": "z",

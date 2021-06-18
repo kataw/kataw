@@ -80,7 +80,7 @@ class x {static get typeof(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 27,
@@ -137,7 +137,7 @@ class x {static get typeof(){}}
 ```javascript
 
 class x {
-  static get static typeof() {}
+  static get static typeof {}
 }
 ```
 

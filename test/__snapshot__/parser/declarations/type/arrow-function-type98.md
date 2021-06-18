@@ -67,7 +67,7 @@ type a = ((x | (y)=> T)) => T;
                                 "types": [
                                     {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -90,7 +90,7 @@ type a = ((x | (y)=> T)) => T;
                                         },
                                         "arrowToken": {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "y",
                                                 "rawText": "y",
@@ -109,7 +109,7 @@ type a = ((x | (y)=> T)) => T;
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -148,7 +148,7 @@ type a = ((x | (y)=> T)) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

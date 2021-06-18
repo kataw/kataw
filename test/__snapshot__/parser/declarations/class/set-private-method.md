@@ -74,7 +74,7 @@ class C { set #aaa(x){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -140,7 +140,7 @@ class C { set #aaa(x){} }
 ```javascript
 
 class C {
-  set #aaa(x) {}
+  set #aaa {}
 }
 ```
 

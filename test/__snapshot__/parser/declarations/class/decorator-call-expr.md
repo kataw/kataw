@@ -123,7 +123,7 @@ class C2 {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 26,
@@ -181,7 +181,7 @@ class C2 {
 
 @a(b)
 class C2 {
-  method() {}
+  method {}
 }
 ```
 

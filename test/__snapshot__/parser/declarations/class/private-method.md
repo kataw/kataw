@@ -109,7 +109,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 29,
@@ -160,7 +160,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 44,
@@ -593,7 +593,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 133,
@@ -1146,7 +1146,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 265,
@@ -1706,20 +1706,20 @@ class Foo {
 
 class Foo {
   #field;
-  #method() {}
-  baseline() {
+  #method {}
+  baseline {
     a().foo;
     b().foo(x);
     c()?.(x);
     ?.(x);
   }
-  privateField() {
+  privateField {
     a().#field;
     b().#field(x);
     c()?.(x);
     (x).bar();
   }
-  privateMethod() {
+  privateMethod {
     a().#method;
     b().#method(x);
     c()?.(x);

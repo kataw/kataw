@@ -38,9 +38,9 @@ function bar(a = false) {
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -109,9 +109,9 @@ function bar(a = false) {
                 "end": 41
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -174,8 +174,8 @@ function bar(a = false) {
 
 ```javascript
 
-function foo(a = false) {}
-function bar(a = false) {}
+function foo() {}
+function bar() {}
 ```
 
 ### Diagnostics

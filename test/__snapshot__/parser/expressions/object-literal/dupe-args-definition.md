@@ -77,7 +77,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -183,7 +183,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -297,7 +297,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "b",
@@ -411,7 +411,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -525,7 +525,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "b",
@@ -670,7 +670,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "b",
@@ -809,7 +809,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "b",
@@ -946,7 +946,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 201,
                                                 "elementList": {
@@ -1075,7 +1075,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 201,
                                                 "elementList": {
@@ -1221,7 +1221,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 201,
                                                 "elementList": {
@@ -1365,7 +1365,7 @@ o = {f([b, a], b=x) {}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 201,
                                                 "elementList": {

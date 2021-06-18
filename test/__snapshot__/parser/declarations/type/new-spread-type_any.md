@@ -137,7 +137,7 @@ var o3: O3 = (0: mixed); // ok
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "O1",
                                     "rawText": "O1",
@@ -223,7 +223,7 @@ var o3: O3 = (0: mixed); // ok
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "empty",
                                 "rawText": "empty",
@@ -299,7 +299,7 @@ var o3: O3 = (0: mixed); // ok
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "Object",
                                         "rawText": "Object",
@@ -364,7 +364,7 @@ var o3: O3 = (0: mixed); // ok
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "O2",
                                     "rawText": "O2",
@@ -450,7 +450,7 @@ var o3: O3 = (0: mixed); // ok
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "empty",
                                 "rawText": "empty",
@@ -645,7 +645,7 @@ var o3: O3 = (0: mixed); // ok
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "Derived",
                                         "rawText": "Derived",
@@ -710,7 +710,7 @@ var o3: O3 = (0: mixed); // ok
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "O3",
                                     "rawText": "O3",
@@ -796,7 +796,7 @@ var o3: O3 = (0: mixed); // ok
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "empty",
                                 "rawText": "empty",

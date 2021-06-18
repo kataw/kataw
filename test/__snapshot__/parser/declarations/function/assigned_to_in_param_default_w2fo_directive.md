@@ -35,9 +35,9 @@ function e(x=eval=10){ }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -122,7 +122,7 @@ function e(x=eval=10){ }
 
 ```javascript
 
-function e(x = eval = 10) {}
+function e() {}
 ```
 
 ### Diagnostics

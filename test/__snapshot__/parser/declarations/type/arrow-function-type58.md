@@ -99,7 +99,7 @@ let a: ([-1] | x | q & (x)) => T;
                                                     },
                                                     {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",
@@ -117,7 +117,7 @@ let a: ([-1] | x | q & (x)) => T;
                                                         "types": [
                                                             {
                                                                 "kind": 144,
-                                                                "id": {
+                                                                "name": {
                                                                     "kind": 134299649,
                                                                     "text": "q",
                                                                     "rawText": "q",
@@ -134,7 +134,7 @@ let a: ([-1] | x | q & (x)) => T;
                                                                 "kind": 290,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "x",
                                                                         "rawText": "x",
@@ -177,7 +177,7 @@ let a: ([-1] | x | q & (x)) => T;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",

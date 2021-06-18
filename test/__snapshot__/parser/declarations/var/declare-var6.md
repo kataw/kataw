@@ -62,7 +62,7 @@ declare var union: Foo | null | void;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "Foo",
                                     "rawText": "Foo",
@@ -127,7 +127,7 @@ declare var union: Foo | null | void;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "mixed",
                                     "rawText": "mixed",
@@ -248,7 +248,7 @@ declare var union: Foo | null | void;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "empty",
                                     "rawText": "empty",
@@ -321,7 +321,7 @@ declare var union: Foo | null | void;
                                 },
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "Foo",
                                         "rawText": "Foo",
@@ -393,7 +393,7 @@ declare var union: Foo | null | void;
                                 "types": [
                                     {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "Foo",
                                             "rawText": "Foo",

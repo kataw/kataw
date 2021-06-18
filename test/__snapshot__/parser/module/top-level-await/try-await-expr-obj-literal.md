@@ -74,7 +74,7 @@ try {
                                                     "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 25,
@@ -185,7 +185,7 @@ try {
                                                         "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
-                                                            "formalParameterList": [],
+                                                            "formalParameters": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
                                                             "start": 65,
@@ -290,7 +290,7 @@ try {
                                                     "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 104,
@@ -365,11 +365,11 @@ try {
 ```javascript
 
 try {
-  await { function() {} };
+  await { function {} };
 } catch (e) {
-  await { function() {} };
+  await { function {} };
 } try{
-  await { function() {} };
+  await { function {} };
 }
 ```
 

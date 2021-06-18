@@ -62,7 +62,7 @@ class c {foo(eval){ "use strict"; }}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "eval",
@@ -137,7 +137,7 @@ class c {foo(eval){ "use strict"; }}
 ```javascript
 
 class c {
-  foo(eval) {}
+  foo {}
 }
 ```
 

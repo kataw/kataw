@@ -61,7 +61,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 416,
                                         "start": 16,
@@ -104,9 +104,9 @@
                                                         "end": 39
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [
+                                                        "formalParameters": [
                                                             {
                                                                 "kind": 134299649,
                                                                 "text": "yield",

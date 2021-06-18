@@ -59,7 +59,7 @@ x({async foo(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
                                                 "start": 13,
@@ -126,7 +126,7 @@ x({async foo(){}});
 
 ```javascript
 
-x({ async foo() {} });
+x({ async foo {} });
 ```
 
 ### Diagnostics

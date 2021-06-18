@@ -55,7 +55,7 @@ type X = (x);
                     "kind": 290,
                     "type": {
                         "kind": 144,
-                        "id": {
+                        "name": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",

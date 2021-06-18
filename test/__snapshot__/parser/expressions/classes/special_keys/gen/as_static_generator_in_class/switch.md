@@ -80,7 +80,7 @@ class x {static * switch(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 25,
@@ -137,7 +137,7 @@ class x {static * switch(){}}
 ```javascript
 
 class x {
-  static static switch() {}
+  static static switch {}
 }
 ```
 

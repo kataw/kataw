@@ -53,7 +53,7 @@ let x: T[K];
                                 "kind": 311,
                                 "objectType": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "T",
                                         "rawText": "T",
@@ -72,7 +72,7 @@ let x: T[K];
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "K",
                                             "rawText": "K",

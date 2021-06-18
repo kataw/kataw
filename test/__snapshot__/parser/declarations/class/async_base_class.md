@@ -104,7 +104,7 @@ async function foo() {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "Promise",
                                     "rawText": "Promise",
@@ -123,7 +123,7 @@ async function foo() {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "Class",
                                                         "rawText": "Class",
@@ -142,7 +142,7 @@ async function foo() {
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "id": {
+                                                                        "name": {
                                                                             "kind": 134299649,
                                                                             "text": "C",
                                                                             "rawText": "C",
@@ -226,9 +226,9 @@ async function foo() {
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "resolve",
@@ -356,9 +356,9 @@ async function foo() {
                 "end": 118
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 118,
@@ -494,7 +494,7 @@ async function foo() {
 ```javascript
 
 class C {}
-var P:  = new  Promise(function (resolve, reject) {
+var P:  = new  Promise(function () {
   resolve(C);
 });
 async function foo() {

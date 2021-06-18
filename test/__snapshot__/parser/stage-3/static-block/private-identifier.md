@@ -109,7 +109,7 @@ class C {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 37,
@@ -277,7 +277,7 @@ class C {
 class C {
   static #_;
 
-  constructor() {
+  constructor {
     class D {
 
     }

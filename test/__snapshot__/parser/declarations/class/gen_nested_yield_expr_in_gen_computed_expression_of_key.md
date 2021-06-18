@@ -48,9 +48,9 @@ function *f(){  class x{*[yield](a){}}  }
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 11,
@@ -127,7 +127,7 @@ function *f(){  class x{*[yield](a){}}  }
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [
+                                                    "formalParameters": [
                                                         {
                                                             "kind": 134299649,
                                                             "text": "a",
@@ -208,7 +208,7 @@ function *f(){  class x{*[yield](a){}}  }
 
 function * f() {
   class x {
-    [ yield](a) {}
+    [ yield] {}
   }
 }
 ```

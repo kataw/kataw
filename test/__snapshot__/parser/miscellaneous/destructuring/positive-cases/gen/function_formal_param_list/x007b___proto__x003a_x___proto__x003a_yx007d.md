@@ -43,9 +43,9 @@ function f({ __proto__: x, __proto__: y}) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 212,
                         "propertyList": {
@@ -148,10 +148,7 @@ function f({ __proto__: x, __proto__: y}) {}
 
 ```javascript
 
-function f({
-  __proto__: x,
-  __proto__: y
-}) {}
+function f() {}
 ```
 
 ### Diagnostics

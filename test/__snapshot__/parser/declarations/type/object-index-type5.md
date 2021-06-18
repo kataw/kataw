@@ -70,7 +70,7 @@ type x = { [|a]:string }
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",

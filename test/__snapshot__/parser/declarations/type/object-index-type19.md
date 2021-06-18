@@ -43,9 +43,9 @@ function method(obj: { [key: string]: any }) {}
                 "end": 15
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -163,7 +163,7 @@ function method(obj: { [key: string]: any }) {}
 
 ```javascript
 
-function method(obj) {}
+function method() {}
 ```
 
 ### Diagnostics

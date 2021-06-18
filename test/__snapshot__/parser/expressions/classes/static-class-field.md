@@ -438,7 +438,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 116,
@@ -582,7 +582,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 151,
@@ -727,7 +727,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 189,
@@ -1048,7 +1048,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 270,
@@ -1185,7 +1185,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 301,
@@ -1323,7 +1323,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 335,
@@ -1677,7 +1677,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 439,
@@ -1827,7 +1827,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 478,
@@ -1978,7 +1978,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 520,
@@ -2317,7 +2317,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 613,
@@ -2460,7 +2460,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 648,
@@ -2604,7 +2604,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 686,
@@ -3624,7 +3624,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1044,
@@ -4399,7 +4399,7 @@ a});
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1339,
@@ -4635,17 +4635,17 @@ class x {
 (class C {
     static a = 0;
 
-    b() {}
+    b {}
   });
 (class C {
     static a = 0;
 
-    b() {}
+    b {}
   });
 (class C {
     static a = 0;
 
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 (class C {
     static a;
@@ -4660,17 +4660,17 @@ class x {
 (class C {
     static a;
 
-    b() {}
+    b {}
   });
 (class C {
     static a;
 
-    b() {}
+    b {}
   });
 (class C {
     static a;
 
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 (class C {
     static ["'a'"] = 0;
@@ -4684,17 +4684,17 @@ class x {
 (class C {
     static ["'a'"] = 0;
 
-    b() {}
+    b {}
   });
 (class C {
     static ["'a'"] = 0;
 
-    b() {}
+    b {}
   });
 (class C {
     static ["'a'"] = 0;
 
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 (class C {
     static ["'a'"];
@@ -4709,17 +4709,17 @@ class x {
 (class C {
     static ["'a'"];
 
-    b() {}
+    b {}
   });
 (class C {
     static ["'a'"];
 
-    b() {}
+    b {}
   });
 (class C {
     static ["'a'"];
 
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 (class   {
     static 0 = 0;
@@ -4760,7 +4760,7 @@ class x {
   });
 (class C {
     static async;
-    a() {}
+    a {}
   }); // a field named async, and a method named a.
 
 (class C {
@@ -4791,7 +4791,7 @@ class x {
   });
 (class  {
     static a = 0;
-    b() {}
+    b {}
   });
 (class  {
     static a;

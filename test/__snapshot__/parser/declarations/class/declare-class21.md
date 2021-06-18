@@ -87,7 +87,7 @@ declare class B {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",

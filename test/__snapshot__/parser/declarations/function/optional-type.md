@@ -43,9 +43,9 @@ function f([]?, {}) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -128,7 +128,7 @@ function f([]?, {}) {}
 
 ```javascript
 
-function f([]?, {}) {}
+function f() {}
 ```
 
 ### Diagnostics

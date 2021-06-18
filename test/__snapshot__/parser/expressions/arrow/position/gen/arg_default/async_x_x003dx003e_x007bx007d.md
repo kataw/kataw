@@ -43,9 +43,9 @@ function f(a = async x => {}) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -144,7 +144,7 @@ function f(a = async x => {}) {}
 
 ```javascript
 
-function f(a = async x =>  {}) {}
+function f() {}
 ```
 
 ### Diagnostics

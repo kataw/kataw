@@ -94,7 +94,7 @@ class C extends Base { set #await(test) {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "test",
@@ -160,7 +160,7 @@ class C extends Base { set #await(test) {} }
 ```javascript
 
 class C  {
-  set #await(test) {}
+  set #await {}
 }
 ```
 

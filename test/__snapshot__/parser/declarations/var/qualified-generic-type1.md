@@ -52,7 +52,7 @@ var a : A.B
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 145,
                                     "qualification": {
                                         "kind": 134299649,
@@ -62,7 +62,7 @@ var a : A.B
                                         "start": 7,
                                         "end": 9
                                     },
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
