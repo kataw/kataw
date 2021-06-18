@@ -1,6 +1,6 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 
-export const enum UniqueIdentifierFlags {
+export enum UniqueIdentifierFlags {
   None = 0,
   Auto = 1,
   Loop = 2,

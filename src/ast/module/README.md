@@ -18,7 +18,7 @@ An import declaration, e.g., `import foo from 'mod;`.
 ### ImportClause
 
 ```js
-interface ImportClause <: Node {
+interface ImportClause <: SyntaxNode {
   kind: NodeKind.ImportClause;
   defaultBinding: Identifier | null;
   nameSpaceImport: Identifier | null;
@@ -29,7 +29,7 @@ interface ImportClause <: Node {
 ### NamedImports
 
 ```js
-interface NamedImports <: Node {
+interface NamedImports <: SyntaxNode {
   kind: NodeKind.NamedImports;
   importsList: ImportsList
 }
@@ -38,7 +38,7 @@ interface NamedImports <: Node {
 ### ImportsList
 
 ```js
-interface ImportsList <: Node {
+interface ImportsList <: SyntaxNode {
   kind: NodeKind.ImportDeclaration;
   specifiers: [ ImportSpecifier ]
 }
@@ -47,7 +47,7 @@ interface ImportsList <: Node {
 ### ImportSpecifier
 
 ```js
-interface ImportSpecifier <: Node {
+interface ImportSpecifier <: SyntaxNode {
   kind: NodeKind.ImportSpecifier;
   typeKeyword: SyntaxToken<TokenSyntaxKind> | null;
   name: Identifier | null;
@@ -60,7 +60,7 @@ interface ImportSpecifier <: Node {
 ### ExportDeclaration
 
 ```js
-interface ExportDeclaration <: Node {
+interface ExportDeclaration <: SyntaxNode {
   kind: NodeKind.ExportDeclaration;
   exportKeyword: SyntaxToken<TokenSyntaxKind>;
   declaration: AssignmentExpression | VariableStatement | LexicalDeclaration | FunctionDeclaration | ClassDeclaration | null;
@@ -73,7 +73,7 @@ interface ExportDeclaration <: Node {
 ### NamedExports
 
 ```js
-interface NamedExports <: Node {
+interface NamedExports <: SyntaxNode {
   kind: NodeKind.NamedExports;
   exportsList: ExportsList;
 }
@@ -82,7 +82,7 @@ interface NamedExports <: Node {
 ### ExportFromClause
 
 ```js
-interface ExportFromClause <: Node {
+interface ExportFromClause <: SyntaxNode {
   kind: NodeKind.ExportFromClause;
   asKeyword: SyntaxToken<TokenSyntaxKind>;
   moduleExportName: StringLiteral | null;
@@ -93,7 +93,7 @@ interface ExportFromClause <: Node {
   ### ExportSpecifier
 
 ```js
-interface ExportSpecifier <: Node {
+interface ExportSpecifier <: SyntaxNode {
   kind: NodeKind.ExportSpecifier;
   name: Identifier | StringLiteral;
   asKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -105,7 +105,7 @@ interface ExportSpecifier <: Node {
 ### ExportDefault
 
 ```js
-interface ExportDefault <: Node {
+interface ExportDefault <: SyntaxNode {
   kind: NodeKind.ExportDefault;
   exportKeyword: SyntaxToken<TokenSyntaxKind>;
   defaultKeyword: SyntaxToken<TokenSyntaxKind>;
@@ -116,7 +116,7 @@ interface ExportDefault <: Node {
 ### FromClause
 
 ```js
-interface FromClause <: Node {
+interface FromClause <: SyntaxNode {
   kind: NodeKind.FromClause;
   fromKeyword: SyntaxToken<TokenSyntaxKind>;
   from: ExpressionNode;
@@ -126,7 +126,7 @@ interface FromClause <: Node {
 ### NameSpaceImport
 
 ```js
-interface NameSpaceImport <: Node {
+interface NameSpaceImport <: SyntaxNode {
   kind: NodeKind.NameSpaceImport;
   asteriskToken: SyntaxToken<TokenSyntaxKind>;
   asKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -137,7 +137,7 @@ interface NameSpaceImport <: Node {
 ### ExportsList
 
 ```js
-interface ExportsList <: Node {
+interface ExportsList <: SyntaxNode {
   kind: NodeKind.ExportList;
   specifiers: [ ExportSpecifier ]
 }
@@ -146,7 +146,7 @@ interface ExportsList <: Node {
 ### NamespaceExportDeclaration
 
 ```js
-interface NamespaceExportDeclaration <: Node {
+interface NamespaceExportDeclaration <: SyntaxNode {
   kind: NodeKind.NamespaceExportDeclaration;
   name: Identifier;
 }

@@ -144,7 +144,7 @@ import {
 export function visitEachChild(
   transform: Transform,
   node: SyntaxNode,
-  visitor: (node: StatementNode) => SyntaxKind
+  visitor: (node: SyntaxNode | null) => SyntaxKind | null
 ): SyntaxNode | null {
   if (!node) return null;
 
