@@ -1,3 +1,4 @@
+import { SyntaxToken, TokenSyntaxKind } from './ast/token';
 import { SyntaxKind, SyntaxNode, NodeFlags } from './ast/syntax-node';
 import { createRootNode, RootNode } from './ast/rootNode';
 import { StatementNode } from './ast/statements';
@@ -35,7 +36,7 @@ import { createConditionalExpression, ConditionalExpression } from './ast/expres
 import { createCoverInitializedName, CoverInitializedName } from './ast/expressions/cover-initialized-name';
 import { createElementList, ElementList } from './ast/expressions/element-list';
 import { createFieldDefinition, FieldDefinition } from './ast/expressions/field-definition';
-import { createTaggedTemplate } from './ast/expressions/tagged-template';
+import { createTaggedTemplate, TaggedTemplate } from './ast/expressions/tagged-template';
 import { createFunctionExpression, FunctionExpression } from './ast/expressions/function-expr';
 import { createUnaryExpression, UnaryExpression } from './ast/expressions/unary-expr';
 import { createFunctionStatementList, FunctionStatementList } from './ast/expressions/function-stmt-list';
@@ -51,21 +52,21 @@ import { createPrefixUpdateExpression, PrefixUpdateExpression } from './ast/expr
 import { createPropertyDefinition, PropertyDefinition } from './ast/expressions/property-definition';
 import { createPropertyDefinitionList, PropertyDefinitionList } from './ast/expressions/property-definition-list';
 import { createSpreadProperty, SpreadProperty } from './ast/expressions/spread-property';
-import { createTemplateExpression } from './ast/expressions/template-expression';
+import { createTemplateExpression, TemplateExpression } from './ast/expressions/template-expression';
 import { createBindingList, BindingList } from './ast/statements/binding-list';
 import { createVariableStatement, VariableStatement } from './ast/statements/variable-stmt';
 import { createBlock, Block } from './ast/statements/block';
 import { createBlockStatement, BlockStatement } from './ast/statements/block-stmt';
 import { createBreakStatement, BreakStatement } from './ast/statements/break-stmt';
-import { createContinueStatement } from './ast/statements/continue-stmt';
+import { createContinueStatement, ContinueStatement } from './ast/statements/continue-stmt';
 import { createDefaultClause, DefaultClause } from './ast/statements/default-clause';
 import { createCaseClause, CaseClause } from './ast/statements/case-clause';
 import { createDoWhileStatement, DoWhileStatement } from './ast/statements/do-stmt';
 import { createForInStatement, ForInStatement } from './ast/statements/for-in-stmt';
-import { createForOfStatement } from './ast/statements/for-of-stmt';
-import { createForStatement } from './ast/statements/for-stmt';
+import { createForOfStatement, ForOfStatement } from './ast/statements/for-of-stmt';
+import { createForStatement, ForStatement } from './ast/statements/for-stmt';
 import { createIfStatement, IfStatement } from './ast/statements/if-stmt';
-import { createLabelledStatement } from './ast/statements/labelled-stmt';
+import { createLabelledStatement, LabelledStatement } from './ast/statements/labelled-stmt';
 import { createLexicalBinding, LexicalBinding } from './ast/statements/lexical-binding';
 import { createReturnStatement, ReturnStatement } from './ast/statements/return-stmt';
 import { createSwitchStatement, SwitchStatement } from './ast/statements/switch-stmt';
@@ -79,7 +80,7 @@ import { createWithStatement, WithStatement } from './ast/statements/with-stmt';
 import { createFunctionDeclaration, FunctionDeclaration } from './ast/statements/function-declaration';
 import { createLexicalDeclaration, LexicalDeclaration } from './ast/statements/lexical-declaration';
 import { createClassDeclaration, ClassDeclaration } from './ast/statements/class-declaration';
-import { createCatch } from './ast/statements/catch-stmt';
+import { createCatch, CatchClause } from './ast/statements/catch-stmt';
 import { createArrayType, ArrayType } from './ast/types/array-type';
 import { createArrowFunctionType, ArrowFunctionType } from './ast/types/arrow-function-type';
 import { createArrowTypeParameter, ArrowTypeParameter } from './ast/types/arrow-type-parameter';
@@ -128,7 +129,7 @@ import { createImportSpecifier, ImportSpecifier } from './ast/module/import-spec
 import { createImportsList, ImportsList } from './ast/module/imports-list';
 import { createNamedExports, NamedExports } from './ast/module/named-exports';
 import { createNamedImports, NamedImports } from './ast/module/named-imports';
-import { createSpreadElement } from './ast/expressions/spread-element';
+import { createSpreadElement, SpreadElement } from './ast/expressions/spread-element';
 import {
   Transform,
   createNodeArray,
@@ -178,7 +179,7 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.ElementList:
-      return (<ElementList>node).elements !== visitNode((<ElementList>node).elements, visitor)
+      return (<ElementList>node).elements !== visitNodes((<ElementList>node).elements, visitor)
         ? createElementList(
             (<ElementList>node).elements,
             (<ElementList>node).trailingComma,
@@ -265,8 +266,7 @@ export function visitEachChild(
         ? createBlock((<Block>node).statements, (<Block>node).flags, (<Block>node).start, (<Block>node).end)
         : node;
     case SyntaxKind.ObjectBindingPattern:
-      return (<ObjectBindingPattern>node).propertyList !==
-        visitNodes((<ObjectBindingPattern>node).propertyList, visitor)
+      return (<ObjectBindingPattern>node).propertyList !== visitNode((<ObjectBindingPattern>node).propertyList, visitor)
         ? createObjectBindingPattern(
             (<ObjectBindingPattern>node).propertyList,
             (<ObjectBindingPattern>node).flags,
@@ -344,7 +344,7 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.ArrayBindingPattern:
-      return (<ArrayBindingPattern>node).elementList !== visitNodes((<ArrayBindingPattern>node).elementList, visitor)
+      return (<ArrayBindingPattern>node).elementList !== visitNode((<ArrayBindingPattern>node).elementList, visitor)
         ? createArrayBindingPattern(
             (<ArrayBindingPattern>node).elementList,
             (<ArrayBindingPattern>node).flags,
@@ -397,7 +397,7 @@ export function visitEachChild(
     case SyntaxKind.ArrowFunction:
       return (<ArrowFunction>node).arrowToken !== visitNode((<ArrowFunction>node).arrowToken, visitor) ||
         (<ArrowFunction>node).typeParameters !== visitNode((<ArrowFunction>node).typeParameters, visitor) ||
-        (<ArrowFunction>node).parameters !== visitNode((<ArrowFunction>node).parameters, visitor) ||
+        (<ArrowFunction>node).parameters !== visitNodes((<any>node).parameters, visitor) ||
         (<ArrowFunction>node).asyncKeyword !== visitNode((<ArrowFunction>node).asyncKeyword, visitor) ||
         (<ArrowFunction>node).returnType !== visitNode((<ArrowFunction>node).returnType, visitor) ||
         (<ArrowFunction>node).contents !== visitFunctionBody(transform, (<ArrowFunction>node).contents, visitor)
@@ -639,60 +639,70 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.ForOfStatement:
-      return (<any>node).forKeyword !== visitNode((<any>node).forKeyword, visitor) ||
-        (<any>node).ofKeyword !== visitNode((<any>node).ofKeyword, visitor) ||
-        (<any>node).initializer !== visitNode((<any>node).initializer, visitor) ||
-        (<any>node).expression !== visitNode((<any>node).expression, visitor) ||
-        (<any>node).statement !== visitNode((<any>node).statement, visitor) ||
-        (<any>node).awaitKeyword !== visitNode((<any>node).awaitKeyword, visitor)
+      return (<ForOfStatement>node).forKeyword !== visitNode((<ForOfStatement>node).forKeyword, visitor) ||
+        (<ForOfStatement>node).ofKeyword !== visitNode((<ForOfStatement>node).ofKeyword, visitor) ||
+        (<ForOfStatement>node).initializer !== visitNode((<ForOfStatement>node).initializer, visitor) ||
+        (<ForOfStatement>node).expression !== visitNode((<ForOfStatement>node).expression, visitor) ||
+        (<ForOfStatement>node).statement !== visitNode((<ForOfStatement>node).statement, visitor) ||
+        (<ForOfStatement>node).awaitKeyword !== visitNode((<ForOfStatement>node).awaitKeyword, visitor)
         ? createForOfStatement(
-            (<any>node).forKeyword,
-            (<any>node).ofKeyword,
-            (<any>node).initializer,
-            (<any>node).expression,
-            (<any>node).statement,
-            (<any>node).awaitKeyword,
-            (<any>node).flags,
-            (<any>node).start,
-            (<any>node).end
+            (<ForOfStatement>node).forKeyword,
+            (<ForOfStatement>node).ofKeyword,
+            (<ForOfStatement>node).initializer,
+            (<ForOfStatement>node).expression,
+            (<ForOfStatement>node).statement,
+            (<ForOfStatement>node).awaitKeyword,
+            (<ForOfStatement>node).flags,
+            (<ForOfStatement>node).start,
+            (<ForOfStatement>node).end
           )
         : node;
     case SyntaxKind.ForStatement:
-      return (<any>node).forKeyword !== visitNode((<any>node).forKeyword, visitor) ||
-        (<any>node).initializer !== visitNode((<any>node).initializer, visitor) ||
-        (<any>node).condition !== visitNode((<any>node).condition, visitor) ||
-        (<any>node).incrementor !== visitNode((<any>node).incrementor, visitor) ||
-        (<any>node).statement !== visitNode((<any>node).statement, visitor)
+      return (<ForStatement>node).forKeyword !== visitNode((<ForStatement>node).forKeyword, visitor) ||
+        (<ForStatement>node).initializer !== visitNode((<ForStatement>node).initializer, visitor) ||
+        (<ForStatement>node).condition !== visitNode((<ForStatement>node).condition, visitor) ||
+        (<ForStatement>node).incrementor !== visitNode((<ForStatement>node).incrementor, visitor) ||
+        (<ForStatement>node).statement !== visitNode((<ForStatement>node).statement, visitor)
         ? createForStatement(
-            (<any>node).forKeyword,
-            (<any>node).initializer,
-            (<any>node).condition,
-            (<any>node).incrementor,
-            (<any>node).statement,
-            (<any>node).flags,
-            (<any>node).start,
-            (<any>node).end
+            (<ForStatement>node).forKeyword,
+            (<ForStatement>node).initializer,
+            (<ForStatement>node).condition,
+            (<ForStatement>node).incrementor,
+            (<ForStatement>node).statement,
+            (<ForStatement>node).flags,
+            (<ForStatement>node).start,
+            (<ForStatement>node).end
           )
         : node;
     case SyntaxKind.TaggedTemplate:
-      return (<any>node).member !== visitNode((<any>node).member, visitor) ||
-        (<any>node).template !== visitNode((<any>node).template, visitor)
-        ? createTaggedTemplate((<any>node).member, (<any>node).template, (<any>node).start, (<any>node).end)
+      return (<TaggedTemplate>node).member !== visitNode((<TaggedTemplate>node).member, visitor) ||
+        (<TaggedTemplate>node).template !== visitNode((<TaggedTemplate>node).template, visitor)
+        ? createTaggedTemplate(
+            (<TaggedTemplate>node).member,
+            (<TaggedTemplate>node).template,
+            (<TaggedTemplate>node).start,
+            (<TaggedTemplate>node).end
+          )
         : node;
     case SyntaxKind.SpreadElement:
-      return (<any>node).ellipsisToken !== visitNode((<any>node).ellipsisToken, visitor) ||
-        (<any>node).argument !== visitNode((<any>node).argument, visitor)
-        ? createSpreadElement((<any>node).ellipsisToken, (<any>node).argument, (<any>node).start, (<any>node).end)
+      return (<SpreadElement>node).ellipsisToken !== visitNode((<SpreadElement>node).ellipsisToken, visitor) ||
+        (<SpreadElement>node).argument !== visitNode((<SpreadElement>node).argument, visitor)
+        ? createSpreadElement(
+            (<SpreadElement>node).ellipsisToken,
+            (<SpreadElement>node).argument,
+            (<SpreadElement>node).start,
+            (<SpreadElement>node).end
+          )
         : node;
     case SyntaxKind.TemplateExpression:
-      return (<any>node).spans !== visitNodes((<any>node).spans, visitor) ||
-        (<any>node).tail !== visitNode((<any>node).tail, visitor)
+      return (<TemplateExpression>node).spans !== visitNodes((<TemplateExpression>node).spans, visitor) ||
+        (<TemplateExpression>node).tail !== visitNode((<TemplateExpression>node).tail, visitor)
         ? createTemplateExpression(
-            (<any>node).spans,
-            (<any>node).tail,
-            (<any>node).flags,
-            (<any>node).start,
-            (<any>node).end
+            (<TemplateExpression>node).spans,
+            (<TemplateExpression>node).tail,
+            (<TemplateExpression>node).flags,
+            (<TemplateExpression>node).start,
+            (<TemplateExpression>node).end
           )
         : node;
     case SyntaxKind.TemplateSpan:
@@ -756,9 +766,15 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.ContinueStatement:
-      return (<any>node).continueKeyword !== visitNode((<any>node).continueKeyword, visitor) ||
-        (<any>node).label !== visitNode((<any>node).label, visitor)
-        ? createContinueStatement((<any>node).continueKeyword, (<any>node).label, (<any>node).start, (<any>node).end)
+      return (<ContinueStatement>node).continueKeyword !==
+        visitNode((<ContinueStatement>node).continueKeyword, visitor) ||
+        (<ContinueStatement>node).label !== visitNode((<ContinueStatement>node).label, visitor)
+        ? createContinueStatement(
+            (<ContinueStatement>node).continueKeyword,
+            (<ContinueStatement>node).label,
+            (<ContinueStatement>node).start,
+            (<ContinueStatement>node).end
+          )
         : node;
     case SyntaxKind.CaseClause:
       return (<CaseClause>node).caseKeyword !== visitNode((<CaseClause>node).caseKeyword, visitor) ||
@@ -783,16 +799,16 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.Catch:
-      return (<any>node).catchKeyword !== visitNode((<any>node).catchKeyword, visitor) ||
-        (<any>node).catchParameter !== visitNode((<any>node).catchParameter, visitor) ||
-        (<any>node).block !== visitNode((<any>node).block, visitor)
+      return (<CatchClause>node).catchKeyword !== visitNode((<CatchClause>node).catchKeyword, visitor) ||
+        (<CatchClause>node).catchParameter !== visitNode((<CatchClause>node).catchParameter, visitor) ||
+        (<CatchClause>node).block !== visitNode((<CatchClause>node).block, visitor)
         ? createCatch(
-            (<any>node).catchKeyword,
-            (<any>node).catchParameter,
-            (<any>node).block,
-            (<any>node).flags,
-            (<any>node).start,
-            (<any>node).end
+            (<CatchClause>node).catchKeyword,
+            (<CatchClause>node).catchParameter,
+            (<CatchClause>node).block,
+            (<CatchClause>node).flags,
+            (<CatchClause>node).start,
+            (<CatchClause>node).end
           )
         : node;
 
@@ -832,16 +848,16 @@ export function visitEachChild(
         : node;
 
     case SyntaxKind.LabelledStatement:
-      return (<any>node).label !== visitNode((<any>node).label, visitor) ||
-        (<any>node).colonToken !== visitNode((<any>node).colonToken, visitor) ||
-        (<any>node).statement !== visitNode((<any>node).statement, visitor)
+      return (<LabelledStatement>node).label !== visitNode((<LabelledStatement>node).label, visitor) ||
+        (<LabelledStatement>node).colonToken !== visitNode((<LabelledStatement>node).colonToken, visitor) ||
+        (<LabelledStatement>node).statement !== visitNode((<LabelledStatement>node).statement, visitor)
         ? createLabelledStatement(
-            (<any>node).label,
-            (<any>node).colonToken,
-            (<any>node).statement,
-            (<any>node).flags,
-            (<any>node).start,
-            (<any>node).end
+            (<LabelledStatement>node).label,
+            (<LabelledStatement>node).colonToken,
+            (<LabelledStatement>node).statement,
+            (<LabelledStatement>node).flags,
+            (<LabelledStatement>node).start,
+            (<LabelledStatement>node).end
           )
         : node;
 
@@ -872,8 +888,8 @@ export function visitEachChild(
         : node;
 
     case SyntaxKind.CaseBlock:
-      return (<any>node).clauses !== visitNodes((<any>node).clauses, visitor)
-        ? createCaseBlock((<any>node).clauses, (<any>node).start, (<any>node).end)
+      return (<CaseBlock>node).clauses !== visitNodes((<CaseBlock>node).clauses, visitor)
+        ? createCaseBlock((<CaseBlock>node).clauses, (<CaseBlock>node).start, (<CaseBlock>node).end)
         : node;
     case SyntaxKind.IndexExpression:
       return (<IndexExpression>node).member !== visitNode((<IndexExpression>node).member, visitor) ||
@@ -1588,8 +1604,7 @@ export function visitEachChild(
 
     case SyntaxKind.TypeofType:
       return (<TypeofType>node).typeOfKeyword !== visitNode((<TypeofType>node).typeOfKeyword, visitor) ||
-        (<TypeofType>node).type !== visitNode((<TypeofType>node).type, visitor) ||
-        (<TypeofType>node).start !== visitNode((<TypeofType>node).start, visitor)
+        (<TypeofType>node).type !== visitNode((<TypeofType>node).type, visitor)
         ? createTypeofType(
             (<TypeofType>node).typeOfKeyword,
             (<TypeofType>node).type,
@@ -1675,7 +1690,22 @@ export function visitEachChild(
   }
 }
 
-export function visitNode(node: any, visitor: (node: any) => any, lift?: any): any | undefined {
+export function visitNode<T extends SyntaxNode>(
+  node: T | null,
+  visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any,
+  lift?: any
+): any | undefined;
+
+export function visitNode<T extends SyntaxNode>(
+  node: SyntaxToken<TokenSyntaxKind> | null,
+  visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any,
+  lift?: any
+): any | undefined;
+export function visitNode<T extends SyntaxNode>(
+  node: T | null,
+  visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any,
+  lift?: any
+): any | undefined {
   if (node === null || visitor === null) {
     return node;
   }
@@ -1697,7 +1727,7 @@ export function visitNode(node: any, visitor: (node: any) => any, lift?: any): a
   return visitedNode;
 }
 
-export function visitNodes(nodes: any, visitor: any, start?: number, count?: number): any {
+export function visitNodes<T extends Node>(nodes: any | undefined, visitor: any, start?: number, count?: number): any {
   if (nodes === null || visitor === null) {
     return nodes;
   }
