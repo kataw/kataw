@@ -266,8 +266,7 @@ export function visitEachChild(
         ? createBlock((<Block>node).statements, (<Block>node).flags, (<Block>node).start, (<Block>node).end)
         : node;
     case SyntaxKind.ObjectBindingPattern:
-      return (<ObjectBindingPattern>node).propertyList !==
-        visitNode((<ObjectBindingPattern>node).propertyList, visitor)
+      return (<ObjectBindingPattern>node).propertyList !== visitNode((<ObjectBindingPattern>node).propertyList, visitor)
         ? createObjectBindingPattern(
             (<ObjectBindingPattern>node).propertyList,
             (<ObjectBindingPattern>node).flags,
@@ -678,12 +677,22 @@ export function visitEachChild(
     case SyntaxKind.TaggedTemplate:
       return (<TaggedTemplate>node).member !== visitNode((<TaggedTemplate>node).member, visitor) ||
         (<TaggedTemplate>node).template !== visitNode((<TaggedTemplate>node).template, visitor)
-        ? createTaggedTemplate((<TaggedTemplate>node).member, (<TaggedTemplate>node).template, (<TaggedTemplate>node).start, (<TaggedTemplate>node).end)
+        ? createTaggedTemplate(
+            (<TaggedTemplate>node).member,
+            (<TaggedTemplate>node).template,
+            (<TaggedTemplate>node).start,
+            (<TaggedTemplate>node).end
+          )
         : node;
     case SyntaxKind.SpreadElement:
       return (<SpreadElement>node).ellipsisToken !== visitNode((<SpreadElement>node).ellipsisToken, visitor) ||
         (<SpreadElement>node).argument !== visitNode((<SpreadElement>node).argument, visitor)
-        ? createSpreadElement((<SpreadElement>node).ellipsisToken, (<SpreadElement>node).argument, (<SpreadElement>node).start, (<SpreadElement>node).end)
+        ? createSpreadElement(
+            (<SpreadElement>node).ellipsisToken,
+            (<SpreadElement>node).argument,
+            (<SpreadElement>node).start,
+            (<SpreadElement>node).end
+          )
         : node;
     case SyntaxKind.TemplateExpression:
       return (<TemplateExpression>node).spans !== visitNodes((<TemplateExpression>node).spans, visitor) ||
@@ -757,9 +766,15 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.ContinueStatement:
-      return (<ContinueStatement>node).continueKeyword !== visitNode((<ContinueStatement>node).continueKeyword, visitor) ||
+      return (<ContinueStatement>node).continueKeyword !==
+        visitNode((<ContinueStatement>node).continueKeyword, visitor) ||
         (<ContinueStatement>node).label !== visitNode((<ContinueStatement>node).label, visitor)
-        ? createContinueStatement((<ContinueStatement>node).continueKeyword, (<ContinueStatement>node).label, (<ContinueStatement>node).start, (<ContinueStatement>node).end)
+        ? createContinueStatement(
+            (<ContinueStatement>node).continueKeyword,
+            (<ContinueStatement>node).label,
+            (<ContinueStatement>node).start,
+            (<ContinueStatement>node).end
+          )
         : node;
     case SyntaxKind.CaseClause:
       return (<CaseClause>node).caseKeyword !== visitNode((<CaseClause>node).caseKeyword, visitor) ||
@@ -1675,10 +1690,22 @@ export function visitEachChild(
   }
 }
 
-export function visitNode <T extends SyntaxNode>(node:T | null, visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any, lift?: any): any | undefined;
+export function visitNode<T extends SyntaxNode>(
+  node: T | null,
+  visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any,
+  lift?: any
+): any | undefined;
 
-export function visitNode <T extends SyntaxNode>(node: SyntaxToken<TokenSyntaxKind> | null, visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any, lift?: any): any | undefined;
-export function visitNode <T extends SyntaxNode>(node: T | null, visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any, lift?: any): any | undefined {
+export function visitNode<T extends SyntaxNode>(
+  node: SyntaxToken<TokenSyntaxKind> | null,
+  visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any,
+  lift?: any
+): any | undefined;
+export function visitNode<T extends SyntaxNode>(
+  node: T | null,
+  visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any,
+  lift?: any
+): any | undefined {
   if (node === null || visitor === null) {
     return node;
   }

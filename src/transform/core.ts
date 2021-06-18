@@ -2,10 +2,10 @@ import { RootNode } from '../ast/rootNode';
 import { NodeFlags, SyntaxKind } from '../ast/syntax-node';
 import { createToken } from '../ast/token';
 import { StatementNode } from '../ast/statements';
-import { VariableDeclaration , createVariableDeclaration } from '../ast/statements/variable-declaration';
+import { VariableDeclaration, createVariableDeclaration } from '../ast/statements/variable-declaration';
 import { FunctionDeclaration } from '../ast/statements/function-declaration';
 import { createVariableStatement } from '../ast/statements/variable-stmt';
-
+import { transformKataw } from './transformers/kataw';
 import { createVariableDeclarationList } from '../ast/statements/variable-declarationList';
 
 /* @internal */
@@ -192,4 +192,8 @@ export function dispose(transform: Transform) {
 
 export function transform(root: RootNode, transformers: any) {
   return transformers(createTransform())(root);
+}
+
+export function removeKatawTypes(root: RootNode) {
+  return transform(root, transformKataw)
 }

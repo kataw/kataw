@@ -117,6 +117,14 @@ Kataw's own type checker.
 You can manually enable this if you enable the `allowTypes` option. It will then parse the types but it
 will not do any type checking.
 
+You can use `kataw.removeKatawTypes` to remove Kataw's types from the CST tree
+
+
+```ts
+const source = kataw.parseModule('let: string', { allowTypes: true});
+// Remove the types
+kataw.removeKatawTypes(source);
+```
 
 ## Comments
 
