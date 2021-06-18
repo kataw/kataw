@@ -69,7 +69,9 @@
     "coverage:cli": "c8 ts-node test/cli.ts",
     "coverage:treshold": "c8 check-coverage --lines 95 --per-file ts-node test/cli",
     "post_coverage": "cross-env cat ./coverage/lcov.info | coveralls",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "m": "mocha \"test/**/*.ts\"",
+    "m:watch": "npm run t -- --watch --watch-extensions ts"
   },
   "devDependencies": {
     "@types/mocha": "^8.2.2",
