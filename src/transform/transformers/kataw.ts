@@ -7,7 +7,7 @@ import { visitEachChild } from '../../visitor';
 export function transformKataw(transform: Transform): (node: any) => Node {
   return transformSourceFile;
 
-  function transformSourceFile(root: any) {
+  function transformSourceFile(root: any): any {
     return visitEachChild(transform, root, visitor);
   }
 

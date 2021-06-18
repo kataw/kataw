@@ -114,10 +114,6 @@ import { createDecoratorList, DecoratorList } from './ast/expressions/decorator-
 import { createDecorator, Decorator } from './ast/expressions/decorators';
 import { createFormalParameterList, FormalParameterList } from './ast/expressions/formal-parameter-list';
 import { createImportClause, ImportClause } from './ast/module/import-clause';
-import {
-  createNamespaceExportDeclaration,
-  NamespaceExportDeclaration
-} from './ast/module/namespace-export-declaration';
 import { createNameSpaceImport, NameSpaceImport } from './ast/module/namespace-import';
 import { createExportDefault, ExportDefault } from './ast/module/export-default';
 import { createExportDeclaration, ExportDeclaration } from './ast/module/export-declaration';
@@ -130,6 +126,11 @@ import { createImportsList, ImportsList } from './ast/module/imports-list';
 import { createNamedExports, NamedExports } from './ast/module/named-exports';
 import { createNamedImports, NamedImports } from './ast/module/named-imports';
 import { createSpreadElement, SpreadElement } from './ast/expressions/spread-element';
+import { createIdentifier, Identifier } from './ast/expressions/identifier-expr';
+import {
+  createNamespaceExportDeclaration,
+  NamespaceExportDeclaration
+} from './ast/module/namespace-export-declaration';
 import {
   Transform,
   createNodeArray,
@@ -144,9 +145,12 @@ export function visitEachChild(
   transform: Transform,
   node: SyntaxNode,
   visitor: (node: StatementNode) => SyntaxKind
-): any {
-  if (!node) return;
-  const kind = (<any>node).kind;
+): SyntaxNode | null {
+  if (!node) return null;
+
+  if (node.flags & NodeFlags.ChildLess) return node;
+
+  const kind = node.kind;
   switch (kind) {
     case SyntaxKind.RootNode:
       return (<RootNode>node).statements !== visitLexicalEnvironment(transform, (<RootNode>node).statements, visitor)
@@ -515,6 +519,15 @@ export function visitEachChild(
             (<ClassDeclaration>node).flags,
             (<ClassDeclaration>node).start,
             (<ClassDeclaration>node).end
+          )
+        : node;
+    case SyntaxKind.Identifier:
+      return (<Identifier>node).text !== visitNode((<any>node).rawText, visitor)
+        ? createIdentifier(
+            (<Identifier>node).text,
+            (<Identifier>node).rawText,
+            (<Identifier>node).start,
+            (<Identifier>node).end
           )
         : node;
     case SyntaxKind.CommaOperator:
@@ -1688,6 +1701,8 @@ export function visitEachChild(
             (<MethodDefinition>node).end
           )
         : node;
+    default:
+      return node;
   }
 }
 
