@@ -145,6 +145,7 @@ export function visitEachChild(
   node: SyntaxNode,
   visitor: (node: StatementNode) => SyntaxKind
 ): any {
+  if (!node) return;
   const kind = (<any>node).kind;
   switch (kind) {
     case SyntaxKind.RootNode:

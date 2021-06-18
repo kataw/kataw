@@ -62,8 +62,6 @@ a `SyntaxKind` - `token` and `kind` merged into one.
 
 Kataw also exports all CST nodes so you can create your own nodes. This is handy if you want to try out new `ECMA` features that isn't part of the language yet, or make your own transformers as in `Babel`.
 
-You can use `kataw.forEachChild` to walk the CST tree.
-
 Here is an example on how to create an CST node:
 
 ```ts

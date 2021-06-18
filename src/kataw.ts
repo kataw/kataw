@@ -4,7 +4,6 @@ import { RootNode } from './ast/rootNode';
 import { printSourceFile } from './printer';
 export { SyntaxKind } from './ast/syntax-node';
 export { NodeFlags } from './ast/syntax-node';
-export { forEachChild } from './forEachChild';
 export { TokenSyntaxKind, createToken, SyntaxToken } from './ast/token';
 export { createBlockStatement } from './ast/statements/block-stmt';
 export { createBlock } from './ast/statements/block';
