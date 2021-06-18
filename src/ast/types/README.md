@@ -230,7 +230,7 @@ interface ParenthesizedType <: TypeNode {
 interface QualifiedType <: TypeNode {
   kind: NodeKind.QualifiedType;
   qualification: Identifier | DummyIdentifier | QualifiedType;
-  id: Identifier | DummyIdentifier;
+  name: Identifier | DummyIdentifier;
 }
 ```
 
@@ -341,7 +341,7 @@ interface TypeParameter <: TypeNode {
 ```js
 interface TypeReference <: TypeNode {
   kind: NodeKind.TypeReference;
-  id: Identifier | DummyIdentifier;
+  name: Identifier | DummyIdentifier;
   typeParameters: TypeParameterInstantiationList | null;
 }
 ```

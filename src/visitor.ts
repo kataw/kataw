@@ -266,7 +266,8 @@ export function visitEachChild(
         ? createBlock((<Block>node).statements, (<Block>node).flags, (<Block>node).start, (<Block>node).end)
         : node;
     case SyntaxKind.ObjectBindingPattern:
-      return (<ObjectBindingPattern>node).propertyList !== visitNode((<ObjectBindingPattern>node).propertyList, visitor)
+      return (<ObjectBindingPattern>node).propertyList !==
+        visitNode((<ObjectBindingPattern>node).propertyList, visitor)
         ? createObjectBindingPattern(
             (<ObjectBindingPattern>node).propertyList,
             (<ObjectBindingPattern>node).flags,
@@ -677,22 +678,12 @@ export function visitEachChild(
     case SyntaxKind.TaggedTemplate:
       return (<TaggedTemplate>node).member !== visitNode((<TaggedTemplate>node).member, visitor) ||
         (<TaggedTemplate>node).template !== visitNode((<TaggedTemplate>node).template, visitor)
-        ? createTaggedTemplate(
-            (<TaggedTemplate>node).member,
-            (<TaggedTemplate>node).template,
-            (<TaggedTemplate>node).start,
-            (<TaggedTemplate>node).end
-          )
+        ? createTaggedTemplate((<TaggedTemplate>node).member, (<TaggedTemplate>node).template, (<TaggedTemplate>node).start, (<TaggedTemplate>node).end)
         : node;
     case SyntaxKind.SpreadElement:
       return (<SpreadElement>node).ellipsisToken !== visitNode((<SpreadElement>node).ellipsisToken, visitor) ||
         (<SpreadElement>node).argument !== visitNode((<SpreadElement>node).argument, visitor)
-        ? createSpreadElement(
-            (<SpreadElement>node).ellipsisToken,
-            (<SpreadElement>node).argument,
-            (<SpreadElement>node).start,
-            (<SpreadElement>node).end
-          )
+        ? createSpreadElement((<SpreadElement>node).ellipsisToken, (<SpreadElement>node).argument, (<SpreadElement>node).start, (<SpreadElement>node).end)
         : node;
     case SyntaxKind.TemplateExpression:
       return (<TemplateExpression>node).spans !== visitNodes((<TemplateExpression>node).spans, visitor) ||
@@ -766,15 +757,9 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.ContinueStatement:
-      return (<ContinueStatement>node).continueKeyword !==
-        visitNode((<ContinueStatement>node).continueKeyword, visitor) ||
+      return (<ContinueStatement>node).continueKeyword !== visitNode((<ContinueStatement>node).continueKeyword, visitor) ||
         (<ContinueStatement>node).label !== visitNode((<ContinueStatement>node).label, visitor)
-        ? createContinueStatement(
-            (<ContinueStatement>node).continueKeyword,
-            (<ContinueStatement>node).label,
-            (<ContinueStatement>node).start,
-            (<ContinueStatement>node).end
-          )
+        ? createContinueStatement((<ContinueStatement>node).continueKeyword, (<ContinueStatement>node).label, (<ContinueStatement>node).start, (<ContinueStatement>node).end)
         : node;
     case SyntaxKind.CaseClause:
       return (<CaseClause>node).caseKeyword !== visitNode((<CaseClause>node).caseKeyword, visitor) ||
@@ -1008,8 +993,8 @@ export function visitEachChild(
         visitNode((<FunctionDeclaration>node).declareKeyword, visitor) ||
         (<FunctionDeclaration>node).asyncKeyword !== visitNode((<FunctionDeclaration>node).asyncKeyword, visitor) ||
         (<FunctionDeclaration>node).generatorToken !== visitNode((<FunctionDeclaration>node).generatorToken, visitor) ||
-        (<FunctionDeclaration>node).formalParameters !==
-          visitNode((<FunctionDeclaration>node).formalParameters, visitor) ||
+        (<FunctionDeclaration>node).formalParameterList !==
+          visitNode((<FunctionDeclaration>node).formalParameterList, visitor) ||
         (<FunctionDeclaration>node).contents !==
           visitFunctionBody(transform, (<FunctionDeclaration>node).contents, visitor) ||
         (<FunctionDeclaration>node).typeParameters !== visitNode((<FunctionDeclaration>node).typeParameters, visitor) ||
@@ -1020,7 +1005,7 @@ export function visitEachChild(
             (<FunctionDeclaration>node).functionKeyword,
             (<FunctionDeclaration>node).generatorToken,
             (<FunctionDeclaration>node).name,
-            (<FunctionDeclaration>node).formalParameters,
+            (<FunctionDeclaration>node).formalParameterList,
             (<FunctionDeclaration>node).contents,
             (<FunctionDeclaration>node).typeParameters,
             (<FunctionDeclaration>node).returnType,
@@ -1035,8 +1020,8 @@ export function visitEachChild(
         (<FunctionExpression>node).functionKeyword !== visitNode((<FunctionExpression>node).functionKeyword, visitor) ||
         (<FunctionExpression>node).generatorToken !== visitNode((<FunctionExpression>node).generatorToken, visitor) ||
         (<FunctionExpression>node).name !== visitNode((<FunctionExpression>node).name, visitor) ||
-        (<FunctionExpression>node).formalParameters !==
-          visitNode((<FunctionExpression>node).formalParameters, visitor) ||
+        (<FunctionExpression>node).formalParameterList !==
+          visitNode((<FunctionExpression>node).formalParameterList, visitor) ||
         (<FunctionExpression>node).contents !==
           visitFunctionBody(transform, (<FunctionExpression>node).contents, visitor) ||
         (<FunctionExpression>node).typeParameters !== visitNode((<FunctionExpression>node).typeParameters, visitor) ||
@@ -1046,7 +1031,7 @@ export function visitEachChild(
             (<FunctionExpression>node).functionKeyword,
             (<FunctionExpression>node).generatorToken,
             (<FunctionExpression>node).name,
-            (<FunctionExpression>node).formalParameters,
+            (<FunctionExpression>node).formalParameterList,
             (<FunctionExpression>node).contents,
             (<FunctionExpression>node).typeParameters,
             (<FunctionExpression>node).returnType,
@@ -1062,10 +1047,10 @@ export function visitEachChild(
         : node;
 
     case SyntaxKind.TypeReference:
-      return (<TypeReference>node).id !== visitNode((<TypeReference>node).id, visitor) ||
+      return (<TypeReference>node).name !== visitNode((<TypeReference>node).name, visitor) ||
         (<TypeReference>node).typeParameters !== visitNode((<TypeReference>node).typeParameters, visitor)
         ? createTypeReference(
-            (<TypeReference>node).id,
+            (<TypeReference>node).name,
             (<TypeReference>node).typeParameters,
             (<TypeReference>node).start,
             (<TypeReference>node).end
@@ -1185,10 +1170,10 @@ export function visitEachChild(
         : node;
 
     case SyntaxKind.FormalParameterList:
-      return (<FormalParameterList>node).formalParameterList !==
-        visitParameterList(transform, (<FormalParameterList>node).formalParameterList, visitor)
+      return (<FormalParameterList>node).formalParameters !==
+        visitParameterList(transform, (<FormalParameterList>node).formalParameters, visitor)
         ? createFormalParameterList(
-            (<FormalParameterList>node).formalParameterList,
+            (<FormalParameterList>node).formalParameters,
             (<FormalParameterList>node).trailingComma,
             (<FormalParameterList>node).flags,
             (<FormalParameterList>node).start,
@@ -1541,10 +1526,10 @@ export function visitEachChild(
         : node;
     case SyntaxKind.QualifiedType:
       return (<QualifiedType>node).qualification !== visitNode((<QualifiedType>node).qualification, visitor) ||
-        (<QualifiedType>node).id !== visitNode((<QualifiedType>node).id, visitor)
+        (<QualifiedType>node).name !== visitNode((<QualifiedType>node).name, visitor)
         ? createQualifiedType(
             (<QualifiedType>node).qualification,
-            (<QualifiedType>node).id,
+            (<QualifiedType>node).name,
             (<QualifiedType>node).start,
             (<QualifiedType>node).end
           )
@@ -1690,22 +1675,10 @@ export function visitEachChild(
   }
 }
 
-export function visitNode<T extends SyntaxNode>(
-  node: T | null,
-  visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any,
-  lift?: any
-): any | undefined;
+export function visitNode <T extends SyntaxNode>(node:T | null, visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any, lift?: any): any | undefined;
 
-export function visitNode<T extends SyntaxNode>(
-  node: SyntaxToken<TokenSyntaxKind> | null,
-  visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any,
-  lift?: any
-): any | undefined;
-export function visitNode<T extends SyntaxNode>(
-  node: T | null,
-  visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any,
-  lift?: any
-): any | undefined {
+export function visitNode <T extends SyntaxNode>(node: SyntaxToken<TokenSyntaxKind> | null, visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any, lift?: any): any | undefined;
+export function visitNode <T extends SyntaxNode>(node: T | null, visitor: (node: SyntaxNode | SyntaxToken<TokenSyntaxKind>) => any, lift?: any): any | undefined {
   if (node === null || visitor === null) {
     return node;
   }

@@ -26,7 +26,7 @@ export function forEachChild(node: any, visitor: any): any {
     case SyntaxKind.FunctionBody:
       return visitNode(node.functionStatementList, node, visitor);
     case SyntaxKind.FormalParameterList:
-      return visitNodes(node.formalParameterList, node, visitor);
+      return visitNodes(node.formalParameters, node, visitor);
     case SyntaxKind.ExpressionStatement:
       return visitNode(node.expression, node, visitor);
     case SyntaxKind.ElementList:

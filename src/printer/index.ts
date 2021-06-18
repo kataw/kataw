@@ -1316,13 +1316,13 @@ function printLexicalDeclaration(node: any, printer: Printer, inForStatement: bo
 }
 
 function printFormalParameterList(node: any, printer: Printer): any {
-  if (node.formalParameterList.length === 0) {
+  if (node.formalParameters.length === 0) {
     return '()';
   }
 
   const printed: any = printDelimitedList(node.formalParameterList, printer, node, printStatements, ',');
 
-  if (node.formalParameterList.length === 1) {
+  if (node.formalParameters.length === 1) {
     return chain(['(', chain(printed), ')']);
   }
 
@@ -1656,7 +1656,7 @@ function printFunctionDeclarationOrExpression(node: any, printer: Printer): any 
   parts.push(
     group(
       chain([
-        printStatements(node.formalParameters, printer, node),
+        printStatements(node.formalParameterList, printer, node),
         node.returnType ? printTypeAnnotation(node.returnType, printer, node) : ''
       ])
     ),
@@ -1934,7 +1934,7 @@ function printMethodDefinition(node: any, printer: Printer): any {
   parts.push(
     printStatements(node.name, printer, node),
     //printTypeParameters(node.typeParameters, printer, node),
-    group(chain([printStatements(node.formalParameters, printer, node)])),
+    group(chain([printStatements(node.formalParameterList, printer, node)])),
     printFunctionBody(node.contents, printer)
   );
   return chain(parts);

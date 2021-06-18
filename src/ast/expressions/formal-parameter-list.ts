@@ -13,12 +13,12 @@ export type FormalParameter =
   | ObjectBindingPattern;
 
 export interface FormalParameterList extends SyntaxNode {
-  readonly formalParameterList: readonly FormalParameter[];
+  readonly formalParameters: readonly FormalParameter[];
   readonly trailingComma: boolean;
 }
 
 export function createFormalParameterList(
-  formalParameterList: readonly FormalParameter[],
+  formalParameters: readonly FormalParameter[],
   trailingComma: boolean,
   flags: NodeFlags,
   start: number,
@@ -26,7 +26,7 @@ export function createFormalParameterList(
 ): FormalParameterList {
   return {
     kind: SyntaxKind.FormalParameterList,
-    formalParameterList,
+    formalParameters,
     trailingComma,
     flags,
     start,

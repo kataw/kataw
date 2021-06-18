@@ -14,7 +14,7 @@ export interface FunctionExpression extends SyntaxNode {
   readonly functionKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly name: Identifier | null;
-  readonly formalParameters: FormalParameterList;
+  readonly formalParameterList: FormalParameterList;
   readonly contents: FunctionBody;
   readonly typeParameters: TypeParameterDeclaration | null;
   readonly returnType: TypeNode | null;
@@ -25,7 +25,7 @@ export function createFunctionExpression(
   functionKeyword: SyntaxToken<TokenSyntaxKind>,
   generatorToken: SyntaxToken<TokenSyntaxKind> | null,
   name: Identifier | null,
-  formalParameters: FormalParameterList,
+  formalParameterList: FormalParameterList,
   contents: FunctionBody,
   typeParameters: TypeParameterDeclaration | null,
   returnType: TypeNode | null,
@@ -44,7 +44,7 @@ export function createFunctionExpression(
     generatorToken,
     name,
     typeParameters,
-    formalParameters,
+    formalParameterList,
     contents,
     returnType,
     flags,
