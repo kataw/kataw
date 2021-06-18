@@ -48,9 +48,9 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                 "end": 18
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -196,9 +196,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 
 ```javascript
 
-async function foo(a = () =>  {
-  return  eval =>  ("\"x\"");
-}) {}
+async function foo() {}
 ```
 
 ### Diagnostics

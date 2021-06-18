@@ -80,7 +80,7 @@ class x {static get for(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 24,
@@ -137,7 +137,7 @@ class x {static get for(){}}
 ```javascript
 
 class x {
-  static get static for() {}
+  static get static for {}
 }
 ```
 

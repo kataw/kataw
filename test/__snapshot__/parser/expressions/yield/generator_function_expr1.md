@@ -62,9 +62,9 @@ let x = function *f(foo = await){}
                                 "end": 19
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -142,7 +142,7 @@ let x = function *f(foo = await){}
 
 ```javascript
 
-let x = function * f(foo = await) {};
+let x = function * f() {};
 ```
 
 ### Diagnostics

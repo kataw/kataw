@@ -89,9 +89,9 @@ function foo<T,S>() {}
                 "start": 12,
                 "end": 17
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 17,

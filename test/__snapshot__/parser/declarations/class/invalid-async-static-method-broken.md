@@ -89,7 +89,7 @@ class A {static async
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 28,
@@ -153,7 +153,7 @@ class A {static async
 
 class A {
   static async;
-  foo() {}
+  foo {}
 }
 
 ```

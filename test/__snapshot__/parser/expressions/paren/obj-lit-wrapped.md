@@ -3613,7 +3613,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 806,
@@ -3712,7 +3712,7 @@
 ({}.x);
 ([].x);
 ([x].foo) = x;
-({ * 15() {} });
+({ * 15 {} });
 ```
 
 ### Diagnostics

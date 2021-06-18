@@ -61,9 +61,9 @@ function x({x}) { "use strict"; }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -143,9 +143,9 @@ function x({x}) { "use strict"; }
                 "end": 47
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": {
@@ -223,9 +223,9 @@ function x({x}) { "use strict"; }
                 "end": 83
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 201,
                         "elementList": {
@@ -303,9 +303,9 @@ function x({x}) { "use strict"; }
                 "end": 118
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 212,
                         "propertyList": {

@@ -75,7 +75,7 @@ class x {get extends(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 21,
@@ -132,7 +132,7 @@ class x {get extends(){}}
 ```javascript
 
 class x {
-  get extends() {}
+  get extends {}
 }
 ```
 

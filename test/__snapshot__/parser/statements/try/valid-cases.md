@@ -115,9 +115,9 @@ try { var e } catch (e) {}
                                         "end": 43
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 43,
@@ -243,9 +243,9 @@ try { var e } catch (e) {}
                                         "end": 88
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 88,
@@ -373,9 +373,9 @@ try { var e } catch (e) {}
                                         "end": 133
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 133,
@@ -492,9 +492,9 @@ try { var e } catch (e) {}
                                                 "end": 173
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 173,
@@ -614,9 +614,9 @@ try { var e } catch (e) {}
                                                 "end": 215
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 215,

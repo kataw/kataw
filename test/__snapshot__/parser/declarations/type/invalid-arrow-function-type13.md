@@ -101,7 +101,7 @@ type a = ({get y(y)}) => T;
                                                             "optionalToken": null,
                                                             "types": {
                                                                 "kind": 144,
-                                                                "id": {
+                                                                "name": {
                                                                     "kind": 134299649,
                                                                     "text": "y",
                                                                     "rawText": "y",
@@ -130,7 +130,7 @@ type a = ({get y(y)}) => T;
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 16637,
                                                             "text": "",
                                                             "flags": 64,
@@ -177,7 +177,7 @@ type a = ({get y(y)}) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

@@ -104,9 +104,9 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                 "generatorToken": null,
                                 "name": null,
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 34,
@@ -138,9 +138,9 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                     "end": 49
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 49,
@@ -199,7 +199,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                                                     "typeParameters": null,
                                                                                     "formalParameters": {
                                                                                         "kind": 214,
-                                                                                        "formalParameterList": [],
+                                                                                        "formalParameters": [],
                                                                                         "trailingComma": false,
                                                                                         "flags": 0,
                                                                                         "start": 70,
@@ -304,7 +304,7 @@ var await;
 var f = (async function () {
     function f() {
       class C {
-        await() {}
+        await {}
       }
     }
   });

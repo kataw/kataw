@@ -48,7 +48,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -145,7 +145,7 @@
 
 ```javascript
 
-({ async foo(a) {
+({ async foo {
     await a;
   } });
 ```

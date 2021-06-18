@@ -61,7 +61,7 @@ x = {
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "test",
@@ -137,7 +137,7 @@ x = {
 
 ```javascript
 
-x = { method(test) {} };
+x = { method {} };
 
 ```
 

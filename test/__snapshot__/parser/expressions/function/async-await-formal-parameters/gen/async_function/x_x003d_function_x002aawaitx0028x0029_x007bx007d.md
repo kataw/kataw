@@ -71,9 +71,9 @@ var f = async function f(x = function *await() {}) {}
                                 "end": 24
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -111,9 +111,9 @@ var f = async function f(x = function *await() {}) {}
                                                 "end": 44
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 44,
@@ -194,7 +194,7 @@ var f = async function f(x = function *await() {}) {}
 
 ```javascript
 
-var f = async function f(x = function * await() {}) {};
+var f = async function f() {};
 ```
 
 ### Diagnostics

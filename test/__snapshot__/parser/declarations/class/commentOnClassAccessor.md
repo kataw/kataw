@@ -85,7 +85,7 @@ class C {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 45,
@@ -175,7 +175,7 @@ class C {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "v",
@@ -244,13 +244,13 @@ class C {
   /**
    * Getter.
    */
-  get bar() {
+  get bar {
     return  1;
   }
   /**
    * Setter.
    */
-  set bar(v) {}
+  set bar {}
 }
 ```
 

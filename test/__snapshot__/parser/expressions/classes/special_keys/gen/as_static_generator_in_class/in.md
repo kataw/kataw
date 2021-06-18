@@ -80,7 +80,7 @@ class x {static * in(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 21,
@@ -137,7 +137,7 @@ class x {static * in(){}}
 ```javascript
 
 class x {
-  static static in() {}
+  static static in {}
 }
 ```
 

@@ -68,9 +68,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 30
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 30,
@@ -185,9 +185,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 84
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 84,
@@ -307,9 +307,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 148
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 148,
@@ -341,9 +341,9 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 167
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 167,
@@ -416,9 +416,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 206
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 206,
@@ -453,9 +453,9 @@ function * x() { "use strict";  yield: 34; }
                                         "end": 226
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 226,
@@ -536,9 +536,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 266
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 266,
@@ -570,9 +570,9 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 283
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "yield",
@@ -654,9 +654,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 327
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 327,
@@ -688,9 +688,9 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 344
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "bar",
@@ -780,9 +780,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 393
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 393,
@@ -819,9 +819,9 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 414
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 414,
@@ -894,9 +894,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 453
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 453,
@@ -936,9 +936,9 @@ function * x() { "use strict";  yield: 34; }
                                         "end": 475
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 475,
@@ -1019,9 +1019,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 515
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 515,
@@ -1115,9 +1115,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 563
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 563,
@@ -1242,9 +1242,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 621
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 621,
@@ -1316,9 +1316,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 654
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 654,
@@ -1399,9 +1399,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 700
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 700,
@@ -1495,9 +1495,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 746
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 746,
@@ -1596,9 +1596,9 @@ function * x() { "use strict";  yield: 34; }
                 "end": 788
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 788,

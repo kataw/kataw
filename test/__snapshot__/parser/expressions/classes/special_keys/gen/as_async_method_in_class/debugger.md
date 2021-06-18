@@ -75,7 +75,7 @@ class x {async debugger(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 24,
@@ -132,7 +132,7 @@ class x {async debugger(){}}
 ```javascript
 
 class x {
-  async debugger() {}
+  async debugger {}
 }
 ```
 

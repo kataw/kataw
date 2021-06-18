@@ -62,7 +62,7 @@ class x { foo(x=super.foo){ }}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -163,7 +163,7 @@ class x { foo(x=super.foo){ }}
 ```javascript
 
 class x {
-  foo(x = super.foo) {}
+  foo {}
 }
 ```
 

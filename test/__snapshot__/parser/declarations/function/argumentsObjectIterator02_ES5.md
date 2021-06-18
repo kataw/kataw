@@ -43,9 +43,9 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "end": 31
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,

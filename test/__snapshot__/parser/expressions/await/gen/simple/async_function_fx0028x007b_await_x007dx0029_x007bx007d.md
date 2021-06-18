@@ -48,9 +48,9 @@ async function f({ await }) {}
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 212,
                         "propertyList": {
@@ -113,9 +113,7 @@ async function f({ await }) {}
 
 ```javascript
 
-async function f({
-  await
-}) {}
+async function f() {}
 ```
 
 ### Diagnostics

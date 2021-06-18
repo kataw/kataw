@@ -62,7 +62,7 @@ class A {a(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 11,
@@ -119,7 +119,7 @@ class A {a(){}}
 ```javascript
 
 class A {
-  a() {}
+  a {}
 }
 ```
 

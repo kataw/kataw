@@ -48,9 +48,9 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
@@ -82,9 +82,9 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                 "end": 35
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 35,
@@ -149,7 +149,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                             "typeParameters": null,
                                                                             "formalParameters": {
                                                                                 "kind": 214,
-                                                                                "formalParameterList": [],
+                                                                                "formalParameters": [],
                                                                                 "trailingComma": false,
                                                                                 "flags": 160,
                                                                                 "start": 54,
@@ -316,7 +316,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 
 function * gen() {
   function not_gen() {
-    var o = { * gf() {
+    var o = { * gf {
         switch(1) {
           case  yield:
             break;

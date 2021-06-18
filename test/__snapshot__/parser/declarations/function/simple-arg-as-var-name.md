@@ -35,9 +35,9 @@ function f(x) { var x; }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -124,7 +124,7 @@ function f(x) { var x; }
 
 ```javascript
 
-function f(x) {
+function f() {
   var x;
 }
 ```

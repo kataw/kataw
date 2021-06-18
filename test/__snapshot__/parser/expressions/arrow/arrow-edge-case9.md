@@ -136,7 +136,7 @@ a ? (b) : c => <T>(d) : e => f;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "e",
                                     "rawText": "e",

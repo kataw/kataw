@@ -62,7 +62,7 @@ class Foo { bar(a,) { } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "a",
@@ -128,7 +128,7 @@ class Foo { bar(a,) { } }
 ```javascript
 
 class Foo {
-  bar(a) {}
+  bar {}
 }
 ```
 

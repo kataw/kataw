@@ -78,7 +78,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "Date",
                                                                 "rawText": "Date",

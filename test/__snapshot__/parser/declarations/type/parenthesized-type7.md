@@ -55,7 +55,7 @@ type X = (x.y);
                     "kind": 290,
                     "type": {
                         "kind": 144,
-                        "id": {
+                        "name": {
                             "kind": 145,
                             "qualification": {
                                 "kind": 134299649,
@@ -65,7 +65,7 @@ type X = (x.y);
                                 "start": 10,
                                 "end": 11
                             },
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",

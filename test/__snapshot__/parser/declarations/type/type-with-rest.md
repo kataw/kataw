@@ -72,7 +72,7 @@ type C = { ...A&B };
                                     "types": [
                                         {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "A",
                                                 "rawText": "A",
@@ -87,7 +87,7 @@ type C = { ...A&B };
                                         },
                                         {
                                             "kind": 144,
-                                            "id": {
+                                            "name": {
                                                 "kind": 134299649,
                                                 "text": "B",
                                                 "rawText": "B",

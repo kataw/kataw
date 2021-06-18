@@ -41,9 +41,9 @@ async function f(){
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,
@@ -81,9 +81,9 @@ async function f(){
                                 "generatorToken": null,
                                 "name": null,
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 41,

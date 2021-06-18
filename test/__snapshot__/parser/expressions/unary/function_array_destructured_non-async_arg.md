@@ -40,9 +40,9 @@ async function f(){   function fh([+ await x]) { }   }
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,
@@ -74,9 +74,9 @@ async function f(){   function fh([+ await x]) { }   }
                                 "end": 33
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 201,
                                         "elementList": {

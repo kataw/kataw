@@ -107,7 +107,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 38,
@@ -167,7 +167,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -232,7 +232,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 75,
@@ -283,7 +283,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 85,
@@ -477,10 +477,10 @@ class Foo {
 
 class Foo {
   static #x;
-  static get static #y() {}
-  static set static #y(x) {}
-  static static #z() {}
-  foo() {
+  static get static #y {}
+  static set static #y {}
+  static static #z {}
+  foo {
     Foo.#x += 1;
     Foo.#y += 1;
     Foo.#z();

@@ -80,7 +80,7 @@ class x {async * switch(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 24,
@@ -137,7 +137,7 @@ class x {async * switch(){}}
 ```javascript
 
 class x {
-  async switch() {}
+  async switch {}
 }
 ```
 

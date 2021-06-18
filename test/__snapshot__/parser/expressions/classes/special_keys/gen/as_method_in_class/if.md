@@ -70,7 +70,7 @@ class x {if(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 12,
@@ -127,7 +127,7 @@ class x {if(){}}
 ```javascript
 
 class x {
-  if() {}
+  if {}
 }
 ```
 

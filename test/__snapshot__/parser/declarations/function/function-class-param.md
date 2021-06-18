@@ -40,9 +40,9 @@ function* foo(a = class {*bar() { yield b }}) {}
                 "end": 13
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -100,7 +100,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
                                                     "start": 30,

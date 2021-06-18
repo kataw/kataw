@@ -43,9 +43,9 @@ function f() { class C { await() { } } }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 10,
@@ -104,7 +104,7 @@ function f() { class C { await() { } } }
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
                                                     "start": 31,
@@ -176,7 +176,7 @@ function f() { class C { await() { } } }
 
 function f() {
   class C {
-    await() {}
+    await {}
   }
 }
 ```

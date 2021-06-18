@@ -62,7 +62,7 @@ class x { "construct\u{6f}r"(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 29,
@@ -119,7 +119,7 @@ class x { "construct\u{6f}r"(){} }
 ```javascript
 
 class x {
-  "\"construct\u{6f}r\""() {}
+  "\"construct\u{6f}r\"" {}
 }
 ```
 

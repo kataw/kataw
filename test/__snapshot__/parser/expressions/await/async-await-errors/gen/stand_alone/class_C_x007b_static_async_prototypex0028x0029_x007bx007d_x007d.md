@@ -80,7 +80,7 @@ class C { static async prototype() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 33,

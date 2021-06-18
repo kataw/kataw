@@ -81,7 +81,7 @@ type T = { [[foo]](): X }
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "X",
                                             "rawText": "X",

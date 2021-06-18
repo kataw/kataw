@@ -70,7 +70,7 @@ class C { constructor() { class C { get x) { super; } } } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 22,
@@ -135,7 +135,7 @@ class C { constructor() { class C { get x) { super; } } } }
                                                                     "typeParameters": null,
                                                                     "formalParameters": {
                                                                         "kind": 214,
-                                                                        "formalParameterList": [],
+                                                                        "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 1024,
                                                                         "start": 41,

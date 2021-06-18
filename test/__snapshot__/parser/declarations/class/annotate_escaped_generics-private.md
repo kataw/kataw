@@ -164,7 +164,7 @@ class I<X> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -183,7 +183,7 @@ class I<X> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -277,7 +277,7 @@ class I<X> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -296,7 +296,7 @@ class I<X> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -471,10 +471,10 @@ class I {
 
   _f;
 
-  _h(x) {
+  _h {
     return  x;
   }
-  g(x) {
+  g {
     this.#i = x;
     this._f = x;
   }

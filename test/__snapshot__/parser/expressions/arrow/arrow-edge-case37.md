@@ -100,7 +100,7 @@ let x = (y: any): (a | b) => {};
                                         "types": [
                                             {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -115,7 +115,7 @@ let x = (y: any): (a | b) => {};
                                             },
                                             {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",

@@ -200,9 +200,9 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 49,

@@ -75,7 +75,7 @@ class x {async implements(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 26,
@@ -132,7 +132,7 @@ class x {async implements(){}}
 ```javascript
 
 class x {
-  async implements() {}
+  async implements {}
 }
 ```
 

@@ -38,9 +38,9 @@ function bar(a = (v)) {
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -117,9 +117,9 @@ function bar(a = (v)) {
                 "end": 39
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -190,8 +190,8 @@ function bar(a = (v)) {
 
 ```javascript
 
-function foo(a = (v)) {}
-function bar(a = (v)) {}
+function foo() {}
+function bar() {}
 ```
 
 ### Diagnostics

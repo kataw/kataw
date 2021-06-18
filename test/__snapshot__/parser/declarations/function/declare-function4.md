@@ -48,9 +48,9 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                 "end": 20
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -69,7 +69,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "Config",
                                     "rawText": "Config",
@@ -195,7 +195,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
 
 ```javascript
 
-function bar(config): void;
+function bar(): void;
 ```
 
 ### Diagnostics

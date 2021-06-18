@@ -48,9 +48,9 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,
@@ -119,7 +119,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [
+                                                                "formalParameters": [
                                                                     {
                                                                         "kind": 281,
                                                                         "ellipsisToken": null,

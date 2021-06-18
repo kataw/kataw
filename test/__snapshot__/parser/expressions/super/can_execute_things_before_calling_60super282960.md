@@ -82,7 +82,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 32,
@@ -236,7 +236,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
 ```javascript
 
 class x  {
-  constructor() {
+  constructor {
     let xx = x + x;
     super.mom;
   }

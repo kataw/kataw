@@ -84,7 +84,7 @@ class Bar {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 24,
@@ -167,7 +167,7 @@ class Bar {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -256,10 +256,10 @@ class Bar {
 ```javascript
 
 class Bar {
-  get ["'d'"]() {
+  get ["'d'"] {
     return  "'foo'";
   }
-  set ["'d'"](x) {}
+  set ["'d'"] {}
 }
 ```
 

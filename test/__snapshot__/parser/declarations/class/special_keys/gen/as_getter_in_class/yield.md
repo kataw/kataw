@@ -75,7 +75,7 @@ class x {get yield(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 19,
@@ -132,7 +132,7 @@ class x {get yield(){}}
 ```javascript
 
 class x {
-  get yield() {}
+  get yield {}
 }
 ```
 

@@ -80,7 +80,7 @@ class x {static * typeof(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 25,
@@ -137,7 +137,7 @@ class x {static * typeof(){}}
 ```javascript
 
 class x {
-  static static typeof() {}
+  static static typeof {}
 }
 ```
 

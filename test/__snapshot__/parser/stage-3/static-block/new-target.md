@@ -77,7 +77,7 @@ class Base {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 27,
@@ -341,7 +341,7 @@ class Base {
 ```javascript
 
 class Base {
-  constructor() {
+  constructor {
     this.Foo = class  {
       static #_ = (() =>  {
             this.foo = ;

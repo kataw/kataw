@@ -51,9 +51,9 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "end": 64
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -289,9 +289,9 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "end": 178
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -522,11 +522,11 @@ function e(x: { (): string; (x: number): string }): () => number {
 ```javascript
 // Only one call property needs to match the function
 
-function d(x):  {
+function d():  {
   return  x;
 }
 // ...but you need at least one
-function e(x):  {
+function e():  {
   return  x;
 }
 ```

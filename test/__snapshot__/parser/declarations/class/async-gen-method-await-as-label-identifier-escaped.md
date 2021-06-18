@@ -90,7 +90,7 @@ var C = class { async *gen() {
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 384,
                                                     "start": 27,
@@ -187,7 +187,7 @@ var C = class { async *gen() {
 ```javascript
 
 var C = class  {
-  async gen() {
+  async gen {
     aawait:;
   }
 };

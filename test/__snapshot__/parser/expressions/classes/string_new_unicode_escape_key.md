@@ -68,7 +68,7 @@ class x { "prot\u{6f}type"(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 27,
@@ -125,7 +125,7 @@ class x { "prot\u{6f}type"(){} }
 ```javascript
 
 class x {
-  "\"prot\u{6f}type\""() {}
+  "\"prot\u{6f}type\"" {}
 }
 ```
 

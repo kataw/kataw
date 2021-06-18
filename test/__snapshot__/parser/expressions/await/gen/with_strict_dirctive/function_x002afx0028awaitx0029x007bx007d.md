@@ -57,9 +57,9 @@
                 "end": 25
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "await",
@@ -107,7 +107,7 @@
 
 ```javascript
 
-function * f(await) {}
+function * f() {}
 ```
 
 ### Diagnostics

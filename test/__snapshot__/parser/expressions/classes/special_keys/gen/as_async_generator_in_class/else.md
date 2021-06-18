@@ -80,7 +80,7 @@ class x {async * else(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 22,
@@ -137,7 +137,7 @@ class x {async * else(){}}
 ```javascript
 
 class x {
-  async else() {}
+  async else {}
 }
 ```
 

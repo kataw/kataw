@@ -43,9 +43,9 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                 "end": 19
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "r",
@@ -178,7 +178,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
 
 ```javascript
 
-function spreadOpt3(r, ...[]) {
+function spreadOpt3() {
   return  spreadTarget(...r);
 }
 ```

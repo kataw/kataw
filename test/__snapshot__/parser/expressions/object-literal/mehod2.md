@@ -69,7 +69,7 @@ x = { method(test) { } }
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 13,
@@ -158,7 +158,7 @@ x = { method(test) { } }
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 32,
@@ -247,7 +247,7 @@ x = { method(test) { } }
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 51,
@@ -338,7 +338,7 @@ x = { method(test) { } }
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "test",
@@ -413,7 +413,7 @@ x = { method(test) { } }
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 98,
@@ -514,7 +514,7 @@ x = { method(test) { } }
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 121,
@@ -607,7 +607,7 @@ x = { method(test) { } }
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "test",
@@ -677,12 +677,12 @@ x = { method(test) { } }
 
 ```javascript
 
-x = { method() {} };
-x = { get() {} };
-x = { set() {} };
-x = { method(test) {} }({ function() {} });
-x = ({ declare() {} });
-x = { method(test) {} };
+x = { method {} };
+x = { get {} };
+x = { set {} };
+x = { method {} }({ function {} });
+x = ({ declare {} });
+x = { method {} };
 ```
 
 ### Diagnostics

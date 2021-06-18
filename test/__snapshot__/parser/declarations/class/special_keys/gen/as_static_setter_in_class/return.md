@@ -80,7 +80,7 @@ class x {static set return(x){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -146,7 +146,7 @@ class x {static set return(x){}}
 ```javascript
 
 class x {
-  static set static return(x) {}
+  static set static return {}
 }
 ```
 

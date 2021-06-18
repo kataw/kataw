@@ -80,7 +80,7 @@ class x {async * interface(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 27,
@@ -137,7 +137,7 @@ class x {async * interface(){}}
 ```javascript
 
 class x {
-  async interface() {}
+  async interface {}
 }
 ```
 

@@ -89,7 +89,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 22,
@@ -205,7 +205,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
 class Foo {
   #foo;
 
-  foo() {
+  foo {
     delete ;
   }
 }

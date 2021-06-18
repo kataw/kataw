@@ -83,9 +83,9 @@ declare function foo(): void
                 "start": 20,
                 "end": 23
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 23,
@@ -141,9 +141,9 @@ declare function foo(): void
                 "end": 54
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -262,9 +262,9 @@ declare function foo(): void
                 "end": 105
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 105,
@@ -304,7 +304,7 @@ declare function foo(): void
 ```javascript
 
 function  <T >foo(): void;
-function foo(x, y): void;
+function foo(): void;
 function foo(): void;
 ```
 

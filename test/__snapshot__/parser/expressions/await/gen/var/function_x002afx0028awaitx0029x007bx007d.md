@@ -104,9 +104,9 @@ var await; var f = (async function() { function *f(await){} });
                                 "generatorToken": null,
                                 "name": null,
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 34,
@@ -143,9 +143,9 @@ var await; var f = (async function() { function *f(await){} });
                                                     "end": 50
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
-                                                    "formalParameterList": [
+                                                    "formalParameters": [
                                                         {
                                                             "kind": 134299649,
                                                             "text": "await",
@@ -226,7 +226,7 @@ var await; var f = (async function() { function *f(await){} });
 
 var await;
 var f = (async function () {
-    function * f(await) {}
+    function * f() {}
   });
 ```
 

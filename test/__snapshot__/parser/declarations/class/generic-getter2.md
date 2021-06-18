@@ -172,7 +172,7 @@ class C<T> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "A",
                                         "rawText": "A",
@@ -191,7 +191,7 @@ class C<T> {
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "T",
                                                             "rawText": "T",
@@ -264,7 +264,7 @@ class C<T> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 55,
@@ -276,7 +276,7 @@ class C<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "A",
                                             "rawText": "A",
@@ -295,7 +295,7 @@ class C<T> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -416,7 +416,7 @@ class A {}
 class C {
   data;
 
-  get x() {
+  get x {
     return  this.data;
   }
 }

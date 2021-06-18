@@ -61,7 +61,7 @@ type X = (x.y<>) => T
                     },
                     "arrowToken": {
                         "kind": 144,
-                        "id": {
+                        "name": {
                             "kind": 145,
                             "qualification": {
                                 "kind": 134299649,
@@ -71,7 +71,7 @@ type X = (x.y<>) => T
                                 "start": 10,
                                 "end": 11
                             },
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "y",
                                 "rawText": "y",
@@ -107,7 +107,7 @@ type X = (x.y<>) => T
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

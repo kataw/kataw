@@ -48,9 +48,9 @@ function *f(await){}
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "await",
@@ -98,7 +98,7 @@ function *f(await){}
 
 ```javascript
 
-function * f(await) {}
+function * f() {}
 ```
 
 ### Diagnostics

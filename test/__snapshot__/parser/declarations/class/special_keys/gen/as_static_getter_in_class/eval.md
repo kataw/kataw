@@ -80,7 +80,7 @@ class x {static get eval(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 25,
@@ -137,7 +137,7 @@ class x {static get eval(){}}
 ```javascript
 
 class x {
-  static get static eval() {}
+  static get static eval {}
 }
 ```
 

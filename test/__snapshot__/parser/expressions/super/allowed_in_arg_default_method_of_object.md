@@ -57,7 +57,7 @@ x={ foo(a = super.foo){ }}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 281,
                                                 "ellipsisToken": null,
@@ -162,7 +162,7 @@ x={ foo(a = super.foo){ }}
 
 ```javascript
 
-x = { foo(a = super.foo) {} };
+x = { foo {} };
 ```
 
 ### Diagnostics

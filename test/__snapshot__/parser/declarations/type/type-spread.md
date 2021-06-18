@@ -186,7 +186,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "D",
                                         "rawText": "D",
@@ -268,7 +268,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "A2",
                                         "rawText": "A2",
@@ -305,7 +305,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B2",
                                         "rawText": "B2",
@@ -465,7 +465,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "A9",
                                         "rawText": "A9",
@@ -502,7 +502,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B9",
                                         "rawText": "B9",
@@ -681,7 +681,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "A11",
                                         "rawText": "A11",
@@ -718,7 +718,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B11",
                                         "rawText": "B11",

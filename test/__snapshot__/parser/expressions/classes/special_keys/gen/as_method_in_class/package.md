@@ -70,7 +70,7 @@ class x {package(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 17,
@@ -127,7 +127,7 @@ class x {package(){}}
 ```javascript
 
 class x {
-  package() {}
+  package {}
 }
 ```
 

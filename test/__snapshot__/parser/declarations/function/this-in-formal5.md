@@ -51,9 +51,9 @@ function five<T>(this: T) {}
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -130,9 +130,9 @@ function five<T>(this: T) {}
                 "end": 43
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -217,9 +217,9 @@ function five<T>(this: T) {}
                 "end": 79
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -319,9 +319,9 @@ function five<T>(this: T) {}
                 "end": 117
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -467,9 +467,9 @@ function five<T>(this: T) {}
                 "start": 161,
                 "end": 164
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -488,7 +488,7 @@ function five<T>(this: T) {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "T",
                                     "rawText": "T",
@@ -549,11 +549,11 @@ function five<T>(this: T) {}
 
 ```javascript
 
-function one(this) {}
-function two(this, a) {}
-function three(this, ...a) {}
-function four(this, a, b, ...c) {}
-function  <T >five(this) {}
+function one() {}
+function two() {}
+function three() {}
+function four() {}
+function  <T >five() {}
 ```
 
 ### Diagnostics

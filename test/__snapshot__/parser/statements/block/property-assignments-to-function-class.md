@@ -248,9 +248,9 @@ FooBar.bar = 1;
                             "end": 82
                         },
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 82,

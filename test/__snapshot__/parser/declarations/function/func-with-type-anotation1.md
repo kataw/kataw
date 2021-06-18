@@ -43,9 +43,9 @@ function g(a:number=1, e:number=1) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -161,7 +161,7 @@ function g(a:number=1, e:number=1) {}
 
 ```javascript
 
-function g(a = 1, e = 1) {}
+function g() {}
 ```
 
 ### Diagnostics

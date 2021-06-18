@@ -80,7 +80,7 @@ class x {static async package(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 30,
@@ -137,7 +137,7 @@ class x {static async package(){}}
 ```javascript
 
 class x {
-  async static static package() {}
+  async static static package {}
 }
 ```
 

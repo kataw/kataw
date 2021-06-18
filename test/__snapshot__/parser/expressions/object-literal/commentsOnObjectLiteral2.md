@@ -91,9 +91,9 @@ var Person = makeClass(
                                                         "generatorToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
-                                                            "formalParameterList": [
+                                                            "formalParameters": [
                                                                 {
                                                                     "kind": 134299649,
                                                                     "text": "name",
@@ -231,7 +231,7 @@ var Person = makeClass({
         @constructs
         @param {string} name The name of the person.
         */
-  initialize: function (name) {
+  initialize: function () {
     this.name = name;
   } /* trailing comment 1*/
 });

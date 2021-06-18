@@ -80,9 +80,9 @@
                                 "end": 38
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -108,9 +108,9 @@
                                             "generatorToken": null,
                                             "name": null,
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 51,
@@ -236,9 +236,7 @@
 
 ```javascript
 
-var f = async function f(x = function () {
-  let await = 0;
-}) {};
+var f = async function f() {};
 ```
 
 ### Diagnostics

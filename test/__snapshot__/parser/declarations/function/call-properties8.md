@@ -43,9 +43,9 @@ function b(x: { (z: number): string }): (z: number) => number {
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -275,7 +275,7 @@ function b(x: { (z: number): string }): (z: number) => number {
 
 ```javascript
 
-function b(x):  {
+function b():  {
   return  x;
 }
 ```

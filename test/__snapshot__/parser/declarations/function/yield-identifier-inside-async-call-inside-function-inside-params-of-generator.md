@@ -40,9 +40,9 @@ function* g( x = function() { async(yield) }) {};
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -68,9 +68,9 @@ function* g( x = function() { async(yield) }) {};
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 25,
@@ -176,9 +176,7 @@ function* g( x = function() { async(yield) }) {};
 
 ```javascript
 
-function * g(x = function () {
-  async(yield)
-}) {}
+function * g() {}
 
 ```
 

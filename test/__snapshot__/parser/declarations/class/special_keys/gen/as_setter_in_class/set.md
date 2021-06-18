@@ -75,7 +75,7 @@ class x {set set(x){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -141,7 +141,7 @@ class x {set set(x){}}
 ```javascript
 
 class x {
-  set set(x) {}
+  set set {}
 }
 ```
 

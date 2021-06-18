@@ -116,7 +116,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                         "name": null,
                                                                                         "key": {
                                                                                             "kind": 144,
-                                                                                            "id": {
+                                                                                            "name": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "x",
                                                                                                 "rawText": "x",
@@ -230,7 +230,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                                 "name": null,
                                                                                                                                                 "key": {
                                                                                                                                                     "kind": 144,
-                                                                                                                                                    "id": {
+                                                                                                                                                    "name": {
                                                                                                                                                         "kind": 134299649,
                                                                                                                                                         "text": "x",
                                                                                                                                                         "rawText": "x",
@@ -314,7 +314,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                             "types": [
                                                                                                                                                 {
                                                                                                                                                     "kind": 144,
-                                                                                                                                                    "id": {
+                                                                                                                                                    "name": {
                                                                                                                                                         "kind": 134299649,
                                                                                                                                                         "text": "y",
                                                                                                                                                         "rawText": "y",
@@ -349,7 +349,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                                                         "parameters": [
                                                                                                                                                                             {
                                                                                                                                                                                 "kind": 144,
-                                                                                                                                                                                "id": {
+                                                                                                                                                                                "name": {
                                                                                                                                                                                     "kind": 134299649,
                                                                                                                                                                                     "text": "x",
                                                                                                                                                                                     "rawText": "x",
@@ -374,7 +374,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                                                         "bitwiseAndToken": null,
                                                                                                                                                                         "type": {
                                                                                                                                                                             "kind": 144,
-                                                                                                                                                                            "id": {
+                                                                                                                                                                            "name": {
                                                                                                                                                                                 "kind": 134299649,
                                                                                                                                                                                 "text": "T",
                                                                                                                                                                                 "rawText": "T",
@@ -427,7 +427,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                                     "bitwiseAndToken": null,
                                                                                                                                     "type": {
                                                                                                                                         "kind": 144,
-                                                                                                                                        "id": {
+                                                                                                                                        "name": {
                                                                                                                                             "kind": 134299649,
                                                                                                                                             "text": "T",
                                                                                                                                             "rawText": "T",
@@ -461,7 +461,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                         "bitwiseAndToken": null,
                                                                                                                         "type": {
                                                                                                                             "kind": 144,
-                                                                                                                            "id": {
+                                                                                                                            "name": {
                                                                                                                                 "kind": 134299649,
                                                                                                                                 "text": "T",
                                                                                                                                 "rawText": "T",
@@ -494,7 +494,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                             "bitwiseAndToken": null,
                                                                                                             "type": {
                                                                                                                 "kind": 144,
-                                                                                                                "id": {
+                                                                                                                "name": {
                                                                                                                     "kind": 134299649,
                                                                                                                     "text": "T",
                                                                                                                     "rawText": "T",
@@ -532,7 +532,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                             "bitwiseAndToken": null,
                                                                                             "type": {
                                                                                                 "kind": 144,
-                                                                                                "id": {
+                                                                                                "name": {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "T",
                                                                                                     "rawText": "T",
@@ -566,7 +566,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                 "bitwiseAndToken": null,
                                                                                 "type": {
                                                                                     "kind": 144,
-                                                                                    "id": {
+                                                                                    "name": {
                                                                                         "kind": 134299649,
                                                                                         "text": "T",
                                                                                         "rawText": "T",
@@ -631,7 +631,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                     "types": [
                                                                                         {
                                                                                             "kind": 144,
-                                                                                            "id": {
+                                                                                            "name": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "y",
                                                                                                 "rawText": "y",
@@ -666,7 +666,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                 "parameters": [
                                                                                                                     {
                                                                                                                         "kind": 144,
-                                                                                                                        "id": {
+                                                                                                                        "name": {
                                                                                                                             "kind": 134299649,
                                                                                                                             "text": "x",
                                                                                                                             "rawText": "x",
@@ -691,7 +691,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                                                                 "bitwiseAndToken": null,
                                                                                                                 "type": {
                                                                                                                     "kind": 144,
-                                                                                                                    "id": {
+                                                                                                                    "name": {
                                                                                                                         "kind": 134299649,
                                                                                                                         "text": "T",
                                                                                                                         "rawText": "T",
@@ -744,7 +744,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                             "bitwiseAndToken": null,
                                                                             "type": {
                                                                                 "kind": 144,
-                                                                                "id": {
+                                                                                "name": {
                                                                                     "kind": 134299649,
                                                                                     "text": "T",
                                                                                     "rawText": "T",
@@ -778,7 +778,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "T",
                                                                         "rawText": "T",
@@ -811,7 +811,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "T",
                                                             "rawText": "T",
@@ -849,7 +849,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -883,7 +883,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

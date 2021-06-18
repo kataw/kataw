@@ -412,7 +412,7 @@ class two {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -553,7 +553,7 @@ class two {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -636,7 +636,7 @@ class two {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -727,7 +727,7 @@ class two {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -833,7 +833,7 @@ class two {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -985,7 +985,7 @@ class two {
                                 },
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -1004,7 +1004,7 @@ class two {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -1084,11 +1084,11 @@ class two {
 
 declare class one TODO!
 class two {
-  m1(this) {}
-  m2(this, a) {}
-  m3(this, ...a) {}
-  m4(this, a, b, ...c) {}
-  m5(this) {}
+  m1 {}
+  m2 {}
+  m3 {}
+  m4 {}
+  m5 {}
 }
 ```
 

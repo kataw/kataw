@@ -105,7 +105,7 @@ a ? b ? (c) : (d) : (e) => f : g;
                                 "kind": 290,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "e",
                                         "rawText": "e",

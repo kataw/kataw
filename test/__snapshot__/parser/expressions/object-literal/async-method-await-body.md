@@ -48,7 +48,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
                                         "start": 11,
@@ -136,7 +136,7 @@
 
 ```javascript
 
-({ async a() {
+({ async a {
     await 0;
   } });
 ```

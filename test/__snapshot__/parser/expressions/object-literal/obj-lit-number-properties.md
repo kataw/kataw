@@ -215,7 +215,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32800,
                                                 "start": 50,
@@ -263,7 +263,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1048608,
                                                 "start": 60,
@@ -311,7 +311,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 524320,
                                                 "start": 69,
@@ -359,7 +359,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 262176,
                                                 "start": 79,
@@ -407,7 +407,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 90,
@@ -475,7 +475,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
 ```javascript
 
 x({ 0.9: a, 0x84: b, 0b1: c, 0o27: d, 1e234: e });
-x({ 0.9() {}, 0x84() {}, 0b1() {}, 0o27() {}, 1e234() {} });
+x({ 0.9 {}, 0x84 {}, 0b1 {}, 0o27 {}, 1e234 {} });
 ```
 
 ### Diagnostics

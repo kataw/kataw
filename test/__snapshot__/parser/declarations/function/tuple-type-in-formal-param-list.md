@@ -41,9 +41,9 @@ function x({ y }: z<[string |Q]>) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -77,7 +77,7 @@ function x({ y }: z<[string |Q]>) {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
@@ -112,7 +112,7 @@ function x({ y }: z<[string |Q]>) {}
                                                                     },
                                                                     {
                                                                         "kind": 144,
-                                                                        "id": {
+                                                                        "name": {
                                                                             "kind": 134299649,
                                                                             "text": "Q",
                                                                             "rawText": "Q",
@@ -206,9 +206,7 @@ function x({ y }: z<[string |Q]>) {}
 
 ```javascript
 
-function x({
-  y
-}) {}
+function x() {}
 ```
 
 ### Diagnostics

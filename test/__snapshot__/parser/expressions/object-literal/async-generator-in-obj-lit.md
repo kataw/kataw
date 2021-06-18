@@ -79,7 +79,7 @@ const obj = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 40,
@@ -145,7 +145,7 @@ const obj = {
 
 ```javascript
 
-const obj = { async, * generator() {} };
+const obj = { async, * generator {} };
 ```
 
 ### Diagnostics

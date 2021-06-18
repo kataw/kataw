@@ -99,9 +99,9 @@ a=function<T,S>() {}
                         "start": 10,
                         "end": 15
                     },
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 15,

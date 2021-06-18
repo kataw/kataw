@@ -106,7 +106,7 @@ declare class A<T> extends B<T> { x: number }
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",

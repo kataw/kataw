@@ -79,7 +79,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 29,
@@ -136,7 +136,7 @@
 ```javascript
 
 class x {
-  await() {}
+  await {}
 }
 ```
 

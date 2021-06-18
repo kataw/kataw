@@ -80,7 +80,7 @@ class x {static set default(x){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -146,7 +146,7 @@ class x {static set default(x){}}
 ```javascript
 
 class x {
-  static set static default(x) {}
+  static set static default {}
 }
 ```
 

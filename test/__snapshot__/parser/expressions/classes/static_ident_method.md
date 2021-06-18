@@ -67,7 +67,7 @@ class A {static a(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 18,
@@ -124,7 +124,7 @@ class A {static a(){}}
 ```javascript
 
 class A {
-  static static a() {}
+  static static a {}
 }
 ```
 

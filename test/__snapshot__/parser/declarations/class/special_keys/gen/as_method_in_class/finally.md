@@ -70,7 +70,7 @@ class x {finally(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 17,
@@ -127,7 +127,7 @@ class x {finally(){}}
 ```javascript
 
 class x {
-  finally() {}
+  finally {}
 }
 ```
 

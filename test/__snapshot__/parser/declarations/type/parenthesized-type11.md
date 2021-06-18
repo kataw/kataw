@@ -69,7 +69,7 @@ type X = (?x.y<z>[]);
                                 "kind": 136,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 145,
                                         "qualification": {
                                             "kind": 134299649,
@@ -79,7 +79,7 @@ type X = (?x.y<z>[]);
                                             "start": 11,
                                             "end": 12
                                         },
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
@@ -102,7 +102,7 @@ type X = (?x.y<z>[]);
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "z",
                                                             "rawText": "z",

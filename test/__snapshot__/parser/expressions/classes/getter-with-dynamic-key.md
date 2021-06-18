@@ -78,7 +78,7 @@ class x { static get [y](){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 25,
@@ -135,7 +135,7 @@ class x { static get [y](){}}
 ```javascript
 
 class x {
-  static get static [y]() {}
+  static get static [y] {}
 }
 ```
 

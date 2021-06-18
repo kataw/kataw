@@ -48,9 +48,9 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
@@ -82,9 +82,9 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                 "end": 35
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 35,
@@ -116,9 +116,9 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                 "end": 50
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 50,
@@ -177,7 +177,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                 "typeParameters": null,
                                                                                 "formalParameters": {
                                                                                     "kind": 214,
-                                                                                    "formalParameterList": [],
+                                                                                    "formalParameters": [],
                                                                                     "trailingComma": false,
                                                                                     "flags": 0,
                                                                                     "start": 71,
@@ -279,7 +279,7 @@ function * gen() {
   function not_gen() {
     function f() {
       class C {
-        yield() {}
+        yield {}
       }
     }
   }

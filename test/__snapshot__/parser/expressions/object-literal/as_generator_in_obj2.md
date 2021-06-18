@@ -55,7 +55,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 10,
@@ -135,7 +135,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 32,
@@ -215,7 +215,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 47,
@@ -295,7 +295,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 62,
@@ -356,10 +356,10 @@
 
 ```javascript
 
-({ * type() {} });
-({ * interface() {} });
-({ * in() {} });
-({ * of() {} });
+({ * type {} });
+({ * interface {} });
+({ * in {} });
+({ * of {} });
 ```
 
 ### Diagnostics

@@ -48,9 +48,9 @@
                 "end": 36
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -119,7 +119,7 @@
 
 ```javascript
 /* before */
-async function f /* b */(/* c */ x /* d */, /* e */ y /* f */) /* g */ {
+async function f /* b */() /* g */ {
 
 } /* after */
 ```

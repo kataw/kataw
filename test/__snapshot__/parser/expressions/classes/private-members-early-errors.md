@@ -76,7 +76,7 @@ class C { foo() { this.#a = 1; }}
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 134299649,
                                                         "text": "val",
@@ -223,7 +223,7 @@ class C { foo() { this.#a = 1; }}
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 1024,
                                                     "start": 59,
@@ -378,7 +378,7 @@ class C { foo() { this.#a = 1; }}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 110,
@@ -499,7 +499,7 @@ class C { foo() { this.#a = 1; }}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 148,

@@ -57,7 +57,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 281,
                                                 "ellipsisToken": null,
@@ -142,9 +142,9 @@
                                                         "generatorToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
-                                                            "formalParameterList": [],
+                                                            "formalParameters": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
                                                             "start": 52,
@@ -262,7 +262,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 281,
                                                 "ellipsisToken": null,
@@ -479,7 +479,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 281,
                                                 "ellipsisToken": null,
@@ -648,7 +648,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 201,
                                                 "elementList": {
@@ -774,7 +774,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 201,
                                                 "elementList": {
@@ -867,15 +867,11 @@
 
 ```javascript
 
-({ * async method([x] =  = function () {}) {} });
-({ * async method({
-    w: [x, y, z] = [4, 5, 6]
-  } = {}) {} });
-({ * async method({
-    x: y = thrower()
-  } = {}) {} });
-({ * async method([x = 23]) {} });
-({ * async method([_, x]) {} });
+({ * async method {} });
+({ * async method {} });
+({ * async method {} });
+({ * async method {} });
+({ * async method {} });
 ```
 
 ### Diagnostics

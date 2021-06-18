@@ -105,7 +105,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                                 "typeParameters": null,
                                                                 "formalParameters": {
                                                                     "kind": 214,
-                                                                    "formalParameterList": [],
+                                                                    "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 0,
                                                                     "start": 34,

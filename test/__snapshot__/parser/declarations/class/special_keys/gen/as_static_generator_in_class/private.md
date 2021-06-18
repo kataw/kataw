@@ -80,7 +80,7 @@ class x {static * private(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 26,
@@ -137,7 +137,7 @@ class x {static * private(){}}
 ```javascript
 
 class x {
-  static static private() {}
+  static static private {}
 }
 ```
 

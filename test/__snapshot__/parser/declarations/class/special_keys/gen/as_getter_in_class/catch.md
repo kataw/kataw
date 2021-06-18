@@ -75,7 +75,7 @@ class x {get catch(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 19,
@@ -132,7 +132,7 @@ class x {get catch(){}}
 ```javascript
 
 class x {
-  get catch() {}
+  get catch {}
 }
 ```
 

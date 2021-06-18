@@ -111,9 +111,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 44,
@@ -379,9 +379,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 174,
@@ -557,9 +557,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 281,
@@ -735,9 +735,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 391,
@@ -945,9 +945,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 558,
@@ -1235,9 +1235,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 732,
@@ -1482,9 +1482,9 @@ let tests = [
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 281,
                                                     "ellipsisToken": null,
@@ -1503,7 +1503,7 @@ let tests = [
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "Object",
                                                                 "rawText": "Object",
@@ -1543,7 +1543,7 @@ let tests = [
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "mixed",
                                                                 "rawText": "mixed",
@@ -1756,7 +1756,7 @@ let tests = // objects on RHS
     if (!("'foo'" in {})) {
       }
   }, // annotations on RHS
-  function (x, y) {
+  function () {
     ("'foo'" in x); // ok
 
     ("'foo'" in y); // error

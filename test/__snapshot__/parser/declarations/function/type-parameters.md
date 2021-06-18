@@ -163,7 +163,7 @@ type T = <
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "T",
                                     "rawText": "T",
@@ -299,9 +299,9 @@ type T = <
                 "start": 113,
                 "end": 128
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 128,
@@ -480,7 +480,7 @@ type T = <
                             },
                             "arrowToken": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "arg",
                                     "rawText": "arg",
@@ -623,7 +623,7 @@ type T = <
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "T",
                                     "rawText": "T",
@@ -759,9 +759,9 @@ type T = <
                 "start": 344,
                 "end": 362
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 362,
@@ -957,7 +957,7 @@ type T = <
                             },
                             "arrowToken": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "arg",
                                     "rawText": "arg",

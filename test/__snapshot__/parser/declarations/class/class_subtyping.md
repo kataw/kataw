@@ -104,7 +104,7 @@ class D extends C<O> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -193,7 +193,7 @@ class D extends C<O> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "O",
                                             "rawText": "O",
@@ -249,7 +249,7 @@ class D extends C<O> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 52,
@@ -337,7 +337,7 @@ class C {
 
 }
 class D  {
-  bar() {
+  bar {
     this.x;
   }
 }

@@ -159,7 +159,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "ellipsisToken": null,
                                 "name": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "S",
                                         "rawText": "S",
@@ -185,7 +185,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "optionalToken": null,
                                 "types": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "A",
                                         "rawText": "A",
@@ -209,7 +209,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "optionalToken": null,
                                 "types": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "C",
                                         "rawText": "C",
@@ -233,7 +233,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "optionalToken": null,
                                 "types": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "I",
                                         "rawText": "I",
@@ -262,7 +262,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "Promise",
                                 "rawText": "Promise",
@@ -281,7 +281,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "R",
                                                     "rawText": "R",

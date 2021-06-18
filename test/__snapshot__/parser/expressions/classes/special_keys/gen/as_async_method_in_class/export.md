@@ -75,7 +75,7 @@ class x {async export(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 22,
@@ -132,7 +132,7 @@ class x {async export(){}}
 ```javascript
 
 class x {
-  async export() {}
+  async export {}
 }
 ```
 

@@ -80,7 +80,7 @@ class x {async * try(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 21,
@@ -137,7 +137,7 @@ class x {async * try(){}}
 ```javascript
 
 class x {
-  async try() {}
+  async try {}
 }
 ```
 

@@ -75,7 +75,7 @@ class x {* await(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 17,
@@ -132,7 +132,7 @@ class x {* await(){}}
 ```javascript
 
 class x {
-  await() {}
+  await {}
 }
 ```
 

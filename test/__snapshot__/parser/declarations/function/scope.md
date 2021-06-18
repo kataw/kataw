@@ -80,9 +80,9 @@ function for_scope_var() {
                 "end": 20
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 20,
@@ -346,9 +346,9 @@ function for_scope_var() {
                 "end": 133
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 133,
@@ -380,9 +380,9 @@ function for_scope_var() {
                                 "end": 197
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -543,9 +543,9 @@ function for_scope_var() {
                 "end": 309
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 309,
@@ -621,9 +621,9 @@ function for_scope_var() {
                                 "end": 392
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -802,9 +802,9 @@ function for_scope_var() {
                                 "end": 491
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -967,9 +967,9 @@ function for_scope_var() {
                 "end": 597
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 597,
@@ -1131,9 +1131,9 @@ function for_scope_var() {
                 "end": 696
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 696,
@@ -1300,20 +1300,19 @@ function block_scope() {
 }
 function default_param_1() {
   // function binding in scope in default expr
-  function f(x = f // error: number ~> string
-  ): number {
+  function f(): number {
     return  0;
   }
 }
 function default_param_2() {
   // fn body bindings not visible from param scope
   let a = "\"\"";
-  function f0(x = () =>  a): number {
+  function f0(): number {
     let a = 0;
     return  x(); // error: string ~> number
 
   }
-  function f1(x = b /* error: cannot resolve b */): number {
+  function f1(): number {
     let b = 0;
     return  x;
   }

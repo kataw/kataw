@@ -106,9 +106,9 @@ var v = {
                                             "generatorToken": null,
                                             "name": null,
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 114,
@@ -156,7 +156,7 @@ var v = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 33,
                                                 "start": 163,
@@ -209,7 +209,7 @@ var v = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1057,
                                                 "start": 187,
@@ -295,7 +295,7 @@ var v = {
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 134299649,
                                                         "text": "value",
@@ -421,11 +421,11 @@ var v = { //property
   prop: 1 /* multiple trailing comments */ /*trailing comments*/, //property
   func: function () {}, //PropertyName + CallSignature
   //PropertyName + CallSignature
-  func1() {}, //getter
-  get a() {
+  func1 {}, //getter
+  get a {
     return  this.prop;
   } /*trailing 1*/, //setter
-  set a(value) {
+  set a {
     this.prop = value;
   } // trailing 2
    };

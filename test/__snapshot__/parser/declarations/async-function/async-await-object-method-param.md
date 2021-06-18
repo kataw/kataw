@@ -48,9 +48,9 @@ async function foo(a = {async bar() { await b }}) {};
                 "end": 18
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -93,7 +93,7 @@ async function foo(a = {async bar() { await b }}) {};
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
                                                 "start": 34,
@@ -208,9 +208,7 @@ async function foo(a = {async bar() { await b }}) {};
 
 ```javascript
 
-async function foo(a = { async bar() {
-    await b;
-  } }) {}
+async function foo() {}
 
 ```
 

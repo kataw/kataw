@@ -81,7 +81,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 22,
@@ -185,7 +185,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                     "typeParameters": null,
                                                                     "formalParameters": {
                                                                         "kind": 214,
-                                                                        "formalParameterList": [],
+                                                                        "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 0,
                                                                         "start": 57,

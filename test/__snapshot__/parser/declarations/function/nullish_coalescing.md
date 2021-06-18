@@ -45,9 +45,9 @@ function g(x: any): string {
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -172,7 +172,7 @@ function g(x: any): string {
 
 ```javascript
 
-function g(x): string {
+function g(): string {
   return  x ?? 1;
 }
 ```

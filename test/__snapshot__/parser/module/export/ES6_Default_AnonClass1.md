@@ -77,7 +77,7 @@ export default class { givesANum(): number { return 42; }};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 0,
                                         "start": 33,
@@ -178,7 +178,7 @@ export default class { givesANum(): number { return 42; }};
 ```javascript
 
 export default class  {
-  givesANum() {
+  givesANum {
     return  42;
   }
 };

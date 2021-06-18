@@ -78,9 +78,9 @@ for (a in b) async function f(){}
                     "end": 29
                 },
                 "typeParameters": null,
-                "formalParameters": {
+                "formalParameterList": {
                     "kind": 214,
-                    "formalParameterList": [],
+                    "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 29,

@@ -43,9 +43,9 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,
@@ -110,7 +110,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 160,
                                                                 "start": 35,

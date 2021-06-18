@@ -54,9 +54,9 @@ async function * gen() {async function * foo(yield) { }}
                 "end": 20
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 20,
@@ -98,9 +98,9 @@ async function * gen() {async function * foo(yield) { }}
                                 "end": 44
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "yield",

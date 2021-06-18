@@ -411,9 +411,9 @@ export const [destructuredArrNumber2] = [1]
                     "end": 297
                 },
                 "typeParameters": null,
-                "formalParameters": {
+                "formalParameterList": {
                     "kind": 214,
-                    "formalParameterList": [],
+                    "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 297,
@@ -541,7 +541,7 @@ export const [destructuredArrNumber2] = [1]
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 0,
                                         "start": 369,
@@ -935,7 +935,7 @@ export function givesANumber2(): number {
   return  42;
 }
 export class NumberGenerator2 {
-  givesANumber() {
+  givesANumber {
     return  42;
   }
 }

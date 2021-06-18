@@ -78,9 +78,9 @@ var gen = async function *g() {
                                 "end": 27
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 27,
@@ -208,9 +208,9 @@ var gen = async function *g() {
                                                                             "generatorToken": null,
                                                                             "name": null,
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
-                                                                                "formalParameterList": [
+                                                                                "formalParameters": [
                                                                                     {
                                                                                         "kind": 134299649,
                                                                                         "text": "arg",
@@ -461,7 +461,7 @@ var gen = async function *g() {
 
 var gen = async function * g() {
   callCount += 1;
-  yield { ...yield  yield, ...(function (arg) {
+  yield { ...yield  yield, ...(function () {
         var yield = arg;
         return  { ...yield };
       }( yield)), ... yield };

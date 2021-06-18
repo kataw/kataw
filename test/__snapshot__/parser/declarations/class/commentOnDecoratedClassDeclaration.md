@@ -221,7 +221,7 @@ class AnotherRomote {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 149,
@@ -287,7 +287,7 @@ class Remote {}
  */
 @decorator("\"hi\"")
 class AnotherRomote {
-  constructor() {}
+  constructor {}
 }
 ```
 

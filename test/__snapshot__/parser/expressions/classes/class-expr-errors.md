@@ -75,7 +75,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "val",
@@ -135,7 +135,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 27,
@@ -264,7 +264,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 70,
@@ -315,7 +315,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 79,
@@ -450,7 +450,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 117,
@@ -501,7 +501,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "obj",
@@ -685,7 +685,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 176,
@@ -736,7 +736,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 185,
@@ -839,26 +839,26 @@
 ```javascript
 
 (class  {
-    set #b(val) {}
-    fn() {
+    set #b {}
+    fn {
       return  this.#b;
     }
   });
 (class  {
-    get #b() {}
-    fn() {
+    get #b {}
+    fn {
       this.#b++;
     }
   });
 (class  {
-    get #b() {}
-    fn(obj) {
+    get #b {}
+    fn {
       ({ y: this.#b } = obj);
     }
   });
 (class  {
-    #b() {}
-    fn() {
+    #b {}
+    fn {
       this.#b++;
     }
   });

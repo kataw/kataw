@@ -1022,7 +1022,7 @@ for ({}.bar = x in obj);
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 267,
@@ -1783,9 +1783,9 @@ for ({}.bar = x in obj);
                         "end": 492
                     },
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 492,
@@ -2857,9 +2857,9 @@ for ({}.bar = x in obj);
                             "end": 809
                         },
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 809,
@@ -3952,9 +3952,9 @@ for ({}.bar = x in obj);
                 "end": 1074
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 1074,
@@ -4117,7 +4117,7 @@ for ({}.bar = x in obj);
                                                         "typeParameters": null,
                                                         "formalParameters": {
                                                             "kind": 214,
-                                                            "formalParameterList": [
+                                                            "formalParameters": [
                                                                 {
                                                                     "kind": 134299649,
                                                                     "text": "val",
@@ -4352,7 +4352,7 @@ for ({}.bar = x in obj);
                                                     "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
-                                                        "formalParameterList": [
+                                                        "formalParameters": [
                                                             {
                                                                 "kind": 134299649,
                                                                 "text": "val",

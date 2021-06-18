@@ -75,7 +75,7 @@ foo = {
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1057,
                                         "start": 16,
@@ -115,9 +115,9 @@ foo = {
                                                                 "generatorToken": null,
                                                                 "name": null,
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
-                                                                    "formalParameterList": [],
+                                                                    "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
                                                                     "start": 50,

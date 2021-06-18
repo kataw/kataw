@@ -95,7 +95,7 @@ class C extends Base { async async(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 35,
@@ -152,7 +152,7 @@ class C extends Base { async async(){} }
 ```javascript
 
 class C  {
-  async async() {}
+  async async {}
 }
 ```
 

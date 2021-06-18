@@ -48,9 +48,9 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 11,
@@ -82,9 +82,9 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
                                 "end": 26
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "yield",
@@ -228,7 +228,7 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
 ```javascript
 
 function * g() {
-  function f(yield) {
+  function f() {
     yield(yield + yield(0));
   }
 }

@@ -75,7 +75,7 @@ class x {get default(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 21,
@@ -132,7 +132,7 @@ class x {get default(){}}
 ```javascript
 
 class x {
-  get default() {}
+  get default {}
 }
 ```
 

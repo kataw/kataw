@@ -57,7 +57,7 @@ x = {0xabc(){}}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1048608,
                                         "start": 11,
@@ -118,7 +118,7 @@ x = {0xabc(){}}
 
 ```javascript
 
-x = { 0xabc() {} };
+x = { 0xabc {} };
 ```
 
 ### Diagnostics

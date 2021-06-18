@@ -76,7 +76,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 34,
@@ -172,7 +172,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 36,
                                         "start": 72,
@@ -273,7 +273,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -383,7 +383,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 160,
@@ -436,7 +436,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -541,7 +541,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 36,
                                         "start": 220,
@@ -642,7 +642,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -811,12 +811,12 @@
 
 ```javascript
 
-({ __proto__: null, get __proto__() {} });
-({ __proto__: null, __proto__() {} });
-({ __proto__: null, set __proto__(x) {} });
-({ "\"__proto__\"": null, get __proto__() {}, set __proto__(x) {} });
-({ "\"__proto__\"": null, __proto__() {} });
-({ "\"__proto__\"": null, set __proto__(x) {} });
+({ __proto__: null, get __proto__ {} });
+({ __proto__: null, __proto__ {} });
+({ __proto__: null, set __proto__ {} });
+({ "\"__proto__\"": null, get __proto__ {}, set __proto__ {} });
+({ "\"__proto__\"": null, __proto__ {} });
+({ "\"__proto__\"": null, set __proto__ {} });
 ({ "\"__proto__\"": null, __proto__ });
 ({ __proto__, __proto__ });
 ```

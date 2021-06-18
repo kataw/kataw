@@ -169,9 +169,9 @@ var x, y, z; for (x of x = { x: async function() {} } = z = {});
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 46,

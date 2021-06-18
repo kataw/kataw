@@ -59,9 +59,9 @@ for(;;)x
                     "generatorToken": null,
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 17,

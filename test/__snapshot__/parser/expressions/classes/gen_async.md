@@ -78,7 +78,7 @@ class x { async *prototype(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 27,
@@ -135,7 +135,7 @@ class x { async *prototype(){} }
 ```javascript
 
 class x {
-  async prototype() {}
+  async prototype {}
 }
 ```
 

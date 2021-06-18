@@ -75,7 +75,7 @@ class x { get "constructor"(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 3072,
                                     "start": 28,

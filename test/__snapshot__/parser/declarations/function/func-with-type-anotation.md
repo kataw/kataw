@@ -43,9 +43,9 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -91,7 +91,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "bool",
                                                         "rawText": "bool",
@@ -135,7 +135,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "Array",
                                                         "rawText": "Array",
@@ -257,7 +257,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 
 ```javascript
 
-function foo(callback) {}
+function foo() {}
 ```
 
 ### Diagnostics

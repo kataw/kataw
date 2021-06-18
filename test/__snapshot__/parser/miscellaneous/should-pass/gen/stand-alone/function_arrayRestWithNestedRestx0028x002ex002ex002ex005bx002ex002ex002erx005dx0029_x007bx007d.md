@@ -43,9 +43,9 @@ function arrayRestWithNestedRest(...[...r]) {}
                 "end": 32
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": {
@@ -138,7 +138,7 @@ function arrayRestWithNestedRest(...[...r]) {}
 
 ```javascript
 
-function arrayRestWithNestedRest(...[...r]) {}
+function arrayRestWithNestedRest() {}
 ```
 
 ### Diagnostics

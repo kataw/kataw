@@ -127,9 +127,9 @@ switch (0) { case 1: let f; default: async function f() {} }
                                     "end": 53
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 53,

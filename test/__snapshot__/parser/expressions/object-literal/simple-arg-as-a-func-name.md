@@ -57,7 +57,7 @@ o = {f(x) { function x() {} }}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -99,9 +99,9 @@ o = {f(x) { function x() {} }}
                                                         "end": 22
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 22,
@@ -175,7 +175,7 @@ o = {f(x) { function x() {} }}
 
 ```javascript
 
-o = { f(x) {
+o = { f {
     function x() {}
   } };
 ```

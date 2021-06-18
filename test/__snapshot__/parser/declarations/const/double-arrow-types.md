@@ -66,7 +66,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Object",
                                                     "rawText": "Object",
@@ -104,7 +104,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                     },
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "Object",
                                                             "rawText": "Object",
@@ -254,7 +254,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Object",
                                                     "rawText": "Object",
@@ -292,7 +292,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                                     },
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "Object",
                                                             "rawText": "Object",

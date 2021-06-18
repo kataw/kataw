@@ -128,9 +128,9 @@ switch (0) { case 1: var f; default: function* f() {} }
                                     "end": 48
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 48,

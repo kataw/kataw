@@ -80,7 +80,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 25,
@@ -178,7 +178,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -285,7 +285,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 90,
@@ -378,7 +378,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 120,
@@ -481,7 +481,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 160,
@@ -584,7 +584,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -658,22 +658,22 @@
 ```javascript
 
 (class  {
-    get static() {}
+    get static {}
   });
 (class  {
-    set static(x) {}
+    set static {}
   });
 (class  {
-    static() {}
+    static {}
   });
 (class  {
-    static() {}
+    static {}
   });
 (class  {
-    static get static static() {}
+    static get static static {}
   });
 (class  {
-    static set static static(x) {}
+    static set static static {}
   });
 ```
 

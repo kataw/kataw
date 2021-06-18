@@ -78,7 +78,7 @@ type a = ({} | { [x]?:string}) => T;
                                             "name": null,
                                             "key": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -105,7 +105,7 @@ type a = ({} | { [x]?:string}) => T;
                                                     },
                                                     "type": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 16637,
                                                             "text": "",
                                                             "flags": 64,

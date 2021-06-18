@@ -106,9 +106,9 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -226,7 +226,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var d:  = function (x): string {
+var d:  = function (): string {
   return  "\"hi\"";
 };
 ```

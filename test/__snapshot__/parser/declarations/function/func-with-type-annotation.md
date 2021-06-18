@@ -75,9 +75,9 @@ function a<string>(x: string): string {
                 "start": 10,
                 "end": 18
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -182,7 +182,7 @@ function a<string>(x: string): string {
 
 ```javascript
 
-function  <string >a(x): string {
+function  <string >a(): string {
   return  x;
 }
 ```

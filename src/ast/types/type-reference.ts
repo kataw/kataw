@@ -4,19 +4,19 @@ import { DummyIdentifier } from '../internal/dummy-identifier';
 import { Identifier } from '../expressions/identifier-expr';
 
 export interface TypeReference extends SyntaxNode {
-  readonly id: Identifier | DummyIdentifier;
+  readonly name: Identifier | DummyIdentifier;
   readonly typeParameters: TypeParameterInstantiation | null;
 }
 
 export function createTypeReference(
-  id: Identifier | DummyIdentifier,
+  name: Identifier | DummyIdentifier,
   typeParameters: TypeParameterInstantiation | null,
   start: number,
   end: number
 ): TypeReference {
   return {
     kind: SyntaxKind.TypeReference,
-    id,
+    name,
     typeParameters,
     flags: NodeFlags.IsTypeNode,
     start,

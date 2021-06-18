@@ -96,7 +96,7 @@ class A {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 28,
@@ -154,7 +154,7 @@ class A {
 
 class A {
   @foo
-  get getter() {}
+  get getter {}
 }
 ```
 

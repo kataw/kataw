@@ -48,9 +48,9 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
@@ -82,9 +82,9 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                 "end": 35
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 35,
@@ -121,9 +121,9 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                 "end": 53
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 53,

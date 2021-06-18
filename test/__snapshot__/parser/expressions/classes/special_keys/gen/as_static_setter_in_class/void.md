@@ -80,7 +80,7 @@ class x {static set void(x){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -146,7 +146,7 @@ class x {static set void(x){}}
 ```javascript
 
 class x {
-  static set static void(x) {}
+  static set static void {}
 }
 ```
 

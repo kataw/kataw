@@ -72,9 +72,9 @@ const f = async function * (source, block, opts) {
                             },
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "source",
@@ -198,9 +198,9 @@ const f = async function * (source, block, opts) {
                                                                     "generatorToken": null,
                                                                     "name": null,
                                                                     "typeParameters": null,
-                                                                    "formalParameters": {
+                                                                    "formalParameterList": {
                                                                         "kind": 214,
-                                                                        "formalParameterList": [],
+                                                                        "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
                                                                         "start": 121,
@@ -622,7 +622,7 @@ const f = async function * (source, block, opts) {
 
 ```javascript
 
-const f = async function * (source, block, opts) {
+const f = async function * () {
   for await (const of source) {
       yield async function () {
         const cid = await persist(entry.content.serialize(), block, opts);

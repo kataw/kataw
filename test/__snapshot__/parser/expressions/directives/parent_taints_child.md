@@ -35,9 +35,9 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 10,
@@ -92,9 +92,9 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                 "end": 43
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 43,

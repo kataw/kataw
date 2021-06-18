@@ -226,9 +226,9 @@ L: let
                 "end": 62
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 62,
@@ -276,9 +276,9 @@ L: let
                         "end": 83
                     },
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 83,
@@ -331,9 +331,9 @@ L: let
                 "end": 104
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "let",
@@ -387,9 +387,9 @@ L: let
                 "end": 127
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "bar",
@@ -639,9 +639,9 @@ L: let
                         "end": 210
                     },
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 210,
@@ -729,9 +729,9 @@ L: let
                 "end": 240
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "let",
@@ -946,7 +946,7 @@ L: let
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
                                                 "start": 300,
@@ -1182,8 +1182,8 @@ try {
 }
 function let() {}
 (function let() {});
-function foo(let) {}
-function foo(bar, let) {}
+function foo() {}
+function foo() {}
 let = 1;
 var foo = let = 1;
 let * 2;
@@ -1192,10 +1192,10 @@ let++;
 (function f() {
     let: 34;
   });
-function let(let) {
+function let() {
   let: let(let + let(0));
 }
-({ let: 1 })({ get let() {
+({ let: 1 })({ get let {
     1;
   } });
 let(100);

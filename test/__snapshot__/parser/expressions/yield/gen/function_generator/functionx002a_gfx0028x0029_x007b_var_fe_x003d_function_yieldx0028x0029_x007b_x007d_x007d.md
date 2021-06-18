@@ -48,9 +48,9 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
@@ -82,9 +82,9 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                 "end": 35
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 35,
@@ -121,9 +121,9 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                 "end": 52
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 52,
@@ -178,9 +178,9 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                                                 "end": 80
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
-                                                                                "formalParameterList": [],
+                                                                                "formalParameters": [],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
                                                                                 "start": 80,

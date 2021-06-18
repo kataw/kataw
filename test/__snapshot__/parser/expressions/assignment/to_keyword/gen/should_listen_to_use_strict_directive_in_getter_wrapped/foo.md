@@ -75,7 +75,7 @@ foo = {
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1057,
                                         "start": 16,
@@ -186,7 +186,7 @@ foo = {
 
 ```javascript
 
-foo = { get x() {
+foo = { get x {
     (foo = x);
   } };
 ```

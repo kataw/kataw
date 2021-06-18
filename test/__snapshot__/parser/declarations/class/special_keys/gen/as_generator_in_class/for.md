@@ -75,7 +75,7 @@ class x {* for(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 15,
@@ -132,7 +132,7 @@ class x {* for(){}}
 ```javascript
 
 class x {
-  for() {}
+  for {}
 }
 ```
 

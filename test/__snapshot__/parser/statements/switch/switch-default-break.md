@@ -71,9 +71,9 @@ switch(0) { default: function f(){ break; } }
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 31,

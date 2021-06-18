@@ -86,7 +86,7 @@ class A {get set(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 17,
@@ -143,7 +143,7 @@ class A {get set(){}}
 ```javascript
 
 class A {
-  get set() {}
+  get set {}
 }
 ```
 

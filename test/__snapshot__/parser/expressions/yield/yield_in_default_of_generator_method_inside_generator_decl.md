@@ -40,9 +40,9 @@ function *f(){  ({*g(x=yield){}})  }
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 11,
@@ -87,7 +87,7 @@ function *f(){  ({*g(x=yield){}})  }
                                                     "typeParameters": null,
                                                     "formalParameters": {
                                                         "kind": 214,
-                                                        "formalParameterList": [
+                                                        "formalParameters": [
                                                             {
                                                                 "kind": 281,
                                                                 "ellipsisToken": null,

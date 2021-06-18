@@ -44,9 +44,9 @@
                         "end": 11
                     },
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [
+                        "formalParameters": [
                             {
                                 "kind": 201,
                                 "elementList": {
@@ -126,7 +126,7 @@
 
 ```javascript
 
-+function f([x]) {};
++function f() {};
 ```
 
 ### Diagnostics

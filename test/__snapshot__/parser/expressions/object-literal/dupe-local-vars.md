@@ -69,7 +69,7 @@ o = {f(){ function x(){} var x = y; }};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 7,
@@ -234,7 +234,7 @@ o = {f(){ function x(){} var x = y; }};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 36,
@@ -399,7 +399,7 @@ o = {f(){ function x(){} var x = y; }};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 65,
@@ -571,7 +571,7 @@ o = {f(){ function x(){} var x = y; }};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 100,
@@ -641,9 +641,9 @@ o = {f(){ function x(){} var x = y; }};
                                                         "end": 120
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 120,
@@ -745,7 +745,7 @@ o = {f(){ function x(){} var x = y; }};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 137,
@@ -822,9 +822,9 @@ o = {f(){ function x(){} var x = y; }};
                                                         "end": 163
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 163,
@@ -926,7 +926,7 @@ o = {f(){ function x(){} var x = y; }};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 180,
@@ -959,9 +959,9 @@ o = {f(){ function x(){} var x = y; }};
                                                         "end": 193
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 193,
@@ -1107,7 +1107,7 @@ o = {f(){ function x(){} var x = y; }};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 223,
@@ -1140,9 +1140,9 @@ o = {f(){ function x(){} var x = y; }};
                                                         "end": 236
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 236,

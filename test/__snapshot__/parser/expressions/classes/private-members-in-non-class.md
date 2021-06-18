@@ -83,9 +83,9 @@ class C { test() {get #a() { }}}
             "generatorToken": null,
             "name": null,
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 18,
@@ -179,9 +179,9 @@ class C { test() {get #a() { }}}
             "generatorToken": null,
             "name": null,
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 47,
@@ -344,7 +344,7 @@ class C { test() {get #a() { }}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 91,
@@ -487,7 +487,7 @@ class C { test() {get #a() { }}}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "foo",
@@ -590,7 +590,7 @@ class C { test() {get #a() { }}}
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
                                         "start": 166,
@@ -671,7 +671,7 @@ class C { test() {get #a() { }}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 288,
                                             "start": 187,
@@ -781,7 +781,7 @@ class C { test() {get #a() { }}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 416,
                                             "start": 214,

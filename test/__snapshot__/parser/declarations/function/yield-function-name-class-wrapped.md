@@ -42,9 +42,9 @@ function* wrap() {
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
@@ -108,7 +108,7 @@ function* wrap() {
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
                                                     "start": 39,
@@ -180,7 +180,7 @@ function* wrap() {
 
 function * wrap() {
   class A {
-    yield() {}
+    yield {}
   }
 }
 ```

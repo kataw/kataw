@@ -75,7 +75,7 @@ class x {* var(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 15,
@@ -132,7 +132,7 @@ class x {* var(){}}
 ```javascript
 
 class x {
-  var() {}
+  var {}
 }
 ```
 

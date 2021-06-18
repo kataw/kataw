@@ -97,7 +97,7 @@ class x { static set [y](z){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "z",
@@ -163,7 +163,7 @@ class x { static set [y](z){}}
 ```javascript
 
 class x {
-  static set static [y](z) {}
+  static set static [y] {}
 }
 ```
 

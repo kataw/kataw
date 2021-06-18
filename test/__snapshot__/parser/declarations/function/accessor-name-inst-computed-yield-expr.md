@@ -120,9 +120,9 @@ function* g() {
                 "end": 34
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 34,
@@ -199,7 +199,7 @@ function* g() {
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 1024,
                                                     "start": 68,
@@ -289,7 +289,7 @@ function* g() {
                                                 "typeParameters": null,
                                                 "formalParameters": {
                                                     "kind": 214,
-                                                    "formalParameterList": [
+                                                    "formalParameters": [
                                                         {
                                                             "kind": 134299649,
                                                             "text": "param",
@@ -440,10 +440,10 @@ function* g() {
 var yieldSet, C, iter;
 function * g() {
   class C_ {
-    get [ yield]() {
+    get [ yield] {
       return  "'get yield'";
     }
-    set [ yield](param) {
+    set [ yield] {
       yieldSet = param;
     }
   }

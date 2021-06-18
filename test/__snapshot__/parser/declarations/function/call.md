@@ -51,9 +51,9 @@ function g(x: () => any) {
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -217,9 +217,9 @@ function g(x: () => any) {
                 "end": 58
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -406,11 +406,11 @@ function g(x: () => any) {
 
 ```javascript
 
-function f(x) {
+function f() {
   x();
   const y = x();
 }
-function g(x) {
+function g() {
   x();
   const y = x();
 }

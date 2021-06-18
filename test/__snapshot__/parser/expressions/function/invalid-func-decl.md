@@ -60,9 +60,9 @@ async function f(){}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 10,
@@ -107,9 +107,9 @@ async function f(){}
                 "end": 23
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 23,
@@ -141,9 +141,9 @@ async function f(){}
                                 "end": 38
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 38,
@@ -175,9 +175,9 @@ async function f(){}
                                                 "end": 53
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 212,
                                                         "propertyList": {
@@ -237,9 +237,9 @@ async function f(){}
                                                 "end": 67
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 67,
@@ -289,9 +289,9 @@ async function f(){}
                                                 "end": 89
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 89,
@@ -329,9 +329,9 @@ async function f(){}
                                             "generatorToken": null,
                                             "name": null,
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 104,
@@ -429,9 +429,9 @@ async function f(){}
                                                 "end": 125
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 125,
@@ -508,9 +508,9 @@ async function f(){}
                                                 "end": 141
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 141,
@@ -726,9 +726,9 @@ async function f(){}
                                 "end": 188
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 188,
@@ -769,9 +769,9 @@ async function f(){}
                                                         "end": 204
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
-                                                        "formalParameterList": [],
+                                                        "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
                                                         "start": 204,
@@ -824,9 +824,9 @@ async function f(){}
                                                 "end": 220
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 220,
@@ -871,9 +871,9 @@ async function f(){}
                                                 "generatorToken": null,
                                                 "name": null,
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
-                                                    "formalParameterList": [],
+                                                    "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 237,

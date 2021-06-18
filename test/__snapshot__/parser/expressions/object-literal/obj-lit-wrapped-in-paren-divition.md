@@ -1343,7 +1343,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "b",
@@ -1405,7 +1405,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "d",
@@ -1494,7 +1494,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "c",
@@ -1551,7 +1551,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 344,
@@ -1750,8 +1750,8 @@
 (x = { [a]: x = (y) }) / y.z;
 (x = { [a]: (x = (y)) }) / y.z;
 ({ ...1 in {} });
-({ set foo(b) {}, set bar(d) {} });
-({ set foo(c) {}, bar() {} });
+({ set foo {}, set bar {} });
+({ set foo {}, bar {} });
 ({ foo: typeof x });
 ({ foo: true / false });
 ```

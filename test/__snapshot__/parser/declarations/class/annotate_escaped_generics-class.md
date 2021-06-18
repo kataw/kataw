@@ -108,7 +108,7 @@ class B<X> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -158,7 +158,7 @@ class B<X> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 25,
@@ -358,7 +358,7 @@ class B<X> {
 class B {
   s;
 
-  f() {
+  f {
     if (this.s) {
         y = this.s;
       }

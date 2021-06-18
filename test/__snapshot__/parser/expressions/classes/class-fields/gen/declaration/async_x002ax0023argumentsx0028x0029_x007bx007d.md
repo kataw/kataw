@@ -79,7 +79,7 @@ class C { async *#arguments() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 28,
@@ -136,7 +136,7 @@ class C { async *#arguments() {} }
 ```javascript
 
 class C {
-  async #arguments() {}
+  async #arguments {}
 }
 ```
 

@@ -75,7 +75,7 @@ class x {* true(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 16,
@@ -132,7 +132,7 @@ class x {* true(){}}
 ```javascript
 
 class x {
-  true() {}
+  true {}
 }
 ```
 

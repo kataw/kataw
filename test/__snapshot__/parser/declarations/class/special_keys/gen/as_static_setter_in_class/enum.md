@@ -80,7 +80,7 @@ class x {static set enum(x){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -146,7 +146,7 @@ class x {static set enum(x){}}
 ```javascript
 
 class x {
-  static set static enum(x) {}
+  static set static enum {}
 }
 ```
 

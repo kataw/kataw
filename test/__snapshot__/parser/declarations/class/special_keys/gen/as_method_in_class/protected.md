@@ -70,7 +70,7 @@ class x {protected(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 19,
@@ -127,7 +127,7 @@ class x {protected(){}}
 ```javascript
 
 class x {
-  protected() {}
+  protected {}
 }
 ```
 

@@ -43,9 +43,9 @@ function fn3([a,, b,]) {}
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 201,
                         "elementList": {
@@ -122,7 +122,7 @@ function fn3([a,, b,]) {}
 
 ```javascript
 
-function fn3([a, , b,]) {}
+function fn3() {}
 ```
 
 ### Diagnostics

@@ -85,7 +85,7 @@ type X = (x?: y) => T;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
@@ -118,7 +118,7 @@ type X = (x?: y) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

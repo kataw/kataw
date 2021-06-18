@@ -37,9 +37,9 @@ function loadImport(file) {
                 "end": 19
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "file",
@@ -150,7 +150,7 @@ function loadImport(file) {
 
 ```javascript
 
-function loadImport(file) {
+function loadImport() {
   return  ;
 }
 ```

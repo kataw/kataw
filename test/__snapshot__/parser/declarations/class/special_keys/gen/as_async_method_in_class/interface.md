@@ -75,7 +75,7 @@ class x {async interface(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 25,
@@ -132,7 +132,7 @@ class x {async interface(){}}
 ```javascript
 
 class x {
-  async interface() {}
+  async interface {}
 }
 ```
 

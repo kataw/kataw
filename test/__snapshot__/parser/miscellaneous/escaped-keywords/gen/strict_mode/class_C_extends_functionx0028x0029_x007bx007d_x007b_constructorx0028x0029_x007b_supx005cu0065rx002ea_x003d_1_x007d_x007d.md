@@ -64,9 +64,9 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                         "generatorToken": null,
                         "name": null,
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 24,
@@ -121,7 +121,7 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 44,

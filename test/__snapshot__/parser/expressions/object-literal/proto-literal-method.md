@@ -64,7 +64,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 36,
                                         "start": 32,
@@ -125,7 +125,7 @@
 
 ```javascript
 
-({ "\"__proto__\"": null, __proto__() {} });
+({ "\"__proto__\"": null, __proto__ {} });
 ```
 
 ### Diagnostics

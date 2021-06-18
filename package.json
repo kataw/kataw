@@ -1,6 +1,6 @@
 {
   "name": "kataw",
-  "version": "0.0.68",
+  "version": "0.0.69",
   "description": "A insane fast CST based Javascript toolchain",
   "main": "dist/kataw.umd.min.js",
   "module": "dist/kataw.esm.min.js",
@@ -69,9 +69,12 @@
     "coverage:cli": "c8 ts-node test/cli.ts",
     "coverage:treshold": "c8 check-coverage --lines 95 --per-file ts-node test/cli",
     "post_coverage": "cross-env cat ./coverage/lcov.info | coveralls",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "m": "mocha \"test/**/*.ts\"",
+    "m:watch": "npm run t -- --watch --watch-extensions ts"
   },
   "devDependencies": {
+    "@types/mocha": "^8.2.2",
     "@types/node": "^15.12.1",
     "@types/progress": "^2.0.3",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
@@ -85,6 +88,7 @@
     "globby": "^11.0.3",
     "husky": "^6.0.0",
     "path": "^0.12.7",
+    "mocha": "^9.0.1",
     "prettier": "^2.3.1",
     "pretty-error": "^3.0.3",
     "progress": "^2.0.3",

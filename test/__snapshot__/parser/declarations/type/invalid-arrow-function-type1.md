@@ -73,7 +73,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                             "kind": 311,
                                             "objectType": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -95,7 +95,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                     "types": [
                                                         {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
@@ -110,7 +110,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                         },
                                                         {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "b",
                                                                 "rawText": "b",
@@ -145,7 +145,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                 "types": [
                                                     {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
@@ -160,7 +160,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                     },
                                                     {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "d",
                                                             "rawText": "d",
@@ -289,7 +289,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                         "kind": 311,
                                                         "objectType": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
@@ -311,7 +311,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                                 "types": [
                                                                     {
                                                                         "kind": 144,
-                                                                        "id": {
+                                                                        "name": {
                                                                             "kind": 134299649,
                                                                             "text": "a",
                                                                             "rawText": "a",
@@ -326,7 +326,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                                     },
                                                                     {
                                                                         "kind": 144,
-                                                                        "id": {
+                                                                        "name": {
                                                                             "kind": 134299649,
                                                                             "text": "b",
                                                                             "rawText": "b",
@@ -361,7 +361,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                             "types": [
                                                                 {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "c",
                                                                         "rawText": "c",
@@ -376,7 +376,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                                 },
                                                                 {
                                                                     "kind": 144,
-                                                                    "id": {
+                                                                    "name": {
                                                                         "kind": 134299649,
                                                                         "text": "d",
                                                                         "rawText": "d",
@@ -489,7 +489,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -525,7 +525,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

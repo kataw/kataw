@@ -152,7 +152,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 58,
@@ -252,7 +252,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 94,
@@ -352,7 +352,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 132,
@@ -452,7 +452,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -561,7 +561,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 210,
@@ -738,7 +738,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 294,
@@ -843,7 +843,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 336,
@@ -948,7 +948,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 380,
@@ -1053,7 +1053,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -1167,7 +1167,7 @@ class Twelve { static async ['prototype']() {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 477,
@@ -1227,37 +1227,37 @@ class One {
   ["'prototype'"] = 0;
 }
 class Two {
-  ["'prototype'"]() {}
+  ["'prototype'"] {}
 }
 class Three {
-  ["'prototype'"]() {}
+  ["'prototype'"] {}
 }
 class Four {
-  get ["'prototype'"]() {}
+  get ["'prototype'"] {}
 }
 class Five {
-  set ["'prototype'"](x) {}
+  set ["'prototype'"] {}
 }
 class Six {
-  async ["'prototype'"]() {}
+  async ["'prototype'"] {}
 }
 class Seven {
   static ["'prototype'"] = 0;
 }
 class Eigth {
-  static static ["'prototype'"]() {}
+  static static ["'prototype'"] {}
 }
 class Nine {
-  static static ["'prototype'"]() {}
+  static static ["'prototype'"] {}
 }
 class Ten {
-  static get static ["'prototype'"]() {}
+  static get static ["'prototype'"] {}
 }
 class Eleven {
-  static set static ["'prototype'"](x) {}
+  static set static ["'prototype'"] {}
 }
 class Twelve {
-  async static static ["'prototype'"]() {}
+  async static static ["'prototype'"] {}
 }
 ```
 

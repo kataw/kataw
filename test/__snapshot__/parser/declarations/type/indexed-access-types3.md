@@ -59,7 +59,7 @@ type D = (Obj['bar'])['baz'];
                             "kind": 311,
                             "objectType": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "Obj",
                                     "rawText": "Obj",

@@ -160,7 +160,7 @@ class x { #foo() {}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 15,
@@ -245,7 +245,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 33,
@@ -342,7 +342,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 57,
@@ -439,7 +439,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -545,7 +545,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 105,
@@ -642,7 +642,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 131,
@@ -744,7 +744,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 158,
@@ -837,7 +837,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 179,
@@ -888,7 +888,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 188,
@@ -985,7 +985,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 211,
@@ -1040,7 +1040,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -1146,7 +1146,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 250,
@@ -1201,7 +1201,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 263,
@@ -1256,7 +1256,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -1362,7 +1362,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 301,
@@ -1417,7 +1417,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 314,
@@ -1472,7 +1472,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -1536,7 +1536,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -1642,7 +1642,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -1706,7 +1706,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -1812,7 +1812,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 409,
@@ -1867,7 +1867,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 422,
@@ -1960,7 +1960,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 442,
@@ -2016,7 +2016,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 457,
@@ -2109,7 +2109,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 476,
@@ -2160,7 +2160,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 484,
@@ -2253,7 +2253,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 503,
@@ -2304,7 +2304,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 511,
@@ -2360,7 +2360,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 525,
@@ -2457,7 +2457,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 548,
@@ -2513,7 +2513,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 560,
@@ -2574,7 +2574,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 578,
@@ -2671,7 +2671,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -2736,7 +2736,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -2806,7 +2806,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -2908,7 +2908,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 660,
@@ -2963,7 +2963,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 673,
@@ -3056,7 +3056,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 692,
@@ -3111,7 +3111,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 707,
@@ -3204,7 +3204,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 726,
@@ -3264,7 +3264,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 742,
@@ -3357,7 +3357,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 764,
@@ -3450,7 +3450,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 786,
@@ -3543,7 +3543,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 810,
@@ -3636,7 +3636,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 834,
@@ -3729,7 +3729,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 858,
@@ -3822,7 +3822,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 883,
@@ -3915,7 +3915,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 911,
@@ -4012,7 +4012,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 939,
@@ -4109,7 +4109,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 967,
@@ -4206,7 +4206,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 995,
@@ -4303,7 +4303,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 1021,
@@ -4400,7 +4400,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 1050,
@@ -4497,7 +4497,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 1082,
@@ -4594,7 +4594,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "test",
@@ -4700,7 +4700,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "test",
@@ -4806,7 +4806,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "test",
@@ -4912,7 +4912,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "test",
@@ -5018,7 +5018,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "test",
@@ -5124,7 +5124,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "test",
@@ -5230,7 +5230,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 1307,
@@ -5327,7 +5327,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 1337,
@@ -5424,7 +5424,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 1367,
@@ -5521,7 +5521,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 1395,
@@ -5618,7 +5618,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 1423,
@@ -5715,7 +5715,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 1454,
@@ -5812,7 +5812,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 1488,
@@ -5909,7 +5909,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1513,
@@ -6006,7 +6006,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1538,
@@ -6103,7 +6103,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1563,
@@ -6200,7 +6200,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1586,
@@ -6297,7 +6297,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1609,
@@ -6394,7 +6394,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1635,
@@ -6491,7 +6491,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1664,
@@ -6593,7 +6593,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 1695,
@@ -6695,7 +6695,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 1726,
@@ -6797,7 +6797,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 1757,
@@ -6899,7 +6899,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 1786,
@@ -7001,7 +7001,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 1815,
@@ -7103,7 +7103,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 1847,
@@ -7205,7 +7205,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 1882,
@@ -7325,7 +7325,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1906,
@@ -7449,7 +7449,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 1934,
@@ -7573,7 +7573,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -7706,7 +7706,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 1990,
@@ -7830,7 +7830,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 2020,
@@ -7959,7 +7959,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 2051,
@@ -8086,7 +8086,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 2079,
@@ -8217,7 +8217,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 2111,
@@ -8348,7 +8348,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -8488,7 +8488,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 2175,
@@ -8619,7 +8619,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 2209,
@@ -8755,7 +8755,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 2244,
@@ -8875,7 +8875,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 2267,
@@ -8999,7 +8999,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 2294,
@@ -9123,7 +9123,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -9256,7 +9256,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 2348,
@@ -9380,7 +9380,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 2377,
@@ -9509,7 +9509,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 2407,
@@ -9636,7 +9636,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 2434,
@@ -9767,7 +9767,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
                                             "start": 2465,
@@ -9898,7 +9898,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [
+                                            "formalParameters": [
                                                 {
                                                     "kind": 134299649,
                                                     "text": "foo",
@@ -10038,7 +10038,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 2527,
@@ -10169,7 +10169,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 256,
                                             "start": 2560,
@@ -10305,7 +10305,7 @@ class x { #foo() {}}
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 384,
                                             "start": 2594,
@@ -10370,327 +10370,327 @@ class x { #foo() {}}
 ```javascript
 
 class x {
-  #foo() {}
+  #foo {}
 }
 (class  {
-    #a() {}
+    #a {}
   });
 (class  {
-    get #a() {}
+    get #a {}
   });
 (class  {
-    set #a(foo) {}
+    set #a {}
   });
 (class  {
-    #a() {}
+    #a {}
   });
 (class  {
-    async #a() {}
+    async #a {}
   });
 (class  {
-    async #a() {}
+    async #a {}
   });
 (class  {
-    #a() {}
-    #b() {}
+    #a {}
+    #b {}
   });
 (class  {
-    get #a() {}
-    set #a(foo) {}
+    get #a {}
+    set #a {}
   });
 (class  {
-    get #a() {}
-    get #b() {}
-    set #a(foo) {}
+    get #a {}
+    get #b {}
+    set #a {}
   });
 (class  {
-    get #a() {}
-    get #b() {}
-    set #a(foo) {}
-    set #b(foo) {}
+    get #a {}
+    get #b {}
+    set #a {}
+    set #b {}
   });
 (class  {
-    set #a(foo) {}
-    set #b(foo) {}
+    set #a {}
+    set #b {}
   });
 (class  {
-    get #a() {}
-    get #b() {}
+    get #a {}
+    get #b {}
   });
 (class  {
-    #a() {}
-    static static a() {}
+    #a {}
+    static static a {}
   });
 (class  {
-    #a() {}
-    a() {}
+    #a {}
+    a {}
   });
 (class  {
-    #a() {}
-    a() {}
-    static static a() {}
+    #a {}
+    a {}
+    static static a {}
   });
 (class  {
-    get #a() {}
-    get a() {}
-    static get static a() {}
+    get #a {}
+    get a {}
+    static get static a {}
   });
 (class  {
-    set #a(foo) {}
-    set a(foo) {}
-    static set static a(foo) {}
+    set #a {}
+    set a {}
+    static set static a {}
   });
 (class  {
-    #a() {}
-    get #b() {}
+    #a {}
+    get #b {}
   });
 (class  {
-    #a() {}
-    async #b() {}
+    #a {}
+    async #b {}
   });
 (class  {
-    #a() {}
-    async #b() {}
+    #a {}
+    async #b {}
   });
 (class  {
-    #get() {}
+    #get {}
   });
 (class  {
-    #set() {}
+    #set {}
   });
 (class  {
-    #yield() {}
+    #yield {}
   });
 (class  {
-    #await() {}
+    #await {}
   });
 (class  {
-    #async() {}
+    #async {}
   });
 (class  {
-    #static() {}
+    #static {}
   });
 (class  {
-    #arguments() {}
+    #arguments {}
   });
 (class  {
-    get #yield() {}
+    get #yield {}
   });
 (class  {
-    get #await() {}
+    get #await {}
   });
 (class  {
-    get #async() {}
+    get #async {}
   });
 (class  {
-    get #get() {}
+    get #get {}
   });
 (class  {
-    get #static() {}
+    get #static {}
   });
 (class  {
-    get #arguments() {}
+    get #arguments {}
   });
 (class  {
-    set #yield(test) {}
+    set #yield {}
   });
 (class  {
-    set #async(test) {}
+    set #async {}
   });
 (class  {
-    set #await(test) {}
+    set #await {}
   });
 (class  {
-    set #set(test) {}
+    set #set {}
   });
 (class  {
-    set #static(test) {}
+    set #static {}
   });
 (class  {
-    set #arguments(test) {}
+    set #arguments {}
   });
 (class  {
-    async #yield() {}
+    async #yield {}
   });
 (class  {
-    async #async() {}
+    async #async {}
   });
 (class  {
-    async #await() {}
+    async #await {}
   });
 (class  {
-    async #get() {}
+    async #get {}
   });
 (class  {
-    async #set() {}
+    async #set {}
   });
 (class  {
-    async #static() {}
+    async #static {}
   });
 (class  {
-    async #arguments() {}
+    async #arguments {}
   });
 (class  {
-    #async() {}
+    #async {}
   });
 (class  {
-    #await() {}
+    #await {}
   });
 (class  {
-    #yield() {}
+    #yield {}
   });
 (class  {
-    #get() {}
+    #get {}
   });
 (class  {
-    #set() {}
+    #set {}
   });
 (class  {
-    #static() {}
+    #static {}
   });
 (class  {
-    #arguments() {}
+    #arguments {}
   });
 (class  {
-    async #yield() {}
+    async #yield {}
   });
 (class  {
-    async #async() {}
+    async #async {}
   });
 (class  {
-    async #await() {}
+    async #await {}
   });
 (class  {
-    async #get() {}
+    async #get {}
   });
 (class  {
-    async #set() {}
+    async #set {}
   });
 (class  {
-    async #static() {}
+    async #static {}
   });
 (class  {
-    async #arguments() {}
-  });
-(class  {
-    #b;
-
-    #a() {}
+    async #arguments {}
   });
 (class  {
     #b;
 
-    get #a() {}
+    #a {}
   });
 (class  {
     #b;
 
-    set #a(foo) {}
+    get #a {}
   });
 (class  {
     #b;
 
-    #a() {}
+    set #a {}
   });
 (class  {
     #b;
 
-    async #a() {}
+    #a {}
   });
 (class  {
     #b;
 
-    async #a() {}
+    async #a {}
+  });
+(class  {
+    #b;
+
+    async #a {}
   });
 (class  {
     #b = 1;
 
-    #a() {}
+    #a {}
   });
 (class  {
     #b = 1;
 
-    get #a() {}
+    get #a {}
   });
 (class  {
     #b = 1;
 
-    set #a(foo) {}
+    set #a {}
   });
 (class  {
     #b = 1;
 
-    #a() {}
+    #a {}
   });
 (class  {
     #b = 1;
 
-    async #a() {}
+    async #a {}
   });
 (class  {
     #b = 1;
 
-    async #a() {}
+    async #a {}
   });
 (class  {
     a;
 
-    #a() {}
+    #a {}
   });
 (class  {
     a;
 
-    get #a() {}
+    get #a {}
   });
 (class  {
     a;
 
-    set #a(foo) {}
+    set #a {}
   });
 (class  {
     a;
 
-    #a() {}
+    #a {}
   });
 (class  {
     a;
 
-    async #a() {}
+    async #a {}
   });
 (class  {
     a;
 
-    async #a() {}
+    async #a {}
   });
 (class  {
     a = 1;
 
-    #a() {}
+    #a {}
   });
 (class  {
     a = 1;
 
-    get #a() {}
+    get #a {}
   });
 (class  {
     a = 1;
 
-    set #a(foo) {}
+    set #a {}
   });
 (class  {
     a = 1;
 
-    #a() {}
+    #a {}
   });
 (class  {
     a = 1;
 
-    async #a() {}
+    async #a {}
   });
 (class  {
     a = 1;
 
-    async #a() {}
+    async #a {}
   });
 ```
 

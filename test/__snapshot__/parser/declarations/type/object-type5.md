@@ -75,7 +75,7 @@ type a = {1:y.z};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 145,
                                         "qualification": {
                                             "kind": 134299649,
@@ -85,7 +85,7 @@ type a = {1:y.z};
                                             "start": 12,
                                             "end": 13
                                         },
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",

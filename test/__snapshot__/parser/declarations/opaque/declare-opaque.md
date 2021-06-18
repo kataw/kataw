@@ -141,7 +141,7 @@ declare var a: A;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",

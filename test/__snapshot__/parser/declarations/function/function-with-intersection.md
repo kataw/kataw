@@ -43,9 +43,9 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -202,7 +202,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
 
 ```javascript
 
-function x(a, b): number {}
+function x(): number {}
 ```
 
 ### Diagnostics

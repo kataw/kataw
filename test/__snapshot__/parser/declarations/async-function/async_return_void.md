@@ -59,9 +59,9 @@ async function foo3(): Promise<string> {
                 "end": 19
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 19,
@@ -101,7 +101,7 @@ async function foo3(): Promise<string> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Promise",
                         "rawText": "Promise",
@@ -175,9 +175,9 @@ async function foo3(): Promise<string> {
                 "end": 73
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 73,
@@ -224,7 +224,7 @@ async function foo3(): Promise<string> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Promise",
                         "rawText": "Promise",
@@ -298,9 +298,9 @@ async function foo3(): Promise<string> {
                 "end": 137
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 137,
@@ -332,9 +332,9 @@ async function foo3(): Promise<string> {
                                 "end": 173
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 173,
@@ -408,7 +408,7 @@ async function foo3(): Promise<string> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "id": {
+                    "name": {
                         "kind": 134299649,
                         "text": "Promise",
                         "rawText": "Promise",

@@ -75,7 +75,7 @@ class x {get switch(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 20,
@@ -132,7 +132,7 @@ class x {get switch(){}}
 ```javascript
 
 class x {
-  get switch() {}
+  get switch {}
 }
 ```
 

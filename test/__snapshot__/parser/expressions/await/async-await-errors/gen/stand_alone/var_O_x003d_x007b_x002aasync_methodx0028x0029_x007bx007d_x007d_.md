@@ -76,7 +76,7 @@ var O = { *async method() {} };
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 416,
                                                 "start": 24,
@@ -142,7 +142,7 @@ var O = { *async method() {} };
 
 ```javascript
 
-var O = { async method() {} };
+var O = { async method {} };
 ```
 
 ### Diagnostics

@@ -71,9 +71,9 @@ switch (0) { case 1: function f() {} default: const f = 0 }
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 31,

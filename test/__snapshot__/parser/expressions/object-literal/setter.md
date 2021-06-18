@@ -46,7 +46,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 281,
                                                 "ellipsisToken": {
@@ -145,7 +145,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -252,7 +252,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 201,
                                                 "elementList": {
@@ -374,7 +374,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 212,
                                                 "propertyList": {
@@ -498,12 +498,10 @@
 
 ```javascript
 
-({ set(...a) {} });
-({ set(a, ...b) {} });
-({ set([a], ...b) {} });
-({ set({
-      a: A
-    }, ...b) {} });
+({ set {} });
+({ set {} });
+({ set {} });
+({ set {} });
 ```
 
 ### Diagnostics

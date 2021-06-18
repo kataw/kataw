@@ -50,9 +50,9 @@ async function p(){
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,
@@ -115,9 +115,9 @@ async function p(){
                                         },
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 54,

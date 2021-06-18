@@ -76,7 +76,7 @@ class WebControls {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 78,
@@ -152,7 +152,7 @@ class WebControls {
   /**
      * Render a control
      */
-  createControl() {}
+  createControl {}
 }
 ```
 

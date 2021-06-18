@@ -48,9 +48,9 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 16,

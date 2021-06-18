@@ -65,7 +65,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Object",
                                                     "rawText": "Object",
@@ -91,7 +91,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Object",
                                                     "rawText": "Object",
@@ -115,7 +115,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Object",
                                                     "rawText": "Object",

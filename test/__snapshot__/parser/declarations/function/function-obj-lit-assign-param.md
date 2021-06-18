@@ -40,9 +40,9 @@ function* foo(a = {*bar() { yield b }}) {}
                 "end": 13
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -85,7 +85,7 @@ function* foo(a = {*bar() { yield b }}) {}
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 24,
@@ -196,9 +196,7 @@ function* foo(a = {*bar() { yield b }}) {}
 
 ```javascript
 
-function * foo(a = { * bar() {
-    yield b;
-  } }) {}
+function * foo() {}
 ```
 
 ### Diagnostics

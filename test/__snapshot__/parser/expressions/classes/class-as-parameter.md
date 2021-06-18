@@ -87,9 +87,9 @@ class A {
                 "end": 26
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "el",
@@ -177,7 +177,7 @@ class A {
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [
+                                                                "formalParameters": [
                                                                     {
                                                                         "kind": 134299649,
                                                                         "text": "Class",
@@ -362,7 +362,7 @@ class A {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 146,
@@ -419,14 +419,14 @@ class A {
 ```javascript
 
 var C;
-function decorator(el) {
-  return  Object.assign(el, { finisher(Class) {
+function decorator() {
+  return  Object.assign(el, { finisher {
         C = Class;
       } });
 }
 class A {
   @decorator
-  foo() {}
+  foo {}
 }
 ```
 

@@ -59,7 +59,7 @@ wrap({* foo(){},*bar(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 12,
@@ -112,7 +112,7 @@ wrap({* foo(){},*bar(){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 21,
@@ -179,7 +179,7 @@ wrap({* foo(){},*bar(){}});
 
 ```javascript
 
-wrap({ * foo() {}, * bar() {} });
+wrap({ * foo {}, * bar {} });
 ```
 
 ### Diagnostics

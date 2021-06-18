@@ -67,7 +67,7 @@ type a = (x,symbol['string']) => T;
                                 "ellipsisToken": null,
                                 "name": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -134,7 +134,7 @@ type a = (x,symbol['string']) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

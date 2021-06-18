@@ -75,7 +75,7 @@ class C { *method() { var f = function*() { super(); } } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 18,
@@ -129,9 +129,9 @@ class C { *method() { var f = function*() { super(); } } }
                                                                 },
                                                                 "name": null,
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
-                                                                    "formalParameterList": [],
+                                                                    "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
                                                                     "start": 39,

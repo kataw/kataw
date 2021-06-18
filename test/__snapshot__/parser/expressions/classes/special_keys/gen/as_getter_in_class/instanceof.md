@@ -75,7 +75,7 @@ class x {get instanceof(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 24,
@@ -132,7 +132,7 @@ class x {get instanceof(){}}
 ```javascript
 
 class x {
-  get instanceof() {}
+  get instanceof {}
 }
 ```
 

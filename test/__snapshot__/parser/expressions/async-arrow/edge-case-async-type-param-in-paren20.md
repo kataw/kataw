@@ -57,7 +57,7 @@ async <A = B, C = D,>(x) => y;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "B",
                                             "rawText": "B",
@@ -95,7 +95,7 @@ async <A = B, C = D,>(x) => y;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "D",
                                             "rawText": "D",

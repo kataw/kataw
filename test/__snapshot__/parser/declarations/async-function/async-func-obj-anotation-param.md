@@ -48,9 +48,9 @@ async function foo({x}: { x: string; }) {}
                 "end": 18
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -172,9 +172,7 @@ async function foo({x}: { x: string; }) {}
 
 ```javascript
 
-async function foo({
-  x
-}) {}
+async function foo() {}
 ```
 
 ### Diagnostics

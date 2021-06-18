@@ -72,7 +72,7 @@ var a: number & (string | bool)
                                                 },
                                                 {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "bool",
                                                         "rawText": "bool",

@@ -76,7 +76,7 @@ var O = { async method*() {} };
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
                                                 "start": 22,
@@ -128,7 +128,7 @@ var O = { async method*() {} };
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 160,
                                                 "start": 24,

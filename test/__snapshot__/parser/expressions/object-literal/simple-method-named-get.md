@@ -60,7 +60,7 @@ x = {
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 33,
                                         "start": 14,
@@ -127,7 +127,7 @@ x = {
 
 ```javascript
 
-x = { get() {} };
+x = { get {} };
 
 ```
 

@@ -35,9 +35,9 @@ function f([a], a) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 201,
                         "elementList": {
@@ -108,7 +108,7 @@ function f([a], a) {}
 
 ```javascript
 
-function f([a], a) {}
+function f() {}
 ```
 
 ### Diagnostics

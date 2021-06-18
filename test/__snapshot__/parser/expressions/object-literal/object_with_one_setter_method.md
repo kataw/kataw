@@ -65,7 +65,7 @@ wrap({set [foo](a){}});
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [
+                                                "formalParameters": [
                                                     {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -141,7 +141,7 @@ wrap({set [foo](a){}});
 
 ```javascript
 
-wrap({ set [foo](a) {} });
+wrap({ set [foo] {} });
 ```
 
 ### Diagnostics

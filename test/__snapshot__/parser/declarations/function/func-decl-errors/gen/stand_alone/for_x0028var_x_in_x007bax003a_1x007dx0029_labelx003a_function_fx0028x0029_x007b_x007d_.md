@@ -136,9 +136,9 @@ for (var x in {a: 1}) label: function f() { };
                         "end": 39
                     },
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 39,

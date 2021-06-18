@@ -5688,7 +5688,7 @@ function parseFunctionExpression(
         const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
         if (parser.token & Constants.Identifier) {
           const name: any = parseIdentifier(parser, context, Constants.Identifier);
-          let asyncIdent = expression;
+          const asyncIdent = expression;
           // - `(async <T>(x));`
           if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) {
             if (
@@ -5822,7 +5822,7 @@ function parseFunctionExpression(
                   context,
                   function () {
                     let requireDefault = false;
-                    let types: any = [
+                    const types: any = [
                       createTypeParameter(
                         name,
                         /* type */ null,
@@ -5846,7 +5846,7 @@ function parseFunctionExpression(
                       }
                     }
                     if ((parser.token as SyntaxKind) !== SyntaxKind.GreaterThan) return false;
-                    let typeParameterList = createTypeParameterList(types, trailingComma, pos, parser.curPos);
+                    const typeParameterList = createTypeParameterList(types, trailingComma, pos, parser.curPos);
                     nextToken(parser, context); // skips: '>'
                     const typeParameters = createTypeParameterDeclaration(
                       typeParameterList,
@@ -6164,7 +6164,7 @@ function parseFunctionDeclaration(
         const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp, NodeFlags.ExpressionNode);
         if (parser.token & Constants.Identifier) {
           const name: any = parseIdentifier(parser, context, Constants.Identifier);
-          let asyncIdent = expression;
+          const asyncIdent = expression;
           // - `async <T>(x);`
           if ((parser.token as SyntaxKind) === SyntaxKind.GreaterThan) {
             if (
@@ -6294,7 +6294,7 @@ function parseFunctionDeclaration(
                 speculate(
                   parser,
                   context,
-                  function () {
+                  () => {
                     const types = [
                       createTypeParameter(
                         name,
@@ -6320,7 +6320,7 @@ function parseFunctionDeclaration(
                       }
                     }
                     if ((parser.token as SyntaxKind) !== SyntaxKind.GreaterThan) return false;
-                    let typeParameterList = createTypeParameterList(types, trailingComma, pos, parser.curPos);
+                    const typeParameterList = createTypeParameterList(types, trailingComma, pos, parser.curPos);
                     nextToken(parser, context); // skips: '>'
                     const typeParameters = createTypeParameterDeclaration(
                       typeParameterList,
@@ -7788,7 +7788,7 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   let ellipsisToken = null;
   let optionalToken = null;
   while (parser.token & (SyntaxKind.IsEllipsis | Constants.IsType)) {
-    let innerPos = parser.curPos;
+    const innerPos = parser.curPos;
     ellipsisToken = consumeOptToken(parser, context, SyntaxKind.Ellipsis);
     let type = parseTypeAnnotation(parser, context);
     optionalToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
@@ -8879,7 +8879,7 @@ function parseTypeMember(parser: ParserState, context: Context, objectTypeFlag: 
   const pos = parser.curPos;
   let staticKeyword = null;
   let protoKeyword = null;
-  let token = parser.token;
+  const token = parser.token;
 
   // - `type x = { (): string }`
   if (token & SyntaxKind.IsLessThanOrLeftParen) {
@@ -10556,7 +10556,8 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           state = Tristate.False;
           parser.assignable = false;
         }
-        // - `(a: string) => {}"
+        // - `(a: string) => {}`
+        // - `async <T>(fn: () => T);`
       } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
 
@@ -11029,12 +11030,14 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     }
   }
 
-  if (destructible & DestructibleKind.MustDestruct) {
+  if (destructible & DestructibleKind.MustDestruct || state === Tristate.True) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[
-        DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+        state === Tristate.True
+          ? DiagnosticCode.Expected
+          : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
       ],
       parser.curPos,
       parser.pos

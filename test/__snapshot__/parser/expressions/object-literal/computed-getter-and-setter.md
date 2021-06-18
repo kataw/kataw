@@ -54,7 +54,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 10,
@@ -113,7 +113,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "v",
@@ -183,7 +183,7 @@
 
 ```javascript
 
-({ get [x]() {}, set [x](v) {} });
+({ get [x] {}, set [x] {} });
 ```
 
 ### Diagnostics

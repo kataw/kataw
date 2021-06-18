@@ -51,9 +51,9 @@ declare function four<T>(this: T): void;
                 "end": 20
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -141,9 +141,9 @@ declare function four<T>(this: T): void;
                 "end": 62
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -262,9 +262,9 @@ declare function four<T>(this: T): void;
                 "end": 117
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -418,9 +418,9 @@ declare function four<T>(this: T): void;
                 "start": 171,
                 "end": 174
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -439,7 +439,7 @@ declare function four<T>(this: T): void;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "T",
                                     "rawText": "T",
@@ -506,10 +506,10 @@ declare function four<T>(this: T): void;
 
 ```javascript
 
-function one(this): void;
-function two(this, a): void;
-function three(this, ...a): void;
-function  <T >four(this): void;
+function one(): void;
+function two(): void;
+function three(): void;
+function  <T >four(): void;
 
 ```
 

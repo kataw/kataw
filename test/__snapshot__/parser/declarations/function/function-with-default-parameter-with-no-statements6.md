@@ -38,9 +38,9 @@ function bar(a = [1 + 1]) {
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -146,9 +146,9 @@ function bar(a = [1 + 1]) {
                 "end": 43
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -248,8 +248,8 @@ function bar(a = [1 + 1]) {
 
 ```javascript
 
-function foo(a = [1 + 1]) {}
-function bar(a = [1 + 1]) {}
+function foo() {}
+function bar() {}
 ```
 
 ### Diagnostics

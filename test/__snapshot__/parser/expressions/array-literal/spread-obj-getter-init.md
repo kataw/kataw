@@ -226,9 +226,9 @@ var callCount = 0;
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 134299649,
                                         "text": "obj",
@@ -337,7 +337,7 @@ var callCount = 0;
                                                             "typeParameters": null,
                                                             "formalParameters": {
                                                                 "kind": 214,
-                                                                "formalParameterList": [],
+                                                                "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 1056,
                                                                 "start": 117,
@@ -421,7 +421,7 @@ var callCount = 0;
 let o = { a: 2, b: 3 };
 let executedGetter = false;
 var callCount = 0;
-(function (obj) {}.apply(null, [{ ...o, get c() {} }]));
+(function () {}.apply(null, [{ ...o, get c {} }]));
 ```
 
 ### Diagnostics

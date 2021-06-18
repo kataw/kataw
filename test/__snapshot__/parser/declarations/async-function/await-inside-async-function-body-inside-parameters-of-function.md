@@ -35,9 +35,9 @@ function fn(x = async function () { await 1 }) {}
                 "end": 11
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -68,9 +68,9 @@ function fn(x = async function () { await 1 }) {}
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 30,
@@ -165,9 +165,7 @@ function fn(x = async function () { await 1 }) {}
 
 ```javascript
 
-function fn(x = async function () {
-  await 1;
-}) {}
+function fn() {}
 ```
 
 ### Diagnostics

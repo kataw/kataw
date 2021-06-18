@@ -109,7 +109,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 23,
@@ -309,7 +309,7 @@ class Foo {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 86,
@@ -1088,13 +1088,13 @@ class Foo {
 
 class Foo {
   #x;
-  unary() {
+  unary {
     this.#x++;
     this.#x--;
     ++this.#x;
     --this.#x;
   }
-  binary() {
+  binary {
     this.#x = 1;
     this.#x += 1;
     this.#x -= 1;

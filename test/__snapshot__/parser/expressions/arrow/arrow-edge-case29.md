@@ -59,7 +59,7 @@ let x: (y) => void = () => {}
                                 },
                                 "arrowToken": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "y",
                                         "rawText": "y",

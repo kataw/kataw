@@ -43,9 +43,9 @@ function yield(yield) { yield: yield (yield + yield (0)); }
                 "end": 14
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "yield",
@@ -194,7 +194,7 @@ function yield(yield) { yield: yield (yield + yield (0)); }
 
 ```javascript
 
-function yield(yield) {
+function yield() {
   yield: yield(yield + yield(0));
 }
 ```

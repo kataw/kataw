@@ -43,9 +43,9 @@ function inner2({a} = {a: my_var}) { }
                 "end": 15
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -155,9 +155,7 @@ function inner2({a} = {a: my_var}) { }
 
 ```javascript
 
-function inner2({
-  a
-} = { a: my_var }) {}
+function inner2() {}
 ```
 
 ### Diagnostics

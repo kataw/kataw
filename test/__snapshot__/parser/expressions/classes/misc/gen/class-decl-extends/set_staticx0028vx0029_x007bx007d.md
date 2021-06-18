@@ -95,7 +95,7 @@ class C extends Base { set static(v) {} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "v",
@@ -161,7 +161,7 @@ class C extends Base { set static(v) {} }
 ```javascript
 
 class C  {
-  set static(v) {}
+  set static {}
 }
 ```
 

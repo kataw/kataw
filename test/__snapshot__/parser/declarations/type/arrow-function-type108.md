@@ -63,7 +63,7 @@ type a = (b[()=> c]) => c;
                         "kind": 311,
                         "objectType": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -102,7 +102,7 @@ type a = (b[()=> c]) => c;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "c",
                                             "rawText": "c",
@@ -138,7 +138,7 @@ type a = (b[()=> c]) => c;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",

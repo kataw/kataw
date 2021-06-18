@@ -75,7 +75,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 18,
@@ -135,7 +135,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                     "typeParameters": null,
                                                                     "formalParameters": {
                                                                         "kind": 214,
-                                                                        "formalParameterList": [],
+                                                                        "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 2048,
                                                                         "start": 44,

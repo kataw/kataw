@@ -57,7 +57,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -152,7 +152,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -247,7 +247,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -406,7 +406,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -540,12 +540,12 @@
 
 ```javascript
 
-({ set ["\"a\""](x) {} });
-({ set [0](x) {} });
-({ set [0](x) {
+({ set ["\"a\""] {} });
+({ set [0] {} });
+({ set [0] {
     super.m("\"b\"", v);
   } });
-({ set [0](x) {
+({ set [0] {
     super.m("\"1\"", v);
   } });
 ```

@@ -51,9 +51,9 @@ export function bar() {
                     "end": 19
                 },
                 "typeParameters": null,
-                "formalParameters": {
+                "formalParameterList": {
                     "kind": 214,
-                    "formalParameterList": [],
+                    "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 19,

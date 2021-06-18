@@ -220,7 +220,7 @@ this.#f,
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 56,
@@ -1368,7 +1368,7 @@ class Foo {
   #d;
   #e;
   #f;
-  foo() {
+  foo {
     [
       { x: this.#a },
       [[, this.#b, ,]],

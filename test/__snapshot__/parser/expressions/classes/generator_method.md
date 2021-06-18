@@ -67,7 +67,7 @@ class A {*foo(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 14,
@@ -124,7 +124,7 @@ class A {*foo(){}}
 ```javascript
 
 class A {
-  foo() {}
+  foo {}
 }
 ```
 

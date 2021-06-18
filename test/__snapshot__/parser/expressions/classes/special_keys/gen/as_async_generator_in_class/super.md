@@ -80,7 +80,7 @@ class x {async * super(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
                                     "start": 23,
@@ -137,7 +137,7 @@ class x {async * super(){}}
 ```javascript
 
 class x {
-  async super() {}
+  async super {}
 }
 ```
 

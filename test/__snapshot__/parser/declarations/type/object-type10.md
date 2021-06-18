@@ -81,7 +81,7 @@ type a = {function:y.z[][][]};
                                             "kind": 136,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 145,
                                                     "qualification": {
                                                         "kind": 134299649,
@@ -91,7 +91,7 @@ type a = {function:y.z[][][]};
                                                         "start": 19,
                                                         "end": 20
                                                     },
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "z",
                                                         "rawText": "z",

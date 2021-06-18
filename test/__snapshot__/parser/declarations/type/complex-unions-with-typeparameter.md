@@ -88,7 +88,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                     "types": [
                         {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "FieldExpr",
                                 "rawText": "FieldExpr",
@@ -107,7 +107,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -140,7 +140,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                         },
                         {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "LiteralExpr",
                                 "rawText": "LiteralExpr",
@@ -159,7 +159,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -266,7 +266,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                     "types": [
                         {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "Expr",
                                 "rawText": "Expr",
@@ -285,7 +285,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Constant",
                                                     "rawText": "Constant",
@@ -318,7 +318,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                         },
                         {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "LiteralExpr",
                                 "rawText": "LiteralExpr",
@@ -337,7 +337,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",

@@ -81,9 +81,9 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                     "end": 38
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 38,
@@ -142,9 +142,9 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                     "end": 63
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 63,

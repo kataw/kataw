@@ -141,7 +141,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "A",
                                         "rawText": "A",
@@ -183,7 +183,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
@@ -242,7 +242,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "A",
                                         "rawText": "A",
@@ -284,7 +284,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",
@@ -326,7 +326,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "C",
                                         "rawText": "C",

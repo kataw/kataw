@@ -54,9 +54,9 @@ function x(a, [x]) {}
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "a",
@@ -127,7 +127,7 @@ function x(a, [x]) {}
 
 ```javascript
 
-function x(a, [x]) {}
+function x() {}
 ```
 
 ### Diagnostics

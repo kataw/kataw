@@ -62,7 +62,7 @@ class x{ constructor(){} 9(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 21,
@@ -113,7 +113,7 @@ class x{ constructor(){} 9(){} }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 27,
@@ -170,8 +170,8 @@ class x{ constructor(){} 9(){} }
 ```javascript
 
 class x {
-  constructor() {}
-  9() {}
+  constructor {}
+  9 {}
 }
 ```
 

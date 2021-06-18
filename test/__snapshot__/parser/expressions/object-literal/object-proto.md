@@ -60,7 +60,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 36,
                                         "start": 15,
@@ -172,7 +172,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 36,
                                         "start": 50,
@@ -220,7 +220,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 36,
                                         "start": 65,
@@ -314,7 +314,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
                                         "start": 92,
@@ -367,7 +367,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 164,
                                         "start": 108,

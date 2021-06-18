@@ -116,7 +116,7 @@ class A<TYPE> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "Promise",
                                             "rawText": "Promise",
@@ -135,7 +135,7 @@ class A<TYPE> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "TYPE",
                                                                 "rawText": "TYPE",
@@ -314,7 +314,7 @@ class A<TYPE> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 101,
@@ -326,7 +326,7 @@ class A<TYPE> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "Promise",
                                             "rawText": "Promise",
@@ -345,7 +345,7 @@ class A<TYPE> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "TYPE",
                                                                 "rawText": "TYPE",
@@ -528,7 +528,7 @@ class A {
       return  new  Promise()  < TYPE > (console.log);
     };
 
-  anf() {
+  anf {
     return  new  Promise()  < TYPE > (console.log);
   }
 }

@@ -80,7 +80,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "v",
@@ -192,7 +192,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 37,
@@ -295,7 +295,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "v",
@@ -530,7 +530,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 116,
@@ -610,7 +610,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "v",
@@ -699,7 +699,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "v",
@@ -811,7 +811,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 178,
@@ -914,7 +914,7 @@
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
                                         "start": 200,
@@ -975,16 +975,16 @@
 
 ```javascript
 
-({ 1: 1, set 1(v) {} });
-({ 1: 1, get 1() {} });
-({ 1: 1, set "\"1\""(v) {} });
+({ 1: 1, set 1 {} });
+({ 1: 1, get 1 {} });
+({ 1: 1, set "\"1\"" {} });
 ({ foo: 1, bar: 2 });
 ({ 1: 1, 2: 2 });
-({ get foo() {} });
-({ set foo(v) {} });
-({ set 1(v) {} });
-({ foo: 1, get bar() {} });
-({ 1: 1, get 2() {} });
+({ get foo {} });
+({ set foo {} });
+({ set 1 {} });
+({ foo: 1, get bar {} });
+({ 1: 1, get 2 {} });
 ```
 
 ### Diagnostics

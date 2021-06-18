@@ -48,9 +48,9 @@ f(await 1);
                 "end": 16
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -168,7 +168,7 @@ f(await 1);
 
 ```javascript
 
-async function f(x) {
+async function f() {
   return  x;
 }
 f(await 1);

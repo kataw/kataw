@@ -91,7 +91,7 @@ class x{   static async static(){}    }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 31,
@@ -148,7 +148,7 @@ class x{   static async static(){}    }
 ```javascript
 
 class x {
-  async static static static() {}
+  async static static static {}
 }
 ```
 

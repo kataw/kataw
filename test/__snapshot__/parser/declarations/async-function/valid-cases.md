@@ -60,9 +60,9 @@ new async function() { await 0 }.x
                             "end": 19
                         },
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 19,
@@ -141,9 +141,9 @@ new async function() { await 0 }.x
                     "generatorToken": null,
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 49,
@@ -245,9 +245,9 @@ new async function() { await 0 }.x
                         "end": 86
                     },
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 86,
@@ -350,9 +350,9 @@ new async function() { await 0 }.x
                                     "generatorToken": null,
                                     "name": null,
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 119,
@@ -431,9 +431,9 @@ new async function() { await 0 }.x
                                                 "end": 153
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 153,
@@ -515,9 +515,9 @@ new async function() { await 0 }.x
                                         "generatorToken": null,
                                         "name": null,
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 184,
@@ -614,9 +614,9 @@ new async function() { await 0 }.x
                                         "end": 222
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 222,
@@ -706,9 +706,9 @@ new async function() { await 0 }.x
                                 "generatorToken": null,
                                 "name": null,
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 256,
@@ -805,9 +805,9 @@ new async function() { await 0 }.x
                     "generatorToken": null,
                     "name": null,
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [],
+                        "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
                         "start": 290,
@@ -897,9 +897,9 @@ new async function() { await 0 }.x
                         "generatorToken": null,
                         "name": null,
                         "typeParameters": null,
-                        "formalParameters": {
+                        "formalParameterList": {
                             "kind": 214,
-                            "formalParameterList": [],
+                            "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 323,

@@ -49,9 +49,9 @@ export function d(): Promise<boolean> {}
                     "end": 17
                 },
                 "typeParameters": null,
-                "formalParameters": {
+                "formalParameterList": {
                     "kind": 214,
-                    "formalParameterList": [],
+                    "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 17,
@@ -77,7 +77,7 @@ export function d(): Promise<boolean> {}
                     "bitwiseAndToken": null,
                     "type": {
                         "kind": 144,
-                        "id": {
+                        "name": {
                             "kind": 134299649,
                             "text": "Promise",
                             "rawText": "Promise",

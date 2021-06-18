@@ -486,7 +486,7 @@ let x = { foo(){ super(); } };
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 152,
@@ -759,7 +759,7 @@ let x = { foo(){ super(); } };
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 217,
@@ -995,7 +995,7 @@ let x = { foo(){ super(); } };
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 277,
@@ -1172,7 +1172,7 @@ let x = { foo(){ super(); } };
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 327,
@@ -1370,7 +1370,7 @@ let x = { foo(){ super(); } };
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 389,
@@ -1572,7 +1572,7 @@ let x = { foo(){ super(); } };
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
                                     "start": 456,
@@ -1632,7 +1632,7 @@ let x = { foo(){ super(); } };
                                                                     "typeParameters": null,
                                                                     "formalParameters": {
                                                                         "kind": 214,
-                                                                        "formalParameterList": [],
+                                                                        "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 0,
                                                                         "start": 473,
@@ -1804,9 +1804,9 @@ let x = { foo(){ super(); } };
                                     "generatorToken": null,
                                     "name": null,
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 510,
@@ -1923,9 +1923,9 @@ let x = { foo(){ super(); } };
                         "end": 541
                     },
                     "typeParameters": null,
-                    "formalParameters": {
+                    "formalParameterList": {
                         "kind": 214,
-                        "formalParameterList": [
+                        "formalParameters": [
                             {
                                 "kind": 281,
                                 "ellipsisToken": null,
@@ -2055,9 +2055,9 @@ let x = { foo(){ super(); } };
                                         "end": 575
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 575,
@@ -2185,7 +2185,7 @@ let x = { foo(){ super(); } };
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [],
+                                        "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 606,
@@ -2285,9 +2285,9 @@ let x = { foo(){ super(); } };
                 "end": 632
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -2382,9 +2382,9 @@ let x = { foo(){ super(); } };
                 "end": 660
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 660,
@@ -2583,7 +2583,7 @@ let x = { foo(){ super(); } };
                                             "typeParameters": null,
                                             "formalParameters": {
                                                 "kind": 214,
-                                                "formalParameterList": [],
+                                                "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 714,

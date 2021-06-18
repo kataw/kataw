@@ -117,6 +117,14 @@ Kataw's own type checker.
 You can manually enable this if you enable the `allowTypes` option. It will then parse the types but it
 will not do any type checking.
 
+You can use `kataw.removeKatawTypes` to remove Kataw's types from the CST tree
+
+
+```ts
+const source = kataw.parseModule('let: string', { allowTypes: true});
+// Remove the types
+kataw.removeKatawTypes(source);
+```
 
 ## Comments
 
@@ -145,6 +153,59 @@ while (true) {}
 ```
 
 You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
+
+## Transformation
+
+You can use `kataw.visitEachChild` to traverse the entire CST tree. `kataw.visitNode`can be used to traverse a single node, and
+`kataw.visitNodes` to visit an array of CST nodes.
+
+`kataw.visitNodes` should only be used on *lists*. CST nodes that is *known* to contain an array.
+There are no need to use for example `Array.Array` to verify if it's an array. Performance is maintained that way.
+
+All CST nodes will be updated automatically if any changes has been detected.
+
+Keywords can also be swapped around and the same with `AssignmentExpression`, `BinaryExpression`, `UnaryExpression` and
+`UpdateExpression` operands. For example `!==` can be changed to `===`.
+
+A `WithStatement` can be transformed into a `WhileStatement` simply by changing the value of the `TokenNode`.
+
+The location of the CST node in the CST tree can also be changed if you change the values of `start` and `end` on the CST node.
+
+Changing the `NodeFlags` allow you to change how the CST node should behave.
+
+All this things gives a you better control over transformation of each CST node compared to `Babel` and `Rome`.
+
+Here is an example on an simple transformer that will replace all identifiers with an `NumericLiteral`.
+
+```ts
+export function swapIdentifierWithNumeric(transform) {
+  return transformSourceFile;
+
+  function transformSourceFile(root) {
+    switch (node.kind) {
+      case kataw.NodeKind.Identifier:
+        return kataw.createNumericLiteral(
+          123,
+          "123",
+          kataw.NodeFlags.ExpressionNode | kataw.NodeFlags.ChildLess,
+          /* start */ 1,
+          /* end */ 3
+        );
+      default:
+        return kataw.visitEachChild(transform, root, visitor);
+    }
+  }
+
+  function visitor() {
+    switch (node.kind) {
+      default:
+        return kataw.visitEachChild(transform, node, visitor);
+    }
+  }
+}
+
+```
+
 
 
 ## CST parser features

@@ -70,7 +70,7 @@ declare class C { static [[foo]]: T }
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "T",
                                         "rawText": "T",

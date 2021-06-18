@@ -98,9 +98,9 @@ function bar<T: ?number>() {}
                 "start": 12,
                 "end": 24
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [],
+                "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 24,

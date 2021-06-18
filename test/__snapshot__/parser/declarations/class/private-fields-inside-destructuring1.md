@@ -187,7 +187,7 @@ class Test {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 55,
@@ -275,7 +275,7 @@ class Test {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 86,
@@ -358,7 +358,7 @@ class Test {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 117,
@@ -484,7 +484,7 @@ class Test {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 161,
@@ -673,16 +673,16 @@ class Test {
 
   z = 2;
 
-  get x() {
+  get x {
     return  this.#x;
   }
-  get y() {
+  get y {
     return  this.#y;
   }
-  world() {
+  world {
     return  [1, [2, 3], 4];
   }
-  hello() {
+  hello {
     [this.#x, this.#y, this.z] = this.world();
   }
 }

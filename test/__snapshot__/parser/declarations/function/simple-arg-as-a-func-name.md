@@ -35,9 +35,9 @@ function f(x) { function x() {} }
                 "end": 10
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -78,9 +78,9 @@ function f(x) { function x() {} }
                                 "end": 26
                             },
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 26,
@@ -133,7 +133,7 @@ function f(x) { function x() {} }
 
 ```javascript
 
-function f(x) {
+function f() {
   function x() {}
 }
 ```

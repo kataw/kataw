@@ -43,9 +43,9 @@ function foo(numVal: any, otherVal: mixed){}
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -95,7 +95,7 @@ function foo(numVal: any, otherVal: mixed){}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "mixed",
                                     "rawText": "mixed",
@@ -156,7 +156,7 @@ function foo(numVal: any, otherVal: mixed){}
 
 ```javascript
 
-function foo(numVal, otherVal) {}
+function foo() {}
 ```
 
 ### Diagnostics

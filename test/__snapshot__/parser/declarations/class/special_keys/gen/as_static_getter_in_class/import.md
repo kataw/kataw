@@ -80,7 +80,7 @@ class x {static get import(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 27,
@@ -137,7 +137,7 @@ class x {static get import(){}}
 ```javascript
 
 class x {
-  static get static import() {}
+  static get static import {}
 }
 ```
 

@@ -82,7 +82,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -196,7 +196,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
 ```javascript
 
 class x  {
-  constructor(x = this) {
+  constructor {
     ;
   }
 }

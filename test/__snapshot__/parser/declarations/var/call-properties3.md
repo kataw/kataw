@@ -137,9 +137,9 @@ var z : Object = (x) => "hi"
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 99,
@@ -228,7 +228,7 @@ var z : Object = (x) => "hi"
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "Function",
                                                     "rawText": "Function",
@@ -271,9 +271,9 @@ var z : Object = (x) => "hi"
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 199,
@@ -347,9 +347,9 @@ var z : Object = (x) => "hi"
                             "generatorToken": null,
                             "name": null,
                             "typeParameters": null,
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [],
+                                "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 288,
@@ -1340,7 +1340,7 @@ var z : Object = (x) => "hi"
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "mixed",
                                                     "rawText": "mixed",
@@ -1463,7 +1463,7 @@ var z : Object = (x) => "hi"
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "id": {
+                                                            "name": {
                                                                 "kind": 134299649,
                                                                 "text": "Date",
                                                                 "rawText": "Date",
@@ -1720,7 +1720,7 @@ var z : Object = (x) => "hi"
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "Object",
                                     "rawText": "Object",

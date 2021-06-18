@@ -75,7 +75,7 @@ class x {get get(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 17,
@@ -132,7 +132,7 @@ class x {get get(){}}
 ```javascript
 
 class x {
-  get get() {}
+  get get {}
 }
 ```
 

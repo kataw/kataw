@@ -326,7 +326,6 @@ export enum SyntaxKind {
   ShiftRight = 35141,
   ShiftRightAssign = 4127,
   SingleLineComment = 315,
-  SingleNameBinding = 222,
   SingleQuote = 25,
   Smi = 1048576,
   SpreadElement = 223,

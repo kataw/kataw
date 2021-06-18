@@ -35,9 +35,9 @@ function log(n, op, val,) { }
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 134299649,
                         "text": "n",
@@ -101,7 +101,7 @@ function log(n, op, val,) { }
 
 ```javascript
 
-function log(n, op, val) {}
+function log() {}
 ```
 
 ### Diagnostics

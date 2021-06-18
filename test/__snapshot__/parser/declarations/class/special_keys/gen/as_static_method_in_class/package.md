@@ -75,7 +75,7 @@ class x {static package(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 24,
@@ -132,7 +132,7 @@ class x {static package(){}}
 ```javascript
 
 class x {
-  static static package() {}
+  static static package {}
 }
 ```
 

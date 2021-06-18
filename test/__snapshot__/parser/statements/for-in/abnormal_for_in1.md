@@ -63,9 +63,9 @@ function baz(x: boolean) {
                 "end": 12
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -368,9 +368,9 @@ function baz(x: boolean) {
                 "end": 146
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -532,9 +532,9 @@ function baz(x: boolean) {
                 "end": 217
             },
             "typeParameters": null,
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -690,16 +690,16 @@ function baz(x: boolean) {
 
 ```javascript
 
-function foo(x) {
+function foo() {
   var obj = { a: 1, b: 2 };
   for ( in obj)
     {}
 }
-function bar(x) {
+function bar() {
   for ( in {})
     {}
 }
-function baz(x) {
+function baz() {
   for ( in {})
     {}
 }

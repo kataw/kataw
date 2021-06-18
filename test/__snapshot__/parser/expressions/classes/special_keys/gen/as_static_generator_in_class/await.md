@@ -80,7 +80,7 @@ class x {static * await(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 24,
@@ -137,7 +137,7 @@ class x {static * await(){}}
 ```javascript
 
 class x {
-  static static await() {}
+  static static await {}
 }
 ```
 

@@ -75,7 +75,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "_",
@@ -138,9 +138,9 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                 },
                                                                 "name": null,
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
-                                                                    "formalParameterList": [],
+                                                                    "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
                                                                     "start": 38,

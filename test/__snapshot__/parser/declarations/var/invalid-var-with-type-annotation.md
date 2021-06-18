@@ -53,7 +53,7 @@ var f: >x:int) => string;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 16637,
                                     "text": "",
                                     "flags": 64,

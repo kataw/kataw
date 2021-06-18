@@ -135,7 +135,7 @@ class D<T> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -185,7 +185,7 @@ class D<T> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -204,7 +204,7 @@ class D<T> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -324,7 +324,7 @@ class D<T> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 72,
@@ -336,7 +336,7 @@ class D<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "X",
                                             "rawText": "X",
@@ -430,7 +430,7 @@ class D<T> {
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 112,
@@ -442,7 +442,7 @@ class D<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "Y",
                                             "rawText": "Y",
@@ -603,7 +603,7 @@ class D<T> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "T",
                                         "rawText": "T",
@@ -683,7 +683,7 @@ class D<T> {
                                 },
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 281,
                                             "ellipsisToken": null,
@@ -702,7 +702,7 @@ class D<T> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "S",
                                                         "rawText": "S",
@@ -742,7 +742,7 @@ class D<T> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -776,7 +776,7 @@ class D<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "S",
                                             "rawText": "S",
@@ -912,20 +912,20 @@ class D<T> {
 class C {
   x;
 
-  constructor(x) {
+  constructor {
     this.x = x;
   }
-  get() {
+  get {
     return  this.x;
   }
-  get_bad() {
+  get_bad {
     return  this.x;
   }
 }
 class D {
   x;
 
-  m(z, u) {
+  m {
     this.x = u;
     return  z;
   }

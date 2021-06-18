@@ -88,9 +88,9 @@ class C {
                                                         "generatorToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
-                                                            "formalParameterList": [
+                                                            "formalParameters": [
                                                                 {
                                                                     "kind": 212,
                                                                     "propertyList": {
@@ -267,9 +267,9 @@ class C {
                                                                 },
                                                                 "name": null,
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
-                                                                    "formalParameterList": [
+                                                                    "formalParameters": [
                                                                         {
                                                                             "kind": 212,
                                                                             "propertyList": {
@@ -466,9 +466,9 @@ class C {
                                                         "generatorToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
-                                                            "formalParameterList": [
+                                                            "formalParameters": [
                                                                 {
                                                                     "kind": 212,
                                                                     "propertyList": {

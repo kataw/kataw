@@ -82,7 +82,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "T",
                                         "rawText": "T",
@@ -114,9 +114,9 @@ function b1<A: 'a', B: A>(b: B): void {
                 "start": 10,
                 "end": 16
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -135,7 +135,7 @@ function b1<A: 'a', B: A>(b: B): void {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "$Keys",
                                     "rawText": "$Keys",
@@ -154,7 +154,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "id": {
+                                                    "name": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -403,9 +403,9 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "start": 153,
                                 "end": 161
                             },
-                            "formalParameters": {
+                            "formalParameterList": {
                                 "kind": 214,
-                                "formalParameterList": [
+                                "formalParameters": [
                                     {
                                         "kind": 281,
                                         "ellipsisToken": null,
@@ -424,7 +424,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "id": {
+                                                "name": {
                                                     "kind": 134299649,
                                                     "text": "A",
                                                     "rawText": "A",
@@ -624,7 +624,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "id": {
+                                    "name": {
                                         "kind": 134299649,
                                         "text": "A",
                                         "rawText": "A",
@@ -656,9 +656,9 @@ function b1<A: 'a', B: A>(b: B): void {
                 "start": 213,
                 "end": 227
             },
-            "formalParameters": {
+            "formalParameterList": {
                 "kind": 214,
-                "formalParameterList": [
+                "formalParameters": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,
@@ -677,7 +677,7 @@ function b1<A: 'a', B: A>(b: B): void {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "id": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "B",
                                     "rawText": "B",
@@ -807,7 +807,7 @@ function b1<A: 'a', B: A>(b: B): void {
 
 ```javascript
 
-function  <X:  >c(x) {
+function  <X:  >c() {
   switch(x) {
     case "'p'":
       break;
@@ -816,12 +816,12 @@ function  <X:  >c(x) {
     case "'r'":
       break;
   }
-  function  <A:  >a(a): void {
+  function  <A:  >a(): void {
     if (a === "'a'") {
       }
   }
 }
-function  <A: , B:  >b1(b): void {
+function  <A: , B:  >b1(): void {
   if (b === "'b'") {
     } // error 'b' not compatible with 'a'
 

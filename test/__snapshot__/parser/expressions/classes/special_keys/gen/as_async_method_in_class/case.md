@@ -75,7 +75,7 @@ class x {async case(){}}
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 20,
@@ -132,7 +132,7 @@ class x {async case(){}}
 ```javascript
 
 class x {
-  async case() {}
+  async case {}
 }
 ```
 

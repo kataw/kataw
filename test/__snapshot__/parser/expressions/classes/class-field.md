@@ -420,7 +420,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 74,
@@ -552,7 +552,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 99,
@@ -685,7 +685,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 127,
@@ -970,7 +970,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 178,
@@ -1095,7 +1095,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 199,
@@ -1221,7 +1221,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 223,
@@ -1539,7 +1539,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 297,
@@ -1677,7 +1677,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 326,
@@ -1816,7 +1816,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 358,
@@ -2119,7 +2119,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 421,
@@ -2250,7 +2250,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 446,
@@ -2382,7 +2382,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 474,
@@ -2954,7 +2954,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 608,
@@ -3215,7 +3215,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 663,
@@ -3334,7 +3334,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 685,
@@ -3454,7 +3454,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 710,
@@ -3754,7 +3754,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 787,
@@ -4033,7 +4033,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 854,
@@ -4158,7 +4158,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 880,
@@ -4284,7 +4284,7 @@
                                         "typeParameters": null,
                                         "formalParameters": {
                                             "kind": 214,
-                                            "formalParameterList": [],
+                                            "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
                                             "start": 909,
@@ -4363,17 +4363,17 @@
 (class  {
     a = 0;
 
-    b() {}
+    b {}
   });
 (class  {
     a = 0;
 
-    b() {}
+    b {}
   });
 (class  {
     a = 0;
 
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 (class  {
     a;
@@ -4388,17 +4388,17 @@
 (class  {
     a;
 
-    b() {}
+    b {}
   });
 (class  {
     a;
 
-    b() {}
+    b {}
   });
 (class  {
     a;
 
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 (class  {
     ["'a'"] = 0;
@@ -4412,17 +4412,17 @@
 (class  {
     ["'a'"] = 0;
 
-    b() {}
+    b {}
   });
 (class  {
     ["'a'"] = 0;
 
-    b() {}
+    b {}
   });
 (class  {
     ["'a'"] = 0;
 
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 (class  {
     ["'a'"];
@@ -4437,17 +4437,17 @@
 (class  {
     ["'a'"];
 
-    b() {}
+    b {}
   });
 (class  {
     ["'a'"];
 
-    b() {}
+    b {}
   });
 (class  {
     ["'a'"];
 
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 (class  {
     0 = 0;
@@ -4474,7 +4474,7 @@
   });
 (class  {
     a = 0;
-    b() {}
+    b {}
   });
 (class  {
     a;
@@ -4485,15 +4485,15 @@
   });
 (class  {
     a;
-    b() {}
+    b {}
   });
 (class  {
     a;
-    b() {}
+    b {}
   });
 (class  {
     a;
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 (class  {
     ["'a'"] = 0;
@@ -4504,7 +4504,7 @@
   });
 (class  {
     ["'a'"] = 0;
-    b() {}
+    b {}
   });
 (class  {
     ["'a'"];
@@ -4515,15 +4515,15 @@
   });
 (class  {
     ["'a'"];
-    b() {}
+    b {}
   });
 (class  {
     ["'a'"];
-    b() {}
+    b {}
   });
 (class  {
     ["'a'"];
-    ["'b'"]() {}
+    ["'b'"] {}
   });
 ```
 

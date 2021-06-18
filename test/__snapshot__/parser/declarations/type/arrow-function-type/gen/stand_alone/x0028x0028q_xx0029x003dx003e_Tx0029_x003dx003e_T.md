@@ -81,7 +81,7 @@ type a = ((q, x)=> T) => T;
                                                     "ellipsisToken": null,
                                                     "name": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "q",
                                                             "rawText": "q",
@@ -107,7 +107,7 @@ type a = ((q, x)=> T) => T;
                                                     "optionalToken": null,
                                                     "types": {
                                                         "kind": 144,
-                                                        "id": {
+                                                        "name": {
                                                             "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",
@@ -142,7 +142,7 @@ type a = ((q, x)=> T) => T;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "id": {
+                                        "name": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -176,7 +176,7 @@ type a = ((q, x)=> T) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "id": {
+                            "name": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

@@ -152,7 +152,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 64,
@@ -252,7 +252,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 103,
@@ -352,7 +352,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 144,
@@ -452,7 +452,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -561,7 +561,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 228,
@@ -738,7 +738,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 318,
@@ -843,7 +843,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 363,
@@ -948,7 +948,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
                                     "start": 410,
@@ -1053,7 +1053,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [
+                                    "formalParameters": [
                                         {
                                             "kind": 134299649,
                                             "text": "x",
@@ -1167,7 +1167,7 @@
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
                                     "start": 513,
@@ -1227,37 +1227,37 @@ class one {
   ["'constructor'"] = 0;
 }
 class two {
-  ["'constructor'"]() {}
+  ["'constructor'"] {}
 }
 class three {
-  ["'constructor'"]() {}
+  ["'constructor'"] {}
 }
 class four {
-  get ["'constructor'"]() {}
+  get ["'constructor'"] {}
 }
 class five {
-  set ["'constructor'"](x) {}
+  set ["'constructor'"] {}
 }
 class six {
-  async ["'constructor'"]() {}
+  async ["'constructor'"] {}
 }
 class seven {
   static ["'constructor'"] = 0;
 }
 class eigth {
-  static static ["'constructor'"]() {}
+  static static ["'constructor'"] {}
 }
 class nine {
-  static static ["'constructor'"]() {}
+  static static ["'constructor'"] {}
 }
 class ten {
-  static get static ["'constructor'"]() {}
+  static get static ["'constructor'"] {}
 }
 class eleven {
-  static set static ["'constructor'"](x) {}
+  static set static ["'constructor'"] {}
 }
 class twelve {
-  async static static ["'constructor'"]() {}
+  async static static ["'constructor'"] {}
 }
 ```
 

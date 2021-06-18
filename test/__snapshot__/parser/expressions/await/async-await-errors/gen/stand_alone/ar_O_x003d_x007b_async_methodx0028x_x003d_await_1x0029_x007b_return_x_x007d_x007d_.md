@@ -84,7 +84,7 @@ ar O = { async method(x = await 1) { return x; } };
                                     "typeParameters": null,
                                     "formalParameters": {
                                         "kind": 214,
-                                        "formalParameterList": [
+                                        "formalParameters": [
                                             {
                                                 "kind": 281,
                                                 "ellipsisToken": null,

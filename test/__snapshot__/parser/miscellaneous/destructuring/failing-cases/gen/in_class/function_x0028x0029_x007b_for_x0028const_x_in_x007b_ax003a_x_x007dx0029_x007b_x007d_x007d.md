@@ -70,7 +70,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                 "typeParameters": null,
                                 "formalParameters": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
                                     "start": 20,
@@ -222,7 +222,7 @@ class x { function () { for (const x in { a: x }) { } } }
 ```javascript
 
 class x {
-  function() {
+  function {
     for (const in { a: x })
       {}
   }

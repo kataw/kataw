@@ -104,9 +104,9 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                 "generatorToken": null,
                                 "name": null,
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
-                                    "formalParameterList": [],
+                                    "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
                                     "start": 34,
@@ -165,9 +165,9 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                     "end": 58
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
-                                                                    "formalParameterList": [
+                                                                    "formalParameters": [
                                                                         {
                                                                             "kind": 281,
                                                                             "ellipsisToken": null,
@@ -278,7 +278,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
 
 var await;
 var f = (async function () {
-    let x = function * f(foo = await) {};
+    let x = function * f() {};
   });
 ```
 
