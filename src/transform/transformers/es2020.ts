@@ -1,9 +1,9 @@
-import { Transform } from '../core';
+import { Transform, hoistVariableDeclaration } from '../core';
 import { SyntaxKind, NodeFlags } from '../../ast/syntax-node';
 import { createToken } from '../../ast/token';
 import { createUniqueIdentifier, UniqueIdentifierFlags } from '../../ast/internal/unique-identifier';
 import { visitEachChild, visitNode } from '../../visitor';
-import { hoistVariableDeclaration } from '../core';
+
 import { createConditionalExpression } from '../../ast/expressions/conditional-expr';
 import { createBinaryExpression } from '../../ast/expressions/binary-expr';
 import { createParenthesizedExpression } from '../../ast/expressions/parenthesized-expr';
