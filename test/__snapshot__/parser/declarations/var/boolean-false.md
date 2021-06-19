@@ -45,7 +45,6 @@ var foo: true
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

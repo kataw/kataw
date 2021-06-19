@@ -39,7 +39,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                 "start": 7,
                 "end": 16
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "aw",

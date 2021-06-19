@@ -39,7 +39,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 14,
@@ -145,7 +145,6 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                             "start": 27,
                                             "end": 43
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 220,
@@ -154,7 +153,7 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "a",

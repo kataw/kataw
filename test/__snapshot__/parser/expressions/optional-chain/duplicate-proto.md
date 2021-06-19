@@ -49,7 +49,7 @@ async?.({ __proto__: x, __proto__: y })
                                         "properties": [
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "__proto__",
@@ -72,7 +72,7 @@ async?.({ __proto__: x, __proto__: y })
                                             },
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "__proto__",

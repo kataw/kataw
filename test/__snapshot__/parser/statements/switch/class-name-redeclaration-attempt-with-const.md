@@ -123,7 +123,6 @@ switch (0) { case 1: class f {} default: const f = 0 }
                                                 "start": 46,
                                                 "end": 48
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,

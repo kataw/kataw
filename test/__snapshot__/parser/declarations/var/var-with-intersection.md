@@ -49,7 +49,6 @@ var x:
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": {

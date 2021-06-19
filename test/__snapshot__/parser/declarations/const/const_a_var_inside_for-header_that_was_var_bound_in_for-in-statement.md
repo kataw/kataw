@@ -55,7 +55,6 @@ for (const x in obj) { var x = 13 }
                             "start": 10,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -108,7 +107,6 @@ for (const x in obj) { var x = 13 }
                                             "start": 26,
                                             "end": 28
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,

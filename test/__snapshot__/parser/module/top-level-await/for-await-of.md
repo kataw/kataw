@@ -50,7 +50,6 @@ for await (const item of arr) {
                             "start": 16,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

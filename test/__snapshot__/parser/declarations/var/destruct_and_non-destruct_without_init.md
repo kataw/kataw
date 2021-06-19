@@ -71,7 +71,6 @@ var [foo] = arr, bar;
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -95,7 +94,6 @@ var [foo] = arr, bar;
                             "start": 16,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

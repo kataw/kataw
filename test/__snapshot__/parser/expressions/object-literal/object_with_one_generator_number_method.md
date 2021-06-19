@@ -126,7 +126,7 @@ wrap({*123(){}});
 
 ```javascript
 
-wrap({ * 123 {} });
+wrap({ 123 {} });
 ```
 
 ### Diagnostics

@@ -62,7 +62,6 @@ switch (true) { default: const x = 1; }
                                                 "start": 30,
                                                 "end": 32
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,

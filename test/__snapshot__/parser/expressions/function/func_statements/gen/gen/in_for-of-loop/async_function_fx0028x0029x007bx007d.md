@@ -69,7 +69,7 @@ for (a of b) async function f(){}
                     "start": 18,
                     "end": 27
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "f",

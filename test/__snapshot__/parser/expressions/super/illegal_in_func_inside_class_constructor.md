@@ -44,7 +44,7 @@ class x { constructor(){ function f(){ super[bar]; } }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -85,7 +85,7 @@ class x { constructor(){ function f(){ super[bar]; } }}
                                                     "start": 24,
                                                     "end": 33
                                                 },
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "name": {
                                                     "kind": 134299649,
                                                     "text": "f",

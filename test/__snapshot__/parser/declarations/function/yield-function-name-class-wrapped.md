@@ -27,7 +27,7 @@ function* wrap() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -85,7 +85,7 @@ function* wrap() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "generatorToken": {
+                                            "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 32,

@@ -54,7 +54,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -166,7 +165,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 29,
                             "end": 39
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -349,7 +347,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 59,
                             "end": 69
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -582,7 +579,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 99,
                             "end": 103
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -639,7 +635,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 117,
                             "end": 121
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -708,7 +703,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 136,
                             "end": 140
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -811,7 +805,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 161,
                             "end": 164
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -941,7 +934,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 203,
                             "end": 206
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1020,7 +1012,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 225,
                             "end": 228
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1128,7 +1119,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
                             "start": 256,
                             "end": 261
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1186,7 +1176,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x5",

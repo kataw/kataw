@@ -45,7 +45,6 @@ var x = typ\u0065of 'blah'
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 126,

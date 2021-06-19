@@ -40,7 +40,7 @@ x={ foo: function(){ super.foo; }}
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "foo",
@@ -58,7 +58,7 @@ x={ foo: function(){ super.foo; }}
                                         "start": 8,
                                         "end": 17
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": null,
                                     "typeParameters": null,
                                     "formalParameterList": {

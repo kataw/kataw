@@ -76,7 +76,7 @@ try {
                                     "start": 19,
                                     "end": 30
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {

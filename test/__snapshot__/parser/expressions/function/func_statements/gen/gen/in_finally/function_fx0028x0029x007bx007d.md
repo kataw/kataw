@@ -69,7 +69,7 @@ try {
                                 "start": 17,
                                 "end": 28
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",

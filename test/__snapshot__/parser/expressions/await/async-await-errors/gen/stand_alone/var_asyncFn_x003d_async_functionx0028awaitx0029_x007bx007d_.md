@@ -45,7 +45,6 @@ var asyncFn = async function(await) {};
                             "start": 3,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -61,7 +60,7 @@ var asyncFn = async function(await) {};
                                 "start": 19,
                                 "end": 28
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

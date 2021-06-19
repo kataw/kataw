@@ -37,7 +37,6 @@ var _\u{104A6} = 10;
                             "start": 3,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

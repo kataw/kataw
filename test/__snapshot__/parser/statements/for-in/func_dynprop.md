@@ -53,7 +53,7 @@ for (function(){ }[foo] in x);
                         "start": 5,
                         "end": 13
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {

@@ -30,7 +30,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "g",
@@ -75,7 +75,6 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                             "start": 22,
                                             "end": 24
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 220,
@@ -140,7 +139,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                             "properties": [
                                                                                                 {
                                                                                                     "kind": 219,
-                                                                                                    "generatorToken": null,
+                                                                                                    "asteriskToken": null,
                                                                                                     "left": {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "m",

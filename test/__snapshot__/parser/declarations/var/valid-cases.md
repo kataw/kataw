@@ -81,7 +81,6 @@ var {get} = obj;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -119,7 +118,6 @@ var {get} = obj;
                             "start": 11,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -164,7 +162,6 @@ var {get} = obj;
                             "start": 23,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -209,7 +206,6 @@ var {get} = obj;
                             "start": 35,
                             "end": 37
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -269,7 +265,6 @@ var {get} = obj;
                             "start": 47,
                             "end": 51
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -278,7 +273,7 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -301,7 +296,7 @@ var {get} = obj;
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -393,7 +388,6 @@ var {get} = obj;
                             "start": 78,
                             "end": 80
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -402,7 +396,7 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -425,7 +419,7 @@ var {get} = obj;
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -531,7 +525,6 @@ var {get} = obj;
                             "start": 121,
                             "end": 123
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -580,7 +573,6 @@ var {get} = obj;
                                         "start": 134,
                                         "end": 136
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 201392130,
@@ -634,7 +626,6 @@ var {get} = obj;
                             "start": 148,
                             "end": 150
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -767,7 +758,6 @@ var {get} = obj;
                             "start": 184,
                             "end": 186
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -979,7 +969,6 @@ var {get} = obj;
                             "start": 228,
                             "end": 230
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1132,7 +1121,6 @@ var {get} = obj;
                             "start": 265,
                             "end": 269
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1170,7 +1158,6 @@ var {get} = obj;
                             "start": 275,
                             "end": 279
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -1230,7 +1217,6 @@ var {get} = obj;
                             "start": 289,
                             "end": 295
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -1305,7 +1291,6 @@ var {get} = obj;
                             "start": 307,
                             "end": 313
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -1314,7 +1299,7 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "foo",
@@ -1412,7 +1397,6 @@ var {get} = obj;
                             "start": 330,
                             "end": 338
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -1495,7 +1479,6 @@ var {get} = obj;
                             "start": 349,
                             "end": 370
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1572,7 +1555,6 @@ var {get} = obj;
                             "start": 382,
                             "end": 408
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1655,7 +1637,6 @@ var {get} = obj;
                             "start": 420,
                             "end": 456
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1715,7 +1696,6 @@ var {get} = obj;
                             "start": 468,
                             "end": 474
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

@@ -128,7 +128,7 @@ do while [catch] function while
                 "start": 16,
                 "end": 25
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {

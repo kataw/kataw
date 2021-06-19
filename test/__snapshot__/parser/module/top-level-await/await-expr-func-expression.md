@@ -40,7 +40,7 @@ await function() {}
                         "start": 5,
                         "end": 14
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {

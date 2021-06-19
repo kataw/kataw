@@ -74,7 +74,6 @@ for (let {x:y=z} = obj, {a:b=c});
                             "start": 8,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -136,7 +135,6 @@ for (let {x:y=z} = obj, {a:b=c});
                             "start": 23,
                             "end": 31
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

@@ -111,7 +111,6 @@ var [x = 10, [ z ]] = a;
                             "start": 3,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

@@ -45,7 +45,7 @@ foo({ __proto__: null, other: null, "__proto__": null });
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "__proto__",
@@ -66,7 +66,7 @@ foo({ __proto__: null, other: null, "__proto__": null });
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "other",
@@ -87,7 +87,7 @@ foo({ __proto__: null, other: null, "__proto__": null });
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 201392131,
                                             "text": "__proto__",

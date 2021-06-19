@@ -108,7 +108,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "key",
@@ -164,7 +164,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "key",
@@ -251,7 +251,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -319,7 +319,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -425,7 +425,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -443,7 +443,7 @@ a = { y: x = 1 } = b;
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "prop",
@@ -543,7 +543,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -605,7 +605,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 194,
                                     "expression": {
@@ -673,7 +673,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -735,7 +735,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "async",
@@ -905,7 +905,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "key",
@@ -1115,7 +1115,7 @@ a = { y: x = 1 } = b;
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -1298,7 +1298,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392131,
                                     "text": "x",
@@ -1453,7 +1453,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392131,
                                     "text": "x",
@@ -1469,7 +1469,7 @@ a = { y: x = 1 } = b;
                                         "properties": [
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "y",
@@ -1546,7 +1546,7 @@ a = { y: x = 1 } = b;
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 194,
                                                 "expression": {
@@ -1575,7 +1575,7 @@ a = { y: x = 1 } = b;
                                         },
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 194,
                                                 "expression": {
@@ -1657,7 +1657,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "l",
@@ -1753,7 +1753,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392131,
                                     "text": "b",
@@ -1823,7 +1823,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -1875,7 +1875,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -1955,7 +1955,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392131,
                                     "text": "foo",
@@ -2133,7 +2133,7 @@ a = { y: x = 1 } = b;
                                 },
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 194,
                                         "expression": {
@@ -2450,7 +2450,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -2493,7 +2493,7 @@ a = { y: x = 1 } = b;
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "b",
@@ -2739,7 +2739,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 194,
                                         "expression": {
@@ -2863,7 +2863,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "topLeft",
@@ -2879,7 +2879,7 @@ a = { y: x = 1 } = b;
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -2902,7 +2902,7 @@ a = { y: x = 1 } = b;
                                                 },
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y",
@@ -2939,7 +2939,7 @@ a = { y: x = 1 } = b;
                                 },
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "bottomRight",
@@ -2955,7 +2955,7 @@ a = { y: x = 1 } = b;
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -2978,7 +2978,7 @@ a = { y: x = 1 } = b;
                                                 },
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y",
@@ -3270,7 +3270,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "async",
@@ -3650,7 +3650,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "get",
@@ -3700,7 +3700,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "if",
@@ -4041,7 +4041,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "foo",
@@ -4117,7 +4117,7 @@ a = { y: x = 1 } = b;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392131,
                                     "text": "x",
@@ -4133,7 +4133,7 @@ a = { y: x = 1 } = b;
                                         "properties": [
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -4241,7 +4241,7 @@ a = { y: x = 1 } = b;
                                 },
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -4434,7 +4434,7 @@ a = { y: x = 1 } = b;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -4538,7 +4538,7 @@ a = { y: x = 1 } = b;
 ({ key: bar = x });
 ({ typeof {} });
 ({ x {}, x: 1 });
-({ * x {}, get x {} });
+({ x {}, get x {} });
 ({ "\"x\"": y + z });
 ({
   "\"x\"": [y]
@@ -4552,7 +4552,7 @@ a = { "\"b\"": c = d };
 s = { "\"foo\"": this };
 x({ set "\"foo\"" {} });
 ({ a = 42, [b]: c.d } = e);
-x({ foo {}, * bar {} });
+x({ foo {}, bar {} });
 ({ ...[a, b] });
 x = { a: 1, ...y, b: 1 };
 x({ get 0x234241 {} });
@@ -4564,13 +4564,13 @@ x({ get 1 {} });
     super.m("\"1\"", v);
   } });
 x = { async: b }({ set foo {} });
-({ * set {} });
-({ * static {} });
-({ * async {} });
+({ set {} });
+({ static {} });
+({ async {} });
 ({ get: 0 });
 ({ if: 4 });
-({ * await {} });
-x = { * "\"foo\"" {} };
+({ await {} });
+x = { "\"foo\"" {} };
 x = { set get {} };
 x = { foo: typeof x };
 x = { "\"x\"": { a: y + x } };

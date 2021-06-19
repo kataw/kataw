@@ -33,7 +33,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -72,7 +72,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                 "start": 26,
                                 "end": 35
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -146,7 +146,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                         "properties": [
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "m",

@@ -44,7 +44,6 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                             "start": 8,
                             "end": 15
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

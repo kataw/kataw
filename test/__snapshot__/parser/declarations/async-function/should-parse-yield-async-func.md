@@ -48,7 +48,6 @@ const f = async function * (source, block, opts) {
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -64,7 +63,7 @@ const f = async function * (source, block, opts) {
                                 "start": 15,
                                 "end": 24
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 24,
@@ -138,7 +137,6 @@ const f = async function * (source, block, opts) {
                                                             "start": 73,
                                                             "end": 79
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -195,7 +193,7 @@ const f = async function * (source, block, opts) {
                                                                         "start": 112,
                                                                         "end": 121
                                                                     },
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "name": null,
                                                                     "typeParameters": null,
                                                                     "formalParameterList": {
@@ -233,7 +231,6 @@ const f = async function * (source, block, opts) {
                                                                                                     "start": 142,
                                                                                                     "end": 146
                                                                                                 },
-                                                                                                "optionalToken": null,
                                                                                                 "type": null,
                                                                                                 "initializer": {
                                                                                                     "kind": 208,
@@ -372,7 +369,7 @@ const f = async function * (source, block, opts) {
                                                                                                 },
                                                                                                 {
                                                                                                     "kind": 219,
-                                                                                                    "generatorToken": null,
+                                                                                                    "asteriskToken": null,
                                                                                                     "left": {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "path",
@@ -409,7 +406,7 @@ const f = async function * (source, block, opts) {
                                                                                                 },
                                                                                                 {
                                                                                                     "kind": 219,
-                                                                                                    "generatorToken": null,
+                                                                                                    "asteriskToken": null,
                                                                                                     "left": {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "unixfs",
@@ -497,7 +494,7 @@ const f = async function * (source, block, opts) {
                                                                                                 },
                                                                                                 {
                                                                                                     "kind": 219,
-                                                                                                    "generatorToken": null,
+                                                                                                    "asteriskToken": null,
                                                                                                     "left": {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "node",

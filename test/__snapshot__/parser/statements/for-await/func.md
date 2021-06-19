@@ -31,7 +31,7 @@ async function f(){
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -78,7 +78,7 @@ async function f(){
                                     "start": 33,
                                     "end": 41
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {

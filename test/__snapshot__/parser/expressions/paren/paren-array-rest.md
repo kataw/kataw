@@ -52,7 +52,7 @@
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -142,7 +142,7 @@
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -419,7 +419,7 @@
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "b",
@@ -638,7 +638,7 @@
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "b",
@@ -966,7 +966,7 @@
                                 },
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -1036,7 +1036,7 @@
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -1106,7 +1106,7 @@
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 194,
                                         "expression": {
@@ -1193,7 +1193,7 @@
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -1299,7 +1299,7 @@
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -1624,7 +1624,7 @@
                                                         "properties": [
                                                             {
                                                                 "kind": 219,
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "left": {
                                                                     "kind": 134299649,
                                                                     "text": "b",
@@ -1875,7 +1875,7 @@
                                                         "properties": [
                                                             {
                                                                 "kind": 219,
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "left": {
                                                                     "kind": 134299649,
                                                                     "text": "b",
@@ -2251,7 +2251,7 @@
                                         },
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "y",
@@ -2337,7 +2337,7 @@
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -2423,7 +2423,7 @@
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 194,
                                                 "expression": {

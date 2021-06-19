@@ -45,7 +45,7 @@ foo(function* f(){})
                                 "start": 4,
                                 "end": 12
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 12,

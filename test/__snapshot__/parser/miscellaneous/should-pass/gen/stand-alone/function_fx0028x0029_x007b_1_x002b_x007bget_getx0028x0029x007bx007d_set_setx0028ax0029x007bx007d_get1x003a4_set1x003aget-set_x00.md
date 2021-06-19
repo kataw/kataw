@@ -33,7 +33,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -197,7 +197,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                             },
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "get1",
@@ -220,7 +220,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                             },
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "set1",

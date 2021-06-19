@@ -112,7 +112,7 @@ foo = {
                                                                     "start": 42,
                                                                     "end": 50
                                                                 },
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "name": null,
                                                                 "typeParameters": null,
                                                                 "formalParameterList": {

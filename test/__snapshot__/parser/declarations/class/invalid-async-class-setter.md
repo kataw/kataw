@@ -44,7 +44,7 @@ class A {async set foo(value) { }};
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -100,7 +100,7 @@ class A {async set foo(value) { }};
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

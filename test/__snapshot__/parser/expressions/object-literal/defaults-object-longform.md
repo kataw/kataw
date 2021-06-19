@@ -75,7 +75,6 @@ var { x: x = 10 } = x;
                             "start": 3,
                             "end": 17
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

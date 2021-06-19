@@ -53,7 +53,6 @@ for (let {x} = a, y of obj);
                             "start": 8,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -77,7 +76,6 @@ for (let {x} = a, y of obj);
                             "start": 17,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

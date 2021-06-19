@@ -51,7 +51,6 @@ for (let [foo], bar);
                             "start": 8,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -68,7 +67,6 @@ for (let [foo], bar);
                             "start": 15,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

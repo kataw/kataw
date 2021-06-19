@@ -697,7 +697,7 @@ x((y ?? z) ?? 1);
                                     "start": 128,
                                     "end": 136
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {

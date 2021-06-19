@@ -52,7 +52,7 @@
                                 "start": 11,
                                 "end": 20
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 20,

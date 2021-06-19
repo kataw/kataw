@@ -87,7 +87,6 @@ class const {}
                             "start": 11,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

@@ -50,7 +50,6 @@ export const x, y
                                 "start": 12,
                                 "end": 14
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": null,
                             "flags": 16,
@@ -67,7 +66,6 @@ export const x, y
                                 "start": 15,
                                 "end": 17
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": null,
                             "flags": 16,

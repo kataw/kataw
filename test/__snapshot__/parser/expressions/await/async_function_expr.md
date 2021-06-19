@@ -36,7 +36,6 @@ let x = async function f(foo = await){}
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -52,7 +51,7 @@ let x = async function f(foo = await){}
                                 "start": 13,
                                 "end": 22
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",

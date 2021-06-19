@@ -62,7 +62,7 @@ do throw function (v, h) {
                         "start": 8,
                         "end": 17
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {

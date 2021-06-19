@@ -118,7 +118,7 @@
 
 ```javascript
 
-({ * bar {} });
+({ bar {} });
 ```
 
 ### Diagnostics

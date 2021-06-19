@@ -99,7 +99,6 @@ let { x: import.meta }
                             "start": 3,
                             "end": 15
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

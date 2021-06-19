@@ -45,7 +45,6 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -112,7 +111,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                 "start": 22,
                                 "end": 31
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

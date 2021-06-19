@@ -50,7 +50,6 @@ var a: { <T>(x: T): number; };
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -135,7 +134,6 @@ var a: { <T>(x: T): number; };
                             "start": 27,
                             "end": 29
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -290,7 +288,6 @@ var a: { <T>(x: T): number; };
                             "start": 58,
                             "end": 60
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -375,7 +372,6 @@ var a: { <T>(x: T): number; };
                             "start": 81,
                             "end": 83
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -460,7 +456,6 @@ var a: { <T>(x: T): number; };
                             "start": 105,
                             "end": 107
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -640,7 +635,6 @@ var a: { <T>(x: T): number; };
                             "start": 160,
                             "end": 162
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

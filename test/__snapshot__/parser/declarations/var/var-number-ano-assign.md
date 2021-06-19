@@ -47,7 +47,6 @@ var a: { [a: number]: string; [b: number]: string; };
                             "start": 3,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -105,7 +104,6 @@ var a: { [a: number]: string; [b: number]: string; };
                             "start": 37,
                             "end": 39
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

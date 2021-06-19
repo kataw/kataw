@@ -134,7 +134,7 @@
 
 ```javascript
 
-({ * function {} });
+({ function {} });
 ```
 
 ### Diagnostics

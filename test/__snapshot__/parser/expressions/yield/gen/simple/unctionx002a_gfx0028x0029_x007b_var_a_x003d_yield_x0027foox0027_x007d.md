@@ -98,7 +98,6 @@ unction* gf() { var a = yield 'foo'; }
                                         "start": 19,
                                         "end": 21
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 134299649,

@@ -44,7 +44,6 @@ for (const x = 0 in y){}
                             "start": 10,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

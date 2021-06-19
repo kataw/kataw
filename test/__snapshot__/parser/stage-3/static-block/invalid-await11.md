@@ -43,7 +43,7 @@ async function foo() {
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -96,7 +96,7 @@ async function foo() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "staticKeyword": {
                                                 "kind": 8388716,
                                                 "flags": 64,

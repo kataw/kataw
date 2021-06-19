@@ -239,7 +239,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -557,7 +557,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -695,7 +695,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",

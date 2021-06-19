@@ -43,7 +43,7 @@ function z() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x",
@@ -140,7 +140,7 @@ function z() {
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "foo",
@@ -254,7 +254,7 @@ function z() {
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 201392131,
                                                         "text": "0",
@@ -319,7 +319,7 @@ function z() {
                 "start": 106,
                 "end": 133
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "y",
@@ -505,7 +505,7 @@ function z() {
                 "start": 197,
                 "end": 235
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "z",

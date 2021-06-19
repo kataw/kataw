@@ -53,7 +53,7 @@ x = [{__proto__: 1, __proto__: 2}]
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "__proto__",
@@ -76,7 +76,7 @@ x = [{__proto__: 1, __proto__: 2}]
                                         },
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "__proto__",

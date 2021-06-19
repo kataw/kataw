@@ -44,7 +44,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "__proto__",
@@ -67,7 +67,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                 },
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "__proto__",
@@ -153,7 +153,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "__proto__",
@@ -176,7 +176,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "__proto__",

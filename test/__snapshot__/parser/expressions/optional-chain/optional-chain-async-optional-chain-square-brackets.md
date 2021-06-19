@@ -32,7 +32,7 @@ async function x() {
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x",
@@ -81,7 +81,7 @@ async function x() {
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y",

@@ -44,7 +44,6 @@ let x = function f(foo = await bar){
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -55,7 +54,7 @@ let x = function f(foo = await bar){
                                 "start": 7,
                                 "end": 16
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",

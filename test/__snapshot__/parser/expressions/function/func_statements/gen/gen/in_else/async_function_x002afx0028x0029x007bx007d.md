@@ -75,7 +75,7 @@ else async function *f(){}
                     "start": 20,
                     "end": 29
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 29,

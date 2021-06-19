@@ -41,7 +41,7 @@ function five<T>(this: T) {}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "one",
@@ -120,7 +120,7 @@ function five<T>(this: T) {}
                 "start": 29,
                 "end": 39
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "two",
@@ -207,7 +207,7 @@ function five<T>(this: T) {}
                 "start": 63,
                 "end": 73
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "three",
@@ -309,7 +309,7 @@ function five<T>(this: T) {}
                 "start": 102,
                 "end": 112
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "four",
@@ -427,7 +427,7 @@ function five<T>(this: T) {}
                 "start": 146,
                 "end": 156
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "five",

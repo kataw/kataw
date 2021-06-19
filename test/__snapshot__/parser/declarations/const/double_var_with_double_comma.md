@@ -59,7 +59,6 @@ const {x,, y} = obj;
                             "start": 5,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -76,7 +75,6 @@ const {x,, y} = obj;
                             "start": 10,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

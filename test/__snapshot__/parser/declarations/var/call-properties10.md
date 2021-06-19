@@ -45,7 +45,6 @@ var g: { (x: string): void } = function(x: mixed) { }
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -134,7 +133,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                 "start": 30,
                                 "end": 39
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

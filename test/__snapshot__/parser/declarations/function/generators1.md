@@ -49,7 +49,7 @@ function *infer_stmt() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -236,7 +236,7 @@ function *infer_stmt() {
                 "start": 80,
                 "end": 90
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 90,
@@ -387,7 +387,7 @@ function *infer_stmt() {
                 "start": 155,
                 "end": 165
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 165,
@@ -538,7 +538,7 @@ function *infer_stmt() {
                 "start": 232,
                 "end": 242
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 242,
@@ -589,7 +589,6 @@ function *infer_stmt() {
                                             "start": 264,
                                             "end": 266
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

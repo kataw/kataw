@@ -55,7 +55,6 @@ for (var a=1, b;;);
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -79,7 +78,6 @@ for (var a=1, b;;);
                             "start": 13,
                             "end": 15
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

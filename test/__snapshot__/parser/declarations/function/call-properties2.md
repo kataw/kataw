@@ -35,7 +35,7 @@ function d(x: { (): string; (x: number): string }): () => string {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "d",

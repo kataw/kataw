@@ -45,7 +45,6 @@ var c: { (x: string): string } = (x) => x.toFixed()
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

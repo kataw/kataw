@@ -44,7 +44,6 @@ for(const a = 1, let = 2;;);
                             "start": 9,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -68,7 +67,6 @@ for(const a = 1, let = 2;;);
                             "start": 16,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

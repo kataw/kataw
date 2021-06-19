@@ -55,7 +55,6 @@ let foo, [bar];
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -87,7 +86,6 @@ let foo, [bar];
                             "start": 8,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

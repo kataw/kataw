@@ -43,7 +43,7 @@ function test1() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "test1",
@@ -82,7 +82,7 @@ function test1() {
                                 "start": 26,
                                 "end": 35
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -155,7 +155,7 @@ function test1() {
                                 "start": 71,
                                 "end": 80
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "bar",
@@ -201,7 +201,6 @@ function test1() {
                                                             "start": 96,
                                                             "end": 98
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 208,
@@ -272,7 +271,6 @@ function test1() {
                                                             "start": 121,
                                                             "end": 123
                                                         },
-                                                        "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
@@ -330,7 +328,6 @@ function test1() {
                                                             "start": 153,
                                                             "end": 155
                                                         },
-                                                        "optionalToken": null,
                                                         "type": {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,

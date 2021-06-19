@@ -211,7 +211,7 @@ class C<T> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -305,7 +305,6 @@ class C<T> {
                                                                 "start": 65,
                                                                 "end": 71
                                                             },
-                                                            "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,

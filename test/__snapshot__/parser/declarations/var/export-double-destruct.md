@@ -79,7 +79,6 @@ export var [foo] = arr, [bar] = arr2;
                                 "start": 10,
                                 "end": 16
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 134299649,
@@ -118,7 +117,6 @@ export var [foo] = arr, [bar] = arr2;
                                 "start": 23,
                                 "end": 29
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 134299649,

@@ -25,7 +25,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,

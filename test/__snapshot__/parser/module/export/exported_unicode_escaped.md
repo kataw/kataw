@@ -44,7 +44,6 @@ export { \u0061bc }
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

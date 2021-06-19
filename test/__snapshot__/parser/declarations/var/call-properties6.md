@@ -45,7 +45,6 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -134,7 +133,7 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
                                 "start": 32,
                                 "end": 41
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

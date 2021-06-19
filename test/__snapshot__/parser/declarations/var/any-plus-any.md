@@ -47,7 +47,6 @@ var z = x + x;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -146,7 +145,6 @@ var z = x + x;
                             "start": 33,
                             "end": 35
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 198,

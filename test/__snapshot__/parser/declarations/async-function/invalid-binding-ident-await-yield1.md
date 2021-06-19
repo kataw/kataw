@@ -44,7 +44,7 @@ function * bar1() {
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -90,7 +90,6 @@ function * bar1() {
                                             "start": 29,
                                             "end": 35
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -142,7 +141,7 @@ function * bar1() {
                 "start": 49,
                 "end": 58
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "bar",
@@ -187,7 +186,6 @@ function * bar1() {
                                             "start": 73,
                                             "end": 79
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -234,7 +232,7 @@ function * bar1() {
                 "start": 86,
                 "end": 96
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 96,
@@ -285,7 +283,6 @@ function * bar1() {
                                             "start": 113,
                                             "end": 119
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -332,7 +329,7 @@ function * bar1() {
                 "start": 126,
                 "end": 136
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 136,
@@ -382,7 +379,6 @@ function * bar1() {
                                             "start": 153,
                                             "end": 159
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,

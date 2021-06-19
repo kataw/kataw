@@ -76,7 +76,6 @@
                             "start": 17,
                             "end": 27
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,

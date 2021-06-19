@@ -45,7 +45,7 @@ for (async function f(){} in x) ;
                     "start": 10,
                     "end": 19
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "f",

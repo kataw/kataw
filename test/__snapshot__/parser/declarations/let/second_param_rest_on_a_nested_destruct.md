@@ -116,7 +116,6 @@ let [x, ...[foo, bar]] = obj;
                             "start": 3,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

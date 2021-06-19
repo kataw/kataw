@@ -182,7 +182,7 @@ for ({a: b.c}-- of d) e;
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -278,7 +278,7 @@ for ({a: b.c}-- of d) e;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -465,7 +465,6 @@ for ({a: b.c}-- of d) e;
                             "start": 98,
                             "end": 101
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -488,7 +487,6 @@ for ({a: b.c}-- of d) e;
                             "start": 101,
                             "end": 104
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -576,7 +574,6 @@ for ({a: b.c}-- of d) e;
                             "start": 121,
                             "end": 128
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -644,7 +641,6 @@ for ({a: b.c}-- of d) e;
                             "start": 148,
                             "end": 152
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -838,7 +834,6 @@ for ({a: b.c}-- of d) e;
                             "start": 205,
                             "end": 209
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -855,7 +850,6 @@ for ({a: b.c}-- of d) e;
                             "start": 210,
                             "end": 214
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -971,7 +965,6 @@ for ({a: b.c}-- of d) e;
                             "start": 249,
                             "end": 251
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1013,7 +1006,7 @@ for ({a: b.c}-- of d) e;
                     "start": 258,
                     "end": 267
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "f",
@@ -1082,7 +1075,6 @@ for ({a: b.c}-- of d) e;
                             "start": 285,
                             "end": 287
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1124,7 +1116,7 @@ for ({a: b.c}-- of d) e;
                     "start": 294,
                     "end": 303
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 303,
@@ -1198,7 +1190,6 @@ for ({a: b.c}-- of d) e;
                             "start": 322,
                             "end": 324
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1290,7 +1281,6 @@ for ({a: b.c}-- of d) e;
                             "start": 349,
                             "end": 351
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1403,7 +1393,6 @@ for ({a: b.c}-- of d) e;
                             "start": 371,
                             "end": 373
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1537,7 +1526,6 @@ for ({a: b.c}-- of d) e;
                             "start": 408,
                             "end": 412
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1602,7 +1590,6 @@ for ({a: b.c}-- of d) e;
                             "start": 434,
                             "end": 436
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -1706,7 +1693,6 @@ for ({a: b.c}-- of d) e;
                             "start": 462,
                             "end": 464
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -2494,7 +2480,7 @@ for ({a: b.c}-- of d) e;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -2630,7 +2616,6 @@ for ({a: b.c}-- of d) e;
                             "start": 724,
                             "end": 728
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -2732,7 +2717,6 @@ for ({a: b.c}-- of d) e;
                             "start": 749,
                             "end": 751
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 126,
@@ -2883,7 +2867,6 @@ for ({a: b.c}-- of d) e;
                             "start": 788,
                             "end": 793
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -3233,7 +3216,7 @@ for ({a: b.c}-- of d) e;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -3340,7 +3323,7 @@ for ({a: b.c}-- of d) e;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -3466,7 +3449,6 @@ for ({a: b.c}-- of d) e;
                             "start": 935,
                             "end": 939
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -3490,7 +3472,6 @@ for ({a: b.c}-- of d) e;
                             "start": 944,
                             "end": 946
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -3563,7 +3544,6 @@ for ({a: b.c}-- of d) e;
                             "start": 965,
                             "end": 969
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -3587,7 +3567,6 @@ for ({a: b.c}-- of d) e;
                             "start": 974,
                             "end": 978
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -3645,7 +3624,6 @@ for ({a: b.c}-- of d) e;
                             "start": 998,
                             "end": 1000
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -3662,7 +3640,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1001,
                             "end": 1003
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -3764,7 +3741,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1031,
                             "end": 1033
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -3781,7 +3757,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1034,
                             "end": 1036
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -3865,7 +3840,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1061,
                             "end": 1063
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -3882,7 +3856,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1064,
                             "end": 1066
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 126,
@@ -4003,7 +3976,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1103,
                             "end": 1105
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4020,7 +3992,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1106,
                             "end": 1108
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4097,7 +4068,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1129,
                             "end": 1131
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4114,7 +4084,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1132,
                             "end": 1134
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4216,7 +4185,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1162,
                             "end": 1164
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4233,7 +4201,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1165,
                             "end": 1167
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -4317,7 +4284,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1192,
                             "end": 1194
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4334,7 +4300,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1195,
                             "end": 1197
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4416,7 +4381,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1213,
                             "end": 1215
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4433,7 +4397,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1216,
                             "end": 1218
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -4494,7 +4457,6 @@ for ({a: b.c}-- of d) e;
                                 "start": 1239,
                                 "end": 1241
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": null,
                             "flags": 16,
@@ -4511,7 +4473,6 @@ for ({a: b.c}-- of d) e;
                                 "start": 1242,
                                 "end": 1244
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 126,
@@ -4636,7 +4597,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1283,
                             "end": 1285
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4653,7 +4613,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1286,
                             "end": 1288
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4730,7 +4689,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1311,
                             "end": 1313
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4747,7 +4705,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1314,
                             "end": 1316
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4849,7 +4806,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1346,
                             "end": 1348
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4866,7 +4822,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1349,
                             "end": 1351
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -4950,7 +4905,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1378,
                             "end": 1380
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4967,7 +4921,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1381,
                             "end": 1383
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 126,
@@ -5116,7 +5069,6 @@ for ({a: b.c}-- of d) e;
                             "start": 1434,
                             "end": 1437
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -5274,7 +5226,7 @@ for ({a: b.c}-- of d) e;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",

@@ -34,7 +34,7 @@ function x(y: | /* comment 1 */ z):
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x",

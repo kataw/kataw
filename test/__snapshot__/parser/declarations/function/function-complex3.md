@@ -52,7 +52,7 @@ function b1<A: 'a', B: A>(b: B): void {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "c",
@@ -349,7 +349,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "start": 140,
                                 "end": 151
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -564,7 +564,7 @@ function b1<A: 'a', B: A>(b: B): void {
                 "start": 200,
                 "end": 210
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "b1",

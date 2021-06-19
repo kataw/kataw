@@ -36,7 +36,6 @@ for (const x in [1, 2, 3]) { x++ }
                             "start": 10,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

@@ -30,7 +30,7 @@ async function f(a, a) { 'use strict' }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",

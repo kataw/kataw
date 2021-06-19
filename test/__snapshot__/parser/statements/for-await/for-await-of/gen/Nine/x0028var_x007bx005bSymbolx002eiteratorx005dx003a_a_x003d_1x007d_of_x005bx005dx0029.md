@@ -39,7 +39,7 @@ await (var {[Symbol.iterator]: a = 1} of []) { } }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 14,
@@ -153,7 +153,6 @@ await (var {[Symbol.iterator]: a = 1} of []) { } }
                                             "start": 37,
                                             "end": 64
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

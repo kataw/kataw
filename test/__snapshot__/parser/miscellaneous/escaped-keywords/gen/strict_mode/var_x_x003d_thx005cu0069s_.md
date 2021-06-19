@@ -45,7 +45,6 @@ var x = th\u0069s;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 4276321,

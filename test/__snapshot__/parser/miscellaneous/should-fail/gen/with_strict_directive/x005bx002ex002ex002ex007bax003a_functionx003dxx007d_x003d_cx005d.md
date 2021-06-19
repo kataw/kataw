@@ -56,7 +56,7 @@
                                         "properties": [
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -76,7 +76,7 @@
                                                             "start": 21,
                                                             "end": 30
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
                                                         "formalParameterList": {

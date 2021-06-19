@@ -89,7 +89,6 @@ let {...obj1,...obj2} = foo
                             "start": 3,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

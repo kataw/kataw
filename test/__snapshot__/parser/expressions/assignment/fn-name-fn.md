@@ -40,7 +40,6 @@ fn = function() {};
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -57,7 +56,6 @@ fn = function() {};
                             "start": 8,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -100,7 +98,7 @@ fn = function() {};
                         "start": 19,
                         "end": 28
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "x",
@@ -172,7 +170,7 @@ fn = function() {};
                         "start": 41,
                         "end": 50
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {

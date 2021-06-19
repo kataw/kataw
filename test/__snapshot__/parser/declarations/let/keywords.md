@@ -56,7 +56,6 @@ let nx: mixed;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -106,7 +105,6 @@ let nx: mixed;
                             "start": 15,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -156,7 +154,6 @@ let nx: mixed;
                             "start": 32,
                             "end": 34
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -206,7 +203,6 @@ let nx: mixed;
                             "start": 48,
                             "end": 51
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -256,7 +252,6 @@ let nx: mixed;
                             "start": 63,
                             "end": 67
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -306,7 +301,6 @@ let nx: mixed;
                             "start": 78,
                             "end": 82
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -356,7 +350,6 @@ let nx: mixed;
                             "start": 95,
                             "end": 97
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -406,7 +399,6 @@ let nx: mixed;
                             "start": 110,
                             "end": 113
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -456,7 +448,6 @@ let nx: mixed;
                             "start": 126,
                             "end": 129
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -506,7 +497,6 @@ let nx: mixed;
                             "start": 142,
                             "end": 144
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -556,7 +546,6 @@ let nx: mixed;
                             "start": 160,
                             "end": 162
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -606,7 +595,6 @@ let nx: mixed;
                             "start": 173,
                             "end": 175
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -665,7 +653,6 @@ let nx: mixed;
                             "start": 188,
                             "end": 191
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

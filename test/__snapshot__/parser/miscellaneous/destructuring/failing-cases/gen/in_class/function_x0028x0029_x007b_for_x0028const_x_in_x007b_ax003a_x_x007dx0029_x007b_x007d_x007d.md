@@ -52,7 +52,7 @@ class x { function () { for (const x in { a: x }) { } } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -104,7 +104,6 @@ class x { function () { for (const x in { a: x }) { } } }
                                                                 "start": 34,
                                                                 "end": 36
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
@@ -129,7 +128,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                                         "properties": [
                                                             {
                                                                 "kind": 219,
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "left": {
                                                                     "kind": 134299649,
                                                                     "text": "a",

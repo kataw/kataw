@@ -106,7 +106,6 @@ let { f: ...await f } = {};
                             "start": 3,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

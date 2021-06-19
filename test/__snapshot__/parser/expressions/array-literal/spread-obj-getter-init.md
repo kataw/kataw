@@ -43,7 +43,6 @@ var callCount = 0;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -52,7 +51,7 @@ var callCount = 0;
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -75,7 +74,7 @@ var callCount = 0;
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -140,7 +139,6 @@ var callCount = 0;
                             "start": 25,
                             "end": 40
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 205586437,
@@ -183,7 +181,6 @@ var callCount = 0;
                             "start": 55,
                             "end": 65
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -223,7 +220,7 @@ var callCount = 0;
                                 "start": 73,
                                 "end": 81
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

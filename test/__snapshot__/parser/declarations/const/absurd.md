@@ -42,7 +42,6 @@ const absurd = <T>(x: empty): T => {};
                             "start": 5,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

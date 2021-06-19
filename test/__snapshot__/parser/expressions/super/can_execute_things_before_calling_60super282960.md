@@ -64,7 +64,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -116,7 +116,6 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                                 "start": 39,
                                                                 "end": 42
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
                                                                 "kind": 198,

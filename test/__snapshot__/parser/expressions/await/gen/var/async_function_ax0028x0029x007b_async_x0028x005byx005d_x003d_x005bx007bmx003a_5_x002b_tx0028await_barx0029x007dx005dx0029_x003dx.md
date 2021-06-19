@@ -45,7 +45,6 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -83,7 +82,6 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                             "start": 14,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 121,
@@ -101,7 +99,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                     "start": 25,
                                     "end": 34
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {
@@ -133,7 +131,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                     "start": 44,
                                                     "end": 53
                                                 },
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "name": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -207,7 +205,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                                             "properties": [
                                                                                                 {
                                                                                                     "kind": 219,
-                                                                                                    "generatorToken": null,
+                                                                                                    "asteriskToken": null,
                                                                                                     "left": {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "m",

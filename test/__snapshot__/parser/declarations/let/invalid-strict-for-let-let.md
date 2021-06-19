@@ -77,7 +77,6 @@
                             "start": 22,
                             "end": 32
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

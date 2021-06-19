@@ -36,7 +36,6 @@ let f = () => (y=await foo) => y;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -81,7 +80,6 @@ let f = () => (y=await foo) => y;
                             "start": 22,
                             "end": 26
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

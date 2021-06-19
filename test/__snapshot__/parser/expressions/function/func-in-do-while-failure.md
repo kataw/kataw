@@ -53,7 +53,7 @@ do function *f(){} while (x);
                     "start": 2,
                     "end": 11
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 11,

@@ -50,7 +50,7 @@ x = {__proto__: a, __proto__: b} = y
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "__proto__",
@@ -73,7 +73,7 @@ x = {__proto__: a, __proto__: b} = y
                                 },
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "__proto__",

@@ -109,7 +109,7 @@ foo = {
                                                             "start": 36,
                                                             "end": 49
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
                                                         "formalParameterList": {

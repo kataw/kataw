@@ -47,7 +47,7 @@ let function () { for (const x in { a: x }) { } }
                 "start": 3,
                 "end": 12
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {
@@ -85,7 +85,6 @@ let function () { for (const x in { a: x }) { } }
                                             "start": 28,
                                             "end": 30
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -110,7 +109,7 @@ let function () { for (const x in { a: x }) { } }
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "a",

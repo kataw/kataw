@@ -49,7 +49,6 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -144,7 +143,6 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "start": 29,
                             "end": 45
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -153,7 +151,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "key",
@@ -279,7 +277,6 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                             "start": 68,
                             "end": 97
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -288,7 +285,7 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "key",

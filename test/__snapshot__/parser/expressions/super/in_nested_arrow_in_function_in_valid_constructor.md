@@ -64,7 +64,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -112,7 +112,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                         "start": 41,
                                                         "end": 50
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {

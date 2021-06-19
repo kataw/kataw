@@ -33,7 +33,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                 "start": 18,
                                 "end": 27
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
@@ -118,7 +118,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                             "start": 43,
                                                             "end": 45
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 220,
@@ -316,7 +315,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 
 function * gen() {
   function not_gen() {
-    var o = { * gf {
+    var o = { gf {
         switch(1) {
           case  yield:
             break;

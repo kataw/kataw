@@ -50,7 +50,6 @@ declare var foo;
                             "start": 11,
                             "end": 15
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

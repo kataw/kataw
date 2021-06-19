@@ -33,7 +33,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "doubleAndReturnAsArray",
@@ -237,7 +237,6 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                         "start": 100,
                                         "end": 105
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 536871042,
@@ -309,7 +308,6 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                         "start": 144,
                                         "end": 151
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 119,
@@ -360,7 +358,6 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                         "start": 170,
                                         "end": 174
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,

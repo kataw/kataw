@@ -4,7 +4,7 @@ import { BlockStatement } from './block-stmt';
 import { CatchClause } from './catch-stmt';
 
 /**
- * Try statement.
+ * Try statement
  */
 export interface TryStatement extends SyntaxNode {
   readonly tryKeyword: SyntaxToken<TokenSyntaxKind>;

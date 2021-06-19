@@ -51,7 +51,6 @@ export var bar;
                                 "start": 10,
                                 "end": 14
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": null,
                             "flags": 16,

@@ -30,7 +30,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "g",
@@ -81,7 +81,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 201392131,
                                                         "text": "foo",

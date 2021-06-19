@@ -32,7 +32,7 @@ const protected = x, function arguments(){}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "protected",
@@ -147,7 +147,6 @@ const protected = x, function arguments(){}
                             "start": 76,
                             "end": 86
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -180,7 +179,7 @@ const protected = x, function arguments(){}
                 "start": 91,
                 "end": 100
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "arguments",

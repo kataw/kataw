@@ -66,7 +66,7 @@ switch (0) {
                                     "start": 22,
                                     "end": 35
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -127,7 +127,7 @@ switch (0) {
                                     "start": 53,
                                     "end": 66
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",

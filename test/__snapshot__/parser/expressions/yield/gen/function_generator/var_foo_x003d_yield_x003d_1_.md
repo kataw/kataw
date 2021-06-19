@@ -33,7 +33,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                 "start": 18,
                                 "end": 27
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
@@ -118,7 +118,6 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                             "start": 43,
                                                             "end": 47
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 125,

@@ -51,7 +51,6 @@ let
                             "start": 3,
                             "end": 6
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

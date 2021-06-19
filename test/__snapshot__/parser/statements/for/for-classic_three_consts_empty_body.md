@@ -44,7 +44,6 @@ for (const a,b,c;;);
                             "start": 10,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -61,7 +60,6 @@ for (const a,b,c;;);
                             "start": 13,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -78,7 +76,6 @@ for (const a,b,c;;);
                             "start": 15,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

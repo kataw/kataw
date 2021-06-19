@@ -33,7 +33,7 @@ function x() {function () { for (const x in { a: x }) { } }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x",
@@ -67,7 +67,7 @@ function x() {function () { for (const x in { a: x }) { } }}
                                 "start": 14,
                                 "end": 22
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {
@@ -105,7 +105,6 @@ function x() {function () { for (const x in { a: x }) { } }}
                                                             "start": 38,
                                                             "end": 40
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -130,7 +129,7 @@ function x() {function () { for (const x in { a: x }) { } }}
                                                     "properties": [
                                                         {
                                                             "kind": 219,
-                                                            "generatorToken": null,
+                                                            "asteriskToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
                                                                 "text": "a",

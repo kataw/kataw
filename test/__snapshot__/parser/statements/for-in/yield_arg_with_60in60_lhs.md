@@ -44,7 +44,7 @@ function *f(){   for (yield x in y in z);   }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,

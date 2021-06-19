@@ -120,7 +120,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "r",
@@ -165,7 +165,6 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                             "start": 3,
                             "end": 24
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -174,7 +173,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "p",
@@ -190,7 +189,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "r",

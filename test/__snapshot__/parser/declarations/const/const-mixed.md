@@ -46,7 +46,6 @@ const map = {
                             "start": 5,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -55,7 +54,7 @@ const map = {
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 194,
                                             "expression": {

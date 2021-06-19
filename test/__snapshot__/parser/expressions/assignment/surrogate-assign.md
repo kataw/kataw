@@ -53,7 +53,6 @@ const 𝓮𡚭𓀺ⱱ = "ok";
                             "start": 5,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,
@@ -97,7 +96,6 @@ const 𝓮𡚭𓀺ⱱ = "ok";
                             "start": 85,
                             "end": 92
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,
@@ -141,7 +139,6 @@ const 𝓮𡚭𓀺ⱱ = "ok";
                             "start": 114,
                             "end": 121
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,
@@ -185,7 +182,6 @@ const 𝓮𡚭𓀺ⱱ = "ok";
                             "start": 143,
                             "end": 151
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,
@@ -229,7 +225,6 @@ const 𝓮𡚭𓀺ⱱ = "ok";
                             "start": 166,
                             "end": 174
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,
@@ -273,7 +268,6 @@ const 𝓮𡚭𓀺ⱱ = "ok";
                             "start": 214,
                             "end": 222
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,

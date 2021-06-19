@@ -116,7 +116,6 @@ const [x, ...[foo, bar]] = obj;
                             "start": 5,
                             "end": 24
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

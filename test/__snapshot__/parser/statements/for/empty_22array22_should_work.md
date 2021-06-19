@@ -42,7 +42,6 @@ for (let [] = x;;);
                             "start": 8,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

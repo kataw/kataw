@@ -74,7 +74,6 @@ var z : Object = (x) => "hi"
                             "start": 63,
                             "end": 65
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -134,7 +133,7 @@ var z : Object = (x) => "hi"
                                 "start": 90,
                                 "end": 99
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {
@@ -199,7 +198,6 @@ var z : Object = (x) => "hi"
                             "start": 164,
                             "end": 166
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -268,7 +266,7 @@ var z : Object = (x) => "hi"
                                 "start": 190,
                                 "end": 199
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {
@@ -333,7 +331,6 @@ var z : Object = (x) => "hi"
                             "start": 275,
                             "end": 277
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -344,7 +341,7 @@ var z : Object = (x) => "hi"
                                 "start": 279,
                                 "end": 288
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {
@@ -457,7 +454,6 @@ var z : Object = (x) => "hi"
                             "start": 315,
                             "end": 317
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -551,7 +547,6 @@ var z : Object = (x) => "hi"
                             "start": 348,
                             "end": 350
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -727,7 +722,6 @@ var z : Object = (x) => "hi"
                             "start": 459,
                             "end": 461
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -875,7 +869,6 @@ var z : Object = (x) => "hi"
                             "start": 541,
                             "end": 543
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1051,7 +1044,6 @@ var z : Object = (x) => "hi"
                             "start": 625,
                             "end": 627
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1168,7 +1160,6 @@ var z : Object = (x) => "hi"
                             "start": 700,
                             "end": 702
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1313,7 +1304,6 @@ var z : Object = (x) => "hi"
                             "start": 747,
                             "end": 749
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1430,7 +1420,6 @@ var z : Object = (x) => "hi"
                             "start": 796,
                             "end": 798
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1628,7 +1617,6 @@ var z : Object = (x) => "hi"
                             "start": 904,
                             "end": 906
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1713,7 +1701,6 @@ var z : Object = (x) => "hi"
                             "start": 929,
                             "end": 931
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

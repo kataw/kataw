@@ -71,7 +71,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -224,7 +223,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 42,
                             "end": 46
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -325,7 +323,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 67,
                             "end": 73
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -416,7 +413,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 96,
                             "end": 101
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -513,7 +509,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 132,
                             "end": 136
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -599,7 +594,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 160,
                             "end": 166
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -778,7 +772,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 189,
                             "end": 195
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -902,7 +895,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 211,
                             "end": 216
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1033,7 +1025,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 234,
                             "end": 238
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1194,7 +1185,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 257,
                             "end": 264
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1362,7 +1352,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 285,
                             "end": 294
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1560,7 +1549,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                             "start": 316,
                             "end": 325
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

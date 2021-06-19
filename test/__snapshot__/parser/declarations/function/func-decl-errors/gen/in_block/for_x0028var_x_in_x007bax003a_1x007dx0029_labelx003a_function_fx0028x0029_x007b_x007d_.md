@@ -49,7 +49,6 @@
                                         "start": 9,
                                         "end": 11
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
@@ -74,7 +73,7 @@
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -131,7 +130,7 @@
                                     "start": 29,
                                     "end": 38
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",

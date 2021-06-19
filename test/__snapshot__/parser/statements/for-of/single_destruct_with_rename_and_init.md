@@ -75,7 +75,6 @@ for (let {x : y = z} of obj);
                             "start": 8,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

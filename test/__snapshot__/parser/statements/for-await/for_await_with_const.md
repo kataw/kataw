@@ -30,7 +30,7 @@ async function f() { for await (const x of y) {} }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -81,7 +81,6 @@ async function f() { for await (const x of y) {} }
                                             "start": 37,
                                             "end": 39
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

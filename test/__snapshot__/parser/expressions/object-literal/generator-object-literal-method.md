@@ -37,7 +37,6 @@ var x = { *test () { yield *v } };
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -168,7 +167,7 @@ var x = { *test () { yield *v } };
 
 ```javascript
 
-var x = { * test {
+var x = { test {
     yield * v;
   } };
 ```

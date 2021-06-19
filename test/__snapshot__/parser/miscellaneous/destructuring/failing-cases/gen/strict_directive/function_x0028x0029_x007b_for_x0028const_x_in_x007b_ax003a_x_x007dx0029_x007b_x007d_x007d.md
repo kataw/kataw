@@ -42,7 +42,7 @@
                 "start": 13,
                 "end": 22
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {
@@ -80,7 +80,6 @@
                                             "start": 38,
                                             "end": 40
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -105,7 +104,7 @@
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "a",

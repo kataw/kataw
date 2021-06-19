@@ -34,7 +34,7 @@ function f2() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f1",
@@ -190,7 +190,7 @@ function f2() {
                 "start": 49,
                 "end": 58
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f2",

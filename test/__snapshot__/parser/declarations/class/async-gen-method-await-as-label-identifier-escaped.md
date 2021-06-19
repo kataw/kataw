@@ -39,7 +39,6 @@ var C = class { async *gen() {
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 189,
@@ -62,7 +61,7 @@ var C = class { async *gen() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "generatorToken": {
+                                            "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 21,

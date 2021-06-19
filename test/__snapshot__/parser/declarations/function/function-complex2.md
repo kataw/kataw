@@ -47,7 +47,7 @@ function d<X: [number, number]>(x: X): X {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "a",
@@ -285,7 +285,7 @@ function d<X: [number, number]>(x: X): X {
                 "start": 67,
                 "end": 77
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "b",
@@ -543,7 +543,7 @@ function d<X: [number, number]>(x: X): X {
                 "start": 178,
                 "end": 188
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "c",
@@ -789,7 +789,7 @@ function d<X: [number, number]>(x: X): X {
                 "start": 260,
                 "end": 270
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "d",

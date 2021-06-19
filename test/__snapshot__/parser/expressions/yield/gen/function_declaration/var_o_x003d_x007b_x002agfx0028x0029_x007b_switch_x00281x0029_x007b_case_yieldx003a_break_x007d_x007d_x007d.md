@@ -33,7 +33,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -79,7 +79,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                             "start": 24,
                                             "end": 26
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 220,

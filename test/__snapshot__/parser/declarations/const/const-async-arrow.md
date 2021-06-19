@@ -44,7 +44,6 @@ const a = async (foo: string = "") => {}
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

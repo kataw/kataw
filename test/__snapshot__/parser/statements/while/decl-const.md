@@ -68,7 +68,6 @@ while (false) const x = null;
                             "start": 19,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 138477575,

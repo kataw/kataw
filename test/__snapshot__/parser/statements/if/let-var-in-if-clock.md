@@ -74,7 +74,6 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                                                 "start": 19,
                                                 "end": 23
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,
@@ -139,7 +138,6 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                             "start": 34,
                             "end": 38
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

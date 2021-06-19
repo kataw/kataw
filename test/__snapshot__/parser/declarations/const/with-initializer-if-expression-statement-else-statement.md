@@ -87,7 +87,6 @@ if (true) {} else const x = 1;
                             "start": 23,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

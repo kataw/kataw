@@ -46,7 +46,6 @@ const processArgs =
                             "start": 5,
                             "end": 17
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

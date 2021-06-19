@@ -8579,7 +8579,6 @@ function parseVariableDeclaration(
 ): VariableDeclaration {
   const pos = parser.curPos;
   const binding = parseIdentifierOrPattern(parser, context, scope, type, DiagnosticCode.Variable_declaration_expected);
-  const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   const typeAnnotation = parseType(parser, context);
   const initializer = parseInitializer(parser, context, false);
   if (initializer) {
@@ -8597,7 +8596,7 @@ function parseVariableDeclaration(
       );
     }
   }
-  return createVariableDeclaration(binding, optionalToken, typeAnnotation, initializer, pos, parser.curPos);
+  return createVariableDeclaration(binding, typeAnnotation, initializer, pos, parser.curPos);
 }
 
 function parseTypeAsIdentifierOrTypeAlias(
@@ -8839,7 +8838,6 @@ function parseLexicalBinding(
   }
 
   const binding = parseIdentifierOrPattern(parser, context, scope, type, DiagnosticCode.Lexical_declaration_expected);
-  const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   const typeAnnotation = parseType(parser, context);
 
   let initializer = null;
@@ -8872,7 +8870,7 @@ function parseLexicalBinding(
     );
   }
 
-  return createLexicalBinding(binding, optionalToken, typeAnnotation, initializer, pos, parser.curPos);
+  return createLexicalBinding(binding, typeAnnotation, initializer, pos, parser.curPos);
 }
 
 function parseObjectTypePropertyKey(

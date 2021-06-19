@@ -62,7 +62,6 @@ let tests = [
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -78,7 +77,7 @@ let tests = [
                                             "start": 13,
                                             "end": 24
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {
@@ -235,7 +234,7 @@ let tests = [
                                             "start": 113,
                                             "end": 160
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {
@@ -394,7 +393,7 @@ let tests = [
                                             "start": 303,
                                             "end": 337
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {
@@ -481,7 +480,6 @@ let tests = [
                                                                         "start": 363,
                                                                         "end": 365
                                                                     },
-                                                                    "optionalToken": null,
                                                                     "type": null,
                                                                     "initializer": {
                                                                         "kind": 201392130,
@@ -555,7 +553,7 @@ let tests = [
                                             "start": 412,
                                             "end": 487
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {
@@ -582,7 +580,7 @@ let tests = [
                                                             "start": 492,
                                                             "end": 545
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": {
                                                             "kind": 134299649,
                                                             "text": "a",

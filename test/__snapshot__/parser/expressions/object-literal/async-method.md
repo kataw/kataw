@@ -139,7 +139,7 @@
                                                             "start": 43,
                                                             "end": 52
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
                                                         "formalParameterList": {
@@ -867,11 +867,11 @@
 
 ```javascript
 
-({ * async method {} });
-({ * async method {} });
-({ * async method {} });
-({ * async method {} });
-({ * async method {} });
+({ async method {} });
+({ async method {} });
+({ async method {} });
+({ async method {} });
+({ async method {} });
 ```
 
 ### Diagnostics

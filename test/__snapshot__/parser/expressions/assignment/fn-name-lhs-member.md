@@ -64,7 +64,7 @@ o.attr = function() {};
                         "start": 9,
                         "end": 18
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {

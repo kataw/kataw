@@ -148,7 +148,6 @@ for (let {...a.b} in c);
                             "start": 30,
                             "end": 36
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

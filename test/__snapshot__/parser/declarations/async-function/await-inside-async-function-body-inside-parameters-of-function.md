@@ -25,7 +25,7 @@ function fn(x = async function () { await 1 }) {}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "fn",
@@ -65,7 +65,7 @@ function fn(x = async function () { await 1 }) {}
                                 "start": 21,
                                 "end": 30
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

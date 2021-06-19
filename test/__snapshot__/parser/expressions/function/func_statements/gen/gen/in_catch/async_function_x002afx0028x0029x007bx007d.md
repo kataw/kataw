@@ -83,7 +83,7 @@ try {
                                     "start": 27,
                                     "end": 36
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 36,

@@ -33,7 +33,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                 "start": 18,
                                 "end": 27
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
@@ -111,7 +111,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                 "start": 45,
                                                 "end": 54
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -185,7 +185,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                         "properties": [
                                                                                             {
                                                                                                 "kind": 219,
-                                                                                                "generatorToken": null,
+                                                                                                "asteriskToken": null,
                                                                                                 "left": {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "m",

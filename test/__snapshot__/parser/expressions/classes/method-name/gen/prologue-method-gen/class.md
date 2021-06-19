@@ -143,7 +143,7 @@
 
 ```javascript
 
-({ * class {} });
+({ class {} });
 ```
 
 ### Diagnostics

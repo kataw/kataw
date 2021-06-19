@@ -38,7 +38,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -92,7 +92,6 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                             "start": 38,
                                             "end": 40
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -193,7 +192,6 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                             "start": 58,
                                             "end": 85
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

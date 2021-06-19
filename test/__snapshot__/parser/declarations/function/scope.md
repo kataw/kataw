@@ -70,7 +70,7 @@ function for_scope_var() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "block_scope",
@@ -115,7 +115,6 @@ function for_scope_var() {
                                             "start": 30,
                                             "end": 32
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -173,7 +172,6 @@ function for_scope_var() {
                                             "start": 51,
                                             "end": 53
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -235,7 +233,6 @@ function for_scope_var() {
                                                         "start": 78,
                                                         "end": 80
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": {
                                                         "kind": 201392131,
@@ -280,7 +277,6 @@ function for_scope_var() {
                                                         "start": 94,
                                                         "end": 96
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": {
                                                         "kind": 201392131,
@@ -336,7 +332,7 @@ function for_scope_var() {
                 "start": 108,
                 "end": 117
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "default_param_1",
@@ -370,7 +366,7 @@ function for_scope_var() {
                                 "start": 137,
                                 "end": 195
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
@@ -533,7 +529,7 @@ function for_scope_var() {
                 "start": 283,
                 "end": 293
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "default_param_2",
@@ -578,7 +574,6 @@ function for_scope_var() {
                                             "start": 370,
                                             "end": 372
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392131,
@@ -611,7 +606,7 @@ function for_scope_var() {
                                 "start": 378,
                                 "end": 389
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f0",
@@ -698,7 +693,6 @@ function for_scope_var() {
                                                             "start": 423,
                                                             "end": 425
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -792,7 +786,7 @@ function for_scope_var() {
                                 "start": 477,
                                 "end": 488
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f1",
@@ -863,7 +857,6 @@ function for_scope_var() {
                                                             "start": 546,
                                                             "end": 548
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -957,7 +950,7 @@ function for_scope_var() {
                 "start": 573,
                 "end": 583
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "for_scope_let",
@@ -1002,7 +995,6 @@ function for_scope_var() {
                                             "start": 607,
                                             "end": 609
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -1059,7 +1051,6 @@ function for_scope_var() {
                                             "start": 633,
                                             "end": 635
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392131,
@@ -1121,7 +1112,7 @@ function for_scope_var() {
                 "start": 672,
                 "end": 682
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "for_scope_var",
@@ -1167,7 +1158,6 @@ function for_scope_var() {
                                             "start": 706,
                                             "end": 708
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -1224,7 +1214,6 @@ function for_scope_var() {
                                             "start": 732,
                                             "end": 734
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392131,

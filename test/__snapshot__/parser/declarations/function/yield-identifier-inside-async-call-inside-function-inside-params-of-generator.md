@@ -25,7 +25,7 @@ function* g( x = function() { async(yield) }) {};
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -65,7 +65,7 @@ function* g( x = function() { async(yield) }) {};
                                 "start": 16,
                                 "end": 25
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

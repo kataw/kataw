@@ -97,7 +97,6 @@ for (let [x, ...[foo, bar]] = obj);
                             "start": 8,
                             "end": 27
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

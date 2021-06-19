@@ -45,7 +45,7 @@ for (async function *f(){} in x) ;
                     "start": 10,
                     "end": 19
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 19,

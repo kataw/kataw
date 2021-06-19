@@ -54,7 +54,6 @@
                             "start": 17,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -120,7 +119,6 @@
                             "start": 43,
                             "end": 49
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,

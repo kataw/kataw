@@ -81,7 +81,7 @@ class A {
                                 "start": 9,
                                 "end": 16
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

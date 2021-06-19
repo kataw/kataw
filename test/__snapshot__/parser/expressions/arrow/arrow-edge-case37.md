@@ -44,7 +44,6 @@ let x = (y: any): (a | b) => {};
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

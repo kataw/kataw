@@ -1288,7 +1288,6 @@ async a => await 1;
                             "start": 419,
                             "end": 421
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1403,7 +1402,6 @@ async a => await 1;
                             "start": 456,
                             "end": 458
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1823,7 +1821,7 @@ async a => await 1;
                 "start": 586,
                 "end": 595
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",

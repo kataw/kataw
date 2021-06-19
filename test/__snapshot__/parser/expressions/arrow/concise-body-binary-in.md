@@ -38,7 +38,6 @@ const t = () => ({
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -61,7 +60,7 @@ const t = () => ({
                                         "properties": [
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "v",

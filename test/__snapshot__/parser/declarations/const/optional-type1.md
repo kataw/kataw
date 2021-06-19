@@ -44,7 +44,6 @@ const f = (x?, y?:Object = {}) => {}
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

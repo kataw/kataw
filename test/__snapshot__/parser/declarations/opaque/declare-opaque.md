@@ -134,7 +134,6 @@ declare var a: A;
                             "start": 57,
                             "end": 59
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

@@ -36,7 +36,6 @@ for (let foo = bar, zoo = boo in x);
                             "start": 8,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -60,7 +59,6 @@ for (let foo = bar, zoo = boo in x);
                             "start": 19,
                             "end": 23
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

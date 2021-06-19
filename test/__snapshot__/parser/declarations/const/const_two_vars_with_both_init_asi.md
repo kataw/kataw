@@ -55,7 +55,6 @@ const foo = bar, zoo = boo
                             "start": 5,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -79,7 +78,6 @@ const foo = bar, zoo = boo
                             "start": 16,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

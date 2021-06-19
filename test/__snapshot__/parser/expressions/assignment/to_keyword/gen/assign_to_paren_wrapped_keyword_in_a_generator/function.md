@@ -35,7 +35,7 @@ function *f(){
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -79,7 +79,7 @@ function *f(){
                                             "start": 18,
                                             "end": 26
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {

@@ -82,7 +82,6 @@ for (let {x: y = let};;) {}
                             "start": 8,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

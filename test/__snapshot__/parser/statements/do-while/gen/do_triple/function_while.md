@@ -99,7 +99,7 @@ do do do function while while while while
                             "start": 8,
                             "end": 17
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": null,
                         "typeParameters": null,
                         "formalParameterList": {

@@ -45,7 +45,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -83,7 +82,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                             "start": 14,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 121,
@@ -101,7 +99,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                     "start": 25,
                                     "end": 34
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {
@@ -133,7 +131,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                     "start": 44,
                                                     "end": 53
                                                 },
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "name": {
                                                     "kind": 134299649,
                                                     "text": "wrap",
@@ -172,7 +170,7 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                     "start": 68,
                                                                     "end": 77
                                                                 },
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "name": {
                                                                     "kind": 134299649,
                                                                     "text": "await",

@@ -25,7 +25,7 @@ function* g() { let x = yield 3; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -75,7 +75,6 @@ function* g() { let x = yield 3; }
                                             "start": 19,
                                             "end": 21
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 229,

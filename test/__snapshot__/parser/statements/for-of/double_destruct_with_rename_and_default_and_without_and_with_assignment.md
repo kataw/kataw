@@ -75,7 +75,6 @@ for (let {x:y=z}, {a:b=c} of obj);
                             "start": 8,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -130,7 +129,6 @@ for (let {x:y=z}, {a:b=c} of obj);
                             "start": 17,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

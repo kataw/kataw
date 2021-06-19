@@ -35,7 +35,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -147,7 +147,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -250,7 +250,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -362,7 +362,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "foo",
@@ -385,7 +385,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "bar",
@@ -435,7 +435,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -458,7 +458,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 2,
@@ -766,7 +766,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "foo",
@@ -869,7 +869,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,

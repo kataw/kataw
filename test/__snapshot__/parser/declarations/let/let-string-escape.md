@@ -42,7 +42,6 @@ let z = '\\009';
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,
@@ -86,7 +85,6 @@ let z = '\\009';
                             "start": 19,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,
@@ -130,7 +128,6 @@ let z = '\\009';
                             "start": 36,
                             "end": 38
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,
@@ -188,7 +185,6 @@ let z = '\\009';
                             "start": 68,
                             "end": 70
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,

@@ -44,7 +44,6 @@ for(let a, let;;);
                             "start": 7,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -61,7 +60,6 @@ for(let a, let;;);
                             "start": 10,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

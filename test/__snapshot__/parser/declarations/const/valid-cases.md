@@ -64,7 +64,6 @@ const { async = true } = x;
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -75,7 +74,7 @@ const { async = true } = x;
                                 "start": 9,
                                 "end": 18
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {
@@ -178,7 +177,6 @@ const { async = true } = x;
                             "start": 47,
                             "end": 49
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -189,7 +187,7 @@ const { async = true } = x;
                                 "start": 51,
                                 "end": 60
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {
@@ -293,7 +291,6 @@ const { async = true } = x;
                             "start": 87,
                             "end": 89
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -431,7 +428,6 @@ const { async = true } = x;
                             "start": 142,
                             "end": 144
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -570,7 +566,6 @@ const { async = true } = x;
                             "start": 198,
                             "end": 200
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -586,7 +581,7 @@ const { async = true } = x;
                                 "start": 208,
                                 "end": 217
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {
@@ -717,7 +712,6 @@ const { async = true } = x;
                             "start": 258,
                             "end": 260
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -733,7 +727,7 @@ const { async = true } = x;
                                 "start": 268,
                                 "end": 277
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {
@@ -895,7 +889,6 @@ const { async = true } = x;
                             "start": 319,
                             "end": 336
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

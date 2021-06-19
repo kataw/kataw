@@ -37,7 +37,6 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -54,7 +53,6 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "start": 11,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -71,7 +69,6 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "start": 14,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -88,7 +85,6 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "start": 17,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -129,7 +125,6 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                             "start": 28,
                                             "end": 32
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -167,7 +162,6 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                             "start": 37,
                                             "end": 41
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -210,7 +204,6 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                                         "start": 48,
                                                         "end": 52
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
@@ -227,7 +220,6 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                                         "start": 53,
                                                         "end": 55
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
@@ -244,7 +236,6 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                                         "start": 56,
                                                         "end": 59
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,

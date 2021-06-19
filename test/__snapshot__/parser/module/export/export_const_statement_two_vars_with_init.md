@@ -50,7 +50,6 @@ export const x = 10, y = 20
                                 "start": 12,
                                 "end": 14
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,
@@ -74,7 +73,6 @@ export const x = 10, y = 20
                                 "start": 20,
                                 "end": 22
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,

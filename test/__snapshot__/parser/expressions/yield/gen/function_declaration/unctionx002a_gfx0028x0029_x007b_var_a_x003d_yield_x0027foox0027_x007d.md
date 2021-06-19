@@ -33,7 +33,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -132,7 +132,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                         "start": 40,
                                                         "end": 42
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": {
                                                         "kind": 134299649,

@@ -191,7 +191,7 @@ class Foo {
                                 "start": 24,
                                 "end": 48
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -312,7 +312,7 @@ class Foo {
                                 "start": 60,
                                 "end": 76
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

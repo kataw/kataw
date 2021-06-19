@@ -48,7 +48,6 @@ for await (const a of b);
                             "start": 16,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

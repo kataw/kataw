@@ -39,7 +39,6 @@ var C = class { async method() {
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 189,
@@ -62,7 +61,7 @@ var C = class { async method() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,

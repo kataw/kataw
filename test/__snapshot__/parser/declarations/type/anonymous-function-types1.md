@@ -38,7 +38,7 @@ declare function foo(x: number, string): void;
                 "start": 7,
                 "end": 16
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",

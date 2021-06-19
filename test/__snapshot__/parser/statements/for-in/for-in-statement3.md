@@ -45,7 +45,6 @@ for (var a: number in expr) {
                             "start": 3,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -95,7 +94,6 @@ for (var a: number in expr) {
                             "start": 23,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

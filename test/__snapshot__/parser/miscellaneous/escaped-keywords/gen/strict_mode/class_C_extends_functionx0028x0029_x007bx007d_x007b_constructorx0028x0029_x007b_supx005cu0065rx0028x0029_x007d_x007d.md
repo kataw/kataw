@@ -61,7 +61,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                             "start": 15,
                             "end": 24
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": null,
                         "typeParameters": null,
                         "formalParameterList": {
@@ -103,7 +103,7 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

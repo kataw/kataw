@@ -69,7 +69,7 @@ switch (x) {
                                     "start": 33,
                                     "end": 42
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 42,

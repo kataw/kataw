@@ -135,7 +135,6 @@ FooBar.bar = 1;
                                         "start": 34,
                                         "end": 39
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 271,
@@ -238,7 +237,7 @@ FooBar.bar = 1;
                             "start": 65,
                             "end": 75
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "FooBar",

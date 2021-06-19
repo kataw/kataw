@@ -42,7 +42,7 @@
                 "start": 13,
                 "end": 22
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",

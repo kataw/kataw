@@ -80,7 +80,6 @@ let {x:y=z} = {}
                             "start": 3,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

@@ -44,7 +44,6 @@ for (var i = 0; i < 1; i++) label: function f() { };
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -137,7 +136,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                         "start": 34,
                         "end": 43
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",

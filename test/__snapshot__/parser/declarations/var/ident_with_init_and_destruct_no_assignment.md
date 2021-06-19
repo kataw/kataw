@@ -45,7 +45,6 @@ var x = y, {z};
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -84,7 +83,6 @@ var x = y, {z};
                             "start": 10,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

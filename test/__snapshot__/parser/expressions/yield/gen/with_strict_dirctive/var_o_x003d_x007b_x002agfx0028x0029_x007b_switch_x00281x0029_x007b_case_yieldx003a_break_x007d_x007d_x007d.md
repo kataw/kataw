@@ -54,7 +54,6 @@
                             "start": 17,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -222,7 +221,7 @@
 
 ```javascript
 
-var o = { * gf {
+var o = { gf {
     switch(1) {
       case  yield:
         break;

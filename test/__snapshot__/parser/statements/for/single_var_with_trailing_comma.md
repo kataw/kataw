@@ -51,7 +51,6 @@ for (let {x,} = obj);
                             "start": 8,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

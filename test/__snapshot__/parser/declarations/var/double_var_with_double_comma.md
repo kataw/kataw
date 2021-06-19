@@ -60,7 +60,6 @@ var {x,, y} = obj;
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -77,7 +76,6 @@ var {x,, y} = obj;
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

@@ -49,7 +49,6 @@ var a: typeof A[];
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -106,7 +105,6 @@ var a: typeof A[];
                             "start": 20,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -175,7 +173,6 @@ var a: typeof A[];
                             "start": 38,
                             "end": 40
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -258,7 +255,6 @@ var a: typeof A[];
                             "start": 58,
                             "end": 60
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -344,7 +340,6 @@ var a: typeof A[];
                             "start": 81,
                             "end": 83
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

@@ -58,7 +58,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 13,
                 "end": 22
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -104,7 +104,6 @@ function * x() { "use strict";  yield: 34; }
                                             "start": 38,
                                             "end": 42
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -121,7 +120,6 @@ function * x() { "use strict";  yield: 34; }
                                             "start": 43,
                                             "end": 49
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -175,7 +173,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 67,
                 "end": 76
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -297,7 +295,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 131,
                 "end": 140
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -331,7 +329,7 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 152,
                                 "end": 161
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "yield",
@@ -406,7 +404,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 189,
                 "end": 198
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -443,7 +441,7 @@ function * x() { "use strict";  yield: 34; }
                                         "start": 212,
                                         "end": 220
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": {
                                         "kind": 134299649,
                                         "text": "yield",
@@ -526,7 +524,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 249,
                 "end": 258
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -560,7 +558,7 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 270,
                                 "end": 279
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -644,7 +642,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 310,
                 "end": 319
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -678,7 +676,7 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 331,
                                 "end": 340
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -770,7 +768,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 376,
                 "end": 385
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -804,7 +802,7 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 397,
                                 "end": 406
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 406,
@@ -884,7 +882,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 436,
                 "end": 445
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -921,7 +919,7 @@ function * x() { "use strict";  yield: 34; }
                                         "start": 459,
                                         "end": 467
                                     },
-                                    "generatorToken": {
+                                    "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 467,
@@ -1009,7 +1007,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 498,
                 "end": 507
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -1105,7 +1103,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 546,
                 "end": 555
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -1151,7 +1149,6 @@ function * x() { "use strict";  yield: 34; }
                                             "start": 571,
                                             "end": 575
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 125,
@@ -1232,7 +1229,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 604,
                 "end": 613
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -1306,7 +1303,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 636,
                 "end": 646
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -1389,7 +1386,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 683,
                 "end": 692
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -1480,7 +1477,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 732,
                 "end": 742
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 742,
@@ -1582,7 +1579,7 @@ function * x() { "use strict";  yield: 34; }
                 "start": 775,
                 "end": 784
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 784,

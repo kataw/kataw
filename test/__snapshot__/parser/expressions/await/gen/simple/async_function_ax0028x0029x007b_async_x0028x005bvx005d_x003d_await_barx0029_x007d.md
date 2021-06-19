@@ -38,7 +38,7 @@ async function a(){     async ([v] = await bar);     }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "a",

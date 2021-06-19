@@ -76,7 +76,7 @@
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "left": {
                                                                         "kind": 134299649,
                                                                         "text": "x",
@@ -174,7 +174,7 @@
 
 ```javascript
 
-({ * g1 {
+({ g1 {
     return  { x: yield 1 };
   } });
 ```

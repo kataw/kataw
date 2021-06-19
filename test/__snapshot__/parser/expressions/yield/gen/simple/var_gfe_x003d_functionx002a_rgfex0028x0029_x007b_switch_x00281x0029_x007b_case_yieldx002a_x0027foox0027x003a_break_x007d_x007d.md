@@ -45,7 +45,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -56,7 +55,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "start": 9,
                                 "end": 18
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 18,

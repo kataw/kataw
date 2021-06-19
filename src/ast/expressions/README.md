@@ -255,7 +255,7 @@ interface ClassElement <: ExpressionNode {
   kind: NodeKind.ClassElement;
   declareToken: SyntaxToken<TokenSyntaxKind> | null;
   decorators: DecoratorList | null;
-  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   setKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -371,7 +371,7 @@ interface FunctionExpression <: ExpressionNode {
   kind: NodeKind.FunctionExpression;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   functionKeyword: SyntaxToken<TokenSyntaxKind>;
-  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   name: Identifier | null;
   formalParameters: FormalParameterList;
   contents: FunctionBody;
@@ -726,7 +726,7 @@ interface PropertyDefinitionList <: ExpressionNode {
 ```js
 interface PropertyDefinition <: ExpressionNode {
   kind: NodeKind.PropertyDefinition;
-  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   left: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
   right: AssignmentExpression | Identifier | ExpressionNode;
@@ -768,7 +768,7 @@ interface BindingProperty <: ExpressionNode {
 ```js
 interface PropertyMethod <: ExpressionNode {
   kind: NodeKind.PropertyMethod;
-  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   setKeyword: SyntaxToken<TokenSyntaxKind> | null;

@@ -33,7 +33,7 @@ function* gf() { var fe = function yield() { } }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -84,7 +84,6 @@ function* gf() { var fe = function yield() { } }
                                             "start": 20,
                                             "end": 23
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 177,
@@ -95,7 +94,7 @@ function* gf() { var fe = function yield() { } }
                                                 "start": 25,
                                                 "end": 34
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "yield",

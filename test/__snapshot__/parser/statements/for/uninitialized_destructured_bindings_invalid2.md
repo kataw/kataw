@@ -57,7 +57,6 @@ for (let { foo };;) {}
                             "start": 8,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

@@ -54,7 +54,6 @@
                             "start": 17,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

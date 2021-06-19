@@ -44,7 +44,6 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                             "start": 3,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

@@ -48,7 +48,7 @@ result = { x: { y } } = { x: { y: 2 } };
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -107,7 +107,7 @@ result = { x: { y } } = { x: { y: 2 } };
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -123,7 +123,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y",

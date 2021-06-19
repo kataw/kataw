@@ -9,7 +9,7 @@ import { DecoratorList } from './decorator-list';
 export interface ClassElement extends SyntaxNode {
   readonly declareToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly decorators: DecoratorList | null;
-  readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly setKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -20,7 +20,7 @@ export interface ClassElement extends SyntaxNode {
 export function createClassElement(
   declareToken: SyntaxToken<TokenSyntaxKind> | null,
   decorators: DecoratorList | null,
-  generatorToken: SyntaxToken<TokenSyntaxKind> | null,
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null,
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   setKeyword: SyntaxToken<TokenSyntaxKind> | null,
@@ -34,7 +34,7 @@ export function createClassElement(
     kind: SyntaxKind.ClassElement,
     declareToken,
     decorators,
-    generatorToken,
+    asteriskToken,
     staticKeyword,
     asyncKeyword,
     setKeyword,

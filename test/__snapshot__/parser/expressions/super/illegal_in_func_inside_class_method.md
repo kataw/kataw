@@ -44,7 +44,7 @@ class x { foo(){ function f(){ super.foo; } }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -85,7 +85,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                     "start": 16,
                                                     "end": 25
                                                 },
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "name": {
                                                     "kind": 134299649,
                                                     "text": "f",

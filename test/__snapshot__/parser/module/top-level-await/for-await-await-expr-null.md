@@ -61,7 +61,6 @@ for await (let binding of [await null]) {
                             "start": 3,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -220,7 +219,6 @@ for await (let binding of [await null]) {
                             "start": 390,
                             "end": 398
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -353,7 +351,6 @@ for await (let binding of [await null]) {
                             "start": 594,
                             "end": 602
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

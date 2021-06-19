@@ -61,7 +61,7 @@ switch (0) { case 1: function f() {} default: const f = 0 }
                                     "start": 20,
                                     "end": 29
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -133,7 +133,6 @@ switch (0) { case 1: function f() {} default: const f = 0 }
                                                 "start": 51,
                                                 "end": 53
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,

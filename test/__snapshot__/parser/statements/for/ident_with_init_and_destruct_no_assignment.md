@@ -36,7 +36,6 @@ for (let x = y, {z});
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -75,7 +74,6 @@ for (let x = y, {z});
                             "start": 15,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

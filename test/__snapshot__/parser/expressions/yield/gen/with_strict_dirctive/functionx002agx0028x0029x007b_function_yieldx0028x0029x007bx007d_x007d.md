@@ -42,7 +42,7 @@
                 "start": 13,
                 "end": 22
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 22,
@@ -81,7 +81,7 @@
                                 "start": 27,
                                 "end": 36
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "yield",

@@ -45,7 +45,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -213,7 +212,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 
 ```javascript
 
-var o = { * gf {
+var o = { gf {
     switch(1) {
       case  yield:
         break;

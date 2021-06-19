@@ -30,7 +30,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "g",
@@ -83,7 +83,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "generatorToken": {
+                                            "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 28,
@@ -140,7 +140,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                 "properties": [
                                                                                     {
                                                                                         "kind": 219,
-                                                                                        "generatorToken": null,
+                                                                                        "asteriskToken": null,
                                                                                         "left": {
                                                                                             "kind": 134299649,
                                                                                             "text": "m",

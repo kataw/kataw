@@ -41,7 +41,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 8,
@@ -146,7 +146,6 @@
                             "start": 43,
                             "end": 51
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -235,7 +234,6 @@
                             "start": 75,
                             "end": 85
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

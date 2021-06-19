@@ -110,7 +110,6 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
                             "start": 3,
                             "end": 43
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

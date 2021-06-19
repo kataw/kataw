@@ -25,7 +25,7 @@ function 00004() { "use strict"; 00004; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {

@@ -112,7 +112,7 @@ switch (0) { case 1: class f {} default: function f() {} }
                                     "start": 40,
                                     "end": 49
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",

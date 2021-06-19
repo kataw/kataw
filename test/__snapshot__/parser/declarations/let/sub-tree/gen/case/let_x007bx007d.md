@@ -88,7 +88,6 @@ switch (a) { case b: let
                                                 "start": 24,
                                                 "end": 27
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

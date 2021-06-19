@@ -38,7 +38,7 @@ async function * f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  {
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 14,
@@ -97,7 +97,7 @@ async function * f() { 'use strict'; for await ({[Symbol.iterator]: a} of [])  {
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 194,
                                                 "expression": {

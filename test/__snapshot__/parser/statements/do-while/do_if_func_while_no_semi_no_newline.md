@@ -63,7 +63,7 @@ do if(8)function s(){}while(y)
                         "start": 8,
                         "end": 16
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "s",

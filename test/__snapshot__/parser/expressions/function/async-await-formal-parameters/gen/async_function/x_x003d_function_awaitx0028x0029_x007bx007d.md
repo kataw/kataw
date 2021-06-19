@@ -45,7 +45,6 @@ var f = async function f(x = function await() {}) {}
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -61,7 +60,7 @@ var f = async function f(x = function await() {}) {}
                                 "start": 13,
                                 "end": 22
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
@@ -96,7 +95,7 @@ var f = async function f(x = function await() {}) {}
                                                 "start": 28,
                                                 "end": 37
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "await",

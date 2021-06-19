@@ -50,7 +50,6 @@ export let x = 10, y = 20
                                 "start": 10,
                                 "end": 12
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,
@@ -74,7 +73,6 @@ export let x = 10, y = 20
                                 "start": 18,
                                 "end": 20
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,

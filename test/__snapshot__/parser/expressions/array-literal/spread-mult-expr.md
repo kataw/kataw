@@ -51,7 +51,6 @@ var callCount = 0;
                             "start": 3,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -127,7 +126,6 @@ var callCount = 0;
                             "start": 27,
                             "end": 34
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -165,7 +163,6 @@ var callCount = 0;
                             "start": 40,
                             "end": 50
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -205,7 +202,7 @@ var callCount = 0;
                                 "start": 58,
                                 "end": 66
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

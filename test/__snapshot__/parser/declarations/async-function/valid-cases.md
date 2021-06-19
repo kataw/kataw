@@ -50,7 +50,7 @@ new async function() { await 0 }.x
                             "start": 6,
                             "end": 15
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "foo",
@@ -138,7 +138,7 @@ new async function() { await 0 }.x
                         "start": 40,
                         "end": 49
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {
@@ -235,7 +235,7 @@ new async function() { await 0 }.x
                         "start": 73,
                         "end": 82
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "foo",
@@ -347,7 +347,7 @@ new async function() { await 0 }.x
                                         "start": 110,
                                         "end": 119
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": null,
                                     "typeParameters": null,
                                     "formalParameterList": {
@@ -421,7 +421,7 @@ new async function() { await 0 }.x
                                                 "start": 140,
                                                 "end": 149
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "foo",
@@ -512,7 +512,7 @@ new async function() { await 0 }.x
                                             "start": 175,
                                             "end": 184
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {
@@ -604,7 +604,7 @@ new async function() { await 0 }.x
                                         "start": 209,
                                         "end": 218
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": {
                                         "kind": 134299649,
                                         "text": "foo",
@@ -703,7 +703,7 @@ new async function() { await 0 }.x
                                     "start": 247,
                                     "end": 256
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {
@@ -802,7 +802,7 @@ new async function() { await 0 }.x
                         "start": 281,
                         "end": 290
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {
@@ -894,7 +894,7 @@ new async function() { await 0 }.x
                             "start": 314,
                             "end": 323
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": null,
                         "typeParameters": null,
                         "formalParameterList": {

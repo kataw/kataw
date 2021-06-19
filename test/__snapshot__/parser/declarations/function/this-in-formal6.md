@@ -41,7 +41,7 @@ declare function four<T>(this: T): void;
                 "start": 7,
                 "end": 16
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "one",
@@ -131,7 +131,7 @@ declare function four<T>(this: T): void;
                 "start": 49,
                 "end": 58
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "two",
@@ -252,7 +252,7 @@ declare function four<T>(this: T): void;
                 "start": 102,
                 "end": 111
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "three",
@@ -378,7 +378,7 @@ declare function four<T>(this: T): void;
                 "start": 157,
                 "end": 166
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "four",

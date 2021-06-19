@@ -47,7 +47,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -110,7 +110,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -179,7 +179,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 2,
@@ -222,7 +222,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 3,
@@ -279,7 +279,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 4,
@@ -336,7 +336,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 5,
@@ -407,7 +407,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 6,
@@ -478,7 +478,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 7,
@@ -549,7 +549,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 8,
@@ -634,7 +634,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 9,
@@ -691,7 +691,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 10,
@@ -746,7 +746,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 11,
@@ -801,7 +801,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 12,
@@ -870,7 +870,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 13,
@@ -927,7 +927,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 14,
@@ -982,7 +982,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 15,
@@ -1038,7 +1038,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 16,
@@ -1101,7 +1101,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 17,
@@ -1164,7 +1164,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 18,
@@ -1243,7 +1243,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 19,
@@ -1273,7 +1273,7 @@
                                                 "start": 361,
                                                 "end": 369
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": null,
                                             "typeParameters": null,
                                             "formalParameterList": {

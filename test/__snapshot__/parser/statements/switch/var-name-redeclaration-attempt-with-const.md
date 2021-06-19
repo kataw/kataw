@@ -73,7 +73,6 @@ switch (0) { case 1: var f; default: const f = 0 }
                                                 "start": 24,
                                                 "end": 26
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -124,7 +123,6 @@ switch (0) { case 1: var f; default: const f = 0 }
                                                 "start": 42,
                                                 "end": 44
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,

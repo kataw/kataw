@@ -49,7 +49,6 @@ result = [ x = yield ] = vals;
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -94,7 +93,6 @@ result = [ x = yield ] = vals;
                             "start": 18,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -132,7 +130,6 @@ result = [ x = yield ] = vals;
                             "start": 26,
                             "end": 33
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -170,7 +167,6 @@ result = [ x = yield ] = vals;
                             "start": 38,
                             "end": 43
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,

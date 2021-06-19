@@ -176,7 +176,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 37,
                     "end": 46
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 46,
@@ -497,7 +497,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 145,
                     "end": 154
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "f",
@@ -572,7 +572,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 169,
                     "end": 178
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 178,
@@ -810,7 +810,6 @@ if ({ x } &&= { x: 2 }) { foo(); };
                             "start": 255,
                             "end": 257
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 138477575,
@@ -866,7 +865,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 283,
                     "end": 292
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "f",
@@ -924,7 +923,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 312,
                     "end": 321
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "_f",
@@ -1409,7 +1408,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -1513,7 +1512,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -1986,7 +1985,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",

@@ -39,7 +39,6 @@ const example = (obj) => {
                             "start": 5,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -89,7 +88,6 @@ const example = (obj) => {
                                                             "start": 34,
                                                             "end": 38
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392131,
@@ -217,7 +215,6 @@ const example = (obj) => {
                                                             "start": 55,
                                                             "end": 89
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 134299649,

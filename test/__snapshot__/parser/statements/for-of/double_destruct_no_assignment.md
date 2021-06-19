@@ -52,7 +52,6 @@ for (let {x}, {y} of z);
                             "start": 8,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -84,7 +83,6 @@ for (let {x}, {y} of z);
                             "start": 13,
                             "end": 17
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

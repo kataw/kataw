@@ -44,7 +44,6 @@ for (let x = 42 in list) process(x);
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

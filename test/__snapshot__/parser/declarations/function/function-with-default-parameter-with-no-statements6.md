@@ -28,7 +28,7 @@ function bar(a = [1 + 1]) {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -136,7 +136,7 @@ function bar(a = [1 + 1]) {
                 "start": 29,
                 "end": 39
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "bar",

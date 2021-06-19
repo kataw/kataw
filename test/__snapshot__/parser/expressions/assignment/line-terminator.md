@@ -42,7 +42,6 @@ true;
                             "start": 4,
                             "end": 6
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

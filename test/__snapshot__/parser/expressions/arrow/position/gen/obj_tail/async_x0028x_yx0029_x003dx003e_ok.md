@@ -50,7 +50,7 @@ x = {arrow: async (x, y) => ok}.y
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "arrow",

@@ -45,7 +45,6 @@ v\u0061r a = true
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 24752947,

@@ -59,7 +59,7 @@ export default class { givesANum(): number { return 42; }};
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,

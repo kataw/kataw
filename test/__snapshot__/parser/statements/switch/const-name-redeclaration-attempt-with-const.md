@@ -72,7 +72,6 @@ switch (0) { case 1: const f = 0; default: const f = 0 }
                                                 "start": 26,
                                                 "end": 28
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,
@@ -130,7 +129,6 @@ switch (0) { case 1: const f = 0; default: const f = 0 }
                                                 "start": 48,
                                                 "end": 50
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,

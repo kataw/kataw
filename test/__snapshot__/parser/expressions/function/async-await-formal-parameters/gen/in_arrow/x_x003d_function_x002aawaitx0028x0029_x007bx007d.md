@@ -54,7 +54,6 @@
                             "start": 17,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -88,7 +87,7 @@
                                             "start": 31,
                                             "end": 40
                                         },
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 40,

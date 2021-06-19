@@ -185,7 +185,6 @@ a = b => { let b; };
                                                 "start": 29,
                                                 "end": 31
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -268,7 +267,6 @@ a = b => { let b; };
                                                 "start": 49,
                                                 "end": 51
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
@@ -442,7 +440,6 @@ a = b => { let b; };
                             "start": 87,
                             "end": 91
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -557,7 +554,6 @@ a = b => { let b; };
                                                 "start": 127,
                                                 "end": 129
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -643,7 +639,6 @@ a = b => { let b; };
                                                 "start": 151,
                                                 "end": 153
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -739,7 +734,6 @@ a = b => { let b; };
                                                 "start": 167,
                                                 "end": 171
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
@@ -842,7 +836,6 @@ a = b => { let b; };
                                                 "start": 190,
                                                 "end": 194
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
@@ -945,7 +938,6 @@ a = b => { let b; };
                                                 "start": 212,
                                                 "end": 216
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
@@ -1599,7 +1591,6 @@ a = b => { let b; };
                                                 "start": 384,
                                                 "end": 386
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
@@ -1703,7 +1694,6 @@ a = b => { let b; };
                                                     "start": 410,
                                                     "end": 412
                                                 },
-                                                "optionalToken": null,
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
@@ -1958,7 +1948,6 @@ a = b => { let b; };
                                                 "start": 469,
                                                 "end": 471
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

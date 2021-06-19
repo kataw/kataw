@@ -92,7 +92,6 @@ x={f(){ var f }}
                                                                     "start": 11,
                                                                     "end": 13
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,

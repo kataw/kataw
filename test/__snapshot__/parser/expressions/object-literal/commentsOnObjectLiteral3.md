@@ -53,7 +53,6 @@ var v = {
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -62,7 +61,7 @@ var v = {
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "prop",
@@ -85,7 +84,7 @@ var v = {
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "func",
@@ -103,7 +102,7 @@ var v = {
                                                 "start": 105,
                                                 "end": 114
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": null,
                                             "typeParameters": null,
                                             "formalParameterList": {

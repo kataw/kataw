@@ -700,7 +700,6 @@ async ([a]:string)=>c;
                             "start": 217,
                             "end": 219
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 198,
@@ -1105,7 +1104,6 @@ async ([a]:string)=>c;
                             "start": 422,
                             "end": 424
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1200,7 +1198,6 @@ async ([a]:string)=>c;
                             "start": 447,
                             "end": 449
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1296,7 +1293,6 @@ async ([a]:string)=>c;
                             "start": 472,
                             "end": 476
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1658,7 +1654,7 @@ async ([a]:string)=>c;
                 "start": 592,
                 "end": 601
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {

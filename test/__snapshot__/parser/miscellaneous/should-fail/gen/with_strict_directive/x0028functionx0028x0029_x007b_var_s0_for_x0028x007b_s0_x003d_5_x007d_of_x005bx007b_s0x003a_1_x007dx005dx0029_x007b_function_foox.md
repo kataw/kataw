@@ -45,7 +45,7 @@
                         "start": 15,
                         "end": 23
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {
@@ -84,7 +84,6 @@
                                                     "start": 31,
                                                     "end": 34
                                                 },
-                                                "optionalToken": null,
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
@@ -164,7 +163,7 @@
                                                         "properties": [
                                                             {
                                                                 "kind": 219,
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "left": {
                                                                     "kind": 134299649,
                                                                     "text": "s0",
@@ -220,7 +219,7 @@
                                                         "start": 69,
                                                         "end": 78
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "foo",
@@ -283,7 +282,7 @@
                                                                                     "properties": [
                                                                                         {
                                                                                             "kind": 219,
-                                                                                            "generatorToken": null,
+                                                                                            "asteriskToken": null,
                                                                                             "left": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "x",

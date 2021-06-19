@@ -56,7 +56,6 @@ for (let x of a,b) c
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

@@ -93,7 +93,6 @@
                             "start": 17,
                             "end": 32
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

@@ -90,7 +90,6 @@ export {x}; var x;
                             "start": 15,
                             "end": 17
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

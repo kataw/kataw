@@ -70,7 +70,6 @@ for (const [let] in obj);
                             "start": 10,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

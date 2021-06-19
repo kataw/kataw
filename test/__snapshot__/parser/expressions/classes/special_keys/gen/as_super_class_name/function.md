@@ -61,7 +61,7 @@ class x extends function {}
                             "start": 15,
                             "end": 24
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": null,
                         "typeParameters": null,
                         "formalParameterList": {

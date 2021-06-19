@@ -143,7 +143,7 @@
 
 ```javascript
 
-({ * yield {} });
+({ yield {} });
 ```
 
 ### Diagnostics

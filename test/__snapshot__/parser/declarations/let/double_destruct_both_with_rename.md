@@ -110,7 +110,6 @@ let {x : y, z : a} = obj;
                             "start": 3,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

@@ -45,7 +45,6 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -62,7 +61,6 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                             "start": 6,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -79,7 +77,6 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                             "start": 9,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -174,7 +171,7 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "z",
@@ -192,7 +189,7 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "__proto__",
@@ -215,7 +212,7 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                                                     },
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "__proto__",

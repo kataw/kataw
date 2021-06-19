@@ -75,7 +75,6 @@ var B = class extends A {}
                             "start": 14,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 189,

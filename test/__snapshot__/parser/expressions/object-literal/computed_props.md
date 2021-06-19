@@ -66,7 +66,6 @@ module.exports = {
                             "start": 5,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -75,7 +74,7 @@ module.exports = {
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "RED",
@@ -98,7 +97,7 @@ module.exports = {
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "GREEN",
@@ -121,7 +120,7 @@ module.exports = {
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "BLUE",
@@ -186,7 +185,6 @@ module.exports = {
                             "start": 66,
                             "end": 78
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -195,7 +193,7 @@ module.exports = {
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "RED",
@@ -218,7 +216,7 @@ module.exports = {
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "GREEN",
@@ -241,7 +239,7 @@ module.exports = {
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "BLUE",
@@ -306,7 +304,6 @@ module.exports = {
                             "start": 146,
                             "end": 162
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -315,7 +312,7 @@ module.exports = {
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 194,
                                             "expression": {
@@ -372,7 +369,7 @@ module.exports = {
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 194,
                                             "expression": {
@@ -429,7 +426,7 @@ module.exports = {
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 194,
                                             "expression": {
@@ -566,7 +563,7 @@ module.exports = {
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 194,
                                     "expression": {

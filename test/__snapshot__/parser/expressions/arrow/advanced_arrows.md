@@ -50,7 +50,6 @@ var ident = <T>(x: T): T => x;
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -207,7 +206,6 @@ var ident = <T>(x: T): T => x;
                             "start": 55,
                             "end": 59
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -313,7 +311,6 @@ var ident = <T>(x: T): T => x;
                             "start": 92,
                             "end": 98
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

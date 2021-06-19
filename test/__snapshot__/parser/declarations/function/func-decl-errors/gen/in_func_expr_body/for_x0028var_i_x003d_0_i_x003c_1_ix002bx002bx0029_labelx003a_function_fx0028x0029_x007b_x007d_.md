@@ -38,7 +38,7 @@
                             "start": 1,
                             "end": 9
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": null,
                         "typeParameters": null,
                         "formalParameterList": {
@@ -76,7 +76,6 @@
                                                         "start": 21,
                                                         "end": 23
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": {
                                                         "kind": 201392130,
@@ -169,7 +168,7 @@
                                                     "start": 47,
                                                     "end": 56
                                                 },
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "name": {
                                                     "kind": 134299649,
                                                     "text": "f",

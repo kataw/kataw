@@ -33,7 +33,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                 "start": 18,
                                 "end": 27
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
@@ -111,7 +111,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                 "start": 45,
                                                 "end": 54
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "wrap",
@@ -150,7 +150,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                                 "start": 69,
                                                                 "end": 78
                                                             },
-                                                            "generatorToken": null,
+                                                            "asteriskToken": null,
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "await",

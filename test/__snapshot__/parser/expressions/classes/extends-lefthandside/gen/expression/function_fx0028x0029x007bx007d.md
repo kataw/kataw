@@ -64,7 +64,7 @@
                                     "start": 16,
                                     "end": 25
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",

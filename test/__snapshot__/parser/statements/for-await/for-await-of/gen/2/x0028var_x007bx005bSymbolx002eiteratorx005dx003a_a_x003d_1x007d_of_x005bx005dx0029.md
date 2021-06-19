@@ -38,7 +38,7 @@ async function f() { for await (var {[Symbol.iterator]: a = 1} of []) { } }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -147,7 +147,6 @@ async function f() { for await (var {[Symbol.iterator]: a = 1} of []) { } }
                                             "start": 35,
                                             "end": 62
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

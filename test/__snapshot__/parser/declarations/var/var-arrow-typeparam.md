@@ -45,7 +45,6 @@ var a: {param1?: number; param2: string; param3: string;}
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

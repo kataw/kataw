@@ -60,7 +60,6 @@ async () => { var \u0061wait; }
                                             "start": 17,
                                             "end": 28
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

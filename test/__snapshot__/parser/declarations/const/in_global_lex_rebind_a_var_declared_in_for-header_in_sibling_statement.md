@@ -56,7 +56,6 @@ const x = 1
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -101,7 +100,6 @@ const x = 1
                             "start": 20,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

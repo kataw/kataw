@@ -53,7 +53,6 @@ e\u0078port var foo;
                                 "start": 15,
                                 "end": 19
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": null,
                             "flags": 16,

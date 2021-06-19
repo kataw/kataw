@@ -61,7 +61,7 @@
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 28,
@@ -115,7 +115,7 @@
                                                                 "properties": [
                                                                     {
                                                                         "kind": 219,
-                                                                        "generatorToken": null,
+                                                                        "asteriskToken": null,
                                                                         "left": {
                                                                             "kind": 134299649,
                                                                             "text": "m",

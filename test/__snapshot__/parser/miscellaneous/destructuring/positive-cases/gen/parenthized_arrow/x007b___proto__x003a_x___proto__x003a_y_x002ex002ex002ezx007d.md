@@ -45,7 +45,6 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

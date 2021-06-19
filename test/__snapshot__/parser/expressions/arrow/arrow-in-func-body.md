@@ -32,7 +32,7 @@
                         "start": 1,
                         "end": 9
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",
@@ -140,7 +140,7 @@
                         "start": 36,
                         "end": 44
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",
@@ -273,7 +273,7 @@
                         "start": 79,
                         "end": 87
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",
@@ -398,7 +398,7 @@
                         "start": 118,
                         "end": 126
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",
@@ -523,7 +523,7 @@
                         "start": 157,
                         "end": 165
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",

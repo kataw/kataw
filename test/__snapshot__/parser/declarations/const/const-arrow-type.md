@@ -44,7 +44,6 @@ const fn = async (a?: any): Promise<void> => {};
                             "start": 5,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

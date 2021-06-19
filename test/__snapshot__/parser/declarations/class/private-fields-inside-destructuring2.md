@@ -202,7 +202,7 @@ this.#f,
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -249,7 +249,7 @@ this.#f,
                                                                         "properties": [
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "x",
@@ -361,7 +361,7 @@ this.#f,
                                                                         "properties": [
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "y",
@@ -431,7 +431,7 @@ this.#f,
                                                                         "properties": [
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "x",
@@ -466,7 +466,7 @@ this.#f,
                                                                             },
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "y",
@@ -612,7 +612,7 @@ this.#f,
                                                                                     "properties": [
                                                                                         {
                                                                                             "kind": 219,
-                                                                                            "generatorToken": null,
+                                                                                            "asteriskToken": null,
                                                                                             "left": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "x",
@@ -633,7 +633,7 @@ this.#f,
                                                                                                                 "properties": [
                                                                                                                     {
                                                                                                                         "kind": 219,
-                                                                                                                        "generatorToken": null,
+                                                                                                                        "asteriskToken": null,
                                                                                                                         "left": {
                                                                                                                             "kind": 134299649,
                                                                                                                             "text": "y",
@@ -753,7 +753,7 @@ this.#f,
                                                                         "properties": [
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "x",
@@ -859,7 +859,7 @@ this.#f,
                                                                         "properties": [
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "x",
@@ -882,7 +882,7 @@ this.#f,
                                                                             },
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "y",
@@ -905,7 +905,7 @@ this.#f,
                                                                             },
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "z",
@@ -928,7 +928,7 @@ this.#f,
                                                                             },
                                                                             {
                                                                                 "kind": 219,
-                                                                                "generatorToken": null,
+                                                                                "asteriskToken": null,
                                                                                 "left": {
                                                                                     "kind": 134299649,
                                                                                     "text": "w",
@@ -1026,7 +1026,7 @@ this.#f,
                                                                                     "properties": [
                                                                                         {
                                                                                             "kind": 219,
-                                                                                            "generatorToken": null,
+                                                                                            "asteriskToken": null,
                                                                                             "left": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "x",
@@ -1047,7 +1047,7 @@ this.#f,
                                                                                                                 "properties": [
                                                                                                                     {
                                                                                                                         "kind": 219,
-                                                                                                                        "generatorToken": null,
+                                                                                                                        "asteriskToken": null,
                                                                                                                         "left": {
                                                                                                                             "kind": 134299649,
                                                                                                                             "text": "y",

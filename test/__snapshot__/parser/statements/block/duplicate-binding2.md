@@ -30,7 +30,7 @@
                             "start": 1,
                             "end": 10
                         },
-                        "generatorToken": {
+                        "asteriskToken": {
                             "kind": 67143222,
                             "flags": 64,
                             "start": 10,
@@ -99,7 +99,6 @@
                                                     "start": 23,
                                                     "end": 25
                                                 },
-                                                "optionalToken": null,
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,

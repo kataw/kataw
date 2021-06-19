@@ -45,7 +45,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -83,7 +82,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
                             "start": 14,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 121,
@@ -101,7 +99,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                     "start": 25,
                                     "end": 34
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {
@@ -131,7 +129,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                             "start": 40,
                                                             "end": 48
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": {
                                                             "kind": 134299649,
                                                             "text": "call",

@@ -67,7 +67,7 @@ if (x) x;
                     "start": 24,
                     "end": 33
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 33,

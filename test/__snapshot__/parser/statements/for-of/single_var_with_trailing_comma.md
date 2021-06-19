@@ -52,7 +52,6 @@ for (let {x,} of obj);
                             "start": 8,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

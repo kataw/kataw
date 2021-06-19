@@ -46,7 +46,7 @@ export async function() {}
                     "start": 12,
                     "end": 21
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": null,
                 "typeParameters": null,
                 "formalParameterList": {

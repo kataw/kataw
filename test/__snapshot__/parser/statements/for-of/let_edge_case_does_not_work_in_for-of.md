@@ -55,7 +55,6 @@ for (let of x) y
                             "start": 8,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -72,7 +71,6 @@ for (let of x) y
                             "start": 11,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

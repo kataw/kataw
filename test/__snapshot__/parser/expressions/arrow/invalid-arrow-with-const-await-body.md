@@ -36,7 +36,6 @@ let f = () => { const [...await f] = []; }
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -115,7 +114,6 @@ let f = () => { const [...await f] = []; }
                                                             "start": 21,
                                                             "end": 34
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 119,

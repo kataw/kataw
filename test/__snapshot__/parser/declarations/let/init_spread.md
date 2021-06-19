@@ -55,7 +55,6 @@ let x = ...y;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 16637,

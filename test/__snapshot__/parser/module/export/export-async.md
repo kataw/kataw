@@ -44,7 +44,7 @@ export async function foo() { };
                     "start": 12,
                     "end": 21
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "foo",

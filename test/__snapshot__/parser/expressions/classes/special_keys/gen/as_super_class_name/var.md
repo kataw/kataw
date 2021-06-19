@@ -108,7 +108,6 @@ class x extends var {}
                             "start": 19,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

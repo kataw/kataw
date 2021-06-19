@@ -36,7 +36,7 @@ async function bar () {
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -82,7 +82,6 @@ async function bar () {
                                             "start": 29,
                                             "end": 35
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -134,7 +133,7 @@ async function bar () {
                 "start": 49,
                 "end": 58
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "bar",
@@ -179,7 +178,6 @@ async function bar () {
                                             "start": 73,
                                             "end": 79
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,

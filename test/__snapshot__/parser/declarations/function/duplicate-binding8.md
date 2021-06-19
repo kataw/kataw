@@ -25,7 +25,7 @@ function f() { function x() {} { var x } }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -59,7 +59,7 @@ function f() { function x() {} { var x } }
                                 "start": 14,
                                 "end": 23
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -123,7 +123,6 @@ function f() { function x() {} { var x } }
                                                         "start": 36,
                                                         "end": 38
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,

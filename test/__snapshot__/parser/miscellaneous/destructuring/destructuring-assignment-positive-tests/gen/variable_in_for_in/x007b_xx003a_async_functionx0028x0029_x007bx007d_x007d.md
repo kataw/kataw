@@ -45,7 +45,6 @@ var x, y, z; for (x in { x: async function() {} } = {});
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -62,7 +61,6 @@ var x, y, z; for (x in { x: async function() {} } = {});
                             "start": 6,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -79,7 +77,6 @@ var x, y, z; for (x in { x: async function() {} } = {});
                             "start": 9,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -126,7 +123,7 @@ var x, y, z; for (x in { x: async function() {} } = {});
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -149,7 +146,7 @@ var x, y, z; for (x in { x: async function() {} } = {});
                                         "start": 33,
                                         "end": 42
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": null,
                                     "typeParameters": null,
                                     "formalParameterList": {

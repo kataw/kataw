@@ -56,7 +56,6 @@ var c = 'some'
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 198,
@@ -121,7 +120,6 @@ var c = 'some'
                             "start": 48,
                             "end": 50
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 198,
@@ -186,7 +184,6 @@ var c = 'some'
                             "start": 96,
                             "end": 98
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 198,

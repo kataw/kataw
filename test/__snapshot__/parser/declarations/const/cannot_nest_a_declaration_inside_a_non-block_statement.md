@@ -80,7 +80,6 @@ switch (x) { case x: const y = x }
                                                 "start": 26,
                                                 "end": 28
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,

@@ -48,7 +48,6 @@ result = [[x]] = vals;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -86,7 +85,6 @@ result = [[x]] = vals;
                             "start": 11,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -124,7 +122,6 @@ result = [[x]] = vals;
                             "start": 23,
                             "end": 28
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,

@@ -45,7 +45,6 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                             "start": 3,
                             "end": 6
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -75,7 +74,6 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                             "start": 12,
                             "end": 15
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 129,
@@ -113,7 +111,6 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                             "start": 23,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -203,7 +200,6 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                             "start": 51,
                             "end": 54
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 129,
@@ -241,7 +237,6 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                             "start": 62,
                             "end": 64
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -331,7 +326,6 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                             "start": 90,
                             "end": 93
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 129,
@@ -369,7 +363,6 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                             "start": 101,
                             "end": 103
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,

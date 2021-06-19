@@ -25,7 +25,7 @@ function f(){ x({[new.target]:y}) }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -71,7 +71,7 @@ function f(){ x({[new.target]:y}) }
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 194,
                                                             "expression": {

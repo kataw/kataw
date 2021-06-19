@@ -85,7 +85,6 @@ try {} catch (x) { { var x } }
                                                             "start": 24,
                                                             "end": 26
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -198,7 +197,6 @@ try {} catch (x) { { var x } }
                                                             "start": 56,
                                                             "end": 58
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,

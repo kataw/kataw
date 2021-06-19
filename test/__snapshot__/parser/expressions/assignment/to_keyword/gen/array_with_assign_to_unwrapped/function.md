@@ -60,7 +60,7 @@ async x => function = 1
                             "start": 10,
                             "end": 19
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": null,
                         "typeParameters": null,
                         "formalParameterList": {

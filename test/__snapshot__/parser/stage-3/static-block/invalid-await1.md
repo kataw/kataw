@@ -47,7 +47,6 @@ class C {
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -119,7 +118,6 @@ class C {
                                                             "start": 39,
                                                             "end": 45
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,

@@ -40,7 +40,6 @@ var $\u200C = 3;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -85,7 +84,6 @@ var $\u200C = 3;
                             "start": 14,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -130,7 +128,6 @@ var $\u200C = 3;
                             "start": 31,
                             "end": 39
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

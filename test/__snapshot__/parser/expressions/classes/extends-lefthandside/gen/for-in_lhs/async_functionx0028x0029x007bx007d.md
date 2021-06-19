@@ -45,7 +45,7 @@ for (async function(){} in x) ;
                     "start": 10,
                     "end": 19
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": null,
                 "typeParameters": null,
                 "formalParameterList": {

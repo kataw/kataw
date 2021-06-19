@@ -44,7 +44,6 @@ const identity = <T>(t: T): T => t;
                             "start": 5,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

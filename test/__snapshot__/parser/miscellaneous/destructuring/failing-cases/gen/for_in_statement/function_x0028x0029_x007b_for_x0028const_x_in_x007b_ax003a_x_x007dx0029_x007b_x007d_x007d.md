@@ -40,7 +40,7 @@ for(function () { for (const x in { a: x }) { } } in y);
                     "start": 4,
                     "end": 12
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": null,
                 "typeParameters": null,
                 "formalParameterList": {
@@ -78,7 +78,6 @@ for(function () { for (const x in { a: x }) { } } in y);
                                                 "start": 28,
                                                 "end": 30
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -103,7 +102,7 @@ for(function () { for (const x in { a: x }) { } } in y);
                                         "properties": [
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "a",

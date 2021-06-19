@@ -43,7 +43,6 @@ var int\u0065rface = 1;
                             "start": 3,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -103,7 +102,6 @@ var int\u0065rface = 1;
                             "start": 29,
                             "end": 50
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -169,7 +167,6 @@ var int\u0065rface = 1;
                             "start": 61,
                             "end": 81
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -220,7 +217,6 @@ var int\u0065rface = 1;
                             "start": 92,
                             "end": 107
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

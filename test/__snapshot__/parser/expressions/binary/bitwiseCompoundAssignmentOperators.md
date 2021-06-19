@@ -66,7 +66,6 @@ f |= f;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 24752947,
@@ -109,7 +108,6 @@ f |= f;
                             "start": 17,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -422,7 +420,6 @@ f |= f;
                             "start": 95,
                             "end": 97
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 205586437,
@@ -465,7 +462,6 @@ f |= f;
                             "start": 110,
                             "end": 112
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -744,7 +740,6 @@ f |= f;
                             "start": 183,
                             "end": 185
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 24752947,
@@ -787,7 +782,6 @@ f |= f;
                             "start": 197,
                             "end": 199
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

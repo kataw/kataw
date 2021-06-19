@@ -35,7 +35,7 @@ export class C extends fn(await []) {};
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "fn",
@@ -76,7 +76,7 @@ export class C extends fn(await []) {};
                                     "start": 24,
                                     "end": 33
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {

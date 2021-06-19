@@ -38,7 +38,7 @@ async function foo(a, b) { await a + await b };
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",

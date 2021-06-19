@@ -64,7 +64,7 @@ class x extends y { constructor(){ return async function() { return async functi
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -117,7 +117,7 @@ class x extends y { constructor(){ return async function() { return async functi
                                                         "start": 47,
                                                         "end": 56
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -156,7 +156,7 @@ class x extends y { constructor(){ return async function() { return async functi
                                                                             "start": 73,
                                                                             "end": 82
                                                                         },
-                                                                        "generatorToken": null,
+                                                                        "asteriskToken": null,
                                                                         "name": null,
                                                                         "typeParameters": null,
                                                                         "formalParameterList": {

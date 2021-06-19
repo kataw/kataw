@@ -80,7 +80,6 @@ for (let {[x]: y = z};;);
                             "start": 8,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

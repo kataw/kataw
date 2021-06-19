@@ -57,7 +57,7 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -155,7 +155,7 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -262,7 +262,7 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "generatorToken": {
+                                    "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 76,
@@ -360,7 +360,7 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -453,7 +453,7 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
@@ -556,7 +556,7 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,

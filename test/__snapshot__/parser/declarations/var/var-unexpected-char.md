@@ -41,7 +41,6 @@ var 𫠞_ = 12;
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -86,7 +85,6 @@ var 𫠞_ = 12;
                             "start": 18,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -131,7 +129,6 @@ var 𫠞_ = 12;
                             "start": 33,
                             "end": 37
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

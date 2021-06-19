@@ -134,7 +134,7 @@
 
 ```javascript
 
-({ * instanceof {} });
+({ instanceof {} });
 ```
 
 ### Diagnostics

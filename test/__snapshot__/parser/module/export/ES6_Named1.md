@@ -60,7 +60,6 @@ export const [destructuredArrNumber] = [1]
                             "start": 5,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -104,7 +103,6 @@ export const [destructuredArrNumber] = [1]
                             "start": 33,
                             "end": 50
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -148,7 +146,6 @@ export const [destructuredArrNumber] = [1]
                             "start": 61,
                             "end": 78
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -192,7 +189,6 @@ export const [destructuredArrNumber] = [1]
                             "start": 89,
                             "end": 113
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -236,7 +232,6 @@ export const [destructuredArrNumber] = [1]
                             "start": 124,
                             "end": 148
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -494,7 +489,7 @@ export const [destructuredArrNumber] = [1]
                     "start": 329,
                     "end": 338
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "givesANumber",
@@ -616,7 +611,7 @@ export const [destructuredArrNumber] = [1]
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -753,7 +748,6 @@ export const [destructuredArrNumber] = [1]
                                 "start": 462,
                                 "end": 477
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,
@@ -777,7 +771,6 @@ export const [destructuredArrNumber] = [1]
                                 "start": 482,
                                 "end": 497
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,
@@ -852,7 +845,6 @@ export const [destructuredArrNumber] = [1]
                                 "start": 515,
                                 "end": 539
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 220,
@@ -861,7 +853,7 @@ export const [destructuredArrNumber] = [1]
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "destructuredObjNumber",
@@ -957,7 +949,6 @@ export const [destructuredArrNumber] = [1]
                                 "start": 582,
                                 "end": 606
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 119,

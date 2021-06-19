@@ -30,7 +30,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "a",
@@ -110,7 +110,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "left": {
                                                                         "kind": 134299649,
                                                                         "text": "m",

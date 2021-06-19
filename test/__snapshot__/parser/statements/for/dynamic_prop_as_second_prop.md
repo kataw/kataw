@@ -81,7 +81,6 @@ for (let {a, [x]: y} = a;;);
                             "start": 8,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

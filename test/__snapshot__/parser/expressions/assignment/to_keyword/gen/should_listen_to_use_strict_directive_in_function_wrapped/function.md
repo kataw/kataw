@@ -36,7 +36,7 @@ function f() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -84,7 +84,7 @@ function f() {
                                             "start": 34,
                                             "end": 42
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {

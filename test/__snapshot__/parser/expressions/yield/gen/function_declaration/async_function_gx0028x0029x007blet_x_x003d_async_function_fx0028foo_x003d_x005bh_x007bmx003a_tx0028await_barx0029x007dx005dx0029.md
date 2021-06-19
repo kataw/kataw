@@ -33,7 +33,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -72,7 +72,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                 "start": 26,
                                 "end": 35
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "g",
@@ -117,7 +117,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                             "start": 43,
                                                             "end": 45
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 177,
@@ -133,7 +132,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                 "start": 53,
                                                                 "end": 62
                                                             },
-                                                            "generatorToken": null,
+                                                            "asteriskToken": null,
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "f",
@@ -179,7 +178,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                             "properties": [
                                                                                                 {
                                                                                                     "kind": 219,
-                                                                                                    "generatorToken": null,
+                                                                                                    "asteriskToken": null,
                                                                                                     "left": {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "m",

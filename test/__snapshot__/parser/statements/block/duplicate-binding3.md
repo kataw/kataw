@@ -47,7 +47,6 @@
                                                     "start": 6,
                                                     "end": 8
                                                 },
-                                                "optionalToken": null,
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
@@ -87,7 +86,7 @@
                             "start": 15,
                             "end": 24
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "x",

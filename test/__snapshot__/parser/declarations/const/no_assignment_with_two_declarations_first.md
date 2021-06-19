@@ -70,7 +70,6 @@ const [foo], bar;
                             "start": 5,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -87,7 +86,6 @@ const [foo], bar;
                             "start": 12,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

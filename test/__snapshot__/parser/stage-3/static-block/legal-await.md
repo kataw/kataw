@@ -54,7 +54,6 @@ class C {
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -242,7 +241,7 @@ class C {
                                                         "start": 160,
                                                         "end": 168
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "await",
@@ -348,7 +347,7 @@ class C {
                                                         "start": 364,
                                                         "end": 372
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {

@@ -97,7 +97,6 @@ async function foo() {
                             "start": 16,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -223,7 +222,7 @@ async function foo() {
                                             "start": 52,
                                             "end": 60
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {
@@ -346,7 +345,7 @@ async function foo() {
                 "start": 105,
                 "end": 114
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",

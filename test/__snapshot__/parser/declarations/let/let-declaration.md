@@ -36,7 +36,6 @@ let a, b = 42, c;b;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -53,7 +52,6 @@ let a, b = 42, c;b;
                             "start": 6,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -77,7 +75,6 @@ let a, b = 42, c;b;
                             "start": 14,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

@@ -85,7 +85,6 @@ try {} catch (e) { for (let e of y) {} }
                                                 "start": 27,
                                                 "end": 29
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

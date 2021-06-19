@@ -46,7 +46,6 @@ var x = {
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -63,7 +62,6 @@ var x = {
                             "start": 8,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -80,7 +78,6 @@ var x = {
                             "start": 17,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -118,7 +115,6 @@ var x = {
                             "start": 31,
                             "end": 33
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

@@ -71,7 +71,7 @@ while (false) label1: label2: function f() {}
                             "start": 29,
                             "end": 38
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "f",

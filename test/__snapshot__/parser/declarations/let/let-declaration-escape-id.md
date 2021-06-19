@@ -36,7 +36,6 @@ let \u0275ResourceLoaderImpl_BaseFactory
                             "start": 3,
                             "end": 40
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

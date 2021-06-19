@@ -188,7 +188,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "start": 57,
                                             "end": 59
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -248,7 +247,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "start": 74,
                                                 "end": 76
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -317,7 +315,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "start": 90,
                                             "end": 92
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -377,7 +374,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "start": 107,
                                                 "end": 109
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -438,7 +434,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "start": 126,
                                             "end": 128
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -699,7 +694,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "start": 228,
                                             "end": 230
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -759,7 +753,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "start": 245,
                                                 "end": 247
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -885,7 +878,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                                 "start": 282,
                                                                 "end": 284
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
@@ -945,7 +937,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                                     "start": 299,
                                                                     "end": 301
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -1006,7 +997,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                                 "start": 318,
                                                                 "end": 320
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
@@ -1064,7 +1054,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "start": 325,
                 "end": 335
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -1122,7 +1112,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "start": 351,
                                                             "end": 353
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -1182,7 +1171,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                                 "start": 368,
                                                                 "end": 370
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
@@ -1243,7 +1231,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "start": 387,
                                                             "end": 389
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,

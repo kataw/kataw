@@ -31,7 +31,7 @@ async function a(options = {}) {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "a",
@@ -124,7 +124,7 @@ async function a(options = {}) {
                 "start": 59,
                 "end": 68
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "a",

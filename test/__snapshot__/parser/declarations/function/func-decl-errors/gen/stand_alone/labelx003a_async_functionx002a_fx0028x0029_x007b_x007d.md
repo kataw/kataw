@@ -54,7 +54,7 @@ label: async function* f() { }
                     "start": 12,
                     "end": 21
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 21,

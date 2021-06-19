@@ -54,7 +54,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo1",
@@ -133,7 +133,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 29,
                 "end": 38
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo2",
@@ -212,7 +212,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 62,
                 "end": 71
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo3",
@@ -322,7 +322,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 111,
                 "end": 120
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo4",
@@ -409,7 +409,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 156,
                 "end": 165
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo5",
@@ -496,7 +496,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 201,
                 "end": 210
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo6",
@@ -587,7 +587,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 240,
                 "end": 249
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo7",
@@ -695,7 +695,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 279,
                 "end": 288
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo8",
@@ -803,7 +803,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 320,
                 "end": 329
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo9",
@@ -951,7 +951,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 368,
                 "end": 377
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo10",
@@ -1129,7 +1129,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 430,
                 "end": 439
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo11",
@@ -1349,7 +1349,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 503,
                 "end": 512
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo12",
@@ -1409,7 +1409,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 530,
                 "end": 539
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo13",
@@ -1498,7 +1498,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 561,
                 "end": 570
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo14",
@@ -1627,7 +1627,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 599,
                 "end": 608
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo15",
@@ -1761,7 +1761,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 638,
                 "end": 647
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo16",
@@ -1823,7 +1823,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 662,
                 "end": 671
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo17",
@@ -1900,7 +1900,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 685,
                 "end": 694
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo21",
@@ -2030,7 +2030,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 724,
                 "end": 733
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo22",
@@ -2161,7 +2161,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 762,
                 "end": 771
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo23",
@@ -2282,7 +2282,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 804,
                 "end": 813
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo27",
@@ -2368,7 +2368,7 @@ function foo28(numVal?: number = 2) {}
                 "start": 842,
                 "end": 851
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo28",

@@ -37,7 +37,6 @@ let gen = function*() {};
                             "start": 3,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -48,7 +47,7 @@ let gen = function*() {};
                                 "start": 10,
                                 "end": 19
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 19,
@@ -124,7 +123,6 @@ let gen = function*() {};
                             "start": 32,
                             "end": 36
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -135,7 +133,7 @@ let gen = function*() {};
                                 "start": 38,
                                 "end": 47
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 47,

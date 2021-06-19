@@ -44,7 +44,6 @@ let x = function *f(foo = await){}
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -55,7 +54,7 @@ let x = function *f(foo = await){}
                                 "start": 7,
                                 "end": 16
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 16,

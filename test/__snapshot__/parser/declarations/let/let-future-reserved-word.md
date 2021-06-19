@@ -46,7 +46,6 @@ let protecte\u0064;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -90,7 +89,6 @@ let protecte\u0064;
                             "start": 28,
                             "end": 38
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -127,7 +125,6 @@ let protecte\u0064;
                             "start": 44,
                             "end": 59
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

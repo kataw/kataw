@@ -695,7 +695,6 @@ switch (answer) { case 0: let a; };
                                                 "start": 238,
                                                 "end": 240
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,
@@ -1391,7 +1390,7 @@ switch (answer) { case 0: let a; };
                                     "start": 470,
                                     "end": 479
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 479,
@@ -2593,7 +2592,7 @@ switch (answer) { case 0: let a; };
                                     "start": 961,
                                     "end": 970
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -2659,7 +2658,7 @@ switch (answer) { case 0: let a; };
                                     "start": 992,
                                     "end": 1001
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -2866,7 +2865,7 @@ switch (answer) { case 0: let a; };
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -2993,7 +2992,7 @@ switch (answer) { case 0: let a; };
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -3284,7 +3283,7 @@ switch (answer) { case 0: let a; };
                                     "start": 1179,
                                     "end": 1188
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -3331,7 +3330,7 @@ switch (answer) { case 0: let a; };
                                     "start": 1194,
                                     "end": 1203
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -3439,7 +3438,7 @@ switch (answer) { case 0: let a; };
                                     "start": 1239,
                                     "end": 1248
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 1248,
@@ -3496,7 +3495,7 @@ switch (answer) { case 0: let a; };
                                     "start": 1261,
                                     "end": 1270
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 1270,
@@ -3616,7 +3615,6 @@ switch (answer) { case 0: let a; };
                                                 "start": 1305,
                                                 "end": 1307
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -3668,7 +3666,6 @@ switch (answer) { case 0: let a; };
                                                 "start": 1321,
                                                 "end": 1323
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -3756,7 +3753,6 @@ switch (answer) { case 0: let a; };
                                                 "start": 1351,
                                                 "end": 1353
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -3808,7 +3804,6 @@ switch (answer) { case 0: let a; };
                                                 "start": 1367,
                                                 "end": 1369
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -3890,7 +3885,7 @@ switch (answer) { case 0: let a; };
                                     "start": 1394,
                                     "end": 1403
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 1403,
@@ -3998,7 +3993,7 @@ switch (answer) { case 0: let a; };
                                     "start": 1436,
                                     "end": 1445
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 1445,
@@ -4293,7 +4288,7 @@ switch (answer) { case 0: let a; };
                                     "start": 1578,
                                     "end": 1586
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -4509,7 +4504,7 @@ switch (answer) { case 0: let a; };
                                     "start": 1662,
                                     "end": 1671
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -4779,7 +4774,7 @@ switch (answer) { case 0: let a; };
                                     "start": 1788,
                                     "end": 1796
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -5120,7 +5115,6 @@ switch (answer) { case 0: let a; };
                                                 "start": 1919,
                                                 "end": 1923
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
@@ -5220,7 +5214,6 @@ switch (answer) { case 0: let a; };
                                                 "start": 1960,
                                                 "end": 1962
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

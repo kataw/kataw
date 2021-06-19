@@ -40,7 +40,7 @@ x = {10n: y}
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392400,
                                     "text": "10",

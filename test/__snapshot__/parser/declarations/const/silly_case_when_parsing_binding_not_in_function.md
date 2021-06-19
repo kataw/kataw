@@ -44,7 +44,6 @@ const foo,)
                             "start": 5,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

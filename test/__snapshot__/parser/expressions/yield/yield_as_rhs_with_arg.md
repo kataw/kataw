@@ -25,7 +25,7 @@ function *g() { function f(x = x + yield y) {}; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -64,7 +64,7 @@ function *g() { function f(x = x + yield y) {}; }
                                 "start": 15,
                                 "end": 24
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",

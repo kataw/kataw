@@ -84,7 +84,6 @@ var { f: await f } = {};
                             "start": 3,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

@@ -14,7 +14,7 @@ import { TypeNode } from '../types';
 export interface FunctionExpression extends SyntaxNode {
   readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly functionKeyword: SyntaxToken<TokenSyntaxKind>;
-  readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly name: Identifier | PrivateIdentifier | DummyIdentifier | null;
   readonly formalParameterList: FormalParameterList;
   readonly contents: FunctionBody;
@@ -25,7 +25,7 @@ export interface FunctionExpression extends SyntaxNode {
 export function createFunctionExpression(
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   functionKeyword: SyntaxToken<TokenSyntaxKind>,
-  generatorToken: SyntaxToken<TokenSyntaxKind> | null,
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null,
   name: Identifier | null,
   formalParameterList: FormalParameterList,
   contents: FunctionBody,
@@ -37,13 +37,13 @@ export function createFunctionExpression(
 ): FunctionExpression {
   if (asyncKeyword) flags |= NodeFlags.Generator;
 
-  if (generatorToken) flags |= NodeFlags.Async;
+  if (asteriskToken) flags |= NodeFlags.Async;
 
   return {
     kind: SyntaxKind.FunctionExpression,
     asyncKeyword,
     functionKeyword,
-    generatorToken,
+    asteriskToken,
     name,
     typeParameters,
     formalParameterList,

@@ -171,7 +171,7 @@
                             "start": 26,
                             "end": 35
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": null,
                         "typeParameters": null,
                         "formalParameterList": {

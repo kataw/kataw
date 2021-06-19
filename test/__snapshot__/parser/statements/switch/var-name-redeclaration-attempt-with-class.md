@@ -73,7 +73,6 @@ switch (0) { case 1: var f; default: class f {} }
                                                 "start": 24,
                                                 "end": 26
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

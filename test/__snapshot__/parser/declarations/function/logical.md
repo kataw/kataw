@@ -546,7 +546,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 0,
                 "end": 60
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical1a",
@@ -592,7 +592,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 114,
                                             "end": 116
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
@@ -690,7 +689,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 150,
                 "end": 212
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical1b",
@@ -736,7 +735,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 242,
                                             "end": 244
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
@@ -834,7 +832,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 277,
                 "end": 331
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2a",
@@ -933,7 +931,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 406,
                 "end": 460
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2b",
@@ -1034,7 +1032,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 507,
                 "end": 561
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2c",
@@ -1135,7 +1133,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 607,
                 "end": 661
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2d",
@@ -1241,7 +1239,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 711,
                 "end": 765
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2e",
@@ -1342,7 +1340,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 814,
                 "end": 868
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2f",
@@ -1443,7 +1441,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 917,
                 "end": 971
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2g",
@@ -1575,7 +1573,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 1024,
                 "end": 1078
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2h",
@@ -1744,7 +1742,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 1139,
                 "end": 1193
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2i",
@@ -1886,7 +1884,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 1249,
                 "end": 1303
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2j",
@@ -2079,7 +2077,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 1374,
                 "end": 1428
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical2k",
@@ -2221,7 +2219,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 1486,
                 "end": 1544
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical3a",
@@ -2267,7 +2265,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 1598,
                                             "end": 1600
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -2428,7 +2425,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 1651,
                 "end": 1709
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical3b",
@@ -2474,7 +2471,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 1772,
                                             "end": 1774
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -2615,7 +2611,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 1820,
                 "end": 1878
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical3c",
@@ -2661,7 +2657,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 1943,
                                             "end": 1945
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -2816,7 +2811,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 1996,
                 "end": 2049
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical4",
@@ -2949,7 +2944,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 2138,
                 "end": 2199
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical5a",
@@ -2995,7 +2990,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 2229,
                                             "end": 2231
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
@@ -3093,7 +3087,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 2261,
                 "end": 2322
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical5b",
@@ -3139,7 +3133,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 2352,
                                             "end": 2354
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -3262,7 +3255,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 2392,
                 "end": 2454
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical5c",
@@ -3308,7 +3301,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 2508,
                                             "end": 2510
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
@@ -3406,7 +3398,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 2539,
                 "end": 2593
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical6a",
@@ -3505,7 +3497,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 2644,
                 "end": 2698
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical6b",
@@ -3606,7 +3598,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 2745,
                 "end": 2799
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical6c",
@@ -3707,7 +3699,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 2845,
                 "end": 2899
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical6d",
@@ -3813,7 +3805,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 2973,
                 "end": 3027
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical6e",
@@ -3914,7 +3906,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 3076,
                 "end": 3130
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical6f",
@@ -4015,7 +4007,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 3179,
                 "end": 3222
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical7a",
@@ -4061,7 +4053,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 3252,
                                             "end": 3254
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -4222,7 +4213,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 3305,
                 "end": 3380
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical7b",
@@ -4406,7 +4397,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 3449,
                 "end": 3492
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical7c",
@@ -4559,7 +4550,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 3549,
                 "end": 3592
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical7d",
@@ -4712,7 +4703,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 3657,
                 "end": 3700
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical7e",
@@ -4863,7 +4854,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 3765,
                 "end": 3954
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical8a",
@@ -4909,7 +4900,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 3984,
                                             "end": 3986
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
@@ -5033,7 +5023,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 4027,
                 "end": 4143
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical8b",
@@ -5079,7 +5069,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 4173,
                                             "end": 4175
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
@@ -5203,7 +5192,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 4216,
                 "end": 4312
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical8c",
@@ -5249,7 +5238,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 4342,
                                             "end": 4344
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
@@ -5373,7 +5361,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 4384,
                 "end": 4427
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical8d",
@@ -5419,7 +5407,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 4457,
                                             "end": 4459
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
@@ -5543,7 +5530,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 4500,
                 "end": 4543
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical8e",
@@ -5589,7 +5576,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 4573,
                                             "end": 4575
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 205586437,
@@ -5713,7 +5699,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 4616,
                 "end": 4659
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical8f",
@@ -5759,7 +5745,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 4713,
                                             "end": 4715
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
@@ -5883,7 +5868,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 4755,
                 "end": 4798
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical9a",
@@ -6079,7 +6064,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 4931,
                 "end": 4974
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical9b",
@@ -6275,7 +6260,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 5055,
                 "end": 5098
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical9c",
@@ -6459,7 +6444,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 5169,
                 "end": 5212
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical10a",
@@ -6655,7 +6640,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 5346,
                 "end": 5389
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical10b",
@@ -6874,7 +6859,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 5490,
                 "end": 5533
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical10c",
@@ -7093,7 +7078,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 5641,
                 "end": 5675
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical11a",
@@ -7139,7 +7124,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 5706,
                                             "end": 5708
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -7183,7 +7167,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 5726,
                                             "end": 5728
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -7377,7 +7360,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 5792,
                 "end": 5826
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical11b",
@@ -7454,7 +7437,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 5871,
                                             "end": 5873
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -7648,7 +7630,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 5958,
                 "end": 5992
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical12a",
@@ -7694,7 +7676,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 6023,
                                             "end": 6025
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -7739,7 +7720,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 6038,
                                             "end": 6040
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 24752947,
@@ -7781,7 +7761,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 6061,
                                             "end": 6063
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -8009,7 +7988,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 6143,
                 "end": 6177
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical12b",
@@ -8086,7 +8065,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 6222,
                                             "end": 6224
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -8280,7 +8258,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 6309,
                 "end": 6341
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical13",
@@ -8356,7 +8334,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -8414,7 +8392,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -8470,7 +8448,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -8524,7 +8502,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -8578,7 +8556,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -8636,7 +8614,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -8694,7 +8672,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -8752,7 +8730,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -8927,7 +8905,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 6628,
                 "end": 6660
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical14",
@@ -9003,7 +8981,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -9061,7 +9039,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -9117,7 +9095,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -9171,7 +9149,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -9225,7 +9203,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -9283,7 +9261,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -9341,7 +9319,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -9399,7 +9377,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -9574,7 +9552,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 6947,
                 "end": 6986
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical15a",
@@ -9733,7 +9711,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7045,
                 "end": 7084
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical15b",
@@ -9892,7 +9870,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7143,
                 "end": 7182
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical15c",
@@ -10051,7 +10029,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7241,
                 "end": 7280
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical15d",
@@ -10210,7 +10188,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7339,
                 "end": 7379
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical16a",
@@ -10369,7 +10347,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7439,
                 "end": 7479
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical16b",
@@ -10528,7 +10506,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7539,
                 "end": 7579
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical16c",
@@ -10687,7 +10665,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7639,
                 "end": 7679
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical16d",
@@ -10846,7 +10824,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7739,
                 "end": 7778
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical17a",
@@ -11005,7 +10983,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7839,
                 "end": 7878
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical17b",
@@ -11164,7 +11142,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 7939,
                 "end": 7978
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical17c",
@@ -11323,7 +11301,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 8039,
                 "end": 8078
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical17d",
@@ -11482,7 +11460,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 8139,
                 "end": 8211
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical18a",
@@ -11686,7 +11664,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 8283,
                 "end": 8345
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical18b",
@@ -11990,7 +11968,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 8431,
                 "end": 8495
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical19a",
@@ -12226,7 +12204,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "start": 8598,
                 "end": 8607
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "logical19b",

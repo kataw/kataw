@@ -75,7 +75,6 @@ L: let
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -113,7 +112,6 @@ L: let
                             "start": 13,
                             "end": 17
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -130,7 +128,6 @@ L: let
                             "start": 18,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -216,7 +213,7 @@ L: let
                 "start": 48,
                 "end": 58
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "let",
@@ -266,7 +263,7 @@ L: let
                         "start": 71,
                         "end": 79
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "let",
@@ -321,7 +318,7 @@ L: let
                 "start": 90,
                 "end": 100
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -377,7 +374,7 @@ L: let
                 "start": 113,
                 "end": 123
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -487,7 +484,6 @@ L: let
                             "start": 156,
                             "end": 160
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 125,
@@ -629,7 +625,7 @@ L: let
                         "start": 200,
                         "end": 208
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",
@@ -719,7 +715,7 @@ L: let
                 "start": 226,
                 "end": 236
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "let",
@@ -879,7 +875,7 @@ L: let
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "let",

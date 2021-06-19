@@ -61,7 +61,7 @@
                                 "start": 25,
                                 "end": 34
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "my_var",

@@ -61,7 +61,7 @@ function x8(a: false & false): false {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x0",
@@ -186,7 +186,7 @@ function x8(a: false & false): false {
                 "start": 83,
                 "end": 93
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x1",
@@ -311,7 +311,7 @@ function x8(a: false & false): false {
                 "start": 171,
                 "end": 181
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x3",
@@ -423,7 +423,7 @@ function x8(a: false & false): false {
                 "start": 252,
                 "end": 262
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x4",
@@ -548,7 +548,7 @@ function x8(a: false & false): false {
                 "start": 329,
                 "end": 339
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x5",
@@ -716,7 +716,7 @@ function x8(a: false & false): false {
                 "start": 385,
                 "end": 395
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x6",
@@ -884,7 +884,7 @@ function x8(a: false & false): false {
                 "start": 460,
                 "end": 470
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x7",
@@ -1029,7 +1029,7 @@ function x8(a: false & false): false {
                 "start": 521,
                 "end": 531
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x8",

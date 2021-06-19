@@ -104,7 +104,6 @@
                                                 "start": 38,
                                                 "end": 42
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

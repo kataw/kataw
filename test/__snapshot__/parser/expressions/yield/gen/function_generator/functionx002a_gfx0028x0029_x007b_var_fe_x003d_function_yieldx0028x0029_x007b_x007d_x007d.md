@@ -33,7 +33,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                 "start": 18,
                                 "end": 27
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
@@ -106,7 +106,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                 "start": 39,
                                                 "end": 48
                                             },
-                                            "generatorToken": {
+                                            "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 48,
@@ -157,7 +157,6 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                                             "start": 60,
                                                                             "end": 63
                                                                         },
-                                                                        "optionalToken": null,
                                                                         "type": null,
                                                                         "initializer": {
                                                                             "kind": 177,
@@ -168,7 +167,7 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
                                                                                 "start": 65,
                                                                                 "end": 74
                                                                             },
-                                                                            "generatorToken": null,
+                                                                            "asteriskToken": null,
                                                                             "name": {
                                                                                 "kind": 134299649,
                                                                                 "text": "yield",

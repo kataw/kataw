@@ -45,7 +45,6 @@ function* g() {
                             "start": 3,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -62,7 +61,6 @@ function* g() {
                             "start": 13,
                             "end": 15
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -79,7 +77,6 @@ function* g() {
                             "start": 16,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -105,7 +102,7 @@ function* g() {
                 "start": 22,
                 "end": 31
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 31,
@@ -163,7 +160,7 @@ function* g() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": {
@@ -253,7 +250,7 @@ function* g() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": null,

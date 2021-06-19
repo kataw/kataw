@@ -66,7 +66,7 @@ switch (0) { case 1: async function* f() {} default: var f }
                                     "start": 26,
                                     "end": 35
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 35,
@@ -144,7 +144,6 @@ switch (0) { case 1: async function* f() {} default: var f }
                                                 "start": 56,
                                                 "end": 58
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

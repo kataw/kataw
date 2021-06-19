@@ -66,7 +66,7 @@ switch (0) { case 1: async function f() {} default: let f }
                                     "start": 26,
                                     "end": 35
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
@@ -138,7 +138,6 @@ switch (0) { case 1: async function f() {} default: let f }
                                                 "start": 55,
                                                 "end": 57
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

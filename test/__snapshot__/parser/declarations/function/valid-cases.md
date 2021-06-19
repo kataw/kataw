@@ -87,7 +87,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -130,7 +130,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "start": 17,
                                 "end": 25
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "h",
@@ -263,7 +263,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 46,
                 "end": 56
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -374,7 +374,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 74,
                 "end": 84
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -561,7 +561,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 138,
                 "end": 148
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -755,7 +755,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 194,
                 "end": 204
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -920,7 +920,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 238,
                 "end": 248
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -1088,7 +1088,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 290,
                 "end": 300
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -1180,7 +1180,6 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 320,
                                             "end": 324
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -1264,7 +1263,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 338,
                 "end": 348
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -1454,7 +1453,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 387,
                 "end": 397
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -1642,7 +1641,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 437,
                 "end": 447
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -1824,7 +1823,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 483,
                 "end": 493
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -1998,7 +1997,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 541,
                 "end": 551
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -2197,7 +2196,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 589,
                 "end": 599
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -2291,7 +2290,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "start": 618,
                                                 "end": 626
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": null,
                                             "typeParameters": null,
                                             "formalParameterList": {
@@ -2431,7 +2430,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 649,
                 "end": 659
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -2635,7 +2634,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 702,
                 "end": 712
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -2842,7 +2841,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 763,
                 "end": 773
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -3025,7 +3024,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 818,
                 "end": 828
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -3204,7 +3203,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 871,
                 "end": 881
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -3372,7 +3371,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 919,
                 "end": 929
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -3540,7 +3539,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 980,
                 "end": 990
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -3758,7 +3757,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 1042,
                 "end": 1052
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -3924,7 +3923,7 @@ function f({x:arg = (arg = 2)}) {}
                 "start": 1085,
                 "end": 1095
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",

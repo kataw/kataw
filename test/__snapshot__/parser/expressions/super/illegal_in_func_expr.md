@@ -42,7 +42,7 @@ x = function(){ super.foo; }
                         "start": 3,
                         "end": 12
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {

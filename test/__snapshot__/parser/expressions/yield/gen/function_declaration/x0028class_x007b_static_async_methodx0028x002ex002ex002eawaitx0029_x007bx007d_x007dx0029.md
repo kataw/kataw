@@ -33,7 +33,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -82,7 +82,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                     "kind": 278,
                                                     "declareToken": null,
                                                     "decorators": null,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "staticKeyword": {
                                                         "kind": 8388716,
                                                         "flags": 64,

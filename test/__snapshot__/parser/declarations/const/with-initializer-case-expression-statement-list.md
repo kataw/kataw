@@ -68,7 +68,6 @@ switch (true) { case true: const x = 1; }
                                                 "start": 32,
                                                 "end": 34
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,

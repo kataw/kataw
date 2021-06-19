@@ -93,7 +93,7 @@
                                                                 "properties": [
                                                                     {
                                                                         "kind": 219,
-                                                                        "generatorToken": null,
+                                                                        "asteriskToken": null,
                                                                         "left": {
                                                                             "kind": 134299649,
                                                                             "text": "yield",
@@ -181,7 +181,7 @@
 
 ```javascript
 
-({ * async gen {
+({ async gen {
     yield /* comment */ { yield: 12 };
   } });
 ```

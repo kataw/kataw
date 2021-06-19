@@ -1,6 +1,9 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '../expressions/index';
+import { ObjectBindingPattern } from '../expressions/object-binding-pattern';
+import { ArrayBindingPattern } from '../expressions/array-binding-pattern';
+import { Identifier } from '../expressions/identifier-expr';
+import { DummyIdentifier } from '../internal/dummy-identifier';
 import { TypeNode } from '../types';
 
 /**
@@ -8,15 +11,13 @@ import { TypeNode } from '../types';
  */
 
 export interface LexicalBinding extends SyntaxNode {
-  readonly binding: any;
-  readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly binding: ObjectBindingPattern | ArrayBindingPattern | Identifier | DummyIdentifier;
   readonly type: TypeNode | null;
   readonly initializer: ExpressionNode | null;
 }
 
 export function createLexicalBinding(
-  binding: any,
-  optionalToken: SyntaxToken<TokenSyntaxKind> | null,
+  binding: ObjectBindingPattern | ArrayBindingPattern | Identifier | DummyIdentifier,
   type: TypeNode | null,
   initializer: ExpressionNode | null,
   start: number,
@@ -25,7 +26,6 @@ export function createLexicalBinding(
   return {
     kind: SyntaxKind.LexicalBinding,
     binding,
-    optionalToken,
     type,
     initializer,
     flags: NodeFlags.IsStatement,

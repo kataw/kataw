@@ -76,7 +76,6 @@ function targetKey() {
                             "start": 4,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -115,7 +114,7 @@ function targetKey() {
                 "start": 14,
                 "end": 24
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "source",
@@ -346,7 +345,7 @@ function targetKey() {
                 "start": 138,
                 "end": 147
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "target",
@@ -586,7 +585,7 @@ function targetKey() {
                 "start": 262,
                 "end": 271
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "sourceKey",
@@ -676,7 +675,7 @@ function targetKey() {
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "toString",
@@ -694,7 +693,7 @@ function targetKey() {
                                                     "start": 344,
                                                     "end": 353
                                                 },
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "name": null,
                                                 "typeParameters": null,
                                                 "formalParameterList": {
@@ -838,7 +837,7 @@ function targetKey() {
                 "start": 445,
                 "end": 454
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "targetKey",
@@ -928,7 +927,7 @@ function targetKey() {
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "toString",
@@ -946,7 +945,7 @@ function targetKey() {
                                                     "start": 527,
                                                     "end": 536
                                                 },
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "name": null,
                                                 "typeParameters": null,
                                                 "formalParameterList": {
@@ -1093,7 +1092,7 @@ function targetKey() {
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 194,
                                         "expression": {

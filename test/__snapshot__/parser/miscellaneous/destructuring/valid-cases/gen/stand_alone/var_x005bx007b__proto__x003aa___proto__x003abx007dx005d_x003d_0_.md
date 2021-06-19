@@ -115,7 +115,6 @@ var [{__proto__:a, __proto__:b}] = 0;
                             "start": 3,
                             "end": 32
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

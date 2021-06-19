@@ -61,7 +61,7 @@ switch(0) { default: function f(){ break; } }
                                     "start": 20,
                                     "end": 29
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",

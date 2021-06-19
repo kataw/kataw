@@ -65,7 +65,6 @@ Object.defineProperty(this, "x", {
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -110,7 +109,6 @@ Object.defineProperty(this, "x", {
                             "start": 18,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 4276321,
@@ -181,7 +179,7 @@ Object.defineProperty(this, "x", {
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "configurable",
@@ -202,7 +200,7 @@ Object.defineProperty(this, "x", {
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "value",
@@ -262,7 +260,7 @@ Object.defineProperty(this, "x", {
                             "start": 109,
                             "end": 117
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": null,
                         "typeParameters": null,
                         "formalParameterList": {

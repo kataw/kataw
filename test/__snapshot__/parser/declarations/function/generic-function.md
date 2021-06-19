@@ -42,7 +42,7 @@ function from<T>(arg: any): Query<T> {
                 "start": 7,
                 "end": 16
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "from",
@@ -203,7 +203,7 @@ function from<T>(arg: any): Query<T> {
                 "start": 49,
                 "end": 58
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "from",

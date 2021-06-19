@@ -114,7 +114,6 @@ it => { var [,,...rest] = it; return rest; }
                                                 "start": 11,
                                                 "end": 23
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,

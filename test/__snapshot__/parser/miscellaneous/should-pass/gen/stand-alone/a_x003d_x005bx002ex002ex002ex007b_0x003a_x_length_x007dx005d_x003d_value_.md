@@ -63,7 +63,7 @@ a = [...{ 0: x, length }] = value;
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 201392130,
                                                         "text": 0,

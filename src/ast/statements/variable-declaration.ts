@@ -1,5 +1,4 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '../expressions/index';
 import { ObjectBindingPattern } from '../expressions/object-binding-pattern';
 import { ArrayBindingPattern } from '../expressions/array-binding-pattern';
@@ -13,14 +12,12 @@ import { TypeNode } from '../types';
 
 export interface VariableDeclaration extends SyntaxNode {
   readonly binding: ObjectBindingPattern | ArrayBindingPattern | Identifier | DummyIdentifier;
-  readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly type: TypeNode | null; // Optional type annotation
-  readonly initializer: ExpressionNode | null; // Optional initializer
+  readonly type: TypeNode | null;
+  readonly initializer: ExpressionNode | null;
 }
 
 export function createVariableDeclaration(
   binding: ObjectBindingPattern | ArrayBindingPattern | Identifier | DummyIdentifier,
-  optionalToken: SyntaxToken<TokenSyntaxKind> | null,
   type: TypeNode | null,
   initializer: ExpressionNode | null,
   start: number,
@@ -29,7 +26,6 @@ export function createVariableDeclaration(
   return {
     kind: SyntaxKind.VariableDeclaration,
     binding,
-    optionalToken,
     type,
     initializer,
     flags: NodeFlags.IsStatement,

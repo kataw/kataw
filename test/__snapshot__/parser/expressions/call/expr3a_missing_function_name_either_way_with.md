@@ -45,7 +45,7 @@
                 "start": 6,
                 "end": 16
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {

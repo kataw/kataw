@@ -33,7 +33,7 @@ function not_gen() { async function f(){ await await foo; } }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -72,7 +72,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "start": 26,
                                 "end": 35
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",

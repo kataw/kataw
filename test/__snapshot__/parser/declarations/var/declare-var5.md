@@ -50,7 +50,6 @@ declare var x3: ?(() => (() => number));
                             "start": 11,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

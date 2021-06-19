@@ -63,7 +63,7 @@ class C {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -152,7 +152,7 @@ class C {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -222,7 +222,7 @@ class C {
                 "start": 43,
                 "end": 52
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -327,7 +327,6 @@ class C {
                                         "start": 71,
                                         "end": 73
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
@@ -477,7 +476,7 @@ class C {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -539,7 +538,6 @@ class C {
                                                                 "start": 143,
                                                                 "end": 145
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
@@ -621,7 +619,6 @@ class C {
                             "start": 161,
                             "end": 163
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

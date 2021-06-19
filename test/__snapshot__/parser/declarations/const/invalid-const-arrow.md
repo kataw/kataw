@@ -44,7 +44,6 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             "start": 5,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

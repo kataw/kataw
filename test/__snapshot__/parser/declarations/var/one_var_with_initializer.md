@@ -78,7 +78,6 @@ var [foo=a] = arr;
                             "start": 3,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

@@ -37,7 +37,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "remove",
@@ -207,7 +207,6 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                             "start": 60,
                                             "end": 70
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,

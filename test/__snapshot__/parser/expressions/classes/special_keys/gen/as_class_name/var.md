@@ -88,7 +88,6 @@ class var {}
                             "start": 9,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

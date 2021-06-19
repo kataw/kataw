@@ -42,7 +42,6 @@ let x = a ? (b, c) : (d, e)
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,

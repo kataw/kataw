@@ -65,7 +65,7 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                     "start": 25,
                                     "end": 33
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {

@@ -47,7 +47,7 @@
                 "start": 19,
                 "end": 28
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "g",
@@ -92,7 +92,6 @@
                                             "start": 36,
                                             "end": 38
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 177,
@@ -108,7 +107,7 @@
                                                 "start": 46,
                                                 "end": 55
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "f",
@@ -154,7 +153,7 @@
                                                                             "properties": [
                                                                                 {
                                                                                     "kind": 219,
-                                                                                    "generatorToken": null,
+                                                                                    "asteriskToken": null,
                                                                                     "left": {
                                                                                         "kind": 134299649,
                                                                                         "text": "m",

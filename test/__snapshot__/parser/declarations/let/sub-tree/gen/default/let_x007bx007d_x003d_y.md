@@ -80,7 +80,6 @@ switch (a) { default: let
                                                 "start": 25,
                                                 "end": 28
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,

@@ -60,7 +60,7 @@
                 "start": 8,
                 "end": 17
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {
@@ -117,7 +117,6 @@
                             "start": 23,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

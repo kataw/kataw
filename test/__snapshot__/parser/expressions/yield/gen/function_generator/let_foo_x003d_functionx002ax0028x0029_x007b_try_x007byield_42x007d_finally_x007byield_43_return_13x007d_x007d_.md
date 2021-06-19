@@ -33,7 +33,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                 "start": 18,
                                 "end": 27
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
@@ -117,7 +117,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                             "start": 43,
                                                             "end": 47
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 177,
@@ -128,7 +127,7 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                 "start": 49,
                                                                 "end": 58
                                                             },
-                                                            "generatorToken": {
+                                                            "asteriskToken": {
                                                                 "kind": 67143222,
                                                                 "flags": 64,
                                                                 "start": 58,

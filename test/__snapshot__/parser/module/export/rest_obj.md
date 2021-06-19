@@ -80,7 +80,6 @@ export let {...x} = y
                                 "start": 10,
                                 "end": 17
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 134299649,

@@ -45,7 +45,6 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                             "start": 10,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -160,7 +159,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                         "start": 39,
                                         "end": 48
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": null,
                                     "typeParameters": null,
                                     "formalParameterList": {

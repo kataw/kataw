@@ -1116,7 +1116,6 @@
                                                 "start": 444,
                                                 "end": 446
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
@@ -1212,7 +1211,6 @@
                                                 "start": 484,
                                                 "end": 486
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 198,
@@ -1348,7 +1346,6 @@
                                                 "start": 529,
                                                 "end": 535
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -1437,7 +1434,6 @@
                                                 "start": 565,
                                                 "end": 571
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,
@@ -1548,7 +1544,6 @@
                                                 "start": 605,
                                                 "end": 613
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 119,
@@ -1682,7 +1677,6 @@
                                                 "start": 648,
                                                 "end": 660
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 119,
@@ -1814,7 +1808,6 @@
                                                 "start": 695,
                                                 "end": 706
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 119,
@@ -1947,7 +1940,6 @@
                                                 "start": 741,
                                                 "end": 752
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 220,
@@ -2064,7 +2056,6 @@
                                                 "start": 787,
                                                 "end": 795
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 220,
@@ -2198,7 +2189,6 @@
                                                 "start": 830,
                                                 "end": 842
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 220,
@@ -2299,7 +2289,6 @@
                                                 "start": 877,
                                                 "end": 883
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -2387,7 +2376,6 @@
                                                 "start": 913,
                                                 "end": 919
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 201392130,
@@ -2497,7 +2485,6 @@
                                                 "start": 953,
                                                 "end": 961
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 119,
@@ -2630,7 +2617,6 @@
                                                 "start": 996,
                                                 "end": 1008
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 119,
@@ -2761,7 +2747,6 @@
                                                 "start": 1043,
                                                 "end": 1054
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 119,
@@ -2893,7 +2878,6 @@
                                                 "start": 1089,
                                                 "end": 1100
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 220,
@@ -3009,7 +2993,6 @@
                                                 "start": 1135,
                                                 "end": 1143
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 220,

@@ -176,7 +176,6 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                             "start": 3,
                             "end": 29
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

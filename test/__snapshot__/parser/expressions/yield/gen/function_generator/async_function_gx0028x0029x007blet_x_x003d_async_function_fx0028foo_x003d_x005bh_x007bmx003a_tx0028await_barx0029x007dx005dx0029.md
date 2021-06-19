@@ -33,7 +33,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -72,7 +72,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                 "start": 18,
                                 "end": 27
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
@@ -111,7 +111,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                 "start": 45,
                                                 "end": 54
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "g",
@@ -156,7 +156,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                             "start": 62,
                                                                             "end": 64
                                                                         },
-                                                                        "optionalToken": null,
                                                                         "type": null,
                                                                         "initializer": {
                                                                             "kind": 177,
@@ -172,7 +171,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                 "start": 72,
                                                                                 "end": 81
                                                                             },
-                                                                            "generatorToken": null,
+                                                                            "asteriskToken": null,
                                                                             "name": {
                                                                                 "kind": 134299649,
                                                                                 "text": "f",
@@ -218,7 +217,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                             "properties": [
                                                                                                                 {
                                                                                                                     "kind": 219,
-                                                                                                                    "generatorToken": null,
+                                                                                                                    "asteriskToken": null,
                                                                                                                     "left": {
                                                                                                                         "kind": 134299649,
                                                                                                                         "text": "m",

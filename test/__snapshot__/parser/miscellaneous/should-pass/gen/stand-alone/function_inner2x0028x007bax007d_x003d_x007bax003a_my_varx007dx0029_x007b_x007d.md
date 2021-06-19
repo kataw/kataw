@@ -33,7 +33,7 @@ function inner2({a} = {a: my_var}) { }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "inner2",
@@ -81,7 +81,7 @@ function inner2({a} = {a: my_var}) { }
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",

@@ -46,7 +46,6 @@
                             "start": 10,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": {

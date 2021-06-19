@@ -51,7 +51,7 @@ function x({x}) { "use strict"; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x",
@@ -133,7 +133,7 @@ function x({x}) { "use strict"; }
                 "start": 35,
                 "end": 45
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x",
@@ -213,7 +213,7 @@ function x({x}) { "use strict"; }
                 "start": 71,
                 "end": 81
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x",
@@ -293,7 +293,7 @@ function x({x}) { "use strict"; }
                 "start": 106,
                 "end": 116
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x",

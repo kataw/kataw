@@ -60,7 +60,6 @@ export let
                                 "start": 10,
                                 "end": 13
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": null,
                             "flags": 16,

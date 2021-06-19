@@ -52,7 +52,7 @@ class x {* interface(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 9,

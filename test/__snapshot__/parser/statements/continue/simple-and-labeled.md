@@ -42,7 +42,6 @@ label: for (let x = 0; x < 10;) {
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -102,7 +101,6 @@ label: for (let x = 0; x < 10;) {
                                 "start": 30,
                                 "end": 32
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,

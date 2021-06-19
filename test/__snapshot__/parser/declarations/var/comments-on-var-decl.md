@@ -86,7 +86,6 @@ n4 = z2;
                             "start": 27,
                             "end": 38
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -131,7 +130,6 @@ n4 = z2;
                             "start": 114,
                             "end": 130
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -176,7 +174,6 @@ n4 = z2;
                             "start": 161,
                             "end": 166
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,
@@ -221,7 +218,6 @@ n4 = z2;
                             "start": 253,
                             "end": 276
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -266,7 +262,6 @@ n4 = z2;
                             "start": 455,
                             "end": 457
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -345,7 +340,6 @@ n4 = z2;
                             "start": 720,
                             "end": 722
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -390,7 +384,6 @@ n4 = z2;
                             "start": 784,
                             "end": 786
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -435,7 +428,6 @@ n4 = z2;
                             "start": 867,
                             "end": 870
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -480,7 +472,6 @@ n4 = z2;
                             "start": 923,
                             "end": 925
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -624,7 +615,6 @@ n4 = z2;
                             "start": 987,
                             "end": 990
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -735,7 +725,6 @@ n4 = z2;
                             "start": 1038,
                             "end": 1041
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -780,7 +769,6 @@ n4 = z2;
                             "start": 1052,
                             "end": 1055
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

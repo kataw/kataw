@@ -48,7 +48,6 @@ const f = async <T, R, S>(
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 198,
@@ -92,7 +91,6 @@ const f = async <T, R, S>(
                             "start": 19,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -109,7 +107,6 @@ const f = async <T, R, S>(
                             "start": 22,
                             "end": 24
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

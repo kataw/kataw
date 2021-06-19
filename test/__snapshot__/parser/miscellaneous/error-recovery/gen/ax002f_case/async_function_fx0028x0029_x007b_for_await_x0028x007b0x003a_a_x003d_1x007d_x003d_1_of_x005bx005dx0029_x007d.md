@@ -38,7 +38,7 @@ async function f() { for await ({0: a = 1} = 1 of []) ; }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -85,7 +85,7 @@ async function f() { for await ({0: a = 1} = 1 of []) ; }
                                         "properties": [
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 201392130,
                                                     "text": 0,

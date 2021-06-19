@@ -45,7 +45,6 @@ var O = { p: 1 }, x = 10; ; if (++delete O.p ** 10) { foo(); }
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -54,7 +53,7 @@ var O = { p: 1 }, x = 10; ; if (++delete O.p ** 10) { foo(); }
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "p",
@@ -99,7 +98,6 @@ var O = { p: 1 }, x = 10; ; if (++delete O.p ** 10) { foo(); }
                             "start": 17,
                             "end": 19
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

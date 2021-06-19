@@ -55,7 +55,6 @@ declare var union: Foo | null | void;
                             "start": 11,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -120,7 +119,6 @@ declare var union: Foo | null | void;
                             "start": 31,
                             "end": 37
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -185,7 +183,6 @@ declare var union: Foo | null | void;
                             "start": 57,
                             "end": 61
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -241,7 +238,6 @@ declare var union: Foo | null | void;
                             "start": 79,
                             "end": 85
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -306,7 +302,6 @@ declare var union: Foo | null | void;
                             "start": 105,
                             "end": 111
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -383,7 +378,6 @@ declare var union: Foo | null | void;
                             "start": 130,
                             "end": 136
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

@@ -45,7 +45,6 @@ var asyncFn = async (await) => 'test';
                             "start": 3,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

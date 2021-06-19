@@ -39,7 +39,7 @@ async function * gen() {var [await] = [42];}
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 14,
@@ -105,7 +105,6 @@ async function * gen() {var [await] = [42];}
                                             "start": 27,
                                             "end": 35
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 119,

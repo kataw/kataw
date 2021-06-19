@@ -82,7 +82,6 @@ const {a: b = my_var} = {}
                             "start": 5,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

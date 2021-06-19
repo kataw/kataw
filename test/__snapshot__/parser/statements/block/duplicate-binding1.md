@@ -30,7 +30,7 @@
                             "start": 1,
                             "end": 10
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "x",
@@ -94,7 +94,6 @@
                                                     "start": 22,
                                                     "end": 24
                                                 },
-                                                "optionalToken": null,
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,

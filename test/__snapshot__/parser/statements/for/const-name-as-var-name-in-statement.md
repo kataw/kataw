@@ -36,7 +36,6 @@ for (const x = y;;) { var x; }
                             "start": 10,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -84,7 +83,6 @@ for (const x = y;;) { var x; }
                                             "start": 25,
                                             "end": 27
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

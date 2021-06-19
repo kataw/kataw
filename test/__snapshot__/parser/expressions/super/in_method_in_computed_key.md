@@ -85,7 +85,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "left": {
                                                                         "kind": 194,
                                                                         "expression": {

@@ -25,7 +25,7 @@ function foo(001, 003) { "use strict"; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",

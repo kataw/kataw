@@ -131,7 +131,6 @@ for (var {name: n, family: {father: f}} of people) {}
                             "start": 8,
                             "end": 39
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

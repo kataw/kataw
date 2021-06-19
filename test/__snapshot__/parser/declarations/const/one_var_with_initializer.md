@@ -87,7 +87,6 @@ const [foo=a] = arr;
                             "start": 5,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

@@ -65,7 +65,6 @@ const {q}: string = y;
                             "start": 6,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -160,7 +159,6 @@ const {q}: string = y;
                             "start": 30,
                             "end": 41
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -232,7 +230,6 @@ const {q}: string = y;
                             "start": 61,
                             "end": 65
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

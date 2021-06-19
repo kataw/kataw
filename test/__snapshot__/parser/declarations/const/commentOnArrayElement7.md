@@ -36,7 +36,6 @@ const array = [/* element 1 */ 1, /* end of element 1 */];
                             "start": 5,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,

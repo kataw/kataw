@@ -52,7 +52,6 @@ const bar9 = <T>(x) => {};
                             "start": 5,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -163,7 +162,6 @@ const bar9 = <T>(x) => {};
                             "start": 45,
                             "end": 50
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -253,7 +251,6 @@ const bar9 = <T>(x) => {};
                             "start": 70,
                             "end": 75
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -356,7 +353,6 @@ const bar9 = <T>(x) => {};
                             "start": 103,
                             "end": 108
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -467,7 +463,6 @@ const bar9 = <T>(x) => {};
                             "start": 139,
                             "end": 144
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -583,7 +578,6 @@ const bar9 = <T>(x) => {};
                             "start": 178,
                             "end": 183
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -656,7 +650,6 @@ const bar9 = <T>(x) => {};
                             "start": 200,
                             "end": 205
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -744,7 +737,6 @@ const bar9 = <T>(x) => {};
                             "start": 232,
                             "end": 237
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -842,7 +834,6 @@ const bar9 = <T>(x) => {};
                             "start": 264,
                             "end": 269
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

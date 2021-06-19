@@ -84,7 +84,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "foo",
@@ -187,7 +187,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "foo",
@@ -299,7 +299,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392131,
                                     "text": "foo",
@@ -402,7 +402,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392131,
                                     "text": "foo",
@@ -514,7 +514,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -617,7 +617,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -1460,7 +1460,7 @@ x = {y: {z: 1}}?.y?.z;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -1565,7 +1565,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "y",
@@ -1581,7 +1581,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "z",
@@ -1725,7 +1725,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "y",
@@ -1741,7 +1741,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "z",
@@ -1855,7 +1855,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "foo",
@@ -1958,7 +1958,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "foo",
@@ -2145,7 +2145,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "set",
@@ -2195,7 +2195,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "if",
@@ -2325,7 +2325,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "interface",
@@ -2455,7 +2455,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "async",
@@ -2707,7 +2707,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "foo",
@@ -2819,7 +2819,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -2931,7 +2931,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "get",
@@ -3034,7 +3034,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "set",
@@ -3146,7 +3146,7 @@ x = {y: {z: 1}}?.y?.z;
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -3169,7 +3169,7 @@ x = {y: {z: 1}}?.y?.z;
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 2,

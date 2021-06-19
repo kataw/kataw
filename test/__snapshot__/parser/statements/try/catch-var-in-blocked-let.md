@@ -83,7 +83,6 @@ try {} catch (e) { { let e = x; } }
                                                             "start": 24,
                                                             "end": 26
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 134299649,

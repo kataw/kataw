@@ -44,7 +44,6 @@ const x = y, {z};
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -83,7 +82,6 @@ const x = y, {z};
                             "start": 12,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

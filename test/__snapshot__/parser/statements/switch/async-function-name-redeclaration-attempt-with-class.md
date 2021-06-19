@@ -66,7 +66,7 @@ switch (0) { case 1: async function f() {} default: class f {} }
                                     "start": 26,
                                     "end": 35
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",

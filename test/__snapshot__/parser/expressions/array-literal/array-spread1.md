@@ -52,7 +52,6 @@ var y: Array<string> = ['3', ...x];
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -128,7 +127,6 @@ var y: Array<string> = ['3', ...x];
                             "start": 20,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -200,7 +198,6 @@ var y: Array<string> = ['3', ...x];
                             "start": 36,
                             "end": 38
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -484,7 +481,6 @@ var y: Array<string> = ['3', ...x];
                             "start": 104,
                             "end": 106
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -602,7 +598,6 @@ var y: Array<string> = ['3', ...x];
                             "start": 139,
                             "end": 141
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

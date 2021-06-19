@@ -45,7 +45,6 @@ var await; var f = (async function() { ({ await: async }) });
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -83,7 +82,6 @@ var await; var f = (async function() { ({ await: async }) });
                             "start": 14,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 121,
@@ -101,7 +99,7 @@ var await; var f = (async function() { ({ await: async }) });
                                     "start": 25,
                                     "end": 34
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {
@@ -129,7 +127,7 @@ var await; var f = (async function() { ({ await: async }) });
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "left": {
                                                                         "kind": 134299649,
                                                                         "text": "await",

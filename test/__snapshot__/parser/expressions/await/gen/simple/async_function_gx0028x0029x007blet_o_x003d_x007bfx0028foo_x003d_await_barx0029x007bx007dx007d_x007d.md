@@ -38,7 +38,7 @@ async function g(){let o = {f(foo = await bar){}}    }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "g",
@@ -83,7 +83,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                             "start": 22,
                                             "end": 24
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 220,

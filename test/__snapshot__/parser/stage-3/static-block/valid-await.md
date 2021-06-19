@@ -104,7 +104,6 @@ class C {
                                                                                     "start": 37,
                                                                                     "end": 43
                                                                                 },
-                                                                                "optionalToken": null,
                                                                                 "type": null,
                                                                                 "initializer": null,
                                                                                 "flags": 16,

@@ -59,7 +59,6 @@ class C {
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -131,7 +130,6 @@ class C {
                                                             "start": 39,
                                                             "end": 45
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -183,7 +181,6 @@ class C {
                                                             "start": 105,
                                                             "end": 115
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 220,
@@ -401,7 +398,7 @@ class C {
                                                         "start": 394,
                                                         "end": 402
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "await",
@@ -507,7 +504,7 @@ class C {
                                                         "start": 598,
                                                         "end": 606
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {

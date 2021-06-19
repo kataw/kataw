@@ -39,7 +39,7 @@ x({a:b, c:d}=obj);
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -62,7 +62,7 @@ x({a:b, c:d}=obj);
                                         },
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "c",

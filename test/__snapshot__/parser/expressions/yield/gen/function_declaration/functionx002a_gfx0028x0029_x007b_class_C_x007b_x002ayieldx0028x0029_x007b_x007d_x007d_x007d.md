@@ -33,7 +33,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -67,7 +67,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                 "start": 20,
                                 "end": 29
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 29,
@@ -125,7 +125,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
-                                                            "generatorToken": {
+                                                            "asteriskToken": {
                                                                 "kind": 67143222,
                                                                 "flags": 64,
                                                                 "start": 47,

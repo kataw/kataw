@@ -152,7 +152,6 @@ class c9 {
                             "start": 79,
                             "end": 82
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 210,
@@ -217,7 +216,6 @@ class c9 {
                             "start": 98,
                             "end": 103
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -269,7 +267,7 @@ class c9 {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -351,7 +349,6 @@ class c9 {
                             "start": 242,
                             "end": 245
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 210,
@@ -416,7 +413,6 @@ class c9 {
                             "start": 261,
                             "end": 266
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -468,7 +464,7 @@ class c9 {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -550,7 +546,6 @@ class c9 {
                             "start": 404,
                             "end": 407
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 210,
@@ -615,7 +610,6 @@ class c9 {
                             "start": 423,
                             "end": 428
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -743,7 +737,6 @@ class c9 {
                             "start": 499,
                             "end": 502
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 210,
@@ -808,7 +801,6 @@ class c9 {
                             "start": 518,
                             "end": 523
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -905,7 +897,7 @@ class c9 {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -987,7 +979,6 @@ class c9 {
                             "start": 763,
                             "end": 766
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 210,
@@ -1052,7 +1043,6 @@ class c9 {
                             "start": 782,
                             "end": 787
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1149,7 +1139,7 @@ class c9 {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -1231,7 +1221,6 @@ class c9 {
                             "start": 943,
                             "end": 946
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 210,
@@ -1296,7 +1285,6 @@ class c9 {
                             "start": 962,
                             "end": 967
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1393,7 +1381,7 @@ class c9 {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -1475,7 +1463,6 @@ class c9 {
                             "start": 1203,
                             "end": 1206
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 210,
@@ -1540,7 +1527,6 @@ class c9 {
                             "start": 1222,
                             "end": 1227
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1592,7 +1578,7 @@ class c9 {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

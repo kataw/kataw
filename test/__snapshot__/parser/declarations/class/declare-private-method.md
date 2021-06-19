@@ -59,7 +59,7 @@ class A {
                                 "end": 19
                             },
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

@@ -86,7 +86,6 @@ var [...x] = y
                             "start": 3,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

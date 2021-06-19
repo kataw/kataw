@@ -30,7 +30,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -69,7 +69,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                 "start": 27,
                                 "end": 36
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "g",

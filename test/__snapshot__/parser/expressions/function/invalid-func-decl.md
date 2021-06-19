@@ -50,7 +50,7 @@ async function f(){}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -97,7 +97,7 @@ async function f(){}
                 "start": 11,
                 "end": 21
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -131,7 +131,7 @@ async function f(){}
                                 "start": 26,
                                 "end": 36
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
@@ -165,7 +165,7 @@ async function f(){}
                                                 "start": 41,
                                                 "end": 51
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "f",
@@ -227,7 +227,7 @@ async function f(){}
                                                 "start": 56,
                                                 "end": 65
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "f",
@@ -279,7 +279,7 @@ async function f(){}
                                                 "start": 78,
                                                 "end": 87
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "f",
@@ -326,7 +326,7 @@ async function f(){}
                                                 "start": 93,
                                                 "end": 104
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": null,
                                             "typeParameters": null,
                                             "formalParameterList": {
@@ -419,7 +419,7 @@ async function f(){}
                                                 "start": 111,
                                                 "end": 123
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "f",
@@ -498,7 +498,7 @@ async function f(){}
                                                 "start": 129,
                                                 "end": 139
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "f",
@@ -718,7 +718,7 @@ async function f(){}
                                 "start": 176,
                                 "end": 186
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
@@ -761,7 +761,7 @@ async function f(){}
                                                         "start": 192,
                                                         "end": 202
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "f",
@@ -816,7 +816,7 @@ async function f(){}
                                                 "start": 208,
                                                 "end": 218
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "f",
@@ -870,7 +870,7 @@ async function f(){}
                                                     "start": 228,
                                                     "end": 237
                                                 },
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "name": null,
                                                 "typeParameters": null,
                                                 "formalParameterList": {

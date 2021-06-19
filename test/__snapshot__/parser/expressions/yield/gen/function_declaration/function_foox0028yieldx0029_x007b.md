@@ -33,7 +33,7 @@ function not_gen() { function foo(yield) { }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -67,7 +67,7 @@ function not_gen() { function foo(yield) { }}
                                 "start": 20,
                                 "end": 29
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",

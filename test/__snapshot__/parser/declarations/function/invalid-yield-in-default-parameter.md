@@ -25,7 +25,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -64,7 +64,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                 "start": 15,
                                 "end": 24
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 24,

@@ -92,7 +92,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                             "start": 24,
                                                             "end": 33
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
                                                         "formalParameterList": {

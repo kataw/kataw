@@ -35,7 +35,6 @@ for (let a,b,c;;);
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -52,7 +51,6 @@ for (let a,b,c;;);
                             "start": 11,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -69,7 +67,6 @@ for (let a,b,c;;);
                             "start": 13,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

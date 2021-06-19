@@ -50,7 +50,6 @@ declare var C: Class<string>;
                             "start": 11,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

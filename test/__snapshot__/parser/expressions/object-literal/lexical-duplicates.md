@@ -1130,7 +1130,6 @@
                                                                     "start": 188,
                                                                     "end": 190
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -1168,7 +1167,6 @@
                                                                     "start": 195,
                                                                     "end": 197
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -1288,7 +1286,6 @@
                                                                     "start": 214,
                                                                     "end": 216
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -1325,7 +1322,6 @@
                                                                     "start": 221,
                                                                     "end": 223
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -1444,7 +1440,6 @@
                                                                     "start": 242,
                                                                     "end": 244
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": {
                                                                     "kind": 134299649,
@@ -1489,7 +1484,6 @@
                                                                     "start": 253,
                                                                     "end": 255
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -1609,7 +1603,6 @@
                                                                     "start": 272,
                                                                     "end": 274
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -1646,7 +1639,6 @@
                                                                     "start": 281,
                                                                     "end": 283
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": {
                                                                     "kind": 134299649,

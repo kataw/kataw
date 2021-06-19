@@ -44,7 +44,6 @@ let foo = arr, [bar] = arr2;
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -83,7 +82,6 @@ let foo = arr, [bar] = arr2;
                             "start": 14,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

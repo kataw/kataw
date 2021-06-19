@@ -85,7 +85,6 @@ const [...] = obj;
                             "start": 5,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

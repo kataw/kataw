@@ -119,7 +119,6 @@ let x = a; let x = b;
                             "start": 3,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -230,7 +229,6 @@ let x = a; let x = b;
                             "start": 30,
                             "end": 47
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -329,7 +327,6 @@ let x = a; let x = b;
                             "start": 59,
                             "end": 72
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -428,7 +425,6 @@ let x = a; let x = b;
                             "start": 84,
                             "end": 97
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -495,7 +491,6 @@ let x = a; let x = b;
                             "start": 109,
                             "end": 116
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -625,7 +620,6 @@ let x = a; let x = b;
                             "start": 128,
                             "end": 146
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -669,7 +663,6 @@ let x = a; let x = b;
                             "start": 158,
                             "end": 160
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -748,7 +741,6 @@ let x = a; let x = b;
                             "start": 161,
                             "end": 173
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -792,7 +784,6 @@ let x = a; let x = b;
                             "start": 185,
                             "end": 187
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -855,7 +846,6 @@ let x = a; let x = b;
                             "start": 188,
                             "end": 197
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -974,7 +964,6 @@ let x = a; let x = b;
                             "start": 209,
                             "end": 224
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1072,7 +1061,6 @@ let x = a; let x = b;
                             "start": 236,
                             "end": 249
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1116,7 +1104,6 @@ let x = a; let x = b;
                             "start": 261,
                             "end": 263
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1148,7 +1135,6 @@ let x = a; let x = b;
                             "start": 264,
                             "end": 268
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1192,7 +1178,6 @@ let x = a; let x = b;
                             "start": 280,
                             "end": 282
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -1236,7 +1221,6 @@ let x = a; let x = b;
                             "start": 291,
                             "end": 293
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

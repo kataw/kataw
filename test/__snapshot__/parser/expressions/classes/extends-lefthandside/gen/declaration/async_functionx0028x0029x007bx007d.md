@@ -66,7 +66,7 @@ class A extends async function(){} {}
                             "start": 21,
                             "end": 30
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": null,
                         "typeParameters": null,
                         "formalParameterList": {

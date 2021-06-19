@@ -45,7 +45,6 @@ var z : Object = function (x: number): string { return "hi"; };
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -78,7 +77,7 @@ var z : Object = function (x: number): string { return "hi"; };
                                 "start": 16,
                                 "end": 25
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

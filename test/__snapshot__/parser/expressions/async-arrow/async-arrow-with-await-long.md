@@ -43,7 +43,6 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

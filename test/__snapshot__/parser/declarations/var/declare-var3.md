@@ -52,7 +52,6 @@ declare var tup: [{foo: string}, {bar: number}];
                             "start": 11,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -181,7 +180,6 @@ declare var tup: [{foo: string}, {bar: number}];
                             "start": 58,
                             "end": 70
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -310,7 +308,6 @@ declare var tup: [{foo: string}, {bar: number}];
                             "start": 114,
                             "end": 118
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

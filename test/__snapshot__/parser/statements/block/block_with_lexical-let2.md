@@ -56,7 +56,6 @@
                                         "start": 5,
                                         "end": 9
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 134299649,

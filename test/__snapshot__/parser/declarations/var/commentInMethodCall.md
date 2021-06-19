@@ -48,7 +48,6 @@ s.map(// do something
                             "start": 19,
                             "end": 21
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -121,7 +120,7 @@ s.map(// do something
                                 "start": 39,
                                 "end": 67
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

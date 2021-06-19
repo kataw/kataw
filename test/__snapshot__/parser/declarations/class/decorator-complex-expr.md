@@ -155,7 +155,7 @@ class A {
                                 "start": 9,
                                 "end": 26
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

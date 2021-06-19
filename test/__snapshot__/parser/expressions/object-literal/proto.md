@@ -31,7 +31,7 @@
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392131,
                                     "text": "__proto___",
@@ -54,7 +54,7 @@
                             },
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 201392131,
                                     "text": "__proto___",
@@ -524,9 +524,9 @@
 ({ "\"__proto___\"": "\"__proto___\"", "\"__proto___\"": "\"__proto___\"" });
 ({ get prototype {} });
 ({ set prototype {} });
-({ * prototype {} });
+({ prototype {} });
 ({ async prototype {} });
-({ * async prototype {} });
+({ async prototype {} });
 ```
 
 ### Diagnostics

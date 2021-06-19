@@ -33,7 +33,7 @@ function *f(x = (function) = f) {}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -77,7 +77,7 @@ function *f(x = (function) = f) {}
                                         "start": 17,
                                         "end": 25
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": null,
                                     "typeParameters": null,
                                     "formalParameterList": {

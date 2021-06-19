@@ -52,7 +52,7 @@ for ({a: b.c}[x] of d) e
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",

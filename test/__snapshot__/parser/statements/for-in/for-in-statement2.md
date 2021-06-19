@@ -35,7 +35,7 @@ function F<T>() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "F",
@@ -111,7 +111,6 @@ function F<T>() {
                                             "start": 23,
                                             "end": 28
                                         },
-                                        "optionalToken": null,
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -170,7 +169,6 @@ function F<T>() {
                                             "start": 43,
                                             "end": 45
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

@@ -44,7 +44,6 @@ let arr: number[] = [0, 1, 2, 3];
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

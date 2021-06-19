@@ -130,7 +130,6 @@ var o3: O3 = (0: mixed); // ok
                             "start": 23,
                             "end": 26
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -357,7 +356,6 @@ var o3: O3 = (0: mixed); // ok
                             "start": 97,
                             "end": 100
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -507,7 +505,6 @@ var o3: O3 = (0: mixed); // ok
                             "start": 156,
                             "end": 161
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -703,7 +700,6 @@ var o3: O3 = (0: mixed); // ok
                             "start": 233,
                             "end": 236
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

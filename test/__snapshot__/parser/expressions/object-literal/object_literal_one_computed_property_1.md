@@ -39,7 +39,7 @@ x({[a]:b}=obj);
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 194,
                                                 "expression": {

@@ -76,7 +76,7 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -129,7 +129,7 @@ class Foo {
                                                                 "properties": [
                                                                     {
                                                                         "kind": 219,
-                                                                        "generatorToken": null,
+                                                                        "asteriskToken": null,
                                                                         "left": {
                                                                             "kind": 134299649,
                                                                             "text": "client",

@@ -98,7 +98,7 @@ class Foo {
                                 "start": 11,
                                 "end": 25
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

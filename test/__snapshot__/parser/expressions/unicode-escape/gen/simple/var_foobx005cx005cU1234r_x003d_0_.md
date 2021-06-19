@@ -45,7 +45,6 @@ var foob\\U1234r = 0;
                             "start": 3,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

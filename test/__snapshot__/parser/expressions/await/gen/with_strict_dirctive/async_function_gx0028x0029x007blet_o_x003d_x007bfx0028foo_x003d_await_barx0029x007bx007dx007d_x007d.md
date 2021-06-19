@@ -47,7 +47,7 @@
                 "start": 19,
                 "end": 28
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "g",
@@ -92,7 +92,6 @@
                                             "start": 36,
                                             "end": 38
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 220,

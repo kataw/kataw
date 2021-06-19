@@ -47,7 +47,6 @@ const d: string | null = c?.c;
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -118,7 +117,6 @@ const d: string | null = c?.c;
                             "start": 33,
                             "end": 35
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -222,7 +220,6 @@ const d: string | null = c?.c;
                             "start": 64,
                             "end": 66
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -291,7 +288,6 @@ const d: string | null = c?.c;
                             "start": 86,
                             "end": 88
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

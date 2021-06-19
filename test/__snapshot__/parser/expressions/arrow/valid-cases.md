@@ -1155,7 +1155,7 @@ foo ? bar : baz => {};
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 201392131,
                                         "text": "value",

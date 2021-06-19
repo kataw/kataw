@@ -30,7 +30,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -159,7 +159,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 35,
                 "end": 45
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -350,7 +350,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "start": 93,
                 "end": 103
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",

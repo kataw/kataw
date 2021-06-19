@@ -77,7 +77,6 @@ var {a = my_var} = {}
                             "start": 3,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

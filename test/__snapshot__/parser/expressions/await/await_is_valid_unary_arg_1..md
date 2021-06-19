@@ -30,7 +30,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "g",
@@ -64,7 +64,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                 "start": 19,
                                 "end": 31
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
@@ -110,7 +110,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                                             "properties": [
                                                                 {
                                                                     "kind": 219,
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "left": {
                                                                         "kind": 134299649,
                                                                         "text": "m",

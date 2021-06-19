@@ -50,7 +50,6 @@ export let x, y
                                 "start": 10,
                                 "end": 12
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": null,
                             "flags": 16,
@@ -67,7 +66,6 @@ export let x, y
                                 "start": 13,
                                 "end": 15
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": null,
                             "flags": 16,

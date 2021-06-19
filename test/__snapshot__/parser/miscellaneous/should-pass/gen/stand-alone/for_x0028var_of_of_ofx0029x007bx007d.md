@@ -45,7 +45,6 @@ for (var of of of){}
                             "start": 8,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

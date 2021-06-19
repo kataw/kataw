@@ -173,7 +173,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                             "start": 3,
                             "end": 34
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

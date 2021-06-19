@@ -41,7 +41,7 @@ function g(x: () => any) {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -146,7 +146,6 @@ function g(x: () => any) {
                                             "start": 35,
                                             "end": 37
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 131,
@@ -207,7 +206,7 @@ function g(x: () => any) {
                 "start": 46,
                 "end": 56
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "g",
@@ -341,7 +340,6 @@ function g(x: () => any) {
                                             "start": 89,
                                             "end": 91
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 131,

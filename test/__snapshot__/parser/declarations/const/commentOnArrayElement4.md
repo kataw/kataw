@@ -44,7 +44,6 @@ const array = [/* comment */];
                             "start": 5,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,

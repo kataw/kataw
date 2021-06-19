@@ -76,7 +76,6 @@ for (const [x,y,z] of foo);
                             "start": 10,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

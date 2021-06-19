@@ -39,7 +39,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -104,7 +104,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 30,
                 "end": 40
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -184,7 +184,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 64,
                 "end": 74
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -264,7 +264,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 98,
                 "end": 108
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -346,7 +346,7 @@ function f(x, ...y) { 'use strict' }
                 "start": 134,
                 "end": 144
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -437,7 +437,7 @@ function f(x, ...y) { 'use strict' }
                         "start": 175,
                         "end": 183
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {
@@ -521,7 +521,7 @@ function f(x, ...y) { 'use strict' }
                         "start": 210,
                         "end": 218
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {
@@ -607,7 +607,7 @@ function f(x, ...y) { 'use strict' }
                         "start": 247,
                         "end": 255
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {

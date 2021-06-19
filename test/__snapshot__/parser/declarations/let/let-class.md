@@ -95,7 +95,6 @@ let[{}=class{}]=null
                             "start": 3,
                             "end": 15
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 138477575,

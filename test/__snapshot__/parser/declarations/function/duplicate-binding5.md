@@ -25,7 +25,7 @@ function f() { { { var x } async function x() {} }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -81,7 +81,6 @@ function f() { { { var x } async function x() {} }}
                                                                     "start": 22,
                                                                     "end": 24
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -121,7 +120,7 @@ function f() { { { var x } async function x() {} }}
                                             "start": 32,
                                             "end": 41
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": {
                                             "kind": 134299649,
                                             "text": "x",

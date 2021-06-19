@@ -138,7 +138,6 @@ var [x = 10, y = 5, z = 1] = a;
                             "start": 3,
                             "end": 26
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

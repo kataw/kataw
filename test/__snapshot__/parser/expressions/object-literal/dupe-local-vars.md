@@ -103,7 +103,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 13,
                                                                     "end": 15
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -141,7 +140,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 20,
                                                                     "end": 22
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -269,7 +267,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 42,
                                                                     "end": 44
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -306,7 +303,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 49,
                                                                     "end": 51
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -434,7 +430,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 71,
                                                                     "end": 73
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -471,7 +466,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 80,
                                                                     "end": 82
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": {
                                                                     "kind": 134299649,
@@ -605,7 +599,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 106,
                                                                     "end": 108
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
@@ -631,7 +624,7 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 109,
                                                         "end": 118
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -779,7 +772,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 145,
                                                                     "end": 147
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": {
                                                                     "kind": 134299649,
@@ -812,7 +804,7 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 152,
                                                         "end": 161
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -949,7 +941,7 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 182,
                                                         "end": 191
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -1007,7 +999,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 203,
                                                                     "end": 205
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": {
                                                                     "kind": 134299649,
@@ -1130,7 +1121,7 @@ o = {f(){ function x(){} var x = y; }};
                                                         "start": 225,
                                                         "end": 234
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -1189,7 +1180,6 @@ o = {f(){ function x(){} var x = y; }};
                                                                     "start": 244,
                                                                     "end": 246
                                                                 },
-                                                                "optionalToken": null,
                                                                 "type": null,
                                                                 "initializer": {
                                                                     "kind": 134299649,

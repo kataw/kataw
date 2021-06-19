@@ -533,7 +533,7 @@ try {} catch(e) { for(var e of 0); };
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -1300,7 +1300,7 @@ try {} catch(e) { for(var e of 0); };
                                         "properties": [
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -1617,7 +1617,7 @@ try {} catch(e) { for(var e of 0); };
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -1743,7 +1743,7 @@ try {} catch(e) { for(var e of 0); };
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -1952,7 +1952,7 @@ try {} catch(e) { for(var e of 0); };
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -2090,7 +2090,7 @@ try {} catch(e) { for(var e of 0); };
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -2781,7 +2781,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -3005,7 +3005,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -3234,7 +3234,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -3463,7 +3463,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -4090,7 +4090,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4485,
                         "end": 4494
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",
@@ -4195,7 +4195,7 @@ try {} catch(e) { for(var e of 0); };
                             "start": 4522,
                             "end": 4531
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "f",
@@ -4288,7 +4288,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4550,
                         "end": 4559
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",
@@ -4399,7 +4399,7 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4592,
                         "end": 4601
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",
@@ -4454,7 +4454,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4607,
                 "end": 4704
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 4704,
@@ -4576,7 +4576,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4731,
                 "end": 4740
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 4740,
@@ -4705,7 +4705,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4769,
                 "end": 4778
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 4778,
@@ -4839,7 +4839,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4808,
                 "end": 4817
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 4817,
@@ -5004,7 +5004,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4851,
                 "end": 4860
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 4860,
@@ -5146,7 +5146,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4890,
                 "end": 4899
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 4899,
@@ -5283,7 +5283,7 @@ try {} catch(e) { for(var e of 0); };
                 "start": 4928,
                 "end": 4937
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 4937,
@@ -5527,7 +5527,6 @@ try {} catch(e) { for(var e of 0); };
                                                 "start": 5259,
                                                 "end": 5261
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -5620,7 +5619,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 5283,
                                     "end": 5292
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "e",
@@ -5746,7 +5745,6 @@ try {} catch(e) { for(var e of 0); };
                                                 "start": 5607,
                                                 "end": 5609
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

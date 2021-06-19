@@ -50,7 +50,6 @@ const {,x} = obj;
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -67,7 +66,6 @@ const {,x} = obj;
                             "start": 8,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

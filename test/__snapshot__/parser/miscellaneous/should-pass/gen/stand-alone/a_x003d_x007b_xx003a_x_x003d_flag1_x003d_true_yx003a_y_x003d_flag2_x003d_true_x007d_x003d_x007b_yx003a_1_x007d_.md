@@ -50,7 +50,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -111,7 +111,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                                 },
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -193,7 +193,7 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",

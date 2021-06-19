@@ -70,7 +70,6 @@ const [foo] = arr, bar = arr2;
                             "start": 5,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -94,7 +93,6 @@ const [foo] = arr, bar = arr2;
                             "start": 18,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

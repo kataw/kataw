@@ -28,7 +28,7 @@ function bar(a = console.log) {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -115,7 +115,7 @@ function bar(a = console.log) {
                 "start": 33,
                 "end": 43
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "bar",

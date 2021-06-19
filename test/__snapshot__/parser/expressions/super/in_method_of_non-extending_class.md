@@ -44,7 +44,7 @@ class x { fo(){ return function() { super.foo; } }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -92,7 +92,7 @@ class x { fo(){ return function() { super.foo; } }}
                                                         "start": 22,
                                                         "end": 31
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {

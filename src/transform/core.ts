@@ -155,7 +155,7 @@ export function endLexicalEnvironment(transform: Transform): StatementNode[] | u
 }
 
 export function hoistVariableDeclaration(transform: Transform, name: any): void {
-  const decl: any = createVariableDeclaration(name, null, null, null, -1, -1);
+  const decl: any = createVariableDeclaration(name, null, null, -1, -1);
   if (!transform.lexicalEnvironmentVariableDeclarations) {
     transform.lexicalEnvironmentVariableDeclarations = [decl];
   } else {

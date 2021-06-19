@@ -42,7 +42,6 @@ const someObj: { id: number } = {};
                             "start": 5,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

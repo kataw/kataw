@@ -14,13 +14,13 @@ export type PropertyKey = Identifier | NumericLiteral | BigIntLiteral | StringLi
  * Property name
  */
 export interface PropertyDefinition extends SyntaxNode {
-  readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly left: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
   readonly right: AssignmentExpression | Identifier | ExpressionNode;
 }
 
 export function createPropertyDefinition(
-  generatorToken: SyntaxToken<TokenSyntaxKind> | null,
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null,
   left: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
   right: ExpressionNode | Identifier,
   flags: NodeFlags,
@@ -29,7 +29,7 @@ export function createPropertyDefinition(
 ): PropertyDefinition {
   return {
     kind: SyntaxKind.PropertyDefinition,
-    generatorToken,
+    asteriskToken,
     left,
     right,
     flags,

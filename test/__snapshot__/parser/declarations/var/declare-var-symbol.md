@@ -50,7 +50,6 @@ declare var x: symbol;
                             "start": 11,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

@@ -45,7 +45,6 @@ var asyncArrow = async(...await) => {};
                             "start": 3,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

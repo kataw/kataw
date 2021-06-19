@@ -454,7 +454,7 @@ foo((x, y) => {});
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -1875,7 +1875,6 @@ foo((x, y) => {});
                                                 "start": 458,
                                                 "end": 460
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

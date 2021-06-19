@@ -157,7 +157,6 @@ type T = <
                             "start": 42,
                             "end": 44
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -279,7 +278,7 @@ type T = <
                 "start": 99,
                 "end": 109
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -621,7 +620,6 @@ type T = <
                             "start": 267,
                             "end": 269
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -743,7 +741,7 @@ type T = <
                 "start": 330,
                 "end": 340
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",

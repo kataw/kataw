@@ -44,7 +44,6 @@ const foo = (foo?: bar) => {};
                             "start": 5,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

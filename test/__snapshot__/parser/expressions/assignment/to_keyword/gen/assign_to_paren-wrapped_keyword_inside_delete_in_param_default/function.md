@@ -69,7 +69,7 @@ async (x = delete ((function) = f)) => {}
                                             "start": 20,
                                             "end": 28
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {

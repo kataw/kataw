@@ -59,7 +59,6 @@ class C {
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -103,7 +102,6 @@ class C {
                             "start": 18,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -182,7 +180,6 @@ class C {
                                                             "start": 63,
                                                             "end": 65
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -277,7 +274,6 @@ class C {
                                                             "start": 128,
                                                             "end": 130
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,

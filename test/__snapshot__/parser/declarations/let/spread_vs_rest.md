@@ -137,7 +137,6 @@ let [a=[...b], ...c] = obj;
                             "start": 3,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

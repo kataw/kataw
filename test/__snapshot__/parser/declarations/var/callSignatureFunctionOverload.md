@@ -57,7 +57,6 @@ var foo2: {
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -362,7 +361,6 @@ var foo2: {
                             "start": 133,
                             "end": 138
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

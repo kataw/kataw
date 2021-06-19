@@ -62,7 +62,7 @@ else function *f(){}
                     "start": 14,
                     "end": 23
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 23,

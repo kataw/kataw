@@ -36,7 +36,6 @@ const x = 1, y;
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -60,7 +59,6 @@ const x = 1, y;
                             "start": 12,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

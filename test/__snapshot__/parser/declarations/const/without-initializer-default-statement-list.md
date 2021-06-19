@@ -62,7 +62,6 @@ switch (true) { default: const x; }
                                                 "start": 30,
                                                 "end": 32
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

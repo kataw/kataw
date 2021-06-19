@@ -58,7 +58,6 @@ export const [destructuredArrNumber2] = [1]
                             "start": 5,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -102,7 +101,6 @@ export const [destructuredArrNumber2] = [1]
                             "start": 33,
                             "end": 50
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -146,7 +144,6 @@ export const [destructuredArrNumber2] = [1]
                             "start": 61,
                             "end": 85
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -190,7 +187,6 @@ export const [destructuredArrNumber2] = [1]
                             "start": 96,
                             "end": 120
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -401,7 +397,7 @@ export const [destructuredArrNumber2] = [1]
                     "start": 274,
                     "end": 283
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "givesANumber2",
@@ -523,7 +519,7 @@ export const [destructuredArrNumber2] = [1]
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -660,7 +656,6 @@ export const [destructuredArrNumber2] = [1]
                                 "start": 409,
                                 "end": 424
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,
@@ -684,7 +679,6 @@ export const [destructuredArrNumber2] = [1]
                                 "start": 429,
                                 "end": 444
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,
@@ -759,7 +753,6 @@ export const [destructuredArrNumber2] = [1]
                                 "start": 462,
                                 "end": 487
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 220,
@@ -768,7 +761,7 @@ export const [destructuredArrNumber2] = [1]
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "destructuredObjNumber2",
@@ -864,7 +857,6 @@ export const [destructuredArrNumber2] = [1]
                                 "start": 531,
                                 "end": 556
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 119,

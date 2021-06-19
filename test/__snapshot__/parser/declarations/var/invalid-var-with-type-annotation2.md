@@ -46,7 +46,6 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -173,7 +172,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -196,7 +195,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "y",

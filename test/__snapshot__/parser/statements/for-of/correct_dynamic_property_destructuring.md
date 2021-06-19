@@ -74,7 +74,6 @@ for (let {[x]: y} of obj);
                             "start": 8,
                             "end": 17
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

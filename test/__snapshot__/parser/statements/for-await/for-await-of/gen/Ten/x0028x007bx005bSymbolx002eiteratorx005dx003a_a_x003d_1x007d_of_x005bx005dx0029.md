@@ -39,7 +39,7 @@ await ({[Symbol.iterator]: a = 1} of []) ; }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -93,7 +93,7 @@ await ({[Symbol.iterator]: a = 1} of []) ; }
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 194,
                                                 "expression": {

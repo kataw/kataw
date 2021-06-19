@@ -134,7 +134,6 @@ try {} catch({ x: "str" }) {}
                                                 "start": 22,
                                                 "end": 24
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
@@ -239,7 +238,6 @@ try {} catch({ x: "str" }) {}
                                                 "start": 57,
                                                 "end": 59
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
@@ -357,7 +355,7 @@ try {} catch({ x: "str" }) {}
                                 "start": 87,
                                 "end": 97
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
@@ -495,7 +493,6 @@ try {} catch({ x: "str" }) {}
                                                             "start": 125,
                                                             "end": 129
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -654,7 +651,6 @@ try {} catch({ x: "str" }) {}
                             "start": 155,
                             "end": 159
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -705,7 +701,6 @@ try {} catch({ x: "str" }) {}
                                             "start": 171,
                                             "end": 175
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -797,7 +792,6 @@ try {} catch({ x: "str" }) {}
                             "start": 199,
                             "end": 203
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -1411,7 +1405,7 @@ try {} catch({ x: "str" }) {}
                         "start": 368,
                         "end": 376
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 376,
@@ -1566,7 +1560,7 @@ try {} catch({ x: "str" }) {}
                         "start": 403,
                         "end": 411
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {
@@ -1835,7 +1829,7 @@ try {} catch({ x: "str" }) {}
                             "start": 490,
                             "end": 500
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "f",
@@ -1911,7 +1905,7 @@ try {} catch({ x: "str" }) {}
                                                                 "start": 526,
                                                                 "end": 535
                                                             },
-                                                            "generatorToken": null,
+                                                            "asteriskToken": null,
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "e",
@@ -2044,7 +2038,6 @@ try {} catch({ x: "str" }) {}
                                                             "start": 568,
                                                             "end": 570
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -2100,7 +2093,6 @@ try {} catch({ x: "str" }) {}
                                         "start": 577,
                                         "end": 581
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
@@ -2197,7 +2189,6 @@ try {} catch({ x: "str" }) {}
                                         "start": 608,
                                         "end": 612
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
@@ -2248,7 +2239,6 @@ try {} catch({ x: "str" }) {}
                                                         "start": 624,
                                                         "end": 628
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": {
                                                         "kind": 201392130,
@@ -2340,7 +2330,6 @@ try {} catch({ x: "str" }) {}
                                         "start": 652,
                                         "end": 656
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 201392130,
@@ -2999,7 +2988,7 @@ try {} catch({ x: "str" }) {}
                         "start": 834,
                         "end": 842
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 842,
@@ -3159,7 +3148,7 @@ try {} catch({ x: "str" }) {}
                         "start": 876,
                         "end": 884
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {

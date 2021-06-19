@@ -43,7 +43,6 @@ z; }
                                         "start": 5,
                                         "end": 7
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 201392130,
@@ -67,7 +66,6 @@ z; }
                                         "start": 13,
                                         "end": 15
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 201392130,

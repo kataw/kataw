@@ -45,7 +45,7 @@ export default function foo() {}
                     "start": 14,
                     "end": 23
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "foo",

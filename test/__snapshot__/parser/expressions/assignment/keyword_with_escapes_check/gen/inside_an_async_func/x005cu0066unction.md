@@ -56,7 +56,7 @@ async () => {  \u0066unction = x  }
                                 "start": 13,
                                 "end": 28
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

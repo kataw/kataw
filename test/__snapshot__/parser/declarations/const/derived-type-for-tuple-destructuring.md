@@ -57,7 +57,6 @@ const [selected] = ([true]: [boolean]);
                             "start": 5,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 121,

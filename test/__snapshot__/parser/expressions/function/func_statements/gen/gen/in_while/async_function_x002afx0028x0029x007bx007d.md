@@ -54,7 +54,7 @@ while (x) async function *f(){}
                     "start": 15,
                     "end": 24
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 24,

@@ -83,7 +83,6 @@ const { f: await f } = {};
                             "start": 5,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

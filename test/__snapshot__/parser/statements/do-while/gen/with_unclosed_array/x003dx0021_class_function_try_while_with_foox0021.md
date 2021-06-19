@@ -40,7 +40,7 @@ do[ =! class function try while with foo!
                     "start": 12,
                     "end": 21
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": null,
                 "typeParameters": null,
                 "formalParameterList": {

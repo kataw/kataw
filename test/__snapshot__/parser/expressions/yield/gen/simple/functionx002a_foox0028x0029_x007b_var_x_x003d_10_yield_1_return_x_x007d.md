@@ -33,7 +33,7 @@ function* foo() { var x = 10; yield 1; return x; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -84,7 +84,6 @@ function* foo() { var x = 10; yield 1; return x; }
                                             "start": 21,
                                             "end": 23
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,

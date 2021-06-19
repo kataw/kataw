@@ -85,7 +85,7 @@ class C {
                                                             "start": 26,
                                                             "end": 34
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
                                                         "formalParameterList": {
@@ -259,7 +259,7 @@ class C {
                                                                     "start": 118,
                                                                     "end": 126
                                                                 },
-                                                                "generatorToken": {
+                                                                "asteriskToken": {
                                                                     "kind": 67143222,
                                                                     "flags": 64,
                                                                     "start": 126,
@@ -463,7 +463,7 @@ class C {
                                                             "start": 237,
                                                             "end": 246
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
                                                         "formalParameterList": {

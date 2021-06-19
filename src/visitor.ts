@@ -245,12 +245,12 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.PropertyDefinition:
-      return (<PropertyDefinition>node).generatorToken !==
-        visitNode((<PropertyDefinition>node).generatorToken, visitor) ||
+      return (<PropertyDefinition>node).asteriskToken !==
+        visitNode((<PropertyDefinition>node).asteriskToken, visitor) ||
         (<PropertyDefinition>node).left !== visitNode((<PropertyDefinition>node).left, visitor) ||
         (<PropertyDefinition>node).right !== visitNode((<PropertyDefinition>node).right, visitor)
         ? createPropertyDefinition(
-            (<PropertyDefinition>node).generatorToken,
+            (<PropertyDefinition>node).asteriskToken,
             (<PropertyDefinition>node).left,
             (<PropertyDefinition>node).right,
             (<PropertyDefinition>node).flags,
@@ -317,12 +317,10 @@ export function visitEachChild(
         : node;
     case SyntaxKind.VariableDeclaration:
       return (<VariableDeclaration>node).binding !== visitNode((<VariableDeclaration>node).binding, visitor) ||
-        (<VariableDeclaration>node).optionalToken !== visitNode((<VariableDeclaration>node).optionalToken, visitor) ||
         (<VariableDeclaration>node).type !== visitNode((<VariableDeclaration>node).type, visitor) ||
         (<VariableDeclaration>node).initializer !== visitNode((<VariableDeclaration>node).initializer, visitor)
         ? createVariableDeclaration(
             (<VariableDeclaration>node).binding,
-            (<VariableDeclaration>node).optionalToken,
             (<VariableDeclaration>node).type,
             (<VariableDeclaration>node).initializer,
             (<VariableDeclaration>node).start,
@@ -360,12 +358,10 @@ export function visitEachChild(
         : node;
     case SyntaxKind.LexicalBinding:
       return (<LexicalBinding>node).binding !== visitNode((<LexicalBinding>node).binding, visitor) ||
-        (<LexicalBinding>node).optionalToken !== visitNode((<LexicalBinding>node).optionalToken, visitor) ||
         (<LexicalBinding>node).type !== visitNode((<LexicalBinding>node).type, visitor) ||
         (<LexicalBinding>node).initializer !== visitNode((<LexicalBinding>node).initializer, visitor)
         ? createLexicalBinding(
             (<LexicalBinding>node).binding,
-            (<LexicalBinding>node).optionalToken,
             (<LexicalBinding>node).type,
             (<LexicalBinding>node).initializer,
             (<LexicalBinding>node).start,
@@ -733,7 +729,7 @@ export function visitEachChild(
     case SyntaxKind.ClassElement:
       return (<ClassElement>node).declareToken !== visitNode((<ClassElement>node).declareToken, visitor) ||
         (<ClassElement>node).decorators !== visitNode((<ClassElement>node).decorators, visitor) ||
-        (<ClassElement>node).generatorToken !== visitNode((<ClassElement>node).generatorToken, visitor) ||
+        (<ClassElement>node).asteriskToken !== visitNode((<ClassElement>node).asteriskToken, visitor) ||
         (<ClassElement>node).staticKeyword !== visitNode((<ClassElement>node).staticKeyword, visitor) ||
         (<ClassElement>node).asyncKeyword !== visitNode((<ClassElement>node).asyncKeyword, visitor) ||
         (<ClassElement>node).setKeyword !== visitNode((<ClassElement>node).setKeyword, visitor) ||
@@ -742,7 +738,7 @@ export function visitEachChild(
         ? createClassElement(
             (<ClassElement>node).declareToken,
             (<ClassElement>node).decorators,
-            (<ClassElement>node).generatorToken,
+            (<ClassElement>node).asteriskToken,
             (<ClassElement>node).staticKeyword,
             (<ClassElement>node).asyncKeyword,
             (<ClassElement>node).setKeyword,
@@ -1022,7 +1018,7 @@ export function visitEachChild(
       return (<FunctionDeclaration>node).declareKeyword !==
         visitNode((<FunctionDeclaration>node).declareKeyword, visitor) ||
         (<FunctionDeclaration>node).asyncKeyword !== visitNode((<FunctionDeclaration>node).asyncKeyword, visitor) ||
-        (<FunctionDeclaration>node).generatorToken !== visitNode((<FunctionDeclaration>node).generatorToken, visitor) ||
+        (<FunctionDeclaration>node).asteriskToken !== visitNode((<FunctionDeclaration>node).asteriskToken, visitor) ||
         (<FunctionDeclaration>node).formalParameterList !==
           visitNode((<FunctionDeclaration>node).formalParameterList, visitor) ||
         (<FunctionDeclaration>node).contents !==
@@ -1033,7 +1029,7 @@ export function visitEachChild(
             (<FunctionDeclaration>node).declareKeyword,
             (<FunctionDeclaration>node).asyncKeyword,
             (<FunctionDeclaration>node).functionKeyword,
-            (<FunctionDeclaration>node).generatorToken,
+            (<FunctionDeclaration>node).asteriskToken,
             (<FunctionDeclaration>node).name,
             (<FunctionDeclaration>node).formalParameterList,
             (<FunctionDeclaration>node).contents,
@@ -1048,7 +1044,7 @@ export function visitEachChild(
     case SyntaxKind.FunctionExpression:
       return (<FunctionExpression>node).asyncKeyword !== visitNode((<FunctionExpression>node).asyncKeyword, visitor) ||
         (<FunctionExpression>node).functionKeyword !== visitNode((<FunctionExpression>node).functionKeyword, visitor) ||
-        (<FunctionExpression>node).generatorToken !== visitNode((<FunctionExpression>node).generatorToken, visitor) ||
+        (<FunctionExpression>node).asteriskToken !== visitNode((<FunctionExpression>node).asteriskToken, visitor) ||
         (<FunctionExpression>node).name !== visitNode((<FunctionExpression>node).name, visitor) ||
         (<FunctionExpression>node).formalParameterList !==
           visitNode((<FunctionExpression>node).formalParameterList, visitor) ||
@@ -1059,7 +1055,7 @@ export function visitEachChild(
         ? createFunctionExpression(
             (<FunctionExpression>node).asyncKeyword,
             (<FunctionExpression>node).functionKeyword,
-            (<FunctionExpression>node).generatorToken,
+            (<FunctionExpression>node).asteriskToken,
             (<FunctionExpression>node).name,
             (<FunctionExpression>node).formalParameterList,
             (<FunctionExpression>node).contents,

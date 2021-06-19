@@ -43,7 +43,6 @@ var x,y; export {x as a, y as b}
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -60,7 +59,6 @@ var x,y; export {x as a, y as b}
                             "start": 6,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

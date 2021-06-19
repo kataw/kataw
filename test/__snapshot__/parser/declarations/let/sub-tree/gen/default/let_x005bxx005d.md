@@ -87,7 +87,6 @@ switch (a) { default: let [x] }
                                                 "start": 25,
                                                 "end": 29
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

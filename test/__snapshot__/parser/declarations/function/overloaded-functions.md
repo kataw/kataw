@@ -42,7 +42,7 @@ declare function three(value :mixed) :boolean;
                 "start": 7,
                 "end": 16
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "one",
@@ -132,7 +132,7 @@ declare function three(value :mixed) :boolean;
                 "start": 50,
                 "end": 59
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "two",
@@ -222,7 +222,7 @@ declare function three(value :mixed) :boolean;
                 "start": 93,
                 "end": 102
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "three",

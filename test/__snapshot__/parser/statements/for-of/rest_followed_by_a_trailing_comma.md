@@ -67,7 +67,6 @@ for (let [...foo,] of obj);
                             "start": 8,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

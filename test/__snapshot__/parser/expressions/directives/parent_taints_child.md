@@ -25,7 +25,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -82,7 +82,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                 "start": 32,
                                 "end": 41
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "g",

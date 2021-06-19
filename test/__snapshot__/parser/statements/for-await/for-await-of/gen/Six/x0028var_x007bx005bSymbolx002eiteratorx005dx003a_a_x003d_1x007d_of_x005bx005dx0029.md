@@ -38,7 +38,7 @@ async function * f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} o
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 14,
@@ -161,7 +161,6 @@ async function * f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} o
                                             "start": 51,
                                             "end": 78
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

@@ -37,7 +37,6 @@ var y = { \u0066inally: x } = { finally: 42 };
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 125,
@@ -48,7 +47,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "finally",
@@ -92,7 +91,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "finally",

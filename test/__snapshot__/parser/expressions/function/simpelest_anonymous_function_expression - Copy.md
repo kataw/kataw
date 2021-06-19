@@ -45,7 +45,7 @@ foo(function(){})
                                 "start": 4,
                                 "end": 12
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

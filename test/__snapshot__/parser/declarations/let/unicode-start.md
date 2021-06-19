@@ -40,7 +40,6 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "start": 3,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -77,7 +76,6 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "start": 15,
                             "end": 24
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -114,7 +112,6 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "start": 29,
                             "end": 48
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -151,7 +148,6 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "start": 53,
                             "end": 58
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -188,7 +184,6 @@ let \u0275ResourceLoaderImpl_BaseFactory;
                             "start": 63,
                             "end": 100
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

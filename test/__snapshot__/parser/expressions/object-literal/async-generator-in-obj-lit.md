@@ -40,7 +40,6 @@ const obj = {
                             "start": 5,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -145,7 +144,7 @@ const obj = {
 
 ```javascript
 
-const obj = { async, * generator {} };
+const obj = { async, generator {} };
 ```
 
 ### Diagnostics

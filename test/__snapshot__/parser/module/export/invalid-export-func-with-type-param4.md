@@ -45,7 +45,7 @@ export default function <T><T>() {}
                     "start": 14,
                     "end": 23
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": null,
                 "typeParameters": {
                     "kind": 307,

@@ -48,7 +48,6 @@ var Person = makeClass(
                             "start": 3,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 131,
@@ -70,7 +69,7 @@ var Person = makeClass(
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "initialize",
@@ -88,7 +87,7 @@ var Person = makeClass(
                                                             "start": 200,
                                                             "end": 209
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
                                                         "formalParameterList": {

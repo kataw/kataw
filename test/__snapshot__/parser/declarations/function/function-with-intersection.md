@@ -33,7 +33,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "x",

@@ -1379,8 +1379,8 @@ function printVariableDeclarationOrLexicalBinding(node: any, printer: Printer): 
 function printPropertyMethod(node: any, printer: Printer): any {
   return group(
     chain([
-      node.generatorToken
-        ? printKeyword(node.generatorToken, printer, node.generatorToken.start, node, /* separator */ true)
+      node.asteriskToken
+        ? printKeyword(node.asteriskToken, printer, node.asteriskToken.start, node, /* separator */ true)
         : '',
       node.asyncKeyword
         ? printKeyword(node.asyncKeyword, printer, node.asyncKeyword.start, node, /* separator */ true)
@@ -1640,8 +1640,8 @@ function printFunctionDeclarationOrExpression(node: any, printer: Printer): any 
     node.functionKeyword
       ? printKeyword(node.functionKeyword, printer, node.functionKeyword.start, node, /* separator */ true)
       : '',
-    node.generatorToken
-      ? printKeyword(node.generatorToken, printer, node.generatorToken.start, node, /* separator */ true)
+    node.asteriskToken
+      ? printKeyword(node.asteriskToken, printer, node.asteriskToken.start, node, /* separator */ true)
       : ''
   ];
 

@@ -45,7 +45,6 @@ result = { x: x[yield] } = vals;
                             "start": 3,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -54,7 +53,7 @@ result = { x: x[yield] } = vals;
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -125,7 +124,7 @@ result = { x: x[yield] } = vals;
                             "properties": [
                                 {
                                     "kind": 219,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",

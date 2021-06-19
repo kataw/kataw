@@ -41,7 +41,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "start": 0,
                 "end": 62
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "d",
@@ -279,7 +279,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "start": 134,
                 "end": 176
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "e",

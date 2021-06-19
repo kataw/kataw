@@ -46,7 +46,6 @@ for (let i = 0; i < require('foo').bar; i++) {
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

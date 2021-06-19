@@ -226,13 +226,34 @@ interface IfStatement <: Statements {
 }
 ```
 
+### VariableStatement
+
+```js
+interface VariableStatement <: Declaration {
+  kind: NodeKind.VariableStatement;
+  declareKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  varKeyword: SyntaxToken<TokenSyntaxKind>;
+  declarationList: VariableDeclarationList;
+}
+```
+
+### VariableDeclarationList
+
+```js
+interface VariableStatement <: Declaration {
+  kind: NodeKind.VariableStatement;
+  declarationList: [ VariableDeclaration ];
+}
+```
+
 ### VariableDeclaration
 
 ```js
 interface VariableStatement <: Declaration {
   kind: NodeKind.VariableDeclaration;
-  varKeyword: SyntaxToken<TokenSyntaxKind>;
-  declarationList: [ VariableDeclaration ];
+  binding: ObjectBindingPattern | ArrayBindingPattern | Identifier | DummyIdentifier;
+  type: TypeNode | null;
+  initializer: ExpressionNode | null;
 }
 ```
 
@@ -312,7 +333,7 @@ interface FunctionDeclaration <: Statements {
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   functionKeyword: SyntaxToken<TokenSyntaxKind>;
-  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   name: Identifier | null;
   formalParameters: FormalParameterList;
   contents: FunctionBody | null;

@@ -39,7 +39,7 @@ async function * gen() {(async function * yield() { })}
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 14,
@@ -86,7 +86,7 @@ async function * gen() {(async function * yield() { })}
                                         "start": 30,
                                         "end": 39
                                     },
-                                    "generatorToken": {
+                                    "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 39,

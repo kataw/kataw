@@ -45,7 +45,6 @@ var foo = yield = 1;
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 125,

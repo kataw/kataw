@@ -46,7 +46,6 @@ var v = 1;
                             "start": 18,
                             "end": 20
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

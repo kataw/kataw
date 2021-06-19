@@ -51,7 +51,6 @@ let {x}: string = y;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -117,7 +116,6 @@ let {x}: string = y;
                             "start": 19,
                             "end": 23
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -213,7 +211,6 @@ let {x}: string = y;
                             "start": 41,
                             "end": 44
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -313,7 +310,6 @@ let {x}: string = y;
                             "start": 70,
                             "end": 74
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

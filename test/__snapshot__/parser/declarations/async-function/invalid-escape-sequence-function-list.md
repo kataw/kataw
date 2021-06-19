@@ -33,7 +33,7 @@
                         "start": 11,
                         "end": 20
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": null,
                     "formalParameterList": {

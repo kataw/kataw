@@ -29,7 +29,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "asReversedTuple",
@@ -264,7 +264,6 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                         "start": 95,
                                         "end": 105
                                     },
-                                    "optionalToken": null,
                                     "type": null,
                                     "initializer": {
                                         "kind": 134299649,

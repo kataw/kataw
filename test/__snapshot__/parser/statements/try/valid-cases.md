@@ -105,7 +105,7 @@ try { var e } catch (e) {}
                                         "start": 32,
                                         "end": 41
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -233,7 +233,7 @@ try { var e } catch (e) {}
                                         "start": 77,
                                         "end": 86
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -363,7 +363,7 @@ try { var e } catch (e) {}
                                         "start": 122,
                                         "end": 131
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -482,7 +482,7 @@ try { var e } catch (e) {}
                                                 "start": 162,
                                                 "end": 171
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "e",
@@ -604,7 +604,7 @@ try { var e } catch (e) {}
                                                 "start": 204,
                                                 "end": 213
                                             },
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "e",
@@ -704,7 +704,6 @@ try { var e } catch (e) {}
                                             "start": 235,
                                             "end": 237
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

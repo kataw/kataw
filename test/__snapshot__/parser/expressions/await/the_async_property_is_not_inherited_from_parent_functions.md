@@ -30,7 +30,7 @@ async function f(){ let y = x => await x; }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -75,7 +75,6 @@ async function f(){ let y = x => await x; }
                                             "start": 23,
                                             "end": 25
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 271,
@@ -122,7 +121,6 @@ async function f(){ let y = x => await x; }
                                             "start": 38,
                                             "end": 40
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

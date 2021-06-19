@@ -38,7 +38,7 @@ async function f() { for await (var x of xs); }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -89,7 +89,6 @@ async function f() { for await (var x of xs); }
                                             "start": 35,
                                             "end": 37
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

@@ -78,7 +78,6 @@ try { } catch (x) { let x; }
                                                 "start": 23,
                                                 "end": 25
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

@@ -60,7 +60,6 @@ var {my_var} = {my_var: 3}; my_var;
                             "start": 3,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -69,7 +68,7 @@ var {my_var} = {my_var: 3}; my_var;
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "my_var",

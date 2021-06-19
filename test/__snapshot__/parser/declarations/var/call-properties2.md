@@ -51,7 +51,6 @@ var c: { (): string; (x: number): string } =
                             "start": 59,
                             "end": 61
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -171,7 +170,7 @@ var c: { (): string; (x: number): string } =
                                 "start": 100,
                                 "end": 111
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {
@@ -307,7 +306,6 @@ var c: { (): string; (x: number): string } =
                             "start": 220,
                             "end": 222
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -427,7 +425,7 @@ var c: { (): string; (x: number): string } =
                                 "start": 261,
                                 "end": 272
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

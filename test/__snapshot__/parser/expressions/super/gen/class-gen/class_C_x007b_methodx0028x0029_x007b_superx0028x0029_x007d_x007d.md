@@ -52,7 +52,7 @@ class C { *method() { class C { method() { super(); } } } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 9,
@@ -117,7 +117,7 @@ class C { *method() { class C { method() { super(); } } } }
                                                                 "kind": 278,
                                                                 "declareToken": null,
                                                                 "decorators": null,
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "staticKeyword": null,
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": null,

@@ -58,7 +58,6 @@ for (let [,foo] = arr);
                             "start": 8,
                             "end": 15
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

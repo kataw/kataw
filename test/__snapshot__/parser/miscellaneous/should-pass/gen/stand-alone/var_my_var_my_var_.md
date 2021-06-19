@@ -45,7 +45,6 @@ var my_var; my_var;
                             "start": 3,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

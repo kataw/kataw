@@ -107,7 +107,6 @@ class x extends const {}
                             "start": 21,
                             "end": 24
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

@@ -83,7 +83,7 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -136,7 +136,6 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "start": 43,
                                                                 "end": 46
                                                             },
-                                                            "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
@@ -260,7 +259,6 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "start": 83,
                                                                 "end": 86
                                                             },
-                                                            "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
@@ -480,7 +478,7 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -533,7 +531,6 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "start": 192,
                                                                 "end": 195
                                                             },
-                                                            "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
@@ -665,7 +662,6 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "start": 234,
                                                                 "end": 237
                                                             },
-                                                            "optionalToken": null,
                                                             "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
@@ -872,7 +868,7 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -1069,7 +1065,7 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -1307,7 +1303,6 @@ var stringArr:Array<string> = ['a','b'];
                             "start": 497,
                             "end": 516
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1439,7 +1434,6 @@ var stringArr:Array<string> = ['a','b'];
                             "start": 550,
                             "end": 560
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

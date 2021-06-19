@@ -53,7 +53,7 @@ function baz(x: boolean) {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -131,7 +131,6 @@ function baz(x: boolean) {
                                             "start": 32,
                                             "end": 36
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 220,
@@ -140,7 +139,7 @@ function baz(x: boolean) {
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "a",
@@ -163,7 +162,7 @@ function baz(x: boolean) {
                                                     },
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "b",
@@ -228,7 +227,6 @@ function baz(x: boolean) {
                                             "start": 64,
                                             "end": 69
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -358,7 +356,7 @@ function baz(x: boolean) {
                 "start": 132,
                 "end": 142
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "bar",
@@ -435,7 +433,6 @@ function baz(x: boolean) {
                                             "start": 171,
                                             "end": 176
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -522,7 +519,7 @@ function baz(x: boolean) {
                 "start": 203,
                 "end": 213
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "baz",
@@ -599,7 +596,6 @@ function baz(x: boolean) {
                                             "start": 242,
                                             "end": 247
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

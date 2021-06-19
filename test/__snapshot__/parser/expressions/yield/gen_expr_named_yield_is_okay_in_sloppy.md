@@ -37,7 +37,6 @@ var g = function* yield() {};
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -48,7 +47,7 @@ var g = function* yield() {};
                                 "start": 7,
                                 "end": 16
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 16,

@@ -30,7 +30,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "a",

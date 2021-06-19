@@ -47,7 +47,6 @@ var f = (): (number) => 123;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -151,7 +150,6 @@ var f = (): (number) => 123;
                             "start": 31,
                             "end": 33
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

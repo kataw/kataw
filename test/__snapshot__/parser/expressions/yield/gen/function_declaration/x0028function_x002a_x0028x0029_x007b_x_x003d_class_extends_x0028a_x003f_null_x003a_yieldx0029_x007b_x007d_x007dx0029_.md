@@ -33,7 +33,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -70,7 +70,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                         "start": 22,
                                         "end": 30
                                     },
-                                    "generatorToken": {
+                                    "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 30,

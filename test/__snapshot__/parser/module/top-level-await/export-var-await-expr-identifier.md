@@ -46,7 +46,6 @@ export var { x = await foo } = {};
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -99,7 +98,6 @@ export var { x = await foo } = {};
                                 "start": 24,
                                 "end": 30
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 208,
@@ -216,7 +214,6 @@ export var { x = await foo } = {};
                                 "start": 54,
                                 "end": 72
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 220,

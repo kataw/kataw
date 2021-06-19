@@ -47,7 +47,7 @@ new async function *f(){}
                         "start": 9,
                         "end": 18
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 18,

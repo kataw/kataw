@@ -52,7 +52,7 @@ class o {f([b, a], ...b) {}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -113,7 +113,6 @@ class o {f([b, a], ...b) {}}
                                                                 "start": 21,
                                                                 "end": 23
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
                                                                 "kind": 134299649,
@@ -265,7 +264,7 @@ class o {f([b, a], ...b) {}}
                                         "start": 46,
                                         "end": 55
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -349,7 +348,7 @@ class o {f([b, a], ...b) {}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -411,7 +410,6 @@ class o {f([b, a], ...b) {}}
                                                                 "start": 86,
                                                                 "end": 88
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": null,
                                                             "flags": 16,
@@ -486,7 +484,7 @@ class o {f([b, a], ...b) {}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -630,7 +628,7 @@ class o {f([b, a], ...b) {}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

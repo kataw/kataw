@@ -67,7 +67,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -174,7 +173,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 36,
                             "end": 38
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -308,7 +306,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 82,
                             "end": 84
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -403,7 +400,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 110,
                             "end": 112
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -500,7 +496,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 141,
                             "end": 143
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -551,7 +546,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 156,
                             "end": 158
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -639,7 +633,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 176,
                             "end": 178
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -729,7 +722,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 198,
                             "end": 200
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -840,7 +832,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 224,
                             "end": 227
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -931,7 +922,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 247,
                             "end": 250
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1037,7 +1027,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 273,
                             "end": 276
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1134,7 +1123,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 298,
                             "end": 301
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1246,7 +1234,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 326,
                             "end": 329
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1354,7 +1341,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 353,
                             "end": 356
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1445,7 +1431,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 378,
                             "end": 381
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1567,7 +1552,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 410,
                             "end": 413
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1675,7 +1659,6 @@ var p10 = ([{ value, done }]) => { };
                             "start": 488,
                             "end": 492
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,

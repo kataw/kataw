@@ -45,7 +45,6 @@ var obj = { async() {} };
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

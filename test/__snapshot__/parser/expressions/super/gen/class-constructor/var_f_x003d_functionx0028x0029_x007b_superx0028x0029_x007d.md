@@ -52,7 +52,7 @@ class C { constructor() { var f = function() { super(); } } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -105,7 +105,6 @@ class C { constructor() { var f = function() { super(); } } }
                                                                 "start": 29,
                                                                 "end": 31
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
                                                                 "kind": 177,
@@ -116,7 +115,7 @@ class C { constructor() { var f = function() { super(); } } }
                                                                     "start": 33,
                                                                     "end": 42
                                                                 },
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "name": null,
                                                                 "typeParameters": null,
                                                                 "formalParameterList": {

@@ -33,7 +33,7 @@ function not_gen() { var [yield] = [42]; }}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -94,7 +94,6 @@ function not_gen() { var [yield] = [42]; }}
                                             "start": 24,
                                             "end": 32
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 119,

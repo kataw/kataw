@@ -73,7 +73,6 @@ switch (0) { case 1: var f; default: function* f() {} }
                                                 "start": 24,
                                                 "end": 26
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
@@ -113,7 +112,7 @@ switch (0) { case 1: var f; default: function* f() {} }
                                     "start": 36,
                                     "end": 45
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 45,

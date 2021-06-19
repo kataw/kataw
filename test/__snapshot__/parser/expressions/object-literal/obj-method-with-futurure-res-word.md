@@ -203,7 +203,7 @@
 
 ```javascript
 
-({ * method {} });
+({ method {} });
 ({ method {} });
 ```
 

@@ -123,7 +123,6 @@ var { __proto__: x, __proto__: y, ...z} = {};
                             "start": 3,
                             "end": 39
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

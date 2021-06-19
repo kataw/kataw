@@ -51,7 +51,6 @@ for (let [foo] = arr, [bar] = arr2);
                             "start": 8,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -90,7 +89,6 @@ for (let [foo] = arr, [bar] = arr2);
                             "start": 21,
                             "end": 27
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

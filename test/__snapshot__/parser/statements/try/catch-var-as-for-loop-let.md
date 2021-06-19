@@ -84,7 +84,6 @@ try {} catch (e) { for (let e;;) {} }
                                                 "start": 27,
                                                 "end": 29
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,

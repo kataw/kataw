@@ -54,7 +54,6 @@
                             "start": 17,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -70,7 +69,7 @@
                                 "start": 33,
                                 "end": 42
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "await",

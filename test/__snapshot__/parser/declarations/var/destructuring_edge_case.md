@@ -82,7 +82,6 @@ var {[2]: y} = {2:3}
                             "start": 3,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -91,7 +90,7 @@ var {[2]: y} = {2:3}
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 2,

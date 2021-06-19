@@ -125,7 +125,7 @@ x = {
 
 ```javascript
 
-x = { * "\"\"" {} };
+x = { "\"\"" {} };
 ```
 
 ### Diagnostics

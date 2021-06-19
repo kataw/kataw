@@ -41,7 +41,7 @@ export function bar() {
                     "start": 6,
                     "end": 15
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "bar",

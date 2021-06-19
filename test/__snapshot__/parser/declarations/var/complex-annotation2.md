@@ -51,7 +51,6 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                             "start": 3,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -215,7 +214,6 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                             "start": 71,
                             "end": 93
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -324,7 +322,6 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                             "start": 138,
                             "end": 153
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -398,7 +395,6 @@ var nullable_array_parens: ?(number[]) = nullable_array;
                             "start": 177,
                             "end": 199
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

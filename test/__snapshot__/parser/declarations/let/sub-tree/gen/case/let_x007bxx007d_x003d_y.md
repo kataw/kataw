@@ -95,7 +95,6 @@ switch (a) { case b: let {x} = y }
                                                 "start": 24,
                                                 "end": 28
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,

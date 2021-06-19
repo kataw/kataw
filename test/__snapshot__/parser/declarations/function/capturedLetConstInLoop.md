@@ -205,7 +205,7 @@ function foo8_c(x) {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo0",
@@ -260,7 +260,6 @@ function foo8_c(x) {
                                             "start": 31,
                                             "end": 33
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -318,7 +317,6 @@ function foo8_c(x) {
                                                             "start": 54,
                                                             "end": 56
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -368,7 +366,7 @@ function foo8_c(x) {
                                                         "start": 86,
                                                         "end": 94
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -540,7 +538,7 @@ function foo8_c(x) {
                 "start": 146,
                 "end": 156
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo0_1",
@@ -594,7 +592,6 @@ function foo8_c(x) {
                                             "start": 181,
                                             "end": 183
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -652,7 +649,6 @@ function foo8_c(x) {
                                                             "start": 204,
                                                             "end": 206
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -702,7 +698,7 @@ function foo8_c(x) {
                                                         "start": 236,
                                                         "end": 244
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -874,7 +870,7 @@ function foo8_c(x) {
                 "start": 296,
                 "end": 306
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo1",
@@ -928,7 +924,6 @@ function foo8_c(x) {
                                             "start": 329,
                                             "end": 331
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -1021,7 +1016,6 @@ function foo8_c(x) {
                                                             "start": 362,
                                                             "end": 364
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -1071,7 +1065,7 @@ function foo8_c(x) {
                                                         "start": 394,
                                                         "end": 402
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -1243,7 +1237,7 @@ function foo8_c(x) {
                 "start": 454,
                 "end": 464
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo2",
@@ -1338,7 +1332,6 @@ function foo8_c(x) {
                                                             "start": 508,
                                                             "end": 510
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -1388,7 +1381,7 @@ function foo8_c(x) {
                                                         "start": 540,
                                                         "end": 548
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -1560,7 +1553,7 @@ function foo8_c(x) {
                 "start": 600,
                 "end": 610
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo3",
@@ -1661,7 +1654,6 @@ function foo8_c(x) {
                                                             "start": 641,
                                                             "end": 643
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -1698,7 +1690,6 @@ function foo8_c(x) {
                                                             "start": 656,
                                                             "end": 658
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -1748,7 +1739,7 @@ function foo8_c(x) {
                                                         "start": 688,
                                                         "end": 696
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -1920,7 +1911,7 @@ function foo8_c(x) {
                 "start": 764,
                 "end": 774
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo4",
@@ -1974,7 +1965,6 @@ function foo8_c(x) {
                                             "start": 797,
                                             "end": 799
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -2067,7 +2057,6 @@ function foo8_c(x) {
                                                             "start": 830,
                                                             "end": 832
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -2125,7 +2114,6 @@ function foo8_c(x) {
                                                             "start": 864,
                                                             "end": 866
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -2161,7 +2149,7 @@ function foo8_c(x) {
                                                         "start": 881,
                                                         "end": 889
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -2333,7 +2321,7 @@ function foo8_c(x) {
                 "start": 941,
                 "end": 951
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo5",
@@ -2387,7 +2375,6 @@ function foo8_c(x) {
                                             "start": 974,
                                             "end": 976
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -2411,7 +2398,6 @@ function foo8_c(x) {
                                             "start": 981,
                                             "end": 983
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -2504,7 +2490,6 @@ function foo8_c(x) {
                                                             "start": 1014,
                                                             "end": 1016
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -2554,7 +2539,7 @@ function foo8_c(x) {
                                                         "start": 1046,
                                                         "end": 1054
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -2766,7 +2751,7 @@ function foo8_c(x) {
                 "start": 1114,
                 "end": 1125
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo6",
@@ -2861,7 +2846,6 @@ function foo8_c(x) {
                                                             "start": 1169,
                                                             "end": 1171
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -2878,7 +2862,6 @@ function foo8_c(x) {
                                                             "start": 1172,
                                                             "end": 1174
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -2915,7 +2898,6 @@ function foo8_c(x) {
                                                             "start": 1187,
                                                             "end": 1189
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -2965,7 +2947,7 @@ function foo8_c(x) {
                                                         "start": 1219,
                                                         "end": 1227
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -3177,7 +3159,7 @@ function foo8_c(x) {
                 "start": 1287,
                 "end": 1297
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo7",
@@ -3278,7 +3260,6 @@ function foo8_c(x) {
                                                             "start": 1328,
                                                             "end": 1330
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -3295,7 +3276,6 @@ function foo8_c(x) {
                                                             "start": 1331,
                                                             "end": 1333
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
@@ -3332,7 +3312,6 @@ function foo8_c(x) {
                                                             "start": 1346,
                                                             "end": 1348
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -3382,7 +3361,7 @@ function foo8_c(x) {
                                                         "start": 1378,
                                                         "end": 1386
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -3594,7 +3573,7 @@ function foo8_c(x) {
                 "start": 1462,
                 "end": 1473
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo8",
@@ -3648,7 +3627,6 @@ function foo8_c(x) {
                                             "start": 1496,
                                             "end": 1498
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -3741,7 +3719,6 @@ function foo8_c(x) {
                                                             "start": 1529,
                                                             "end": 1531
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -3785,7 +3762,6 @@ function foo8_c(x) {
                                                             "start": 1548,
                                                             "end": 1550
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -3835,7 +3811,7 @@ function foo8_c(x) {
                                                         "start": 1580,
                                                         "end": 1588
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -4047,7 +4023,7 @@ function foo8_c(x) {
                 "start": 1648,
                 "end": 1673
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo0_c",
@@ -4102,7 +4078,6 @@ function foo8_c(x) {
                                             "start": 1700,
                                             "end": 1702
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -4160,7 +4135,6 @@ function foo8_c(x) {
                                                             "start": 1725,
                                                             "end": 1727
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -4210,7 +4184,7 @@ function foo8_c(x) {
                                                         "start": 1757,
                                                         "end": 1765
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -4382,7 +4356,7 @@ function foo8_c(x) {
                 "start": 1817,
                 "end": 1827
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo0_1_c",
@@ -4436,7 +4410,6 @@ function foo8_c(x) {
                                             "start": 1856,
                                             "end": 1858
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -4494,7 +4467,6 @@ function foo8_c(x) {
                                                             "start": 1881,
                                                             "end": 1883
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -4544,7 +4516,7 @@ function foo8_c(x) {
                                                         "start": 1913,
                                                         "end": 1921
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -4716,7 +4688,7 @@ function foo8_c(x) {
                 "start": 1973,
                 "end": 1983
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo1_c",
@@ -4770,7 +4742,6 @@ function foo8_c(x) {
                                             "start": 2010,
                                             "end": 2012
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -4844,7 +4815,6 @@ function foo8_c(x) {
                                                             "start": 2041,
                                                             "end": 2043
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -4894,7 +4864,7 @@ function foo8_c(x) {
                                                         "start": 2073,
                                                         "end": 2081
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -5066,7 +5036,7 @@ function foo8_c(x) {
                 "start": 2133,
                 "end": 2143
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo2_c",
@@ -5161,7 +5131,6 @@ function foo8_c(x) {
                                                             "start": 2191,
                                                             "end": 2193
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -5211,7 +5180,7 @@ function foo8_c(x) {
                                                         "start": 2223,
                                                         "end": 2231
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -5383,7 +5352,7 @@ function foo8_c(x) {
                 "start": 2283,
                 "end": 2293
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo3_c",
@@ -5484,7 +5453,6 @@ function foo8_c(x) {
                                                             "start": 2328,
                                                             "end": 2330
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -5528,7 +5496,6 @@ function foo8_c(x) {
                                                             "start": 2349,
                                                             "end": 2351
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -5578,7 +5545,7 @@ function foo8_c(x) {
                                                         "start": 2381,
                                                         "end": 2389
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -5750,7 +5717,7 @@ function foo8_c(x) {
                 "start": 2457,
                 "end": 2467
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo4_c",
@@ -5804,7 +5771,6 @@ function foo8_c(x) {
                                             "start": 2494,
                                             "end": 2496
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -5878,7 +5844,6 @@ function foo8_c(x) {
                                                             "start": 2525,
                                                             "end": 2527
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -5936,7 +5901,6 @@ function foo8_c(x) {
                                                             "start": 2561,
                                                             "end": 2563
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -5972,7 +5936,7 @@ function foo8_c(x) {
                                                         "start": 2578,
                                                         "end": 2586
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -6144,7 +6108,7 @@ function foo8_c(x) {
                 "start": 2638,
                 "end": 2648
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo5_c",
@@ -6198,7 +6162,6 @@ function foo8_c(x) {
                                             "start": 2675,
                                             "end": 2677
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -6222,7 +6185,6 @@ function foo8_c(x) {
                                             "start": 2682,
                                             "end": 2684
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -6296,7 +6258,6 @@ function foo8_c(x) {
                                                             "start": 2713,
                                                             "end": 2715
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -6346,7 +6307,7 @@ function foo8_c(x) {
                                                         "start": 2745,
                                                         "end": 2753
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -6558,7 +6519,7 @@ function foo8_c(x) {
                 "start": 2813,
                 "end": 2824
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo6_c",
@@ -6653,7 +6614,6 @@ function foo8_c(x) {
                                                             "start": 2872,
                                                             "end": 2874
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -6677,7 +6637,6 @@ function foo8_c(x) {
                                                             "start": 2879,
                                                             "end": 2881
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -6721,7 +6680,6 @@ function foo8_c(x) {
                                                             "start": 2900,
                                                             "end": 2902
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -6771,7 +6729,7 @@ function foo8_c(x) {
                                                         "start": 2932,
                                                         "end": 2940
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -6983,7 +6941,7 @@ function foo8_c(x) {
                 "start": 3000,
                 "end": 3010
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo7_c",
@@ -7084,7 +7042,6 @@ function foo8_c(x) {
                                                             "start": 3045,
                                                             "end": 3047
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -7108,7 +7065,6 @@ function foo8_c(x) {
                                                             "start": 3052,
                                                             "end": 3054
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -7152,7 +7108,6 @@ function foo8_c(x) {
                                                             "start": 3073,
                                                             "end": 3075
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -7202,7 +7157,7 @@ function foo8_c(x) {
                                                         "start": 3105,
                                                         "end": 3113
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {
@@ -7414,7 +7369,7 @@ function foo8_c(x) {
                 "start": 3189,
                 "end": 3200
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo8_c",
@@ -7468,7 +7423,6 @@ function foo8_c(x) {
                                             "start": 3227,
                                             "end": 3229
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 201392130,
@@ -7542,7 +7496,6 @@ function foo8_c(x) {
                                                             "start": 3258,
                                                             "end": 3260
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392130,
@@ -7586,7 +7539,6 @@ function foo8_c(x) {
                                                             "start": 3279,
                                                             "end": 3281
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 129,
@@ -7636,7 +7588,7 @@ function foo8_c(x) {
                                                         "start": 3311,
                                                         "end": 3319
                                                     },
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "name": null,
                                                     "typeParameters": null,
                                                     "formalParameterList": {

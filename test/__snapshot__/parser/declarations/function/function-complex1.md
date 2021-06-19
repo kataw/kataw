@@ -45,7 +45,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "w",
@@ -549,7 +549,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 "start": 156,
                 "end": 165
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "w2",

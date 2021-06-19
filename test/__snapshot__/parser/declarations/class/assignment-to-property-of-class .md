@@ -160,7 +160,6 @@ c.m = n => n * 3;
                             "start": 103,
                             "end": 105
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 210,

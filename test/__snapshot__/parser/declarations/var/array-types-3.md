@@ -45,50 +45,61 @@ var a?: number[][]
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 5,
-                            "end": 6
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 136,
-                                "type": {
-                                    "kind": 136,
-                                    "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
-                                        "start": 7,
-                                        "end": 14
-                                    },
-                                    "flags": 2097152,
-                                    "start": 7,
-                                    "end": 16
-                                },
-                                "flags": 2097152,
-                                "start": 7,
-                                "end": 18
-                            },
-                            "flags": 2097152,
-                            "start": 7,
-                            "end": 18
-                        },
+                        "type": null,
                         "initializer": null,
                         "flags": 16,
                         "start": 3,
-                        "end": 18
+                        "end": 5
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 18
+                "end": 5
             },
             "flags": 16,
             "start": 0,
+            "end": 5
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 536871042,
+                "member": {
+                    "kind": 536871042,
+                    "member": {
+                        "kind": 134299649,
+                        "text": "number",
+                        "rawText": "number",
+                        "flags": 96,
+                        "start": 7,
+                        "end": 14
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "rawText": "",
+                        "flags": 64,
+                        "start": 15,
+                        "end": 15
+                    },
+                    "flags": 32,
+                    "start": 7,
+                    "end": 16
+                },
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 64,
+                    "start": 17,
+                    "end": 17
+                },
+                "flags": 32,
+                "start": 7,
+                "end": 18
+            },
+            "flags": 16,
+            "start": 7,
             "end": 18
         }
     ],
@@ -105,12 +116,18 @@ var a?: number[][]
 
 ```javascript
 
-var a: [ [ number ] ];
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 5, end: 6
+✖ Expected a `;` - start: 5, end: 6
+✖ Declaration or statement expected - start: 6, end: 7
+✖ An member access expression should take an argument. - start: 7, end: 16
+✖ Identifier expected - start: 15, end: 16
+✖ An member access expression should take an argument. - start: 7, end: 18
+✖ Identifier expected - start: 17, end: 18
+
 ```
 

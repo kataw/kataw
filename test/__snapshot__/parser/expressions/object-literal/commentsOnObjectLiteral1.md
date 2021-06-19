@@ -44,7 +44,6 @@ var Person = makeClass(
                             "start": 29,
                             "end": 36
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 131,

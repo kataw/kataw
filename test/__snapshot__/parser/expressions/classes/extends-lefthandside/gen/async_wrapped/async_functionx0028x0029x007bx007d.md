@@ -40,7 +40,7 @@ async function p(){
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "p",
@@ -107,7 +107,7 @@ async function p(){
                                             "start": 43,
                                             "end": 52
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "name": null,
                                         "typeParameters": null,
                                         "formalParameterList": {

@@ -49,7 +49,7 @@ async function foo3(): Promise<string> {
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo1",
@@ -165,7 +165,7 @@ async function foo3(): Promise<string> {
                 "start": 59,
                 "end": 68
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo2",
@@ -288,7 +288,7 @@ async function foo3(): Promise<string> {
                 "start": 123,
                 "end": 132
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo3",
@@ -322,7 +322,7 @@ async function foo3(): Promise<string> {
                                 "start": 158,
                                 "end": 169
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "bar",

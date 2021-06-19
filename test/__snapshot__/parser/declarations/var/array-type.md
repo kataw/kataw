@@ -56,7 +56,6 @@ var a: (?number)[];
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -113,7 +112,6 @@ var a: (?number)[];
                             "start": 21,
                             "end": 23
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -207,7 +205,6 @@ var a: (?number)[];
                             "start": 47,
                             "end": 49
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -293,7 +290,6 @@ var a: (?number)[];
                             "start": 71,
                             "end": 73
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -356,7 +352,6 @@ var a: (?number)[];
                             "start": 91,
                             "end": 93
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -427,7 +422,6 @@ var a: (?number)[];
                             "start": 110,
                             "end": 112
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

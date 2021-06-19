@@ -175,7 +175,7 @@ do while [catch] =! class function try while with foo!
                 "start": 25,
                 "end": 34
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {

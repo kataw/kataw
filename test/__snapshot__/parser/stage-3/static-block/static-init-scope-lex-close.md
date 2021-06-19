@@ -84,7 +84,6 @@ class C {
                                                             "start": 28,
                                                             "end": 36
                                                         },
-                                                        "optionalToken": null,
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 201392131,

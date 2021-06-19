@@ -66,7 +66,7 @@ class A extends async function *f(){} {}
                             "start": 21,
                             "end": 30
                         },
-                        "generatorToken": {
+                        "asteriskToken": {
                             "kind": 67143222,
                             "flags": 64,
                             "start": 30,

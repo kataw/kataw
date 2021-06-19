@@ -123,7 +123,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                             "start": 3,
                             "end": 24
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -132,7 +131,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -155,7 +154,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "z",
@@ -171,7 +170,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                 "properties": [
                                                     {
                                                         "kind": 219,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "a",

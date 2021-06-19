@@ -45,7 +45,6 @@ var asyncFn = async () => var await = 'test';
                             "start": 3,
                             "end": 11
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -111,7 +110,6 @@ var asyncFn = async () => var await = 'test';
                             "start": 29,
                             "end": 35
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392131,

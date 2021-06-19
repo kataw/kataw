@@ -54,7 +54,7 @@ try {
                                 "start": 13,
                                 "end": 22
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 22,

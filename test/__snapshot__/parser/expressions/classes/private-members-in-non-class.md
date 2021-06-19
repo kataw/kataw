@@ -81,7 +81,7 @@ class C { test() {get #a() { }}}
                 "start": 8,
                 "end": 18
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {
@@ -178,7 +178,7 @@ class C { test() {get #a() { }}}
                 "start": 37,
                 "end": 47
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": null,
             "typeParameters": null,
             "formalParameterList": {
@@ -330,7 +330,7 @@ class C { test() {get #a() { }}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

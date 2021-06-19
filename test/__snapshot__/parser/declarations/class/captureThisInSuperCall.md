@@ -59,7 +59,7 @@ class B extends A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -200,7 +200,7 @@ class B extends A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -257,7 +257,7 @@ class B extends A {
                                                                     "properties": [
                                                                         {
                                                                             "kind": 219,
-                                                                            "generatorToken": null,
+                                                                            "asteriskToken": null,
                                                                             "left": {
                                                                                 "kind": 134299649,
                                                                                 "text": "test",
@@ -365,7 +365,7 @@ class B extends A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

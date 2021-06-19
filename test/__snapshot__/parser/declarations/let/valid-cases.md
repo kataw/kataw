@@ -41,7 +41,6 @@ let {q=3} = {};
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -78,7 +77,6 @@ let {q=3} = {};
                             "start": 10,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -137,7 +135,6 @@ let {q=3} = {};
                             "start": 21,
                             "end": 25
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -211,7 +208,6 @@ let {q=3} = {};
                             "start": 36,
                             "end": 42
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -220,7 +216,7 @@ let {q=3} = {};
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "foo",
@@ -317,7 +313,6 @@ let {q=3} = {};
                             "start": 58,
                             "end": 64
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

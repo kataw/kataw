@@ -77,7 +77,7 @@ class C {
                                                             "start": 26,
                                                             "end": 34
                                                         },
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "name": null,
                                                         "typeParameters": null,
                                                         "formalParameterList": {

@@ -33,7 +33,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -79,7 +79,6 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                             "start": 24,
                                             "end": 28
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 177,
@@ -90,7 +89,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                 "start": 30,
                                                 "end": 39
                                             },
-                                            "generatorToken": {
+                                            "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 39,

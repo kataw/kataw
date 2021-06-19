@@ -46,7 +46,6 @@ gen = function*() {};
                             "start": 3,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -63,7 +62,6 @@ gen = function*() {};
                             "start": 9,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -106,7 +104,7 @@ gen = function*() {};
                         "start": 22,
                         "end": 31
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 31,
@@ -183,7 +181,7 @@ gen = function*() {};
                         "start": 46,
                         "end": 55
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 55,

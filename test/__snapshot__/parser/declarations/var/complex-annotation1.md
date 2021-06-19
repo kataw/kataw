@@ -45,7 +45,6 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -169,7 +168,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "str",
@@ -192,7 +191,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "i",
@@ -215,7 +214,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "k",

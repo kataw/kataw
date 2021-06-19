@@ -34,7 +34,7 @@ function bar(x: X): B { return x; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -165,7 +165,7 @@ function bar(x: X): B { return x; }
                 "start": 35,
                 "end": 44
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "bar",

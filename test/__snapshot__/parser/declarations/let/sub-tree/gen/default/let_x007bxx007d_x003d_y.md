@@ -87,7 +87,6 @@ switch (a) { default: let {x} = y }
                                                 "start": 25,
                                                 "end": 29
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,

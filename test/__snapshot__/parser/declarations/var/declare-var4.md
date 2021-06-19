@@ -52,7 +52,6 @@ declare var x2: X;
                             "start": 11,
                             "end": 14
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -129,47 +128,33 @@ declare var x2: X;
                             "start": 31,
                             "end": 34
                         },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 34,
-                            "end": 35
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 144,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "X",
-                                    "rawText": "X",
-                                    "flags": 96,
-                                    "start": 36,
-                                    "end": 38
-                                },
-                                "typeParameters": null,
-                                "flags": 2097152,
-                                "start": 36,
-                                "end": 38
-                            },
-                            "flags": 2097152,
-                            "start": 36,
-                            "end": 38
-                        },
+                        "type": null,
                         "initializer": null,
                         "flags": 16,
                         "start": 31,
-                        "end": 38
+                        "end": 34
                     }
                 ],
                 "flags": 16,
                 "start": 31,
-                "end": 38
+                "end": 34
             },
             "flags": 4112,
             "start": 27,
+            "end": 34
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "X",
+                "rawText": "X",
+                "flags": 96,
+                "start": 36,
+                "end": 38
+            },
+            "flags": 16,
+            "start": 36,
             "end": 39
         },
         {
@@ -199,7 +184,6 @@ declare var x2: X;
                             "start": 51,
                             "end": 54
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -251,14 +235,14 @@ declare var x2: X;
 
 ```javascript
 
-var x1: ;
-var x1: ;
-var x2: ;
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ ',' expected - start: 34, end: 35
+✖ Expected a `;` - start: 34, end: 35
+✖ Declaration or statement expected - start: 35, end: 36
+
 ```
 

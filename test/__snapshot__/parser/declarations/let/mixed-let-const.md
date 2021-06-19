@@ -38,7 +38,6 @@ const a = 1; let a = 2;
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -82,7 +81,6 @@ const a = 1; let a = 2;
                             "start": 16,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -126,7 +124,6 @@ const a = 1; let a = 2;
                             "start": 30,
                             "end": 32
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -170,7 +167,6 @@ const a = 1; let a = 2;
                             "start": 41,
                             "end": 43
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

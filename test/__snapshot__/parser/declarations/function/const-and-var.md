@@ -25,7 +25,7 @@ function f(){ const x = y; var x; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -70,7 +70,6 @@ function f(){ const x = y; var x; }
                                             "start": 19,
                                             "end": 21
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
@@ -115,7 +114,6 @@ function f(){ const x = y; var x; }
                                             "start": 30,
                                             "end": 32
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

@@ -50,7 +50,7 @@ a=function<T,S>() {}
                         "start": 2,
                         "end": 10
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": null,
                     "typeParameters": {
                         "kind": 307,

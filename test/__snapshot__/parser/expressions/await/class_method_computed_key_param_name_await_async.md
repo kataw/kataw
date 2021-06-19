@@ -32,7 +32,7 @@ async function f(){
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -109,7 +109,7 @@ async function f(){
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
-                                                            "generatorToken": null,
+                                                            "asteriskToken": null,
                                                             "staticKeyword": null,
                                                             "asyncKeyword": null,
                                                             "setKeyword": null,
@@ -181,7 +181,7 @@ async function f(){
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
-                                                            "generatorToken": null,
+                                                            "asteriskToken": null,
                                                             "staticKeyword": null,
                                                             "asyncKeyword": null,
                                                             "setKeyword": null,

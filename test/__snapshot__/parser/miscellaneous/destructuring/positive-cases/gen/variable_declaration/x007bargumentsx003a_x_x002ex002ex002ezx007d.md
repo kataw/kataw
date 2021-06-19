@@ -99,7 +99,6 @@ var {arguments: x, ...z} = {};
                             "start": 3,
                             "end": 24
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,

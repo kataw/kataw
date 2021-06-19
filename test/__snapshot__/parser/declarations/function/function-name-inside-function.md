@@ -27,7 +27,7 @@ function fn() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "fn",
@@ -61,7 +61,7 @@ function fn() {
                                 "start": 15,
                                 "end": 26
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "yield",

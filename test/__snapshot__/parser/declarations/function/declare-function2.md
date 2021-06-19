@@ -43,7 +43,7 @@ declare function foo(): void
                 "start": 7,
                 "end": 16
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -131,7 +131,7 @@ declare function foo(): void
                 "start": 41,
                 "end": 50
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",
@@ -252,7 +252,7 @@ declare function foo(): void
                 "start": 92,
                 "end": 101
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "foo",

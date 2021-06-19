@@ -42,7 +42,7 @@ x = {arrow: (x, y) => ok};
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "arrow",
@@ -131,7 +131,7 @@ x = {arrow: (x, y) => ok};
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "arrow",

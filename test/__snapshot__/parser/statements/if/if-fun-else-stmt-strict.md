@@ -45,7 +45,7 @@ if (true) function f() {} else ;
                     "start": 9,
                     "end": 18
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "f",

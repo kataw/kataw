@@ -47,7 +47,6 @@ var gen = async function *g() {
                             "start": 3,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -63,7 +62,7 @@ var gen = async function *g() {
                                 "start": 15,
                                 "end": 24
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 24,
@@ -205,7 +204,7 @@ var gen = async function *g() {
                                                                                 "start": 94,
                                                                                 "end": 102
                                                                             },
-                                                                            "generatorToken": null,
+                                                                            "asteriskToken": null,
                                                                             "name": null,
                                                                             "typeParameters": null,
                                                                             "formalParameterList": {
@@ -253,7 +252,6 @@ var gen = async function *g() {
                                                                                                             "start": 123,
                                                                                                             "end": 129
                                                                                                         },
-                                                                                                        "optionalToken": null,
                                                                                                         "type": null,
                                                                                                         "initializer": {
                                                                                                             "kind": 134299649,

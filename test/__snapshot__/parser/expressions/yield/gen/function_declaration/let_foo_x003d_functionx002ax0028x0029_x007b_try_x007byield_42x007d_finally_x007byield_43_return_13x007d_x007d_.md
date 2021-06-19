@@ -33,7 +33,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
@@ -78,7 +78,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                             "start": 24,
                                             "end": 28
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": {
                                             "kind": 177,
@@ -89,7 +88,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                 "start": 30,
                                                 "end": 39
                                             },
-                                            "generatorToken": {
+                                            "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 39,

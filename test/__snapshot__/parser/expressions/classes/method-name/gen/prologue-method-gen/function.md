@@ -143,7 +143,7 @@
 
 ```javascript
 
-({ * function {} });
+({ function {} });
 ```
 
 ### Diagnostics

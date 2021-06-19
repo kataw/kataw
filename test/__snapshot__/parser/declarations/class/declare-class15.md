@@ -50,7 +50,6 @@ declare var string: any;
                             "start": 11,
                             "end": 18
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

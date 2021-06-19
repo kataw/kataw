@@ -81,7 +81,6 @@ const {[a]: b.c} = v
                             "start": 5,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

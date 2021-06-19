@@ -33,7 +33,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,

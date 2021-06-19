@@ -69,7 +69,7 @@ for (a of b) async function *f(){}
                     "start": 18,
                     "end": 27
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 27,

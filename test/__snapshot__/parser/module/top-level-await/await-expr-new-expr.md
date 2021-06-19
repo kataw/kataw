@@ -59,7 +59,7 @@ await new Promise(function(res, rej) { res(1); });
                                     "start": 18,
                                     "end": 26
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {

@@ -123,7 +123,6 @@ var await;
                             "start": 30,
                             "end": 36
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

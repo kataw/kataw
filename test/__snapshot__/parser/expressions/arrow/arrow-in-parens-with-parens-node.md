@@ -37,7 +37,6 @@ var asserted1 = <any>((n) => { return n; });
                             "start": 3,
                             "end": 13
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 198,

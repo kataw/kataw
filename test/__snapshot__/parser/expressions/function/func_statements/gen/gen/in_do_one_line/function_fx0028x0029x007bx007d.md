@@ -55,7 +55,7 @@ do function f(){} while (x);
                     "start": 2,
                     "end": 11
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "f",

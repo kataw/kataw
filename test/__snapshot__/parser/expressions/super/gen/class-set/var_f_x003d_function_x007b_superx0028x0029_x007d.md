@@ -52,7 +52,7 @@ class C { set x(_) { var f = function { super(); } } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -119,7 +119,6 @@ class C { set x(_) { var f = function { super(); } } }
                                                                 "start": 24,
                                                                 "end": 26
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
                                                                 "kind": 177,
@@ -130,7 +129,7 @@ class C { set x(_) { var f = function { super(); } } }
                                                                     "start": 28,
                                                                     "end": 37
                                                                 },
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "name": null,
                                                                 "typeParameters": null,
                                                                 "formalParameterList": {

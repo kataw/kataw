@@ -377,7 +377,7 @@ for ({}.bar = x in obj);
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "__proto__",
@@ -400,7 +400,7 @@ for ({}.bar = x in obj);
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "__proto__",
@@ -468,7 +468,7 @@ for ({}.bar = x in obj);
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "__proto__",
@@ -491,7 +491,7 @@ for ({}.bar = x in obj);
                         },
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "__proto__",
@@ -1416,7 +1416,6 @@ for ({}.bar = x in obj);
                             "start": 362,
                             "end": 364
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -1727,7 +1726,6 @@ for ({}.bar = x in obj);
                             "start": 466,
                             "end": 468
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1779,7 +1777,7 @@ for ({}.bar = x in obj);
                         "start": 481,
                         "end": 490
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",
@@ -1845,7 +1843,6 @@ for ({}.bar = x in obj);
                             "start": 505,
                             "end": 509
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1903,7 +1900,6 @@ for ({}.bar = x in obj);
                             "start": 525,
                             "end": 529
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -1960,7 +1956,6 @@ for ({}.bar = x in obj);
                             "start": 545,
                             "end": 547
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -2013,7 +2008,6 @@ for ({}.bar = x in obj);
                                             "start": 559,
                                             "end": 561
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -2063,7 +2057,6 @@ for ({}.bar = x in obj);
                             "start": 575,
                             "end": 577
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -2116,7 +2109,6 @@ for ({}.bar = x in obj);
                                             "start": 589,
                                             "end": 591
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
@@ -2189,7 +2181,6 @@ for ({}.bar = x in obj);
                             "start": 605,
                             "end": 612
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -2788,7 +2779,6 @@ for ({}.bar = x in obj);
                             "start": 773,
                             "end": 775
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -2862,7 +2852,7 @@ for ({}.bar = x in obj);
                             "start": 798,
                             "end": 807
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "f",
@@ -3817,7 +3807,7 @@ for ({}.bar = x in obj);
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -3863,7 +3853,7 @@ for ({}.bar = x in obj);
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "b",
@@ -3962,7 +3952,7 @@ for ({}.bar = x in obj);
                 "start": 1061,
                 "end": 1071
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 1071,
@@ -4094,7 +4084,7 @@ for ({}.bar = x in obj);
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -4265,7 +4255,7 @@ for ({}.bar = x in obj);
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -4331,7 +4321,7 @@ for ({}.bar = x in obj);
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -4482,7 +4472,7 @@ for ({}.bar = x in obj);
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -4785,7 +4775,6 @@ for ({}.bar = x in obj);
                             "start": 1303,
                             "end": 1305
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -4809,7 +4798,6 @@ for ({}.bar = x in obj);
                             "start": 1310,
                             "end": 1312
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4904,7 +4892,6 @@ for ({}.bar = x in obj);
                             "start": 1338,
                             "end": 1340
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -4921,7 +4908,6 @@ for ({}.bar = x in obj);
                             "start": 1341,
                             "end": 1342
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -4980,7 +4966,6 @@ for ({}.bar = x in obj);
                             "start": 1365,
                             "end": 1367
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -5082,7 +5067,6 @@ for ({}.bar = x in obj);
                             "start": 1397,
                             "end": 1399
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -5106,7 +5090,6 @@ for ({}.bar = x in obj);
                             "start": 1404,
                             "end": 1406
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -5202,7 +5185,6 @@ for ({}.bar = x in obj);
                             "start": 1432,
                             "end": 1434
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -5305,7 +5287,6 @@ for ({}.bar = x in obj);
                             "start": 1464,
                             "end": 1466
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -5329,7 +5310,6 @@ for ({}.bar = x in obj);
                             "start": 1471,
                             "end": 1473
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -5424,7 +5404,6 @@ for ({}.bar = x in obj);
                             "start": 1499,
                             "end": 1501
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -5448,7 +5427,6 @@ for ({}.bar = x in obj);
                             "start": 1506,
                             "end": 1508
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -5525,7 +5503,6 @@ for ({}.bar = x in obj);
                             "start": 1533,
                             "end": 1535
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -5542,7 +5519,6 @@ for ({}.bar = x in obj);
                             "start": 1536,
                             "end": 1537
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -5613,7 +5589,6 @@ for ({}.bar = x in obj);
                             "start": 1558,
                             "end": 1560
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -5637,7 +5612,6 @@ for ({}.bar = x in obj);
                             "start": 1565,
                             "end": 1567
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,
@@ -5715,7 +5689,6 @@ for ({}.bar = x in obj);
                             "start": 1592,
                             "end": 1594
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -5732,7 +5705,6 @@ for ({}.bar = x in obj);
                             "start": 1595,
                             "end": 1596
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -6338,7 +6310,7 @@ for ({}.bar = x in obj);
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -6457,7 +6429,7 @@ for ({}.bar = x in obj);
                         "properties": [
                             {
                                 "kind": 219,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -6601,7 +6573,6 @@ for ({}.bar = x in obj);
                             "start": 1813,
                             "end": 1819
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -6673,7 +6644,6 @@ for ({}.bar = x in obj);
                             "start": 1840,
                             "end": 1846
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -6724,7 +6694,7 @@ for ({}.bar = x in obj);
                     "properties": [
                         {
                             "kind": 219,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "left": {
                                 "kind": 134299649,
                                 "text": "a",

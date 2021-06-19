@@ -28,7 +28,7 @@ function get() {}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "get",
@@ -75,7 +75,7 @@ function get() {}
                 "start": 17,
                 "end": 28
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 28,

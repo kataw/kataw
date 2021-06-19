@@ -38,7 +38,7 @@ async function wrap() { async function await() { } };
                 "start": 5,
                 "end": 14
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "wrap",
@@ -77,7 +77,7 @@ async function wrap() { async function await() { } };
                                 "start": 29,
                                 "end": 38
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "await",

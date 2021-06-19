@@ -44,7 +44,6 @@ let tuple1: [number] = [1];
                             "start": 3,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

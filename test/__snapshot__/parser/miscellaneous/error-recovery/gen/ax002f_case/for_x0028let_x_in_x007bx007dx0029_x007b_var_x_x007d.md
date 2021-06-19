@@ -44,7 +44,6 @@ for (let x in {}) { var x; }
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -103,7 +102,6 @@ for (let x in {}) { var x; }
                                             "start": 23,
                                             "end": 25
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

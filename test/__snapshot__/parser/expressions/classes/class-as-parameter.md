@@ -51,7 +51,6 @@ class A {
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -77,7 +76,7 @@ class A {
                 "start": 6,
                 "end": 16
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "decorator",
@@ -344,7 +343,7 @@ class A {
                                 "start": 126,
                                 "end": 139
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

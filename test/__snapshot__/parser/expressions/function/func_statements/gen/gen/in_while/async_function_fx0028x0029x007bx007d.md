@@ -54,7 +54,7 @@ while (x) async function f(){}
                     "start": 15,
                     "end": 24
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "f",

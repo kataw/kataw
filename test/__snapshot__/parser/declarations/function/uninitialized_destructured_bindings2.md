@@ -43,7 +43,6 @@ var x = function({ foo }) {}
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 177,
@@ -54,7 +53,7 @@ var x = function({ foo }) {}
                                 "start": 7,
                                 "end": 16
                             },
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "name": null,
                             "typeParameters": null,
                             "formalParameterList": {

@@ -38,7 +38,7 @@
                             "start": 1,
                             "end": 10
                         },
-                        "generatorToken": null,
+                        "asteriskToken": null,
                         "name": {
                             "kind": 134299649,
                             "text": "x",

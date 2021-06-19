@@ -72,7 +72,6 @@ let {...(a,b)} = foo
                             "start": 3,
                             "end": 8
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

@@ -36,7 +36,6 @@ for (let x, {y});
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -68,7 +67,6 @@ for (let x, {y});
                             "start": 11,
                             "end": 15
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

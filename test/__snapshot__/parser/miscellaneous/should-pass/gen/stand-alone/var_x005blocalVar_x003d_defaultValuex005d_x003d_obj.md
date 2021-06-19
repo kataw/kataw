@@ -77,7 +77,6 @@ var [localVar = defaultValue] = obj
                             "start": 3,
                             "end": 29
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

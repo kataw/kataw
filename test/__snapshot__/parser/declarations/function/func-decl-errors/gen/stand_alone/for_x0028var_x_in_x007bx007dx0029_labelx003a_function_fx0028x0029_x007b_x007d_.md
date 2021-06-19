@@ -44,7 +44,6 @@ for (var x in {}) label: function f() { };
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -102,7 +101,7 @@ for (var x in {}) label: function f() { };
                         "start": 24,
                         "end": 33
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "f",

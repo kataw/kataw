@@ -33,7 +33,7 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",
@@ -110,7 +110,6 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                                             "start": 60,
                                             "end": 65
                                         },
-                                        "optionalToken": null,
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,

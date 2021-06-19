@@ -50,7 +50,7 @@ export default async function *f(){} foo
                     "start": 20,
                     "end": 29
                 },
-                "generatorToken": {
+                "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
                     "start": 29,

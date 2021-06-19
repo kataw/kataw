@@ -59,7 +59,7 @@ switch (true) { default: function g() {} }
                                     "start": 24,
                                     "end": 33
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "g",

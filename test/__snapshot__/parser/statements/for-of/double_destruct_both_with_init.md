@@ -94,7 +94,6 @@ for (let {x = y, z = a} of obj);
                             "start": 8,
                             "end": 23
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,

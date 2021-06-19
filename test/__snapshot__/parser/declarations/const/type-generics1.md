@@ -44,7 +44,6 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                             "start": 5,
                             "end": 39
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -67,7 +66,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                         "properties": [
                                             {
                                                 "kind": 219,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "id",

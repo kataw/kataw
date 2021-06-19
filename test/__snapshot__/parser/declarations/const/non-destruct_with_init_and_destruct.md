@@ -55,7 +55,6 @@ const foo = arr, [bar] = arr2;
                             "start": 5,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -94,7 +93,6 @@ const foo = arr, [bar] = arr2;
                             "start": 16,
                             "end": 22
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

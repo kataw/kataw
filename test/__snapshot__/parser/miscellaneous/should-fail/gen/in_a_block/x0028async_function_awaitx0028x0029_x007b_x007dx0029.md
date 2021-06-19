@@ -46,7 +46,7 @@
                                     "start": 8,
                                     "end": 17
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "await",

@@ -33,7 +33,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f",

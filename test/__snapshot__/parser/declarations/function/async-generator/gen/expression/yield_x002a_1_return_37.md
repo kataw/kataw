@@ -176,7 +176,7 @@
 
 ```javascript
 
-({ * async gen {
+({ async gen {
     yield * 1;
     return  37;
   } });

@@ -42,7 +42,6 @@ let {} = 0
                             "start": 3,
                             "end": 6
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

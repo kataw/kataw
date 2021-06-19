@@ -48,7 +48,6 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "start": 5,
                             "end": 7
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -57,7 +56,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "foo",
@@ -207,7 +206,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                                     "properties": [
                                                         {
                                                             "kind": 219,
-                                                            "generatorToken": null,
+                                                            "asteriskToken": null,
                                                             "left": {
                                                                 "kind": 194,
                                                                 "expression": {
@@ -296,7 +295,6 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "start": 72,
                             "end": 74
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 220,
@@ -305,7 +303,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "foo",
@@ -328,7 +326,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                     },
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "bar",
@@ -478,7 +476,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                                     "properties": [
                                                         {
                                                             "kind": 219,
-                                                            "generatorToken": null,
+                                                            "asteriskToken": null,
                                                             "left": {
                                                                 "kind": 194,
                                                                 "expression": {

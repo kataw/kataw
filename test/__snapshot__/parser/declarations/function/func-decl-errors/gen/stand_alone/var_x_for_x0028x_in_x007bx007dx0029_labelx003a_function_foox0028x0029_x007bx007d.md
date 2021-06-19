@@ -45,7 +45,6 @@ var x; for (x in {}) label: function foo() {}
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -123,7 +122,7 @@ var x; for (x in {}) label: function foo() {}
                         "start": 27,
                         "end": 36
                     },
-                    "generatorToken": null,
+                    "asteriskToken": null,
                     "name": {
                         "kind": 134299649,
                         "text": "foo",

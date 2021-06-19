@@ -79,7 +79,6 @@ try {} catch (e) { var e = x; }
                                                 "start": 22,
                                                 "end": 24
                                             },
-                                            "optionalToken": null,
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,

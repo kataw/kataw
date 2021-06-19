@@ -38,7 +38,6 @@ for (var x;;) { { let x; } }
                             "start": 8,
                             "end": 10
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -84,7 +83,6 @@ for (var x;;) { { let x; } }
                                                         "start": 21,
                                                         "end": 23
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
@@ -143,7 +141,6 @@ for (var x;;) { { let x; } }
                             "start": 38,
                             "end": 40
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -188,7 +185,6 @@ for (var x;;) { { let x; } }
                                                         "start": 51,
                                                         "end": 53
                                                     },
-                                                    "optionalToken": null,
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,

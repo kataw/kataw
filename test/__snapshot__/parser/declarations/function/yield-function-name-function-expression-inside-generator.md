@@ -27,7 +27,7 @@ function* fn() {
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": {
+            "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
                 "start": 8,
@@ -69,7 +69,7 @@ function* fn() {
                                         "start": 20,
                                         "end": 28
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": {
                                         "kind": 134299649,
                                         "text": "yield",

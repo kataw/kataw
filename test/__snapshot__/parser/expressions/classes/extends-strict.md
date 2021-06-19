@@ -42,7 +42,6 @@ class C extends (function B() {
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -100,7 +99,7 @@ class C extends (function B() {
                                     "start": 25,
                                     "end": 33
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": {
                                     "kind": 134299649,
                                     "text": "B",

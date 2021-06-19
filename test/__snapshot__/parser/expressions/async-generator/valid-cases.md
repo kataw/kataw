@@ -74,7 +74,7 @@ for (;;) {}});
                             "start": 1,
                             "end": 9
                         },
-                        "generatorToken": {
+                        "asteriskToken": {
                             "kind": 67143222,
                             "flags": 64,
                             "start": 9,
@@ -161,7 +161,7 @@ for (;;) {}});
                                 "start": 31,
                                 "end": 39
                             },
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 39,
@@ -264,7 +264,7 @@ for (;;) {}});
                         "start": 65,
                         "end": 73
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 73,
@@ -361,7 +361,7 @@ for (;;) {}});
                         "start": 100,
                         "end": 108
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 108,
@@ -467,7 +467,7 @@ for (;;) {}});
                         "start": 137,
                         "end": 145
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 145,
@@ -583,7 +583,7 @@ for (;;) {}});
                         "start": 178,
                         "end": 186
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 186,
@@ -715,7 +715,7 @@ for (;;) {}});
                         "start": 221,
                         "end": 229
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 229,
@@ -857,7 +857,7 @@ for (;;) {}});
                         "start": 269,
                         "end": 277
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 277,
@@ -967,7 +967,7 @@ for (;;) {}});
                         "start": 309,
                         "end": 317
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 317,
@@ -1079,7 +1079,7 @@ for (;;) {}});
                         "start": 350,
                         "end": 358
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 358,
@@ -1196,7 +1196,7 @@ for (;;) {}});
                         "start": 393,
                         "end": 401
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 401,
@@ -1336,7 +1336,7 @@ for (;;) {}});
                         "start": 449,
                         "end": 457
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 457,
@@ -1486,7 +1486,7 @@ for (;;) {}});
                         "start": 510,
                         "end": 518
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 518,
@@ -1571,7 +1571,7 @@ for (;;) {}});
                         "start": 539,
                         "end": 547
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 547,
@@ -1656,7 +1656,7 @@ for (;;) {}});
                         "start": 567,
                         "end": 575
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 575,
@@ -1741,7 +1741,7 @@ for (;;) {}});
                         "start": 597,
                         "end": 605
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 605,
@@ -1832,7 +1832,7 @@ for (;;) {}});
                         "start": 627,
                         "end": 635
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 635,
@@ -1932,7 +1932,7 @@ for (;;) {}});
                         "start": 657,
                         "end": 665
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 665,
@@ -2031,7 +2031,7 @@ for (;;) {}});
                         "start": 687,
                         "end": 695
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 695,
@@ -2139,7 +2139,7 @@ for (;;) {}});
                         "start": 722,
                         "end": 730
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 730,
@@ -2245,7 +2245,7 @@ for (;;) {}});
                         "start": 757,
                         "end": 765
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 765,
@@ -2384,7 +2384,7 @@ for (;;) {}});
                         "start": 803,
                         "end": 811
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 811,
@@ -2523,7 +2523,7 @@ for (;;) {}});
                         "start": 926,
                         "end": 934
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 934,
@@ -2636,7 +2636,7 @@ for (;;) {}});
                         "start": 967,
                         "end": 975
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 975,
@@ -2788,7 +2788,7 @@ for (;;) {}});
                         "start": 1018,
                         "end": 1026
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 1026,
@@ -2957,7 +2957,7 @@ for (;;) {}});
                         "start": 1070,
                         "end": 1078
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 1078,
@@ -3123,7 +3123,7 @@ for (;;) {}});
                         "start": 1128,
                         "end": 1136
                     },
-                    "generatorToken": {
+                    "asteriskToken": {
                         "kind": 67143222,
                         "flags": 64,
                         "start": 1136,

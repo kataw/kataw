@@ -64,7 +64,6 @@ FOR2 : for(var i=1;i<2;i++){
                                 "start": 14,
                                 "end": 16
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,
@@ -277,7 +276,6 @@ FOR2 : for(var i=1;i<2;i++){
                                 "start": 92,
                                 "end": 94
                             },
-                            "optionalToken": null,
                             "type": null,
                             "initializer": {
                                 "kind": 201392130,

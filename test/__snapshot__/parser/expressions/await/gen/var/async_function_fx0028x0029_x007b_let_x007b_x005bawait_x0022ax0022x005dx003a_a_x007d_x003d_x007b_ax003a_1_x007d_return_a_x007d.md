@@ -51,7 +51,6 @@ var await; var f = (async function() { async function f() {
                             "start": 3,
                             "end": 9
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": null,
                         "flags": 16,
@@ -89,7 +88,6 @@ var await; var f = (async function() { async function f() {
                             "start": 14,
                             "end": 16
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 121,
@@ -107,7 +105,7 @@ var await; var f = (async function() { async function f() {
                                     "start": 25,
                                     "end": 34
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "name": null,
                                 "typeParameters": null,
                                 "formalParameterList": {
@@ -139,7 +137,7 @@ var await; var f = (async function() { async function f() {
                                                     "start": 44,
                                                     "end": 53
                                                 },
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "name": {
                                                     "kind": 134299649,
                                                     "text": "f",
@@ -233,7 +231,6 @@ var await; var f = (async function() { async function f() {
                                                                                 "start": 65,
                                                                                 "end": 84
                                                                             },
-                                                                            "optionalToken": null,
                                                                             "type": null,
                                                                             "initializer": {
                                                                                 "kind": 220,
@@ -242,7 +239,7 @@ var await; var f = (async function() { async function f() {
                                                                                     "properties": [
                                                                                         {
                                                                                             "kind": 219,
-                                                                                            "generatorToken": null,
+                                                                                            "asteriskToken": null,
                                                                                             "left": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "a",

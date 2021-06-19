@@ -45,7 +45,6 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,

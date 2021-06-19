@@ -89,7 +89,7 @@ or (;false;) label: function foo() {}
                     "start": 19,
                     "end": 28
                 },
-                "generatorToken": null,
+                "asteriskToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "foo",

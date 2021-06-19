@@ -44,7 +44,6 @@ for (var let = 1; let < 1; let++) {}
                             "start": 8,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 201392130,

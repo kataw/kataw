@@ -87,7 +87,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -144,7 +143,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 21,
                             "end": 23
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -283,7 +281,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 57,
                             "end": 59
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -422,7 +419,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 94,
                             "end": 96
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -501,7 +497,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 116,
                             "end": 118
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -631,7 +626,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 159,
                             "end": 163
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -754,7 +748,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 204,
                             "end": 206
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -841,7 +834,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 231,
                             "end": 235
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -926,7 +918,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 264,
                             "end": 268
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 121,
@@ -1015,7 +1006,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 299,
                             "end": 303
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 121,
@@ -1095,7 +1085,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 331,
                             "end": 335
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1183,7 +1172,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 370,
                             "end": 374
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1262,7 +1250,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 406,
                             "end": 410
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1415,7 +1402,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 450,
                             "end": 454
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 271,
@@ -1489,7 +1475,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 480,
                             "end": 482
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1629,7 +1614,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 522,
                             "end": 526
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1754,7 +1738,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 561,
                             "end": 565
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1812,7 +1795,7 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -1893,7 +1876,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 602,
                             "end": 606
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -1951,7 +1933,7 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 219,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -2017,7 +1999,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 644,
                             "end": 646
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -2116,7 +2097,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 671,
                             "end": 673
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -2209,7 +2189,6 @@ class Array { concat(items:number | string) {}; }
                             "start": 702,
                             "end": 704
                         },
-                        "optionalToken": null,
                         "type": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -2339,7 +2318,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": null,
+                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,

@@ -25,7 +25,7 @@ function w(casecase){y:j:function casecase(){}}
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "w",
@@ -100,7 +100,7 @@ function w(casecase){y:j:function casecase(){}}
                                         "start": 25,
                                         "end": 33
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "name": {
                                         "kind": 134299649,
                                         "text": "casecase",

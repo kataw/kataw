@@ -52,7 +52,7 @@ class C { *method() { var f = function { super(); } } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "generatorToken": {
+                            "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 9,
@@ -110,7 +110,6 @@ class C { *method() { var f = function { super(); } } }
                                                                 "start": 25,
                                                                 "end": 27
                                                             },
-                                                            "optionalToken": null,
                                                             "type": null,
                                                             "initializer": {
                                                                 "kind": 177,
@@ -121,7 +120,7 @@ class C { *method() { var f = function { super(); } } }
                                                                     "start": 29,
                                                                     "end": 38
                                                                 },
-                                                                "generatorToken": null,
+                                                                "asteriskToken": null,
                                                                 "name": null,
                                                                 "typeParameters": null,
                                                                 "formalParameterList": {

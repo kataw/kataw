@@ -71,7 +71,6 @@ for (let [a]=x;;);
                             "start": 8,
                             "end": 12
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
@@ -138,7 +137,6 @@ for (let [a]=x;;);
                             "start": 27,
                             "end": 31
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 134299649,

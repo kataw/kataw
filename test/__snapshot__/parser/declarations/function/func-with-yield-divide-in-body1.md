@@ -33,7 +33,7 @@ function f1() { yield / 1 /g }
                 "start": 0,
                 "end": 8
             },
-            "generatorToken": null,
+            "asteriskToken": null,
             "name": {
                 "kind": 134299649,
                 "text": "f1",

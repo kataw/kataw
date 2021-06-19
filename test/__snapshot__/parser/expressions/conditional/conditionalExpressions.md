@@ -52,7 +52,6 @@ var h = [{h:5}, null];
                             "start": 3,
                             "end": 5
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -127,7 +126,6 @@ var h = [{h:5}, null];
                             "start": 29,
                             "end": 31
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -204,7 +202,6 @@ var h = [{h:5}, null];
                             "start": 60,
                             "end": 62
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -281,7 +278,6 @@ var h = [{h:5}, null];
                             "start": 83,
                             "end": 85
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -354,7 +350,6 @@ var h = [{h:5}, null];
                             "start": 113,
                             "end": 115
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -431,7 +426,6 @@ var h = [{h:5}, null];
                             "start": 144,
                             "end": 146
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -506,7 +500,6 @@ var h = [{h:5}, null];
                             "start": 178,
                             "end": 180
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 197,
@@ -529,7 +522,7 @@ var h = [{h:5}, null];
                                     "properties": [
                                         {
                                             "kind": 219,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "g",
@@ -611,7 +604,6 @@ var h = [{h:5}, null];
                             "start": 207,
                             "end": 209
                         },
-                        "optionalToken": null,
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -625,7 +617,7 @@ var h = [{h:5}, null];
                                             "properties": [
                                                 {
                                                     "kind": 219,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "h",
