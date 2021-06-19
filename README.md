@@ -34,7 +34,7 @@ Here is an example on how to set up `Kataw` to act like `Acorn`:
  });
 ```
 
-After done parsing the CST can then be used as an AST, but be aware that the CST in Kataw contains more information that can be extracted from the CST node through
+The returned CST tree can now be used as an AST, but note that the CST in Kataw contains more information that can be extracted from the CST node through
 public API methods.
 
 Click [here](https://github.com/kataw/kataw/tree/main/src/parser#public-api-methods-to-extract-info-from-cst-nodes) for a
