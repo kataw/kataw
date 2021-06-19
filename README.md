@@ -75,7 +75,9 @@ Here is an example:
 if (node.kind === Kataw.SyntaxKind.Identifier) {}
 ```
 
-In the same way as for `NodeFlags` the `kind` contain some additional information that you can extract through the public API.
+You need to use `kataw.visitEachChild` to traverse the CST tree to get access to each CST node. After that you do any kind of transformation.
+
+Be aware that also the  `kind` contain some additional information that you can extract through the public API - not only the `NodeFlags`.
 
 For example `Kataw.isKeyword`, `Kataw.isIdentifier`, and `Kataw.isFutureReserved`.
 
