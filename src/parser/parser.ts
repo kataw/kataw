@@ -5974,16 +5974,21 @@ function parseFunctionExpression(
         parser.pos
       );
     }
-    if (generatorToken && parser.token === SyntaxKind.YieldKeyword) {
+    if ((generatorToken && parser.token === SyntaxKind.YieldKeyword) || parser.token === SyntaxKind.PrivateIdentifier) {
       parser.previousErrorPos = parser.pos;
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.Cannot_use_yield_as_a_name_on_a_generator_function_expression],
+        diagnosticMap[
+          parser.token === SyntaxKind.PrivateIdentifier
+            ? DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies
+            : DiagnosticCode.Cannot_use_yield_as_a_name_on_a_generator_function_expression
+        ],
         parser.curPos,
         parser.pos
       );
     }
+
     if (
       context & Context.Strict &&
       (parser.token === SyntaxKind.EvalIdentifier || parser.token === SyntaxKind.ArgumentsIdentifier)
@@ -6488,7 +6493,10 @@ function parseFunctionDeclaration(
       );
     }
 
-    if (context & (Context.YieldContext | Context.Strict) && parser.token === SyntaxKind.YieldKeyword) {
+    if (
+      (context & (Context.YieldContext | Context.Strict) && parser.token === SyntaxKind.YieldKeyword) ||
+      parser.token === SyntaxKind.PrivateIdentifier
+    ) {
       parser.previousErrorPos = parser.pos;
       parser.onError(
         DiagnosticSource.Parser,
@@ -6496,6 +6504,8 @@ function parseFunctionDeclaration(
         diagnosticMap[
           generatorToken
             ? DiagnosticCode.Cannot_use_yield_as_a_name_on_a_generator_declaration
+            : parser.token === SyntaxKind.PrivateIdentifier
+            ? DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies
             : DiagnosticCode.Cannot_use_yield_as_a_name_on_a_async_generator_declaration
         ],
         parser.curPos,

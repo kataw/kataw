@@ -3,6 +3,8 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from '../expressions/identifier-expr';
 import { FunctionBody } from '../expressions/function-body';
 import { FormalParameterList } from '../expressions/formal-parameter-list';
+import { PrivateIdentifier } from '../expressions/private-identifier';
+import { DummyIdentifier } from '../internal/dummy-identifier';
 import { TypeParameterDeclaration } from '../types/type-parameter-declaration';
 import { TypeNode } from '../types';
 
@@ -14,7 +16,7 @@ export interface FunctionDeclaration extends SyntaxNode {
   readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly functionKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly name: Identifier | null;
+  readonly name: Identifier | PrivateIdentifier | DummyIdentifier | null;
   readonly typeParameters: TypeParameterDeclaration | null;
   readonly formalParameterList: FormalParameterList;
   readonly contents: FunctionBody | null;
@@ -26,7 +28,7 @@ export function createFunctionDeclaration(
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   functionKeyword: SyntaxToken<TokenSyntaxKind>,
   generatorToken: SyntaxToken<TokenSyntaxKind> | null,
-  name: Identifier | null,
+  name: Identifier | PrivateIdentifier | null,
   formalParameterList: FormalParameterList,
   contents: FunctionBody | null,
   typeParameters: TypeParameterDeclaration | null,

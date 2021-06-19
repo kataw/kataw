@@ -1,6 +1,8 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from './identifier-expr';
+import { PrivateIdentifier } from './private-identifier';
+import { DummyIdentifier } from '../internal/dummy-identifier';
 import { FunctionBody } from './function-body';
 import { FormalParameterList } from './formal-parameter-list';
 import { TypeParameterDeclaration } from '../types/type-parameter-declaration';
@@ -13,7 +15,7 @@ export interface FunctionExpression extends SyntaxNode {
   readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly functionKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly name: Identifier | null;
+  readonly name: Identifier | PrivateIdentifier | DummyIdentifier | null;
   readonly formalParameterList: FormalParameterList;
   readonly contents: FunctionBody;
   readonly typeParameters: TypeParameterDeclaration | null;
