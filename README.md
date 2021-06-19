@@ -45,6 +45,18 @@ Many of these APIs have the advantage that they allow you to "retrieve" info tha
 One example is that you only need to use `kataw.isStatementNode` to find out if the current CST node is a statement node. With an AST parser you must use
 a `switch statement` with 60 `switch cases`.
 
+
+```ts
+ // With Babel you are forced to do
+ switch(node.type) {
+   case 'SwitchStatement': ...
+   case 'ReturnStatement': ...
+ }
+
+ // With Kataw
+ kataw.isStatementNode(node); // return 'true'
+```
+
 Another example is how easy it is to find out if a keyword node contains an `escaped keyword`. You only need to use `kataw.hasUnicodeEscape`. You can narrow this down further
 if you use `kataw.hasNoChildren`. A keyword doesn't have any child nodes.
 
