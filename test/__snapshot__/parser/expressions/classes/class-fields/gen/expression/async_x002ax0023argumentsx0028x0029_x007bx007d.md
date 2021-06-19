@@ -92,6 +92,7 @@ class C extends Base { async *#arguments() {} }
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#arguments",
+                                    "rawText": "#arguments",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 40

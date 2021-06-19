@@ -1003,6 +1003,7 @@ try {} catch({ x: "str" }) {}
                                 "value": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 275,
                                     "end": 275
@@ -1354,6 +1355,7 @@ try {} catch({ x: "str" }) {}
                                 "value": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 366,
                                     "end": 366
@@ -1508,6 +1510,7 @@ try {} catch({ x: "str" }) {}
                                 "value": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 401,
                                     "end": 401
@@ -1646,6 +1649,7 @@ try {} catch({ x: "str" }) {}
                 "catchParameter": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 438,
                     "end": 438
@@ -1793,6 +1797,7 @@ try {} catch({ x: "str" }) {}
                             "catchParameter": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 486,
                                 "end": 486
@@ -2541,6 +2546,7 @@ try {} catch({ x: "str" }) {}
                                             "value": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 731,
                                                 "end": 731
@@ -2937,6 +2943,7 @@ try {} catch({ x: "str" }) {}
                                 "value": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 832,
                                     "end": 832
@@ -3096,6 +3103,7 @@ try {} catch({ x: "str" }) {}
                                 "value": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 874,
                                     "end": 874
@@ -3250,6 +3258,7 @@ try {} catch({ x: "str" }) {}
                                 "value": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 915,
                                     "end": 915
@@ -3387,6 +3396,7 @@ try {} catch({ x: "str" }) {}
                                 "value": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 948,
                                     "end": 948
@@ -3410,6 +3420,7 @@ try {} catch({ x: "str" }) {}
                                 "value": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 954,
                                     "end": 954

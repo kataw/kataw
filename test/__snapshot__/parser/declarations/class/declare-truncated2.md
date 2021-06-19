@@ -64,6 +64,7 @@ declare class C {
                             "key": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 17,
                                 "end": 17
@@ -78,6 +79,7 @@ declare class C {
                                     "name": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 17,
                                         "end": 21

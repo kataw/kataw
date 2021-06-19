@@ -34,6 +34,7 @@ do = x
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 6,
                 "end": 6
@@ -46,6 +47,7 @@ do = x
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 2,
                         "end": 2

@@ -67,6 +67,7 @@ async (x = delete ((for) = f)) => {}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 20,
                                         "end": 20
@@ -108,6 +109,7 @@ async (x = delete ((for) = f)) => {}
             "initializer": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 23,
                 "end": 23
@@ -116,6 +118,7 @@ async (x = delete ((for) = f)) => {}
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 23,
                 "end": 23
@@ -127,6 +130,7 @@ async (x = delete ((for) = f)) => {}
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 24,
                         "end": 24

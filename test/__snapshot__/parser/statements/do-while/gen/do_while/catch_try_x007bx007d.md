@@ -34,6 +34,7 @@ do catch try {} while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 8,
                 "end": 8
@@ -142,6 +143,7 @@ do catch try {} while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 21,
                 "end": 21
@@ -151,6 +153,7 @@ do catch try {} while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 21,
                     "end": 21

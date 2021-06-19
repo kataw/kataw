@@ -420,6 +420,7 @@ import { let as l } from 'm.js';
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 148,
                         "end": 148
@@ -885,6 +886,7 @@ import { let as l } from 'm.js';
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 324,
                         "end": 324
@@ -1036,6 +1038,7 @@ import { let as l } from 'm.js';
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 388,
                         "end": 388

@@ -180,6 +180,7 @@ var x, y, z; for (x of x = { import.meta } = z = {});
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 40,
                     "end": 40

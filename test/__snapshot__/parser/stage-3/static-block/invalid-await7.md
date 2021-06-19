@@ -298,6 +298,7 @@ class C {
                                                                 "expression": {
                                                                     "kind": 16637,
                                                                     "text": "",
+                                                                    "rawText": "",
                                                                     "flags": 64,
                                                                     "start": 228,
                                                                     "end": 228
@@ -335,6 +336,7 @@ class C {
                                                                     "expression": {
                                                                         "kind": 16637,
                                                                         "text": "",
+                                                                        "rawText": "",
                                                                         "flags": 64,
                                                                         "start": 301,
                                                                         "end": 301
@@ -613,6 +615,7 @@ class C {
                                                 "expression": {
                                                     "kind": 16637,
                                                     "text": "",
+                                                    "rawText": "",
                                                     "flags": 64,
                                                     "start": 768,
                                                     "end": 768

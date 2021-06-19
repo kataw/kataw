@@ -48,6 +48,7 @@ import * as x, {y} from 'm.js';
                 "from": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 12,
                     "end": 12
@@ -235,6 +236,7 @@ import * as x, {y} from 'm.js';
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 69,
                         "end": 69
@@ -351,6 +353,7 @@ import * as x, {y} from 'm.js';
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 102,
                         "end": 102
@@ -409,6 +412,7 @@ import * as x, {y} from 'm.js';
                         "left": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 110,
                             "end": 110
@@ -498,6 +502,7 @@ import * as x, {y} from 'm.js';
                 "from": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 142,
                     "end": 142
@@ -625,6 +630,7 @@ import * as x, {y} from 'm.js';
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 168,
                         "end": 168

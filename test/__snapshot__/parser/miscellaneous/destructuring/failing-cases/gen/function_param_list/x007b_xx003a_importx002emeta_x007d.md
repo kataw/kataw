@@ -65,6 +65,7 @@ function x({ x: import.meta }) {}
                                     "value": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 15,
                                         "end": 15
@@ -88,6 +89,7 @@ function x({ x: import.meta }) {}
                                     "value": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 22,
                                         "end": 22

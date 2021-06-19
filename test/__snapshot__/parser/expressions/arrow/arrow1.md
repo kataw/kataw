@@ -138,6 +138,7 @@
             "expression": {
                 "kind": 67191035,
                 "text": "#",
+                "rawText": "",
                 "flags": 96,
                 "start": 23,
                 "end": 25
@@ -151,6 +152,7 @@
             "expression": {
                 "kind": 67191035,
                 "text": "#",
+                "rawText": "",
                 "flags": 96,
                 "start": 25,
                 "end": 26
@@ -178,6 +180,7 @@
             "expression": {
                 "kind": 67191035,
                 "text": "#",
+                "rawText": "Options",
                 "flags": 96,
                 "start": 34,
                 "end": 37
@@ -191,6 +194,7 @@
             "expression": {
                 "kind": 67191035,
                 "text": "#",
+                "rawText": "Options",
                 "flags": 96,
                 "start": 37,
                 "end": 38
@@ -204,6 +208,7 @@
             "expression": {
                 "kind": 67191035,
                 "text": "#",
+                "rawText": "Options",
                 "flags": 96,
                 "start": 38,
                 "end": 39

@@ -34,6 +34,7 @@ do do do /)finally while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 36,
                 "end": 36
@@ -50,6 +51,7 @@ do do do /)finally while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 36,
                     "end": 36
@@ -66,6 +68,7 @@ do do do /)finally while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 36,
                         "end": 36

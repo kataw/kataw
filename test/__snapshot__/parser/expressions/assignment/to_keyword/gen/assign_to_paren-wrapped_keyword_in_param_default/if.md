@@ -57,6 +57,7 @@ async (x = (if) = f) => {}
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 12,
                                 "end": 12
@@ -90,6 +91,7 @@ async (x = (if) = f) => {}
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 14,
                 "end": 14
@@ -101,6 +103,7 @@ async (x = (if) = f) => {}
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 15,
                         "end": 15

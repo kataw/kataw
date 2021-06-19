@@ -34,6 +34,7 @@ do async funcion switch!! while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 16,
                 "end": 16
@@ -63,6 +64,7 @@ do async funcion switch!! while
                     "contents": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 16,
                         "end": 16
@@ -106,6 +108,7 @@ do async funcion switch!! while
                     "operand": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 25,
                         "end": 25
@@ -140,6 +143,7 @@ do async funcion switch!! while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 31,
                 "end": 31
@@ -149,6 +153,7 @@ do async funcion switch!! while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 31,
                     "end": 31

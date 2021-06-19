@@ -83,6 +83,7 @@
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#await",
+                                            "rawText": "#await",
                                             "flags": 96,
                                             "start": 25,
                                             "end": 32

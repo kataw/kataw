@@ -34,6 +34,7 @@ do while [catch] function while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 15,
                 "end": 15
@@ -168,6 +169,7 @@ do while [catch] function while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 31,
                 "end": 31
@@ -177,6 +179,7 @@ do while [catch] function while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 31,
                     "end": 31

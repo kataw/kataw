@@ -34,6 +34,7 @@ if (true) const x;
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 9,
                     "end": 9

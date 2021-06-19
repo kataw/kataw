@@ -36,6 +36,7 @@ for = x
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 3,
                     "end": 3
@@ -61,6 +62,7 @@ for = x
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 7,
                 "end": 7
@@ -68,6 +70,7 @@ for = x
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 7,
                 "end": 7
@@ -77,6 +80,7 @@ for = x
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 7,
                     "end": 7

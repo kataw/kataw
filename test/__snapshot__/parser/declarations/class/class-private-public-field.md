@@ -123,6 +123,7 @@ class C { f(){ this.#a } #a; }
                                 "expression": {
                                     "kind": 67191035,
                                     "text": "#a",
+                                    "rawText": "#a",
                                     "flags": 96,
                                     "start": 23,
                                     "end": 25
@@ -206,6 +207,7 @@ class C { f(){ this.#a } #a; }
                                 "expression": {
                                     "kind": 67191035,
                                     "text": "#a",
+                                    "rawText": "#a",
                                     "flags": 96,
                                     "start": 49,
                                     "end": 51
@@ -335,6 +337,7 @@ class C { f(){ this.#a } #a; }
                                     "expression": {
                                         "kind": 67191035,
                                         "text": "#a",
+                                        "rawText": "#a",
                                         "flags": 96,
                                         "start": 80,
                                         "end": 82
@@ -417,6 +420,7 @@ class C { f(){ this.#a } #a; }
                                     "expression": {
                                         "kind": 67191035,
                                         "text": "#a",
+                                        "rawText": "#a",
                                         "flags": 96,
                                         "start": 104,
                                         "end": 106
@@ -582,6 +586,7 @@ class C { f(){ this.#a } #a; }
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#a",
+                                                        "rawText": "#a",
                                                         "flags": 96,
                                                         "start": 140,
                                                         "end": 142
@@ -697,6 +702,7 @@ class C { f(){ this.#a } #a; }
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#a",
+                                                        "rawText": "#a",
                                                         "flags": 96,
                                                         "start": 168,
                                                         "end": 170

@@ -39,6 +39,7 @@ class Foo {
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 1,
                                 "end": 1
@@ -141,6 +142,7 @@ class Foo {
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 28,
                                                 "end": 28
@@ -255,6 +257,7 @@ class Foo {
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 65,
                                                 "end": 65

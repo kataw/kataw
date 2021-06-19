@@ -34,6 +34,7 @@ do[ catch try {
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 3,
                 "end": 3

@@ -82,6 +82,7 @@ class C { static
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#aaa",
+                                    "rawText": "#aaa",
                                     "flags": 96,
                                     "start": 18,
                                     "end": 23

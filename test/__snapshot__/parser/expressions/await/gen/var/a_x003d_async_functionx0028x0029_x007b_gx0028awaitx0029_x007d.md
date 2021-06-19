@@ -193,6 +193,7 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                                                                         "expression": {
                                                                                             "kind": 16637,
                                                                                             "text": "",
+                                                                                            "rawText": "",
                                                                                             "flags": 64,
                                                                                             "start": 69,
                                                                                             "end": 69

@@ -53,6 +53,7 @@ for (let {[x]} = z);
                                         "value": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 13,
                                             "end": 13
@@ -95,6 +96,7 @@ for (let {[x]} = z);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 18,
                 "end": 18

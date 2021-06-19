@@ -155,6 +155,7 @@ class A {
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#method",
+                                                            "rawText": "#method",
                                                             "flags": 96,
                                                             "start": 49,
                                                             "end": 56
@@ -209,6 +210,7 @@ class A {
                                                                         "expression": {
                                                                             "kind": 67191035,
                                                                             "text": "#method",
+                                                                            "rawText": "#method",
                                                                             "flags": 96,
                                                                             "start": 70,
                                                                             "end": 77

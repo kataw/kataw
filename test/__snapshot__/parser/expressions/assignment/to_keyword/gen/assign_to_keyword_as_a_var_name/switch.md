@@ -36,6 +36,7 @@ switch = x
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 6,
                     "end": 6

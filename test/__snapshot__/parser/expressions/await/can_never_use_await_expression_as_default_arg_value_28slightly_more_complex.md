@@ -126,6 +126,7 @@ function call(foo= 5 + (await bar())){}
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 33,
                 "end": 33

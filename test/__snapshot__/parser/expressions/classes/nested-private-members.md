@@ -620,6 +620,7 @@
                                                             "name": {
                                                                 "kind": 67191035,
                                                                 "text": "#a",
+                                                                "rawText": "#a",
                                                                 "flags": 96,
                                                                 "start": 156,
                                                                 "end": 159
@@ -767,6 +768,7 @@
                                                             "name": {
                                                                 "kind": 67191035,
                                                                 "text": "#a",
+                                                                "rawText": "#a",
                                                                 "flags": 96,
                                                                 "start": 194,
                                                                 "end": 197
@@ -923,6 +925,7 @@
                                                             "name": {
                                                                 "kind": 67191035,
                                                                 "text": "#a",
+                                                                "rawText": "#a",
                                                                 "flags": 96,
                                                                 "start": 233,
                                                                 "end": 235
@@ -1070,6 +1073,7 @@
                                                             "name": {
                                                                 "kind": 67191035,
                                                                 "text": "#a",
+                                                                "rawText": "#a",
                                                                 "flags": 96,
                                                                 "start": 272,
                                                                 "end": 275
@@ -1222,6 +1226,7 @@
                                                             "name": {
                                                                 "kind": 67191035,
                                                                 "text": "#a",
+                                                                "rawText": "#a",
                                                                 "flags": 96,
                                                                 "start": 314,
                                                                 "end": 316

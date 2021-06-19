@@ -91,6 +91,7 @@ do {} while (x) { async funcion switch!!
                             "contents": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 31,
                                 "end": 31
@@ -130,6 +131,7 @@ do {} while (x) { async funcion switch!!
                                 "operand": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 40,
                                     "end": 40

@@ -36,6 +36,7 @@ class instanceof {}
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 5,
                 "end": 5
@@ -66,6 +67,7 @@ class instanceof {}
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 5,
                     "end": 5

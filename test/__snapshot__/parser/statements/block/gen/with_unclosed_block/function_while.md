@@ -157,6 +157,7 @@
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 32,
                                         "end": 32
@@ -166,6 +167,7 @@
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 32,
                                             "end": 32

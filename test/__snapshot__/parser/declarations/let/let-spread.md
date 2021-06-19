@@ -44,6 +44,7 @@ let {...(a,b)} = foo
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 8,
                                             "end": 8
@@ -51,6 +52,7 @@ let {...(a,b)} = foo
                                         "value": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 8,
                                             "end": 8

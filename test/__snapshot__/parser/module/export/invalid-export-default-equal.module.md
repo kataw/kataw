@@ -40,6 +40,7 @@ export default = 42
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 14,
                     "end": 14

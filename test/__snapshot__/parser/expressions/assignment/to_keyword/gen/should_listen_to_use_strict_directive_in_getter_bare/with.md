@@ -110,6 +110,7 @@ foo = {
                                                         "left": {
                                                             "kind": 16637,
                                                             "text": "",
+                                                            "rawText": "",
                                                             "flags": 64,
                                                             "start": 45,
                                                             "end": 45
@@ -137,6 +138,7 @@ foo = {
                                                         "expression": {
                                                             "kind": 16637,
                                                             "text": "",
+                                                            "rawText": "",
                                                             "flags": 64,
                                                             "start": 49,
                                                             "end": 49

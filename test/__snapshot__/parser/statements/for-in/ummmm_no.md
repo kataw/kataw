@@ -33,6 +33,7 @@ for (const ...x in y){}
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 10,
                 "end": 10
@@ -40,6 +41,7 @@ for (const ...x in y){}
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 10,
                 "end": 10
@@ -49,6 +51,7 @@ for (const ...x in y){}
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 10,
                     "end": 10

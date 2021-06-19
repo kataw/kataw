@@ -215,6 +215,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 19,
                 "end": 19
@@ -289,6 +290,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 37,
                 "end": 37
@@ -696,6 +698,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 182,
                 "end": 182
@@ -838,6 +841,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 219,
                 "end": 219
@@ -1295,6 +1299,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 331,
                 "end": 331
@@ -1375,6 +1380,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 351,
                 "end": 351
@@ -2311,6 +2317,7 @@ for ({}.bar = x in obj);
                 "initializer": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 661,
                     "end": 661
@@ -2318,6 +2325,7 @@ for ({}.bar = x in obj);
                 "condition": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 661,
                     "end": 661
@@ -2325,6 +2333,7 @@ for ({}.bar = x in obj);
                 "incrementor": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 661,
                     "end": 661
@@ -2334,6 +2343,7 @@ for ({}.bar = x in obj);
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 661,
                         "end": 661
@@ -2415,6 +2425,7 @@ for ({}.bar = x in obj);
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 685,
                 "end": 685
@@ -2422,6 +2433,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 685,
                 "end": 685
@@ -2431,6 +2443,7 @@ for ({}.bar = x in obj);
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 685,
                     "end": 685
@@ -2579,6 +2592,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 717,
                 "end": 717
@@ -2648,6 +2662,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 734,
                 "end": 734
@@ -3000,6 +3015,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 835,
                 "end": 835
@@ -3140,6 +3156,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 877,
                 "end": 877
@@ -3243,6 +3260,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 901,
                 "end": 901
@@ -3346,6 +3364,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 923,
                 "end": 923
@@ -3435,6 +3454,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 945,
                 "end": 945
@@ -3515,6 +3535,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 965,
                 "end": 965
@@ -3766,6 +3787,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1029,
                 "end": 1029
@@ -3829,6 +3851,7 @@ for ({}.bar = x in obj);
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1051,
                 "end": 1051
@@ -3876,6 +3899,7 @@ for ({}.bar = x in obj);
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 1051,
                     "end": 1051
@@ -3895,6 +3919,7 @@ for ({}.bar = x in obj);
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 1052,
                     "end": 1052
@@ -6036,6 +6061,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1679,
                 "end": 1679
@@ -6110,6 +6136,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1698,
                 "end": 1698
@@ -6279,6 +6306,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1743,
                 "end": 1743
@@ -6397,6 +6425,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1771,
                 "end": 1771
@@ -6521,6 +6550,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1801,
                 "end": 1801
@@ -6849,6 +6879,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1905,
                 "end": 1905
@@ -6943,6 +6974,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1931,
                 "end": 1931

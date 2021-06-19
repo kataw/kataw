@@ -124,6 +124,7 @@ class C { set x(_) { new super; } }
                                                         "expression": {
                                                             "kind": 16637,
                                                             "text": "",
+                                                            "rawText": "",
                                                             "flags": 64,
                                                             "start": 30,
                                                             "end": 30

@@ -202,6 +202,7 @@
                         "condition": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 67,
                             "end": 67
@@ -219,6 +220,7 @@
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 67,
                                 "end": 67

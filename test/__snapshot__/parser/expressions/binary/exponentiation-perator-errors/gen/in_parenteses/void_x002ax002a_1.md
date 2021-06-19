@@ -145,6 +145,7 @@ var O = { p: 1 }, x = 10; ; (void ** 1)
                         "operand": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 33,
                             "end": 33

@@ -30,6 +30,7 @@ in = x
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 0,
                     "end": 0
@@ -43,6 +44,7 @@ in = x
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 2,
                     "end": 2

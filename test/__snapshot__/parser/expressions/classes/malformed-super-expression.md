@@ -100,6 +100,7 @@ class A {
                                                         "expression": {
                                                             "kind": 16637,
                                                             "text": "",
+                                                            "rawText": "",
                                                             "flags": 64,
                                                             "start": 28,
                                                             "end": 28

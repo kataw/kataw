@@ -87,6 +87,7 @@ class C extends Base { set #await(test) {} }
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#await",
+                                    "rawText": "#await",
                                     "flags": 96,
                                     "start": 26,
                                     "end": 33

@@ -44,6 +44,7 @@ yield *
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 7,
                     "end": 7

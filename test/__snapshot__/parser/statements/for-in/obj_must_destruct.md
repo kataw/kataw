@@ -112,6 +112,7 @@ for ({x=y}=x in x) ;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 17,
                 "end": 17

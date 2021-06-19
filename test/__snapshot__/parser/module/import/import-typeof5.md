@@ -44,6 +44,7 @@ import typeof a * from "b";
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 15,
                         "end": 15

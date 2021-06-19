@@ -89,6 +89,7 @@ let x = async function f(foo = await){}
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 36,
                                                 "end": 36

@@ -34,6 +34,7 @@ do do do catch { try while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 38,
                 "end": 38
@@ -50,6 +51,7 @@ do do do catch { try while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 38,
                     "end": 38
@@ -66,6 +68,7 @@ do do do catch { try while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 38,
                         "end": 38
@@ -152,6 +155,7 @@ do do do catch { try while while while
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 26,
                                                 "end": 26
@@ -167,6 +171,7 @@ do do do catch { try while while while
                                                 "expression": {
                                                     "kind": 16637,
                                                     "text": "",
+                                                    "rawText": "",
                                                     "flags": 64,
                                                     "start": 32,
                                                     "end": 32
@@ -182,6 +187,7 @@ do do do catch { try while while while
                                                     "expression": {
                                                         "kind": 16637,
                                                         "text": "",
+                                                        "rawText": "",
                                                         "flags": 64,
                                                         "start": 38,
                                                         "end": 38
@@ -191,6 +197,7 @@ do do do catch { try while while while
                                                         "expression": {
                                                             "kind": 16637,
                                                             "text": "",
+                                                            "rawText": "",
                                                             "flags": 64,
                                                             "start": 38,
                                                             "end": 38

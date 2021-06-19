@@ -67,6 +67,7 @@ async (x = delete ((continue) = f)) => {}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 20,
                                         "end": 20
@@ -108,6 +109,7 @@ async (x = delete ((continue) = f)) => {}
             "label": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 28,
                 "end": 28

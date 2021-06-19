@@ -55,6 +55,7 @@ class x extends while {}
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 15,
                         "end": 15
@@ -106,6 +107,7 @@ class x extends while {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 24,
                     "end": 24

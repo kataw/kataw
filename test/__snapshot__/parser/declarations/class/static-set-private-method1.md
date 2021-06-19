@@ -64,6 +64,7 @@ class C { static set #aaa(x){} }
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#aaa",
+                                    "rawText": "#aaa",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 25

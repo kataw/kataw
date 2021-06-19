@@ -96,6 +96,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 19,
                                             "end": 19

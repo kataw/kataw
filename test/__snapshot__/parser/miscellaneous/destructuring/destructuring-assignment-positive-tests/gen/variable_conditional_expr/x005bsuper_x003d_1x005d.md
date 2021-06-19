@@ -191,6 +191,7 @@ var x, y, z; m(['b']) ? lhs : [super = 1] = {}
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 36,
                                             "end": 36

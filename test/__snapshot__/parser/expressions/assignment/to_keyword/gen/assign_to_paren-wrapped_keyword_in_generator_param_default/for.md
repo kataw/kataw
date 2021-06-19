@@ -69,6 +69,7 @@ function *f(x = (for) = f) {}
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 17,
                                 "end": 17
@@ -117,6 +118,7 @@ function *f(x = (for) = f) {}
             "initializer": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 20,
                 "end": 20
@@ -125,6 +127,7 @@ function *f(x = (for) = f) {}
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 20,
                 "end": 20
@@ -136,6 +139,7 @@ function *f(x = (for) = f) {}
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 21,
                         "end": 21

@@ -183,6 +183,7 @@ let x = (y: any): ([,[b]]) => {} => { };
                                             "name": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 24,
                                                 "end": 24
@@ -208,6 +209,7 @@ let x = (y: any): ([,[b]]) => {} => { };
                             "contents": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 24,
                                 "end": 24

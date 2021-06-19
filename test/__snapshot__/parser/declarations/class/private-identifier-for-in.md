@@ -85,6 +85,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                                 "initializer": {
                                                     "kind": 67191035,
                                                     "text": "#foo",
+                                                    "rawText": "#foo",
                                                     "flags": 96,
                                                     "start": 32,
                                                     "end": 36

@@ -239,6 +239,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 89,
                     "end": 89
@@ -308,6 +309,7 @@
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 121,
                                     "end": 121

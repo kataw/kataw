@@ -114,6 +114,7 @@ foo = {
                                                                 "operand": {
                                                                     "kind": 16637,
                                                                     "text": "",
+                                                                    "rawText": "",
                                                                     "flags": 64,
                                                                     "start": 48,
                                                                     "end": 48

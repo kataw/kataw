@@ -142,6 +142,7 @@ var x, y, z; for (x of [super] = {});
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 29,
                                     "end": 29

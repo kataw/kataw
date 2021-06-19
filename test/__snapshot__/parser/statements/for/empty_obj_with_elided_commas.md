@@ -57,6 +57,7 @@ for (let {,,} = obj;;);
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 12,
                 "end": 12
@@ -67,6 +68,7 @@ for (let {,,} = obj;;);
                     {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 11,
                         "end": 11
@@ -74,6 +76,7 @@ for (let {,,} = obj;;);
                     {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 12,
                         "end": 12
@@ -88,6 +91,7 @@ for (let {,,} = obj;;);
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 12,
                     "end": 12

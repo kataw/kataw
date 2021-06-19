@@ -155,6 +155,7 @@ var await; var f = (async function() { var e = (await); });
                                                                     "expression": {
                                                                         "kind": 16637,
                                                                         "text": "",
+                                                                        "rawText": "",
                                                                         "flags": 64,
                                                                         "start": 53,
                                                                         "end": 53

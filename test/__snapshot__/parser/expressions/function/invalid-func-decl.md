@@ -652,6 +652,7 @@ async function f(){}
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 172,
                                                 "end": 172
@@ -680,6 +681,7 @@ async function f(){}
                                                 "operand": {
                                                     "kind": 16637,
                                                     "text": "",
+                                                    "rawText": "",
                                                     "flags": 64,
                                                     "start": 175,
                                                     "end": 175

@@ -174,6 +174,7 @@ class C {
                                                                                         "expression": {
                                                                                             "kind": 67191035,
                                                                                             "text": "#_",
+                                                                                            "rawText": "#_",
                                                                                             "flags": 96,
                                                                                             "start": 80,
                                                                                             "end": 82

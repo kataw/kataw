@@ -56,6 +56,7 @@ function test({...[]}) {}
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 19,
                                             "end": 19
@@ -67,6 +68,7 @@ function test({...[]}) {}
                                     "value": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 20,
                                         "end": 20

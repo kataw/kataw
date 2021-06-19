@@ -67,6 +67,7 @@ async (x = (super) = f) => {}
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 17,
                                     "end": 17

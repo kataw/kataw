@@ -335,6 +335,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 53,
                                             "end": 56
@@ -432,6 +433,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 77,
                                             "end": 80
@@ -538,6 +540,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 102,
                                             "end": 104
@@ -635,6 +638,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 127,
                                             "end": 130
@@ -737,6 +741,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 155,
                                             "end": 157
@@ -978,6 +983,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 207,
                                             "end": 210
@@ -1033,6 +1039,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 220,
                                             "end": 223
@@ -1139,6 +1146,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 246,
                                             "end": 249
@@ -1194,6 +1202,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 259,
                                             "end": 262
@@ -1249,6 +1258,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 271,
                                             "end": 274
@@ -1355,6 +1365,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 297,
                                             "end": 300
@@ -1410,6 +1421,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 310,
                                             "end": 313
@@ -1465,6 +1477,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 322,
                                             "end": 325
@@ -1529,6 +1542,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 337,
                                             "end": 340
@@ -1635,6 +1649,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 363,
                                             "end": 366
@@ -1699,6 +1714,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 379,
                                             "end": 382
@@ -1805,6 +1821,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 405,
                                             "end": 408
@@ -1860,6 +1877,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 418,
                                             "end": 421
@@ -2450,6 +2468,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 544,
                                             "end": 547
@@ -2664,6 +2683,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 597,
                                             "end": 600
@@ -2956,6 +2976,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 669,
                                             "end": 672
@@ -3104,6 +3125,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 703,
                                             "end": 706
@@ -3257,6 +3279,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 739,
                                             "end": 741
@@ -4005,6 +4028,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#yield",
+                                            "rawText": "#yield",
                                             "flags": 96,
                                             "start": 931,
                                             "end": 938
@@ -4102,6 +4126,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#await",
+                                            "rawText": "#await",
                                             "flags": 96,
                                             "start": 959,
                                             "end": 966
@@ -4199,6 +4224,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#async",
+                                            "rawText": "#async",
                                             "flags": 96,
                                             "start": 987,
                                             "end": 994
@@ -4296,6 +4322,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#get",
+                                            "rawText": "#get",
                                             "flags": 96,
                                             "start": 1015,
                                             "end": 1020
@@ -4393,6 +4420,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#static",
+                                            "rawText": "#static",
                                             "flags": 96,
                                             "start": 1041,
                                             "end": 1049
@@ -4490,6 +4518,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#arguments",
+                                            "rawText": "#arguments",
                                             "flags": 96,
                                             "start": 1070,
                                             "end": 1081
@@ -4587,6 +4616,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#yield",
+                                            "rawText": "#yield",
                                             "flags": 96,
                                             "start": 1102,
                                             "end": 1109
@@ -4693,6 +4723,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#async",
+                                            "rawText": "#async",
                                             "flags": 96,
                                             "start": 1134,
                                             "end": 1141
@@ -4799,6 +4830,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#await",
+                                            "rawText": "#await",
                                             "flags": 96,
                                             "start": 1166,
                                             "end": 1173
@@ -4905,6 +4937,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#set",
+                                            "rawText": "#set",
                                             "flags": 96,
                                             "start": 1198,
                                             "end": 1203
@@ -5011,6 +5044,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#static",
+                                            "rawText": "#static",
                                             "flags": 96,
                                             "start": 1228,
                                             "end": 1236
@@ -5117,6 +5151,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#arguments",
+                                            "rawText": "#arguments",
                                             "flags": 96,
                                             "start": 1261,
                                             "end": 1272
@@ -5223,6 +5258,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#yield",
+                                            "rawText": "#yield",
                                             "flags": 96,
                                             "start": 1299,
                                             "end": 1306
@@ -5320,6 +5356,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#async",
+                                            "rawText": "#async",
                                             "flags": 96,
                                             "start": 1329,
                                             "end": 1336
@@ -5417,6 +5454,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#await",
+                                            "rawText": "#await",
                                             "flags": 96,
                                             "start": 1359,
                                             "end": 1366
@@ -5514,6 +5552,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#get",
+                                            "rawText": "#get",
                                             "flags": 96,
                                             "start": 1389,
                                             "end": 1394
@@ -5611,6 +5650,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#set",
+                                            "rawText": "#set",
                                             "flags": 96,
                                             "start": 1417,
                                             "end": 1422
@@ -5708,6 +5748,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#static",
+                                            "rawText": "#static",
                                             "flags": 96,
                                             "start": 1445,
                                             "end": 1453
@@ -5805,6 +5846,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#arguments",
+                                            "rawText": "#arguments",
                                             "flags": 96,
                                             "start": 1476,
                                             "end": 1487
@@ -5902,6 +5944,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#async",
+                                            "rawText": "#async",
                                             "flags": 96,
                                             "start": 1506,
                                             "end": 1512
@@ -5999,6 +6042,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#await",
+                                            "rawText": "#await",
                                             "flags": 96,
                                             "start": 1531,
                                             "end": 1537
@@ -6096,6 +6140,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#yield",
+                                            "rawText": "#yield",
                                             "flags": 96,
                                             "start": 1556,
                                             "end": 1562
@@ -6193,6 +6238,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#get",
+                                            "rawText": "#get",
                                             "flags": 96,
                                             "start": 1581,
                                             "end": 1585
@@ -6290,6 +6336,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#set",
+                                            "rawText": "#set",
                                             "flags": 96,
                                             "start": 1604,
                                             "end": 1608
@@ -6387,6 +6434,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#static",
+                                            "rawText": "#static",
                                             "flags": 96,
                                             "start": 1627,
                                             "end": 1634
@@ -6484,6 +6532,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#arguments",
+                                            "rawText": "#arguments",
                                             "flags": 96,
                                             "start": 1653,
                                             "end": 1663
@@ -6586,6 +6635,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#yield",
+                                            "rawText": "#yield",
                                             "flags": 96,
                                             "start": 1688,
                                             "end": 1694
@@ -6688,6 +6738,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#async",
+                                            "rawText": "#async",
                                             "flags": 96,
                                             "start": 1719,
                                             "end": 1725
@@ -6790,6 +6841,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#await",
+                                            "rawText": "#await",
                                             "flags": 96,
                                             "start": 1750,
                                             "end": 1756
@@ -6892,6 +6944,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#get",
+                                            "rawText": "#get",
                                             "flags": 96,
                                             "start": 1781,
                                             "end": 1785
@@ -6994,6 +7047,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#set",
+                                            "rawText": "#set",
                                             "flags": 96,
                                             "start": 1810,
                                             "end": 1814
@@ -7096,6 +7150,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#static",
+                                            "rawText": "#static",
                                             "flags": 96,
                                             "start": 1839,
                                             "end": 1846
@@ -7198,6 +7253,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#arguments",
+                                            "rawText": "#arguments",
                                             "flags": 96,
                                             "start": 1871,
                                             "end": 1881
@@ -7442,6 +7498,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 1930,
                                             "end": 1933
@@ -7566,6 +7623,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 1958,
                                             "end": 1961
@@ -7699,6 +7757,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 1987,
                                             "end": 1989
@@ -7823,6 +7882,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2016,
                                             "end": 2019
@@ -7952,6 +8012,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2048,
                                             "end": 2050
@@ -8210,6 +8271,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2107,
                                             "end": 2110
@@ -8341,6 +8403,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2139,
                                             "end": 2142
@@ -8481,6 +8544,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2172,
                                             "end": 2174
@@ -8612,6 +8676,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2205,
                                             "end": 2208
@@ -8748,6 +8813,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2241,
                                             "end": 2243
@@ -8992,6 +9058,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2290,
                                             "end": 2293
@@ -9116,6 +9183,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2317,
                                             "end": 2320
@@ -9249,6 +9317,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2345,
                                             "end": 2347
@@ -9373,6 +9442,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2373,
                                             "end": 2376
@@ -9502,6 +9572,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2404,
                                             "end": 2406
@@ -9760,6 +9831,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2461,
                                             "end": 2464
@@ -9891,6 +9963,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2492,
                                             "end": 2495
@@ -10031,6 +10104,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2524,
                                             "end": 2526
@@ -10162,6 +10236,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2556,
                                             "end": 2559
@@ -10298,6 +10373,7 @@ class x { #foo() {}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 2591,
                                             "end": 2593

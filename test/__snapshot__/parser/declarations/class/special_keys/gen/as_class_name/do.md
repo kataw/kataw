@@ -36,6 +36,7 @@ class do {}
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 5,
                 "end": 5
@@ -70,6 +71,7 @@ class do {}
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 11,
                 "end": 11

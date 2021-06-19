@@ -69,6 +69,7 @@ declare class B {
                             "key": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 26,
                                 "end": 26
@@ -83,6 +84,7 @@ declare class B {
                                     "name": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 26,
                                         "end": 26
@@ -127,6 +129,7 @@ declare class B {
                 "operand": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 28,
                     "end": 28

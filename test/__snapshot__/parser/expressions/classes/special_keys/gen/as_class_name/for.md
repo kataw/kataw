@@ -36,6 +36,7 @@ class for {}
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 5,
                 "end": 5
@@ -84,6 +85,7 @@ class for {}
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 12,
                 "end": 12
@@ -91,6 +93,7 @@ class for {}
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 12,
                 "end": 12
@@ -100,6 +103,7 @@ class for {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 12,
                     "end": 12

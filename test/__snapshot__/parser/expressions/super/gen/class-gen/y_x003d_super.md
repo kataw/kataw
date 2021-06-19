@@ -123,6 +123,7 @@ class C { *method() { y = super } }
                                                         "expression": {
                                                             "kind": 16637,
                                                             "text": "",
+                                                            "rawText": "",
                                                             "flags": 64,
                                                             "start": 31,
                                                             "end": 31

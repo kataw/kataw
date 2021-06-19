@@ -90,6 +90,7 @@ a?.b
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 8,
                     "end": 8

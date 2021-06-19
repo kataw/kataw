@@ -85,6 +85,7 @@ x?.y = 0;
                             "expression": {
                                 "kind": 67191035,
                                 "text": "#",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 3,
                                 "end": 4
@@ -237,6 +238,7 @@ x?.y = 0;
                             "left": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 32,
                                 "end": 32
@@ -1802,6 +1804,7 @@ x?.y = 0;
                         "member": {
                             "kind": 67191035,
                             "text": "#x",
+                            "rawText": "#x",
                             "flags": 96,
                             "start": 242,
                             "end": 246
@@ -1887,6 +1890,7 @@ x?.y = 0;
                         "member": {
                             "kind": 67191035,
                             "text": "#x",
+                            "rawText": "#x",
                             "flags": 96,
                             "start": 256,
                             "end": 260
@@ -1899,6 +1903,7 @@ x?.y = 0;
                                 "expression": {
                                     "kind": 67191035,
                                     "text": "#x",
+                                    "rawText": "#x",
                                     "flags": 96,
                                     "start": 262,
                                     "end": 264
@@ -1984,6 +1989,7 @@ x?.y = 0;
                                 "expression": {
                                     "kind": 67191035,
                                     "text": "#x",
+                                    "rawText": "#x",
                                     "flags": 96,
                                     "start": 276,
                                     "end": 278

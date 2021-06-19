@@ -41,6 +41,7 @@ class C2 {
                         "expression": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 1,
                             "end": 1
@@ -58,6 +59,7 @@ class C2 {
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1,
                 "end": 1

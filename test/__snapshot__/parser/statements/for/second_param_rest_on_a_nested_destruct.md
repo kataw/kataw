@@ -120,6 +120,7 @@ for (let [x, ...[foo, bar]] = obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 33,
                 "end": 33

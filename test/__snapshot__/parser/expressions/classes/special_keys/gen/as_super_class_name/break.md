@@ -55,6 +55,7 @@ class x extends break {}
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 15,
                         "end": 15
@@ -90,6 +91,7 @@ class x extends break {}
             "label": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 21,
                 "end": 21

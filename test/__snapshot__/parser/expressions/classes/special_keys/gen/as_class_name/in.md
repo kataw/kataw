@@ -36,6 +36,7 @@ class in {}
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 5,
                 "end": 5
@@ -66,6 +67,7 @@ class in {}
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 5,
                     "end": 5

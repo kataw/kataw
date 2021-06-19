@@ -71,6 +71,7 @@ async (x = delete ((typeof) = f)) => {}
                                         "operand": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 26,
                                             "end": 26

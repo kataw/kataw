@@ -306,6 +306,7 @@ let one = {
                     {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 81,
                         "end": 81
@@ -413,6 +414,7 @@ let one = {
                     {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 117,
                         "end": 117

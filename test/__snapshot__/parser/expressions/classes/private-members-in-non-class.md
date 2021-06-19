@@ -44,6 +44,7 @@ class C { test() {get #a() { }}}
                 "left": {
                     "kind": 67191035,
                     "text": "#a",
+                    "rawText": "#a",
                     "flags": 96,
                     "start": 0,
                     "end": 3
@@ -104,6 +105,7 @@ class C { test() {get #a() { }}}
                                 "left": {
                                     "kind": 67191035,
                                     "text": "#a",
+                                    "rawText": "#a",
                                     "flags": 96,
                                     "start": 22,
                                     "end": 25
@@ -198,6 +200,7 @@ class C { test() {get #a() { }}}
                             "expression": {
                                 "kind": 67191035,
                                 "text": "#a",
+                                "rawText": "#a",
                                 "flags": 96,
                                 "start": 51,
                                 "end": 54
@@ -247,6 +250,7 @@ class C { test() {get #a() { }}}
                                     "expression": {
                                         "kind": 67191035,
                                         "text": "#a",
+                                        "rawText": "#a",
                                         "flags": 96,
                                         "start": 64,
                                         "end": 67
@@ -378,6 +382,7 @@ class C { test() {get #a() { }}}
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#a",
+                                                        "rawText": "#a",
                                                         "flags": 96,
                                                         "start": 97,
                                                         "end": 100
@@ -480,6 +485,7 @@ class C { test() {get #a() { }}}
                                     "name": {
                                         "kind": 67191035,
                                         "text": "#a",
+                                        "rawText": "#a",
                                         "flags": 96,
                                         "start": 129,
                                         "end": 132
@@ -664,6 +670,7 @@ class C { test() {get #a() { }}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 183,
                                             "end": 186
@@ -774,6 +781,7 @@ class C { test() {get #a() { }}}
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#a",
+                                            "rawText": "#a",
                                             "flags": 96,
                                             "start": 211,
                                             "end": 213

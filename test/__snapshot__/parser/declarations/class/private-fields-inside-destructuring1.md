@@ -219,6 +219,7 @@ class Test {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#x",
+                                                        "rawText": "#x",
                                                         "flags": 96,
                                                         "start": 71,
                                                         "end": 73
@@ -307,6 +308,7 @@ class Test {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#y",
+                                                        "rawText": "#y",
                                                         "flags": 96,
                                                         "start": 102,
                                                         "end": 104
@@ -517,6 +519,7 @@ class Test {
                                                                     "expression": {
                                                                         "kind": 67191035,
                                                                         "text": "#x",
+                                                                        "rawText": "#x",
                                                                         "flags": 96,
                                                                         "start": 177,
                                                                         "end": 179
@@ -536,6 +539,7 @@ class Test {
                                                                     "expression": {
                                                                         "kind": 67191035,
                                                                         "text": "#y",
+                                                                        "rawText": "#y",
                                                                         "flags": 96,
                                                                         "start": 185,
                                                                         "end": 187

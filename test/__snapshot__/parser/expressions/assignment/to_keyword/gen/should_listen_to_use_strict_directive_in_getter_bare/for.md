@@ -110,6 +110,7 @@ foo = {
                                                         "left": {
                                                             "kind": 16637,
                                                             "text": "",
+                                                            "rawText": "",
                                                             "flags": 64,
                                                             "start": 44,
                                                             "end": 44
@@ -135,6 +136,7 @@ foo = {
                                                     "condition": {
                                                         "kind": 16637,
                                                         "text": "",
+                                                        "rawText": "",
                                                         "flags": 64,
                                                         "start": 48,
                                                         "end": 48
@@ -142,6 +144,7 @@ foo = {
                                                     "incrementor": {
                                                         "kind": 16637,
                                                         "text": "",
+                                                        "rawText": "",
                                                         "flags": 64,
                                                         "start": 48,
                                                         "end": 48
@@ -151,6 +154,7 @@ foo = {
                                                         "expression": {
                                                             "kind": 16637,
                                                             "text": "",
+                                                            "rawText": "",
                                                             "flags": 64,
                                                             "start": 48,
                                                             "end": 48

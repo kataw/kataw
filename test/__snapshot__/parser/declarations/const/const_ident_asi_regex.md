@@ -81,6 +81,7 @@ const q
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 7,
                         "end": 7
@@ -112,6 +113,7 @@ const q
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 11,
                     "end": 11

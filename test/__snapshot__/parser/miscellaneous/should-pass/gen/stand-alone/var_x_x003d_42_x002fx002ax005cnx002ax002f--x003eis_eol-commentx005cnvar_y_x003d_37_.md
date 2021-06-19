@@ -83,6 +83,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "operand": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 19,
                         "end": 19

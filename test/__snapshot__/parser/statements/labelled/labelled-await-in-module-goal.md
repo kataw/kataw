@@ -38,6 +38,7 @@ var await;
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 6,
                     "end": 6
@@ -75,6 +76,7 @@ var await;
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 22,
                     "end": 22

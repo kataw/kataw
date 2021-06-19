@@ -65,6 +65,7 @@ async (x = delete ((in) = f)) => {}
                                         "left": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 20,
                                             "end": 20
@@ -78,6 +79,7 @@ async (x = delete ((in) = f)) => {}
                                         "right": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 22,
                                             "end": 22

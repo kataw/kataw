@@ -32,6 +32,7 @@
                     "shortCircuit": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 1,
                         "end": 1
@@ -45,6 +46,7 @@
                     "consequent": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 2,
                         "end": 2
@@ -53,6 +55,7 @@
                     "alternate": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 2,
                         "end": 2

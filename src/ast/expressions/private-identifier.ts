@@ -5,12 +5,14 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
  */
 export interface PrivateIdentifier extends SyntaxNode {
   readonly text: string;
+  readonly rawText: string;
 }
 
-export function createPrivateIdentifier(text: string, start: number, end: number): PrivateIdentifier {
+export function createPrivateIdentifier(text: string, rawText: string, start: number, end: number): PrivateIdentifier {
   return {
     kind: SyntaxKind.PrivateIdentifier,
     text,
+    rawText,
     flags: NodeFlags.ChildLess | NodeFlags.ExpressionNode,
     start,
     end

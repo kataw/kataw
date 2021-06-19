@@ -71,6 +71,7 @@ async (x = delete ((new) = f)) => {}
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 23,
                                             "end": 23

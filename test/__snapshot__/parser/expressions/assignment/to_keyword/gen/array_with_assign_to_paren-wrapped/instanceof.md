@@ -58,6 +58,7 @@ async x => (instanceof) = 1
                             "left": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 12,
                                 "end": 12
@@ -71,6 +72,7 @@ async x => (instanceof) = 1
                             "right": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 22,
                                 "end": 22

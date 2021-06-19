@@ -82,6 +82,7 @@ function f() {
                                 "left": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 38,
                                     "end": 38

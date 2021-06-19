@@ -71,6 +71,7 @@ function *f(){
                                 "left": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 14,
                                     "end": 14
@@ -84,6 +85,7 @@ function *f(){
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 27,
                                     "end": 27

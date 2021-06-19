@@ -151,6 +151,7 @@ class Foo {
                                                                             "expression": {
                                                                                 "kind": 67191035,
                                                                                 "text": "#client",
+                                                                                "rawText": "#client",
                                                                                 "flags": 96,
                                                                                 "start": 72,
                                                                                 "end": 79

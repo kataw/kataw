@@ -106,6 +106,7 @@ foo = {
                                                             "left": {
                                                                 "kind": 16637,
                                                                 "text": "",
+                                                                "rawText": "",
                                                                 "flags": 64,
                                                                 "start": 36,
                                                                 "end": 36
@@ -119,6 +120,7 @@ foo = {
                                                             "right": {
                                                                 "kind": 16637,
                                                                 "text": "",
+                                                                "rawText": "",
                                                                 "flags": 64,
                                                                 "start": 51,
                                                                 "end": 51

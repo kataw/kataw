@@ -160,6 +160,7 @@ var x, y, z; for (x of { import.meta } = {});
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 36,
                     "end": 36

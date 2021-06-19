@@ -67,6 +67,7 @@ class C { set #await(test) {} }
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#await",
+                                    "rawText": "#await",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 20

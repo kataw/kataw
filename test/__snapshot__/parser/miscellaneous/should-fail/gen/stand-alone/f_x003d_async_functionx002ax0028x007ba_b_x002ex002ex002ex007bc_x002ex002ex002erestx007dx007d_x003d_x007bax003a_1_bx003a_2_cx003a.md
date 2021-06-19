@@ -101,6 +101,7 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                                                 "key": {
                                                     "kind": 16637,
                                                     "text": "",
+                                                    "rawText": "",
                                                     "flags": 64,
                                                     "start": 30,
                                                     "end": 30

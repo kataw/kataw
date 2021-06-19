@@ -39,6 +39,7 @@ x, ...z + arr, y]
                     {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 2,
                         "end": 2

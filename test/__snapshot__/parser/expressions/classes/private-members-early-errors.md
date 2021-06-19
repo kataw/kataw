@@ -69,6 +69,7 @@ class C { foo() { this.#a = 1; }}
                                             "name": {
                                                 "kind": 67191035,
                                                 "text": "#b",
+                                                "rawText": "#b",
                                                 "flags": 96,
                                                 "start": 12,
                                                 "end": 15
@@ -113,6 +114,7 @@ class C { foo() { this.#a = 1; }}
                                                                     "expression": {
                                                                         "kind": 67191035,
                                                                         "text": "#a",
+                                                                        "rawText": "#a",
                                                                         "flags": 96,
                                                                         "start": 28,
                                                                         "end": 30
@@ -216,6 +218,7 @@ class C { foo() { this.#a = 1; }}
                                                 "name": {
                                                     "kind": 67191035,
                                                     "text": "#b",
+                                                    "rawText": "#b",
                                                     "flags": 96,
                                                     "start": 55,
                                                     "end": 58
@@ -255,6 +258,7 @@ class C { foo() { this.#a = 1; }}
                                                                     "expression": {
                                                                         "kind": 67191035,
                                                                         "text": "#a",
+                                                                        "rawText": "#a",
                                                                         "flags": 96,
                                                                         "start": 75,
                                                                         "end": 77
@@ -410,6 +414,7 @@ class C { foo() { this.#a = 1; }}
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#a",
+                                                        "rawText": "#a",
                                                         "flags": 96,
                                                         "start": 126,
                                                         "end": 128
@@ -527,6 +532,7 @@ class C { foo() { this.#a = 1; }}
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#a",
+                                                            "rawText": "#a",
                                                             "flags": 96,
                                                             "start": 157,
                                                             "end": 159

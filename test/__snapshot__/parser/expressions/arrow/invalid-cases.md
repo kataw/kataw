@@ -168,6 +168,7 @@ a++ => {};
                 "contents": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 15,
                     "end": 15
@@ -247,6 +248,7 @@ a++ => {};
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 43,
                             "end": 43
@@ -254,6 +256,7 @@ a++ => {};
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 44,
                             "end": 44
@@ -301,6 +304,7 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 59,
                 "end": 59
@@ -7286,6 +7290,7 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 1770,
                     "end": 1770
@@ -7303,6 +7308,7 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1774,
                 "end": 1774
@@ -7318,6 +7324,7 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 1850,
                     "end": 1850
@@ -8771,6 +8778,7 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 2895,
                 "end": 2895
@@ -8780,6 +8788,7 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 2895,
                     "end": 2895
@@ -8820,6 +8829,7 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 2904,
                     "end": 2904
@@ -8843,6 +8853,7 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 2906,
                 "end": 2906
@@ -8852,6 +8863,7 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 2907,
                     "end": 2907
@@ -8924,6 +8936,7 @@ a++ => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 2921,
                 "end": 2921
@@ -8933,6 +8946,7 @@ a++ => {};
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 2922,
                     "end": 2922

@@ -54,6 +54,7 @@ var \u{63}ontinue = 123;
             "label": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 17,
                 "end": 17

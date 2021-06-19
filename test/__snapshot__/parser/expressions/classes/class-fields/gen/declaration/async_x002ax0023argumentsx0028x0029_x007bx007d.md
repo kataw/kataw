@@ -72,6 +72,7 @@ class C { async *#arguments() {} }
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#arguments",
+                                    "rawText": "#arguments",
                                     "flags": 96,
                                     "start": 17,
                                     "end": 27

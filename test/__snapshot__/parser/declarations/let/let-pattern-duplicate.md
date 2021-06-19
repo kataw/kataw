@@ -931,6 +931,7 @@ let x = a; let x = b;
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 220,
                                             "end": 220

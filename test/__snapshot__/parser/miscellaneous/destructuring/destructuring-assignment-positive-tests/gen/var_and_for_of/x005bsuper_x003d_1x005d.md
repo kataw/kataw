@@ -160,6 +160,7 @@ var x, y, z; for (x of x = [super = 1] = z = {});
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 33,
                                             "end": 33

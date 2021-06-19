@@ -64,6 +64,7 @@ export * as foo, {bar} from 'bar';
                 "from": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 15,
                     "end": 15

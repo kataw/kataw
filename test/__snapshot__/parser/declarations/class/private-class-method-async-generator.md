@@ -64,6 +64,7 @@ class C { async*#aaa(){} }
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#aaa",
+                                    "rawText": "#aaa",
                                     "flags": 96,
                                     "start": 16,
                                     "end": 20

@@ -54,6 +54,7 @@ async x => (while) = 1
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 12,
                         "end": 12
@@ -81,6 +82,7 @@ async x => (while) = 1
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 17,
                 "end": 17
@@ -92,6 +94,7 @@ async x => (while) = 1
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 18,
                         "end": 18

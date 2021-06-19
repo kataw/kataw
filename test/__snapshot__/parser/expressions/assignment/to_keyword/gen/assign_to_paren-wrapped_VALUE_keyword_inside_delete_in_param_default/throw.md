@@ -79,6 +79,7 @@ function *f(x = delete ((throw) = f)) {}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 25,
                                         "end": 25
@@ -135,6 +136,7 @@ function *f(x = delete ((throw) = f)) {}
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 30,
                 "end": 30

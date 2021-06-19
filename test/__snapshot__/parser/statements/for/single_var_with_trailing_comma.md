@@ -74,6 +74,7 @@ for (let {x,} = obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 19,
                 "end": 19

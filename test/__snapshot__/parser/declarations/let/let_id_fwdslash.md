@@ -78,6 +78,7 @@ let p/
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 5,
                     "end": 5
@@ -91,6 +92,7 @@ let p/
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 6,
                     "end": 6

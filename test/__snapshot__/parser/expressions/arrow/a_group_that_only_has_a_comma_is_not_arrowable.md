@@ -25,6 +25,7 @@
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 1,
                             "end": 1
@@ -32,6 +33,7 @@
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 2,
                             "end": 2

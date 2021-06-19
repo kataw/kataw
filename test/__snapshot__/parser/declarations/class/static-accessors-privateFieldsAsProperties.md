@@ -72,6 +72,7 @@ new C;
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#p",
+                                    "rawText": "#p",
                                     "flags": 96,
                                     "start": 22,
                                     "end": 25
@@ -118,6 +119,7 @@ new C;
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#q",
+                                                            "rawText": "#q",
                                                             "flags": 96,
                                                             "start": 33,
                                                             "end": 35
@@ -256,6 +258,7 @@ new C;
                                                                         "expression": {
                                                                             "kind": 67191035,
                                                                             "text": "#p",
+                                                                            "rawText": "#p",
                                                                             "flags": 96,
                                                                             "start": 81,
                                                                             "end": 83

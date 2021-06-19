@@ -71,6 +71,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 5,
                             "end": 9
@@ -150,6 +151,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 20,
                             "end": 24
@@ -229,6 +231,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 35,
                             "end": 39
@@ -308,6 +311,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 50,
                             "end": 54
@@ -387,6 +391,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 65,
                             "end": 69
@@ -466,6 +471,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 80,
                             "end": 84
@@ -842,6 +848,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 122,
                             "end": 126
@@ -936,6 +943,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "expression": {
                                                     "kind": 67191035,
                                                     "text": "#x",
+                                                    "rawText": "#x",
                                                     "flags": 96,
                                                     "start": 134,
                                                     "end": 136
@@ -960,6 +968,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "expression": {
                                                 "kind": 67191035,
                                                 "text": "#x",
+                                                "rawText": "#x",
                                                 "flags": 96,
                                                 "start": 138,
                                                 "end": 140
@@ -984,6 +993,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "expression": {
                                             "kind": 67191035,
                                             "text": "#x",
+                                            "rawText": "#x",
                                             "flags": 96,
                                             "start": 142,
                                             "end": 144
@@ -1008,6 +1018,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "expression": {
                                         "kind": 67191035,
                                         "text": "#x",
+                                        "rawText": "#x",
                                         "flags": 96,
                                         "start": 146,
                                         "end": 148
@@ -1032,6 +1043,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "expression": {
                                     "kind": 67191035,
                                     "text": "#x",
+                                    "rawText": "#x",
                                     "flags": 96,
                                     "start": 150,
                                     "end": 152
@@ -1056,6 +1068,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "expression": {
                                 "kind": 67191035,
                                 "text": "#x",
+                                "rawText": "#x",
                                 "flags": 96,
                                 "start": 154,
                                 "end": 156
@@ -1080,6 +1093,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 158,
                             "end": 162
@@ -1324,6 +1338,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 190,
                             "end": 194
@@ -1500,6 +1515,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#x",
+                                                            "rawText": "#x",
                                                             "flags": 96,
                                                             "start": 208,
                                                             "end": 210
@@ -1549,6 +1565,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "expression": {
                                                     "kind": 67191035,
                                                     "text": "#x",
+                                                    "rawText": "#x",
                                                     "flags": 96,
                                                     "start": 215,
                                                     "end": 217
@@ -1623,6 +1640,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "expression": {
                                         "kind": 67191035,
                                         "text": "#x",
+                                        "rawText": "#x",
                                         "flags": 96,
                                         "start": 227,
                                         "end": 229
@@ -1697,6 +1715,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 237,
                             "end": 241
@@ -1841,6 +1860,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "expression": {
                                             "kind": 67191035,
                                             "text": "#x",
+                                            "rawText": "#x",
                                             "flags": 96,
                                             "start": 255,
                                             "end": 257
@@ -1940,6 +1960,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 272,
                             "end": 276
@@ -2021,6 +2042,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "member": {
                                             "kind": 67191035,
                                             "text": "#foo",
+                                            "rawText": "#foo",
                                             "flags": 96,
                                             "start": 277,
                                             "end": 283
@@ -2183,6 +2205,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 303,
                             "end": 307
@@ -2264,6 +2287,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "member": {
                                             "kind": 67191035,
                                             "text": "#foo",
+                                            "rawText": "#foo",
                                             "flags": 96,
                                             "start": 308,
                                             "end": 314
@@ -2426,6 +2450,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 334,
                             "end": 338
@@ -2501,6 +2526,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "member": {
                                             "kind": 67191035,
                                             "text": "#foo",
+                                            "rawText": "#foo",
                                             "flags": 96,
                                             "start": 339,
                                             "end": 345
@@ -2685,6 +2711,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "expression": {
                                 "kind": 67191035,
                                 "text": "#bar",
+                                "rawText": "#bar",
                                 "flags": 96,
                                 "start": 374,
                                 "end": 378
@@ -2748,6 +2775,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "member": {
                                     "kind": 67191035,
                                     "text": "#foo",
+                                    "rawText": "#foo",
                                     "flags": 96,
                                     "start": 379,
                                     "end": 385
@@ -2948,6 +2976,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "expression": {
                                 "kind": 67191035,
                                 "text": "#bar",
+                                "rawText": "#bar",
                                 "flags": 96,
                                 "start": 407,
                                 "end": 411
@@ -3011,6 +3040,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "member": {
                                     "kind": 67191035,
                                     "text": "#foo",
+                                    "rawText": "#foo",
                                     "flags": 96,
                                     "start": 412,
                                     "end": 418
@@ -3196,6 +3226,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "expression": {
                             "kind": 67191035,
                             "text": "#bar",
+                            "rawText": "#bar",
                             "flags": 96,
                             "start": 443,
                             "end": 447

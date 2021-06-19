@@ -78,6 +78,7 @@ function not_gen() { yield * \n { yield: 12 } }}
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 28,
                                     "end": 28

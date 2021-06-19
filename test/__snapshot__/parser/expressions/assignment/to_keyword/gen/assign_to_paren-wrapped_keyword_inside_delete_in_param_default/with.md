@@ -67,6 +67,7 @@ async (x = delete ((with) = f)) => {}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 20,
                                         "end": 20
@@ -108,6 +109,7 @@ async (x = delete ((with) = f)) => {}
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 24,
                 "end": 24
@@ -119,6 +121,7 @@ async (x = delete ((with) = f)) => {}
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 25,
                         "end": 25

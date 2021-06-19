@@ -83,6 +83,7 @@ for (let {x,, y} of obj);
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 15,
                 "end": 15
@@ -90,6 +91,7 @@ for (let {x,, y} of obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 15,
                 "end": 15
@@ -99,6 +101,7 @@ for (let {x,, y} of obj);
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 15,
                     "end": 15

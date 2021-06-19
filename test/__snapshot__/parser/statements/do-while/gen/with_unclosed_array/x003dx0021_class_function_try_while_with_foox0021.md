@@ -199,6 +199,7 @@ do[ =! class function try while with foo!
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 31,
                 "end": 31
@@ -232,6 +233,7 @@ do[ =! class function try while with foo!
                         "operand": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 41,
                             "end": 41

@@ -36,6 +36,7 @@ with = x
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 4,
                     "end": 4
@@ -63,6 +64,7 @@ with = x
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 8,
                     "end": 8

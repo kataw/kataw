@@ -34,6 +34,7 @@ do async try while { catch }
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 8,
                 "end": 8
@@ -133,6 +134,7 @@ do async try while { catch }
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 28,
                     "end": 28

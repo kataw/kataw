@@ -70,6 +70,7 @@ type a = (?!x) => T;
                                 "name": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 11,
                                     "end": 11

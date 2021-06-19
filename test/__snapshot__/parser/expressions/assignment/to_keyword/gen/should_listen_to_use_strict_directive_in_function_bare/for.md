@@ -82,6 +82,7 @@ function f() {
                                 "left": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 36,
                                     "end": 36
@@ -107,6 +108,7 @@ function f() {
                             "condition": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 40,
                                 "end": 40
@@ -114,6 +116,7 @@ function f() {
                             "incrementor": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 40,
                                 "end": 40
@@ -123,6 +126,7 @@ function f() {
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 40,
                                     "end": 40

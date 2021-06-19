@@ -236,6 +236,7 @@ class C { *method() { class C { get x) { super; } } } }
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 46,
                                 "end": 46

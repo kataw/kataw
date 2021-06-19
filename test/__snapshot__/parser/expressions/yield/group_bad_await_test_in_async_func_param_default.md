@@ -71,6 +71,7 @@ async function f(x=(await)=y){}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 25,
                                         "end": 25

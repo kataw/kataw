@@ -52,6 +52,7 @@ async x => if = 1
                 "contents": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 10,
                     "end": 10
@@ -77,6 +78,7 @@ async x => if = 1
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 13,
                     "end": 13
@@ -104,6 +106,7 @@ async x => if = 1
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 17,
                     "end": 17

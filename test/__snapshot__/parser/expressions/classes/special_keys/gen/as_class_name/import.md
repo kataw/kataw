@@ -36,6 +36,7 @@ class import {}
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 5,
                 "end": 5
@@ -75,6 +76,7 @@ class import {}
                 "from": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 15,
                     "end": 15

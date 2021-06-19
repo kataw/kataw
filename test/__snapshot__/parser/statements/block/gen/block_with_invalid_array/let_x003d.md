@@ -126,6 +126,7 @@
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 16,
                     "end": 16

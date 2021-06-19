@@ -146,6 +146,7 @@ var await; var f = (async function() { call(await.foo) });
                                                                     "member": {
                                                                         "kind": 16637,
                                                                         "text": "",
+                                                                        "rawText": "",
                                                                         "flags": 64,
                                                                         "start": 49,
                                                                         "end": 49

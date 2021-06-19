@@ -36,6 +36,7 @@ class continue {}
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 5,
                 "end": 5
@@ -70,6 +71,7 @@ class continue {}
             "label": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 14,
                 "end": 14

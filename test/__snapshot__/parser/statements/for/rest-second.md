@@ -51,6 +51,7 @@ for (let a, ...b = 1;;);
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 11,
                 "end": 11
@@ -58,6 +59,7 @@ for (let a, ...b = 1;;);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 11,
                 "end": 11
@@ -67,6 +69,7 @@ for (let a, ...b = 1;;);
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 11,
                     "end": 11

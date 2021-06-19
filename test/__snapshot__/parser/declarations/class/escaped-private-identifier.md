@@ -128,6 +128,7 @@ class z { #\u0020oo }
                                 "expression": {
                                     "kind": 67191035,
                                     "text": "#foo",
+                                    "rawText": "#foo",
                                     "flags": 96,
                                     "start": 32,
                                     "end": 36

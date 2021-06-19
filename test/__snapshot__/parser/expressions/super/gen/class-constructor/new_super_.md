@@ -110,6 +110,7 @@ class C { constructor() { new super; } }
                                                         "expression": {
                                                             "kind": 16637,
                                                             "text": "",
+                                                            "rawText": "",
                                                             "flags": 64,
                                                             "start": 35,
                                                             "end": 35

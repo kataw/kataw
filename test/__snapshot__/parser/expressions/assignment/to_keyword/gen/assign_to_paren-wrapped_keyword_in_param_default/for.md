@@ -57,6 +57,7 @@ async (x = (for) = f) => {}
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 12,
                                 "end": 12
@@ -90,6 +91,7 @@ async (x = (for) = f) => {}
             "initializer": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 15,
                 "end": 15
@@ -98,6 +100,7 @@ async (x = (for) = f) => {}
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 15,
                 "end": 15
@@ -109,6 +112,7 @@ async (x = (for) = f) => {}
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 16,
                         "end": 16

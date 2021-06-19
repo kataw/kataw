@@ -79,6 +79,7 @@ function *f(x = delete ((do) = f)) {}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 25,
                                         "end": 25
@@ -135,6 +136,7 @@ function *f(x = delete ((do) = f)) {}
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 27,
                 "end": 27
@@ -145,6 +147,7 @@ function *f(x = delete ((do) = f)) {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 27,
                     "end": 27

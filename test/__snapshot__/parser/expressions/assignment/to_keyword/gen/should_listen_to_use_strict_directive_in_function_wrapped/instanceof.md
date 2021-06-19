@@ -80,6 +80,7 @@ function f() {
                                         "left": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 34,
                                             "end": 34
@@ -93,6 +94,7 @@ function f() {
                                         "right": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 44,
                                             "end": 44

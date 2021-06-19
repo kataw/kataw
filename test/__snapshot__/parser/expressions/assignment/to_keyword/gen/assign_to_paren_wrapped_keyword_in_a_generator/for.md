@@ -71,6 +71,7 @@ function *f(){
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 18,
                                     "end": 18
@@ -94,6 +95,7 @@ function *f(){
                             "initializer": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 21,
                                 "end": 21
@@ -102,6 +104,7 @@ function *f(){
                             "incrementor": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 21,
                                 "end": 21
@@ -113,6 +116,7 @@ function *f(){
                                     "left": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 22,
                                         "end": 22

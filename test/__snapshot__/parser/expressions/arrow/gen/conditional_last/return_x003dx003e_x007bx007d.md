@@ -39,6 +39,7 @@ bar, return => {};
                     {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 4,
                         "end": 4
@@ -63,6 +64,7 @@ bar, return => {};
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 11,
                 "end": 11

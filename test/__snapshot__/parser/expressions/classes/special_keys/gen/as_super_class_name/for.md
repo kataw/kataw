@@ -55,6 +55,7 @@ class x extends for {}
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 15,
                         "end": 15
@@ -104,6 +105,7 @@ class x extends for {}
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 22,
                 "end": 22
@@ -111,6 +113,7 @@ class x extends for {}
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 22,
                 "end": 22
@@ -120,6 +123,7 @@ class x extends for {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 22,
                     "end": 22

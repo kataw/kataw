@@ -41,6 +41,7 @@ a+1 ?? b+1 && c;
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 0,
                     "end": 0
@@ -88,6 +89,7 @@ a+1 ?? b+1 && c;
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 12,
                     "end": 12

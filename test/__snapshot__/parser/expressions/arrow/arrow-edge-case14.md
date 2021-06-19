@@ -209,6 +209,7 @@ a ? b ? (c => d) : e => (f => g) : h => i;
                 "alternate": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 41,
                     "end": 41

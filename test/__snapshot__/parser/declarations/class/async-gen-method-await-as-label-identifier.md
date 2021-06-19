@@ -116,6 +116,7 @@ var C = class { async *gen() {
                                                                     "expression": {
                                                                         "kind": 16637,
                                                                         "text": "",
+                                                                        "rawText": "",
                                                                         "flags": 64,
                                                                         "start": 40,
                                                                         "end": 40

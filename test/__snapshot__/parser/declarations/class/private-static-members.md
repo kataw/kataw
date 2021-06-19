@@ -100,6 +100,7 @@ class Foo {
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#y",
+                                    "rawText": "#y",
                                     "flags": 96,
                                     "start": 34,
                                     "end": 37
@@ -160,6 +161,7 @@ class Foo {
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#y",
+                                    "rawText": "#y",
                                     "flags": 96,
                                     "start": 54,
                                     "end": 57
@@ -313,6 +315,7 @@ class Foo {
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#x",
+                                                            "rawText": "#x",
                                                             "flags": 96,
                                                             "start": 97,
                                                             "end": 99
@@ -360,6 +363,7 @@ class Foo {
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#y",
+                                                            "rawText": "#y",
                                                             "flags": 96,
                                                             "start": 112,
                                                             "end": 114
@@ -407,6 +411,7 @@ class Foo {
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#z",
+                                                            "rawText": "#z",
                                                             "flags": 96,
                                                             "start": 127,
                                                             "end": 129

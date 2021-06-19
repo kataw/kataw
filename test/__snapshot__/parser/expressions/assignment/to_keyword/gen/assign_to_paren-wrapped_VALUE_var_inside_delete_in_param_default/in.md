@@ -67,6 +67,7 @@
                                             "left": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 14,
                                                 "end": 14
@@ -80,6 +81,7 @@
                                             "right": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 16,
                                                 "end": 16

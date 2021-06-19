@@ -69,6 +69,7 @@ function *f(x = (throw) = f) {}
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 17,
                                 "end": 17
@@ -117,6 +118,7 @@ function *f(x = (throw) = f) {}
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 22,
                 "end": 22

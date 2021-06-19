@@ -235,6 +235,7 @@ class Annotations {
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#p",
+                                                            "rawText": "#p",
                                                             "flags": 96,
                                                             "start": 63,
                                                             "end": 65
@@ -278,6 +279,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#q",
+                                                        "rawText": "#q",
                                                         "flags": 96,
                                                         "start": 92,
                                                         "end": 94
@@ -398,6 +400,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#q",
+                                                        "rawText": "#q",
                                                         "flags": 96,
                                                         "start": 141,
                                                         "end": 143
@@ -675,6 +678,7 @@ class Annotations {
                                                                                                             "expression": {
                                                                                                                 "kind": 67191035,
                                                                                                                 "text": "#inner",
+                                                                                                                "rawText": "#inner",
                                                                                                                 "flags": 96,
                                                                                                                 "start": 325,
                                                                                                                 "end": 331
@@ -807,6 +811,7 @@ class Annotations {
                                                                                                             "expression": {
                                                                                                                 "kind": 67191035,
                                                                                                                 "text": "#outer",
+                                                                                                                "rawText": "#outer",
                                                                                                                 "flags": 96,
                                                                                                                 "start": 386,
                                                                                                                 "end": 392
@@ -854,6 +859,7 @@ class Annotations {
                                                                                                             "expression": {
                                                                                                                 "kind": 67191035,
                                                                                                                 "text": "#inner",
+                                                                                                                "rawText": "#inner",
                                                                                                                 "flags": 96,
                                                                                                                 "start": 456,
                                                                                                                 "end": 462
@@ -1484,6 +1490,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#p",
+                                                        "rawText": "#p",
                                                         "flags": 96,
                                                         "start": 913,
                                                         "end": 915
@@ -1580,6 +1587,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#t",
+                                                        "rawText": "#t",
                                                         "flags": 96,
                                                         "start": 957,
                                                         "end": 959
@@ -1678,6 +1686,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#sp",
+                                                        "rawText": "#sp",
                                                         "flags": 96,
                                                         "start": 1035,
                                                         "end": 1038
@@ -1776,6 +1785,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#st",
+                                                        "rawText": "#st",
                                                         "flags": 96,
                                                         "start": 1087,
                                                         "end": 1090
@@ -1872,6 +1882,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#r",
+                                                        "rawText": "#r",
                                                         "flags": 96,
                                                         "start": 1159,
                                                         "end": 1161
@@ -1968,6 +1979,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#r",
+                                                        "rawText": "#r",
                                                         "flags": 96,
                                                         "start": 1203,
                                                         "end": 1205
@@ -2047,6 +2059,7 @@ class Annotations {
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#r",
+                                                            "rawText": "#r",
                                                             "flags": 96,
                                                             "start": 1269,
                                                             "end": 1271
@@ -2163,6 +2176,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#sr",
+                                                        "rawText": "#sr",
                                                         "flags": 96,
                                                         "start": 1324,
                                                         "end": 1327
@@ -2261,6 +2275,7 @@ class Annotations {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#sr",
+                                                        "rawText": "#sr",
                                                         "flags": 96,
                                                         "start": 1376,
                                                         "end": 1379
@@ -2342,6 +2357,7 @@ class Annotations {
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#sr",
+                                                            "rawText": "#sr",
                                                             "flags": 96,
                                                             "start": 1450,
                                                             "end": 1453

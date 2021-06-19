@@ -70,6 +70,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                         "expression": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 12,
                             "end": 12

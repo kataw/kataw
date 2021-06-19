@@ -445,6 +445,7 @@ import { type Foo12 } from "bar";
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 183,
                         "end": 183

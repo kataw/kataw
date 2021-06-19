@@ -149,6 +149,7 @@ var O = { p: 1 }, x = 10; ; if (void ** 1) { foo(); }
                     "operand": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 36,
                         "end": 36

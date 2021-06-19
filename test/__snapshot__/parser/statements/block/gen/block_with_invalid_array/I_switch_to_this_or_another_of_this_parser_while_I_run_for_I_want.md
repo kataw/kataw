@@ -279,6 +279,7 @@
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 75,
                 "end": 75
@@ -296,6 +297,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 75,
                     "end": 75

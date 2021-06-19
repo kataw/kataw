@@ -141,6 +141,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#foo",
+                                                        "rawText": "#foo",
                                                         "flags": 96,
                                                         "start": 44,
                                                         "end": 48

@@ -52,6 +52,7 @@ new package => x
                 "operand": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 8,
                     "end": 8
@@ -125,6 +126,7 @@ new package => x
                 "operand": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 26,
                     "end": 26
@@ -160,6 +162,7 @@ new package => x
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 34,
                         "end": 34

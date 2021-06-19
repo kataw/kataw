@@ -55,6 +55,7 @@ class x extends in {}
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 15,
                         "end": 15
@@ -86,6 +87,7 @@ class x extends in {}
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 15,
                     "end": 15

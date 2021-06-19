@@ -140,6 +140,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                             "expression": {
                                                                                 "kind": 16637,
                                                                                 "text": "",
+                                                                                "rawText": "",
                                                                                 "flags": 64,
                                                                                 "start": 51,
                                                                                 "end": 51

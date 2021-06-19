@@ -991,6 +991,7 @@ y = (x => {}(0));
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 232,
                     "end": 232
@@ -1014,6 +1015,7 @@ y = (x => {}(0));
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 234,
                 "end": 234
@@ -1023,6 +1025,7 @@ y = (x => {}(0));
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 235,
                     "end": 235
@@ -1095,6 +1098,7 @@ y = (x => {}(0));
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 250,
                 "end": 250
@@ -1104,6 +1108,7 @@ y = (x => {}(0));
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 251,
                     "end": 251

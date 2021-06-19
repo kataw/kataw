@@ -34,6 +34,7 @@ for: x
             "initializer": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 3,
                 "end": 3
@@ -41,6 +42,7 @@ for: x
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 3,
                 "end": 3
@@ -48,6 +50,7 @@ for: x
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 3,
                 "end": 3
@@ -57,6 +60,7 @@ for: x
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 3,
                     "end": 3

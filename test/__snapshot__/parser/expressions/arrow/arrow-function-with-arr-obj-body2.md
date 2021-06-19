@@ -69,6 +69,7 @@ var v = a => <any><any>{}
                                             "left": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 12,
                                                 "end": 12
@@ -100,6 +101,7 @@ var v = a => <any><any>{}
                                         "right": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 18,
                                             "end": 18

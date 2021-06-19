@@ -41,6 +41,7 @@ foo(,,);
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 4,
                             "end": 4
@@ -48,6 +49,7 @@ foo(,,);
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 5,
                             "end": 5

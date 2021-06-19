@@ -152,6 +152,7 @@
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 45,
                 "end": 45
@@ -159,6 +160,7 @@
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 45,
                 "end": 45
@@ -168,6 +170,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 45,
                     "end": 45
@@ -187,6 +190,7 @@
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 47,
                     "end": 47

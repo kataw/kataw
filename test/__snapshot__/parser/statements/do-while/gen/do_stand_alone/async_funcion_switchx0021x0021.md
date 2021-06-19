@@ -34,6 +34,7 @@ do async funcion switch!!
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 16,
                 "end": 16
@@ -63,6 +64,7 @@ do async funcion switch!!
                     "contents": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 16,
                         "end": 16
@@ -106,6 +108,7 @@ do async funcion switch!!
                     "operand": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 25,
                         "end": 25

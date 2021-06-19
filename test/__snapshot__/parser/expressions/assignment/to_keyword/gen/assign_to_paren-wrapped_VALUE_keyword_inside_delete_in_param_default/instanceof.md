@@ -83,6 +83,7 @@ function *f(x = delete ((instanceof) = f)) {}
                                             "left": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 25,
                                                 "end": 25
@@ -96,6 +97,7 @@ function *f(x = delete ((instanceof) = f)) {}
                                             "right": {
                                                 "kind": 16637,
                                                 "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
                                                 "start": 35,
                                                 "end": 35

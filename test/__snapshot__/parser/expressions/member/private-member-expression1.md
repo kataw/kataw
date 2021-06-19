@@ -28,6 +28,7 @@ this.#a;
                 "expression": {
                     "kind": 67191035,
                     "text": "#a",
+                    "rawText": "#a",
                     "flags": 96,
                     "start": 5,
                     "end": 7

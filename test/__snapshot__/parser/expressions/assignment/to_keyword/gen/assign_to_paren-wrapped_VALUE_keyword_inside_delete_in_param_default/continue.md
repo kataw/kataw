@@ -79,6 +79,7 @@ function *f(x = delete ((continue) = f)) {}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 25,
                                         "end": 25
@@ -135,6 +136,7 @@ function *f(x = delete ((continue) = f)) {}
             "label": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 33,
                 "end": 33

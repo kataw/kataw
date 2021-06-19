@@ -54,6 +54,7 @@ async x => in = 1
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 10,
                         "end": 10
@@ -67,6 +68,7 @@ async x => in = 1
                     "right": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 13,
                         "end": 13

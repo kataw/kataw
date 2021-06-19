@@ -52,6 +52,7 @@ left@{xa0}@right
                         "expression": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 5,
                             "end": 5
@@ -143,6 +144,7 @@ left@{xa0}@right
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 16,
                 "end": 16

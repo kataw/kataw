@@ -195,6 +195,7 @@
                                         "name": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 41,
                                             "end": 41
@@ -1078,6 +1079,7 @@
                                         "name": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 240,
                                             "end": 240

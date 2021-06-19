@@ -92,6 +92,7 @@ function f() {
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 39,
                                             "end": 39

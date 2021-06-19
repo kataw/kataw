@@ -75,6 +75,7 @@ export default x
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 20,
                     "end": 20

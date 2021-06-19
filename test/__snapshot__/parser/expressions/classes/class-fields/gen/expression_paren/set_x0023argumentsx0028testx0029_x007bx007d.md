@@ -63,6 +63,7 @@
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#arguments",
+                                            "rawText": "#arguments",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 23

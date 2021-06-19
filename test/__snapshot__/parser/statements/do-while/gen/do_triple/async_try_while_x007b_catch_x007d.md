@@ -34,6 +34,7 @@ do do do async try while { catch } while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 14,
                 "end": 14
@@ -50,6 +51,7 @@ do do do async try while { catch } while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 14,
                     "end": 14
@@ -66,6 +68,7 @@ do do do async try while { catch } while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 14,
                         "end": 14
@@ -179,6 +182,7 @@ do do do async try while { catch } while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 40,
                     "end": 40
@@ -194,6 +198,7 @@ do do do async try while { catch } while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 46,
                         "end": 46
@@ -209,6 +214,7 @@ do do do async try while { catch } while while while
                         "expression": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 52,
                             "end": 52
@@ -218,6 +224,7 @@ do do do async try while { catch } while while while
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 52,
                                 "end": 52

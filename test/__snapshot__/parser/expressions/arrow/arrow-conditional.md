@@ -52,6 +52,7 @@ a ? b : (): string => {}
                     "contents": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 7,
                         "end": 7
@@ -258,6 +259,7 @@ a ? b : (): string => {}
                     "contents": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 71,
                         "end": 71
@@ -329,6 +331,7 @@ a ? b : (): string => {}
                 "contents": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 92,
                     "end": 92
@@ -396,6 +399,7 @@ a ? b : (): string => {}
                 "contents": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 111,
                     "end": 111
@@ -493,6 +497,7 @@ a ? b : (): string => {}
                     "contents": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 138,
                         "end": 138

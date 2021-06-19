@@ -346,6 +346,7 @@ class I<X> {
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#i",
+                                                            "rawText": "#i",
                                                             "flags": 96,
                                                             "start": 77,
                                                             "end": 79

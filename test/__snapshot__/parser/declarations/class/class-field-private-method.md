@@ -115,6 +115,7 @@ class C { #aaa; f() { this.#aaa } }
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#aaa",
+                                                        "rawText": "#aaa",
                                                         "flags": 96,
                                                         "start": 27,
                                                         "end": 31

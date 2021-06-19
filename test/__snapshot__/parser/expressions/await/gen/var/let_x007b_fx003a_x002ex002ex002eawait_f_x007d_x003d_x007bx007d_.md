@@ -150,6 +150,7 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                             "value": {
                                                                                 "kind": 16637,
                                                                                 "text": "",
+                                                                                "rawText": "",
                                                                                 "flags": 64,
                                                                                 "start": 47,
                                                                                 "end": 47

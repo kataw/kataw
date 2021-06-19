@@ -69,6 +69,7 @@ function *f(x = (if) = f) {}
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 17,
                                 "end": 17
@@ -117,6 +118,7 @@ function *f(x = (if) = f) {}
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 19,
                 "end": 19
@@ -128,6 +130,7 @@ function *f(x = (if) = f) {}
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 20,
                         "end": 20

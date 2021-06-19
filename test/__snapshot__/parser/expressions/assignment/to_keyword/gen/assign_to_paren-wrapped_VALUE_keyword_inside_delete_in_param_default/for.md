@@ -79,6 +79,7 @@ function *f(x = delete ((for) = f)) {}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 25,
                                         "end": 25
@@ -135,6 +136,7 @@ function *f(x = delete ((for) = f)) {}
             "initializer": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 28,
                 "end": 28
@@ -143,6 +145,7 @@ function *f(x = delete ((for) = f)) {}
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 28,
                 "end": 28
@@ -154,6 +157,7 @@ function *f(x = delete ((for) = f)) {}
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 29,
                         "end": 29

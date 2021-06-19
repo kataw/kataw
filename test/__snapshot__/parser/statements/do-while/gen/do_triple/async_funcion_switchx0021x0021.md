@@ -34,6 +34,7 @@ do do do async funcion switch!! while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 22,
                 "end": 22
@@ -50,6 +51,7 @@ do do do async funcion switch!! while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 22,
                     "end": 22
@@ -66,6 +68,7 @@ do do do async funcion switch!! while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 22,
                         "end": 22
@@ -95,6 +98,7 @@ do do do async funcion switch!! while while while
                             "contents": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 22,
                                 "end": 22
@@ -146,6 +150,7 @@ do do do async funcion switch!! while while while
                     "operand": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 31,
                         "end": 31
@@ -180,6 +185,7 @@ do do do async funcion switch!! while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 37,
                 "end": 37
@@ -195,6 +201,7 @@ do do do async funcion switch!! while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 43,
                     "end": 43
@@ -210,6 +217,7 @@ do do do async funcion switch!! while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 49,
                         "end": 49
@@ -219,6 +227,7 @@ do do do async funcion switch!! while while while
                         "expression": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 49,
                             "end": 49

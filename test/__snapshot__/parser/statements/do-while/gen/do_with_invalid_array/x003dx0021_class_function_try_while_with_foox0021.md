@@ -34,6 +34,7 @@ do while [catch] =! class function try while with foo!
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 15,
                 "end": 15
@@ -255,6 +256,7 @@ do while [catch] =! class function try while with foo!
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 44,
                 "end": 44
@@ -288,6 +290,7 @@ do while [catch] =! class function try while with foo!
                         "operand": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 54,
                             "end": 54

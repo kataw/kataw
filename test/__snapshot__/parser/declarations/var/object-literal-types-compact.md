@@ -75,6 +75,7 @@ type T4 = { foo: number, bar: string, ... };
                                     "name": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 15,
                                         "end": 15
@@ -222,6 +223,7 @@ type T4 = { foo: number, bar: string, ... };
                                                                                     "name": {
                                                                                         "kind": 16637,
                                                                                         "text": "",
+                                                                                        "rawText": "",
                                                                                         "flags": 64,
                                                                                         "start": 48,
                                                                                         "end": 48
@@ -272,6 +274,7 @@ type T4 = { foo: number, bar: string, ... };
                                                                     "name": {
                                                                         "kind": 16637,
                                                                         "text": "",
+                                                                        "rawText": "",
                                                                         "flags": 64,
                                                                         "start": 54,
                                                                         "end": 54
@@ -322,6 +325,7 @@ type T4 = { foo: number, bar: string, ... };
                                                     "name": {
                                                         "kind": 16637,
                                                         "text": "",
+                                                        "rawText": "",
                                                         "flags": 64,
                                                         "start": 61,
                                                         "end": 61
@@ -450,6 +454,7 @@ type T4 = { foo: number, bar: string, ... };
                                     "name": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 94,
                                         "end": 94
@@ -597,6 +602,7 @@ type T4 = { foo: number, bar: string, ... };
                                     "name": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 139,
                                         "end": 139

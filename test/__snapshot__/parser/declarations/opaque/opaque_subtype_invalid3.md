@@ -95,6 +95,7 @@ opaque stuff: Box<T> = Container<T>
                     "right": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 20,
                         "end": 20
@@ -152,6 +153,7 @@ opaque stuff: Box<T> = Container<T>
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 35,
                     "end": 35

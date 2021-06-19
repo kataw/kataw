@@ -43,6 +43,7 @@ foo(async[])
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 10,
                                 "end": 10

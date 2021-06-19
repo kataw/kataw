@@ -504,6 +504,7 @@ for ({a: b.c}-- of d) e;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 104,
                 "end": 104
@@ -553,6 +554,7 @@ for ({a: b.c}-- of d) e;
                                         "left": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 126,
                                             "end": 126
@@ -744,6 +746,7 @@ for ({a: b.c}-- of d) e;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 178,
                 "end": 178
@@ -798,6 +801,7 @@ for ({a: b.c}-- of d) e;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 191,
                 "end": 191
@@ -1326,6 +1330,7 @@ for ({a: b.c}-- of d) e;
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 357,
                             "end": 357
@@ -1459,6 +1464,7 @@ for ({a: b.c}-- of d) e;
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 387,
                             "end": 387
@@ -2205,6 +2211,7 @@ for ({a: b.c}-- of d) e;
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 614,
                         "end": 614
@@ -2235,6 +2242,7 @@ for ({a: b.c}-- of d) e;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 619,
                 "end": 619
@@ -2288,6 +2296,7 @@ for ({a: b.c}-- of d) e;
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 634,
                             "end": 634
@@ -2636,6 +2645,7 @@ for ({a: b.c}-- of d) e;
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 729,
                 "end": 729
@@ -2643,6 +2653,7 @@ for ({a: b.c}-- of d) e;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 729,
                 "end": 729
@@ -2652,6 +2663,7 @@ for ({a: b.c}-- of d) e;
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 729,
                     "end": 729
@@ -2851,6 +2863,7 @@ for ({a: b.c}-- of d) e;
                                         "value": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 793,
                                             "end": 793
@@ -2885,6 +2898,7 @@ for ({a: b.c}-- of d) e;
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 805,
                 "end": 805
@@ -2942,6 +2956,7 @@ for ({a: b.c}-- of d) e;
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 805,
                     "end": 805
@@ -4353,6 +4368,7 @@ for ({a: b.c}-- of d) e;
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 1202,
                             "end": 1202
@@ -4360,6 +4376,7 @@ for ({a: b.c}-- of d) e;
                         {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 1203,
                             "end": 1203

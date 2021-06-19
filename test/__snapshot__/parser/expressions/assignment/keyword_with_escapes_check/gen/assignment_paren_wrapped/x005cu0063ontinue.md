@@ -30,6 +30,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 1,
                     "end": 1
@@ -53,6 +54,7 @@
             "label": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 14,
                 "end": 14

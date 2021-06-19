@@ -1094,6 +1094,7 @@
                                     "value": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 300,
                                         "end": 300

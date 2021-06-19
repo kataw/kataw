@@ -52,6 +52,7 @@ async x => do = 1
                 "contents": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 10,
                     "end": 10
@@ -75,6 +76,7 @@ async x => do = 1
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 17,
                 "end": 17
@@ -87,6 +89,7 @@ async x => do = 1
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 13,
                         "end": 13

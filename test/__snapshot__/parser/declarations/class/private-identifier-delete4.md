@@ -126,6 +126,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                         "expression": {
                                                             "kind": 67191035,
                                                             "text": "#foo",
+                                                            "rawText": "#foo",
                                                             "flags": 96,
                                                             "start": 39,
                                                             "end": 43
@@ -291,6 +292,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                                 "expression": {
                                                                     "kind": 67191035,
                                                                     "text": "#foo",
+                                                                    "rawText": "#foo",
                                                                     "flags": 96,
                                                                     "start": 88,
                                                                     "end": 92

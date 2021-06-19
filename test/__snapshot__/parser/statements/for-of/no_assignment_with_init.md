@@ -84,6 +84,7 @@ for (let [foo = x]);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 18,
                 "end": 18

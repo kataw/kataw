@@ -83,6 +83,7 @@ for (a+b in c) d;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 13,
                 "end": 13

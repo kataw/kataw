@@ -68,6 +68,7 @@
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 15
@@ -167,6 +168,7 @@
                                                             "expression": {
                                                                 "kind": 67191035,
                                                                 "text": "#b",
+                                                                "rawText": "#b",
                                                                 "flags": 96,
                                                                 "start": 43,
                                                                 "end": 45
@@ -257,6 +259,7 @@
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 66,
                                             "end": 69
@@ -349,6 +352,7 @@
                                                                 "expression": {
                                                                     "kind": 67191035,
                                                                     "text": "#b",
+                                                                    "rawText": "#b",
                                                                     "flags": 96,
                                                                     "start": 88,
                                                                     "end": 90
@@ -443,6 +447,7 @@
                                         "name": {
                                             "kind": 67191035,
                                             "text": "#b",
+                                            "rawText": "#b",
                                             "flags": 96,
                                             "start": 113,
                                             "end": 116
@@ -556,6 +561,7 @@
                                                                                     "expression": {
                                                                                         "kind": 67191035,
                                                                                         "text": "#b",
+                                                                                        "rawText": "#b",
                                                                                         "flags": 96,
                                                                                         "start": 144,
                                                                                         "end": 146
@@ -770,6 +776,7 @@
                                                                 "expression": {
                                                                     "kind": 67191035,
                                                                     "text": "#b",
+                                                                    "rawText": "#b",
                                                                     "flags": 96,
                                                                     "start": 194,
                                                                     "end": 196

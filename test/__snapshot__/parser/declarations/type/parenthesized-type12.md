@@ -89,6 +89,7 @@ type X = (1<z>[]);
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 11,
                         "end": 11

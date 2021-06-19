@@ -59,6 +59,7 @@ async () => {  \u0073witch = x  }
                                 "left": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 26,
                                     "end": 26

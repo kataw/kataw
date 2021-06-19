@@ -126,6 +126,7 @@ class C { #aaa; f(obj) { obj.#aaa } }
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#aaa",
+                                                        "rawText": "#aaa",
                                                         "flags": 96,
                                                         "start": 29,
                                                         "end": 33

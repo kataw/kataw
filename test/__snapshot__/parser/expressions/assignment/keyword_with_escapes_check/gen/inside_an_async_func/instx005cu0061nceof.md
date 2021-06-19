@@ -53,6 +53,7 @@ async () => {  inst\u0061nceof = x  }
                                 "left": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 13,
                                     "end": 13
@@ -66,6 +67,7 @@ async () => {  inst\u0061nceof = x  }
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 30,
                                     "end": 30

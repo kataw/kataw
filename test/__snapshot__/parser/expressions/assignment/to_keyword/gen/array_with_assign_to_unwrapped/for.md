@@ -52,6 +52,7 @@ async x => for = 1
                 "contents": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 10,
                     "end": 10
@@ -77,6 +78,7 @@ async x => for = 1
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 14,
                     "end": 14
@@ -102,6 +104,7 @@ async x => for = 1
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 18,
                 "end": 18
@@ -109,6 +112,7 @@ async x => for = 1
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 18,
                 "end": 18
@@ -118,6 +122,7 @@ async x => for = 1
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 18,
                     "end": 18

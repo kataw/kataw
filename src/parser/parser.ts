@@ -10320,6 +10320,7 @@ export function parseFieldDefinition(
 function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateIdentifier {
   const pos = parser.curPos;
   const name = parser.tokenValue;
+  const raw = parser.tokenRaw;
   if ((context & Context.InClassBody) < 1 && parser.previousErrorPos !== parser.pos) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -10331,7 +10332,7 @@ function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateI
   }
   nextToken(parser, context);
   parser.assignable = true;
-  return createPrivateIdentifier(name, pos, parser.curPos);
+  return createPrivateIdentifier(name, raw, pos, parser.curPos);
 }
 
 export function parseImportMetaOrCall(

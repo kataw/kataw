@@ -30,6 +30,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 1,
                     "end": 1
@@ -55,6 +56,7 @@
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 4,
                     "end": 4
@@ -81,6 +83,7 @@
             "incrementor": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 8,
                 "end": 8
@@ -90,6 +93,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 9,
                     "end": 9

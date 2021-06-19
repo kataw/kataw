@@ -52,6 +52,7 @@ x@{x9}@+@{x9}@y
                         "expression": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 2,
                             "end": 2
@@ -125,6 +126,7 @@ x@{x9}@+@{x9}@y
                         "expression": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 7,
                             "end": 7
@@ -142,6 +144,7 @@ x@{x9}@+@{x9}@y
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 7,
                 "end": 7
@@ -191,6 +194,7 @@ x@{x9}@+@{x9}@y
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 9,
                                     "end": 9
@@ -290,6 +294,7 @@ x@{x9}@+@{x9}@y
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 15,
                 "end": 15

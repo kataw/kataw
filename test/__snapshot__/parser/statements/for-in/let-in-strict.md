@@ -90,6 +90,7 @@ for (let in in x);
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 28,
                     "end": 28

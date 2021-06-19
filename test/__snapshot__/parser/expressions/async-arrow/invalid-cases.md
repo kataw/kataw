@@ -236,6 +236,7 @@ async ([a]:string)=>c;
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 53,
                         "end": 53
@@ -339,6 +340,7 @@ async ([a]:string)=>c;
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 74,
                 "end": 74
@@ -348,6 +350,7 @@ async ([a]:string)=>c;
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 74,
                     "end": 74
@@ -624,6 +627,7 @@ async ([a]:string)=>c;
                 "contents": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 177,
                     "end": 177
@@ -1507,6 +1511,7 @@ async ([a]:string)=>c;
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 551,
                                     "end": 551

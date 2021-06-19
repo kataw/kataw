@@ -49,6 +49,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 7,
                         "end": 7
@@ -119,6 +120,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                     "key": {
                                                         "kind": 16637,
                                                         "text": "",
+                                                        "rawText": "",
                                                         "flags": 64,
                                                         "start": 36,
                                                         "end": 36

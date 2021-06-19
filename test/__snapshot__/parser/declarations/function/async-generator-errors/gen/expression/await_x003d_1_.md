@@ -89,6 +89,7 @@
                                                             "expression": {
                                                                 "kind": 16637,
                                                                 "text": "",
+                                                                "rawText": "",
                                                                 "flags": 64,
                                                                 "start": 24,
                                                                 "end": 24

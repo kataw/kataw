@@ -304,6 +304,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 80,
                 "end": 80
@@ -773,6 +774,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 249,
                     "end": 249
@@ -1567,6 +1569,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 513,
                     "end": 513

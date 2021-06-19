@@ -57,6 +57,7 @@ for (let [.x] = obj);
             "condition": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 12,
                 "end": 12
@@ -66,6 +67,7 @@ for (let [.x] = obj);
                 "member": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 10,
                     "end": 10
@@ -87,6 +89,7 @@ for (let [.x] = obj);
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 12,
                     "end": 12

@@ -38,6 +38,7 @@ bar ? (=> 0) : baz;
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 7,
                         "end": 7
@@ -50,6 +51,7 @@ bar ? (=> 0) : baz;
                 "alternate": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 7,
                     "end": 7

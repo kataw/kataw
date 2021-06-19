@@ -41,6 +41,7 @@ this?.#c[d];
                             "expression": {
                                 "kind": 67191035,
                                 "text": "#c",
+                                "rawText": "#c",
                                 "flags": 96,
                                 "start": 6,
                                 "end": 8

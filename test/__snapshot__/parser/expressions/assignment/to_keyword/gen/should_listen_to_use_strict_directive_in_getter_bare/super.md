@@ -118,6 +118,7 @@ foo = {
                                                             "expression": {
                                                                 "kind": 16637,
                                                                 "text": "",
+                                                                "rawText": "",
                                                                 "flags": 64,
                                                                 "start": 46,
                                                                 "end": 46

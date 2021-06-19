@@ -40,6 +40,7 @@ import { NewExpression } from '../expressions/new-expr';
 import { NewTarget } from '../expressions/new-target';
 import { Super } from '../expressions/super';
 import { SpreadElement } from '../expressions/spread-element';
+import { RegularExpressionLiteral } from '../expressions/regular-expr';
 
 /**
  * The set of all syntax items which are expressions.
@@ -71,6 +72,7 @@ export type ExpressionNode =
   | ArrowFunction
   | ClassBody
   | ClassTail
+  | RegularExpressionLiteral
   | ArgumentList
   | NumericLiteral
   | StringLiteral

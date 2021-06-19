@@ -504,6 +504,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                 "left": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 236,
                                     "end": 236

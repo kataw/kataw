@@ -154,6 +154,7 @@ class Example {
                                                     "expression": {
                                                         "kind": 67191035,
                                                         "text": "#priv",
+                                                        "rawText": "#priv",
                                                         "flags": 96,
                                                         "start": 77,
                                                         "end": 82

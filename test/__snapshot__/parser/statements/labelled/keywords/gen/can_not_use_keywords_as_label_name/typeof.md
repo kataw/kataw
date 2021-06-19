@@ -36,6 +36,7 @@ typeof: x
                 "operand": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 6,
                     "end": 6

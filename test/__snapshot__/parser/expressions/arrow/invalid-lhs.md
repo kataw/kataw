@@ -655,6 +655,7 @@ x = (a,b)+c=>{};
                 "member": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 169,
                     "end": 169
@@ -719,6 +720,7 @@ x = (a,b)+c=>{};
                 "shortCircuit": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 208,
                     "end": 208
@@ -830,6 +832,7 @@ x = (a,b)+c=>{};
                     "member": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 228,
                         "end": 228
@@ -890,6 +893,7 @@ x = (a,b)+c=>{};
                     "member": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 242,
                         "end": 242

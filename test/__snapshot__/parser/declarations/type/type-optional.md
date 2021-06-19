@@ -67,6 +67,7 @@ type a = ??string;
                     "name": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 8,
                         "end": 8
@@ -91,6 +92,7 @@ type a = ??string;
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 8,
                     "end": 8

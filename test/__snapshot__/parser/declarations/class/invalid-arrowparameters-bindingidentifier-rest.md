@@ -42,6 +42,7 @@ var af = ...x => x;
                         "initializer": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 8,
                             "end": 8

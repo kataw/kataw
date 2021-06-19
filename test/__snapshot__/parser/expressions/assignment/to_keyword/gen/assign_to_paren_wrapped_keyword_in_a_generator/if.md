@@ -71,6 +71,7 @@ function *f(){
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
+                                    "rawText": "",
                                     "flags": 64,
                                     "start": 18,
                                     "end": 18
@@ -94,6 +95,7 @@ function *f(){
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 20,
                                 "end": 20
@@ -105,6 +107,7 @@ function *f(){
                                     "left": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 21,
                                         "end": 21

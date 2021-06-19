@@ -73,6 +73,7 @@ function *f(x = (instanceof) = f) {}
                                     "left": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 17,
                                         "end": 17
@@ -86,6 +87,7 @@ function *f(x = (instanceof) = f) {}
                                     "right": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 27,
                                         "end": 27

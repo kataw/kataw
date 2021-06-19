@@ -34,6 +34,7 @@
                         "expression": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 1,
                             "end": 1
@@ -51,6 +52,7 @@
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 1,
                 "end": 1
@@ -144,6 +146,7 @@
                             "member": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 16,
                                 "end": 16
@@ -151,6 +154,7 @@
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 17,
                                 "end": 17

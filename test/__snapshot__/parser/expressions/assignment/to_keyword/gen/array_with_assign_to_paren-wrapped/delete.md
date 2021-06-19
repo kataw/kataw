@@ -64,6 +64,7 @@ async x => (delete) = 1
                             "operand": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 18,
                                 "end": 18

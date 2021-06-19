@@ -79,6 +79,7 @@ function *f(x = (void) = f) {}
                                     "operand": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 21,
                                         "end": 21

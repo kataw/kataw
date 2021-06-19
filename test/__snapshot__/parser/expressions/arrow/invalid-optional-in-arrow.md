@@ -67,6 +67,7 @@
                                         "consequent": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 7,
                                             "end": 7
@@ -184,6 +185,7 @@
                                         "consequent": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 28,
                                             "end": 28

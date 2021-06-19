@@ -55,6 +55,7 @@ let { x: import.meta }
                                         "value": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 8,
                                             "end": 8
@@ -78,6 +79,7 @@ let { x: import.meta }
                                         "value": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 15,
                                             "end": 15

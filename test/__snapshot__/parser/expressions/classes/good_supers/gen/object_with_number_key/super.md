@@ -144,6 +144,7 @@ class x extends y {
                                                                         "expression": {
                                                                             "kind": 16637,
                                                                             "text": "",
+                                                                            "rawText": "",
                                                                             "flags": 64,
                                                                             "start": 54,
                                                                             "end": 54

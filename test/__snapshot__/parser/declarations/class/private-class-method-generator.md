@@ -59,6 +59,7 @@ class C { *#aaa(){} }
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#aaa",
+                                    "rawText": "#aaa",
                                     "flags": 96,
                                     "start": 11,
                                     "end": 15

@@ -123,6 +123,7 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 32,
                     "end": 32
@@ -237,6 +238,7 @@ type T = <
                     "right": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 82,
                         "end": 82
@@ -254,6 +256,7 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 96,
                     "end": 96
@@ -406,6 +409,7 @@ type T = <
                             "contents": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 178,
                                 "end": 178
@@ -583,6 +587,7 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 257,
                     "end": 257
@@ -697,6 +702,7 @@ type T = <
                     "right": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 310,
                         "end": 310
@@ -714,6 +720,7 @@ type T = <
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 327,
                     "end": 327
@@ -883,6 +890,7 @@ type T = <
                             "contents": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 417,
                                 "end": 417

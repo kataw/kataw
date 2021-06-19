@@ -153,6 +153,7 @@ a ? async (b) => (c => d) : e => f;
                 "alternate": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 34,
                     "end": 34

@@ -30,6 +30,7 @@ instanceof: x
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 0,
                     "end": 0
@@ -43,6 +44,7 @@ instanceof: x
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 10,
                     "end": 10

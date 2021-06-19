@@ -79,6 +79,7 @@ function *f(x = delete ((with) = f)) {}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 25,
                                         "end": 25
@@ -135,6 +136,7 @@ function *f(x = delete ((with) = f)) {}
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 29,
                 "end": 29
@@ -146,6 +148,7 @@ function *f(x = delete ((with) = f)) {}
                     "left": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 30,
                         "end": 30

@@ -42,6 +42,7 @@ var af = switch => 1;
                         "initializer": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 8,
                             "end": 8
@@ -70,6 +71,7 @@ var af = switch => 1;
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 15,
                 "end": 15

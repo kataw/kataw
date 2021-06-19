@@ -39,6 +39,7 @@ a?
                     "member": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 2,
                         "end": 2
@@ -59,6 +60,7 @@ a?
                 "alternate": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 5,
                     "end": 5

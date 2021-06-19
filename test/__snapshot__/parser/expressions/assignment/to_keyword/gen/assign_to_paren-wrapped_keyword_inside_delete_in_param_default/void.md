@@ -71,6 +71,7 @@ async (x = delete ((void) = f)) => {}
                                         "operand": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 24,
                                             "end": 24

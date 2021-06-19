@@ -1541,6 +1541,7 @@ function * x() { "use strict";  yield: 34; }
                                     "operand": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 772,
                                         "end": 772

@@ -30,6 +30,7 @@ this.#b();
                     "expression": {
                         "kind": 67191035,
                         "text": "#b",
+                        "rawText": "#b",
                         "flags": 96,
                         "start": 5,
                         "end": 7

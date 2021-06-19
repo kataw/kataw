@@ -152,6 +152,7 @@ new Foo();
                                 "expression": {
                                     "kind": 67191035,
                                     "text": "#tag",
+                                    "rawText": "#tag",
                                     "flags": 96,
                                     "start": 60,
                                     "end": 64
@@ -241,6 +242,7 @@ new Foo();
                                                                     "expression": {
                                                                         "kind": 67191035,
                                                                         "text": "#tag",
+                                                                        "rawText": "#tag",
                                                                         "flags": 96,
                                                                         "start": 111,
                                                                         "end": 115
@@ -379,6 +381,7 @@ new Foo();
                                                                     "expression": {
                                                                         "kind": 67191035,
                                                                         "text": "#tag2",
+                                                                        "rawText": "#tag2",
                                                                         "flags": 96,
                                                                         "start": 201,
                                                                         "end": 206

@@ -52,6 +52,7 @@ async x => throw = 1
                 "contents": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 10,
                     "end": 10
@@ -77,6 +78,7 @@ async x => throw = 1
                 "left": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 16,
                     "end": 16

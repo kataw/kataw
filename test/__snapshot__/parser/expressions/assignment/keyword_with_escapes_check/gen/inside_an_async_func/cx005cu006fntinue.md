@@ -57,6 +57,7 @@ async () => {  c\u006fntinue = x  }
                             "label": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 28,
                                 "end": 28

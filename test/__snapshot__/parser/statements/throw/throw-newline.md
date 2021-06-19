@@ -28,6 +28,7 @@ throw /**/\n x;
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 5,
                 "end": 5
@@ -47,6 +48,7 @@ throw /**/\n x;
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 20,
                 "end": 20

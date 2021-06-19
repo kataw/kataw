@@ -199,6 +199,7 @@ new Foo();
                                                                     "expression": {
                                                                         "kind": 67191035,
                                                                         "text": "#tag",
+                                                                        "rawText": "#tag",
                                                                         "flags": 96,
                                                                         "start": 89,
                                                                         "end": 93

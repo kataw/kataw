@@ -44,6 +44,7 @@ x = return => {} ;
                 "right": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 3,
                     "end": 3
@@ -67,6 +68,7 @@ x = return => {} ;
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 10,
                 "end": 10

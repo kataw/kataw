@@ -91,6 +91,7 @@ async function * gen() {yield await // comment\n 10}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
+                                        "rawText": "",
                                         "flags": 64,
                                         "start": 35,
                                         "end": 35

@@ -54,6 +54,7 @@ async x => (continue) = 1
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 12,
                         "end": 12
@@ -81,6 +82,7 @@ async x => (continue) = 1
             "label": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 20,
                 "end": 20

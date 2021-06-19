@@ -34,6 +34,7 @@ do( while try this and !foo while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 9,
                 "end": 9
@@ -51,6 +52,7 @@ do( while try this and !foo while
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 3,
                         "end": 3
@@ -170,6 +172,7 @@ do( while try this and !foo while
             "expression": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 33,
                 "end": 33
@@ -179,6 +182,7 @@ do( while try this and !foo while
                 "expression": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 33,
                     "end": 33

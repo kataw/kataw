@@ -269,6 +269,7 @@ this.#f,
                                                                                     "expression": {
                                                                                         "kind": 67191035,
                                                                                         "text": "#a",
+                                                                                        "rawText": "#a",
                                                                                         "flags": 96,
                                                                                         "start": 76,
                                                                                         "end": 78
@@ -318,6 +319,7 @@ this.#f,
                                                                                             "expression": {
                                                                                                 "kind": 67191035,
                                                                                                 "text": "#b",
+                                                                                                "rawText": "#b",
                                                                                                 "flags": 96,
                                                                                                 "start": 90,
                                                                                                 "end": 92
@@ -381,6 +383,7 @@ this.#f,
                                                                                         "expression": {
                                                                                             "kind": 67191035,
                                                                                             "text": "#c",
+                                                                                            "rawText": "#c",
                                                                                             "flags": 96,
                                                                                             "start": 108,
                                                                                             "end": 110
@@ -515,6 +518,7 @@ this.#f,
                                                                                     "expression": {
                                                                                         "kind": 67191035,
                                                                                         "text": "#d",
+                                                                                        "rawText": "#d",
                                                                                         "flags": 96,
                                                                                         "start": 148,
                                                                                         "end": 150
@@ -573,6 +577,7 @@ this.#f,
                                                                                     "expression": {
                                                                                         "kind": 67191035,
                                                                                         "text": "#e",
+                                                                                        "rawText": "#e",
                                                                                         "flags": 96,
                                                                                         "start": 166,
                                                                                         "end": 168
@@ -653,6 +658,7 @@ this.#f,
                                                                                                                                         "expression": {
                                                                                                                                             "kind": 67191035,
                                                                                                                                             "text": "#f",
+                                                                                                                                            "rawText": "#f",
                                                                                                                                             "flags": 96,
                                                                                                                                             "start": 187,
                                                                                                                                             "end": 189
@@ -1190,6 +1196,7 @@ this.#f,
                                                                             "expression": {
                                                                                 "kind": 67191035,
                                                                                 "text": "#a",
+                                                                                "rawText": "#a",
                                                                                 "flags": 96,
                                                                                 "start": 335,
                                                                                 "end": 337
@@ -1209,6 +1216,7 @@ this.#f,
                                                                             "expression": {
                                                                                 "kind": 67191035,
                                                                                 "text": "#b",
+                                                                                "rawText": "#b",
                                                                                 "flags": 96,
                                                                                 "start": 344,
                                                                                 "end": 346
@@ -1228,6 +1236,7 @@ this.#f,
                                                                             "expression": {
                                                                                 "kind": 67191035,
                                                                                 "text": "#c",
+                                                                                "rawText": "#c",
                                                                                 "flags": 96,
                                                                                 "start": 353,
                                                                                 "end": 355
@@ -1247,6 +1256,7 @@ this.#f,
                                                                             "expression": {
                                                                                 "kind": 67191035,
                                                                                 "text": "#d",
+                                                                                "rawText": "#d",
                                                                                 "flags": 96,
                                                                                 "start": 362,
                                                                                 "end": 364
@@ -1266,6 +1276,7 @@ this.#f,
                                                                             "expression": {
                                                                                 "kind": 67191035,
                                                                                 "text": "#e",
+                                                                                "rawText": "#e",
                                                                                 "flags": 96,
                                                                                 "start": 371,
                                                                                 "end": 373
@@ -1285,6 +1296,7 @@ this.#f,
                                                                             "expression": {
                                                                                 "kind": 67191035,
                                                                                 "text": "#f",
+                                                                                "rawText": "#f",
                                                                                 "flags": 96,
                                                                                 "start": 380,
                                                                                 "end": 382

@@ -157,6 +157,7 @@ do {} while (x) { async try while { catch }
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 43,
                                 "end": 43

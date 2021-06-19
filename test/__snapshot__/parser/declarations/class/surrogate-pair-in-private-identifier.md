@@ -85,6 +85,7 @@ class C { #@{x29e3d}@ }
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
+                                            "rawText": "",
                                             "flags": 64,
                                             "start": 12,
                                             "end": 12
@@ -104,6 +105,7 @@ class C { #@{x29e3d}@ }
                             "key": {
                                 "kind": 16637,
                                 "text": "",
+                                "rawText": "",
                                 "flags": 64,
                                 "start": 12,
                                 "end": 12
@@ -173,6 +175,7 @@ class C { #@{x29e3d}@ }
                         "expression": {
                             "kind": 16637,
                             "text": "",
+                            "rawText": "",
                             "flags": 64,
                             "start": 21,
                             "end": 21
@@ -190,6 +193,7 @@ class C { #@{x29e3d}@ }
             "name": {
                 "kind": 16637,
                 "text": "",
+                "rawText": "",
                 "flags": 64,
                 "start": 21,
                 "end": 21

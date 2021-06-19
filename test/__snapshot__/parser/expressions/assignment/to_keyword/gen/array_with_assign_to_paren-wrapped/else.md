@@ -54,6 +54,7 @@ async x => (else) = 1
                     "expression": {
                         "kind": 16637,
                         "text": "",
+                        "rawText": "",
                         "flags": 64,
                         "start": 12,
                         "end": 12

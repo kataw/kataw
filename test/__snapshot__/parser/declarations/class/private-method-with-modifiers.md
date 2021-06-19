@@ -66,6 +66,7 @@ class Foo {
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#g",
+                                    "rawText": "#g",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 16
@@ -121,6 +122,7 @@ class Foo {
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#a",
+                                    "rawText": "#a",
                                     "flags": 96,
                                     "start": 28,
                                     "end": 31
@@ -181,6 +183,7 @@ class Foo {
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#ag",
+                                    "rawText": "#ag",
                                     "flags": 96,
                                     "start": 45,
                                     "end": 48
@@ -241,6 +244,7 @@ class Foo {
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#sg",
+                                    "rawText": "#sg",
                                     "flags": 96,
                                     "start": 63,
                                     "end": 66
@@ -301,6 +305,7 @@ class Foo {
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#sa",
+                                    "rawText": "#sa",
                                     "flags": 96,
                                     "start": 85,
                                     "end": 89
@@ -366,6 +371,7 @@ class Foo {
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#sag",
+                                    "rawText": "#sag",
                                     "flags": 96,
                                     "start": 110,
                                     "end": 114

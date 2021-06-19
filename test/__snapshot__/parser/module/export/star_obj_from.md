@@ -52,6 +52,7 @@ export *, {bar} from 'bar';
                 "from": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 8,
                     "end": 8

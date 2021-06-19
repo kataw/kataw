@@ -154,6 +154,7 @@ class C {
                                 "name": {
                                     "kind": 67191035,
                                     "text": "#getter",
+                                    "rawText": "#getter",
                                     "flags": 96,
                                     "start": 42,
                                     "end": 50
@@ -256,6 +257,7 @@ class C {
                                                             "left": {
                                                                 "kind": 67191035,
                                                                 "text": "#brand",
+                                                                "rawText": "#brand",
                                                                 "flags": 96,
                                                                 "start": 87,
                                                                 "end": 94
@@ -289,6 +291,7 @@ class C {
                                                             "left": {
                                                                 "kind": 67191035,
                                                                 "text": "#method",
+                                                                "rawText": "#method",
                                                                 "flags": 96,
                                                                 "start": 104,
                                                                 "end": 112
@@ -326,6 +329,7 @@ class C {
                                                         "left": {
                                                             "kind": 67191035,
                                                             "text": "#getter",
+                                                            "rawText": "#getter",
                                                             "flags": 96,
                                                             "start": 122,
                                                             "end": 130

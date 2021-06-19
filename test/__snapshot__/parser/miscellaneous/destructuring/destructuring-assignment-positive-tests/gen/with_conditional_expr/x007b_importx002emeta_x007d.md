@@ -201,6 +201,7 @@
                 "alternate": {
                     "kind": 16637,
                     "text": "",
+                    "rawText": "",
                     "flags": 64,
                     "start": 51,
                     "end": 51
