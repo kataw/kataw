@@ -14,9 +14,17 @@
 Kataw is a javascript toolchain with high focus on performance, and it's main goal is to unify functionality that has previously been separate tools.
 
 It's core is an ECMAScript friendly CST that allows you to parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
-Each CST node contains several properties, and the `flags` property contains the CST info.
 
-The CST info can be extracted from the CST node through public API methods. Click [here](https://github.com/kataw/kataw/tree/main/src/parser#public-api-methods-to-extract-info-from-cst-nodes) for a complete list over all the public API methods.
+If you only need a parser like `Acorn`, you can use Kataw to perform syntactic analysis (parsing) of a Javascript program, and with `ES2015`
+and later a Javascript program can be either a [script or a module](https://tc39.es/ecma262/index.html#sec-ecmascript-language-scripts-and-modules).
+
+To do a simple parse you can use either `kataw.parseModule` or `kataw.parseScript` and you get an `CST` in return.
+
+The CST can then be used as an AST, but the CST in Kataw contains more information that can be extracted from the CST node through
+public API methods.
+
+Click [here](https://github.com/kataw/kataw/tree/main/src/parser#public-api-methods-to-extract-info-from-cst-nodes) for a
+complete list over all the public API methods.
 
 Many of these APIs have the advantage that they allow you to "retrieve" info that is not otherwise available with a standard AST parser.
 
@@ -24,13 +32,13 @@ One example is that you only need to use `kataw.isStatementNode` to find out if 
 a `switch statement` with 60 `switch cases`.
 
 Another example is how easy it is to find out if a keyword node contains an `escaped keyword`. You only need to use `kataw.hasUnicodeEscape`. You can narrow this down further
-if you use `kataw.isChildLess`. A keyword doesn't have any child nodes.
+if you use `kataw.hasNoChildren`. A keyword doesn't have any child nodes.
 
 Here is a few examples:
 
 ```ts
-    // Check for unicode escape on childless nodes
-    if (kataw.isChildLess(node) && kataw.hasUnicodeEscape(node)) {}
+    // Check for unicode escape on nodes without children
+    if (kataw.hasNoChildren(node) && kataw.hasUnicodeEscape(node)) {}
 
     // Check for unicode escape on keywords
     if (kataw.isKeyword(node) && kataw.hasUnicodeEscape(node)) {}
@@ -89,7 +97,7 @@ Here is an example on how to create an CST node:
 All keywords in Kataw is it's own CST node, and you create them in almost the same way as any other CST nodes.
 
 ```ts
-kataw.createToken(kataw.SyntaxKind.ForKeyword, Kataw.NodeFlags.ChildLess, /* start */ 1,  /* end */ 5);
+kataw.createToken(kataw.SyntaxKind.ForKeyword, Kataw.NodeFlags.NoChildren, /* start */ 1,  /* end */ 5);
 ```
 
 ## ESNext
@@ -185,7 +193,7 @@ export function swapIdentifierWithNumeric(transform) {
         return kataw.createNumericLiteral(
           123,
           "123",
-          kataw.NodeFlags.ExpressionNode | kataw.NodeFlags.ChildLess,
+          kataw.NodeFlags.ExpressionNode | kataw.NodeFlags.NoChildren,
           /* start */ 1,
           /* end */ 3
         );
