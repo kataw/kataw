@@ -206,7 +206,7 @@ export function consumeOptToken<T extends TokenSyntaxKind>(
   if (parser.token === token) {
     const { curPos, token, nodeFlags } = parser;
     nextToken(parser, context);
-    return createToken(token, nodeFlags | NodeFlags.ChildLess, curPos, parser.curPos);
+    return createToken(token, nodeFlags | NodeFlags.NoChildren, curPos, parser.curPos);
   }
   return null;
 }
@@ -220,7 +220,7 @@ export function consumeToken<T extends TokenSyntaxKind>(
   if (parser.token === token) {
     const { curPos, token, nodeFlags } = parser;
     nextToken(parser, context);
-    return createToken(token, nodeFlags | NodeFlags.ChildLess, curPos, parser.curPos);
+    return createToken(token, nodeFlags | NodeFlags.NoChildren, curPos, parser.curPos);
   }
 
   if (diagnosticMessage && parser.previousErrorPos !== parser.pos) {
@@ -256,7 +256,7 @@ export function consumeKeywordAndCheckForEscapeSequence<T extends TokenSyntaxKin
     }
     parser.assignable = false;
     nextToken(parser, context);
-    return createToken(token, flag | NodeFlags.ChildLess | nodeFlags, pos, parser.curPos);
+    return createToken(token, flag | NodeFlags.NoChildren | nodeFlags, pos, parser.curPos);
   }
   return null;
 }
@@ -338,8 +338,8 @@ export function isExpressionNode(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.ExpressionNode) === NodeFlags.ExpressionNode;
 }
 
-export function isChildLess(node: SyntaxNode): boolean {
-  return (node.flags & NodeFlags.ChildLess) === NodeFlags.ChildLess;
+export function hasNoChildren(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.NoChildren) === NodeFlags.NoChildren;
 }
 
 export function isSingleQuote(node: SyntaxNode): boolean {

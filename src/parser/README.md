@@ -72,7 +72,7 @@ Multiple API methods exist to get info from the CST nodes
 | `isIdentifier`              | True if the node is an identifier |
 | `isStartOfType`              | True if node is valid start of an type |
 | `isSemicolon`              | True if the node is `;`, |
-| `isChildLess`              | True if the node doesn't have any child AST nodes |
+| `hasNoChildren`              | True if the node doesn't have any child AST nodes |
 | `isSingleQuote`              | True if the node has either `'` or `"`|
 | `containsSeparator`              | True if the node contains a numeric separator `_`.  e.g. `0b1100_0101`|
 | `hasUnicodeEscape`              | True if the node contains any unicode escapes |

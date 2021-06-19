@@ -123,7 +123,7 @@ var a : typeof A.B<T>
                                     "start": 14,
                                     "end": 21
                                 },
-                                "flags": 2097216,
+                                "flags": 2097152,
                                 "start": 7,
                                 "end": 21
                             },

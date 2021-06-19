@@ -21,7 +21,7 @@ export function createOptionalType(
     kind: SyntaxKind.OptionalType,
     optionalToken,
     type,
-    flags: NodeFlags.IsTypeNode | NodeFlags.ChildLess,
+    flags: NodeFlags.IsTypeNode,
     start,
     end
   };

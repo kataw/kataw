@@ -78,7 +78,7 @@ type Age = typeof MyArray[number]["age"];
                                 "start": 17,
                                 "end": 25
                             },
-                            "flags": 2097216,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 25
                         },

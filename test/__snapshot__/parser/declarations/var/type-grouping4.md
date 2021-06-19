@@ -78,7 +78,7 @@ var a: (typeof A)
                                             "start": 14,
                                             "end": 16
                                         },
-                                        "flags": 2097216,
+                                        "flags": 2097152,
                                         "start": 8,
                                         "end": 16
                                     },

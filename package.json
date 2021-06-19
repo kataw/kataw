@@ -1,6 +1,6 @@
 {
   "name": "kataw",
-  "version": "0.0.71",
+  "version": "0.0.72",
   "description": "A insane fast CST based Javascript toolchain",
   "main": "dist/kataw.umd.min.js",
   "module": "dist/kataw.esm.min.js",

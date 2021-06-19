@@ -286,7 +286,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                 "start": 76,
                                 "end": 78
                             },
-                            "flags": 2097216,
+                            "flags": 2097152,
                             "start": 69,
                             "end": 78
                         }

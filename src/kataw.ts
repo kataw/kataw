@@ -152,7 +152,7 @@ export { createUniqueIdentifier, UniqueIdentifierFlags } from './ast/internal/un
 export {
   isStatementNode,
   isExpressionNode,
-  isChildLess,
+  hasNoChildren,
   isSingleQuote,
   containsSeparator,
   hasUnicodeEscape,

@@ -9,7 +9,7 @@ export type Elison = SyntaxNode;
 export function createElison(start: number, end: number): Elison {
   return {
     kind: SyntaxKind.Elison,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     start,
     end
   };

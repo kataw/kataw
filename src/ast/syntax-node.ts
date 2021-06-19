@@ -40,7 +40,7 @@ export enum NodeFlags {
   DisallowIn = 1 << 3, // If node was parsed in a context where 'in-expressions' are not allowed
   IsStatement = 1 << 4, // Node is an valid start of an statement
   ExpressionNode = 1 << 5, // Node is an valid start of an expression
-  ChildLess = 1 << 6,
+  NoChildren = 1 << 6,
   Generator = 1 << 7, // If node was parsed in the 'yield' context created when parsing a generator
   Async = 1 << 8, // If node was parsed in the 'await' context created when parsing an async function
   Setter = 1 << 9, // Node is a setter method

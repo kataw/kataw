@@ -21,7 +21,7 @@ export function createRestType(
     kind: SyntaxKind.RestType,
     ellipsisToken,
     type,
-    flags: NodeFlags.IsTypeNode | NodeFlags.ChildLess,
+    flags: NodeFlags.IsTypeNode | NodeFlags.NoChildren,
     start,
     end
   };

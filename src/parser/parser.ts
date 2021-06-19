@@ -1932,7 +1932,7 @@ function parseTokenNode(parser: ParserState, context: Context, flags: NodeFlags)
   const nodeFlags = parser.nodeFlags;
   parser.assignable = false;
   nextToken(parser, context);
-  return createToken(kind, nodeFlags | flags | NodeFlags.ChildLess, pos, parser.curPos);
+  return createToken(kind, nodeFlags | flags | NodeFlags.NoChildren, pos, parser.curPos);
 }
 
 // ConditionalExpression :
@@ -2111,7 +2111,7 @@ function parseMemberExpression(
             ? parseTemplateTail(
                 parser,
                 context,
-                NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral
+                NodeFlags.ExpressionNode | NodeFlags.NoChildren | NodeFlags.TemplateLiteral
               )
             : parseTemplateExpression(parser, context, /* isTaggedTemplate */ true),
           pos,
@@ -2186,7 +2186,11 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
     chain = createTaggedTemplate(
       chain as any,
       parser.token === SyntaxKind.TemplateTail
-        ? parseTemplateTail(parser, context, NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral)
+        ? parseTemplateTail(
+            parser,
+            context,
+            NodeFlags.ExpressionNode | NodeFlags.NoChildren | NodeFlags.TemplateLiteral
+          )
         : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
       pos,
       parser.curPos
@@ -2272,7 +2276,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
           ? parseTemplateTail(
               parser,
               context,
-              NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral
+              NodeFlags.ExpressionNode | NodeFlags.NoChildren | NodeFlags.TemplateLiteral
             )
           : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
         pos,
@@ -2720,7 +2724,7 @@ function parsePrimaryExpression(
       return parseTemplateTail(
         parser,
         context,
-        NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral
+        NodeFlags.ExpressionNode | NodeFlags.NoChildren | NodeFlags.TemplateLiteral
       );
     case SyntaxKind.TemplateCont:
       return parseTemplateExpression(parser, context, /*isTaggedTemplate*/ false);
@@ -2973,7 +2977,7 @@ function parsePropertyDefinition(
     if (parser.token & 0b00000100110000000100000000000000) {
       if (token === SyntaxKind.AsyncKeyword) {
         nodeFlags |= NodeFlags.Async;
-        asyncKeyword = createToken(SyntaxKind.AsyncKeyword, nodeFlags | NodeFlags.ChildLess, pos, parser.curPos);
+        asyncKeyword = createToken(SyntaxKind.AsyncKeyword, nodeFlags | NodeFlags.NoChildren, pos, parser.curPos);
         if (nodeFlags & Constants.IsEscaped) {
           parser.onError(
             DiagnosticSource.Parser,
@@ -2998,7 +3002,7 @@ function parsePropertyDefinition(
       }
 
       if (token === SyntaxKind.GetKeyword) {
-        getKeyword = createToken(SyntaxKind.GetKeyword, nodeFlags | NodeFlags.ChildLess, pos, parser.curPos);
+        getKeyword = createToken(SyntaxKind.GetKeyword, nodeFlags | NodeFlags.NoChildren, pos, parser.curPos);
         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
         key = parsePropertyName(parser, context);
         if (generatorToken) {
@@ -3022,7 +3026,7 @@ function parsePropertyDefinition(
       }
 
       if (token === SyntaxKind.SetKeyword) {
-        setKeyword = createToken(SyntaxKind.SetKeyword, nodeFlags | NodeFlags.ChildLess, pos, parser.curPos);
+        setKeyword = createToken(SyntaxKind.SetKeyword, nodeFlags | NodeFlags.NoChildren, pos, parser.curPos);
         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
         key = parsePropertyName(parser, context);
         if (generatorToken) {
@@ -3558,7 +3562,7 @@ function parseNumericLiteral(parser: ParserState, context: Context): NumericLite
   return createNumericLiteral(
     tokenValue,
     tokenRaw,
-    nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    nodeFlags | NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     curPos,
     parser.curPos
   );
@@ -3579,7 +3583,7 @@ function parseStringLiteral(parser: ParserState, context: Context): StringLitera
   return createStringLiteral(
     tokenValue,
     tokenRaw,
-    nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    nodeFlags | NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     curPos,
     parser.curPos
   );
@@ -7105,7 +7109,7 @@ function parseImportDeclaration(
       ) {
         typeKeyword = createToken(
           SyntaxKind.TypeKeyword,
-          NodeFlags.ChildLess,
+          NodeFlags.NoChildren,
           (defaultBinding as any).start as number,
           (defaultBinding as any).end
         );
@@ -7270,7 +7274,7 @@ function parseImportSpecifier(parser: ParserState, context: Context, scope: Scop
   }
 
   if (token === SyntaxKind.TypeKeyword && parser.token & Constants.Identifier) {
-    typeKeyword = createToken(SyntaxKind.TypeKeyword, NodeFlags.ChildLess, identifier.start, identifier.end);
+    typeKeyword = createToken(SyntaxKind.TypeKeyword, NodeFlags.NoChildren, identifier.start, identifier.end);
     identifier = parseIdentifier(parser, context, Constants.IdentifierOrKeyword, DiagnosticCode.Identifier_expected);
   }
 
@@ -8624,7 +8628,7 @@ function parseTypeAsIdentifierOrTypeAlias(
     parseSemicolon(parser, context);
     return createTypeAlias(
       declareKeyword,
-      createToken(SyntaxKind.TypeKeyword, NodeFlags.ChildLess, pos, expr.end),
+      createToken(SyntaxKind.TypeKeyword, NodeFlags.NoChildren, pos, expr.end),
       expr as Identifier,
       typeParameters,
       assignToken,
@@ -8689,7 +8693,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
     );
     parseSemicolon(parser, context);
     return createLexicalDeclaration(
-      createToken(SyntaxKind.LetKeyword, flags | NodeFlags.ChildLess, pos, expr.end),
+      createToken(SyntaxKind.LetKeyword, flags | NodeFlags.NoChildren, pos, expr.end),
       declarationList,
       pos,
       parser.curPos
@@ -9036,9 +9040,9 @@ function parseObjectTypeProperty(
       (token === SyntaxKind.GetKeyword || token === SyntaxKind.SetKeyword)
     ) {
       if (token === SyntaxKind.GetKeyword) {
-        getKeyword = createToken(SyntaxKind.GetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end);
+        getKeyword = createToken(SyntaxKind.GetKeyword, key.flags | NodeFlags.NoChildren, pos, key.end);
       } else {
-        setKeyword = createToken(SyntaxKind.SetKeyword, key.flags | NodeFlags.ChildLess, pos, key.end);
+        setKeyword = createToken(SyntaxKind.SetKeyword, key.flags | NodeFlags.NoChildren, pos, key.end);
       }
       key = parseObjectTypePropertyKey(parser, context, Constants.Identifier);
       const value = parseFunctionType(
@@ -9222,7 +9226,7 @@ function convertToPrimaryType(parser: ParserState, context: Context, t: SyntaxKi
     case SyntaxKind.StringKeyword:
     case SyntaxKind.BooleanKeyword:
     case SyntaxKind.EmptyKeyword:
-      return createToken(t, NodeFlags.ChildLess, key.start, key.end);
+      return createToken(t, NodeFlags.NoChildren, key.start, key.end);
     default:
       return createTypeReference(
         parseEntityName(parser, context, key, Constants.IdentifierOrKeyword, pos),
@@ -9545,7 +9549,7 @@ export function parseImportMeta(
     importKeyword,
     metaKeyword,
     pos,
-    parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     parser.curPos
   );
   parser.assignable = false;
@@ -9565,7 +9569,7 @@ function parseTemplateExpression(parser: ParserState, context: Context, isTagged
 
   return createTemplateExpression(
     templateSpans,
-    parseTemplateTail(parser, context, nodeFlags | NodeFlags.ChildLess),
+    parseTemplateTail(parser, context, nodeFlags | NodeFlags.NoChildren),
     nodeFlags,
     pos,
     parser.curPos
@@ -9640,7 +9644,7 @@ function parseClassDeclaration(
       return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, pos), pos);
     }
 
-    declareKeyword = createToken(SyntaxKind.DeclareKeyword, NodeFlags.ChildLess, expr.start, expr.end);
+    declareKeyword = createToken(SyntaxKind.DeclareKeyword, NodeFlags.NoChildren, expr.start, expr.end);
 
     switch (parser.token as SyntaxKind) {
       case SyntaxKind.VarKeyword:
@@ -9899,7 +9903,7 @@ export function parseClassElement(
               context,
               inheritedContext,
               declareKeyword,
-              createToken(SyntaxKind.StaticKeyword, NodeFlags.ChildLess, pos, parser.curPos),
+              createToken(SyntaxKind.StaticKeyword, NodeFlags.NoChildren, pos, parser.curPos),
               decorators,
               nodeFlags
             );
@@ -9940,7 +9944,7 @@ export function parseClassElement(
                 parser,
                 context,
                 inheritedContext,
-                createToken(SyntaxKind.DeclareKeyword, NodeFlags.ChildLess, pos, parser.curPos),
+                createToken(SyntaxKind.DeclareKeyword, NodeFlags.NoChildren, pos, parser.curPos),
                 staticKeyword,
                 decorators,
                 nodeFlags
@@ -9960,7 +9964,7 @@ export function parseClassElement(
             );
           }
           nodeFlags |= NodeFlags.Async;
-          asyncKeyword = createToken(SyntaxKind.AsyncKeyword, flags | NodeFlags.ChildLess, pos, parser.curPos);
+          asyncKeyword = createToken(SyntaxKind.AsyncKeyword, flags | NodeFlags.NoChildren, pos, parser.curPos);
           generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
           if (generatorToken) nodeFlags |= NodeFlags.Generator;
           break;
@@ -9974,12 +9978,12 @@ export function parseClassElement(
               parser.pos
             );
           }
-          getKeyword = createToken(SyntaxKind.GetKeyword, flags | NodeFlags.ChildLess, pos, parser.curPos);
+          getKeyword = createToken(SyntaxKind.GetKeyword, flags | NodeFlags.NoChildren, pos, parser.curPos);
           nodeFlags |= NodeFlags.Getter;
           break;
 
         case SyntaxKind.SetKeyword:
-          setKeyword = createToken(SyntaxKind.SetKeyword, flags | NodeFlags.ChildLess, pos, parser.curPos);
+          setKeyword = createToken(SyntaxKind.SetKeyword, flags | NodeFlags.NoChildren, pos, parser.curPos);
           nodeFlags |= NodeFlags.Setter;
           break;
       }
@@ -10504,7 +10508,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         typeParameters,
         parseType(parser, context),
         [],
-        createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, expr.end),
+        createToken(SyntaxKind.AsyncKeyword, NodeFlags.NoChildren, start, expr.end),
         /* nodeFlags */ NodeFlags.Async,
         start
       );
@@ -11032,7 +11036,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         typeParameters,
         parseType(parser, context),
         arrowParams,
-        createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, expr.end),
+        createToken(SyntaxKind.AsyncKeyword, NodeFlags.NoChildren, start, expr.end),
         /* nodeFlags */ flags | NodeFlags.Async,
         start
       );
@@ -11076,7 +11080,7 @@ function parseOpaqueType(
   if (parser.token === SyntaxKind.TypeKeyword) {
     return createOpaqueType(
       declareKeyword,
-      createToken(SyntaxKind.OpaqueKeyword, NodeFlags.ChildLess, pos, parser.curPos),
+      createToken(SyntaxKind.OpaqueKeyword, NodeFlags.NoChildren, pos, parser.curPos),
       consumeOptToken(parser, context, SyntaxKind.TypeKeyword),
       parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected),
       parseTypeParameterDeclaration(parser, context),

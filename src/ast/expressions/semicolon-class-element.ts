@@ -12,7 +12,7 @@ export type SemicolonClassElement = SyntaxNode;
 export function createSemicolonClassElement(start: number, end: number): SemicolonClassElement {
   return {
     kind: SyntaxKind.SemicolonClassElement,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     start,
     end
   };

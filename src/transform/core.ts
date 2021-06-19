@@ -8,6 +8,36 @@ import { createVariableStatement } from '../ast/statements/variable-stmt';
 import { transformKataw } from './transformers/kataw';
 import { createVariableDeclarationList } from '../ast/statements/variable-declarationList';
 
+export interface Transform {
+  nextAutoGenerateId: number;
+  lexicalEnvironmentVariableDeclarations: any; //[] | undefined;
+  lexicalEnvironmentFunctionDeclarations: FunctionDeclaration[] | undefined;
+  lexicalEnvironmentStatements: StatementNode[] | undefined;
+  lexicalEnvironmentVariableDeclarationsStack: VariableDeclaration[][];
+  lexicalEnvironmentFunctionDeclarationsStack: any; //FunctionDeclaration[][];
+  lexicalEnvironmentStatementsStack: StatementNode[][] | undefined;
+  lexicalEnvironmentFlags: LexicalEnvironmentFlags;
+  lexicalEnvironmentFlagsStack: LexicalEnvironmentFlags[];
+  lexicalEnvironmentStackOffset: 0;
+  lexicalEnvironmentSuspended: boolean;
+}
+
+export function createTransform(): Transform {
+  return {
+    nextAutoGenerateId: 0,
+    lexicalEnvironmentVariableDeclarationsStack: [],
+    lexicalEnvironmentFunctionDeclarationsStack: [],
+    lexicalEnvironmentStatementsStack: [],
+    lexicalEnvironmentStatements: undefined,
+    lexicalEnvironmentFunctionDeclarations: undefined,
+    lexicalEnvironmentVariableDeclarations: undefined,
+    lexicalEnvironmentFlags: LexicalEnvironmentFlags.None,
+    lexicalEnvironmentFlagsStack: [],
+    lexicalEnvironmentStackOffset: 0,
+    lexicalEnvironmentSuspended: false
+  };
+}
+
 /* @internal */
 export const enum LexicalEnvironmentFlags {
   None = 0,
@@ -56,34 +86,6 @@ export function singleOrUndefined(array: any[]): any {
   return array && array.length === 1 ? array[0] : undefined;
 }
 
-export interface Transform {
-  lexicalEnvironmentVariableDeclarations: any; //[] | undefined;
-  lexicalEnvironmentFunctionDeclarations: FunctionDeclaration[] | undefined;
-  lexicalEnvironmentStatements: StatementNode[] | undefined;
-  lexicalEnvironmentVariableDeclarationsStack: VariableDeclaration[][];
-  lexicalEnvironmentFunctionDeclarationsStack: any; //FunctionDeclaration[][];
-  lexicalEnvironmentStatementsStack: StatementNode[][] | undefined;
-  lexicalEnvironmentFlags: LexicalEnvironmentFlags;
-  lexicalEnvironmentFlagsStack: LexicalEnvironmentFlags[];
-  lexicalEnvironmentStackOffset: 0;
-  lexicalEnvironmentSuspended: boolean;
-}
-
-export function createTransform(): Transform {
-  return {
-    lexicalEnvironmentVariableDeclarationsStack: [],
-    lexicalEnvironmentFunctionDeclarationsStack: [],
-    lexicalEnvironmentStatementsStack: [],
-    lexicalEnvironmentStatements: undefined,
-    lexicalEnvironmentFunctionDeclarations: undefined,
-    lexicalEnvironmentVariableDeclarations: undefined,
-    lexicalEnvironmentFlags: LexicalEnvironmentFlags.None,
-    lexicalEnvironmentFlagsStack: [],
-    lexicalEnvironmentStackOffset: 0,
-    lexicalEnvironmentSuspended: false
-  };
-}
-
 export function startLexicalEnvironment(transform: Transform): void {
   transform.lexicalEnvironmentVariableDeclarationsStack[transform.lexicalEnvironmentStackOffset] =
     transform.lexicalEnvironmentVariableDeclarations;
@@ -113,7 +115,7 @@ export function endLexicalEnvironment(transform: Transform): StatementNode[] | u
     if (transform.lexicalEnvironmentVariableDeclarations) {
       const statement = createVariableStatement(
         /* declaredKeyword */ null,
-        createToken(SyntaxKind.VarKeyword, NodeFlags.IsStatement | NodeFlags.ChildLess, -1, -1),
+        createToken(SyntaxKind.VarKeyword, NodeFlags.IsStatement | NodeFlags.NoChildren, -1, -1),
         createVariableDeclarationList(transform.lexicalEnvironmentVariableDeclarations, -1, -1),
         NodeFlags.IsStatement,
         -1,
@@ -195,5 +197,5 @@ export function transform(root: RootNode, transformers: any) {
 }
 
 export function removeKatawTypes(root: RootNode) {
-  return transform(root, transformKataw)
+  return transform(root, transformKataw);
 }

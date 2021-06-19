@@ -446,7 +446,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 104,
                                     "end": 106
                                 },
-                                "flags": 2097216,
+                                "flags": 2097152,
                                 "start": 97,
                                 "end": 106
                             },
@@ -2127,7 +2127,7 @@ class Array { concat(items:number | string) {}; }
                                             "start": 681,
                                             "end": 683
                                         },
-                                        "flags": 2097216,
+                                        "flags": 2097152,
                                         "start": 674,
                                         "end": 683
                                     },

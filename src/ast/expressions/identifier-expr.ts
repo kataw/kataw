@@ -10,7 +10,7 @@ export function createIdentifier(text: string, rawText: string, start: number, e
     kind: SyntaxKind.Identifier,
     text,
     rawText,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     start,
     end
   };

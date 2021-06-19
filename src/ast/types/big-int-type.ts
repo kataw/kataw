@@ -10,7 +10,7 @@ export function createBigIntType(text: number, raw: string, start: number, end: 
     kind: SyntaxKind.BigIntType,
     text,
     raw,
-    flags: NodeFlags.IsTypeNode | NodeFlags.ChildLess,
+    flags: NodeFlags.IsTypeNode | NodeFlags.NoChildren,
     start,
     end
   };

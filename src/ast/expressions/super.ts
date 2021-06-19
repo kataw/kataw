@@ -12,7 +12,7 @@ export function createSuper(superKeyword: SyntaxToken<TokenSyntaxKind>, start: n
   return {
     kind: SyntaxKind.Super,
     superKeyword,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     start,
     end
   };

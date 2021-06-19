@@ -961,7 +961,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     "start": 214,
                                     "end": 216
                                 },
-                                "flags": 2097216,
+                                "flags": 2097152,
                                 "start": 207,
                                 "end": 216
                             },
@@ -1042,7 +1042,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "start": 236,
                                             "end": 238
                                         },
-                                        "flags": 2097216,
+                                        "flags": 2097152,
                                         "start": 229,
                                         "end": 238
                                     },

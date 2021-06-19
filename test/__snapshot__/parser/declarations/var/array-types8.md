@@ -369,7 +369,7 @@ var a: typeof A[];
                                         "start": 91,
                                         "end": 93
                                     },
-                                    "flags": 2097216,
+                                    "flags": 2097152,
                                     "start": 84,
                                     "end": 93
                                 },

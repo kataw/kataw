@@ -8,7 +8,7 @@ export function createNumberType(text: number, start: number, end: number): Numb
   return {
     kind: SyntaxKind.NumberType,
     text,
-    flags: NodeFlags.IsTypeNode | NodeFlags.ChildLess,
+    flags: NodeFlags.IsTypeNode | NodeFlags.NoChildren,
     start,
     end
   };

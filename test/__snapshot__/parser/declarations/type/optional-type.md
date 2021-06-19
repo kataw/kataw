@@ -83,7 +83,7 @@ type x = [y?];
                                 "start": 10,
                                 "end": 11
                             },
-                            "flags": 2097216,
+                            "flags": 2097152,
                             "start": 10,
                             "end": 12
                         }

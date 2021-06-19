@@ -10,7 +10,7 @@ export function createBigIntLiteral(text: string, rawText: string, start: number
     kind: SyntaxKind.BigIntLiteral,
     text,
     rawText,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     start,
     end
   };

@@ -78,7 +78,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
                         "start": 48,
                         "end": 69
                     },
-                    "flags": 2097216,
+                    "flags": 2097152,
                     "start": 24,
                     "end": 69
                 },

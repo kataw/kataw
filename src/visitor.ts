@@ -148,7 +148,7 @@ export function visitEachChild(
 ): SyntaxNode | null {
   if (!node) return null;
 
-  if (node.flags & NodeFlags.ChildLess) return node;
+  if (node.flags & NodeFlags.NoChildren) return node;
 
   const kind = node.kind;
 
@@ -1729,7 +1729,7 @@ export function visitNode<T extends SyntaxNode>(
   if (node === null || visitor === null) {
     return node;
   }
-  //if ((<any>node).flags & NodeFlags.ChildLess) return node;
+
   const visited = visitor(node);
 
   if (visited === node) return node;

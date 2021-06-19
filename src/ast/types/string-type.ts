@@ -8,7 +8,7 @@ export function createStringType(text: string, start: number, end: number): Stri
   return {
     kind: SyntaxKind.StringType,
     text,
-    flags: NodeFlags.IsTypeNode | NodeFlags.ChildLess,
+    flags: NodeFlags.IsTypeNode | NodeFlags.NoChildren,
     start,
     end
   };

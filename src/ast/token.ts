@@ -14,6 +14,7 @@ export type TokenSyntaxKind =
   | SyntaxKind.LetKeyword
   | SyntaxKind.Colon
   | SyntaxKind.LeftBracket
+  | SyntaxKind.LooseEqual
   | SyntaxKind.RightBracket
   | SyntaxKind.LeftParen
   | SyntaxKind.LogicalOr

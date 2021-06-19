@@ -29,7 +29,7 @@ export function transformES2020(transform: Transform): (node: any) => any {
           );
           transform.nextAutoGenerateId++;
           hoistVariableDeclaration(transform, right);
-          const operatorToken = createToken(SyntaxKind.LooseEqual, NodeFlags.ChildLess, -1, -1);
+          const operatorToken = createToken(SyntaxKind.LooseEqual, NodeFlags.NoChildren, -1, -1);
 
           return createConditionalExpression(
             createBinaryExpression(
@@ -37,7 +37,7 @@ export function transformES2020(transform: Transform): (node: any) => any {
                 createParenthesizedExpression(
                   createAssignmentExpression(
                     right,
-                    createToken(SyntaxKind.Assign, NodeFlags.ChildLess, -1, -1),
+                    createToken(SyntaxKind.Assign, NodeFlags.NoChildren, -1, -1),
                     visitNode(node.left, visitor),
                     -1,
                     -1
@@ -46,18 +46,18 @@ export function transformES2020(transform: Transform): (node: any) => any {
                   -1
                 ),
                 operatorToken,
-                createToken(SyntaxKind.NullKeyword, NodeFlags.ChildLess, -1, -1) as any,
+                createToken(SyntaxKind.NullKeyword, NodeFlags.NoChildren, -1, -1) as any,
                 -1,
                 -1
               ),
-              createToken(SyntaxKind.LogicalAnd, NodeFlags.ChildLess, -1, -1),
+              createToken(SyntaxKind.LogicalAnd, NodeFlags.NoChildren, -1, -1),
               createBinaryExpression(right, operatorToken, createIdentifier('undefined', 'undefined', -1, -1), -1, -1),
               -1,
               -1
             ),
-            createToken(SyntaxKind.QuestionMark, NodeFlags.ChildLess, -1, -1),
+            createToken(SyntaxKind.QuestionMark, NodeFlags.NoChildren, -1, -1),
             right,
-            createToken(SyntaxKind.Colon, NodeFlags.ChildLess, -1, -1),
+            createToken(SyntaxKind.Colon, NodeFlags.NoChildren, -1, -1),
             visitNode(node.right, visitor),
             -1,
             -1

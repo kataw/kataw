@@ -11,7 +11,7 @@ export function createRegularExpressionLiteral(text: string, start: number, end:
   return {
     kind: SyntaxKind.RegularExpressionLiteral,
     text,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     start,
     end
   };

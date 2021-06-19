@@ -13,7 +13,7 @@ export function createPrivateIdentifier(text: string, rawText: string, start: nu
     kind: SyntaxKind.PrivateIdentifier,
     text,
     rawText,
-    flags: NodeFlags.ChildLess | NodeFlags.ExpressionNode,
+    flags: NodeFlags.NoChildren | NodeFlags.ExpressionNode,
     start,
     end
   };
