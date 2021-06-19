@@ -20,7 +20,21 @@ and later a Javascript program can be either a [script or a module](https://tc39
 
 To do a simple parse you can use either `kataw.parseModule` or `kataw.parseScript` and you get an `CST` in return.
 
-The CST can then be used as an AST, but the CST in Kataw contains more information that can be extracted from the CST node through
+Here is an example on how to set up `Kataw` to act like `Acorn`:
+
+```ts
+ // Parse with module goal
+ kataw.parseModule('x = y', { next: true }, function(source, kind, msg, line, column) {
+    throw msg + '(' + line + ', ' + column + ')';
+ });
+
+ // Parse in script mode
+ kataw.parseScript('x = y', { next: true }, function(source, kind, msg, line, column) {
+    throw msg + '(' + line + ', ' + column + ')';
+ });
+```
+
+After done parsing the CST can then be used as an AST, but be aware that the CST in Kataw contains more information that can be extracted from the CST node through
 public API methods.
 
 Click [here](https://github.com/kataw/kataw/tree/main/src/parser#public-api-methods-to-extract-info-from-cst-nodes) for a
