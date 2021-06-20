@@ -2,6 +2,7 @@ import { SyntaxKind, NodeFlags, Constants, ExportKind } from '../ast/syntax-node
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken } from './scanner/scanner';
 import { scanTemplateTail } from './scanner/template';
+import { createForBinding, ForBinding } from '../ast/statements/for-binding';
 import { createBlockStatement, BlockStatement } from '../ast/statements/block-stmt';
 import { createBlock, Block } from '../ast/statements/block';
 import { createLabelledStatement, LabelledStatement } from '../ast/statements/labelled-stmt';
@@ -1338,14 +1339,14 @@ function parseForStatement(
           flags: ScopeFlags.None
         };
 
-        initializer = parseBindingList(
+        initializer = createLexicalDeclaration(createToken(SyntaxKind.LetKeyword, NodeFlags.NoChildren, pos, parser.curPos), parseBindingList(
           parser,
           context | Context.DisallowInContext | Context.LexicalContext,
-          NodeFlags.IsStatement,
+          NodeFlags.None,
           /* inForStatement */ true,
           scope,
           BindingType.Let
-        );
+        ), pos, parser.curPos);
       }
       isVarOrLexical = true;
       parser.assignable = true;
@@ -1383,30 +1384,30 @@ function parseForStatement(
       scope,
       flags: ScopeFlags.None
     };
-
-    initializer = parseBindingList(
+    initializer = createLexicalDeclaration(consumeToken(parser, context, SyntaxKind.ConstKeyword), parseBindingList(
       parser,
       context | Context.DisallowInContext | Context.LexicalContext,
       NodeFlags.Const,
       /* inForStatement */ true,
       scope,
       BindingType.Const
-    );
+    ), pos, parser.curPos);
     isVarOrLexical = true;
     parser.assignable = true;
-  } else if (consumeOpt(parser, context, SyntaxKind.VarKeyword)) {
+  } else if (parser.token === SyntaxKind.VarKeyword) {
     scope = {
       kind: ScopeKind.ForStatement,
       scope,
       flags: ScopeFlags.None
     };
-    initializer = parseVariableDeclarationList(
+    initializer = createForBinding(consumeOptToken(parser, context, SyntaxKind.VarKeyword), parseVariableDeclarationList(
       parser,
       context | Context.DisallowInContext,
       /* inForStatement */ true,
       scope,
       BindingType.Var
-    );
+    ), pos, parser.pos)
+
     parser.assignable = true;
     isVarOrLexical = true;
   } else if (parser.token & SyntaxKind.IsSemicolon) {
@@ -1479,7 +1480,7 @@ function parseForStatement(
     return createForOfStatement(
       forKeyword,
       ofKeyword,
-      initializer,
+      initializer as any,
       expression,
       parseIterationStatement(
         parser,
@@ -1530,7 +1531,7 @@ function parseForStatement(
     return createForInStatement(
       forKeyword,
       inKeyword,
-      initializer,
+      initializer as any,
       expression,
       parseIterationStatement(
         parser,
@@ -1588,7 +1589,7 @@ function parseForStatement(
 
   return createForStatement(
     forKeyword,
-    initializer,
+    initializer as any,
     incrementor,
     condition,
     parseIterationStatement(

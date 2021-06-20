@@ -33,58 +33,65 @@ for (const [x,y,z] of foo);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 324,
-                                "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 12,
-                                        "end": 13
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 14,
-                                        "end": 15
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "z",
-                                        "rawText": "z",
-                                        "flags": 96,
-                                        "start": 16,
-                                        "end": 17
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 12,
-                                "end": 17
+                "kind": 162,
+                "lexicalKeyword": null,
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 324,
+                                    "elements": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 12,
+                                            "end": 13
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 14,
+                                            "end": 15
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "z",
+                                            "rawText": "z",
+                                            "flags": 96,
+                                            "start": 16,
+                                            "end": 17
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 12,
+                                    "end": 17
+                                },
+                                "flags": 32,
+                                "start": 10,
+                                "end": 18
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 10,
                             "end": 18
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 10,
-                        "end": 18
-                    }
-                ],
-                "flags": 16777232,
-                "start": 10,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 10,
+                    "end": 18
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 18
             },
             "ofKeyword": {
@@ -125,7 +132,7 @@ for (const [x,y,z] of foo);
 
 ```javascript
 
-for (const of foo);
+for ([x, y, z]; of foo);
 ```
 
 ### Diagnostics

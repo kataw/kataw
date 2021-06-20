@@ -7155,35 +7155,47 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5721
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 5723,
+                                    "end": 5726
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 5726,
+                                                "end": 5728
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 5730,
+                                                "end": 5732
+                                            },
+                                            "flags": 16,
                                             "start": 5726,
-                                            "end": 5728
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 5730,
                                             "end": 5732
-                                        },
-                                        "flags": 16,
-                                        "start": 5726,
-                                        "end": 5732
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 5726,
+                                    "end": 5732
+                                },
                                 "flags": 16,
-                                "start": 5726,
-                                "end": 5732
+                                "start": 5713,
+                                "end": 5733
                             },
                             "condition": {
                                 "kind": 127,
@@ -7425,35 +7437,47 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5866
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 5868,
+                                    "end": 5871
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 5871,
+                                                "end": 5873
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 5875,
+                                                "end": 5877
+                                            },
+                                            "flags": 16,
                                             "start": 5871,
-                                            "end": 5873
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 5875,
                                             "end": 5877
-                                        },
-                                        "flags": 16,
-                                        "start": 5871,
-                                        "end": 5877
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 5871,
+                                    "end": 5877
+                                },
                                 "flags": 16,
-                                "start": 5871,
-                                "end": 5877
+                                "start": 5858,
+                                "end": 5878
                             },
                             "condition": {
                                 "kind": 127,
@@ -7749,35 +7773,47 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 6056
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 6058,
+                                    "end": 6061
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 6061,
+                                                "end": 6063
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 6065,
+                                                "end": 6067
+                                            },
+                                            "flags": 16,
                                             "start": 6061,
-                                            "end": 6063
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 6065,
                                             "end": 6067
-                                        },
-                                        "flags": 16,
-                                        "start": 6061,
-                                        "end": 6067
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 6061,
+                                    "end": 6067
+                                },
                                 "flags": 16,
-                                "start": 6061,
-                                "end": 6067
+                                "start": 6048,
+                                "end": 6068
                             },
                             "condition": {
                                 "kind": 127,
@@ -8053,35 +8089,47 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 6217
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 6219,
+                                    "end": 6222
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 6222,
+                                                "end": 6224
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 6226,
+                                                "end": 6228
+                                            },
+                                            "flags": 16,
                                             "start": 6222,
-                                            "end": 6224
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 6226,
                                             "end": 6228
-                                        },
-                                        "flags": 16,
-                                        "start": 6222,
-                                        "end": 6228
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 6222,
+                                    "end": 6228
+                                },
                                 "flags": 16,
-                                "start": 6222,
-                                "end": 6228
+                                "start": 6209,
+                                "end": 6229
                             },
                             "condition": {
                                 "kind": 127,

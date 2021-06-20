@@ -24,41 +24,53 @@ for (var {} = x in y) {}
                 "end": 3
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [],
-                                "trailingComma": false,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 10
+                                },
                                 "flags": 32,
-                                "start": 10,
-                                "end": 10
+                                "start": 8,
+                                "end": 11
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 15
+                            },
+                            "flags": 16,
                             "start": 8,
-                            "end": 11
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 13,
                             "end": 15
-                        },
-                        "flags": 16,
-                        "start": 8,
-                        "end": 15
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 15
+                },
                 "flags": 16,
-                "start": 8,
-                "end": 15
+                "start": 0,
+                "end": 18
             },
             "inKeyword": {
                 "kind": 21006388,

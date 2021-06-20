@@ -83,86 +83,98 @@ await (var {[Symbol.iterator]: a = 1} of []) { } }
                                 "end": 32
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 212,
-                                            "propertyList": {
-                                                "kind": 213,
-                                                "properties": [
-                                                    {
-                                                        "kind": 329,
-                                                        "ellipsisToken": null,
-                                                        "key": {
-                                                            "kind": 194,
-                                                            "expression": {
-                                                                "kind": 129,
-                                                                "member": {
-                                                                    "kind": 134299649,
-                                                                    "text": "Symbol",
-                                                                    "rawText": "Symbol",
-                                                                    "flags": 96,
-                                                                    "start": 40,
-                                                                    "end": 46
-                                                                },
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 34,
+                                    "end": 37
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 212,
+                                                "propertyList": {
+                                                    "kind": 213,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 329,
+                                                            "ellipsisToken": null,
+                                                            "key": {
+                                                                "kind": 194,
                                                                 "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "iterator",
-                                                                    "rawText": "iterator",
-                                                                    "flags": 96,
-                                                                    "start": 47,
+                                                                    "kind": 129,
+                                                                    "member": {
+                                                                        "kind": 134299649,
+                                                                        "text": "Symbol",
+                                                                        "rawText": "Symbol",
+                                                                        "flags": 96,
+                                                                        "start": 40,
+                                                                        "end": 46
+                                                                    },
+                                                                    "expression": {
+                                                                        "kind": 134299649,
+                                                                        "text": "iterator",
+                                                                        "rawText": "iterator",
+                                                                        "flags": 96,
+                                                                        "start": 47,
+                                                                        "end": 55
+                                                                    },
+                                                                    "flags": 536870944,
+                                                                    "start": 40,
                                                                     "end": 55
                                                                 },
-                                                                "flags": 536870944,
-                                                                "start": 40,
-                                                                "end": 55
+                                                                "flags": 32,
+                                                                "start": 39,
+                                                                "end": 56
+                                                            },
+                                                            "value": {
+                                                                "kind": 134299649,
+                                                                "text": "a",
+                                                                "rawText": "a",
+                                                                "flags": 96,
+                                                                "start": 57,
+                                                                "end": 59
+                                                            },
+                                                            "initializer": {
+                                                                "kind": 201392130,
+                                                                "text": 1,
+                                                                "rawText": "1",
+                                                                "flags": 96,
+                                                                "start": 61,
+                                                                "end": 63
                                                             },
                                                             "flags": 32,
                                                             "start": 39,
-                                                            "end": 56
-                                                        },
-                                                        "value": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 57,
-                                                            "end": 59
-                                                        },
-                                                        "initializer": {
-                                                            "kind": 201392130,
-                                                            "text": 1,
-                                                            "rawText": "1",
-                                                            "flags": 96,
-                                                            "start": 61,
                                                             "end": 63
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 39,
-                                                        "end": 63
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 39,
+                                                    "end": 63
+                                                },
                                                 "flags": 32,
-                                                "start": 39,
-                                                "end": 63
+                                                "start": 37,
+                                                "end": 64
                                             },
-                                            "flags": 32,
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 37,
                                             "end": 64
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 37,
-                                        "end": 64
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 37,
+                                    "end": 64
+                                },
                                 "flags": 16,
-                                "start": 37,
-                                "end": 64
+                                "start": 22,
+                                "end": 67
                             },
                             "ofKeyword": {
                                 "kind": 16793717,

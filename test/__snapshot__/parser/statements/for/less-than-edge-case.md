@@ -34,34 +34,46 @@ for (let i = 0; i < require('foo').bar; i++) {
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "i",
-                            "rawText": "i",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "i",
+                                "rawText": "i",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 10
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 12,
+                                "end": 14
+                            },
+                            "flags": 16,
                             "start": 8,
-                            "end": 10
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 96,
-                            "start": 12,
                             "end": 14
-                        },
-                        "flags": 16,
-                        "start": 8,
-                        "end": 14
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 14
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 14
             },
             "condition": {
@@ -218,7 +230,7 @@ for (let i = 0; i < require('foo').bar; i++) {
 
 ```javascript
 
-for (let; i++; i  < require("'foo'").bar)
+for (let i = 0;; i++; i  < require("'foo'").bar)
   {}
 ```
 

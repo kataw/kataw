@@ -25,58 +25,70 @@ for (let {x : y} of obj);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 329,
-                                        "ellipsisToken": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
+                                            "kind": 329,
+                                            "ellipsisToken": null,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 10,
+                                                "end": 11
+                                            },
+                                            "value": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 13,
+                                                "end": 15
+                                            },
+                                            "initializer": null,
+                                            "flags": 32,
                                             "start": 10,
-                                            "end": 11
-                                        },
-                                        "value": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 13,
                                             "end": 15
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 10,
-                                        "end": 15
-                                    }
-                                ],
-                                "trailingComma": false,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 15
+                                },
                                 "flags": 32,
-                                "start": 10,
-                                "end": 15
+                                "start": 8,
+                                "end": 16
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 8,
                             "end": 16
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 8,
-                        "end": 16
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 16
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 16
             },
             "ofKeyword": {
@@ -117,7 +129,9 @@ for (let {x : y} of obj);
 
 ```javascript
 
-for (let of obj);
+for (let {
+  x: y
+}; of obj);
 ```
 
 ### Diagnostics

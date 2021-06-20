@@ -92,6 +92,7 @@ export enum SyntaxKind {
   BinaryExpression = 198,
   BindingElementList = 324,
   BindingList = 151,
+  ForBinding = 341,
   BindingProperty = 329,
   BindingPropertyList = 213,
   BitwiseAnd = 134252103,

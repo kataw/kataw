@@ -43,42 +43,49 @@ for (const [let] in obj);
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 324,
-                                "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "let",
-                                        "rawText": "let",
-                                        "flags": 96,
-                                        "start": 12,
-                                        "end": 15
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 12,
-                                "end": 15
+                "kind": 162,
+                "lexicalKeyword": null,
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 324,
+                                    "elements": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "let",
+                                            "rawText": "let",
+                                            "flags": 96,
+                                            "start": 12,
+                                            "end": 15
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 12,
+                                    "end": 15
+                                },
+                                "flags": 32,
+                                "start": 10,
+                                "end": 16
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 10,
                             "end": 16
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 10,
-                        "end": 16
-                    }
-                ],
-                "flags": 16777232,
-                "start": 10,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 10,
+                    "end": 16
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 16
             },
             "inKeyword": {

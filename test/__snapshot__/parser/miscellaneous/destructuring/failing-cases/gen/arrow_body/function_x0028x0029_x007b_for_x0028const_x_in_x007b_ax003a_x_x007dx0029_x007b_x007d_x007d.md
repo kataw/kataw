@@ -73,27 +73,34 @@
                                                 "end": 21
                                             },
                                             "initializer": {
-                                                "kind": 151,
-                                                "bindingList": [
-                                                    {
-                                                        "kind": 190,
-                                                        "binding": {
-                                                            "kind": 134299649,
-                                                            "text": "x",
-                                                            "rawText": "x",
-                                                            "flags": 96,
+                                                "kind": 162,
+                                                "lexicalKeyword": null,
+                                                "binding": {
+                                                    "kind": 151,
+                                                    "bindingList": [
+                                                        {
+                                                            "kind": 190,
+                                                            "binding": {
+                                                                "kind": 134299649,
+                                                                "text": "x",
+                                                                "rawText": "x",
+                                                                "flags": 96,
+                                                                "start": 28,
+                                                                "end": 30
+                                                            },
+                                                            "type": null,
+                                                            "initializer": null,
+                                                            "flags": 16,
                                                             "start": 28,
                                                             "end": 30
-                                                        },
-                                                        "type": null,
-                                                        "initializer": null,
-                                                        "flags": 16,
-                                                        "start": 28,
-                                                        "end": 30
-                                                    }
-                                                ],
-                                                "flags": 16777232,
-                                                "start": 28,
+                                                        }
+                                                    ],
+                                                    "flags": 16777232,
+                                                    "start": 28,
+                                                    "end": 30
+                                                },
+                                                "flags": 33554448,
+                                                "start": 17,
                                                 "end": 30
                                             },
                                             "inKeyword": {
@@ -220,27 +227,34 @@
                                 "end": 71
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": null,
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 78,
+                                                "end": 80
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 78,
                                             "end": 80
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 78,
-                                        "end": 80
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 78,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 78,
+                                    "end": 80
+                                },
+                                "flags": 33554448,
+                                "start": 67,
                                 "end": 80
                             },
                             "inKeyword": {

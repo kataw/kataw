@@ -30,43 +30,55 @@ for (var { foo };;) {}
                 "end": 3
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 14
-                                    }
-                                ],
-                                "trailingComma": false,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 14
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 14
+                                },
                                 "flags": 32,
-                                "start": 10,
-                                "end": 14
+                                "start": 8,
+                                "end": 16
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 8,
                             "end": 16
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 8,
-                        "end": 16
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 16
+                },
                 "flags": 16,
-                "start": 8,
-                "end": 16
+                "start": 0,
+                "end": 17
             },
             "condition": null,
             "incrementor": null,

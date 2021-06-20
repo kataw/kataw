@@ -41,35 +41,47 @@
                 "end": 17
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "let",
-                            "rawText": "let",
-                            "flags": 96,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 19,
+                    "end": 22
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "let",
+                                "rawText": "let",
+                                "flags": 96,
+                                "start": 22,
+                                "end": 26
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 28,
+                                "end": 30
+                            },
+                            "flags": 16,
                             "start": 22,
-                            "end": 26
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 28,
                             "end": 30
-                        },
-                        "flags": 16,
-                        "start": 22,
-                        "end": 30
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 22,
+                    "end": 30
+                },
                 "flags": 16,
-                "start": 22,
-                "end": 30
+                "start": 13,
+                "end": 31
             },
             "condition": {
                 "kind": 127,

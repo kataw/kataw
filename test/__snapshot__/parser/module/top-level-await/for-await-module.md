@@ -36,27 +36,34 @@ for await (const a of b);
                 "end": 9
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": null,
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 18
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 16,
                             "end": 18
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 16,
-                        "end": 18
-                    }
-                ],
-                "flags": 16777232,
-                "start": 16,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 16,
+                    "end": 18
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 18
             },
             "ofKeyword": {
@@ -97,7 +104,7 @@ for await (const a of b);
 
 ```javascript
 
-for await (const of b);
+for await (a; of b);
 ```
 
 ### Diagnostics

@@ -157,28 +157,40 @@ function F<T>() {
                                 "end": 38
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 40,
+                                    "end": 43
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 96,
+                                                "start": 43,
+                                                "end": 45
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 43,
                                             "end": 45
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 43,
-                                        "end": 45
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 43,
+                                    "end": 45
+                                },
                                 "flags": 16,
-                                "start": 43,
-                                "end": 45
+                                "start": 32,
+                                "end": 48
                             },
                             "inKeyword": {
                                 "kind": 21006388,

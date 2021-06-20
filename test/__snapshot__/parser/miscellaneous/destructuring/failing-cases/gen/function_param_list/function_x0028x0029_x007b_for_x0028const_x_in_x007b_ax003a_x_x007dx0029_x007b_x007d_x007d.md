@@ -106,27 +106,34 @@ function x(function () { for (const x in { a: x }) { } }) {}
                                 "end": 28
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": null,
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 35,
+                                                "end": 37
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 37
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 35,
-                                        "end": 37
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 35,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 35,
+                                    "end": 37
+                                },
+                                "flags": 33554448,
+                                "start": 24,
                                 "end": 37
                             },
                             "inKeyword": {

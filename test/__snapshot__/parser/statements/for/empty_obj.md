@@ -24,40 +24,52 @@ for (let {} = obj);
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [],
-                                "trailingComma": false,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 10
+                                },
                                 "flags": 32,
-                                "start": 10,
-                                "end": 10
+                                "start": 8,
+                                "end": 11
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "obj",
+                                "rawText": "obj",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 17
+                            },
+                            "flags": 16,
                             "start": 8,
-                            "end": 11
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "obj",
-                            "rawText": "obj",
-                            "flags": 96,
-                            "start": 13,
                             "end": 17
-                        },
-                        "flags": 16,
-                        "start": 8,
-                        "end": 17
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 17
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 17
             },
             "condition": null,

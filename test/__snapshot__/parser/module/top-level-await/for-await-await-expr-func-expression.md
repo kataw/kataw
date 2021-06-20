@@ -273,28 +273,40 @@ for await (let binding of [await function() {}]) {
                 "end": 403
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "binding",
-                            "rawText": "binding",
-                            "flags": 96,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 405,
+                    "end": 408
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "binding",
+                                "rawText": "binding",
+                                "flags": 96,
+                                "start": 408,
+                                "end": 416
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 408,
                             "end": 416
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 408,
-                        "end": 416
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 408,
+                    "end": 416
+                },
                 "flags": 16,
-                "start": 408,
-                "end": 416
+                "start": 256,
+                "end": 419
             },
             "ofKeyword": {
                 "kind": 16793717,
@@ -471,27 +483,39 @@ for await (let binding of [await function() {}]) {
                 "end": 625
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "binding",
-                            "rawText": "binding",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 478,
+                    "end": 630
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "binding",
+                                "rawText": "binding",
+                                "flags": 96,
+                                "start": 630,
+                                "end": 638
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 630,
                             "end": 638
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 630,
-                        "end": 638
-                    }
-                ],
-                "flags": 16,
-                "start": 630,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 630,
+                    "end": 638
+                },
+                "flags": 33554448,
+                "start": 478,
                 "end": 638
             },
             "ofKeyword": {
@@ -682,7 +706,7 @@ for await ( of [await function () {}])
     break;
   }
 // [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (let of [await function () {}])
+for await (let binding; of [await function () {}])
   {
     await function () {};
     break;

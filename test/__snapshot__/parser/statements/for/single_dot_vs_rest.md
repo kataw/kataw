@@ -24,33 +24,45 @@ for (let [.x] = obj);
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 324,
-                                "elements": [],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 10,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 324,
+                                    "elements": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 10,
+                                    "end": 10
+                                },
+                                "flags": 32,
+                                "start": 8,
                                 "end": 10
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 8,
                             "end": 10
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 8,
-                        "end": 10
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 10
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 10
             },
             "condition": {

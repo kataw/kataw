@@ -24,95 +24,107 @@ for (let [x, ...[foo, bar]] = obj);
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 324,
-                                "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 11
-                                    },
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": {
-                                            "kind": 524302,
-                                            "flags": 64,
-                                            "start": 12,
-                                            "end": 16
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 324,
+                                    "elements": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
                                         },
-                                        "left": {
-                                            "kind": 201,
-                                            "elementList": {
-                                                "kind": 324,
-                                                "elements": [
-                                                    {
-                                                        "kind": 134299649,
-                                                        "text": "foo",
-                                                        "rawText": "foo",
-                                                        "flags": 96,
-                                                        "start": 17,
-                                                        "end": 20
-                                                    },
-                                                    {
-                                                        "kind": 134299649,
-                                                        "text": "bar",
-                                                        "rawText": "bar",
-                                                        "flags": 96,
-                                                        "start": 21,
-                                                        "end": 25
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 0,
-                                                "start": 17,
-                                                "end": 25
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": {
+                                                "kind": 524302,
+                                                "flags": 64,
+                                                "start": 12,
+                                                "end": 16
                                             },
+                                            "left": {
+                                                "kind": 201,
+                                                "elementList": {
+                                                    "kind": 324,
+                                                    "elements": [
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 96,
+                                                            "start": 17,
+                                                            "end": 20
+                                                        },
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "bar",
+                                                            "rawText": "bar",
+                                                            "flags": 96,
+                                                            "start": 21,
+                                                            "end": 25
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 0,
+                                                    "start": 17,
+                                                    "end": 25
+                                                },
+                                                "flags": 32,
+                                                "start": 16,
+                                                "end": 26
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": null,
                                             "flags": 32,
-                                            "start": 16,
+                                            "start": 12,
                                             "end": 26
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
-                                        "start": 12,
-                                        "end": 26
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 10,
-                                "end": 26
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 10,
+                                    "end": 26
+                                },
+                                "flags": 32,
+                                "start": 8,
+                                "end": 27
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "obj",
+                                "rawText": "obj",
+                                "flags": 96,
+                                "start": 29,
+                                "end": 33
+                            },
+                            "flags": 16,
                             "start": 8,
-                            "end": 27
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "obj",
-                            "rawText": "obj",
-                            "flags": 96,
-                            "start": 29,
                             "end": 33
-                        },
-                        "flags": 16,
-                        "start": 8,
-                        "end": 33
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 33
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 33
             },
             "condition": null,

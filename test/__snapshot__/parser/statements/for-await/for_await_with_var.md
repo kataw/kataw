@@ -69,28 +69,40 @@ async function f() { for await (var x of y) {} }
                                 "end": 30
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 32,
+                                    "end": 35
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 35,
+                                                "end": 37
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 37
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 35,
-                                        "end": 37
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 35,
+                                    "end": 37
+                                },
                                 "flags": 16,
-                                "start": 35,
-                                "end": 37
+                                "start": 20,
+                                "end": 40
                             },
                             "ofKeyword": {
                                 "kind": 16793717,

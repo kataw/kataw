@@ -25,27 +25,34 @@ for (const let of x) ;
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "let",
-                            "rawText": "let",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": null,
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "let",
+                                "rawText": "let",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 14
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 10,
                             "end": 14
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 10,
-                        "end": 14
-                    }
-                ],
-                "flags": 16777232,
-                "start": 10,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 10,
+                    "end": 14
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 14
             },
             "ofKeyword": {

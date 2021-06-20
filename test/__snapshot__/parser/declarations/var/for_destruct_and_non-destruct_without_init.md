@@ -32,66 +32,78 @@ for (var [foo] = arr, bar);
                 "end": 3
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 324,
-                                "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 13
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 10,
-                                "end": 13
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 324,
+                                    "elements": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 13
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 10,
+                                    "end": 13
+                                },
+                                "flags": 32,
+                                "start": 8,
+                                "end": 14
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "arr",
+                                "rawText": "arr",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 20
+                            },
+                            "flags": 16,
                             "start": 8,
-                            "end": 14
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "arr",
-                            "rawText": "arr",
-                            "flags": 96,
-                            "start": 16,
                             "end": 20
                         },
-                        "flags": 16,
-                        "start": 8,
-                        "end": 20
-                    },
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "bar",
+                                "rawText": "bar",
+                                "flags": 96,
+                                "start": 21,
+                                "end": 25
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 21,
                             "end": 25
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 21,
-                        "end": 25
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 25
+                },
                 "flags": 16,
-                "start": 8,
-                "end": 25
+                "start": 0,
+                "end": 26
             },
             "condition": null,
             "incrementor": {

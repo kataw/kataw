@@ -5733,28 +5733,40 @@ try {} catch(e) { for(var e of 0); };
                                 },
                                 "awaitKeyword": null,
                                 "initializer": {
-                                    "kind": 156,
-                                    "declarations": [
-                                        {
-                                            "kind": 157,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "e",
-                                                "rawText": "e",
-                                                "flags": 96,
+                                    "kind": 341,
+                                    "varKeyword": {
+                                        "kind": 37757002,
+                                        "flags": 64,
+                                        "start": 5604,
+                                        "end": 5607
+                                    },
+                                    "declarationList": {
+                                        "kind": 156,
+                                        "declarations": [
+                                            {
+                                                "kind": 157,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "e",
+                                                    "rawText": "e",
+                                                    "flags": 96,
+                                                    "start": 5607,
+                                                    "end": 5609
+                                                },
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 16,
                                                 "start": 5607,
                                                 "end": 5609
-                                            },
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 16,
-                                            "start": 5607,
-                                            "end": 5609
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "flags": 16,
+                                        "start": 5607,
+                                        "end": 5609
+                                    },
                                     "flags": 16,
-                                    "start": 5607,
-                                    "end": 5609
+                                    "start": 5599,
+                                    "end": 5612
                                 },
                                 "ofKeyword": {
                                     "kind": 16793717,

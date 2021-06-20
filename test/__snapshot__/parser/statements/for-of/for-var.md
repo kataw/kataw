@@ -43,28 +43,40 @@ for(var i;;);
                 "end": 3
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "i",
-                            "rawText": "i",
-                            "flags": 96,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 4,
+                    "end": 7
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "i",
+                                "rawText": "i",
+                                "flags": 96,
+                                "start": 7,
+                                "end": 9
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 7,
                             "end": 9
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 7,
-                        "end": 9
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 7,
+                    "end": 9
+                },
                 "flags": 16,
-                "start": 7,
-                "end": 9
+                "start": 0,
+                "end": 10
             },
             "condition": null,
             "incrementor": null,

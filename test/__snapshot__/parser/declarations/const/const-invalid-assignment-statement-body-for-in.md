@@ -24,27 +24,34 @@ for (const x in [1, 2, 3]) { x++ }
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": null,
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 12
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 10,
                             "end": 12
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 10,
-                        "end": 12
-                    }
-                ],
-                "flags": 16777232,
-                "start": 10,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 10,
+                    "end": 12
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 12
             },
             "inKeyword": {
@@ -150,7 +157,7 @@ for (const x in [1, 2, 3]) { x++ }
 
 ```javascript
 
-for (const in [1, 2, 3])
+for (x; in [1, 2, 3])
   {}
 ```
 

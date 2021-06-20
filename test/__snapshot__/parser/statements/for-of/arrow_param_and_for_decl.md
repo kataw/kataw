@@ -54,27 +54,39 @@ a => {
                                 },
                                 "awaitKeyword": null,
                                 "initializer": {
-                                    "kind": 151,
-                                    "bindingList": [
-                                        {
-                                            "kind": 190,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 96,
+                                    "kind": 162,
+                                    "lexicalKeyword": {
+                                        "kind": 41951307,
+                                        "flags": 64,
+                                        "start": 6,
+                                        "end": 17
+                                    },
+                                    "binding": {
+                                        "kind": 151,
+                                        "bindingList": [
+                                            {
+                                                "kind": 190,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "a",
+                                                    "rawText": "a",
+                                                    "flags": 96,
+                                                    "start": 17,
+                                                    "end": 19
+                                                },
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 16,
                                                 "start": 17,
                                                 "end": 19
-                                            },
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 16,
-                                            "start": 17,
-                                            "end": 19
-                                        }
-                                    ],
-                                    "flags": 16,
-                                    "start": 17,
+                                            }
+                                        ],
+                                        "flags": 16,
+                                        "start": 17,
+                                        "end": 19
+                                    },
+                                    "flags": 33554448,
+                                    "start": 6,
                                     "end": 19
                                 },
                                 "ofKeyword": {
@@ -141,7 +153,7 @@ a => {
 ```javascript
 
 a =>  {
-  for (let of b)
+  for (let a; of b)
     c;
 };
 ```
