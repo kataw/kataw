@@ -192,13 +192,13 @@ You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be 
 
 `Kataw` can act the same way as`Babel` and be a tool that helps you write code in the latest version of Javascript. This can be done with
 developing transformers to handle situations where your supported environments don't support certain features natively.
-In the same way as with `Babel` the compiler transform those features down to a supported version.
 
-You can use `kataw.visitEachChild` to traverse the entire CST tree. `kataw.visitNode`can be used to traverse a single node, and
-`kataw.visitNodes` to visit an array of CST nodes.
+The compiler transform those features down to a supported version.
 
-`kataw.visitNodes` should only be used on *lists*. CST nodes that is *known* to contain an array.
-There are no need to use for example `Array.Array` to verify if it's an array. Performance is maintained that way.
+You have to use `kataw.visitEachChild` to traverse the CST tree. `kataw.visitNode`can be used to traverse a single node, and
+`kataw.visitNodes` to visit an array of CST nodes. This API method should only be used on *lists*. CST nodes that is *known*
+to contain an array. There are no need to use for example `Array.Array` to verify if it's an array.
+Performance is maintained that way.
 
 All CST nodes will be updated automatically if any changes has been detected.
 
@@ -243,8 +243,6 @@ export function swapIdentifierWithNumeric(transform) {
 }
 
 ```
-
-
 
 ## CST parser features
 
