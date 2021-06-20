@@ -253,9 +253,9 @@ export function parse(
   // https://tc39.es/ecma262/#sec-html-like-comments
   if (
     !isModule &&
-    source.charCodeAt(0) === Char.Hyphen &&
     source.charCodeAt(pos + 2) === Char.GreaterThan &&
-    source.charCodeAt(pos + 1) === Char.Hyphen
+    source.charCodeAt(pos + 1) === Char.Hyphen &&
+    source.charCodeAt(0) === Char.Hyphen
   ) {
     pos = 3;
     while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
@@ -273,12 +273,6 @@ export function parse(
   const statements = [];
   const directives = [];
 
-  const scope: ScopeState = {
-    kind: ScopeKind.Block,
-    scope: null,
-    flags: ScopeFlags.None
-  };
-
   while (parser.token === SyntaxKind.StringLiteral) {
     const start = parser.curPos;
     const expr = parseStringLiteral(parser, context);
@@ -292,6 +286,12 @@ export function parse(
       );
     }
   }
+
+  const scope: ScopeState = {
+    kind: ScopeKind.Block,
+    scope: null,
+    flags: ScopeFlags.None
+  };
 
   while (parser.token !== SyntaxKind.EndOfFileToken) {
     if (parser.token & Constants.StatementOrExpression) {
@@ -312,7 +312,13 @@ export function parse(
   return createRootNode(directives, statements, isModule, source, filename);
 }
 
-function parseModuleItem(parser: ParserState, context: Context, scope: ScopeState): StatementNode {
+function parseModuleItem(
+  parser: ParserState,
+  context: Context,
+  scope: ScopeState,
+  labels: any,
+  ownLabels: any
+): StatementNode {
   // ecma262/#prod-ModuleItem
   // ModuleItem :
   //    ImportDeclaration
@@ -328,7 +334,7 @@ function parseModuleItem(parser: ParserState, context: Context, scope: ScopeStat
     // of the import declaration to avoid any lookaheads
     return parseImportDeclaration(parser, context, scope, /* isScript*/ false);
   }
-  return parseStatementListItem(parser, context, scope, /* labels*/ null, /* ownLabels */ null);
+  return parseStatementListItem(parser, context, scope, labels, ownLabels);
 }
 
 function parseStatementListItem(
@@ -388,8 +394,6 @@ function parseStatement(
   ownLabels: any
 ): StatementNode {
   switch (parser.token) {
-    case SyntaxKind.VarKeyword:
-      return parseVariableStatement(parser, context, /* declareKeyword */ null, scope, BindingType.Var);
     case SyntaxKind.LeftBrace:
       return parseBlockStatement(
         parser,
@@ -406,20 +410,22 @@ function parseStatement(
       return parseEmptyStatement(parser, context);
     case SyntaxKind.IfKeyword:
       return parseIfStatement(parser, context, scope, labels);
-    case SyntaxKind.DoKeyword:
-      return parseDoWhileStatement(parser, context, scope, labels, ownLabels);
     case SyntaxKind.WhileKeyword:
       return parseWhileStatement(parser, context, scope, labels, ownLabels);
     case SyntaxKind.ForKeyword:
       return parseForStatement(parser, context, scope, labels);
-    case SyntaxKind.ContinueKeyword:
-      return parseContinueStatement(parser, context, labels);
-    case SyntaxKind.BreakKeyword:
-      return parseBreakStatement(parser, context, labels);
     case SyntaxKind.ReturnKeyword:
       return parseReturnStatement(parser, context);
     case SyntaxKind.SwitchKeyword:
       return parseSwitchStatement(parser, context, scope, labels, ownLabels);
+    case SyntaxKind.DoKeyword:
+      return parseDoWhileStatement(parser, context, scope, labels, ownLabels);
+    case SyntaxKind.VarKeyword:
+      return parseVariableStatement(parser, context, /* declareKeyword */ null, scope, BindingType.Var);
+    case SyntaxKind.ContinueKeyword:
+      return parseContinueStatement(parser, context, labels);
+    case SyntaxKind.BreakKeyword:
+      return parseBreakStatement(parser, context, labels);
     case SyntaxKind.ThrowKeyword:
       return parseThrowStatement(parser, context);
     case SyntaxKind.FinallyKeyword:
