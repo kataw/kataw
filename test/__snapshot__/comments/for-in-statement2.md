@@ -99,7 +99,7 @@
 
 ```javascript
 
- for
+ for 
  /* comment 1 */
 (
  /* comment 2 */
