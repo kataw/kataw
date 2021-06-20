@@ -3,6 +3,7 @@ import { SyntaxKind, SyntaxNode, NodeFlags } from './ast/syntax-node';
 import { createRootNode, RootNode } from './ast/rootNode';
 import { StatementNode } from './ast/statements';
 import { createAssignmentExpression, AssignmentExpression } from './ast/expressions/assignment-expr';
+import { createForBinding, ForBinding } from './ast/statements/for-binding';
 import { createExpressionStatement, ExpressionStatement } from './ast/statements/expression-stmt';
 import { createArrayLiteral, ArrayLiteral } from './ast/expressions/array-literal';
 import { createBinaryExpression, BinaryExpression } from './ast/expressions/binary-expr';
@@ -423,6 +424,16 @@ export function visitEachChild(
             (<AwaitExpression>node).expression,
             (<AwaitExpression>node).start,
             (<AwaitExpression>node).end
+          )
+        : node;
+    case SyntaxKind.ForBinding:
+      return (<ForBinding>node).varKeyword !== visitNode((<ForBinding>node).varKeyword, visitor) ||
+        (<ForBinding>node).declarationList !== visitNode((<ForBinding>node).declarationList, visitor)
+        ? createForBinding(
+            (<ForBinding>node).varKeyword,
+            (<ForBinding>node).declarationList,
+            (<ForBinding>node).start,
+            (<ForBinding>node).end
           )
         : node;
     case SyntaxKind.BindingElement:
